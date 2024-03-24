@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pylips
+Version: 0.0.1
+Summary: An interface for embodied speech to text.
+Author: Interaction Lab
+Author-email: dennler@usc.edu
+License: MIT license
+Keywords: lips
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# PyLips
+Web-Enabled Facial Text-to-Speech
+
+
+# History
+
+## 0.0.0 (2024-03-24)
+
+- pylips begins
