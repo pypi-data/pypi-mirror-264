@@ -1,0 +1,7 @@
+ruamel.yaml
+shutil
+ctypes
+winotify
+
+[dev]
+twine
