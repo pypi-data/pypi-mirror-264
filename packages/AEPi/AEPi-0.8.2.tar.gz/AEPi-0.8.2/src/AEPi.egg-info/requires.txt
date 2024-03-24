@@ -1,0 +1,6 @@
+pillow
+etcpak
+tex2img
+
+[test]
+pytest
