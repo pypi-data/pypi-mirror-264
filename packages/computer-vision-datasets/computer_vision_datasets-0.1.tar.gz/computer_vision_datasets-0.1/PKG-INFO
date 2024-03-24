@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: computer_vision_datasets
+Version: 0.1
+Summary: Easy Computer Vision Datasets
+Author: Franco Marchesoni
+Author-email: marchesoniacland@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+# CVDatasets
+
+**EASY COMPUTER VISION DATASETS**
+This repository is a wrapper around [datasetninja.com](datasetninja.com) to let you easily download and use computer vision datasets. 
+Limited support for now. 

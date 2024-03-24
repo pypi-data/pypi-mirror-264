@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+computer_vision_datasets/__init__.py
+computer_vision_datasets/module.py
+computer_vision_datasets.egg-info/PKG-INFO
+computer_vision_datasets.egg-info/SOURCES.txt
+computer_vision_datasets.egg-info/dependency_links.txt
+computer_vision_datasets.egg-info/requires.txt
+computer_vision_datasets.egg-info/top_level.txt
