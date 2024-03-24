@@ -1,0 +1,11 @@
+jsonllm/__init__.py,sha256=VCftEEUSVVRK-lnZYVYO-8wt4WcMSpqYS7vQrCEIkMc,256
+jsonllm/completions.py,sha256=vSdRmudSzxgqjOghCjE7m2DAT57va8CfRxwLc98JNsI,3725
+jsonllm/constants.py,sha256=iZcFOHQmCBkid0RVXYUFcR739tgnwKl3ne7UumpeDLE,1755
+jsonllm/jsonllm.py,sha256=lsHosz3YEED8itSh0QWbwyG2FQRXN2CgR6gbt_Hn8FA,756
+jsonllm/schema.py,sha256=3P1FkZ3De3zeHbacFoiZFQYXboY9TKjZluawq2b1U5E,6171
+jsonllm/utils.py,sha256=99nuumCReOCSY_24zbW8Hpxt7CW0uLPbYOb1QEj9-yg,2283
+python_jsonllm-0.0.3.1.dist-info/LICENSE,sha256=JZqkeg8P9SSsEi15l4dJYF_oLgI0rRsofMJp_nphYDk,1069
+python_jsonllm-0.0.3.1.dist-info/METADATA,sha256=U0IdaQ4woVmFKUB8kBAJuwS6YADep70ZuOS_cv8YRT8,2202
+python_jsonllm-0.0.3.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+python_jsonllm-0.0.3.1.dist-info/top_level.txt,sha256=hHxy7QoqQwsYg1hdRxEZvmbxwlMdgokAPOLwZ0yl-O8,8
+python_jsonllm-0.0.3.1.dist-info/RECORD,,
