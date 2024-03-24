@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyrepositories
+Version: 2.0.3
+Summary: A simple way to interact with a database using the SOLID principles' Repository pattern.
+Author-email: kougen <info@kou-gen.net>
+Maintainer-email: Joshua Hegedus <josh.hegedus@outlook.com>
+Project-URL: Homepage, https://github.com/kougen/py-repositories
+Project-URL: Issues, https://github.com/kougen/py-repositories/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: jsonservice
+
+# Python SOLID Repository pattern implementations
+
+This repository contains a simple implementation of the Repository pattern in Python. The implementation is based on the SOLID principles.
+
+It supports:
+- PostgreSQL
+- JSON
