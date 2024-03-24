@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: DbUnify
+Version: 1.0.5
+Summary: DbUnify (Database Management) is a versatile Python library that simplifies database connectivity and management using SQLite.
+Home-page: https://github.com/Sepehr0Day/DbUnify
+Author: Sepehr0Day
+Author-email: sphrz2324@gmail.com
+License: MIT
+Project-URL: Documentation, https://Sepehr0day.github.io/DbUnify.html
+Project-URL: Source, https://github.com/Sepehr0Day/DbUnify
+Project-URL: Bug Reports, https://github.com/Sepehr0Day/DbUnify/issues
+Keywords: DbUnify database sqlite3 sql SQL sepehr0day Management
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: aiosqlite
+
+# DbUnify | Database Management
+
+**DbUnify** (Database Management) is a versatile Python library that simplifies database connectivity and management using SQLite.
+
+## Installation
+   Install the DbUnify library from PyPI or GitHub.
+   
+   ```bash
+   pip install DbUnify
+   ```
+   
+   or
+   
+   ```bash
+   git clone https://github.com/Sepehr0Day/DbUnify.git
+   ```
+## Connect To Database
+```python
+import DbUnify.sync as sync
+
+# Initialize a database manager with the name 'database.db'
+db_manager = sync.Manager('database.db')
+
+   ```
+
+## Create Table
+```python
+import DbUnify.sync as sync
+
+# Create a table named 'employees' with specified columns
+db_manager.create_table('employees', [
+    ('id', 'INTEGER PRIMARY KEY'), 
+    ('name', 'TEXT'),
+    ('age', 'INTEGER'),
+    ('department', 'TEXT')
+    ])
+
+
+   ```
+
+
+## Documentation DbUnify:
+
+   For more information and advanced usage, refer to the [DbUnify documentation](https://Sepehr0day.github.io/DbUnify.html).
+
+  
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Sepehr0Day/DbUnify/blob/main/LICENSE) file for details.
+
+<a href="https://pypi.org/project/DbUnify/"><img src="https://img.shields.io/badge/DbUnify-1.5-blue"></a> 
+
+## Developer
+- **Telegram**: [t.me/Sepehr0Day](https://t.me/Sepehr0Day)
+
+---
+
+*Your Database Management DbUnify, made easy with DbUnify.*
