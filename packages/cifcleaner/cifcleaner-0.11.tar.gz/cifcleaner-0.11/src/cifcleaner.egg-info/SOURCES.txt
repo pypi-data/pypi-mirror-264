@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/cifcleaner.egg-info/PKG-INFO
+src/cifcleaner.egg-info/SOURCES.txt
+src/cifcleaner.egg-info/dependency_links.txt
+src/cifcleaner.egg-info/requires.txt
+src/cifcleaner.egg-info/top_level.txt
+test/test_format.py
+test/test_info.py
+test/test_occupancy.py
+test/test_supercell_size.py
+test/test_tags.py
