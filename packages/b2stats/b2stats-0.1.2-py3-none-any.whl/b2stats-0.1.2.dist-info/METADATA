@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: b2stats
+Version: 0.1.2
+Summary: Scrape Backblaze web interface for B2 bucket & caps statistics
+Home-page: https://github.com/matthew-kilpatrick/b2stats
+Author: Matthew Kilpatrick
+Author-email: github@matthewkilpatrick.uk
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: bs4
+Requires-Dist: mintotp
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+
+UNKNOWN
+
