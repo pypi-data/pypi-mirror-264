@@ -1,0 +1,15 @@
+manim_studio/__init__.py,sha256=pQBfPOSaR_qbbUgRZ5CKhqG5bZgSSno12K9hFDRTjXA,41
+manim_studio/__main__.py,sha256=g9i_r8ur2CGMp0v1Ctztbd1SJiPk3hazH87TCRBakcs,2136
+manim_studio/api.py,sha256=98w3ZNtSXDeX0XmyPE6YQFpaNfe2COr5OnE6zufT6v8,7448
+manim_studio/input_widgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manim_studio/input_widgets/color_picker.py,sha256=L_Rx-Y3IEP3QhY3hVZ9y8r6GWh3Gr0rAowukSrySnRI,4584
+manim_studio/input_widgets/range_slider.py,sha256=-1-iDD7B3YMHqhVLS418iCmTMpwZdRhZ3sux1K4N-zg,6351
+manim_studio/mobject_picker.py,sha256=GSZkcP8be329ixQ4rGlaCpWxsBWSar-VW0vHBovDTPo,2019
+manim_studio/preview.py,sha256=d-ORtCWn1YD28e3eua8GJW_Dv3eAj4EvBeLQPW5LPPY,10260
+manim_studio/syntax_highlighting.py,sha256=nux-LFt71eNp0Gv6V1U9yK-je1rjIAmq-NJpegZiHUo,3717
+manim_studio/utils.py,sha256=HggbfirpqgpQdVfpPKGhKQsWK2NCbkFJ9M_8SatMqg0,1756
+manim_studio/window.py,sha256=_IEP0tAbr6VbtZ4GLakTiD6JF-tg_KWLiawbG5HQUQY,19863
+manim_studio-0.7.4.dist-info/METADATA,sha256=kiUfUJPQ8yI9a4SUZ0bPxVPt5v4Z50fXi1ZOHwvJzX4,2445
+manim_studio-0.7.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+manim_studio-0.7.4.dist-info/entry_points.txt,sha256=OWmuklwLotMdRXT5N0-riWcDfgtAU31NPLGwamDW4ww,102
+manim_studio-0.7.4.dist-info/RECORD,,
