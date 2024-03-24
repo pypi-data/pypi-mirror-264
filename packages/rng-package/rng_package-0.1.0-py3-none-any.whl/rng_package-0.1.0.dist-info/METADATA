@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rng_package
+Version: 0.1.0
+Summary: A package with functions for different RNG event simulators.
+Author: Zhognqian Chen, Eric Emmendorfer, Hojong Shim, Ethan Kim
+License-File: LICENSE
+
