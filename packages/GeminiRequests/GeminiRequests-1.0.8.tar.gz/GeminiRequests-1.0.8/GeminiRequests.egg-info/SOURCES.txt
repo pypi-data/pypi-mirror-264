@@ -1,0 +1,9 @@
+README.md
+setup.py
+GeminiRequests.egg-info/PKG-INFO
+GeminiRequests.egg-info/SOURCES.txt
+GeminiRequests.egg-info/dependency_links.txt
+GeminiRequests.egg-info/requires.txt
+GeminiRequests.egg-info/top_level.txt
+gemini/AI.py
+gemini/__init__.py
