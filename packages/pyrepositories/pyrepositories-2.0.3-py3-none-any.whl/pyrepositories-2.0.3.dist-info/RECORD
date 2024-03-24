@@ -1,0 +1,10 @@
+pyrepositories/__init__.py,sha256=x-b41EVZ1xd5QDZCiDwJ0DxQZwbdvYIwAvYWYVEfVVY,188
+pyrepositories/datasource.py,sha256=jhyxd1QrgQOF8AdWCs4H1_XNrh8sgCt3KbCcQTvLeMY,3128
+pyrepositories/datatable.py,sha256=k6m24UbouiGqb-1aklbQWiYT-4xMjlA58vA87gSDLCI,1851
+pyrepositories/json_repository.py,sha256=n6sXBVVU_FPMxMIS8m3cQwKTtLOnxLbvZ8tYXkuC0c0,2170
+pyrepositories/lib.py,sha256=MpfvYJwaU0GnLF9dOrfmrYlc1Bfe7Jz2gmtJWyL7uPY,1551
+pyrepositories/pg_repository.py,sha256=S5_g1iuXCTILR_btJWYO9Si2K-FhEwIGaUARCdnU39Q,149
+pyrepositories-2.0.3.dist-info/METADATA,sha256=qbtveS0kRy_WPnmA43bwOtz-SQHpvHHEVqgQ5s8l1t4,852
+pyrepositories-2.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyrepositories-2.0.3.dist-info/top_level.txt,sha256=YHj5kbhbaCsaQupzUXW8JP8uwYO9BB60hkl2CDanqRc,15
+pyrepositories-2.0.3.dist-info/RECORD,,
