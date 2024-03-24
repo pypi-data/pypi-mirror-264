@@ -1,0 +1,2 @@
+[console_scripts]
+pygameextra-cb-tester = pygameextra_cool_buttons_tester.__init__:run
