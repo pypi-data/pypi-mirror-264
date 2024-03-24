@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+csp_parquet.egg-info/PKG-INFO
+csp_parquet.egg-info/SOURCES.txt
+csp_parquet.egg-info/dependency_links.txt
+csp_parquet.egg-info/requires.txt
+csp_parquet.egg-info/top_level.txt
