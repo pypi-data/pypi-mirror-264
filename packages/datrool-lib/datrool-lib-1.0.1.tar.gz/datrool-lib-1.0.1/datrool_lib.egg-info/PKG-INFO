@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: datrool-lib
+Version: 1.0.1
+Summary: Common library for the datrool project
+Home-page: https://gitlab.com/datrool/core/lib
+Author: Patrik Katrenak
+Author-email: patrik@katryapps.com
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# datrool-lib
+
+Common library for the datrool project.
+
+
+## Installation
+
+Install package from PYPI repository
+```sh
+python -m pip install datrool-lib
+```
+
+## Contains
+- Simple templating validator for complex `dict` and `list` stuctures
+
+## License
+
+Created by Patrik Katreňák and released under General Public License v3.0.
