@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: auth_fastapi
+Version: 0.2.5
+Summary: Authentication library for FastAPI for fast migration from Django/DRF. Serializers, signals, permissions, pagination and filters included.
+Project-URL: Source, https://github.com/zayycev22/fastapi-auth
+Author: zayycev22
+Classifier: Framework :: FastAPI
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: bcrypt>=4.1.2
+Requires-Dist: email-validator>=2.0.0
+Requires-Dist: fastapi>=0.110.0
+Requires-Dist: passlib>=1.7.4
+Requires-Dist: pydantic>=2.6.3
+Requires-Dist: pyjwt[crypto]>=2.8.0
+Requires-Dist: typing-extensions
+Provides-Extra: sqlalchemy
+Requires-Dist: fastapi-auth-sqlalchemy-models>=0.0.3; extra == 'sqlalchemy'
+Provides-Extra: tortoise
+Requires-Dist: fastapi-auth-tortoise-models>=0.0.6; extra == 'tortoise'
