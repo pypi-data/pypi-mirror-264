@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nebula-agent
+  namespace: ${namespace}
+  labels:
+    app: nebula-agent
+spec:
+  selector:
+    matchLabels:
+      app: nebula-agent
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: nebula-agent
+    spec:
+      containers:
+        - name: agent
+          image: ${image_name}
+          command: ["nebula", "agent", "start", "-q", "${work_queue}"]
+          imagePullPolicy: "IfNotPresent"
+          env:
+            - name: NEBULA_API_URL
+              value: ${api_url}
+            - name: NEBULA_API_KEY
+              value: ${api_key}
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: nebula-agent
+  namespace: ${namespace}
+rules:
+  - apiGroups: [""]
+    resources: ["pods", "pods/log", "pods/status"]
+    verbs: ["get", "watch", "list"]
+  - apiGroups: ["batch"]
+    resources: ["jobs"]
+    verbs: [ "get", "list", "watch", "create", "update", "patch", "delete" ]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: nebula-agent-role-binding
+  namespace: ${namespace}
+subjects:
+  - kind: ServiceAccount
+    name: default
+    namespace: ${namespace}
+roleRef:
+  kind: Role
+  name: nebula-agent
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: nebula-agent
+rules:
+  - apiGroups: [""]
+    resources: ["namespaces"]
+    verbs: ["get", "list"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: nebula-agent-cluster-role-binding
+subjects:
+  - kind: ServiceAccount
+    name: default
+    namespace: ${namespace}
+roleRef:
+  kind: ClusterRole
+  name: nebula-agent
+  apiGroup: rbac.authorization.k8s.io
