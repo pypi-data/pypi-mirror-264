@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gu-tea
+Version: 0.1
+Summary: Simple project that makes a request to GitHub API.
+Home-page: https://github.com/CryptoGu1/Gu-tea.git
+Author: CryptoGu
+Author-email: kriptoairdrop9@gmail.com
+Project-URL: Homepage, https://github.com/CryptoGu1/Gu-tea.git
+Project-URL: Source, https://github.com/CryptoGu1/Gu-tea.git
+Requires-Dist: requests>=2.20.0
