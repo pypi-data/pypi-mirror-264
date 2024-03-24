@@ -1,0 +1,2 @@
+[console_scripts]
+spam-cli = taskflow:app
