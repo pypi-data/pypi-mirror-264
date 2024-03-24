@@ -1,0 +1,8 @@
+src/__init__.py,sha256=xuJ-1LOg-bZ45bcl2rAvmKdtUFWWy_SvtMhmSbXP1JI,52
+src/dbscan.py,sha256=mZU0OM2AXJ-GwmPTA_UZIKH09Dt0fBMFcRZyO7kXk3s,3883
+src/kmeans.py,sha256=FYKz3ffgn5CX6OiTptQOae1qgS1UPE1EkWO5aGMcWWI,3842
+src/utils.py,sha256=vBT_GMgU2TCkVA3gkGvkf25gQ419l1ci4jeMH-dqJw8,993
+IlliaN.clustering-0.0.1.dist-info/METADATA,sha256=tdVLoc5TJaud1vx0ehaJEDIrbtK0Lf_qGniwC8ootsU,180
+IlliaN.clustering-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+IlliaN.clustering-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+IlliaN.clustering-0.0.1.dist-info/RECORD,,
