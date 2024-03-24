@@ -1,0 +1,13 @@
+numpy
+dask
+torch
+scikit-image
+pandas
+ome-zarr
+zarr
+matplotlib
+napari
+umetrix
+numba
+scipy
+seaborn
