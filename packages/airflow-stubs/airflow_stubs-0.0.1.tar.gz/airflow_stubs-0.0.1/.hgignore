@@ -1,0 +1,4 @@
+syntax: glob
+*.log
+syntax: regexp
+^non-abeliandraft.kilepr
