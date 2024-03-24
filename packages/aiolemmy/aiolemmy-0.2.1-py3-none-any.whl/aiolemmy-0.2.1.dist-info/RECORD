@@ -1,0 +1,10 @@
+aiolemmy-0.2.1.dist-info/METADATA,sha256=VmjXSUIcdIOu4rTEUk3-Ua2eHqEAgtolFshdjeJ-fac,629
+aiolemmy-0.2.1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+aiolemmy-0.2.1.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+aiolemmy/.gitignore,sha256=9iHLtD_a6XKwfLNu10aPpI21-LYbwQG8S04DJ8PJW0o,17
+aiolemmy/__init__.py,sha256=DGqMq0iSGTOAAG0jG9ZZTgGq_tO03y38S7jAlrzi6AI,121
+aiolemmy/_scm_version.py,sha256=nx8uT9NOkkA2KzjU9Q36cvZlTi-7bCHVPIkXCQkwZf8,21
+aiolemmy/_scm_version.pyi,sha256=IVbzb6zeCFf6ypjINvEfiCzkgUd1MVbr1m2Aq_VgD7I,128
+aiolemmy/_version.py,sha256=GqO7xniMCKrBJsJTZmmbuZ0zhLgDNAC2CPadLWphhQY,197
+aiolemmy/lemmy.py,sha256=z0VWPxyaeIJs7MsXkgGndVzCt4vGrAQxnX55VKgGvY4,24770
+aiolemmy-0.2.1.dist-info/RECORD,,
