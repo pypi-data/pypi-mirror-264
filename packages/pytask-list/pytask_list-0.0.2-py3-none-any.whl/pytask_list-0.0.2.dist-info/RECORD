@@ -1,0 +1,9 @@
+pytask_list/__init__.py,sha256=5lSaxfUke3LvBFoOQzjj8HJLAy_7iOEBQNRSN1K2KIw,66
+pytask_list/database.py,sha256=eFdT2JkiVwLt7TRINB0HUWBWzzLv1iDt4h1nAAU2vCU,2720
+pytask_list/model.py,sha256=ypPGAOdBq4uh_Fmv_T_e1A2NS7fbndHjMBdEm2lTqOA,724
+pytask_list/pytask_list.py,sha256=B540uyE1_Xcnup2WK_wb0NvyBA2AXjzZ98V4GTFc5H4,2871
+pytask_list-0.0.2.dist-info/LICENCE,sha256=5-DPF9vVk8rQn23ZnRJDQu2l3vCE0sLbb9OfOF-8MIw,1090
+pytask_list-0.0.2.dist-info/METADATA,sha256=1Jx-W2UlDHll8FNz0PC6dmLQ48dsVrIxghvgS_wiB38,3119
+pytask_list-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytask_list-0.0.2.dist-info/top_level.txt,sha256=KPWoSm8V4kK4uIYNIz-zoJruXZBXrFemzpPTvbKpEVg,12
+pytask_list-0.0.2.dist-info/RECORD,,
