@@ -1,0 +1,57 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+  xmlns:i18n="http://namespaces.zope.org/i18n"
+  xmlns:plone="http://namespaces.plone.org/plone"
+  i18n_domain="urban.events">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <include package="collective.exportimport" />
+
+  <include package=".browser" />
+
+  <include file="permissions.zcml" />
+
+  <genericsetup:registerProfile
+    name="default"
+    title="urban.events"
+    directory="profiles/default"
+    description="Installs the urban.events add-on."
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    post_handler=".setuphandlers.post_install"
+    />
+
+  <genericsetup:registerProfile
+    name="uninstall"
+    title="urban.events (uninstall)"
+    directory="profiles/uninstall"
+    description="Uninstalls the urban.events add-on."
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    post_handler=".setuphandlers.uninstall"
+    />
+
+  <utility
+    factory=".setuphandlers.HiddenProfiles"
+    name="urban.events-hiddenprofiles"
+    />
+
+  <genericsetup:upgradeStep
+    title="Update TAL Condition on events"
+    description="Fix or update tal condition on CODT 2024 new events"
+    source="1000"
+    destination="1001"
+    handler=".migrations.update_talcondition_on_events"
+    profile="urban.events:default"
+    />
+
+  <genericsetup:upgradeStep
+    title="Fix event type field"
+    description=""
+    source="1001"
+    destination="1002"
+    handler=".migrations.fix_event_type"
+    profile="urban.events:default"
+    />
+
+</configure>

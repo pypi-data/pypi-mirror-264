@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: urban.events
+Version: 1.0.0a4
+Summary: Events configuration for Urban
+Home-page: https://github.com/IMIO/urban.events
+Author: Affinitic
+Author-email: support@imio.be
+License: GPL version 2
+Project-URL: PyPI, https://pypi.python.org/pypi/urban.events
+Project-URL: Source, https://github.com/IMIO/urban.events
+Project-URL: Tracker, https://github.com/IMIO/urban.events/issues
+Keywords: Python Plone CMS
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 4.3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: ==2.7
+Provides-Extra: test
+License-File: LICENSE.rst
+
+============
+urban.events
+============
+
+Events configuration for Urban
+
+Features
+--------
+
+- Can be bullet points
+
+
+Examples
+--------
+
+This add-on can be seen in action at the following sites:
+- Is there a page on the internet where everybody can see the features?
+
+
+Documentation
+-------------
+
+Full documentation for end users can be found in the "docs" folder, and is also available online at ...
+
+
+Translations
+------------
+
+This product has been translated into
+
+- French
+
+
+Installation
+------------
+
+Install urban.events by adding it to your buildout::
+
+    [buildout]
+
+    ...
+
+    eggs =
+        urban.events
+
+
+and then running ``bin/buildout``
+
+
+Contribute
+----------
+
+- Issue Tracker: https://github.com/IMIO/urban.events/issues
+- Source Code: https://github.com/IMIO/urban.events
+
+
+Support
+-------
+
+If you are having issues, please let us know.
+
+
+License
+-------
+The project is licensed under the GPLv2.
+
+
+Contributors
+============
+
+- Martin Peeters [mpeeters] - Affinitic
+
+
+Changelog
+=========
+
+.. You should *NOT* be adding new change log entries to this file.
+   You should create a file in the news directory instead.
+   For helpful instructions, please see:
+   https://github.com/plone/plone.releaser/blob/master/ADD-A-NEWS-ITEM.rst
+
+.. towncrier release notes start
+
+1.0.0a4 (2024-03-23)
+--------------------
+
+New features:
+
+
+- Update or fix TAL Condition on CODT 2024 new events.
+  Fix `eventType` attribute on Urban classic.
+  [mpeeters] (URB-3006)
+
+
+1.0.0a3 (2024-03-18)
+--------------------
+
+Bug fixes:
+
+
+- Fix an error with event config on Urban Classic
+  [mpeeters] (URB-3006)
+
+
+1.0.0a2 (2024-03-14)
+--------------------
+
+Bug fixes:
+
+
+- Fix enum dependency
+  [jchandelle] (URB-3006)
+
+
+1.0.0a1 (2024-03-13)
+--------------------
+
+New features:
+
+
+- Add function to import event config and create
+  new CODT reform events at profile import.
+  Split configuration files between urban classic and liege.
+  [jchandelle, daggelpop, mpeeters] (URB-3006)
+
+
+Bug fixes:
+
+
+- Avoid an error between liege and main urban branch
+  Fix existing content handling
+  [mpeeters, jchandelle] (URB-3006)
