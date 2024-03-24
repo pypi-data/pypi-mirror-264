@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+mgdl_simple_cache.egg-info/PKG-INFO
+mgdl_simple_cache.egg-info/SOURCES.txt
+mgdl_simple_cache.egg-info/dependency_links.txt
+mgdl_simple_cache.egg-info/requires.txt
+mgdl_simple_cache.egg-info/top_level.txt
+simple_cache/__init__.py
+simple_cache/cache_data.py
+simple_cache/providers/__init__.py
+simple_cache/providers/deta.py
+simple_cache/providers/file.py
+simple_cache/providers/provider.py
+tests/test_cache_decorator.py
+tests/test_deta_provider.py
+tests/test_file_provider.py

@@ -1,0 +1,5 @@
+deta
+
+[dev]
+pytest
+pytest-cov
