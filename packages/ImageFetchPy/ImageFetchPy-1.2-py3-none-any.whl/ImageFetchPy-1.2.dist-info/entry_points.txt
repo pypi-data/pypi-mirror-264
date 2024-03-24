@@ -1,0 +1,2 @@
+[console_scripts]
+imagefetch = ImageFetchPy.cli:main
