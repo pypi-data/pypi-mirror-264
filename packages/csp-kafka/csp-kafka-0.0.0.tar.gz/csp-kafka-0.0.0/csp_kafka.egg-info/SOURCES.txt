@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+csp_kafka.egg-info/PKG-INFO
+csp_kafka.egg-info/SOURCES.txt
+csp_kafka.egg-info/dependency_links.txt
+csp_kafka.egg-info/requires.txt
+csp_kafka.egg-info/top_level.txt
