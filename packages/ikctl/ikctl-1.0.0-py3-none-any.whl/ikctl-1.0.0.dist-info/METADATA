@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ikctl
+Version: 1.0.0
+Summary: App to installer packages on remote servers
+Author: David Moya López
+Author-email: 3nueves@gmail.com
+License: Apache v2.0
+License-File: LICENSE
+Requires-Dist: paramiko
+Requires-Dist: pyaml
+Requires-Dist: EnvYAML
+
