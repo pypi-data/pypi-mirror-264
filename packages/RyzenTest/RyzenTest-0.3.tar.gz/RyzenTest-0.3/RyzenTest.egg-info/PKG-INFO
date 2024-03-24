@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: RyzenTest
+Version: 0.3
+Summary: une Librairie Simple pour le Test Formation Python
+Author: Ryzen-ENCGO
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
