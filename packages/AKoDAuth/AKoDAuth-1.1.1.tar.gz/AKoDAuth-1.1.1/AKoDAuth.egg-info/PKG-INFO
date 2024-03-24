@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: AKoDAuth
+Version: 1.1.1
+Summary: Activating Keys on Discord Authentication/Decryption Package
+Home-page: https://github.com/tagoworks/akod
+Author: tago
+License: MIT
+License-File: LICENSE.txt
+Requires-Dist: cryptography
+Requires-Dist: requests
