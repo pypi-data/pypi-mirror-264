@@ -1,0 +1,7 @@
+scrapy_azure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_azure/addon.py,sha256=xBoIm0mM8x3H0WZV-FzGy4QA7YgqCLIBYSisrggf2ic,328
+scrapy_azure/feedstorage.py,sha256=HmRV2lvm9zEu-ygK8yDO8Vv-hem5K-1psf3gIwCMxqg,2277
+scrapy_azure-0.2.0.dist-info/METADATA,sha256=J4QjCJwlzSkUg7LSRZDgR_FK7ctvBnD3KDEe8bS_K4Y,415
+scrapy_azure-0.2.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+scrapy_azure-0.2.0.dist-info/licenses/LICENSE.txt,sha256=TwsHlFgAkYiMTNzF7wjZDVlWZHsNdrWuznz1ZDqUcRo,1074
+scrapy_azure-0.2.0.dist-info/RECORD,,
