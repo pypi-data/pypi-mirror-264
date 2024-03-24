@@ -1,0 +1,24 @@
+{% load wagtailcore_tags %}
+
+<article>
+  <header>
+    <h2><a class="text-dark text-decoration-none" href="{{ page_url }}">{{ page.title }}</a></h2>
+    <!-- link is on one line to avoid underlined whitespace -->
+    <a href="{{ page_url }}"><time date-time='{{ page.visible_date|date:"c" }}'>{{ page.visible_date|date }}</time>,</a>
+    <span class="author">{{ owner_username | title}}</span>
+  </header>
+  {% for block in page.body %}
+    {% if block.block_type != "detail" or render_detail %}
+      <section class="block-{{ block.block_type }}">
+        {% for block in block.value %}
+          <section class="block-{{ block.block_type }}">
+            {% include_block block %}
+          </section>
+        {% endfor %}
+      </section>
+      {% if not render_detail %}
+        {% block detail_link %}{% endblock %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</article>
