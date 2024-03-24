@@ -1,0 +1,9 @@
+README.md
+setup.py
+kagtool/__init__.py
+kagtool/kaggle_downloader.py
+kagtool.egg-info/PKG-INFO
+kagtool.egg-info/SOURCES.txt
+kagtool.egg-info/dependency_links.txt
+kagtool.egg-info/requires.txt
+kagtool.egg-info/top_level.txt
