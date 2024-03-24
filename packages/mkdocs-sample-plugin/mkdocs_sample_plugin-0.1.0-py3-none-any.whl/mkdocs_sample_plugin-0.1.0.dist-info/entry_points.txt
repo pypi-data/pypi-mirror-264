@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+mkdocs_sample_plugin = mkdocs_sample_plugin.plugin:SampleMkDocsPlugin
