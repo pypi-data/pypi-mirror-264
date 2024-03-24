@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: shanu
+Version: 0.0.3
+Summary: All the things that I need in a python package
+Author-email: Shanu Khera <shanu@giganoto.com>
+Project-URL: Homepage, https://github.com/khera-shanu/shanu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: anthropic==0.21.3
+Requires-Dist: openai==1.14.2
+Requires-Dist: pillow==10.2.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: rangeen==0.0.1
+
+- This is WIP, I will keep adding stuff on the basis of my own requirements and learning.
