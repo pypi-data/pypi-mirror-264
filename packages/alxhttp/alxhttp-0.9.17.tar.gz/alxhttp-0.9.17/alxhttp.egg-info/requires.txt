@@ -1,0 +1,4 @@
+aiohttp~=3.9
+
+[xray]
+aws-xray-sdk~=2.13
