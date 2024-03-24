@@ -1,0 +1,13 @@
+configured_mail_sender/Testing.py,sha256=s6_yx4hWWL64fI2kLjINilJXYXuLG5VS-abdcszUcc8,480
+configured_mail_sender/__init__.py,sha256=LmuwlMnI359aH2Jw_ml8suwBWxm7ppNn1w6nJzM1aDM,765
+configured_mail_sender/email_builder.py,sha256=xy7aJjjAa39rZRZX_XVG0kbctkMfkjDCEGaO32sqPCs,5541
+configured_mail_sender/mail_sender.py,sha256=Mtthvm5ctgDvJQJ82w7Mm0fKX6FrWAVoPHkk9sNDngE,11009
+configured_mail_sender/send_email.py,sha256=9K22tiQL4yqTgXIvimPGtlc1mWvcIkLxYzqwJwFLlh8,7435
+configured_mail_sender/send_email_old.py,sha256=rPvjMe_BXZaCC-nj-jVaMKqYN2WVo3L9wBwvYBrnLG8,8626
+configured_mail_sender/smtp_sender.py,sha256=VRps7lOxYlkrv9sYUhy1wSbZ9m8Yz6FtuP-uFwfdTIg,7368
+configured_mail_sender-2.0.0.dist-info/LICENSE,sha256=L-C4lr3svN8umB4nRoXku0T4pkCPAJHlw80u-Lwaz9Q,1070
+configured_mail_sender-2.0.0.dist-info/METADATA,sha256=nGSV7RwjBiwTpzGJTgoCPii08s_dp9V-4iVzgUdOrFs,6655
+configured_mail_sender-2.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+configured_mail_sender-2.0.0.dist-info/entry_points.txt,sha256=fUhtGeiK-S1Niw5UXu3mT3EsO5w9irv1Ker2FA2-izA,70
+configured_mail_sender-2.0.0.dist-info/top_level.txt,sha256=i-dZsMXJWhO13b65Ql2Chx1kzMjRvdTtDy-Ci0sEvug,23
+configured_mail_sender-2.0.0.dist-info/RECORD,,
