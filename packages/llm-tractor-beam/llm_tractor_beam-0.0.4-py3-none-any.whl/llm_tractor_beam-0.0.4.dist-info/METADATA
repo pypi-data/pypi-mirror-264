@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: llm_tractor_beam
+Version: 0.0.4
+Summary: An embedding model toolkit; fine-tune SOTA LLMs on knowledge bases rapidly.
+Home-page: https://github.com/DylanAlloy/tractor-beam
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
