@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: praisonAI
+Version: 0.0.4
+Summary: praisonAI application combines AutoGen and CrewAI or similar frameworks into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customization, and efficient human-agent collaboration.
+Author: Mervin Praison
+Description-Content-Type: text/markdown
+
+# Praison AI
+
+Praison AI, leveraging both AutoGen and CrewAI or any other agent framework, represents a low-code, centralised framework designed to simplify the creation and orchestration of multi-agent systems for various LLM applications, emphasizing ease of use, customization, and human-agent interaction.
+
+## Installation
+
+```bash
+pip install praisonai
+```
+
+## Run
+
+```bash
+praisonai
+```
