@@ -1,0 +1,12 @@
+fs2elastic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fs2elastic/confbuilder.py,sha256=9cPTBKKMT1IarIgCidXf01TnE9WlLDWOtMjNfRZAYss,7341
+fs2elastic/dataset_processor.py,sha256=IXpUSPV9MkGH2U3Fhbgg1kFQMJAqd19JBzCX-kIoqLI,9709
+fs2elastic/es_handler.py,sha256=HC1JlBmvHMwVmKNllW-3d-JNXJ7BXfX64utwAWcxzR4,2111
+fs2elastic/fs2elastic.py,sha256=wNSzUIXaIoCa4Cw652QbK8u1JTa7sXcNm_PY2eptgmc,12952
+fs2elastic/typings.py,sha256=nqiR-fq2kPkCY80CkDe1WYebewOlD-OFLIJpKlfQK-o,2475
+fs2elastic-0.1.1.dist-info/LICENSE,sha256=Ii28Ku4J-RwDFubLyrYGY_t5CQKH6N3o5yvQtAgZrXY,1071
+fs2elastic-0.1.1.dist-info/METADATA,sha256=aS6RwaSK31fMZqbUZKsiEnspzwYPSjmOKPDM9XMo7xg,5714
+fs2elastic-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fs2elastic-0.1.1.dist-info/entry_points.txt,sha256=tleOgNR8y5rpu-8-2byQANveNwlqYyswA81dxDtnUeo,58
+fs2elastic-0.1.1.dist-info/top_level.txt,sha256=eceHCAbcqpdNyzACSd7FnRmzUN8gS1mHS_jGtoEE_1s,11
+fs2elastic-0.1.1.dist-info/RECORD,,
