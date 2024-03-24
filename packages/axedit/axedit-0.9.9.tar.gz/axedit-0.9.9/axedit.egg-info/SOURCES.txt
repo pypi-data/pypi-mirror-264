@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+axedit/__init__.py
+axedit.egg-info/PKG-INFO
+axedit.egg-info/SOURCES.txt
+axedit.egg-info/dependency_links.txt
+axedit.egg-info/entry_points.txt
+axedit.egg-info/top_level.txt

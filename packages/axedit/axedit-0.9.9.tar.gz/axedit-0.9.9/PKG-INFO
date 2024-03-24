@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: axedit
+Version: 0.9.9
+Summary: Modal Editor
+Author: Axis (blankRiot96)
+Keywords: editor
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Text Editors
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.11
+License-File: LICENSE
+
+A Modal Text editor that
+focuses on aesthetics, functionality and usability.
