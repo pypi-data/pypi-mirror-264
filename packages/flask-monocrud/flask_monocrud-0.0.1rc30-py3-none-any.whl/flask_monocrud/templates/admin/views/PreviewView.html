@@ -1,0 +1,41 @@
+{% set resource=data_model.resource %}
+{% set id=id %}
+{% set model=result_set %}
+{% set edit_actions=edit_actions %}
+{% set resource_singularized = singularize(resource)|lower %}
+
+
+<script>
+    document.querySelectorAll('#preview-mode input, #preview-mode select, #preview-mode button, #preview-mode textarea').forEach(function (element) {
+        element.setAttribute('disabled', 'disabled');
+    });
+</script>
+
+<div id="preview-mode" class='row'>
+    {% for field in fields() %}
+        {% if field.type != 'repeater' %}
+            {% include 'admin/components/forms/ReusableForm.html' %}
+        {% endif %}
+    {% endfor %}
+    <button id='edit-{{ data_model.name.singular }}-form-submit-btn' type="submit" class="btn btn-primary d-none">
+        Submit
+    </button>
+</div>
+
+
+<div id='repeater-area' data-hx-swap-oob="true">
+    {% for field in fields() %}
+        {% if field.type == "repeater" %}
+            <br>
+            <hr>
+            <mv-admin.components.forms.Repeater id={{ id }} model={{ model }}
+                                                field={{ field }} result_set={{ result_set }}></mv-admin.components.forms.Repeater>
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">{{ from_config('admin.admin_site_title') }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                {% for model in data_model.models %}
+                    <li class="nav-item {% if "/admin/" + pluralize(model.name)|lower in request.path %}active{% else %}{% endif %}">
+                        <div class="nav-item-wrapper"><a class="nav-link label-1"
+                                                         href="/admin/{{ pluralize(model.name)|lower }}"
+                                                         role="button" data-bs-toggle="" aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <span class="nav-link-icon pe-2">
+                                    <i class="fa {{ model.class.menu_icon }}"></i>
+                                </span>
+                                <span class="nav-link-text-wrapper"><span
+                                        class="nav-link-text">{{ model.get('label')  or  pluralize(model.name)|replace("_", "  ") }}</span></span>
+                            </div>
+                        </a>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
