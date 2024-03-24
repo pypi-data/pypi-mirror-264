@@ -1,0 +1,17 @@
+fastcrackle.cp39-win_amd64.pyd,sha256=f_GppZUmvHHrct-1Lu9QaBR0_hDLn--MVILfdoZzjNo,638464
+crackle/__init__.py,sha256=iqlAvXwKm1e16bjqvKpezR74Pwi5XWuM4DWE5--hSr8,1874
+crackle/array.py,sha256=CN-eZ1nw7S4sHiozFHNzDMYt75-VW-463KehC6fv48E,7670
+crackle/codec.py,sha256=yuG_7CV2O9V7T5xGmwo-tZr9c1swCL5tVb9f57QX-oM,21141
+crackle/headers.py,sha256=xQCBnyXBOnxGv8ps1zjK3BNIcvIn0QCx4O1DIHZnQdU,5327
+crackle/lib.py,sha256=Qhibx8Ihlv1qrto1vbvJUgeFMtuBsh6I4BcQHPpvgM4,1530
+crackle/util.py,sha256=yRlO2bT48bRVvrbkRuMMxn-UuT0F85cnIP_Qe9k_-48,1623
+crackle_cli/__init__.py,sha256=b1VfA4Miuu-0YE_wHw-wr3KiXYVsnIfhQy2XCeP4VEs,18
+crackle_cli/cli.py,sha256=LYlvThzzGLqoJl3wBVBnpmapcyywbeKomu8HndWA5Ew,4041
+crackle_codec-0.13.0.dist-info/AUTHORS,sha256=Aa4H7O3dtmfq0lF_eATudy11i8K6QAI8LykzASr9bL0,52
+crackle_codec-0.13.0.dist-info/LICENSE,sha256=eNaJ4ujotRab4ypp-ll-rWEkV_mLy_oC6ER7ow4PorY,1560
+crackle_codec-0.13.0.dist-info/METADATA,sha256=pyvU0UhNddHlLS03MFQgY-UVz1TEHXPVgV4WTd_aNbk,17243
+crackle_codec-0.13.0.dist-info/WHEEL,sha256=Z6c-bE0pUM47a70GvqO_SvH_XXU0lm62gEAKtoNJ08A,100
+crackle_codec-0.13.0.dist-info/entry_points.txt,sha256=okVAkRMlGit_kM0j8F0njTVdMGeOuP1GDbOlaJwzAdY,45
+crackle_codec-0.13.0.dist-info/pbr.json,sha256=L2ywq7Zy1JAt3ytpDElXK6N5c4EocfkiCGXNeHPPf-g,47
+crackle_codec-0.13.0.dist-info/top_level.txt,sha256=cuHq875E53NEXNQAo9Nd2CNl7IZs1RIzhoojWGkH_ZY,32
+crackle_codec-0.13.0.dist-info/RECORD,,
