@@ -1,0 +1,12 @@
+foliolib
+foliolib/apiBuilder
+foliolib/apiBuilder/oas
+foliolib/apiBuilder/raml
+foliolib/cli
+foliolib/cli/admin
+foliolib/cli/folio
+foliolib/folio
+foliolib/folio/api
+foliolib/folio/api_deprecated
+foliolib/helper
+foliolib/okapi
