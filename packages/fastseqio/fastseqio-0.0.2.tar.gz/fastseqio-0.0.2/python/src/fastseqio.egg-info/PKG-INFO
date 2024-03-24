@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: fastseqio
+Version: 0.0.2
+Summary: A package for reading and writing fasta/fastq files
+Author: dwpeng
+Author-email: 1732889554@qq.com
+License-File: LICENSE

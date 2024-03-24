@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+./seqio.c
+./python/seqio.cc
+./python/src/fastseqio.egg-info/PKG-INFO
+./python/src/fastseqio.egg-info/SOURCES.txt
+./python/src/fastseqio.egg-info/dependency_links.txt
+./python/src/fastseqio.egg-info/top_level.txt
+./python/src/seqio/__init__.py
+./python/src/seqio/seqio.py
