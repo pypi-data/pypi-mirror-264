@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: CytoOne
+Version: 0.0.1
+Summary: A unified probabilistic framework for CyTOF data
+Author: Yuqiu Yang, Kevin Wang, Tao Wang, Xinlei (Sherry) Wang
+Author-email: yuqiuy@smu.edu, kevinwang@mail.smu.edu, Tao.Wang@UTSouthwestern.edu, xinlei.wang@uta.edu
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.9,<3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.22.4)
+Requires-Dist: pandas (==1.5.2)
+Requires-Dist: torch (==1.13.1)
+Requires-Dist: pyro-ppl (==1.8.6)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: seaborn (==0.13.0)
+
+# CytoOne
+> A unified probabilistic framework for CyTOF data
+
+## Citation
+
+## Model Overview
+![Model Overview](/assets/model_overview.png)
+
+## Installation 
+
+### Dependencies 
