@@ -1,0 +1,7 @@
+kgl/__init__.py,sha256=cILCapiCwgnXxtmGcroteBf8jd28XxA-bAbRrPehQLM,34
+kgl/grammar.py,sha256=kw75ZPKrcMagYmTeDUR6n8tdBmshkeHDpOx_hZe0-2E,824
+kgl/graph.py,sha256=IyJ-jSo7facoRFmxeAftSsdUEs0_yRBD7nv7m0AWOA0,26904
+kgl-0.1.1.dist-info/LICENSE,sha256=qhphJZzgmbC51d5cDTsNCc8CFWC710umb1Y47Ps28QQ,1062
+kgl-0.1.1.dist-info/METADATA,sha256=_MxSHJY9U8cdSAOTDBtpAHHWKEUlN-hyUkae6U-P5JQ,6254
+kgl-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+kgl-0.1.1.dist-info/RECORD,,
