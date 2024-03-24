@@ -1,0 +1,6 @@
+fast
+fft
+linalg
+metal
+mlx
+random
