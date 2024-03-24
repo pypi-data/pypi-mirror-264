@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+UPLOADS_PYPI/__init__.py
+UPLOADS_PYPI/_amstrong_number.py
+UPLOADS_PYPI.egg-info/PKG-INFO
+UPLOADS_PYPI.egg-info/SOURCES.txt
+UPLOADS_PYPI.egg-info/dependency_links.txt
+UPLOADS_PYPI.egg-info/top_level.txt
