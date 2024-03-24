@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pygameextra_cool_buttons
+Version: 1.2.1
+Summary: Pygameextra cool buttons is a extension for pygameextra that adds cool buttons
+Author: Red
+Author-email: redtonehair@gmail.com
+Keywords: python
+Description-Content-Type: text/markdown
+Requires-Dist: pygameextra>=2.0.0b45
+Requires-Dist: Pillow
+
+Pygameextra cool buttons is an extension for pygameextra,
+that adds many button effects and customizations to spice up your app!
+
+github: https://github.com/JustRedTTG/PGE-cool-buttons

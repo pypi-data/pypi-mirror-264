@@ -1,0 +1,2 @@
+pygameextra>=2.0.0b45
+Pillow
