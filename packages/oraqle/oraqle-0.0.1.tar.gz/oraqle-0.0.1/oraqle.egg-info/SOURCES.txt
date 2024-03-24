@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+compiler/hello_world.py
+oraqle.egg-info/PKG-INFO
+oraqle.egg-info/SOURCES.txt
+oraqle.egg-info/dependency_links.txt
+oraqle.egg-info/top_level.txt

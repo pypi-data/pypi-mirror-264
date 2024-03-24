@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: oraqle
+Version: 0.0.1
+Summary: Secure computation compiler for MPC, FHE, and arithmetic circuits in general
+Author-email: Jelle Vos <J.V.Vos@tudelft.nl>
+Maintainer-email: Jelle Vos <J.V.Vos@tudelft.nl>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Oraqle
+The first version of the oraqle compiler will be released in April 2024.
