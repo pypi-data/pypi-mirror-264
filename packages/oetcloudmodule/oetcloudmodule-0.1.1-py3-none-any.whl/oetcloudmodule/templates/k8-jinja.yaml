@@ -1,0 +1,43 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: solving-pypsa
+  namespace: bucket-fuse
+  labels:
+    jobgroup: prepared-solver
+spec:
+  ttlSecondsAfterFinished: 100
+  template:
+    metadata:
+      name: solver-pod
+      namespace: bucket-fuse
+      annotations:
+        gke-gcsfuse/volumes: "true"
+      labels:
+        jobgroup: prepared-solver
+    spec:
+      serviceAccountName: bucket-fuse-account
+      restartPolicy: Never
+      containers:
+        - name: cal-img
+          image: {{docker_image}}
+          volumeMounts:
+            - name: bucket-mount-1
+              mountPath: "/{{ input_dir }}"
+            - name: bucket-mount-2
+              mountPath: "/{{ output_dir }}"
+          command: ["/bin/bash"]
+          args: ["-c", "snakemake --cores 1 calculate_sum"]
+      volumes:
+        - name: bucket-mount-1
+          csi:
+            driver: gcsfuse.csi.storage.gke.io
+            volumeAttributes:
+              bucketName: {{ bucket_name }}
+              mountOptions: "debug_fuse,debug_fs,debug_gcs,implicit-dirs,only-dir={{ input_dir }}"
+        - name: bucket-mount-2
+          csi:
+            driver: gcsfuse.csi.storage.gke.io
+            volumeAttributes:
+              bucketName: {{ bucket_name }}
+              mountOptions: "debug_fuse,debug_fs,debug_gcs,implicit-dirs,only-dir={{ output_dir }}"

@@ -1,0 +1,15 @@
+oetcloudmodule/__init__.py,sha256=tlzfCHLTG1bh1RIrJZmO3mpYcb4KqS3cKUGE4m5nJEA,74
+oetcloudmodule/add.py,sha256=j3WmhkbIef0M_1wCcIwBD7HAHWfvmTDU5BkQb-t4l6o,31
+oetcloudmodule/hello.py,sha256=C7WsmEap8MQXxHk4YSI5w6fEWsgGTKzsFB-IRv-CPxw,328
+oetcloudmodule/kubeexe copy.py,sha256=csij8YKD7W1ATuL5zDTLkXer0X7e7CrbyJNBSoNeNAs,2396
+oetcloudmodule/kubeexe.py,sha256=8487Byze1U92gggmuUj_fj0b7xXLU7uCRrieguEIv9Y,4767
+oetcloudmodule/subtract.py,sha256=tOUtyCGcjT64OjLWkWYzMGDJNnwJUDdKr2I_BO8aTKo,35
+oetcloudmodule/extras/__init__.py,sha256=QZu8N7rF50ksWIqNnhuACVdnO2UNR5_ZYxwKSS5tSg0,30
+oetcloudmodule/extras/multiply.py,sha256=qq65n-iXbUBSQuSXZ9uj-2ApB3H6OyzLwbMkiLL_ZAs,35
+oetcloudmodule/templates/k8-jinja.yaml,sha256=0cm8tS0opF9lHeVTgv24R6yDBCNwc0trLnGq0biTpqM,1329
+oetcloudmodule/templates/k8-job.yaml,sha256=2wJ7O5uX70rTPoi--cbySUi1awrS1YRU1fNZ3EBZTII,1287
+oetcloudmodule-0.1.1.dist-info/METADATA,sha256=yf9D3VUHu5NjDtswgKgzv6DYI3wTP4eEznJLzhCv4n8,589
+oetcloudmodule-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+oetcloudmodule-0.1.1.dist-info/entry_points.txt,sha256=p4_vOeBWESmlM2SJyJviCpeoNrQNUkHq5yclHtkuOMQ,88
+oetcloudmodule-0.1.1.dist-info/top_level.txt,sha256=JUHbcy4uut554Z6BGRkQwR6aVFpv67jLWzQJDLt_wRY,15
+oetcloudmodule-0.1.1.dist-info/RECORD,,
