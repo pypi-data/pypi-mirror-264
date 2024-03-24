@@ -1,0 +1,3 @@
+include USAGE.md
+include README.md
+include src/fastapi_openid_google/*
