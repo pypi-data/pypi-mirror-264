@@ -1,0 +1,9 @@
+praisonai/__init__.py,sha256=8zLGg-DfQhnDl2Ky0n-zXpN-8e-g7iR0AcaI4l4Vvpk,32
+praisonai/__main__.py,sha256=vd4aNW09T0ikE09ACeAktj5UnpPlLJ1xHZm2urOKa-4,75
+praisonai/cli.py,sha256=i5qaIdf_iJ4qxa4YY33Gb2NjAPS39qsyJ0T4-9McXFs,4355
+praisonai/test.py,sha256=4bAqitWeywjZtxoOAdcBTLaYDRflZH3LSYtOpWrZBI4,3707
+praisonai/version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+praisonai-0.0.6.dist-info/METADATA,sha256=x2uoqIjmaqF83KV70QVKR_5bwKRN5pZnHB0KGKtZWNU,1232
+praisonai-0.0.6.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+praisonai-0.0.6.dist-info/entry_points.txt,sha256=Qg41eW3A1-dvdV5tF7LqChfYof8Rihk2rN1fiEE3vnk,53
+praisonai-0.0.6.dist-info/RECORD,,
