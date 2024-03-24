@@ -1,0 +1,9 @@
+fixr/__init__.py,sha256=iS4bliDf5y8QXttm4AGdmeYqaI1WOfXpMogRjtOo4o4,5742
+fixr/_xrif.py,sha256=U33v1HzlO_ZzNTiiEYtnbAI1DTH3CcLAcjyWK7lCuVg,25251
+fixr/libxrif.so,sha256=OeD6IVg30POoEWhiBU9y3YqY22MP_cMdd29eGC0BIJ8,721705
+fixr-0.1.0.dist-info/RECORD,,
+fixr-0.1.0.dist-info/METADATA,sha256=O_50tkDBxisJsUpfcVNYe8iThGKUD7UuvENkGjAUSho,471
+fixr-0.1.0.dist-info/WHEEL,sha256=YWlKy0nJ9aao4e8uDUzQl8aYd3pSdN_guc61oMtONVQ,114
+fixr-0.1.0.dist-info/top_level.txt,sha256=tOe9YLtL1wBNpGdBuFDDk8bbUGNigr__8Z1Jt5OHIRw,5
+fixr-0.1.0.dist-info/LICENSE,sha256=-9kfd5H-nbi74FA9Bi-XX5RCoHCRtVyMLnCzc0Ws-2U,1070
+fixr.libs/libgomp-a97153a2.so.1.0.0,sha256=LWXTqDp3BiW-9Bh938MaOkMwACpGIVrJLHixAegKjac,253289
