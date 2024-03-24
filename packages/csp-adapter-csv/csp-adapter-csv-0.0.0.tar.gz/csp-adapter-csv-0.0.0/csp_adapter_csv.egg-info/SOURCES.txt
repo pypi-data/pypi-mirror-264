@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+csp_adapter_csv.egg-info/PKG-INFO
+csp_adapter_csv.egg-info/SOURCES.txt
+csp_adapter_csv.egg-info/dependency_links.txt
+csp_adapter_csv.egg-info/requires.txt
+csp_adapter_csv.egg-info/top_level.txt
