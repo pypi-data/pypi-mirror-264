@@ -1,0 +1,7 @@
+retry
+vertexai
+openai
+google-cloud-aiplatform
+tiktoken
+anthropic
+python-dotenv
