@@ -1,0 +1,791 @@
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: Missing required argument: original_sql_query from {'function__name__': 'sql_query_optimizer', 'docstring': 'Optimize the given SQL query', 'keyword_arguments': {'original_sql_query': 'WITH recursive cte_dates AS ( SELECT DATEADD(day, 1, MIN(order_date)) AS dt FROM orders UNION ALL SELECT DATEADD(day, 1, dt) FROM cte_dates WHERE dt < (SELECT DATEADD(day, -1, MAX(order_date)) FROM orders) ), cte_sales AS ( SELECT p.product_id, p.product_name, d.dt, SUM(oi.quantity * oi.unit_price) AS daily_sales FROM cte_dates d CROSS JOIN products p LEFT JOIN order_items oi ON oi.product_id = p.product_id AND CAST(oi.order_date AS DATE) = CAST(d.dt AS DATE) GROUP BY p.product_id, p.product_name, d.dt ), cte_max_sales AS ( SELECT product_id, product_name, MAX(daily_sales) AS max_daily_sales FROM cte_sales GROUP BY product_id, product_name ) SELECT product_id, product_name, dt AS date_of_max_sales, max_daily_sales FROM cte_sales cs JOIN cte_max_sales cms ON cs.product_id = cms.product_id AND cs.daily_sales = cms.max_daily_sales', 'optimization_recommendations': None}}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: Unexpected argument: return
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<AbstractActor.receive() done, defined at /Users/candacechatman/dev/dspygen/src/dspygen/rdddy/abstract_actor.py:174> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 2226, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 2208, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1520, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1527, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/experiments/workflow_engine.py", line 83, in <module>
+    asyncio.run(main())
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/rdddy/abstract_actor.py", line 195, in receive
+    await handler(message)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/experiments/workflow_engine.py", line 59, in handle_job
+    TweetEvent(content=f"twitter-cli tweet='{text}'")
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/experiments/workflow_engine.py", line 59, in handle_job
+    TweetEvent(content=f"twitter-cli tweet='{text}'")
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_darwin_310_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 937, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 928, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<AbstractActor.receive() done, defined at /Users/candacechatman/dev/dspygen/src/dspygen/rdddy/abstract_actor.py:174> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 2226, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 2208, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1520, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1527, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/experiments/workflow_engine.py", line 83, in <module>
+    asyncio.run(main())
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/rdddy/abstract_actor.py", line 195, in receive
+    await handler(message)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/experiments/workflow_engine.py", line 58, in handle_job
+    text = insight_tweet_call(task)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/modules/insight_tweet_module.py", line 24, in insight_tweet_call
+    return insight_tweet.forward(insight=insight)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/modules/insight_tweet_module.py", line 19, in forward
+    return result
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/modules/insight_tweet_module.py", line 19, in forward
+    return result
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 1597, in _pydevd_bundle.pydevd_cython_darwin_310_64.ThreadTracer.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 937, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 928, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<AbstractActor.receive() done, defined at /Users/candacechatman/dev/dspygen/src/dspygen/rdddy/abstract_actor.py:174> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 2226, in <module>
+    main()
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 2208, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1520, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1527, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/experiments/workflow_engine.py", line 83, in <module>
+    asyncio.run(main())
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/Users/candacechatman/.pyenv/versions/miniforge3-latest/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/rdddy/abstract_actor.py", line 195, in receive
+    await handler(message)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/experiments/workflow_engine.py", line 58, in handle_job
+    text = insight_tweet_call(task)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/modules/insight_tweet_module.py", line 27, in insight_tweet_call
+    return insight_tweet.forward(insight=insight)
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/modules/insight_tweet_module.py", line 22, in forward
+    return result
+  File "/Users/candacechatman/dev/dspygen/src/dspygen/modules/insight_tweet_module.py", line 22, in forward
+    return result
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 1597, in _pydevd_bundle.pydevd_cython_darwin_310_64.ThreadTracer.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 937, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 928, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1184, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1199, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Output:
+{"name": "RawToStructure", "signature": "raw_to_structure_signature", "lm_model": "default", "rm_model": "default", "args": [], "docstring": "Processes raw data to synthesize into a structured format suitable for report generation.", "inputs": [{"name": "raw_data", "prefix": "", "desc": "The raw data to be processed."}], "outputs": [{"name": "structured_data", "prefix": "", "desc": "The structured data suitable for report generation."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Output:
+{'name': 'RawToStructure', 'signature': 'raw_to_structure_signature', 'predictor': 'Predict', 'args': [], 'docstring': 'Processes raw data to synthesize into a structured format suitable for report generation.', 'inputs': [{'name': 'raw_data', 'prefix': '', 'desc': 'The raw data to be processed.'}], 'outputs': [{'name': 'structured_data', 'prefix': '', 'desc': 'The structured data suitable for report generation.'}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+malformed node or string on line 1: <ast.Call object at 0x168e19e70>
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Output:
+{'name': 'RawToStructure', 'signature': 'raw_to_structure_signature', 'predictor': 'Predict', 'args': [], 'docstring': 'Processes raw data to synthesize into a structured format suitable for report generation.', 'inputs': [{'name': 'raw_data', 'prefix': '', 'desc': 'The raw data to be processed.'}], 'outputs': [{'name': 'structured_data', 'prefix': '', 'desc': 'The structured data suitable for report generation.'}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+malformed node or string on line 1: <ast.Call object at 0x168cf1e70>
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+1 validation error for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructured...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+1 validation error for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructured...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "RawToStructuredSignature", "signature": "raw_to_structure_signature", "lm_model": "default", "rm_model": "", "args": {}, "docstring": "Processes raw data to synthesize into a structured format suitable for report generation.", "inputs": [{"name": "raw_data", "prefix": "", "desc": "The raw data to be processed."}], "outputs": [{"name": "structured_data", "prefix": "", "desc": "The structured data suitable for report generation."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Output:
+{'name': 'RawToStructure', 'signature': 'raw_to_structure_signature', 'lm_model': 'default', 'rm_model': None, 'args': [], 'docstring': 'Processes raw data to synthesize into a structured format suitable for report generation.', 'inputs': [{'name': 'raw_data', 'prefix': '', 'desc': 'The raw data to be processed.'}], 'outputs': [{'name': 'structured_data', 'prefix': '', 'desc': 'The structured data suitable for report generation.'}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+malformed node or string on line 1: <ast.Call object at 0x1506e9db0>
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+1 validation error for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructured...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+1 validation error for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructured...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "RawToStructuredSignature", "signature": "raw_to_structure_signature", "lm_model": "default", "rm_model": "", "args": {}, "docstring": "Processes raw data to synthesize into a structured format suitable for report generation.", "inputs": [{"name": "raw_data", "prefix": "", "desc": "The raw data to be processed."}], "outputs": [{"name": "structured_data", "prefix": "", "desc": "The structured data suitable for report generation."}]}
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+1 validation error for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructured...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+1 validation error for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructured...r report generation.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "RawToStructuredSignature", "signature": "raw_to_structure_signature", "lm_model": "default", "rm_model": "", "args": {}, "docstring": "Processes raw data to synthesize into a structured format suitable for report generation.", "inputs": [{"name": "raw_data", "prefix": "", "desc": "The raw data to be processed."}], "outputs": [{"name": "structured_data", "prefix": "", "desc": "The structured data suitable for report generation."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...rted to yaml format.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...rted to yaml format.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Output:
+{'name': 'RawToStructure', 'signature': 'RawToStructuredSignature', 'predictor': 'Predict', 'args': [], 'docstring': 'Processes raw data to synthesize into a structured format suitable for report generation.', 'inputs': [{'name': 'raw_data', 'prefix': '', 'desc': 'The raw data to be processed.'}], 'outputs': [{'name': 'structured_data', 'prefix': '```yaml\\n', 'desc': 'Converted to yaml format.'}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...rted to yaml format.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Error You need to create a kwargs dict for GenStepModel
+
+            Validation error:
+2 validation errors for GenStepModel
+module
+  Field required [type=missing, input_value={'name': 'RawToStructure'...rted to yaml format.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+args
+  Input should be a valid dictionary [type=dict_type, input_value=[], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/dict_type
+Output:
+{'name': 'RawToStructure', 'signature': 'RawToStructuredSignature', 'predictor': 'Predict', 'args': [], 'docstring': 'Processes raw data to synthesize into a structured format suitable for report generation.', 'inputs': [{'name': 'raw_data', 'prefix': '', 'desc': 'The raw data to be processed.'}], 'outputs': [{'name': 'structured_data', 'prefix': '```yaml\\n', 'desc': 'Converted to yaml format.'}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for OptimizedSQLQueryModel
+
+            Validation error:
+1 validation error for OptimizedSQLQueryModel
+rationale
+  Field required [type=missing, input_value={'optimized_query': 'WITH... = cms.max_daily_sales'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for OptimizedSQLQueryModel
+
+            Validation error:
+1 validation error for OptimizedSQLQueryModel
+rationale
+  Field required [type=missing, input_value={'optimized_query': 'WITH... = cms.max_daily_sales'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"optimized_query": "WITH recursive cte_dates AS ( SELECT DATEADD(day, 1, MIN(order_date)) AS dt FROM orders UNION ALL SELECT DATEADD(day, 1, dt) FROM cte_dates WHERE dt < (SELECT DATEADD(day, -1, MAX(order_date)) FROM orders) ), cte_sales AS ( SELECT p.product_id, p.product_name, d.dt, SUM(oi.quantity * oi.unit_price) AS daily_sales FROM cte_dates d CROSS JOIN products p LEFT JOIN order_items oi ON oi.product_id = p.product_id AND CAST(oi.order_date AS DATE) = CAST(d.dt AS DATE) GROUP BY p.product_id, p.product_name, d.dt ), cte_max_sales AS ( SELECT product_id, product_name, MAX(daily_sales) AS max_daily_sales FROM cte_sales GROUP BY product_id, product_name ) SELECT product_id, product_name, dt AS date_of_max_sales, max_daily_sales FROM cte_sales cs JOIN cte_max_sales cms ON cs.product_id = cms.product_id AND cs.daily_sales = cms.max_daily_sales"}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for OptimizedSQLQueryModel
+
+            Validation error:
+1 validation error for OptimizedSQLQueryModel
+rationale
+  Field required [type=missing, input_value={'optimized_query': 'WITH... = cms.max_daily_sales'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for OptimizedSQLQueryModel
+
+            Validation error:
+1 validation error for OptimizedSQLQueryModel
+rationale
+  Field required [type=missing, input_value={'optimized_query': 'WITH..._date)) FROM orders) )'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for OptimizedSQLQueryModel
+
+            Validation error:
+1 validation error for OptimizedSQLQueryModel
+rationale
+  Field required [type=missing, input_value={'optimized_query': 'WITH..._date)) FROM orders) )'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{'optimized_query': 'WITH recursive cte_dates AS ( SELECT DATEADD(day, 1, MIN(order_date)) AS dt FROM orders UNION ALL SELECT DATEADD(day, 1, dt) FROM cte_dates WHERE dt < (SELECT DATEADD(day, -1, MAX(order_date)) FROM orders) )'}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRD", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRD", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRD", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRD", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRD", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRD", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRD", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}, {"name": "FunctionalityRequirements", "prefix": "Functionality", "desc": "Requirements for the functionality of the website."}, {"name": "ContentRequirements", "prefix": "Content", "desc": "Requirements for the content of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRD', 'd...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRD", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRDSignature", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRDSignature", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Error You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+Output:
+{"name": "WebsitePRDSignature", "docstring": "This Signature generates a product requirements document for a website.", "inputs": [{"name": "DesignRequirements", "prefix": "Design", "desc": "Requirements for the design of the website."}], "outputs": [{"name": "ProductRequirementsDocument", "prefix": "Product", "desc": "The final product requirements document for the website."}]}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for GenModuleModel
+
+            Validation error:
+1 validation error for GenModuleModel
+signature
+  Field required [type=missing, input_value={'name': 'WebsitePRDSigna...ent for the website.'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
