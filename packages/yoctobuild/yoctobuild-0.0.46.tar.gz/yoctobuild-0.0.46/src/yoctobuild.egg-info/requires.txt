@@ -1,0 +1,11 @@
+setuptools
+packaging
+PyYaml
+docker
+GitPython
+colorama
+ruamel.yaml
+dataclasses
+reprint
+prettytable
+kconfiglib
