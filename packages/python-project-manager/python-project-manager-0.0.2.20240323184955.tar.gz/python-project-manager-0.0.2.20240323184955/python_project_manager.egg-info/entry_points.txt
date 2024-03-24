@@ -1,0 +1,2 @@
+[console_scripts]
+ppm = python_project_manager.app:cli
