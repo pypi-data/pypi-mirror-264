@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+whereisthemouse/__init__.py
+whereisthemouse.egg-info/PKG-INFO
+whereisthemouse.egg-info/SOURCES.txt
+whereisthemouse.egg-info/dependency_links.txt
+whereisthemouse.egg-info/requires.txt
+whereisthemouse.egg-info/top_level.txt
