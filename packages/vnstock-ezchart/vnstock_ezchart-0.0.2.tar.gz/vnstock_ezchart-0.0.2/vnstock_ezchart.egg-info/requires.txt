@@ -1,0 +1,5 @@
+squarify
+wordcloud
+vnstock
+requests
+openpyxl
