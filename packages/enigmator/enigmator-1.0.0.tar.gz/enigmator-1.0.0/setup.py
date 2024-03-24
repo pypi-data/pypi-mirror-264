@@ -1,0 +1,30 @@
+from setuptools import find_packages, setup
+
+with open("README.md", "r") as f:
+    long_description = f.read()
+
+setup(
+    name="enigmator",
+    version="1.0.0",
+    description="Package for decrypting messages with an enigma machine",
+    package_dir={"": "enigma"},
+    packages=find_packages(where="enigma"),
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url='https://github.com/gitstetter/enigma',
+    author="Andreas Fussstetter",
+    author_email="a.fussstetter@hotmail.com",
+    license="MIT",
+    classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+        "Development Status :: 5 - Production/Stable",
+    ],
+    extras_require={
+        "dev": ["pytest>=5.4.1", "twine>=4.0.2"],
+    },
+    python_requires=">=3.7.7",
+)
+
+# pypi-AgEIcHlwaS5vcmcCJGQ3ODcxNjlkLTE2N2UtNGE0MS1hZmNjLWQ0NTVhYTc3ODM3YwACKlszLCI0NGNjOWM3NS1hOTVlLTRlZDgtYjZjOS00ZjkwODFiOGIxZjgiXQAABiCm1leUyvW4nBnEFtR5CN90gGyAeaZONe_W72HxO9ZMKw
