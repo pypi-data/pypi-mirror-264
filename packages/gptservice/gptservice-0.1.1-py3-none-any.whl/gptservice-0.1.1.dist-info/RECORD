@@ -1,0 +1,17 @@
+gptservice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptservice/apps.py,sha256=KjY4szn0vqWsX9zo1MmFkVcBQ4UudTixoYFPrXSw_xM,5632
+gptservice/Tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptservice/Tools/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptservice/Tools/features/aws_services.py,sha256=FvmUQcK5RBDk36XU7vq_g1rBMBNfyQHl5k0vaReb1Cg,5615
+gptservice/Tools/features/google_flights.py,sha256=iusYnq1TvbW7XgItSDoTpLKh8oB4X7EO49B0UPLayB4,1303
+gptservice/Tools/features/google_shopping.py,sha256=dYpXPND28qbnDuKjT10UYGtJ3flpEj8dNJFcWW0faa8,1003
+gptservice/Tools/services/__init__.py,sha256=5JJmleMvHNEvmKce3RAeDarch0m0ga9rObnwZLw4hU0,213
+gptservice/Tools/services/aws_svc.py,sha256=NLSRpRTmORX4BDovbFNsU0kLIgIMUGDupplVstBddhI,1715
+gptservice/Tools/services/features.py,sha256=QmqXzT_QXCAu5byZoi0LA_DTRi_ShGe3wni_Nukx9D4,260
+gptservice/Tools/services/flights.py,sha256=EVfGBQQ01AKW3zLxKnuIaFob8p8riaB0eneW93jLbL8,1346
+gptservice/Tools/services/shopping.py,sha256=RNObuueSm6yLNjQjVg9XyIMHW8yxGOaoSyI75v1hgpc,989
+gptservice-0.1.1.dist-info/METADATA,sha256=TAQwFJffMD8bWhYDIdy96Obr3QIxKf_u9kK-NDdtDME,569
+gptservice-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gptservice-0.1.1.dist-info/entry_points.txt,sha256=9zWZyATeBMRPbJhrrD1yUQg7VhqRDXfJrmeFzCNsWsY,52
+gptservice-0.1.1.dist-info/top_level.txt,sha256=EFlGkVTSzMYUN-RFmGIiKCZFvnYFe-kp_Z9Qca9yrDE,11
+gptservice-0.1.1.dist-info/RECORD,,
