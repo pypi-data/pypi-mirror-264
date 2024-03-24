@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: langfuse_web
+Version: 0.0.2
+Summary: Support for Langfuse operations not handed in the API library
+Project-URL: homepage, https://github.com/invisiblethreat/langfuse_web
+Project-URL: documentation, https://github.com/invisiblethreat/langfuse_web/blob/main/README.md
+Project-URL: repository, https://github.com/invisiblethreat/langfuse_web
+Description-Content-Type: text/markdown
