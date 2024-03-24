@@ -1,0 +1,120 @@
+openapi: 3.0.3
+
+
+info:
+  title: flask app
+  description: flask app for api
+
+  contact:
+    email: alyhabcis@gmail.com
+  version: 1.0.0
+
+externalDocs:
+  description: Find out more about Swagger
+  url: https://github.com/ALYCIS/flask-app
+
+tags:
+  - name: internal
+    description: Everything about intern usages
+
+paths:
+
+  /health:
+    get:
+      description: health
+      operationId: get_health
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/healthResponse'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/healthResponse'
+        "400":
+          $ref: '#/components/responses/badRequest'
+        "404":
+          $ref: '#/components/responses/notFound'
+        "500":
+          $ref: '#/components/responses/internal'
+      #      security:
+      #        - basic_auth: ['secret']
+      #        - jwt_token: ['secret']
+      summary: api health
+      tags:
+        - internal
+      x-openapi-router-controller: flask_app_aly_cis.apis.v1.health
+
+
+components:
+
+  schemas:
+
+    error:
+      type: object
+      properties:
+        code:
+          type: string
+        details:
+          type: string
+        message:
+          type: string
+      required:
+        - code
+        - message
+
+    health:
+      type: object
+      properties:
+        status:
+          $ref: '#/components/schemas/healthStatus'
+      required:
+        - status
+
+    healthStatus:
+      type: string
+      example: up
+      enum:
+        - up
+        - down
+        - degraded
+
+    healthResponse:
+      type: object
+      properties:
+        health:
+          $ref: '#/components/schemas/health'
+
+
+
+  responses:
+
+    badRequest:
+      description: Bad Request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+
+    conflict:
+      description: conflict creating already existing resource
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+
+    internal:
+      description: internal error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
+
+    notFound:
+      description: The specified resource was not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/error'
