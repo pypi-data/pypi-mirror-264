@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: retried
+Version: 5.3.0
+Summary: A simple and powerful retrying library for Python
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Retried
+
+[![pypi](https://img.shields.io/pypi/v/retried.svg)](https://pypi.python.org/pypi/retried)
