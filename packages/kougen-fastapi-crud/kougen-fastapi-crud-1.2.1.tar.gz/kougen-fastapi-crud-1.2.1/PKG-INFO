@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: kougen-fastapi-crud
+Version: 1.2.1
+Summary: FastAPI CRUD generator
+Author-email: kougen <info@kou-gen.net>
+Maintainer-email: Joshua Hegedus <josh.hegedus@outlook.com>
+Project-URL: Homepage, https://github.com/kougen/fastapi-crud
+Project-URL: Issues, https://github.com/kougen/fastapi-crud/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pyrepositories
+
+# FastAPI CRUD with dynamic routers
+
+## Introduction
+
+This is a simple CRUD application using FastAPI. The application uses dynamic routers to create routes for each model in the database.
+
+## How to run
+
+First, install the dependencies:
+
+```bash
+
+pip install -r requirements.txt
+
+```

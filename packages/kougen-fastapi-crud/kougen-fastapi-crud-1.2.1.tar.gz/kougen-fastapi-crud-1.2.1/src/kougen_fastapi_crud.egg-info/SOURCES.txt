@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/crud/__init__.py
+src/crud/app.py
+src/crud/entities.py
+src/crud/lib.py
+src/kougen_fastapi_crud.egg-info/PKG-INFO
+src/kougen_fastapi_crud.egg-info/SOURCES.txt
+src/kougen_fastapi_crud.egg-info/dependency_links.txt
+src/kougen_fastapi_crud.egg-info/requires.txt
+src/kougen_fastapi_crud.egg-info/top_level.txt
