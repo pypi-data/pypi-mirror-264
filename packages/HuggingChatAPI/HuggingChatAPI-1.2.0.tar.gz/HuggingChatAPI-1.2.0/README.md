@@ -1,0 +1,92 @@
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://github.com/ILYXAAA/HuggingChatAPI/assets/107761814/6fa4af01-5719-4903-a2c3-f8b552ccf550" alt="Project logo"></a>
+</p>
+
+<h3 align="center">HuggingChatAPI</h3>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+![GitHub last commit](https://img.shields.io/github/last-commit/ILYXAAA/HuggingChatAPI)
+![GitHub Issues](https://img.shields.io/github/issues/ILYXAAA/HuggingChatAPI)
+
+</div>
+
+---
+
+> The project is an unofficial API for the site https://huggingface.co/chat  which allows you to quickly, without a UI interface, get answers to your questions using AI hosted by huggingface.
+
+## Table of Contents
+
+- [**About**](#about)
+- [**Getting Started**](#getting_started)
+- [**Usage**](#usage)
+- [**Built Using**](#built_using)
+- [**Authors**](#authors)
+
+&emsp;
+## About <a name = "about"></a>
+
+The project is an unofficial API for the site https://huggingface.co/chat  was created using reverse engineering and site traffic analysis using BurpSuite. The developed library can be used in your projects if you need to add text-AI to your project very quickly and easily
+
+&emsp;
+## Getting Started <a name = "getting_started"></a>
+
+### You can install the library as a package via pip
+
+  ```bash
+  pip install HuggingChatAPI
+  ```
+### Or use the library by installing it using git
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/ILYXAAA/HuggingChatAPI.git
+    ```
+
+2. Install the necessary libraries:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+&emsp;
+## Usage <a name="usage"></a>
+
+### To use the library, just write a couple lines of code.
+```python
+from HuggingChatAPI import SimpleHugChat
+
+#Initializing the SimpleHugChat class
+ChatBot = SimpleHugChat()
+
+#Use the send_prompt function to send our message to the AI model
+prompt = "Hello, how are you?"
+model_answer = ChatBot.send_prompt(prompt)
+
+print(model_answer)
+```
+
+### If you run this script, you will get an example like this:
+
+```bash
+> python client.py
+I am just a computer program, so I dont have feelings.
+
+If you need any assistance or have any queries related to programming,
+data science, machine learning, mathematics, or any other topic, feel free to ask.
+```
+
+### For more information, visit: https://github.com/ILYXAAA/HuggingChatAPI
+
+&emsp;
+## Built Using <a name = "built_using"></a>
+
+- [HuggingFace Chat](https://huggingface.co/chat/) - A website hosting all the specified models
+- [BurpSuite](https://portswigger.net/burp) - A utility for analyzing network traffic
+- [Python](https://www.python.org/) - The main language of the project
+
+## Author <a name = "authors"></a>
+[@ILYXAAA](https://github.com/ILYXAAA)

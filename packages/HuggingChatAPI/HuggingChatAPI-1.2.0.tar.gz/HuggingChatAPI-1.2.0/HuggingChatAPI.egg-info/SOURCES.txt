@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+HuggingChatAPI/Errors.py
+HuggingChatAPI/HuggingChatAPI.py
+HuggingChatAPI/Warnings.py
+HuggingChatAPI/__init__.py
+HuggingChatAPI/utils.py
+HuggingChatAPI.egg-info/PKG-INFO
+HuggingChatAPI.egg-info/SOURCES.txt
+HuggingChatAPI.egg-info/dependency_links.txt
+HuggingChatAPI.egg-info/requires.txt
+HuggingChatAPI.egg-info/top_level.txt
