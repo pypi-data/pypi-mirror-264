@@ -1,0 +1,11 @@
+# 0.0.1 - orange milkshake
+Updated 23 March 2024
+
+- math Function
+This function contains adding, subtracting, dividing and multipicating numbers, and haves *True* or *False* prefix for result variable<sup>default is *True*</sup>. Max numbers - 2.
+- terminal Function
+This function will print any value, string, variable, integer and etc..
+- First Release
+Let's leave our first hello here.
+
+There will be a lot of changelogs stored here, just... wait...

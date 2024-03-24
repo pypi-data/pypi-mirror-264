@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: zeroSharp
+Version: 0.0.1.1
+Summary: A language, made on Python, just for fun.
+Home-page: 
+Author: m.cernikin Labs, m.cernikin
+Author-email: mihailcernikin@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+License-File: LICENSE.txt
