@@ -1,0 +1,10 @@
+falcon_challenge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+falcon_challenge/config.py,sha256=-zkEabEG2Zaiz8UBu9t8NiFi9ftigyV1lMttMR7eZ0w,1459
+falcon_challenge/dataloaders.py,sha256=VN_bqCB81HAQOx7zSdSi1Z9NcOWzKcJ7Zdu077XjYeA,4801
+falcon_challenge/evaluator.py,sha256=gsAXgmJJTMmQW-5drWYDRoAuc0_P6yQc3u9e-91UCag,5770
+falcon_challenge/interface.py,sha256=magD0vIqXSxnVXUKmJ-vfYuUFwTHlO-CQemV2EKJeQs,775
+falcon_challenge-0.1.3.dist-info/LICENSE,sha256=x-Zd7-zrb-UNaYKZgxOUp4P1B1Gb2NIJl4zz4sju1Zs,1070
+falcon_challenge-0.1.3.dist-info/METADATA,sha256=RSfI48PNvnsIfSn7QGD5TRgBASEvrjz1QfehQlKfiCk,1821
+falcon_challenge-0.1.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+falcon_challenge-0.1.3.dist-info/top_level.txt,sha256=wYB4ExWuNJLOIDFql6SBtd4W1u2GPWr36fBLZkGaPJQ,17
+falcon_challenge-0.1.3.dist-info/RECORD,,
