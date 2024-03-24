@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bot_station_client/__init__.py
+bot_station_client/client.py
+bot_station_client.egg-info/PKG-INFO
+bot_station_client.egg-info/SOURCES.txt
+bot_station_client.egg-info/dependency_links.txt
+bot_station_client.egg-info/requires.txt
+bot_station_client.egg-info/top_level.txt
+bot_station_client/model/__init__.py
+bot_station_client/model/config.py
