@@ -1,0 +1,10 @@
+youtube_bulk_upload/__init__.py,sha256=Dy1beim-B_3Wesm9vpkH12_I99nMsAFeLUJFharDz70,43
+youtube_bulk_upload/bulk_upload.py,sha256=FxENejPLWA5g-Vzt_qHJWM0pGcJ5CSwpseCeFdTVVgE,19300
+youtube_bulk_upload/cli.py,sha256=LjYL8g7JNQ9e36aLljVaPlXk0O6xAeOcyHr8WlHaz6Y,7178
+youtube_bulk_upload/gui.py,sha256=xsmj_bP6P7GYHBy4fXX66eg9kc4IXyMI4C_mpxI8fhA,22019
+youtube_bulk_upload/logo.png,sha256=zGMGnBdjBt7ZW5ZJjbaxMWhNPOs33CXMgBQGEE02nbY,148610
+youtube_bulk_upload-0.2.5.dist-info/LICENSE,sha256=0li1XKGd12dkWRDkAk88ZNHuFKcG-i5XxojTFlUaB4s,1080
+youtube_bulk_upload-0.2.5.dist-info/METADATA,sha256=JON9QYwkdfYIsC2SyVG7ed2cKixwoaJ4qZX637ngMr8,4676
+youtube_bulk_upload-0.2.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+youtube_bulk_upload-0.2.5.dist-info/entry_points.txt,sha256=M6KV-tZmMds46DaBVMuL1AnmMaRxEoxrxJaUOfFRNZ4,121
+youtube_bulk_upload-0.2.5.dist-info/RECORD,,
