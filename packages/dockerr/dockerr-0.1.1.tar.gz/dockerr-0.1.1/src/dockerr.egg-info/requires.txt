@@ -1,0 +1,12 @@
+docker==7.0.0
+
+[dev]
+pre-commit
+black
+isort
+pylint
+dockerr[test]
+
+[test]
+pytest
+httpx
