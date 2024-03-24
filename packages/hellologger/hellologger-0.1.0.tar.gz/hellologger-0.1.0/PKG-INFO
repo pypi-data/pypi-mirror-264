@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hellologger
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/OSMChina/Yuheng
+License: MIT
+Author: 快乐的老鼠宝宝
+Author-email: laoshubaby@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Project-URL: Repository, https://github.com/OSMChina/Yuheng
+Description-Content-Type: text/markdown
+
+# HelloLogger
+
+HelloLogger是一个基于Loguru的同时向多个来源投送日志的日志框架，便于快速配置和接入Aliyun、AWS等SaaS；快速投递到ClickHouse、ElasticSearch、GreptimeDB、MongoDB等时序数据库或文档数据库；快速投递到Syslog或调用WebHook
+
+希望这个日志库能帮助您解决复杂项目中留痕和云观测的难题。
