@@ -1,0 +1,86 @@
+[package]
+name = "elektron_rs"
+version.workspace = true
+edition.workspace = true 
+license.workspace = true
+
+[workspace]
+
+[workspace.package]
+version = "0.0.7"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+thiserror = "1"
+lazy_static = "1"
+regex = "1"
+ndarray = "0"
+log = "0.4"
+pyo3 = { version = "0.20" }
+itertools = "0.12"
+rand = "0.8"
+yaml-rust = "0.4"
+xlsxwriter = "0.6"
+colored = "2"
+indexmap = "2"
+
+json = "0.12"
+pest = "2.7"
+pest_derive = "2.7"
+cairo-rs = { version = "0.19", features = ["svg", "png", "pdf"] }
+png = "0.17"
+svg = "0.15"
+pdf = "0.9"
+poppler-rs = "0.23"
+plotters = "0.3"
+plotters-svg = "0.3"
+anyhow = "1.0"
+hound = "3.5"
+tectonic = { version="0.15", features = ["external-harfbuzz"] }
+uuid = { version = "1.7", features = ["v4", "fast-rng", "macro-diagnostics"] }
+font-kit = "0.11"
+pathfinder_geometry = "0.5"
+pangocairo = "0.19"
+simplecss = "0.2"
+
+[lib]
+name = "elektron"
+path = "src/cli/src/lib.rs"
+crate-type = ["cdylib"]
+
+[profile.release-lto]
+inherits = "release"
+lto = true
+
+[dependencies]
+sexp = { path = "src/sexp" }
+sexp_macro = { path = "src/sexp_macro" }
+simulation = { path = "src/simulation" }
+reports = { path = "src/reports" }
+plotter = { path = "src/plotter" }
+draw = { path = "src/draw"}
+notebook = { path = "src/notebook" }
+ngspice = { path = "src/ngspice" }
+
+log = "0.4"
+colored = "2"
+thiserror = "1"
+lazy_static = "1"
+regex = "1"
+ndarray = "0"
+pyo3 = { version = "0.20" }
+itertools = "0.12"
+rand = "0.8"
+yaml-rust = "0.4"
+xlsxwriter = "0.6"
+indexmap = "2"
+comfy-table = "7"
+viuer = "0.7"
+rust-fuzzy-search = "0.1.1"
+tempfile = "3"
+env_logger = "0.11"
+json = "0.12"
+
+[build-dependencies]
+pyo3-build-config = "0.20"

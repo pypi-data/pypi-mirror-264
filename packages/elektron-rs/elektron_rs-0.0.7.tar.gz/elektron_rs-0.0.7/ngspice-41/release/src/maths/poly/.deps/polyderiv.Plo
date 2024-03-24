@@ -1,0 +1,4 @@
+polyderiv.lo: ../../../../src/maths/poly/polyderiv.c \
+ /usr/include/stdc-predef.h ../../../../src/maths/poly/polyderiv.h
+/usr/include/stdc-predef.h:
+../../../../src/maths/poly/polyderiv.h:

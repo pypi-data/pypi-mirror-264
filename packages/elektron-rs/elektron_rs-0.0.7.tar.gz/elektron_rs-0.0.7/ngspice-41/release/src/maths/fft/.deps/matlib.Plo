@@ -1,0 +1,4 @@
+matlib.lo: ../../../../src/maths/fft/matlib.c /usr/include/stdc-predef.h \
+ ../../../../src/maths/fft/matlib.h
+/usr/include/stdc-predef.h:
+../../../../src/maths/fft/matlib.h:

@@ -1,0 +1,41 @@
+Metadata-Version: 2.3
+Name: elektron_rs
+Version: 0.0.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: matplotlib
+Requires-Dist: matplotlib-backend-kitty
+Summary: programmatically create electronic projects
+Keywords: electronics,circuit
+Author-email: spielhuus <spielhuus@gmail.com>
+License: BSD-3-Clause
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+[![Deploy](https://github.com/spielhuus/elektron-rs/actions/workflows/CI.yml/badge.svg)](https://github.com/spielhuus/elektron-rs/actions/workflows/CI.yml)
+[![Test](https://github.com/spielhuus/elektron-rs/actions/workflows/test.yml/badge.svg)](https://github.com/spielhuus/elektron-rs/actions/workflows/test.yml)
+
+# elektron
+
+elektron is a continuous integration and simulation tool for electronics projects.
+
+## installation
+
+### dependencies
+
+install the required packages:
+
+ubuntu 
+
+arch linux
+
+```
+arch -Sy kicad kicad-library python-pip git rustup poppler-glib
+rustup default stable
+```
+
+
+
+# About
+
+work in progress project.
+

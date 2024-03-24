@@ -1,0 +1,5 @@
+libngspice_la-conf.lo: ../../src/conf.c /usr/include/stdc-predef.h \
+ ../src/include/ngspice/config.h ../../src/conf.h
+/usr/include/stdc-predef.h:
+../src/include/ngspice/config.h:
+../../src/conf.h:

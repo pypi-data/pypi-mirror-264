@@ -1,0 +1,4 @@
+graft src
+
+include Cargo.toml
+exclude src/elektron.egg-info

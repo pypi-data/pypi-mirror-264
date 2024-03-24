@@ -1,0 +1,4 @@
+polyeval.lo: ../../../../src/maths/poly/polyeval.c \
+ /usr/include/stdc-predef.h ../../../../src/maths/poly/polyeval.h
+/usr/include/stdc-predef.h:
+../../../../src/maths/poly/polyeval.h:

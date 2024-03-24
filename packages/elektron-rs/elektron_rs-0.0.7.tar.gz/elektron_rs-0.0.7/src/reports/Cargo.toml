@@ -1,0 +1,24 @@
+[package]
+name = "reports"
+version.workspace = true
+edition.workspace = true 
+license.workspace = true
+
+[lib]
+name = "reports"
+
+[dependencies]
+sexp = { path = "../sexp" }
+simulation = { path = "../simulation" }
+
+log.workspace = true
+pyo3.workspace = true
+thiserror.workspace = true
+lazy_static.workspace = true
+regex.workspace = true
+itertools.workspace = true
+ndarray.workspace = true
+rand.workspace = true
+yaml-rust.workspace = true
+xlsxwriter.workspace = true
+colored.workspace = true

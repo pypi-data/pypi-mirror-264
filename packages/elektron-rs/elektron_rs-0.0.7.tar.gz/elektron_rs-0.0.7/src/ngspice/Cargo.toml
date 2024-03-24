@@ -1,0 +1,16 @@
+[package]
+name = "ngspice"
+description = "ngspice bindings for elektron"
+version.workspace = true
+edition.workspace = true 
+license.workspace = true
+
+[lib]
+name = "ngspice"
+
+[dependencies]
+libloading = "0.8"
+thiserror.workspace = true
+
+[build-dependencies]
+bindgen = "0"
