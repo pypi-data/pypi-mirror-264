@@ -1,0 +1,13 @@
+[console_scripts]
+ByteDecrypt = MonoCipher.ByteEncryption:byte_decrypt
+ByteEncrypt = MonoCipher.ByteEncryption:byte_encrypt
+HmacDecrypt = MonoCipher.HmacEncryption:hmac_decrypt
+HmacEncrypt = MonoCipher.HmacEncryption:hmac_encrypt
+MacDecrypt = MonoCipher.MacEncryption:mac_decrypt
+MacEncrypt = MonoCipher.MacEncryption:mac_encrypt
+NonceDecrypt = MonoCipher.NonceEncryption:nonce_decrypt
+NonceEncrypt = MonoCipher.NonceEncryption:nonce_encrypt
+SaltDecrypt = MonoCipher.SaltEncryption:salt_decrypt
+SaltEncrypt = MonoCipher.SaltEncryption:salt_encrypt
+ShiftDecrypt = MonoCipher.SimpleEncryption:shift_decrypt
+ShiftEncrypt = MonoCipher.SimpleEncryption:shift_encrypt
