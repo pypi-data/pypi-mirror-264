@@ -1,0 +1,31 @@
+# Python bitget API Library
+
+[bitget](https://www.bitget.com/en/referral/register?from=referral&clacCode=6EKP94LE) is a cryptocurrency derivatives exchange.
+
+This is a wrapper around the Bitget API as described on Bitget, including all features the API provides using clear and readable objects, both for the REST  as the websocket API.
+
+# Install
+
+Exécute pip commande:
+
+```
+pip install PybitgetApi
+```
+
+# Usage
+
+> Change your API KEY and your SECRET KEY.
+
+### Restful Api Sample Code
+
+```python
+from PybitgetApi import Client
+
+api_key = "your-api-key"
+api_secret = "your-secret-key"
+api_passphrase = "your-api-passphrase"
+
+client = Client(api_key, api_secret, passphrase=api_passphrase)
+result = client.mix_get_accounts(productType='UMCBL')
+print(result)
+```
