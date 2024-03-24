@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: portrait-analyser
+Version: 0.1.1
+Summary: Python module for portrait picture analysis
+License: MIT
+Author: Michał Pasternak
+Author-email: michal.dtz@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: opencv-python (>=4.9.0.80,<5.0.0.0)
+Requires-Dist: piexif (>=1.1.3,<2.0.0)
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Requires-Dist: pyheif (>=0.7.1,<0.8.0) ; sys_platform == "linux"
+Requires-Dist: pyheif-iplweb (>=0.7.1.dev1176,<0.8.0) ; sys_platform == "darwin"
+Description-Content-Type: text/markdown
+
+# portrait-analyser
+Python module for portrait picture analysis
+
