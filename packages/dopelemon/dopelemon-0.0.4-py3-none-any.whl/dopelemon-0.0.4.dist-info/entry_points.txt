@@ -1,0 +1,3 @@
+[console_scripts]
+dope=service_sdk.cli:cli
+
