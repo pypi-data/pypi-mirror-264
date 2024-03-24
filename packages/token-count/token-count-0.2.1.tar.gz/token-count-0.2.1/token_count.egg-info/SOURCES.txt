@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+token_count/__init__.py
+token_count/main.py
+token_count/token_count.py
+token_count.egg-info/PKG-INFO
+token_count.egg-info/SOURCES.txt
+token_count.egg-info/dependency_links.txt
+token_count.egg-info/entry_points.txt
+token_count.egg-info/requires.txt
+token_count.egg-info/top_level.txt
