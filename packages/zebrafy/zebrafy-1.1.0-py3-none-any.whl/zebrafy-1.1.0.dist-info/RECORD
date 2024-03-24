@@ -1,0 +1,11 @@
+zebrafy/__init__.py,sha256=TmzDrojpNdV1NPHNRX4NBx3-hYzN6pfYhdXY4TnW0AE,196
+zebrafy/crc.py,sha256=Od49ebd4sq1DOb-yVUQjNfFXKQD3A2efaV9KDVhbjo4,3401
+zebrafy/graphic_field.py,sha256=RSf67G7DrEFcc2l0q2ofTEQbkFvXIWj8O66QNCFkUWQ,6644
+zebrafy/zebrafy_image.py,sha256=mRJEDw7c4VRkVNm7QxrYbIuJx68L5fi3Jr6Kf-O_-kc,11276
+zebrafy/zebrafy_pdf.py,sha256=1yybOBhInSB0nssUe9XJUIfr_q9xWXMsKMlZbyjcoDg,10362
+zebrafy/zebrafy_zpl.py,sha256=SufAVAyjLicCQEVL206gosze7nTE-nJ-CD-vxvNbJ_M,5654
+zebrafy-1.1.0.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+zebrafy-1.1.0.dist-info/METADATA,sha256=977G7ZNgQy9ImyeEn6Mf32LzlVZ8XtJU_hO_-4XV-g0,10405
+zebrafy-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zebrafy-1.1.0.dist-info/top_level.txt,sha256=mJmK3hNUKahW49Nsxo4Yu3mnpQDv35rTlmxbpllDQnI,8
+zebrafy-1.1.0.dist-info/RECORD,,
