@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lightning-module-enhanced
+Version: 0.26
+Summary: Lightning Module Enhanced
+Home-page: https://gitlab.com/mihaicristianpirvu/lightning-module-enhanced
+License: WTFPL
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytorch_lightning==2.2.0.post0
+Requires-Dist: torch>=2.1.1
+Requires-Dist: torchinfo>=1.6.5
+Requires-Dist: torchmetrics>=0.11.4
+Requires-Dist: overrides>=6.1.0
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: tensorboardX>=2.5.1
+Requires-Dist: pool-resources>=0.2.3
+
+# Lightning Module Enhanced
+
+Trying to make pytorch-lightning more *pythonic*, whatever that means.
+
+Docs [here](docs/).
