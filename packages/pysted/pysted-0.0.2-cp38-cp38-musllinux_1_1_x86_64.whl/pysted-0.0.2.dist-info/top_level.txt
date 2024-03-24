@@ -1,0 +1,6 @@
+docs
+examples
+flash_files
+pysted
+script_templates
+wheelhouse
