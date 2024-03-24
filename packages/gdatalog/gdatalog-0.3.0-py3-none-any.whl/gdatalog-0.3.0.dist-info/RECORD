@@ -1,0 +1,10 @@
+gdatalog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdatalog/__main__.py,sha256=GHpUxCbXbBcIzJNIQUN56uxG8zkQhjlv-4ZMxTUirvQ,99
+gdatalog/cli.py,sha256=0SeLpwY5i0qSu_XKLtrTzE1Kn4ARXe6oEMPbSGaqobM,5577
+gdatalog/delta_terms.py,sha256=hqqk7vNWAy6thXQAPYiD86FrkcGEEeWSk3Tv3aaPHk0,7190
+gdatalog/program.py,sha256=oGY1V-i6fm7--W4L7LIwhLpOk8Y88JnS-ntLnZnBrYQ,7458
+gdatalog/utils.py,sha256=vCPRMMWqq0OaQioXcG3kJjnNhJ83bQM_EpvunOB6q3Y,1662
+gdatalog-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gdatalog-0.3.0.dist-info/METADATA,sha256=tkinYP_exFMf2t0oinn294GLBM6v_eZB2MsfV5SOOaY,621
+gdatalog-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gdatalog-0.3.0.dist-info/RECORD,,

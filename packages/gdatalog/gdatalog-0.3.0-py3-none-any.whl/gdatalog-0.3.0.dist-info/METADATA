@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gdatalog
+Version: 0.3.0
+Summary: Genereative Datalog with stable negation
+Author: Mario Alviano
+Author-email: mario.alviano@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: distlib (>=0.3.6,<0.4.0)
+Requires-Dist: dumbo-asp (>=0.3.6,<0.4.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: scipy (>=1.12.0,<2.0.0)
+Requires-Dist: typeguard (>=4.1.5,<5.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Requires-Dist: valid8 (>=5.1.2,<6.0.0)
