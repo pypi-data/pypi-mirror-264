@@ -1,0 +1,117 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypixie16"
+dynamic = ["version"]
+authors = [
+   { name = "Arun Persaud", email = "apersaud@lbl.gov" },
+   { name = "Ariel Amsellem", email = "ajamsellem@lbl.gov" },
+   { name = "Andrew Rosenstrom", email = "arosenstrom@lbl.gov" },
+   { name = "Brian Mak", email = "brianmak@lbl.gov" },
+   { name = "Mauricio Ayllon Unzueta", email = "mayllonu@lbl.gov" },
+   { name = "Will Larsen", email = "wlarsen@lbl.gov" },
+   { name = "Caroline Egan", email ="cegan@lbl.gov" },
+]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.9"
+dependencies = [
+    "appdirs",
+    "bitstruct",
+    "docopt",
+    "fast-histogram",
+    "matplotlib",
+    "msgspec",
+    "more_itertools",
+    "numpy",
+    "pandas",
+    "pint",
+    "platformdirs",
+    "PyQt6",
+    "rich",
+    "setuptools",
+    "setuptools_scm",
+    "tables",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.optional-dependencies]
+fast = ["cbitstruct"]
+test = ["pytest", "pytest-cov"]
+docs = [
+    "alabaster",
+    "markupsafe",
+    "sphinx",
+    "sphinxcontrib-napoleon",
+    "recommonmark",
+]
+
+[project.urls]
+documentation = "https://pypixie16.readthedocs.io/en/latest/"
+homepage = "https://bitbucket.org/berkeleylab/pypixie16"
+issues = "https://bitbucket.org/berkeleylab/pypixie16/issues"
+changelog = "https://bitbucket.org/berkeleylab/pypixie16/src/main/CHANGELOG.md"
+
+[project.scripts]
+pixie16-parameter-scan = "pixie16.cli.parameter_scan:main"
+pixie16-binary-browser = "pixie16.cli.binary_browser:main"
+pixie16-coincidence = "pixie16.cli.coincidence:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"pixie16" = ["py.typed", "*.json", "*.bin"]
+
+[tool.setuptools_scm]
+write_to = "src/pixie16/_version.py"
+
+[tool.coverage.run]
+branch = true
+source = ["src/pixie16", "tests"]
+
+[tool.coverage.report]
+skip_covered = true
+
+[tool.black]
+line-length = 88
+
+[tool.pylint.FORMAT]
+max-line-length="88"
+
+[tool.pylint."MESSAGES CONTROL"]
+# bad-continuation: Black does the job, no need to check.
+disable = "bad-continuation, logging-fstring-interpolation, line-too-long"
+
+[tool.pylint.MASTER]
+extension-pkg-whitelist="PyQt6"
+jobs=4
+
+[tool.pylint.TYPECHECK]
+# zmq.{LINGER,REQ,ROUTER,NOBLOCK} are dynamically generated and so pylint
+# doesn't see them, causing false positives.
+generated-members=[
+        "REQ",
+        "REP",
+        "RCVTIMEO",
+        "PUB",
+        "SUB",
+        "NOBLOCK",
+        "AF_INET",
+        "SOCK_STREAM",
+        "TCP_NODELAY",
+        "SOCK_DGRAM",
+        "IPPROTO_TCP",
+        ]
