@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+redocmx/__init__.py
+redocmx/cfdi.py
+redocmx/pdf.py
+redocmx/redoc.py
+redocmx/service.py
+redocmx.egg-info/PKG-INFO
+redocmx.egg-info/SOURCES.txt
+redocmx.egg-info/dependency_links.txt
+redocmx.egg-info/requires.txt
+redocmx.egg-info/top_level.txt
