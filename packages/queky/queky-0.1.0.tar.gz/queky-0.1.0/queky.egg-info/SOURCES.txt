@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+queky/__init__.py
+queky/gpt.py
+queky/main.py
+queky/utils.py
+queky.egg-info/PKG-INFO
+queky.egg-info/SOURCES.txt
+queky.egg-info/dependency_links.txt
+queky.egg-info/entry_points.txt
+queky.egg-info/requires.txt
+queky.egg-info/top_level.txt
+queky/assets/data.json
