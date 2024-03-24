@@ -1,0 +1,8 @@
+jsonable_platform/__init__.py,sha256=mHJP6lYeBf1T1FJxHcZB9xOR3HGclmijfw8dLMnGyWM,162
+jsonable_platform/core.py,sha256=DVPU0abE7iff4u8m5ev8nDb5o0gcfDdWtLNw4HUDF10,10472
+jsonable_platform/shared.py,sha256=ICTR9huUeDKtuN1qOsPOu0kIiTR_OmzL4KQdkci75HY,2448
+jsonable_platform/type.py,sha256=MHJNFJma9OeRCN1yTagy35Z4lRHRX3lIUFUR8hh3nY8,2838
+jsonable_platform-0.0.4.20240324122753.dist-info/LICENSE,sha256=8Lb6iWhN88DpO1ysgeRml3Wwoc9ISQnrpgjatb9uf1U,1527
+jsonable_platform-0.0.4.20240324122753.dist-info/METADATA,sha256=93vyMo3UOutqRRhHPhPdI27WgxGp5M-9QCR2PErb0x4,1520
+jsonable_platform-0.0.4.20240324122753.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+jsonable_platform-0.0.4.20240324122753.dist-info/RECORD,,
