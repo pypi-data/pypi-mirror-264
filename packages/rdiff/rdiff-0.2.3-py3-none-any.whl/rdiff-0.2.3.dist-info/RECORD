@@ -1,0 +1,10 @@
+rdiff/__init__.py,sha256=dpyljFQYNYtFIVoiD5unqmCj6pH2REzhPWz-v7baEIE,93
+rdiff/delta.py,sha256=SpGK41mGiwYycmikKai34Bp0E6ZlpuBqRIsZSM-Bbiw,6785
+rdiff/md4.py,sha256=JSq4oCKrJ2jijlGhWNbIjsQg8ndLHMpSl-j15mYNq7M,4818
+rdiff/patch.py,sha256=N1KQ4SrVmVjVb498McyM1GFySuv1xGNuhJZm4Lc3dUY,2373
+rdiff/signature.py,sha256=VDIp_RJn79R0nwSXi6xBKFZUBEOt-eGd_3apsISKuqE,5849
+rdiff-0.2.3.dist-info/LICENSE.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+rdiff-0.2.3.dist-info/METADATA,sha256=3MZxxwcnkiUodalU4Yw8KL-FsnhRg1Wug5AF5wFCv1Y,5547
+rdiff-0.2.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rdiff-0.2.3.dist-info/top_level.txt,sha256=MDS76uNKXOtG9xlSpl4qr01pW9wdsbD0FUyyOhMnYK8,6
+rdiff-0.2.3.dist-info/RECORD,,
