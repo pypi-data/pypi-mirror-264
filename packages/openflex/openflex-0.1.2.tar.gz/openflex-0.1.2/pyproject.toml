@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openflex"
+version = "0.1.2"
+authors = [
+    {name = "Greg Stitt"},
+    {name = "Wesley Piard"},
+]
+description = "Framework for Logic Synthesis and EXploration"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["rtl", "hdl", "fpga"]
+dependencies = [
+    "pyyaml>=6",
+    "click>=8",
+]
+
+[project.scripts]
+openflex = "openflex.__main__:run"
+
+[tool.setuptools.packages.find]
+include = ["openflex"]
+
+[tool.black]
+line-length = 100
+
