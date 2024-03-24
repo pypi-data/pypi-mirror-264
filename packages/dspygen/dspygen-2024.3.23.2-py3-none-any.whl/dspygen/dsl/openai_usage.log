@@ -1,0 +1,14 @@
+AssertionError: The length of the  should be 1 minimum but was 0
+AssertionError: The length of the  should be 100 minimum but was 0
+AssertionError: The length of the Hello, world! should be 100 minimum but was 13
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 404 Not Found"
+Backing off request(...) for 0.8s (openai.NotFoundError: Error code: 404 - {'error': {'message': 'The model `text-davinci-003` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}})
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 404 Not Found"
+Backing off request(...) for 1.0s (openai.NotFoundError: Error code: 404 - {'error': {'message': 'The model `text-davinci-003` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}})
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 404 Not Found"
+Backing off request(...) for 0.3s (openai.NotFoundError: Error code: 404 - {'error': {'message': 'The model `text-davinci-003` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}})
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 404 Not Found"
+Backing off request(...) for 5.8s (openai.NotFoundError: Error code: 404 - {'error': {'message': 'The model `text-davinci-003` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}})
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"

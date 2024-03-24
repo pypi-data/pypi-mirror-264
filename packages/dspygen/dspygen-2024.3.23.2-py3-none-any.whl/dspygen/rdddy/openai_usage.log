@@ -1,0 +1,293 @@
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+14 validation errors for EventStormingDomainSpecificationModel
+domain_event_classnames
+  List should have at least 3 items after validation, not 2 [type=too_short, input_value=['ShippingLabelProduced', 'CertificateIdPosted'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+external_event_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+command_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['CompleteQuestionnaireCommand'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+query_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['SelectDecisionTreeQuery'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+aggregate_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['ShippingLabelAggregate'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+policy_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['DecisionTreePolicy'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+read_model_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+view_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+ui_event_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+saga_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+integration_event_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+exception_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+value_object_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+task_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['CompleteQuestionnaireTask'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+Error You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+14 validation errors for EventStormingDomainSpecificationModel
+domain_event_classnames
+  List should have at least 3 items after validation, not 2 [type=too_short, input_value=['ShippingLabelProduced', 'CertificateIdPosted'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+external_event_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+command_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['CompleteQuestionnaireCommand'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+query_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['SelectDecisionTreeQuery'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+aggregate_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['ShippingLabelAggregate'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+policy_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['DecisionTreePolicy'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+read_model_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+view_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+ui_event_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+saga_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+integration_event_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+exception_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+value_object_classnames
+  Field required [type=missing, input_value={'domain_event_classnames...lectDecisionTreeQuery']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+task_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['CompleteQuestionnaireTask'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+Output:
+{"domain_event_classnames": ["ShippingLabelProduced", "CertificateIdPosted"], "command_classnames": ["CompleteQuestionnaireCommand"], "policy_classnames": ["DecisionTreePolicy"], "aggregate_classnames": ["ShippingLabelAggregate"], "task_classnames": ["CompleteQuestionnaireTask"], "query_classnames": ["SelectDecisionTreeQuery"]}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+3 validation errors for EventStormingDomainSpecificationModel
+domain_events.0
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='OrderPlaced', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.1
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PaymentProcessed', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.2
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='InventoryUpdated', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+Error You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+3 validation errors for EventStormingDomainSpecificationModel
+domain_events.0
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='OrderPlaced', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.1
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PaymentProcessed', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.2
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='InventoryUpdated', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+Output:
+{
+    "domain_events": ["OrderPlaced", "PaymentProcessed", "InventoryUpdated"]
+}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+malformed node or string on line 1: <ast.Call object at 0x13d138fa0>
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+3 validation errors for EventStormingDomainSpecificationModel
+domain_events.0
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='OrderPlaced', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.1
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PaymentProcessed', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.2
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='InventoryUpdated', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+Error You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+3 validation errors for EventStormingDomainSpecificationModel
+domain_events.0
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='OrderPlaced', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.1
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PaymentProcessed', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.2
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='InventoryUpdated', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+Output:
+{
+    "domain_events": ["OrderPlaced", "PaymentProcessed", "InventoryUpdated"],
+    "actor_id": -1,
+    "content": None,
+    "message_type": ""
+}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+3 validation errors for EventStormingDomainSpecificationModel
+domain_events.0
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PackageShipped', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.1
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PackageDelivered', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.2
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PackageReturned', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+Error You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+3 validation errors for EventStormingDomainSpecificationModel
+domain_events.0
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PackageShipped', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.1
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PackageDelivered', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+domain_events.2
+  Input should be a valid dictionary or instance of AbstractEvent [type=model_type, input_value='PackageReturned', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+Output:
+{"domain_events": ["PackageShipped", "PackageDelivered", "PackageReturned"], "actor_id": [1, 2, 3], "content": [{"package_id": 12345, "delivery_status": "In Transit"}, {"package_id": 67890, "delivery_status": "Delivered"}, {"package_id": 24680, "delivery_status": "Returned"}], "message_type": "Event"}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+1 validation error for EventStormingDomainSpecificationModel
+  Input should be a valid dictionary or instance of EventStormingDomainSpecificationModel [type=model_type, input_value='{"domain_events": [{"act...tem.PackageReturned"}]}', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.6/v/model_type
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+2 validation errors for EventStormingDomainSpecificationModel
+external_event_classnames
+  List should have at least 3 items after validation, not 2 [type=too_short, input_value=['OrderSpecificQuestionna...naireCertificatePosted'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+command_classnames
+  List should have at least 3 items after validation, not 2 [type=too_short, input_value=['InvokeBrowser', 'CloseBrowser'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+Error You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+2 validation errors for EventStormingDomainSpecificationModel
+external_event_classnames
+  List should have at least 3 items after validation, not 2 [type=too_short, input_value=['OrderSpecificQuestionna...naireCertificatePosted'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+command_classnames
+  List should have at least 3 items after validation, not 2 [type=too_short, input_value=['InvokeBrowser', 'CloseBrowser'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+Output:
+{
+    "domain_event_classnames": ["ShippingLabelProduced", "QuestionnaireCompleted", "BrowserClosed"],
+    "external_event_classnames": ["OrderSpecificQuestionnaireLoaded", "QuestionnaireCertificatePosted"],
+    "command_classnames": ["InvokeBrowser", "CloseBrowser"],
+    "query_classnames": ["GetOrderDetails", "ListAvailableProducts", "CheckCustomerCredit"],
+    "aggregate_classnames": ["OrderAggregate", "CustomerAggregate", "ProductAggregate"],
+    "policy_classnames": ["OrderFulfillmentPolicy", "ReturnPolicy", "DiscountPolicy"],
+    "read_model_classnames": ["OrderSummaryReadModel", "ProductCatalogReadModel", "CustomerProfileReadModel"],
+    "view_classnames": ["OrderDetailsView", "ProductListView", "CustomerDashboardView"],
+    "ui_event_classnames": ["ButtonClick", "FormSubmitted", "PageLoaded"],
+    "saga_classnames": ["OrderProcessingSaga", "CustomerOnboardingSaga", "InventoryRestockSaga"],
+    "integration_event_classnames": ["OrderCreatedIntegrationEvent", "PaymentConfirmedIntegrationEvent", "InventoryCheckIntegrationEvent"],
+    "exception_classnames": ["OrderNotFoundException", "PaymentFailedException", "InventoryShortageException"],
+    "value_object_classnames": ["AddressValueObject", "MoneyValueObject", "QuantityValueObject"],
+    "task_classnames": ["ValidateOrderTask", "AllocateInventoryTask", "NotifyCustomerTask"]
+}
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/completions "HTTP/1.1 200 OK"
+AssertionError: You need to create a kwargs dict for EventStormingDomainSpecificationModel
+
+            Validation error:
+14 validation errors for EventStormingDomainSpecificationModel
+domain_event_classnames
+  Field required [type=missing, input_value={'external_event_classnam...s': ['BusinessAnalyst']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+external_event_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['OrderSpecificQuestionnaireCertificatePosted'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+command_classnames
+  List should have at least 3 items after validation, not 2 [type=too_short, input_value=['InvokeBrowser', 'CloseBrowser'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+query_classnames
+  Field required [type=missing, input_value={'external_event_classnam...s': ['BusinessAnalyst']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+aggregate_classnames
+  Field required [type=missing, input_value={'external_event_classnam...s': ['BusinessAnalyst']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+policy_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['BusinessAnalyst'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+read_model_classnames
+  Field required [type=missing, input_value={'external_event_classnam...s': ['BusinessAnalyst']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+view_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['OrderSpecificQuestionnaire'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+ui_event_classnames
+  Field required [type=missing, input_value={'external_event_classnam...s': ['BusinessAnalyst']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+saga_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['OrderSpecificQuestionnaireSaga'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+integration_event_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['OrderSpecificQuestionnaireIntegrationEvent'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+exception_classnames
+  Field required [type=missing, input_value={'external_event_classnam...s': ['BusinessAnalyst']}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.6/v/missing
+value_object_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['OrderSpecificQuestionnaireCertificate'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short
+task_classnames
+  List should have at least 3 items after validation, not 1 [type=too_short, input_value=['OrderSpecificQuestionnaireTask'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.6/v/too_short

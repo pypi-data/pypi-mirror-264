@@ -1,0 +1,16 @@
+FeatureID,FeatureDescription
+1,Document Upload
+2,Generate Unique Signing Link
+3,Email Link to Signer
+4,Signature Capture
+5,Document Preview
+6,Save Signature
+7,Confirm Signature Placement
+8,Email Confirmation to Sender
+9,Signature Validation
+10,Document Download
+11,Mobile Responsive Design
+12,API for Document Management
+13,Drag-and-Drop Document Upload
+14,Custom Signing Instructions
+15,Link Expiration
