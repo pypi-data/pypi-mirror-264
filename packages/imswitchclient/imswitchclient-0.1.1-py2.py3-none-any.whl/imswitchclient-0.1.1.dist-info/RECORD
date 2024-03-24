@@ -1,0 +1,11 @@
+imswitchclient/ImSwitchClient.py,sha256=YPJZR654kWI1DGpRhUsGJZD9n-CXh2K2gXLRtsa_HW0,1577
+imswitchclient/__init__.py,sha256=Q5-2WW9ITfqMymy1gTzdFq99eF46bv9DldWYsllQBgg,239
+imswitchclient/client.py,sha256=inLQQzuTTSuV_Mcyptndq5qrVr5jQM4v_wDAGdc0f2Y,2568
+imswitchclient/positionersManager.py,sha256=Xfn82bJiDOqY9rQRa_tAqIPUPyyEiorwKemzObzL2LI,1117
+imswitchclient/recordingManager.py,sha256=oX7HkXrj09dxqBuVha9B1cn_IWT5VRRjZU5Wxwkpjts,929
+imswitchclient-0.1.1.dist-info/AUTHORS.rst,sha256=IQXyAUovSt8BJSQM2YMxdkus10jrMM59vNfpfxGZOaY,166
+imswitchclient-0.1.1.dist-info/LICENSE,sha256=_eXPSR61wwAoG0cCp_6F0gCC1p78Tgp_HK5vau-pPoo,1077
+imswitchclient-0.1.1.dist-info/METADATA,sha256=1xYiHjPXfDcBOU8BLTKaPK8hKNOCVguVr_0tAHr80lE,2858
+imswitchclient-0.1.1.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+imswitchclient-0.1.1.dist-info/top_level.txt,sha256=xxBING_CN0KwB2lPEAoA_pG0jdtu65ka_c8fTcHeV5c,15
+imswitchclient-0.1.1.dist-info/RECORD,,
