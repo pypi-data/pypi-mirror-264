@@ -1,0 +1,3 @@
+[console_scripts]
+higgsfield=higgsfield.internal.main:cli
+
