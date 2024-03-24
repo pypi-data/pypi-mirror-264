@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+kalamari/__init__.py
+kalamari/main.py
+kalamari_cli.egg-info/PKG-INFO
+kalamari_cli.egg-info/SOURCES.txt
+kalamari_cli.egg-info/dependency_links.txt
+kalamari_cli.egg-info/entry_points.txt
+kalamari_cli.egg-info/requires.txt
+kalamari_cli.egg-info/top_level.txt
