@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+todayhitokoto/__init__.py
+todayhitokoto.egg-info/PKG-INFO
+todayhitokoto.egg-info/SOURCES.txt
+todayhitokoto.egg-info/dependency_links.txt
+todayhitokoto.egg-info/entry_points.txt
+todayhitokoto.egg-info/top_level.txt

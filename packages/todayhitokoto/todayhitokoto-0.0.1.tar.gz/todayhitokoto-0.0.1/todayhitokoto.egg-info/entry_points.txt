@@ -1,0 +1,2 @@
+[console_scripts]
+todayhitokoto = todayhitokoto:start

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todayhitokoto"
+version = "0.0.1"
+requires-python = ">=3.8"
+authors = [
+  {name = "Zhihan", email = "zhihan2727@hotmail.com"}
+]
+description = "今日所想，一言，即可概括。"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["todayhitokoto", "hitokoto", "api"]
+
+[project.urls]
+Homepage = "https://todayhitokoto.github.io/"
+Documentation = "https://todayhitokoto.github.io/"
+Repository = "https://github.com/TodayHitokoto/api.git"
+"Bug Tracker" = "https://github.com/TodayHitokoto/api/issues"
+
+[project.scripts]
+todayhitokoto = "todayhitokoto:start"
