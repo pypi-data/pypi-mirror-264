@@ -1,0 +1,7 @@
+README.md
+setup.py
+rir_api.egg-info/PKG-INFO
+rir_api.egg-info/SOURCES.txt
+rir_api.egg-info/dependency_links.txt
+rir_api.egg-info/requires.txt
+rir_api.egg-info/top_level.txt
