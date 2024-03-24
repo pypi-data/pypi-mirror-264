@@ -1,0 +1,3 @@
+[console_scripts]
+izaax=izaax.cli:main
+
