@@ -1,0 +1,17 @@
+Sphinx>=4
+
+[dev]
+build
+twine
+cruft
+
+[docs]
+furo
+sphinxnotes-any
+sphinx_design
+sphinx_copybutton
+sphinxcontrib-gtagjs
+sphinxnotes-strike
+
+[test]
+pytest
