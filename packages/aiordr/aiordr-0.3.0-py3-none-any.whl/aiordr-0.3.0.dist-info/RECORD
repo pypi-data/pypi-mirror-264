@@ -1,0 +1,16 @@
+aiordr/__init__.py,sha256=PxaTmz2oxtphBbVmNGe-DgbT3OL461wyA85k8Dyvaz8,585
+aiordr/client.py,sha256=vdbLy4LZXHSnEvP2a99ybE4SVAXgqeYuxgmDqKvswZw,14334
+aiordr/exceptions.py,sha256=XeAngTQXB9tQ2Vy6YJsHhIDQktNYO6QeQKiFkfx0DRI,814
+aiordr/helpers.py,sha256=8Ha5C4XiRugVMnRej9_xYND-Qbn4y7PjdzS-SVitqL0,1791
+aiordr/models/__init__.py,sha256=IvQsv8Rbip5znIm1GvU5rD8_IuShulB2zj1p7FDfWOU,218
+aiordr/models/base.py,sha256=Of4oCUPQny6JMecBZUQEd6SnmmuCREYxAhOc6OS-Axo,800
+aiordr/models/errorcode.py,sha256=PFXsYj3Adsws0mfOk4KTALJFevNf339oI3S4xGlzhU4,1364
+aiordr/models/events.py,sha256=TpnPXhPfXcVFIvR1Z1HwwbYrhoslaqF3iFj3w1JBNkY,976
+aiordr/models/render.py,sha256=tq6rdtpFQcX5TvnKTzZQaS1OhrPqwcJish8XX5QKleE,5304
+aiordr/models/renderserver.py,sha256=cCfj5qyqrMsKetVWOk00bQKMedSNEhD2GJRglX_NEPg,1339
+aiordr/models/skin.py,sha256=P6Bxd7G_Eim598RAMQZSI0FicwilghElouTohh5TpWg,1039
+py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiordr-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aiordr-0.3.0.dist-info/METADATA,sha256=kYxBTccD_jLliPcDv3gvoFV-XvY37pwbgGjZzj28zU8,4934
+aiordr-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aiordr-0.3.0.dist-info/RECORD,,
