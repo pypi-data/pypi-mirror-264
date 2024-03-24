@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+dizge/__init__.py
+dizge/analyzer.py
+dizge.egg-info/PKG-INFO
+dizge.egg-info/SOURCES.txt
+dizge.egg-info/dependency_links.txt
+dizge.egg-info/top_level.txt
+dizge/competence/__init__.py
+dizge/competence/lexicon.py
+dizge/competence/phonology.py
+dizge/tools/__init__.py
+dizge/tools/phonology.py
