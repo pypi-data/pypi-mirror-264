@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tina4-python
+Version: 0.1.33
+Summary: Tina4Python - This is not another framework for Python
+Author: Andre van Zuydam
+Author-email: andrevanzuydam@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
+Requires-Dist: libsass (>=0.22.0,<0.23.0)
+Requires-Dist: mypy (>=0.991,<0.992)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
