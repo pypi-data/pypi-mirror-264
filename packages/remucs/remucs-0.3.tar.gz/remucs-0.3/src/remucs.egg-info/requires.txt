@@ -1,0 +1,7 @@
+click
+numpy
+soundfile
+tqdm
+
+[demucs]
+demucs>=4.0
