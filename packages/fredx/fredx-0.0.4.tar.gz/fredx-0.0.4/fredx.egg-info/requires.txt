@@ -1,0 +1,4 @@
+aiolimiter
+httpx[http2]
+numpy
+pandas
