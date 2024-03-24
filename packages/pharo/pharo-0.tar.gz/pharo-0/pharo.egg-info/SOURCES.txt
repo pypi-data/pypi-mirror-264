@@ -1,0 +1,5 @@
+pyproject.toml
+pharo.egg-info/PKG-INFO
+pharo.egg-info/SOURCES.txt
+pharo.egg-info/dependency_links.txt
+pharo.egg-info/top_level.txt
