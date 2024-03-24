@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gu-tea2
+Version: 0.1
+Summary: Project 2 with no external dependencies.
+Home-page: https://github.com/CryptoGu1/gu-tea2.git
+Author: CryptoGu
+Author-email: kriptoairdrop9@gmail.com
+Project-URL: Homepage, https://github.com/CryptoGu1/gu-tea2.git
+Project-URL: Source, https://github.com/CryptoGu1/gu-tea2.git
+License-File: LICENSE
+Requires-Dist: requests>=2.20.0
+Requires-Dist: Gu-tea
