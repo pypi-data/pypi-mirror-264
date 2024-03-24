@@ -1,0 +1,5 @@
+name: pre-commit-hooks
+
+dependencies:
+  - python=3.10
+  - pip
