@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: compressXML
+Version: 0.0.1
+Summary: compressXML
+Home-page: https://pypi.org/project/compressXML
+Author: KuoYuan Li
+Author-email: funny4875@gmail.com
+Keywords: compress,XML
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Author:KuoYuan Li 
+remove the \n , \t in XLM
+##### Sample code
+```
+import compressXML
+compressXML.start()
+```
+License
+----
+
+MIT

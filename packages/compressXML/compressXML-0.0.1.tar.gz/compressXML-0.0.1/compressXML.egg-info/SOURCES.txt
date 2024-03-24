@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+compressXML/__init__.py
+compressXML.egg-info/PKG-INFO
+compressXML.egg-info/SOURCES.txt
+compressXML.egg-info/dependency_links.txt
+compressXML.egg-info/requires.txt
+compressXML.egg-info/top_level.txt
