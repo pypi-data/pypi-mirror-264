@@ -1,0 +1,12 @@
+requests_extensions/__init__.py,sha256=6jEBtF2AATeGBndyKk2bUrTFzKyWF8U4VSOUwUogU2E,378
+requests_extensions/hooks.py,sha256=FSfxtxJJlu6vK7Y5ko3K6xSZqDctoJ7EZGNFc3t9-vc,958
+requests_extensions/http_adapter.py,sha256=jSCVwVEIkMqMG7kXWqkH8vyd6no6uSiiSjF00LFVhCQ,1115
+requests_extensions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+requests_extensions/retry.py,sha256=a_-e5WqI7dEnqGCKIvCb5xPKCdKArule2WIoDZIod1g,2964
+requests_extensions/session.py,sha256=GEz1lwH5BOdpFrcLH-SQyuelKlvYD3x1NVNtrDsqbYU,5140
+requests_extensions/settings.py,sha256=LswzJmj4pR--e3DqkaokPG20Dmw3-Y2TqUKOgNNaBZA,946
+requests_extensions/utils.py,sha256=DsaB2FBdAyQuVzfkoS5MygWc1c0uhXsgjVU4VTvQw4M,826
+requests_extensions-1.1.3.dist-info/METADATA,sha256=4N5GDRTFJVUIbzsuyL7nVuVmf5vPmU4Bk8yBXrQf9h4,4151
+requests_extensions-1.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+requests_extensions-1.1.3.dist-info/top_level.txt,sha256=YNHl-d45l33LFYZZI_bq7JFopm67J9QVUq4vJ1D4nDM,20
+requests_extensions-1.1.3.dist-info/RECORD,,
