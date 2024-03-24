@@ -1,0 +1,14 @@
+structlog_sentry_logger/__init__.py,sha256=Pf1yBCoRBrn0rdsbdPUjE-yJp4EX6-tU8XO-BY5-YHY,454
+structlog_sentry_logger/_config.py,sha256=lIVNcxqw_vrSwF1qVwfw9Z4EMmkeOg8tVpaWZaj6cSs,15917
+structlog_sentry_logger/_feature_flags.py,sha256=0aSGUR2oT6wnfTcn09BNggAgfFCgpG079mVGZuEswBk,3434
+structlog_sentry_logger/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+structlog_sentry_logger/structlog_sentry.py,sha256=LK4rVBUsM5BMO-0dUMkV5DjEEy2YmPolb_6ZHY8F9Cc,9632
+d4a104d1b860d1fab654__mypyc.cp311-win_amd64.pyd,sha256=6hn9IOjk-epF1OD51jW13svegMKIlJxodN-nlQE9i2c,121344
+structlog_sentry_logger/__init__.cp311-win_amd64.pyd,sha256=4TFnXvNiCbc8foxDgOQT8-YDw8hDc0EoxSA6LfyyhzA,10752
+structlog_sentry_logger/_config.cp311-win_amd64.pyd,sha256=OaYh2PYUC_lFkTQ60HlK3Br0lNC3r82BvdBzoQlALzA,10752
+structlog_sentry_logger/_feature_flags.cp311-win_amd64.pyd,sha256=uys1HvUmb_vZ3khcTK620-mm6eSUaB2SLm36MsCL72k,10752
+structlog_sentry_logger/structlog_sentry.cp311-win_amd64.pyd,sha256=kgm-HgFsUcd_MyNZGUYOIBWWInXMbHK7aB8SpAzcMcg,10752
+structlog_sentry_logger-1.4.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+structlog_sentry_logger-1.4.0.dist-info/METADATA,sha256=oCt34JlnSnK1lEBJxijc7zz7TPPfHcU9YHMGsVZRT-s,20929
+structlog_sentry_logger-1.4.0.dist-info/WHEEL,sha256=-FZBVKyKauScY3vLa8vJR6hBCpAJfFykw2MOwlNKr1g,98
+structlog_sentry_logger-1.4.0.dist-info/RECORD,,
