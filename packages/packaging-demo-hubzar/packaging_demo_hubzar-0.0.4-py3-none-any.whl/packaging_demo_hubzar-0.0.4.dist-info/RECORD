@@ -1,0 +1,14 @@
+packaging_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo/colorized_demo.py,sha256=x-CxOgXL7Om4qObxj66SZ5Nls43jNq-7BgkOF_KAAX0,171
+packaging_demo/my_file.py,sha256=hRxn6ZqlAEkyz1eQ4lSVTLEq6Ww3O2z8f8OlLG5Lwhk,404
+packaging_demo/my_other_file.py,sha256=TTD1gy_ktWGuin8yP9DXxZJlUmppCxp0ulwpVBk1i5Q,44
+packaging_demo/states_info.py,sha256=rBvIFZpHhBfTkP4bH9-QOLAoYnmTWvnWu2BrKgRpR8o,742
+packaging_demo/my_folder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo/my_folder/cities.json,sha256=7ikQCZ28rqrsSRd1E0G5psAahgJ061BT4k27NGREQFg,299
+packaging_demo/my_folder/my_nested_file.py,sha256=TV1trrHQ0b-M0mSpbvAgSiMS98ie0yUvBrZ63mEe1Us,121
+packaging_demo/my_folder/sub_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_demo/my_folder/sub_package/some_deeply_netsed_file.py,sha256=1y548J5OO8RESqJhdTFuyaOe14LFTnERVtTzAyKJn68,89
+packaging_demo_hubzar-0.0.4.dist-info/METADATA,sha256=lM0Fzqk-tfS0MJtWqH5ZuTNjTHC2MZHdMLCNQ-m5Rpg,1340
+packaging_demo_hubzar-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+packaging_demo_hubzar-0.0.4.dist-info/top_level.txt,sha256=JQYuoHLSBUdWNZjDus5DYc3ohopasuGzDPZpph3ynKg,15
+packaging_demo_hubzar-0.0.4.dist-info/RECORD,,

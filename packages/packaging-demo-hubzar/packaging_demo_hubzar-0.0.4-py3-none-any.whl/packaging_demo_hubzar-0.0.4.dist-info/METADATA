@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: packaging-demo-hubzar
+Version: 0.0.4
+Summary: My package description
+Author-email: HubZar <your_email@example.com>
+License: MIT
+Keywords: one,two
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: all
+Requires-Dist: packaging-demo-hubzar[colors,graphs,linters,release,static-code-qa,test] ; extra == 'all'
+Provides-Extra: colors
+Requires-Dist: rich ; extra == 'colors'
+Provides-Extra: dev
+Requires-Dist: packaging-demo-hubzar[release,static-code-qa,test] ; extra == 'dev'
+Provides-Extra: graphs
+Requires-Dist: pipdeptree ; extra == 'graphs'
+Requires-Dist: graphviz ; extra == 'graphs'
+Provides-Extra: linters
+Requires-Dist: ruff ; extra == 'linters'
+Requires-Dist: mypy ; extra == 'linters'
+Requires-Dist: black ; extra == 'linters'
+Provides-Extra: release
+Requires-Dist: build ; extra == 'release'
+Requires-Dist: twine ; extra == 'release'
+Provides-Extra: static-code-qa
+Requires-Dist: pre-commit ; extra == 'static-code-qa'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+Packaging terms:
+
+- module
+- package
+- sub-package
+- distribution package
+
+Getting familiar with CI/CD
+
+Adapting to linters

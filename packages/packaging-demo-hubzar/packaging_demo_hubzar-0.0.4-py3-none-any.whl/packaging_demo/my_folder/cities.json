@@ -1,0 +1,16 @@
+[
+    {
+        "city": "Montgomery",
+        "state": "Alabama",
+        "lat": 32.3792233,
+        "lng": -86.3077368,
+        "capital": true
+    },
+    {
+        "city": "Juneau",
+        "state": "Alaska",
+        "lat": 58.3019444,
+        "lng": -134.4197222,
+        "capital": true
+    }
+]
