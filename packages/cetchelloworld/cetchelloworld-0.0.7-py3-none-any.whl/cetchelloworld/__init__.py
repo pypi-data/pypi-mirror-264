@@ -1,0 +1,1 @@
+from cetchelloworld.main import hello
