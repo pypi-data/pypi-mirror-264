@@ -1,0 +1,12 @@
+octarine/__init__.py,sha256=JaM_hykZzdJ0gYcf9W1UkLZercJvyTzhBG2kbLRJBlI,41
+octarine/__version__.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+octarine/config.py,sha256=OkhKQuMR_5S6Q4iEF038V1HKXKQQXwNJnD7qRchQNm0,1294
+octarine/controls.py,sha256=GU1OAd4QmwF_KSD92IgKXZwYbhiVW1P4yUjAszgw2Ho,11129
+octarine/utils.py,sha256=F9SEZl8EgwPcN_826rjHcmV87HhycHF6PQJVut5MpzY,3843
+octarine/viewer.py,sha256=PRG_7LC0YQUY-95iqK0je0cYK2oTPHc-qzK0-x9wP4M,29156
+octarine/visuals.py,sha256=tCt8IOMAjq_ePYt_iWxR8GIDqS1qbSC5znAsTQ5HxJg,7752
+octarine3d-0.1.0.dist-info/LICENSE,sha256=0Nj3BJCjFey7EDHQt-SWEKltfrWQIThi5j_DNkSX2l0,1305
+octarine3d-0.1.0.dist-info/METADATA,sha256=BzjwHp1JW041BATKwvZLIhNYrNCOITQ7MfjAmM-MGkU,4604
+octarine3d-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+octarine3d-0.1.0.dist-info/top_level.txt,sha256=hrkL8KaFGloP1BvyDCln73SF-SIPtYnRD_XLNAZplcs,9
+octarine3d-0.1.0.dist-info/RECORD,,
