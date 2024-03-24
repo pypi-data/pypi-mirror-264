@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+osada/__init__.py
+osada/arrayFunc.py
+osada/beep.py
+osada/colorPrint.py
+osada/mahjong.py
+osada/mathFunc.py
+osada/versionFunc.py
+osada.egg-info/PKG-INFO
+osada.egg-info/SOURCES.txt
+osada.egg-info/dependency_links.txt
+osada.egg-info/requires.txt
+osada.egg-info/top_level.txt
