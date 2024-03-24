@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nebula-dev
+spec:
+  selector:
+    matchLabels:
+      app: nebula-dev
+  replicas: 1 # We're using SQLite, so we should only run 1 pod
+  template:
+    metadata:
+      labels:
+        app: nebula-dev
+    spec:
+      containers:
+        - name: nebula
+          image: ${image_name}
+          command: ["/bin/sh"]
+          args:
+            - -c
+            - >-
+              pip install -e /opt/nebula/repo\[dev\] &&
+              nebula dev start --no-ui
+          imagePullPolicy: "IfNotPresent"
+          ports:
+            - containerPort: 4200
+          volumeMounts:
+            - mountPath: /opt/nebula/repo
+              name: nebula-repository
+          env:
+            # Allow connections to the API
+            - name: NEBULA_SERVER_API_HOST
+              value: 0.0.0.0
+      volumes:
+        - name: nebula-repository
+          hostPath:
+            path: ${nebula_root_directory}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nebula-dev
+  labels:
+    app: nebula-dev
+spec:
+  ports:
+    - port: 4200
+      protocol: TCP
+  selector:
+    app: nebula-dev
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: default
+  name: flow-runner
+rules:
+- apiGroups: [""]
+  resources: ["pods", "pods/log"]
+  verbs: ["get", "watch", "list"]
+- apiGroups: ["batch"]
+  resources: ["jobs"]
+  verbs: [ "get", "list", "watch", "create", "update", "patch", "delete" ]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: flow-runner-role-binding
+  namespace: default
+subjects:
+- kind: ServiceAccount
+  name: default
+  namespace: default
+roleRef:
+  kind: Role
+  name: flow-runner
+  apiGroup: rbac.authorization.k8s.io

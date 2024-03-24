@@ -1,0 +1,5 @@
+[console_scripts]
+nebula = nebula.cli:app
+
+[mkdocs.plugins]
+render_swagger = nebula.utilities.render_swagger:SwaggerPlugin

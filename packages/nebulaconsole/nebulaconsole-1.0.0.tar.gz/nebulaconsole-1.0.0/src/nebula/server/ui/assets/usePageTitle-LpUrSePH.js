@@ -1,0 +1,1 @@
+import{f as o,u as r,au as n}from"./index-tQzbzZZu.js";function i(...t){const u=[...t,"Nebula Server"],a=o(()=>u.map(e=>r(e)).filter(e=>e!==null).join(" • "));n(()=>document.title=a.value)}export{i as u};
