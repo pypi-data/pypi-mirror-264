@@ -1,0 +1,12 @@
+osada/__init__.py,sha256=umwCDxdQAvP6X_1NFvhJZ6Q4xN7OH-w-c4NihXnWEq0,170
+osada/arrayFunc.py,sha256=xTyYaEOlmZNzPYaK0bigaFzKLE2-pdnM8s50DNGLKL4,480
+osada/beep.py,sha256=OMGbN1HAOEnmMjuwko0EH4LuYUdVucsuuGyk9qSUiVs,286
+osada/colorPrint.py,sha256=TlRps1R9JjMv9pbscLnT2v-XbgqenLjpCv1goznt-TU,2612
+osada/mahjong.py,sha256=e6yqjkhDlxP5PzfOemPm9uI7Yf4UYqx_RnbjY8wQ6c0,4021
+osada/mathFunc.py,sha256=_3a0Ku55p93xlFh0OqgvIxSlRL29Jrs5X4GrJwsRbGw,335
+osada/versionFunc.py,sha256=NtKSWlNwNFrZoHmBvnn9KXGlSZUSIkro6LezyNRC5bQ,324
+osada-1.2.0.dist-info/LICENSE,sha256=m3JDMJEtxtKiBkShLNU_eIxMseW7zMp5mwX5oFV0ut4,1070
+osada-1.2.0.dist-info/METADATA,sha256=jEtXy8hoKs7vGMCP7ueS_gPbMrudVlrUFjTMDYVjG3Y,211
+osada-1.2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+osada-1.2.0.dist-info/top_level.txt,sha256=F_mUqEQ0xz3jFT0r8hL8JUIBvCkFjSILON2WmrinaFw,6
+osada-1.2.0.dist-info/RECORD,,
