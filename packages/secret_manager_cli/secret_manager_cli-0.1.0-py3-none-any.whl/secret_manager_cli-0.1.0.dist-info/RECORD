@@ -1,0 +1,11 @@
+secret_manager_cli/__init__.py,sha256=XPmfVzgfmB5BelcJOsqDrb2fqF-jOB3wtZwF7oGw20c,58
+secret_manager_cli/__main__.py,sha256=flj2OmxKiB28TA6Mmk-3dQXiTo4o3nJssO5S724_UEI,202
+secret_manager_cli/cli.py,sha256=Y2Xkjn6idaOyplV58LSkTzd4mLr57CEYoh6kHsQUkMM,5207
+secret_manager_cli/credentials.py,sha256=UkTDzCxgu1SXyRPceuwzQGjt863WtOopn7SIw6TrSDM,2025
+secret_manager_cli/helpers.py,sha256=vUi7wA2XOgFSF2ZEM5TNMgVJogMYKqXvsHhq6_nabsI,3518
+secret_manager_cli/menu.py,sha256=4UKJHrmeBWKsenXwOtxyggvWTwiJmie_0k7SwjCTAeg,1385
+secret_manager_cli/session.py,sha256=lWINZk3b0oijhPmmUky4yfZm10TeZipi39uL93JPXzI,1524
+secret_manager_cli-0.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+secret_manager_cli-0.1.0.dist-info/METADATA,sha256=b6VtIfb08gpSgy--wyUu1SUbnXxUTTij2Uds2O6AAbM,5184
+secret_manager_cli-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+secret_manager_cli-0.1.0.dist-info/RECORD,,
