@@ -1,0 +1,12 @@
+pairplots/__init__.py,sha256=oemzikTAnaidOiIe7Rn8d8N6o2vA18HhNnbZvWzmyPE,553
+pairplots/__main__.py,sha256=1EchBjlatP13RpApDogw1bM3DYdIpkILmt4w9saPA34,107
+pairplots/julia_helpers.py,sha256=thNI8KPgaTFzjiRV2w8K3V5mT5TYnZAw-3LdZ8UH7Yg,1054
+pairplots/julia_import.py,sha256=Az5U1dUKKa7ti4GJTqDre2kRcYmuXl8DdHEmHhtM1j8,2620
+pairplots/juliapkg.json,sha256=wPRxQ8Rk9r7o9-RrYhfNyNUufYGMLQWGq2v6-2ddx7s,548
+pairplots/python_interface.py,sha256=D7E5DH6eUp3AxaBJPpghw69-VrthWL4cd3Znb5yvOcE,4501
+pairplots/version.py,sha256=nzGZW4nwrxjzWXMP8AwtptpGWgHgCqVUAPpwkjwV-Jo,57
+pairplots-0.0.3.dist-info/LICENSE,sha256=x9QVqAJjAfKC0JygxUaKJg6U7l9JADxz9zDQkfipnzo,1073
+pairplots-0.0.3.dist-info/METADATA,sha256=XPoHhaqjWcatM9TEu9V0nlnKj0bDRG_c72cAzfMh9x0,3774
+pairplots-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pairplots-0.0.3.dist-info/top_level.txt,sha256=F1Gr1u_eax-YYzC7KeqvxKMcfdKn5p9ZPUg_O99z01I,10
+pairplots-0.0.3.dist-info/RECORD,,
