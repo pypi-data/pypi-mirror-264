@@ -1,0 +1,3 @@
+[console_scripts]
+display_fidmaa_image=fidmaa_simple_viewer.core:display_fidmaa_image
+
