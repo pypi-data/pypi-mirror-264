@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/yamlsub/__init__.py
+src/yamlsub/config.py
+src/yamlsub.egg-info/PKG-INFO
+src/yamlsub.egg-info/SOURCES.txt
+src/yamlsub.egg-info/dependency_links.txt
+src/yamlsub.egg-info/requires.txt
+src/yamlsub.egg-info/top_level.txt

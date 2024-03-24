@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]   # PEP 508 specifications.
+build-backend = "setuptools.build_meta"
+
+[tool.bumpver]
+current_version = "1.3.8"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    '^current_version = "{version}"',
+]
+"setup.cfg" = [
+    '^version = {version}',
+]
