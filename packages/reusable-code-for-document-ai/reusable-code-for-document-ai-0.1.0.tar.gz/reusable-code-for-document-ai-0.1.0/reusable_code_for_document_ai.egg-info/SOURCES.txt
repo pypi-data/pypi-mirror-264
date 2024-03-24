@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+reusable_code/__init__.py
+reusable_code/measure_processing_time.py
+reusable_code/process_document.py
+reusable_code_for_document_ai.egg-info/PKG-INFO
+reusable_code_for_document_ai.egg-info/SOURCES.txt
+reusable_code_for_document_ai.egg-info/dependency_links.txt
+reusable_code_for_document_ai.egg-info/top_level.txt
