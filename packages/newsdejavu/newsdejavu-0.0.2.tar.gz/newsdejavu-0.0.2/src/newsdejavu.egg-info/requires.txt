@@ -1,0 +1,10 @@
+numpy
+pandas
+nltk
+opencv-python
+datasets
+torch
+requests
+Pillow<=15.0,>=10.0.1
+transformers
+sentence_transformers
