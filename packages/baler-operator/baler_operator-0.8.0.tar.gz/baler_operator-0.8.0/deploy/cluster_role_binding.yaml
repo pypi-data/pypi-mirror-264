@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: baler-operator-admin
+subjects:
+- kind: ServiceAccount
+  name: baler-operator
+  namespace: baler # Ensure this matches the namespace of the service account
+roleRef:
+  kind: ClusterRole
+  name: cluster-admin
+  apiGroup: rbac.authorization.k8s.io
+
