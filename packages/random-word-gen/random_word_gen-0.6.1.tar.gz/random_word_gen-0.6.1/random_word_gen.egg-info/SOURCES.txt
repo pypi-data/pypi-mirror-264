@@ -1,0 +1,8 @@
+README.md
+setup.py
+random_word_gen/__init__.py
+random_word_gen/main.py
+random_word_gen.egg-info/PKG-INFO
+random_word_gen.egg-info/SOURCES.txt
+random_word_gen.egg-info/dependency_links.txt
+random_word_gen.egg-info/top_level.txt
