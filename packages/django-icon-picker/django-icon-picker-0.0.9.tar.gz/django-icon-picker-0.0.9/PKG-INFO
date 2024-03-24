@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: django-icon-picker
+Version: 0.0.9
+Summary: A custom widget for Django forms that allows users to select icons from a predefined set.
+Home-page: https://github.com/bixat/django_icon_picker
+Author: Mohammed CHAHBOUN
+Author-email: m97.chahboun@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+
