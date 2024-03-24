@@ -1,0 +1,2 @@
+[console_scripts]
+chembl-regressor = chembl_regressor:cli
