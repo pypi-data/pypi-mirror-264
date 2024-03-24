@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mockmaster/__init__.py
+mockmaster/cli.py
+mockmaster/mockmaster.py
+mockmaster/utils.py
+mockmaster.egg-info/PKG-INFO
+mockmaster.egg-info/SOURCES.txt
+mockmaster.egg-info/dependency_links.txt
+mockmaster.egg-info/entry_points.txt
+mockmaster.egg-info/requires.txt
+mockmaster.egg-info/top_level.txt
