@@ -1,0 +1,10 @@
+packyak_aws_cdk/__init__.py,sha256=CiA_R9LSZ2dWtG3EggnkqtZsazOBWM2dpf5TBQCauaQ,617582
+packyak_aws_cdk/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+packyak_aws_cdk/_jsii/__init__.py,sha256=jk2OVqxBBwOANGGwEejvWBNukRBskMnTN0Gm-19pp3c,514
+packyak_aws_cdk/_jsii/aws-cdk@0.4.18.jsii.tgz,sha256=oXz-CIFGjtVKfr3dL7Rq8OiQ1im7eG0s5twoj4P5jak,398059
+packyak_aws_cdk-0.4.18.data/scripts/packyak,sha256=l7gxL2CHVs8h5ks8PPz6u4UV9VCOqw76kr_bx0tgEA0,393
+packyak_aws_cdk-0.4.18.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+packyak_aws_cdk-0.4.18.dist-info/METADATA,sha256=N03L5e9ziV1sv8JfrMC3n3MjCrSRNUqvfZmn506xjxo,5540
+packyak_aws_cdk-0.4.18.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+packyak_aws_cdk-0.4.18.dist-info/top_level.txt,sha256=jIwGYqH4IZHb4JdDZWc4Llh4Ia66qgzN76ZtD7CtRnE,16
+packyak_aws_cdk-0.4.18.dist-info/RECORD,,
