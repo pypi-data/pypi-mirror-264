@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/remucs/__init__.py
+src/remucs/remucs.py
+src/remucs.egg-info/PKG-INFO
+src/remucs.egg-info/SOURCES.txt
+src/remucs.egg-info/dependency_links.txt
+src/remucs.egg-info/entry_points.txt
+src/remucs.egg-info/requires.txt
+src/remucs.egg-info/top_level.txt
+tests/test_remucs.py

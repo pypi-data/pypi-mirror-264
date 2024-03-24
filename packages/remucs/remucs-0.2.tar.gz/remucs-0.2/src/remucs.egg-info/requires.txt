@@ -1,0 +1,8 @@
+click
+numpy
+packaging
+soundfile
+tqdm
+
+[demucs]
+demucs
