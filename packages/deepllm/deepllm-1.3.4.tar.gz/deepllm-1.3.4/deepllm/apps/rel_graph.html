@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1200px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "id": "Memory consolidation processes", "label": "Memory consolidation processes", "mass": 4, "shape": "box"}, {"color": "red", "id": "symbolic reasoning processes", "label": "symbolic reasoning processes", "mass": 4, "shape": "box"}, {"color": "red", "id": "adaptive learning algorithms", "label": "adaptive learning algorithms", "mass": 4, "shape": "box"}, {"color": "red", "id": "cognitive learning capabilities", "label": "cognitive learning capabilities", "mass": 4, "shape": "box"}, {"color": "red", "id": "Symbolic reasoning processes", "label": "Symbolic reasoning processes", "mass": 4, "shape": "box"}, {"color": "red", "id": "metacognitive strategy development", "label": "metacognitive strategy development", "mass": 4, "shape": "box"}, {"color": "red", "id": "conceptual knowledge acquisition", "label": "conceptual knowledge acquisition", "mass": 4, "shape": "box"}, {"color": "red", "id": "Real-time processing capabilities", "label": "Real-time processing capabilities", "mass": 4, "shape": "box"}, {"color": "red", "id": "ethical decision frameworks", "label": "ethical decision frameworks", "mass": 4, "shape": "box"}, {"color": "red", "id": "Autonomous decision-making processes", "label": "Autonomous decision-making processes", "mass": 4, "shape": "box"}, {"color": "red", "id": "neural adaptation mechanisms", "label": "neural adaptation mechanisms", "mass": 4, "shape": "box"}, {"color": "red", "id": "neural-symbolic integration", "label": "neural-symbolic integration", "mass": 4, "shape": "box"}, {"color": "red", "id": "decision-making autonomy", "label": "decision-making autonomy", "mass": 4, "shape": "box"}, {"color": "red", "id": "real-time processing capabilities", "label": "real-time processing capabilities", "mass": 4, "shape": "box"}, {"color": "red", "id": "autonomous decision-making processes", "label": "autonomous decision-making processes", "mass": 4, "shape": "box"}, {"color": "red", "id": "memory consolidation processes", "label": "memory consolidation processes", "mass": 4, "shape": "box"}, {"color": "red", "id": "Metacognitive strategy development", "label": "Metacognitive strategy development", "mass": 4, "shape": "box"}, {"color": "red", "id": "cognitive task performance", "label": "cognitive task performance", "mass": 4, "shape": "box"}, {"color": "red", "id": "cognitive architecture models", "label": "cognitive architecture models", "mass": 4, "shape": "box"}, {"color": "red", "id": "uncertainty management techniques", "label": "uncertainty management techniques", "mass": 4, "shape": "box"}, {"color": "red", "id": "artificial general intelligence", "label": "artificial general intelligence", "mass": 4, "shape": "box"}, {"color": "red", "id": "human-like reasoning abilities", "label": "human-like reasoning abilities", "mass": 4, "shape": "box"}, {"color": "red", "id": "this", "label": "this", "mass": 4, "shape": "box"}, {"color": "red", "id": "Ethical decision frameworks", "label": "Ethical decision frameworks", "mass": 4, "shape": "box"}, {"color": "red", "id": "Human-like reasoning abilities", "label": "Human-like reasoning abilities", "mass": 4, "shape": "box"}, {"color": "red", "id": "Neural-symbolic integration", "label": "Neural-symbolic integration", "mass": 4, "shape": "box"}, {"color": "red", "id": "Uncertainty management techniques", "label": "Uncertainty management techniques", "mass": 4, "shape": "box"}, {"color": "red", "id": "Conceptual knowledge acquisition", "label": "Conceptual knowledge acquisition", "mass": 4, "shape": "box"}, {"color": "red", "id": "Adaptive learning algorithms", "label": "Adaptive learning algorithms", "mass": 4, "shape": "box"}, {"color": "red", "id": "Cognitive task performance", "label": "Cognitive task performance", "mass": 4, "shape": "box"}, {"color": "red", "id": "Neural adaptation mechanisms", "label": "Neural adaptation mechanisms", "mass": 4, "shape": "box"}, {"color": "red", "id": "Cognitive learning capabilities", "label": "Cognitive learning capabilities", "mass": 4, "shape": "box"}, {"color": "red", "id": "Cognitive architecture models", "label": "Cognitive architecture models", "mass": 4, "shape": "box"}, {"color": "red", "id": "Decision-making autonomy", "label": "Decision-making autonomy", "mass": 4, "shape": "box"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "adaptive learning algorithms"}, {"arrows": "to", "color": "blue", "from": "Adaptive learning algorithms", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Adaptive learning algorithms", "label": "discusses", "to": "adaptive learning algorithms"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "autonomous decision-making processes"}, {"arrows": "to", "color": "blue", "from": "Autonomous decision-making processes", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Autonomous decision-making processes", "label": "discusses", "to": "autonomous decision-making processes"}, {"arrows": "to", "color": "blue", "from": "Autonomous decision-making processes", "label": "depends on", "to": "Decision-making autonomy"}, {"arrows": "to", "color": "blue", "from": "Autonomous decision-making processes", "label": "depends on", "to": "Uncertainty management techniques"}, {"arrows": "to", "color": "blue", "from": "Autonomous decision-making processes", "label": "depends on", "to": "Adaptive learning algorithms"}, {"arrows": "to", "color": "blue", "from": "Autonomous decision-making processes", "label": "depends on", "to": "Ethical decision frameworks"}, {"arrows": "to", "color": "blue", "from": "Autonomous decision-making processes", "label": "depends on", "to": "Real-time processing capabilities"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "cognitive architecture models"}, {"arrows": "to", "color": "blue", "from": "Cognitive architecture models", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Cognitive architecture models", "label": "discusses", "to": "cognitive architecture models"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "cognitive learning capabilities"}, {"arrows": "to", "color": "blue", "from": "Cognitive learning capabilities", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Cognitive learning capabilities", "label": "discusses", "to": "cognitive learning capabilities"}, {"arrows": "to", "color": "blue", "from": "Cognitive learning capabilities", "label": "depends on", "to": "Neural adaptation mechanisms"}, {"arrows": "to", "color": "blue", "from": "Cognitive learning capabilities", "label": "depends on", "to": "Cognitive task performance"}, {"arrows": "to", "color": "blue", "from": "Cognitive learning capabilities", "label": "depends on", "to": "Memory consolidation processes"}, {"arrows": "to", "color": "blue", "from": "Cognitive learning capabilities", "label": "depends on", "to": "Conceptual knowledge acquisition"}, {"arrows": "to", "color": "blue", "from": "Cognitive learning capabilities", "label": "depends on", "to": "Metacognitive strategy development"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "cognitive task performance"}, {"arrows": "to", "color": "blue", "from": "Cognitive task performance", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Cognitive task performance", "label": "discusses", "to": "cognitive task performance"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "conceptual knowledge acquisition"}, {"arrows": "to", "color": "blue", "from": "Conceptual knowledge acquisition", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Conceptual knowledge acquisition", "label": "discusses", "to": "conceptual knowledge acquisition"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "decision-making autonomy"}, {"arrows": "to", "color": "blue", "from": "Decision-making autonomy", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Decision-making autonomy", "label": "discusses", "to": "decision-making autonomy"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "ethical decision frameworks"}, {"arrows": "to", "color": "blue", "from": "Ethical decision frameworks", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Ethical decision frameworks", "label": "discusses", "to": "ethical decision frameworks"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "human-like reasoning abilities"}, {"arrows": "to", "color": "blue", "from": "Human-like reasoning abilities", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Human-like reasoning abilities", "label": "discusses", "to": "human-like reasoning abilities"}, {"arrows": "to", "color": "blue", "from": "Human-like reasoning abilities", "label": "depends on", "to": "Cognitive architecture models"}, {"arrows": "to", "color": "blue", "from": "Human-like reasoning abilities", "label": "depends on", "to": "Symbolic reasoning processes"}, {"arrows": "to", "color": "blue", "from": "Human-like reasoning abilities", "label": "depends on", "to": "Neural-symbolic integration"}, {"arrows": "to", "color": "blue", "from": "Human-like reasoning abilities", "label": "depends on", "to": "Adaptive learning algorithms"}, {"arrows": "to", "color": "blue", "from": "Human-like reasoning abilities", "label": "depends on", "to": "Conceptual knowledge acquisition"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "memory consolidation processes"}, {"arrows": "to", "color": "blue", "from": "Memory consolidation processes", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Memory consolidation processes", "label": "discusses", "to": "memory consolidation processes"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "metacognitive strategy development"}, {"arrows": "to", "color": "blue", "from": "Metacognitive strategy development", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Metacognitive strategy development", "label": "discusses", "to": "metacognitive strategy development"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "neural adaptation mechanisms"}, {"arrows": "to", "color": "blue", "from": "Neural adaptation mechanisms", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Neural adaptation mechanisms", "label": "discusses", "to": "neural adaptation mechanisms"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "neural-symbolic integration"}, {"arrows": "to", "color": "blue", "from": "Neural-symbolic integration", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Neural-symbolic integration", "label": "discusses", "to": "neural-symbolic integration"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "real-time processing capabilities"}, {"arrows": "to", "color": "blue", "from": "Real-time processing capabilities", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Real-time processing capabilities", "label": "discusses", "to": "real-time processing capabilities"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "symbolic reasoning processes"}, {"arrows": "to", "color": "blue", "from": "Symbolic reasoning processes", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Symbolic reasoning processes", "label": "discusses", "to": "symbolic reasoning processes"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "uncertainty management techniques"}, {"arrows": "to", "color": "blue", "from": "Uncertainty management techniques", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "Uncertainty management techniques", "label": "discusses", "to": "uncertainty management techniques"}, {"arrows": "to", "color": "blue", "from": "this", "label": "is about", "to": "artificial general intelligence"}, {"arrows": "to", "color": "blue", "from": "artificial general intelligence", "label": "is about", "to": "this"}, {"arrows": "to", "color": "blue", "from": "artificial general intelligence", "label": "discusses", "to": "artificial general intelligence"}, {"arrows": "to", "color": "blue", "from": "artificial general intelligence", "label": "depends on", "to": "Cognitive learning capabilities"}, {"arrows": "to", "color": "blue", "from": "artificial general intelligence", "label": "depends on", "to": "Autonomous decision-making processes"}, {"arrows": "to", "color": "blue", "from": "artificial general intelligence", "label": "depends on", "to": "Human-like reasoning abilities"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
