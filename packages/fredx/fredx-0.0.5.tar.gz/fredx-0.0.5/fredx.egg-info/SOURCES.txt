@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fredx/__init__.py
+fredx/main.py
+fredx.egg-info/PKG-INFO
+fredx.egg-info/SOURCES.txt
+fredx.egg-info/dependency_links.txt
+fredx.egg-info/requires.txt
+fredx.egg-info/top_level.txt
