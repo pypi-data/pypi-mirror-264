@@ -1,0 +1,5 @@
+setup.py
+plsl_lib.egg-info/PKG-INFO
+plsl_lib.egg-info/SOURCES.txt
+plsl_lib.egg-info/dependency_links.txt
+plsl_lib.egg-info/top_level.txt
