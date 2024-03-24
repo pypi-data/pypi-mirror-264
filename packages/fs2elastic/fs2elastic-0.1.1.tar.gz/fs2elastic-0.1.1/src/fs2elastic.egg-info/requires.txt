@@ -1,0 +1,8 @@
+elasticsearch
+openpyxl
+pandas
+pydantic
+retry
+toml
+watchdog
+xlrd

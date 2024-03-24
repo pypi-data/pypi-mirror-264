@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/fs2elastic/__init__.py
+src/fs2elastic/confbuilder.py
+src/fs2elastic/dataset_processor.py
+src/fs2elastic/es_handler.py
+src/fs2elastic/fs2elastic.py
+src/fs2elastic/typings.py
+src/fs2elastic.egg-info/PKG-INFO
+src/fs2elastic.egg-info/SOURCES.txt
+src/fs2elastic.egg-info/dependency_links.txt
+src/fs2elastic.egg-info/entry_points.txt
+src/fs2elastic.egg-info/requires.txt
+src/fs2elastic.egg-info/top_level.txt
