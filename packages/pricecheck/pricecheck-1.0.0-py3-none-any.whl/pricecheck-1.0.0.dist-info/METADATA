@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pricecheck
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/alfatih-shell/pricecheck
+Author: Alfatih-shell
+Author-email: riyanpratomo@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/alfatih-shell/pricecheck
+Keywords: pricecheck
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: dmacheck
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+# Price Check 
+[![PyPI Version](https://img.shields.io/pypi/v/pricecheck)](https://pypi.org/project/pricecheck/)
+
+## Overview
+This project, **Price Check**, is a Python package designed to retrieve updated prices of your favorite tokens or coins via the birdeye.so platform. Additionally, it can provide alerts when specified price thresholds are reached.
+
+## Prerequisites
+Before using this package, ensure the following prerequisites are met:
+- Create a free Opsgenie account and obtain an API key to send alerts to your device.
+- Create an account on birdeye.so and activate the BDS account on birdeye.so [here](https://bds.birdeye.so/).
+- Generate a new API key on birdeye.so.
+
+## Usage
+Follow these steps to utilize this package:
+1. Import the package into your code.
+2. Run the main program.
+3. Input the Opsgenie API key.
+4. Input the API key from birdeye.so.
+
+## Example
+```python
+from pricecheck import PriceChecker
+
+# Initialize PriceChecker
+price_checker = PriceChecker()
+
+# Run main program
+price_checker.run()
+
+```
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
