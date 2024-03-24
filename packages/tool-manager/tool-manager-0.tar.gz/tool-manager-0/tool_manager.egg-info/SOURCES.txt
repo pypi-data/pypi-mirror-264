@@ -1,0 +1,5 @@
+pyproject.toml
+tool_manager.egg-info/PKG-INFO
+tool_manager.egg-info/SOURCES.txt
+tool_manager.egg-info/dependency_links.txt
+tool_manager.egg-info/top_level.txt
