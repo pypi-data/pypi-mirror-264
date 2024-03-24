@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+MSKgeolocation2/MSKgeolocation2.py
+MSKgeolocation2/__init__.py
+MSKgeolocation2.egg-info/PKG-INFO
+MSKgeolocation2.egg-info/SOURCES.txt
+MSKgeolocation2.egg-info/dependency_links.txt
+MSKgeolocation2.egg-info/top_level.txt

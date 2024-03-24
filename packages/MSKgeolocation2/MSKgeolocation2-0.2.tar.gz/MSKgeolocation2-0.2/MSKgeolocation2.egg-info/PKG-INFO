@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: MSKgeolocation2
+Version: 0.2
+Summary: Biblioteca teste desenvolvida pelo Prof. Massaki de O. Igarashi
+Home-page: https://github.com/massakiigarashi2/MSKlib
+Author: Massaki Igarashi
+Author-email: prof.massaki@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/massakiigarashi2/MSKlib
+Project-URL: Download, https://github.com/massakiigarashi2/MSKlib/raw/main/MSK002-0.2.tar.gz
+Keywords: Funções Matemáticas Básicas
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENSE.txt
+
+Funções e operações básicas: soma, sub, mult, div. 
+exemplo de uso: soma(x,y)  sub(x,y) mult(x,y)  div(x,y) 
