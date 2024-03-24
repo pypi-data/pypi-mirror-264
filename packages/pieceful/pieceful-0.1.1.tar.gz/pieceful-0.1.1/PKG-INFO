@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pieceful
+Version: 0.1.1
+Summary: Simple python package to solve dependency injections
+License: MIT
+Author: Josef Cernik
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Pieceful
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-username/pieceful/blob/main/LICENSE)
+[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
+
+## Description
+
+Pieceful is a Python package that provides a collection of utility functions for working with dependency injection.
+
+## Features
+
+- TODO
+
+## Installation
+
+TODO
+
