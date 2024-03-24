@@ -1,0 +1,2 @@
+[console_scripts]
+antonLib = reader.__main__:main
