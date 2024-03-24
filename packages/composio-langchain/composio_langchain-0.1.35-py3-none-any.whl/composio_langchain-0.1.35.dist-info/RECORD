@@ -1,0 +1,7 @@
+composio_langchain/__init__.py,sha256=-eYyZfDP1A666jr-35zPTrOVXOpvzTYGh6VsQY0PLsY,80
+composio_langchain/composio_tool_spec.py,sha256=Y3Wu4REeFrGdqJdVBNuiJufjAcWCNjiaS8c89IhJu3U,4745
+composio_langchain/pydantic_utils.py,sha256=IRBwW2EG2WfojStC6UNZTbaenNnUPIZWjjFwpyountw,2804
+composio_langchain-0.1.35.dist-info/METADATA,sha256=e3rzJXK64in3v-qc5Lm4cd6YnOdp0qfjqBx0-G9x8Dc,879
+composio_langchain-0.1.35.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+composio_langchain-0.1.35.dist-info/top_level.txt,sha256=TQVI-9Bt-y1Yxzf7IcQijJGfJtbDT4PgYxFU3j6HuLs,19
+composio_langchain-0.1.35.dist-info/RECORD,,
