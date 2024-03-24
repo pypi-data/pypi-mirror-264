@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+pickledsocks/__init__.py
+pickledsocks/pickledsocks.py
+pickledsocks_siiverfish.egg-info/PKG-INFO
+pickledsocks_siiverfish.egg-info/SOURCES.txt
+pickledsocks_siiverfish.egg-info/dependency_links.txt
+pickledsocks_siiverfish.egg-info/top_level.txt
