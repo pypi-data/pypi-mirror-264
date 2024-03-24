@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/text_extra.egg-info/PKG-INFO
+src/text_extra.egg-info/SOURCES.txt
+src/text_extra.egg-info/dependency_links.txt
+src/text_extra.egg-info/requires.txt
+src/text_extra.egg-info/top_level.txt
+src/text_extractor/__init__.py
+src/text_extractor/extractText.py
+tests/test_docx_extraction.py
+tests/test_epub_extraction.py
+tests/test_pdf_extraction.py
+tests/test_text_extraction.py

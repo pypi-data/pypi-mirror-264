@@ -1,0 +1,7 @@
+ebooklib
+PyPDF2
+beautifulsoup4
+python-docx
+
+[dev]
+pytest>=3.7

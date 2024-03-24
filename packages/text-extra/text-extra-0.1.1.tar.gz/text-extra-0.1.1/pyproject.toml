@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-extra"
+version = "0.1.1"
+authors = [{name = "KirillAn"}]
+description = "A simple tool for text extraction from pdf, epub, txt, and docx files"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["text extraction", "pdf", "epub", "docx", "txt"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "ebooklib",
+    "PyPDF2",
+    "beautifulsoup4",
+    "python-docx",
+]
+requires-python = ">=3.6"
