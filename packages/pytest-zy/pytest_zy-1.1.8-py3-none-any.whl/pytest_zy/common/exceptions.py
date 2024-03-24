@@ -1,0 +1,2 @@
+class RawValueError(Exception):
+    pass
