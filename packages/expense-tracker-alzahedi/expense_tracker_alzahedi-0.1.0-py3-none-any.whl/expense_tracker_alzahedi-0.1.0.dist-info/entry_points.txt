@@ -1,0 +1,3 @@
+[console_scripts]
+expense=expense_tracker.cli:app
+
