@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/requests_extensions/__init__.py
+src/requests_extensions/hooks.py
+src/requests_extensions/http_adapter.py
+src/requests_extensions/py.typed
+src/requests_extensions/retry.py
+src/requests_extensions/session.py
+src/requests_extensions/settings.py
+src/requests_extensions/utils.py
+src/requests_extensions.egg-info/PKG-INFO
+src/requests_extensions.egg-info/SOURCES.txt
+src/requests_extensions.egg-info/dependency_links.txt
+src/requests_extensions.egg-info/requires.txt
+src/requests_extensions.egg-info/top_level.txt
