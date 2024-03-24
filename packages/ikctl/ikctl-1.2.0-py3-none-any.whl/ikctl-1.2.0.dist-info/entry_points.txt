@@ -1,0 +1,2 @@
+[console_scripts]
+ikctl = main:create_parser
