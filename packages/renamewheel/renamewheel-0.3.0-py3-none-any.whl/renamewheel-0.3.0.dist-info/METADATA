@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: renamewheel
+Version: 0.3.0
+Summary: Script for renaming Linux wheels
+Home-page: https://github.com/hsorby/renamewheel
+Author: Hugh Sorby
+Author-email: h.sorby@auckland.ac.nz
+License: MIT
+Keywords: twine,wheel
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: auditwheel
+
+Rename Wheel
+============
+
+Simple Python package to rename a python wheel to have a valid platform tag.
