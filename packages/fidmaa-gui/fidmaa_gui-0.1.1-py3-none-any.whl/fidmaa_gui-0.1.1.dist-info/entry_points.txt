@@ -1,0 +1,3 @@
+[console_scripts]
+fidmaa_gui=fidmaa_gui.entrypoints:run
+
