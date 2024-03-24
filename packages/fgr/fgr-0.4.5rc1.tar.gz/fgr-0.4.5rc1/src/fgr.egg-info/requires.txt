@@ -1,0 +1,12 @@
+
+[develop]
+mypy
+pre-commit
+coverage
+pytest
+pytest-cov
+ruff
+
+[docs]
+commonmark==0.9.*
+sphinx==7.*
