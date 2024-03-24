@@ -1,0 +1,10 @@
+redocmx/__init__.py,sha256=yI3fx6tyAEpdZ0i0YHXqhbw5XWy8k1CEfTVhtVnyHa8,32
+redocmx/cfdi.py,sha256=GYePj8BnjxND8WpOmChxaNT_obAuw8dEovnXI-Bmaf4,1498
+redocmx/pdf.py,sha256=UdJoyqu1npTQVTxUReaddCfBGCjhAp1weUPAoRNCpg8,574
+redocmx/redoc.py,sha256=2ycPnEscsAY56PAJYJhazdDsXFGNa9LnJuMSseChHqU,245
+redocmx/service.py,sha256=9vP7DH-1rogBczMWnIVWnFAp1vIOhu0GQojVqNEzyiY,1967
+redocmx-0.0.1.dist-info/LICENSE,sha256=88a0PeNg2RQUMfoih8CLuF7lBsH22cucxEFKvP7iWdg,1064
+redocmx-0.0.1.dist-info/METADATA,sha256=XOVOxK0wqSVxyJSVcvUVFeuwN8fUhdXDZ8ffEHKUEJk,4899
+redocmx-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+redocmx-0.0.1.dist-info/top_level.txt,sha256=UcREZ3mq1g4cwRTuXS_FDAwfHxdH0tgXVA1gIOCyZf4,8
+redocmx-0.0.1.dist-info/RECORD,,
