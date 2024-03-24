@@ -1,0 +1,2 @@
+include coderadar/templates/*.html
+include coderadar/templates/*.txt
