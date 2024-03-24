@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: network_manager
+Version: 1.0
+Summary: Network Manager for Activating and Deactivating Features on Network Devices
+Author: Your Name
+Author-email: <your.email@example.com>
+License: UNKNOWN
+Keywords: python,network,device,firewall,parental control,selenium
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+A package that allows for managing network devices by activating and deactivating certain features such as firewall settings and parental controls.
+
+Features:
+- Activating firewall settings
+- Deactivating firewall settings
+- Activating parental controls
+- Deactivating parental controls
+
+

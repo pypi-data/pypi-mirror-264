@@ -1,0 +1,9 @@
+README.md
+setup.py
+network_manager.egg-info/PKG-INFO
+network_manager.egg-info/SOURCES.txt
+network_manager.egg-info/dependency_links.txt
+network_manager.egg-info/requires.txt
+network_manager.egg-info/top_level.txt
+project-kp/__init__.py
+project-kp/main.py
