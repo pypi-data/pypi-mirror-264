@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "manim-studio"
+version = "0.7.4"
+description = "A GUI for Manim"
+authors = ["MathItYT <benjamin.ubilla@uc.cl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+manim = "^0.18.0"
+pyqt6 = "^6.6.1"
+setuptools = "^69.1.1"
+
+[tool.poetry.plugins."manim.plugins"]
+"manim_studio" = "manim_studio"
+
+[tool.poetry.scripts]
+manim-studio = "manim_studio.__main__:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
