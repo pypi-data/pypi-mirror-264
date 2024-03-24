@@ -1,0 +1,17 @@
+neural_commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neural_commons/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neural_commons/helpers/torch_helper.py,sha256=yF92zHu1XklPEnB31-jV7mD9r5PS7CRQJEd03b-hdXI,9900
+neural_commons/modules/GTanh.py,sha256=bmJAxfHqDyvLKM0cNanOhFKY_SnyhVmJMEuBnP8XEWU,248
+neural_commons/modules/GaELU.py,sha256=5gOBJ14i-0Big1GewMgEaFeeDz0jqOViiDqpBvyLx1s,283
+neural_commons/modules/NeuralLayer.py,sha256=69NUJOxRSIm-9a8UCgl-wvj4iyiFrmUhrYHYn0pSVCI,2853
+neural_commons/modules/ParametricReLU.py,sha256=yp8BY-9lf7m9tOUR37IQewln96iDjkYUUPtWYqnRalk,477
+neural_commons/modules/PreTrainedLayer.py,sha256=RulJq4khV5eLskCyE6glYQ-Uj9KqBh_3St_1KEO3mGE,1350
+neural_commons/modules/RndNonLinearFunction.py,sha256=GhVBLvupIt3xGPrdlFpVefrB-Xyz1hAo3RwETyfikTo,886
+neural_commons/modules/RndProjection.py,sha256=uuEsJ0boBAKIYNkmFG_ZULLfQMmXIJvau_sXHM_2F_4,1708
+neural_commons/modules/SMoE.py,sha256=HsteAGDDa8N6f2Q41VeZPde_xnISLYBHwIhvlHhTqIc,2952
+neural_commons/modules/SMoEMixIn.py,sha256=l_eAD2KeQvPvVZ3yJAxVeyJFF3eeT1knZiSl7V-Nj2A,750
+neural_commons/modules/__init__.py,sha256=OMTuByB4irQy5ymK0hO9zMT2JuTMuWd43WH00xox6UQ,268
+neural_commons-0.0.3.dist-info/METADATA,sha256=7D-Gos0ukzC_mONZiw2YvhoQvLK8EzaxWRnxUCQyOtw,462
+neural_commons-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+neural_commons-0.0.3.dist-info/top_level.txt,sha256=j-8kI4j3HotDJ1LLFKwX4KleqW_Ky2PDLAZ99W3ysx8,15
+neural_commons-0.0.3.dist-info/RECORD,,
