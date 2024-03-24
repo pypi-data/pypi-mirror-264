@@ -1,0 +1,10 @@
+pylips/__init__.py,sha256=ZE5livHQfMQfqtyu3rIFM1-kMAJZAnrhWgM1IYGy0QE,217
+pylips/speech/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylips/speech/client.py,sha256=0DRegrpENy8Zu0XR2FpUo3DHfLLS6fdkFRP6sYvZNG0,691
+pylips/speech/robot_face.py,sha256=kN-0V5kuevNRHw73jjd2S3UcG_T_3CtdKcI3wY-ibig,5673
+pylips/speech/test_tts.py,sha256=CLfcW94oLqzTrVfUWFTzgyz42shYEYbBy04CwojyNFw,1556
+pylips-0.0.2.dist-info/LICENSE,sha256=7CTl9JvRJ2oy1t20OOG_ezv18HE5WOgYGuphSNjsSUo,1071
+pylips-0.0.2.dist-info/METADATA,sha256=cHhskKB1j887pqeFqhzEP7cofgYeB7rEOmOrdo1YWWU,2993
+pylips-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pylips-0.0.2.dist-info/top_level.txt,sha256=ONy72ORpkPcxfBpZUNTu0PaQmBbY6ZRc7reXw3q6SVE,7
+pylips-0.0.2.dist-info/RECORD,,
