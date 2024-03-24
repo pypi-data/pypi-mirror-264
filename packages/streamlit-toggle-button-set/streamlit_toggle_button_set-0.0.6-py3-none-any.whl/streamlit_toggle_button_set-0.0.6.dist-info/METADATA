@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: streamlit-toggle-button-set
+Version: 0.0.6
+Summary: A multi-select button group
+Home-page: https://github.com/benny140/streamlit-toggle-button-set
+Author: Ben Guo
+Author-email: benjaminguo14@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit (>=0.63)
+Provides-Extra: devel
+Requires-Dist: wheel ; extra == 'devel'
+Requires-Dist: pytest (==7.4.0) ; extra == 'devel'
+Requires-Dist: playwright (==1.39.0) ; extra == 'devel'
+Requires-Dist: requests (==2.31.0) ; extra == 'devel'
+Requires-Dist: pytest-playwright-snapshot (==1.0) ; extra == 'devel'
+Requires-Dist: pytest-rerunfailures (==12.0) ; extra == 'devel'
+
+# streamlit-toggle-button-set
+
+A button can be used to group related options (multi-select & single select), inspired by React Material UI.
+
+## Installation instructions
+
+```sh
+pip install streamlit-toggle-button-set
+```
+
+## Usage instructions
+
+![alt text](toggle_button_set.PNG)
+
+```python
+import streamlit as st
+from toggle_button_set import toggle_button_set
+
+outcome = toggle_button_set(
+    button_list=['a', 'b', '1', '2'],
+    default=['a', '1'],
+    color="primary",
+    size="large",
+    exclusive=False,
+    use_container_width=False
+)
+
+st.write(outcome)
+```
+
+## Arguments
+
+### Required:
+
+- _button_list_
+
+### Optional:
+
+- _default = []_ - must be a subset of _button_list_, these options are automatically selected upon boot.
+- _color = "standard"_ - The color of the button when it is selected, options includes 'standard', 'primary', 'secondary', 'error', 'info', 'success' and 'warning'.
+- _size = "medium"_ - The size of the component, options includes 'small', 'medium' and 'large'.
+- _exclusive = False_ - forces only one item to be selected from _button_list_.
+- _use_container_width = False_ - will make the component take up the full width of its container.
+- _key = None_ - optional key
