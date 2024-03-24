@@ -1,0 +1,37 @@
+stages:
+  - build
+  - publish
+
+build:
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^v([0-9]+\.[0-9]+\.[0-9]+)$/'
+  stage: build
+  image:
+    name: continuumio/miniconda3
+  variables:
+    REGEX: ^v([0-9]+\.[0-9]+\.[0-9]+)$
+  before_script:
+    - conda config --add channels conda-forge --add channels nodefaults
+    - conda install --yes python=3.12 jupyterlab=4 nodejs=20 build hatch=1
+    - if echo "$CI_COMMIT_TAG" | grep -qE "$REGEX"; then export VERSION=$(echo "$CI_COMMIT_TAG" | sed -E "s/${REGEX}/\1/"); fi
+  script:
+    - hatch version $VERSION
+    - python -m build
+  artifacts:
+    paths:
+      - dist/*.whl
+      - dist/*.tar.gz
+
+publish_to_pypi:
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^v([0-9]+\.[0-9]+\.[0-9]+)$/'
+  stage: publish
+  image: python:3.12
+  variables:
+    TWINE_USERNAME: __token__
+  dependencies:
+    - build
+  before_script:
+    - pip install --upgrade twine
+  script:
+    - twine upload dist/*

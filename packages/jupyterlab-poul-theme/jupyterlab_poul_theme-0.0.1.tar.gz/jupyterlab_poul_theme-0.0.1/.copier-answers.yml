@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: avrdudo@poul.org
+author_name: Roberto Bochet
+data_format: string
+file_extension: ''
+has_binder: false
+has_settings: false
+kind: theme
+labextension_name: jupyterlab-poul-theme
+mimetype: ''
+mimetype_name: ''
+project_short_description: JupyterLab POuL theme
+python_name: jupyterlab_poul_theme
+repository: https://gitlab.poul.org/corsi/jupyterlab-poul-theme
+test: false
+viewer_name: ''
+
