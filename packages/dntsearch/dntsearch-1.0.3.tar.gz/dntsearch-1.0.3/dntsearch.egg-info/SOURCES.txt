@@ -1,0 +1,7 @@
+README.md
+setup.py
+dntsearch.egg-info/PKG-INFO
+dntsearch.egg-info/SOURCES.txt
+dntsearch.egg-info/dependency_links.txt
+dntsearch.egg-info/requires.txt
+dntsearch.egg-info/top_level.txt
