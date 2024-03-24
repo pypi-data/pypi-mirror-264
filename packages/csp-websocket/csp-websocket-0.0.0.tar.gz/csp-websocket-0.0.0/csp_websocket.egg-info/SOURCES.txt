@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+csp_websocket.egg-info/PKG-INFO
+csp_websocket.egg-info/SOURCES.txt
+csp_websocket.egg-info/dependency_links.txt
+csp_websocket.egg-info/requires.txt
+csp_websocket.egg-info/top_level.txt
