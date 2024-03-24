@@ -1,0 +1,3 @@
+include procblockweb/requirements.txt
+include procblockweb/thirdparty.json
+include procblockweb/README.MD
