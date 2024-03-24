@@ -1,0 +1,7 @@
+atsphinx/mini18n/__init__.py,sha256=D3RwGj05-ub6kHBvSblD2_FEaOW710mypFpGqnKiLZk,3207
+atsphinx/mini18n/templates/mini18n/index.html,sha256=WGzQ0997DEj89Cl4v9KCnYsaOEl45lPJUDjJZQckY_8,492
+atsphinx/mini18n/templates/mini18n/snippets/select-lang.html,sha256=BOtZTczCTFYKIPbVg0nYA0OpSmFGHQnYR03pZYfEkiI,572
+atsphinx_mini18n-0.1.0.dist-info/METADATA,sha256=UdtBzS2e_mNrQoGvP9HkUAid6OLXmnarkjyuJaJciKA,1317
+atsphinx_mini18n-0.1.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+atsphinx_mini18n-0.1.0.dist-info/licenses/LICENSE,sha256=ieEKJ-VczfHpbzAARBk5cBwN-Qfu4_jjKLNpnH1JyAg,9161
+atsphinx_mini18n-0.1.0.dist-info/RECORD,,
