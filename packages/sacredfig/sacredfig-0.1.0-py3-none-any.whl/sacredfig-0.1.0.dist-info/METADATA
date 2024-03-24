@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sacredfig
+Version: 0.1.0
+Summary: An opinionated library for scientific figures in matplotlib.
+Author: Luc Rocher
+Author-email: luc@rocher.lc
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.6,<4.0)
+Description-Content-Type: text/markdown
+
+# sacredfig
+
+SacredFig is a Python library that provides opinionated styles for scientific figures in matplotlib.
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install SacredFig.
+
+```bash
+pip install sacredfig
