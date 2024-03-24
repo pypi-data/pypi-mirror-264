@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: xtquant
+Version: 240119.2
+Summary: xtquant_240119b
+Home-page: http://dict.thinktrader.net/?id=7zqjlm
+Author: Willows
+Author-email: 972210116@qq.com
+License: GNU GPLv3 
+Requires-Python: >=3.6, <=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+一个测试用的说明
