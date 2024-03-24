@@ -1,0 +1,16 @@
+ocp_tessellate/__init__.py,sha256=C4lSEr3CFbQZ6iVuaymNA0XhYW29_86z_XLoVPO25Kk,2980
+ocp_tessellate/_version.py,sha256=xWDMzV5jhWFx4nb_3kG6Y3_9Ax_Po2toYZLpAAUboaM,1123
+ocp_tessellate/cad_objects.py,sha256=88OGCyQlMNJDCcrVFf35S1d6soPNCtnQpN0VLKHw3HM,15543
+ocp_tessellate/convert.py,sha256=jma0-_6uTY3ghY_n_HLKT0SSousgPRb0ZWMCbtNQaCY,32764
+ocp_tessellate/defaults.py,sha256=bNJXGfO7XplZcK5DBKIlA_VJHmh-6_wUR2QBYNIbGRs,10683
+ocp_tessellate/mp_tess.py,sha256=3aa0ojqc6-YNFV5WTFMOF5FEcdzTECkn9Yr0NIiypm8,1301
+ocp_tessellate/mp_tessellator.py,sha256=wpKu5PGPTrMD4ex-mMf7gWNZLR8BX56IkC_2FBPfTTo,3048
+ocp_tessellate/ocp_utils.py,sha256=PDVsJkLpyDcH95DOnt3IljRun18xP-pK0xbVHU7ErmU,25136
+ocp_tessellate/stepreader.py,sha256=2UJLFujMN73yu_oWAQ2fxXEsFv1NerGBk1gItGOA6dA,13370
+ocp_tessellate/tessellator.py,sha256=a4sBvZhiHNwXm9UvEdOhSgVCxq_ZiovVqAHE9eHw47U,15833
+ocp_tessellate/trace.py,sha256=-EDqwakW7xfNOQX8zvRwPyX8als6KLJBFcMFlgbpxK4,1065
+ocp_tessellate/utils.py,sha256=TJwOdXZVR4rDaCuLSsYQWc9W-uesgQ-HQ9GVnNc0V4M,6223
+ocp_tessellate-2.2.1.dist-info/METADATA,sha256=UnHXtoxtyekDqrXo9sNZ3La9UqCwhO_7r8kYl6CbjFE,1120
+ocp_tessellate-2.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ocp_tessellate-2.2.1.dist-info/top_level.txt,sha256=8Q3q7vUWdMQg50XQQcBLgu6h39DL1qcCGmZohOlIGN0,15
+ocp_tessellate-2.2.1.dist-info/RECORD,,
