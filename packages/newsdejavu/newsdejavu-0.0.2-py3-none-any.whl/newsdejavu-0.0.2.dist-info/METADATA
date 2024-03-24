@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: newsdejavu
+Version: 0.0.2
+Requires-Python: >=3.9, <4
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: nltk
+Requires-Dist: opencv-python
+Requires-Dist: datasets
+Requires-Dist: torch
+Requires-Dist: requests
+Requires-Dist: Pillow <=15.0,>=10.0.1
+Requires-Dist: transformers
+Requires-Dist: sentence-transformers
+
