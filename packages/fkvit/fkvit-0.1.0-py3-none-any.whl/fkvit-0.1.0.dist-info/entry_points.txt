@@ -1,0 +1,2 @@
+[console_scripts]
+fkvit = fkvit.main:main

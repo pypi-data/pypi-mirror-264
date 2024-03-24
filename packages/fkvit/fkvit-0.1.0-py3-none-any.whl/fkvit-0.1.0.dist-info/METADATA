@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fkvit
+Version: 0.1.0
+Summary: IF A PROBLEM CAN BE SOLVED, THEN IT'S NOT WORTH WORRYING ABOUT.
+Author: hello kitty
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyperclip
+Requires-Dist: google-generativeai
+
+# fkvit
+
+I've been contemplating existence since the day I came out of the womb, never to find an answer. My whole life I've spent wondering why there's so much darkness and pain, why all my loved ones are gone or will be gone. I've lived in this void of thought and blackness for so long that I don't even feel anymore. Tired? I don't even know the meaning. I haven't slept in days and I won't for more days, I'm so lost that I don't think I'll ever sleep again until sleep eternal. Why are we here? What happens when we die? Did any of it mean anything? This is what regular people ask, but I went beyond this long ago. The questions I ask myself are so deep you would drown if I tried explaining them to you, and if you didn't, there's no possible way you could even begin to comprehend. So you're having an existential quandary? How is that different from any other living creature? Talk to me once you've sunk in as deep as I have. Oh wait, if you did that you'd wouldn't talk to me because you would know how empty everything is and realize that it wouldn't change anything. Now if you don't mind, I'll pass back into that lightless cloud of thought that forever looms over me and engulfs my mind.
