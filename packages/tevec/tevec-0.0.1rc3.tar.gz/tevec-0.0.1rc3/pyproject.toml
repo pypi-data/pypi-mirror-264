@@ -1,0 +1,92 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "tevec"
+version = "0.0.1.rc3"
+description = ""
+authors = ["Nick Badger <nbadger1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+# For sure must be better than 3.8 due to importlib-metadata
+python = ">=3.12"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+ipython = ">=8.22.2"
+
+[tool.poetry.group.lint]
+optional = true
+
+[tool.poetry.group.lint.dependencies]
+ruff = ">=0.3.3"
+refurb = ">=2.0.0"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = ">=8.1.1"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = [
+    "tests/unittests",
+    "tests/integration_tests",
+    "tests/utils/tests"
+]
+addopts = "--import-mode=importlib"
+cache_dir = '/tmp/pytest_cache'
+
+[tool.ruff]
+dummy-variable-rgx = "^_{0,1}$"
+line-length = 79
+select = [
+    "F",
+    "E",
+    "W",
+    "C90",
+    "B",
+    "I",
+    "N",
+    "YTT",
+    "S",
+    "A",
+    "C4",
+    "ICN",
+    "Q003",
+    "PLC",
+    "PLE",
+    "PLR",
+    "PLW",
+    "RUF"
+]
+ignore = [
+    "N818",
+    "PLR5501"
+]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.ruff.per-file-ignores]
+"tests/**" = ["S101", "PLR2004"]
+
+[tool.refurb]
+ignore = []
+
+[tool.coverage.run]
+source = ["tevec/"]
+
+[tool.pyright]
+# See https://github.com/microsoft/pyright/blob/main/docs/configuration.md
+pythonVersion = "3.12"
+pythonPlatform = "Linux"
+# Not sure how to get import resolution to work for 3rdparty packages. See
+# https://github.com/microsoft/pyright/blob/main/docs/import-resolution.md
+# Might require remote language server from within docker
+
