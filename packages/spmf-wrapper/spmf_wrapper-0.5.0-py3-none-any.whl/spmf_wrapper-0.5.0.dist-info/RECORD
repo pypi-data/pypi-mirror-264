@@ -1,0 +1,15 @@
+spmf/__init__.py,sha256=UXL5GudvvCzlmXD4wLrvBID-auLRiRW0P8hKoB1zhUA,46
+spmf/base.py,sha256=3gWaNTp0zkeiQkAmJnMvoS0W8v4YT4aLxt6vANnvdH4,5412
+spmf/episode.py,sha256=rkAjvOYXZv5PwhXNlbog2EE77xO3fGatgNM4S8AkNBM,18609
+spmf/seq_pat.py,sha256=uAsp18kFRuKiJpW4IvEs7IV0_nshMfNBNVGQMWl_Y9A,19886
+spmf/binaries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spmf/binaries/spmf.jar,sha256=gXPRIAvc_QyKeEYMWB_mrz7VE1vqjZvJYM8ifNWD3jc,12692580
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_episode_mining.py,sha256=DtjscF4h2XuzzO78Dg9oMUZwVoUMCxlB-H6MRti3Xj0,11221
+tests/test_seqpat_mining.py,sha256=lm3cUYVGXbjB2Il77OF-22hG85Fhb9kupwrsoNszqlw,10025
+tests/test_utils.py,sha256=iiHVX9F91zK7Lx0cllOC6v-kz2-RtDNvwzaj9G3-G2A,1999
+spmf_wrapper-0.5.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spmf_wrapper-0.5.0.dist-info/METADATA,sha256=gg2FlnuZvn-ltQ9poBYyn4kdeMQsLZO3iCmTCmB17f4,4917
+spmf_wrapper-0.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+spmf_wrapper-0.5.0.dist-info/top_level.txt,sha256=eU0eFPtovmQeLzOv4fohUHHiWnWEe8EoT9EqRNa-dKI,25
+spmf_wrapper-0.5.0.dist-info/RECORD,,
