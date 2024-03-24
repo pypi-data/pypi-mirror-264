@@ -1,0 +1,5 @@
+setup.py
+neogit.egg-info/PKG-INFO
+neogit.egg-info/SOURCES.txt
+neogit.egg-info/dependency_links.txt
+neogit.egg-info/top_level.txt
