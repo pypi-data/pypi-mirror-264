@@ -1,0 +1,10 @@
+scCAPE/__init__.py,sha256=z5k5F8DVqErDdF3r89AI_jB-tvMnm68YZqL8brEmDLw,112
+scCAPE/dataDL.py,sha256=z9pOSXfj7kWMuBHvJ5MK7lTvHcfVyL-ntXE-m3oj_ek,7962
+scCAPE/modelDL.py,sha256=nHmgduxN09WTuFDsleytM6QulYNbQpbmbfaeDZJH0ao,9015
+scCAPE/plotting.py,sha256=a8z45jtP8c9drnnySb7FdnvIvDDqWAjpyGFz6tIQ-bw,15128
+scCAPE/sccape.py,sha256=cJb8L7xokobET5R81EnOstXMcDphE96TpwIb_mVvXQM,61374
+scCAPE-0.0.1.dist-info/LICENSE.txt,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+scCAPE-0.0.1.dist-info/METADATA,sha256=2GzcmlWfnA388f_jS97s4jg7JzlXDdpuZOQfzoW_5UY,558
+scCAPE-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+scCAPE-0.0.1.dist-info/top_level.txt,sha256=yFjYzeiJaZjGcigo-apNTINbp6a3FxEkqIiH126sS3c,7
+scCAPE-0.0.1.dist-info/RECORD,,
