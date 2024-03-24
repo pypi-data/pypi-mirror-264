@@ -1,0 +1,10 @@
+[build-system]
+requires = [ "setuptools>=61.0",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-project-manager"
+version = "0.0.5.20240323192210"
+
+[project.scripts]
+ppm = "python_project_manager.app:cli"
