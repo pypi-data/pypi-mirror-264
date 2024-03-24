@@ -1,0 +1,3 @@
+[console_scripts]
+lboard = src.board:main
+learnerboard = src.board:main
