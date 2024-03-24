@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+dmacheck/__init__.py
+dmacheck/datadog_utils.py
+dmacheck/main.py
+dmacheck/opsgenie_utils.py
+dmacheck.egg-info/PKG-INFO
+dmacheck.egg-info/SOURCES.txt
+dmacheck.egg-info/dependency_links.txt
+dmacheck.egg-info/entry_points.txt
+dmacheck.egg-info/requires.txt
+dmacheck.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
