@@ -1,0 +1,2 @@
+[console_scripts]
+conescenes = cli.conescenes:conescenes
