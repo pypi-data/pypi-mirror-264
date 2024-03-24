@@ -1,0 +1,12 @@
+fidmaa_gui/QClickableLabel.py,sha256=g44N5gVFgot-KYRezDsrxLajNaPMxw5ukjKErost0MQ,535
+fidmaa_gui/app.py,sha256=vVHPiKHN6W7doeMjCrRMy5kI0uVJJ4ppbhEv9HY_VTA,12372
+fidmaa_gui/calculations.py,sha256=-iWjhEHAC7k2k7XacBs4GYpheOcvk3rtO6nak99cHic,1571
+fidmaa_gui/const.py,sha256=d55WTyTqsIzYTZ8PaKiNrRMtBEViZFDtZ1DZS_4AUTY,106
+fidmaa_gui/entrypoints.py,sha256=FVdbog2IkezhLpJTXiOap2ONbmcCs-J6dvZJsi5h-dE,94
+fidmaa_gui/errors.py,sha256=agxf46s9Js9-Aog52ongwIu2AeymqN3yct51NlrVtOs,3107
+fidmaa_gui/form.ui,sha256=nZ6O2FTHAXLOcwYKSAEXcQKP48zPWRHDIbsVxHIMcow,9642
+fidmaa_gui-0.1.2.dist-info/LICENSE,sha256=WsfGAfjc0IqICjJ6D-PEvnSZmfQen576MsMCaQurkms,1074
+fidmaa_gui-0.1.2.dist-info/METADATA,sha256=y9VS3RoB-4jkJQItNgzQImAOIyxCogXpD7HJWP1OSF4,760
+fidmaa_gui-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fidmaa_gui-0.1.2.dist-info/entry_points.txt,sha256=iRQ49qKB8JZCa8eM50D0mfx-HDiyEYchTdxRuTfCUzk,57
+fidmaa_gui-0.1.2.dist-info/RECORD,,
