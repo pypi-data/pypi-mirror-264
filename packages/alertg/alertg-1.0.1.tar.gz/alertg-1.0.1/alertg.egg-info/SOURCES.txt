@@ -1,0 +1,9 @@
+README.md
+setup.py
+alertg.egg-info/PKG-INFO
+alertg.egg-info/SOURCES.txt
+alertg.egg-info/dependency_links.txt
+alertg.egg-info/entry_points.txt
+alertg.egg-info/not-zip-safe
+alertg.egg-info/requires.txt
+alertg.egg-info/top_level.txt
