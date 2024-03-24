@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: sophus_pyo3
+Version: 0.4.0
+Summary: sophus - geometry for robotics and computer vision
+Keywords: robotics,optimization
+License: MIT OR Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/farm-ng/sophus-rs/
+
+# sophus-rs
+
+highly experimental... use at your own risk
