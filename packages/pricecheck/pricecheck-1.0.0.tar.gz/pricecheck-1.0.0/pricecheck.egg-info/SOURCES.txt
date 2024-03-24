@@ -1,0 +1,9 @@
+README.md
+setup.py
+pricecheck.egg-info/PKG-INFO
+pricecheck.egg-info/SOURCES.txt
+pricecheck.egg-info/dependency_links.txt
+pricecheck.egg-info/entry_points.txt
+pricecheck.egg-info/not-zip-safe
+pricecheck.egg-info/requires.txt
+pricecheck.egg-info/top_level.txt
