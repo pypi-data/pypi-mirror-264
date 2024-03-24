@@ -1,0 +1,10 @@
+gbdc.cpython-38-s390x-linux-gnu.so,sha256=wGzJGGu-3GYU-mOjKpSL9oSy_fgPEYNivvagES7FCv4,4759473
+gbdc-0.2.45.dist-info/RECORD,,
+gbdc-0.2.45.dist-info/METADATA,sha256=evZWS-MECTScAjnXtdktJ9N1ewnoPXhUWiS0NUgxU90,128
+gbdc-0.2.45.dist-info/WHEEL,sha256=AmAEVmiP-NHUOfotQWRMBZC7pmRgqh8L8Uva5IaD9Yo,110
+gbdc-0.2.45.dist-info/top_level.txt,sha256=Q--xc4fHFswsQdlmJ0X8ItO3NqovtcAYVQeng8SL5jw,5
+gbdc-0.2.45.dist-info/LICENSE,sha256=SBwosrq_RV0l0VgmFWdZybFajzuTq0mw_ICdpZjAzOc,1109
+gbdc.libs/libgcc_s-5d75f88e.so.1,sha256=JudK2J4sQl1AeF1lns4a2D6JLdC006VlbIikSARdFSE,72433
+gbdc.libs/libbz2-1f53a0d7.so.1.0.8,sha256=R_Q4Nh5N6Mj-kMH_5TFPD5QxmgsF81z7IzOe4MHgNJM,79089
+gbdc.libs/libstdc++-0a7338d3.so.6.0.30,sha256=vyIoKG0RkhJbFW2ceyJ4WrCOvIyKTht5qhbzHOmF4m8,3512809
+gbdc.libs/libarchive-b12d9ab1.so.20,sha256=OOah1JkScNZIY17V7Mr6UP17RTWKltgYOoHIcCSlsiY,1008929
