@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: secret_manager_cli
+Version: 0.1.0
+Summary: AWS Secret Manager Cli tool for managing AWS secrets easily
+Home-page: https://github.com/fegmorte/aws-secret-manager-cli
+License: MIT
+Author: Frederic Egmorte
+Author-email: frederic.egmorte@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (>=1.26.13,<2.0.0)
+Requires-Dist: deepdiff (>=6.7.1,<7.0.0)
+Requires-Dist: echoprompt (>=0.2.0,<0.3.0)
+Requires-Dist: pytest (>=6.2.4,<7.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/fegmorte/aws-secret-manager-cli
+Description-Content-Type: text/markdown
+
+# secret_manager_cli
+
+AWS aws-secret-manager-cli tool is aimed to :
+
+- list all the secrets under your AWS account
+- edit your secret directly from you terminal editor
+
+&nbsp;
+
+Examples: 
+
+```bash
+❯ python -m secret_manager_cli update-secret your-secret-name
+❯ python -m secret_manager_cli update-secret
+❯ python -m secret_manager_cli list-secret
+```
+
+&nbsp;
+
+## Installation
+
+**Requirements**
+
+
+- Install awscli via [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html] (not necessary if you are connected to an EC2 instance)
+
+
+&nbsp;
+
+You should install the requirements via the pip install below.
+
+&nbsp;
+
+Create a virtualenv with python >= 3.9
+
+&nbsp;
+
+```bash
+source .venv_3.11.0/bin/activate
+pip install secret_manager_cli
+```
+
+&nbsp;
+
+if it is the first time you connect to aws-cli, you have to get credentials key from your aws administrator.
+
+&nbsp;
+
+## Usage
+
+```bash
+❯ python -m secret_manager_cli --help
+
+
+Welcome in secret manager Cli !
+
+                                                                                                                                                      
+ Usage: secret_manager_cli [OPTIONS] COMMAND [ARGS]...                                                                                                
+                                                                                                                                                      
+╭─ Options ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --version             -v        Show the application's version and exit.                                                                           │
+│ --install-completion            Install completion for the current shell.                                                                          │
+│ --show-completion               Show completion for the current shell, to copy it or customize the installation.                                   │
+│ --help                          Show this message and exit.                                                                                        │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ list-secret                             List secret(s) from AWS Secret Manager                                                                     │
+│ update-secret                           Update secret from secret manager                                                                          │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+```
+
+&nbsp;
+
+Thanks to Typer from [@tiangolo](https://typer.tiangolo.com/)
+

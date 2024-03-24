@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "secret_manager_cli"
+version = "0.1.0"
+description = "AWS Secret Manager Cli tool for managing AWS secrets easily"
+authors = ["Frederic Egmorte <frederic.egmorte@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+repository = "https://github.com/fegmorte/aws-secret-manager-cli"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.26.13"
+typer = {version = "^0.9.0", extras = ["all"]}
+pytest = "^6.2.4"
+echoprompt = "^0.2.0"
+deepdiff = "^6.7.1"
+
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+pattern = "^((?P<epoch>\\d+)!)?(?P<base>\\d+(\\.\\d+)*)"
+latest-tag = true
+strict = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
