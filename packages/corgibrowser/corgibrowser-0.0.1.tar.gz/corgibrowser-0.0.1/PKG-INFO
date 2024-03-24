@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: corgibrowser
+Version: 0.0.1
+Summary: Corgi Browser
+Home-page: https://github.com/j-enriquez/corgibrowser
+Author: Jose Enriquez
+Author-email: joseaenriqueza@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CorgiBrowser
