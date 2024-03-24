@@ -1,0 +1,5 @@
+setup.py
+kotsareservation.egg-info/PKG-INFO
+kotsareservation.egg-info/SOURCES.txt
+kotsareservation.egg-info/dependency_links.txt
+kotsareservation.egg-info/top_level.txt
