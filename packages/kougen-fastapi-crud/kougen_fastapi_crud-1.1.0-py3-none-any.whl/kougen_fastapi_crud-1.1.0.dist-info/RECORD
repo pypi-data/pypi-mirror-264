@@ -1,0 +1,8 @@
+crud/__init__.py,sha256=eU3JjczvnlS4rNahnQScGQEFJMuKcxa4vOjqdEC-Zzg,165
+crud/app.py,sha256=bYXYRn45e3euIU6lBlugi1_G3x7F6DqDqiIrm-JL7Q4,4001
+crud/entities.py,sha256=KbN4bOtV6NQj1CH1biJAuhDyO__BBjmpnEDUG7pGLho,519
+crud/lib.py,sha256=TasvGVwXUyK2sHJM4idMDsLVtQkawUdNcIAo5s5YzN4,128
+kougen_fastapi_crud-1.1.0.dist-info/METADATA,sha256=XKX6PzdzTY6AwmFd2XN-A82EhfMKUAvKnlDEAP-i4LI,895
+kougen_fastapi_crud-1.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kougen_fastapi_crud-1.1.0.dist-info/top_level.txt,sha256=lSsZ7QjV7fghbA4e0pvsbjz-Tz3ZuKoxBTNUStsjUUE,5
+kougen_fastapi_crud-1.1.0.dist-info/RECORD,,
