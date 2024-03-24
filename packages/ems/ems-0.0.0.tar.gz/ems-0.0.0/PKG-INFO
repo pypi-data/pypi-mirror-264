@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ems
+Version: 0.0.0
+Summary: Electrical Muscle Stimulation in Python
+Home-page: https://github.com/Human-Computer-Integration-Lab/ems
+License: MIT
+Author: Philip Chmielowiec
+Author-email: philipc2@uchicago.edu
+Requires-Python: >=3.9
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Project-URL: Repository, https://github.com/Human-Computer-Integration-Lab/ems
+Description-Content-Type: text/markdown
+
+[comment]: <> (Replace logo once we have one)
+<h1 align="center">
+<img src="https://cs.uchicago.edu/wp-content/uploads/2024/01/UChicago_Computer-Science_Vertical_Color-RGB-1024x528.png" width="300">
+</h1><br>
+
+[comment]: <> (REPLACE THIS ONCE PACKAGE IS RELACED TO PyPi and CONDA)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/numpy.svg?label=PyPI%20downloads)](
+https://pypi.org/project/numpy/)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/numpy.svg?label=Conda%20downloads)](
+https://anaconda.org/conda-forge/numpy)
+
+EMS is an open-source toolkit for Electrical Muscle Stimulation.
+
