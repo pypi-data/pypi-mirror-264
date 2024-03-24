@@ -1,0 +1,2 @@
+[console_scripts]
+convert_geom = scripts.geom_converter:main
