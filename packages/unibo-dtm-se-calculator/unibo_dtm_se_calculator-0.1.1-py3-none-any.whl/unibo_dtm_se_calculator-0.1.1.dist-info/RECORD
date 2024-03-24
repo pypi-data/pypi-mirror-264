@@ -1,0 +1,8 @@
+calculator/__init__.py,sha256=cDMawCobC0Qq_zgWl7MNZdPeV4rK84FDz8WxUnQchPo,1587
+calculator/ui/cli.py,sha256=LEF1ov9QKci_vCvk7x4AkRAg16IF_IvksO-D4EFJpTY,750
+calculator/ui/gui.py,sha256=qdBSD0KZZAfC0sbN_saGrfmL7YqjqTacXXvXfzo945s,2720
+unibo_dtm_se_calculator-0.1.1.dist-info/entry_points.txt,sha256=VsdVMCeBFblSAqeq6ZNFLgFwyhaKn-2EgSDoZo-GNJA,101
+unibo_dtm_se_calculator-0.1.1.dist-info/LICENSE,sha256=vXjguVsujqCxJgCdj9OXkwcD9o_2Urou5Jq70TFVNdU,9153
+unibo_dtm_se_calculator-0.1.1.dist-info/METADATA,sha256=562iBHdfyCihvuxrltcrHp0pmrcs0ZI44bjP4wSHhtY,1494
+unibo_dtm_se_calculator-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+unibo_dtm_se_calculator-0.1.1.dist-info/RECORD,,

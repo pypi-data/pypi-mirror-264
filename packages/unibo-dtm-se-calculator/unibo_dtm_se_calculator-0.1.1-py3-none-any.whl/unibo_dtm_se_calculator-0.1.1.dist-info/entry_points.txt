@@ -1,0 +1,4 @@
+[console_scripts]
+calculator=calculator.ui.cli:start_app
+calculator-gui=calculator.ui.gui:start_app
+
