@@ -1,0 +1,9 @@
+portrait_analyser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+portrait_analyser/const.py,sha256=Xgx4Glo37gQWFFiFTVWrhmjf5TjfVp6l1__fwEDhCxY,38
+portrait_analyser/exceptions.py,sha256=zm53MSyXGHbyWhu2VrONWjF0eTKj8D4BKm100i5wwyQ,235
+portrait_analyser/face.py,sha256=zpTdqHaj9Ja1va-nSR2xxcpXyq9QWr2jGqV96d-Rp3s,1117
+portrait_analyser/ios.py,sha256=laxPZyBeK_MaLsOQzX9booEoRfDj2vp6AZrLZWNH6CQ,4882
+portrait_analyser-0.1.2.dist-info/LICENSE,sha256=G1u8XWgJbLy025LY7D2DqbYJPKXX59gSuo4gro_PQkE,1063
+portrait_analyser-0.1.2.dist-info/METADATA,sha256=cY_WAx4mUhYi17SYtsl2MhGmj8WPGmdJTHBWrq6ZOc8,789
+portrait_analyser-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+portrait_analyser-0.1.2.dist-info/RECORD,,
