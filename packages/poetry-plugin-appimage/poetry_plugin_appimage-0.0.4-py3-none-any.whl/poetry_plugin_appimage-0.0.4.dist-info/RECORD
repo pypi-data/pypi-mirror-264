@@ -1,0 +1,14 @@
+poetry_plugin_appimage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_plugin_appimage/plugin.py,sha256=EoZ-q4lZkOZVQnkQGgXt2jod-StamOlMI95EvKWAP08,12580
+poetry_plugin_appimage/templates/CustomAppRun.sh.mako,sha256=u6g58aLoes3NGL1kZ8sb9pdjUH2T0t8UhuIgAGovUbI,979
+poetry_plugin_appimage/templates/application.desktop.mako,sha256=UK0ODT5d_9AGeKiTki3JWP_oSEDJfSI7sTOpaSv3vjk,139
+poetry_plugin_appimage/templates/build_appimage.sh.mako,sha256=SQf7EypkDC5oS9MzGVIx46w-lzM2dRPMXwCO90hJSow,3626
+poetry_plugin_appimage/templates/icon.png,sha256=ErIVJH69U7vdfva8nnMRBY-MltKjZX-41w2qXjCv5KY,1715
+poetry_plugin_appimage/templates/linuxdeploy-plugin-compile.sh,sha256=uKH5XIMW51WaXk9KTS9Qh0nF8TP55kLN2nfZ3lWv3DM,973
+poetry_plugin_appimage/templates/linuxdeploy-plugin-conda.sh,sha256=DVRNEFrkB2I6aVeF9oMqCoQYifeF85lk8R0SDxj4fmE,6726
+poetry_plugin_appimage/templates/linuxdeploy-plugin-copyapp.sh,sha256=e0n9QmMRXnoZcZEl4a7LOlVkvKj8j0XXLCJPCKReXmA,3139
+poetry_plugin_appimage/templates/linuxdeploy-x86_64.AppImage,sha256=yG1lQPHfMQYfAvU5otNEX41_hcw5lO7h50zRrJe3bfA,13419712
+poetry_plugin_appimage-0.0.4.dist-info/METADATA,sha256=vhYVR6RHt48WF5mvttwNTGquai4Wu2v5iwMXY6QpGaQ,3828
+poetry_plugin_appimage-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+poetry_plugin_appimage-0.0.4.dist-info/entry_points.txt,sha256=G1dLP4atvbRG2mRbeka0SD8wRRbgA5EQGK24SB0_H78,95
+poetry_plugin_appimage-0.0.4.dist-info/RECORD,,
