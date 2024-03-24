@@ -1,0 +1,8 @@
+adap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adap/adap.py,sha256=jnqnv7Q8ZRD2awASNVb8A-8IvwCaGVI64sqo_tERtUc,3729
+adap/example.py,sha256=uP93zgGAh1T8NpQ_f-GGxe2QaFLr2iIRV3j9T8NPbeU,138
+adap/test.py,sha256=PdWwNNF191ZzXUX7IGBf2e1OKBxUZ_6ITESTGPUzbig,648
+adap-0.0.1.dist-info/METADATA,sha256=D_a4lwt39MmNGrfYzsPWUIpu0pVnAqTffEj8Edif4Lo,5064
+adap-0.0.1.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+adap-0.0.1.dist-info/licenses/LICENSE,sha256=kY3SF2EsL7wENT2DJPqYUnzAIKKRuNvGD7Fggbi3ISk,1103
+adap-0.0.1.dist-info/RECORD,,
