@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: robot-rumble-stdlib
+Version: 0.1.1
+Home-page: https://github.com/robot-rumble/logic/tree/master/lang-runners/python/stdlib
+Author: Robot Rumble Team
+Author-email: antonoutkine@gmail.com
+License: GNU GPL3
+Project-URL: Documentation, https://rr-docs.readthedocs.io/en/latest/api.html
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# robot-rumble-stdlib (Python)
+
+This is the [Robot Rumble](https://robotrumble.org) stdlib, uploaded to PyPI as
+a package. You'd mainly want to use this for autocompletion while you're
+writing a robot locally.
+
+
+## License
+
+This code is licensed under the GPL-3 license.
