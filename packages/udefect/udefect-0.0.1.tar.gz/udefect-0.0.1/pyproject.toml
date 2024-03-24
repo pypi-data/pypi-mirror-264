@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "udefect"
+version = "0.0.1"
+description = "A unified first principle defect calculaiton framework"
+authors = ["Shibu Meher <shibumeher@iisc.ac.in>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/Shibu778/udefect"
+repository = "https://github.com/Shibu778/udefect"
+keywords = ["defect", "udefect", "transition level", "ZPL", "ZFS"]
+
+classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Operating System :: OS Independent",
+    ]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
