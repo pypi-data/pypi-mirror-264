@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/morteza_test_lib_py/__init__.py
+src/morteza_test_lib_py/example.py
+src/mortezatestlibpy.egg-info/PKG-INFO
+src/mortezatestlibpy.egg-info/SOURCES.txt
+src/mortezatestlibpy.egg-info/dependency_links.txt
+src/mortezatestlibpy.egg-info/top_level.txt
