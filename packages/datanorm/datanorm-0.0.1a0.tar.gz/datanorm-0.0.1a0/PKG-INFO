@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datanorm
+Version: 0.0.1a0
+Summary: Handling DATANORM 4 files with Python
+Author-email: Johannes Fahr <johannes.fahr@posteo.de>
+Project-URL: Homepage, https://github.com/FahrJo/datanorm
+Project-URL: Issues, https://github.com/FahrJo/datanorm/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
