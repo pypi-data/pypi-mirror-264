@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: fredx
+Version: 0.0.3
+Summary: St. Louis Federal Reserve FRED API
+Home-page: https://github.com/AhmedThahir/fredx
+Author: Ahmed Thahir
+Author-email: ahmedthahir2002@gmail.com
+License: MIT
+Keywords: fred,api,federal reserve,st. louis fed,async
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# fredx
+
+- Request multiple series with a single line
+- Fast
+- Async
+- All operations using a single http client
+
+## Installation
+
+```bash
+pip install fredx
+# or
+pip install "git+https://github.com/AhmedThahir/fredx"
+```
+
+## Import
+
+```python
+from fred import Fred
+```
+
+## Create Object
+
+```python
+API_KEY = ""
+fred = Fred(API_KEY)
+```
+
+## Get list of series
+
+```python
+series_list_df = await (
+    fred
+    .get_series_list(
+      tags = ["india", "monthly"],
+      limit = 2
+    )
+)
+```
+
+## Get series data
+
+```python
+series_list = list(series_list_df["id"])
+series_data = await fred.get_series(
+    series_id_list = series_list,
+    limit = 1
+)
+```
