@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+cdp_patches/__init__.py
+cdp_patches.egg-info/PKG-INFO
+cdp_patches.egg-info/SOURCES.txt
+cdp_patches.egg-info/dependency_links.txt
+cdp_patches.egg-info/top_level.txt
