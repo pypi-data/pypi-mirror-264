@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: baler-operator
+  labels:
+    app: baler-operator
+spec:
+  replicas: 1 # Keep it on 1 replica, see more details at https://kopf.readthedocs.io/en/stable/deployment/#deployment-yaml
+  strategy:
+    type: Recreate # Same reason as above, we do not want to have more than one replica anytime
+  selector:
+    matchLabels:
+      app: baler-operator
+  template:
+    metadata:
+      labels:
+        app: baler-operator
+    spec:
+      imagePullSecrets:
+      - name: regcred
+      serviceAccountName: baler-operator
+      containers:
+      - name: operator-container
+        image: gatecastle/baler-operator:0.8.3 # Replace with your actual image name and version
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsNonRoot: true
+        resources:
+          requests:
+            cpu: "2000m" # Requesting 2 vCPU
+            memory: "4Gi" # Requesting 4 GB of memory
+        imagePullPolicy: Always
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 8080
+        env:
+        - name: KUBECONFIG
+          value: /root/.kube/config
+        volumeMounts:
+        - name: kube-config
+          mountPath: /root/.kube
+      volumes:
+      - name: kube-config
+        hostPath:
+          path: /home/your_user/.kube/config  # Adjust this path as necessary
