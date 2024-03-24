@@ -1,0 +1,10 @@
+gbdc.cpython-312-x86_64-linux-musl.so,sha256=D9KGSfKTtz1bvYdD-ie3fzdEXC34SxrtWmG9rypF2U0,4648737
+gbdc.libs/libgcc_s-fd2fd9f2.so.1,sha256=nXsXlQcQ7Wc_-kj5vdcz6xVByu9_tw0xDIB3uKDaLPE,126617
+gbdc.libs/libarchive-6a45cc2e.so.20,sha256=t3szQpn8187_JZfBaB20U4Jc5Xh5tvV4NOCZqenAStA,959809
+gbdc.libs/libstdc++-2f15e5cf.so.6.0.30,sha256=XOx1OYhEkc-kgx_GXwKJPtpusMtz6_vt9wX6qlpOP6M,3172217
+gbdc.libs/libbz2-576957b6.so.1.0.8,sha256=JCwVNfccomamAzninypEBJUqFF3xVzgx6y21_QQXc-Q,79097
+gbdc-0.2.44.dist-info/RECORD,,
+gbdc-0.2.44.dist-info/METADATA,sha256=jPghkGgL5aBLwS-b3JjLuJnz8JPAiqcmjes5d7Aa750,128
+gbdc-0.2.44.dist-info/WHEEL,sha256=Sa4OebvWGIz03phE-3tlNSEM7V5kQFFXPkWHL0MWa9c,113
+gbdc-0.2.44.dist-info/top_level.txt,sha256=Q--xc4fHFswsQdlmJ0X8ItO3NqovtcAYVQeng8SL5jw,5
+gbdc-0.2.44.dist-info/LICENSE,sha256=SBwosrq_RV0l0VgmFWdZybFajzuTq0mw_ICdpZjAzOc,1109
