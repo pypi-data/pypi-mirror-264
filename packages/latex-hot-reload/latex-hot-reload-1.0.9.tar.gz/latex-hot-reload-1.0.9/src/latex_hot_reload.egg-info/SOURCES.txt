@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/latex/__init__.py
+src/latex/app.py
+src/latex_hot_reload.egg-info/PKG-INFO
+src/latex_hot_reload.egg-info/SOURCES.txt
+src/latex_hot_reload.egg-info/dependency_links.txt
+src/latex_hot_reload.egg-info/entry_points.txt
+src/latex_hot_reload.egg-info/requires.txt
+src/latex_hot_reload.egg-info/top_level.txt

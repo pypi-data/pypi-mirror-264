@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latex-hot-reload"
+version = "1.0.9"
+authors = [
+    {name = "Kaan Giray Buzluk", email = "kaangiray26@protonmail.com"},
+]
+description = "Reloads LaTeX files on change"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "watchfiles>=0.21.0",
+]
+
+[project.scripts]
+latex-hot-reload = "latex.app:main"
+
+[project.urls]
+"Homepage" = "https://github.com/kaangiray26/latex-hot-reload"
+"Bug Tracker" = "https://github.com/kaangiray26/latex-hot-reload/issues"
