@@ -1,0 +1,2 @@
+[console_scripts]
+pywfm = pywfm.cli:cli
