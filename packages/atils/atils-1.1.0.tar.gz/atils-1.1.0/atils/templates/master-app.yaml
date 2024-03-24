@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: master-stack
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/AidanHilt/PersonalMonorepo
+    path: kubernetes/argocd/applications
+    targetRevision: {{ environment }}
+    helm:
+      parameters:
+        - name: env
+          value: {{ environment }}
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: argocd
+  # TODO parameterize this, so we can disable automatic sync for certain environments
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
