@@ -1,0 +1,2 @@
+[console_scripts]
+cortalinsight = cortalinsight.cli:main
