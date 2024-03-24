@@ -1,0 +1,9 @@
+gbdc.cpython-312-darwin.so,sha256=mN4IW_1taW-35NhphaUZL_8-aC0aAOGJOQWqHeQoI-w,1432496
+gbdc-0.2.44.dist-info/RECORD,,
+gbdc-0.2.44.dist-info/LICENSE,sha256=SBwosrq_RV0l0VgmFWdZybFajzuTq0mw_ICdpZjAzOc,1109
+gbdc-0.2.44.dist-info/WHEEL,sha256=Tbc6gp1Pbjlg_EjqfgbR9fr85ykOKGTlKvIw2qPZwvM,112
+gbdc-0.2.44.dist-info/top_level.txt,sha256=Q--xc4fHFswsQdlmJ0X8ItO3NqovtcAYVQeng8SL5jw,5
+gbdc-0.2.44.dist-info/METADATA,sha256=jPghkGgL5aBLwS-b3JjLuJnz8JPAiqcmjes5d7Aa750,128
+gbdc.dylibs/liblz4.1.9.4.dylib,sha256=6I7zCYDR2cJqPviLCfui_6vYO5KCvh_B7p8SfEJ63O4,176352
+gbdc.dylibs/libarchive.20.dylib,sha256=QXDsr-2vYksDvV-lQmfdI7wpHJ2_LYy2rWETK05un3o,899744
+gbdc.dylibs/libzstd.1.5.5.dylib,sha256=6ffWhAW5wLR_i6Uj4vH9gQx8qeey5Zrtzx0Ig3Tj_FY,785392
