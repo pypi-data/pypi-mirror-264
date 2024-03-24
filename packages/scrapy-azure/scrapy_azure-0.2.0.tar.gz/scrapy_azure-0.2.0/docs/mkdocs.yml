@@ -1,0 +1,4 @@
+site_name: scrapy-azure
+docs_dir: .
+theme:
+  name: readthedocs

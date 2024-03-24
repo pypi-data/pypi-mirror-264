@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: scrapy-azure
+Version: 0.2.0
+Summary: A Scrapy extension to integrate with Microsoft Azure services
+Author: Shun Takebayashi
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Framework :: Scrapy
+Requires-Python: >=3.8
+Requires-Dist: azure-identity~=1.0
+Requires-Dist: azure-storage-blob~=12.0
+Requires-Dist: scrapy~=2.0
+Description-Content-Type: text/markdown
+
+# scrapy-azure
