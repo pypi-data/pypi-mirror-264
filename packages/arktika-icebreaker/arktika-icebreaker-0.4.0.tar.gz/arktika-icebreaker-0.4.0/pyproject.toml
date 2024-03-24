@@ -1,0 +1,54 @@
+[project]
+name = "arktika-icebreaker"
+description = "Software Dev Kit"
+authors = [{name = "Arktika", email = "oss@arktika.io"}]
+dynamic = ["version"]
+requires-python = ">=3.12"
+dependencies = []
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[project.urls]
+"Homepage" = "https://github.com/arktika-io/icebreaker"
+"Source Code" = "https://github.com/arktika-io/icebreaker"
+"Documentation" = "https://github.com/arktika-io/icebreaker/docs"
+"Changelog" = "https://github.com/arktika-io/icebreaker/blob/main/CHANGELOG.md"
+"Bug Tracker" = "https://github.com/arktika-io/icebreaker/issues"
+
+[project.optional-dependencies]
+dev = [
+    "build==1.*",
+    "twine==4.*",
+    "hypothesis==6.*",
+    "pytest==7.*",
+    "pytest-asyncio==0.*",
+]
+
+cli = [
+    "ruff==0.*"
+]
+
+[project.scripts]
+icebreaker = "icebreaker.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+icebreaker = [
+    "py.typed",
+    "version"
+]
+
+[tool.setuptools.dynamic]
+version = {file = "version"}
+
+[build-system]
+requires = [
+    "setuptools==69.*",
+    "wheel==0.*",
+]
+build-backend = "setuptools.build_meta"
