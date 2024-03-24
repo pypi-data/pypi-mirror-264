@@ -1,0 +1,3 @@
+hatch build
+py -m twine upload --repository testpypi dist/*
+pip install --upgrade -i https://test.pypi.org/simple/ dlmr-tools 
