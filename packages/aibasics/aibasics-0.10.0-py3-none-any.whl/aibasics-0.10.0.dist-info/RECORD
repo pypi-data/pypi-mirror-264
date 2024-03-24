@@ -1,0 +1,11 @@
+aibasics/__cli__.py,sha256=aGLCfH0gLnuhnB40MQU6VEtqOQZxa5gIHX9n-ZhnnJE,184
+aibasics/__init__.py,sha256=ComF14S5TGtzV7-TwhhumyUHOg6rfhAuIk_stsTW7p8,791
+aibasics/_version.py,sha256=v4zmKjsKOPZbp6BrWoz7iK4ST0sdZdUh9bQSJmluZ5o,23
+aibasics/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aibasics/conf/about/aibasics.yaml,sha256=MFdlI1HBxJ2ioQxd4N7vR5Etzq51KGFJCJz-SlpMlBI,239
+aibasics/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aibasics-0.10.0.dist-info/LICENSE,sha256=nl8bPGELnC2lwxO_gdV3p9Gs7Ghr2wOE7e-m3w-QzZQ,18656
+aibasics-0.10.0.dist-info/METADATA,sha256=3Rro0CSNI-x4KuSE4DG3ul8tG7fR5K9I6T-3Goa5s-4,2926
+aibasics-0.10.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aibasics-0.10.0.dist-info/entry_points.txt,sha256=OG_lGH8AHaJwE-lPRkjLi5AH1PsUJ6-E34KtuXdremQ,50
+aibasics-0.10.0.dist-info/RECORD,,
