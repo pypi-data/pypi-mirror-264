@@ -1,0 +1,4 @@
+bs4
+mintotp
+python-dateutil
+requests

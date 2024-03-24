@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+b2stats/__init__.py
+b2stats.egg-info/PKG-INFO
+b2stats.egg-info/SOURCES.txt
+b2stats.egg-info/dependency_links.txt
+b2stats.egg-info/requires.txt
+b2stats.egg-info/top_level.txt
