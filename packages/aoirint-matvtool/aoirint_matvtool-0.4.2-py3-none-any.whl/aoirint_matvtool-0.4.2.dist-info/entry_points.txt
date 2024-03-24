@@ -1,0 +1,3 @@
+[console_scripts]
+matvtool=aoirint_matvtool.cli:main
+
