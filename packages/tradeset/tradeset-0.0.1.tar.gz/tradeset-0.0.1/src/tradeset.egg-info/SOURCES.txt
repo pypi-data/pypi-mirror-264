@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/tradeset/__init__.py
+src/tradeset/example.py
+src/tradeset.egg-info/PKG-INFO
+src/tradeset.egg-info/SOURCES.txt
+src/tradeset.egg-info/dependency_links.txt
+src/tradeset.egg-info/top_level.txt
