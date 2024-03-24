@@ -1,0 +1,52 @@
+[project]
+name = "sacredfig"
+version = "0.1.0"
+description = "An opinionated library for scientific figures in matplotlib."
+readme = "README.md"
+authors = [{name = "Luc Rocher", email = "luc@rocher.lc"}]
+license = {file = "LICENSE"}
+keywords = ["matplotlib", "data-visualization", "scientific-figures", "plotting"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+repository = "https://github.com/cynddl/sacredfig"
+
+
+
+[tool.poetry]
+name = "sacredfig"
+version = "0.1.0"
+description = "An opinionated library for scientific figures in matplotlib."
+authors = ["Luc Rocher <luc@rocher.lc>"]
+readme = "README.md"
+include=["sacredfig/sacredfig.mplstyle"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4.0"
+matplotlib = "^3.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+deptry = "^0.12.0"
+mypy = "^1.5.1"
+pre-commit = "^3.4.0"
+tox = "^4.11.1"
+seaborn = "^0.13"
+numpy = "^1.26"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
