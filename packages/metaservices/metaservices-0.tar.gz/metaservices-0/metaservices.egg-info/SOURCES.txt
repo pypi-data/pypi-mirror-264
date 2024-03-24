@@ -1,0 +1,5 @@
+pyproject.toml
+metaservices.egg-info/PKG-INFO
+metaservices.egg-info/SOURCES.txt
+metaservices.egg-info/dependency_links.txt
+metaservices.egg-info/top_level.txt
