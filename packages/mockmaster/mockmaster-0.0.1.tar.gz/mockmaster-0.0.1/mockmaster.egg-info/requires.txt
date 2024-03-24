@@ -1,0 +1,7 @@
+openai
+pandas
+jsonschema
+python-dotenv
+pyfiglet
+tabulate
+termcolor
