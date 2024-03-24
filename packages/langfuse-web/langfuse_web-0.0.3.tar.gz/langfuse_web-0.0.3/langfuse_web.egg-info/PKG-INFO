@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: langfuse_web
+Version: 0.0.3
+Summary: Support for Langfuse operations not handed in the API library
+Project-URL: homepage, https://github.com/invisiblethreat/langfuse_web
+Project-URL: documentation, https://github.com/invisiblethreat/langfuse_web/blob/main/README.md
+Project-URL: repository, https://github.com/invisiblethreat/langfuse_web
+Description-Content-Type: text/markdown
+
+# langfuse-web
+
+Not all of the methods you might need for interacting with Langfuse are
+available through their API library. This makes use of `requests.Session` to use
+the web interface pull all prompts and delete prompts.
+
+### Functions
+
+- `get_all_prompts`
+- `delete_prompt`
