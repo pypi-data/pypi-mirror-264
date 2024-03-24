@@ -1,0 +1,11 @@
+shanu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shanu/ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shanu/ai/llm.py,sha256=lrJ5z4O-nwnKUdS3FhtMiMnBmgWWL0O6uEtWgNSggQk,6599
+shanu/ai/prompts.py,sha256=8q0MSCKXMPEPl4eDgVK01N5ynhYBtGcHwp0YmOrER8A,2008
+shanu/printer/__init__.py,sha256=rbcV-tbXRtIYijpqiUZaIppzHB0ynH424eMc8f3t9os,528
+shanu/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shanu/web/download.py,sha256=I3kmu_rXzYxlVOCgV7258yltjsp8Y4Z9EmHm1erBokk,1893
+shanu-0.0.3.dist-info/METADATA,sha256=EbUKKNrE3ZhhMghaYiZKJhNZ3l2EdWxEEKZfhuGGUrs,602
+shanu-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+shanu-0.0.3.dist-info/top_level.txt,sha256=WW-4q7Vk5xPD0NL29NjZvaiUpffCY1DwG9cM5D_kiFc,6
+shanu-0.0.3.dist-info/RECORD,,
