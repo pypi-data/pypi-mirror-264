@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: sacredfig
+Version: 0.1.1
+Summary: An opinionated library for scientific figures in matplotlib.
+Home-page: https://github.com/cynddl/sacredfig
+License: MIT
+Keywords: matplotlib,data-visualization,scientific-figures,plotting
+Author: Luc Rocher
+Author-email: luc@rocher.lc
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: matplotlib (>=3.6,<4.0)
+Project-URL: Repository, https://github.com/cynddl/sacredfig
+Description-Content-Type: text/markdown
+
+# sacredfig
+
+SacredFig is a Python library that provides opinionated styles for scientific figures in matplotlib.
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install SacredFig.
+
+```bash
+pip install sacredfig
+```
+
+## Usage
+
+```python
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+sns.reset_orig()
+iris = sns.load_dataset("iris")
+
+import sacredfig
+from sacredfig import cm2in
+
+plt.style.use(sacredfig.style)
+
+fig, ax = plt.subplots(figsize=(6 * cm2in, 6 * cm2in), dpi=150)
+ax.grid(False, which='major', axis='x')
+
+ax.boxplot([iris.sepal_length.values, iris.sepal_width.values],
+           labels=['Sepal length', 'Sepal width'])
+
+ax.set_box_aspect(1)
+ax.set(xlabel="Attribute", ylabel="Empirical distribution", ylim=(0, 10));
+```
