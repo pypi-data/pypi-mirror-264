@@ -1,0 +1,14 @@
+Input {
+  height: 3;
+  margin: 3;
+}
+
+#results {
+  background: $boost;
+}
+
+ResultCard {
+  background: $boost;
+  padding: 3;
+  margin: 1;
+}
