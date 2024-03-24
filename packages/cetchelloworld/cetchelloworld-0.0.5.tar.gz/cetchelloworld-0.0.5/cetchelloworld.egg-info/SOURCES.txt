@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+cetchelloworld/__init__.py
+cetchelloworld/main.py
+cetchelloworld.egg-info/PKG-INFO
+cetchelloworld.egg-info/SOURCES.txt
+cetchelloworld.egg-info/dependency_links.txt
+cetchelloworld.egg-info/top_level.txt
