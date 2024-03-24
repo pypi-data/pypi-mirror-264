@@ -1,0 +1,16 @@
+certifi
+charset-normalizer
+idna
+requests
+urllib3
+
+[build]
+build
+twine
+
+[dev]
+black
+bumpver
+isort
+mypy
+pytest
