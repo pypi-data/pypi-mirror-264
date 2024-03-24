@@ -1,0 +1,27 @@
+---
+title: CEC173x TrustFLEX Device Information
+devices:
+  CEC173x-TrustFLEX:
+    basePart: CEC1736
+    partLink: https://www.microchip.com/en-us/product/cec1736-tflx
+    toolLink: https://www.microchip.com/en-us/product/cec1736-tflx
+    provisioningFlow: TrustFLEX
+    partType: Silicon
+    productCategory: MCU32
+    tpdsRelease: Yes
+    ndaRequired: No
+parts:
+  - partNumber: CEC1736-S0-I/2ZW-TFLX
+    deviceName: CEC173x-TrustFLEX
+    packagePin: WFBGA-84
+    memory: 4M/384K
+    media: Tray
+    moq: 260
+    status: Production
+  - partNumber: CEC1736-S0-I/2ZW-TFLX-PROTO
+    deviceName: CEC173x-TrustFLEX
+    packagePin: WFBGA-84
+    memory: 4M/384K
+    media: Tray
+    moq: 260
+    status: Production

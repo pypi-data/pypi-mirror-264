@@ -1,0 +1,10 @@
+tpds_extension/cec17xx_support/extension.yaml,sha256=94DUp89IMaA5cokZwZgDOV8_jLFmp7h_6RHXKe8vUL8,48
+tpds_extension/cec17xx_support/setup.py,sha256=hDrCbDikGrrleCULwPlBkZSzIKD2cyfZQQN6Qmj2z-c,38
+tpds_extension/cec17xx_support/version.py,sha256=GIukrVnl8Ykjex2rUbxdz2Ov1PRc_MomFmxwSzRJH9w,21
+tpds_extension/cec17xx_support/backend/__init__.py,sha256=U4SlXj6C73tDT6jyOvN-bbbF0c11UNMWJ6svArlLsBQ,155
+tpds_extension/cec17xx_support/backend/parts/cec1736_tflx.yaml,sha256=ptAHA57FRNaddvT_5NUPSe1JOL3frZylN40s4H58hHg,707
+tpds_extension_cec17xx_support-1.0.7.dist-info/LICENSE,sha256=IH_amz7DPGEsU0po_LrerVit_FKT7HKNGU-ENIQQ-6k,1120
+tpds_extension_cec17xx_support-1.0.7.dist-info/METADATA,sha256=2ImDZa9VmsRHiNRLkaEXS7yGwlI-HMrQAd_bQPrCABo,1907
+tpds_extension_cec17xx_support-1.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tpds_extension_cec17xx_support-1.0.7.dist-info/top_level.txt,sha256=CvrSPFJ0i_aZqR-9kHMw-9oKAWXwtI1bWfcG9WS43Is,15
+tpds_extension_cec17xx_support-1.0.7.dist-info/RECORD,,
