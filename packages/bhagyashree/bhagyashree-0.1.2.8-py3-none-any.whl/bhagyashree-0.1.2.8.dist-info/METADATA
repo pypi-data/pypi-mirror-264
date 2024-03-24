@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bhagyashree
+Version: 0.1.2.8
+Summary: Hi Bhagyashree!
+Home-page: https://github.com/arpy8/bhagyashree
+Author: Masti Khor (arpy8)
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame
+Requires-Dist: termcolor
+Requires-Dist: pyautogui
+Requires-Dist: keyboard
+Requires-Dist: opencv-python
+
+# bhagyashree
+### Do not install if you're not her.
+
+`
+pip install bhagyashree && bhagyashree
+`
