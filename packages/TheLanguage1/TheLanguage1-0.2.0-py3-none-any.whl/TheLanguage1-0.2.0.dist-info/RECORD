@@ -1,0 +1,13 @@
+BuildBinary.py,sha256=He3leLbfTI44A-D6bGztVxao0ACszIU7hZElhSzl-ck,3513
+TheLanguage1/__init__.py,sha256=SXLbo3XIT-hXz_8uK6rYXyz1QCajb5aW9nbbLgYvUY4,560
+TheLanguage1/Common/Errors.py,sha256=nzmBzaFCMZogfOshU7QMjf_DeyAN982NQjvBg9K2pX0,7726
+TheLanguage1/Common/Location.py,sha256=rcGYglvYLBNBg8DgQsb2eGi4Z-9LJbhVfYLYQcrxb18,2807
+TheLanguage1/Common/Range.py,sha256=rBjvv37PWW6vbAeu43uJ9CTl5iMFLfWFMpvw2spe3rQ,3318
+TheLanguage1/Common/Region.py,sha256=taLyxLJmZPgq04QCHXBiug8JwXAV8nmpmk8Vr9Mq1ss,4301
+TheLanguage1/Common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TheLanguage1-0.2.0.dist-info/LICENSE,sha256=Dou04xqeW-VXhvSQb-7JQwPpsIZFD880EHX15eEpk68,1071
+TheLanguage1-0.2.0.dist-info/LICENSE.txt,sha256=P0fqGEJwVh6ADlvhWsPNxwWII2O0VaoyMKUcjDqsOOM,1092
+TheLanguage1-0.2.0.dist-info/METADATA,sha256=WI-TAvwXc0jo0CK2rvtYSW144VDHhTwMVC3BORDWKzo,5633
+TheLanguage1-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+TheLanguage1-0.2.0.dist-info/top_level.txt,sha256=kVVb9BCX2WL6zgmiBkVbf2w7OQkV1lfNl8gADljG0_0,25
+TheLanguage1-0.2.0.dist-info/RECORD,,
