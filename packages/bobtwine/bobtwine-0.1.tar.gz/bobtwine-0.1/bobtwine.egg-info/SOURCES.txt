@@ -1,0 +1,7 @@
+README.md
+setup.py
+bobtwine.egg-info/PKG-INFO
+bobtwine.egg-info/SOURCES.txt
+bobtwine.egg-info/dependency_links.txt
+bobtwine.egg-info/requires.txt
+bobtwine.egg-info/top_level.txt
