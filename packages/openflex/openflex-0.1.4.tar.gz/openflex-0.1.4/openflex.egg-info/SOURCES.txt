@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+openflex/__init__.py
+openflex/config.py
+openflex/main.py
+openflex.egg-info/PKG-INFO
+openflex.egg-info/SOURCES.txt
+openflex.egg-info/dependency_links.txt
+openflex.egg-info/entry_points.txt
+openflex.egg-info/requires.txt
+openflex.egg-info/top_level.txt
+openflex/tcl/quartus_results.tcl
+openflex/tcl/vivado_flow.tcl
