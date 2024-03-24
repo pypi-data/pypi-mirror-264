@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "unibo-dtm-se-calculator"
+packages = [
+    { include = "calculator" },
+]
+version = "0.1.1"
+description = "A simple calculator toolkit written in Python, with several UIs. It is part of the Software Engineering course at the University of Bologna."
+authors = ["Giovanni Ciatto <giovanni.ciatto@unibo.it>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+Kivy = "^2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.7.0"
+pytest = "^8.1.0"
+coverage = "^7.4.0"
+mypy = "^1.9.0"
+
+[tool.poetry.scripts]
+calculator-gui = "calculator.ui.gui:start_app"
+calculator = "calculator.ui.cli:start_app"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true

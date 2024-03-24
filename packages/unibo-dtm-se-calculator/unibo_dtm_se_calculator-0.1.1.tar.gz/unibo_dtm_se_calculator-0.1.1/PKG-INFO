@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: unibo-dtm-se-calculator
+Version: 0.1.1
+Summary: A simple calculator toolkit written in Python, with several UIs. It is part of the Software Engineering course at the University of Bologna.
+License: Apache 2.0
+Author: Giovanni Ciatto
+Author-email: giovanni.ciatto@unibo.it
+Requires-Python: >=3.10.0,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Kivy (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Calculator
+
+A simple calculator toolkit written in Python, with several UIs.
+
+## Remarks
+
+UI code is clearly separated from the business logic. 
+Actually, two sorts of UIs are provided: a command-line interface (CLI) and a graphical user interface (GUI), 
+based on [Kivy](https://kivy.org/).
+
+## Requirements and dependencies
+
+You only need [Poetry](https://python-poetry.org/), any other dependency is managed by it.
+
+Just ensure you have Poetry installed. 
+To do that, open a shell and run the following command:
+
+```bash
+pip install poetry
+```
+
+### Restore development environment
+
+To restore the development environment, just run the following commands:
+
+```bash
+poetry install
+```
+
+### Activate the developement environment
+
+To activate the development environment, just run the following command:
+
+```bash
+poetry shell
+```
+
