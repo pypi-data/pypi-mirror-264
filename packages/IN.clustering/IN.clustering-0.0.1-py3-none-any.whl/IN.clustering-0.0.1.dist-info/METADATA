@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: IN.clustering
+Version: 0.0.1
+Summary: Implementation of K-means, K-means++, DBSCAN clustering algorithms
+Author: Illia Nasiri
+Requires-Dist: numpy
+
