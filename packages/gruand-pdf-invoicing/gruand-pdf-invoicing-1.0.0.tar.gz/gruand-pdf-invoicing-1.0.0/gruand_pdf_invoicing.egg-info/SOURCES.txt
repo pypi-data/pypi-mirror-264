@@ -1,0 +1,8 @@
+setup.py
+gruand_pdf_invoicing.egg-info/PKG-INFO
+gruand_pdf_invoicing.egg-info/SOURCES.txt
+gruand_pdf_invoicing.egg-info/dependency_links.txt
+gruand_pdf_invoicing.egg-info/requires.txt
+gruand_pdf_invoicing.egg-info/top_level.txt
+pdfinvoice/__init__.py
+pdfinvoice/invoice.py
