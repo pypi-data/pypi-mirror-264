@@ -1,0 +1,9 @@
+parproc/__init__.py,sha256=pIKIAO_8IKnSvZQi5T8f4QeC470zv5SwGCK2P3QDnAw,434
+parproc/par.py,sha256=us0QytnpdouJ_BW7mSw_Fd0EByiF9OWIACIgAleLZnU,20470
+parproc/state.py,sha256=9N7o65DIXS_Vy4IiGUxifkAWyZ5RYfuUt0WTjO2-elY,259
+parproc/term.py,sha256=5wlINsDkd436GnAVSrUqEMbmbzy5DNYYpfdnhslc088,6166
+parproc-0.3.0.dist-info/LICENSE.txt,sha256=23hUTXcerNxJn8alT4fMYsuqwBhXeUNV_ztFSsk-oTA,1068
+parproc-0.3.0.dist-info/METADATA,sha256=FuAXDIFNyptSApC8Z-sG0_--4wbeACCIGBdyQ3cgj5I,763
+parproc-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+parproc-0.3.0.dist-info/top_level.txt,sha256=o5sQL-WI7ESS3XKk1gUFdsZcic1iTZ-KGvZgu0o9BV4,8
+parproc-0.3.0.dist-info/RECORD,,
