@@ -1,0 +1,2 @@
+[console_scripts]
+qk = queky.main:main

@@ -1,0 +1,11 @@
+queky/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+queky/gpt.py,sha256=sBWB8hJfBLx3Y7tAuZDDaX0XgkyYPdEPQgev9crmF3U,1607
+queky/main.py,sha256=SkbRJnHOfaAyaUcpBrhdlj5sDo1Led5x8W5h-bYzgwQ,2574
+queky/utils.py,sha256=eS4Ip8joozNYWzRXNJZfqio70CilyDZCdfxj4PwHFxM,724
+queky/assets/data.json,sha256=0x_jV_6GapUdnBgdJ6v3Gqowly6BnlN5Fc95zoFSabs,29
+queky-0.1.0.dist-info/LICENSE,sha256=cv7CroZGRnuexkZXWjef-hY1kIZGBpkOaHDchg5yd5w,1058
+queky-0.1.0.dist-info/METADATA,sha256=C-Xr40ntnodUKSy8DvsMclNL3tponF51hcWz2sjHgSI,857
+queky-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+queky-0.1.0.dist-info/entry_points.txt,sha256=b1El6aEdsT5Sw48ZzklvM03UB_xIqwYzHMuI3nokrek,39
+queky-0.1.0.dist-info/top_level.txt,sha256=szLuLe73ePIJ4rgn5Jrgaxjcxq2kzFQaDlvbcLXAeCA,6
+queky-0.1.0.dist-info/RECORD,,
