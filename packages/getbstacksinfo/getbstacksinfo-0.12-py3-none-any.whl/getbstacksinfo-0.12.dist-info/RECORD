@@ -1,0 +1,10 @@
+getbstacksinfo/README.MD,sha256=uQ8Iw8XbJ8gyIic5dDj8mBzK6n6qHpftE85g4fyyA_k,16262
+getbstacksinfo/__init__.py,sha256=G5FhTcVZE7LI1_03t85jdiHusvI2Rpivp59pVwvLolU,22793
+getbstacksinfo/lookup2.py,sha256=FNZLt37bkn_lr0JzT-c8mUCiexC_4OKrKBF8nZaNCOg,5745
+getbstacksinfo/requirements.txt,sha256=FGmdrhYeCXnxIZsxNqU1RMspy-EWmJ1eWFTFTU_AzKY,133
+getbstacksinfo/thirdparty.json,sha256=Sblr4MVnAi2IO_oSfvsBl2pUKaEDZHY0p-QIFmGOKOA,20708
+getbstacksinfo-0.12.dist-info/LICENSE.rst,sha256=JG2U-syJOvqaKI4hLK8jP4BdnxFaMsrMir_Qn5dbgdc,1148
+getbstacksinfo-0.12.dist-info/METADATA,sha256=b0liZJx4GZYRUfEpJjioxJCCwwWelmnBTFeviHLc6-o,17483
+getbstacksinfo-0.12.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+getbstacksinfo-0.12.dist-info/top_level.txt,sha256=UE-e9y5Jbb71PzHkgb6xxNaRRyayjkA4v_om54EsKvo,15
+getbstacksinfo-0.12.dist-info/RECORD,,
