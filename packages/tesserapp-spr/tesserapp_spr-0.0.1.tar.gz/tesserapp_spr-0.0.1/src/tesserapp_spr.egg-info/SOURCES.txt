@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/tesserapp/__init__.py
+src/tesserapp/main.py
+src/tesserapp_spr.egg-info/PKG-INFO
+src/tesserapp_spr.egg-info/SOURCES.txt
+src/tesserapp_spr.egg-info/dependency_links.txt
+src/tesserapp_spr.egg-info/top_level.txt
