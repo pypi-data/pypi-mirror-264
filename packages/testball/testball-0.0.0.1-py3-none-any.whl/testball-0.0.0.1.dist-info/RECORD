@@ -1,0 +1,8 @@
+testball/__init__.py,sha256=PKiI7-773TqZl99lL-pScv9yWte4uhRwv_ozWM_yhVU,64
+testball/player.py,sha256=43fFOxLgtAzReP4UIznmLhRSPrkvlITSL4iNmCSGt4k,4466
+testball/team.py,sha256=EQNxijFpGffuKjGeayTtxHUuCp_1praj3qGHHBHdSUA,3088
+testball/team_wl.py,sha256=OkH2QP4XvT2Ql21naFhYH3CD86lMlwVQWPpbELv3S98,1418
+testball-0.0.0.1.dist-info/METADATA,sha256=IfO-f3gc5JLvrVgjwXat6Z3Ma-zkk054rfAUg8rsiT4,211
+testball-0.0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+testball-0.0.0.1.dist-info/top_level.txt,sha256=k5fYAAEGLvzEsmNDBPbjUcI3hn-FWCpwAddSuYota7s,9
+testball-0.0.0.1.dist-info/RECORD,,
