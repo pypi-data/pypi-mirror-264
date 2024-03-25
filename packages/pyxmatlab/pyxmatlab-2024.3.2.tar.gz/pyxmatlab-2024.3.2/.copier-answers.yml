@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: a283f46
+_src_path: gh:blakeNaccarato/copier-python
+actions_runner: ubuntu-22.04
+active: true
+github_repo_name: matlab
+project_description: What do you get when you cross Python with MATLAB?
+project_email: blake.naccarato@gmail.com
+project_name: pyxmatlab
+project_owner_github_username: pycross
+project_owner_name: Blake Naccarato
+project_version: 2024.03.02
+python_version: '3.11'
+year_of_project_creation: 2024

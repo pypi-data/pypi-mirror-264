@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Establish base config, schedule, and manager defaults",
+  "addLabels": ["deps"],
+  "extends": ["config:base", "group:all", ":enablePreCommit"],
+  "dependencyDashboardApproval": false,
+  "schedule": ["on the 16th day of the month"],
+  "git-submodules": {
+    "enabled": true
+  },
+  "enabledManagers": [
+    "git-submodules",
+    "github-actions",
+    "pep621",
+    "pip_requirements",
+    "pre-commit"
+  ],
+  "pip_requirements": {
+    "description": "Additionally monitor these files",
+    "fileMatch": ["(^|/)requirements/.+$"]
+  }
+}
