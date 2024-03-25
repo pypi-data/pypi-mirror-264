@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: bismuthsdk
+Version: 0.1.9
+Requires-Dist: flask
+Requires-Dist: flask-restx
+Requires-Dist: requests
