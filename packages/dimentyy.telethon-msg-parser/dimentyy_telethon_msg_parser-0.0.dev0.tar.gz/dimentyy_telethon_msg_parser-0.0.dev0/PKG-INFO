@@ -1,0 +1,6 @@
+Metadata-Version: 2.3
+Name: dimentyy.telethon-msg-parser
+Version: 0.0.dev0
+Summary: test
+Author: dimentyy
+Requires-Dist: telethon

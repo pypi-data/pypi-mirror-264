@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = ["venv"]
+packages = ["src/telethon_parser"]
+
+[project]
+name = "dimentyy.telethon-msg-parser"
+version = "0.0-dev0"
+authors = [
+  { name="dimentyy" },
+]
+dependencies = ["telethon"]
+description = "test"
+#readme = "README.md"
+#requires-python = ">=3.8"
+#classifiers = [
+#    "Programming Language :: Python :: 3",
+#    "License :: OSI Approved :: MIT License",
+#    "Operating System :: OS Independent",
+#]
