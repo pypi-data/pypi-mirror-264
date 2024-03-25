@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tmxiterparse
+Version: 0.1.2
+Summary: An iterable parser for TMX files, intended to handle extremely large files without needing to keep the entire thing in memory, or pra the entire thing in one operation.
+Author-email: Cian Hayes <cian.m.hayes@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: defusedxml >=0.7.1
+Project-URL: Home, https://github.com/cianmhayes/tmxiterparse
+
+# tmxiterparse
+An iterable parser for tmx files, intended to handle very large tmx files without needing to bring the entire thing into memory at once.
+
