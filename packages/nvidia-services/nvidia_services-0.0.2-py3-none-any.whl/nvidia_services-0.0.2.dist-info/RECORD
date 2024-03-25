@@ -1,0 +1,16 @@
+nvidia_services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/embeddings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/embeddings/base.py,sha256=Jz__H9OrRW3uX0orKnZgMspyXCHlEN-T2PbTnTYDMCk,270
+nvidia_services/embeddings/nvidia_embeddings.py,sha256=s4-4-e_om-7iJbQ8d7zFYSM0TJiMYBA1v_ShSk2gMx8,1334
+nvidia_services/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/endpoints/nvidia_endpoints.py,sha256=6JCKj-rXbrcp-smWpPnCuMDgGyqvq-GBkHIsmv7S46Q,2147
+nvidia_services/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/models/base.py,sha256=EWFP3fxUikJqI8wjWd2Rm4vruHY82GmviU0tjAlBeyk,273
+nvidia_services/models/mistralai_models.py,sha256=ivOZJSPKvVzhA8tuCxcZFsWksiKFkHQqlP4saJNi7p4,2275
+nvidia_services/retrievals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/retrievals/base.py,sha256=zJcGFnxKmIhUPgPl59qr5L5UY9wKGGKAQ8y0C1P4DSs,312
+nvidia_services/retrievals/nvidia_reranker.py,sha256=MJn-AcvpjujjZgeepHc4NPU5n0_zl73eAA0NOnqiTAI,2142
+nvidia_services-0.0.2.dist-info/METADATA,sha256=Fzuq18_ghIyEIiok6Hc_cR9PM6gRq44W1kQMB8k7B-4,3416
+nvidia_services-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nvidia_services-0.0.2.dist-info/top_level.txt,sha256=pmSY8Qdlk6nJ0HvFdvQf5vrqH0L4txGm74d8Wh8eeuY,16
+nvidia_services-0.0.2.dist-info/RECORD,,
