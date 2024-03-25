@@ -1,0 +1,4 @@
+colorama
+twine
+build
+setup
