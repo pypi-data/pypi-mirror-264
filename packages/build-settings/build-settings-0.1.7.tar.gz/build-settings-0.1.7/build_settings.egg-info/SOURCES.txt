@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+build_settings/__init__.py
+build_settings/normal_use_test.py
+build_settings/settings.py
+build_settings/tests.py
+build_settings.egg-info/PKG-INFO
+build_settings.egg-info/SOURCES.txt
+build_settings.egg-info/dependency_links.txt
+build_settings.egg-info/requires.txt
+build_settings.egg-info/top_level.txt
