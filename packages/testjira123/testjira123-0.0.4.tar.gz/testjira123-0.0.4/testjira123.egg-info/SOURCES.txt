@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+testjira123.egg-info/PKG-INFO
+testjira123.egg-info/SOURCES.txt
+testjira123.egg-info/dependency_links.txt
+testjira123.egg-info/entry_points.txt
+testjira123.egg-info/requires.txt
+testjira123.egg-info/top_level.txt
