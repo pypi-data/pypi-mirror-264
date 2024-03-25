@@ -1,0 +1,109 @@
+[tool.poetry]
+name = "fs-code"
+version = "0.3.2"
+description = "PyFilesystems for GitLab, GitHub, and Git"
+license = "MIT"
+authors = [
+    "Max Ludwig <mail@danjou.dev>",
+]
+readme = "README.md"
+homepage = "https://danjou.gitlab.io/fs-code"
+repository = "https://gitlab.com/dAnjou/fs-code"
+documentation = "https://danjou.gitlab.io/fs-code"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+]
+packages = [
+    { include = "codefs", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fs = "^2.4"
+schema = "~0.7"
+
+dulwich = { optional = true, version = "0.21.7" }
+python-gitlab = { optional = true, version = "^4.0.0" }
+werkzeug = { optional = true, version = "^3.0.0" }
+PyGithub = { optional = true, version = "^2.0.0" }
+requests = { optional = true, version = "^2.31" }
+
+[tool.poetry.extras]
+gitfs = [
+    "dulwich",
+]
+gitlabfs = [
+    "python-gitlab",
+    "werkzeug",
+]
+githubfs = [
+    "PyGithub",
+    "requests",
+    "werkzeug",
+]
+all = [
+    "dulwich",
+    "python-gitlab",
+    "werkzeug",
+    "PyGithub",
+    "requests",
+]
+
+[tool.poetry.plugins."fs.opener"]
+"gitlab" = "codefs.gitlabfs.opener:Opener [gitlabfs]"
+"github" = "codefs.githubfs.opener:Opener [githubfs]"
+"gitfs" = "codefs.gitfs.opener:Opener [gitfs]"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+dulwich = "*"
+mypy = "*"
+pdoc = "^13.1"  # taking care of the docs later
+pytest = "*"
+pytest-cov = "*"
+pytest-dotenv = "*"
+pytest-mock = "*"
+types-pytz = "*"
+types-PyYAML = "*"
+types-requests = "*"
+types-setuptools = "*"
+types-six = "*"
+vcrpy = "*"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-v --cov --cov-report=html --cov-report=term-missing"
+testpaths = [
+    "tests",
+]
+
+[tool.coverage.run]
+source = [
+    "src",
+]
+branch = true
+
+[tool.coverage.report]
+fail_under = 100
+exclude_lines = [
+    "pragma: no cover",
+    "todo: no cover",
+    "def __repr__",
+    "def __str__",
+    "raise NotImplementedError",
+    '\s+\.\.\.$',
+    "if __name__ == '__main__':",
+]
+
+[tool.black]
+line-length = 120
+
+[tool.mypy]
+python_version = "3.8"
+strict = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

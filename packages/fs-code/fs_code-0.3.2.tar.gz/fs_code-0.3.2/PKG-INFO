@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: fs-code
+Version: 0.3.2
+Summary: PyFilesystems for GitLab, GitHub, and Git
+Home-page: https://danjou.gitlab.io/fs-code
+License: MIT
+Author: Max Ludwig
+Author-email: mail@danjou.dev
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: all
+Provides-Extra: gitfs
+Provides-Extra: githubfs
+Provides-Extra: gitlabfs
+Requires-Dist: PyGithub (>=2.0.0,<3.0.0) ; extra == "githubfs" or extra == "all"
+Requires-Dist: dulwich (==0.21.7) ; extra == "gitfs" or extra == "all"
+Requires-Dist: fs (>=2.4,<3.0)
+Requires-Dist: python-gitlab (>=4.0.0,<5.0.0) ; extra == "gitlabfs" or extra == "all"
+Requires-Dist: requests (>=2.31,<3.0) ; extra == "githubfs" or extra == "all"
+Requires-Dist: schema (>=0.7,<0.8)
+Requires-Dist: werkzeug (>=3.0.0,<4.0.0) ; extra == "gitlabfs" or extra == "githubfs" or extra == "all"
+Project-URL: Documentation, https://danjou.gitlab.io/fs-code
+Project-URL: Repository, https://gitlab.com/dAnjou/fs-code
+Description-Content-Type: text/markdown
+
+# fs-code
+
+[![Documentation][docs badge]][docs link]
+[![PyPI][pypi badge]][pypi link]
+![Pipeline status][pipeline badge]
+![3.8 coverage][3.8 coverage badge]
+![3.12 coverage][3.12 coverage badge]
+[![Code style: black][code style badge]][code style link]
+
+[PyFilesystems](https://www.pyfilesystem.org/) for GitLab, GitHub, and Git.
+
+---
+
+## Installation
+
+```shell
+pip install fs-code[gitlabfs]
+# or
+pip install fs-code[githubfs]
+# or
+pip install fs-code[gitfs]
+# or
+pip install fs-code[all]
+```
+
+## Usage
+
+### with <a target="_blank" href="https://docs.pyfilesystem.org/en/latest/openers.html">FS URL</a>
+
+```python
+import fs
+
+user_fs = fs.open_fs("gitlab://?user=dAnjou")
+readme = user_fs.open("fs-code/main/README.md")
+print(readme.read())
+```
+
+### with class
+
+```python
+from gitlab import Gitlab
+from codefs.gitlabfs import UserFS
+
+user_fs = UserFS(Gitlab(), user="dAnjou")
+readme = user_fs.open("fs-code/main/README.md")
+print(readme.read())
+```
+
+[docs link]: https://danjou.gitlab.io/fs-code
+[docs badge]: https://img.shields.io/badge/%F0%9F%94%8D-documentation-blue
+[pypi link]: https://pypi.org/project/fs-code/ 
+[pypi badge]: https://img.shields.io/pypi/v/fs-code
+[pipeline badge]: https://gitlab.com/dAnjou/fs-code/badges/main/pipeline.svg
+[3.8 coverage badge]: https://gitlab.com/dAnjou/fs-code/badges/main/coverage.svg?job=test%3A%20%5B3.8%5D&key_text=3.8+coverage&key_width=90
+[3.12 coverage badge]: https://gitlab.com/dAnjou/fs-code/badges/main/coverage.svg?job=test%3A%20%5B3.12%5D&key_text=3.12+coverage&key_width=90
+[code style link]: https://github.com/psf/black
+[code style badge]: https://img.shields.io/badge/code%20style-black-000000.svg
+
