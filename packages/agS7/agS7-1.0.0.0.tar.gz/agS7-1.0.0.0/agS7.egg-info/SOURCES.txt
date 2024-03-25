@@ -1,0 +1,9 @@
+README.md
+setup.py
+agS7.egg-info/PKG-INFO
+agS7.egg-info/SOURCES.txt
+agS7.egg-info/dependency_links.txt
+agS7.egg-info/requires.txt
+agS7.egg-info/top_level.txt
+agfra_s7/__init__.py
+agfra_s7/client_s7.py
