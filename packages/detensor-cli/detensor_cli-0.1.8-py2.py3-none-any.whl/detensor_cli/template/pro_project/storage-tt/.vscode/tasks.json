@@ -1,0 +1,48 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "chain-up",
+			"type": "process",
+			"isBackground": true,
+			"command": "docker-compose",
+			"options": {
+				"cwd": "${workspaceFolder}/testdata"
+			},
+			"args": [
+				"-f",
+				"four-nodes.docker-compose.yml",
+				"up",
+			]
+		},
+		{
+			"label": "build-contract",
+			"type": "process",
+			"command": "make",
+			"args": [
+				"build-contract"
+			]
+		},
+		{
+			"label": "install-contract",
+			"type": "process",
+			"command": "${workspaceFolder}/cmc",
+			"args": [
+				"client",
+				"contract",
+				"user",
+				"create",
+				"--contract-name=example",
+				"--runtime-type=WASMER",
+				"--byte-code-path=./contract.wasm",
+				"--version=1.0",
+				"--sdk-conf-path=./testdata/sdk_config1.yaml",
+				"--admin-key-file-paths=./testdata/crypto-config/wx-org1.chainmaker.org/certs/user/admin1/admin1.tls.key,./testdata/crypto-config/wx-org2.chainmaker.org/certs/user/admin1/admin1.tls.key,./testdata/crypto-config/wx-org3.chainmaker.org/certs/user/admin1/admin1.tls.key",
+				"--admin-crt-file-paths=./testdata/crypto-config/wx-org1.chainmaker.org/certs/user/admin1/admin1.tls.crt,./testdata/crypto-config/wx-org2.chainmaker.org/certs/user/admin1/admin1.tls.crt,./testdata/crypto-config/wx-org3.chainmaker.org/certs/user/admin1/admin1.tls.crt",
+				"--admin-org-ids=wx-org1.chainmaker.org,wx-org2.chainmaker.org,wx-org3.chainmaker.org",
+				"--sync-result=true",
+				"--params={}"
+			]
+		}
+	]
+}

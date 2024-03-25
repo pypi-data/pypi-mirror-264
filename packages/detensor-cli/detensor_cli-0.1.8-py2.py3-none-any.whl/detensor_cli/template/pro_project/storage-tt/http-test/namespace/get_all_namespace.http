@@ -1,0 +1,4 @@
+GET http://127.0.0.1:9001/api/core/v1/namespace
+
+HTTP 200
+

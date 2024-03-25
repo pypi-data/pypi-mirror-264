@@ -1,0 +1,37 @@
+POST http://127.0.0.1:9001/api/core/v1/nodes/
+{
+	"addr": "http://example-addr1"
+}
+
+HTTP 200
+
+POST http://127.0.0.1:9002/api/core/v1/nodes/
+{
+	"addr": "http://example-addr2"
+}
+
+HTTP 200
+
+POST http://127.0.0.1:9003/api/core/v1/nodes/
+{
+	"addr": "http://example-addr3"
+}
+
+HTTP 200
+
+POST http://127.0.0.1:9004/api/core/v1/nodes/
+{
+	"addr": "http://example-addr4"
+}
+
+HTTP 200
+
+
+GET http://127.0.0.1:9001/api/core/v1/nodes/
+
+HTTP 200
+[Asserts]
+jsonpath "$['wx-org1.chainmaker.org']" == "http://example-addr1"
+jsonpath "$['wx-org2.chainmaker.org']" == "http://example-addr2"
+jsonpath "$['wx-org3.chainmaker.org']" == "http://example-addr3"
+jsonpath "$['wx-org4.chainmaker.org']" == "http://example-addr4"
