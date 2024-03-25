@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pweb_extra/__init__.py
+pweb_extra.egg-info/PKG-INFO
+pweb_extra.egg-info/SOURCES.txt
+pweb_extra.egg-info/dependency_links.txt
+pweb_extra.egg-info/not-zip-safe
+pweb_extra.egg-info/requires.txt
+pweb_extra.egg-info/top_level.txt
+pweb_extra/barqr/__init__.py
+pweb_extra/barqr/barcode_generator.py
+pweb_extra/pws/__init__.py
+pweb_extra/pws/pweb_socket.py
+pweb_extra/pws/pweb_socket_conf.py
