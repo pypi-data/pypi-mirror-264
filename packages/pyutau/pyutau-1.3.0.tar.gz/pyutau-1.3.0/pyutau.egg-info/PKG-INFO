@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pyutau
+Version: 1.3.0
+Summary: A python library/module for parsing UTAU plugin data
+Home-page: https://github.com/UtaUtaUtau/pyUtau
+Download-URL: https://github.com/UtaUtaUtau/pyUtau/archive/refs/tags/v1.3.0.tar.gz
+Author: UtaUtaUtau
+Author-email: diamond.glacier16@gmail.com
+License: MIT
+Keywords: utau
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+pyUtau
+======
+
+A complete *bodge* of a Python library made by UtaUtaUtau. Interprets data that UTAU sends through plugins. Made to work for UST Version 1.20 only. I am not an avid programmer, please don't expect much...
+
+~~To use, it's just one file. Clone or download this repo, and put pyutau.py somewhere in your project. Import it with none other than `import pyutau`~~
+
+To use, you can now install this as a Python package through pip by using:
+```cmd
+pip install pyutau
+```
+You can still get the `pyutau.py` file from the folders but I recommend doing this instead.
+
+All information used to make this plugin is from [this @wiki page](https://w.atwiki.jp/utaou/pages/64.html) and [this C# library.](https://github.com/delta-kimigatame/utauPlugin "Get this if you know C#") I just translated everything through [DeepL](https://deepl.com/en/translator) to understand how these work.
+
+How to use
+---
+```Python
+import pyutau
+import sys
+
+plugin = pyutau.UtauPlugin(sys.argv[-1])
+
+# Whatever you wanna do
+
+plugin.write(sys.argv[-1])
+```
+
+You may use `pydoc` to get an HTML version of the docstrings within the module.
