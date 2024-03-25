@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "akhq.py"
+dynamic = ["dependencies"]
+authors = [
+    { name = "Theo Nard", email = "theo.nard18@gmail.com" },
+]
+description = "A Python wrapper for the AKHQ API"
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["akhq", "api", "wrapper", "python"]
+version = "0.0.1"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
