@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyxmatlab
+Version: 2024.3.2
+Summary: What do you get when you cross Python with MATLAB?
+Author-email: Blake Naccarato <blake.naccarato@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Changes, https://pycross.github.io/matlab/changelog.html
+Project-URL: Docs, https://pycross.github.io/matlab
+Project-URL: Home, https://github.com/pycross/matlab
+Project-URL: Tracker, https://github.com/pycross/matlab/issues
+
+# pyxmatlab
+
+What do you get when you cross Python with MATLAB?
+
