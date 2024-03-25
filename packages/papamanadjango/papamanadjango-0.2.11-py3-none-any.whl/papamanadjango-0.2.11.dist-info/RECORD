@@ -1,0 +1,11 @@
+papamana_django/__init__.py,sha256=PrdpEqNgvhtvTT6zW0wpvd1gWdL19TG3PMnxaRTo1pA,1002
+papamana_django/db.sqlite3,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papamana_django/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papamana_django/config/asgi.py,sha256=ot179KISp-10znGhKyRba_e3mzhBirGQ79OomFy-Pfk,405
+papamana_django/config/settings.py,sha256=dYZO780YXsGUOuLVCW_STWK2-pDd6YjT1_q-qYh2Izk,3387
+papamana_django/config/urls.py,sha256=KDfEQtmojRJRzdG63ZEO413FXObKGmG17td3fw3UjwI,902
+papamana_django/config/utils.py,sha256=jy2iQE9RqleZ2zvlNmIopdDm6lAbOuTCRg8PSDPtRKg,738
+papamana_django/config/wsgi.py,sha256=rbvAg8DSWv_upzNgTfbcLyNNlYBt0b-ughuQlK7V38E,405
+papamanadjango-0.2.11.dist-info/METADATA,sha256=P3TZve6lUugMqm0soop8HnfMiSLqZ1U1xLYAa65533M,376
+papamanadjango-0.2.11.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+papamanadjango-0.2.11.dist-info/RECORD,,
