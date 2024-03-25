@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: omotes-simulator-core
+Version: 0.0.4.dev0
+Summary: Core library of the NWN simulator
+Author-email: Michiel Tukker <michiel.tukker@deltares.nl>
+Project-URL: homepage, https://www.nwn.nu
+Project-URL: documentation, https://readthedocs.org
+Project-URL: repository, https://github.com/Project-OMOTES/simulator-core
+Project-URL: changelog, https://github.com/Project-OMOTES/simulator-core/blob/main/CHANGELOG.md
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==1.26.0
+Requires-Dist: pandas==2.1.1
+Requires-Dist: pandapipes==0.8.4
+Requires-Dist: pyesdl==24.2.0
+Requires-Dist: dataclass-wizard==0.22.2
+Requires-Dist: coloredlogs==15.0.1
+Requires-Dist: influxdb==5.3.1
+Provides-Extra: dev
+Requires-Dist: pip-tools~=7.3.0; extra == "dev"
+Requires-Dist: setuptools-git-versioning<2; extra == "dev"
+Requires-Dist: black~=22.1.0; extra == "dev"
+Requires-Dist: flake8==6.0.0; extra == "dev"
+Requires-Dist: Flake8-pyproject==1.2.3; extra == "dev"
+Requires-Dist: flake8-docstrings==1.7.0; extra == "dev"
+Requires-Dist: flake8-quotes==3.3.2; extra == "dev"
+Requires-Dist: flake8-pytest-style==1.7.2; extra == "dev"
+Requires-Dist: flake8-bugbear==23.9.16; extra == "dev"
+Requires-Dist: flake8-mock==0.4; extra == "dev"
+Requires-Dist: flake8-tuple==0.4.1; extra == "dev"
+Requires-Dist: flake8-aaa==0.16.0; extra == "dev"
+Requires-Dist: pytest~=7.3.1; extra == "dev"
+Requires-Dist: pytest-cov~=4.0.0; extra == "dev"
+Requires-Dist: bump2version==1.0.1; extra == "dev"
+Requires-Dist: mypy~=1.5.1; extra == "dev"
+Requires-Dist: build~=1.0.3; extra == "dev"
+Requires-Dist: sphinx==7.2.6; extra == "dev"
+Requires-Dist: furo==2023.9.10; extra == "dev"
+
+# simulator-core
+
+This repository is part of the 'Nieuwe Warmte Nu Design Toolkit' project. 
+
+Core library of the NWN simulator
