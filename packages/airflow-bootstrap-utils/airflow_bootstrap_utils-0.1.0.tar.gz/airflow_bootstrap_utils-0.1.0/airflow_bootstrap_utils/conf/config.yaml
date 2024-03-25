@@ -1,0 +1,12 @@
+---
+# Attribute: default_operator_type
+# Note: This will be the default Airflow
+# operator type that will be used for all
+# tasks in the generated Airflow DAG Python
+# script file.
+default_operator_type: bash
+# Attribute: default_dag_template_name
+# Note: This the default template name for the jinja2
+# template file that will be used to generate the
+# Airflow DAG Python script file.
+default_dag_template_name: dag_template.py
