@@ -1,0 +1,13 @@
+lolla/__init__.py,sha256=MRrYBSxzzro3zitKRwTiAjFkIEUr6TDr14TzmRykVeY,747
+lolla/log.py,sha256=s-1Kmm2qMzXfBgpW_b38VAAN5lgaVaBr8zAoe4mUJuU,1275
+lolla/lolla.py,sha256=Jaaxv83AINTgaywxXcgGdO83RtszOg1m4Ifu3aekfdU,9673
+lolla/ollama.py,sha256=3c014Ed01THDCaSewuwm6djkESfLnz8QLkHKY3rZWcE,2417
+lolla/parser.py,sha256=SQ_Wmvn1IoaaPIeqLNSbdG0s8amYJVg5JBsRa3hfeI0,1693
+lolla/storage.py,sha256=Gz9dbRkGbQ3HukY7Qi6NC3v13m-PhRsT-P44pdEBrJg,795
+lolla/tools.py,sha256=mS-qa3ipsnE10ILtaymm7XydCX1RzURLU-X7xxJIwW4,267
+lolla-0.1.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+lolla-0.1.1.dist-info/METADATA,sha256=hwFbDa0Mm5ALfQjP1sKC2Hzs0RYoAXqCWdPbAdtJJ_k,2404
+lolla-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lolla-0.1.1.dist-info/entry_points.txt,sha256=li7-2312zRs23jltQAopCJQP-UPdrytwNnvKh-R0_zY,37
+lolla-0.1.1.dist-info/top_level.txt,sha256=h-IL79NU1CDI-vH55PgTUvcxX8RIrSt9mtDwWqpdW_g,6
+lolla-0.1.1.dist-info/RECORD,,
