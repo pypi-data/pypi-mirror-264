@@ -1,0 +1,17 @@
+bitpapa_pay/__init__.py,sha256=zf9BJiI9s2iCH97vp1barl01A-OyAxVYtTT9mqgelCE,111
+bitpapa_pay/clients/__init__.py,sha256=423BbIfNQVTbn1fSfsSx27pGtycCqbL4U8_wJRY-eJA,50
+bitpapa_pay/clients/base.py,sha256=Q2mZN3vHQdbAr8KJGDLb1slzfjud7xIPg7EKTUzX7mQ,860
+bitpapa_pay/clients/client.py,sha256=okY3E5cocvzAHq009QYz1mwKIRRmbYclay-s-UW2vZQ,4421
+bitpapa_pay/const.py,sha256=qIcL-1JyL3f8Sxnl-GMbkg6O5IWFDhXRvHS3br_-F9U,17
+bitpapa_pay/exceptions.py,sha256=PGTvRW3dAsGAfSQf7ZbKlMHmuAf7WDBMiMWqzKWBCOI,145
+bitpapa_pay/methods/__init__.py,sha256=G8NXrpb0tbzA1lYeiSaQOHlKuat67u0RiCCq7iCTnpM,351
+bitpapa_pay/methods/base.py,sha256=H5e6Z_Ph0WVyvRDriIglzNVu3QDs4UvJZNVogPjYbY8,148
+bitpapa_pay/methods/create_telegram_invoice.py,sha256=wk71LmFq9u4DAfeWSAcapxBigOhSiNqam-oAMTPBND4,470
+bitpapa_pay/methods/get_exchange_rates_all.py,sha256=ucIT7VKIJ2Dcb6vjAWbfSi-TsA05nc6fTqGEy6fD_mI,295
+bitpapa_pay/methods/get_telegram_invoices.py,sha256=RHiL4Lc8tfc8nv-vxEeb4ANdMCYTZh9THp6QvrthS_o,312
+bitpapa_pay/types/__init__.py,sha256=IT7jpjg4rFoKunOdvyqKuqtTV48p4OyfV29re4HYl8g,193
+bitpapa_pay/types/exchange_rates.py,sha256=T8COuDsLSpB8w5KUjHjsdjMX4r6zDtyqTA5ppsvwXw8,84
+bitpapa_pay/types/telegram_invoice.py,sha256=oPaJl4a3iMSMB1lsAfz6fFe12CSCMcDbSrcQHEowGCA,456
+bitpapa_pay-0.1.2.dist-info/METADATA,sha256=rlJ1rcVEfGTYXc2rHPhCo99Xtq8KAXEtj5bs__N3qHQ,1807
+bitpapa_pay-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bitpapa_pay-0.1.2.dist-info/RECORD,,
