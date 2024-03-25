@@ -1,0 +1,2 @@
+[console_scripts]
+gen_vpo_sfizz_presets = gen_vpo_sfizz_presets:main

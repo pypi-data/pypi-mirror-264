@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+gen_vpo_sfizz_presets/__main__.py
+gen_vpo_sfizz_presets.egg-info/PKG-INFO
+gen_vpo_sfizz_presets.egg-info/SOURCES.txt
+gen_vpo_sfizz_presets.egg-info/dependency_links.txt
+gen_vpo_sfizz_presets.egg-info/entry_points.txt
+gen_vpo_sfizz_presets.egg-info/top_level.txt
