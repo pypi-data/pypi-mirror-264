@@ -1,0 +1,50 @@
+[project]
+name = "airfly"
+version = "0.10.0"
+description = "Auto generate Airflow's dag.py on the fly"
+authors = [
+    { name = "ryanchao2012", email = "ryanchao2012@gmail.com" },
+]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "attrs",
+    "cattrs",
+    "regex",
+    "networkx",
+    "black",
+    "isort",
+    "click",
+    "libcst",
+    "asttrs",
+]
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+airfly = "airfly.cli.main:main"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipython>=8.12.3",
+    "pytest>=8.1.1",
+    "invoke>=2.2.0",
+    "pytest-cov>=4.1.0",
+    "gutt>=1.1.0",
+    "toml>=0.10.2",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
