@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: srctoolkit
+Version: 0.1.2
+Summary: A toolkit for processing source code
+License: GNU General Public License, version 3.0
+Keywords: program-comprehension code-processing
+Platform: any
+Requires-Python: >=3.6
+License-File: LICENSE
+
+The toolkit provides methods for processing source code.
