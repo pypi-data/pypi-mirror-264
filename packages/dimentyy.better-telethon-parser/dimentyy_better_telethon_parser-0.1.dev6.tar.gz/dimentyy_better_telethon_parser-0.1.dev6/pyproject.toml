@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = ["venv", "test.py"]
+packages = ["dimentyy"]
+
+[project]
+name = "dimentyy.better-telethon-parser"
+version = "0.1-dev6"
+authors = [{ name="dimentyy" }]
+dependencies = ["telethon"]
+description = "Better Telethon parser — use all Telegram formatting features."
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Author = "https://t.me/dimentyy"
