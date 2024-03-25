@@ -1,0 +1,8 @@
+document_ingestor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+document_ingestor/embedding_process.py,sha256=Rjtud4mkb--k0YLBmCRDcV3K7QMxymoiugxA4XxtuvQ,4788
+document_ingestor/pdf_parser.py,sha256=5_u_uMIpLgoRg1C1zaB3a2CeHXG2ZCGfkKhI26udJ2s,5908
+document_ingestor-0.0.3.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+document_ingestor-0.0.3.dist-info/METADATA,sha256=ZS2wdspG_MOQi2J1NK_vwo-I5fUC3UU92IEGi0WU8dI,988
+document_ingestor-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+document_ingestor-0.0.3.dist-info/top_level.txt,sha256=nGv_GDwKrPFq0sQGOxiFVOMzeMkDaQwez9W6_snRcq8,18
+document_ingestor-0.0.3.dist-info/RECORD,,
