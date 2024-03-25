@@ -1,0 +1,6 @@
+numpy
+sentence-transformers
+
+[dev]
+pytest
+twine
