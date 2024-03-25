@@ -1,0 +1,7 @@
+README.md
+setup.py
+rpc_solana_client.egg-info/PKG-INFO
+rpc_solana_client.egg-info/SOURCES.txt
+rpc_solana_client.egg-info/dependency_links.txt
+rpc_solana_client.egg-info/requires.txt
+rpc_solana_client.egg-info/top_level.txt

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rpc-solana-client
+Version: 0.1.0
+Summary: A async_client for interacting with Solana RPC HTTP endpoint.
+Home-page: https://github.com/Tsunami43/RPC-Solana-API
+Author: Tsunami43
+Author-email: tsucintosh@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Solana Client
+
+A client for interacting with Solana RPC HTTP endpoint.
+
+# Create client
+
+from solana_client import SolanaClient
+
+client = SolanaClient(endpoint="https://api.mainnet-beta.solana.com")
+
+# Getting account information
+
+account_info = await client.get_account_info("SOME_ACCOUNT_ADDRESS")
+
+# Getting signatures for an address
+
+signatures = await client.get_signatures_for_address("SOME_ACCOUNT_ADDRESS")
+
+# Receiving a signature transaction
+
+transaction = await client.get_transaction_by_signature("SOME_TRANSACTION_SIGNATURE")
