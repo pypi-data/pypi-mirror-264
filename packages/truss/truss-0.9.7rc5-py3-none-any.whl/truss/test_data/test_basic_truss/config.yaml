@@ -1,0 +1,19 @@
+environment_variables: {}
+external_package_dirs: []
+model_metadata: {}
+model_name: basic truss
+python_version: py39
+requirements: []
+resources:
+  accelerator: null
+  cpu: '1'
+  memory: 2Gi
+  use_gpu: false
+secrets: {}
+system_packages: []
+base_image:
+  image: us-east4-docker.pkg.dev/calvin-calendar/sids-test-repo/sidsimage:v3
+  docker_auth:
+    secret_name: gcs_service_account
+    registry: us-east4-docker.pkg.dev
+    auth_method: GCS_SERVICE_ACCOUNT_JSON_BASE64
