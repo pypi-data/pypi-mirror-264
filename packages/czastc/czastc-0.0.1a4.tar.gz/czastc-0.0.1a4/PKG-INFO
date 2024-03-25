@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: czastc
+Version: 0.0.1a4
+Summary: a testing python package
+Home-page: https://github.com/CZAsTc-Project/czastc
+Author: CZAsTC
+Author-email: chensukai43@outlook.com
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CZAsTc
+这是一个正在测试阶段的Python库
+[CZAsTc的个人网站](https://czastc.pages.dev)
