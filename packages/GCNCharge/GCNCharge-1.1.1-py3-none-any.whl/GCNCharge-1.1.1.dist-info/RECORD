@@ -1,0 +1,14 @@
+GCNCharge/GCNCharge.py,sha256=9ZGfOvx8x4oktmBzOR_QcV9h9ddmVZHEKX1IDUixUaw,23838
+GCNCharge/__init__.py,sha256=IwaUp_wlEgcYVXv8oa0tLrip_1tzJWLRnP7BD6N0TF0,34
+GCNCharge/atom_init.json,sha256=y5C9Ilfb-M_E5rK21DSNRhbo6WgPEzmxRhE3Ay4PGJQ,28392
+GCNCharge/cof.pkl,sha256=DIiHwaujfoTAu5K5szdw8B3qXVRAhDroUoAChDHoSP4,701
+GCNCharge/cof.pth,sha256=AUVi5kbNcu_BgCe3hCdxlVTiBxpHcTkedq-gR6y3PJI,39102641
+GCNCharge/mof.pkl,sha256=Zb6C8AURqrIQf-Cw-M3Shb2oXTtwKy8Z6ArmRoz924A,701
+GCNCharge/mof.pth,sha256=n-7hjIMT1vacO5tC4oRK_-CfMpJXmdUC434P-eOWeJQ,39103473
+test/Cu-BTC.cif,sha256=G7OAoPdVlhQHD-vDKktZ0-ae31Z8LKMVbHWxR1C_Gn8,34098
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GCNCharge-1.1.1.dist-info/LICENSE,sha256=JN3XUyglr9eHd04K6BNjL90hOlGfDqijvtkdS3MBz2o,1068
+GCNCharge-1.1.1.dist-info/METADATA,sha256=LQ5doqF0jYx0Dhb__K_6mtF06DD2Ppe_7gb0NUQXgQE,4162
+GCNCharge-1.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+GCNCharge-1.1.1.dist-info/top_level.txt,sha256=T8Tga6DaBhF6Oa01kYmNriulfSAD_bWGx2SDWtKQmC0,15
+GCNCharge-1.1.1.dist-info/RECORD,,
