@@ -1,0 +1,25 @@
+[project]
+name = "langgraph_tracer"
+version = "1.0.4"
+authors = [
+  { name = "agentauser", email = "auserwn@yeah.net" },
+]
+dependencies = [
+    "langgraph>=0.0.26",
+    "langchain>=0.1.9",
+    "langchain_community>=0.0.24",
+    "langchain_openai>=0.0.8",
+    "langchain_core>=0.1.27"
+]
+description = "A small package for langgraph trace"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=65.5.0"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: langgraph_tracer
+Version: 1.0.4
+Summary: A small package for langgraph trace
+Author-email: agentauser <auserwn@yeah.net>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langgraph>=0.0.26
+Requires-Dist: langchain>=0.1.9
+Requires-Dist: langchain_community>=0.0.24
+Requires-Dist: langchain_openai>=0.0.8
+Requires-Dist: langchain_core>=0.1.27
+
+This is a package to trace langgraph workflow and generate a json log.
