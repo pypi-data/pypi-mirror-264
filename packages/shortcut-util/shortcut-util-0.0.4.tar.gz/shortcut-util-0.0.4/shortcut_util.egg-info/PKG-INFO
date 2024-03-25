@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: shortcut-util
+Version: 0.0.4
+Summary: Common Utils for Python, made easy.
+Home-page: https://gitee.com/iamfengdy/shortcut-util
+Author: fengdy
+Author-email: iamfengdy@126.com
+License: BSD
+Project-URL: Source, https://gitee.com/iamfengdy/shortcut-util
+Keywords: shortcut util
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Adaptive Technologies
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# shortcut-util
+
+## 功能介绍
+快捷单元
+
