@@ -1,0 +1,3 @@
+[console_scripts]
+dbconfig = dblinker:dbconfig_manager.main
+sqlite2pg = dblinker:sqlite2pg.sqlite2pg
