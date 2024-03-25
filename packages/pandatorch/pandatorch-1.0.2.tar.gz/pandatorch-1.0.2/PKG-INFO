@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pandatorch
+Version: 1.0.2
+Summary: A flexible simple library that makes it easier to use the extrememly popular pandas package with the other extremely popular framework PyTorch.
+Home-page: UNKNOWN
+Author: Ashwin U Iyer
+Author-email: ashwiniyer1706@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy
+Requires: pandas
+Requires: pandoc
+Requires: pytest
+Requires: pylint
+Requires: sklearn
+
+UNKNOWN
+
