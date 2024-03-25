@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "saman-py"
+version = "0.1.0"
+description = ""
+authors = ["Saman Esmi <esmi.saman@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
