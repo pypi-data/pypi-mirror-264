@@ -1,0 +1,17 @@
+tdamapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdamapper/clustering.py,sha256=KcwJW47DW5VIn4MhVW9fRJ-YaOL64vAUBRxn03scZeQ,3940
+tdamapper/core.py,sha256=9MEq31HfmJeyNIndVMSuGOapeSL0g0qgIl6Jm9gVuYg,11254
+tdamapper/cover.py,sha256=_xNPifHxt6EwpTjGAUwEagkBG0BFVeskHKtX5RGEj6M,5373
+tdamapper/plot.py,sha256=37kzFMVgr0r99FdVIaA7HvoeCdBAyzrrmjyRfZm__JA,21032
+tdamapper/proximity.py,sha256=4yYEhWmopEiYmWRG_5rVMmlL77oR1-EsuPCQT7ppE1s,12738
+tdamapper/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdamapper/utils/heap.py,sha256=ThLWjh92w94j5nJ9Hx7CqlKk0Ur6-_J2r58Oz901pjk,2722
+tdamapper/utils/quickselect.py,sha256=LEJQVjkqEkTFxRQrb0hSzhNoAbApIp8beRjToq7uvjw,1369
+tdamapper/utils/unionfind.py,sha256=cH91B4c3re36LpGmtjzUNgo8dIAKCOOLg8sAErPPjdI,689
+tdamapper/utils/vptree.py,sha256=w_GkOv7rCU5_s6jFzt2Qc2C5uNJZ2v9omKX-Eto1Xsg,6597
+tdamapper/utils/vptree_flat.py,sha256=PsH_20pLPYe38Go5TI7Qj9od6HNsveIAzWopJbluyVk,8073
+tda_mapper-0.5.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+tda_mapper-0.5.1.dist-info/METADATA,sha256=nGAmHFQhgTMBB2Nr491qVfm_YdThOYZ_B7ZBiNpOTBM,19414
+tda_mapper-0.5.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tda_mapper-0.5.1.dist-info/top_level.txt,sha256=NwIURKkDdUbACBumRwuwohVDt96fSuF0o8J13GadPDo,10
+tda_mapper-0.5.1.dist-info/RECORD,,
