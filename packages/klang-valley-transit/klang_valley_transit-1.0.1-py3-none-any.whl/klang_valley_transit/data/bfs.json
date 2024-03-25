@@ -1,0 +1,2573 @@
+{
+  "vertices": {
+    "AG1": {
+      "id": "AG1",
+      "stationName": "Sentul Timur",
+      "coordinate": {
+        "lat": "3.1859317",
+        "lon": "101.6953527"
+      }
+    },
+    "AG2": {
+      "id": "AG2",
+      "stationName": "Sentul",
+      "coordinate": {
+        "lat": "3.1785607",
+        "lon": "101.6954938"
+      }
+    },
+    "AG3": {
+      "id": "AG3",
+      "stationName": "Titiwangsa",
+      "coordinate": {
+        "lat": "3.1735082",
+        "lon": "101.6953433"
+      }
+    },
+    "AG4": {
+      "id": "AG4",
+      "stationName": "PWTC",
+      "coordinate": {
+        "lat": "3.1665923",
+        "lon": "101.6936275"
+      }
+    },
+    "AG5": {
+      "id": "AG5",
+      "stationName": "Sultan Ismail",
+      "coordinate": {
+        "lat": "3.16124",
+        "lon": "101.69411"
+      }
+    },
+    "AG6": {
+      "id": "AG6",
+      "stationName": "Bandaraya",
+      "coordinate": {
+        "lat": "3.1555582",
+        "lon": "101.6944651"
+      }
+    },
+    "AG7": {
+      "id": "AG7",
+      "stationName": "Masjid Jamek",
+      "coordinate": {
+        "lat": "3.14941",
+        "lon": "101.69646"
+      }
+    },
+    "AG8": {
+      "id": "AG8",
+      "stationName": "Plaza Rakyat",
+      "coordinate": {
+        "lat": "3.14405",
+        "lon": "101.7021"
+      }
+    },
+    "AG9": {
+      "id": "AG9",
+      "stationName": "BBCC - Hang Tuah",
+      "coordinate": {
+        "lat": "3.14000",
+        "lon": "101.70608"
+      }
+    },
+    "AG10": {
+      "id": "AG10",
+      "stationName": "Pudu",
+      "coordinate": {
+        "lat": "3.13488",
+        "lon": "101.71196"
+      }
+    },
+    "AG11": {
+      "id": "AG11",
+      "stationName": "Chan Sow Lin",
+      "coordinate": {
+        "lat": "3.1278462",
+        "lon": "101.7155894"
+      }
+    },
+    "AG12": {
+      "id": "AG12",
+      "stationName": "Miharja",
+      "coordinate": {
+        "lat": "3.1209905",
+        "lon": "101.7178829"
+      }
+    },
+    "AG13": {
+      "id": "AG13",
+      "stationName": "Maluri",
+      "coordinate": {
+        "lat": "3.12336",
+        "lon": "101.72726"
+      }
+    },
+    "AG14": {
+      "id": "AG14",
+      "stationName": "Pandan Jaya",
+      "coordinate": {
+        "lat": "3.13024",
+        "lon": "101.73896"
+      }
+    },
+    "AG15": {
+      "id": "AG15",
+      "stationName": "Pandan Indah",
+      "coordinate": {
+        "lat": "3.13472",
+        "lon": "101.74671"
+      }
+    },
+    "AG16": {
+      "id": "AG16",
+      "stationName": "Cempaka",
+      "coordinate": {
+        "lat": "3.1383932",
+        "lon": "101.7530528"
+      }
+    },
+    "AG17": {
+      "id": "AG17",
+      "stationName": "Cahaya",
+      "coordinate": {
+        "lat": "3.1405898",
+        "lon": "101.7566128"
+      }
+    },
+    "AG18": {
+      "id": "AG18",
+      "stationName": "Ampang",
+      "coordinate": {
+        "lat": "3.15032",
+        "lon": "101.76005"
+      }
+    },
+    "KJ1": {
+      "id": "KJ1",
+      "stationName": "Gombak",
+      "coordinate": {
+        "lat": "3.23124",
+        "lon": "101.72446"
+      }
+    },
+    "KJ2": {
+      "id": "KJ2",
+      "stationName": "Taman Melati",
+      "coordinate": {
+        "lat": "3.21956",
+        "lon": "101.72189"
+      }
+    },
+    "KJ3": {
+      "id": "KJ3",
+      "stationName": "Wangsa Maju",
+      "coordinate": {
+        "lat": "3.2057252",
+        "lon": "101.7318243"
+      }
+    },
+    "KJ4": {
+      "id": "KJ4",
+      "stationName": "Sri Rampai",
+      "coordinate": {
+        "lat": "3.19925",
+        "lon": "101.73727"
+      }
+    },
+    "KJ5": {
+      "id": "KJ5",
+      "stationName": "Setiawangsa",
+      "coordinate": {
+        "lat": "3.1756",
+        "lon": "101.735735"
+      }
+    },
+    "KJ6": {
+      "id": "KJ6",
+      "stationName": "Jelatek",
+      "coordinate": {
+        "lat": "3.16734",
+        "lon": "101.73535"
+      }
+    },
+    "KJ7": {
+      "id": "KJ7",
+      "stationName": "Dato' Keramat",
+      "coordinate": {
+        "lat": "3.16515",
+        "lon": "101.7316"
+      }
+    },
+    "KJ8": {
+      "id": "KJ8",
+      "stationName": "Damai",
+      "coordinate": {
+        "lat": "3.1644056",
+        "lon": "101.7244889"
+      }
+    },
+    "KJ9": {
+      "id": "KJ9",
+      "stationName": "Ampang Park",
+      "coordinate": {
+        "lat": "3.159854",
+        "lon": "101.7191364"
+      }
+    },
+    "KJ10": {
+      "id": "KJ10",
+      "stationName": "KLCC",
+      "coordinate": {
+        "lat": "3.15908",
+        "lon": "101.71288"
+      }
+    },
+    "KJ11": {
+      "id": "KJ11",
+      "stationName": "Kampung Baru",
+      "coordinate": {
+        "lat": "3.1613213",
+        "lon": "101.7067252"
+      }
+    },
+    "KJ12": {
+      "id": "KJ12",
+      "stationName": "Dang Wangi",
+      "coordinate": {
+        "lat": "3.15685",
+        "lon": "101.70198"
+      }
+    },
+    "KJ13": {
+      "id": "KJ13",
+      "stationName": "Masjid Jamek",
+      "coordinate": {
+        "lat": "3.14940",
+        "lon": "101.69646"
+      }
+    },
+    "KJ14": {
+      "id": "KJ14",
+      "stationName": "Pasar Seni",
+      "coordinate": {
+        "lat": "3.14236",
+        "lon": "101.69632"
+      }
+    },
+    "KJ15": {
+      "id": "KJ15",
+      "stationName": "KL Sentral",
+      "coordinate": {
+        "lat": "3.13417",
+        "lon": "101.68611"
+      }
+    },
+    "KJ16": {
+      "id": "KJ16",
+      "stationName": "Bangsar",
+      "coordinate": {
+        "lat": "3.1276507",
+        "lon": "101.679149"
+      }
+    },
+    "KJ17": {
+      "id": "KJ17",
+      "stationName": "Abdullah Hukum",
+      "coordinate": {
+        "lat": "3.1186831",
+        "lon": "101.672874"
+      }
+    },
+    "KJ18": {
+      "id": "KJ18",
+      "stationName": "Kerinchi",
+      "coordinate": {
+        "lat": "3.11556",
+        "lon": "101.66857"
+      }
+    },
+    "KJ19": {
+      "id": "KJ19",
+      "stationName": "Universiti",
+      "coordinate": {
+        "lat": "3.1145746",
+        "lon": "101.6617999"
+      }
+    },
+    "KJ20": {
+      "id": "KJ20",
+      "stationName": "Taman Jaya",
+      "coordinate": {
+        "lat": "3.1040439",
+        "lon": "101.6452768"
+      }
+    },
+    "KJ21": {
+      "id": "KJ21",
+      "stationName": "Asia Jaya",
+      "coordinate": {
+        "lat": "3.10443",
+        "lon": "101.63769"
+      }
+    },
+    "KJ22": {
+      "id": "KJ22",
+      "stationName": "Taman Paramount",
+      "coordinate": {
+        "lat": "3.1047784",
+        "lon": "101.6232419"
+      }
+    },
+    "KJ23": {
+      "id": "KJ23",
+      "stationName": "Taman Bahagia",
+      "coordinate": {
+        "lat": "3.11071",
+        "lon": "101.61269"
+      }
+    },
+    "KJ24": {
+      "id": "KJ24",
+      "stationName": "Kelana Jaya",
+      "coordinate": {
+        "lat": "3.112442",
+        "lon": "101.604533"
+      }
+    },
+    "KJ25": {
+      "id": "KJ25",
+      "stationName": "Lembah Subang",
+      "coordinate": {
+        "lat": "3.1120902",
+        "lon": "101.5912397"
+      }
+    },
+    "KJ26": {
+      "id": "KJ26",
+      "stationName": "Ara Damansara",
+      "coordinate": {
+        "lat": "3.10842",
+        "lon": "101.58665"
+      }
+    },
+    "KJ27": {
+      "id": "KJ27",
+      "stationName": "Glenmarie",
+      "coordinate": {
+        "lat": "3.09594",
+        "lon": "101.59037"
+      }
+    },
+    "KJ28": {
+      "id": "KJ28",
+      "stationName": "Subang Jaya",
+      "coordinate": {
+        "lat": "3.084627",
+        "lon": "101.587566"
+      }
+    },
+    "KJ29": {
+      "id": "KJ29",
+      "stationName": "SS 15",
+      "coordinate": {
+        "lat": "3.07568",
+        "lon": "101.58618"
+      }
+    },
+    "KJ30": {
+      "id": "KJ30",
+      "stationName": "SS 18",
+      "coordinate": {
+        "lat": "3.06691",
+        "lon": "101.58619"
+      }
+    },
+    "KJ31": {
+      "id": "KJ31",
+      "stationName": "USJ 7",
+      "coordinate": {
+        "lat": "3.05496",
+        "lon": "101.59219"
+      }
+    },
+    "KJ32": {
+      "id": "KJ32",
+      "stationName": "Taipan",
+      "coordinate": {
+        "lat": "3.0478541",
+        "lon": "101.5901209"
+      }
+    },
+    "KJ33": {
+      "id": "KJ33",
+      "stationName": "Wawasan",
+      "coordinate": {
+        "lat": "3.035062",
+        "lon": "101.588348"
+      }
+    },
+    "KJ34": {
+      "id": "KJ34",
+      "stationName": "USJ 21",
+      "coordinate": {
+        "lat": "3.0298519",
+        "lon": "101.5821081"
+      }
+    },
+    "KJ35": {
+      "id": "KJ35",
+      "stationName": "Alam Megah",
+      "coordinate": {
+        "lat": "3.0230883",
+        "lon": "101.5720828"
+      }
+    },
+    "KJ36": {
+      "id": "KJ36",
+      "stationName": "Subang Alam",
+      "coordinate": {
+        "lat": "3.009421",
+        "lon": "101.572281"
+      }
+    },
+    "KJ37": {
+      "id": "KJ37",
+      "stationName": "Putra Heights",
+      "coordinate": {
+        "lat": "2.996016",
+        "lon": "101.575521"
+      }
+    },
+    "SP1": {
+      "id": "SP1",
+      "stationName": "Sentul Timur",
+      "coordinate": {
+        "lat": "3.1859317",
+        "lon": "101.6953527"
+      }
+    },
+    "SP2": {
+      "id": "SP2",
+      "stationName": "Sentul",
+      "coordinate": {
+        "lat": "3.1785607",
+        "lon": "101.6954938"
+      }
+    },
+    "SP3": {
+      "id": "SP3",
+      "stationName": "Titiwangsa",
+      "coordinate": {
+        "lat": "3.1735082",
+        "lon": "101.6953433"
+      }
+    },
+    "SP4": {
+      "id": "SP4",
+      "stationName": "PWTC",
+      "coordinate": {
+        "lat": "3.1665923",
+        "lon": "101.6936275"
+      }
+    },
+    "SP5": {
+      "id": "SP5",
+      "stationName": "Sultan Ismail",
+      "coordinate": {
+        "lat": "3.16124",
+        "lon": "101.69411"
+      }
+    },
+    "SP6": {
+      "id": "SP6",
+      "stationName": "Bandaraya",
+      "coordinate": {
+        "lat": "3.1555582",
+        "lon": "101.6944651"
+      }
+    },
+    "SP7": {
+      "id": "SP7",
+      "stationName": "Masjid Jamek",
+      "coordinate": {
+        "lat": "3.14940",
+        "lon": "101.69646"
+      }
+    },
+    "SP8": {
+      "id": "SP8",
+      "stationName": "Plaza Rakyat",
+      "coordinate": {
+        "lat": "3.14405",
+        "lon": "101.7021"
+      }
+    },
+    "SP9": {
+      "id": "SP9",
+      "stationName": "BBCC - Hang Tuah",
+      "coordinate": {
+        "lat": "3.14000",
+        "lon": "101.70608"
+      }
+    },
+    "SP10": {
+      "id": "SP10",
+      "stationName": "Pudu",
+      "coordinate": {
+        "lat": "3.13488",
+        "lon": "101.71196"
+      }
+    },
+    "SP11": {
+      "id": "SP11",
+      "stationName": "Chan Sow Lin",
+      "coordinate": {
+        "lat": "3.1278462",
+        "lon": "101.7155894"
+      }
+    },
+    "SP12": {
+      "id": "SP12",
+      "stationName": "Cheras",
+      "coordinate": {
+        "lat": "3.1125996",
+        "lon": "101.7142131"
+      }
+    },
+    "SP13": {
+      "id": "SP13",
+      "stationName": "Salak Selatan",
+      "coordinate": {
+        "lat": "3.1020978",
+        "lon": "101.7063461"
+      }
+    },
+    "SP14": {
+      "id": "SP14",
+      "stationName": "Bandar Tun Razak",
+      "coordinate": {
+        "lat": "3.089669",
+        "lon": "101.7125175"
+      }
+    },
+    "SP15": {
+      "id": "SP15",
+      "stationName": "Bandar Tasik Selatan",
+      "coordinate": {
+        "lat": "3.0760769",
+        "lon": "101.7113663"
+      }
+    },
+    "SP16": {
+      "id": "SP16",
+      "stationName": "Sungai Besi",
+      "coordinate": {
+        "lat": "3.06394",
+        "lon": "101.70801"
+      }
+    },
+    "SP17": {
+      "id": "SP17",
+      "stationName": "Bukit Jalil",
+      "coordinate": {
+        "lat": "3.05814",
+        "lon": "101.69222"
+      }
+    },
+    "SP18": {
+      "id": "SP18",
+      "stationName": "Sri Petaling",
+      "coordinate": {
+        "lat": "3.06144",
+        "lon": "101.68707"
+      }
+    },
+    "SP19": {
+      "id": "SP19",
+      "stationName": "Awan Besar",
+      "coordinate": {
+        "lat": "3.0621113",
+        "lon": "101.6706325"
+      }
+    },
+    "SP20": {
+      "id": "SP20",
+      "stationName": "Muhibbah",
+      "coordinate": {
+        "lat": "3.06192",
+        "lon": "101.66260"
+      }
+    },
+    "SP21": {
+      "id": "SP21",
+      "stationName": "Alam Sutera",
+      "coordinate": {
+        "lat": "3.0546753",
+        "lon": "101.6565324"
+      }
+    },
+    "SP22": {
+      "id": "SP22",
+      "stationName": "Kinrara BK5",
+      "coordinate": {
+        "lat": "3.0504458",
+        "lon": "101.6442793"
+      }
+    },
+    "SP24": {
+      "id": "SP24",
+      "stationName": "IOI Puchong Jaya",
+      "coordinate": {
+        "lat": "3.0480756",
+        "lon": "101.6209657"
+      }
+    },
+    "SP25": {
+      "id": "SP25",
+      "stationName": "Pusat Bandar Puchong",
+      "coordinate": {
+        "lat": "3.033339",
+        "lon": "101.6160699"
+      }
+    },
+    "SP26": {
+      "id": "SP26",
+      "stationName": "Taman Perindustrian Puchong",
+      "coordinate": {
+        "lat": "3.022844",
+        "lon": "101.6134397"
+      }
+    },
+    "SP27": {
+      "id": "SP27",
+      "stationName": "Bandar Puteri",
+      "coordinate": {
+        "lat": "3.0170271",
+        "lon": "101.6128574"
+      }
+    },
+    "SP28": {
+      "id": "SP28",
+      "stationName": "Puchong Perdana",
+      "coordinate": {
+        "lat": "3.0078465",
+        "lon": "101.6050702"
+      }
+    },
+    "SP29": {
+      "id": "SP29",
+      "stationName": "Puchong Prima",
+      "coordinate": {
+        "lat": "2.99981",
+        "lon": "101.59669"
+      }
+    },
+    "SP31": {
+      "id": "SP31",
+      "stationName": "Putra Heights",
+      "coordinate": {
+        "lat": "2.996016",
+        "lon": "101.575521"
+      }
+    },
+    "KG04": {
+      "id": "KG04",
+      "stationName": "Kwasa Damansara",
+      "coordinate": {
+        "lat": "3.1763838",
+        "lon": "101.572348"
+      }
+    },
+    "KG05": {
+      "id": "KG05",
+      "stationName": "Kwasa Sentral",
+      "coordinate": {
+        "lat": "3.1699762",
+        "lon": "101.5647708"
+      }
+    },
+    "KG06": {
+      "id": "KG06",
+      "stationName": "Kota Damansara",
+      "coordinate": {
+        "lat": "3.1501013",
+        "lon": "101.5788905"
+      }
+    },
+    "KG07": {
+      "id": "KG07",
+      "stationName": "Surian",
+      "coordinate": {
+        "lat": "3.1494854",
+        "lon": "101.593917"
+      }
+    },
+    "KG08": {
+      "id": "KG08",
+      "stationName": "Mutiara Damansara",
+      "coordinate": {
+        "lat": "3.155262",
+        "lon": "101.608718"
+      }
+    },
+    "KG09": {
+      "id": "KG09",
+      "stationName": "Bandar Utama",
+      "coordinate": {
+        "lat": "3.1466959",
+        "lon": "101.6187457"
+      }
+    },
+    "KG10": {
+      "id": "KG10",
+      "stationName": "TTDI",
+      "coordinate": {
+        "lat": "3.13614",
+        "lon": "101.63074"
+      }
+    },
+    "KG12": {
+      "id": "KG12",
+      "stationName": "Phileo Damansara",
+      "coordinate": {
+        "lat": "3.1292246",
+        "lon": "101.6429836"
+      }
+    },
+    "KG12A": {
+      "id": "KG12A",
+      "stationName": "Bukit Kiara",
+      "coordinate": {
+        "lat": "3.133986",
+        "lon": "101.65135"
+      }
+    },
+    "KG13": {
+      "id": "KG13",
+      "stationName": "Pusat Bandar Damansara",
+      "coordinate": {
+        "lat": "3.1432549",
+        "lon": "101.6623203"
+      }
+    },
+    "KG14": {
+      "id": "KG14",
+      "stationName": "Semantan",
+      "coordinate": {
+        "lat": "3.1510399",
+        "lon": "101.6652861"
+      }
+    },
+    "KG15": {
+      "id": "KG15",
+      "stationName": "Muzium Negara",
+      "coordinate": {
+        "lat": "3.13713",
+        "lon": "101.68725"
+      }
+    },
+    "KG16": {
+      "id": "KG16",
+      "stationName": "Pasar Seni",
+      "coordinate": {
+        "lat": "3.14238",
+        "lon": "101.69632"
+      }
+    },
+    "KG17": {
+      "id": "KG17",
+      "stationName": "Merdeka",
+      "coordinate": {
+        "lat": "3.14208",
+        "lon": "101.70220"
+      }
+    },
+    "KG18A": {
+      "id": "KG18A",
+      "stationName": "Bukit Bintang",
+      "coordinate": {
+        "lat": "3.14659425",
+        "lon": "101.711222"
+      }
+    },
+    "KG20": {
+      "id": "KG20",
+      "stationName": "Tun Razak Exchange (TRX)",
+      "coordinate": {
+        "lat": "3.1427162",
+        "lon": "101.7202063"
+      }
+    },
+    "KG21": {
+      "id": "KG21",
+      "stationName": "Cochrane",
+      "coordinate": {
+        "lat": "3.1327859",
+        "lon": "101.7229467"
+      }
+    },
+    "KG22": {
+      "id": "KG22",
+      "stationName": "Maluri",
+      "coordinate": {
+        "lat": "3.12444",
+        "lon": "101.72725"
+      }
+    },
+    "KG23": {
+      "id": "KG23",
+      "stationName": "Taman Pertama",
+      "coordinate": {
+        "lat": "3.1122706",
+        "lon": "101.7293086"
+      }
+    },
+    "KG24": {
+      "id": "KG24",
+      "stationName": "Taman Midah",
+      "coordinate": {
+        "lat": "3.10448",
+        "lon": "101.73218"
+      }
+    },
+    "KG25": {
+      "id": "KG25",
+      "stationName": "Taman Mutiara",
+      "coordinate": {
+        "lat": "3.09099",
+        "lon": "101.74045"
+      }
+    },
+    "KG26": {
+      "id": "KG26",
+      "stationName": "Taman Connaught",
+      "coordinate": {
+        "lat": "3.07917",
+        "lon": "101.74521"
+      }
+    },
+    "KG27": {
+      "id": "KG27",
+      "stationName": "Taman Suntex",
+      "coordinate": {
+        "lat": "3.07158",
+        "lon": "101.76355"
+      }
+    },
+    "KG28": {
+      "id": "KG28",
+      "stationName": "Sri Raya",
+      "coordinate": {
+        "lat": "3.0623324",
+        "lon": "101.772846"
+      }
+    },
+    "KG29": {
+      "id": "KG29",
+      "stationName": "Bandar Tun Hussein Onn",
+      "coordinate": {
+        "lat": "3.04829",
+        "lon": "101.77510"
+      }
+    },
+    "KG30": {
+      "id": "KG30",
+      "stationName": "Batu 11 Cheras",
+      "coordinate": {
+        "lat": "3.04134",
+        "lon": "101.77333"
+      }
+    },
+    "KG31": {
+      "id": "KG31",
+      "stationName": "Bukit Dukung",
+      "coordinate": {
+        "lat": "3.0267661",
+        "lon": "101.7708986"
+      }
+    },
+    "KG33": {
+      "id": "KG33",
+      "stationName": "Sungai Jernih",
+      "coordinate": {
+        "lat": "3.0013634",
+        "lon": "101.7837821"
+      }
+    },
+    "KG34": {
+      "id": "KG34",
+      "stationName": "Stadium Kajang",
+      "coordinate": {
+        "lat": "2.99451",
+        "lon": "101.78634"
+      }
+    },
+    "KG35": {
+      "id": "KG35",
+      "stationName": "Kajang",
+      "coordinate": {
+        "lat": "2.98321",
+        "lon": "101.79035"
+      }
+    },
+    "PY01": {
+      "id": "PY01",
+      "stationName": "Kwasa Damansara",
+      "coordinate": {
+        "lat": "3.1763838",
+        "lon": "101.572348"
+      }
+    },
+    "PY03": {
+      "id": "PY03",
+      "stationName": "Kampung Selamat",
+      "coordinate": {
+        "lat": "3.1972781",
+        "lon": "101.5784398"
+      }
+    },
+    "PY04": {
+      "id": "PY04",
+      "stationName": "Sungai Buloh",
+      "coordinate": {
+        "lat": "3.20625",
+        "lon": "101.58185"
+      }
+    },
+    "PY05": {
+      "id": "PY05",
+      "stationName": "Damansara Damai",
+      "coordinate": {
+        "lat": "3.19978",
+        "lon": "101.59268"
+      }
+    },
+    "PY06": {
+      "id": "PY06",
+      "stationName": "Sri Damansara Barat",
+      "coordinate": {
+        "lat": "3.19823",
+        "lon": "101.60841"
+      }
+    },
+    "PY07": {
+      "id": "PY07",
+      "stationName": "Sri Damansara Sentral",
+      "coordinate": {
+        "lat": "3.1986792",
+        "lon": "101.621041"
+      }
+    },
+    "PY08": {
+      "id": "PY08",
+      "stationName": "Sri Damansara Timur",
+      "coordinate": {
+        "lat": "3.20777",
+        "lon": "101.62866"
+      }
+    },
+    "PY09": {
+      "id": "PY09",
+      "stationName": "Metro Prima",
+      "coordinate": {
+        "lat": "3.2145454",
+        "lon": "101.6400619"
+      }
+    },
+    "PY10": {
+      "id": "PY10",
+      "stationName": "Kepong Baru",
+      "coordinate": {
+        "lat": "3.2115497",
+        "lon": "101.6484978"
+      }
+    },
+    "PY11": {
+      "id": "PY11",
+      "stationName": "Jinjang",
+      "coordinate": {
+        "lat": "3.2095",
+        "lon": "101.6558"
+      }
+    },
+    "PY12": {
+      "id": "PY12",
+      "stationName": "Sri Delima",
+      "coordinate": {
+        "lat": "3.20699",
+        "lon": "101.6658"
+      }
+    },
+    "PY13": {
+      "id": "PY13",
+      "stationName": "Kampung Batu",
+      "coordinate": {
+        "lat": "3.20482",
+        "lon": "101.6756"
+      }
+    },
+    "PY14": {
+      "id": "PY14",
+      "stationName": "Kentonmen",
+      "coordinate": {
+        "lat": "3.19549",
+        "lon": "101.67963"
+      }
+    },
+    "PY15": {
+      "id": "PY15",
+      "stationName": "Jalan Ipoh",
+      "coordinate": {
+        "lat": "3.18933",
+        "lon": "101.68117"
+      }
+    },
+    "PY16": {
+      "id": "PY16",
+      "stationName": "Sentul Barat",
+      "coordinate": {
+        "lat": "3.17906",
+        "lon": "101.68519"
+      }
+    },
+    "PY17": {
+      "id": "PY17",
+      "stationName": "Titiwangsa",
+      "coordinate": {
+        "lat": "3.17437",
+        "lon": "101.69586"
+      }
+    },
+    "PY18": {
+      "id": "PY18",
+      "stationName": "Hospital Kuala Lumpur",
+      "coordinate": {
+        "lat": "3.17433",
+        "lon": "101.70076"
+      }
+    },
+    "PY19": {
+      "id": "PY19",
+      "stationName": "Raja Uda",
+      "coordinate": {
+        "lat": "3.16783",
+        "lon": "101.71104"
+      }
+    },
+    "PY20": {
+      "id": "PY20",
+      "stationName": "Ampang Park",
+      "coordinate": {
+        "lat": "3.16163",
+        "lon": "101.71797"
+      }
+    },
+    "PY21": {
+      "id": "PY21",
+      "stationName": "Persiaran KLCC",
+      "coordinate": {
+        "lat": "3.15694",
+        "lon": "101.71831"
+      }
+    },
+    "PY22": {
+      "id": "PY22",
+      "stationName": "Conlay",
+      "coordinate": {
+        "lat": "3.15049",
+        "lon": "101.71859"
+      }
+    },
+    "PY23": {
+      "id": "PY23",
+      "stationName": "Tun Razak Exchange (TRX)",
+      "coordinate": {
+        "lat": "3.1427162",
+        "lon": "101.7202063"
+      }
+    },
+    "PY24": {
+      "id": "PY24",
+      "stationName": "Chan Sow Lin",
+      "coordinate": {
+        "lat": "3.12864",
+        "lon": "101.71638"
+      }
+    },
+    "PY25": {
+      "id": "PY25",
+      "stationName": "Bandar Malaysia Utara",
+      "coordinate": {
+        "lat": "3.11520",
+        "lon": "101.70236"
+      }
+    },
+    "PY26": {
+      "id": "PY26",
+      "stationName": "Bandar Malaysia Selatan",
+      "coordinate": {
+        "lat": "3.10790",
+        "lon": "101.69748"
+      }
+    },
+    "PY27": {
+      "id": "PY27",
+      "stationName": "Kuchai",
+      "coordinate": {
+        "lat": "3.08970",
+        "lon": "101.69428"
+      }
+    },
+    "PY28": {
+      "id": "PY28",
+      "stationName": "Taman Naga Emas",
+      "coordinate": {
+        "lat": "3.0774079",
+        "lon": "101.6997719"
+      }
+    },
+    "PY29": {
+      "id": "PY29",
+      "stationName": "Sungai Besi",
+      "coordinate": {
+        "lat": "3.063523",
+        "lon": "101.7084334"
+      }
+    },
+    "PY31": {
+      "id": "PY31",
+      "stationName": "Serdang Raya Utara",
+      "coordinate": {
+        "lat": "3.04168",
+        "lon": "101.70491"
+      }
+    },
+    "PY32": {
+      "id": "PY32",
+      "stationName": "Serdang Raya Selatan",
+      "coordinate": {
+        "lat": "3.02854",
+        "lon": "101.70739"
+      }
+    },
+    "PY33": {
+      "id": "PY33",
+      "stationName": "Serdang Jaya",
+      "coordinate": {
+        "lat": "3.02166",
+        "lon": "101.70899"
+      }
+    },
+    "PY34": {
+      "id": "PY34",
+      "stationName": "UPM",
+      "coordinate": {
+        "lat": "3.00850",
+        "lon": "101.70554"
+      }
+    },
+    "PY36": {
+      "id": "PY36",
+      "stationName": "Taman Equine",
+      "coordinate": {
+        "lat": "2.9892814",
+        "lon": "101.6724946"
+      }
+    },
+    "PY37": {
+      "id": "PY37",
+      "stationName": "Putra Permai",
+      "coordinate": {
+        "lat": "2.98311",
+        "lon": "101.66058"
+      }
+    },
+    "PY38": {
+      "id": "PY38",
+      "stationName": "16 Sierra",
+      "coordinate": {
+        "lat": "2.96537",
+        "lon": "101.65493"
+      }
+    },
+    "PY39": {
+      "id": "PY39",
+      "stationName": "Cyberjaya Utara",
+      "coordinate": {
+        "lat": "2.94923",
+        "lon": "101.65749"
+      }
+    },
+    "PY40": {
+      "id": "PY40",
+      "stationName": "Cyberjaya City Centre",
+      "coordinate": {
+        "lat": "2.9384406",
+        "lon": "101.6658618"
+      }
+    },
+    "PY41": {
+      "id": "PY41",
+      "stationName": "Putrajaya Sentral",
+      "coordinate": {
+        "lat": "2.93136",
+        "lon": "101.67147"
+      }
+    }
+  },
+  "edges": {
+    "AG1": {
+      "AG2": {
+        "distance": 820.0974532433822
+      },
+      "SP1": {
+        "distance": 0
+      }
+    },
+    "AG2": {
+      "AG1": {
+        "distance": 820.0974532433822
+      },
+      "AG3": {
+        "distance": 562.2870176561073
+      },
+      "SP2": {
+        "distance": 0
+      }
+    },
+    "AG3": {
+      "AG2": {
+        "distance": 562.2870176561073
+      },
+      "AG4": {
+        "distance": 792.5749896417758
+      },
+      "SP3": {
+        "distance": 0
+      },
+      "PY17": {
+        "distance": 111.73133422726865
+      }
+    },
+    "AG4": {
+      "AG3": {
+        "distance": 792.5749896417758
+      },
+      "AG5": {
+        "distance": 597.7951794571776
+      },
+      "SP4": {
+        "distance": 0
+      }
+    },
+    "AG5": {
+      "AG4": {
+        "distance": 597.7951794571776
+      },
+      "AG6": {
+        "distance": 633.271051836948
+      },
+      "SP5": {
+        "distance": 0
+      }
+    },
+    "AG6": {
+      "AG5": {
+        "distance": 633.271051836948
+      },
+      "AG7": {
+        "distance": 718.9211991517143
+      },
+      "SP6": {
+        "distance": 0
+      }
+    },
+    "AG7": {
+      "AG6": {
+        "distance": 718.9211991517143
+      },
+      "AG8": {
+        "distance": 864.8359305667769
+      },
+      "SP7": {
+        "distance": 0
+      },
+      "KJ13": {
+        "distance": 1.112396825404113
+      }
+    },
+    "AG8": {
+      "AG7": {
+        "distance": 864.8359305667769
+      },
+      "AG9": {
+        "distance": 631.1837309889505
+      },
+      "SP8": {
+        "distance": 0
+      },
+      "KG17": {
+        "distance": 219.4234788219156
+      }
+    },
+    "AG9": {
+      "AG8": {
+        "distance": 631.1837309889505
+      },
+      "AG10": {
+        "distance": 866.5646134534405
+      },
+      "SP9": {
+        "distance": 0
+      }
+    },
+    "AG10": {
+      "AG9": {
+        "distance": 866.5646134534405
+      },
+      "AG11": {
+        "distance": 880.1832353884781
+      },
+      "SP10": {
+        "distance": 0
+      }
+    },
+    "AG11": {
+      "AG10": {
+        "distance": 880.1832353884781
+      },
+      "AG12": {
+        "distance": 804.0492109757795
+      },
+      "SP11": {
+        "distance": 0
+      },
+      "PY24": {
+        "distance": 124.53400014606981
+      }
+    },
+    "AG12": {
+      "AG11": {
+        "distance": 804.0492109757795
+      },
+      "AG13": {
+        "distance": 1074.3903985113966
+      }
+    },
+    "AG13": {
+      "AG12": {
+        "distance": 1074.3903985113966
+      },
+      "AG14": {
+        "distance": 1508.1770562779998
+      },
+      "KG22": {
+        "distance": 120.1439917120121
+      }
+    },
+    "AG14": {
+      "AG13": {
+        "distance": 1508.1770562779998
+      },
+      "AG15": {
+        "distance": 994.668177997506
+      }
+    },
+    "AG15": {
+      "AG14": {
+        "distance": 994.668177997506
+      },
+      "AG16": {
+        "distance": 814.4307444521047
+      }
+    },
+    "AG16": {
+      "AG15": {
+        "distance": 814.4307444521047
+      },
+      "AG17": {
+        "distance": 464.82493219960924
+      }
+    },
+    "AG17": {
+      "AG16": {
+        "distance": 464.82493219960924
+      },
+      "AG18": {
+        "distance": 1147.740923378342
+      }
+    },
+    "AG18": {
+      "AG17": {
+        "distance": 1147.740923378342
+      }
+    },
+    "KJ1": {
+      "KJ2": {
+        "distance": 1330.2627766054004
+      }
+    },
+    "KJ2": {
+      "KJ1": {
+        "distance": 1330.2627766054004
+      },
+      "KJ3": {
+        "distance": 1893.6307423145663
+      }
+    },
+    "KJ3": {
+      "KJ2": {
+        "distance": 1893.6307423145663
+      },
+      "KJ4": {
+        "distance": 940.5592252602268
+      }
+    },
+    "KJ4": {
+      "KJ3": {
+        "distance": 940.5592252602268
+      },
+      "KJ5": {
+        "distance": 2636.3369058898056
+      }
+    },
+    "KJ5": {
+      "KJ4": {
+        "distance": 2636.3369058898056
+      },
+      "KJ6": {
+        "distance": 919.834275518395
+      }
+    },
+    "KJ6": {
+      "KJ5": {
+        "distance": 919.834275518395
+      },
+      "KJ7": {
+        "distance": 482.5246725579792
+      }
+    },
+    "KJ7": {
+      "KJ6": {
+        "distance": 482.5246725579792
+      },
+      "KJ8": {
+        "distance": 794.1580487094737
+      }
+    },
+    "KJ8": {
+      "KJ7": {
+        "distance": 794.1580487094737
+      },
+      "KJ9": {
+        "distance": 780.8920715214346
+      }
+    },
+    "KJ9": {
+      "KJ8": {
+        "distance": 780.8920715214346
+      },
+      "KJ10": {
+        "distance": 700.2148690359166
+      },
+      "PY20": {
+        "distance": 236.25081496785032
+      }
+    },
+    "KJ10": {
+      "KJ9": {
+        "distance": 700.2148690359166
+      },
+      "KJ11": {
+        "distance": 727.6620406931129
+      },
+      "KG18A": {
+        "distance": 1401.0663181062014
+      }
+    },
+    "KJ11": {
+      "KJ10": {
+        "distance": 727.6620406931129
+      },
+      "KJ12": {
+        "distance": 724.6905378849007
+      }
+    },
+    "KJ12": {
+      "KJ11": {
+        "distance": 724.6905378849007
+      },
+      "KJ13": {
+        "distance": 1030.8782341210892
+      }
+    },
+    "KJ13": {
+      "KJ12": {
+        "distance": 1030.8782341210892
+      },
+      "KJ14": {
+        "distance": 783.2817338300114
+      },
+      "AG7": {
+        "distance": 1.112396825404113
+      },
+      "SP7": {
+        "distance": 1.112396825404113
+      }
+    },
+    "KJ14": {
+      "KJ13": {
+        "distance": 783.2817338300114
+      },
+      "KJ15": {
+        "distance": 1454.6795876780843
+      },
+      "KG16": {
+        "distance": 2.2247936508082256
+      }
+    },
+    "KJ15": {
+      "KJ14": {
+        "distance": 1454.6795876780843
+      },
+      "KJ16": {
+        "distance": 1060.0629942418566
+      },
+      "KG15": {
+        "distance": 352.7772928929318
+      }
+    },
+    "KJ16": {
+      "KJ15": {
+        "distance": 1060.0629942418566
+      },
+      "KJ17": {
+        "distance": 1216.9260298481295
+      }
+    },
+    "KJ17": {
+      "KJ16": {
+        "distance": 1216.9260298481295
+      },
+      "KJ18": {
+        "distance": 590.9680879696849
+      }
+    },
+    "KJ18": {
+      "KJ17": {
+        "distance": 590.9680879696849
+      },
+      "KJ19": {
+        "distance": 759.9372949457392
+      }
+    },
+    "KJ19": {
+      "KJ18": {
+        "distance": 759.9372949457392
+      },
+      "KJ20": {
+        "distance": 2177.3007610108343
+      }
+    },
+    "KJ20": {
+      "KJ19": {
+        "distance": 2177.3007610108343
+      },
+      "KJ21": {
+        "distance": 843.8076405413719
+      }
+    },
+    "KJ21": {
+      "KJ20": {
+        "distance": 843.8076405413719
+      },
+      "KJ22": {
+        "distance": 1605.3091995779969
+      }
+    },
+    "KJ22": {
+      "KJ21": {
+        "distance": 1605.3091995779969
+      },
+      "KJ23": {
+        "distance": 1345.0297165099726
+      }
+    },
+    "KJ23": {
+      "KJ22": {
+        "distance": 1345.0297165099726
+      },
+      "KJ24": {
+        "distance": 926.3018145789537
+      }
+    },
+    "KJ24": {
+      "KJ23": {
+        "distance": 926.3018145789537
+      },
+      "KJ25": {
+        "distance": 1477.0781808103993
+      }
+    },
+    "KJ25": {
+      "KJ24": {
+        "distance": 1477.0781808103993
+      },
+      "KJ26": {
+        "distance": 653.1356316752415
+      }
+    },
+    "KJ26": {
+      "KJ25": {
+        "distance": 653.1356316752415
+      },
+      "KJ27": {
+        "distance": 1448.4595900387746
+      }
+    },
+    "KJ27": {
+      "KJ26": {
+        "distance": 1448.4595900387746
+      },
+      "KJ28": {
+        "distance": 1296.4244888660226
+      }
+    },
+    "KJ28": {
+      "KJ27": {
+        "distance": 1296.4244888660226
+      },
+      "KJ29": {
+        "distance": 1007.0985867165944
+      }
+    },
+    "KJ29": {
+      "KJ28": {
+        "distance": 1007.0985867165944
+      },
+      "KJ30": {
+        "distance": 975.5726482564908
+      }
+    },
+    "KJ30": {
+      "KJ29": {
+        "distance": 975.5726482564908
+      },
+      "KJ31": {
+        "distance": 1487.0368683828701
+      }
+    },
+    "KJ31": {
+      "KJ30": {
+        "distance": 1487.0368683828701
+      },
+      "KJ32": {
+        "distance": 823.1950608160969
+      }
+    },
+    "KJ32": {
+      "KJ31": {
+        "distance": 823.1950608160969
+      },
+      "KJ33": {
+        "distance": 1436.5524689867307
+      }
+    },
+    "KJ33": {
+      "KJ32": {
+        "distance": 1436.5524689867307
+      },
+      "KJ34": {
+        "distance": 903.5267461846884
+      }
+    },
+    "KJ34": {
+      "KJ33": {
+        "distance": 903.5267461846884
+      },
+      "KJ35": {
+        "distance": 1343.9877520981272
+      }
+    },
+    "KJ35": {
+      "KJ34": {
+        "distance": 1343.9877520981272
+      },
+      "KJ36": {
+        "distance": 1520.5055271680155
+      }
+    },
+    "KJ36": {
+      "KJ35": {
+        "distance": 1520.5055271680155
+      },
+      "KJ37": {
+        "distance": 1533.9899636074776
+      }
+    },
+    "KJ37": {
+      "KJ36": {
+        "distance": 1533.9899636074776
+      }
+    },
+    "SP1": {
+      "SP2": {
+        "distance": 820.0974532433822
+      },
+      "AG1": {
+        "distance": 0
+      }
+    },
+    "SP2": {
+      "SP1": {
+        "distance": 820.0974532433822
+      },
+      "SP3": {
+        "distance": 562.2870176561073
+      },
+      "AG2": {
+        "distance": 0
+      }
+    },
+    "SP3": {
+      "SP2": {
+        "distance": 562.2870176561073
+      },
+      "SP4": {
+        "distance": 792.5749896417758
+      },
+      "AG3": {
+        "distance": 0
+      },
+      "PY17": {
+        "distance": 3147.0513068134683
+      }
+    },
+    "SP4": {
+      "SP3": {
+        "distance": 792.5749896417758
+      },
+      "SP5": {
+        "distance": 597.7951794571776
+      },
+      "AG4": {
+        "distance": 0
+      }
+    },
+    "SP5": {
+      "SP4": {
+        "distance": 597.7951794571776
+      },
+      "SP6": {
+        "distance": 633.271051836948
+      },
+      "AG5": {
+        "distance": 0
+      }
+    },
+    "SP6": {
+      "SP5": {
+        "distance": 633.271051836948
+      },
+      "SP7": {
+        "distance": 719.9795259953598
+      },
+      "AG6": {
+        "distance": 0
+      }
+    },
+    "SP7": {
+      "SP6": {
+        "distance": 719.9795259953598
+      },
+      "SP8": {
+        "distance": 864.0693875934999
+      },
+      "AG7": {
+        "distance": 0
+      },
+      "KJ13": {
+        "distance": 0
+      }
+    },
+    "SP8": {
+      "SP7": {
+        "distance": 864.0693875934999
+      },
+      "SP9": {
+        "distance": 631.1837309889505
+      },
+      "AG8": {
+        "distance": 0
+      },
+      "KG17": {
+        "distance": 219.4234788219156
+      }
+    },
+    "SP9": {
+      "SP8": {
+        "distance": 631.1837309889505
+      },
+      "SP10": {
+        "distance": 866.5646134534405
+      },
+      "AG9": {
+        "distance": 0
+      }
+    },
+    "SP10": {
+      "SP9": {
+        "distance": 866.5646134534405
+      },
+      "SP11": {
+        "distance": 880.1832353884781
+      },
+      "AG10": {
+        "distance": 0
+      }
+    },
+    "SP11": {
+      "SP10": {
+        "distance": 880.1832353884781
+      },
+      "SP12": {
+        "distance": 1702.9025956665596
+      },
+      "AG11": {
+        "distance": 0
+      },
+      "PY24": {
+        "distance": 124.53400014606981
+      }
+    },
+    "SP12": {
+      "SP11": {
+        "distance": 1702.9025956665596
+      },
+      "SP13": {
+        "distance": 1458.8756324089707
+      }
+    },
+    "SP13": {
+      "SP12": {
+        "distance": 1458.8756324089707
+      },
+      "SP14": {
+        "distance": 1543.1877847096623
+      }
+    },
+    "SP14": {
+      "SP13": {
+        "distance": 1543.1877847096623
+      },
+      "SP15": {
+        "distance": 1517.3786204731496
+      }
+    },
+    "SP15": {
+      "SP14": {
+        "distance": 1517.3786204731496
+      },
+      "SP16": {
+        "distance": 1400.634189179608
+      }
+    },
+    "SP16": {
+      "SP15": {
+        "distance": 1400.634189179608
+      },
+      "SP17": {
+        "distance": 1868.868282354508
+      },
+      "PY29": {
+        "distance": 66.05839655798195
+      }
+    },
+    "SP17": {
+      "SP16": {
+        "distance": 1868.868282354508
+      },
+      "SP18": {
+        "distance": 679.717889066994
+      }
+    },
+    "SP18": {
+      "SP17": {
+        "distance": 679.717889066994
+      },
+      "SP19": {
+        "distance": 1827.4164357700686
+      }
+    },
+    "SP19": {
+      "SP18": {
+        "distance": 1827.4164357700686
+      },
+      "SP20": {
+        "distance": 892.509756552003
+      }
+    },
+    "SP20": {
+      "SP19": {
+        "distance": 892.509756552003
+      },
+      "SP21": {
+        "distance": 1050.591341272197
+      }
+    },
+    "SP21": {
+      "SP20": {
+        "distance": 1050.591341272197
+      },
+      "SP22": {
+        "distance": 1440.1180032162727
+      }
+    },
+    "SP22": {
+      "SP21": {
+        "distance": 1440.1180032162727
+      },
+      "SP24": {
+        "distance": 2603.109753447781
+      }
+    },
+    "SP24": {
+      "SP22": {
+        "distance": 2603.109753447781
+      },
+      "SP25": {
+        "distance": 1727.1505238851332
+      }
+    },
+    "SP25": {
+      "SP24": {
+        "distance": 1727.1505238851332
+      },
+      "SP26": {
+        "distance": 1203.465601879475
+      }
+    },
+    "SP26": {
+      "SP25": {
+        "distance": 1203.465601879475
+      },
+      "SP27": {
+        "distance": 650.2952059647458
+      }
+    },
+    "SP27": {
+      "SP26": {
+        "distance": 650.2952059647458
+      },
+      "SP28": {
+        "distance": 1338.3769901939238
+      }
+    },
+    "SP28": {
+      "SP27": {
+        "distance": 1338.3769901939238
+      },
+      "SP29": {
+        "distance": 1290.6683613939938
+      }
+    },
+    "SP29": {
+      "SP28": {
+        "distance": 1290.6683613939938
+      },
+      "SP31": {
+        "distance": 2389.1794623144283
+      }
+    },
+    "SP31": {
+      "SP29": {
+        "distance": 2389.1794623144283
+      },
+      "KJ37": {
+        "distance": 0
+      }
+    },
+    "KG04": {
+      "KG05": {
+        "distance": 1102.874190886587
+      },
+      "PY01": {
+        "distance": 0
+      }
+    },
+    "KG05": {
+      "KG04": {
+        "distance": 1102.874190886587
+      },
+      "KG06": {
+        "distance": 2710.624298586866
+      }
+    },
+    "KG06": {
+      "KG05": {
+        "distance": 2710.624298586866
+      },
+      "KG07": {
+        "distance": 1670.4214652143953
+      }
+    },
+    "KG07": {
+      "KG06": {
+        "distance": 1670.4214652143953
+      },
+      "KG08": {
+        "distance": 1765.0891338189044
+      }
+    },
+    "KG08": {
+      "KG07": {
+        "distance": 1765.0891338189044
+      },
+      "KG09": {
+        "distance": 1465.7860786546644
+      }
+    },
+    "KG09": {
+      "KG08": {
+        "distance": 1465.7860786546644
+      },
+      "KG10": {
+        "distance": 1775.860173198247
+      }
+    },
+    "KG10": {
+      "KG09": {
+        "distance": 1775.860173198247
+      },
+      "KG12": {
+        "distance": 1562.434314489588
+      }
+    },
+    "KG12": {
+      "KG10": {
+        "distance": 1562.434314489588
+      },
+      "KG12A": {
+        "distance": 1069.629060176624
+      }
+    },
+    "KG12A": {
+      "KG12": {
+        "distance": 1069.629060176624
+      },
+      "KG13": {
+        "distance": 1596.198066858658
+      }
+    },
+    "KG13": {
+      "KG12A": {
+        "distance": 1596.198066858658
+      },
+      "KG14": {
+        "distance": 926.5381585880177
+      }
+    },
+    "KG14": {
+      "KG13": {
+        "distance": 926.5381585880177
+      },
+      "KG15": {
+        "distance": 2888.905167672606
+      }
+    },
+    "KG15": {
+      "KG14": {
+        "distance": 2888.905167672606
+      },
+      "KG16": {
+        "distance": 1164.4643731923168
+      },
+      "KJ15": {
+        "distance": 352.7772928929318
+      }
+    },
+    "KG16": {
+      "KG15": {
+        "distance": 1164.4643731923168
+      },
+      "KG17": {
+        "distance": 653.9571958986393
+      },
+      "KJ14": {
+        "distance": 2.2247936508082256
+      }
+    },
+    "KG17": {
+      "KG16": {
+        "distance": 653.9571958986393
+      },
+      "KG18A": {
+        "distance": 1120.8734940521113
+      },
+      "AG8": {
+        "distance": 219.4234788219156
+      },
+      "SP8": {
+        "distance": 219.4234788219156
+      }
+    },
+    "KG18A": {
+      "KG17": {
+        "distance": 1120.8734940521113
+      },
+      "KG20": {
+        "distance": 1087.158454231964
+      },
+      "KJ10": {
+        "distance": 0
+      }
+    },
+    "KG20": {
+      "KG18A": {
+        "distance": 1087.158454231964
+      },
+      "KG21": {
+        "distance": 1145.8126419002247
+      },
+      "PY23": {
+        "distance": 0
+      }
+    },
+    "KG21": {
+      "KG20": {
+        "distance": 1145.8126419002247
+      },
+      "KG22": {
+        "distance": 1044.2155719164723
+      }
+    },
+    "KG22": {
+      "KG21": {
+        "distance": 1044.2155719164723
+      },
+      "KG23": {
+        "distance": 1372.8958963466666
+      },
+      "AG13": {
+        "distance": 120.1439917120121
+      }
+    },
+    "KG23": {
+      "KG22": {
+        "distance": 1372.8958963466666
+      },
+      "KG24": {
+        "distance": 923.4510103308859
+      }
+    },
+    "KG24": {
+      "KG23": {
+        "distance": 923.4510103308859
+      },
+      "KG25": {
+        "distance": 1759.4626764392729
+      }
+    },
+    "KG25": {
+      "KG24": {
+        "distance": 1759.4626764392729
+      },
+      "KG26": {
+        "distance": 1417.1792368723982
+      }
+    },
+    "KG26": {
+      "KG25": {
+        "distance": 1417.1792368723982
+      },
+      "KG27": {
+        "distance": 2205.2261773389987
+      }
+    },
+    "KG27": {
+      "KG26": {
+        "distance": 2205.2261773389987
+      },
+      "KG28": {
+        "distance": 1457.5631326581367
+      }
+    },
+    "KG28": {
+      "KG27": {
+        "distance": 1457.5631326581367
+      },
+      "KG29": {
+        "distance": 1582.010815249813
+      }
+    },
+    "KG29": {
+      "KG28": {
+        "distance": 1582.010815249813
+      },
+      "KG30": {
+        "distance": 797.7254567932556
+      }
+    },
+    "KG30": {
+      "KG29": {
+        "distance": 797.7254567932556
+      },
+      "KG31": {
+        "distance": 1643.5402103444953
+      }
+    },
+    "KG31": {
+      "KG30": {
+        "distance": 1643.5402103444953
+      },
+      "KG33": {
+        "distance": 3167.54377470841
+      }
+    },
+    "KG33": {
+      "KG31": {
+        "distance": 3167.54377470841
+      },
+      "KG34": {
+        "distance": 813.6027564883514
+      }
+    },
+    "KG34": {
+      "KG33": {
+        "distance": 813.6027564883514
+      },
+      "KG35": {
+        "distance": 1333.6072080776075
+      }
+    },
+    "KG35": {
+      "KG34": {
+        "distance": 1333.6072080776075
+      }
+    },
+    "PY01": {
+      "PY03": {
+        "distance": 2420.7529260155434
+      },
+      "KG04": {
+        "distance": 0
+      }
+    },
+    "PY03": {
+      "PY01": {
+        "distance": 2420.7529260155434
+      },
+      "PY04": {
+        "distance": 1067.4845720146182
+      }
+    },
+    "PY04": {
+      "PY03": {
+        "distance": 1067.4845720146182
+      },
+      "PY05": {
+        "distance": 1401.723025805053
+      }
+    },
+    "PY05": {
+      "PY04": {
+        "distance": 1401.723025805053
+      },
+      "PY06": {
+        "distance": 1755.5590278755146
+      }
+    },
+    "PY06": {
+      "PY05": {
+        "distance": 1755.5590278755146
+      },
+      "PY07": {
+        "distance": 1403.767584398193
+      }
+    },
+    "PY07": {
+      "PY06": {
+        "distance": 1403.767584398193
+      },
+      "PY08": {
+        "distance": 1318.6028016550258
+      }
+    },
+    "PY08": {
+      "PY07": {
+        "distance": 1318.6028016550258
+      },
+      "PY09": {
+        "distance": 1473.6681063763733
+      }
+    },
+    "PY09": {
+      "PY08": {
+        "distance": 1473.6681063763733
+      },
+      "PY10": {
+        "distance": 994.4285478160729
+      }
+    },
+    "PY10": {
+      "PY09": {
+        "distance": 994.4285478160729
+      },
+      "PY11": {
+        "distance": 842.4598601317275
+      }
+    },
+    "PY11": {
+      "PY10": {
+        "distance": 842.4598601317275
+      },
+      "PY12": {
+        "distance": 1145.2104403839548
+      }
+    },
+    "PY12": {
+      "PY11": {
+        "distance": 1145.2104403839548
+      },
+      "PY13": {
+        "distance": 1114.8874165307236
+      }
+    },
+    "PY13": {
+      "PY12": {
+        "distance": 1114.8874165307236
+      },
+      "PY14": {
+        "distance": 1130.2693340944477
+      }
+    },
+    "PY14": {
+      "PY13": {
+        "distance": 1130.2693340944477
+      },
+      "PY15": {
+        "distance": 706.2610778556887
+      }
+    },
+    "PY15": {
+      "PY14": {
+        "distance": 706.2610778556887
+      },
+      "PY16": {
+        "distance": 1226.5828302754023
+      }
+    },
+    "PY16": {
+      "PY15": {
+        "distance": 1226.5828302754023
+      },
+      "PY17": {
+        "distance": 1294.8561840487093
+      }
+    },
+    "PY17": {
+      "PY16": {
+        "distance": 1294.8561840487093
+      },
+      "PY18": {
+        "distance": 544.2556277210264
+      },
+      "AG3": {
+        "distance": 111.73133422726865
+      },
+      "SP3": {
+        "distance": 111.73133422726865
+      }
+    },
+    "PY18": {
+      "PY17": {
+        "distance": 544.2556277210264
+      },
+      "PY19": {
+        "distance": 1351.480934214174
+      }
+    },
+    "PY19": {
+      "PY18": {
+        "distance": 1351.480934214174
+      },
+      "PY20": {
+        "distance": 1033.5023339338748
+      }
+    },
+    "PY20": {
+      "PY19": {
+        "distance": 1033.5023339338748
+      },
+      "PY21": {
+        "distance": 523.079086469822
+      },
+      "KJ9": {
+        "distance": 236.25081496785032
+      }
+    },
+    "PY21": {
+      "PY20": {
+        "distance": 523.079086469822
+      },
+      "PY22": {
+        "distance": 718.1696495795289
+      }
+    },
+    "PY22": {
+      "PY21": {
+        "distance": 718.1696495795289
+      },
+      "PY23": {
+        "distance": 883.1934439446958
+      }
+    },
+    "PY23": {
+      "PY22": {
+        "distance": 883.1934439446958
+      },
+      "PY24": {
+        "distance": 1622.4838183811933
+      },
+      "KG20": {
+        "distance": 0
+      }
+    },
+    "PY24": {
+      "PY23": {
+        "distance": 1622.4838183811933
+      },
+      "PY25": {
+        "distance": 2158.768007987127
+      },
+      "SP11": {
+        "distance": 124.53400014606981
+      },
+      "AG11": {
+        "distance": 124.53400014606981
+      }
+    },
+    "PY25": {
+      "PY24": {
+        "distance": 2158.768007987127
+      },
+      "PY26": {
+        "distance": 976.3408678259614
+      }
+    },
+    "PY26": {
+      "PY25": {
+        "distance": 976.3408678259614
+      },
+      "PY27": {
+        "distance": 2055.5276938306224
+      }
+    },
+    "PY27": {
+      "PY26": {
+        "distance": 2055.5276938306224
+      },
+      "PY28": {
+        "distance": 1497.2768043538972
+      }
+    },
+    "PY28": {
+      "PY27": {
+        "distance": 1497.2768043538972
+      },
+      "PY29": {
+        "distance": 1819.7010499580028
+      }
+    },
+    "PY29": {
+      "PY28": {
+        "distance": 1819.7010499580028
+      },
+      "PY31": {
+        "distance": 2461.1280442794973
+      },
+      "SP16": {
+        "distance": 66.05839655798195
+      }
+    },
+    "PY31": {
+      "PY29": {
+        "distance": 2461.1280442794973
+      },
+      "PY32": {
+        "distance": 1487.4236591110368
+      }
+    },
+    "PY32": {
+      "PY31": {
+        "distance": 1487.4236591110368
+      },
+      "PY33": {
+        "distance": 785.6960801112244
+      }
+    },
+    "PY33": {
+      "PY32": {
+        "distance": 785.6960801112244
+      },
+      "PY34": {
+        "distance": 1513.2487407962485
+      }
+    },
+    "PY34": {
+      "PY33": {
+        "distance": 1513.2487407962485
+      },
+      "PY36": {
+        "distance": 4248.07700819964
+      }
+    },
+    "PY36": {
+      "PY34": {
+        "distance": 4248.07700819964
+      },
+      "PY37": {
+        "distance": 1491.019700740548
+      }
+    },
+    "PY37": {
+      "PY36": {
+        "distance": 1491.019700740548
+      },
+      "PY38": {
+        "distance": 2070.8039622524234
+      }
+    },
+    "PY38": {
+      "PY37": {
+        "distance": 2070.8039622524234
+      },
+      "PY39": {
+        "distance": 1817.793047808037
+      }
+    },
+    "PY39": {
+      "PY38": {
+        "distance": 1817.793047808037
+      },
+      "PY40": {
+        "distance": 1518.383694378394
+      }
+    },
+    "PY40": {
+      "PY39": {
+        "distance": 1518.383694378394
+      },
+      "PY41": {
+        "distance": 1004.268772527207
+      }
+    },
+    "PY41": {
+      "PY40": {
+        "distance": 1004.268772527207
+      }
+    }
+  }
+}

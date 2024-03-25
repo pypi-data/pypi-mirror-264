@@ -1,0 +1,347 @@
+{
+    "KELANA_JAYA_LRT": [
+        {
+            "id": "KJ1",
+            "stationName": "Gombak",
+            "coordinate": {
+                "lat": "3.23124",
+                "lon": "101.72446"
+            }
+        },
+        {
+            "id": "KJ2",
+            "stationName": "Taman Melati",
+            "coordinate": {
+                "lat": "3.21956",
+                "lon": "101.72189"
+            }
+        },
+        {
+            "id": "KJ3",
+            "stationName": "Wangsa Maju",
+            "coordinate": {
+                "lat": "3.2057252",
+                "lon": "101.7318243"
+            }
+        },
+        {
+            "id": "KJ4",
+            "stationName": "Sri Rampai",
+            "coordinate": {
+                "lat": "3.19925",
+                "lon": "101.73727"
+            }
+        },
+        {
+            "id": "KJ5",
+            "stationName": "Setiawangsa",
+            "coordinate": {
+                "lat": "3.1756",
+                "lon": "101.735735"
+            }
+        },
+        {
+            "id": "KJ6",
+            "stationName": "Jelatek",
+            "coordinate": {
+                "lat": "3.16734",
+                "lon": "101.73535"
+            }
+        },
+        {
+            "id": "KJ7",
+            "stationName": "Dato' Keramat",
+            "coordinate": {
+                "lat": "3.16515",
+                "lon": "101.7316"
+            }
+        },
+        {
+            "id": "KJ8",
+            "stationName": "Damai",
+            "coordinate": {
+                "lat": "3.1644056",
+                "lon": "101.7244889"
+            }
+        },
+        {
+            "id": "KJ9",
+            "stationName": "Ampang Park",
+            "coordinate": {
+                "lat": "3.159854",
+                "lon": "101.7191364"
+            },
+            "interchangeStation":[{
+                "id":"PY20",
+                "stationName": "Ampang Park",
+                "coordinate": {
+                    "lat": "3.16163",
+                    "lon": "101.71797"
+                }
+            }]
+        },
+        {
+            "id": "KJ10",
+            "stationName": "KLCC",
+            "coordinate": {
+                "lat": "3.15908",
+                "lon": "101.71288"
+            },
+            "interchangeStation":[{
+                "id":"KG18A",
+                "stationName": "Bukit Bintang",
+                "coordinate": {
+                    "lat": "3.14659425",
+                    "lon": "101.711222"
+                }
+            }]
+        },
+        {
+            "id": "KJ11",
+            "stationName": "Kampung Baru",
+            "coordinate": {
+                "lat": "3.1613213",
+                "lon": "101.7067252"
+            }
+        },
+        {
+            "id": "KJ12",
+            "stationName": "Dang Wangi",
+            "coordinate": {
+                "lat": "3.15685",
+                "lon": "101.70198"
+            }
+        },
+        {
+            "id": "KJ13",
+            "stationName": "Masjid Jamek",
+            "coordinate": {
+                "lat": "3.14940",
+                "lon": "101.69646"
+            },
+            "interchangeStation":[{
+                "id":"AG7",
+                "stationName": "Masjid Jamek",
+                "coordinate": {
+                    "lat": "3.14941",
+                    "lon": "101.69646"
+                }
+            },{
+                "id":"SP7",
+                "stationName": "Masjid Jamek",
+                "coordinate": {
+                    "lat": "3.14941",
+                    "lon": "101.69646"
+                }    
+            }]
+        },
+        {
+            "id": "KJ14",
+            "stationName": "Pasar Seni",
+            "coordinate": {
+                "lat": "3.14236",
+                "lon": "101.69632"
+            },
+            "interchangeStation":[{
+                "id":"KG16",
+                "stationName": "Pasar Seni",
+                "coordinate": {
+                    "lat": "3.14238",
+                    "lon": "101.69632"
+                }
+            }]
+        },
+        {
+            "id": "KJ15",
+            "stationName": "KL Sentral",
+            "coordinate": {
+                "lat": "3.13417",
+                "lon": "101.68611"
+            },
+            "interchangeStation":[{
+                "id":"KG15",
+                "stationName": "Muzium Negara",
+                "coordinate": {
+                    "lat": "3.13713",
+                    "lon": "101.68725"
+                }
+            }]
+        },
+        {
+            "id": "KJ16",
+            "stationName": "Bangsar",
+            "coordinate": {
+                "lat": "3.1276507",
+                "lon": "101.679149"
+            }
+        },
+        {
+            "id": "KJ17",
+            "stationName": "Abdullah Hukum",
+            "coordinate": {
+                "lat": "3.1186831",
+                "lon": "101.672874"
+            }
+        },
+        {
+            "id": "KJ18",
+            "stationName": "Kerinchi",
+            "coordinate": {
+                "lat": "3.11556",
+                "lon": "101.66857"
+            }
+        },
+        {
+            "id": "KJ19",
+            "stationName": "Universiti",
+            "coordinate": {
+                "lat": "3.1145746",
+                "lon": "101.6617999"
+            }
+        },
+        {
+            "id": "KJ20",
+            "stationName": "Taman Jaya",
+            "coordinate": {
+                "lat": "3.1040439",
+                "lon": "101.6452768"
+            }
+        },
+        {
+            "id": "KJ21",
+            "stationName": "Asia Jaya",
+            "coordinate": {
+                "lat": "3.10443",
+                "lon": "101.63769"
+            }
+        },
+        {
+            "id": "KJ22",
+            "stationName": "Taman Paramount",
+            "coordinate": {
+                "lat": "3.1047784",
+                "lon": "101.6232419"
+            }
+        },
+        {
+            "id": "KJ23",
+            "stationName": "Taman Bahagia",
+            "coordinate": {
+                "lat": "3.11071",
+                "lon": "101.61269"
+            }
+        },
+        {
+            "id": "KJ24",
+            "stationName": "Kelana Jaya",
+            "coordinate": {
+                "lat": "3.112442",
+                "lon": "101.604533"
+            }
+        },
+        {
+            "id": "KJ25",
+            "stationName": "Lembah Subang",
+            "coordinate": {
+                "lat": "3.1120902",
+                "lon": "101.5912397"
+            }
+        },
+        {
+            "id": "KJ26",
+            "stationName": "Ara Damansara",
+            "coordinate": {
+                "lat": "3.10842",
+                "lon": "101.58665"
+            }
+        },
+        {
+            "id": "KJ27",
+            "stationName": "Glenmarie",
+            "coordinate": {
+                "lat": "3.09594",
+                "lon": "101.59037"
+            }
+        },
+        {
+            "id": "KJ28",
+            "stationName": "Subang Jaya",
+            "coordinate": {
+                "lat": "3.084627",
+                "lon": "101.587566"
+            }
+        },
+        {
+            "id": "KJ29",
+            "stationName": "SS 15",
+            "coordinate": {
+                "lat": "3.07568",
+                "lon": "101.58618"
+            }
+        },
+        {
+            "id": "KJ30",
+            "stationName": "SS 18",
+            "coordinate": {
+                "lat": "3.06691",
+                "lon": "101.58619"
+            }
+        },
+        {
+            "id": "KJ31",
+            "stationName": "USJ 7",
+            "coordinate": {
+                "lat": "3.05496",
+                "lon": "101.59219"
+            }
+        },
+        {
+            "id": "KJ32",
+            "stationName": "Taipan",
+            "coordinate": {
+                "lat": "3.0478541",
+                "lon": "101.5901209"
+            }
+        },
+        {
+            "id": "KJ33",
+            "stationName": "Wawasan",
+            "coordinate": {
+                "lat": "3.035062",
+                "lon": "101.588348"
+            }
+        },
+        {
+            "id": "KJ34",
+            "stationName": "USJ 21",
+            "coordinate": {
+                "lat": "3.0298519",
+                "lon": "101.5821081"
+            }
+        },
+        {
+            "id": "KJ35",
+            "stationName": "Alam Megah",
+            "coordinate": {
+                "lat": "3.0230883",
+                "lon": "101.5720828"
+            }
+        },
+        {
+            "id": "KJ36",
+            "stationName": "Subang Alam",
+            "coordinate": {
+                "lat": "3.009421",
+                "lon": "101.572281"
+            }
+        },
+        {
+            "id": "KJ37",
+            "stationName": "Putra Heights",
+            "coordinate": {
+                "lat": "2.996016",
+                "lon": "101.575521"
+            }
+        }
+    ]
+}

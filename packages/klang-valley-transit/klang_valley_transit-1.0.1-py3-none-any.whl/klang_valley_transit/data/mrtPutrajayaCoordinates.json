@@ -1,0 +1,372 @@
+{
+    "PUTRAJAYA_MRT": [
+        {
+            "id":"PY01",
+            "stationName": "Kwasa Damansara",
+            "coordinate": {
+                "lat": "3.1763838",
+                "lon": "101.572348"
+            },
+            "interchangeStation":[{
+                "id":"KG04",
+                "stationName": "Kwasa Damansara",
+                "coordinate": {
+                    "lat": "3.1763838",
+                    "lon": "101.572348"
+                }
+            }]
+        },
+        {
+            "id":"PY03",
+            "stationName": "Kampung Selamat",
+            "coordinate": {
+                "lat": "3.1972781",
+                "lon": "101.5784398"
+            }
+        },
+        {
+            "id":"PY04",
+            "stationName": "Sungai Buloh",
+            "coordinate": {
+                "lat": "3.20625",
+                "lon": "101.58185"
+            }
+        },
+        {
+            "id":"PY05",
+            "stationName": "Damansara Damai",
+            "coordinate": {
+                "lat": "3.19978",
+                "lon": "101.59268"
+            }
+        },
+        {
+            "id":"PY06",
+            "stationName": "Sri Damansara Barat",
+            "coordinate": {
+                "lat": "3.19823",
+                "lon": "101.60841"
+            }
+        },
+        {
+            "id":"PY07",
+            "stationName": "Sri Damansara Sentral",
+            "coordinate": {
+                "lat": "3.1986792",
+                "lon": "101.621041"
+            }
+        },
+        {
+            "id":"PY08",
+            "stationName": "Sri Damansara Timur",
+            "coordinate": {
+                "lat": "3.20777",
+                "lon": "101.62866"
+            }
+        },
+        {
+            "id":"PY09",
+            "stationName": "Metro Prima",
+            "coordinate": {
+                "lat": "3.2145454",
+                "lon": "101.6400619"
+            }
+        },
+        {
+            "id":"PY10",
+            "stationName": "Kepong Baru",
+            "coordinate": {
+                "lat": "3.2115497",
+                "lon": "101.6484978"
+            }
+        },
+        {
+            "id":"PY11",
+            "stationName": "Jinjang",
+            "coordinate": {
+                "lat": "3.2095",
+                "lon": "101.6558"
+            }
+        },
+        {
+            "id":"PY12",
+            "stationName": "Sri Delima",
+            "coordinate": {
+                "lat": "3.20699",
+                "lon": "101.6658"
+            }
+        },
+        {
+            "id":"PY13", 
+            "stationName": "Kampung Batu",
+            "coordinate": {
+                "lat": "3.20482",
+                "lon": "101.6756"
+            }
+        },
+        {
+            "id":"PY14",
+            "stationName": "Kentonmen",
+            "coordinate": {
+                "lat": "3.19549",
+                "lon": "101.67963"
+            }
+        },
+        {
+            "id":"PY15",
+            "stationName": "Jalan Ipoh",
+            "coordinate": {
+                "lat": "3.18933",
+                "lon": "101.68117"
+            }
+        },
+        {
+            "id":"PY16",
+            "stationName": "Sentul Barat",
+            "coordinate": {
+                "lat": "3.17906",
+                "lon": "101.68519"
+            }
+        },
+        {
+            "id":"PY17",
+            "stationName": "Titiwangsa",
+            "coordinate": {
+                "lat": "3.17437",
+                "lon": "101.69586"
+            },
+            "interchangeStation":[{
+                "id":"AG3",
+                "stationName": "Titiwangsa",
+                "coordinate": {
+                    "lat": "3.1735082",
+                    "lon": "101.6953433"
+                }
+            },{
+                "id":"SP3",
+                "stationName": "Titiwangsa",
+                "coordinate": {
+                    "lat": "3.1735082",
+                    "lon": "101.6953433"
+                }
+            }]
+        },
+        {
+            "id":"PY18",
+            "stationName": "Hospital Kuala Lumpur",
+            "coordinate": {
+                "lat": "3.17433",
+                "lon": "101.70076"
+            }
+        },
+        {
+            "id":"PY19",
+            "stationName": "Raja Uda",
+            "coordinate": {
+                "lat": "3.16783",
+                "lon": "101.71104"
+            }
+        },
+        {
+            "id":"PY20",
+            "stationName": "Ampang Park",
+            "coordinate": {
+                "lat": "3.16163",
+                "lon": "101.71797"
+            },
+            "interchangeStation":[{
+                "id":"KJ9",
+                "stationName": "Ampang Park",
+                "coordinate": {
+                    "lat": "3.159854",
+                    "lon": "101.7191364"
+                }
+            }]
+        },
+        {
+            "id":"PY21",
+            "stationName": "Persiaran KLCC",
+            "coordinate": {
+                "lat": "3.15694",
+                "lon": "101.71831"
+            }
+        },
+        {
+            "id":"PY22",
+            "stationName": "Conlay",
+            "coordinate": {
+                "lat": "3.15049",
+                "lon": "101.71859"
+            }
+        },
+        {
+            "id":"PY23",
+            "stationName": "Tun Razak Exchange (TRX)",
+            "coordinate": {
+                "lat": "3.1427162",
+                "lon": "101.7202063"
+            },
+            "interchangeStation":[{
+                "id":"KG20",
+                "stationName": "Tun Razak Exchange (TRX)",
+                "coordinate": {
+                    "lat": "3.1427162",
+                    "lon": "101.7202063"
+                }
+                
+            }]
+        },
+        {
+            "id":"PY24",
+            "stationName": "Chan Sow Lin",
+            "coordinate": {
+                "lat": "3.12864",
+                "lon": "101.71638"
+            },
+            "interchangeStation":[{
+                "id":"SP11",
+                "stationName": "Chan Sow Lin",
+                "coordinate": {
+                    "lat": "3.1278462",
+                    "lon": "101.7155894"
+                }
+            },{
+                "id":"AG11",
+                "stationName": "Chan Sow Lin",
+                "coordinate": {
+                    "lat": "3.1278462",
+                    "lon": "101.7155894"
+                }
+            }]
+        },
+        {
+            "id":"PY25",
+            "stationName": "Bandar Malaysia Utara",
+            "coordinate": {
+                "lat": "3.11520",
+                "lon": "101.70236"
+            }
+        },
+        {
+            "id":"PY26",
+            "stationName": "Bandar Malaysia Selatan",
+            "coordinate": {
+                "lat": "3.10790",
+                "lon": "101.69748"
+            }
+        },
+        {
+            "id":"PY27",
+            "stationName": "Kuchai",
+            "coordinate": {
+                "lat": "3.08970",
+                "lon": "101.69428"
+            }
+        },
+        {
+            "id":"PY28",
+            "stationName": "Taman Naga Emas",
+            "coordinate": {
+                "lat": "3.0774079",
+                "lon": "101.6997719"
+            }
+        },
+        {
+            "id":"PY29",
+            "stationName": "Sungai Besi",
+            "coordinate": {
+                "lat": "3.063523",
+                "lon": "101.7084334"
+            },
+            "interchangeStation":[{
+                "id":"SP16",
+                "stationName": "Sungai Besi",
+                "coordinate": {
+                    "lat": "3.06394",
+                    "lon": "101.70801"
+                }
+            }]
+        },
+        {
+            "id":"PY31",
+            "stationName": "Serdang Raya Utara",
+            "coordinate": {
+                "lat": "3.04168",
+                "lon": "101.70491"
+            }
+        },
+        {
+            "id":"PY32", 
+            "stationName": "Serdang Raya Selatan",
+            "coordinate": {
+                "lat": "3.02854",
+                "lon": "101.70739"
+            }
+        },
+        {
+            "id":"PY33",
+            "stationName": "Serdang Jaya",
+            "coordinate": {
+                "lat": "3.02166",
+                "lon": "101.70899"
+            }
+        },
+        {
+            "id":"PY34",
+            "stationName": "UPM",
+            "coordinate": {
+                "lat": "3.00850",
+                "lon": "101.70554"
+            }
+        },
+        {
+            "id":"PY36",
+            "stationName": "Taman Equine",
+            "coordinate": {
+                "lat": "2.9892814",
+                "lon": "101.6724946"
+            }
+        },
+        {
+            "id":"PY37",
+            "stationName": "Putra Permai",
+            "coordinate": {
+                "lat": "2.98311",
+                "lon": "101.66058"
+            }
+        },
+        {
+            "id":"PY38",
+            "stationName": "16 Sierra",
+            "coordinate": {
+                "lat": "2.96537",
+                "lon": "101.65493"
+            }
+        },
+        {
+            "id":"PY39", 
+            "stationName": "Cyberjaya Utara",
+            "coordinate": {
+                "lat": "2.94923",
+                "lon": "101.65749"
+            }
+        },
+        {
+            "id":"PY40",
+            "stationName": "Cyberjaya City Centre",
+            "coordinate": {
+                "lat": "2.9384406",
+                "lon": "101.6658618"
+            }
+        },
+        {
+            
+            "id":"PY41",
+            "stationName": "Putrajaya Sentral",
+            "coordinate": {
+                "lat": "2.93136",
+                "lon": "101.67147"
+            }
+        }
+    ]
+}
