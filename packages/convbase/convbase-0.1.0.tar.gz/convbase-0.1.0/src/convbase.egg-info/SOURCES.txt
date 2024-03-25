@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/convbase/__init__.py
+src/convbase/convbase.py
+src/convbase.egg-info/PKG-INFO
+src/convbase.egg-info/SOURCES.txt
+src/convbase.egg-info/dependency_links.txt
+src/convbase.egg-info/entry_points.txt
+src/convbase.egg-info/requires.txt
+src/convbase.egg-info/top_level.txt
+test/test_convbase.py

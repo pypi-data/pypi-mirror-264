@@ -1,0 +1,13 @@
+[console_scripts]
+bintodec = convbase.convbase:bintodec
+bintohex = convbase.convbase:bintohex
+bintooct = convbase.convbase:bintooct
+dectobin = convbase.convbase:dectobin
+dectohex = convbase.convbase:dectohex
+dectooct = convbase.convbase:dectooct
+hextobin = convbase.convbase:hextobin
+hextodec = convbase.convbase:hextodec
+hextooct = convbase.convbase:hextooct
+octtobin = convbase.convbase:octtobin
+octtodec = convbase.convbase:octtodec
+octtohex = convbase.convbase:octtohex
