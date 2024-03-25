@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+beautider/__init__.py
+beautider/beautider.py
+beautider.egg-info/PKG-INFO
+beautider.egg-info/SOURCES.txt
+beautider.egg-info/dependency_links.txt
+beautider.egg-info/requires.txt
+beautider.egg-info/top_level.txt
