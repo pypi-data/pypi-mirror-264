@@ -1,0 +1,23 @@
+[build-system]
+build-backend = "pdm.pep517.api"
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+
+[project]
+name = "jfrog_ml"
+version = "1.0.3"
+authors = [
+    { name = "JFrog", email = "Shayb@jfrog.com" },
+]
+description = "JFrog ML package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/jfrog/frogml"
+Issues = "https://github.com/jfrog/frogml/issues"
