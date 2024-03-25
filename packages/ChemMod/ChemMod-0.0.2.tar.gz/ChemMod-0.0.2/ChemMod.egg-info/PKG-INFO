@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ChemMod
+Version: 0.0.2
+Summary: Python program for practical plotting and calculation in chemistry. ChemMod is developed as a userfriendly python package for chemistry students. The package contains a variety of different useful plot functions and formula functions from chemistry e.g. buffer diagrams, Gibbs-energy functions and regression tools.
+Author-email: August Jacobi <augustjacobi5@gmail.com>
+Project-URL: Homepage, https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: COPYING.txt
+
+
+Project: ChemMod.py
+
+
+Description:
+Python program for practical plotting and calculation in chemistry. ChemMod is developed as a userfriendly python package for chemistry students. The package contains a variety of different useful plot functions and formula functions from chemistry e.g. buffer diagrams, gibs energy functions, reaction kinetics order plot linear regression.
+
+Table of contents:
+
+	1.	arrhenius_plot() 
+	2.	bjerrum_plot()
+	3.	equil()
+	4.	gibbs_plot()
+	5.	M()
+	6.	order_plot()
+
+Built with:
+	
+	Python - Google Colaboratory
+	
+	Python packages:
+		numpy
+		math
+		math.plotlib
+Requires:
+	
+	Python
+
