@@ -1,0 +1,29 @@
+from __future__ import annotations
+
+from typing_extensions import TypeAlias
+
+class Place: ...
+class CPUPlace(Place): ...
+
+class CUDAPlace(Place):
+    def __init__(self, id: int) -> None: ...
+
+class CUDAPinnedPlace(Place): ...
+
+class NPUPlace(Place):
+    def __init__(self, id: int) -> None: ...
+
+class IPUPlace(Place): ...
+
+class CustomPlace(Place):
+    def __init__(self, name: str, id: int) -> None: ...
+
+class MLUPlace(Place):
+    def __init__(self, id: int) -> None: ...
+
+class XPUPlace(Place):
+    def __init__(self, id: int) -> None: ...
+
+PlaceLike: TypeAlias = (
+    CPUPlace | CUDAPlace | CUDAPinnedPlace | NPUPlace | IPUPlace | CustomPlace | MLUPlace | XPUPlace | str
+)  # TODO: only support the literal like "dev:id"
