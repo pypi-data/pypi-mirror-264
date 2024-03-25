@@ -1,0 +1,10 @@
+README.md
+setup.py
+testball/__init__.py
+testball/player.py
+testball/team.py
+testball/team_wl.py
+testball.egg-info/PKG-INFO
+testball.egg-info/SOURCES.txt
+testball.egg-info/dependency_links.txt
+testball.egg-info/top_level.txt
