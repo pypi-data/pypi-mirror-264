@@ -1,0 +1,10 @@
+gvision/GVISION_AUTOMATION.py,sha256=mtbXURBKLoNyROODhjxJ9ZWHGX5JKAobBUohw8GXMts,30471
+gvision/__init__.py,sha256=w6bvloE05dpCDQuB4vZnOo12uKPksfcarB4efJ7j2vo,51
+gvision/cli.py,sha256=NNyWMWi9wbaS7I2xf1AY2Lokmha6thetJzy4gNlYVWs,362
+gvision/pages/2_Object_Detection_Demo.py,sha256=NOeYH2DZorMNVGVXHdZKeQxjrKh6lBjc1-S6W2QGZpY,13816
+gvision/pages/3_Classification_or_Pose_Demo.py,sha256=NGTqHHvJpT6xdLA95DympSepFL_eAIVQZuAInEE-pPo,14402
+gvision-1.0.3.dist-info/METADATA,sha256=cpLmFt06OqrzoF9V9CumWGm-E8KJvuwOVuHQdFIOrSo,6704
+gvision-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gvision-1.0.3.dist-info/entry_points.txt,sha256=Pcw8DToY9tlq3miVM6Gn3_2vJiR9lr5JINec5JZrphk,42
+gvision-1.0.3.dist-info/top_level.txt,sha256=dZ0VZmPH4fkqJkdEyezh2KOYmRLRThPcCYkEYdb3NwM,8
+gvision-1.0.3.dist-info/RECORD,,
