@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: gigacommit
+Version: 0.1.1
+Summary: gigacommit generates commit message with GigaChat
+Home-page: https://git.dntsk.dev/DNTSK/gigacommit
+Author: Dmitriy Lyalyuev
+Author-email: info@dntsk.dev
+License: MIT
+Keywords: ssh aws devops sysadmin
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gigachain
+Requires-Dist: gigachat
+
+# Generate commit messages with GigaChat
+
+## Installing
+
+The easiest way to install `gigacommit` is to use pip3:
+
+    $ pip3 install gigacommit
+
+or from sources:
+
+    $ git clone https://git.dntsk.dev/DNTSK/gigacommit.git
+    $ cd gigacommit
+    $ python3 setup.py install
+
+## Usage
+
+Export GIGACHAT_TOKEN with authentication data:
+
+```
+export GIGACHAT_TOKEN="PASSYOURAUTHDATAHERE=="
+```
+
+Now you may stage your changes in git and run:
+
+```
+gigachat
+```

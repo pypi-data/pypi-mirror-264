@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+
+import subprocess
+import warnings
+import os
+import sys
+
+from langchain.schema import HumanMessage, SystemMessage
+from langchain.chat_models.gigachat import GigaChat
+
+warnings.filterwarnings("ignore")
+
+GIGACHAT_TOKEN = os.getenv("GIGACHAT_TOKEN", None)
+
+if GIGACHAT_TOKEN is None:
+    print("GIGACHAT_TOKEN environment variable is not found. Exiting.")
+    sys.exit(1)
+
+chat = GigaChat(
+    credentials=GIGACHAT_TOKEN,
+    verify_ssl_certs=False,
+)
+
+messages = [
+    SystemMessage(
+        content="I want you to act as a commit message generator. "
+        "I will provide you result of 'git diff --staged' and I would like you to generate an appropriate "
+        "commit message using the conventional commit format. "
+        "Do not write any explanations or other words, just reply with the commit message."
+    )
+]
+
+diff = subprocess.run(
+    ["git", "diff", "--staged"], stdout=subprocess.PIPE
+).stdout.decode("utf-8")
+messages.append(HumanMessage(content=diff))
+res = chat(messages)
+
+print("\n", res.content, "\n")
+
+answer = input("Continue? [y/n]")
+if answer == "" or answer.lower() in ["y", "yes"]:
+    result = subprocess.run(
+        ["git", "commit", "-m", res.content], stdout=subprocess.PIPE
+    )
+else:
+    print("Exited without commit")
