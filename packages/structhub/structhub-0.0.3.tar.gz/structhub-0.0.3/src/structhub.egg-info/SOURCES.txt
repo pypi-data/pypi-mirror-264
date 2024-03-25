@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/structhub/__init__.py
+src/structhub/client.py
+src/structhub.egg-info/PKG-INFO
+src/structhub.egg-info/SOURCES.txt
+src/structhub.egg-info/dependency_links.txt
+src/structhub.egg-info/requires.txt
+src/structhub.egg-info/top_level.txt
+tests/test_structhub.py
