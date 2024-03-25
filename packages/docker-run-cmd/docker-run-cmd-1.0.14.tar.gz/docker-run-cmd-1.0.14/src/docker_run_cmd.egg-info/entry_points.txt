@@ -1,0 +1,3 @@
+[console_scripts]
+docker-run-cmd = docker_run_cmd.cli:main
+docker-run-cmd-start-docker = docker_run_cmd.cli_start_docker:main
