@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+BinaryVectorDB/BinaryVectorDB.py
+BinaryVectorDB/__init__.py
+BinaryVectorDB.egg-info/PKG-INFO
+BinaryVectorDB.egg-info/SOURCES.txt
+BinaryVectorDB.egg-info/dependency_links.txt
+BinaryVectorDB.egg-info/requires.txt
+BinaryVectorDB.egg-info/top_level.txt
