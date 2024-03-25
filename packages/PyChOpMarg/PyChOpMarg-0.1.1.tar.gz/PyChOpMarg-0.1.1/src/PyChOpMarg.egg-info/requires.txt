@@ -1,0 +1,2 @@
+scikit-rf>=0.29
+traitsui>=8

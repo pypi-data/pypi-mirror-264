@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: PyChOpMarg
+Version: 0.1.1
+Summary: Python implementation of COM, as per IEEE 802.3-22 Annex 93A.
+Author-email: David Banas <capn.freako@gmail.com>
+License: BSD3
+Keywords: com,channel,margin
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: System :: Emulators
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Utilities
+Requires-Python: <3.12,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-rf>=0.29
+Requires-Dist: traitsui>=8
+
+# PyChOpMarg
+Python implementation of COM, as per IEEE 802.3-22 Annex 93A.
