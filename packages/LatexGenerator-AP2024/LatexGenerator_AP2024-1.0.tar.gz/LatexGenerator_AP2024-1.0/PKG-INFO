@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: LatexGenerator_AP2024
+Version: 1.0
+Summary: latex python LatexGeneratorAP2024
+Author: Daniil_B
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

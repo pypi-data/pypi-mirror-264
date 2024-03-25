@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+LatexGeneratorAP2024/__init__.py
+LatexGeneratorAP2024/latexgenerator.py
+LatexGenerator_AP2024.egg-info/PKG-INFO
+LatexGenerator_AP2024.egg-info/SOURCES.txt
+LatexGenerator_AP2024.egg-info/dependency_links.txt
+LatexGenerator_AP2024.egg-info/top_level.txt
