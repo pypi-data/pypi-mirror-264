@@ -1,0 +1,61 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+name = 'mini_toolbox'
+version = '0.0.8'
+authors = [{ name = 'gnzhoutian', email = 'gnzhoutian@qq.com' }]
+description = 'Python迷你工具箱，包含简化的常用工具，旨在帮助脚本快速开发。'
+keywords = ['tools', 'toolbox', 'mini-tools', 'mini-toolbox']
+readme = 'README.md'
+requires-python = '>=3.6'
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3 :: Only',
+    'Operating System :: OS Independent',
+    'Natural Language :: Chinese (Simplified)',
+    'Topic :: Documentation :: Sphinx',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+]
+
+dependencies = [
+    'pip >= 19.0.0',
+    'setuptools >= 39.0.0',
+    'wheel',
+    'toml',
+    'colorlog',
+    'pydes',
+    'requests >= 2.20.0',
+    'pymysql',
+    'pyartifactory >= 1.11.0',
+    'jenkinsapi',
+    'chardet == 3.0.4',
+    'python-gitlab',
+    'paramiko',
+    'openpyxl',
+    'xlrd == 1.2.0',
+    'yapf',
+    'apscheduler',
+    'beautifulsoup4',
+    'lxml',
+    'rsa >= 4.5',
+]
+
+[project.optional-dependencies]
+docs = ['sphinx==4.5.0','sphinx-rtd-theme==1.1.1','myst-parser==0.16.1']
+test = ['pytest']
+
+[project.urls]
+Homepage = 'https://pypi.org/project/mini-toolbox'
+Issues = 'https://github.com/gnzhoutian/mini_toolbox/issues'
+Repository = 'https://github.com/gnzhoutian/mini_toolbox.git'
+Changelog = 'https://mini-toolbox.readthedocs.io/zh/latest//CHANGELOG.html'
+Documentation = 'https://mini-toolbox.readthedocs.io/zh/latest/'
+
+[project.scripts]
+pip_list = 'mini_toolbox.pip_list:main'
+file_recoding = 'mini_toolbox.recoding:main'
