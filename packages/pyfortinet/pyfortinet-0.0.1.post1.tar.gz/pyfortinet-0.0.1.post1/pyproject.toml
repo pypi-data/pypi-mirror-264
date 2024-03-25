@@ -1,0 +1,131 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pyfortinet"
+authors = [ {name = "Viktor Kertesz", email = "vkertesz2@gmail.com"},
+]
+
+readme = "README.md"
+requires-python = ">=3.9,<4"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Networking",
+]
+dynamic = ['version', 'description']
+
+dependencies = [
+    "pydantic>2,<3",
+    "pydantic-settings",
+    "typer",
+    "requests==2.31.0",
+    "ruamel.yaml==0.17.20",
+    "more-itertools",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest-cov",
+    "pytest",
+    "pytest-async",
+    "pytest-dependency",
+    "flit",
+    "invoke",
+    "pre-commit",
+    "ruff",
+    # mkdocs dependencies
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocs-gen-files",
+    "mkdocs-literate-nav",
+    "mkdocs-section-index",
+    "mkdocstrings",
+    "mkdocstrings-python",
+    "rich",
+    "aiohttp",
+]
+
+# fancy ouput should be optional
+rich = [
+    "rich"
+]
+
+# async should be optional
+async = [
+    "aiohttp"
+]
+
+# to ease installing all optional dependencies
+all = [
+    "rich",
+    "async"
+]
+
+[tool.flit.module]
+name = "pyfortinet"
+
+[project.scripts]
+#fortiapi = "pyfortinet.main:main"  # TDB
+
+[project.urls]
+Source = "https://github.com/realvitya/pyfortinet"
+Documentation = "https://realvitya.github.io/pyfortinet/"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+#addopts = "-ra -q --cov=fortimanager_template_sync --cov-report=term-missing"
+asyncio_mode = "auto"
+
+testpaths = [
+    "tests"
+]
+
+[tool.ruff]
+# docs: https://docs.astral.sh/ruff
+line-length = 120
+indent-width = 4
+target-version = "py39"
+extend-exclude = ["private", ".idea", "example", "docs", "site"]
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+    # pylint
+    "PL",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pymarkdown]
+plugins.md013.line_length = 120
+plugins.md013.code_block_line_length = 120
+plugins.md046.enabled = false  # interfere with Note, Tip and similar boxes
