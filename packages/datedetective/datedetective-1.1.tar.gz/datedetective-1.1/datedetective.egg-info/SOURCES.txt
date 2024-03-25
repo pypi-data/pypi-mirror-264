@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+datedetective/BiLSTMTagger.py
+datedetective/DateDetective.py
+datedetective/Encoding.py
+datedetective/ModelHandler.py
+datedetective/__init__.py
+datedetective/model_Ms_Zoey_Fadel_MD_state_dict.pth
+datedetective.egg-info/PKG-INFO
+datedetective.egg-info/SOURCES.txt
+datedetective.egg-info/dependency_links.txt
+datedetective.egg-info/top_level.txt
