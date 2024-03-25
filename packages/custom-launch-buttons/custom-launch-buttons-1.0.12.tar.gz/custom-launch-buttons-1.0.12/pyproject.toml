@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom-launch-buttons"
+version = "1.0.12"
+readme = "README.md"
+description = "add custom launch buttons to jupyter-book"
+dependencies = [
+    "sphinx",
+    "ruamel.yaml"
+]
+requires-python = ">=3.9"
+
+
