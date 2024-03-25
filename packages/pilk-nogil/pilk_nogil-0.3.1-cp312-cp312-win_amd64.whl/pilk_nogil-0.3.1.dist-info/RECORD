@@ -1,0 +1,10 @@
+pilk_nogil/SilkDecoder.py,sha256=3cJomxwEgcHKckEp_bSWkoMO0J98zDkd9Kg8O5BA7tU,628
+pilk_nogil/SilkEncoder.py,sha256=QvAYtYJrgJz7bpMC8FEJuchoRzw7CYHJOfvDnQdSXBY,1720
+pilk_nogil/__init__.py,sha256=ZrxrUuZ-tmDbkskp559rYbrb5GYgs3uCLVaxxJDwTi0,1557
+pilk_nogil/_pilk.cp312-win_amd64.pyd,sha256=bBC4GlHAr5FKbgbPVs_Uv7tbj5WnJdz_XtrMiiNn0cI,180224
+pilk_nogil/_pilk.pyi,sha256=B4TJlizyCrV7iN4fsT25tCnzuIesYqRhJebM-d1c8i0,1851
+pilk_nogil-0.3.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pilk_nogil-0.3.1.dist-info/METADATA,sha256=rSuwcvvEy-iOEIEuLLcc4vw6CQEBiSeuOjNYvuaD4sg,9226
+pilk_nogil-0.3.1.dist-info/WHEEL,sha256=j9Aissza3750LQHFAQyYerNjmkEON1-8w_RaZNFtKSs,102
+pilk_nogil-0.3.1.dist-info/top_level.txt,sha256=E8yaxof9PyIFLUr4Sq9da8ewun_wFy77Jb8kThQZUjA,11
+pilk_nogil-0.3.1.dist-info/RECORD,,
