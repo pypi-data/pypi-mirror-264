@@ -1,0 +1,8 @@
+setup.py
+DependancyNeedle/__init__.py
+DependancyNeedle.egg-info/PKG-INFO
+DependancyNeedle.egg-info/SOURCES.txt
+DependancyNeedle.egg-info/dependency_links.txt
+DependancyNeedle.egg-info/top_level.txt
+DependancyNeedle/container/__init__.py
+DependancyNeedle/container/di_container.py
