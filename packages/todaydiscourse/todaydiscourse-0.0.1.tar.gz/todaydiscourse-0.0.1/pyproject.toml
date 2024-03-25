@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todaydiscourse"
+version = "0.0.1"
+requires-python = ">=3.8"
+authors = [
+  {name = "Zhihan", email = "zhihan2727@hotmail.com"}
+]
+description = "今日所想，一言，即可概括。"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["todaydiscourse", "discourse", "api"]
+
+[project.urls]
+Homepage = "https://xingheapi.github.io/todaydiscourse"
+Documentation = "https://todaydiscourse.github.io/"
+Repository = "https://github.com/XingheAPI/todaydiscourse.git"
+"Bug Tracker" = "https://github.com/XingheAPI/todaydiscourse/issues"
+
+[project.scripts]
+todaydiscourse = "todaydiscourse:start"
