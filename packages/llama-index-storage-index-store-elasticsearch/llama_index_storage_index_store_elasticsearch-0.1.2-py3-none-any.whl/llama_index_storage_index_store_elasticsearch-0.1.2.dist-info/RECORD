@@ -1,0 +1,5 @@
+llama_index/storage/index_store/elasticsearch/__init__.py,sha256=RESd1xY8THqaCKAkDib8MSS5xBupdjqRkLIKNcsd5EQ,126
+llama_index/storage/index_store/elasticsearch/base.py,sha256=oVdHqSedJyTqKeXqMj3chal7M9um6Fhk5Gc4S2sx6kQ,682
+llama_index_storage_index_store_elasticsearch-0.1.2.dist-info/METADATA,sha256=HSo5oZe3-Z85GC1HbIFeHuPsget0N4qfM_owNu0jOgQ,721
+llama_index_storage_index_store_elasticsearch-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_storage_index_store_elasticsearch-0.1.2.dist-info/RECORD,,
