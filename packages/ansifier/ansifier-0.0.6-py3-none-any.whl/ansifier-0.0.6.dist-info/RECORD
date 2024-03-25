@@ -1,0 +1,9 @@
+ansifier/__init__.py,sha256=BR0GutZg-zCyvSk3YBVKxq9x7qZ34jDhNxKIZkl6ozk,61
+ansifier/__main__.py,sha256=bA3xXMYsad4hPoD2bJATzJIvy8Ssn0iFhJ4lepwNEBI,13334
+ansifier/ansifier.py,sha256=GoX1iGidjt9OJCyH6ZEzZtosvoiyS5NTfYty8JLMzdQ,25858
+ansifier/config.py,sha256=RAHeJ-wSHXyfBaPOvZG1CXhtaQCUgD-4RNiIr0O8RdI,1056
+ansifier/meofetch.py,sha256=e5KOy1Awt3_od6oU_j-m7NR-FMpYMa4a-jbtcQYVFio,4610
+ansifier-0.0.6.dist-info/METADATA,sha256=PZB9GUNMYvgtHkpzq98nr-dbuz2sctbrfXyhRUsIFYA,4922
+ansifier-0.0.6.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+ansifier-0.0.6.dist-info/licenses/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+ansifier-0.0.6.dist-info/RECORD,,
