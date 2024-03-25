@@ -1,0 +1,13 @@
+ultralytics>=8.1.34
+PyMuPDF==1.24.0
+paddlepaddle>=2.6.1
+paddleocr>=2.7.2
+
+[dev]
+pytest
+pytest-asyncio
+twine
+python-Levenshtein
+setuptools
+wheel
+flake8
