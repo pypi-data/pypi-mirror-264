@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: esqt
+Version: 0.7.0
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: elasticsearch ==6.8.2
+Requires-Dist: typer >=0.10.0
+Requires-Dist: uvicorn >=0.29.0
+
+# esqt - Elasticsearch Query Tool
+
+[![pypi](https://img.shields.io/pypi/v/esqt.svg)](https://pypi.python.org/pypi/esqt)
+
+## CLI
+
+```sh
+pipx install esqt
+```
+
+---
+
+## `s` - scan (search) / source
+
+```sh
+cat <<EOF | esqt s localhost -d - | jq -c
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "terms": {
+            "itemTimestamp": [
+              1707006570
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+
+EOF
+```
+
+## `q` - perform_request (request path)
+
+```sh
+esqt q localhost -X GET -P _cat/indices -p 'pretty=&format=json&v&s=index' | jq
+```
+
+## `t` - streaming_bulk (bulk) / target
+
+```sh
+esqt s localhost -d __.conf.json | esqt t localhost -d - | jq -c
+```
+
+```py
+# dev.py
+def my_handler(actions: t.Iterable[str]):
+    for action in actions:
+        yield json.loads(action)
+```
+
+```sh
+esqt s localhost -d __.conf.json | esqt t localhost -d - -H dev:my_handler | jq -c
+```
