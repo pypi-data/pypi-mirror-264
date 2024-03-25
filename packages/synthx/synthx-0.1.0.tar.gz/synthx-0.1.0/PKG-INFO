@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: synthx
+Version: 0.1.0
+Summary: A Python Library for Advanced Synthetic Control Analysis
+License: MIT
+Author: kenki931128
+Author-email: kenki.nkmr@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Requires-Dist: polars (>=0.20.16,<0.21.0)
+Requires-Dist: scipy (>=1.12.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# synthx
+SynthX: A Python Library for Advanced Synthetic Control Analysis
+
