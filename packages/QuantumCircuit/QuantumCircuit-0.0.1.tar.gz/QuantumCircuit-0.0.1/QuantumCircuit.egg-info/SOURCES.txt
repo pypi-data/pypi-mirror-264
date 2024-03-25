@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+QuantumCircuit/QuantumCircuit.py
+QuantumCircuit/__init__.py
+QuantumCircuit/draw_circuit_tools.py
+QuantumCircuit.egg-info/PKG-INFO
+QuantumCircuit.egg-info/SOURCES.txt
+QuantumCircuit.egg-info/dependency_links.txt
+QuantumCircuit.egg-info/requires.txt
+QuantumCircuit.egg-info/top_level.txt
+QuantumCircuit/GateSimulation/DoubleGate.py
+QuantumCircuit/GateSimulation/SingleGate.py
+QuantumCircuit/GateSimulation/TripleGate.py
+QuantumCircuit/GateSimulation/__init__.py
