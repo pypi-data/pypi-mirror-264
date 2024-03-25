@@ -1,0 +1,1 @@
+from .migrationrecord import *

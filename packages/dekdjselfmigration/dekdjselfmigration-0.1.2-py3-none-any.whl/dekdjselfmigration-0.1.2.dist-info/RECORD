@@ -1,0 +1,13 @@
+dekdjselfmigration-0.1.2.dist-info/METADATA,sha256=XZJrNW5TjRt6RCQu6XD8BZbLW30esJGDBq4kL344jMQ,217
+dekdjselfmigration-0.1.2.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+dekdjselfmigration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dekdjselfmigration/apps.py,sha256=8Pxwmb8steEaBtTh_Sn2ymc_2fPX-BKlH85TnfZajJk,168
+dekdjselfmigration/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dekdjselfmigration/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dekdjselfmigration/management/commands/ddsmmakemigrations.py,sha256=ibtt_Y6lLEvolzqlBYS5RiWmRPb9zPMKQH8oIJid_Hw,2053
+dekdjselfmigration/migrations/0001_initial.py,sha256=dV5G_LGW88P5IuGR89-WSWsFyyXWFxCufK32JE_4pBs,793
+dekdjselfmigration/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dekdjselfmigration/models/__init__.py,sha256=4KQ6c4cvYPZVkwdxMJGLq9ftTvBEvkm3nJbKK3kKxQg,31
+dekdjselfmigration/models/migrationrecord.py,sha256=m2d12W99kVnzcCTBee-JhEB2qullge3JWLjqOhIulPc,443
+dekdjselfmigration/settings.py,sha256=memTVKqzKlsktxLn7yqfvnctQ4VW6tz_NQGmKG-8gG8,34
+dekdjselfmigration-0.1.2.dist-info/RECORD,,
