@@ -1,0 +1,12 @@
+/*.wasm
+/vendor
+/cmc
+/*.log
+/*.log.*
+/logs/*.log
+/pids
+/storage
+/backend-test
+/unit-test
+/hbc
+/**/hbc

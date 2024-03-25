@@ -1,0 +1,22 @@
+# 添加function declare的实现
+
+# 组织1向函数接口声明添加实现
+PUT http://127.0.0.1:9001/api/core/v1/namespace/example-ns/functiondeclare/binop-function-declare/implementation
+{
+    "comment": "example-comment from org1"
+}
+HTTP 200
+
+
+# 组织2向函数接口声明添加实现
+PUT http://127.0.0.1:9002/api/core/v1/functiondeclare/4/implementation
+{
+    "comment": "example comment from org2"
+}
+HTTP 200
+
+
+# 使用uid查询函数接口声明的具体实现情况
+GET http://127.0.0.1:9002/api/core/v1/functiondeclare/4
+
+HTTP 200

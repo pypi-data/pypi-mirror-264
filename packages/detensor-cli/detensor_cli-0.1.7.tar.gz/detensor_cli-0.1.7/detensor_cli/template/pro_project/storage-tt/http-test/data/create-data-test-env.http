@@ -1,0 +1,19 @@
+POST http://org1.storage.cc.distribute-compute.cn/api/core/v1/data
+
+{
+    "apiVersion": "core/v1",
+    "kind": "data",
+    "metadata": {
+        "name": "test-data-1"
+    },
+    "spec": {
+        "content": "12345",
+        "description": "test data 1"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+HTTP 201
+

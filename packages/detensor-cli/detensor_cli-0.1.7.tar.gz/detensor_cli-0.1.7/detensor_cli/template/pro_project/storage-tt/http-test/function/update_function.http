@@ -1,0 +1,15 @@
+PUT http://localhost:9001/api/core/v1/function/other-example-function
+{
+    "apiVersion": "core/v1",
+    "kind": "function",
+    "metadata": {
+        "name": "other-example-function",
+    },
+    "spec": {
+        "content": "http://localhost:6799/add",
+        "description": "example description"
+    },
+    "status": {
+        "available": true
+    }
+}

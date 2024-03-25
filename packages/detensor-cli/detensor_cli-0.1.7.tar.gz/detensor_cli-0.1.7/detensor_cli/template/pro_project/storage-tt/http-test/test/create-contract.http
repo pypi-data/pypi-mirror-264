@@ -1,0 +1,61 @@
+POST http://127.0.0.1:9001/api/core/v1/namespace/test/proposal
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-query-contract",
+        "namespace": "test"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "contract",
+                        "metadata": {
+                            "name": "query-contract",
+                            "version": "0.0.1",
+                            "namespace": "test"
+                        },
+                        "spec": {
+                            "content": "IyBDb250cmFjdCAyCgppbXBvcnQgc3lzCmltcG9ydCBvcwpzeXMucGF0aC5hcHBlbmQob3MucGF0aC5hYnNwYXRoKG9zLnBhdGguam9pbihfX2ZpbGVfXywgIi4uIiwgIi4uIiwgIi4uIikpKQoKZnJvbSBoZWFydGJyZWFrIGltcG9ydCAqCgpBID0gU2l0ZSgxKQoKY2FsY3VsYXRlID0gUkYoImNhbGN1bGF0ZSIsIEEpCnNlY3JldF9hID0gMTAKCnJlcyA9IGNhbGN1bGF0ZShhcmcxPXNlY3JldF9hLCBhcmcyPXNlY3JldF9hKQoKc3VtID0gcmVzWydzdW0nXQpwcmludChyZXMpCnByaW50KHN1bSk=",
+                            "data": {},
+                            "functions": {
+                                "calculate": 4
+                            },
+                            "execPatterns": [
+                                [
+                                    "wx-org1.chainmaker.org"
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
+HTTP 201
+[Captures]
+proposal_uid: body
+
+# 组织1 批准这一提议
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org1"
+}
+
+HTTP 200
+
+# 组织1 批准合约
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP 200
+
+GET http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}
+
+HTTP 200
+
+

@@ -1,0 +1,225 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cm-{{instance}}-node1
+  labels:
+    buaa-gitlab-ci: '{{instance}}'
+spec:
+  selector:
+    matchLabels:
+      app: cm-{{instance}}-node1
+  template:
+    metadata:
+      labels:
+        app: cm-{{instance}}-node1
+    spec:
+      volumes:
+        - name: config
+          configMap:
+            name: '{{instance}}-node1'
+      containers:
+      - name: node
+        image: chainmakerofficial/chainmaker:v2.2.0_alpha
+        workingDir: '/chainmaker-go/bin'
+        command:
+          - '/chainmaker-go/bin/chainmaker'
+          - 'start'
+          - '-c'
+          - '../config/k8s/chainmaker.yml'
+        volumeMounts:
+          - name: 'config'
+            mountPath: '/chainmaker-go/config/k8s'
+        resources:
+          limits:
+            memory: "2Gi"
+            cpu: "2"
+        ports:
+        - containerPort: 11301
+        - containerPort: 12301
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wx-org1-chainmaker-org-{{instance}}
+  labels:
+    buaa-gitlab-ci: '{{instance}}'
+spec:
+  selector:
+    app: cm-{{instance}}-node1
+  ports:
+  - name: p2p
+    port: 11301
+    targetPort: 11301
+  - name: rpc
+    port: 12301
+    targetPort: 12301
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cm-{{instance}}-node2
+  labels:
+    buaa-gitlab-ci: '{{instance}}'
+spec:
+  selector:
+    matchLabels:
+      app: cm-{{instance}}-node2
+  template:
+    metadata:
+      labels:
+        app: cm-{{instance}}-node2
+    spec:
+      volumes:
+        - name: config
+          configMap:
+            name: '{{instance}}-node2'
+      containers:
+      - name: node
+        image: chainmakerofficial/chainmaker:v2.2.0_alpha
+        workingDir: '/chainmaker-go/bin'
+        command:
+          - '/chainmaker-go/bin/chainmaker'
+          - 'start'
+          - '-c'
+          - '../config/k8s/chainmaker.yml'
+        volumeMounts:
+          - name: 'config'
+            mountPath: '/chainmaker-go/config/k8s'
+        resources:
+          limits:
+            memory: "2Gi"
+            cpu: "2"
+        ports:
+        - containerPort: 11301
+        - containerPort: 12301
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wx-org2-chainmaker-org-{{instance}}
+  labels:
+    buaa-gitlab-ci: '{{instance}}'
+spec:
+  selector:
+    app: cm-{{instance}}-node2
+  ports:
+  - name: p2p
+    port: 11301
+    targetPort: 11301
+  - name: rpc
+    port: 12301
+    targetPort: 12301
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cm-{{instance}}-node3
+  labels:
+    buaa-gitlab-ci: '{{instance}}'
+spec:
+  selector:
+    matchLabels:
+      app: cm-{{instance}}-node3
+  template:
+    metadata:
+      labels:
+        app: cm-{{instance}}-node3
+    spec:
+      volumes:
+        - name: config
+          configMap:
+            name: '{{instance}}-node3'
+      containers:
+      - name: node
+        image: chainmakerofficial/chainmaker:v2.2.0_alpha
+        workingDir: '/chainmaker-go/bin'
+        command:
+          - '/chainmaker-go/bin/chainmaker'
+          - 'start'
+          - '-c'
+          - '../config/k8s/chainmaker.yml'
+        volumeMounts:
+          - name: 'config'
+            mountPath: '/chainmaker-go/config/k8s'
+        resources:
+          limits:
+            memory: "2Gi"
+            cpu: "2"
+        ports:
+        - containerPort: 11301
+        - containerPort: 12301
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wx-org3-chainmaker-org-{{instance}}
+  labels:
+    buaa-gitlab-ci: '{{instance}}'
+spec:
+  selector:
+    app: cm-{{instance}}-node3
+  ports:
+  - name: p2p
+    port: 11301
+    targetPort: 11301
+  - name: rpc
+    port: 12301
+    targetPort: 12301
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cm-{{instance}}-node4
+  labels:
+    buaa-gitlab-ci: '{{instance}}'
+spec:
+  selector:
+    matchLabels:
+      app: cm-{{instance}}-node4
+  template:
+    metadata:
+      labels:
+        app: cm-{{instance}}-node4
+    spec:
+      volumes:
+        - name: config
+          configMap:
+            name: '{{instance}}-node4'
+      containers:
+      - name: node
+        image: chainmakerofficial/chainmaker:v2.2.0_alpha
+        workingDir: '/chainmaker-go/bin'
+        command:
+          - '/chainmaker-go/bin/chainmaker'
+          - 'start'
+          - '-c'
+          - '../config/k8s/chainmaker.yml'
+        volumeMounts:
+          - name: 'config'
+            mountPath: '/chainmaker-go/config/k8s'
+        resources:
+          limits:
+            memory: "2Gi"
+            cpu: "2"
+        ports:
+        - containerPort: 11301
+        - containerPort: 12301
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wx-org4-chainmaker-org-{{instance}}
+  labels:
+    buaa-gitlab-ci: '{{instance}}'
+spec:
+  selector:
+    app: cm-{{instance}}-node4
+  ports:
+  - name: p2p
+    port: 11301
+    targetPort: 11301
+  - name: rpc
+    port: 12301
+    targetPort: 12301

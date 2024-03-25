@@ -1,0 +1,12 @@
+{
+    "org0": {
+        "calculate": {
+            "calling_convention": "simple-json",
+            "url": "http://10.193.172.95:7000/calculate"
+        },
+        "get_int": {
+            "calling_convention": "simple-json",
+            "url": "http://10.193.172.95:7000/get_int"
+        }
+    }
+}
