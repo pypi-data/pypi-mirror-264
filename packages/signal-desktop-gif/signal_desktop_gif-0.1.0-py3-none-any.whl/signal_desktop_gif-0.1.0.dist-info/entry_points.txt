@@ -1,0 +1,2 @@
+[console_scripts]
+signal-desktop-gif = signal_desktop_gif:main
