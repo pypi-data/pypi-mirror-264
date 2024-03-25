@@ -1,0 +1,7 @@
+batched_chatgpt/__init__.py,sha256=8F5FdqS9C6MqyrG8QXOY8hWwiniVcBujZUiGE_EyZmE,63
+batched_chatgpt/chatgpt_utils.py,sha256=9utaZ70tJT48DnQnB-y_KjRvbnQ1HoBC9MhH0UgyV0Q,5292
+batched_chatgpt/utils.py,sha256=QOPebLTC9dl0A0M_O6pnVP2JCApJmXmhQU8xl1X-bQg,1444
+batched_chatgpt-0.0.5.dist-info/METADATA,sha256=wcRBmQ3i2O8y906hSdVEz7rMQTbeIKdhXtN7Bi_ET2k,272
+batched_chatgpt-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+batched_chatgpt-0.0.5.dist-info/top_level.txt,sha256=xLkFdpS8LPGOLVDLfo4DG3t3iUe2qroC8plqmbhD2qQ,16
+batched_chatgpt-0.0.5.dist-info/RECORD,,
