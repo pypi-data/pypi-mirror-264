@@ -1,0 +1,4 @@
+mypy
+pyright
+ruff
+types-python-dateutil
