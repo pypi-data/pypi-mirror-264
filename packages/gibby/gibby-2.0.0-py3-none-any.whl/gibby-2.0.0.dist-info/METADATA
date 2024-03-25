@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: gibby
+Version: 2.0.0
+Summary: Gibby - create and manage git backups
+Author-email: Bip901 <74911767+Bip901@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/Bip901/gibby
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: typer ~=0.9.0
+Provides-Extra: all
+Requires-Dist: typer[all] ~=0.9.0 ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: ruff <1,>=0.3.1 ; extra == 'dev'
+Requires-Dist: mypy <2,>=1.9.0 ; extra == 'dev'
+Requires-Dist: pytest <9,>=8.1.1 ; extra == 'dev'
+
+# Gibby
+
+[![pypi](https://img.shields.io/pypi/v/gibby.svg)](https://pypi.org/project/gibby/)
+
+Gibby - create and manage git backups
+
+```shell
+pip install gibby[all]
+```
+
+## Basic Usage
+
+```shell
+gibby backup 'C:/Users/user/repos' 'Z:/Backups'
+gibby restore 'Z:/Backups' 'C:/Users/user/repos'
+```
+
+## Use-Case
+
+What's the difference between backing up with `gibby` vs `git push`?
+
+1. Git requires you to organise your code into meaningful commits before being able to push them. Gibby's approach is **just back-up my work, no questions asked**. Thus, by default, Gibby also saves unstaged changes in your working directory.
+2. Gibby can be configured to save files ignored by `.gitignore`, such as build results and private keys (try: `gibby snapshot help`). You wouldn't want to commit those to git, but they're useful to have as a hot backup (read about [disaster recovery](https://en.wikipedia.org/wiki/Disaster_recovery)).
+
+## External Dependencies
+
+A non-ancient version of [git](https://git-scm.com/) (I'm testing gibby with version `2.39.2.windows.1`)
