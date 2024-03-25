@@ -1,0 +1,12 @@
+# Euphoria 1.0.0
+
+Euphoria is a small library for quick initialization and support of projects
+
+## Teams euphoria
+
+Euphoria works through the console
+
+* Creating a project without specifying the project name: `py -m euph init`
+* Creating a project specifying the project name: `py -m euph init <name>`, where `<name>` is text that does not contain the characters `+=[]:*?;«,./\<>| ` (space too)
+* Help: `py -m euph help`
+* Adding a package to a directory: `py -m euph add <name>`
