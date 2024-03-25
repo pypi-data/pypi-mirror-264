@@ -1,0 +1,23 @@
+- name: check user exist
+  shell: getent passwd "{{user}}" | wc -l
+  register: user_info
+
+- name: create user
+  shell: |
+    groupadd {{group}}
+    useradd -g {{group}} -d /home/{{user}} -m {{user}} -s /bin/bash
+  when: "'0' in user_info.stdout"
+
+- name: check user group
+  getent:
+    database: group
+    key: "{{user}}"
+    fail_key: no
+  register: group_info
+
+- name: message
+  debug:
+    msg:
+      - "user {{user}} not in group {{group}}, please check!"
+  failed_when: true
+  when: "group not in group_info.ansible_facts.getent_group"
