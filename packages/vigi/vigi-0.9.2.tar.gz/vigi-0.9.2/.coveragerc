@@ -1,0 +1,8 @@
+[run]
+include = ./main.py
+          vigi/**/*.py
+
+[report]
+include = ./main.py
+          vigi/**/*.py
+include_namespace_packages = True

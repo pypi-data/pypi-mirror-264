@@ -1,0 +1,9 @@
+opencv-python==4.9.0.80
+flask==3.0.2
+bootstrap-flask==2.3.3
+ultralytics==8.1.14
+flask-caching==2.1.0
+humanize==4.9.0
+twilio==9.0.0
+platformdirs==4.2.0
+Flask-HTTPAuth==4.8.0
