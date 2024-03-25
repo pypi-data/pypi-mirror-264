@@ -1,0 +1,14 @@
+rtems_proxy/__init__.py,sha256=v-rRiDOgZ3sQSMQKq0vgUQZvpeOkoHFXissAx6Ktg84,61
+rtems_proxy/__main__.py,sha256=i6fCPZXJGfXlgiSZy-xjJ5RjbqQ_k5-lnzuQM2sJlm0,4239
+rtems_proxy/_version.py,sha256=aeBju2l8GTMwAhIRG_c2Q_oVPFacRkZZwGtxmvFCGPQ,411
+rtems_proxy/copy.py,sha256=1hvz-MzCoe5wIrjcdbYCrG7LdbigtyaRbMoyij8Km3U,1611
+rtems_proxy/globals.py,sha256=xRRwCWH4MOY0U_jp4S7gVPqc7v5JJIWXkYQCfgLaMv4,2126
+rtems_proxy/rsync.sh.jinja,sha256=aRAsVSgl2wu6fAL-tRuf5dpQFdpg5i8UaCNiHNnoFxs,768
+rtems_proxy/telnet.py,sha256=69lbCjCBUpatMNvgf1rE3rW5Oja4HsAhti2280luUfo,7003
+rtems_proxy/utils.py,sha256=O-o1uq3AY4xhBLW_s8QWAMWPcqzDCMfbWokGhlQ4UXc,1218
+rtems_proxy-0.5.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+rtems_proxy-0.5.0.dist-info/METADATA,sha256=MI3yW15UTVXMF170Uhimeui_kRIyUHHoRnH-wCXG2-k,15510
+rtems_proxy-0.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rtems_proxy-0.5.0.dist-info/entry_points.txt,sha256=duBJaLYpokmwO_R756Sv3uNCE4ZwsRGwSfb6xhKu-rk,57
+rtems_proxy-0.5.0.dist-info/top_level.txt,sha256=oLwzJQK4oB1AruU93UJ-6o_TBmFp4jKQTBBqhrkDsxc,12
+rtems_proxy-0.5.0.dist-info/RECORD,,
