@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+heckit/__init__.py
+heckit.egg-info/PKG-INFO
+heckit.egg-info/SOURCES.txt
+heckit.egg-info/dependency_links.txt
+heckit.egg-info/not-zip-safe
+heckit.egg-info/top_level.txt
