@@ -1,0 +1,12 @@
+sharded_google_photos/backup/diffs_splitter.py,sha256=EcwFJkUNz8KH9WEDvrnpRbggvazbySGPdfU-0WGydVI,464
+sharded_google_photos/backup/gphotos_backup.py,sha256=dLI_ta3RBf5ddCxZrp1x_ahQ92ChhdLWOv-J5KMiSnY,8489
+sharded_google_photos/backup/gphotos_uploader.py,sha256=WTH-FqhQwNUytwFm5RDURpUHVUKE2RLfX75DOdPMa-8,450
+sharded_google_photos/backup/media_item_repository.py,sha256=47aAD8f-bbzrYNPE2ArxOftti4gH5KzZ2rKHC-pNLcs,2478
+sharded_google_photos/backup/shared_album_repository.py,sha256=6_BBZ5LvIaX2pxfHW7oUznUL1Uo8rzDMjm9vF1-GdLs,2800
+sharded_google_photos/cleanup/gphotos_cleaner.py,sha256=7SvP_bS_t_e7Fc9IHMpQAB-pLxIFsg2HN50amdW7GJc,2043
+sharded_google_photos/shared/gphotos_client.py,sha256=_Imlpo9sOECFBh7QCYoFy7KPHHVRi9atQJSy4XmEh2Q,15415
+sharded_google_photos/shared/testing/fake_gphotos_client.py,sha256=zPMN-aLUq7J8JtaBcO6aD8RtFW0htdoAF_jL_ww36kA,12705
+sharded_google_photos-0.1.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sharded_google_photos-0.1.5.dist-info/METADATA,sha256=iCXdfOGsPADhRuf1fqx7f23rmKoRYGPIzjR1mwqrte8,1535
+sharded_google_photos-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sharded_google_photos-0.1.5.dist-info/RECORD,,
