@@ -1,0 +1,11 @@
+aiohttp~=3.9.0
+Brotli~=1.1.0
+yarl~=1.9.3
+
+[dev]
+check-manifest
+six
+pylint
+
+[test]
+coverage

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sumiblivedm
+Version: 1.1.0
+Summary: 哔哩哔哩的开放平台（直播）链接模块
+Home-page: https://github.com/15906617886/blivedm
+Author: sumi
+Author-email: 
+License: Apache2
+Keywords: bilibili openclient
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Internet :: Log Analysis
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp~=3.9.0
+Requires-Dist: Brotli~=1.1.0
+Requires-Dist: yarl~=1.9.3
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Requires-Dist: six; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+# blivedm
+
+Python获取bilibili直播弹幕的库，使用WebSocket协议，支持web端和B站直播开放平台两种接口
+
+[协议解释](https://open-live.bilibili.com/document/657d8e34-f926-a133-16c0-300c1afc6e6b)
+
+基于本库开发的一个应用：[blivechat](https://github.com/xfgryujk/blivechat)
+
+## 使用说明
+
+1. 需要Python 3.8及以上版本
+2. 安装依赖
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. web端例程在[sample.py](./sample.py)，B站直播开放平台例程在[open_live_sample.py](./open_live_sample.py)
