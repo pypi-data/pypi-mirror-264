@@ -1,0 +1,17 @@
+levenshtein
+pydantic
+spacy-alignments
+scikit-learn
+fastdtw
+ukkonen
+numba
+
+[dev]
+black
+flake8
+mypy
+types-requests
+pytest
+isort
+autoflake
+pre-commit
