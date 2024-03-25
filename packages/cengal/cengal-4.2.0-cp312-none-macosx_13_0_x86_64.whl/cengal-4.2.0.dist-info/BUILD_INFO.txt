@@ -1,0 +1,4 @@
+Python Interpreter: CPython
+Python Version: 3.12
+Target OS: macosx_13_0
+Target Architecture: x86_64
