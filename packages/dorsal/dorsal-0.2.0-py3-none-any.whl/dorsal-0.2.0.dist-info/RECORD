@@ -1,0 +1,8 @@
+dorsal/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+dorsal/schema.py,sha256=_IovcdPMT804th6IKOJwFo8kKwpLWKoBKCNbeEpGY5E,9920
+dorsal/serialization.py,sha256=fCkNOqetuoAx9TGPVMDNyQIABVHnJI-XaqQeHjqiBG8,4771
+dorsal/types.py,sha256=G9c32XKcUpkLa6wAY3nEquzBCoBixsBQd17O0gKCpfk,3902
+dorsal-0.2.0.dist-info/METADATA,sha256=2Ydl8UYRmqlJSRGbLg0lbuRt0XzCmE1ulYmHDyeyn3U,1100
+dorsal-0.2.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+dorsal-0.2.0.dist-info/licenses/LICENSE,sha256=HVmUxpUuFF-Qm8S2cx-DoxFTp6rNtoMkkRk4EgR8fn4,1069
+dorsal-0.2.0.dist-info/RECORD,,

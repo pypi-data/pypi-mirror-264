@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: dorsal
+Version: 0.2.0
+Summary: Pydantic model base classes and custom type handling, JSON schema generation, etc. covering a variety of common scenarios without much config
+Project-URL: Homepage, https://github.com/goodcleanfun/dorsal
+Project-URL: Repository, https://github.com/goodcleanfun/dorsal
+Author: Al Barrentine
+License-Expression: MIT
+License-File: LICENSE
+Keywords: dorsal,json-schema,model,pydantic,schema
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: foundational
+Requires-Dist: pydantic>2
+Description-Content-Type: text/markdown
+
+# dorsal
+Pydantic model base classes and custom type handling, JSON schema generation, etc. covering a variety of common scenarios without much config
