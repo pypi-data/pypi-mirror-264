@@ -1,0 +1,13 @@
+nvidia_services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/embeddings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/embeddings/base.py,sha256=Jz__H9OrRW3uX0orKnZgMspyXCHlEN-T2PbTnTYDMCk,270
+nvidia_services/embeddings/nvidia_embeddings.py,sha256=s4-4-e_om-7iJbQ8d7zFYSM0TJiMYBA1v_ShSk2gMx8,1334
+nvidia_services/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/endpoints/nvidia_endpoints.py,sha256=yb4TM2KDlbO09Y3ck86dSgNhefVATX_ux2eaEYNNhjo,1313
+nvidia_services/retrievals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nvidia_services/retrievals/base.py,sha256=zJcGFnxKmIhUPgPl59qr5L5UY9wKGGKAQ8y0C1P4DSs,312
+nvidia_services/retrievals/nvidia_reranker.py,sha256=nGRZ8XN5fa0F8pv6RKGDapoCp6sBqouo_QW8BtSkvGs,2140
+nvidia_services-0.0.0.dist-info/METADATA,sha256=OPXaCLpe9WBWMSLY6e-HG_DzN6n7XIF-Chhppk2T7_s,618
+nvidia_services-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nvidia_services-0.0.0.dist-info/top_level.txt,sha256=pmSY8Qdlk6nJ0HvFdvQf5vrqH0L4txGm74d8Wh8eeuY,16
+nvidia_services-0.0.0.dist-info/RECORD,,
