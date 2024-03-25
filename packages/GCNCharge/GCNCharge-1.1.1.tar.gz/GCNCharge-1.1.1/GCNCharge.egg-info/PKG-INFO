@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: GCNCharge
+Version: 1.1.1
+Summary: A partial atomic charge of nanoporous materials predicter
+Home-page: https://github.com/sxm13/GCNCharges
+Author: Guobin Zhao
+Author-email: sxmzhaogb@gmai.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.13.3
+Requires-Dist: pymatgen>=2018.6.11
+Requires-Dist: ase>=3.19
+Requires-Dist: tqdm>=4.15
+Requires-Dist: pandas>=0.20.3
+Requires-Dist: scikit-learn>=0.19.1
+Requires-Dist: joblib>=0.13.2
+Requires-Dist: torch
+
+<h1 align="center">GCN Charge</h1>
+
+<h4 align="center">
+
+</h4>              
+
+A MOF/COF charge predicter by **G**raph **C**onvolution **N**etwork.                           
+
+[![Requires Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg?logo=python&logoColor=white)](https://python.org/downloads) [![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.10822403-blue)](https://doi.org/10.5281/zenodo.10822403)  [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sxm13/GCNCharges/LICENSE.txt) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sxmzhaogb@gmail.com) [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]() [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()          
+
+
+# Website & Zenodo
+IF you do not want to install GCN Charge, you can go to this :point_right: [link](https://gcn-charge-predicter-mtap.streamlit.app/), for this website, we use 8 digits.       
+IF you want to DOWNLOAD full code and dataset, you can go to this :point_right: [link](https://zenodo.org/records/10822403) But we will not update new vesion in Zenodo, new vesion will upload here.            
+
+# Reference
+If you use GCN Charge, please cite [this paper]():
+```bib
+@article{,
+    title={},
+    DOI={},
+    journal={},
+    author={},
+    year={},
+    pages={}
+}
+```
+
+# Bugs
+
+ If you encounter any problem during using ***GCN Charge***, please talk to me ```sxmzhaogb@gmail.com```.                   
+
+ 
+# Development
+
+                  
+| Database with DDEC Charges                                                                                                                                      | url                                                                                                                                        | size                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| QMOF | [link](https://github.com/Andrew-S-Rosen/QMOF) | 16,779 |
+| CoRE MOF 2014 DDEC | [link](https://zenodo.org/records/3986573#.XzfKiJMzY8N) | 2,932 |
+| CoRE MOF 2014 DFT-optimized | [link](https://zenodo.org/records/3986569#.XzfKcpMzY8N) | 502 | 
+| CURATED-COFs | [link](https://github.com/danieleongari/CURATED-COFs) | 612 |
+        
+ 
+**Group:**   [Molecular Thermodynamics & Advance Processes Laboratory](https://sites.google.com/view/mtap-lab/home?authuser=0)                                

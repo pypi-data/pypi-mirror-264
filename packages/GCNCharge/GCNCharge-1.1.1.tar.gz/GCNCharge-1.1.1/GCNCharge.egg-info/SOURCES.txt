@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+GCNCharge/GCNCharge.py
+GCNCharge/__init__.py
+GCNCharge/atom_init.json
+GCNCharge/cof.pkl
+GCNCharge/cof.pth
+GCNCharge/mof.pkl
+GCNCharge/mof.pth
+GCNCharge.egg-info/PKG-INFO
+GCNCharge.egg-info/SOURCES.txt
+GCNCharge.egg-info/dependency_links.txt
+GCNCharge.egg-info/requires.txt
+GCNCharge.egg-info/top_level.txt
+test/Cu-BTC.cif
+test/__init__.py
