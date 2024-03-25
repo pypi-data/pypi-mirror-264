@@ -1,0 +1,6 @@
+from __future__ import annotations
+
+from typing import Any, Optional
+
+def parameters_to_vector(parameters: Any, name: str | None = ...): ...
+def vector_to_parameters(vec: Any, parameters: Any, name: str | None = ...): ...

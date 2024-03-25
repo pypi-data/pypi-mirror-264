@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "paddlepaddle-stubs"
+version = "3.0.0-alpha.1"
+description = "A stubs package as described in PEP 561 for PaddlePaddle"
+authors = ["Nyakku Shigure <sigure.qaq@gmail.com>"]
+packages = [{ include = "paddle-stubs/**/*.pyi" }]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/cattidea/paddlepaddle-stubs"
+repository = "https://github.com/cattidea/paddlepaddle-stubs"
+keywords = ["PEP 561", "PEP 484", "Type Hints", "PaddlePaddle"]
+classifiers = [
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: MIT License",
+  "Typing :: Typed",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.0"
+typing-extensions = "^4.7.1"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.355"
+Pillow = "^10.0.0"
+numpy = [
+  { version = ">=1.24.4", python = ">=3.8,<3.12" },
+  { version = ">=1.26.4", python = ">=3.12" },
+]
+paddlepaddle = "^2.6.1"
+ruff = "^0.3.4"
+
+[tool.pyright]
+include = ["paddle-stubs", "tests"]
+ignore = ["paddle-stubs/base"]
+pythonVersion = "3.8"
+typeCheckingMode = "strict"
+reportMissingModuleSource = false
+reportIncompatibleMethodOverride = false
+
+[tool.ruff]
+line-length = 120
+target-version = "py38"
+include = ["paddle-stubs/**.pyi", "tests/**.pyi"]
+
+[tool.ruff.lint]
+select = ["PYI", "UP", "I"]
+ignore = ["PYI029", "PYI044"]
+
+[tool.ruff.lint.per-file-ignores]
+"setup.py" = ["I"]
+
+[tool.ruff.lint.isort]
+required-imports = ["from __future__ import annotations"]
+known-first-party = ["paddle"]
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"

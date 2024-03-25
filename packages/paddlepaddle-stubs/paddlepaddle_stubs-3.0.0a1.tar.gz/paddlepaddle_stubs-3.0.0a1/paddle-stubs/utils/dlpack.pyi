@@ -1,0 +1,6 @@
+from __future__ import annotations
+
+from .._typing.tensor import Tensor, _PyCapsule  # type: ignore
+
+def to_dlpack(x: Tensor) -> _PyCapsule: ...
+def from_dlpack(dlpack: _PyCapsule) -> Tensor: ...

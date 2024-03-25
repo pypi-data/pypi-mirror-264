@@ -1,0 +1,6 @@
+from __future__ import annotations
+
+from .base import framework as framework
+
+def switch_to_core_ops() -> None: ...
+def switch_to_eager_ops() -> None: ...
