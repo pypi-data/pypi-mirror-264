@@ -1,0 +1,14 @@
+nonebot/adapters/dodo/__init__.py,sha256=RGXiEKEAj6bn35RU2BfE1yAcwOZX3_Jo_vS8OYg6rKI,271
+nonebot/adapters/dodo/adapter.py,sha256=YEUehx5D7IkUK67PlOCAg5vBgRwm-NRx2-1GC1Cvfic,6282
+nonebot/adapters/dodo/bot.py,sha256=wA89pchzb72l8x3YORkqD6CxVXKqPgm5wl-9xugl3zA,33540
+nonebot/adapters/dodo/compat.py,sha256=7B_jScvL82cYKsuCgJEfIb6TUVa0eXTfEM0YKQ_Gwzo,911
+nonebot/adapters/dodo/config.py,sha256=7EocM-wbnSZ7HtXiiPuXZFbFL5OxwMUKdaXDBbGLtUk,229
+nonebot/adapters/dodo/event.py,sha256=dP0D36JfWGdeIIWKij_MhpkWguo-MdPvApimJeMPwts,9384
+nonebot/adapters/dodo/exception.py,sha256=mzSduz-zN81V06cdG3vZ3hboctpxCf_kyGkrpoYdYlA,1270
+nonebot/adapters/dodo/message.py,sha256=RZqEsu680pVR55hxGbCI9XlU3odzu9CkMWIeETOA6-Y,12799
+nonebot/adapters/dodo/models.py,sha256=ic1OHDJT1deqEzCNIcW5ouHObKr4eIngNGH8LAEApz0,12401
+nonebot/adapters/dodo/utils.py,sha256=VIn6DH4SqwoJT44Dghr5YzSTatQx0EqfI6ImY6zkVKs,1509
+nonebot_adapter_dodo-0.2.1.dist-info/LICENSE,sha256=4EZBnkZPQYBvtO2KFGaUQHTO8nZ26pGeaCFchdBq_AE,1064
+nonebot_adapter_dodo-0.2.1.dist-info/METADATA,sha256=-T0H3gn1sjPR8cqFc7Eb1Ht5XBT8oFsRrj8kMNOuAe4,3459
+nonebot_adapter_dodo-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+nonebot_adapter_dodo-0.2.1.dist-info/RECORD,,
