@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: johen
+Version: 0.1.4
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Pytest
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+License-File: LICENSE.md
