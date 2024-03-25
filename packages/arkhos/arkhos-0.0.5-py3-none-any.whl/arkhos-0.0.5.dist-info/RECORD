@@ -1,0 +1,15 @@
+arkhos/__init__.py,sha256=mDpNK8VewN_uPLZtlD6QZdyDA74BWpgN-CSnnDsWxZQ,309
+arkhos/arkhos_global.py,sha256=SHLDGIxqZjOCU6WITM4Pq6uOAtW61aDGWyTaOWo31CY,3546
+arkhos/arkhos_local.py,sha256=iBd5zIAAUUmGxMq2aUrSBgKZKPDonRUYttUCrzNAUoM,1935
+arkhos/base_handler.py,sha256=4Y-m-iCHb5Clo1Z15Z0Dc7C7JoQMSK4mUhMJ4RAtNsY,2366
+arkhos/http.py,sha256=GOs_GdB9njrG7TE9syDdmtvMAVDwEkzpOUl9MvYWNrA,2800
+arkhos/local_cli.py,sha256=lr1apZKK39VjQZtyaG76h1oAqCTl78jLbQCKQswrl74,1473
+arkhos/templates.py,sha256=fPndYR8dquwCbjgzKpvSuUYajlYeEJkysK5YWt85nOw,409
+arkhos/urls.py,sha256=WHwOTloDModlu_veZVhMpP9ZtJxXIgweqDQwOHX6hno,326
+arkhos/utils.py,sha256=sKozPvUs7XiPDO2BjTVVtpvxdEdenQcQ5c3Kqjn2Aq4,1876
+arkhos-0.0.5.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+arkhos-0.0.5.dist-info/METADATA,sha256=bo8dUsOvyPv15fobL-SsjgdtEI8zZwkHHaCN1kpT0VU,2633
+arkhos-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+arkhos-0.0.5.dist-info/entry_points.txt,sha256=X8TEGgLl5uWJ8uoaDhsEa6kf3-duQgBcsQKVhxIApfE,48
+arkhos-0.0.5.dist-info/top_level.txt,sha256=Tv8GM6iudjjQUkBrd_hLidCxbHnzOt5vlfKI42Gnp1A,7
+arkhos-0.0.5.dist-info/RECORD,,
