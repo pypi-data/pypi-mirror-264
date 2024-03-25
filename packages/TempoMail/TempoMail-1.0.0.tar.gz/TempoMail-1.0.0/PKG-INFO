@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: TempoMail
+Version: 1.0.0
+Summary: python temp-mail liberary
+Author: Radin
+License-File: LICENSE
+Requires-Dist: requests
