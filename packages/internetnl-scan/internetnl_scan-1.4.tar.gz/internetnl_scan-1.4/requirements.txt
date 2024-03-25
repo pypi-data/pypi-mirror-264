@@ -1,0 +1,9 @@
+importlib_metadata
+keyring
+pandas
+requests
+setuptools
+sphinx
+tabulate
+tldextract
+tqdm

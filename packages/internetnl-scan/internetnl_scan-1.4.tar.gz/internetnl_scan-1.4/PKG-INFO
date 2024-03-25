@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: internetnl_scan
+Version: 1.4
+Summary: A python front end for submitting queries internet.nl
+Home-page: https://github.com/eelcovv/internetnl-scan
+Author: Eelco van Vliet
+Author-email: eelcovv@gmail.com
+License: mit
+Project-URL: Documentation, https://internetnl-scan.readthedocs.io/en/latest/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Requires-Dist: keyring
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: tabulate
+Requires-Dist: tldextract
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: proxy
+Requires-Dist: requests-kerberos-proxy; extra == "proxy"
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+
+==================
+internetnl_scan
+==================
+
+
+A tool to control the scans at Internet.nl
+
+
+Description
+===========
+
+This utility can be used to submit and access your internet.nl scans
+
+Installation
+============
+
+Install the tool by::
+
+    pip install internetnl-scan
+
+In case you are behind a proxy which requires authentication you may want to install the packages
+*requests_kerberos_proxy*. You can install it yourself with::
+
+    pip install requests-kerberos-proxy
+
+or, alternatively, install the nutstools package as::
+
+    pip install internetnl-scan[proxy]
+
+which will automatically include the required proxy packages
+
+Note
+====
+
+This project has been set up using PyScaffold 3.2.3. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
