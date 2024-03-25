@@ -1,0 +1,31 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "hussh"
+description = "SSH for Humans"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["ssh", "rust", "pyo3", "blazingly-fast"]
+authors = [
+    {name = "Jacob J Callahan", email = "jacob.callahan05@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "maturin",
+    "pytest",
+    "docker",
+    "patchelf",
+]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
