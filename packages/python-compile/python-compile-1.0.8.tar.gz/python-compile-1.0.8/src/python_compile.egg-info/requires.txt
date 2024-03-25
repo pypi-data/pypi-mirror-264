@@ -1,0 +1,3 @@
+docker-run-cmd~=1.0.10
+isolated-environment>=1.3.4
+pytest-xdist
