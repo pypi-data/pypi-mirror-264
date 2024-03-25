@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: matlab_python_interop
+Version: 0.0.0
+Summary: Documentation for two-way interoperation between Matlab and Python.
+Author-email: Blake Naccarato <blake.naccarato@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Changes, https://blakeNaccarato.github.io/matlab_python_interop/changelog.html
+Project-URL: Docs, https://blakeNaccarato.github.io/matlab_python_interop
+Project-URL: Home, https://github.com/blakeNaccarato/matlab_python_interop
+Project-URL: Tracker, https://github.com/blakeNaccarato/matlab_python_interop/issues
+
+# matlab_python_interop
+
+Documentation for two-way interoperation between Matlab and Python.
+
