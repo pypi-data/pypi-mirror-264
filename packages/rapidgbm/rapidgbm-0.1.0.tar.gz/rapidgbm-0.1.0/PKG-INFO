@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rapidgbm
+Version: 0.1.0
+Summary: RapidGBM is a powerful Python package designed to streamline the process of tuning LightGBM models using the optimization framework Optuna.
+License: LICENSE.md
+Author: Daniel Porsmose
+Requires-Python: >=3.9,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lightgbm (>=3.3.0,<5.0.0)
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: numpy (>=1.13.0,<3.0.0)
+Requires-Dist: optuna (>=2.10.0,<4.0.0)
+Requires-Dist: optuna-integration (>=3.2.0,<4.0.0)
+Requires-Dist: pandas (>=1.5.0,<3.0.0)
+Requires-Dist: scikit-learn (>=0.23.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# [RapidGBM](https://dhmunk.github.io/rapidgbm/)
+Documentaion: [Click here](https://dhmunk.github.io/rapidgbm/)
+
+RapidGBM is a powerful Python package designed to streamline the process of tuning LightGBM models using the optimization framework Optuna. With RapidGBM, you can effortlessly fine-tune hyperparameters to achieve optimal model performance using an automated machine learning (AutoML) approach.
+
+## [Classification Example](https://mybinder.org/v2/gh/dhmunk/rapidgbm/main?labpath=rapidgbm%2Fexamples%2Fclassification.ipynb):
+
+ [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dhmunk/rapidgbm/main?labpath=rapidgbm%2Fexamples%2Fclassification.ipynb)
+
+## [Regression Example](https://mybinder.org/v2/gh/dhmunk/rapidgbm/main?labpath=rapidgbm%2Fexamples%2Fregression.ipynb):
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dhmunk/rapidgbm/main?labpath=rapidgbm%2Fexamples%2Fregression.ipynb)
