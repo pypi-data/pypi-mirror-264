@@ -1,0 +1,12 @@
+brolog/__init__.py,sha256=0fcEgCDHL_NYJvUU78jq6xX6rbpK8exlNE6iBLAgoCM,76
+brolog/cli.py,sha256=Jv5hHZJyHRwWU5vHQlb2hmTja3N8gnAFANMRJWCXL0s,2138
+brolog/lex.py,sha256=2jRyfuHeuh2hXKlTQllJDAFEkN2iXLDmauM9LK2c1HA,1707
+brolog/objects.py,sha256=pyw3J-M9HnLxLaTRHOTDcTmhrM4J9IdWhLwRp5_Gy8I,4040
+brolog/parse.py,sha256=LoDblWquYcyL3TAjZvPQfhgnJ__A-_-3KTxprNjfmiA,5197
+brolog/solver.py,sha256=0dG538UkWm7QiFcJ9OTDSjzuIn0w_7HShGso9jb7BTc,8614
+brolog-0.1.0.dist-info/LICENSE,sha256=YF_eC3IcYGpERSN9a5qM-PWCnvK0Y0vuo1rJT_SXUnQ,1064
+brolog-0.1.0.dist-info/METADATA,sha256=iuZrktr7XB5hfXioFOZ9948IKFq_OBcE3LMtXhVJfto,3097
+brolog-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+brolog-0.1.0.dist-info/entry_points.txt,sha256=Oqthtsml2WffiYohalQNt9Ht0lVagQ2mhEgCDEkTW3U,42
+brolog-0.1.0.dist-info/top_level.txt,sha256=MstfnqXjKyM2bOHlwFDYcBhyggqgRkX2QEWLBM0IKHU,7
+brolog-0.1.0.dist-info/RECORD,,
