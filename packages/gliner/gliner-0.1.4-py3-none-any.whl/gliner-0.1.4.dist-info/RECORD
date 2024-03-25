@@ -1,0 +1,15 @@
+gliner/__init__.py,sha256=_F1O_cOK1zQ1t-pN1ZzSBO4-FXGH6vP2n1ZjaCdk8r8,70
+gliner/model.py,sha256=iQ2kukL6869uzRffO5IXSgRL1fbCajqxOih1HnpcS3o,20047
+gliner/modules/___init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gliner/modules/base.py,sha256=Ev39dRg-SLG--X4WiUDEYsj1BZIYOhCDUsEnYeUdf3U,5991
+gliner/modules/data_proc.py,sha256=H59FG5_WtDO5CkybRd_8KwjmQvrewBLwOAtqbo-LbH8,2350
+gliner/modules/evaluator.py,sha256=rNukuQUCja14AdvtirWaI9WMwzDYEG7PLqsB8lvu3k0,4631
+gliner/modules/layers.py,sha256=-u_Ng6ZHZAXG_ZjTbY8pTUuD_uTlsAH0HRcxGE7AooQ,1088
+gliner/modules/run_evaluation.py,sha256=H2I0uuOMdRfZHKmSaki5g93XAMvHr9iHqQRlcDlO7xo,5801
+gliner/modules/span_rep.py,sha256=XcnlD0vkDZlTRB3VR0Nr7Ok_3XNxrkcppHspweC3JAs,10357
+gliner/modules/token_rep.py,sha256=ItH1GzNoWn8OJPEYoTrvayCYdY0T1FfWhaBAG-yHvOE,1928
+gliner-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gliner-0.1.4.dist-info/METADATA,sha256=dwrF8AOiiSE0V_MmeW9Ax5FayHkKIoAUtp76_iXUURQ,7754
+gliner-0.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gliner-0.1.4.dist-info/top_level.txt,sha256=pewm2o3KWBYpZixrPeO8vw8P7H8zCS0MF2XV4-r-nRI,7
+gliner-0.1.4.dist-info/RECORD,,
