@@ -1,0 +1,14 @@
+lupa/__init__.py,sha256=c99ILOqbgXcktoS1YsqNLg9juNuAJZ_Yxm4VGEANkqo,3001
+lupa/lua53.cpython-36m-x86_64-linux-gnu.so,sha256=KBqHsqda_abtUIv1FsVvLJyWoFTEqXKC3YQd_Q4lUMA,634984
+lupa/luajit20.cpython-36m-x86_64-linux-gnu.so,sha256=BkFkojXtOi2uC8-SBi4SEyOOljXNz6CBZ6JRgsfUIfM,1007808
+lupa/lua54.cpython-36m-x86_64-linux-gnu.so,sha256=Z-oyOdhejdefbfmQHq75HOGzNoaSZly24cC83Jl-7fk,684136
+lupa/lua51.cpython-36m-x86_64-linux-gnu.so,sha256=S__J77z8wWOCtfWFq_cS7hkfoR_07K5r_WOpSIYQ3uk,573544
+lupa/luajit21.cpython-36m-x86_64-linux-gnu.so,sha256=kivjrYSoA4uYOkKGeinAwQorpy9c_eDWPFPn_bJ0sWM,1131040
+lupa/version.py,sha256=-yjKj08H9NSe_5N5qBYWmC9d9NK1uYPTPT5FuTBHiZg,20
+lupa/lua52.cpython-36m-x86_64-linux-gnu.so,sha256=O9w_JbGiGsLUO24tL5Y9o5svqLAT6SZ9MqvzAXOW3TE,598120
+lupa.libs/libgcc_s-a04fdf82.so.1,sha256=tJDe9OfQfcywimpjsa8fJbDAZxsVKxoapdK2zEAw1z0,83000
+lupa-2.1.dist-info/RECORD,,
+lupa-2.1.dist-info/METADATA,sha256=J6BcvEf-Yc-rrnHAO7aM13MGuoJP6wg4Q4LZlvkLlM8,57595
+lupa-2.1.dist-info/WHEEL,sha256=rbVfYZzJiOCEiiKDVkaog3MWj3SC9SfTJ-H92vzqnHY,112
+lupa-2.1.dist-info/top_level.txt,sha256=zBjq_OEwVlKBUT25L2ENcMO-9XdwVQSN7X6VHyH7Pcg,5
+lupa-2.1.dist-info/LICENSE.txt,sha256=lXr-SRPfxGn9YFQdhHpYHFvd1roMy3I5DteMdYN3aKE,2231
