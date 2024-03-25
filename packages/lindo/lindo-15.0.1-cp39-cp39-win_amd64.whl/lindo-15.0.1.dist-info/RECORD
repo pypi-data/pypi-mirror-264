@@ -1,0 +1,13 @@
+lindo/LSconst.py,sha256=swOcrnUn_AqeoBKtg4Iul6rp8y-QjspTAydJG4GQucc,161371
+lindo/__init__.py,sha256=R2S0hiHs7oDm1dhp8JFgd6S527HmN_rs6DgQyqD4gaM,96
+lindo/lindo.cp39-win_amd64.pyd,sha256=Ad_Tx5GdKFNp4-ae0PUtCcBFkX-I3o8Rs0WvQzOxtZQ,357376
+lindo/loadLibs.py,sha256=HUpHrF16awa6eKeF1I0mOzuPlVg2SCI1wfnUMhcqEz8,3002
+lindo/wrappers.py,sha256=B73E80yggxEMa_X-uMZguLuii7xMbcGjikvUfPKOUl8,1364
+lindo_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lindo_test/__main__.py,sha256=Dy0CeHPCsOQhMyqZQYZFZEzapSnbhUfwzONmfIyGiBs,45
+lindo_test/test.py,sha256=9OKZ17GDbSLYKA1uCZBIFuQt8kyMdnlO_i4Nk5SAsDg,903
+lindo-15.0.1.dist-info/LICENSE,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+lindo-15.0.1.dist-info/METADATA,sha256=k8ej8IBo4acHtQ8Y9_-6MIs74zbbMb3IVoMgmyk8ANI,3438
+lindo-15.0.1.dist-info/WHEEL,sha256=Z6c-bE0pUM47a70GvqO_SvH_XXU0lm62gEAKtoNJ08A,100
+lindo-15.0.1.dist-info/top_level.txt,sha256=9m4cBz62Pp8VLpT52DizkPx5bEPGBijsYxhzb-QbAgg,17
+lindo-15.0.1.dist-info/RECORD,,
