@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: RNAHyperFold
+Version: 0.1.0
+Summary: A library that provides a number of classes and methods designed to facilitate the analysis and visualization of changes in RNA folding at different temperatures using hypergraph-based approaches.
+Home-page: UNKNOWN
+Author: Nicol Buratti
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: ViennaRNA (~=2.6.4)
+Requires-Dist: biopython (~=1.81)
+Requires-Dist: forgi (~=2.2.2)
+Requires-Dist: hypernetx (~=2.1.1)
+Requires-Dist: igraph (~=0.11.2)
+Requires-Dist: matplotlib (~=3.8.0)
+
+UNKNOWN
+
