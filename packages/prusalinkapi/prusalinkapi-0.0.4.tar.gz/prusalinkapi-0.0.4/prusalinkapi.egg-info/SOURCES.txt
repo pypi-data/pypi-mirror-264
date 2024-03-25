@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+prusalinkapi/__init__.py
+prusalinkapi/__main__.py
+prusalinkapi.egg-info/PKG-INFO
+prusalinkapi.egg-info/SOURCES.txt
+prusalinkapi.egg-info/dependency_links.txt
+prusalinkapi.egg-info/top_level.txt
