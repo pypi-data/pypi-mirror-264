@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: EGGcodepy
+Version: 0.0.1
+Summary: simple package to encrypt and decrypt egg
+Author: madamsaars, marzhater
+Project-URL: Homepage, https://github.com/madamsaars/EGGcodepy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple package to encrypt and decrypt egg
