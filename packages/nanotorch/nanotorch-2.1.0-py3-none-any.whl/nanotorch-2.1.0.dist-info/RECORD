@@ -1,0 +1,14 @@
+nanotorch/__init__.py,sha256=aKrzGV60Drx9DeCvpe922JsyffGUQWVbB0OQJgBxK64,4127
+nanotorch/_tensor.py,sha256=jsMxxZDNtZlc-Ydqlcn8OdPpNEv1oPCE-_K5J8HD1CI,14323
+nanotorch/_types.py,sha256=rL09c4OnXoLhNh_8_-bS_lPis2LvYlno_qfP74sBUKM,554
+nanotorch/optim.py,sha256=7SOKqNMHOgAT37W6Wh4t3LzlBtojdsCEjLXKbPtyDFQ,4010
+nanotorch/version.py,sha256=UoBtwZ5Pu3FfLH2uPqXHAfKB_GdiTFCbBvrh6rKBI4k,571
+nanotorch/nn/__init__.py,sha256=NOL1CwR9agjqKrQ5RVUCTXZyEF5tkEKInlKhg8nXn3w,837
+nanotorch/nn/_layers.py,sha256=bb_Y1L86hNgXeOc3iAi2XliAQxRtO195lUXqfxd63bM,11239
+nanotorch/nn/_losses.py,sha256=sccr8VJqvKeZv3zZBjIR4ejQy7cwTzCuVxF3rLIQPbE,3761
+nanotorch/nn/functional.py,sha256=KN7z_sUi5pSJKJo7suVZJzq3nXAiMbWMxxkGLihmXo8,3427
+nanotorch-2.1.0.dist-info/LICENSE,sha256=nnCasqtQ0wbRlS1NwtPOPd9N8Nyi3xAcMaRH_xwqJYU,1101
+nanotorch-2.1.0.dist-info/METADATA,sha256=qSB02l-5W6F4jMcmFitZXZLn-k88cPRgj-cClAi-Ya8,5770
+nanotorch-2.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+nanotorch-2.1.0.dist-info/top_level.txt,sha256=w4fLZYzh69uOOTeEPYTPTe_0bq6eN5V2_LCG8V0_hec,10
+nanotorch-2.1.0.dist-info/RECORD,,
