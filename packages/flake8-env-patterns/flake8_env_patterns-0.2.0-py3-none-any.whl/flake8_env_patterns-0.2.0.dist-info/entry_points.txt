@@ -1,0 +1,2 @@
+[flake8.extension]
+FPU = flake8_env_patterns:Plugin
