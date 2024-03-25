@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: beautider
+Version: 0.1.1
+Summary: Module for creating progress bars.
+Home-page: https://github.com/bolgaro4ka
+Author: bolgaro4ka
+Author-email: bolgaro4ka.github@gmail.com
+Project-URL: GitHub, https://github.com/bolgaro4ka
+Keywords: progress bar
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Beautider
+
+Module for creating progress bars.
+
+## Examples
+
+### Example in Lib
+
+You can see an example of how to use the library using this code: 
+
+```
+from beautider import *
+
+load = Loader().example()
+```
+
+You should see the following:
+
+![img](img.png)
+
+### Another example
+
+```
+import time
+from beautider import *
+
+load = Loader(description='I load nothing')
+
+while True:
+    for _ in range(1, 101):
+        load.update(1)
+        time.sleep(0.1)
+        load.pr_load()
+    for _ in range(1, 101):
+        load.update(-1)
+        time.sleep(0.1)
+        load.pr_load()
+```
+![img](img_1.png)
+![img](img_2.png)
+## Args
+
+ - size - The larger this value, the smaller the bar progress. (if your max_value very large, then the size value should be set larger.)
+ - colors - Use of colours (True/False)
+ - description - Description next to progress bar
+ - complete_symbol - Symbols that are responsible for the filled part of the progress bar
+ - uncomplete_symbol - Symbols that are responsible for the unfilled part of the progress bar
+ - borders - Borders of progress bar (for example: ```'[]'```, ```'{}'```, ```'--'```, ```'[}'```)
+ - units - Units of measurement (default %)
+ - max_value - Progress bar ends here
+ - min_value - Progress bar started from here
+ - show_of - Shows text "```x``` in ```max_value``` ```units```"
+ - show_speed - Shows speed
+
+## Developer
+By bolgaro4ka. [Link](https://github.com/bolgaro4ka)
