@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/just_some_research_0.0.2_py3_none_any.whl.egg-info/PKG-INFO
+src/just_some_research_0.0.2_py3_none_any.whl.egg-info/SOURCES.txt
+src/just_some_research_0.0.2_py3_none_any.whl.egg-info/dependency_links.txt
+src/just_some_research_0.0.2_py3_none_any.whl.egg-info/top_level.txt
