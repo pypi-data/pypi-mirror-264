@@ -1,0 +1,12 @@
+hisock/__init__.py,sha256=izZJFIN4W1AEWGdlF5nq7YnUgHdS_vOE3YZyZgxdj2I,658
+hisock/_shared.py,sha256=LVN6Mqn5geDo7KLNkmzf6nF2c0fDUyoep3vqbVGcMS0,11973
+hisock/_typecast.py,sha256=8gtDRnwpmINVWqwSxtgYNvJ305vdPvkrr06T6IqwGs8,8339
+hisock/client.py,sha256=q5KliQ6TSxQ1kYrPPDfgcZ0HlI84O0Cvm23Xjx4UrpI,29299
+hisock/constants.py,sha256=hHJvLxuBjd6RbM_relAdbf-pO3qZKLg4ioEQlRttjRg,349
+hisock/server.py,sha256=uX5YrMy62v7wFN7c6h0Mac9OL17y0NsKsjBfCTMw2ro,39115
+hisock/utils.py,sha256=MuP2QEEwBJJUgKqtt7djPr_aWxeCbxQfZeheIwc9VBI,14423
+hisock-3.0a0.dist-info/LICENSE,sha256=Y5AaolM2YOhkkxddkegS64Baj8Nr7geVKAKVtxyqtK0,1078
+hisock-3.0a0.dist-info/METADATA,sha256=WMWkyR0UeLvu7WzTkkdwsArMJniG0SSx57kdSGj13OA,7891
+hisock-3.0a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+hisock-3.0a0.dist-info/top_level.txt,sha256=cwEUqgC_KAGAJYDLBbizVRQ5JDbWH3sZHuBJUPF94nc,7
+hisock-3.0a0.dist-info/RECORD,,
