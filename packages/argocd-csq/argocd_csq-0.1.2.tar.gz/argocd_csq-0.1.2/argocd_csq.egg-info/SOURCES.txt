@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+argocd_csq/__init__.py
+argocd_csq/auth_okta.py
+argocd_csq/auth_type.py
+argocd_csq/entrypoint_script.py
+argocd_csq/login_type.py
+argocd_csq/main.py
+argocd_csq.egg-info/PKG-INFO
+argocd_csq.egg-info/SOURCES.txt
+argocd_csq.egg-info/dependency_links.txt
+argocd_csq.egg-info/entry_points.txt
+argocd_csq.egg-info/requires.txt
+argocd_csq.egg-info/top_level.txt
