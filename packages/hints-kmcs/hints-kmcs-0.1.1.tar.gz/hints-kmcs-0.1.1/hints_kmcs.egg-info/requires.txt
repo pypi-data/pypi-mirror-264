@@ -1,0 +1,15 @@
+tqdm
+ipykernel
+numpy
+pandas
+jitcsde
+sympy
+matplotlib
+seaborn
+scikit-image
+myst_parser>=0.15.2
+sphinxcontrib-bibtex>=2.4.1
+nbsphinx
+nbsphinx_link
+pandoc
+groundwork-sphinx-theme
