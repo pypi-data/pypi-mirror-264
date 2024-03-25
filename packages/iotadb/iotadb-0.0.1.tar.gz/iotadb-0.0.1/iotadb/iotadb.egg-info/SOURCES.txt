@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+iotadb/iotadb.egg-info/PKG-INFO
+iotadb/iotadb.egg-info/SOURCES.txt
+iotadb/iotadb.egg-info/dependency_links.txt
+iotadb/iotadb.egg-info/requires.txt
+iotadb/iotadb.egg-info/top_level.txt
+iotadb/tests/__init__.py
