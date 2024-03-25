@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: convbase
+Version: 0.1.0
+Summary: Base conversion command line utility.
+Author-email: Kyle O'Malley <j.kyle.omalley@gmail.com>
+Project-URL: Documentation, https://github.com/jkomalley/convbase#readme
+Project-URL: Issues, https://github.com/jkomalley/convbase/issues
+Project-URL: Source, https://github.com/jkomalley/convbase
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+
+# convbase
+
+![PyPI - Status](https://img.shields.io/pypi/status/convbase)
+[![image](https://img.shields.io/pypi/v/convbase.svg)](https://pypi.python.org/pypi/convbase)
+[![image](https://img.shields.io/pypi/l/convbase.svg)](https://pypi.python.org/pypi/convbase)
+[![image](https://img.shields.io/pypi/pyversions/convbase.svg)](https://pypi.python.org/pypi/convbase)
+[![Actions status](https://github.com/jkomalley/convbase/workflows/CI/badge.svg)](https://github.com/jkomalley/convbase/actions)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+Base conversion command line utility.
