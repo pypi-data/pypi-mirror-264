@@ -1,0 +1,8 @@
+setup.py
+digikalacrawler/__init__.py
+digikalacrawler/crawler.py
+digikalacrawler.egg-info/PKG-INFO
+digikalacrawler.egg-info/SOURCES.txt
+digikalacrawler.egg-info/dependency_links.txt
+digikalacrawler.egg-info/requires.txt
+digikalacrawler.egg-info/top_level.txt
