@@ -1,0 +1,10 @@
+semver4/__init__.py,sha256=et5JZxiuVZKmRl9YyL9QQ106j4DpjGO0RrR8NMlMwlc,2142
+semver4/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semver4/baseversion.py,sha256=nKdglA2XkFuqaa0pv8o-yZnIwC1DmdyX9fnVTqF9Q5U,8445
+semver4/errors.py,sha256=_BNrSJdEYpPEqL64z7eTmu_DkWoWMf9TGgOqP_Zd8xU,276
+semver4/yaml.py,sha256=DSM-nhz6yGor3j8fv2BkroA2TKI9HWoqrAN1HuTTX4M,1339
+semver4-0.0.1b7.dist-info/LICENSE,sha256=VTjx0eFBWUBXbrTnRQC7Nqr1cbNfR9lQGpGmXz3D_AQ,1092
+semver4-0.0.1b7.dist-info/METADATA,sha256=R2kh2Ze4xDcfwqwxtECNfYpEiCOWopQLaVC1-X6SCAc,4200
+semver4-0.0.1b7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+semver4-0.0.1b7.dist-info/top_level.txt,sha256=6LGlZChF1k9x0lWvw3x2uVBQYoovlCt3Ekpwwtv_VWk,8
+semver4-0.0.1b7.dist-info/RECORD,,
