@@ -1,0 +1,12 @@
+synthx/__init__.py,sha256=l-X6sqp8-lcYu7q_sMykQQY1gIhWBYjaQLKz73Vhw-Q,371
+synthx/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synthx/core/dataset.py,sha256=RZliufBvfiI-tgO8jaoPK1oa_G7pA_i_SlYzaSnHvtk,5156
+synthx/core/result.py,sha256=FONi2aZlA7b--0XKqZ86XeKTH3As27tGInYmIqv4Gxo,4718
+synthx/core/sample.py,sha256=IJC1e1w_27fGfBFGTHu6PmJL9D1xngmg0EOnvtnfn9U,6749
+synthx/errors/__init__.py,sha256=p_WmZQ6PhNl5E-06gipKUyVcJV_6Z_cWdpbfIAruFqQ,579
+synthx/method.py,sha256=piEZidkuPbHUdKcr-kaAIWrs8OXeiUj-2KYwEL-ni_0,5975
+synthx/stats/__init__.py,sha256=jPZxbLqQXftxpefxC0lNeVFpX55b-Z8wUCvBpwpF0XQ,91
+synthx/stats/p.py,sha256=bXhvMa0lv3XzW7hR8kLvKVhQRhfHFTL2-kAIuyFr4E4,1026
+synthx-0.1.0.dist-info/METADATA,sha256=AJBjoPuM1a56aCmlN4gzs1OcPjmJOh7VbZZMc8plicg,781
+synthx-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+synthx-0.1.0.dist-info/RECORD,,
