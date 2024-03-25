@@ -1,0 +1,11 @@
+mailtarget_sdk/__init__.py,sha256=_Ud8_1_WAJ0nm5tANLnkjKpdNwITVq2_ZZhPVSYgPf8,134
+mailtarget_sdk/layang.py,sha256=3dbKEVLj7nwKXSS4-_ODBIPRNwuOHyjv3AnEDmu7jVw,921
+mailtarget_sdk/message.py,sha256=3H92WjgQSmTyT1WwyVV5G9NumMzLN-2H304cKqZcVqI,3497
+mailtarget_sdk/message_component.py,sha256=CSp0PrMYaOhZv4kN1Uc5p0mXpAQU7mm5iDYbhCyLgp4,1435
+mailtarget_sdk/validation.py,sha256=srTOvuhPPyCQcrWJXcqouk5V3ayOS-Hptishs4iipt4,386
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_layang.py,sha256=yR8bCogBm-pdE6dNqB0XFVqGeUJl-C04JqKCzV73QcU,459
+mailtarget_sdk-0.1.0.dist-info/METADATA,sha256=vInEbV_8-BbKfwKhQBjHnASIvUSTvsg2tmVA3M90q3w,2366
+mailtarget_sdk-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mailtarget_sdk-0.1.0.dist-info/top_level.txt,sha256=wXNvAzt3C3Rhyueut4fkcwYFLDGqQP0zRMyR85CPqKs,21
+mailtarget_sdk-0.1.0.dist-info/RECORD,,
