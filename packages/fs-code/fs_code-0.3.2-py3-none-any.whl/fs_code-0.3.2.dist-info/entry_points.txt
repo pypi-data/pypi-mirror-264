@@ -1,0 +1,5 @@
+[fs.opener]
+gitfs=codefs.gitfs.opener:Opener[gitfs]
+github=codefs.githubfs.opener:Opener[githubfs]
+gitlab=codefs.gitlabfs.opener:Opener[gitlabfs]
+
