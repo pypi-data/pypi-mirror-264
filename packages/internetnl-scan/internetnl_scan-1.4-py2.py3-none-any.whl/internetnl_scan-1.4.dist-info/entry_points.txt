@@ -1,0 +1,2 @@
+[console_scripts]
+internetnl_scan = internetnl_scan.main:run
