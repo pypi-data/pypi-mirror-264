@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/te_xtr.egg-info/PKG-INFO
+src/te_xtr.egg-info/SOURCES.txt
+src/te_xtr.egg-info/dependency_links.txt
+src/te_xtr.egg-info/top_level.txt
+src/xtr/__init__.py
+src/xtr/example.py
+tests/test_tetk.py
