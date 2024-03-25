@@ -1,0 +1,13 @@
+ihighlight/__init__.py,sha256=XoAEaUGVj8gIT9d_lJZygvtnmtQkBmrlGM7BqS4wwyI,152
+ihighlight/_version.py,sha256=Y5SHlIXuXAzscWObrzxD1FAWP3sbr0Gm3wiDKpFPtvs,171
+ihighlight-1.0.0.data/data/share/jupyter/labextensions/ihighlight/package.json,sha256=hB1ud9Y_JkHgyPHVBr5MBrKqMTh-NULOGzSdT5HNZ8s,5317
+ihighlight-1.0.0.data/data/share/jupyter/labextensions/ihighlight/static/509.8a902ba3072df86a27eb.js,sha256=ipArowct-Gon6yuKemb0844UtKeKR4ku-QfK1LubUc4,1786
+ihighlight-1.0.0.data/data/share/jupyter/labextensions/ihighlight/static/728.c659f4fe8a60c345126b.js,sha256=xln0_opgw0USa-Wiq99k67FV7DA3-5r7xB6IoJsJUVw,5587
+ihighlight-1.0.0.data/data/share/jupyter/labextensions/ihighlight/static/remoteEntry.a139aa4bbb508fa3e55c.js,sha256=oTmqS7tQj6PlXK2PzPw2jTmfL1rs4tTQKJGSnbnHtrc,6401
+ihighlight-1.0.0.data/data/share/jupyter/labextensions/ihighlight/static/style.js,sha256=c4buzaP1DM3Ejjr_6KCTnoQPYW2KncKLkdHVDLsTRcE,153
+ihighlight-1.0.0.data/data/share/jupyter/labextensions/ihighlight/static/third-party-licenses.json,sha256=i4z96RB0T1_RGdmoFCyvPxH0skhEL5qSKT9D1EdclF8,2453
+ihighlight-1.0.0.data/data/share/jupyter/labextensions/ihighlight/install.json,sha256=2vJmIodx2qn1OT1_edM6gY9GG6SCxjiUiWTXwplR710,181
+ihighlight-1.0.0.dist-info/METADATA,sha256=bKlsAPgaKSOya4Z6YBUr4YjTiXc8md5tivwrs8ecNHM,5410
+ihighlight-1.0.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+ihighlight-1.0.0.dist-info/licenses/LICENSE,sha256=54DCQpMBkR8BnILT5fXGAgZ_6sGZb6WKIhl9v6DGOxk,1514
+ihighlight-1.0.0.dist-info/RECORD,,
