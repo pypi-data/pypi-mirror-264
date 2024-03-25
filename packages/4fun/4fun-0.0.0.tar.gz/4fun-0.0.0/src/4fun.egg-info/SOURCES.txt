@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/4fun/__init__.py
+src/4fun/magic_8_ball.py
+src/4fun.egg-info/PKG-INFO
+src/4fun.egg-info/SOURCES.txt
+src/4fun.egg-info/dependency_links.txt
+src/4fun.egg-info/top_level.txt
+tests/test_functions.py
