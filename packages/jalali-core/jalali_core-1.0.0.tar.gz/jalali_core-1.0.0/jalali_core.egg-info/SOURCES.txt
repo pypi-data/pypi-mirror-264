@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+jalali_core/__init__.py
+jalali_core.egg-info/PKG-INFO
+jalali_core.egg-info/SOURCES.txt
+jalali_core.egg-info/dependency_links.txt
+jalali_core.egg-info/top_level.txt
