@@ -1,0 +1,4 @@
+[console_scripts]
+pi-base = pi_base.__main__:main
+pi-base-manager = pi_base.lib.manager:main
+pi_base = pi_base.__main__:main
