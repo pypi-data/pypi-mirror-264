@@ -1,0 +1,3 @@
+include pidconnectioninfos/requirements.txt
+include pidconnectioninfos/thirdparty.json
+include pidconnectioninfos/README.MD

@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pidconnectioninfos/README.MD
+pidconnectioninfos/__init__.py
+pidconnectioninfos/requirements.txt
+pidconnectioninfos/thirdparty.json
+pidconnectioninfos.egg-info/PKG-INFO
+pidconnectioninfos.egg-info/SOURCES.txt
+pidconnectioninfos.egg-info/dependency_links.txt
+pidconnectioninfos.egg-info/requires.txt
+pidconnectioninfos.egg-info/top_level.txt
