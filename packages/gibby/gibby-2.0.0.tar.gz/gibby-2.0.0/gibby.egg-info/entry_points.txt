@@ -1,0 +1,2 @@
+[console_scripts]
+gibby = gibby.cli.__main__:app
