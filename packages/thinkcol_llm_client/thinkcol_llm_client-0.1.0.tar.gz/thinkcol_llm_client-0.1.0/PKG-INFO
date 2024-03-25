@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: thinkcol_llm_client
+Version: 0.1.0
+Summary: 
+Author: jedric01
+Author-email: jedric@connect.ust.hk
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (>=1.34.68,<2.0.0)
+Requires-Dist: openai (>=1.14.2,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# LLM Client 
+Internal package for making calls to LLMs.
+
+## Install
+```
+pip install llm-client
+```
+
+## Usage: 
+```
+import asyncio
+from clients.openai_client import OpenAIClient
+
+texts = ["Hello", "Text 1", "ThinkCol"]
+
+client = OpenAIClient()
+asyncio.run(client.embed(texts))
+
+questions = ["How do I implement best practices in data science projects" for _ in range(500)]
+asyncio.run(client.invoke(questions))
+```
