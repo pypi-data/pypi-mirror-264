@@ -1,0 +1,18 @@
+CHANGES
+=======
+
+2.2.3
+-----
+
+* change github actions python version to 3.8
+* hotfix for adbutils package script after change to importlib.resource
+* Remove pkg resources (#105)
+* little update
+* update remove\_dir to rmtree (ref shutil)
+* remove useless imports
+* as\_posix instead of str
+* deleted commented fixtures I forgot to delete
+* update usage
+* support shell with bytes output
+* change screenshot from /sdcard to /data/local/tmp to fix screenshot popup
+* fix decode error, close https://github.com/openatx/adbutils/pull/99
