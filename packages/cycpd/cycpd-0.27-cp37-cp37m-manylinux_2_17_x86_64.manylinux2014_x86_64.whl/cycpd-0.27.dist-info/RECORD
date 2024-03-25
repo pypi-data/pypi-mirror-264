@@ -1,0 +1,11 @@
+cython_functions.cpython-37m-x86_64-linux-gnu.so,sha256=RDamyq_by8lXbT5iXe-Qc3BLIMNQKpVmAWfhgnptRIU,2017856
+cycpd/__init__.py,sha256=qcuG71NuywK_1eojZKQBpw5pirDOYcCANucS6h9navM,674
+cycpd/deformable_registration.py,sha256=Fmqoo_eOzHZKV39_7dmyfMSnrsGvE9tGN8tMIw8DMQw,6159
+cycpd/rigid_registration.py,sha256=W-benJQ_R8tWrYa8MqhAgluqDjF0EYh59XdRl5tKdVg,5370
+cycpd/affine_registration.py,sha256=fmRCtuMEvf9BNS3AJdInjGDYXvOJWsF1_QEEHOMQN4w,2454
+cycpd/expectation_maximization_registration.py,sha256=u5z38uhk1Zq0QaUCrnrdlNvGTPwjyKqlUhR3Zw2JKjw,7646
+cycpd-0.27.dist-info/RECORD,,
+cycpd-0.27.dist-info/METADATA,sha256=0qzelb4_1KgkbW_NToAActouQ5SAf8dVfudlEIqbH9c,6521
+cycpd-0.27.dist-info/WHEEL,sha256=XTrbe1v1RZIwaNy2ykqZ1b32V5o3CvHsSToseXBj9JY,150
+cycpd-0.27.dist-info/top_level.txt,sha256=iHb46ovA4-tc9Uhi4iI5m7SqfOtJL_6NJW1OkStM1NU,23
+cycpd-0.27.dist-info/LICENSE,sha256=VOIA0-adIE_J1NdmHiIF4BXRsLIXkAwLsnEzulsVtFg,1070
