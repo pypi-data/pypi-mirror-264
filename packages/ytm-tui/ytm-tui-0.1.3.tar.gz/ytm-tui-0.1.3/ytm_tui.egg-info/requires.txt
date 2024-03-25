@@ -1,0 +1,6 @@
+ytmusicapi
+toml
+python-mpv
+
+[fancy feature]
+curses
