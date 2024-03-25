@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kamaelia-axon
+Version: 1.14.32
+Summary: Axon - Asynchronous Isolated Generator Component System
+Home-page: http://www.kamaelia.org/
+Author: Michael Sparks (sparkslabs)
+Author-email: sparks.m@gmail.com
+License: Apache Software License
+License-File: COPYING
+License-File: AUTHORS
+
+
+Axon is a software component system. In Axon, components are active and
+reactive, independent processing nodes responding to a CSP-like environment.
+Systems are composed by creating communications channels (linkages) between
+components.
