@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pylips
+Version: 0.0.5
+Summary: An interface for embodied conversational interaction.
+Home-page: https://github.com/interaction-lab/PyLips
+Author: Interaction Lab
+Author-email: dennler@usc.edu
+License: MIT license
+Keywords: lips
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask>=2.0.1
+Requires-Dist: flask-socketio>=5.1.1
+Requires-Dist: python-socketio>=5.11.1
+Requires-Dist: boto3>=1.18.67
+Requires-Dist: pygame>=2.1.1
+Requires-Dist: py3-tts>=3.5
+Requires-Dist: allosaurus>=1.0.2
+Provides-Extra: dev
+Requires-Dist: pip>=20.3; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: yapf; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest==7.0.1; extra == "dev"
+Requires-Dist: pytest-cov==3.0.0; extra == "dev"
+Requires-Dist: pytest-benchmark==3.4.1; extra == "dev"
+Requires-Dist: pytest-xdist==2.5.0; extra == "dev"
+Requires-Dist: myst-nb==0.17.1; extra == "dev"
+Requires-Dist: Sphinx==4.5.0; extra == "dev"
+Requires-Dist: sphinx-autobuild==2021.3.14; extra == "dev"
+Requires-Dist: sphinx-autodoc-typehints==1.18.2; extra == "dev"
+Requires-Dist: sphinx-codeautolink==0.12.1; extra == "dev"
+Requires-Dist: sphinx-copybutton==0.3.1; extra == "dev"
+Requires-Dist: sphinx-jinja2-compat==0.2.0; extra == "dev"
+Requires-Dist: sphinx-material==0.0.32; extra == "dev"
+Requires-Dist: sphinx-prompt==1.5.0; extra == "dev"
+Requires-Dist: sphinx-tabs==3.3.1; extra == "dev"
+Requires-Dist: sphinx-toolbox==3.1.0; extra == "dev"
+Requires-Dist: sphinxcontrib-applehelp==1.0.4; extra == "dev"
+Requires-Dist: sphinxcontrib-devhelp==1.0.2; extra == "dev"
+Requires-Dist: sphinxcontrib-htmlhelp==2.0.1; extra == "dev"
+Requires-Dist: sphinxcontrib-jsmath==1.0.1; extra == "dev"
+Requires-Dist: sphinxcontrib-qthelp==1.0.3; extra == "dev"
+Requires-Dist: sphinxcontrib-serializinghtml==1.1.5; extra == "dev"
+Requires-Dist: bump2version==1.0.1; extra == "dev"
+Requires-Dist: wheel==0.40.0; extra == "dev"
+Requires-Dist: twine==4.0.2; extra == "dev"
+Requires-Dist: check-wheel-contents==0.4.0; extra == "dev"
+
+# PyLips
+Web-Enabled Facial Text-to-Speech
+
+
+# History
+
+## 0.0.0 (2024-03-24)
+
+- pylips begins
