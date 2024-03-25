@@ -1,0 +1,2 @@
+[console_scripts]
+argocd_csq = argocd_csq.entrypoint_script:main
