@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sapiensnb
+Version: 1.0.3
+Summary: SapiensNB (Naive Bayes) is a classification algorithm that returns a probabilistic result based on Bayes Theorem.
+Home-page: https://github.com/sapiens-technology/SapiensNB
+Author: SAPIENS TECHNOLOGY
+License: Proprietary Software
+Project-URL: Source code, https://github.com/sapiens-technology/SapiensNB
+Project-URL: Download, https://github.com/sapiens-technology/SapiensNB/archive/refs/heads/main.zip
+Keywords: Sapiens,Artificial Intelligence,Machine Learning,Data Science,AI,ML,Naive Bayes
+License-File: LICENSE.txt
+
+The SapiensNB or Sapiens for Naive Bayes is a Machine Learning algorithm focused on probabilistic data classification, where the answer for each input is calculated based on the highest probability of similarity between the prediction input and the training inputs. The probabilistic calculation is based on the following mathematical theorem: P(A/B) = P(B/A) x P(A) / P(B), where P is the probability, A is the class and B are the attributes. This theorem can be applied to both numerical classification and textual classification of data.
