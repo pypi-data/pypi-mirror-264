@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tooltip/__init__.py
+tooltip/main.py
+tooltip.egg-info/PKG-INFO
+tooltip.egg-info/SOURCES.txt
+tooltip.egg-info/dependency_links.txt
+tooltip.egg-info/top_level.txt
