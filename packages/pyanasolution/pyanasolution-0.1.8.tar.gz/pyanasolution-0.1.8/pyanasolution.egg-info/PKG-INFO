@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyanasolution
+Version: 0.1.8
+Summary: A calculation tool for common analytical solutions.
+Home-page: https://gitee.com/geo-tech/py-ana-solution
+Author: P. Hong & F.Y. Zhao
+Author-email: frankhp@163.com
+Requires-Python: >=3.6
+License-File: LICENSE
