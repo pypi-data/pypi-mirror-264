@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: optivision
+Version: 0.2.0
+Summary: Simple Image Processing Library
+Author: Preet Sojitra
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.19.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# OptiVision
+
+Image Processing Library for Python. Implements a variety of image processing algorithms from scratch.
+
+---
+
+> **Note**: This library is just a fun project to learn about image processing and computer vision algorithms from scratch and to enhance my understanding of the concepts.
+
+
+---
+Various implemenatations of image processing algorithms from scratch using Python has been implemented in [this repository](https://github.com/Preet-Sojitra/DIP) as part of Digital Image Processing course at my university.
+
+---
+## Installation
+
+```bash
+pip install optivision
+```
