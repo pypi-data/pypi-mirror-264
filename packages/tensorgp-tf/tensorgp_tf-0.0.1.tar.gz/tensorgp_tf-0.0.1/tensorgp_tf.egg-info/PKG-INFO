@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tensorgp-tf
+Version: 0.0.1
+Summary: A vectorized approach to Genetic Programming - TensorFlow version
+Home-page: UNKNOWN
+Author: Francisco Baeta
+Author-email: <fjrbaeta@dei.uc.pt>
+License: UNKNOWN
+Project-URL: Source, https://github.com/AwardOfSky/TensorGP/tree/dev
+Keywords: Genetic Programming,Vectorization,GPU,Python,TensorFlow
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
