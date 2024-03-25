@@ -1,0 +1,13 @@
+corut_utils/__about__.py,sha256=B5gaXa_iv3KKAmR9gppWSb7F1Iaba-sVO-73URL8e70,20
+corut_utils/__init__.py,sha256=ICs3Tj5ZkDSnydQMvMF9Pew5_NBcQ4o70O_sC39Qh14,827
+corut_utils/contenttypes.py,sha256=HT4Waab9hC_nDUOGoWeGRoqInIUl6lQea567uI9Q9R4,4226
+corut_utils/shell/__init__.py,sha256=QjZEcUOzNBoHQ6a7ikV7TFWbBwQPDjeY4JE4tBm2d4g,61
+corut_utils/shell/dotenv.py,sha256=us42WUdCMKo3x9g-ScIXextyE5d_C0RviLl8ZkC_UAk,3442
+corut_utils/shell/pipupdater.py,sha256=3AqyWcND3ogmNCrxXOjUm053mkWF1aiX4VVRapAnmeI,1769
+corut_utils/shell/utilssys.py,sha256=UeWjAyu31GKZNxfeNVZOAoH0COPQMmC3-GSZFx_SL0Q,3123
+corut_utils/vcs/__init__.py,sha256=KRESndjifCryzZwTdj7lExoHrJn25uO6f99OlwjkVDc,30
+corut_utils/vcs/utilsgit.py,sha256=Zz1Zw_YWvppABXKLCUX0XnprAEU-EVjz-ijqhd-7aRE,3840
+corut_utils-0.1.dist-info/METADATA,sha256=Pl4z6_9f5XkTR24kx_idtoQjUu0u4FIaZ9c1XAOiGDk,2405
+corut_utils-0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+corut_utils-0.1.dist-info/licenses/LICENSE,sha256=D37DxHT5DFfjkvC7Wa9IIgBvpiJSVLySho7nxBISr8Q,1093
+corut_utils-0.1.dist-info/RECORD,,
