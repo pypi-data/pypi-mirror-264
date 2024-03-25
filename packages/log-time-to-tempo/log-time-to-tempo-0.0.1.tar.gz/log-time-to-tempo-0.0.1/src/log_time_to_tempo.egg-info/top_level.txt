@@ -1,0 +1,2 @@
+log_time_to_tempo
+test_log_time_to_tempo

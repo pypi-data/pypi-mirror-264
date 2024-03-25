@@ -1,0 +1,15 @@
+jira
+typer[all]
+rich
+python-dotenv
+keyring
+coloredlogs
+requests
+pydantic
+python-dateutil
+
+[test]
+pytest
+pytest-cov
+hypothesis
+ruff
