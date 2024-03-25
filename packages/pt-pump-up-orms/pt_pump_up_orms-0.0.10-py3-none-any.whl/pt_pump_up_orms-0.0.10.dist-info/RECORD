@@ -1,0 +1,16 @@
+pt_pump_up_orms/ORM.py,sha256=jt5SfiHrpXZrZrTV6PWXnrxoHCnhXAdRZ9Advt307Lo,869
+pt_pump_up_orms/__init__.py,sha256=fZ5iGkBf5cC0xsi460Xl9yhNAy8rUAIsTmym0txaBd4,318
+pt_pump_up_orms/exception/HTTPException.py,sha256=JtfWv_5YIGJgUO09rzM-k8MJWVYTf9Ksnh01-0TlRO8,178
+pt_pump_up_orms/exception/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pt_pump_up_orms/orms/Author.py,sha256=U56D10eO-d1C2hEk1zTh8-io24-JHnrAei_kkN0niq0,1458
+pt_pump_up_orms/orms/Dataset.py,sha256=SsS_-qsXAoWDq8eQ1wALCDrfDqgz7WJWVxTgtWxzzWE,4065
+pt_pump_up_orms/orms/Link.py,sha256=g6SqCHr-LVdxLv08hpTINdox-3gRxe-zcRhEE_h7e-8,2915
+pt_pump_up_orms/orms/Model.py,sha256=g69DY4X-c7-LJ_mbA87PRaUYw0_IzRTHrPDP1mflm9A,4291
+pt_pump_up_orms/orms/NLP_Task.py,sha256=JSdT_5lwm4WhB2nXtNgzkWtbeXa2WjDN7wg2iw4UCec,3006
+pt_pump_up_orms/orms/ResourceStats.py,sha256=XMK9sb0qrMYhWAGCavwx1q98FBVMRs3W3-fJxi_zrkg,1943
+pt_pump_up_orms/orms/Result.py,sha256=2eFKqrFoBC9wvmgeXr_UnrMOa8CYr4j-XpHXwEIoao4,2600
+pt_pump_up_orms/orms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pt_pump_up_orms-0.0.10.dist-info/METADATA,sha256=FxhsV9XY3XBG8835L3VfdkhP0aQGgjybUywvlY4QKQY,403
+pt_pump_up_orms-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pt_pump_up_orms-0.0.10.dist-info/top_level.txt,sha256=YcGcilU1ygibaMvRMx1abcLFv1aBvRKW0hN3E5eUuHU,16
+pt_pump_up_orms-0.0.10.dist-info/RECORD,,
