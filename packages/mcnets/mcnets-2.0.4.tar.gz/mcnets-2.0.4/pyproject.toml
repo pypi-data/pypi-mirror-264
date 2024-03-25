@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "numpy", "joblib"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcnets"
+version = "2.0.4"
+authors = [
+  { name="Sean", email="svs.2k15@gmail.com" },
+]
+description = "Lightweight Machine Learning package with models that train using simple Monte Carlo-like methods."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SciCapt/Monte-Carlo-Neural-Nets"
+"Bug Tracker" = "https://github.com/SciCapt/Monte-Carlo-Neural-Nets/issues"
