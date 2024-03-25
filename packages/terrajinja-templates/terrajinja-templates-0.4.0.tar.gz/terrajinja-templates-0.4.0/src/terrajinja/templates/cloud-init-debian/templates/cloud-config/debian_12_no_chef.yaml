@@ -1,0 +1,53 @@
+#cloud-config
+# available variables:
+# ['ns', 'name', 'count', 'template_name', 'cloud_config_file', 'ip_addresses', 'network_name', 'dns_hosts', 'vdc_urn', 'memory_hot_add_enabled', 'cpu_hot_add_enabled', 'power_on', 'placement_strategy', 'placements', 'first_digit', 'catalog_organization', 'catalog_name', 'naming_format', 'vault_policies', 'vault_token_period', 'vault_orphan', 'vault_renewable', 'vault_renew_min_lease', 'vault_renew_increment', 'proxy_url', 'chef_run_list', 'chef_client_version', 'chef_encrypted_databag_secret', 'chef_server_url', 'chef_environment', 'chef_validator_name', 'chef_validator_pem', 'chef_required_parameters', 'chef_missing_parameters', 'placement_policy_id', 'vault_token_client_token', 'key', 'value', 'vm_name', 'vm_zone_id', 'vm_zone_name', 'vm_ip']
+groups:
+  - opsstaff
+users:
+  - name: bootstrap
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    passwd: "$y$j9T$ygxEJ5rxjtCtdTEFDK2Xv0$12cYNVty/woemZ.W.DH10FnLQpclANlk3TYNWvty0F1"
+    primary_group: opsstaff
+    no_user_group: true
+    ssh_authorized_keys: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDrXWLiJ4K659CVW/GHEWHGm2NRxeCULLQqaRbx7lYGLEyEJoQvB5BT7lZ3sD7upTMPgB/7VXRrkA0+iqNGSvFVuEJPUWcabIu26x5bQKFpxD8luNWFb2L8eSmf/xBC/WY40mNzGAhJisEQzQdv4VbdDIFKycLDvecfGQni4CZhorlnLn49is5HhAkZBpJeE75RoEoZ2MCZ6Tj34S8hAElLuiF75ViV5N4WsNwxtsV0a/C09ZkQelLogNz6JdndVTTsR/parvQXJa20+xoIDfZRI7VVSJPLs73/sJrzsNvDb5iIj+SEbSx2huWk9ODyVR/IDIzll4Q3IMXaZGsN/zL+nROxAJJOLdkkMMYqeNlNAHCNIfwyDCP4rps+HJENzCKuk0pCHKiGQqPDxcKce1Cd6VTZoPYH54SMTunGay6XRc2BIhKdHQZw7LEdMj2ukQoRvz+B4ETDK/sZ7cTiYfocCQ5D9hlqe8kBjXmqOfcJFPnygQh6xTlD3i9M0H06TYHtIiw9VxqxeUdWm3TK5kbF07ESJvSvzHh+RXHrnGjfEPUlvZQbkgzA0yuI4+T/XK+OXBG5vtG+tQxm24MSuwPVUethorgFRtTg9rN/RG1au9oYc8/IkUqlSy34fxoP2UGoBpXa8wf7f2pxLk+PP+Bdl9Dgre/te1g4FG4FiKmSuQ== bootstrap@ofd'
+write_files:
+  - path: /etc/resolv.conf
+    permissions: "0644"
+    content: |
+      nameserver ${ dns_hosts[0] }
+  - path: /etc/profile.d/00-proxy.sh
+    permissions: "0640"
+    owner: root
+    content: |
+      export https_proxy=${ proxy_url }
+      export http_proxy=${ proxy_url }
+      export HTTPS_PROXY=${ proxy_url }
+      export HTTP_PROXY=${ proxy_url }
+  - path: /etc/apt/apt.conf.d/30waitlock
+    permissions: "0644"
+    owner: root
+    content: |
+      DPkg::Lock::Timeout=120;
+  - path: /etc/chef/.vault-token
+    permissions: "0600"
+    content: ${ vault_token_client_token }
+  - path: /root/bootstrap.sh
+    permissions: "0700"
+    owner: root
+    content: |
+      #!/usr/bin/bash
+      dpkg-reconfigure -f noninteractive openssh-server
+      systemctl restart ssh.service
+      groupmod -g 9000 opsstaff
+      #rm -f /etc/apt/sources.list
+      source /etc/profile.d/00-proxy.sh
+      echo $? > /tmp/chef-exitcode.log
+
+package_update: false
+package_upgrade: false
+
+output: { all: '| tee -a /var/log/cloud-init-output.log' }
+
+runcmd:
+  - /root/bootstrap.sh

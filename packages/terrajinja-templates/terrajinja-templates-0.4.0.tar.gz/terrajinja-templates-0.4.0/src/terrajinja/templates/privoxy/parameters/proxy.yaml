@@ -1,0 +1,18 @@
+proxy:
+  generic:
+    sbp: # sbp services
+      - ".schubergphilis.com"
+      - portal.sbp.cloud
+    debian: # required for apt updates
+      - deb.debian.org
+      - security.debian.org
+    chef:
+      - ".chef.io"
+      - rubygems.org
+      - ".rubygems.org"
+  management:
+    my_urls:
+      - my.url
+  test:
+    my_urls:
+      - my.url

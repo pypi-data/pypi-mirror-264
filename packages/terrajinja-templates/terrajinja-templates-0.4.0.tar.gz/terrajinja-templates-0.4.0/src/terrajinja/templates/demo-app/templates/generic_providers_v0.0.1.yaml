@@ -1,0 +1,7 @@
+# these providers will be loaded by all deployments
+terraform:
+  providers:
+    - task: tls-provider
+      module: tls.provider
+    - task: time-provider
+      module: time.provider

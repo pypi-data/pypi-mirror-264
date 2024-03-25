@@ -1,0 +1,61 @@
+terraform:
+  resources:
+    - task: privoxy-read-virtual-datacenter-group
+      module: vcd.data_vcd_vdc_group
+      parameters:
+        name: {{ [team.tla, environments[environment].tla, "dc", "group"] | join('-') | upper }}
+
+    - task: privoxy-read-edge-gateway
+      module: vcd.data_vcd_nsxt_edgegateway
+      parameters:
+        name: {{ [team.tla, environments[environment].tla, "edge"] | join('-') | upper }}
+        owner_id: $read-virtual-datacenter-group.id
+
+    - task: privoxy-read-network
+      module: vcd.data_vcd_network_routed_v2
+      parameters:
+        edge_gateway_id: $read-edge-gateway.id
+        name: {{ [team.tla, environments[environment].tla, "shr", "dmz"] | join('-') | upper }}
+        depends_on: [ '$shared-routed-network-dmz' ]
+
+    - task: privoxy-databag
+      module: sbp.chef.data_bag_item
+      parameters:
+        data_bag_name: privoxy
+        data_bag_item: {{ environments[environment].chef_environment }}
+        content:
+          permit_access_subnets:
+            - 127.0.0.1/32 # localhost
+            - {{ clouds[provider].environments[environment].cidr }} # intenal cidr
+            - 192.168.255.1/25 # loadbalancer
+          whitelist:
+          {% for group in proxy["generic"] %}
+            {% for url in proxy["generic"][group] %}
+            - "{{ url }}"
+            {% endfor -%}
+          {% endfor -%}
+          {% for group in proxy[environment] %}
+            {% for url in proxy[environment][group] %}
+            - "{{ url }}"
+            {% endfor -%}
+          {% endfor %}
+
+    - task: privoxy-vm
+      module: sbp.vcd.vm
+      parameters:
+{{ generic.vm.defaults | to_yaml(indent=8) }}
+{{ generic.vm.debian_12 | to_yaml(indent=8) }}
+        name: {{ [team.tla, environments[environment].tla, 'shr', 'prx'] | join('-') | lower }}
+        count: 2
+        ip_addresses: {{ clouds[provider].environments[environment].proxy_hosts }}
+        cpus: 2
+        memory: 4096
+        network_name: {{ [team.tla, environments[environment].tla, "shr", "dmz"] | join('-') | upper }}
+        dns_hosts: [ "8.8.8.8", "1.1.1.1" ]
+        chef_environment: {{ environments[environment].chef_environment }}
+        chef_run_list: [ baseline_role, proxy_role ]
+        vdc_urn: {{ clouds[provider].generic.vdc_urn }}
+        vdc: {{ [team.tla, environments[environment].tla ] | join('-') | upper }}
+        cloud_config_file: "{{ config_directory }}/templates/cloud-config/debian_12.yaml"
+        depends_on:
+          - '$shared-routed-network-dmz'

@@ -1,0 +1,17 @@
+# applications contains all applications we can deploy
+applications:
+  # This is the application called Evil
+  evil:
+    tla: evi
+    environments:
+
+      test:
+        # cloud provider this app till be deployed in for this environment
+        cloud_provider: sbp.cloud
+        # network details
+        network:
+          name: dmz
+          ips: [10.0.0.4, 10.0.0.5]
+        # not used in the demo, but for inspiration
+        chef_run_list:
+          - evil_app

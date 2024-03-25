@@ -1,0 +1,85 @@
+terraform:
+  providers:
+    - task: gitlab-provider
+      module: gitlab.provider
+      parameters:
+        token: "{{ env['GITLAB_RUNNER_PAT'] }}"
+        base_url: "{{  gitlab_runners.generic.gitlab_url }}/api/v4/"
+
+  resources:
+    {%  for runner in gitlab_runners[environment] %}
+    - task: shared-gitlab-runner-{{ runner.name }}
+      module: gitlab.user_runner
+      parameters:
+        runner_type: {{  runner.runner_type }}
+        group_id: {{  runner.group_id }}
+        tag_list: {{  runner.tags }}
+        untagged: {{ runner.allow_untagged }}
+
+    - task: shared-gitlab-helm-deploy
+      module: helm.release
+      parameters:
+        name: {{ runner.name }}
+        repository: "https://gitlab-charts.s3.amazonaws.com"
+        chart: "gitlab-runner"
+        version: 0.57.0
+        namespace: gitlab-runner
+        create_namespace: true
+        set: [
+          {
+            name: concurrent,
+            value: "25"
+          },
+          {
+            name: runnerRegistrationToken,
+            value: "$shared-gitlab-runner-{{ runner.name  }}.token"
+          },
+          {
+            name: gitlabUrl,
+            value: {{ runner.gitlab_url }}
+          },
+          {
+            name: rbac.create,
+            value: "true",
+          },
+          {
+            name: rbac.clusterWideAccess,
+            value: "true",
+          },
+          {
+            name: securityContext.privileged,
+            value: "true",
+          },
+          {
+            name: securityContext.allowPrivilegeEscalation,
+            value: "true",
+          },
+          {
+            name: runners.config,
+            # todo: checkout if we can use tomldecode
+            value: "[[runners]]\n  [runners.kubernetes]\n    namespace = \"gitlab-runner\"\n    image = \"ubuntu:22.04\"\n    privileged = true\n    service_account = \"{{ runner.name }}-gitlab-runner\"\n  [[runners.kubernetes.volumes.empty_dir]]\n    name = \"docker-certs\"\n    mount_path = \"/certs/client\"\n    medium = \"Memory\"\n  [runners.docker]\n    tls_verify = false\n    image = \"docker:24.0.5\"\n    privileged = true\n    disable_cache = true\n    volumes = [\"/certs/client\"]\n"
+          }
+        ]
+        set_list: [
+          {
+            name: "rbac.rules[0].resources",
+            value: [ "*" ]
+          },
+          {
+            name: "rbac.rules[0].verbs",
+            value: [ "get", "list", "watch", "create", "patch", "update", "delete" ]
+          },
+          {
+            name: "rbac.rules[1].apiGroups",
+            value: [ "apiextensions.k8s.io", "apps", "batch", "extensions", "policy", "rbac.authorization.k8s.io", "crd.antrea.io", "networking.k8s.io", "cert-manager.io" ]
+          },
+          {
+            name: "rbac.rules[1].resources",
+            value: [ "*" ]
+          },
+          {
+            name: "rbac.rules[1].verbs",
+            value: [ "*" ]
+          }
+        ]
+    {%  endfor %}
