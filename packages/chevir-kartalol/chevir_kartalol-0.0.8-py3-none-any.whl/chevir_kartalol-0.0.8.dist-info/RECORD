@@ -1,0 +1,9 @@
+chevir_kartalol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chevir_kartalol/evaluation.py,sha256=A6aGvpxPmaP7rmVXxbr7OkIrOq-qSNDbllPkfzpvvuU,3879
+chevir_kartalol/src_vocab202402.pt,sha256=xBNzhxSkVgsEDLwOmsyLMNBoscY_DS6GkNg94vBU0F0,1591731
+chevir_kartalol/target_vocab202402.pt,sha256=-iWbv8LaaDSzW9sD71IMWEo9VNO-abgcNKmgFEKeaSc,5300473
+chevir_kartalol/transformer.py,sha256=ljlyzicLlHT9-Db37XTvFgEBT0x3aiOcYr8aSrPyUq8,2299
+chevir_kartalol-0.0.8.dist-info/METADATA,sha256=zdN6Lxd7myLGWu7lEmDv6rQcAuu_JUeEeDki4R52-Qo,1643
+chevir_kartalol-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+chevir_kartalol-0.0.8.dist-info/top_level.txt,sha256=HE33gFczZg32ZL2D65Wh05JhofEABYn0vmbFuAnqXZc,16
+chevir_kartalol-0.0.8.dist-info/RECORD,,
