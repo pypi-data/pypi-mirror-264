@@ -1,0 +1,13 @@
+lupa/lua52.pypy310-pp73-x86_64-linux-gnu.so,sha256=8mh9wEC6pXq2h74h_0xamIGQXRG8-c8WbEYb2fYE01A,555360
+lupa/lua54.pypy310-pp73-x86_64-linux-gnu.so,sha256=x2fZ2HMmf5QEKpRBWhSbgMlgbPqcD7k6lMfSrGppkR4,649536
+lupa/__init__.py,sha256=c99ILOqbgXcktoS1YsqNLg9juNuAJZ_Yxm4VGEANkqo,3001
+lupa/lua53.pypy310-pp73-x86_64-linux-gnu.so,sha256=h6ZTyaQQOia5fN5ecU6s-lgXm16Qw6Xu7cbtM31Y6I4,592160
+lupa/luajit21.pypy310-pp73-x86_64-linux-gnu.so,sha256=k_v9v_8XKK4SwwyuTL3Eik9MmlWDsvrxsokVtqOpAXQ,1083936
+lupa/version.py,sha256=-yjKj08H9NSe_5N5qBYWmC9d9NK1uYPTPT5FuTBHiZg,20
+lupa/luajit20.pypy310-pp73-x86_64-linux-gnu.so,sha256=4o_5q3MfdNQfnmn8dQZIz7pOBu20zcAAor7puGBpo1w,977248
+lupa/lua51.pypy310-pp73-x86_64-linux-gnu.so,sha256=OIp5D7sip8ivVGn-wTjRPPglJ1JCukF0drWS3XLV_58,534912
+lupa-2.1.dist-info/RECORD,,
+lupa-2.1.dist-info/METADATA,sha256=2120Puzh9A56YYl3YksDUC9wnAqhahLVb6kEoBtilPw,57575
+lupa-2.1.dist-info/WHEEL,sha256=0p-T5AHFMCGOuiKS27tlM98JlE-NwlzCAN16C7Nmz0Y,166
+lupa-2.1.dist-info/top_level.txt,sha256=zBjq_OEwVlKBUT25L2ENcMO-9XdwVQSN7X6VHyH7Pcg,5
+lupa-2.1.dist-info/LICENSE.txt,sha256=lXr-SRPfxGn9YFQdhHpYHFvd1roMy3I5DteMdYN3aKE,2231
