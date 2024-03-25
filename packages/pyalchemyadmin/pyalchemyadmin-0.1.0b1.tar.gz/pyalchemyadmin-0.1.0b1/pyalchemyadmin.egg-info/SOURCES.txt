@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pyalchemyadmin/__init__.py
+pyalchemyadmin/db_manager.py
+pyalchemyadmin/dialect_db_manager.py
+pyalchemyadmin.egg-info/PKG-INFO
+pyalchemyadmin.egg-info/SOURCES.txt
+pyalchemyadmin.egg-info/dependency_links.txt
+pyalchemyadmin.egg-info/requires.txt
+pyalchemyadmin.egg-info/top_level.txt
