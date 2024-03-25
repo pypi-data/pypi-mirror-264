@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+brolog/__init__.py
+brolog/cli.py
+brolog/lex.py
+brolog/objects.py
+brolog/parse.py
+brolog/solver.py
+brolog.egg-info/PKG-INFO
+brolog.egg-info/SOURCES.txt
+brolog.egg-info/dependency_links.txt
+brolog.egg-info/entry_points.txt
+brolog.egg-info/requires.txt
+brolog.egg-info/top_level.txt
+tests/test_solver_output.py

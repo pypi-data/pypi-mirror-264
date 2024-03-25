@@ -1,0 +1,7 @@
+click
+
+[dev]
+pytest
+pytest-snapshot
+pre-commit
+ruff
