@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+recursive-include deploy/python *.py
+recursive-include deploy/utils *.py
+recursive-include ppcls/arch *.py
+recursive-include ppcls/utils *.py *.txt
+recursive-include deploy/configs *.yaml
