@@ -1,0 +1,4 @@
+Python Interpreter: CPython
+Python Version: 3.11
+Target OS: macosx_14_0
+Target Architecture: arm64
