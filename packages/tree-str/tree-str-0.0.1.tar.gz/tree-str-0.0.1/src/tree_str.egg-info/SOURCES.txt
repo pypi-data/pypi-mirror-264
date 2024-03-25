@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/tree_str.egg-info/PKG-INFO
+src/tree_str.egg-info/SOURCES.txt
+src/tree_str.egg-info/dependency_links.txt
+src/tree_str.egg-info/top_level.txt
