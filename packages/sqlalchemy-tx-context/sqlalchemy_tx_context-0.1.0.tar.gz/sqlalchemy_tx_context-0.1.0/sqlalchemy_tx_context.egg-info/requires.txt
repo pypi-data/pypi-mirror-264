@@ -1,0 +1,3 @@
+asyncpg>=0.29.0
+contextvars>=2.4
+requests>=2.0.0

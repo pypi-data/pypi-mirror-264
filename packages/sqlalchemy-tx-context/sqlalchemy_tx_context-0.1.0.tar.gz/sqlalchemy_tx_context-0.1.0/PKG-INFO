@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sqlalchemy_tx_context
+Version: 0.1.0
+Summary: An extension for sqlalchemy
+Home-page: https://github.com/QuisEgoSum/sqlalchemy-tx-context
+Author: QuisEgoSum
+Author-email: subbotin.evdokim@gmail.com
+License: MIT
+Keywords: sqlalchemy
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+An extension for sqlalchemy to store the session object in context and simplify the retrieval of the query result.
+
+
+
+
