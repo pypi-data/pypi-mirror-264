@@ -1,0 +1,75 @@
+terraform:
+  resources:
+    - task: read-virtual-datacenter-organisation
+      module: vcd.data_vcd_org_vdc
+      parameters:
+        name: {{ team.tla }}
+
+    - task: read-virtual-datacenter-group
+      module: vcd.data_vcd_vdc_group
+      parameters:
+        name: {{ [team.tla, "DC", "GROUP"] | join('-') }}
+
+    - task: read-edge-gateway
+      module: vcd.data_vcd_nsxt_edgegateway
+      parameters:
+        name: {{ [team.tla, "EDGE"] | join('-') }}
+        owner_id: $read-virtual-datacenter-group.id
+
+  {% for network, cidr in clouds[provider].environments[environment].subnets.items() %}
+    - task: shared-routed-network-{{ network }}
+      module: sbp.vcd.network_routed_v2
+      parameters:
+        edge_gateway_id: $read-edge-gateway.id
+        name: {{ [team.tla, environments[environment].tla, "shr", network] | join('-') | upper }}
+        cidr: {{ cidr }}
+        dns: {{ clouds[provider].environments[environment].dns_hosts }}
+  {%  endfor %}
+
+    - task: app-vm
+      module: sbp.vcd.vm
+      parameters:
+{{ generic.vm.defaults | to_yaml(indent=8) }}
+{{ generic.vm.debian_12 | to_yaml(indent=8) }}
+        name: {{ [team.tla, environments[environment].tla, 'shr', applications[application].tla] | join('-') | lower }}
+        count: 2
+        ip_addresses: {{ applications[application].environments[environment].network.ips }}
+        cpus: 2
+        memory: 4096
+        network_name: {{ [team.tla, environments[environment].tla, "shr", applications[application].environments[environment].network.name] | join('-') | upper }}
+        dns_hosts: {{ clouds[provider].environments[environment].dns_hosts }}
+        #vdc_urn: {{ clouds[provider].generic.vdc_urn }}
+        org: {{ team.tla }}
+        vdc: {{ team.tla }}
+        #vdc: {{ [team.tla, environments[environment].tla ] | join('-') | upper }}
+        cloud_config_file: "{{ config_directory }}/templates/cloud-config/debian_12_simple.yaml"
+        depends_on:
+          - '$shared-routed-network-dmz'
+
+    - task: shared-edge-nat
+      module: sbp.vcd.nsxt_nat_rule
+      parameters:
+        edge_gateway_id: $read-edge-gateway.id
+        vcd_org_vdc: $read-virtual-datacenter-organisation.id
+        environment: {{ environments[environment].tla }}
+        # Define your generic NAT rules here, which apply to all environments
+        rules:
+          - #--------------------------------- Host may communicate with the world -------------------------#
+            internal_address_name: {{ [team.tla, environments[environment].tla, "shr", "dmz"] | join('-') | upper }}
+            internal_address: "{{ clouds[provider].environments[environment].subnets.dmz }}"
+            firewall_address_name: {{ [team.tla, environments[environment].tla, "edge"] | join('-') | upper }}
+            firewall_address: "{{ clouds[provider].environments[environment].edge_ip }}"
+            type: SNAT
+            priority: 2001
+
+          - #---------------- world may communicate with host on ssh ----------------------#
+            firewall_address_name: {{ [team.tla, environments[environment].tla, "edge"] | join('-') | upper }}
+            firewall_address: "{{ clouds[provider].environments[environment].edge_ip }}"
+            firewall_port: "22"
+            destination_address_name: {{ [team.tla, environments[environment].tla, "shr", "dmz", applications[application].tla, "101"] | join('-') | upper }}
+            destination_address: "{{ applications[application].environments[environment].network.ips[0] }}"
+            destination_port:
+              - protocol: tcp
+                port: "22"
+            type: DNAT
+            priority: 3002

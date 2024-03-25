@@ -1,0 +1,52 @@
+# the environments file defines the available environments for a deployment
+
+# this can be specified in the deployment to be included as parameter
+# e.g.
+# required_input:
+#   environment:
+#     help: "name of the environment"
+#     choices: environments
+#     required: true
+
+# this can then be used in a template as input
+# e.g.
+{# jinja2 comment block
+  environment_tla: {{ environments[environment].tla }}
+#}
+
+environments:
+
+  management:
+    name: management
+    tla: mgt
+    letter: m
+    domain: evil-inc-mgt.local
+    chef_environment: evim
+
+  development:
+    name: development
+    tla: dev
+    letter: d
+    domain: evil-inc-dev.local
+    chef_environment: evid
+
+  test:
+    name: test
+    tla: tst
+    letter: t
+    domain: evil-inc-tst.local
+    chef_environment: evit
+
+  acceptance:
+    name: acceptance
+    tla: acc
+    letter: a
+    domain: evil-inc-acc.local
+    chef_environment: evia
+
+  production:
+    name: production
+    tla: prd
+    letter: p
+    domain: evil-inc-prd.local
+    chef_environment: evip

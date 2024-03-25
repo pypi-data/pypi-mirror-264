@@ -1,0 +1,39 @@
+gitlab_runners:
+  generic:
+    gitlab_url: &gitlab_url 'https://sbp.gitlab.schubergphilis.com'
+    runner_type: &runner_type 'group_type'
+  management:
+    - name: management-runner
+      allow_untagged: true
+      tags: [ "management" ]
+      group_id: 22
+      runner_type: *runner_type
+      gitlab_url: *gitlab_url
+  development:
+    - name: development-runner
+      allow_untagged: true
+      tags: [ "development" ]
+      group_id: 22
+      runner_type: *runner_type
+      gitlab_url: *gitlab_url
+  test:
+    - name: test-runner
+      allow_untagged: true
+      tags: [ "test" ]
+      group_id: 22
+      runner_type: *runner_type
+      gitlab_url: *gitlab_url
+  staging:
+    - name: staging-runner
+      allow_untagged: true
+      tags: [ "staging" ]
+      group_id: 22
+      runner_type: *runner_type
+      gitlab_url: *gitlab_url
+  production:
+    - name: production-runner
+      allow_untagged: true
+      tags: [ "production" ]
+      group_id: 22
+      runner_type: *runner_type
+      gitlab_url: *gitlab_url

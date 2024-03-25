@@ -1,0 +1,1 @@
+cloud-init template for debian vm's (chef and non-chef)

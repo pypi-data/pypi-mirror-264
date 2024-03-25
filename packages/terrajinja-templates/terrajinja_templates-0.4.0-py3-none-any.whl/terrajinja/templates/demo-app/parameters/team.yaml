@@ -1,0 +1,6 @@
+# team is used mostly for naming of resources
+# but you can use it anywhere in the framework
+team:
+  name: "Evil Inc"
+  tla: tla
+  email: dr@evilcorp.com

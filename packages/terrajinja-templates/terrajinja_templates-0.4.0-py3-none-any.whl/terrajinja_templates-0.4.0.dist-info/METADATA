@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: terrajinja-templates
+Version: 0.4.0
+Summary: Terrajinja extension for automation using cdktf
+Home-page: https://gitlab/terrajinja
+Author: Terrajinja Team
+Author-email: int-terrajinja@schubergphilis.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# terrajinja-templates
+
+this package supplies additional templates to the tjcli command
+please view the documentation on the [terrajinja-cli](https://sbp.gitlab.schubergphilis.com/ofd/terrajinja/terrajinja-cli) package for more information
+
+if you have sharable templates you would like to admit to the template list, please make sure your template is generic enough, and add it to the src/terrajinja/templates/your_template_name directory structure
+
+### template list:
+- gitlab-runner - for adding a gitlab runner to a kubernetes cluster
+
+History
+-------
+
+0.0.1 (14-03-2024)
+---------------------
+
+* First code creation
