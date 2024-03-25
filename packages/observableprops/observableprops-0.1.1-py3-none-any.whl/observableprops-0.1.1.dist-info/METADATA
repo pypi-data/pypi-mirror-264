@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: observableprops
+Version: 0.1.1
+Summary: Utility for creating properties and adding observers to them.
+Home-page: https://github.com/reo6/observableprops
+Author: reo6
+Author-email: ramazanemreosmanoglu@gmail.com
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+License-File: LICENSE
+
