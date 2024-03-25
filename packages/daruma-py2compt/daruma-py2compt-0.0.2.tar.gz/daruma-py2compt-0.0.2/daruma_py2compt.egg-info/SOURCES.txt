@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+daruma_py2compt/__init__.py
+daruma_py2compt/daruma_module.py
+daruma_py2compt/functions.py
+daruma_py2compt/models.py
+daruma_py2compt.egg-info/PKG-INFO
+daruma_py2compt.egg-info/SOURCES.txt
+daruma_py2compt.egg-info/dependency_links.txt
+daruma_py2compt.egg-info/entry_points.txt
+daruma_py2compt.egg-info/requires.txt
+daruma_py2compt.egg-info/top_level.txt
+daruma_py2compt/data/AAindex553-Normal-X0.feature
+daruma_py2compt/data/CV5.weight
