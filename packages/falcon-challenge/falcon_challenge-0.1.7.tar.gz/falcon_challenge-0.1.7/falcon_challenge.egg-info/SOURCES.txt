@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+falcon_challenge/__init__.py
+falcon_challenge/challenge_runner.py
+falcon_challenge/config.py
+falcon_challenge/dataloaders.py
+falcon_challenge/evaluator.py
+falcon_challenge/interface.py
+falcon_challenge.egg-info/PKG-INFO
+falcon_challenge.egg-info/SOURCES.txt
+falcon_challenge.egg-info/dependency_links.txt
+falcon_challenge.egg-info/requires.txt
+falcon_challenge.egg-info/top_level.txt
