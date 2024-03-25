@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+classin/ClassInAPI.py
+classin/__init__.py
+eeoAPI.egg-info/PKG-INFO
+eeoAPI.egg-info/SOURCES.txt
+eeoAPI.egg-info/dependency_links.txt
+eeoAPI.egg-info/top_level.txt
