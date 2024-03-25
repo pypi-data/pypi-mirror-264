@@ -1,0 +1,3 @@
+[console_scripts]
+investment-rebalancer=investment_rebalancer.main:main
+
