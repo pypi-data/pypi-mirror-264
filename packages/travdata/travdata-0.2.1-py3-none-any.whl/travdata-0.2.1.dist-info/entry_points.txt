@@ -1,0 +1,3 @@
+[console_scripts]
+travdata_cli=travdata.cli.cli:main
+
