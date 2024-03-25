@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: saman-py
+Version: 0.1.1
+Summary: 
+Author: Saman Esmi
+Author-email: esmi.saman@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: uvicorn (>=0.29.0,<0.30.0)
+Description-Content-Type: text/markdown
+
+Sam Py Project
