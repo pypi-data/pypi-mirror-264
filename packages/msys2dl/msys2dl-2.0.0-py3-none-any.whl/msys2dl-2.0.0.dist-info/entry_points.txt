@@ -1,0 +1,3 @@
+[console_scripts]
+msys2dl=msys2dl.main:main
+
