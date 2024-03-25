@@ -1,0 +1,2 @@
+[nebula.collections]
+nebula_kubernetes = nebula_kubernetes
