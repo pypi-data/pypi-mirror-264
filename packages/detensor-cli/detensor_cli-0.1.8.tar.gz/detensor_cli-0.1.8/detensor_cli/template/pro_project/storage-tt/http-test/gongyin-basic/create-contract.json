@@ -1,0 +1,37 @@
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-query-contract",
+        "namespace": "example-ns"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "contract",
+                        "metadata": {
+                            "name": "query-contract",
+                            "version": "0.0.1",
+                            "namespace": "example-ns"
+                        },
+                        "spec": {
+                            "content": "IyBDb250cmFjdCAyCgppbXBvcnQgc3lzCmltcG9ydCBvcwpzeXMucGF0aC5hcHBlbmQob3MucGF0aC5hYnNwYXRoKG9zLnBhdGguam9pbihfX2ZpbGVfXywgIi4uIiwgIi4uIiwgIi4uIikpKQoKZnJvbSBoZWFydGJyZWFrIGltcG9ydCAqCgpBID0gU2l0ZSgxKQoKY2FsY3VsYXRlID0gUkYoImNhbGN1bGF0ZSIsIEEpCnNlY3JldF9hID0gMTAKCnJlcyA9IGNhbGN1bGF0ZShhcmcxPXNlY3JldF9hLCBhcmcyPXNlY3JldF9hKQoKc3VtID0gcmVzWydzdW0nXQpwcmludChyZXMpCnByaW50KHN1bSk=",
+                            "functions": {
+                                "proxy": 4
+                            },
+                            "execPatterns": [
+                                [
+                                    "wx-org1.chainmaker.org",
+                                    "wx-org2.chainmaker.org"
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

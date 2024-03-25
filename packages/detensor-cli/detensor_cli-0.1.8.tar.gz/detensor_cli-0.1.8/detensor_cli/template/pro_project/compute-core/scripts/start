@@ -1,0 +1,107 @@
+#! /usr/bin/env python3
+import argparse
+from typing import Optional
+from io import IOBase, TextIOWrapper
+import os
+import os.path as osp
+import subprocess
+import fcntl
+from time import sleep
+from common import init_pwd, PID_FILENAME, Proc, stop_and_clean_pid, clean_db
+
+ENV_RUST_LOG = os.environ.get('RUST_LOG')
+RUST_LOG = 'info' if ENV_RUST_LOG is None else ENV_RUST_LOG
+
+SERVER_CONFIG_PREFIX = 'COMPUTE_CORE'
+
+SERVER_PATH = './grpc-server'
+
+CORE_BASE_PORT = 13000
+USER_BASE_PORT = 3000
+
+def gen_server_config_env(index: int, real: Optional[int]) -> dict:
+    '''设置节点的环境变量'''
+    env = dict()
+    env['addr'] = '127.0.0.1'
+    env['port'] = str(CORE_BASE_PORT + index)
+    env['user_addr'] = '127.0.0.1'
+    env['user_port'] = str(USER_BASE_PORT + index)
+    env['storage_layer_token'] = f'org{index}'
+    env['db_path'] = f'multi/db/{index}'
+    env['org_name'] = f'org{index}'
+    env['ps_controller_socket'] = f'./sockets/ps_socket{index}.sock'
+    env['compute_image'] = 'hb_py:latest'
+    env['container_remove'] = 'true'
+
+    if real is not None:
+        env['org_name'] = f'wx-org{index + 1}.chainmaker.org'
+        env['storage_url'] = f'http://localhost:{real + index}'
+    
+    ret = dict()
+    for k, v in env.items():
+        real_k: str = k.replace('.', '__')
+        ret[SERVER_CONFIG_PREFIX + '__' + real_k.upper()] = v
+
+    return ret
+
+def start_server(index: int, binary: str, exec_path: str, real: Optional[int], pid_file: TextIOWrapper) -> Proc:
+    '''启动节点'''
+    server_out = f"./log/{index}.out"
+    cmd = ['nohup', exec_path]
+    env = dict(os.environ)
+    env.update({
+        "RUST_LOG": RUST_LOG,
+        "COMPUTE_CORE_CONFIG_PATH": './multi/common.yaml'
+    })
+
+    env.update(gen_server_config_env(index, real))
+    with open(server_out, 'w') as f:
+        ret = subprocess.Popen(cmd, env=env, stdin=subprocess.DEVNULL, stdout=f, stderr=f)
+    pid = ret.pid
+    proc = Proc(pid, kind = 'server', index=index, binary=binary)
+    line = proc.to_json()
+    pid_file.write(line)
+    pid_file.write('\n')
+    return proc
+
+def main():
+    init_pwd()
+
+    parser = argparse.ArgumentParser(description='start multiple server instance')
+    parser.add_argument('-c', '--count', type=int, default=3, help='how many server to start')
+    parser.add_argument('--real', type=int, default=None, help='real storage api port')
+
+    ARGS = parser.parse_args()
+    BINARY: str = 'grpc-server'
+    COUNT: int = ARGS.count
+    real: Optional[int] = ARGS.real
+    
+    if not osp.isdir('./log'):
+        os.mkdir('./log')
+
+    if not osp.isfile(PID_FILENAME):
+        with open(PID_FILENAME, 'w'):
+            pass
+
+    with open(PID_FILENAME, 'r+') as pid_f:
+        # lock pid file
+        fcntl.lockf(pid_f, fcntl.LOCK_EX)
+        stop_and_clean_pid(pid_f)
+        clean_db()
+        exec_path = SERVER_PATH
+        # 启动external-fn
+        command='cd ../external-fn && podman-compose up -d'
+        process=subprocess.run(command, shell=True, check=False)
+        if process.returncode == 0:
+            print('external deploy successfully')
+        else:
+            print('external-fn failed with return code:', process.returncode)
+        
+        for i in range(COUNT):
+            proc = start_server(i, BINARY, exec_path, real, pid_f)
+            print(f"server #{i + 1} [{proc.pid}]" )
+
+if __name__ == '__main__':
+    main()
+
+
