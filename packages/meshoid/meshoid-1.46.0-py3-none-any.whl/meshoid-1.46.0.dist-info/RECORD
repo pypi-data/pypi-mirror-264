@@ -1,0 +1,13 @@
+meshoid/Meshoid.py,sha256=S7-exhm3Hp4wn9NHCqpcAwdH2kWXa4DxVtIQwCBeYcU,26356
+meshoid/__init__.py,sha256=v-3pWJswAlNEmUto3ijNAcLsBWPVU55v0aiv0UMUCe0,214
+meshoid/derivatives.py,sha256=FTjmbR4m1rSFT1-ni1PovJEsXjAvff2wHgl0BByW9bU,4853
+meshoid/grid_deposition.py,sha256=0vo1jz2_MOumpWuyvba6D_-aZ2FKjPc5srPtBTw35R8,22749
+meshoid/kernel_density.py,sha256=HP4VM9_9pf8E1ivZVIVSIJ3QzUQ8LHqDWw-vMVYfuuM,2624
+meshoid/radiation/__init__.py,sha256=eocmCUomQv2IwFIv2FlurB8WL95V5-oZI9EJT-r0vd8,61
+meshoid/radiation/hensley_draine_2022_astrodust_opacity.dat,sha256=6QqX6x_dZZO4qTqY9kbwOStDPWMNgocF3VDwwnSPvlE,99253
+meshoid/radiation/modified_blackbody.py,sha256=ctp6Qk4cOxp5GwxfceoaB-yQJ97FdXYV-4NWNEiCr4w,4652
+meshoid/radiation/radtransfer.py,sha256=Mk5jL9IQiAEWmumFk8YyRrA1xCTOv7YB1B3Oft_SrAA,10468
+meshoid-1.46.0.dist-info/METADATA,sha256=AyBsD1IGXnJW51YY0OGySCAE6-TrjtnD8RO3dh_0Rvk,463
+meshoid-1.46.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+meshoid-1.46.0.dist-info/top_level.txt,sha256=bFxY6a5YWPy_S2Kc-U8tGbpTTuCcxrN_1aR37WksALw,8
+meshoid-1.46.0.dist-info/RECORD,,
