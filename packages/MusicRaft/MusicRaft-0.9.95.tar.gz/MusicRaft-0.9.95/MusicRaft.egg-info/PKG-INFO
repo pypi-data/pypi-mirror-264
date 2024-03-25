@@ -1,0 +1,248 @@
+Metadata-Version: 2.1
+Name: MusicRaft
+Version: 0.9.95
+Summary: GUI for abcplus music notation.
+Home-page: https://gitlab.com/papahippo/MusicRaft
+Author: Larry Myerscough
+Author-email: hippostech@gmail.com
+License: LICENSE.txt
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+MusicRaft
+=========
+
+'MusicRaft' is a GUI for the ABC(plus) music notation, built around python and the Qt GUI toolkit.
+
+__*A note regarding this documentation:*__ *The documentation located on my gitlab page
+<https://gitlab.com/papahippo/MusicRaft>
+ will tend to be more up-to-date than the documentation located on 'the python package index' <https://pypi.org/project/MusicRaft/>*
+
+The following screenshot will, I trust, paint the first thousand words
+of documentation:
+
+![Alt text](https://gitlab.com/papahippo/MusicRaft/raw/master/screenshots/Musicraft-lockdownWalz.png?raw=true "Editing ABCplus music source while viewing graphical ouput")
+
+
+
+## Installation
+
+Musicraft is written to be work on various platforms and has been verified
+to work correctly under Linux, Mac OSX, and Microsoft Windows 10.
+
+The details of how to install - and of what may go wrong - are
+inevitably different for different platforms, so are treated in
+separate subsections below:
+
+### Windows
+
+Unless a suitable version of python is already prsent on your system,
+browse to...
+
+https://www.python.org/downloads/windows/
+
+... and select and install a suitable python release.
+ Musicraft is known to work with python 3.6, 3.7 or python 3.8; it definitely will NOT run
+under python 2.x;If you are offered the option to add
+(e.g.) the python directory to the execution path, accept this option.   
+
+Now start a command prompt and enter the command
+(exact format will vary according to downloaded release):
+
+python3.7 -m pip install
+_warning_: Correct operation of Musicraft on Microsoft Windows depends
+on the presence of the correct version of `msvcp140.dll` in the correct
+directory. This is not yet handled automatically. In the meantime,
+Windows users may prefer to use the standalone binary (see below).
+
+
+Musicraft is built and must be installed using python 3. Therefore a pre-requisite is that 
+python 3 is present on your computer. This will invaraiably
+already be the case on Linux systems.
+
+On Windows, you will likely need to install python3 yourself.
+This can be done using the download link at:
+
+The situation with MAC OSX depends on which release you are using;
+this link explains the situation with MAC OSX Catalina:
+<https://apple.stackexchange.com/questions/376077/is-usr-bin-python3-provided-with-macos-catalina> 
+
+When installing python 3, be sure to check the option (if offered!) to
+add the python directory to the execution PATH.
+  
+Musicraft and its dependencies can now be installed from
+the python package repository.
+The exact syntax will vary across platforms but will be something like...
+
+`pip3 install --user musicraft`
+
+... or ...
+
+`python3 -m pip install --user musicraft`
+
+The `--user` is not essential but it avoids permission problems,
+ e.g. having to use `sudo` on Ubuntu (etc.) Linux systems.
+
+
+__bundled 'command line' tools__
+
+The following 'command line' tools are automatically installed alongside
+musicraft into 'share' direcetories...
+
+* `abcm2ps` to derive graphic scores from ABCPLus code
+* `abcm2ps` to derive midi files from ABCPLus code
+* `abc2abc` to transpose ABCPLus code
+
+... but don't worry, you won't actually have to use these from
+the command line! This is handled 'under the surface' by
+musicraft.
+
+To keep the setup scripting simple, executables for Linux, Windows
+and Mac OSX are all installed, but of course, at run-time only the
+appopriate native versions are run.
+
+## Running musicraft
+
+Starting musicraft is a simple matter of ...
+
+`python3 -m musicraft -S [abc-source-file-name ...]` 
+ 
+ .. or something very similar. 
+
+The `-S` - which can also be entered in the long form `--share`
+instructs musicraft to use the 'bundled' versions of the command line tools.
+
+It is possible to associate this action with all `.abc` files so that a 
+double-click on such a file in the file manager is sufficient to start
+musicraft. How to do this depends on the operating systemcontext; perhaps
+this will be (semi)- automated in later releases of the musicraft
+package.
+
+By clicking on the tabs `abc2abc` `abc2midi` `abcm2ps` `ps2pdf`
+and `abcm2svg` of the`error/diagnostic output` panel you can check whether musicraft
+is finding and executing the 'command line tools' properly. If not, 
+you can find the version of these tools for your system from
+the sites listed  under __ABCplus music notation__ below. After doing this, you omit
+the`-S` when starting musicraft and it will use your specially installed versions,
+
+A few start-up scripts are also included. These are really a left-over from
+the time before I got the '-m' approach working but are left in as potentially
+useful. Where exactly these get installed - and whether that location
+is conveniently within the execution path - depends on your OS and system set-up.  
+
+#### Debugging
+
+Musicraft writes some 'on the go' diagnostic information to the `System` tab of
+the `error/diagnostic` panel. Actual error oinformation (more properly:
+information written to `stderr` as opposed to `stdout`) is written
+in italics.
+
+More such 'on the go' diagnostic information can be obtained by setting...
+* `MUSICRAFT_DBG = 1
+
+... before starting musicraft. Inevitably, perhaps, the choice of what
+debug info to output is governed by my issues encountered recently, not by
+your issues encountered today, so this is not guaranteed to be helpful!  
+
+Debug info ouput can also be requested by '-D' or '--debug' on the command
+line - or explicitly suppressed by '-ND' or '--no-debug'. These overrule
+any setting of `MUSICRAFT_DBG` from the environment.
+
+The 'command line programs' write their output to the approprite tabs
+of the panel: `Abc2abc` `Abc2midi` and `Abcm2svg`. The last of these
+actually relates to `abcm2ps` and is so named because we always use it 
+to produce SVG not PS output.
+ 
+ 
+Musicraft was originally designed to work with `Qt4` via either `PyQt4` or
+`PySide`. This software is however becoming more and more deprecated in
+favour of `Qt5` via either `PySide2` or `PyQt5`. Accordingly, Musicraft has
+been reworked to support these; indeed, musicraft now uses `PySide2`
+by default. This behaviour can however be overruled by settinging an
+environment variable:
+
+* `MUSICRAFT_QT = PyQt4`
+* `MUSICRAFT_QT = PySide`
+* `MUSICRAFT_QT = PyQt5`
+
+Not overruling this setting is treated as equivalent to...
+
+* `MUSICRAFT_QT = PySide2`
+
+__Important note regarding 'Qt' dependencies:__
+
+The musicraft package specifies `PySide2` as a dependency, so it gets installed
+whether you like it or not. This is only likely to be  problem if you're
+running on a very old OS version that doesn't support `PySide2`, `Qt5` etc.
+In this case, you may wish to pu t your own package together, baed on
+the code in this repository.  
+
+Recent OS versions (e.g. Ubuntu Linux 18.04, Windows 10) may only
+suport 'Qt5', not the older, deprecacted 'PyQt4'. In some cases, there is
+a workaround for this. For example, on Ubuntu 18.04 one can install
+PySide by:
+
+`sudo apt-get install python3-pyside`
+
+__Standalone binaries__
+
+I have created (using PyInstaller) a standalone executable version  of Musicraft for 64-bit systems under
+[Windows](https://gitlab.com/papahippo/MusicRaft/blob/master/dist/win_musicraft.exe) (tested on Windows 10).
+ 
+I have currently disabled the standalone binary for Linux. (don't ask;
+it's a long sad story!)
+
+I haven't looked into the desirability or feasibility of a standalone binary version
+for Mac OSX but am open to suggestions and guidance.  
+ 
+ ## Using Musicraft
+ 
+ #### window layout
+ 
+ Before you start inputting music to Musicraft, it is a good idea
+ to tweak the window layout to suit your monitor layout:
+ 
+ * If you have just one screen, first click the full-screen button,
+ then if necessary use the mouse to to drag the vertical line which divides the
+ text area from the score area so that each is wide enough.
+ 
+ * If you have two displays next to each other, you may want to
+ drag the whole musicraft window to straddle the two, so that one shows the abc source code,
+ the other the score.
+ 
+ * With two or more displays, you may want to 'undock' one or more of the
+ three panels by dragging their top line(s) - identified by the texts
+ `Editor`, `styled output` and `error/diagnostic output` to
+ an empty area of one of the screens.   
+
+*warning:* if you stretch the `styled output` window too much
+you may encounter 'extra' unresponsive scroll-bars. This is a bug which I
+am having difficulty fixing!
+
+#### ABCplus music notation
+
+It is unlikely that you have got to this stage without
+knowing at least something about ABCplus music notation.
+Even so, it's always good to have some resources at hand.
+The list below will get you started and lead you to more goodies:
+
+* <http://abcplus.sourceforge.net/>
+* <http://moinejf.free.fr/abcm2ps-doc/features.xhtml>
+* <https://sourceforge.net/projects/abcplus/files/Abcplus/abcplus_en-2019-12-20.zip>
+
+#### Typing in your tune(s)
+Assuming you are familiar with ABCplus notation (if not, see previous section!)
+you can now simply type the ABCplus code into the `Editor` panel.
+The score panel will change as you type. In doing this, musicraft auto-saves
+your abc code into a temporary directory; nonetheless, you must not forget to
+save your source code regularly with control-S (or via the file menu). 
+
+### More Documentation
+
+I try to keep this README down to size, so that impatient users can
+get up and running quickly. Quite a lot of supplentary documentation
+is available in teh `doc` subdirectory inculding an
+[index](doc/INDEX.md).
+
+

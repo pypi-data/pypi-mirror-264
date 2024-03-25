@@ -1,0 +1,7 @@
+mido>=1.2.0
+python_rtmidi
+lxml
+numpy
+PySide2
+pdfrw
+ghostscript
