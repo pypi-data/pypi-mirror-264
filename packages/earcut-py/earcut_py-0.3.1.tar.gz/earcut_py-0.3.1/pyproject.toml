@@ -1,0 +1,39 @@
+[project]
+name = "earcut-py"
+version = "0.3.1"
+description = "A pure Python port of the Earcut polygon triangulation library."
+authors = [
+    { name = "MIERUNE Inc.", email = "info@mierune.co.jp" },
+    { name = "Taku Fukada", email = "naninunenor@gmail.com" },
+]
+dependencies = [
+]
+readme = "README.md"
+requires-python = ">= 3.9"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.1.1",
+    "pytest-cov>=4.1.0",
+    "pyright>=1.1.355",
+    "numpy>=1.24.4",
+    "matplotlib>=3.7.5",
+    "seaborn>=0.13.2",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/earcut"]
+
+[tool.ruff.lint]
+ignore = ["E501"]
+
+[tool.coverage.run]
+source = ['earcut']
