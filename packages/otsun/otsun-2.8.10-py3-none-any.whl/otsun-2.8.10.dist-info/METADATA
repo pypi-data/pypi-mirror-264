@@ -1,0 +1,46 @@
+Metadata-Version: 2.3
+Name: otsun
+Version: 2.8.10
+Project-URL: Documentation, https://github.com/unknown/otsun#readme
+Project-URL: Issues, https://github.com/unknown/otsun/issues
+Project-URL: Source, https://github.com/unknown/otsun
+Author-email: Biel Cardona <bielcardona@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: autologging
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# otsun
+
+[![PyPI - Version](https://img.shields.io/pypi/v/otsun.svg)](https://pypi.org/project/otsun)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/otsun.svg)](https://pypi.org/project/otsun)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install otsun
+```
+
+## License
+
+`otsun` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
