@@ -1,0 +1,135 @@
+# 创建 data declare 的 proposal
+# NOTICE: 必须先创建名为 example-ns 的 namespace
+POST http://127.0.0.1:9001/api/core/v1/namespace/example-ns/proposal
+{
+  "apiVersion": "core/v1",
+  "kind": "proposal",
+  "metadata": {
+    "name": "create-data-declare-proposal",
+    "namespace": "example-ns"
+  },
+  "spec": {
+    "actions": [
+      {
+        "create": {
+          "object": {
+            "apiVersion": "core/v1",
+            "kind": "datadeclare",
+            "metadata": {
+              "name": "example-data-declare",
+              "namespace": "example-ns"
+            },
+            "spec": {
+              "dataType": "i64",
+              "description": "just a int"
+            },
+            "status": {
+              "implementation": {}
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+
+HTTP 201
+[Captures]
+proposal_uid: body
+
+
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org1"
+}
+
+HTTP 200
+
+
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP 200
+
+
+PUT http://127.0.0.1:9001/api/core/v1/datadeclare/4/implementation
+{
+  "comment": "comment from org1"
+}
+
+HTTP 200
+
+PUT http://127.0.0.1:9002/api/core/v1/datadeclare/4/implementation
+{
+  "comment": "comment from org2"
+}
+
+HTTP 200
+
+POST http://localhost:9001/api/core/v1/data
+
+{
+    "apiVersion": "core/v1",
+    "kind": "data",
+    "metadata": {
+        "name": "test-data-1"
+    },
+    "spec": {
+        "content": "12345",
+        "description": "test data 1"
+    },
+    "status": {
+        "available": true
+    }
+}
+POST http://localhost:9001/api/core/v1/databinding
+
+{
+    "apiVersion": "core/v1",
+    "kind": "databinding",
+    "metadata": {
+        "name": "test-data-binding-1"
+    },
+    "spec": {
+        "dataUid": 1,
+        "dataDeclareUid": 4,
+        "contractUid": 8
+    },
+    "status": {
+        "available": true
+    }
+}
+
+POST http://localhost:9002/api/core/v1/data
+
+{
+    "apiVersion": "core/v1",
+    "kind": "data",
+    "metadata": {
+        "name": "test-data-1"
+    },
+    "spec": {
+        "content": "1234567",
+        "description": "test data 1 from org2"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+POST http://localhost:9002/api/core/v1/databinding
+
+{
+    "apiVersion": "core/v1",
+    "kind": "databinding",
+    "metadata": {
+        "name": "test-data-binding-1"
+    },
+    "spec": {
+        "dataUid": 1,
+        "dataDeclareUid": 4,
+        "contractUid": 8
+    },
+    "status": {
+        "available": true
+    }
+}

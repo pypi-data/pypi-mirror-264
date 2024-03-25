@@ -1,0 +1,70 @@
+# 通过创建 globalproposal 来创建一个名为 example-ns 的 namespace
+POST http://org1.storage.cc.distribute-compute.cn/api/core/v1/globalproposal
+{
+  "apiVersion": "core/v1",
+  "kind": "globalproposal",
+  "metadata": {
+    "name": "namespace-proposal",
+    "uid": 0
+  },
+  "spec": {
+    "actions": [
+      {
+        "create": {
+          "object": {
+            "apiVersion": "core/v1",
+            "kind": "namespace",
+            "metadata": {
+              "name": "example-ns",
+              "uid": 0
+            },
+            "spec": {
+              "members": [
+                "wx-org1.chainmaker.org",
+                "wx-org2.chainmaker.org",
+                "wx-org3.chainmaker.org"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+
+HTTP 201
+[Captures]
+uid: body
+
+
+PUT http://org1.storage.cc.distribute-compute.cn/api/core/v1/globalproposal/{{uid}}/permission
+Content-Type: text/plain
+
+```
+comment_from_org1
+```
+
+HTTP 200
+
+PUT http://org2.storage.cc.distribute-compute.cn/api/core/v1/globalproposal/{{uid}}/permission
+Content-Type: text/plain
+
+```
+comment_from_org2
+```
+
+HTTP 200
+
+PUT http://org3.storage.cc.distribute-compute.cn/api/core/v1/globalproposal/{{uid}}/permission
+Content-Type: text/plain
+
+```
+comment_from_org3
+```
+
+HTTP 200
+
+
+PUT http://org1.storage.cc.distribute-compute.cn/api/core/v1/globalproposal/{{uid}}/commit
+
+HTTP 200

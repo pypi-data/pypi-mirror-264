@@ -1,0 +1,8 @@
+# https://hurl.dev/docs/templates.html
+# hurl 暂不支持在 JSON body 中使用模板, 需要自行修改 uid
+POST http://127.0.0.1:9001/api/core/v1/setdatadeclare
+{
+  "uid": 0,
+  "status": true,
+  "comment": "comment"
+}

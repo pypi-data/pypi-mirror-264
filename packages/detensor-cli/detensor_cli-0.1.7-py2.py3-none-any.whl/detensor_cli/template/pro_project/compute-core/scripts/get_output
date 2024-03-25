@@ -1,0 +1,55 @@
+#! /usr/bin/env python3
+
+import grpc
+from inter_pb2 import GetOutputReq, ProcessStatus
+import inter_pb2_grpc
+import argparse
+
+argparser = argparse.ArgumentParser()
+argparser.add_argument('creator', type=str, help='creator of process')
+argparser.add_argument('serial', type=int, help='serial of process')
+argparser.add_argument('-H', '--host', type=str, default='http://localhost:3000', help='script to async exec contract')
+argparser.add_argument('-v', '--verbose', action='store_true', help='print debug information')
+
+ARGS = argparser.parse_args()
+creator: str = ARGS.creator
+serial: int = ARGS.serial
+host: str = ARGS.host
+verbose: bool = ARGS.verbose
+
+def printv(*args, **kwargs):
+    if verbose:
+        print(*args, **kwargs)
+
+
+printv('create client and connect grpc server ...')
+
+if host.startswith('http://'):
+    addr = host[7:]
+    printv('addr:', addr)
+    channel = grpc.insecure_channel(addr)
+elif host.startswith('https://'):
+    addr = host[8:]
+    printv('addr:', addr)
+    channel = grpc.secure_channel(addr, grpc.ssl_channel_credentials())
+else:
+    print('unknown protocol, support protocol http:// or https://')
+    exit(1)
+
+client = inter_pb2_grpc.CoreUserServiceStub(channel)
+printv('connected')
+
+req = GetOutputReq(
+    creator=creator,
+    serial=serial,
+)
+
+res = client.GetOutput(req)
+status = res.status
+output = res.output
+print('process status:', ProcessStatus.Name(res.status))
+print('has output:', res.HasField('output'))
+if res.HasField('output'):
+    print('return status:', output.status)
+    print('stdout: ', output.stdout)
+    print('stderr: ', output.stderr)
