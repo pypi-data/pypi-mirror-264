@@ -1,0 +1,8 @@
+setup.py
+douyindl/DOWNLOADER.py
+douyindl/__init__.py
+douyindl.egg-info/PKG-INFO
+douyindl.egg-info/SOURCES.txt
+douyindl.egg-info/dependency_links.txt
+douyindl.egg-info/requires.txt
+douyindl.egg-info/top_level.txt

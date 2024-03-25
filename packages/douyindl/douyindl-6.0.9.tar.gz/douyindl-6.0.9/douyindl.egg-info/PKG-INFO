@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: douyindl
+Version: 6.0.9
+Summary: A utility for downloading videos and images from Douyin (Chinese TikTok).
+Home-page: https://github.com/haglooo/douyindl
+Author: Haglo
+Author-email: haglohd007@email.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests
+
+A utility for downloading videos and images from Douyin (Chinese TikTok).
