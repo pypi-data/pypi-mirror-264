@@ -1,0 +1,16 @@
+python_compile/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_compile/cli.py,sha256=APUS6MPbfR8b6DdwJhYKq_w2J9rHPgPGfVDg3mdjkbY,1694
+python_compile/compile.py,sha256=nuU8b5BATUWoZ8v_EKp9TbVwhAZpAwoWtfkNa5ZtWR0,1287
+python_compile/docker_build.py,sha256=3CYapP4m0aBwEej1bgOY74LL1FSg2BThzJE78vdcmd4,1366
+python_compile/native_build.py,sha256=btVRXRvXVXf_pZ0pzyp2Oyv5GyEpAgPiIkwn_Jvc674,2467
+python_compile/assets/debian-dockerfile,sha256=nThHDJ5c075Iq2rYf4QpvSRQmtgIaa42rEbVk7wPOkA,693
+python_compile/assets/demo_http_server.py,sha256=4yjaMDCtyIOBmjUWdI_KnkeoCizeMTSomib0smN6UEk,1793
+python_compile/assets/entrypoint.sh,sha256=K3AAmcS4QjY_Igso-mrj1r0BKiyXKBRmWolY895gB5k,983
+python_compile/assets/ubuntu22-dockerfile,sha256=CL8wf4eVfXsxbyh001qLyabhsSSF7hqPwBv-QaXOT-0,885
+python_compile/assets/windows-dockerfile,sha256=pfYSKefLCBLSiEb1ZegHvXyViobf1-S-YBPQ3Hoaoxs,1221
+python_compile-1.0.9.dist-info/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+python_compile-1.0.9.dist-info/METADATA,sha256=8iWIC7X2T7MtYXQ9R6TCJCj5_FKtcAuUTy_qvJzvUMw,2511
+python_compile-1.0.9.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+python_compile-1.0.9.dist-info/entry_points.txt,sha256=HZLY-_qSjKkFCUwmHEl9QqBHEhpjiAC2BlHFXxffkFY,59
+python_compile-1.0.9.dist-info/top_level.txt,sha256=I1JDTHk50pVEikSIJXbTJTnhLUZnX4mMMtwYmAL9pQ4,15
+python_compile-1.0.9.dist-info/RECORD,,
