@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: concurrex
+Version: 0.0.1
+Summary: Python concurrent execution helpers
+Author-email: Dobatymo <dobatymo@users.noreply.github.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: genutility[callbacks,concurrency]>=0.0.103
+Requires-Dist: rich
+Requires-Dist: typing-extensions>=3.7.4.3
+Requires-Dist: atomicarray>=0.0.1 ; extra == "fast"
+Requires-Dist: genutility[test]>=0.0.103 ; extra == "test"
+Project-URL: Home, https://github.com/Dobatymo/concurrex
+Provides-Extra: fast
+Provides-Extra: test
+
+# concurrex (concurrent execution)
+
+The helpers in the Python standard library for concurrent execution, like `threading`, `multiprocessing`, `concurrent.futures` are quite lacking.
+
+## Examples
+
+```python
+
+from pillow import Image
+
+def decode_image(path):
+	img = Image.open(path)
+	img.load()
+	return path, img
+
+with ThreadPool(num_workers=3) as tp:
+
+	for result in tp.map(decode_image, Path(".").rglob("*.jpg"), bufsize=10)
+		path, img = result.get()
+		img.show()
+		label = input("label:")
+		print(path, label)
+```
+

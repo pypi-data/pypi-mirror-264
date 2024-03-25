@@ -1,0 +1,52 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = [
+  "flit_core<4,>=3.2",
+]
+
+[project]
+name = "concurrex"
+readme = "readme.md"
+license = {file = "LICENSE"}
+authors = [{name = "Dobatymo", email = "dobatymo@users.noreply.github.com"}]
+requires-python = ">=3.8"
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dynamic = [
+  "description",
+  "version",
+]
+dependencies = [
+  "genutility[callbacks,concurrency]>=0.0.103",
+  "rich",
+  "typing-extensions>=3.7.4.3",
+]
+[project.optional-dependencies]
+fast = [
+  "atomicarray>=0.0.1",
+]
+test = [
+  "genutility[test]>=0.0.103",
+]
+[project.urls]
+Home = "https://github.com/Dobatymo/concurrex"
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.bandit]
+skips = ["B101"]
