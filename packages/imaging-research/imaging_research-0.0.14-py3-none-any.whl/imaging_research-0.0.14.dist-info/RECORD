@@ -1,0 +1,13 @@
+miresearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miresearch/mi_config.py,sha256=k6bcwhp7SKKmEWmlriOfB35yCqWCrLg2P-tNlHI7Cd4,3910
+miresearch/mi_subject.py,sha256=MjuUHphg84khiCY3bKz_uloE33ldcMSmfHHtvpdqoH0,44390
+miresearch/mi_utils.py,sha256=83-7AF9Z37D4jwh46b5KtIJ1pt0doOdoDu5oG_wl3tw,7311
+miresearch/miresearch.conf,sha256=UOMS4Pd7i7Lb72pSFQ2NRANHnM1eAhFMUKhr5jOkDXI,408
+miresearch/miresearch_main.py,sha256=GmIimj-qcehcw3SbekdEqI1FhEueJhwoJIniyCldqXA,8504
+miresearch/miresearch_watchdog.py,sha256=EZWI8zHCsJ3ErBsBMZ0kLqaW5b8P9otKR9WHDH1SDik,8050
+imaging_research-0.0.14.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+imaging_research-0.0.14.dist-info/METADATA,sha256=HioRcxU62PzKQiGH_cxDZibrsItQxr4avTR0IQ91-3U,5089
+imaging_research-0.0.14.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+imaging_research-0.0.14.dist-info/entry_points.txt,sha256=uPfnCU2FY8betcW7RB4qUM1JWbAT1m_slvpUZNbu3kU,63
+imaging_research-0.0.14.dist-info/top_level.txt,sha256=BVfIfmU9KlnsEkypI1f7a00TsulqyuVpVWKJTa1qx9A,11
+imaging_research-0.0.14.dist-info/RECORD,,
