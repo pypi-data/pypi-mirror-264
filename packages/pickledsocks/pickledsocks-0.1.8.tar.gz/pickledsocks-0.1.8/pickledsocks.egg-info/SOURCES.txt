@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+pickledsocks/__init__.py
+pickledsocks/jsoncks.py
+pickledsocks/picklesocks.py
+pickledsocks/serialsocks.py
+pickledsocks.egg-info/PKG-INFO
+pickledsocks.egg-info/SOURCES.txt
+pickledsocks.egg-info/dependency_links.txt
+pickledsocks.egg-info/top_level.txt
