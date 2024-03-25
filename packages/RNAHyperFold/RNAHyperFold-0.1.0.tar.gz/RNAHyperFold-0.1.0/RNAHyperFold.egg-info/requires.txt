@@ -1,0 +1,6 @@
+ViennaRNA~=2.6.4
+biopython~=1.81
+forgi~=2.2.2
+hypernetx~=2.1.1
+igraph~=0.11.2
+matplotlib~=3.8.0
