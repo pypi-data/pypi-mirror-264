@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: ikvpy
+Version: 0.0.22
+Summary: Python client for IKV (Inlined Key Value Store).
+Project-URL: Documentation, https://github.com/inlinedio/ikv-store#readme
+Project-URL: Issues, https://github.com/inlinedio/ikv-store/issues
+Project-URL: Source, https://github.com/inlinedio/ikv-store/ikv-python-client
+Author-email: Inlined I/O <pushkar@inlined.io>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: ikv,ikv py client,ikv python,inlined,inlined python client
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: boto3>=1.34.69
+Requires-Dist: cffi>=1.16.0
+Requires-Dist: grpcio-status>=1.62.1
+Requires-Dist: grpcio>=1.62.1
+Requires-Dist: protobuf>=5.26.0
+Description-Content-Type: text/markdown
+
+Readme: See https://github.com/inlinedio/ikv-store
+
+
+Generating python code from proto:
+
+$> python3 -m pip install grpcio-tools
+
+$> pwd
+/Users/pushkar/projects/ikv-store/ikv-python-client/ikv-py
+
+$> python3 -m grpc_tools.protoc -I../../ikv-cloud/src/main/proto --python_out=./schemas --pyi_out=./schemas --grpc_python_out=./schemas ../../ikv-cloud/src/main/proto/*.proto
