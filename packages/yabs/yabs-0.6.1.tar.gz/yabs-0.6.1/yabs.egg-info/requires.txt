@@ -1,0 +1,11 @@
+click
+GitPython
+jinja2
+PyGithub
+PyYAML
+semantic_version
+setuptools
+snazzy
+toml
+twine
+wheel
