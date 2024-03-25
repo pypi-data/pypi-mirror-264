@@ -1,0 +1,6 @@
+[console_scripts]
+mogui-cmd = mogui.__main__:main
+mogui-setup-env = mogui.setup_env:setup_env
+
+[gui_scripts]
+mogui = mogui.__main__:main
