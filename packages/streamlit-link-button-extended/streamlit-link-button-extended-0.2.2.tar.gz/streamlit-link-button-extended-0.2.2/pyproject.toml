@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "streamlit-link-button-extended"
+version = "0.1.0"
+description = ""
+authors = ["Alexander <alexander.rogiers@ugent.be>"]
+readme = "README.md"
+packages = [{include = "streamlit_link_button_extended"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
