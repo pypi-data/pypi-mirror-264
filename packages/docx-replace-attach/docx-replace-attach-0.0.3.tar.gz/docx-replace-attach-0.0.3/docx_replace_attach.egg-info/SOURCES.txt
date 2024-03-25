@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+docx_attach/__init__.py
+docx_attach/docx_attachment.py
+docx_replace_attach.egg-info/PKG-INFO
+docx_replace_attach.egg-info/SOURCES.txt
+docx_replace_attach.egg-info/dependency_links.txt
+docx_replace_attach.egg-info/requires.txt
+docx_replace_attach.egg-info/top_level.txt
+test/test.py
