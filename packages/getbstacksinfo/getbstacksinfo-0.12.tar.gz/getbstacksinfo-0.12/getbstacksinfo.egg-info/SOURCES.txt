@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+getbstacksinfo/README.MD
+getbstacksinfo/__init__.py
+getbstacksinfo/lookup2.py
+getbstacksinfo/requirements.txt
+getbstacksinfo/thirdparty.json
+getbstacksinfo.egg-info/PKG-INFO
+getbstacksinfo.egg-info/SOURCES.txt
+getbstacksinfo.egg-info/dependency_links.txt
+getbstacksinfo.egg-info/requires.txt
+getbstacksinfo.egg-info/top_level.txt

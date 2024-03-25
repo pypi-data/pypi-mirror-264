@@ -1,0 +1,4 @@
+include getbstacksinfo/requirements.txt
+include getbstacksinfo/thirdparty.json
+include getbstacksinfo/README.MD
+include getbstacksinfo/lookup2.py
