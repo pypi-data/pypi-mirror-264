@@ -1,0 +1,7 @@
+SDL2
+SDL2_lib
+dist
+lib
+mojave_eda
+mojave_eda,mojave_eda
+wheels
