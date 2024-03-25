@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+simple_sarif/__init__.py
+simple_sarif/sarif.py
+simple_sarif.egg-info/PKG-INFO
+simple_sarif.egg-info/SOURCES.txt
+simple_sarif.egg-info/dependency_links.txt
+simple_sarif.egg-info/requires.txt
+simple_sarif.egg-info/top_level.txt

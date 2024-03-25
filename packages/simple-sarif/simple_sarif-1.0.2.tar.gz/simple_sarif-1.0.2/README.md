@@ -1,0 +1,404 @@
+# simple-sarif
+
+## Table of Contents
+
+- [simple-sarif](#simple-sarif)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Function Descriptions](#function-descriptions)
+    - [init](#init)
+      - [init Arguments](#init-arguments)
+      - [init Usage Example](#init-usage-example)
+    - [add\_rule](#add_rule)
+      - [add\_rule Arguments](#add_rule-arguments)
+      - [add\_rule Usage Example](#add_rule-usage-example)
+    - [add\_result](#add_result)
+      - [add\_result Arguments](#add_result-arguments)
+      - [add\_result Usage Example](#add_result-usage-example)
+    - [get\_sarif](#get_sarif)
+      - [get\_sarif Usage Example](#get_sarif-usage-example)
+    - [save](#save)
+      - [save Arguments](#save-arguments)
+      - [save Usage Example](#save-usage-example)
+    - [get\_table\_result](#get_table_result)
+      - [get\_table\_result Arguments](#get_table_result-arguments)
+    - [to\_table](#to_table)
+      - [to\_table Arguments](#to_table-arguments)
+      - [to\_table Usage Example](#to_table-usage-example)
+    - [to\_csv](#to_csv)
+      - [to\_csv Arguments](#to_csv-arguments)
+      - [to\_csv Usage Example](#to_csv-usage-example)
+    - [rfilter\_out](#rfilter_out)
+      - [rfilter\_out Arguments](#rfilter_out-arguments)
+      - [rfilter\_out Usage Example](#rfilter_out-usage-example)
+    - [rfilter\_only](#rfilter_only)
+      - [rfilter\_only Arguments](#rfilter_only-arguments)
+      - [rfilter\_only Usage Example](#rfilter_only-usage-example)
+    - [find\_results](#find_results)
+      - [find\_results Arguments](#find_results-arguments)
+      - [find\_results Usage Example](#find_results-usage-example)
+    - [find\_rule](#find_rule)
+      - [find\_rule Arguments](#find_rule-arguments)
+      - [find\_rule Usage Example](#find_rule-usage-example)
+    - [aggregate\_results](#aggregate_results)
+      - [aggregate\_results Arguments](#aggregate_results-arguments)
+      - [aggregate\_results Usage Example](#aggregate_results-usage-example)
+    - [verify\_sarif](#verify_sarif)
+      - [verify\_sarif Arguments](#verify_sarif-arguments)
+      - [verify\_sarif Usage Example](#verify_sarif-usage-example)
+
+## Features
+
+1. Generate SARIF files with rules and results
+2. Filter out results from a SARIF
+3. Convert SARIF to a table or CSV
+4. Find results and rules from a SARIF
+5. Aggregate results from a SARIF into one result for every rule in a run
+6. Verify a SARIF complies with its schema
+
+## Installation
+
+Simply run the following command to install it:
+
+```bash
+pip install simple-sarif
+```
+
+To create a simple-sarif object, run:
+
+```python
+import simple_sarif
+
+var = simple_sarif.Sarif()
+```
+
+## Function Descriptions
+
+**NOTE: All arguments are required unless otherwise stated.**
+
+### init
+
+init runs when a sarif object is created using `var = simple_sarif.Sarif()`.
+init will create a new SARIF object stored in self.sarif. This is what's being modified when running the other commands.
+A filename may also be provided. In this situation, it will read the file and store it as self.sarif.
+
+#### init Arguments
+
+1. file="FILENAME" (optional)
+   1. Default is `None`.
+   2. If left empty, a filename will need to be specified when running save.
+   3. If the given filename is a file that exists, its contents, assumed to be a SARIF file, will be read and saved in self.sarif.
+2. validate=[True/False] (optional)
+   1. Default is `True`.
+   2. This tells the code whether it should validate that the given SARIF file matches its schema. If not, the object won't be created.
+3. recreate=[True/False] (optional)
+   1. Default is `False`. (It will add to the file.)
+   2. Determines if it will add to results and rules to a SARIF file or delete the file to start adding results from scratch.
+
+#### init Usage Example
+
+```python
+var = simple_sarif.Sarif(file="sarif.json", validate=True, recreate=True)
+```
+
+### add_rule
+
+add_rule appends a new rule to the self.sarif variable. If the ruleID already exists, the rule will be overwritten.
+
+#### add_rule Arguments
+
+1. name
+   1. Gives the rule a name (e.g. Secrets Found)
+2. ruleId
+   1. Gives the rule a ruleId. RuleIds usually look like `GGS001` or `found.secrets`.
+3. shortDescription
+   1. Adds a concise description of what the rule is for.
+4. fullDescription
+   1. A longer description of the rule's purpose.
+5. messageStrings
+   1. A dictionary for messages to be referenced when a result is added. This is formatted as follows:
+
+    ```python
+    {
+        "note": {
+            "text": "The rule passed." # this could be any string.
+        },
+        "error": {
+            "text": "The rule failed."
+        }
+    }
+    ```
+
+6. properties (optional)
+   1. Added information in the form of a dictionary to provide context for the rule. Here's how it's used:
+
+    ```python
+    {
+        "key1": "Local"
+        "key2": var1
+    }
+    ```
+
+#### add_rule Usage Example
+
+**Note:** The properties tab has been left empty, but an example is given above.
+
+```python
+var.add_rule("Test Rule", "test.rule", 
+            "This is being used as an example.", 
+            "For the purposes of demonstrating the usage of add_rule, this rule was made. It is only going to be used in documentation.", 
+            {
+                "note": {
+                    "text": "Rule passed."
+                },
+                "error": {
+                    "text": "Rule failed."
+                }
+            })
+```
+
+### add_result
+
+Adds a result based on some provided ruleID. The ruleID must be one that matches a rule inside of the SARIF.
+
+#### add_result Arguments
+
+1. ruleId
+   1. This functions the same as in add_rule. It must match a ruleID inside of the rules section of the SARIF file.
+2. level
+   1. Marks whether the result is a pass or fail, indicated by "note" or "error".
+3. message_id
+   1. The message string inside of the result meant to explain what happened. This is usually based on the messageStrings inside of the associated rule.
+4. arguments (optional by leaving it as [])
+   1. An array of arguments for dynamic content in a result's message (e.g. {0} in the message_id is the first value in the arguments array).
+5. properties (optional)
+   1. A dictionary of extra data to give context for the result, just like as in add_rule. See [here](#add_rule-arguments) for more information.
+6. locations (optional)
+   1. A list of information regarding the location, be it physicalLocation or logicalLocation, that the result is referencing. Here is an example using physicalLocation:
+
+    ```json
+    [{
+        "physicalLocation": {
+            "artifactLocation": {
+                "uri": "file///path"
+            },
+            "region": {
+                "startLine": 5,
+                "startColumn": 6
+            }
+        }
+    }]
+    ```
+
+#### add_result Usage Example
+
+```python
+var.add_result("test.rule", "note", "Successful run of '{0}'", ["test"], {
+        "run_type": "local"
+    }, [{
+        "physicalLocation": {
+            "artifactLocation": {
+                "uri": "file///path"
+            },
+            "region": {
+                "startLine": 5,
+                "startColumn": 6
+            }
+        }
+    }])
+```
+
+### get_sarif
+
+Returns entire self.sarif object to be stored and manipulated manually.
+
+#### get_sarif Usage Example
+
+```python
+sarif_data = var.get_sarif()
+```
+
+### save
+
+Saves self.sarif data to a file.
+
+#### save Arguments
+
+1. validate=[True/False]
+   1. Defaults to `False`.
+   2. Tells the script whether it should check that the SARIF matches its schema before saving it to a file.
+2. filename="FILENAME" (optional if one was not given earlier)
+   1. Defaults to `None`.
+   2. If a filename was not given when the `simple_sarif` object was created, one may be provided here.
+      1. This can also be used to save to a different file if a filename was given earlier.
+   3. If no filename is given, the `save` method will fail.
+
+#### save Usage Example
+
+```python
+var.save(validate=True, filename="sarif.json")
+```
+
+### get_table_result
+
+Returns given data as a dictionary.
+
+#### get_table_result Arguments
+
+ruleName, ruleId, level, shortDescription, message, ruleProperties, and resultProperties were
+all explained before. See [add_result arguments](#add_result-arguments) and [add_rule arguments](#add_rule-arguments).
+
+### to_table
+
+Converts SARIF (Static Analysis Results Interchange Format) results to a table format.
+
+This function processes SARIF results from a SARIF-formatted report stored in `self.sarif`.
+It extracts information about each result and its corresponding rule, and formats this
+information into a table-like data structure (list of dictionaries).
+
+This function returns a list of dictionaries, where each dictionary represents a row in the table.
+
+#### to_table Arguments
+
+1. add_properties=[True/False]
+   1. Defaults to `True`.
+   2. Determines if the function will check for the `properties` field, and if it's found, add it to the table.
+
+#### to_table Usage Example
+
+```python
+table = var.to_table(add_properties=False)
+```
+
+### to_csv
+
+Converts the data generated by the to_table method to a CSV format and writes it to a file. The first row of
+the CSV is the header, and each following row represents one result.
+
+#### to_csv Arguments
+
+1. filename
+   1. A string containing the name of the CSV file being written to.
+2. add_properties=[True/False]
+   1. Defaults to `True`.
+   2. Sets add_properties value for the to_table method.
+
+#### to_csv Usage Example
+
+```python
+var.to_csv(filename="sarif.csv", add_properties=False)
+```
+
+### rfilter_out
+
+Filters out results from the self.sarif object based on provided ruleIDs and levels.
+If both ruleIDs and levels have a value, it will **ONLY** filter out rules that match both.
+
+#### rfilter_out Arguments
+
+**NOTE:** ruleIDs and levels are both optional, but at least one must be given or the method will produce an error.
+
+1. ruleIDs (optional)
+   1. A list of every ruleID to check for when filtering results.
+2. levels (optional)
+   1. A list of every level to check for when filtering results.
+3. filename (optional)
+   1. Just as with the `save` function, a filename is required if one was not set during initialization.
+
+#### rfilter_out Usage Example
+
+```python
+var.rfilter_out(ruleIDs=["test.rule", "test.rules"], levels=["note"], filename=None)
+```
+
+### rfilter_only
+
+Filters the results of the self.sarif object to only include results that match the given ruleIDs and levels.
+Like rfilter_out, setting ruleIDs and levels will cause any result not matching **both** to be deleted.
+
+#### rfilter_only Arguments
+
+See [here](#rfilter_out-arguments).
+
+#### rfilter_only Usage Example
+
+```python
+var.rfilter_only(ruleIDs=["test.rule"], levels=["note", "error"], filename="sarif.json")
+```
+
+### find_results
+
+Returns a list of results from the self.sarif or a file matching given ruleIDs and levels.
+Again, like rfilter_out, declaring both ruleIDs and levels will only return results that match both.
+
+#### find_results Arguments
+
+See [here](#rfilter_out-arguments).
+
+#### find_results Usage Example
+
+```python
+results = var.find_results(ruleIDs=["test.rule"], levels=["error"])
+```
+
+### find_rule
+
+Returns a list of rules matching given ruleIDs.
+
+#### find_rule Arguments
+
+1. ruleIDs
+   1. A list of ruleIDs to search for.
+2. filename (optional)
+   1. See [here](#save-arguments).
+
+#### find_rule Usage Example
+
+```python
+rules = var.find_rule(ruleIDs=["test.rules", "test.rule"], filename="sarif.json")
+```
+
+### aggregate_results
+
+Gathers results from every run in a SARIF file or the self.sarif object and turns them into one result per rule per run.
+The end level for this result can be configured to fail if one result is a fail or only if all of them fail.
+
+#### aggregate_results Arguments
+
+1. fail_type=["one"/"all"]
+   1. Defaults to `"one"`.
+   2. A fail_type of `"one"` means that the final result for the rule will be `error` if one of the results was an `error`.
+   3. A fail_type of `"all"` will cause the end result to be `error` only if every result was an `error`.
+2. remove_aggregated=[True/False]
+   1. Defaults to `True`.
+   2. Tells the function if it should delete the results it aggregates.
+3. filename (optional)
+   1. See [here](#save-arguments).
+
+#### aggregate_results Usage Example
+
+```python
+var.aggregate_results(fail_type="all", remove_aggregated=False, filename=None)
+```
+
+### verify_sarif
+
+Checks the self.sarif object or a SARIF file to see if it matches its schema if one is provided in the file.
+It accomplishes this by downloading the URI in the `$schema` field.
+
+If no schema is found or the link is invalid, the method will not raise an error, instead warning the user and returning `True`.
+If the SARIF fails validation, the script will return `False`, indicating an error.
+
+#### verify_sarif Arguments
+
+1. filename (optional)
+   1. See [here](#save-arguments).
+
+#### verify_sarif Usage Example
+
+```python
+validation_result = var.verify_sarif(filename="sarif.json")
+if not validation_result:
+    print("SARIF validation failed.")
+```
