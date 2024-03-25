@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: genai_tools
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-Email: mavilam <evobanco@evobanco.com>
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# genai_tools
