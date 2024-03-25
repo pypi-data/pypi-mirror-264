@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: conn2svg
+Version: 0.0.6
+Summary: Connector pinout drawing (SVG) generator used to automatically generate interface control documents.
+Home-page: https://github.com/partmanager/conn2svg
+Author: Piotr Kuligowski
+Project-URL: Bug Tracker, https://github.com/partmanager/conn2svg/issues
+Project-URL: Changelog, https://github.com/partmanager/conn2svg/releases
+Project-URL: Source Code, https://github.com/partmanager/conn2svg
+Project-URL: Documentation, https://partmanager.github.io/conn2svg
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Manufacturing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: drawsvg==2.3.0
+
+conn2svg Python library
+=======================
+
+.. start-intro
+
+**conn2svg** - Connector pinout drawing (SVG) generator used to automatically generate interface control documents.
+
+Installing
+----------
+
+As usual, you can use package installer for Python:
+
+.. code:: bash
+
+   pip install conn2svg
+
+.. end-intro
+
+Documentation
+-------------
+
+Get the latest documentation build: `partmanager.github.io/conn2svg <https://partmanager.github.io/conn2svg>`_.
