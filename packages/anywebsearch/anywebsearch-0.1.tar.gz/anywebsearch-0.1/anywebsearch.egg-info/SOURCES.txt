@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+anywebsearch/__init__.py
+anywebsearch/search.py
+anywebsearch/tools.py
+anywebsearch.egg-info/PKG-INFO
+anywebsearch.egg-info/SOURCES.txt
+anywebsearch.egg-info/dependency_links.txt
+anywebsearch.egg-info/requires.txt
+anywebsearch.egg-info/top_level.txt
+anywebsearch/engines/__init__.py
+anywebsearch/engines/brave.py
+anywebsearch/engines/duck.py
+anywebsearch/engines/google.py
+anywebsearch/engines/qwant.py
+anywebsearch/engines/yandex.py
