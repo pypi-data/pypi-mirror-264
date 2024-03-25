@@ -1,0 +1,10 @@
+pilk_nogil/__init__.py,sha256=NLenD8LMMnMlQYXdToCHxBtgGh6YDz-FSTkORM9uYuo,1507
+pilk_nogil/_pilk.cpython-38-i386-linux-gnu.so,sha256=dGADuvy-YZA6dHbykJLk1fikOaEu-418FShT54SGDI4,1128356
+pilk_nogil/SilkDecoder.py,sha256=2S2YT914aBtMjJFepKgjlvve96LalJelis7TGywuKag,605
+pilk_nogil/SilkEncoder.py,sha256=yMxIDq7i8zOOpnXVlPzEnfgaSLYIIJxJndeVfLzggXE,1649
+pilk_nogil/_pilk.pyi,sha256=emB0fMPZG1pjJw85pi7_p8bIUKBQy--biU72RfzZyms,1807
+pilk_nogil-0.3.0.dist-info/RECORD,,
+pilk_nogil-0.3.0.dist-info/METADATA,sha256=7oPvLKuDuYCV_kSoWBmDw2TPRJvmWEvOXtclThWW6pQ,8994
+pilk_nogil-0.3.0.dist-info/WHEEL,sha256=8Kms6zHtiT5muHus-SzcakF7Ql1fBjJ08hPD5hNLVYg,109
+pilk_nogil-0.3.0.dist-info/top_level.txt,sha256=E8yaxof9PyIFLUr4Sq9da8ewun_wFy77Jb8kThQZUjA,11
+pilk_nogil-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
