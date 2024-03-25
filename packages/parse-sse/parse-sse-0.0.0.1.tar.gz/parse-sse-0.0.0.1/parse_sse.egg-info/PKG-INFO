@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: parse-sse
+Version: 0.0.0.1
+Summary: Logic for parse SSE event
+Author: Gavin Bao
+Author-email: xingce.bao@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# parse-sse
+
+```python
+from parse_sse import parse_sse
+url = 'http://localhost:8000/your_endpoint'
+response = requests.get(url, stream=True)
+for event in parse_sse(response):
+    print(f"Event: {event['event']}")
+    print(f"Data: {event['data']}")
+    print("---")  
+```

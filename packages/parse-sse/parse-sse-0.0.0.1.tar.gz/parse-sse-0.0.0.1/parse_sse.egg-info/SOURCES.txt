@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+parse_sse/__init__.py
+parse_sse/parse.py
+parse_sse.egg-info/PKG-INFO
+parse_sse.egg-info/SOURCES.txt
+parse_sse.egg-info/dependency_links.txt
+parse_sse.egg-info/requires.txt
+parse_sse.egg-info/top_level.txt
