@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: Encrypt-decrypt-tfi
+Version: 1.0
+Summary: A package for encrypting and decrypting text and image files
+Author: Wahid Hussain
+Author-email: wahidhussain643@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# File Manipulation
+
+File Manipulation is a Python package that provides utilities for encrypting and decrypting both text and image files.
+
+## Installation
+
+You can install File Manipulation via pip:
+
+```
+pip install file-manipulation
+```
+
+## Features
+
+### Text File Encryption and Decryption
+
+You can encrypt and decrypt text files using the following functions:
+
+```
+from file_manipulation import encrypt_textfile, decrypt_textfile
+
+# Encrypt a text file
+encrypt_textfile('input.txt', 'encrypted.txt')
+
+# Decrypt a text file
+decrypt_textfile('encrypted.txt', 'decrypted.txt')
+```
+
+### Image File Encryption and Decryption
+
+File Manipulation also supports encryption and decryption of image files:
+
+```
+from file_manipulation import encrypt_imagefile, decrypt_imagefile
+
+# Encrypt an image file
+encrypt_imagefile('input.jpg', 'encrypted.txt')
+
+# Decrypt an image file
+decrypt_imagefile('encrypted.txt', 'decrypted.jpg')
+```
+
+## Usage
+
+### Command Line Interface
+
+File Manipulation provides command-line interfaces (CLI) for performing encryption and decryption directly from the terminal.
+
+To encrypt a text file:
+```
+file-manipulation-encrypt input.txt encrypted.txt
+```
+
+To decrypt a text file:
+```
+file-manipulation-decrypt encrypted.txt decrypted.txt
+```
+
+To encrypt an image file:
+```
+file-manipulation-encrypt-image input.jpg encrypted.txt
+```
+
+To decrypt an image file:
+```
+file-manipulation-decrypt-image encrypted.txt decrypted.jpg
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+This README.md provides an overview of your package, installation instructions, features, usage examples, and license information. Feel free to further customize it to include more details about your package or any additional functionalities.
