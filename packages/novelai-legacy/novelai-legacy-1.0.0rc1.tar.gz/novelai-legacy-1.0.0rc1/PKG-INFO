@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: novelai-legacy
+Version: 1.0.0rc1
+Summary: A lightweight async wrapper for NovelAI image generation API
+Author: UZQueen
+License: MIT License
+Project-URL: Repository, https://github.com/HanaokaYuzu/NovelAI-API
+Project-URL: Issues, https://github.com/HanaokaYuzu/NovelAI-API/issues
+Keywords: API,async,NovelAI,AI,image generation
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx>=0.25.2
+Requires-Dist: pydantic>=2.5.3
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: argon2-cffi>=21.3.0
+
+# <img src="https://raw.githubusercontent.com/HanaokaYuzu/NovelAI-API/master/docs/assets/novelai-logo.svg" height="35px" alt="NovelAI Icon"/> NovelAI-API
+
+A lightweight asynchronous Python wrapper for NovelAI image generation API.
+
+> [!CAUTION]
+>
+> Package `novelai-legacy` is no longer maintained. Please switch to `novelai` instead.
+>
+> Note that `novelai` package requires Python 3.12 or higher.
+
+```sh
+pip install -U novelai
+```
