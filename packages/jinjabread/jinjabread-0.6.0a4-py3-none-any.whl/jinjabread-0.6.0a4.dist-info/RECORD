@@ -1,0 +1,15 @@
+jinjabread/__init__.py,sha256=yuHxZbLEHl3q3rMaQSCbl3pTScTCK0Cgdx1Ha3YAp8s,103
+jinjabread/__main__.py,sha256=7qBsofbbaZTHE_AavKd_N5VRwGJAwfjstokD_NIJEak,1336
+jinjabread/base.py,sha256=1I64rBASKatg8GMePoMWtUKOSE2PNlC-dNoeGuH9dL8,5460
+jinjabread/build.py,sha256=VJGJsV7UXK0Da2isOmrRq2VMaB_53DNKmjij5ujaGEQ,152
+jinjabread/config.py,sha256=8u-EhcuCevtuCanM9QSnyQ7cv7eIjWhNglwC7a5l9k8,1744
+jinjabread/defaults.toml,sha256=xxM8k63c9NNoyfF_Zi5QciC2eZ4PZ9R59FymT3q4r7w,236
+jinjabread/errors.py,sha256=W7N8qFcLZplGJ09JMZM9W2iTDndSoen7_Lna3-PUjis,77
+jinjabread/new.py,sha256=lKHlxXkaUT0iewgmpjznETzJGSLHkBmh15bWVRU1VZQ,1227
+jinjabread/serve.py,sha256=yaFymiLfC2Bx1zI8i9fhFQWOVoyay63HYeP8tAMcirI,2247
+jinjabread/utils.py,sha256=Z0Au5AF6ilyebxQaUBvNzUOGeBrEK0EPw10DmmQaKtA,677
+jinjabread-0.6.0a4.dist-info/LICENSE,sha256=WJ9FS42KycNa3f_bhi9KwXGSymoVhxxHpoPXTLytEl4,1070
+jinjabread-0.6.0a4.dist-info/METADATA,sha256=D5aWPeLyLUeMwVq7EgD5Fd4GYi_gLVaH6_8ZeIgcMWU,3111
+jinjabread-0.6.0a4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jinjabread-0.6.0a4.dist-info/top_level.txt,sha256=Q8CEUhZjhF6qB9X1sK39Y0PGSLDe9N4PUuVkI4lfiCU,11
+jinjabread-0.6.0a4.dist-info/RECORD,,
