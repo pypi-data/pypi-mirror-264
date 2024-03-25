@@ -1,0 +1,10 @@
+toripchanger/__init__.py,sha256=N94QzOvOUMpUaA2dluT9ylgbbd42AJNep08AjFtUgyM,42
+toripchanger/changer.py,sha256=fbgWs-dX1j3y4ablhOTXM9YxJYWoitDFA_dss_qG8tk,5762
+toripchanger/exceptions.py,sha256=5Cx7hGWEKqQx9CgJjyN7NFtmNOjZbJ-KJmWbx7lj3IY,38
+toripchanger/server.py,sha256=v68YupgrIxvVZeZ9KjfpNaqLHnkUy54t9Y0o-I23xag,663
+toripchanger-1.2.0.data/scripts/toripchanger_server,sha256=j_xbwqM-PuHueFoGQxzh199oIiClT5p_uANnrrF83Rk,2384
+toripchanger-1.2.0.dist-info/LICENSE,sha256=1h_Vyr2bJQeEzmqHQU_qUW-KKNB71DI-qlc5EYg0wCA,1070
+toripchanger-1.2.0.dist-info/METADATA,sha256=ewLEbL_P4Ql3yyhf_vLUoBCEtg5Bw5hNeBCi4ScHqG0,7981
+toripchanger-1.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+toripchanger-1.2.0.dist-info/top_level.txt,sha256=iBjxgfmAv3SccBE-ykouaDzVN0AvKNaB_iwbbTBFEbY,13
+toripchanger-1.2.0.dist-info/RECORD,,
