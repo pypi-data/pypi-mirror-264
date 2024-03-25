@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+src/testingsomething_0.0.3_py3_none_any.whl.egg-info/PKG-INFO
+src/testingsomething_0.0.3_py3_none_any.whl.egg-info/SOURCES.txt
+src/testingsomething_0.0.3_py3_none_any.whl.egg-info/dependency_links.txt
+src/testingsomething_0.0.3_py3_none_any.whl.egg-info/top_level.txt
