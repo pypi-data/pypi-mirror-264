@@ -1,0 +1,3 @@
+[console_scripts]
+hyfiml=hyfiml.__cli__:main
+
