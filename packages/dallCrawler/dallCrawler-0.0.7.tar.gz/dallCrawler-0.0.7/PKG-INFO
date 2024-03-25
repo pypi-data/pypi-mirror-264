@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dallCrawler
+Version: 0.0.7
+Summary: This package helps you to crawl any site by setting your own config
+Author: Mostafa Amiri
+Author-email: <mostafa.amiri.62@gmail.com>
+Keywords: python,crawler,dall company
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4>=4.12.3
+
+# Dall Crawler Package
+
+This is a crawler.
+
+```
+from dallCrawler import Crawler
+
+crawler = Crawler(url="https://example.com/{}/v2/{}")
+# url can be set by setUrl(url) method
+# type is optional
+crawler.crawl("41257", "1", type='json')
+```
