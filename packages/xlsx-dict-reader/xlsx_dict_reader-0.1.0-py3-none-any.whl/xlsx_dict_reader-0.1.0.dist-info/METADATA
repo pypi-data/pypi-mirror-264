@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: xlsx-dict-reader
+Version: 0.1.0
+Summary: An interface similar to csv.DictReader for openpyxl WorkSheet objects
+License: MIT
+Author: Geoff Beier
+Author-email: geoff@tuxpup.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: openpyxl (>=3.1.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+# XLSX DictReader
+
+This is a simple Python module that takes an openpyxl `Worksheet` object and returns a list of dictionaries. Each dictionary represents a row in the Excel file. The keys of the dictionary are the column names and the values are the cell values.
+
+I've recently found myself, several times, wanting a thing like `csv.DictReader` for specific ranges of cells in Excel files. This does the job for me so far.
+
+Sample Usage:
+
+```python
+
+from openpyxl import load_workbook
+from xlsx_dictreader import DictReader
+
+wb = load_workbook('sample.xlsx', data_only=True)
+ws = wb.active
+
+
+reader = DictReader(ws, skip_blank=True)
+for row in reader:
+    print(row)
+
+```
+
