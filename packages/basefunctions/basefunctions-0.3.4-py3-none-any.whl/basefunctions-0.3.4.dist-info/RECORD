@@ -1,0 +1,8 @@
+basefunctions/__init__.py,sha256=vJGz2L9ZSYRX7OSVrQOFs_MHOIcuCgjZGWnI6HDd-rQ,2481
+basefunctions/database.py,sha256=viMy9DYwhHNUQVknu8_jaohNbYQvz7h3sPEpJvgSh28,4218
+basefunctions/filefunctions.py,sha256=lvtfu6A_fgwKNL6yhAB7JR9HTBgXiOgC9jpgn23_Hvw,14876
+basefunctions/threadpool.py,sha256=XdVk3kbe8qW89TV_0BamV2ECik0AlAXenYxLKg0LhHM,15673
+basefunctions-0.3.4.dist-info/METADATA,sha256=vf9ZBypAeUJ93uRTPH4QmUZiun6NSC9cpYXISk9jXIw,3384
+basefunctions-0.3.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+basefunctions-0.3.4.dist-info/top_level.txt,sha256=NVj1fe5ixe1-nCqPKnd3BJncMFdT_dPo8LJ9wh8NNjg,14
+basefunctions-0.3.4.dist-info/RECORD,,
