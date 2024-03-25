@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/lolla/__init__.py
+src/lolla/log.py
+src/lolla/lolla.py
+src/lolla/ollama.py
+src/lolla/parser.py
+src/lolla/storage.py
+src/lolla/tools.py
+src/lolla.egg-info/PKG-INFO
+src/lolla.egg-info/SOURCES.txt
+src/lolla.egg-info/dependency_links.txt
+src/lolla.egg-info/entry_points.txt
+src/lolla.egg-info/requires.txt
+src/lolla.egg-info/top_level.txt
