@@ -1,0 +1,11 @@
+numpy
+torch>=1.8.0
+tqdm
+pandas
+scikit-learn
+Scipy
+tcr2vec
+olga
+biopython
+sympy
+matplotlib
