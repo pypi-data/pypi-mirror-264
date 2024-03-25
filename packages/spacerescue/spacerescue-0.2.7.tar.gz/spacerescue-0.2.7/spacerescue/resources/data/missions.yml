@@ -1,0 +1,29 @@
+message_rescue_mission: |
+  ## Mission Overview:
+
+  Operation Space Rescue is a daring endeavor aimed at rescuing a stranded crew aboard the NCC-DaFa spaceship, which has
+  encountered critical life support system failures due to an unknown phenomenon.
+
+  ## Mission Objectives:
+
+  * Safely reach the planet {PLANET_NAME} within the shortest possible time frame.
+  * Evacuate the stranded crew from the spaceship and transport them back to the designated planet.
+  * Ensure the safety and well-being of all rescue team members throughout the mission.
+
+  ## Mission Crew:
+
+  * AI: You
+
+  ## Mission Timeline:
+
+  * Step 1: Find the coordinates of the designated planet.
+  * Step 2: Plot a safe course through the hyperspace tunnels to reach the planet within the shortest possible time frame.
+  * Step 3: Set an orbital course to the planet so that we can transport the crew back.
+
+  ## Mission Success:
+
+  The rescued astronauts are transferred to medical facilities for further evaluation and treatment, but all are in stable
+  condition.
+
+  Star System: {STAR_SYSTEM_NAME}
+  Star Date: {STAR_DATE}
