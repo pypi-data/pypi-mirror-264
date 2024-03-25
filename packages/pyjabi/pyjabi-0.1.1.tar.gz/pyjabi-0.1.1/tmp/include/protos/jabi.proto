@@ -1,0 +1,333 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+import "google/protobuf/wrappers.proto";
+package JABI;
+
+service Device {
+    /* Metadata */
+    rpc serial (google.protobuf.Empty) returns (google.protobuf.StringValue);
+    rpc num_inst (NumInstRequest) returns (google.protobuf.UInt32Value);
+    rpc echo (google.protobuf.StringValue) returns (google.protobuf.StringValue);
+    rpc req_max_size (google.protobuf.Empty) returns (google.protobuf.UInt32Value);
+    rpc resp_max_size (google.protobuf.Empty) returns (google.protobuf.UInt32Value);
+    rpc custom(google.protobuf.BytesValue) returns (google.protobuf.BytesValue);
+
+    /* CAN */
+    rpc can_set_filter(CANSetFilterRequest) returns (google.protobuf.Empty);
+    rpc can_set_rate(CANSetRateRequest) returns (google.protobuf.Empty);
+    rpc can_set_mode(CANSetModeRequest) returns (google.protobuf.Empty);
+    rpc can_state(Index) returns (CANStateResponse);
+    rpc can_write(CANWriteRequest) returns (google.protobuf.Empty);
+    rpc can_read(Index) returns (CANReadResponse);
+
+    /* I2C */
+    rpc i2c_set_freq(I2CSetFreqRequest) returns (google.protobuf.Empty);
+    rpc i2c_write(I2CWriteRequest) returns (google.protobuf.Empty);
+    rpc i2c_read(I2CReadRequest) returns (google.protobuf.BytesValue);
+    rpc i2c_transceive(I2CTransceiveRequest) returns (google.protobuf.BytesValue);
+
+    /* GPIO */
+    rpc gpio_set_mode(GPIOSetModeRequest) returns (google.protobuf.Empty);
+    rpc gpio_write(GPIOWriteRequest) returns (google.protobuf.Empty);
+    rpc gpio_read(Index) returns (google.protobuf.BoolValue);
+
+    /* PWM */
+    rpc pwm_write(PWMWriteRequest) returns (google.protobuf.Empty);
+
+    /* ADC */
+    rpc adc_read(Index) returns (google.protobuf.Int32Value);
+
+    /* DAC */
+    rpc dac_write(DACWriteRequest) returns (google.protobuf.Empty);
+
+    /* SPI */
+    rpc spi_set_freq(SPISetFreqRequest) returns (google.protobuf.Empty);
+    rpc spi_set_mode(SPISetModeRequest) returns (google.protobuf.Empty);
+    rpc spi_set_bitorder(SPISetBitorderRequest) returns (google.protobuf.Empty);
+    rpc spi_write(SPIWriteRequest) returns (google.protobuf.Empty);
+    rpc spi_read(SPIReadRequest) returns (google.protobuf.BytesValue);
+    rpc spi_transceive(SPITransceiveRequest) returns (google.protobuf.BytesValue);
+
+    /* UART */
+    rpc uart_set_config(UARTSetConfigRequest) returns (google.protobuf.Empty);
+    rpc uart_write(UARTWriteRequest) returns (google.protobuf.Empty);
+    rpc uart_read(UARTReadRequest) returns (google.protobuf.BytesValue);
+
+    /* LIN */
+    rpc lin_set_mode(LINSetModeRequest) returns (google.protobuf.Empty);
+    rpc lin_set_rate(LINSetRateRequest) returns (google.protobuf.Empty);
+    rpc lin_set_filter(LINSetFilterRequest) returns (google.protobuf.Empty);
+    rpc lin_mode(Index) returns (LINModeResponse);
+    rpc lin_status(Index) returns (LINStatusResponse);
+    rpc lin_write(LINWriteRequest) returns (google.protobuf.Empty);
+    rpc lin_read(LINReadRequest) returns (LINReadResponse);
+}
+
+/* Common */
+message Index {
+    uint32 idx = 1;
+}
+
+/* Metadata */
+enum InstID {
+    METADATA = 0;
+    CAN = 1;
+    I2C = 2;
+    GPIO = 3;
+    PWM = 4;
+    ADC = 5;
+    DAC = 6;
+    SPI = 7;
+    UART = 8;
+    LIN = 9;
+}
+
+message NumInstRequest {
+    InstID id = 1;
+}
+
+/* CAN */
+message CANSetFilterRequest {
+    uint32 id = 1;
+    uint32 id_mask = 2;
+    uint32 idx = 3;
+}
+
+message CANSetRateRequest {
+    uint32 bitrate = 1;
+    uint32 bitrate_data = 2;
+    uint32 idx = 3;
+}
+
+enum CANMode {
+    NORMAL = 0;
+    LOOPBACK = 1;
+    LISTENONLY = 2;
+}
+
+message CANSetModeRequest {
+    CANMode mode = 1;
+    uint32 idx = 2;
+}
+
+message CANStateResponse {
+    uint32 state = 1;
+    uint32 tx_err = 2;
+    uint32 rx_err = 3;
+}
+
+message CANMessage {
+    uint32 id = 1;
+    bool ext = 2;
+    bool fd = 3;
+    bool brs = 4;
+    bool rtr = 5;
+    bytes data = 6;
+}
+
+message CANWriteRequest {
+    CANMessage msg = 1;
+    uint32 idx = 2;
+}
+
+message CANReadResponse {
+    int32 num_left = 1;
+    CANMessage msg = 2;
+}
+
+/* I2C */
+enum I2CFreq {
+    STANDARD  = 0; // 100kHz
+    FAST = 1;      // 400kHz
+    FAST_PLUS = 2; // 1MHz
+    HIGH = 3;      // 3.4MHz
+    ULTRA = 4;     // 5MHz
+}
+
+message I2CSetFreqRequest {
+    I2CFreq preset = 1;
+    uint32 idx = 2;
+}
+
+message I2CWriteRequest {
+    uint32 addr = 1;
+    bytes data = 2;
+    uint32 idx = 3;
+}
+
+message I2CReadRequest {
+    uint32 addr = 1;
+    uint32 len = 2;
+    uint32 idx = 3;
+}
+
+message I2CTransceiveRequest {
+    uint32 addr = 1;
+    bytes data = 2;
+    uint32 read_len = 3;
+    uint32 idx = 4;
+}
+
+/* GPIO */
+enum GPIODir {
+    INPUT = 0;
+    OUTPUT = 1;
+    OPEN_DRAIN = 2;
+    OPEN_SOURCE = 3;
+}
+
+enum GPIOPull {
+    NONE = 0;
+    UP = 1;
+    DOWN = 2;
+    BOTH = 3;
+}
+
+message GPIOSetModeRequest {
+    uint32 idx = 1;
+    GPIODir dir = 2;
+    GPIOPull pull = 3;
+    bool init_val = 4;
+}
+
+message GPIOWriteRequest {
+    uint32 idx = 1;
+    bool val = 2;
+}
+
+/* PWM */
+message PWMWriteRequest {
+    uint32 idx = 1;
+    double pulsewidth = 2;
+    double period = 3;
+}
+
+/* DAC */
+message DACWriteRequest {
+    uint32 idx = 1;
+    int32 mv = 2;
+}
+
+/* SPI */
+message SPISetFreqRequest {
+    uint32 freq = 1;
+    uint32 idx = 2;
+}
+
+message SPISetModeRequest {
+    uint32 mode = 1;
+    uint32 idx = 2;
+}
+
+message SPISetBitorderRequest {
+    bool msb = 1;
+    uint32 idx = 2;
+}
+
+message SPIWriteRequest {
+    bytes data = 1;
+    uint32 idx = 2;
+}
+
+message SPIReadRequest {
+    uint32 len = 1;
+    uint32 idx = 2;
+}
+
+message SPITransceiveRequest {
+    bytes data = 1;
+    uint32 idx = 2;
+}
+
+/* UART */
+message UARTSetConfigRequest {
+    enum UARTParity { // C++ namespace conflict?!
+        NONE = 0;
+        ODD = 1;
+        EVEN = 2;
+        MARK = 3;
+        SPACE = 4;
+    }
+
+    enum UARTStop {
+        B0_5 = 0;
+        B1 = 1;
+        B1_5 = 2;
+        B2 = 3;
+    }
+
+    uint32 baud = 1;
+    uint32 data_bits = 2;
+    UARTParity parity = 3;
+    UARTStop stop = 4;
+    uint32 idx = 5;
+}
+
+message UARTWriteRequest {
+    bytes data = 1;
+    uint32 idx = 2;
+}
+
+message UARTReadRequest {
+    uint32 len = 1;
+    uint32 idx = 2;
+}
+
+/* LIN */
+enum LINMode {
+    COMMANDER = 0;
+    RESPONDER = 1;
+}
+
+enum LINChecksum {
+    CLASSIC = 0;
+    ENHANCED = 1;
+    AUTO = 2;
+}
+
+message LINSetModeRequest {
+    LINMode mode = 1;
+    uint32 idx = 2;
+}
+
+message LINSetRateRequest {
+    uint32 rate = 1;
+    uint32 idx = 2;
+}
+
+message LINSetFilterRequest {
+    uint32 id = 1;
+    uint32 len = 2;
+    LINChecksum type = 3;
+    uint32 idx = 4;
+}
+
+message LINModeResponse {
+    LINMode mode = 1;
+}
+
+message LINStatusResponse {
+    uint32 id = 1;
+    bool success = 2;
+}
+
+message LINMessage {
+    uint32 id = 1;
+    LINChecksum type = 2;
+    bytes data = 3;
+}
+
+message LINWriteRequest {
+    LINMessage msg = 1;
+    uint32 idx = 2;
+}
+
+message LINReadRequest {
+    uint32 id = 1;
+    uint32 idx = 2;
+}
+
+message LINReadResponse {
+    int32 num_left = 1;
+    LINMessage msg = 2;
+}
