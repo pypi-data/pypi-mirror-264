@@ -1,0 +1,131 @@
+[tool.poetry]
+name = "pytest-playwright-enhanced"
+version = "0.2.0"
+description = "A pytest plugin for playwright python"
+authors = ["Simon K <jackofspaces@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.plugins.pytest11]
+pytest_playwright_enhanced = "pytest_playwright_enhanced.plugin"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+playwright = "^1.41.2"
+pytest = "^8.0.0"
+pytest-xdist = "^3.5.0"
+python-slugify = "^8.0.4"
+types-python-slugify = "^8.0.2.20240310"
+
+[tool.poetry.group.dev.dependencies]
+tox = "^4.12.1"
+towncrier = "^23.11.0"
+mkdocs = "^1.5.3"
+mkdocs-material = {extras = ["imaging"], version = "^9.5.14"}
+mkdocstrings = "^0.24.0"
+mkdocstrings-python = "^1.8.0"
+coverage = "^7.4.1"
+typing-extensions = "^4.9.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+target-version = "py38"
+
+[tool.ruff.lint.per-file-ignores]
+"pytest_playwright_enhanced/hooks.py" = ["ARG001"]
+
+[tool.ruff.lint]
+select = [
+    "F", 
+    "I", 
+    "N", 
+    "W", 
+    "UP", 
+    "ANN", 
+    "BLE", 
+    "FBT", 
+    "B", 
+    "A", 
+    "COM", 
+    "C4", 
+    "DTZ", 
+    "T10", 
+    "EM",
+    "EXE",
+    "FA",
+    "ISC",
+    "ICN",
+    "INP",
+    "PIE",
+    "PYI",
+    "PT",
+    "RSE",
+    "RET",
+    "SLOT",
+    "SIM",
+    "ARG",
+    "PTH",
+    "ERA",
+    "PL",
+    "FLY",
+    "PERF",
+    "RUF",
+    ]
+fixable = ["ALL"]
+unfixable = []
+ignore = ["EM101", "ISC001", "COM812"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+skip-magic-trailing-comma = false
+docstring-code-format = true
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.towncrier]
+package = "pytest_playwright_enhanced"
+package_dir = "."
+directory = "changes"
+start_string = "<!-- Pytest Playwright Enhanced Release Notes -->\n"
+underlines = ["", "", ""]
+title_format = "## [{version}](https://github.com/symonk/pytest-playwright-enhanced) - {project_date}"
+issue_format = "[#{issue}](https://github.com/symonk/pytest-playwright-enhanced/issues/{issue})"
+
+filename = "CHANGELOG.rst"
+
+[[tool.towncrier.type]]
+directory = "security"
+name = "Security"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "deprecated"
+name ="Deprecated"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "feature"
+name = "Feature"
+showcontent = true
+
+
+[[tool.towncrier.type]]
+directory = "bugfix"
+name = "Bugfix"
+showcontent = true
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+# exclude does not work here; only in pre-commit!
