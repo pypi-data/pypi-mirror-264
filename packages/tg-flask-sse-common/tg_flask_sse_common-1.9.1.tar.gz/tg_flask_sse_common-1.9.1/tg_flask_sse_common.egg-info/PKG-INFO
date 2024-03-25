@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tg-flask-sse-common
+Version: 1.9.1
+Summary: tg_flask_sse_common
+Author: Tangshimin
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: redis==5.0.1
+
+# call-center-flask-sse
+
+呼叫中心 flask sse服务端推送模块
