@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "dreamlinktools"
+version = "0.1.2"
+description = "A collection of tools for working with Dreamlink zones."
+authors = ["tlonny"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
