@@ -1,0 +1,10 @@
+cardboard/Exceptions.py,sha256=Tp3GDIzgGaseIschR7WWl4Z9NURzG8jwqA9VBdZ0opE,1352
+cardboard/__init__.py,sha256=r-3eW2bR7vdY89K-wq4iVFV0mHX9P8cWoUOO97xHcXU,456
+cardboard/cardboard.py,sha256=biEfo91x9iInW-BQtdfpFM6DqNM_gNBqqK_j0OjaCvI,11919
+cardboard/cardboard_async.py,sha256=_bAZn6WiiWjEToMtDEygZfo_qTKnU8b6YJ8SQWp_6gk,13705
+cardboard/flask_integration.py,sha256=rO9EAlSPKYrL0S0MVaUrJ-L7BvdiMQ9PuWs1BFtSFBc,15527
+cardboard/quart_integration.py,sha256=KdoUlITo9f2moifn9z6gaaRm97aFYS8Qaww3n6LFUIs,17405
+cardboard.py-0.0.23.dist-info/METADATA,sha256=1iKvzc-ntNAyEwx_jF-Vs_8yBDjrQ2ko50cR8Q0CYEI,6822
+cardboard.py-0.0.23.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cardboard.py-0.0.23.dist-info/top_level.txt,sha256=rV_j2eghrcSpj6u3fxtU20lhmoBxKqIxsrNKpZEBGX4,10
+cardboard.py-0.0.23.dist-info/RECORD,,
