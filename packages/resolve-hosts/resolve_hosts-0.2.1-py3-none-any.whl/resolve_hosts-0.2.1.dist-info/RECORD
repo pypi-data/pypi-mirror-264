@@ -1,0 +1,10 @@
+resolve_hosts/__init__.py,sha256=oV4aOcYsK_YeL2AmKpA4oDFWljeoPUoDmXr0YwdR0II,37
+resolve_hosts/cli.py,sha256=Nvs6h8SvguEtoWjAVO_pKP15nTMsAyHaar0DCQDnfJY,5395
+resolve_hosts/resolver.py,sha256=gfxY9Vkl3QZPyQaUbAl88mtIbQUTlgUk6vIqX6cwcYs,1213
+resolve_hosts/whois.py,sha256=iTJa2Gx7B7m8mCINwevyesslexpduy2QNmXHYnMdDGg,550
+resolve_hosts-0.2.1.dist-info/LICENSE,sha256=-6My95tHX0mK01EBieymhmMwPK-iLOY5Is-n3WjXioE,734
+resolve_hosts-0.2.1.dist-info/METADATA,sha256=4Fk6yWl202TXRw-085e1KBBnWb1LFT31bvFkN3GSxLg,2921
+resolve_hosts-0.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+resolve_hosts-0.2.1.dist-info/entry_points.txt,sha256=EhkvmhcRcdBDMHll0F7IrsuzeGCWKYPHQmyinzdFv6E,112
+resolve_hosts-0.2.1.dist-info/top_level.txt,sha256=1I0n4SgarTcoem3ug8oCZQzjW3G-c44gmhK1siZipTI,14
+resolve_hosts-0.2.1.dist-info/RECORD,,
