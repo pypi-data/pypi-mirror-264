@@ -1,0 +1,4 @@
+Python Interpreter: PyPy
+Python Version: pypy-3.9
+Target OS: macosx_13_0
+Target Architecture: x86_64
