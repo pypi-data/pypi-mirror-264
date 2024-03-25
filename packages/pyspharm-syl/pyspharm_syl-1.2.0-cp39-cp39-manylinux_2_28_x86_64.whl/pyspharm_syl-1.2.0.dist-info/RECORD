@@ -1,0 +1,10 @@
+spharm.py,sha256=mqjKxk7nu_2E07elD26LwEF-YpHs7ARpyp5eQfRrj1c,44039
+_spherepack.cpython-39-x86_64-linux-gnu.so,sha256=q-2y4TtBGaFQLPPoVVJHnvAE4mAaYlJ9J2QqWYAHypU,911345
+__init__.py,sha256=ZrwDCj5Je8bTBhItuWX9JYxAxUIeM6YVbWcyiClJvWY,85
+pyspharm_syl-1.2.0.dist-info/WHEEL,sha256=zw3M28PhvDsCwKTzPFHoWO8B1n_qvcwAkxLsDZlwHoI,97
+pyspharm_syl-1.2.0.dist-info/METADATA,sha256=_VcVXZVY3dfd0ngOhsZzH2qo7q0Tr5X3zNwNn2_vQUE,7517
+pyspharm_syl-1.2.0.dist-info/LICENSE.spherepack,sha256=Yl7SpK0wnhaeIOD-ovVUoklo7JKW-89RqdmA7RZyKE4,1770
+pyspharm_syl-1.2.0.dist-info/RECORD,,
+pyspharm_syl.libs/libsvml-4f8b0286.so,sha256=_Bb0mt7kVKdyb5mZb_IPiqRE4ASFvigZgPUg9vnngtE,27387121
+pyspharm_syl.libs/libintlc-a8529b68.so.5,sha256=DFpho3GCChkBedTViQgzryZdcBOVBEBZxwLlameY06A,427145
+pyspharm_syl.libs/libimf-6a548307.so,sha256=Cl-Uug0ReY7GuWbmUJsz9lQ1StBF5f3_1Zvrzu6V_8U,4665305
