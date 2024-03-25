@@ -1,0 +1,14 @@
+quant/README.md,sha256=huMGDBfjav-XhdJmqQuCinYGjvDoedzT29zVvK7415M,1841
+quant/__init__.py,sha256=ElViG9tzWYbYboP1HuRm_NxAGHZ_TLO5FEOtVrpLIKo,559
+quant/__main__.py,sha256=CvNzFepgCoingJCoI__8EArulpnfKTCYWWjxCTPSi9s,67
+quant/football/__init__.py,sha256=GrrLQOm8iV6whheSbxl49AaYrjJszjpi-4BvNSCHoNg,422
+quant/football/etk_titan.py,sha256=f2aza3t8it1oI4rqaJvtzxVt1mU-49RppwRa5JkF_pI,11623
+quant/football/stats.py,sha256=O9KNqmNd4wUzKjAtIuqfWT7YwPOkSCOFTgIrceeJxOc,2107
+quant/football/utils.py,sha256=iGFwADCoPW7G9isj3PF_In29vpuOgxemA4hZf2w5i-A,643
+quant/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quant/io/base.py,sha256=L583ATcYnO2ho46S-l15yCNUzkeI5NQOiHjmVatqdUM,267
+quant2-0.0.5.dist-info/entry_points.txt,sha256=umrmn_pk7yz790OfbJZdRTfGIUhqgLoRhi1a4_4ZKyk,65
+quant2-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+quant2-0.0.5.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+quant2-0.0.5.dist-info/METADATA,sha256=96CcqsQgS4wclhJU1Xx17V_n-DJkeSs3odGAijE2dGI,2173
+quant2-0.0.5.dist-info/RECORD,,
