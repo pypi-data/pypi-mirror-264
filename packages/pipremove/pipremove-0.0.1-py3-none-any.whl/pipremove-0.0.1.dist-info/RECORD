@@ -1,0 +1,5 @@
+pipremove/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipremove/pip_remove.py,sha256=XhfG90PBD_qiDIs2XZp2ScodmXvDUJO_qNrxH97Vivo,2872
+pipremove-0.0.1.dist-info/METADATA,sha256=9ihlZNGurZFsxhGQe57pHNWehOOlShQi-h3vJupo8oM,404
+pipremove-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+pipremove-0.0.1.dist-info/RECORD,,
