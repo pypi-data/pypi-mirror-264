@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: captureflow-agent
+Version: 0.0.1
+Summary: Data collector to unleash LLM power
+Author-email: Nikita Kuts <me@nikitakuts.com>
+Project-URL: Repository, https://github.com/CaptureFlow/captureflow-py
+Project-URL: Website, https://captureflow.dev/
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: idna==3.6
+Requires-Dist: requests==2.31.0
+Requires-Dist: urllib3==2.2.1
