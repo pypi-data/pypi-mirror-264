@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/decapi/main.py
+src/decapi.egg-info/PKG-INFO
+src/decapi.egg-info/SOURCES.txt
+src/decapi.egg-info/dependency_links.txt
+src/decapi.egg-info/requires.txt
+src/decapi.egg-info/top_level.txt

@@ -1,0 +1,47 @@
+# DECAPI (should've chosen a better name)
+A simple DECTalk API.
+
+(you have to supply your own path to the say executable)
+
+Default voice: Perfect Paul
+
+## Installation
+
+```bash
+pip install decapi
+```
+
+## Usage
+
+### Speak(ing)
+
+```python
+import decapi
+decapi.dectalkpath="your/path/to/dectalk/say"
+decapi.init() 
+decapi.say("Hey there")
+```
+
+You can design your own voice using the Voice class.
+
+    ap - Average pitch, in Hz
+    as - Assertiveness, in %  
+    b4 - Fourth formant bandwidth, in Hz  
+    b5 - Fifth formant bandwidth, in Hz 
+    bf - Baseline fall, in Hz  
+    br - Breathiness, in decibels (dB) 
+    f4 - Fourth formant resonance frequency, in Hz 
+    f5 - Fifth formant resonance frequency, in Hz 
+    hr - Hat rise, in Hz 
+    hs - Head size, in % 
+    la - Laryngealization, in % 
+    lx - Lax breathiness, in % 
+    nf - Number of fixed samples of open glottis 
+    pr - Pitch range, in % 
+    qu - Quickness, in % 
+    ri - Richness, in % 
+    sm - Smoothness, in % 
+    sr - Stress rise, in Hz 
+    sx - Sex 1 (male) or 0 (female)
+
+Before you contact me, I do not respond to your emails. Create an issue instead in the currently non-existent [GitHub repository](https://github.com/GDPlayer1035/decapi) if you need help.
