@@ -1,0 +1,15 @@
+xad_autodiff/__init__.py,sha256=RIPozBLElAd57n0uO6OOy-amG3TVT78xnfKWlZIVk1k,2063
+xad_autodiff/__init__.pyi,sha256=H9jFe0qQBvikW0urzUXMs_aEu3tCAOoTPHkh8DGoTAI,1039
+xad_autodiff/_xad_autodiff.cpython-39-x86_64-linux-gnu.so,sha256=XL6-CrMjaGxbKjls1t2bOpARMMohPYa6X4qA807C-9A,774704
+xad_autodiff/math/__init__.py,sha256=uLIA0qEvLvGUF7ayeVNFbIlqfGOCRIrKaa5nNqqLwC8,3302
+xad_autodiff/exceptions/__init__.py,sha256=FBvyriNPur1MAr6vETS6dBSVq4-J0m3LC1ZdazIsX6I,1322
+xad_autodiff/adj_1st/__init__.py,sha256=WrtwYYDuSsmgZ4nS0cAsi8jvMTW9zE32kMtkW5uzzQ4,2590
+xad_autodiff/_xad_autodiff/exceptions.pyi,sha256=0XfzDa8XixvSr3iI_GkW7v7RgJKx-rTr5byrK_Sqjgw,839
+xad_autodiff/_xad_autodiff/math.pyi,sha256=vDhXgt0Al9iF6C1IYeq36qJ8NH-p_AX_FQxke5f61cw,31656
+xad_autodiff/_xad_autodiff/fwd_1st.pyi,sha256=GU4WnOEvxbTjBZSVBoxqQOn8mJna-OnyRahbZGh9954,5461
+xad_autodiff/_xad_autodiff/adj_1st.pyi,sha256=-SfALFDFQwhJ3IwNPR30kftuPJld8l4pRY14yoDO47s,9275
+xad_autodiff/_xad_autodiff/__init__.pyi,sha256=lxR5-GSPwn2UEdTfYjFVGstlaWjjSB5N2VqqhiaOl-k,178
+xad_autodiff/fwd_1st/__init__.py,sha256=UR9BpDHBqArp91h-BUbT3lRFVDNdSyn9S7-gNoThSBw,2287
+xad_autodiff-1.5.0.dist-info/RECORD,,
+xad_autodiff-1.5.0.dist-info/WHEEL,sha256=s7F4XxUDS24Nzaxo7s6Yes5ndVXxDYd7u9D4-hCNmM8,145
+xad_autodiff-1.5.0.dist-info/METADATA,sha256=dg-LzuXIt3iJgjhDcQ_5GeQWkCNurLYLVw6f0fa2pic,4978
