@@ -1,0 +1,10 @@
+voxu/__init__.py,sha256=4thUV9UYim7bNYXbWwGBR6LUNw2sgau3ic2_FqiqFWY,863
+voxu/database.py,sha256=KZQpZ1are4qC8SmSOInOStyFbCm4B5wn1rfy8T9rRF0,1257
+voxu/middleware.py,sha256=bTBxyUxaZ8tu3YLbEdQLIKcQ28MB9dsoxJg0rxEpZTk,4391
+voxu/models.py,sha256=T4lpIPYFCdcSAyX3JENYZy4jDCDgv8iE4a_W9wyn-wA,849
+voxu/voxu_ui.py,sha256=Y-8ae3OqY6N5T1dpxSWWu60w1IHOrNoldO1RP-CbHas,3258
+voxu-0.1.8.dist-info/LICENSE,sha256=o-j0Cxn3xNcQGVFN0BdqDUyfiBMULQ6tQDMQYX0VfGc,1073
+voxu-0.1.8.dist-info/METADATA,sha256=zc8d58zsiILrCxEhJiZs9qmyIizD4tE5R2QGJpb2NNs,1875
+voxu-0.1.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+voxu-0.1.8.dist-info/top_level.txt,sha256=qmdvwWJA-3Jn-WjfMba9-ARvrhUtsl4RyrYBzUMZlCM,5
+voxu-0.1.8.dist-info/RECORD,,
