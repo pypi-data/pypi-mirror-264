@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: skerch
+Version: 0.3.0
+Summary: Sketched matrix decompositions for PyTorch
+Home-page: https://github.com/andres-fr/skerch
+Author: aferro
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE
+Requires-Dist: torch <3.0.0,>=2.1.0
+Requires-Dist: scipy <2.0.0,>=1.10.0
+Requires-Dist: h5py <4.0.0,>=3.9.0
+Requires-Dist: torch-dct <2.0.0,>=0.1.6
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: matplotlib ; extra == 'docs'
+Requires-Dist: curvlinops-for-pytorch ; extra == 'docs'
+Requires-Dist: sphinx-gallery ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-immaterial ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: mccabe ; extra == 'lint'
+Requires-Dist: pep8-naming ; extra == 'lint'
+Requires-Dist: flake8-bugbear ; extra == 'lint'
+Requires-Dist: flake8-comprehensions ; extra == 'lint'
+Requires-Dist: flake8-tidy-imports ; extra == 'lint'
+Requires-Dist: darglint ; extra == 'lint'
+Requires-Dist: pydocstyle ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: coveralls ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+<p align="center">
+  <img alt="Skerch Logo" src="docs/materials/assets/skerch_horizontal.svg" width="50%">
+</p>
+
+<h3 align="center">
+<code>skerch</code>: Sketched matrix decompositions for PyTorch
+</h3>
+
+RTD:
+
+[![Documentation Status](https://readthedocs.org/projects/pytorchsketchysvd/badge/?version=latest)](https://pytorchsketchysvd.readthedocs.io/en/latest/?badge=latest)
+
+Coveralls:
+
+[![Coverage Status](https://coveralls.io/repos/github/andres-fr/PyTorchSketchySVD/badge.svg?branch=main)](https://coveralls.io/github/andres-fr/PyTorchSketchySVD?branch=main)
+
+Actions:
+
+![example workflow](https://github.com/andres-fr/PyTorchSketchySVD/actions/workflows/ci/badge.svg)
+
+PyPI
+
+![PyPI](https://img.shields.io/pypi/v/skerch?label=pypi%20package)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/skerch)
+
+
+### TODO:
+
+- [ ] Finish PyPI workflow (lint, doc build, utest+cov, release)
+- [x] add codecov
+- [ ] README
+  - [x] badges below logo (CI, coveralls, rtd, pypy-downloads?)
+  - [ ] basic description and pointer to getting started
+  - [ ] basic install instructions and pointer to docs
+  - [ ] basic devs comment and pointer to docs
