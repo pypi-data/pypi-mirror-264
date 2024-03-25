@@ -1,0 +1,1 @@
+DEFAULT_INDEX_COLUMN_NAME = "row_id"
