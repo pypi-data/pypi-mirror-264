@@ -1,0 +1,14 @@
+anywebsearch/__init__.py,sha256=IhZ3oexQsyjioLk0VBeqBNUivh3nV9fDkMTQxHNw1SQ,61
+anywebsearch/search.py,sha256=P40CjOYKVgWrANOMtk4NlA7VTplzCWtm_LoSxJLixHU,794
+anywebsearch/tools.py,sha256=OrBRhZTvg8L5U40b_ub3xqZszu6PpaOXtFeyGMz0hYI,3186
+anywebsearch/engines/__init__.py,sha256=P1zZQFeh_4n7dGwc3Qk4H5uOcBpX7-dWupqwxzqgXow,162
+anywebsearch/engines/brave.py,sha256=zhrZcsZd_JTBKUg8CRQsP1uUkjnr2JT04yKTYdtJk_s,1526
+anywebsearch/engines/duck.py,sha256=fCC6Nb_6AVwOmuPCa7V9x4vKPetbf21xFA1MBseyTlg,1830
+anywebsearch/engines/google.py,sha256=5QhRj897uyB5pHCFT7EkfjTS7Kpj-TF4UcOXjFj9RQ8,870
+anywebsearch/engines/qwant.py,sha256=Fdm3VL8ASYQlJDGcyLzLD6vVQDvaejP51-aOOPHnP1w,2682
+anywebsearch/engines/yandex.py,sha256=cteeP5mzUMjj3cMbEz4uo_63gTqySKjrg50UNkYQBwE,2795
+anywebsearch-0.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+anywebsearch-0.1.dist-info/METADATA,sha256=0MCAy-ogb0qr8yaqFMhQUVrdTSsILll0veHE9unpsdY,21127
+anywebsearch-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+anywebsearch-0.1.dist-info/top_level.txt,sha256=Wc-Cy5iGhRx6k7KbeZpl4LSUJBKRIC6zIN1nxbo_QfY,13
+anywebsearch-0.1.dist-info/RECORD,,
