@@ -1,0 +1,8 @@
+cmem_plugin_mattermost/__init__.py,sha256=465z6Ilf4VKBGa_AGsfY-XwnQhExNv8b8NrdU4ce_NM,32
+cmem_plugin_mattermost/workflow/__init__.py,sha256=xrRQqQEM8sW6DaZt6kdJmaK0-fLst0xsRRC2O1OZNEE,28
+cmem_plugin_mattermost/workflow/mattermost.svg,sha256=raRw6mJn0KELtPhFUJfY1lV9Z10698q4ciUAqzXRAKM,2199
+cmem_plugin_mattermost/workflow/mattermost_plugin.py,sha256=3m5HIduHcfR1A8p5BrWINSNn7MVfOsQa7v3ovXOfHHw,12476
+cmem_plugin_mattermost-2.2.0.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+cmem_plugin_mattermost-2.2.0.dist-info/METADATA,sha256=knOOf8TJ-Tt71hjXWz6h5eF5wWDLqa92bgy689HKcaI,1309
+cmem_plugin_mattermost-2.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cmem_plugin_mattermost-2.2.0.dist-info/RECORD,,
