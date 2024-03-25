@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: hdata
+Version: 0.11.0
+Summary: Interacting with the HyperData API.
+Home-page: https://github.com/judahcooper/hdata
+Author: Judah Cooper
+Author-email: judah@hyperdata.network
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black ; extra == "test"
+Requires-Dist: bump2version ; extra == "dev"
+Requires-Dist: flake8 ; extra == "test"
+Requires-Dist: flake8-docstrings ; extra == "test"
+Requires-Dist: isort ; extra == "test"
+Requires-Dist: mkdocs ; extra == "doc"
+Requires-Dist: mkdocs-autorefs ; extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin ; extra == "doc"
+Requires-Dist: mkdocs-material ; extra == "doc"
+Requires-Dist: mkdocs-material-extensions
+Requires-Dist: mkdocstrings (==0.16.0) ; extra == "doc"
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pip ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: pyarrow
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: requests
+Requires-Dist: toml ; extra == "dev"
+Requires-Dist: tox ; extra == "dev"
+Requires-Dist: twine ; extra == "dev"
+Requires-Dist: virtualenv ; extra == "dev"
+Description-Content-Type: text/markdown
+
+# hdata
+
+Interacting with the HyperData API
+
