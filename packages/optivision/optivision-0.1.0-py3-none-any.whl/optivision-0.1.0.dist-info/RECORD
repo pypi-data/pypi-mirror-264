@@ -1,0 +1,9 @@
+optivision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optivision/common.py,sha256=27003YM1cBFFP2prVK4F1dL9Pb8KK34T7m4MQICI69s,644
+optivision/transformations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optivision/transformations/logarithmic.py,sha256=3rV5nbtcArVHkJoI9WGF55DYmOME2cXO-8BTxSLGf6w,798
+optivision/transformations/negative.py,sha256=BmhODlMKZtIHQ4dsZuFgnUkyMDjRZPPZnByJ-Wk83ss,804
+optivision-0.1.0.dist-info/METADATA,sha256=IectDRJJkSMWnrL22KzBJO-MkKgT-CCX-uIfHTCEh-c,326
+optivision-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+optivision-0.1.0.dist-info/top_level.txt,sha256=vnrungKliRSuSUjo3jN07nqmZWJzlr7m1FB-uxlZoes,11
+optivision-0.1.0.dist-info/RECORD,,
