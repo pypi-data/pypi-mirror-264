@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/example_pkg_xormxla_pd_columns.egg-info/PKG-INFO
+src/example_pkg_xormxla_pd_columns.egg-info/SOURCES.txt
+src/example_pkg_xormxla_pd_columns.egg-info/dependency_links.txt
+src/example_pkg_xormxla_pd_columns.egg-info/top_level.txt
+src/xormxla_pd_comlumn/__init__.py
+src/xormxla_pd_comlumn/example.py
