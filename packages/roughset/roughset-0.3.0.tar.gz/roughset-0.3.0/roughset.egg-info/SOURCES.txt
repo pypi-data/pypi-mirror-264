@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+roughset/__init__.py
+roughset/__main__.py
+roughset/evaluate.py
+roughset/reduct.py
+roughset/relations.py
+roughset.egg-info/PKG-INFO
+roughset.egg-info/SOURCES.txt
+roughset.egg-info/dependency_links.txt
+roughset.egg-info/requires.txt
+roughset.egg-info/top_level.txt
+test/test_evaluate.py
+test/test_metrics.py
+test/test_reduct.py
+test/test_relations.py
