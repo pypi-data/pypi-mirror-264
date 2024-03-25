@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+sapiensnb/__01010101.py
+sapiensnb/__init__.py
+sapiensnb/core.py
+sapiensnb/sapiensnb.py
+sapiensnb.egg-info/PKG-INFO
+sapiensnb.egg-info/SOURCES.txt
+sapiensnb.egg-info/dependency_links.txt
+sapiensnb.egg-info/top_level.txt
