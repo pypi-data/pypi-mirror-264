@@ -1,0 +1,9 @@
+LICENSE
+README.md
+renamer.py
+setup.py
+renamer_cli.egg-info/PKG-INFO
+renamer_cli.egg-info/SOURCES.txt
+renamer_cli.egg-info/dependency_links.txt
+renamer_cli.egg-info/entry_points.txt
+renamer_cli.egg-info/top_level.txt
