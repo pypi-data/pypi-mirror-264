@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: klang-valley-transit
+Version: 1.0.2
+Summary: Graph, Graph Algorithm, and Klang Valley Transit Routing
+Home-page: UNKNOWN
+Author: Chin Yan
+Author-email: cy.python.91@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pydantic
+
+# Klang Valley Transit
+
+## Installation
+1. install from PyPI
+```shell
+pip install klang-valley-transit
+```
+
+## sample use case
+1. LRT and MRT station Listing
+```python
+from klang_valley_transit.trainNetwork import TrainNetwork
+from klang_valley_transit.trainNetwork import SearchFilter, LineNameEnum
+
+# initiate the instance
+t = TrainNetwork()
+
+# List all LRT and MRT stations
+s,err = t.ListStation(SearchFilter(line_name="*"))
+if err: raise Exception(err)
+print(s)
+
+# List LRT or MRT stations where LineName is AMPANG_LRT
+s,err = t.ListStation(SearchFilter(line_name=LineNameEnum.AG))
+if err: raise Exception(err)
+print(s)
+
+# List AMPANG LRT where the code is AG11
+s,err = t.ListStation(SearchFilter(line_name=LineNameEnum.AG, code="AG11"))
+if err: raise Exception(err)
+print(s)
+
+# Search from all AMPANG LRT stations where station name like sentul
+s,err = t.ListStation(SearchFilter(line_name=LineNameEnum.AG, station_name="sentul"))
+if err: raise Exception(err)
+print(s)
+```
+
+2. MRT and LRT station routing
+```python
+from klang_valley_transit.trainNetwork import TrainNetwork
+
+# initiate the instance
+t = TrainNetwork()
+
+# getting 2 random station id
+[fromID,toID], error = t.getRandomVerticesID(2)
+if error: print(error)
+print(fromID,toID)
+
+# routing the station base on ID
+res,err = t.breadthFirstSearch(fromID,toID)
+if err : raise Exception(err)
+print("explored : ",res.explored )
+print("path : ",res.path)
+```
+
+

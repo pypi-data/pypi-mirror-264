@@ -1,0 +1,273 @@
+{
+    "AMPANG_LRT": [
+        {
+            "id":"AG1",
+            "stationName": "Sentul Timur",
+            "coordinate": {
+                "lat": "3.1859317",
+                "lon": "101.6953527"
+            },
+            "interchangeStation":[{
+                "id":"SP1",
+                "stationName": "Sentul Timur",
+                "coordinate": {
+                    "lat": "3.1859317",
+                    "lon": "101.6953527"
+                }
+            }]
+        },
+        {
+            "id":"AG2",
+            "stationName": "Sentul",
+            "coordinate": {
+                "lat": "3.1785607",
+                "lon": "101.6954938"
+            },
+            "interchangeStation":[{
+                "id":"SP2",
+                "stationName": "Sentul",
+                "coordinate": {
+                    "lat": "3.1785607",
+                    "lon": "101.6954938"
+                }
+            }]
+        },
+        {
+            "id":"AG3",
+            "stationName": "Titiwangsa",
+            "coordinate": {
+                "lat": "3.1735082",
+                "lon": "101.6953433"
+            },
+            "interchangeStation":[{
+                "id":"SP3",
+                "stationName": "Titiwangsa",
+                "coordinate": {
+                    "lat": "3.1735082",
+                    "lon": "101.6953433"
+                }
+            },  {
+                "id":"PY17",
+                "stationName": "Titiwangsa",
+                "coordinate": {
+                    "lat": "3.17437",
+                    "lon": "101.69586"
+                }
+            }]
+        },
+        {
+            "id":"AG4",
+            "stationName": "PWTC",
+            "coordinate": {
+                "lat": "3.1665923",
+                "lon": "101.6936275"
+            },
+            "interchangeStation":[{
+                "id":"SP4",
+                "stationName": "PWTC",
+                "coordinate": {
+                    "lat": "3.1665923",
+                    "lon": "101.6936275"
+                }
+            }]
+        },
+        {
+            "id":"AG5",
+            "stationName": "Sultan Ismail",
+            "coordinate": {
+                "lat": "3.16124",
+                "lon": "101.69411"
+            },
+            "interchangeStation":[{
+                "id":"SP5",
+                "stationName": "Sultan Ismail",
+                "coordinate": {
+                    "lat": "3.16124",
+                    "lon": "101.69411"
+                }
+            }]
+        },
+        {
+            "id":"AG6",
+            "stationName": "Bandaraya",
+            "coordinate": {
+                "lat": "3.1555582",
+                "lon": "101.6944651"
+            },
+            "interchangeStation":[{
+                "id":"SP6",
+                "stationName": "Bandaraya",
+                "coordinate": {
+                    "lat": "3.1555582",
+                    "lon": "101.6944651"
+                }
+            }]
+        },
+        {
+            "id":"AG7",
+            "stationName": "Masjid Jamek",
+            "coordinate": {
+                "lat": "3.14941",
+                "lon": "101.69646"
+            },
+            "interchangeStation":[{
+                "id":"SP7",
+                "stationName": "Masjid Jamek",
+                "coordinate": {
+                    "lat": "3.14941",
+                    "lon": "101.69646"
+                }
+            },
+            {
+                "id":"KJ13",
+                "stationName": "Masjid Jamek",
+                "coordinate": {
+                    "lat": "3.14940",
+                    "lon": "101.69646"
+                }
+            }]
+        },
+        {
+            "id":"AG8",
+            "stationName": "Plaza Rakyat",
+            "coordinate": {
+                "lat": "3.14405",
+                "lon": "101.7021"
+            },
+            "interchangeStation":[{
+                "id":"SP8",
+                "stationName": "Plaza Rakyat",
+                "coordinate": {
+                    "lat": "3.14405",
+                    "lon": "101.7021"
+                }
+            },{
+                "id":"KG17",
+                "stationName": "Merdeka",
+                "coordinate": {
+                    "lat": "3.14208",
+                    "lon": "101.70220"
+                }
+            }]
+        },
+        {
+            "id":"AG9",
+            "stationName": "BBCC - Hang Tuah",
+            "coordinate": {
+                "lat": "3.14000",
+                "lon": "101.70608"
+            },
+            "interchangeStation":[{
+                "id":"SP9",
+                "stationName": "BBCC - Hang Tuah",
+                "coordinate": {
+                    "lat": "3.14000",
+                    "lon": "101.70608"
+                }
+            }]
+        },
+        {
+            "id":"AG10",
+            "stationName": "Pudu",
+            "coordinate": {
+                "lat": "3.13488",
+                "lon": "101.71196"
+            },
+            "interchangeStation":[{
+                "id":"SP10",
+                "stationName": "Pudu",
+                "coordinate": {
+                    "lat": "3.13488",
+                    "lon": "101.71196"
+                }
+            }]
+        },
+        {
+            "id":"AG11",
+            "stationName": "Chan Sow Lin",
+            "coordinate": {
+                "lat": "3.1278462",
+                "lon": "101.7155894"
+            },
+            "interchangeStation":[{
+                "id":"SP11",
+                "stationName": "Chan Sow Lin",
+                "coordinate": {
+                    "lat": "3.1278462",
+                    "lon": "101.7155894"
+                }
+            },{
+                "id":"PY24",
+                "stationName": "Chan Sow Lin",
+                "coordinate": {
+                    "lat": "3.12864",
+                    "lon": "101.71638"
+                }
+            }]
+        },
+        {
+            "id":"AG12",
+            "stationName": "Miharja",
+            "coordinate": {
+                "lat": "3.1209905",
+                "lon": "101.7178829"
+            }
+        },
+        {
+            "id":"AG13",
+            "stationName": "Maluri",
+            "coordinate": {
+                "lat": "3.12336",
+                "lon": "101.72726"
+            },
+            "interchangeStation":[  {
+                "id":"KG22",
+                "stationName": "Maluri",
+                "coordinate": {
+                    "lat": "3.12444",
+                    "lon": "101.72725"
+                }
+            }]
+        },
+        {
+            "id":"AG14",
+            "stationName": "Pandan Jaya",
+            "coordinate": {
+                "lat": "3.13024",
+                "lon": "101.73896"
+            }
+        },
+        {
+            "id":"AG15",
+            "stationName": "Pandan Indah",
+            "coordinate": {
+                "lat": "3.13472",
+                "lon": "101.74671"
+            }
+        },
+        {
+            "id":"AG16",
+            "stationName": "Cempaka",
+            "coordinate": {
+                "lat": "3.1383932",
+                "lon": "101.7530528"
+            }
+        },
+        {
+            "id":"AG17",
+            "stationName": "Cahaya",
+            "coordinate": {
+                "lat": "3.1405898",
+                "lon": "101.7566128"
+            }
+        },
+        {
+            "id":"AG18",
+            "stationName": "Ampang",
+            "coordinate": {
+                "lat": "3.15032",
+                "lon": "101.76005"
+            }
+        }
+    ]
+}
