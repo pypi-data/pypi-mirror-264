@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "beets-alternatives"
+version = "0.11.1"
+description = "beets plugin to manage multiple files"
+authors = [
+  "Thomas Scholtes <geigerzaehler@axiom.fm>",
+  "wisp3rwind <wisp3rwind@posteo.eu>",
+]
+license = "MIT"
+readme = "README.md"
+include = ["CHANGELOG.md"]
+packages = [{ include = "beetsplug" }]
+homepage = "http://www.github.com/geigerzaehler/beets-alternatives"
+repository = "http://www.github.com/geigerzaehler/beets-alternatives"
+classifiers = [
+  "Topic :: Multimedia :: Sound/Audio",
+  "Topic :: Multimedia :: Sound/Audio :: Players :: MP3",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Console",
+  "Programming Language :: Python",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+beets = "^1.6.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+confuse = "^2.0.1"
+flake8 = "^7.0.0"
+isort = "^5.12.0"
+mediafile = "^0.12.0"
+mock = "^5.0.2"
+pyright = "^1.1.340"
+pytest = "^8.0.2"
+pytest-cov = "^4.0.0"
+typeguard = "^4.1.5"
+typing-extensions = "^4.9.0"
+
+[tool.pytest.ini_options]
+addopts = "--cov --cov-report=term --cov-report=html"
+filterwarnings = [
+  "error",
+  "ignore:.*imghdr.*:DeprecationWarning:mediafile",
+  "ignore:.*setlocale.*:DeprecationWarning:beets.util",
+  "ignore:.*pkgutil.get_loader.*:DeprecationWarning:confuse.util",
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.pyright]
+typeCheckingMode = "basic"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
