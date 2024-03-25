@@ -1,0 +1,2 @@
+[console_scripts]
+ytt = youtui.__main__:main
