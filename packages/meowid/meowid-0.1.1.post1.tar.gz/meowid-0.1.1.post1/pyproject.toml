@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meowid"
+version = "0.1.1.post1"
+authors = [
+  { name="Ivan \"Spaceginner\"", email="ivan.demian2009@gmail.com" },
+]
+description = "a uuid-inspired id system"
+requires-python = ">=3.11"
+readme = "readme.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Spaceginner/meowid"
+"Bug Tracker" = "https://github.com/Spaceginner/meowid/issues"

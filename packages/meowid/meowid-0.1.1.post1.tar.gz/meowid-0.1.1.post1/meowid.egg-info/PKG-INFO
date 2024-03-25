@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: meowid
+Version: 0.1.1.post1
+Summary: a uuid-inspired id system
+Author-email: "Ivan \"Spaceginner\"" <ivan.demian2009@gmail.com>
+Project-URL: Homepage, https://github.com/Spaceginner/meowid
+Project-URL: Bug Tracker, https://github.com/Spaceginner/meowid/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# meowid.
+
+a uuid-inspired id system made for [purrshare's backend](https://github.com/PurrShare/purrcafe)

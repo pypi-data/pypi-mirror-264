@@ -1,0 +1,8 @@
+pyproject.toml
+readme.md
+meowid/__init__.py
+meowid/py.typed
+meowid.egg-info/PKG-INFO
+meowid.egg-info/SOURCES.txt
+meowid.egg-info/dependency_links.txt
+meowid.egg-info/top_level.txt
