@@ -1,0 +1,10 @@
+rich==13.*
+requests==2.*
+
+[dev]
+pylint
+black
+twine
+build
+pyinstaller
+wheel
