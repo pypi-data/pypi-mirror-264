@@ -1,0 +1,7 @@
+bookstw/__init__.py,sha256=_FvCag0CSRTBGNQDB2kiQ3A48M6l_A40b0c38VkS6_s,4442
+bookstw/ocr/__init__.py,sha256=ff-rsCoYpWfMzK1zIjHk9L8IbLeOFmQC80CcqVmGjmw,853
+bookstw/ocr/baidu.py,sha256=_FAZjhSHItFBVnDTO3KQkfE_ZOZlBX61GKmJmnbN-9Q,2196
+bookstw-0.1.0.dist-info/LICENSE,sha256=Uf5lK0yvYzx_TqYNvGJNliSI7dXLSgNIEpe27TcXNtE,1063
+bookstw-0.1.0.dist-info/METADATA,sha256=GM_XmZPrnQMeAmr8XQb4jRa_uwwuhNnUWs0JX4oF75k,3232
+bookstw-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bookstw-0.1.0.dist-info/RECORD,,
