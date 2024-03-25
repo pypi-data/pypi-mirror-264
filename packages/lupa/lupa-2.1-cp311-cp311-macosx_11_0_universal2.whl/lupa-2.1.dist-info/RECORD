@@ -1,0 +1,11 @@
+lupa-2.1.dist-info/RECORD,,
+lupa-2.1.dist-info/WHEEL,sha256=glY0sLhbhKy3BH8OyUaaEklHTnmWvOLHk7hCrHyRQtY,115
+lupa-2.1.dist-info/top_level.txt,sha256=zBjq_OEwVlKBUT25L2ENcMO-9XdwVQSN7X6VHyH7Pcg,5
+lupa-2.1.dist-info/LICENSE.txt,sha256=lXr-SRPfxGn9YFQdhHpYHFvd1roMy3I5DteMdYN3aKE,2231
+lupa-2.1.dist-info/METADATA,sha256=2120Puzh9A56YYl3YksDUC9wnAqhahLVb6kEoBtilPw,57575
+lupa/lua54.cpython-311-darwin.so,sha256=ZUTMO0aPnSbViuwaDD49InUOiHJNPEosWykx3o27pys,1467048
+lupa/version.py,sha256=-yjKj08H9NSe_5N5qBYWmC9d9NK1uYPTPT5FuTBHiZg,20
+lupa/__init__.py,sha256=c99ILOqbgXcktoS1YsqNLg9juNuAJZ_Yxm4VGEANkqo,3001
+lupa/lua52.cpython-311-darwin.so,sha256=jCXGOFAOYaIAm-XwP1P88_1lU3LlVtx6EkKroxktz3E,1290728
+lupa/lua51.cpython-311-darwin.so,sha256=qYB5KZRhha9RdSeUpXYxk_QJIdq50lemoJ3eVqOSemM,1267688
+lupa/lua53.cpython-311-darwin.so,sha256=f84kg0JTeXabrfOONJANHnIRa-5gb-hdom_TwLrIu8s,1359560
