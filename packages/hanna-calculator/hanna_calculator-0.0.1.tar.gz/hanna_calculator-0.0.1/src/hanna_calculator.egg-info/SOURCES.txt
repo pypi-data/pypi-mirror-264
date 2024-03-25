@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/hanna_calculator/__init__.py
+src/hanna_calculator/main.py
+src/hanna_calculator.egg-info/PKG-INFO
+src/hanna_calculator.egg-info/SOURCES.txt
+src/hanna_calculator.egg-info/dependency_links.txt
+src/hanna_calculator.egg-info/top_level.txt
