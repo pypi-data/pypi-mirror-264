@@ -1,0 +1,11 @@
+# 包含所有文件和目录
+include *
+
+# 排除不需要的文件和目录
+exclude bom数据库/
+exclude model/
+exclude .gitignore
+exclude *.ipynb
+exclude test.py
+exclude predict.py
+exclude requirements.txt

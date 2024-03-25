@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: pipremove
+Version: 0.0.1
+Summary: A small example package
+Author-email: Li WeiJian <1330757852@qq.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pipdeptree
+Description-Content-Type: text/markdown
+
+# 测试包
+
+这是一行测试字。
