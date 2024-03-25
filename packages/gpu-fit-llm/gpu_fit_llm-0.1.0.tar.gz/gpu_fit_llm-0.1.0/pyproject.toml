@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpu-fit-llm"
+version = "0.1.0"
+description = ""
+authors = ["Harish Vadaparty <harishvadaparty@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.39.1"
+accelerate = "^0.28.0"
+torch = "^2.2.1"
+huggingface-hub = "^0.21.4"
+setuptools = "^69.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
