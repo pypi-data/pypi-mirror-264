@@ -1,0 +1,4 @@
+[console_scripts]
+ubo=ubo_app.main:main
+ubo-system=ubo_app.system.system_manager.main:main
+
