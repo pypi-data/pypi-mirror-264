@@ -1,0 +1,14 @@
+scrapework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapework/cache.py,sha256=YVEV3e-yN_HugLZh-Lj47olyqIK7pB8J4bwQbZ1YTmM,2256
+scrapework/config.py,sha256=SLZsFaOa1xp6CNnOM_i_LcHaFMcm1lJ0gQFjCvvsTJI,741
+scrapework/context.py,sha256=kmKmCE1j0Qfh6r9cKzaX1j-miCszFb0WUnKRcNkfGIU,488
+scrapework/extractors.py,sha256=KqUYz0lxRBnROw3-vl1egyMBBRhZ9wrjlebYXFSl5fI,756
+scrapework/logger.py,sha256=g83BEn0rLFxtkd3ufHVwfXyZR_m6MylS2uGMEe5HskU,634
+scrapework/middleware.py,sha256=cecDDfEBiI1ILVy8uzZYFgjjsz73n0VBhXy_OF1GK9E,2170
+scrapework/monitors.py,sha256=Su9avuF38H93nhTGHMM64IfmQ6ySuYekmA_4409iH0c,194
+scrapework/pipelines.py,sha256=dk9BwiMoj-85H8klZGczFXc5881_DF6Looxr3QmEciM,1471
+scrapework/request.py,sha256=J9FS15lW1BNfoP-ZKLUHkmPBYwqEkL22nwuIrM1qhAg,3013
+scrapework/scraper.py,sha256=XrY9b1T3POgrhp8NsPsCtj7LubfeDbRKMJZVB-bfuaQ,3087
+scrapework-0.0.11.dist-info/METADATA,sha256=FyhhPKZJlT3i4x_neBkAt9XmsH_CEUzILtoNSTnC9Bo,4007
+scrapework-0.0.11.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+scrapework-0.0.11.dist-info/RECORD,,
