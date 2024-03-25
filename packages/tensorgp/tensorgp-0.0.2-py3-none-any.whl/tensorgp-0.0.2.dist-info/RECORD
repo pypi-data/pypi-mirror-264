@@ -1,0 +1,7 @@
+tensorgp/__init__.py,sha256=fbxhG71q08ce-csyZPkR-CYLVtZjVmIioclRkxFzzII,29
+tensorgp/engine.py,sha256=d9_MMjWC2y8Cjc_7McVgn-rBLUZGzeF4o4myF7oEdYM,149374
+tensorgp-0.0.2.dist-info/LICENSE,sha256=rDBFYxBQK2Kf3EKsh3JpBn3upEcM4aTMk6faS-DtrKY,1312
+tensorgp-0.0.2.dist-info/METADATA,sha256=iNocgP9KoqpSDn-OefLPPSqrKCP8EsYpsHIhbxHFp3E,659
+tensorgp-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tensorgp-0.0.2.dist-info/top_level.txt,sha256=xcrk5L_TRRJqr8rMnJCmOlZQTU53_gkw_IBjbqeN67o,9
+tensorgp-0.0.2.dist-info/RECORD,,
