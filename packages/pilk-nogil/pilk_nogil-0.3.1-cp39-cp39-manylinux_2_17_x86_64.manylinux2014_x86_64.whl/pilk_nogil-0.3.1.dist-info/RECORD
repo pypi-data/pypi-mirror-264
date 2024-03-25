@@ -1,0 +1,10 @@
+pilk_nogil/__init__.py,sha256=NLenD8LMMnMlQYXdToCHxBtgGh6YDz-FSTkORM9uYuo,1507
+pilk_nogil/SilkDecoder.py,sha256=2S2YT914aBtMjJFepKgjlvve96LalJelis7TGywuKag,605
+pilk_nogil/_pilk.cpython-39-x86_64-linux-gnu.so,sha256=jpoeXGGi90fkES5XyQLRrnViwxp2wT6jbauhxkSkzmI,1333400
+pilk_nogil/SilkEncoder.py,sha256=yMxIDq7i8zOOpnXVlPzEnfgaSLYIIJxJndeVfLzggXE,1649
+pilk_nogil/_pilk.pyi,sha256=emB0fMPZG1pjJw85pi7_p8bIUKBQy--biU72RfzZyms,1807
+pilk_nogil-0.3.1.dist-info/RECORD,,
+pilk_nogil-0.3.1.dist-info/METADATA,sha256=JVRgBnLwkouWSNB4Wh1nUTCQyBS_0bqYgc1Rm5IFddY,8994
+pilk_nogil-0.3.1.dist-info/WHEEL,sha256=rY0Y6THYM7EImsHfF-zs67o8pQciAsMw9_YuSvftjrQ,148
+pilk_nogil-0.3.1.dist-info/top_level.txt,sha256=E8yaxof9PyIFLUr4Sq9da8ewun_wFy77Jb8kThQZUjA,11
+pilk_nogil-0.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
