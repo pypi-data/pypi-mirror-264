@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+argumint/__init__.py
+argumint/argu_mint.py
+argumint.egg-info/PKG-INFO
+argumint.egg-info/SOURCES.txt
+argumint.egg-info/dependency_links.txt
+argumint.egg-info/requires.txt
+argumint.egg-info/top_level.txt
