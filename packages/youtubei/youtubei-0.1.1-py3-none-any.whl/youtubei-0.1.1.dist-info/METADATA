@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: youtubei
+Version: 0.1.1
+Summary: InnerTube Parsing Library
+License: MIT
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: innertube (>=2.1.13,<3.0.0)
+Requires-Dist: pydantic (>=2.5.3,<3.0.0)
+Requires-Dist: pyhumps (>=3.8.0,<4.0.0)
+Requires-Dist: typing-extensions (>=4.9.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# youtubei
+InnerTube Parsing Library
+
