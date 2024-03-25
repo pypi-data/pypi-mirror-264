@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsWindow</class>
+ <widget class="QDialog" name="SettingsWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <widget class="QStackedWidget" name="stacked_pages">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>25</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <widget class="GeneralSettingsPage" name="general_settings_page"/>
+     <widget class="DecklistImportSettingsPage" name="decklist_import_settings_page"/>
+     <widget class="PageSizePrintingSettingsPage" name="page_size_page"/>
+     <widget class="HidePrintingsPage" name="hide_printings_page"/>
+     <widget class="DebugSettingsPage" name="debug_settings_page"/>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="page_selection_combo_box"/>
+   </item>
+   <item row="0" column="0" rowspan="2">
+    <widget class="QListView" name="page_selection_list_view">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>10</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>22</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="uniformItemSizes">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QDialogButtonBox" name="button_box">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Reset|QDialogButtonBox::RestoreDefaults|QDialogButtonBox::Save</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>GeneralSettingsPage</class>
+   <extends>QWidget</extends>
+   <header>mtg_proxy_printer.ui.settings_window_pages</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DecklistImportSettingsPage</class>
+   <extends>QWidget</extends>
+   <header>mtg_proxy_printer.ui.settings_window_pages</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PageSizePrintingSettingsPage</class>
+   <extends>QWidget</extends>
+   <header>mtg_proxy_printer.ui.settings_window_pages</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HidePrintingsPage</class>
+   <extends>QWidget</extends>
+   <header>mtg_proxy_printer.ui.settings_window_pages</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DebugSettingsPage</class>
+   <extends>QWidget</extends>
+   <header>mtg_proxy_printer.ui.settings_window_pages</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button_box</sender>
+   <signal>accepted()</signal>
+   <receiver>SettingsWindow</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>284</x>
+     <y>643</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_box</sender>
+   <signal>rejected()</signal>
+   <receiver>SettingsWindow</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>352</x>
+     <y>643</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
