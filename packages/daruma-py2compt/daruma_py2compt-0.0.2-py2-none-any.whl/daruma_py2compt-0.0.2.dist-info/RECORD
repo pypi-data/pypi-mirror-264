@@ -1,0 +1,11 @@
+daruma_py2compt/__init__.py,sha256=FaJdsMSealbMNnEOk21KbZ6m4OifcktgoRs2erh4KkI,49
+daruma_py2compt/daruma_module.py,sha256=6bODt7118OLn471QHk2OdUA5YgbfdO_y4aptdmHnUj4,1898
+daruma_py2compt/functions.py,sha256=pMulmD5wDD1UgArbdYy08zQhX7SFesExYEF_2_OtXH4,1761
+daruma_py2compt/models.py,sha256=FjSsqgYvLwkuD750splumiHg2mMMF_oCUOxBxPJl6zw,2737
+daruma_py2compt/data/AAindex553-Normal-X0.feature,sha256=jK49WOoqVDQkGif6J32nvWzv-vbIBJgvlwjYaWQV2T4,46452
+daruma_py2compt/data/CV5.weight,sha256=beaTByRGGg9E5_Rrui1dNF8xpoiZwPY-oyXfDmAqASY,29211656
+daruma_py2compt-0.0.2.dist-info/METADATA,sha256=K8p7lFa3EGbe4Gxfr91eKRU37KwVdbZauwg2eGblqe8,237
+daruma_py2compt-0.0.2.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+daruma_py2compt-0.0.2.dist-info/entry_points.txt,sha256=m0daEiZ8aVMTFwpnPu-wRxBgiSIoLp2XprqDioQDChk,63
+daruma_py2compt-0.0.2.dist-info/top_level.txt,sha256=BzWbT9ifmDaZiK-gtq6wZZjR90vvAWaJ7QXTGpGd2Rg,16
+daruma_py2compt-0.0.2.dist-info/RECORD,,
