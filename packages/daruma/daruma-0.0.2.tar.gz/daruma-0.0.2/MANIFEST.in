@@ -1,0 +1,4 @@
+include daruma/data/AAindex553-Normal-X0.feature
+include daruma/data/CV5.weight
+include daruma_py2compt/data/AAindex553-Normal-X0.feature
+include daruma_py2compt/data/CV5.weight
