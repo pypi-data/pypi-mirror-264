@@ -1,0 +1,14 @@
+README.md
+setup.py
+mailtarget_sdk/__init__.py
+mailtarget_sdk/layang.py
+mailtarget_sdk/message.py
+mailtarget_sdk/message_component.py
+mailtarget_sdk/validation.py
+mailtarget_sdk.egg-info/PKG-INFO
+mailtarget_sdk.egg-info/SOURCES.txt
+mailtarget_sdk.egg-info/dependency_links.txt
+mailtarget_sdk.egg-info/requires.txt
+mailtarget_sdk.egg-info/top_level.txt
+tests/__init__.py
+tests/test_layang.py
