@@ -1,0 +1,7 @@
+build_a_cog-0.0.4.dist-info/METADATA,sha256=kp9jQWSOD3FceaFzMy7kET5fWJ1U-_VhUuI0Bpq9q4g,4100
+build_a_cog-0.0.4.dist-info/WHEEL,sha256=SRnG_FQQvieLA6itQS84WHKSBcd0TLWM889Dyr1qTMA,106
+build_a_cog-0.0.4.dist-info/license_files/LICENSE,sha256=ghdgRP5GXcglOVHzsWCgEi24RbEWk6FExIzeUbFdqzE,1068
+build_a_cog/__init__.py,sha256=1nXP6UlcppdNp8EOLYs65Ss7j_Z9cnga67y3xQGLroc,124
+build_a_cog/builder.py,sha256=g39q5iFQz2hwxmT5IolhmrApqXdvGRilk2w8Y-rg7s8,1970
+build_a_cog/build_a_cog.cpython-311-darwin.so,sha256=2qCKSLaYqjueEnwR67UPPaG0ZXx-dc4VKxf_VNFBOHA,486472
+build_a_cog-0.0.4.dist-info/RECORD,,
