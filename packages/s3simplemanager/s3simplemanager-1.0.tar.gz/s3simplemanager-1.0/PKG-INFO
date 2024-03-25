@@ -1,0 +1,32 @@
+Metadata-Version: 2.3
+Name: s3simplemanager
+Version: 1.0
+Summary: This package will allow an easier interaction with s3 buckets.
+Project-URL: Homepage, https://bitbucket.org/JoaoChamine/s3simplemanager/
+Project-URL: Issues, https://bitbucket.org/JoaoChamine/s3simplemanager/issues
+Author-email: Joao Chamine <jchamine@outlook.pt>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Requires-Dist: boto3==1.34.64
+Description-Content-Type: text/markdown
+
+# 1.0
+* Features
+    * Delete files - Delete any file inside the remote bucket
+* Bugs
+    * List files - Correct the none return, and now return a list
+
+Example of use:
+```
+# imports
+import s3simplemanager
+
+
+s3 = S3SimpleManager(ssl_verification=False, bucket="s3_bucket_online", url="http://example.url.com/bucket", key_id="12345678", key_value="87654321")
+s3.upload_files("example_path_local_file", "example_path_bucket_file")
+for object in s3.list_files("example_path_bucket_file"):
+    print(object)
+```
