@@ -1,0 +1,17 @@
+decapi/DecApiError.py,sha256=kg1AwvKkRNNKCbse278Zfb81_syQ-3j8CwtLa1yw1Ug,84
+decapi/Defaults.py,sha256=Kq1WsCC4tUTFggoFvZB_LL_51YIWKOT7i13w9C-AgXw,283
+decapi/EmptyClass.py,sha256=xenO69GjnlDzd8pzFNGaqEqHzG6LZe372C3GD9F7wds,90
+decapi/Voice.py,sha256=h1UVPkXynyUj07nu5os6PDHgUTmCjMHpR1lGxC_YsEE,1749
+decapi/__init__.py,sha256=ujIBP6sYY7jrquwA40dodAeqfamdjqkOcemCM8WRw38,507
+decapi/decapi.py,sha256=vJOyR4gs_9_Qrx8rS1Y2RY5RTtPHFhdb0Z2pTWkBfvE,15
+decapi/dv.py,sha256=U06u_URikMDiQ3TzSGuFZnQ-uAkKQnTRY1bUZPMeD1g,61
+decapi/init.py,sha256=oNhZlvQIs7fzIJxPj9zMXW2PSi4D4w0jTDoHBEnntJw,455
+decapi/init2.py,sha256=G_oGMSdOlAYro21IJVUH3_w5k3pLLO-W-9h8k8pU1rE,201
+decapi/say.py,sha256=Xbmn-6hnEaEoX-7ZEAXSo6xzvshzkczbEcFCXJrByE4,687
+decapi/sayAsync.py,sha256=Clf5VKC_UXe_0ILELGJgMusOqIszKRnrPkVuOSRTNCE,763
+decapi/useVoice.py,sha256=uuiAkmV1HKSR6JA5jjuFNfwkD-h-LYimIwJal_7FpPo,171
+decapi-1.0.4.dist-info/LICENSE,sha256=9X-lQvhtgKsa5YnnxiVjl5GgMCc8blCw2nUYnEtMJEw,1056
+decapi-1.0.4.dist-info/METADATA,sha256=rixsVI-LKaYMgZUldwiaIc_ZCHbuUlbb8MSMLZLzQ_4,1645
+decapi-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+decapi-1.0.4.dist-info/top_level.txt,sha256=jXy69wQycOosIw2C7GPJW8KsWyCjRjuTzeMkgQZaBjM,7
+decapi-1.0.4.dist-info/RECORD,,
