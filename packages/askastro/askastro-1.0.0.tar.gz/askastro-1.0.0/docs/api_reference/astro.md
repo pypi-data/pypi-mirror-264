@@ -1,0 +1,3 @@
+# Astro API reference
+
+::: astro
