@@ -1,0 +1,11 @@
+simdjson_schemaful/__init__.py,sha256=OYA9r3KpJxQZkwUEQBeNyrX0QPeqGJs91c37OVdrfnI,99
+simdjson_schemaful/__version__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+simdjson_schemaful/parser.py,sha256=5z4pPAnQrwKJGorYqcp8EWTtjA4IltmpHscQpjPiTok,5982
+simdjson_schemaful/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simdjson_schemaful/pydantic/__init__.py,sha256=d6q9MR6mfkH0lYFvxrZmVci9nPUTdrPd2ZXyRAW92Zg,323
+simdjson_schemaful/pydantic/v1.py,sha256=H9hrhFYH0vdj9B6Na1f1NEXNxXStScSeiXcA48-CQmo,1568
+simdjson_schemaful/pydantic/v2.py,sha256=e2dvwnrFjpZk5gYEUAomD2AQrA-sMP9ehRlrWoLwjhM,2780
+pysimdjson_schemaful-0.3.0.dist-info/LICENSE,sha256=3RC2aX4rtiE8kgF6ho4oeS7OV6fXNHmrRv4gz4IDEdc,1064
+pysimdjson_schemaful-0.3.0.dist-info/METADATA,sha256=Evb2tWZQBe9Nd-rHstHpJIh_PCrf1poFQS-nTjfYR3k,8110
+pysimdjson_schemaful-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pysimdjson_schemaful-0.3.0.dist-info/RECORD,,
