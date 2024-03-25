@@ -1,0 +1,13 @@
+predictor/__init__.py,sha256=uv3M9E5aKov_U_Qi3d28t3NDF5PLlUGnplJrQxIINwM,278
+predictor/app.py,sha256=1vzBkgFqiJ-bmp1VrAgAYzsCHQycHXUxCOqH05BslNM,3781
+predictor/downloader.py,sha256=cXKHHfVtKHwUYDOwBC4WzbaUy6EgEqjlzWW151Z6Jgk,663
+predictor/georeferencer.py,sha256=jd_isNQtlCRTpCrCQIm0JEqSKX9ezMOc9v1EV8mflVc,2407
+predictor/prediction.py,sha256=bjp6Qvr8vhq3LtGvCH293qkacoDZCvb8mmUHo9YeJlk,5540
+predictor/raster2polygon.py,sha256=KdWmOiXRuz9v12-FzakuBk33jY8zzpnSgVKZaDyFjZM,1010
+predictor/utils.py,sha256=pzW-Ayf3leW761CfBiUcnKBcrvUPKr5rojt2S4y7nac,9344
+predictor/vectorizer.py,sha256=38RHt_mPHK3N-Lf6q1vATHgzm1m8biFMW27lUfiL9qo,2385
+fairpredictor-0.0.32.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fairpredictor-0.0.32.dist-info/METADATA,sha256=Rh3IhQ79Zj-bf88RE9B9dk2ZWCKpvl6DX-qqkD2eeM0,2708
+fairpredictor-0.0.32.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fairpredictor-0.0.32.dist-info/top_level.txt,sha256=bZSpmmw3oQCRRZIcDL31p8LQfJgNCRmtaJdJ2_Pi6aQ,10
+fairpredictor-0.0.32.dist-info/RECORD,,
