@@ -1,0 +1,3 @@
+[console_scripts]
+cengal__package__add_project = cengal.build_tools.packages.add_project:main
+cengal__package__create = cengal.build_tools.packages.create:main
