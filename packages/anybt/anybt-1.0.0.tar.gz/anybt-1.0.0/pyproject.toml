@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "anybt"
+version = "1.0.0"
+description = "An Open Sourced Decentralized BitTorrent Search Engine"
+authors = ["j2qk3b"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+argparse = "1.4.0"
+glitter-sdk = "1.0.3"
+rich = "13.7.1"
+
+[tool.poetry.group.dev.dependencies]
+argparse = "^1.4.0"
+glitter-sdk = "^1.0.3"
+rich = "^13.7.1"
+
+[tool.poetry.scripts]
+anybt = "anybt:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
