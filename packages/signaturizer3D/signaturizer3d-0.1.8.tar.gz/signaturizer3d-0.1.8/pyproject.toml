@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "signaturizer3D"
+version = "0.1.8"
+description = "Infer the bioactivity of molecules using models trained on molecular 3D structures."
+authors = ["Aksel Lenes <aksel.lenes@irbbarcelona.org>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlabsbnb.irbbarcelona.org/alenes/signaturizer3d"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.0.0"
+tqdm = "^4.0.0"
+addict = "^2.0.0"
+rdkit-pypi = "^2022.9.3"
+pandas = "^2.0.0"
+chardet = "^5.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+mypy = "^1.6.1"
+pytest = "^7.4.3"
+pytest-mock = "^3.12.0"
+black = "^23.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-m 'not performance'"
+markers = [
+    "performance: mark test as a performance test",
+]
