@@ -1,0 +1,9 @@
+pyerrorschema/__init__.py,sha256=tngaDF5kkvp5UHWD47AED-nXWzvDnUCiCs37eC2_UhU,206
+pyerrorschema/base_error_schema.py,sha256=_Jore8CLkBYupovi5VBartEwqo7c-zC0Ws_0AKCydyQ,1271
+pyerrorschema/fastapi_error_schema.py,sha256=HzoK2QYWpYL45lxFCyIPDHfQdK_7YyqIT0DrdSaKaDY,1111
+pyerrorschema/utils.py,sha256=B8MQqzbd-VkKWifzHbbm6W4jtM0VshDM8o6sa1cPZhY,711
+pyerrorschema-0.1.1.dist-info/LICENSE.txt,sha256=A7rB4UyEX3MfqKHLzQfc4ef1KYIW7U1kcV9xCyc-_40,1530
+pyerrorschema-0.1.1.dist-info/METADATA,sha256=KMH4SVZ1G2Khw0SzWovKQaNrjRjuj-CaQ-qAQmCkMic,3091
+pyerrorschema-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyerrorschema-0.1.1.dist-info/top_level.txt,sha256=JZxuu2xBH7kHSmMrGdRiIlWORxWZgPoT138hhKkwT44,14
+pyerrorschema-0.1.1.dist-info/RECORD,,
