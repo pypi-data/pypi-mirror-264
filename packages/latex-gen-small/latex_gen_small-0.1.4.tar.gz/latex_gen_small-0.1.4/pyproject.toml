@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "latex-gen-small"
+version = "0.1.4"
+description = ""
+authors = ["Anton Shiryaev <med.phisiker@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
