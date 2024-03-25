@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: qdna-lib
+Version: 0.0.2
+Summary: A quantum computing library for data science and artificial intelligence
+Home-page: https://github.com/qDNA-yonsei/qdna-lib
+Author: qdna team
+Author-email: ifa@yonsei.ac.kr
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: qiskit >=1.0.0
+Requires-Dist: qiskit-machine-learning >=0.7.2
+Requires-Dist: qiskit-aer >=0.13.3
+Requires-Dist: qiskit-algorithms >=0.3.0
+Requires-Dist: qclib >=0.1.12
+Requires-Dist: dwave-ocean-sdk >=6.9.0
+Requires-Dist: torch
+Requires-Dist: networkx
+
+# qdna-lib
+Qdna-lib aim to pioneer advancements that not only push the boundaries of quantum computing but also provide benefits to the field of data science and artificial intelligence.
+
+## Installation
+The easiest way of installing qdna-lib is by using pip:
+
+```python
+pip install qdna-lib
+``` 
+## Authors
+The first version of qdna-lib was developed at [Quantum Data Science & AI lab](https://quantumpark.yonsei.ac.kr/) (also known as q-DNA) - Yonsei University. Qdna-lib is an active project, and other people have contributed.
+
+If you are doing research using qdna-lib, please cite our project.
+We use a [CITATION.cff](https://citation-file-format.github.io/) file, so you can easily copy the citation information from the repository landing page.
+
+## License
+Qdna-lib is **free** and **open source**, released under the Apache License, Version 2.0.
