@@ -1,0 +1,173 @@
+Metadata-Version: 2.1
+Name: pyzaim
+Version: 1.1.0
+Summary: Zaimのデータを取得・操作するPythonパッケージ
+Home-page: https://github.com/liebe-magi/pyzaim
+License: MIT
+Keywords: zaim,oauth,rest api,selenium,chromedriver
+Author: liebe-magi
+Author-email: liebe.magi@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests-oauthlib (==2.0.0)
+Requires-Dist: selenium (==4.11.2)
+Requires-Dist: tqdm (==4.66.2)
+Project-URL: Repository, https://github.com/liebe-magi/pyzaim
+Description-Content-Type: text/markdown
+
+# pyzaim
+
+[![PyPI version](https://badge.fury.io/py/pyzaim.svg)](https://badge.fury.io/py/pyzaim)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+![logo](/img/pyzaim.svg)
+
+[Zaim](https://zaim.net/)のデータを取得・操作するPythonパッケージ
+
+## 概要
+
+大きくわけて2つの処理を行うパッケージです。
+
+- [Zaim API](https://dev.zaim.net/)のラッパークラス
+  - Zaim APIのアクセストークンの発行
+  - Rest APIとして提供されている処理の実行
+- [Selenium](https://github.com/SeleniumHQ/selenium/tree/master/py)を用いたデータ取得
+  - Zaimにはクレジットカードや銀行口座から自動でデータ取得する機能があるが、APIではそれらのデータにはアクセスできない
+  - これらの情報を取得するため、Seleniumのwebdriver(Chrome)を用いてデータを取得
+
+## インストール
+
+```bash
+pip install pyzaim
+```
+
+## 準備
+
+- Zaimアカウントの作成
+- Zaim Developersでのアプリケーションの登録 (コンシューマID、コンシューマシークレットの発行)
+- Google Chromeおよびseleniumの導入
+
+## 使い方
+
+### Zaim APIのラッパークラスの使い方
+
+- アクセストークンの発行
+
+```python
+from pyzaim import get_access_token
+
+get_access_token()
+
+# コンシューマIDとコンシューマシークレットを聞かれるので入力
+# 認証ページのURLが表示されるので、アクセスして許可
+# 遷移先ページのソースコードから「oauth_verifier」と書いてあるコードをコピーして入力
+# 問題なければアクセストークンとアクセスシークレットが表示される
+```
+
+- APIを利用してデータを取得・操作
+
+```python
+from pyzaim import ZaimAPI
+
+api = ZaimAPI('コンシューマID', 'コンシューマシークレット',
+              'アクセストークン', 'アクセスシークレット', 'verifier')
+
+# 動作確認 (ユーザーID等のデータが取得されて、表示されればOK)
+print(api.verify())
+
+# データの取得
+data = api.get_data()
+
+# 支払いデータの登録
+api.insert_payment_simple('日付(datetime.date型)', '金額(int)', 'ジャンル名',
+                          '口座名', 'コメント', '品名', '店舗名') # 後半4つは任意入力
+
+# 使用できるジャンル名は以下で確認できる
+print(api.genre_itos)
+
+# 使用できる口座名は以下で確認できる
+print(api.account_itos)
+
+# 支払いデータの更新 (更新対象データのIDはapi.get_data()で確認)
+api.update_payment_simple('更新対象データのID', '日付(datetime.date型)', '金額(int)',
+                          'ジャンル名', '口座名', 'コメント', '品名', '店舗名') # 後半4つは任意入力
+
+# 支払いデータの削除
+api.delete_payment('削除対象のデータのID')
+```
+
+### seleniumを用いたデータ取得
+
+```python
+from pyzaim import ZaimCrawler
+
+# Chrome Driverの起動とZaimへのログイン、ログインには少し時間がかかります
+crawler = ZaimCrawler('ログインID', 'ログインパスワード',
+                    driver_path='Chrome Driverのパス'(PATHが通っていれば省略可),
+                    headless=False) # headlessをTrueにするとヘッドレスブラウザで実行できる
+
+# データの取得 (データの取得には少し時間がかかります、時間はデータ件数による)
+data = crawler.get_data('取得する年(int)', '取得する月(int)', progress=True) # progressをFalseにするとプログレスバーを非表示にできる
+
+# 終了処理
+crawler.close()
+```
+
+## ブランチの運用について
+
+本リポジトリのブランチについては以下の運用といたします。
+
+`main`
+- リリース用ブランチ。
+- このブランチにマージした時点で新たにタグを打ち、PyPIにアップロードします。
+- **このブランチには直接PRを出さないでください。**
+
+`develop`
+- 開発用の常駐ブランチ。
+- すべてのコミットはこのブランチに一度マージし、動作を確認した上でmainにマージします。
+- PRはこのブランチに対して行ってください。
+
+`feature-*`
+- 新規開発用のブランチ。
+- 必ずdevelopから分岐し、developにマージする。
+- `*`には開発やバグ修正などの対応内容を簡潔に記入。
+  - 例: feature-add-headless-mode
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://hackfront.dev"><img src="https://avatars.githubusercontent.com/u/38152917?v=4?s=100" width="100px;" alt="りーべ"/><br /><sub><b>りーべ</b></sub></a><br /><a href="#projectManagement-liebe-magi" title="Project Management">📆</a> <a href="https://github.com/liebe-magi/pyzaim/pulls?q=is%3Apr+reviewed-by%3Aliebe-magi" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/liebe-magi/pyzaim/commits?author=liebe-magi" title="Code">💻</a> <a href="https://github.com/liebe-magi/pyzaim/commits?author=liebe-magi" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Ponk02"><img src="https://avatars.githubusercontent.com/u/24751394?v=4?s=100" width="100px;" alt="Ponk02"/><br /><sub><b>Ponk02</b></sub></a><br /><a href="https://github.com/liebe-magi/pyzaim/commits?author=Ponk02" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://zenjiro.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/1298249?v=4?s=100" width="100px;" alt="zenjiro"/><br /><sub><b>zenjiro</b></sub></a><br /><a href="https://github.com/liebe-magi/pyzaim/commits?author=zenjiro" title="Code">💻</a> <a href="https://github.com/liebe-magi/pyzaim/pulls?q=is%3Apr+reviewed-by%3Azenjiro" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/omatsu555"><img src="https://avatars.githubusercontent.com/u/40729996?v=4?s=100" width="100px;" alt="omatsu555"/><br /><sub><b>omatsu555</b></sub></a><br /><a href="https://github.com/liebe-magi/pyzaim/commits?author=omatsu555" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/kagemomiji"><img src="https://avatars.githubusercontent.com/u/5343692?v=4?s=100" width="100px;" alt="Y.Tory"/><br /><sub><b>Y.Tory</b></sub></a><br /><a href="https://github.com/liebe-magi/pyzaim/commits?author=kagemomiji" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://knoow.jp/@/Omatsu?preview"><img src="https://avatars.githubusercontent.com/u/7794917?v=4?s=100" width="100px;" alt="o-matsu"/><br /><sub><b>o-matsu</b></sub></a><br /><a href="https://github.com/liebe-magi/pyzaim/commits?author=o-matsu" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/kefi550"><img src="https://avatars.githubusercontent.com/u/46632469?v=4?s=100" width="100px;" alt="kefi550"/><br /><sub><b>kefi550</b></sub></a><br /><a href="https://github.com/liebe-magi/pyzaim/commits?author=kefi550" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
