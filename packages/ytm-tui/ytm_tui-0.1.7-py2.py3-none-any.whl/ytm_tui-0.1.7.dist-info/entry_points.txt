@@ -1,0 +1,2 @@
+[console_scripts]
+ytt = ytm_tui.__main__:main
