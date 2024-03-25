@@ -1,0 +1,8 @@
+README.md
+setup.py
+katuyou/__init__.py
+katuyou/conjugations.py
+katuyou.egg-info/PKG-INFO
+katuyou.egg-info/SOURCES.txt
+katuyou.egg-info/dependency_links.txt
+katuyou.egg-info/top_level.txt
