@@ -1,0 +1,9 @@
+setup.py
+NetStructer/__init__.py
+NetStructer/const.py
+NetStructer/utlist.py
+NetStructer.egg-info/PKG-INFO
+NetStructer.egg-info/SOURCES.txt
+NetStructer.egg-info/dependency_links.txt
+NetStructer.egg-info/requires.txt
+NetStructer.egg-info/top_level.txt
