@@ -1,0 +1,11 @@
+cffi>=1.12
+numpy
+
+[dev]
+conda-lock
+pytest
+pytest-mock
+ruff==0.2.1
+tox>=4.0
+twine
+typing_extensions

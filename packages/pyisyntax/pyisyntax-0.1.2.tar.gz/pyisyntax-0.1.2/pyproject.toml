@@ -1,0 +1,92 @@
+[project]
+name = "pyisyntax"
+version = "0.1.2"
+description = "Python bindings for libisyntax"
+readme = { content-type = "text/markdown", file = "README.md" }
+authors = [{ name = "Aiden Nibali", email = "dismaldenizen@gmail.com" }]
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+  "cffi>=1.12",
+  "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+  "conda-lock",
+  "pytest",
+  "pytest-mock",
+  "ruff==0.2.1",
+  "tox>=4.0",
+  "twine",
+  "typing_extensions",
+]
+
+[tool.conda-lock]
+channels = [
+  "conda-forge",
+]
+
+[tool.conda-lock.dependencies]
+python = "3.10.*"
+
+[build-system]
+requires = [
+    "cffi>=1.12",
+    "setuptools>=45",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+indent-width = 4
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+  "D1",  # undocumented-
+  "PLR0913",  # too-many-arguments
+  "ANN101",  # missing-type-self
+  "TRY003",  # raise-vanilla-args
+]
+pydocstyle.convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = [
+  "S101",  # assert
+  "FBT",  # flake8-boolean-trap
+]
+
+[tool.pyright]
+typeCheckingMode = "standard"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+min_version = 4.0
+env_list = lint, type, py{310,311,312}
+
+[testenv]
+deps =
+  pytest
+  pytest-mock
+commands = pytest --import-mode=importlib {posargs:tests}
+
+[testenv:lint]
+skip_install = true
+deps =
+  ruff==0.2.1
+commands = ruff check {posargs:.}
+
+[testenv:type]
+deps =
+  pyright
+  typing_extensions
+commands = pyright {posargs:isyntax}
+"""
+
+[tool.setuptools.packages.find]
+include = ["isyntax", "isyntax.*"]
+namespaces = false
