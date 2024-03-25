@@ -1,0 +1,14 @@
+pydantic==1.10.14
+typing_extensions
+dictdiffer
+fastapi
+uvicorn[standard]
+
+[dev]
+build
+numpy
+setuptools-scm
+pytest
+pytest-cov
+pytest-xdist
+pyright
