@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/EGGcodepy/EGGcodepy.py
+src/EGGcodepy/__init__.py
+src/EGGcodepy.egg-info/PKG-INFO
+src/EGGcodepy.egg-info/SOURCES.txt
+src/EGGcodepy.egg-info/dependency_links.txt
+src/EGGcodepy.egg-info/top_level.txt
