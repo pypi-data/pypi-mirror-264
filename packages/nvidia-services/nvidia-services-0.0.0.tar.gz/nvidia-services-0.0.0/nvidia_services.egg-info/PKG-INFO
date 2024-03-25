@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nvidia-services
+Version: 0.0.0
+Summary: SDK for nvidia services
+Author-email: Rajib Deb <rajib76.gcp@gmail.com>
+Project-URL: Homepage, https://github.com/rajib76/nvidia-nims
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests==2.31.0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: pydantic==2.6.4
+Requires-Dist: torch==2.2.1
+Requires-Dist: numpy==1.24.1
+
+# nvidia-nims
+SDK for nvidia-nims
