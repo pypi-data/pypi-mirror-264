@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: structhub
+Version: 0.0.3
+License-File: LICENSE
+Requires-Dist: requests >=2.0.0
+
