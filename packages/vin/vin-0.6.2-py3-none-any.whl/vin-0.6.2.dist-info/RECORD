@@ -1,0 +1,9 @@
+vin/__about__.py,sha256=4Aoew-h_69FslNULMtKaPGJMeTpDekDCoIhLtE5U4QM,134
+vin/__init__.py,sha256=38TOuuAmpnDYG561ZuhwK5XA_gCpeP8UvVsGnkXugYo,20478
+vin/constants.py,sha256=ywVhzVoc6Yx02jiQW7RSWF_JvoRYsyMn8JoeBwjmjq8,1574
+vin/database.py,sha256=Z18uE0fmgs2BFl7jXlHknz-D3T9tFof6m-OautdI5nA,7605
+vin/vehicle.db,sha256=JaApfZKGGI0VfyPZuCFLGj27Pgtt2mSRxoYIULNMEsg,31305728
+vin-0.6.2.dist-info/METADATA,sha256=k-pogkXTvV1VoP3VRyWT1K7NeyP3eLgjqo_6XAxgMkg,3915
+vin-0.6.2.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+vin-0.6.2.dist-info/licenses/LICENSE.txt,sha256=vJm5nfTr0ssIhZhnfwhDe9C2gK6AmgpcVJFXxOmB7jU,1104
+vin-0.6.2.dist-info/RECORD,,
