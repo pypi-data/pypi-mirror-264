@@ -1,0 +1,306 @@
+{
+    "KAJANG_MRT": [
+        {
+            "id":"KG04",
+            "stationName": "Kwasa Damansara",
+            "coordinate": {
+                "lat": "3.1763838",
+                "lon": "101.572348"
+            },
+            "interchangeStation":[{
+                "id":"PY01",
+                "stationName": "Kwasa Damansara",
+                "coordinate": {
+                    "lat": "3.1763838",
+                    "lon": "101.572348"
+                }
+            }]
+        },
+        {
+            "id":"KG05",
+            "stationName": "Kwasa Sentral",
+            "coordinate": {
+                "lat": "3.1699762",
+                "lon": "101.5647708"
+            }
+        },
+        {
+            "id":"KG06",
+            "stationName": "Kota Damansara",
+            "coordinate": {
+                "lat": "3.1501013",
+                "lon": "101.5788905"
+            }
+        },
+        {
+            "id":"KG07",
+            "stationName": "Surian",
+            "coordinate": {
+                "lat": "3.1494854",
+                "lon": "101.593917"
+            }
+        },
+        {
+            "id":"KG08",
+            "stationName": "Mutiara Damansara",
+            "coordinate": {
+                "lat": "3.155262",
+                "lon": "101.608718"
+            }
+        },
+        {
+            "id":"KG09",
+            "stationName": "Bandar Utama",
+            "coordinate": {
+                "lat": "3.1466959",
+                "lon": "101.6187457"
+            }
+        },
+        {
+            "id":"KG10",
+            "stationName": "TTDI",
+            "coordinate": {
+                "lat": "3.13614",
+                "lon": "101.63074"
+            }
+        },
+        {
+            "id":"KG12",
+            "stationName": "Phileo Damansara",
+            "coordinate": {
+                "lat": "3.1292246",
+                "lon": "101.6429836"
+            }
+        },{
+            "id":"KG12A",
+            "stationName":"Bukit Kiara",
+            "coordinate":{
+                "lat":"3.133986",
+                "lon":"101.65135"
+            }
+        },
+        {
+            "id":"KG13",
+            "stationName": "Pusat Bandar Damansara",
+            "coordinate": {
+                "lat": "3.1432549",
+                "lon": "101.6623203"
+            }
+        },
+        {
+            "id":"KG14",
+            "stationName": "Semantan",
+            "coordinate": {
+                "lat": "3.1510399",
+                "lon": "101.6652861"
+            }
+        },
+        {
+            "id":"KG15",
+            "stationName": "Muzium Negara",
+            "coordinate": {
+                "lat": "3.13713",
+                "lon": "101.68725"
+            },
+            "interchangeStation":[{
+                "id":"KJ15",
+                "stationName": "KL Sentral",
+                "coordinate": {
+                    "lat": "3.13417",
+                    "lon": "101.68611"
+                }
+            }]
+        },
+        {
+            "id":"KG16",
+            "stationName": "Pasar Seni",
+            "coordinate": {
+                "lat": "3.14238",
+                "lon": "101.69632"
+            },
+            "interchangeStation":[{
+                "id":"KJ14",
+                "stationName": "Pasar Seni",
+                "coordinate": {
+                    "lat": "3.14236",
+                    "lon": "101.69632"
+                }
+            }]
+        },
+        {
+            "id":"KG17",
+            "stationName": "Merdeka",
+            "coordinate": {
+                "lat": "3.14208",
+                "lon": "101.70220"
+            },
+            "interchangeStation":[{
+                "id":"AG8",
+                "stationName": "Plaza Rakyat",
+                "coordinate": {
+                    "lat": "3.14405",
+                    "lon": "101.7021"
+                }
+            },{
+                "id":"SP8",
+                "stationName": "Plaza Rakyat",
+                "coordinate": {
+                    "lat": "3.14405",
+                    "lon": "101.7021"
+                }
+            }]
+        },
+        {
+            "id":"KG18A",
+            "stationName": "Bukit Bintang",
+            "coordinate": {
+                "lat": "3.14659425",
+                "lon": "101.711222"
+            },
+            "interchangeStation":[{
+                "id":"KJ10",
+                "stationName": "Bukit Bintang",
+                "coordinate": {
+                    "lat": "3.14659425",
+                    "lon": "101.711222"
+                }
+            }]
+        },
+        {
+            "id":"KG20",
+            "stationName": "Tun Razak Exchange (TRX)",
+            "coordinate": {
+                "lat": "3.1427162",
+                "lon": "101.7202063"
+            },
+            "interchangeStation":[{
+                "id":"PY23",
+                "stationName": "Tun Razak Exchange (TRX)",
+                "coordinate": {
+                    "lat": "3.1427162",
+                    "lon": "101.7202063"
+                }
+            }]
+        },
+        {
+            "id":"KG21",
+            "stationName": "Cochrane",
+            "coordinate": {
+                "lat": "3.1327859",
+                "lon": "101.7229467"
+            }
+        },
+        {
+            "id":"KG22",
+            "stationName": "Maluri",
+            "coordinate": {
+                "lat": "3.12444",
+                "lon": "101.72725"
+            },
+            "interchangeStation":[{
+                "id":"AG13",
+                "stationName": "Maluri",
+                "coordinate": {
+                    "lat": "3.12336",
+                    "lon": "101.72726"
+                }
+            }]
+        },
+        {
+            "id":"KG23",
+            "stationName": "Taman Pertama",
+            "coordinate": {
+                "lat": "3.1122706",
+                "lon": "101.7293086"
+            }
+        },
+        {
+            "id":"KG24",
+            "stationName": "Taman Midah",
+            "coordinate": {
+                "lat": "3.10448",
+                "lon": "101.73218"
+            }
+        },
+        {
+            "id":"KG25",
+            "stationName": "Taman Mutiara",
+            "coordinate": {
+                "lat": "3.09099",
+                "lon": "101.74045"
+            }
+        },
+        {
+            "id":"KG26",
+            "stationName": "Taman Connaught",
+            "coordinate": {
+                "lat": "3.07917",
+                "lon": "101.74521"
+            }
+        },
+        {
+            "id":"KG27",
+            "stationName": "Taman Suntex",
+            "coordinate": {
+                "lat": "3.07158",
+                "lon": "101.76355"
+            }
+        },
+        {
+            "id":"KG28",
+            "stationName": "Sri Raya",
+            "coordinate": {
+                "lat": "3.0623324",
+                "lon": "101.772846"
+            }
+        },
+        {
+            "id":"KG29",
+            "stationName": "Bandar Tun Hussein Onn",
+            "coordinate": {
+                "lat": "3.04829",
+                "lon": "101.77510"
+            }
+        },
+        {
+            "id":"KG30",
+            "stationName": "Batu 11 Cheras",
+            "coordinate": {
+                "lat": "3.04134",
+                "lon": "101.77333"
+            }
+        },
+        {
+            "id":"KG31",
+            "stationName": "Bukit Dukung",
+            "coordinate": {
+                "lat": "3.0267661",
+                "lon": "101.7708986"
+            }
+        },
+        {
+            "id":"KG33",
+            "stationName": "Sungai Jernih",
+            "coordinate": {
+                "lat": "3.0013634",
+                "lon": "101.7837821"
+            }
+        },
+        {
+            "id":"KG34",
+            "stationName": "Stadium Kajang",
+            "coordinate": {
+                "lat": "2.99451",
+                "lon": "101.78634"
+            }
+        },
+        {
+            "id":"KG35",
+            "stationName": "Kajang",
+            "coordinate": {
+                "lat": "2.98321",
+                "lon": "101.79035"
+            }
+        }
+    ]
+}

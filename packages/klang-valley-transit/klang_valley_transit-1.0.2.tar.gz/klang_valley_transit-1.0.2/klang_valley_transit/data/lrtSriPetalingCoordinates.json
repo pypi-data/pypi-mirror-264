@@ -1,0 +1,368 @@
+{
+    "SRI_PETALING_LRT": [
+        {
+            "id":"SP1",
+            "stationName": "Sentul Timur",
+            "coordinate": {
+                "lat": "3.1859317",
+                "lon": "101.6953527"
+            },
+            "interchangeStation":[{
+                "id":"AG1",
+                "stationName": "Sentul Timur",
+                "coordinate": {
+                    "lat": "3.1859317",
+                    "lon": "101.6953527"
+                }
+            }]
+        },
+        {
+            "id":"SP2",
+            "stationName": "Sentul",
+            "coordinate": {
+                "lat": "3.1785607",
+                "lon": "101.6954938"
+            },
+            "interchangeStation":[{
+                "id":"AG2",
+                "stationName": "Sentul",
+                "coordinate": {
+                    "lat": "3.1785607",
+                    "lon": "101.6954938"
+                }
+            }]
+        },
+        {
+            "id":"SP3",
+            "stationName": "Titiwangsa",
+            "coordinate": {
+                "lat": "3.1735082",
+                "lon": "101.6953433"
+            },
+            "interchangeStation":[{
+                "id":"AG3",   
+                "stationName": "Titiwangsa",
+                "coordinate": {
+                    "lat": "3.1735082",
+                    "lon": "101.6953433"
+                }
+            }, {
+                "id":"PY17",
+                "stationName": "Persiaran KLCC",
+                "coordinate": {
+                    "lat": "3.15694",
+                    "lon": "101.71831"
+                }
+            }]
+        },
+        {
+            "id":"SP4",
+            "stationName": "PWTC",
+            "coordinate": {
+                "lat": "3.1665923",
+                "lon": "101.6936275"
+            },
+            "interchangeStation":[{
+                "id":"AG4", 
+                "stationName": "PWTC",
+                "coordinate": {
+                    "lat": "3.1665923",
+                    "lon": "101.6936275"
+                }
+            }]
+        },
+        {
+            "id":"SP5",
+            "stationName": "Sultan Ismail",
+            "coordinate": {
+                "lat": "3.16124",
+                "lon": "101.69411"
+            },
+            "interchangeStation":[{
+                "id":"AG5",
+                "stationName": "Sultan Ismail",
+                "coordinate": {
+                    "lat": "3.16124",
+                    "lon": "101.69411"
+                }
+            }]
+        },
+        {
+            "id":"SP6",
+            "stationName": "Bandaraya",
+            "coordinate": {
+                "lat": "3.1555582",
+                "lon": "101.6944651"
+            },
+            "interchangeStation":[{
+                "id":"AG6",
+                "stationName": "Bandaraya",
+                "coordinate": {
+                    "lat": "3.1555582",
+                    "lon": "101.6944651"
+                }
+            }]
+        },
+        {
+            "id":"SP7",
+            "stationName": "Masjid Jamek",
+            "coordinate": {
+                "lat": "3.14940",
+                "lon": "101.69646"
+            },
+            "interchangeStation":[{
+                "id":"AG7",
+                "stationName": "Masjid Jamek",
+                "coordinate": {
+                    "lat": "3.14940",
+                    "lon": "101.69646"
+                }
+            },{
+                "id":"KJ13",
+                "stationName": "Masjid Jamek",
+                "coordinate": {
+                    "lat": "3.14940",
+                    "lon": "101.69646"
+                }
+            }]
+        },
+        {
+            "id":"SP8",
+            "stationName": "Plaza Rakyat",
+            "coordinate": {
+                "lat": "3.14405",
+                "lon": "101.7021"
+            },
+            "interchangeStation":[{
+                "id":"AG8",
+                "stationName": "Plaza Rakyat",
+                "coordinate": {
+                    "lat": "3.14405",
+                    "lon": "101.7021"
+                }
+            },{
+                "id":"KG17",
+                "stationName": "Merdeka",
+                "coordinate": {
+                    "lat": "3.14208",
+                    "lon": "101.70220"
+                }
+            }]
+        },
+        {
+            "id":"SP9",
+            "stationName": "BBCC - Hang Tuah",
+            "coordinate": {
+                "lat": "3.14000",
+                "lon": "101.70608"
+            },
+            "interchangeStation":[{
+                "id":"AG9",
+                "stationName": "BBCC - Hang Tuah",
+                "coordinate": {
+                    "lat": "3.14000",
+                    "lon": "101.70608"
+                }
+            }]
+        },
+        {
+            "id":"SP10",
+            "stationName": "Pudu",
+            "coordinate": {
+                "lat": "3.13488",
+                "lon": "101.71196"
+            },
+            "interchangeStation":[{
+                "id":"AG10",
+                "stationName": "Pudu",
+                "coordinate": {
+                    "lat": "3.13488",
+                    "lon": "101.71196"
+                }
+            }]
+        },
+        {
+            "id":"SP11",
+            "stationName": "Chan Sow Lin",
+            "coordinate": {
+                "lat": "3.1278462",
+                "lon": "101.7155894"
+            },
+            "interchangeStation":[{
+                "id":"AG11",
+                "stationName": "Chan Sow Lin",
+                "coordinate": {
+                    "lat": "3.1278462",
+                    "lon": "101.7155894"
+                }
+            },{
+                "id":"PY24",
+                "stationName": "Chan Sow Lin",
+                "coordinate": {
+                    "lat": "3.12864",
+                    "lon": "101.71638"
+                }
+            }]
+        },
+        {
+            "id":"SP12",
+            "stationName": "Cheras",
+            "coordinate": {
+                "lat": "3.1125996",
+                "lon": "101.7142131"
+            }
+        },
+        {
+            "id":"SP13",
+            "stationName": "Salak Selatan",
+            "coordinate": {
+                "lat": "3.1020978",
+                "lon": "101.7063461"
+            }
+        },
+        {
+            "id":"SP14",
+            "stationName": "Bandar Tun Razak",
+            "coordinate": {
+                "lat": "3.089669",
+                "lon": "101.7125175"
+            }
+        },
+        {
+            "id":"SP15",
+            "stationName": "Bandar Tasik Selatan",
+            "coordinate": {
+                "lat": "3.0760769",
+                "lon": "101.7113663"
+            }
+        },
+        {
+            "id":"SP16",
+            "stationName": "Sungai Besi",
+            "coordinate": {
+                "lat": "3.06394",
+                "lon": "101.70801"
+            },
+            "interchangeStation":[ {
+                "id":"PY29",
+                "stationName": "Sungai Besi",
+                "coordinate": {
+                    "lat": "3.063523",
+                    "lon": "101.7084334"
+                }
+            }]
+        },
+        {
+            "id":"SP17",
+            "stationName": "Bukit Jalil",
+            "coordinate": {
+                "lat": "3.05814",
+                "lon": "101.69222"
+            }
+        },
+        {
+            "id":"SP18",
+            "stationName": "Sri Petaling",
+            "coordinate": {
+                "lat": "3.06144",
+                "lon": "101.68707"
+            }
+        },
+        {
+            "id":"SP19",
+            "stationName": "Awan Besar",
+            "coordinate": {
+                "lat": "3.0621113",
+                "lon": "101.6706325"
+            }
+        },
+        {
+            "id":"SP20",
+            "stationName": "Muhibbah",
+            "coordinate": {
+                "lat": "3.06192",
+                "lon": "101.66260"
+            }
+        },
+        {
+            "id":"SP21",
+            "stationName": "Alam Sutera",
+            "coordinate": {
+                "lat": "3.0546753",
+                "lon": "101.6565324"
+            }
+        },
+        {
+            "id":"SP22",
+            "stationName": "Kinrara BK5",
+            "coordinate": {
+                "lat": "3.0504458",
+                "lon": "101.6442793"
+            }
+        },
+        {
+            "id":"SP24",
+            "stationName": "IOI Puchong Jaya",
+            "coordinate": {
+                "lat": "3.0480756",
+                "lon": "101.6209657"
+            }
+        },
+        {
+            "id":"SP25",
+            "stationName": "Pusat Bandar Puchong",
+            "coordinate": {
+                "lat": "3.033339",
+                "lon": "101.6160699"
+            }
+        },
+        {
+            "id":"SP26",
+            "stationName": "Taman Perindustrian Puchong",
+            "coordinate": {
+                "lat": "3.022844",
+                "lon": "101.6134397"
+            }
+        },
+        {
+            "id":"SP27",
+            "stationName": "Bandar Puteri",
+            "coordinate": {
+                "lat": "3.0170271",
+                "lon": "101.6128574"
+            }
+        },
+        {
+            "id":"SP28",
+            "stationName": "Puchong Perdana",
+            "coordinate": {
+                "lat": "3.0078465",
+                "lon": "101.6050702"
+            }
+        },
+        {
+            "id":"SP29",
+            "stationName": "Puchong Prima",
+            "coordinate": {
+                "lat": "2.99981",
+                "lon": "101.59669"
+            }
+        },
+        {
+            "id":"SP31",
+            "stationName": "Putra Heights",
+            "coordinate": {
+                "lat": "2.996016",
+                "lon": "101.575521"
+            },
+            "interchangeStation":[ {
+                "id":"KJ37",
+                "stationName": "Putra Heights",
+                "coordinate": {
+                    "lat": "2.996016",
+                    "lon": "101.575521"
+                }
+            }]
+        }
+    ]
+}
