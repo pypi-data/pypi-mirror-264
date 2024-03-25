@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aio-code-editor"
+version = "0.2.0"
+description = ""
+authors = ["NguyenDinhTiem <nguyendinhtiem1999@gmail.com>"]
+readme = "README.md"
+include = ["shark.png"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+streamlit = "^1.32.2"
+streamlit-code-editor = "^0.1.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aio-code-editor
+Version: 0.2.0
+Summary: 
+Author: NguyenDinhTiem
+Author-email: nguyendinhtiem1999@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: streamlit (>=1.32.2,<2.0.0)
+Requires-Dist: streamlit-code-editor (>=0.1.12,<0.2.0)
+Description-Content-Type: text/markdown
+
+
