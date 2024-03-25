@@ -1,0 +1,17 @@
+stream_translator_gpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stream_translator_gpt/__main__.py,sha256=1PTX1H_Bhki8pkzhT6vmsABXoSMRejUEjdJpV_ThUmw,68
+stream_translator_gpt/audio_getter.py,sha256=O92-7w9tNfh-K1JG1vV9k_4EsOsHRD3Lp_eVkHrIUpc,5928
+stream_translator_gpt/audio_slicer.py,sha256=vrPynuJN7Qte9OHKvXVKeJtr9RYHPwuCrFw0OYroqpc,4102
+stream_translator_gpt/audio_transcriber.py,sha256=84Nip6_HVfxadYbF4cpvA5Dyic3lM8DEPqLMZnZEdSI,3342
+stream_translator_gpt/common.py,sha256=QU17eIKqGc5bnE4tD6pwOYa5qNjqWlx5FQrFup54iAM,753
+stream_translator_gpt/filters.py,sha256=_-DWnJPmT-DnTxfTQpPssZxq8AOyGOBeNiFVl-krs6E,1384
+stream_translator_gpt/llm_translator.py,sha256=x4IEVNjh9nCx3ZN3ZJCLpS6XWeMHRQyTWTBMLvZM5ME,8300
+stream_translator_gpt/result_exporter.py,sha256=MF8P7ee8ZKeOLMsqEgV93WXdcoWAXxVPVhTKDC_jd6o,2080
+stream_translator_gpt/silero_vad.jit,sha256=mQM2CFYglLu0TiNjGYzUdkemaPhGxMmp7d5otIALX9Q,1439299
+stream_translator_gpt/translator.py,sha256=hiiLOeAUP35wSjmUUuknaJuJdhCXoOoKtNWhutwj4ks,16567
+stream_translator_gpt-2024.3.25.dist-info/LICENSE,sha256=tyEPT-X3o18eOPVnxLacGyCFZGKkQkCEs-61kCTG5Zc,1089
+stream_translator_gpt-2024.3.25.dist-info/METADATA,sha256=dT5c76hKo30A6ppieey4-QFoFNRz2u0FExNl5hPsU-A,6012
+stream_translator_gpt-2024.3.25.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+stream_translator_gpt-2024.3.25.dist-info/entry_points.txt,sha256=E2E4OKyF6IOEbqO80UTwrDJLLd1ZhdnRt9YHCt5sq_k,79
+stream_translator_gpt-2024.3.25.dist-info/top_level.txt,sha256=aWkxIuzlCtdIOxpAZCE9YylI95SyK7t6FqEMrlNzS9Q,22
+stream_translator_gpt-2024.3.25.dist-info/RECORD,,
