@@ -1,0 +1,7 @@
+random-events
+networkx
+portion
+plotly
+scipy
+typing_extensions
+numpy
