@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: radyno
+Version: 0.0.1
+Summary: Particle tracking and radiation spectrum evaluation
+Author: exborgg (Andrea Frazzitta)
+Author-email: <andrea.frazzitta@uniroma1.it>
+Keywords: python,beam,radiation,spectrum,mpi,parallel
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: opencv-python
+Requires-Dist: pyautogui
+Requires-Dist: pyaudio
