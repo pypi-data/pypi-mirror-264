@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+Readme.md
+setup.py
+gigacommit/__init__.py
+gigacommit/gigacommit
+gigacommit.egg-info/PKG-INFO
+gigacommit.egg-info/SOURCES.txt
+gigacommit.egg-info/dependency_links.txt
+gigacommit.egg-info/requires.txt
+gigacommit.egg-info/top_level.txt
