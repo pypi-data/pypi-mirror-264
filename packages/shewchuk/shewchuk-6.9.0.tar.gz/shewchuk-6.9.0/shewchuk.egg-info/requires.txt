@@ -1,0 +1,9 @@
+typing-extensions>=4.10.0
+
+[docs]
+Sphinx<8.0,>=7.2.6
+sphinx-rtd-theme<3.0,>=2.0.0
+
+[tests]
+hypothesis<7.0,>=6.99.12
+pytest<9.0,>=8.1.1
