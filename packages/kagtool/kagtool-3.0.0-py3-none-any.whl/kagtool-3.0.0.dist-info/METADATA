@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kagtool
+Version: 3.0.0
+Summary: Helpers For Kaggle Competition
+Author: Your Name
+Author-email: your@email.com
+Requires-Dist: kaggle
+
