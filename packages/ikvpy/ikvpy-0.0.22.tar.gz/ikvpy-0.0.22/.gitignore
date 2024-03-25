@@ -1,0 +1,67 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Rust
+ikv/target/*
+
+### Python
+ikv-python-client/dist
+ikv-python-client/dist/*
+
+### Python
+ikv-python-client/.env
+
+### Docs
+ikv-store/docs/node_modules
+
+### Go
+ikv-go-client/ikv-go-client
+ikv-go-client/cmd/cmd
+
+### Core dumps
+ikv-java-client/*.log
+
+### IntelliJ IDEA ###
+.idea/*
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/workspace.xml
+.idea/libraries/
+.idea/workspace.xml
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
