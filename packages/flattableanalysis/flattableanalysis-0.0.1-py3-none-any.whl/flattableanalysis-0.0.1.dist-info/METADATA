@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: flattableanalysis
+Version: 0.0.1
+Summary: Architectural analysis of a flat table. Discovering data from technical point of view.
+Author: Grigory T
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: graphviz
+Requires-Dist: more-itertools
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-igraph
+Requires-Dist: tqdm
