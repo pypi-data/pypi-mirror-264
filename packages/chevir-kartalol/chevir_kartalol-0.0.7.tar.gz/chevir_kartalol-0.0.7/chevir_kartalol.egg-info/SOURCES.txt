@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+chevir_kartalol/__init__.py
+chevir_kartalol/evaluation.py
+chevir_kartalol/src_vocab202402.pt
+chevir_kartalol/target_vocab202402.pt
+chevir_kartalol/transformer.py
+chevir_kartalol.egg-info/PKG-INFO
+chevir_kartalol.egg-info/SOURCES.txt
+chevir_kartalol.egg-info/dependency_links.txt
+chevir_kartalol.egg-info/top_level.txt
