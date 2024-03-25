@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: TeleCryptoBot
+Version: 1.1
+Summary: Библиотека для удобного использования API CryptoPay
+Home-page: https://github.com/vh1dz/TeleCryptoBot
+Author: vh1dz
+Author-email: vh1dz@vh1dz.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
