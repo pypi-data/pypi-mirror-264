@@ -1,0 +1,7 @@
+README.md
+setup.py
+MailTMClient/MailTMClient.py
+MailTMClient/MailTMClient.egg-info/PKG-INFO
+MailTMClient/MailTMClient.egg-info/SOURCES.txt
+MailTMClient/MailTMClient.egg-info/dependency_links.txt
+MailTMClient/MailTMClient.egg-info/top_level.txt
