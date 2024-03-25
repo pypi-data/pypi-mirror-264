@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tree-str
+Version: 0.0.1
+Summary: Graph tree structure
+Author-email: Henry Sheehy <enquiries@henrysheehy.com>
+License: # PythU 
+        Scanning tunnelling microscopy (STM), quasiparticle interference (QPI) and 
+        angle-resolved photoemission spectrocopy (ARPES) simulation of (topological)
+        non-unitary spin-triplet unconventional superconductivity and magnetism, in 
+        quantum dots, thin films and 3D, with impurities.
+        
+        COPYRIGHT (C) 2018--2023, Henry Joseph Sheehy. All rights reserved.
+        
+Project-URL: Homepage, https://git.quantalumin.com/henry/tree-str
+Project-URL: Issues, https://git.quantalumin.com/henry/tree-str/issues
+Keywords: graph theory,tree,structure
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
