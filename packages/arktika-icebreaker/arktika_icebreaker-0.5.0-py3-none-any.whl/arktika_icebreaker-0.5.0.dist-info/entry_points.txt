@@ -1,0 +1,2 @@
+[console_scripts]
+icebreaker = icebreaker.__main__:main
