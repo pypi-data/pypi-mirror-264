@@ -1,0 +1,13 @@
+scipy
+numpy
+networkx
+seaborn
+scikit-learn
+prettytable
+antropy==0.1.6
+yfinance==0.2.28
+tqdm
+dtaidistance>=2.3.10
+tensorflow<2.16
+tensorflow-probability<0.24.0
+statsmodels
