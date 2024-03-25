@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+optivision/__init__.py
+optivision/common.py
+optivision.egg-info/PKG-INFO
+optivision.egg-info/SOURCES.txt
+optivision.egg-info/dependency_links.txt
+optivision.egg-info/top_level.txt
+optivision/transformations/__init__.py
+optivision/transformations/logarithmic.py
+optivision/transformations/negative.py
