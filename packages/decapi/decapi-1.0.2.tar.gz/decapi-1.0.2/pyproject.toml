@@ -1,0 +1,18 @@
+[project]
+name = "decapi"
+version = "1.0.2"
+description = "An API for DECTalk"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    { name="GDPlayer1035", email="someguyyounotknow@gmail.com" },
+]
+dependencies = [
+    "asyncio",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
