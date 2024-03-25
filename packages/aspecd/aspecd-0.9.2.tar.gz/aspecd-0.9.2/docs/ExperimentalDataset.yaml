@@ -1,0 +1,106 @@
+data:
+  calculated: false
+  data:
+    type: numpy.ndarray
+    dtype: float64
+    array: []
+  axes:
+  - quantity: ''
+    symbol: ''
+    unit: ''
+    label: ''
+    values:
+      type: numpy.ndarray
+      dtype: float64
+      array: []
+    index: []
+  - quantity: ''
+    symbol: ''
+    unit: ''
+    label: ''
+    values:
+      type: numpy.ndarray
+      dtype: float64
+      array: []
+    index: []
+_origdata:
+  calculated: false
+  data:
+    type: numpy.ndarray
+    dtype: float64
+    array: []
+  axes:
+  - quantity: ''
+    symbol: ''
+    unit: ''
+    label: ''
+    values:
+      type: numpy.ndarray
+      dtype: float64
+      array: []
+    index: []
+  - quantity: ''
+    symbol: ''
+    unit: ''
+    label: ''
+    values:
+      type: numpy.ndarray
+      dtype: float64
+      array: []
+    index: []
+device_data:
+  example:
+    calculated: false
+    metadata:
+      label: ''
+    data:
+      type: numpy.ndarray
+      dtype: float64
+      array: []
+    axes:
+    - quantity: ''
+      symbol: ''
+      unit: ''
+      label: ''
+      values:
+        type: numpy.ndarray
+        dtype: float64
+        array: []
+      index: []
+    - quantity: ''
+      symbol: ''
+      unit: ''
+      label: ''
+      values:
+        type: numpy.ndarray
+        dtype: float64
+        array: []
+      index: []
+metadata:
+  measurement:
+    start: null
+    end: null
+    purpose: ''
+    operator: ''
+    labbook_entry: ''
+  sample:
+    name: ''
+    id: null
+    loi: ''
+  temperature_control:
+    temperature:
+      unit: ''
+      dimension: ''
+      name: ''
+      value: 0.0
+    controller: ''
+history: []
+_history_pointer: -1
+analyses: []
+annotations: []
+representations: []
+id: ''
+label: ''
+references: []
+tasks: []
+_package_name: aspecd
