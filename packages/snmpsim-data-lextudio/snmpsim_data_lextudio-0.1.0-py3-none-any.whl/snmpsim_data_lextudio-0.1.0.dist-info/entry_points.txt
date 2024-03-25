@@ -1,0 +1,3 @@
+[console_scripts]
+setup-snmpsim-data=snmpsim-data.setup_data:main
+
