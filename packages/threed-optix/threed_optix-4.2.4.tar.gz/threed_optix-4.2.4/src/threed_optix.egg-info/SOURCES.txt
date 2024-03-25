@@ -1,0 +1,12 @@
+.gitignore
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+help/SDK help text.txt
+help/SDK help.md
+src/threed_optix.egg-info/PKG-INFO
+src/threed_optix.egg-info/SOURCES.txt
+src/threed_optix.egg-info/dependency_links.txt
+src/threed_optix.egg-info/requires.txt
+src/threed_optix.egg-info/top_level.txt
