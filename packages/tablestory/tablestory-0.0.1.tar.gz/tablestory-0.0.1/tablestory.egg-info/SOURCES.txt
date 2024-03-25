@@ -1,0 +1,8 @@
+README.md
+setup.py
+tablestory/__init__.py
+tablestory.egg-info/PKG-INFO
+tablestory.egg-info/SOURCES.txt
+tablestory.egg-info/dependency_links.txt
+tablestory.egg-info/not-zip-safe
+tablestory.egg-info/top_level.txt
