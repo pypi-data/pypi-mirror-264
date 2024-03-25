@@ -1,0 +1,2 @@
+[console_scripts]
+vigi = vigi.cli:main
