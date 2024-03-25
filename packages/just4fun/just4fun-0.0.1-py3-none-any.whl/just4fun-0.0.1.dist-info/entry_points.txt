@@ -1,0 +1,2 @@
+[console_scripts]
+just4fun = just4fun.fun:magic_8_ball
