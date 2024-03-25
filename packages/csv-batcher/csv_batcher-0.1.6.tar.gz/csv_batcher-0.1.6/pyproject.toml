@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "csv-batcher"
+version = "0.1.6"
+description = "A python utility to split a large CSV into smaller ones, and uses multiprocessing to process the CSVs in parallel."
+authors = ["Steven Miers <steven.miers@gmail.com>"]
+readme = "README.md"
+license = "The Unlicense"
+homepage = "https://pypi.org/project/csv-batcher/"
+repository = "https://github.com/tangledpath/csv-batcher"
+documentation = "https://tangledpath.github.io/csv-batcher"
+
+[tool.poetry.dependencies]
+python = "^3.12.2"
+pandas = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff-lsp = "^0.0.52"
+pdoc = "^14.4.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.1"
+pytest-mock = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+packages = [
+    { include = "csv_batcher" }
+]
