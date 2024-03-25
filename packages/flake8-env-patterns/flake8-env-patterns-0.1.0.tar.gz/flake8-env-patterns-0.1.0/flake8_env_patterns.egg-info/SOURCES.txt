@@ -1,0 +1,11 @@
+LICENSE
+README.md
+flake8_env_patterns.py
+pyproject.toml
+flake8_env_patterns.egg-info/PKG-INFO
+flake8_env_patterns.egg-info/SOURCES.txt
+flake8_env_patterns.egg-info/dependency_links.txt
+flake8_env_patterns.egg-info/entry_points.txt
+flake8_env_patterns.egg-info/requires.txt
+flake8_env_patterns.egg-info/top_level.txt
+tests/test_flake8_env_patterns.py
