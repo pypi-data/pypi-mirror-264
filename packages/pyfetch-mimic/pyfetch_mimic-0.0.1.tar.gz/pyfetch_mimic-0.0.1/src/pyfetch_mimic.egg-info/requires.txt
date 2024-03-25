@@ -1,0 +1,9 @@
+shiny
+shinylive
+httpx
+python_version<3.8
+
+[tests]
+fastapi
+pytest
+pytest-asyncio
