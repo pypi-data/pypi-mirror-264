@@ -1,0 +1,2 @@
+[console_scripts]
+fectorial = fectorial.fectorial:main

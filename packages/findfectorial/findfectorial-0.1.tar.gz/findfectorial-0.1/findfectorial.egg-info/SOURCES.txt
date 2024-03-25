@@ -1,0 +1,8 @@
+setup.py
+fectorial/__init__.py
+fectorial/fect.py
+findfectorial.egg-info/PKG-INFO
+findfectorial.egg-info/SOURCES.txt
+findfectorial.egg-info/dependency_links.txt
+findfectorial.egg-info/entry_points.txt
+findfectorial.egg-info/top_level.txt
