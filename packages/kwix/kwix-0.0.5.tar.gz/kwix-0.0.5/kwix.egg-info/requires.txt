@@ -1,0 +1,7 @@
+atyp
+chck
+regsyn
+idfunc
+ispec
+
+[dev]
