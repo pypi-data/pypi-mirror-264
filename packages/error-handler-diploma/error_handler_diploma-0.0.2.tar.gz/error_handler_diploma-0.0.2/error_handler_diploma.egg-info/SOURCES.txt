@@ -1,0 +1,7 @@
+setup.py
+error_handler_diploma/__init__.py
+error_handler_diploma/test.py
+error_handler_diploma.egg-info/PKG-INFO
+error_handler_diploma.egg-info/SOURCES.txt
+error_handler_diploma.egg-info/dependency_links.txt
+error_handler_diploma.egg-info/top_level.txt
