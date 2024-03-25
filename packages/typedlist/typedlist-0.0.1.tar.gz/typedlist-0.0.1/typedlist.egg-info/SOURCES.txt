@@ -1,0 +1,8 @@
+README.md
+setup.py
+typedlist/__init__.py
+typedlist/typedlist.py
+typedlist.egg-info/PKG-INFO
+typedlist.egg-info/SOURCES.txt
+typedlist.egg-info/dependency_links.txt
+typedlist.egg-info/top_level.txt

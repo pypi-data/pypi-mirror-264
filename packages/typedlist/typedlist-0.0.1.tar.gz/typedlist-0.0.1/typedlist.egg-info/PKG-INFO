@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: typedlist
+Version: 0.0.1
+Summary: Typed-list
+Author: CeREF Technique
+Author-email: licence.tech@ceref.be
+Keywords: python,datagraph,PyQt6
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Python package for typed list
