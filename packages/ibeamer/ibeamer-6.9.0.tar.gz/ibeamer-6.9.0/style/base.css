@@ -1,0 +1,54 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+/* global import */
+
+@import 'global.css';
+
+/* imports from include folder */
+
+/* import LATEX Fonts */
+@import 'include/fonts.css';
+
+/* import logo styling */
+@import 'include/logo.css';
+
+/* imports from environment folder */
+
+/* import alert styles */
+@import 'environment/alert.css';
+
+/* import corollary styles */
+@import 'environment/corollary.css';
+
+/* import definition styles */
+@import 'environment/definition.css';
+
+/* import example styles */
+@import 'environment/example.css';
+
+/* import exercise styles */
+@import 'environment/exercise.css';
+
+/* import lemma styles */
+@import 'environment/lemma.css';
+
+/* import proof styles */
+@import 'environment/proof.css';
+
+/* import remark styles */
+@import 'environment/remark.css';
+
+/* import theorem styles */
+@import 'environment/theorem.css';
+
+/* imports from structure folder */
+
+/* import abstract styles */
+@import 'structure/abstract.css';
+
+/* import bibliography styles */
+@import 'structure/bibliography.css';

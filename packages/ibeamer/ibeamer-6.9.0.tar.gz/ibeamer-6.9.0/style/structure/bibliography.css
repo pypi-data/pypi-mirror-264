@@ -1,0 +1,61 @@
+/* 
+    This css file contains all
+    the styling implementations
+    relating to structuring an
+    iBeamer document
+*/
+
+/* author */
+/* date */
+/* institute */
+
+/* title */
+/* subtitle */
+
+/* table of contents */
+
+/* chapter */
+/* bibliography */
+
+.bib::before {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    content: "Bibliography";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.bib {
+    text-align: left;
+}
+
+.bib ol {
+    list-style: none;
+    counter-reset: list;
+}
+
+.bib ol li::before {
+    content: "[" counter(list) "]";
+    counter-increment: list;
+}
+
+.bib ol li .volume::before {
+    content: "vol ";
+}
+
+.bib ol li .press {
+    font-style: italic;
+}
+
+.bib ol li .title::before {
+    content: "\"";
+}
+
+.bib ol li .title::after {
+    content: "\",";
+}
+
+.bib ol li span::after {
+    content: " ";
+}

@@ -1,0 +1,97 @@
+# Setting up a new Jupyter Lab extension project using jlpm and cookiecutter in a conda environment
+
+# Create a new conda environment (environment name = dev)
+# and install appropriate developer tools
+> conda create -n <env_name> -c conda-forge cookiecutter python -y
+> conda activate <env_name>
+
+# At the time of writing, jupyter Notebook 7 was not yet available on the conda-forge channel
+> python -m pip install jupyterlab notebook --pre
+
+# Inspect all pip packages
+> pip list
+
+# Install the cookiecutter template project
+# This will prompt the client which type of project (Front-End, Server, Theme) to create
+> cookiecutter https://github.com/jupyterlab/extension-cookiecutter-ts --checkout 4.0
+
+# follow the cookiecutter template prompt
+# In this case, fontend - 1
+# developer name, developer email, github repo, project name, whether {settings, binder, test}
+> cd <project_name>
+
+# open project root folder in code editor
+> jlpm
+
+# After looking at some of the source code,
+# specifically `index.ts`, make the following changes
+# In the cookiecutter src folder, we may notice
+# a missing import/package/library (underlined in code-editor)
+
+# To resolve this, install jlpm which is essentially a wrapper around yarn
+# Before installing jlpm, we must install nodejs:
+> conda install -c conda-forge nodejs=18
+# May take a couple of tries
+
+# Change directory to project folder
+# The project/folder name was specified during
+# cookiecutter template "checkout" phase/prompt
+> jlpm
+
+# includes node_modules
+> jlpm run build
+> jupyter labextension list
+
+# Be sure that you don't have a project installed
+# in Jupyter Lab with the same name
+# Create a symbolic link from the project into jupyterlab
+> jupyter labextension develop . --overwrite
+
+> python -m pip install -e .
+# if an error is encountered stating:
+# ERROR: Could not install packges dues to an OSError:
+# [Errno 2] No such file or directory: '/path/to/log/<project_name>/build_log.json'
+# then simply delete the directory and try again - it will be created again during the above build process
+
+> jupyter labextension list
+> jupyter lab --no-browser
+
+# Inspect the developers console (F12 key)
+
+# add @lumino/widgets as dependency in package.json
+# add @jupyterlab/apputils as dependency in package.json
+
+# import { Widget } from '@lumino/widgets'; in src/index.ts
+# import { DOMUtils } from '@jupyterlab/apputils'; in src/index.ts
+
+> jlpm
+
+# If you are struggling to do the above, you could run
+# the following commands to install the modules into
+# the project using jlpm
+> jlpm add @lumino/widgets
+> jlpm add @jupyterlab/apputils
+
+# Use Widget and DOMUtils in src/index.ts
+# Each time changes are made, you should run ...
+> jlpm run build
+
+# To inspect the changes, do ...
+> jupyter lab --no-browser
+
+# For "hot-reload"
+# (sometimes the changes is not immediately visible)
+# run the following in a new terminal
+> jlpm run watch
+
+# To test the extension application, do the following ...
+# https://jupyterlab.readthedocs.io/en/stable/extension/extension_tutorial.html
+> pip install build
+> python -m build
+> conda create -n test
+> conda activate test
+> conda install -c conda-forge jupyterlab
+> pip install <project_name>/dist/<project_name>-<version>-py3-none-any.whl
+
+# Check in browser
+> jupyter lab

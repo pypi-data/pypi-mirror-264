@@ -1,0 +1,17 @@
+/* iBeamer abstract */
+
+.abstract {
+    display: block;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.abstract::before {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    content: "Abstract";
+    font-weight: light;
+    font-style: italic;
+}

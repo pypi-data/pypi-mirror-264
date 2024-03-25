@@ -1,0 +1,47 @@
+/* "Ordinary" exercise */
+
+.exercie {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+}
+
+.exercise::before {
+    content: "Exercise. ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* iBeamer exercise */
+
+.beamer-exercise {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-style: normal;
+    color: black;
+    border-radius: 10px;
+    background-color: #cfebc8;
+    box-shadow: 5px 10px 8px #888888;
+
+    ul li::before {
+        background-color: rgb(49, 138, 27);
+        border-radius: 50%;
+        content: "";
+        display: inline-block;
+        margin-right: 5px;
+        height: 10px;
+        width: 10px;
+    }
+}
+
+.beamer-exercise::before {
+    content: "Exercise";
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 5px 5px 15px;
+    background-color: rgb(49, 138, 27);
+}

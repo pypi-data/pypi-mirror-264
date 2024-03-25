@@ -1,0 +1,57 @@
+/* "Ordinary" example */
+
+.example {
+    margin: 12px 0;
+    font-style: normal;
+    text-align: justify;
+}
+
+.example::before {
+    content: "Example. ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.example::after {
+    font-style: normal;
+    float: right;
+    content: "\25FB";
+    width: 1em;
+    height: 1em;
+    bottom: 0;
+    right: 0;
+}
+
+/* iBeamer example */
+
+.beamer-example {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-style: normal;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(226, 255, 218);
+    box-shadow: 5px 10px 8px #888888;
+
+    ul li::before {
+        background-color: rgb(15, 82, 15);
+        border-radius: 50%;
+        content: "";
+        display: inline-block;
+        margin-right: 5px;
+        height: 10px;
+        width: 10px;
+    }
+}
+
+.beamer-example::before {
+    content: "Examples";
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 5px 5px 15px;
+    background-color: rgb(15, 82, 15);
+}

@@ -1,0 +1,121 @@
+Initial Goal/Motive for the Project:
++++++++++++++++++++++++++++++++++++
+
+To properly capture/document the front-end workflow/development process of a Jupyter Lab/Notebook Extension
+& explore the main features that Jupyter Lab/Notebooks has to offer for scientific computing,
+especially/specifically for use in computational- & symbolic algebra.
+
+This project has since, and will continue to grow!
+
+	We ask of the audience:
+
+		1) interest
+
+		2) & patience
+
+			throughout the exploration of this demo.
+
+So the ultimate goal of "community-based development" is to get more people involved in creating
+their own version of a project that links up to others' projects, with insightful
+additions/contributions - remember the *rule* "you can't do everything by yourself"
+(but it's good if you try and allow others to help you). A community-based approach to developing such
+a large scientific software-based project, such as Project Jupyter itself, aims to spark an ecosystem of
+computer- & science-related work through the contributions of "ordinary people"
+
+	1) A minimal requirement (to get your hands dirty) is an ***interest*** in computing and/or science/mathematics!
+
+Publishing a Jupyter Extensions is relatively simple and the Jupypter Project encourages that more people (developers,
+scientists, "newbies" & other creative people, etc ...) should be getting involved into creating their own extensions/user-experience,
+to enhance the features of an already-existing larger scientifically rigorous computational tool for interactive computing.
+
+The Jupyter Project offers a simple & elegant tool/platform to expressing yourself in a computationally creative way.
+"Developers" (who invest most of their time in scientific computing & sym algebra) are most often interested/concerned with
+exploring aspects specifically relating to mathematical symbolism & their semantic meaning/interpretation/use-cases.
+
+So, that being said, here's an extremely bare-bone demo introduction of the project
+& it's intended focus for addressing some critical aspects of what web-based "graphics-rendering"
+is useful for in terms of symbolic algebra in the Jupyter Lab/Notebooks ecosystem.
+
+To get you starter, here's the ***must-watch***/go-to/canonical/pro-type version of an
+	introductory tutorial of the simplest-possible extension project by one of the
+	core ipython Jupyter Notebook software engineers, Jeremy Tuloup:
+
+			https://www.youtube.com/watch?v=mqotG1MkHa4
+
+		and his github profile:
+		
+			https://github.com/jtpio
+
+	Here's a 30 min conference talk conducted by Jeremy Tuloup, himself:
+
+		https://www.youtube.com/watch?v=3pdrzhny9Lc
+		
+
+Here's a conference which is great for obtaining a solid background on certain technologies used to develop the Jupyter Project,
+	especially some good insights into what the ***"cookiecutter"*** is and how to use it, specifically for creating
+	Jupyter Lab/Notebook Extensions "the easy way"
+	(i.e. building upon templated code which auto-integrates into Jupyter Lab/Notebooks, effortlessly):
+	
+		https://www.youtube.com/watch?v=9_-siU-_XoI
+	
+	There's already a ton of getting-started tutorials out there, so we won't bore you with that ...
+	
+	So, go ahead and get your environment set up the right ...
+		
+
+Future Endeavours/Goals for ***this*** Project:
+
+	1) To absorb/"collect" $\LaTeX$-defined user-input and process it in a similar/analogous
+           way that a "simple" console-based computer-algebra system would.
+
+		Essentially, the idea is that the computational machine digests $\LaTeX$-written work in stead of console-style symbolic expressions.
+
+		There are multiple benefits for this approach:
+
+		* Allow mathematicians and other scientists (in general,
+		  i.e. those who wish not to get to deeply invested with software for mathematics)
+		  to contribute to the Jupyter Lab/Notebook Lambda project, in terms of writing
+	          $\LaTeX$-formatted expressions (and continue doing so, as they normally would).
+		  These expressions are then to be internalized by the computer-algebra system,
+		  in stead of the conventional console-based input for manipulating symbols.
+
+		* Mathematical writing becomes standardized for computing, symbols become easier to manipulate and render,
+		  since the project is based off of MathJax (browser-based symbolic rendering) and well-integrated with mime-type
+		  doc specifications (i.e. multimedia encoding standards for the web).
+
+		  The krux is that many people are already using $\LaTeX$ as the standard, however they don't necessarily want to translate their
+		  work to "console-format" for it to be used or to perform computer-based algebra techniques. A large community of data-scientists
+		  have long been on the hype about Jupyter Lab/Notebooks, but it can also be used in a multitude of other interesting ways, for example, 
+		  this project (see link below) which focuses on application in academia, where Jupyter Lab/Notebooks are used as a tool for
+		  examination/conducting assessments:
+
+			https://www.youtube.com/watch?v=ev2bUm7Z77M
+
+		  	This is great because if a student had taken their test in a Jupyter Notebook Environment,
+			all of the relevant data is already contained in the same environment in which the examiner
+			may perform analytics & data processing.
+			
+		  Perhaps, one day, such an approach could enable us to "extract" mathematics from already-written documents,
+		  sort-of like scraping mathematics journals - I mean, the possibilities are (probably) endless ...
+
+		* Another benefit gained from using $\LaTeX$-define mathematics is that more people could contribute in simple ways,
+		  i.e. providing formulae and expressions from their fields of research, which can then be internalized by the
+		  sym engine for application, etc ...
+
+	2) To encode the algebraic properties of modal logic into the computational device.
+	   
+		To build a more capable system of mathematical reasoning/proof-automata for complex
+		computational mathematics would require that such a modal logic computational
+		engine is already in place.
+
+Current Features:
+	
+	Write mathematical theorems, lemmas corollaries, proofs, examples, remarks, observations, etc ...
+	in a Jupyter Lab/Notebooks environment using plain html and MathJax web $\LaTeX$ (ibeamer).
+
+	Mathematical content written in this Beamer-style format is presentation-ready and thus already well-formatted
+	for processing into the sym engine which, for the most part, will encompass the larger part of the project.
+
+	.
+	.
+	.

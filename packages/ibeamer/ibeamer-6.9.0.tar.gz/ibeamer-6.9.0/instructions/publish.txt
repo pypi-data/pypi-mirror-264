@@ -1,0 +1,107 @@
+# Publishing a Jupyter Lab Project
+
+# read the RELEASE.md file in the cookiecutter project template thoroughly
+
+# Create a pypi.org account
+# Enable two-factor-authentication
+# Be sure to download the access tokens file from during this step
+# You will not be able to continue using this account for
+# publishing projects to pypi if you don't enter one of the
+# token keys from the downloaded file upon finalizing your
+# pypi.org account
+
+# Create a .pypirc file in your Linux $HOME prefix/directory, like so ...
+> nano $HOME/.pypirc
+# Enter the following information into the .pypirc file ...
+
+	[pypi]
+	  username = __token__
+	  password = <your-pypi-access-token>
+
+# This allow you authorization for uploading your project to pypi from the command line
+
+# To keep track of project verionsing
+# install the following hatch versioning tool ...
+> pip install hatch
+> hatch version <major | minor | patch | pre-release | build>
+# see https://github.com/agoose77/hatch-nodejs-version#semver
+# This will auto-increment the version number in the package.json file
+
+# Enter the following terminal commands
+> pip install twine
+> jlpm clean:all
+
+# build the project, if you have not
+# already done so, during test phase
+> python -m build
+# This step obviously requires that you have `build` installed
+> pip install build
+
+# Some sound advice about publishing a Jupyter Lab extension project on pypi.org
+https://stackoverflow.com/questions/71394226/jupyter-extension-publish
+
+# The last terminal command above creates a new folder
+# /dist inside the main directory
+# change directories to that folder
+> cd dist
+
+# list the files in this directory
+> ls
+
+# upload the project (.whl) to pypi
+# this will not include the source code
+> twine upload project_file_name.whl
+
+# alternatively, to include the entire project,
+# use the below command instead ...
+# twine upload dist/*
+
+# The extension is now available and can be installed
+# from jupyter lab extensions tab by searching the project name
+# or by installing it via the pip command in the terminal
+
+# To upload Jupyter Lab Extension porject to npm (node package manager)
+# First create/register a npmjs.com account
+# You may also have to set up authentication for your account.
+
+# npm does not allow projects names to start/include with a capital letter
+# npm does not allow projects with the same name to be uploaded in less than 24 hours
+
+# To upload the project, run the following command
+# in a terminal from inside your project folder:
+> npm login
+# If no browser is available as in my case, use --auth-type legacy instead, like so ...
+> npm login --auth-type legacy
+
+# Enter your username and credentials
+# This will create a .npmrc file containing your auth tokens
+
+# Then publish the project, like so ...
+> npm publish --access public
+
+# Create a github repository (assuming you already have an account)
+# Set up a personal access token:
+# Click on your profile picture > settings > Developer settings > Personal access tokens > Tokens (classic) > Generate new token
+# Select the appropriate  scopes for your token and date range
+# Save the token somewhere for later use when uploading to the github repository
+# Create a new repository
+# Update the information in the package.json and README.md files
+# mainly to replace `github_username` with your github username
+> git config --global user.email "your_email@example.com"
+> git config --global user.name "your_git_username"
+
+# If you have already configured git for your project,
+# do a git clean, like so ...
+> git clean -dfX
+
+# Run the following commands in a terminal from the Project directory
+> git init
+> git add .
+> git commit "Provide a short commit message here ..."
+> git branch -M main
+> git remote add origin https://github.com/<your-github-username>/<your-repository-name>.git
+> git push -u origin main
+# This will prompt you for a username and password
+# Enter your github username
+# Enter the authentication token generated in your github profile - It's a long string, so be careful
+# (Alternatively, you could set up SSH key encryption)

@@ -1,0 +1,16 @@
+/* iBeamer Logo Styling */
+
+.jp-ilambda-Anchor
+{
+    display: flex;
+    justify-content: flex;
+    text-align: center;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+
+.jp-ilambda-Anchor img
+{
+    height: 20px;
+    width: 20px;
+}

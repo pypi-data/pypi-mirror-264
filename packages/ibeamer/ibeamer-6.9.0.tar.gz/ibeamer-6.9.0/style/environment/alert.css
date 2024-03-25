@@ -1,0 +1,46 @@
+/* "Ordinary" alert */
+
+.alert {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+}
+
+.alert::before {
+    content: "Alert. ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* iBeamer alert */
+
+.beamer-alert {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-style: normal;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(252, 218, 218);
+    box-shadow: 5px 10px 8px #888888;
+
+    ul li::before {
+        background-color: rgb(148, 19, 19);
+        border-radius: 50%;
+        content: "";
+        display: inline-block;
+        margin-right: 5px;
+        height: 10px;
+        width: 10px;
+    }
+}
+
+.beamer-alert span {
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 5px 5px 15px;
+    background-color: rgb(148, 19, 19);
+}

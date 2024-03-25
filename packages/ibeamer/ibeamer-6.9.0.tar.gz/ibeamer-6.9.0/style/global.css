@@ -1,0 +1,66 @@
+/* "Ordinary" environments */
+
+.alert,
+.corollary,
+.definition,
+.example,
+.exercise,
+.lemma,
+.proof,
+.remark,
+.theorem
+{
+    font-family: "LATEX";
+
+    & p {
+        display: inline;
+    }
+    
+    & ol {
+        margin-left: 10px !important;
+        margin-top: 10px;
+    }
+
+    & ul {
+        margin-left: 10px !important;
+        margin-top: 10px;
+    }
+}
+
+/* iBeamer environments */
+
+.beamer-alert,
+.beamer-corollary,
+.beamer-definition,
+.beamer-example,
+.beamer-exercise,
+.beamer-lemma,
+.beamer-proof,
+.beamer-remark,
+.beamer-theorem
+{
+    font-family: "LATEX";
+
+    & p {
+        padding: 10px 15px 10px 15px;
+    }
+
+    & ol {
+        margin-left: 10px !important;
+        margin-top: -15px;
+    }
+
+    & ul {
+        list-style: none;
+        line-height: 1.85em;
+        margin-left: 10px !important;
+        margin-top: -15px;
+    }
+}
+
+/* .beamer-theorem ol, ul {
+    padding-left: 100px;
+    margin-left: 0px;
+} */
+
+/* Frame */
