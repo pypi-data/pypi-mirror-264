@@ -1,0 +1,9 @@
+mcnets/__deprecated.py,sha256=BLkeXjxVjCos9puvHmEQcCIMlOvB3wmDaDVcpwR4wZw,129295
+mcnets/__init__.py,sha256=BrxmYLOb6ADWLIK9hql3U9Fzuipj1_6ExDqZdCjITIo,25
+mcnets/_experimental.py,sha256=ISvOQPJklBnowI228gg2J4rTC8KOXIZ757F6tEcgy6w,31992
+mcnets/activations.py,sha256=bBGcTP2GyLbfiYHhvuQM8AaSlG8wKl9wFfwQQGaDKg0,2247
+mcnets/main.py,sha256=YDaPYy0cXVFVpx2pUahlUfoRlY9uFc5V1E_wjVaaUpo,42967
+mcnets-2.0.5.dist-info/METADATA,sha256=74Sd1D8m6Y3toiO05LYaNF453Uh4GWcpw1leQabB0Vw,2068
+mcnets-2.0.5.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+mcnets-2.0.5.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+mcnets-2.0.5.dist-info/RECORD,,
