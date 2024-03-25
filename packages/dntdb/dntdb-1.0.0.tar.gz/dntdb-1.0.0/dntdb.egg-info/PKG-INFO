@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: dntdb
+Version: 1.0.0
+Summary: Search Engine
+Author: DNT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+├── dntdb
+│   ├── config
+│   │   ├── config.dev.yaml
+│   │   ├── __init__.py
+│   │   ├── loader.so
+│   │   └── __pycache__
+│   │       ├── __init__.py
+│   │       ├── loader.cpython-38.pyc
+│   │       └── loader.cpython-39.pyc
+│   ├── env.json
+│   ├── __init__.so
+│   ├── logs
+│   │   ├── __init__.py
+│   │   ├── logging
+│   │   │   ├── __init__.py
+│   │   │   └── MySearch.log
+│   │   ├── log_handler.so
+│   │   └── __pycache__
+│   │       ├── __init__.py
+│   │       ├── log_handler.cpython-38.pyc
+│   │       └── log_handler.cpython-39.pyc
+│   ├── main.so
+│   ├── mysearch.so
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── __init__.py
+│   │   ├── mysearch.cpython-38.pyc
+│   │   └── search.cpython-38.pyc
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── setup.py
+│   ├── test.so
+│   └── utils
+│       ├── checker.so
+│       ├── faiss_db.so
+│       ├── helper.so
+│       ├── index_db.so
+│       ├── info_db.so
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── checker.cpython-38.pyc
+│       │   ├── faiss_db.cpython-38.pyc
+│       │   ├── helper.cpython-38.pyc
+│       │   ├── index_db.cpython-38.pyc
+│       │   ├── info_db.cpython-38.pyc
+│       │   ├── __init__.py
+│       │   └── redis_utils.cpython-38.pyc
+│       └── redis_utils.so
