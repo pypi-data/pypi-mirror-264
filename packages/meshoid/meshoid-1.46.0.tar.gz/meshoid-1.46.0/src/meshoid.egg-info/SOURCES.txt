@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+src/meshoid/Meshoid.py
+src/meshoid/__init__.py
+src/meshoid/derivatives.py
+src/meshoid/grid_deposition.py
+src/meshoid/kernel_density.py
+src/meshoid.egg-info/PKG-INFO
+src/meshoid.egg-info/SOURCES.txt
+src/meshoid.egg-info/dependency_links.txt
+src/meshoid.egg-info/not-zip-safe
+src/meshoid.egg-info/top_level.txt
+src/meshoid/radiation/__init__.py
+src/meshoid/radiation/hensley_draine_2022_astrodust_opacity.dat
+src/meshoid/radiation/modified_blackbody.py
+src/meshoid/radiation/radtransfer.py
