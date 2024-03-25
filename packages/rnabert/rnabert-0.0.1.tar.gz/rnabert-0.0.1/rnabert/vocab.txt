@@ -1,0 +1,6 @@
+<pad>
+<mask>
+A
+U
+G
+C

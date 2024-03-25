@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rnabert
+Version: 0.0.1
+Summary: RNA BERT
+Author-email: Zhiyuan Chen <this@zyc.ai>
+Maintainer-email: Zhiyuan Chen <this@zyc.ai>
+Keywords: deep-learning,machine-learning,RNA
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
