@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bprofanity/__init__.py
+bprofanity/bprofanity.py
+bprofanity.egg-info/PKG-INFO
+bprofanity.egg-info/SOURCES.txt
+bprofanity.egg-info/dependency_links.txt
+bprofanity.egg-info/top_level.txt
+bprofanity/data/wordlist.enc
