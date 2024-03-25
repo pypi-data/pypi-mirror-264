@@ -1,0 +1,15 @@
+vilha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vilha/client.py,sha256=k-RXep85YuI6bz8vD4PNxR4ufglrLSLQdamaIvOwqVw,3409
+vilha/connection.py,sha256=MB6sERD-0687Z_Eg09v1V5RFc3G3C13-WCsmfbfMExU,1914
+vilha/datastructures.py,sha256=KI2tO_6OURfDM0dxpZIivsJYD3uLMoqMnNvaNgqA26s,894
+vilha/main.py,sha256=sxBqjNCBhYm8J_4Vg3argDI7giNVsfLw4WdpkAd8OHs,9565
+vilha/protocol.py,sha256=O2_qFdEHgXNS_WY4HDlIg4E1Pu7en-81hDYZXaWCL80,2518
+vilha/server.py,sha256=VFHPDKFQjX1Wof61PUhsouXQJ9ujyh3-8djiX38Ppzg,1751
+vilha/starlette/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vilha/starlette/applications.py,sha256=q6jrnVvXZW3qW06IxHJWsZRHR6Y1lND7vFFlgnz_Wns,7780
+vilha/transport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vilha/transport/aiormq.py,sha256=g9s0S6ueZMzyFgpH4SP-l3x2RuUR7erh8crUDTMpgOk,4189
+vilha/types.py,sha256=2_5KL374sSxt0DBSgiJQRRlsVqX4Sbiz26UMee7jqaU,77
+vilha-0.0.1.dist-info/METADATA,sha256=5QVi3vZe13viEecDPDNNG1tv5J4g0mGCu2nhcD-WzbU,1069
+vilha-0.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+vilha-0.0.1.dist-info/RECORD,,
