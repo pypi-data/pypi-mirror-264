@@ -1,0 +1,2 @@
+[console_scripts]
+used-by = used_by.main:main
