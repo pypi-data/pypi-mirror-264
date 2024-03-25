@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: iotadb
+Version: 0.0.1
+Summary: An easy-to-use, lightweight local embedding database.
+Home-page: https://github.com/timothyckl/iota
+Author: timothyckl
+Author-email: timothy.ckl@outlook.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: sentence-transformers >=2.5.1
+Provides-Extra: dev
+Requires-Dist: pytest >=8.1.1 ; extra == 'dev'
+Requires-Dist: twine >=5.0.0 ; extra == 'dev'
+
+# IotaDB
+
+## Installation
+
+```
+pip install iotadb
+```
+
+## Usage
+
+```
+# wawawawaw
+```
