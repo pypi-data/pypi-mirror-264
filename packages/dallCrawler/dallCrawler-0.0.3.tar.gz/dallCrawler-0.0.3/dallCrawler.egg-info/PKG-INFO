@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dallCrawler
+Version: 0.0.3
+Summary: Crawler for crawling sites
+Author: Mostafa Amiri
+Author-email: <mostafa.amiri.62@gmail.com>
+Keywords: python,crawler,dall company
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: requests
+
+Dall company crawler
