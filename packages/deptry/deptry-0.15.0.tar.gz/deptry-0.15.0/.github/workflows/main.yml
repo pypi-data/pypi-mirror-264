@@ -1,0 +1,127 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up the environment
+        uses: ./.github/actions/setup-env
+        with:
+          python-version: '3.11'
+          target: 'x86_64'
+          python-target: 'x64'
+
+      - name: Run pre-commit
+        run: |
+          rustup component add rustfmt
+          pdm run pre-commit run -a --show-diff-on-failure
+
+      - name: Inspect dependencies with deptry
+        run: |
+          pdm run deptry python
+
+  linux:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        target: [x86_64, aarch64]
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up the environment
+        uses: ./.github/actions/setup-env
+        with:
+          python-version: ${{ matrix.python-version }}
+          target: ${{ matrix.target }}
+          python-target: 'x64'
+
+      - name: Check typing
+        run: pdm run mypy
+
+      - name: Run unit tests
+        run: pdm run pytest tests/unit --cov --cov-config=pyproject.toml --cov-report=xml
+
+      - name: Run functional tests
+        run: pdm run pytest tests/functional -n auto --dist loadgroup
+
+      - name: Upload coverage reports to Codecov with GitHub Action on Python 3.11 and x86_64
+        uses: codecov/codecov-action@v4
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        if: ${{ matrix.python-version == '3.11' && matrix.target == 'x86_64' }}
+
+  windows:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        target: [x64]
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up the environment
+        uses: ./.github/actions/setup-env
+        with:
+          python-version: ${{ matrix.python-version }}
+          target: ${{ matrix.target }}
+          python-target: ${{ matrix.target }}
+
+      - name: Run unit tests
+        run: pdm run pytest tests/unit --cov --cov-config=pyproject.toml --cov-report=xml
+
+      - name: Run functional tests
+        run: pdm run pytest tests/functional -n auto --dist loadgroup
+
+  macos:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        target: [x86_64, aarch64]
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up the environment
+        uses: ./.github/actions/setup-env
+        with:
+          python-version: ${{ matrix.python-version }}
+          target: ${{ matrix.target }}
+          python-target: ${{ matrix.target == 'aarch64' && 'arm64' || 'x64' }}
+
+      - name: Run unit tests
+        run: pdm run pytest tests/unit --cov --cov-config=pyproject.toml --cov-report=xml
+
+      - name: Run functional tests
+        run: pdm run pytest tests/functional -n auto --dist loadgroup
+
+  check-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up the environment
+        uses: ./.github/actions/setup-env
+        with:
+          python-version: '3.11'
+          target: 'x86_64'
+
+      - name: Check if documentation can be built
+        run: pdm run mkdocs build -s
