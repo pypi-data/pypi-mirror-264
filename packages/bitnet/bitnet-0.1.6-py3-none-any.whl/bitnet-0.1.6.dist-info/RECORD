@@ -1,0 +1,14 @@
+bitnet/__init__.py,sha256=U_VedQCiOEeAJw8_xSpIkfaQx_GZirjadotdHY_zgW8,555
+bitnet/at.py,sha256=GOQ6jv0Mz4ZMinUU0H6XgHHSpG4--oAZfhzDD8r68nQ,3465
+bitnet/bit_attention.py,sha256=IwDzP69RvofoTy-IGlEhkJ8Ey6vxiCkfVAdT-urkV1Q,12739
+bitnet/bit_ffn.py,sha256=cE7Mqq2UXekDa6iAS-FuHTRFCiKgn-zav_iSyaDFupA,4077
+bitnet/bit_linear.py,sha256=DYG-jgkMVc0obV80wS1JL7crgKJcR3CHjRnEDCosl8s,1507
+bitnet/bit_llama.py,sha256=i0rJ9i82AmjVQpNKdZQigxn5DjJ3ymVILNJmrXZgoAM,17973
+bitnet/bit_transformer.py,sha256=m2nVxfNHDIVAI5PEbOEqOqH_pf_xK8VKAUl7QtsRt9U,3909
+bitnet/bitlinear.py,sha256=k64MTJvkE3bsiW4X4RMHtSEASJfWgRlsnkJUbHr9yiE,1504
+bitnet/inference.py,sha256=z6hTI_HZWsEyKaWev8wWE6yST7xkLWvbMCN0RlCTNbA,1980
+bitnet/replace_hf.py,sha256=TkYBsiXKg3eUzsUebNAUOvrDHLeQUBbUpgI24VJfa5k,1708
+bitnet-0.1.6.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+bitnet-0.1.6.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+bitnet-0.1.6.dist-info/METADATA,sha256=DnMDtmMDPq5GTy9YtViIsJ3YDKQXE1giMKc8N5xfxvk,9121
+bitnet-0.1.6.dist-info/RECORD,,
