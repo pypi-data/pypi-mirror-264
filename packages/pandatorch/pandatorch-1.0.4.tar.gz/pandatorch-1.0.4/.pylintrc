@@ -1,0 +1,23 @@
+[MASTER]
+
+# Other configurations...
+
+[REPORTS]
+
+# Exit with a non-zero status code only if there are errors or warnings
+exit=yes
+
+[MESSAGES CONTROL]
+
+# Define the score threshold for your project
+# Adjust this value as needed
+max-line-length=120
+disable=invalid-name,trailing-whitespace
+
+[DESIGN]
+
+# Other configurations...
+
+[CODE_QUALITY]
+
+# Other configurations...

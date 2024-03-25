@@ -1,0 +1,6 @@
+numpy==1.26.4
+pandas==1.4.1
+pandoc==2.3
+pytest==5.4.3
+pylint==3.1.0
+scikit-learn==1.4.1.post1
