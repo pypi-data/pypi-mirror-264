@@ -1,0 +1,11 @@
+lupa-2.1.dist-info/RECORD,,
+lupa-2.1.dist-info/WHEEL,sha256=SYfpFx3TzWPEkZ7A7nYlNL1fdIShD9QMtuHDoKjAin8,115
+lupa-2.1.dist-info/top_level.txt,sha256=zBjq_OEwVlKBUT25L2ENcMO-9XdwVQSN7X6VHyH7Pcg,5
+lupa-2.1.dist-info/LICENSE.txt,sha256=lXr-SRPfxGn9YFQdhHpYHFvd1roMy3I5DteMdYN3aKE,2231
+lupa-2.1.dist-info/METADATA,sha256=2120Puzh9A56YYl3YksDUC9wnAqhahLVb6kEoBtilPw,57575
+lupa/lua51.cpython-312-darwin.so,sha256=ew920u8CDcbmzjc_TzirE17dEoOttonLZXBW-SDEjQA,1316968
+lupa/version.py,sha256=-yjKj08H9NSe_5N5qBYWmC9d9NK1uYPTPT5FuTBHiZg,20
+lupa/lua53.cpython-312-darwin.so,sha256=Q3kdvuWakOJm637uvIxaPr4LD49xrbbHmwyNmdITy5s,1359480
+lupa/__init__.py,sha256=c99ILOqbgXcktoS1YsqNLg9juNuAJZ_Yxm4VGEANkqo,3001
+lupa/lua52.cpython-312-darwin.so,sha256=elttFl_5ulGzG4sZCuVkey0CHFNFE2Rhs75h0NM0lW4,1323624
+lupa/lua54.cpython-312-darwin.so,sha256=P8aW50-JIty-moWmGt58x0VTa4tGopCJJm0pErhRafc,1483352
