@@ -1,0 +1,2 @@
+[console_scripts]
+cuckoo = cuckoo.tracker:cli
