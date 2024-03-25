@@ -1,0 +1,30 @@
+[project]
+name = "matan"
+description = "Material analysis package to plot or extract properties like tensile modulus etc."
+readme = "README.md"
+version = "0.1.9"
+authors = [
+    { name = "Igor", email = "igor@its.rel.pl" }
+]
+dependencies = [
+	     "pandas",
+]
+requires-python=">=3.6"
+classifiers=[
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Topic :: Scientific/Engineering",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Documentation = "https://matan.codeberg.page/"
+Source = "https://codeberg.org/MatAn/matan"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.sdist]
+include = ["matan/"]

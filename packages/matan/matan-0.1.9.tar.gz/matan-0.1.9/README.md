@@ -1,0 +1,73 @@
+**This package is still under development. Be aware of often updates, versions
+below 0.2 are pre-alpha, and can be changed without any warning, or without any
+backward compatibility! **
+
+# MaTan
+
+<table align="center"><tr><td align="center" width="9999">
+<img src="https://codeberg.org/MatAn/matan/raw/commit/3bbee8dcd0260afa1cf357d4ccb578b611379550/docs/docs/logo.png" align="center" width="400" alt="Project icon">
+</table>
+
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fmatan.codeberg.page)
+[![Build Status](https://ci.codeberg.org/api/badges/12476/status.svg)](https://ci.codeberg.org/repos/12476)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![PyPI - License](https://img.shields.io/pypi/l/matan)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/MatAn)
+![PyPI - Version](https://img.shields.io/pypi/v/MatAn)
+![Gitea Forks](https://img.shields.io/gitea/forks/matan/matan?gitea_url=https%3A%2F%2Fcodeberg.org&style=flat)
+![Gitea Stars](https://img.shields.io/gitea/stars/matan/matan?gitea_url=https%3A%2F%2Fcodeberg.org&style=flat)
+
+
+Shortcut comes from **Mat**erial **An**alysis - ultimately is should contains
+modules allowing user to calculate metals and polymers
+properties from tensile, HDT (polymers) and DSC tests, as well as the
+others. There are few similar packages in PyPI, but none of them I found good to
+me, so I wrote new one.
+
+For now it includes:
+- ISO:527-1 (polymers tensile test)
+- File manager class
+
+MatAn should have:
+- [x] `sample` class - the thermomechanical test manager [0.1.6v]
+- [x] `files_manager` to find and manage your data files [could be better, 0.1.9v]
+- [x] `tensile_test` object to manage the single tensile test [0.1.7v]
+- [ ] `tensile_tests` object to merge the strain-stress curves, as well as calculate mean parameter values, with the errors [0.1.10v]
+- [ ] Charpy's test manager
+ - [ ] DSC tests manager
+ - [ ] HDT test manager
+ - [ ] Rheological parameter manager
+- [ ] Thermal/chemical modification manager 
+ - [ ] Generate FEM material models for CAE software like ANSYS, CalculiX or OpenFOAM
+ - [ ] Generate matplotlib's barplots plots with just one command,
+ - [ ] use [Polars](https://pola.rs/) to enhance the efficiency?
+ 
+For now tensile test are partially implemented, in 0.1.9v `tensile_tests` objects cannot parse the results to obtain mean values of all the tests, as well as the errors, although this should be ready in 0.1.10v.
+
+
+
+_**[Documentation](https://matan.codeberg.page)**_
+
+# Licensing 
+
+All the code is licensed under GPLv3+, the assets are licensed under CC4.0-BY-SA
+
+# Abstract
+
+Nowadays, Python is one of the most popular programming languages, even in
+non-informatics fields like mechanical engineering, due to its simplicity, and
+computer analysis solvers using FEM methods are part of almost all components,
+albeit access to material data is sometimes hard due to inadequate data in the
+datasheets, problems with calculations, inconsistent information, etc. To
+overcome this problem, the Python package was created, which allows to calculate
+the stress, strains, tensile modulus, and other properties from force and
+elongation data from a machine. For now, it includes only polymer tests
+according to the ISO-527-1 standard, but in the future, other standards should
+be included.
+
+Moreover, the package would need a graphical user interface, which could make it
+even simpler to use and, more importantly, allow users to upload their obtained
+results into OpenAccess databases and export plastic strains, tensile modulus,
+and other properties needed to perform FEM and other numerical analysis. That
+could make FEM methods even more accessible, which would lead to a decrease in
+the use of unnecessary materials and, due to this, less CO2 pollution.
