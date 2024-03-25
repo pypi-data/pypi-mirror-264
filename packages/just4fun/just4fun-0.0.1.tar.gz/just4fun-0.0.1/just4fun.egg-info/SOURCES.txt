@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+just4fun/__init__.py
+just4fun/fun.py
+just4fun.egg-info/PKG-INFO
+just4fun.egg-info/SOURCES.txt
+just4fun.egg-info/dependency_links.txt
+just4fun.egg-info/entry_points.txt
+just4fun.egg-info/requires.txt
+just4fun.egg-info/top_level.txt
+tests/test_cases.py
