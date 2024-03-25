@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: osscs
+Version: 0.0.1
+Summary: Open-source crypto-secure communication system
+Author-email: ImCocos <codimcocos@gmail.com>
+Project-URL: Homepage, https://github.com/imcocos/ritatop
+Project-URL: Issues, https://github.com/imcocos/ritatop/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography>=42.0.3
+
+# ritatop
+
+```
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+      _ _        _              
+ _ __(_) |_ __ _| |_ ___  _ __  
+| '__| | __/ _` | __/ _ \| '_ \ 
+| |  | | || (_| | || (_) | |_) |
+|_|  |_|\__\__,_|\__\___/| .__/ 
+                         |_|    
+-----END ENCRYPTED PRIVATE KEY-------
+```
+
+## Description
+
+This is a small project about p2p connections, sockets, crypthography.
+
+## Advantages
+
+ - open source
+ - crypto secure
+ - fully decentralized
+ - p2p
+
+## Work
+
+ - sockets
+ - peer to peer connections
+ - rsa keys
+ - 1 to all messaging
+
+## Installing
+
+```bash
+pip install --index-url https://test.pypi.org/simple/ \
+      --extra-index-url https://pypi.org/simple/ \
+      osscs
+python -m configure
+```
+
+### Running
+
+ - Fill the ~/.config/osscs/config.json
+ - add few ips to ~/.config/osscs/data/ips.txt(example: 1.1.1.1:12012)
+ - `python -m osscs.backend.server` (to recieve messages)
+ - `python -m osscs.backend.client` (to send messages)
