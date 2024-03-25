@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyss/main.py
+pyss.egg-info/PKG-INFO
+pyss.egg-info/SOURCES.txt
+pyss.egg-info/dependency_links.txt
+pyss.egg-info/entry_points.txt
+pyss.egg-info/top_level.txt
