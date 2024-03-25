@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: prusalinkapi
+Version: 0.0.5
+Summary: Library for interacting with PrusaLink Printers
+Home-page: https://github.com/petauristini/prusalinkapi
+Author: petauristini
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# prusalink
+Python library for interacting with the PrusaLink API
