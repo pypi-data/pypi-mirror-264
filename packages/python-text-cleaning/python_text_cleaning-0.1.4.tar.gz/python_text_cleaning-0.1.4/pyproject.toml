@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "python-text-cleaning"
+version = "0.1.4"
+description = "mostly mapping characters"
+authors = ["Tilo Himmelsbach <dertilo@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/dertilo/python-text-cleaning"
+
+packages = [{ include = "python_text_cleaning" }]
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beartype = "^0" # blindly trust beartype
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+
+[tool.poetry.group.dev.dependencies]
+python-linters = { version = "^0.1.1"}
+
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
