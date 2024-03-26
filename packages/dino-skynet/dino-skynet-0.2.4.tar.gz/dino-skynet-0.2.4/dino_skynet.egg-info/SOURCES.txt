@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+dino_skynet.egg-info/PKG-INFO
+dino_skynet.egg-info/SOURCES.txt
+dino_skynet.egg-info/dependency_links.txt
+dino_skynet.egg-info/requires.txt
+dino_skynet.egg-info/top_level.txt
+dinoskynet/__init__.py
+dinoskynet/__main__.py
+dinoskynet/version.py
+dinoskynet/autonomous_agent/__init__.py
+dinoskynet/autonomous_agent/autonomous_agent.py
