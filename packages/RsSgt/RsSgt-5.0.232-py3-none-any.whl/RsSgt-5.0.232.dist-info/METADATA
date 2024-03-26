@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: RsSgt
+Version: 5.0.232
+Summary: SGT100A SIGMA Vector Signal Generator Remote-control module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: PyVisa (>=1.11.3)
+
+==================================
+ RsSgt
+==================================
+
+.. image:: https://img.shields.io/pypi/v/RsSgt.svg
+   :target: https://pypi.org/project/ RsSgt/
+
+.. image:: https://readthedocs.org/projects/sphinx/badge/?version=master
+   :target: https://RsSgt.readthedocs.io/
+
+.. image:: https://img.shields.io/pypi/l/RsSgt.svg
+   :target: https://pypi.python.org/pypi/RsSgt/
+
+.. image:: https://img.shields.io/pypi/pyversions/pybadges.svg
+   :target: https://img.shields.io/pypi/pyversions/pybadges.svg
+
+.. image:: https://img.shields.io/pypi/dm/RsSgt.svg
+   :target: https://pypi.python.org/pypi/RsSgt/
+
+Rohde & Schwarz SGT100A SIGMA Vector Signal Generator RsSgt instrument driver.
+
+Basic Hello-World code:
+
+.. code-block:: python
+
+    from RsSgt import *
+
+    instr = RsSgt('TCPIP::192.168.2.101::hislip0')
+    idn = instr.query('*IDN?')
+    print('Hello, I am: ' + idn)
+
+Supported instruments: SGT100A
+
+The package is hosted here: https://pypi.org/project/RsSgt/
+
+Documentation: https://RsSgt.readthedocs.io/
+
+Examples: https://github.com/Rohde-Schwarz/Examples/tree/main/SignalGenerators/Python/RsSgt_ScpiPackage
+
+
+Version history:
+----------------
+
+	Latest release notes summary: Update for FW 5.0.232, removed legacy option XM Radio
+
+	Version 5.0.232
+		- Update for FW 5.0.232
+		- Removed legacy option XM Radio
+
+	Version 4.90.109
+		- Updated for FW 4.90
+		- Updated core to the newest template.
+		- Added DigitalModulation Interface.
+
+	Version 4.80.1.25
+		- Fixed bug in interfaces with the name 'base'
+
+	Version 4.80.1.22
+		- Fixed several misspelled arguments and command headers
+
+	Version 4.80.1.19
+		- Complete rework of the Repeated capabilities. Before, the driver used extensively the RepCaps Channel, Stream, Subframe, User, Group. Now, they have more fitting names, and also proper ranges and default values.
+		- All the repcaps ending with Null have ranges starting with 0. 0 is also their default value. For example, ChannelNull starts from 0, while Channel starts from 1. Since this is a breaking change, please make sure your code written in the previous version of the driver is compatible with this new version. This change was necessary in order to assure all the possible settings.
+
+	Version 4.80.0.16
+		- Added arb_files interface
+		- Default HwInterface repcap is 0 (empty command suffix)
+
+	Version 4.80.0.5
+		- First released version
+
