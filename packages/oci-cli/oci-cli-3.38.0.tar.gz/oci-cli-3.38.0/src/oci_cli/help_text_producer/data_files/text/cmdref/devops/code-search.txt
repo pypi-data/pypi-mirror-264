@@ -1,0 +1,14 @@
+code-search
+***********
+
+
+Description
+===========
+
+Results of a codesearch. Contains codesearch result items.
+
+
+Available Commands
+==================
+
+* list-results

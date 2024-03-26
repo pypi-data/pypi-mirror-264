@@ -1,0 +1,23 @@
+project-repository-settings
+***************************
+
+
+Description
+===========
+
+User configured settings for project resources and their child
+repositories.
+
+
+Available Commands
+==================
+
+* delete
+
+* get
+
+* update
+
+* update-project-repository-settings-repository-default-access-mode
+
+* update-project-repository-settings-repository-private-access-mode

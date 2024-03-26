@@ -1,0 +1,29 @@
+repository-private-access
+*************************
+
+
+Description
+===========
+
+Specifies the configuration to access private endpoint for
+Repositories.
+
+
+Available Commands
+==================
+
+* change-compartment
+
+* create
+
+* delete
+
+* get
+
+* list
+
+* list-private-projects
+
+* recover
+
+* update

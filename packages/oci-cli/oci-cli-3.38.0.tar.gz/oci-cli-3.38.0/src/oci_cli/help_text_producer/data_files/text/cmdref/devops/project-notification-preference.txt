@@ -1,0 +1,16 @@
+project-notification-preference
+*******************************
+
+
+Description
+===========
+
+The notification preference of the project.
+
+
+Available Commands
+==================
+
+* get
+
+* update

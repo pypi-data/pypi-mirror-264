@@ -1,0 +1,16 @@
+repository-notification-preference
+**********************************
+
+
+Description
+===========
+
+The notification preference of the repository.
+
+
+Available Commands
+==================
+
+* get
+
+* update

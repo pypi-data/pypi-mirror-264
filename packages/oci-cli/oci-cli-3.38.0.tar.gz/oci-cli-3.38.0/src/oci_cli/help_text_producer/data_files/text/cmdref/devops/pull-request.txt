@@ -1,0 +1,69 @@
+pull-request
+************
+
+
+Description
+===========
+
+Pull Request containing the diff between a review branch and a
+destination branch
+
+
+Available Commands
+==================
+
+* create
+
+* create-pull-request-attachment
+
+* create-pull-request-comment
+
+* decline
+
+* delete
+
+* delete-pull-request-attachment
+
+* delete-pull-request-comment
+
+* get
+
+* get-pull-request-attachment
+
+* get-pull-request-attachment-content
+
+* get-pull-request-change-summary-metrics
+
+* get-pull-request-comment
+
+* like-pull-request-comment
+
+* list-pull-request-activities
+
+* list-pull-request-attachments
+
+* list-pull-request-comments
+
+* list-pull-request-commits
+
+* list-pull-request-file-changes
+
+* merge
+
+* merge-pull-request-execute-merge-pull-request-details
+
+* merge-pull-request-validate-merge-pull-request-details
+
+* patch
+
+* reopen
+
+* review
+
+* unlike-pull-request-comment
+
+* unsubscribe
+
+* update
+
+* update-pull-request-comment
