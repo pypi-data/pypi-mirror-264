@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+onelake_shortcut_tools/__init__.py
+onelake_shortcut_tools/compatibility_checker.py
+onelake_shortcut_tools.egg-info/PKG-INFO
+onelake_shortcut_tools.egg-info/SOURCES.txt
+onelake_shortcut_tools.egg-info/dependency_links.txt
+onelake_shortcut_tools.egg-info/top_level.txt
