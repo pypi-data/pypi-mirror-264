@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: Zehner_Zufall_Graphs
+Version: 0.0.2
+Summary: A Package containing our Graph Files
+Project-URL: Homepage, https://github.com/JadonZufall/cs4310_project
+Author-email: Christian Zehner <ckm3320@wmich.edu>, Jadon Zufall <jadon.a.zufall@wmich.edu>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
