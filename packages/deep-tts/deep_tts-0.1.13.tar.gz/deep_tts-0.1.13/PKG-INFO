@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: deep-tts
+Version: 0.1.13
+Summary: 
+Author: xfeng
+Author-email: it.support@deepgrain.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: python-multipart (>=0.0.9,<0.0.10)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: uvicorn[standard] (>=0.29.0,<0.30.0)
+Description-Content-Type: text/markdown
+
+# DeepGrain.AI - TTS Service Client
+
+## Install
+
+`pip install deep-tts`
+
+## Usage
+
+```python
+import os
+
+from dotenv import load_dotenv
+
+from deep_tts import DeepTTS
+
+load_dotenv(".env")
+
+if __name__ == "__main__":
+    tts = DeepTTS(
+        access_token=os.getenv("ACCESS_TOKEN") or "",
+        provider="EU",
+    )
+
+    # 1. Prepare text or stream
+    # 2. Call create method: stream = True/False
+    # TODO stream text or file
+    demo_text = "用户端SDK的调用"
+    payload = {
+        "stream": True,
+        "voice_type": "aiyuan",
+    }
+    result = tts.create(text=demo_text, params=payload)
+    print(result)
+
+
+```
+
