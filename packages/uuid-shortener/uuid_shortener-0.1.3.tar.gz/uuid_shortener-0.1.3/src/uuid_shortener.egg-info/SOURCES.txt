@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/uuid_shortener/__init__.py
+src/uuid_shortener/uuid_shortener.py
+src/uuid_shortener.egg-info/PKG-INFO
+src/uuid_shortener.egg-info/SOURCES.txt
+src/uuid_shortener.egg-info/dependency_links.txt
+src/uuid_shortener.egg-info/top_level.txt

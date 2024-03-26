@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: uuid-shortener
+Version: 0.1.3
+Summary: A utility to shorten UUIDs using base62 encoding.
+Home-page: https://github.com/sammeowww/py_uuid_shortener
+Author: Sammeow Chan
+Author-email: 1010hk@gmail.com
+License: MIT
+Keywords: uuid shortener base62
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Python Library: uuid_shortener
+
+A simple utility to shorten UUIDs using base62 encoding.
+
+## Installation
+
+Install using pip:
+
+```bash
+pip install uuid_shortener
+```
+
+## Usage
+
+```python
+from uuid_shortener import UUIDShortener
+
+original_uuid = 'your-uuid-here'
+shortened = UUIDShortener.encode(original_uuid)
+print(f'Shortened UUID: {shortened}')
+
+restored = UUIDShortener.decode(shortened)
+print(f'Restored UUID: {restored}')
+```
+
+Replace your-uuid-here with an actual UUID to test.
+
+## Example
+
+```python
+a = str(uuid.uuid4())
+print(a)
+# >> 5798a735-d00f-4c1d-b86b-15603c6fda82
+
+b = UUIDShortener.encode(a)
+print(b)
+# >> 2Fi5TIkiHjpn5ZkCA9WOky
+
+print(UUIDShortener.decode(b))
+# >> 5798a735-d00f-4c1d-b86b-15603c6fda82
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.txt file for details.
+
