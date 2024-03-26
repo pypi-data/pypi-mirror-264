@@ -1,0 +1,38 @@
+include:
+  - template: Code-Quality.gitlab-ci.yml
+
+stages:
+  - test
+
+Coverage and pytest:
+  stage: test
+  parallel:
+    matrix:
+      - PY_VERSION: [ "3.10", "3.11", "3.12" ]
+  image: python:${PY_VERSION}
+  variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+    UV_CACHE_DIR: "$CI_PROJECT_DIR/.cache/uv"
+  before_script:
+    - pip install uv
+    - uv venv
+    - uv pip install -e . -U
+    - uv pip install pytest pytest-cov pytest-mock coverage
+    - source .venv/bin/activate
+  cache:
+    paths:
+      - .cache/pip
+      - .cache/uv
+      - .venv
+  script:
+    - coverage run -m pytest -v --junitxml=report.xml
+    - coverage report
+    - coverage xml
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    expire_in: 1 week
+    reports:
+      junit: report.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
