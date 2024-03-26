@@ -1,0 +1,14 @@
+remucs/__init__.py,sha256=Lt8vs3tnnaejSls_QalUocQDhcMz3MhOt4QIVT4pCtY,153
+remucs/__main__.py,sha256=HAy5CyO_q2zgPtIiW-Z5tilglwSvkMwl8Dm1O5nIB7A,3377
+remucs/analysis.py,sha256=kFwehMTir2KDNtgdRcyMJsGUBIkz_ITW7bPzBqD1kqQ,4018
+remucs/common.py,sha256=04mNyqwon041VNNkCtwJuhVJ0SqagHo3NrAmXxNdNWk,198
+remucs/options.py,sha256=1ew_okCMujdOQGRoOhun6oHZFTrUsbYkfELZgDYZ3BQ,762
+remucs/remucs.py,sha256=ZqzDA2eex3YaKdBbdL-uJssldGKeVY5tbgh-v_-fOg4,1044
+remucs/synthesis.py,sha256=I2_adVB_raKPEGxal6RfatTU9Vik_bjy0JIWYdTvQfg,3666
+remucs/utils.py,sha256=_YOu3GVRV-pT_gzlPBdgvQYrDrqZnTUBsNn1gaRB0G0,715
+remucs-0.4.dist-info/LICENSE,sha256=VjGMdHy4MXuZ9-O2PZkHR4FQwE0B6HbyTflc5c_og4w,1069
+remucs-0.4.dist-info/METADATA,sha256=5O8R1o00qLMELmWw4w_qRmLdhuuGP1subfAhr2NIxYc,4951
+remucs-0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+remucs-0.4.dist-info/entry_points.txt,sha256=8ZkaDLduPSSnVlNGI1OTz3cSC4FAQYXtBTlkRvSO6oM,48
+remucs-0.4.dist-info/top_level.txt,sha256=T7Vt-Ix5TUG6kRx5V19n_xF6YJTzBXbBolTgvn4eTkA,7
+remucs-0.4.dist-info/RECORD,,
