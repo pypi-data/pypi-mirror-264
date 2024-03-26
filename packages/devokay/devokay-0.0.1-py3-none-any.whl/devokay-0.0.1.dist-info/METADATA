@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: devokay
+Version: 0.0.1
+Summary: tools for daily developing.
+Author-email: sevenli <asusual.cn@gmail.com>
+License: Apache 2.0
+Project-URL: text, https://github.com/devokay
+Keywords: develop tools
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
