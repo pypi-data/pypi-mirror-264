@@ -1,0 +1,8 @@
+
+[development]
+isort
+black
+black[d]
+build
+pytest
+pytest-cov

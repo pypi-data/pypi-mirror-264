@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: repraxis
+Version: 1.3.1
+Summary: An in-memory logic database solution for games, based on Versu's Praxis language.
+Author-email: Shi Johnson-Bey <shijbey@gmail.com>
+License: # MIT LICENSE
+        
+        Copyright 2023-2024 Shi Johnson-Bey <shijbey@gmail.com>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this
+        software and associated documentation files (the "Software"), to deal in the Software
+        without restriction, including without limitation the rights to use, copy, modify,
+        merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to the following
+        conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies
+        or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+        INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+        PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+        HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+        CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+        OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/ShiJbey/RePraxisPy
+Project-URL: Documentation, https://github.com/ShiJbey/RePraxisPy/blob/main/README.md
+Project-URL: Repository, https://github.com/ShiJbey/RePraxisPy.git
+Project-URL: Issues, https://github.com/ShiJbey/RePraxisPy/issues
+Project-URL: Changelog, https://github.com/ShiJbey/RePraxisPy/blob/main/CHANGELOG.md
+Keywords: database,logic programming,praxis,versu,exclusion logic,games
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Topic :: Sociology
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Provides-Extra: development
+Requires-Dist: isort; extra == "development"
+Requires-Dist: black; extra == "development"
+Requires-Dist: black[d]; extra == "development"
+Requires-Dist: build; extra == "development"
+Requires-Dist: pytest; extra == "development"
+Requires-Dist: pytest-cov; extra == "development"
+
+# Re:Praxis - Python Port of RePraxis
+
+This repo contains the Python port of [Re:Praxis](https://github.com/ShiJbey/RePraxis). Please see that repo for documentation on how to use RePraxis. The public APIs are almost identical.
+
+## Differences from the C# implementation
+
+- `RePraxisDatabase.Assert()` was renamed `RePraxisDatabase.asset_statement` (`assert` is a reserved keyword in Python).
+- Method and function names were changed to snake-case to comply with Python conventions.
