@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pyturn
+Version: 0.2.4.1
+Summary: simple stun/turn clients for testing purpose
+Home-page: https://gitlab.com/swiperbotle/pyturn
+Author: SwiperBottle
+Author-email: swiperbotle@gmail.com
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: cryptography ==42.0.5
+Requires-Dist: docutils ==0.20.1
+Requires-Dist: idna ==3.6
+Requires-Dist: importlib-metadata ==7.0.2
+Requires-Dist: jaraco.classes ==3.3.1
+Requires-Dist: jeepney ==0.8.0
+Requires-Dist: keyring ==24.3.1
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.2.0
+Requires-Dist: nh3 ==0.2.15
+Requires-Dist: passlib ==1.7.4
+Requires-Dist: pkginfo ==1.10.0
+Requires-Dist: pycparser ==2.21
+Requires-Dist: Pygments ==2.17.2
+Requires-Dist: readme-renderer ==43.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.7.1
+Requires-Dist: SecretStorage ==3.3.3
+Requires-Dist: twine ==5.0.0
+Requires-Dist: urllib3 ==2.2.1
+Requires-Dist: zipp ==3.18.1
+
+# PYTURN
+A Python-based STUN/TURN client for testing purposes to access network connectivity, troubleshoot NAT traversal issues, and ensure proper configuration of your STUN/TURN servers.
+
+_My contacts_: swiperbotle@gmail.com
+
+---
+
+* ### Installation:
+```bash
+pip install pyturn
+```
+* ### Usage:
+see examples in the tests folder
+
+---
+
+> **Note**  
+> You must define env variables SERVER_IP, CLIENT_IP, TEST_TURN_USERNAME, TEST_TURN_PASSWORD
+* ### Run tests:
+```bash
+python3 -m unittest discover -s tests
+```
+
+* ### Launch stun/turn server for tests
+```bash
+sudo docker build -t coturn .
+sudo docker run --net=host --name coturn -t coturn
+```
