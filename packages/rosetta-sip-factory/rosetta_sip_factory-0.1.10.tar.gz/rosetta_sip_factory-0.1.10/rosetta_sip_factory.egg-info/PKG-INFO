@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rosetta_sip_factory
+Version: 0.1.10
+Summary: Python library for building Submission Information Packages for the Ex Libris Rosetta digital preservation application
+Download-URL: https://github.com/NLNZDigitalPreservation/rosetta_sip_factory/archive/v0.1.10.tar.gz
+Author: Sean Mosely
+Author-email: sean.mosely@gmail.com
+License: MIT
+License-File: LICENSE.txt
+Requires-Dist: lxml>=3.6.4
+Requires-Dist: mets_dnx>=0.1.17
