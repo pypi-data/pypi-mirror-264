@@ -1,0 +1,13 @@
+altqq/__init__.py,sha256=_wis-acbZYDFt5fKvVeIZ-WRvRa_3x588IabOeAQBGs,2055
+altqq/structs.py,sha256=cHHXSrVGBIj82s8o2hB5mu1pDDREZ6ikoBVR2KKwtcI,1794
+altqq/translators/__init__.py,sha256=QWySDMx6Eqxbq1gdHEUtgBqatZ81xemJyRNPl9flLYI,36
+altqq/translators/common.py,sha256=dl3vyMeCTJepx7R56SOoQK_fgL5e-M7aMmRbyJpdND8,911
+altqq/translators/mysql.py,sha256=Hfb7-_B2CyKkgEXyvJBN2KSZFGKifFuASmRS2qdATvQ,1118
+altqq/translators/plain_text.py,sha256=3jtpVJLK6LMtf9F7zJRhjYSlkDt07elibifmZDnSHUM,1474
+altqq/translators/psycopg.py,sha256=9zUpmiX0t9rVjiWqTUlEVkAVDaN2mYu8HiyYt2pWm9I,3246
+altqq/translators/pyodbc.py,sha256=6C8NGZtGIvfaFr3fUhYaYYVrCBUXtUi98H1hAPjCcWY,2909
+altqq/types.py,sha256=4vfN9KT9Ls02ktxgW4u47Hpvk6EgMyLU_jvB_XBuNnI,353
+altqq-0.0.5.dist-info/LICENSE,sha256=wV5h_0o2HtULiYLUNL9d__U1pPvrV3877WC0rq_jLY8,1074
+altqq-0.0.5.dist-info/METADATA,sha256=-9ldk4HDSayQetzwbs6elM6bkk-Ghy-qJK0tcZnHYRs,3303
+altqq-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+altqq-0.0.5.dist-info/RECORD,,
