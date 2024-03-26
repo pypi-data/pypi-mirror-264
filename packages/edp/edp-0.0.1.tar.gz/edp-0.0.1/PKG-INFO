@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: edp
+Version: 0.0.1
+Summary: A cloud native rapid application deployment platform + data management toolkit
+Author-email: Alex Arnesen <alexarnesen@gmail.com>
+Maintainer-email: Alex Arnesen <alexarnesen@gmail.com>
+Keywords: business,data,platform,cloud,ETL,Azure
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Endurance Data Platform
+
+A cloud native rapid application deployment platform + data management toolkit
+
+Built in python3 on GNU/Linux + high quality open source tools

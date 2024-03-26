@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/edp.egg-info/PKG-INFO
+src/edp.egg-info/SOURCES.txt
+src/edp.egg-info/dependency_links.txt
+src/edp.egg-info/requires.txt
+src/edp.egg-info/top_level.txt
+src/edpfw/__init__.py
+src/edplib/__init__.py
