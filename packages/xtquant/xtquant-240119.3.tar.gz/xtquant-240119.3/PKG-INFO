@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: xtquant
+Version: 240119.3
+Summary: xtquant_240119b
+Home-page: http://dict.thinktrader.net/?id=7zqjlm
+Author: Willows
+Author-email: 972210116@qq.com
+License: GNU GPLv3 
+Requires-Python: >=3.6, <3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+修复token模式下偶发的订阅数据异常问题<br />有问题的版本：240119, 240119a<br /><br />token模式下并行接入数量放宽至10个
