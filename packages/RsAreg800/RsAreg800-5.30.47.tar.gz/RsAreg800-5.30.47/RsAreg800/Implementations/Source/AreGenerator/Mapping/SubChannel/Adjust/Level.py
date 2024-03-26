@@ -1,0 +1,35 @@
+from .......Internal.Core import Core
+from .......Internal.CommandsGroup import CommandsGroup
+from ....... import repcap
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class LevelCls:
+	"""Level commands group definition. 1 total commands, 0 Subgroups, 1 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._cmd_group = CommandsGroup("level", core, parent)
+
+	def set(self, mappingChannel=repcap.MappingChannel.Default, subchannel=repcap.Subchannel.Default) -> None:
+		"""SCPI: [SOURce<HW>]:AREGenerator:MAPPing<CH>:[SUBChannel<ST>]:ADJust:LEVel \n
+		Snippet: driver.source.areGenerator.mapping.subChannel.adjust.level.set(mappingChannel = repcap.MappingChannel.Default, subchannel = repcap.Subchannel.Default) \n
+		Adjusts the input attenuation of the R&S AREG800A for the applied signal automatically for the selected output channel. \n
+			:param mappingChannel: optional repeated capability selector. Default value: Nr1 (settable in the interface 'Mapping')
+			:param subchannel: optional repeated capability selector. Default value: Nr1 (settable in the interface 'SubChannel')
+		"""
+		mappingChannel_cmd_val = self._cmd_group.get_repcap_cmd_value(mappingChannel, repcap.MappingChannel)
+		subchannel_cmd_val = self._cmd_group.get_repcap_cmd_value(subchannel, repcap.Subchannel)
+		self._core.io.write(f'SOURce<HwInstance>:AREGenerator:MAPPing{mappingChannel_cmd_val}:SUBChannel{subchannel_cmd_val}:ADJust:LEVel')
+
+	def set_with_opc(self, mappingChannel=repcap.MappingChannel.Default, subchannel=repcap.Subchannel.Default, opc_timeout_ms: int = -1) -> None:
+		mappingChannel_cmd_val = self._cmd_group.get_repcap_cmd_value(mappingChannel, repcap.MappingChannel)
+		subchannel_cmd_val = self._cmd_group.get_repcap_cmd_value(subchannel, repcap.Subchannel)
+		"""SCPI: [SOURce<HW>]:AREGenerator:MAPPing<CH>:[SUBChannel<ST>]:ADJust:LEVel \n
+		Snippet: driver.source.areGenerator.mapping.subChannel.adjust.level.set_with_opc(mappingChannel = repcap.MappingChannel.Default, subchannel = repcap.Subchannel.Default) \n
+		Adjusts the input attenuation of the R&S AREG800A for the applied signal automatically for the selected output channel. \n
+		Same as set, but waits for the operation to complete before continuing further. Use the RsAreg800.utilities.opc_timeout_set() to set the timeout value. \n
+			:param mappingChannel: optional repeated capability selector. Default value: Nr1 (settable in the interface 'Mapping')
+			:param subchannel: optional repeated capability selector. Default value: Nr1 (settable in the interface 'SubChannel')
+			:param opc_timeout_ms: Maximum time to wait in milliseconds, valid only for this call."""
+		self._core.io.write_with_opc(f'SOURce<HwInstance>:AREGenerator:MAPPing{mappingChannel_cmd_val}:SUBChannel{subchannel_cmd_val}:ADJust:LEVel', opc_timeout_ms)
