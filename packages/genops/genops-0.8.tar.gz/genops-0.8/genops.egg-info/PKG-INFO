@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: genops
+Version: 0.8
+Summary: Connect your python application to Mission Control's GenOps platform
+Home-page: https://github.com/airesponsibility/genops-python
+Author: Ramsay Brown
+Author-email: ramsay@usemissioncontrol.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GenOps
+
+Connect your python application to Mission Control's GenOps platform
+
+
+
