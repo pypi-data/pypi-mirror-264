@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/helper.py,sha256=hXPjeCl5UqkhLG5nHRY9n2OM1PTVMZQWMmCYm0OGhPU,283
+tests/test_conn_ftp.py,sha256=cfgH8jKd0s2OkWLDWsimZENCpZ8PMet03W7MGSZuhJU,1763
+tests/test_conn_ftplib.py,sha256=CA4JeYFfDS1kqxpiBBLVOMS-jg1oRCE_weGxSqLWMt0,2646
+tests/test_conn_redis.py,sha256=CJN9yzqO8DBhaMZnnKP6O6_yVQKqOjg7Hy0_kDTIrV4,2578
+tests/test_expasy.py,sha256=THaick6jmgYwolV8T5QGHdmAmiIwPBQ1UPLuoVmgFa4,343
+tests/test_mirbase.py,sha256=XzT2-2oc2wJ6tI3HTyDVc0ORuwY9_l1VcU4eJjyp6a0,636
+tests/test_ncbi.py,sha256=usnFWhBFAQvENOElE7-NbTlAnpGNfmAefmHa27IyIE4,1362
+tests/test_rnacentral.py,sha256=OwI-DGuYEu_3045ZZWSY0ygVLxKJwf3U6BXuMbTcp_o,572
+bioomics-0.1.6.dist-info/LICENSE,sha256=mULZfHU2FMTYXOslE2k4DUxdA47DIkAme9QXUuJOzjo,1070
+bioomics-0.1.6.dist-info/METADATA,sha256=hAIPqywzn7cL38O-Rp22aYRHq9W_WyeRqivAQuiEZqc,794
+bioomics-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bioomics-0.1.6.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+bioomics-0.1.6.dist-info/RECORD,,
