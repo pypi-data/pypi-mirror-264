@@ -1,0 +1,12 @@
+[package]
+name = "ferrite"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "ferrite"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.20.0"
+quick-xml = "0.31.0"
