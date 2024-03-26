@@ -1,0 +1,3 @@
+[console_scripts]
+mirror_playlists = mirror_playlists.main:main
+
