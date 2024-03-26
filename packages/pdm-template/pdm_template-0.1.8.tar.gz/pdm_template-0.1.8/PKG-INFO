@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pdm-template
+Version: 0.1.8
+Summary: A python project template
+Author-Email: Yann de Thé <yann@johncloud.fr>
+Project-URL: Bug tracker, https://gitlab.com/ydethe/pdm-copier/issues
+Project-URL: Homepage, https://gitlab.com/ydethe/pdm-copier
+Project-URL: Source, https://gitlab.com/ydethe/pdm-copier
+Requires-Python: >=3.9
+Requires-Dist: git-changelog>=1.0
