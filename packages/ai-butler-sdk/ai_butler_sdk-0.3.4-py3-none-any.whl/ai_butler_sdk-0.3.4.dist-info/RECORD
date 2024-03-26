@@ -1,0 +1,12 @@
+ai_butler_sdk/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+ai_butler_sdk/apis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_butler_sdk/apis/client.py,sha256=29h8vZK_-UyFP_u6630bS6fWgTjcIlgdEATt_9iK-Oo,3154
+ai_butler_sdk/celery_app/__init__.py,sha256=G2DxgioJqFjr0NXc-rZEfqTS_Omz__2tGc2dQknze0I,1532
+ai_butler_sdk/celery_app/task_example.py,sha256=gBJ7uVu9vUYCgzg2O9wTLjd-s8XSD6ERMSAlF-giuPU,1155
+ai_butler_sdk/deploy_onnx.py,sha256=Op9Gm0O9GhJfv0pkA5Rmg9WFfgnkhvYUdoJat3JfuXs,4812
+ai_butler_sdk/settings.py,sha256=SGjWEth6grwgNFWBCcS8BOKgU5uaJN9Hz8-KFLFYnz4,922
+ai_butler_sdk/train.py,sha256=HuLIoleZtj1JzmMGy5TruyFF4vk3dp5TWJWfQytsvmc,6051
+ai_butler_sdk/utils.py,sha256=Xtf37y2N5IZDIBW6MFPWAA-auf2C25k5vB-VID4F590,5151
+ai_butler_sdk-0.3.4.dist-info/METADATA,sha256=1_bGWIzc01v6j-t0u1Pw5KjT2jULVM8TttGYcco7eKE,839
+ai_butler_sdk-0.3.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ai_butler_sdk-0.3.4.dist-info/RECORD,,
