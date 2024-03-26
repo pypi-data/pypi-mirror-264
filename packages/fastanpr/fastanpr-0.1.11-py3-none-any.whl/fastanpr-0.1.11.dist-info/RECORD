@@ -1,0 +1,12 @@
+fastanpr/__init__.py,sha256=LuN97w9a7UpLCYwlZ6LkF1n5x5XWBbwLSbNyTNa00pg,111
+fastanpr/best.pt,sha256=WPathvNfCVdOE0hOrTNGrozAUvrK4VAEHtSolKwvOCg,6241134
+fastanpr/detection.py,sha256=-lwkbr3fI7gz9AkgsIP7TataPVNUWfQVg0yiUAuFP1U,1209
+fastanpr/fastanpr.py,sha256=cJ_XcgeyZT1K9SfGZToWyi9OkeysSzpM0_FgF5bWx8o,2538
+fastanpr/numberplate.py,sha256=4Y5yEwbjykSDUUTemufFNeloZA3XKfjCaB9ats4WbCY,235
+fastanpr/recognition.py,sha256=vzcu_j4XaPocCdpNF2fM3K-oEgpwb8wkX63zL8XDJsk,4122
+fastanpr/version.py,sha256=nllDrH0jyChMuuYrK0CC55iTBKUNTUjejtcwxyUF2EQ,23
+fastanpr-0.1.11.dist-info/LICENSE,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+fastanpr-0.1.11.dist-info/METADATA,sha256=Jc1WXfgdu3ITf0TpXi4nDGmx_NS9uVIk3o-wNN1beuo,5750
+fastanpr-0.1.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fastanpr-0.1.11.dist-info/top_level.txt,sha256=Ot-tyU3161a8zFOdt1pc51-BtPmZr8ov9hjLJurOVzk,9
+fastanpr-0.1.11.dist-info/RECORD,,
