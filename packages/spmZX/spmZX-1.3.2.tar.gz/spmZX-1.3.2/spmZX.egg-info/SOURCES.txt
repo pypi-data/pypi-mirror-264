@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+spmZX/__init__.py
+spmZX/spm.py
+spmZX.egg-info/PKG-INFO
+spmZX.egg-info/SOURCES.txt
+spmZX.egg-info/dependency_links.txt
+spmZX.egg-info/requires.txt
+spmZX.egg-info/top_level.txt
