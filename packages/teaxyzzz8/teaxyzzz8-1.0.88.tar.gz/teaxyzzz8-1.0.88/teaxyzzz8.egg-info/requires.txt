@@ -1,0 +1,3 @@
+requests>=2.20.0
+tea-xyz1
+tea-xyz2
