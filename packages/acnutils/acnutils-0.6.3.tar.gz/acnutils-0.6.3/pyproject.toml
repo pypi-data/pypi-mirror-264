@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "acnutils"
+version = "0.6.3"
+description = "Various utilities used in AntiCompositeNumber's bots"
+authors = ["AntiCompositeNumber <anticompositenumber+pypi@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.rst"
+repository = "https://github.com/AntiCompositeNumber/acnutils"
+keywords = ["pywikibot", "toolforge", "wikimedia", "wikipedia"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Wiki",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Environment :: Console"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pywikibot = ">=6.6.1,<10.0.0"
+toolforge = {version=">=5,<7", optional=true}
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.0"
+flake8 = "^5.0.4"
+black = "^24.3"
+pytest = "^7.0.0"
+coveralls = "^3.2.0"
+mwparserfromhell = "^0.6.3"
+
+[tool.poetry.extras]
+db = ["toolforge"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.run]
+branch = true
+source = ["acnutils"]
+
+[tool.pytest.ini_options]
+log_level = "info"
+addopts = "-v"
+
+
