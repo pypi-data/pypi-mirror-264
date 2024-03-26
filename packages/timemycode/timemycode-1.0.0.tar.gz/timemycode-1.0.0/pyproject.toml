@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "timemycode"
+version = "1.0.0"
+description = ""
+authors = ["Sébastien Foucault <sebastien.foucault@orange.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+colorama = "^0.4.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
