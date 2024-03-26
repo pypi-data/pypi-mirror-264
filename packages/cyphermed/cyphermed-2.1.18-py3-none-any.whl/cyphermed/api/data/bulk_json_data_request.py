@@ -1,0 +1,200 @@
+from http import HTTPStatus
+from typing import Any, Dict, Optional, Union
+
+import httpx
+
+from ... import errors
+from ...client import AuthenticatedClient, Client
+from ...models.bulk_data_body import BulkDataBody
+from ...models.data_by_path import DataByPath
+from ...models.success import Success
+from ...types import Response
+
+
+def _get_kwargs(
+    group_id: str,
+    *,
+    json_body: BulkDataBody,
+) -> Dict[str, Any]:
+
+    pass
+
+    json_json_body = json_body.to_dict()
+
+    return {
+        "method": "post",
+        "url": "/v2/groups/{group_id}/data".format(
+            group_id=group_id,
+        ),
+        "json": json_json_body,
+    }
+
+
+def _parse_response(
+    *, client: Union[AuthenticatedClient, Client], response: httpx.Response
+) -> Optional[Union[Success, Union["DataByPath", "Success"]]]:
+    if response.status_code == HTTPStatus.OK:
+
+        def _parse_response_200(data: object) -> Union["DataByPath", "Success"]:
+            try:
+                if not isinstance(data, dict):
+                    raise TypeError()
+                response_200_type_0 = DataByPath.from_dict(data)
+
+                return response_200_type_0
+            except:  # noqa: E722
+                pass
+            if not isinstance(data, dict):
+                raise TypeError()
+            response_200_type_1 = Success.from_dict(data)
+
+            return response_200_type_1
+
+        response_200 = _parse_response_200(response.json())
+
+        return response_200
+    if response.status_code == HTTPStatus.CREATED:
+        response_201 = Success.from_dict(response.json())
+
+        return response_201
+    if client.raise_on_unexpected_status:
+        raise errors.UnexpectedStatus(response.status_code, response.content)
+    else:
+        return None
+
+
+def _build_response(
+    *, client: Union[AuthenticatedClient, Client], response: httpx.Response
+) -> Response[Union[Success, Union["DataByPath", "Success"]]]:
+    return Response(
+        status_code=HTTPStatus(response.status_code),
+        content=response.content,
+        headers=response.headers,
+        parsed=_parse_response(client=client, response=response),
+    )
+
+
+def sync_detailed(
+    group_id: str,
+    *,
+    client: AuthenticatedClient,
+    json_body: BulkDataBody,
+) -> Response[Union[Success, Union["DataByPath", "Success"]]]:
+    """Bulk Json Data Request
+
+     Bulk data GET/PUT/POST/PATCH/DELETE request
+
+    Args:
+        group_id (str):
+        json_body (BulkDataBody): Bulk request body
+
+    Raises:
+        errors.UnexpectedStatus: If the server returns an undocumented status code and Client.raise_on_unexpected_status is True.
+        httpx.TimeoutException: If the request takes longer than Client.timeout.
+
+    Returns:
+        Response[Union[Success, Union['DataByPath', 'Success']]]
+    """
+
+    kwargs = _get_kwargs(
+        group_id=group_id,
+        json_body=json_body,
+    )
+
+    response = client.get_httpx_client().request(
+        **kwargs,
+    )
+
+    return _build_response(client=client, response=response)
+
+
+def sync(
+    group_id: str,
+    *,
+    client: AuthenticatedClient,
+    json_body: BulkDataBody,
+) -> Optional[Union[Success, Union["DataByPath", "Success"]]]:
+    """Bulk Json Data Request
+
+     Bulk data GET/PUT/POST/PATCH/DELETE request
+
+    Args:
+        group_id (str):
+        json_body (BulkDataBody): Bulk request body
+
+    Raises:
+        errors.UnexpectedStatus: If the server returns an undocumented status code and Client.raise_on_unexpected_status is True.
+        httpx.TimeoutException: If the request takes longer than Client.timeout.
+
+    Returns:
+        Union[Success, Union['DataByPath', 'Success']]
+    """
+
+    return sync_detailed(
+        group_id=group_id,
+        client=client,
+        json_body=json_body,
+    ).parsed
+
+
+async def asyncio_detailed(
+    group_id: str,
+    *,
+    client: AuthenticatedClient,
+    json_body: BulkDataBody,
+) -> Response[Union[Success, Union["DataByPath", "Success"]]]:
+    """Bulk Json Data Request
+
+     Bulk data GET/PUT/POST/PATCH/DELETE request
+
+    Args:
+        group_id (str):
+        json_body (BulkDataBody): Bulk request body
+
+    Raises:
+        errors.UnexpectedStatus: If the server returns an undocumented status code and Client.raise_on_unexpected_status is True.
+        httpx.TimeoutException: If the request takes longer than Client.timeout.
+
+    Returns:
+        Response[Union[Success, Union['DataByPath', 'Success']]]
+    """
+
+    kwargs = _get_kwargs(
+        group_id=group_id,
+        json_body=json_body,
+    )
+
+    response = await client.get_async_httpx_client().request(**kwargs)
+
+    return _build_response(client=client, response=response)
+
+
+async def asyncio(
+    group_id: str,
+    *,
+    client: AuthenticatedClient,
+    json_body: BulkDataBody,
+) -> Optional[Union[Success, Union["DataByPath", "Success"]]]:
+    """Bulk Json Data Request
+
+     Bulk data GET/PUT/POST/PATCH/DELETE request
+
+    Args:
+        group_id (str):
+        json_body (BulkDataBody): Bulk request body
+
+    Raises:
+        errors.UnexpectedStatus: If the server returns an undocumented status code and Client.raise_on_unexpected_status is True.
+        httpx.TimeoutException: If the request takes longer than Client.timeout.
+
+    Returns:
+        Union[Success, Union['DataByPath', 'Success']]
+    """
+
+    return (
+        await asyncio_detailed(
+            group_id=group_id,
+            client=client,
+            json_body=json_body,
+        )
+    ).parsed
