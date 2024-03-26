@@ -1,0 +1,9 @@
+rship_sdk/__init__.py,sha256=vKfB_WJVFK9IENoIjWm3_o-3pW9nG8PhYMv_13EZP8M,171
+rship_sdk/client.py,sha256=205C5itSajvkKMl9bypmDtyDTqqiF9Oxg2YoRVRXiOk,6501
+rship_sdk/models.py,sha256=pa-KB6vUEgh-n55sQG3oFp7WI-nSDEj0sfIDpSxEOg0,3105
+rship_sdk/utils.py,sha256=15c_474spKVtqBgQmzU8RWZCkWJ0_oZfmTNQRdupTsQ,576
+rship_sdk-0.0.11.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+rship_sdk-0.0.11.dist-info/METADATA,sha256=Ljty4pNtBAAlK1DkDJCabRtIosu3uK67K7yJ0_Vv1HQ,524
+rship_sdk-0.0.11.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+rship_sdk-0.0.11.dist-info/top_level.txt,sha256=WxbrALLHERzNA0H3aNjEYoZEsRM6plyIeMN0h2msZzM,10
+rship_sdk-0.0.11.dist-info/RECORD,,
