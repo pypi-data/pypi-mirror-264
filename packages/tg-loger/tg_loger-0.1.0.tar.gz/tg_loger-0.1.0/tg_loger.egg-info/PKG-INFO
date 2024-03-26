@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: tg_loger
+Version: 0.1.0
+Summary: Telegram bot loger for django
+Author: Bahodir
+Author-email: weebcreator94@gmail.com
+Requires-Dist: telegraph
