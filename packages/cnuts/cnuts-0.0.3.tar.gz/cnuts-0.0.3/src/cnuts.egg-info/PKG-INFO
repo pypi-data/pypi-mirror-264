@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cnuts
+Version: 0.0.3
+Summary: COCONUTS is a user interface for creating and running predictive models.
+Author-email: Peng Xiong <xiongpengnus@gmail.com>
+Project-URL: Homepage, https://github.com/XiongPengNUS/coconuts
+Project-URL: Issues, https://github.com/XiongPengNUS/coconuts/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit>=1.25.0
+Requires-Dist: streamlit_ace>=0.1.1
+Requires-Dist: pandas>=1.5.3
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: matplotlib>=3.7.1
+Requires-Dist: seaborn>=0.12.2
+Requires-Dist: scikit-learn>=1.4.1
+
+COCONUTS is a user interface for creating and running predictive models.

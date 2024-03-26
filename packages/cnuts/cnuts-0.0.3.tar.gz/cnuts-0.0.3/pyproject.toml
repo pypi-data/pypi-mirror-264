@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cnuts"
+version = "0.0.3"
+authors = [
+  { name="Peng Xiong", email="xiongpengnus@gmail.com" },
+]
+description = "COCONUTS is a user interface for creating and running predictive models."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+Homepage = "https://github.com/XiongPengNUS/coconuts"
+Issues = "https://github.com/XiongPengNUS/coconuts/issues"
