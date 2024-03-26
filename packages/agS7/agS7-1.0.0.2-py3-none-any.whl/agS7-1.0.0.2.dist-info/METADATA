@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: agS7
+Version: 1.0.0.2
+Summary: Lectura a DB de un PLC SIEMENS
+Home-page: https://agfra.es/
+Author: Sdaroca
+Author-email: sdaroca@agfra.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: python-snap7
+
+Agfra S.L. 
+Autor: sdaroca
+
+En esta libreria uso de base la libreria snap7 para gestionar de una manera mas sencilla la gestion de datos entre PLC y Python.
