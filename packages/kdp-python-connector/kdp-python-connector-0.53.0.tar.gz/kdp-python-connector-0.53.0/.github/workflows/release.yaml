@@ -1,0 +1,62 @@
+name: KDP Python Connector Dispatch Release Build
+
+on:
+  repository_dispatch:
+    types: [ dispatch-release ]
+  workflow_dispatch:
+    branches: [ main ]
+    inputs:
+      pythonClientVersion:
+        description: "Python Client version such as 0.1.0"
+        required: true
+
+env:
+  PYTHON_CLIENT_VERSION: ${{ github.event.client_payload.pythonClientVersion || github.event.inputs.pythonClientVersion }}
+
+jobs:
+  dispatch_public_and_internal_builds:
+    name: Dispatch Python Connector Release Internal and Public Builds with Version
+    runs-on: self-hosted-aws
+
+    steps:
+      - name: Checkout
+        id: checkout-source
+        uses: actions/checkout@v4
+
+      - name: Bump version and push tag
+        id: tag-version
+        uses: mathieudutour/github-tag-action@v6.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          default_bump: "minor"
+          dry_run: "false"
+          tag_prefix: ""
+          create_annotated_tag: "true"
+
+      - name: Dispatch Internal and Public Connector Releases
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: Koverse/kdp-python-connector
+          event-type: release-connector
+          client-payload: |-
+            {
+              "version": "${{ steps.tag-version.outputs.new_tag }}",
+              "pythonClientVersion": "${{ env.PYTHON_CLIENT_VERSION }}"
+            }
+
+      - name: Create a GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.tag-version.outputs.new_tag }}
+          name: Release ${{ steps.tag-version.outputs.new_tag }}
+          body: ${{ steps.tag-version.outputs.changelog }}
+
+      - name: Add logging to markdown
+        if: always()
+        run: |
+          echo "<h4>Release Settings for python client version: ${{ env.PYTHON_CLIENT_VERSION }}</h4>" >> $GITHUB_STEP_SUMMARY
+          echo "<h4>Release Settings for python connector next version: ${{ steps.tag-version.outputs.new_tag }}</h4>" >> $GITHUB_STEP_SUMMARY
+
+          
+          
