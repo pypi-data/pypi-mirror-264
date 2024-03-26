@@ -1,0 +1,13 @@
+raoc/__init__.py,sha256=V6AjHz6ZTS-SoGAKkJaX06b2hXgGx1ahgptS0YKR6AI,8
+raoc/assets/help-with-chores.jpg,sha256=IZkeesNoH-dSEaK6mj0cnilBFzLGvhksznxmA69pQZE,26621
+raoc/assets/icon.png,sha256=ObKMXLa890thNWS9ouGn-CKZpV65zXboS-uHwWGykQc,659173
+raoc/assets/pick-up-trash.jpg,sha256=l1z79Dh1PYiitWKC_ul7oLm6Ex5blcKX4Uw91dBhTWs,63963
+raoc/assets/visit-elderly-neighbors.jpg,sha256=N8sTycbYM2aR_qZ1N7O673o3rIGojqxMSHljnkBKMBY,25997
+raoc/file_name.py,sha256=0NejQocKr6yzNSuiOEsqNE0XQ9Y_ZdiLfJ3z21Ffbvk,114
+raoc/main.py,sha256=zIFcrlkdDf1qvtecKbo3A6WMp3oj1NUQr4g2ksFJdZc,978
+raoc/my_action.py,sha256=t4iXrZW45HfRFNvVhEuqCC-5vk5WIkuwpOx1qTb35b8,1202
+raoc/perform_action.py,sha256=NDDUe_tEBe4TKFlfqunRO0S6uWksNbSQKDd68aaTI0E,732
+raoc/text_component.py,sha256=rGljZP4K_zM_5O_4PT-U8Cm0BKjHjeWPQsse4sE3q9s,419
+random_acts_of_kindness-0.2.0.dist-info/METADATA,sha256=pSlyPPmHBPNFg-vOpHWNh_a1wp4IWg59QZbw2IUzy6U,816
+random_acts_of_kindness-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+random_acts_of_kindness-0.2.0.dist-info/RECORD,,
