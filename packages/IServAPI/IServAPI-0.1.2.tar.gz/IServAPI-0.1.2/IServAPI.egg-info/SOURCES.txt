@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+.github/workflows/python-publish.yml
+IServAPI/IServAPI.py
+IServAPI.egg-info/PKG-INFO
+IServAPI.egg-info/SOURCES.txt
+IServAPI.egg-info/dependency_links.txt
+IServAPI.egg-info/requires.txt
+IServAPI.egg-info/top_level.txt
