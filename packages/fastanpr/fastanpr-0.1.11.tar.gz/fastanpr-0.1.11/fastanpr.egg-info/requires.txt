@@ -1,0 +1,12 @@
+ultralytics
+paddlepaddle
+paddleocr
+
+[dev]
+pytest
+pytest-asyncio
+twine
+python-Levenshtein
+setuptools
+wheel
+flake8
