@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pyfunvice"
+version = "0.1.0"
+description = ""
+authors = ["遥奕 <jibing.yjb@alibaba-inc.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
