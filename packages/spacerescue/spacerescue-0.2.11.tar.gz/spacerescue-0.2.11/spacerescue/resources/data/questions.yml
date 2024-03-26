@@ -1,0 +1,104 @@
+- question: According to Leslie Lamport, what is really dangerous ?
+  choices:
+    A saber-toothed tiger: false
+    A software developer: true
+    Thinking: true
+    Specifications: true
+ 
+- question: When programming, when to think ?
+  choices:
+    I don’t need to think, programming is too easy: false
+    When I have written all my code: false
+    Before writing any code: true
+    When the first bug occurs: false
+ 
+- question: What is the best way to think ?
+  choices:
+    to think hard until my head explodes: false
+    to write: true
+    to listen to some music: false
+    to sleep: false
+ 
+- question: What is the best time to write tests ?
+  choices:
+    Tests ? What are you talking about ?: false
+    As soon as the production code is written: true
+    When I will have some time in a sprint or two: false
+    Are you kidding me ? To test is to doubt !: false
+ 
+- question: Writing tests is ?
+  choices:
+    Hard and requires thinking: true
+    A piece of cake: false
+    Just a joke: false
+    Waste of time: false
+  
+- question: Good Unit tests ?
+  choices:
+    Have to run quickly: true
+    Should not have network, database,.. dependencies: true
+    Must be avoided: false
+    Should run on your laptop: true
+
+- question: Que veut dire JPD ?
+  choices:
+    J’ai Pas D’avis: false
+    Jira Product Discovery: true
+    J’ai Plein D’idéesv: false
+    Jeopardy: false
+ 
+- question: Quel est l’ordre des phases du framework produit utilisé chez Atlassian ?
+  choices:
+    Explore, Wonder, Impact, Make: false
+    Wonder, Explore, Impact, Make: false
+    Wonder, Explore, Make, Impact: true
+    Make, Explore, Wonder, Impact: false
+ 
+- question: D’où vient le product operating model “4 in the box” ?
+  choices:
+    Decathon: false
+    Walmart: true
+    Carrefour: false
+    Spotify: false
+ 
+- question: Que veut dire GTM en Product Management ?
+  choices:
+    Good Time Management: false
+    Great Teamwork Method: false
+    Go-to-Market: true
+    Group Task Management: false
+ 
+- question: Classer ces livres par ordre de publication (plus ancien au plus récent)
+  choices:
+    Inspired, Empowered, Loved, Transformed: true
+    Empowered, Inspired, Loved, Transformed: false
+    Loved, Inspired, Transformed, Empowered: false
+    Transformed, Empowered, Inspired, Loved: false
+ 
+- question: Quels sont les noms de nos Speakers produit aujourd hui ?
+  choices:
+    Axel: true
+    Aline: false
+    Constant: true
+    Chloé: false
+
+- question: What is Domain Driven Design ?
+  choices:
+    An architectural trip made by goofy IT salesman: false
+    A business focus approach to design to manage software complexity: true
+    A TV Show on M6 with Valérie Damidot: false
+    Answer D: false
+
+- question: Why do we want to normalise Data Bases ?
+  choices:
+    Because we can and because Benoit Lelong said it's cool: false
+    I don't care it's not my job: false
+    To avoid redondancy and incoherencies, and to better understand data: true 
+    Normalize makes all moves (including status moves) used by the Pokémon with this Ability become Normal-type instead of their usual type: false
+
+- question:  What are the 2 types of complexity we do encounter in IT/Data Projects ?
+  choices:
+    Real business complexity + Accidental technical complexity: true
+    Real wife/husband complexity + Accidental children complexity: false
+    I know everything, nothing is complex to me: false
+    The Shiny and Normal type of Complexity (like gyarados at the lake of rage): false
