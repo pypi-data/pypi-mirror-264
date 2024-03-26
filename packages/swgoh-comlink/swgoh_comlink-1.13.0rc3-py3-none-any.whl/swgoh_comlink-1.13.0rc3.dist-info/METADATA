@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: swgoh_comlink
+Version: 1.13.0rc3
+Summary: Python 3 interface library for the swgoh-comlink data proxy container (https://github.com/swgoh-utils/swgoh-comlink)
+Project-URL: Homepage, https://github.com/swgoh-utils/comlink-python
+Project-URL: Bug Tracker, https://github.com/swgoh-utils/comlink-python/issues
+Author-email: Mar Trepodi <martrepodi@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: httpx
+Requires-Dist: mkdocs-material
+Requires-Dist: mkdocs-material-extensions
+Requires-Dist: mkdocstrings-python
+Description-Content-Type: text/markdown
+
+# comlink_python
+
+## Description
+
+A python wrapper for the [swgoh-comlink](https://github.com/swgoh-utils/swgoh-comlink) tool.
+
+There are two modules within the `comlink_python` package. They are:
+
+| Module Name                                      | Purpose                                                       |
+|--------------------------------------------------|---------------------------------------------------------------|
+| [SwgohComlink](README_SwgohComlink.md)           | Used for traditional HTTP requests to the `comlink` instance  |
+| [SwgohComlinkAsync](README_SwgohComlinkAsync.md) | Used for asynchronous HTTP requests to the `comlink` instance |
+
+The SwgohComlink module is built upon the Python `requests` module. It provides traditional HTTP access to the comlink
+utility provided in the instance creation parameters.
+
+The SwgohComlinkAsync module is built upon the `aiohttp` module. It provides a more modern multi-threaded
+access to the comlink utility provided in the instance creation parameters.
