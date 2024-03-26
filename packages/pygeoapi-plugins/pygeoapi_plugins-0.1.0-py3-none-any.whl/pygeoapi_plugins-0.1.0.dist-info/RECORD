@@ -1,0 +1,15 @@
+pygeoapi_plugins/__init__.py,sha256=wPHaURG-C306LmD6Ms7_XKYfVNqe9wVrxQtwGrfLHIU,1352
+pygeoapi_plugins/formatter/__init__.py,sha256=Th5fYHo9a8Hr2SfyLa0jsu4fIfjqP_k_UdrIUf0V8OQ,1338
+pygeoapi_plugins/formatter/xml.py,sha256=SfypPYNgPEjjQWeTdcHf9VmYiUCwnChHtytVai_H9HQ,3654
+pygeoapi_plugins/process/__init__.py,sha256=iVSJ8v40s_gdy85BlI1aFjuEFfA8Z0wkKOPukqCbqnc,1372
+pygeoapi_plugins/process/intersect.py,sha256=cGfa_D33x9AQI8PxtCrjETvH3Q4qUvUbKbKzJv9hEK0,7439
+pygeoapi_plugins/process/sitemap.py,sha256=ClKYknpYIyXBJgsdr58PpptBs89aAzfwdFe_Kd3HKyQ,8609
+pygeoapi_plugins/provider/__init__.py,sha256=64gHnlWcH0_YQD8XdN_ZeIyZLvS_YFF6GiB-qcgu6lw,1374
+pygeoapi_plugins/provider/ckan.py,sha256=GnRxYJhpOc0ggiOCQbpptFXlwrETGNiIbgmjHmZnPVU,9728
+pygeoapi_plugins/provider/postgresql.py,sha256=7_Ptq6Go73yxY5dg2QG6mmha3Oxcjb4lqngp2cN_Uf8,7889
+pygeoapi_plugins/provider/sparql.py,sha256=XEZe4JnNVSFBkPGoot1mamBQ7aq1OMrNpROlogb9EpY,10029
+pygeoapi_plugins-0.1.0.dist-info/LICENSE,sha256=kqSivuj8IBD4cOdVrHgQvlX9aeCFE2qjOOQMRO4m53w,1128
+pygeoapi_plugins-0.1.0.dist-info/METADATA,sha256=6IFedkiO3Maoh_9ygM0iMYK43FRbkWifp9ldGIJUozE,6651
+pygeoapi_plugins-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pygeoapi_plugins-0.1.0.dist-info/top_level.txt,sha256=7T81sc4hWhtda-J4EFlYtUnJRCR4thj3LNcTuCBjwaE,17
+pygeoapi_plugins-0.1.0.dist-info/RECORD,,
