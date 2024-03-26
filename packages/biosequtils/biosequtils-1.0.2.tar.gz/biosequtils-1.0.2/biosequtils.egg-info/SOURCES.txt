@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+biosequtils.egg-info/PKG-INFO
+biosequtils.egg-info/SOURCES.txt
+biosequtils.egg-info/dependency_links.txt
+biosequtils.egg-info/requires.txt
+biosequtils.egg-info/top_level.txt
+tests/__init__.py
+tests/helper.py
+tests/test_dir.py
+tests/test_file.py
+tests/test_handle_json.py
+tests/test_iterator.py
+tests/test_jtxt.py
+tests/test_key_value.py
