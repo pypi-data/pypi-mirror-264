@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+apex_search.egg-info/PKG-INFO
+apex_search.egg-info/SOURCES.txt
+apex_search.egg-info/dependency_links.txt
+apex_search.egg-info/top_level.txt
+apexsearch/__init__.py
+apexsearch/search.py
