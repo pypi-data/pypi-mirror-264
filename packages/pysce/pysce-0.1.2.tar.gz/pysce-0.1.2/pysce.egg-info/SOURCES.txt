@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pysce/__init__.py
+pysce/_dataloaders.py
+pysce/_modules.py
+pysce/_tools.py
+pysce/_utils.py
+pysce.egg-info/PKG-INFO
+pysce.egg-info/SOURCES.txt
+pysce.egg-info/dependency_links.txt
+pysce.egg-info/not-zip-safe
+pysce.egg-info/requires.txt
+pysce.egg-info/top_level.txt
+pysce/data/ppi_scent_pp_sparse.h5ad

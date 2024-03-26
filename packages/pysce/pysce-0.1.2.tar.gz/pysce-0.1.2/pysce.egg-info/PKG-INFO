@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pysce
+Version: 0.1.2
+Summary: pySCE: Single Cell Entropy Scoring in Python
+Home-page: https://github.com/dchary/pysce
+Author: Daniel Charytonowicz
+Author-email: daniel.charytonowicz@icahn.mssm.edu
+License: GNU GPLv3
+License-File: LICENSE
+Requires-Dist: scanpy>=1.8.2
+Requires-Dist: torch>=2.0.0
