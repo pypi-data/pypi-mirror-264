@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: GEARLM
+Version: 0.0.9
+Summary: GEARLM
+Author: Hao Kang
+Author-email: hkang342@gatech.edu
+Keywords: python,AI
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM
