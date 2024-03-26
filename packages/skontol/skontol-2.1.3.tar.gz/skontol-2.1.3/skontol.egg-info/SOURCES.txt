@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+skontol/__init__.py
+skontol/cli.py
+skontol/clis/__init__.py
+skontol/clis/base.py
+skontol/clis/masukin.py
