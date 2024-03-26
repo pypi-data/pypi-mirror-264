@@ -1,0 +1,6 @@
+README.md
+setup.py
+gamechanger.egg-info/PKG-INFO
+gamechanger.egg-info/SOURCES.txt
+gamechanger.egg-info/dependency_links.txt
+gamechanger.egg-info/top_level.txt
