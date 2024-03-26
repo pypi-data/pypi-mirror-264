@@ -1,0 +1,165 @@
+"""
+ Copyright (c) 2019 Alan Yorinks All rights reserved.
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
+ Version 3 as published by the Free Software Foundation; either
+ or (at your option) any later version.
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ You should have received a copy of the GNU AFFERO GENERAL PUBLIC LICENSE
+ along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+"""
+import serial
+from serial.tools import list_ports
+import sys
+import threading
+import time
+
+
+class PBR3(threading.Thread):
+    """
+    Picoboard data reader. This program will normalize all analog values to be
+    within a range of 0 - 100.
+    It normalizes light values so that 0 is no light, and 100 is maximum.
+    Normally, line feed carriage returns are suppressed in the output.
+    Usage:
+        python3 pbr.py
+    To enable line feeds and carriage returns, start the program with a single
+    value on the command line.
+    Usage:
+        python3 pbr.py x
+    """
+
+    def __init__(self, com_port=None):
+        self.baud_rate = 38400
+
+        if len(sys.argv) > 1:
+            self.no_lf = False
+        else:
+            self.no_lf = True
+
+        self.channels = {0: "D", 1: "C",
+                         2: "B", 3: "btn", 4: "A",
+                         5: "lt", 6: "snd", 7: "slide", 15: "id"}
+
+        self.data_packet = None
+        if com_port:
+            self.picoboard = serial.Serial(com_port, self.baud_rate,
+                                           timeout=1, writeTimeout=0)
+        else:
+            self.find_the_picoboard()
+            print('picoboard found on:', self.picoboard.port)
+            self.picoboard.reset_input_buffer()
+            self.picoboard.reset_output_buffer()
+
+
+        threading.Thread.__init__(self)
+        self.daemon = True
+        self.stop_event = threading.Event()
+        self.start()
+        time.sleep(.2)
+        x = b'\x01'
+
+        while True:
+            try:
+                time.sleep(.1)
+                self.picoboard.write(x)
+            except KeyboardInterrupt:
+                self.picoboard.close()
+                sys.exit(0)
+
+    def find_the_picoboard(self):
+        # go through the ports looking for an active board
+
+        the_ports_list = list_ports.comports()
+        for port in the_ports_list:
+            if port.pid is None:
+                continue
+            else:
+                print('Looking for picoboard on: ', port.device)
+                self.picoboard = serial.Serial(port.device, self.baud_rate,
+                                               timeout=1, writeTimeout=0)
+                for send in range(10):
+                    self.picoboard.write(b'\x01')
+                    time.sleep(.2)
+                    num_bytes = self.picoboard.inWaiting()
+                    if num_bytes == 18:
+                        self.picoboard.reset_input_buffer()
+                        self.picoboard.reset_output_buffer()
+                        return
+                    else:
+                        continue
+            continue
+        print('Could not find a picoboard')
+        sys.exit(0)
+
+    def analog_scaling(self, value, channel):
+        """
+        scale the normal analog input range of 0-1023 to 0-100
+        :param value:
+        :param channel
+        :return:
+        """
+        if channel == 5:  # the light channel
+            input_low = 1023
+            input_high = 0
+        else:
+            input_low = 0
+            input_high = 1023
+
+        new_value_low = 0
+        new_value_high = 100
+
+        return round(((value - input_low) * ((new_value_high - new_value_low) / (input_high - input_low))) +
+                     new_value_low)
+
+    def run(self):
+        """
+        This method continually runs. If an incoming character is available on the serial port
+        it is read and placed on the _command_deque
+        @return: Never Returns
+        """
+
+        while True:
+            self.data_packet = None
+            if self.picoboard.inWaiting():
+                self.data_packet = self.picoboard.read(18)
+                sresult = ''
+                for i in range(8):
+                    channel = str((int(self.data_packet[2 * i]) - 128) >> 3)
+                    sb_channel = self.channels[(int(self.data_packet[2 * i]) - 128) >> 3]
+                    sb_value = ((int(self.data_packet[2 * i]) & 7) << 7) + int(self.data_packet[2 * i + 1])
+                    if i in [0, 1, 2, 4, 5, 6, 7]:
+                        # scale for standard analog:
+                        cooked = self.analog_scaling(sb_value, i)
+                        if i == 7: # the slider
+                            sresult = sresult + channel + ':' + sb_channel + '=' + str(cooked) + ' ' + str(
+                                sb_value) \
+                                      + ' '
+                        else:
+                            sresult = sresult + channel + ':' + sb_channel + '=' + str(cooked) + ' '
+
+                    elif i == 3:  # invert digital input
+                        cooked = int(not sb_value)
+                        sresult = sresult + channel + ':' + sb_channel + '=' + str(cooked) + ' '
+
+                    elif i == 8:
+                        cooked = sb_value
+                        sresult = sresult + channel +  ':' + sb_channel + '=' + str(cooked) + ' '
+
+                if self.no_lf:
+                    print('\r' + sresult, end=' ')
+                else:
+                    print(sresult)
+
+            else:
+                try:
+                    time.sleep(.001)
+                except KeyboardInterrupt:
+                    sys.exit(0)
+
+
+PBR3()

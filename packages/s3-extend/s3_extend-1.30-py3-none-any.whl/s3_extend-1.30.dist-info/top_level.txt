@@ -1,0 +1,8 @@
+archive
+cpe_micropython
+drivers
+esp_8266_micropython
+play
+s3_extend
+tmx_pico_aio
+venv
