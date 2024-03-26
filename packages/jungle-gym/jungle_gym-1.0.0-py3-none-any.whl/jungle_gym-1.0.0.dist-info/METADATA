@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jungle-gym
+Version: 1.0.0
+Summary: Helper functions of use for all subprocesses in the configurator output process
+Author: Thomas van der Veen
+Requires-Dist: mysql-connector-python
+Requires-Dist: boto3
+Requires-Dist: paramiko
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+
