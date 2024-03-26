@@ -1,0 +1,9 @@
+middleware2mysql_pkg/__init__.py,sha256=fuEjbYqEQCAzeOJyVBhcEki4p2SmQcAeH5vqTJax07o,29
+middleware2mysql_pkg/kafka2mysql.py,sha256=iXgHpnRMsbly1hbuIRFN10HM0w2BbPfet2V_bmajCck,3236
+middleware2mysql_pkg/kafka2mysql_models.py,sha256=wI1Ce80kHe4oQZnYHFB6JEjpF0sWt2Mzul8qvn6nEEo,786
+middleware2mysql_pkg/redis2mysql.py,sha256=jluJBVqjMdqsB5uECyET3U49YpGNw1Wm09ShpWkZgRM,5760
+middleware2mysql_pkg/redis2mysql_models.py,sha256=RxZYPiF6UyTqMGHiB3hs00hCLMjL4nXUo1jCQlUWyMQ,586
+middleware2mysql-0.0.3.dist-info/METADATA,sha256=4-mJK0T1488ukHyYZ2RBDCXgRpsKZs352HE1Z9Wi2Yk,1734
+middleware2mysql-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+middleware2mysql-0.0.3.dist-info/top_level.txt,sha256=YELNrg7-zwRi_P7KafcTM6Ok1YoO17Ip7FqW0EKBrtA,21
+middleware2mysql-0.0.3.dist-info/RECORD,,
