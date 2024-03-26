@@ -1,0 +1,72 @@
+#! /usr/bin/env python3
+import requests
+
+# 发送POST请求创建namespace中的proposal
+url = 'http://127.0.0.1:9001/api/core/v1/namespace/test/proposal'
+headers = {'Content-Type': 'application/json'}
+data = {
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-function-declare-proposal",
+        "namespace": "test"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "functiondeclare",
+                        "metadata": {
+                            "name": "calculate",
+                            "namespace": "test"
+                        },
+                        "spec": {
+                            "args":[],
+                            "retType": "",
+                            "description": ""
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+response = requests.post(url, json=data, headers=headers)
+
+if response.status_code == 201:
+    proposal_uid = response.json()
+    print(f"成功创建proposal,proposal_uid为: {proposal_uid}")
+else:
+    print(f"创建proposal失败,状态码: {response.status_code}")
+
+# 发送PUT请求提交proposal
+if proposal_uid:
+    commit_url = f'http://127.0.0.1:9001/api/core/v1/proposal/{proposal_uid}/commit'
+    response = requests.put(commit_url)
+    if response.status_code == 200:
+        print("提交proposal成功")
+    else:
+        print(f"提交proposal失败，状态码: {response.status_code}")
+
+# 发送GET请求获取proposal信息
+if proposal_uid:
+    get_url = f'http://127.0.0.1:9001/api/core/v1/proposal/{proposal_uid}'
+    response = requests.get(get_url)
+    if response.status_code == 200:
+        print("获取proposal信息成功")
+    else:
+        print(f"获取proposal信息失败，状态码: {response.status_code}")
+
+# 向函数接口声明添加实现
+implementation_url = 'http://127.0.0.1:9001/api/core/v1/namespace/test/functiondeclare/calculate/implementation'
+data = {
+    "comment": "example-comment from org1"
+}
+response = requests.put(implementation_url, json=data)
+
+if response.status_code == 200:
+    print("添加函数接口声明实现成功")
+else:
+    print(f"添加函数接口声明实现失败，状态码: {response.status_code}")

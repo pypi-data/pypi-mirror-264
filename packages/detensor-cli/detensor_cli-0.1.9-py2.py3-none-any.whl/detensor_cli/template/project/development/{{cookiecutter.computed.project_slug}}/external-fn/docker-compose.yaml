@@ -1,0 +1,11 @@
+services:
+  external-fn:
+    container_name: external-fn
+    environment:
+    - ADDR=10.193.172.95
+    - PORT=7000
+    image: external-fn:latest
+    network_mode: host
+    ports:
+    - 7000:7000
+version: '3'

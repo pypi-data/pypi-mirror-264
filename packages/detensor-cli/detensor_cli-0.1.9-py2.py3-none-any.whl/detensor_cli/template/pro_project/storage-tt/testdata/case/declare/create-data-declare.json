@@ -1,0 +1,32 @@
+{
+  "apiVersion": "core/v1",
+  "kind": "proposal",
+  "metadata": {
+    "name": "create-data-declare-proposal",
+    "namespace": "example-ns"
+  },
+  "spec": {
+    "actions": [
+      {
+        "create": {
+          "object": {
+            "apiVersion": "core/v1",
+            "kind": "datadeclare",
+            "metadata": {
+              "name": "example-data-declare",
+              "namespace": "example-ns"
+            },
+            "spec": {
+              "dataType": "int64",
+              "description": "just a int"
+            },
+            "status": {
+              "implementation": {}
+            }
+          }
+        }
+      }
+    ],
+    "autoCommit": false
+  }
+}

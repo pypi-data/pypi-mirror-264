@@ -1,0 +1,95 @@
+# 创建函数接口声明的提议, 由于接口声明都在命名空间内, 所以需要先创建命名空间.
+# 创建function declare 的 proposal
+# NOTICE: 必须先创建名为example-ns 的 namespace
+POST http://127.0.0.1:9001/api/core/v1/namespace/example-ns/proposal
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-function-declare-proposal",
+        "namespace": "example-ns"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "functiondeclare",
+                        "metadata": {
+                            "name": "binop-function-declare",
+                            "namespace": "example-ns"
+                        },
+                        "spec": {
+                            "args": [
+                                {
+                                    "argType": "i64",
+                                    "description": "left hand side"
+                                },
+                                {
+                                    "argType": "i64",
+                                    "description": "right hand side"
+                                }
+                            ],
+                            "retType": "i64",
+                            "description": "binary op function on two int"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
+HTTP 201
+[Captures]
+proposal_uid: body
+
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP 200
+
+GET http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}
+
+HTTP 200
+
+# 组织1向函数接口声明添加实现
+PUT http://127.0.0.1:9001/api/core/v1/namespace/example-ns/functiondeclare/binop-function-declare/implementation
+{
+    "comment": "example-comment from org1"
+}
+HTTP 200
+
+POST http://localhost:9001/api/core/v1/function
+{
+    "apiVersion": "core/v1",
+    "kind": "function",
+    "metadata": {
+        "name": "example-function"
+    },
+    "spec": {
+        "content": "http://localhost:6799/sub",
+        "description": "example description"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+POST http://localhost:9001/api/core/v1/functionbinding
+{
+    "apiVersion": "core/v1",
+    "kind": "functionbinding",
+    "metadata": {
+        "name": "test-function-binding-1"
+    },
+    "spec": {
+        "functionUid": 1,
+        "functionDeclareUid": 6,
+        "contractUid": 8
+    },
+    "status": {
+        "available": true
+    }
+}
+

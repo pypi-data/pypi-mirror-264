@@ -1,0 +1,6 @@
+{
+  "calculate": {
+    "calling_convention": "simple-json",
+    "url": "http://localhost:7000/calculate"
+  }
+}

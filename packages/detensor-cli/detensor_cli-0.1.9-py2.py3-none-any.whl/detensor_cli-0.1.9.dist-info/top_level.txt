@@ -1,0 +1,1 @@
+detensor_cli

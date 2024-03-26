@@ -1,0 +1,26 @@
+#! /usr/bin/env python3
+#停止并删除
+
+import os
+import signal
+import subprocess
+from moudle import stop,init_pwd
+from errno import ESRCH
+
+def main():
+    #关闭进程
+    with open('./pid', 'r') as f:
+        for line in f:
+            pid = int(line.strip())
+            try:
+                os.kill(pid, signal.SIGTERM)
+            except OSError as e:
+                # 如果进程不存在，忽略异常
+                if e.errno == ESRCH:
+                    pass
+    #清空容器
+    stop()
+    init_pwd()
+
+if __name__ == "__main__":
+    main()
