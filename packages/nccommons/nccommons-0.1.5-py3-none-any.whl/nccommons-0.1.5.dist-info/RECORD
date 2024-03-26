@@ -1,0 +1,10 @@
+nccommons/__init__.py,sha256=7039UiHYA4Ocv87KMUJiOQ6aTZRXFARL3RqUObQHAfQ,141
+nccommons/decode.py,sha256=CKA4137Qs-CH1YZ3T75aapeMdzKJQgB5-EA6Dw8G8nA,171
+nccommons/emails.py,sha256=QpY4vnvrgYUrNgVS3c-idQwbKyRBMgn8-OBzgF1ZMGA,4304
+nccommons/gsheetHelper.py,sha256=BCDi8oRF2mltsZ2q2PL67zU7J0RrvDX-_cvDiDJMO1U,6735
+nccommons/jsons.py,sha256=-2VQ9OqM1GaPT3-kU5qYUwuYKy3cIkdjBRcbAaP_Y9s,3439
+nccommons-0.1.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nccommons-0.1.5.dist-info/METADATA,sha256=HX70QjY4ph_eSjNSprdi4RnaLpxbKBF2HohSFa1C8p8,636
+nccommons-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+nccommons-0.1.5.dist-info/top_level.txt,sha256=MBo2C7Lhi4gOu7Px4jSnh5bs1NlHAqduUR-rezzB93o,10
+nccommons-0.1.5.dist-info/RECORD,,
