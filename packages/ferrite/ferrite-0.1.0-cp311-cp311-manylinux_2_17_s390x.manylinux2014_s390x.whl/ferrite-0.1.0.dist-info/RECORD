@@ -1,0 +1,5 @@
+ferrite-0.1.0.dist-info/METADATA,sha256=hVHn537RD0WDLExULBO4eN20em0zntod3PWG6Qj0KvI,387
+ferrite-0.1.0.dist-info/WHEEL,sha256=zMFqEbfnzfrCkvMDwAwJuCYkZACRQ8CmYGurtlpf9ZQ,127
+ferrite/__init__.py,sha256=uw7AOEfJOXVqf-dpZt1_UdKYXt_TSoL-eGYW7bDhH-k,111
+ferrite/ferrite.cpython-311-s390x-linux-gnu.so,sha256=OOuag0rKkOJvKzUTTDPYjcsS3A0dfUl5eLVpJLPwriU,5050512
+ferrite-0.1.0.dist-info/RECORD,,
