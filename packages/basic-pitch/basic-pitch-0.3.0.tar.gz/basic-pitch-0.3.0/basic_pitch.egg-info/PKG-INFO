@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: basic-pitch
+Version: 0.3.0
+Summary: Basic Pitch, a lightweight yet powerful audio-to-MIDI converter with pitch bend detection.
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: coremltools; platform_system == "Darwin" and python_version < "3.11"
+Requires-Dist: librosa>=0.8.0
+Requires-Dist: mir_eval>=0.6
+Requires-Dist: numpy>=1.18
+Requires-Dist: onnxruntime; platform_system == "Windows" and python_version < "3.11"
+Requires-Dist: pretty_midi>=0.2.9
+Requires-Dist: resampy<0.4.3,>=0.2.2
+Requires-Dist: scikit-learn
+Requires-Dist: scipy>=1.4.1
+Requires-Dist: tensorflow<2.16,>=2.4.1; platform_system != "Darwin" and python_version >= "3.11"
+Requires-Dist: tensorflow-macos>=2.4.1; platform_system == "Darwin" and python_version >= "3.11"
+Requires-Dist: tflite-runtime; platform_system == "Linux" and python_version < "3.11"
+Requires-Dist: typing_extensions
+Provides-Extra: test
+Requires-Dist: coverage>=5.0.2; extra == "test"
+Requires-Dist: pytest>=6.1.1; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Provides-Extra: tf
+Requires-Dist: tensorflow<2.16,>=2.4.1; platform_system != "Darwin" and extra == "tf"
+Requires-Dist: tensorflow-macos<2.16,>=2.4.1; (platform_system == "Darwin" and python_version > "3.7") and extra == "tf"
+Provides-Extra: coreml
+Requires-Dist: coremltools; extra == "coreml"
+Provides-Extra: onnx
+Requires-Dist: onnxruntime; extra == "onnx"
+Provides-Extra: docs
+Requires-Dist: mkdocs>=1.0.4; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: basic_pitch[coreml,docs,onnx,test,tf]; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: tox; extra == "dev"
