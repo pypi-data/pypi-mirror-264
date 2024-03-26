@@ -1,0 +1,13 @@
+*.mp4
+*.3gp
+*.pyc
+*.zip
+*.7z
+*.tar
+*.tgz
+*.tar.gz
+*.rar
+*.vscode
+*__pycache__
+dist
+.coverage
