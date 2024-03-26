@@ -1,0 +1,16 @@
+ documentation
+archive
+build
+cpe_micropython
+dist
+docs
+drivers
+esp_8266_micropython
+images
+notes
+play
+s3_extend
+site
+tmx_pico_aio
+utilities
+venv
