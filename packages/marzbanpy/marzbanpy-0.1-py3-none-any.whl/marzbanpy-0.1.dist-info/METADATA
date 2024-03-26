@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: marzbanpy
+Version: 0.1
+Summary: An unofficial package for marzban panel
+Home-page: https://github.com/YoungVPN/marzbanpy
+Author: gunsh1p
+Author-email: bertollo@gunship.su
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/YoungVPN/marzbanpy
+Keywords: marzban api x-ui hiddify vpn proxy vless vmess shadowsocks
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (>=2.25.1)
+
+# marzbanpy
+An unofficial package for marzban panel
+
+## Donation
+This project was and is being written under a beer :)
+
+If you want to support me and help the development of the project, here are ways to donate:
+
+- BTC: `bc1qmrwu6uv00xcvsjvjkwnaw2ky6aenhjgqewg0w4`
+
+- USDT (TRC-20): `TJUUhJpeaZBBXpG6yUtzLsQmT3XQjViowV`
+
+- ETH: `0x052D18812fA247Ce6853a6D95213CEbdb45c6277`
+
+- BANK CARD (RU): `5536 9139 1278 5017`
+
+## Installation
+```shell
+pip install marzbanpy
+```
+
+## Usage example
+
+```python
+import asyncio
+
+from marzbanpy import Marzban
+from marzbanpy.types import User
+
+Marzban.setup('https://xray.penetrates.everything', 'admin', 'GodSaveTheQueen')
+
+async def main():
+    admin_token = await Marzban.get_token()
+    admin_token = await Marzban.get_token(renewal=True)
+    users: list[User] = await User.all()
+    print(len(users))
+    print(users[:5])
+    user: User = await User.create(
+        username='example',
+        proxies={},
+        inbounds={},
+        status='active',
+        expire=0
+    )
+    print(user) # {'username': 'example', 'proxies': {}, ...}
+    user['status'] = 'disabled'
+    await user.save()
+    await user.delete()
+
+asyncio.run(main())
+
+```
+
+## License
+
+The project is under the [MIT](https://github.com/YoungVPN/marzbanpy/blob/main/LICENSE) licence
+
+## Contacts
+
+Email: <bertollo@gunship.su>
+
+Telegram: [@blackbloodredkiss](https://t.me/blackbloodredkiss)
+
