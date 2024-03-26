@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mirror_playlists/__init__.py
+mirror_playlists/main.py
+mirror_playlists/mirror_playlists_utils.py
+mirror_playlists/test_mirror_playlists_utils.py
+mirror_playlists.egg-info/PKG-INFO
+mirror_playlists.egg-info/SOURCES.txt
+mirror_playlists.egg-info/dependency_links.txt
+mirror_playlists.egg-info/entry_points.txt
+mirror_playlists.egg-info/top_level.txt

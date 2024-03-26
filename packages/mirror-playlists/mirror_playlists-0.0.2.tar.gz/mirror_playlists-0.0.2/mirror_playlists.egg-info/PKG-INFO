@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mirror-playlists
+Version: 0.0.2
+Summary: A tool to mirror playlists on devices
+Home-page: https://github.com/renn0xtek9/mirror-playlists
+Author: Maxime Haselbauer
+Author-email: maxime.haselbauer@googlemail.com
+License: MIT
+Keywords: keywords
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
