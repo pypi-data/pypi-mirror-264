@@ -1,0 +1,7 @@
+aspell-python-py3
+base58
+gmpy2
+langdetect
+pycrypto
+scipy
+z3-solver
