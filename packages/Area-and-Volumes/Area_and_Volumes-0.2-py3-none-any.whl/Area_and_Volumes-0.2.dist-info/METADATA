@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Area-and-Volumes
+Version: 0.2
+Summary: A Python library for solving areas and formulas
+Home-page: https://github.com/JacobD2013/Areas-and-Volumes
+Author: Jacob D
+Author-email: d8008385@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: mpmath >=1.2.9
+
