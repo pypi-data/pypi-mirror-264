@@ -1,0 +1,13 @@
+static_router/__init__.py,sha256=p7FUYgfJpni-nXTvL-bPVvh50SOBpYKplqGgXcsV928,250
+static_router/loaders/__init__.py,sha256=vz9rbHoO4vGo-vq8nf408iqIJb7MJc5YwmZ_akgyRZo,133
+static_router/loaders/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+static_router/loaders/static.py,sha256=jcY4YCJD56SkFXbHwPno5RvmaQ8S_D13NV4kBwtBUUI,2661
+static_router/main.py,sha256=_dP56weD-GRuQGLAFZ1rThmR-ayLCbypOB_nf-_O06E,3005
+static_router/models/__init__.py,sha256=-EpMPUAlMvxeaAy65qs2kUi0fwookBp71myoHl4Ylbo,189
+static_router/models/content_loader.py,sha256=Cb1xG7NXduOtHygNbwg8DBFf0RCjjN_tb4OqJKPbGKo,604
+static_router/models/page.py,sha256=k7KoM597C4ZllUb53EV4VyYiK78MzphdqXCHka4pcDk,3595
+static_router/models/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+static_router/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+static_router-0.1.0.dist-info/METADATA,sha256=lZLL0aB6qvQimu_zexCZQ_s1cgI3ukTrzsxF8uD3nJQ,1031
+static_router-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+static_router-0.1.0.dist-info/RECORD,,

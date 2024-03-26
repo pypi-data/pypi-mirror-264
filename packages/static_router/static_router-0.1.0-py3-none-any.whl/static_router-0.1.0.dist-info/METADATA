@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: static_router
+Version: 0.1.0
+Summary: 
+Author: Sam Kenney
+Author-email: sam.kenney@me.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: markdown (>=3.5.1,<4.0.0)
+Requires-Dist: pyaml (>=23.9.7,<24.0.0)
+Requires-Dist: pygments (>=2.17.2,<3.0.0)
+Requires-Dist: typing-extensions (>=4.9.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# StaticRouter
+
+A static file routing solution for FastAPI.
+
+```python
+import static_router
+from static_router.loaders import StaticContentLoader
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+# Other such fastapi things as required
+# ...
+
+loader = StaticContentLoader(directory="content")
+static_router.register(app, content_loader=loader)
+```
+
+In your templates, you may access the following variables:
+ - `page` - This contains any frontmatter you have defined in your markdown content
+ - `router` - The content router instance
+
