@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: paintlogio-py
+Version: 0.1.0
+Summary: Logging for important Python applications will become more beautiful and functional!
+Home-page: https://github.com/alexeev-engineer/paintlog/
+Author: Alexeev Bronislav
+Author-email: Alexeev Bronislav <bro.alexeev@inbox.ru>
+Maintainer-email: Alexeev Bronislav <bro.alexeev@inbox.ru>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, Alexeev Bronislav
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/alexeev-engineer/paintlog
+Project-URL: Issues, https://github.com/alexeev-engineer/paintlog/issues
+Project-URL: Repository, https://github.com/alexeev-engineer/paintlog
+Project-URL: Changelog, https://github.com/alexeev-engineer/paintlog/main/CHANGELOG.md
+Keywords: logging,colors,paint,paintlog,log
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ruff
+
+
+<p align="center">
+	<img src="docs/paintlog.png">
+</p>
+
+<p align="center">Logging for important Python applications will become more beautiful and functional!</p>
+<br>
+<p align="center">
+    <img src="https://img.shields.io/github/languages/top/alexeev-engineer/paintlog?style=for-the-badge">
+    <img src="https://img.shields.io/github/languages/count/alexeev-engineer/paintlog?style=for-the-badge">
+    <img src="https://img.shields.io/github/stars/alexeev-engineer/paintlog?style=for-the-badge">
+    <img src="https://img.shields.io/github/issues/alexeev-engineer/paintlog?style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/alexeev-engineer/paintlog?style=for-the-badge">
+    </br>
+</p>
+
+> A new step, a new future
+
+Paintlog will help you track and work with your Python applications easier and more functionally!
+
+> [!CAUTION]
+> At the moment, Paintlog is under active development, many things may not work, and this version is not recommended for use (all at your own risk).
+
+<p align="center">
+    <img src="docs/screenshot.png">
+</p>
+
+## Contact and support
+If you have questions about using Paintlog, then create an [issue](https://github.com/alexeev-engineer/paintlog/issues/new) in the repository or write to me at bro.alexeev@inbox.ru.
+
+You can also write to me on Telegram: [@alexeev_dev](https://t.me/alexeev_dev)
+
+paintlog is an Open Source project, and it only survives due to your feedback and support!
+
+Project releases are available at [this link](https://github.com/alexeev-engineer/paintlog/releases).
+
+## Documentation
+You can read the usage documentation at [this link](./docs/index.md).
+
+## Requirements
+To run the software you will have to install the necessary programs and dependencies, such as:
+
+ + Python interpreter (>=3.10)
+ + PIP package manager (>=22.0)
+ + Python libraries (listed in [requirements.txt](./requirements.txt))
+
+## Functional
+Here you can see what paintlog can already do and what else is planned to be added in the future:
+
+ - [x] Advanced print for debug (pydbg_obj)
+ - [x] Colors
+ - [x] Logging
+ - [x] Benchmark and decorators for funcs
+ - [ ] Update advanced print for debug (pydbg_obj)
+ - [ ] Update docs and commentaries in code1
+
+## Copyright
+Copyright © 2024, Alexeev Bronislav and Core86® LLC
+
+All rights reversed
