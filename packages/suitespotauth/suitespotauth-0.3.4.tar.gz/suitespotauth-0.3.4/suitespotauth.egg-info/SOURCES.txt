@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+suitespotauth/__init__.py
+suitespotauth/auth.py
+suitespotauth/cli.py
+suitespotauth/credentials.py
+suitespotauth/exceptions.py
+suitespotauth.egg-info/PKG-INFO
+suitespotauth.egg-info/SOURCES.txt
+suitespotauth.egg-info/dependency_links.txt
+suitespotauth.egg-info/entry_points.txt
+suitespotauth.egg-info/requires.txt
+suitespotauth.egg-info/top_level.txt
