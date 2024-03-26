@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+devokay.egg-info/PKG-INFO
+devokay.egg-info/SOURCES.txt
+devokay.egg-info/dependency_links.txt
+devokay.egg-info/requires.txt
+devokay.egg-info/top_level.txt
+src/__init__.py
+src/hello.py

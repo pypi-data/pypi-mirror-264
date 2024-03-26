@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["src"]
+exclude = ["img", "test.py", ".gitignore"]
+
+[project]
+name = "devokay"
+version = "0.0.1"
+urls = { text = "https://github.com/devokay" }
+authors = [
+    { name = 'sevenli', email = 'asusual.cn@gmail.com' }
+]
+description = "tools for daily developing."
+readme = "READLME.md"
+requires-python = ">=3.6"
+license = { text = "Apache 2.0" }
+keywords = [
+    "develop tools"
+]
+classifiers = [
+    'Intended Audience :: Developers',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3'
+]
+dependencies = [
+    'requests'
+]
