@@ -1,0 +1,2 @@
+class PlotPolyShapeError(ValueError):
+    pass
