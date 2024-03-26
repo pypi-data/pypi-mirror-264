@@ -1,0 +1,5 @@
+afmformats>=0.18.0
+nanite>=4.1.1
+matplotlib>=3
+packaging
+pyqt5
