@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    tags-ignore:
+      - 'v*.dev'
+
+jobs:
+  release-pypi:
+    permissions:
+      id-token: write
+    if: github.repository_owner == 'jolideco'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Update tags
+        run: git fetch --tags --force
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          python --version
+          pip install -U build
+          python -m build --sdist
+      - name: Publish package
+        uses: pypa/gh-action-pypi-publish@release/v1
+
+  release-github:
+    if: github.repository_owner == 'jolideco' && !contains(github.ref_name, 'rc')
+    needs: release-pypi
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: |
+            Jolideco is a Python package for joint deconvolution of astronomical images with Poisson noise. See [release notes for details](https://github.com/jolideco/jolideco/blob/main/docs/changelog.rst).

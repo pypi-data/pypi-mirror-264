@@ -1,0 +1,84 @@
+# GitHub Actions workflow for testing and continuous integration.
+#
+# This file performs testing using tox and tox.ini to define and configure the test environments.
+
+name: CI Tests
+
+on:
+  push:
+    branches:
+    - main  # GitHub now defaults to 'main' as the name of the primary branch. Change this as needed.
+  #  tags: # run CI if specific tags are pushed
+  pull_request:
+    # branches: # only build on PRs against 'main' if you need to further limit when CI is run.
+    #    - main
+
+jobs:
+  # Github Actions supports ubuntu, windows, and macos virtual environments:
+  # https://help.github.com/en/actions/reference/virtual-environments-for-github-hosted-runners
+  ci_tests:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    env:
+      JOLIDECO_GMM_LIBRARY: ${{ matrix.gmm_path }}
+    strategy:
+      matrix:
+        include:
+          - name: Code style checks
+            os: ubuntu-latest
+            python: 3.x
+            toxenv: check-style -- --exclude=jolideco-gmm-prior-library
+        
+          - name: Python 3.10 with all optional dependencies
+            os: ubuntu-latest
+            python: "3.10"
+            toxenv: test
+            gmm_path: /home/runner/work/jolideco/jolideco/jolideco-gmm-prior-library
+
+          - name: macOS - Python 3.10 with all optional dependencies
+            os: macos-latest
+            python: "3.10"
+            toxenv: test
+            gmm_path: /Users/runner/work/jolideco/jolideco/jolideco-gmm-prior-library
+
+          - name: Windows - Python 3.10 with all optional dependencies
+            os: windows-latest
+            python: "3.10"
+            toxenv: test
+            gmm_path: D:\a\jolideco\jolideco\jolideco-gmm-prior-library
+
+          - name: Test building of Sphinx docs
+            os: ubuntu-latest
+            python: "3.10"
+            toxenv: docs
+            gmm_path: /home/runner/work/jolideco/jolideco/jolideco-gmm-prior-library
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Checkout Jolideco test data
+      uses: actions/checkout@v3
+      with:
+        repository: jolideco/jolideco-gmm-prior-library
+        fetch-depth: 0
+        path: jolideco-gmm-prior-library
+    - name: Set up python ${{ matrix.python }} on ${{ matrix.os }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python }}
+    - name: Install base dependencies
+      run: |
+        pwd
+        python -m pip install --upgrade pip
+        python -m pip install tox codecov
+    - name: Test with tox
+      run: |
+        tox -e ${{ matrix.toxenv }}
+    # This is an example of how to upload coverage to codecov
+    # - name: Upload coverage to codecov
+    #   if: "contains(matrix.toxenv, '-cov')"
+    #   uses: codecov/codecov-action@v2
+    #   with:
+    #     file: ./coverage.xml

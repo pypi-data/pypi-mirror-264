@@ -1,0 +1,29 @@
+# Read the Docs configuration file for Sphinx projects
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required
+version: 2
+
+# Set the OS, Python version and other tools you might need
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+  commands:
+    - git clone --depth 1 https://github.com/jolideco/jolideco-gmm-prior-library.git
+    - pip install --user tox
+    - python3 -m tox -e docs -- --strict
+    - mkdir -p $READTHEDOCS_OUTPUT/html/
+    - cp -r docs/_build/html/ $READTHEDOCS_OUTPUT/
+    - ls -lh $READTHEDOCS_OUTPUT/html/
+python:
+  install:
+    - method: pip
+      path: tox
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+submodules:
+  include: all
+  recursive: true

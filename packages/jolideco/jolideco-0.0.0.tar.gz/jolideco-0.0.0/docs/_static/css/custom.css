@@ -1,0 +1,35 @@
+:root {
+    --pst-font-family-base: Avenir Next, var(--pst-font-family-base-system);
+    --pst-font-family-heading: Avenir, var(--pst-font-family-base-system);
+    --pst-font-family-monospace: Monaco, var(--pst-font-family-monospace-system);
+}
+
+html[data-theme="light"] {
+    --pst-color-primary: rgb(64, 80, 135);
+    --pst-color-secondary: rgb(71, 144, 131);
+}
+
+html[data-theme="dark"] {
+    --pst-color-primary: rgb(236, 229, 80);
+    --pst-color-secondary: rgb(71, 144, 131);
+}
+
+.sphx-glr-download a {
+    background-color: #d9edf7 !important;
+    border: 1px solid #bce8f1 !important;
+    background-image: none !important;
+}
+
+.sphx-glr-download code {
+    color: #3a87ad !important;
+    font-weight: 200 !important;
+}
+
+.sphx-glr-download a:hover {
+    background-color: #d9edf7 !important;
+}
+
+
+section {
+    text-align: justify;
+}
