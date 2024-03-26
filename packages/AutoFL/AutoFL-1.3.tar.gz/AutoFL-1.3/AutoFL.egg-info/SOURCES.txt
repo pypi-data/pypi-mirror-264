@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+AutoFL.egg-info/PKG-INFO
+AutoFL.egg-info/SOURCES.txt
+AutoFL.egg-info/dependency_links.txt
+AutoFL.egg-info/entry_points.txt
+AutoFL.egg-info/top_level.txt
+AutoFlask/AutoFlask.py
+AutoFlask/__init__.py
