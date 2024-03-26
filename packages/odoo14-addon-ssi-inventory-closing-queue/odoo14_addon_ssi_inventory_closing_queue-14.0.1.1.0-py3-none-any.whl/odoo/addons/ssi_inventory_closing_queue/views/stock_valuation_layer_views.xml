@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 OpenSynergy Indonesia
+     Copyright 2024 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+<record id="stock_valuation_layer_view_form" model="ir.ui.view">
+    <field name="name">stock.valuation.layer.queue - form</field>
+    <field name="model">stock.valuation.layer</field>
+    <field name="inherit_id" ref="stock_account.stock_valuation_layer_form" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//page[last()]" position="after">
+                <page name="page_queue" string="Queue Job">
+                    <group
+                            name="accounting_2"
+                            colspan="4"
+                            col="2"
+                            groups="base.group_system"
+                        >
+                        <field name="job_id" readonly="1" />
+                        <field name="job_state" />
+                        <field name="job_result" />
+                    </group>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+</odoo>

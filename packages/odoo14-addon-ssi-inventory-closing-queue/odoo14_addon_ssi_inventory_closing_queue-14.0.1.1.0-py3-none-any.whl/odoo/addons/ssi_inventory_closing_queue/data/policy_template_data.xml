@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<data>
+<function name="write" model="ir.model.data">
+    <value
+                model="ir.model.data"
+                search="[('module', '=', 'ssi_inventory_closing'), ('name', '=', 'inventory_closing_policy_template_detail_cancel')]"
+            />
+    <value eval="{'noupdate': False}" />
+</function>
+<record
+            id="ssi_inventory_closing.inventory_closing_policy_template_detail_cancel"
+            model="policy.template_detail"
+        >
+    <field name="restrict_additional" eval="1" />
+    <field name="additional_python_code">result = True
+if document.state == "confirm" and not document.all_job_finished:
+  result = False
+    </field>
+</record>
+</data>
+</odoo>
