@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: random-acts-of-kindness
+Version: 0.1.0
+Summary: 
+Author: Peter Koval
+Author-email: koval.peter@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flask (>=3.0.2,<4.0.0)
+Requires-Dist: flet (>=0.21.2,<0.22.0)
+Requires-Dist: huggingface-hub (>=0.21.4,<0.22.0)
+Requires-Dist: openai (>=1.14.2,<2.0.0)
+Requires-Dist: pillow (>=10.2.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# Using the package
+
+There are CLI utilities:
+    
+1. show-counter-flet-desktop
+2. gen-image-for-description
+
+Please, consult their --help options too.
+
+# Dev install under linux 
+
+```commandline
+sudo apt install libmpv1
+```
+

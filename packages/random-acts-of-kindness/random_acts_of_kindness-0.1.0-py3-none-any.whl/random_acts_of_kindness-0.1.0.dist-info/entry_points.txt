@@ -1,0 +1,4 @@
+[console_scripts]
+gen-image-for-description=raoc.text_to_image.hugging_face_cli:main
+show-counter-flet-desktop=raoc.main:main
+
