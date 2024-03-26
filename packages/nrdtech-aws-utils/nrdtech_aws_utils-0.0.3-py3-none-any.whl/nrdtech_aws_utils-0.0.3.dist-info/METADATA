@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: nrdtech_aws_utils
+Version: 0.0.3
+Summary: A library of helpful wrappers around boto3 aws functions
+Author-email: Nic Delorme <nic.delorme@nrdtech.io>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Dist: nrdtech-utils==0.0.3
+Requires-Dist: boto3==1.34.67
+Requires-Dist: pandas==2.2.0
+Requires-Dist: pyarrow==15.0.2
+Project-URL: Repository, https://github.com/NRD-Tech/nrdtech-aws-utils
+
+# NRD Tech AWS Python Utils
+
+## Description
+A library of helpful wrappers around boto3 aws functions
+
+## Testing
+```
+pytest
+```
+
+```
+pytest --cov=nrdtech_aws_utils tests/
+```
+
+## Build
+```
+python -m pip install --upgrade pip
+pip install flit
+flit build
+```
+
