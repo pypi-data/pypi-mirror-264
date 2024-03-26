@@ -1,0 +1,12 @@
+heliolinx/__init__.py,sha256=lCtz-EjDjm1qirLqpI-SVgKpp-6TXtaaCAZhIx1AVuw,59
+heliolinx/_version.py,sha256=NDHlyIcJZjLz8wKlmD1-pr6me5FHBAYwO_ynLG-37N8,411
+heliolinx/heliolinx.cpython-311-x86_64-linux-gnu.so,sha256=wUZkDMsC8Rab7nB0p2NkIuCB9Kie28Tm-q7iPuDok8M,1713737
+heliolinx/solarsyst_dyn_geo.py,sha256=dr2pwZDQ21C17QOxkd6UX6sXAb0rM3pK93KrhugvLIA,8085
+src/heliolinx.cpp,sha256=hoxNq8P5ANZk4BRqiZuCHtSsUYLsnIfjXArAVfIbPWY,20543
+src/solarsyst_dyn_geo01.cpp,sha256=lniD1oWNAwdgVLe13f2gKuVkWoTJ7UIZ7QQY2NwSLZk,1212788
+heliolinx-0.0.2.dist-info/LICENSE,sha256=cgopxClvWRGLKwbRIFUdao-EPrsv24M8W3IlxJVdicw,1507
+heliolinx-0.0.2.dist-info/METADATA,sha256=x_jCZgnTNE_FP1PzB3ICgXJCkWkA0O2CB82AKM7_NWQ,67158
+heliolinx-0.0.2.dist-info/WHEEL,sha256=-7Vwsd-KuPOtdyxdAC8drxF7lN4th9mKINh8g6MaZ9k,152
+heliolinx-0.0.2.dist-info/top_level.txt,sha256=JDhTnXAx_DzEEHO6yKuNpfCPm7CFB-5TQVlVHAGQHCU,31
+heliolinx-0.0.2.dist-info/RECORD,,
+heliolinx.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
