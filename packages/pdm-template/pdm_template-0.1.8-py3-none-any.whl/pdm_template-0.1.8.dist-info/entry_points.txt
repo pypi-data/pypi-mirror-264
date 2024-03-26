@@ -1,0 +1,5 @@
+[console_scripts]
+check-changelog = pdm_template.check_changelog:main
+extract-todo = pdm_template.extract_todo:main
+fix-doc = pdm_template.fix_doc:main
+
