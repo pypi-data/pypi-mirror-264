@@ -1,0 +1,9 @@
+README.rst
+setup.py
+package-tea-eight/__init__.py
+package-tea-eight/main.py
+package_tea_eight.egg-info/PKG-INFO
+package_tea_eight.egg-info/SOURCES.txt
+package_tea_eight.egg-info/dependency_links.txt
+package_tea_eight.egg-info/requires.txt
+package_tea_eight.egg-info/top_level.txt
