@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "compas_tools_lcm"
+version = "0.1.0"
+description = "MBARI CoMPAS Lab executables for working with LCM data"
+authors = ["MBARI CoMPAS Lab"]
+readme = "README.md"
+packages = [{ include = "lcm_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23"
+lcm = "^1.4.4"
+navlib = "^0.1.4"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.0"
+compas-lcmtypes = "^0.1.0"
+
+[tool.poetry.scripts]
+log2pkl = "lcm_tools.logtools.log2pkl.log2pkl:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

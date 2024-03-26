@@ -1,0 +1,7 @@
+# shared
+numpy
+scipy
+lcm
+# calibrated_ahrs
+lcmlog-py
+# lass_republisher
