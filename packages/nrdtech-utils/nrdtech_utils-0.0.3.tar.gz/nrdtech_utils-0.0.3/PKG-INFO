@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: nrdtech_utils
+Version: 0.0.3
+Summary: A library of helpful wrappers around low level built-in python functions
+Author-email: Nic Delorme <nic.delorme@nrdtech.io>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Project-URL: Repository, https://github.com/NRD-Tech/nrdtech-utils
+
+# NRD Tech General Python Utils
+
+## Description
+A library of helpful wrappers around low level built-in python functions
+
+## Testing
+```
+pytest
+```
+
+```
+pytest --cov=nrdtech_utils tests/
+```
+
+## Build
+```
+python -m pip install --upgrade pip
+pip install flit
+flit build
+```
+

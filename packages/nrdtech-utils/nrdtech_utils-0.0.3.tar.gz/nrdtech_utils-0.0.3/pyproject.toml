@@ -1,0 +1,31 @@
+[build-system]
+requires = ["flit_core >= 3.4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "nrdtech_utils"
+version = "0.0.3"
+description = "A library of helpful wrappers around low level built-in python functions"
+authors = [{ name = "Nic Delorme", email = "nic.delorme@nrdtech.io" }]
+license = {file = "LICENSE"}
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+# Specify runtime dependencies required by your package here (if any)
+# dependencies = []
+
+# [project.optional-dependencies]
+# cli = ["example==8.1.1"]
+
+[project.urls]
+Repository  = "https://github.com/NRD-Tech/nrdtech-utils"
+
+[tool.setuptools]
+packages = ["nrdtech_utils"]
