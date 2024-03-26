@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: loguru-extra
+Version: 0.1.7
+Summary: 
+Home-page: https://github.com/galkin-anton/loguru-extra
+License: MIT
+Keywords: log,loguru
+Author: ABGalkin
+Author-email: galkin88@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: traceid (>=1.1.1,<2.0.0)
+Project-URL: Repository, https://github.com/galkin-anton/loguru-extra
+Description-Content-Type: text/markdown
+
+# Небольшое расширение loguru
