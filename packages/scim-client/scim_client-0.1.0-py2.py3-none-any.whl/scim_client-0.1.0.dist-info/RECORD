@@ -1,0 +1,12 @@
+scim_client/__init__.py,sha256=ZMZZPOGvkw7tGiyI64lyrcugPAyaxLPT5HOSfpu7hKA,286
+scim_client/defaults.py,sha256=7f0MEMpUsCfaz_vS7o24UusaBEbyO-e8sFaiDNIBED4,53
+scim_client/resources.py,sha256=SuBsLZN4itNGJsL3HMaC7MkKADFE-siIwyQKm-iR8rM,3130
+scim_client/response.py,sha256=quodBooxI9rT0oU_FfHjyZFVrqPknY1hEng7L2GsPoU,1600
+scim_client/scim_client.py,sha256=bvy663u9IkYWk8sgMK5XE-YzUX8ClpuIXZkxKxDj-2k,4792
+scim_client/utils.py,sha256=f4soUHwZZsPsqJhLfdMAXAlhLjHgOruyfqyJIxFXD0k,1883
+scim_client-0.1.0.dist-info/AUTHORS.rst,sha256=89nob8DNSPAp0KMN1F1oZ6WXmt7kchoL-Lun7PomAKw,172
+scim_client-0.1.0.dist-info/LICENSE,sha256=u6gcvkEG0_wTh7FzFIApAreFNo7DaPIdd_rMxWY6z6Y,1075
+scim_client-0.1.0.dist-info/METADATA,sha256=ze1rj4Ja_fZexmyXvT6UXqlwmrKIatbtKtySlXgMwYs,1833
+scim_client-0.1.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+scim_client-0.1.0.dist-info/top_level.txt,sha256=l7JHuc79yJq8HoVFovcdn3UlYqm1qxYxw43FXKYEgas,12
+scim_client-0.1.0.dist-info/RECORD,,
