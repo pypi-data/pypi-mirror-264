@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: namada
+Version: 1.0.6
+Summary: Python package for Namada
+Home-page: https://github.com/qmine/namada
+Author: qmine
+Author-email: self.crypto@protonmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+# Python package for Namada
+A package for Namada.
+
+## Install
+```sh
+pip install namada
+```
+
+## How to use
+_After installing the package use following import:_ <br>
+```sh
+from namada import Namada
+client = Namada()
+```
+
+## Blocks:
+```sh
+from namada import Namada
+client = Namada()
+client.get_latest_block()
+client.get_block_height(height)
+client.get_block_height_transactions(height)
+client.get_block_height_signatures(height)
+client.get_block_list_records(records)
+client.get_block_list_records_to_block(records, to_block)
+```
+
+## Transactions:
+```sh
+from namada import Namada
+client = Namada()
+client.get_latest_tx()
+client.get_tx_hash(tx_hash)
+client.get_tx_list_records(records)
+client.get_tx_list_records_to_block(records, to_block)
+```
+
+## Validators:
+```sh
+from namada import Namada
+client = Namada()
+client.get_validator_list()
+client.get_validator_address(address)
+client.get_validator_latest_block(address)
+client.get_validator_latest_signatures(address)
+```
