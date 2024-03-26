@@ -1,0 +1,7 @@
+orca_common/__init__.py,sha256=zdtctEgpV-kP2tQDhlI8u7MsB5DunY7CDNCoGgi7S-Q,247
+orca_common/api_types.py,sha256=y4CsJlKaixemk2cz-a-N24o7uxeuGHyUvowJ6gM2-fo,1034
+orca_common/embedding_models.py,sha256=B2skiL1dmH_pXLWYFpf8Z3PQ_SLQAgYIlhvmhdWiAjE,264
+orca_common/numeric_type.py,sha256=SdZMBbi3ngDgRWCqzwu8wfuqZrG112IQUeLLT6inZ3E,2528
+orca_common-0.1.2.dist-info/METADATA,sha256=CVP7CWExlNb35CRfo2EmL4iXieKOuBODxbi5oBM1jy8,858
+orca_common-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+orca_common-0.1.2.dist-info/RECORD,,
