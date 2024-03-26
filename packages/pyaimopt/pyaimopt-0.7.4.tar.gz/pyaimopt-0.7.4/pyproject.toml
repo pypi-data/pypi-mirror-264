@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "pyaimopt"
+version = "0.7.4"
+description = ""
+authors = ["Project AIM <project-aim-contact@microsoft.com>",
+           "Christos Gkantsidis",
+           "Greg O'Shea"]
+readme = "README.md"
+license = "Proprietary"
+include = [ "NOTICE.html" ]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+networkx = "^3.0"
+numpy = "^1.24.2"
+scipy = {version = "^1.10.1", python = ">=3.8,<3.12"}
+json5 = "^0.9.11"
+anyio = "^3.6.2"
+azure-core = "^1.26.3"
+azure-identity = "^1.12.0"
+azure-storage-blob = "^12.15.0"
+python-dotenv = "^1.0.0"
+platformdirs = "^3.5.1"
+packaging = "^23.2"
+
+
+[tool.poetry.group.dev.dependencies]
+commitizen = "^2.42.0"
+pre-commit = "^3.1.0"
+pylint = "^2.16.2"
+mypy = "^1.0.1"
+pytest = "^7.2.1"
+ipython = "^8.10.0"
+matplotlib = "^3.7.0"
+ipykernel = "^6.21.2"
+python-dotenv = {extras = ["cli"], version = "^1.0.0"}
+keyring = "^23.13.1"
+artifacts-keyring = "^0.3.2"
+azure-devops-artifacts-helpers = "^1.0.10"
+twine = "^4.0.2"
+jupyterlab = "^3.6.1"
+notebook = "^6.5.3"
+jupytext = "^1.14.5"
+pip-licenses = "^4.1.0"
+pytest-cov = "^4.0.0"
+pytest-azurepipelines = "^1.0.4"
+sphinx = "^7.0.1"
+
+[tool.poetry.scripts]
+aim = "pyaimopt.azure_test:main"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.0.1"
+tag_format = "$version"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
