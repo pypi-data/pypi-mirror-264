@@ -1,0 +1,10 @@
+llmescache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llmescache/langchain/__init__.py,sha256=RrYhPxlohVUlHAkBr-__mlT9209AHQHd0wOEWRrM2V4,185
+llmescache/langchain/base.py,sha256=k0K5edm608JYB7wS4kfjVybGtHuz1SUznrvcwYbrpjE,1128
+llmescache/langchain/cache.py,sha256=NyXSqm5_hfJXbzaRofFTjURz2Df8PyttIrPrCrX0CqU,5384
+llmescache/langchain/storage.py,sha256=JM5QN0AakVXBW8u0yrHbFgW-ogksz2v60E0f2y6wyX8,6046
+llmescache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llm_elasticsearch_cache-0.2.1.dist-info/LICENSE,sha256=qjPukuI4yIlz9fp7PK3P2gjrs2ReDYaAF1HKsmHKGtA,1067
+llm_elasticsearch_cache-0.2.1.dist-info/METADATA,sha256=dm7JIp_yfJcXr2cdy-WesmzWW6YIvm_5XW128i0BpYQ,5720
+llm_elasticsearch_cache-0.2.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+llm_elasticsearch_cache-0.2.1.dist-info/RECORD,,
