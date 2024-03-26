@@ -1,0 +1,3 @@
+[console_scripts]
+starccato_generate = starccato.cli:cli_generate
+starccato_train = starccato.cli:cli_train
