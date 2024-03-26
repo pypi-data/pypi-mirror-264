@@ -1,0 +1,71 @@
+Metadata-Version: 2.3
+Name: dlmr_tools
+Version: 0.0.7
+Summary: Tool to extract data from xlsx files and create graphs
+Project-URL: Source code, https://github.com/yanis-dlmr/dlmr_tools
+Author-email: Yanis Delamare <yanisdeladraw@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.md
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: matplotlib==3.7.1
+Requires-Dist: numpy==1.23.5
+Requires-Dist: pandas==1.5.3
+Description-Content-Type: text/markdown
+
+# Dlmr Tools
+    
+[![PyPI version](https://badge.fury.io/py/dlmr-tools.svg)](https://badge.fury.io/py/dlmr-tools)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+1. [🔧 Usage](#-usage)
+2. [📦 Installation](#-installation)
+3. [⚖️ License](#️-license)
+4. [🔄 Changelog](#-changelog)
+
+## 🔧 Usage
+
+Composed of a set of tools to help you perform some tasks in your project:
+
+1. [Data Tool](#-data-tool)
+2. [Graph Tool](#-graph-tool)
+
+### 📚 Data Tool
+
+#### 🔧 Usage
+
+You can use the `Data Tool` to import data from `.xlsx` files.
+
+#### ✏️ Example
+
+```python
+
+```
+
+### 📊 Graph Tool 
+
+#### 🔧 Usage
+
+You can use the `Graph Tool` to create graphs from data.
+
+#### ✏️ Example
+
+```python
+
+```
+
+## 📦 Installation
+
+```bash
+pip install dlmr_tools
+```
+
+## ⚖️ License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## 🔄 Changelog
+
+Check the [CHANGELOG](CHANGELOG.md) file for details.
