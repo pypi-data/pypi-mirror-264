@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_aws_iot_thing_certificate_policy_dev/__init__.py
+src/cdk_aws_iot_thing_certificate_policy_dev/py.typed
+src/cdk_aws_iot_thing_certificate_policy_dev.egg-info/PKG-INFO
+src/cdk_aws_iot_thing_certificate_policy_dev.egg-info/SOURCES.txt
+src/cdk_aws_iot_thing_certificate_policy_dev.egg-info/dependency_links.txt
+src/cdk_aws_iot_thing_certificate_policy_dev.egg-info/requires.txt
+src/cdk_aws_iot_thing_certificate_policy_dev.egg-info/top_level.txt
+src/cdk_aws_iot_thing_certificate_policy_dev/_jsii/__init__.py
+src/cdk_aws_iot_thing_certificate_policy_dev/_jsii/cdk-aws-iot-thing-certificate-policy-dev@0.0.15.jsii.tgz
