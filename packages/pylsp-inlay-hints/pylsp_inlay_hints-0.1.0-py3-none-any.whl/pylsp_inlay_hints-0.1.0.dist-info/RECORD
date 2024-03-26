@@ -1,0 +1,11 @@
+pylsp_inlay_hints-0.1.0.dist-info/METADATA,sha256=x4XmnzZSy_8mRV1zT6sZgg2lS1Pr683y_oijNvt1bSM,2606
+pylsp_inlay_hints-0.1.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+pylsp_inlay_hints-0.1.0.dist-info/entry_points.txt,sha256=mJ02czudSEA3xxkRjBeraCVMM04i0oIej-7uzERSdcM,54
+pylsp_inlay_hints-0.1.0.dist-info/licenses/AUTHORS.txt,sha256=R9Vv6dpQiLsQS9o0n2ILiARGnlpW0LJ5UL-2rXElKz4,166
+pylsp_inlay_hints-0.1.0.dist-info/licenses/LICENSE,sha256=sP0BLXHRg4Y9l0OGWMg0KAoq-nsBLl2HW6fY1L4wrKE,1074
+pylsp_inlay_hints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylsp_inlay_hints/dispatcher.py,sha256=hyYYIeu7lk7feBDX7Mq1ImKmwVuRZOvXLA8otG9lOu4,1345
+pylsp_inlay_hints/extractor.py,sha256=1y2K6xQGn8Z_N6G_Qt977427LdpKI7-ZdUUXza5BsdQ,5084
+pylsp_inlay_hints/interfaces.py,sha256=AwCCb9AMZwtEAfX-DWJLH34hUC6Ci-vvBkGR6o7C_rQ,622
+pylsp_inlay_hints/plugin.py,sha256=Btu4TMdJE-srRX5ukt49jW1XOAehsmGMSnKWuZGYDak,695
+pylsp_inlay_hints-0.1.0.dist-info/RECORD,,
