@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: ruleopt
+Version: 0.1
+Summary: Optimization Based Rule Learning for Classification
+Home-page: https://github.com/sametcopur/ruleopt
+Author: Ilker Birbil, Nursen Aydin, Ozgür Martin, Samet Copur
+Author-email: sametcopur@yahoo.com
+Project-URL: Documentation, https://ruleopt.readthedocs.io/
+Project-URL: Source, https://github.com/sametcopur/ruleopt
+Project-URL: Tracker, https://github.com/sametcopur/ruleopt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn >=1.4.1
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: pandas >=2.2.1
+Requires-Dist: scipy >=1.11.4
+
+# ruleopt: Optimization-Based Rule Learning for Classification
+
+**ruleopt** is an innovative Python library designed for tackling classification challenges, focusing on scalability, interpretability, and seamless integration within machine learning workflows. Utilizing advanced linear programming, gradient descent, and rule generation and extraction techniques, **ruleopt** efficiently manages large datasets, ensuring model transparency and compatibility with existing machine learning pipelines. The library employs a rule-based optimization strategy, generating and weighting an optimal set of rules, assigning cost coefficients to these rules, and incorporating various constraints to strike a balance between interpretability and accuracy. With its capability to extract rules from ensemble models and its implementation of scalable rule generation and extraction, **ruleopt** sets new standards in the field.
+
+- **Efficient Rule Generation and Extraction**: Leverages linear programming and gradient descent for scalable rule generation, and offers rule extraction from ensemble models for comprehensive interpretability.
+- **Interpretability**: Prioritizes model transparency by assigning strategic costs to rules and adding constraints to achieve a desirable balance with accuracy.
+- **Integration with Machine Learning Libraries**: Facilitates smooth integration with **scikit-learn**, **LightGBM**, and **XGBoost**, enhancing existing machine learning pipelines.
+- **Extensive Solver Support**: Supports a wide array of solvers, including **Gurobi**, **CPLEX**, **GLPK**, and a PyTorch based **UNCSolver** designed for large data scalability.
+
+### Installation 
+To install **ruleopt**, clone this repository and use pip to install the package:
+
+```bash
+pip install ruleopt
+```
+### Usage
+
+To use **ruleopt**, you need to initialize the **ruleopt** class with your specific parameters and fit it to your data. Here's a basic example:
+
+
+```python
+rom sklearn.model_selection import train_test_split
+from sklearn.datasets import load_iris
+
+from ruleopt import RUGClassifier
+from ruleopt.rule_cost import Gini
+from ruleopt.solver import UNCSolver
+
+# Set a random state for reproducibility
+random_state = 42
+
+# Load the Iris dataset
+X, y = load_iris(return_X_y=True)
+
+# Split the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=random_state
+)
+
+# Define tree parameters
+tree_parameters = {"max_depth": 3, "class_weight": "balanced"}
+
+solver = UNCSolver()
+rule_cost = Gini()
+
+# Initialize the RUGClassifier with specific parameters
+rug = RUGClassifier(
+    solver=solver,
+    tree_parameters=tree_parameters,
+    random_state=random_state,
+    max_rmp_calls=20,
+    rule_cost=rule_cost,
+)
+
+# Fit the RUGClassifier to the training data
+rug.fit(X_train, y_train)
+
+# Predict the labels of the testing set
+y_pred = rug.predict(X_test)
+```
+### Documentation
+For more detailed information about the API and advanced usage, please refer to the full documentation here.
+
+### Contributing
+Contributions are welcome! If you'd like to improve **ruleopt** or suggest new features, feel free to fork the repository and submit a pull request.
+
+### License
+**ruleopt** is released under the MIT License. See the LICENSE file for more details.
