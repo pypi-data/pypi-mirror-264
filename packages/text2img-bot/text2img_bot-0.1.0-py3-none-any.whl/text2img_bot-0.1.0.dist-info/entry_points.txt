@@ -1,0 +1,2 @@
+[console_scripts]
+text2img-bot = text2img_bot:main

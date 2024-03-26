@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: text2img-bot
+Version: 0.1.0
+Summary: Delta Chat bot to generate images from text prompts
+Author-email: adbenitez <adb@merlinux.eu>
+Keywords: deltachat,bot
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: deltabot-cli <6.0,>=5.0.0
+Requires-Dist: diffusers
+Requires-Dist: transformers
+Requires-Dist: pillow
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pylama ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+<img height="180" width="180" src="https://github.com/deltachat-bot/text2img-bot/raw/main/avatar.jpeg">
+
+# Text To Image Bot
+
+[![Latest Release](https://img.shields.io/pypi/v/text2img-bot.svg)](https://pypi.org/project/text2img-bot)
+[![CI](https://github.com/deltachat-bot/text2img-bot/actions/workflows/python-ci.yml/badge.svg)](https://github.com/deltachat-bot/text2img-bot/actions/workflows/python-ci.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+A text-to-image generator bot for Delta Chat. Generate images from any text prompt.
+
+## Install
+
+```sh
+pip install -U text2img-bot
+```
+
+## Usage
+
+To configure the bot:
+
+```sh
+text2img-bot init bot@example.org SuperHardPassword
+```
+
+**(Optional)** To customize the bot name, avatar and status/signature:
+
+```sh
+text2img-bot config selfavatar "/path/to/avatar.png"
+text2img-bot config displayname "Text To Image"
+text2img-bot config selfstatus "Hi, send me some text message to generate an image"
+```
+
+Finally you can start the bot with:
+
+```sh
+text2img-bot serve
+```
+
+To see the available options, run in the command line:
+
+```
+text2img-bot --help
+```
