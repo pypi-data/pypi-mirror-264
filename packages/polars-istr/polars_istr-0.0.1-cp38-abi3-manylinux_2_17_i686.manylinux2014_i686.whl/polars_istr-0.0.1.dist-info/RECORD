@@ -1,0 +1,11 @@
+polars_istr-0.0.1.dist-info/METADATA,sha256=erBZTyea8lDt-808amABzHp1eqSBLxhIHK40bj6dmJQ,1495
+polars_istr-0.0.1.dist-info/WHEEL,sha256=G6IUzFDR8EfOhT1OZAZzjTNwtBuEcw0yngJbmf-7Vq4,123
+polars_istr-0.0.1.dist-info/license_files/LICENSE.txt,sha256=CQ0WEokIss5KNGCRIGlGkphL_1J7_cpiuoJsvuOQyP0,1063
+polars_istr/__init__.py,sha256=EpG1UKCD9J8RN8kdOsCIVh6a8Rmhq1s0kYUoU9sli5I,238
+polars_istr/url.py,sha256=yS3N5YwnXV-5CmjImEEAdTKEMRXZV4YsKaho8RLIuI8,2552
+polars_istr/cusip.py,sha256=KqV5h1QVKFbDWG5B23QY4jHiYa2PNwxWMIp6Hp_VGSY,4773
+polars_istr/type_alias.py,sha256=ezqTw3fqCcAzh8Bm_ZVDwuNlIMH4zdt95PSRc6BFIms,190
+polars_istr/isin.py,sha256=3mIcxp0sorrXYOvdihUIoT_D8LmWXuSh-fIOUAlyphs,2035
+polars_istr/iban.py,sha256=YnFHy8FwFYZV3abrVeppwEj3Udacchg2i-CqfRdSKVw,2896
+polars_istr/_polars_istr.abi3.so,sha256=vg6MtpDhscUd8lB6enNX8VEO_H7qOmdunyVhHoRE3RU,14116972
+polars_istr-0.0.1.dist-info/RECORD,,
