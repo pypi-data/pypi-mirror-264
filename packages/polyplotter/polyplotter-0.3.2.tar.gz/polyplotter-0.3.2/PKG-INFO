@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: polyplotter
+Version: 0.3.2
+Summary: A quick way to plot polygons
+Author-email: Julius <julius.simonelli@gmail.com>
+Project-URL: homepage, https://github.com/jss367/polyplotter
+Project-URL: repository, https://github.com/jss367/polyplotter
+Project-URL: bug_tracker, https://github.com/jss367/polyplotter/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib>=3.5.0
+
+# polyplotter:  Versatile Polygon Plotting
+
+The `polyplotter` package provides a convenient and flexible way to plot various geometric data structures as polygons in Python. It seamlessly integrates with NumPy arrays, Shapely geometric objects, dictionaries, lists, Well-Known Text (WKT) strings, and tuples, making your geospatial plotting tasks easier.
+
+
+## Installation
+
+```bash
+pip install polyplotter 
+```
+
+## Recommended usage
+
+```
+from polyplotter import plotpoly as p
+p(my_polygon)
+```
