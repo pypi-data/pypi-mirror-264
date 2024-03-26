@@ -1,0 +1,11 @@
+pyfit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfit/data.py,sha256=fVrOHlt2JKrsPDOETjDPTBFchiOjx1YEmwvZbuhbc9c,1093
+pyfit/engine.py,sha256=XRm5vQHT8WJ38JhuZCRIy0lpJbtUtY9YRnu64o6BOrY,4270
+pyfit/metrics.py,sha256=rLiI1gjo-gDRCFLrr9A5FHoxShQ74X1vyQmmRKmfUmA,757
+pyfit/nn.py,sha256=13mK_BdYnYrSDtTCDiDBxsL_9y1FFaKg6Hd-YU41zTI,2367
+pyfit/optim.py,sha256=T2xGsM2bkeTFsoBpywiazxc_Y7YRH3ysdOvND-wTWkA,904
+pyfit/train.py,sha256=0nmYr2QJ9n9AKezkOP_5TJySxlWLUG5dbszQTqnZgbI,2463
+pyfit-1.0.1.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+pyfit-1.0.1.dist-info/METADATA,sha256=uOu6xqBDwhMkLpMI_A2_LEQIBNeoJ5tdd17-sdpISqM,2505
+pyfit-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyfit-1.0.1.dist-info/RECORD,,
