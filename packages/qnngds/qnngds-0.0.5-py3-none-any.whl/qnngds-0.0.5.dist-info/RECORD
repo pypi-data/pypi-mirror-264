@@ -1,0 +1,10 @@
+qnngds-0.0.5.dist-info/METADATA,sha256=jcabuWzh4CvPpHCUsVB0NWjSByoUykUIAm9EjSTWRcA,3231
+qnngds-0.0.5.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+qnngds-0.0.5.dist-info/licenses/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+qnngds/__init__.py,sha256=D6RrzSYHZ1RktIec_h7tk0dAkst1WVt4XH_QYy2kl9w,114
+qnngds/circuits.py,sha256=dJVKz43Dl3zPJ9AxOQtWBopc_FWXOFFYWiHkKrtupI4,11902
+qnngds/design.py,sha256=dsY3GNXw9v20AYmRakJMmg5bzF5BmITiVrySHr5zBXc,60104
+qnngds/devices.py,sha256=3oeXyrA_CgIb-lDeWhu2Sn3tm_BDplSqGI3FnecfkaA,8747
+qnngds/geometries.py,sha256=a5pQlA_7YixGNdKEvBBqlMVRkRLE5yz6RNzxHduLE4Y,8916
+qnngds/utilities.py,sha256=nbQyXl80_5WKeZPNcR6B3TKaqcbdVU_otAYNw412uPw,22321
+qnngds-0.0.5.dist-info/RECORD,,
