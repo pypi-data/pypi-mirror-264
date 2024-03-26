@@ -1,0 +1,16 @@
+transformer_heads/__init__.py,sha256=V4mrY1cBOaBo73cc2nvT86BwOgolssvBT5RfXlOTDRk,232
+transformer_heads/config.py,sha256=gm3pfViQLRQzF4NP7SelrqNICFXhKlMjNQUkYI2OFnc,6203
+transformer_heads/constants.py,sha256=HwkPnqnbdCEHViaNk3saa6BqfQ61EkFH7tzohas8nwk,840
+transformer_heads/output.py,sha256=71RhtN-pViIpBhd-mw_R-Lt_vMTrw-gQcBnpiw-EMRE,1751
+transformer_heads/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+transformer_heads/model/head.py,sha256=kptAtorP3_1R25QlsYNgNZ0l5rTgKcSPflWLz2dHmHc,4751
+transformer_heads/model/model.py,sha256=1XTD6_bB1riAd43_fYBcE7ikbNuSBDfgZs0P6QlkAC8,12112
+transformer_heads/tests/test_load_model.py,sha256=lvGTu6SbQVT6nt5QtpV7-wmemtnF980o2DI-tHrjunA,6198
+transformer_heads/util/evaluate.py,sha256=wukkn778B33DbTZPrDlUmLtbTFsV3qtbV8ej36hT61I,5097
+transformer_heads/util/helpers.py,sha256=XiDWsiO8z9cSV4sZmGWOjxlbUTcSSK4a7AWQAfPvqi8,2750
+transformer_heads/util/load_model.py,sha256=8rQXdyXeaSmlydPbjWu_ZAhZ_i3QRxNhEtWgwwf96AA,11075
+transformer_heads/util/model.py,sha256=JBXU_AgZ4M3tByni2dMgdN4snYZ4pCmKUalKYT6cx0s,5717
+transformer_heads-0.0.1.dist-info/METADATA,sha256=beCqbnXQ1SkQh1_nrcUpPbiVcPHWBUF2sJBQU5pE9kc,4093
+transformer_heads-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+transformer_heads-0.0.1.dist-info/licenses/LICENSE,sha256=FdxAvYWGbrPTZnTDn2uZgPWFfqq-hhjUcZ_rXI88yqo,1070
+transformer_heads-0.0.1.dist-info/RECORD,,
