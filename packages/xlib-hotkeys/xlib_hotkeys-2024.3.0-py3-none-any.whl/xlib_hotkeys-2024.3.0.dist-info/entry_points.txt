@@ -1,0 +1,2 @@
+[console_scripts]
+xlib-hotkeys = xlib_hotkeys.__main__:main
