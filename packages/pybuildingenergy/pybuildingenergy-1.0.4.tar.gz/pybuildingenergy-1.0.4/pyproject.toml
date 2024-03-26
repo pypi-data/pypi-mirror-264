@@ -1,0 +1,27 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+build-backend = "setuptools.build_meta"
+
+# Ignore flat-layout.
+[tool.setuptools]
+py-modules = []
+
+[project]
+name = "pybuildingenergy"
+version = "1.0.4"
+description = "Energy Simulation of building usin ISO52016 and more"
+license = {file = "LICENSE.md"}
+readme = "README.md"
+requires-python = ">=3.8.0"
+authors = [{name = "Daniele Antonucci", email = "daniele.antonucci@eurac.edu"}]
+maintainers = [{name = "Daniele Antonucci", email = "daniele.antonucci@eurac.edu"}]
+keywords = [
+    "energy",
+    "building",
+    "heating and cooling",
+    "52016",
+    "EPBD",
+]
+
+
