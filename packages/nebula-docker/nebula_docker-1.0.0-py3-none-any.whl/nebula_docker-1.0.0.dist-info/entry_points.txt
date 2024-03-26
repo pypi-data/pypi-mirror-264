@@ -1,0 +1,2 @@
+[nebula.collections]
+nebula_docker = nebula_docker
