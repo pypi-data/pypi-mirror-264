@@ -1,0 +1,16 @@
+aws_client_wrapper/__init__.py,sha256=0_d9M2Tw71oLvIfiI8J462nRa7UhpR0Qv9YbVZe64eQ,177
+aws_client_wrapper/CacheService/__init__.py,sha256=4qRMG_80d_CeaPTd_MnTV32FUJSRuETxSFCAQFYw1GE,555
+aws_client_wrapper/CacheService/redisWrapper.py,sha256=9fDCuFiR8dxl_jKk6_DG7kOXVTIqDVWkVMemfnwvvxQ,4872
+aws_client_wrapper/CacheService/utils.py,sha256=9xQnRcRykHW_F6VHyKIXtUgfTzVb5XkTreJwu1yXb_Q,2039
+aws_client_wrapper/cloudfront.py,sha256=oHk-TKZwMN40n5Fm-lsrAggXnD5nHXMDZYT0iThQTf8,900
+aws_client_wrapper/cloudfront_storage.py,sha256=rPMKbiCy1mpTytKuMvDqeg-H-MrPAGC2OErEqaTpLhU,2265
+aws_client_wrapper/configure.py,sha256=mMgE1wanGIul3SUhexj8i94tjBYF-MRJnziMAH1qS8c,464
+aws_client_wrapper/connection.py,sha256=B0g26HgNdKZqI-sAHDZcVMw1setA6ndoAYaE1OLFC2s,5622
+aws_client_wrapper/constants.py,sha256=RouMyrx8XQNSaeriBF2uaTmWj6frVMIHKPAkzFSP4i0,88
+aws_client_wrapper/s3.py,sha256=MqNcBwUsWPept2e1KywNDVdfmypwoib8CjYXtFAuExM,3264
+aws_client_wrapper/s3_storage.py,sha256=V0wXmSNaBZqdTel8eTLMC759QucdC22Q1SXCH5henLs,15970
+aws_client_wrapper/stats.py,sha256=oCJXuXItu2oecTjxDX3-R8WE5_AufAW-_vJpbSAxujk,1134
+aws_client_wrapper/utils.py,sha256=Eu7dxf3LZO5GLimz5lICMSbi5IUs3RWqIKJSsiBk0P8,712
+aws_client_wrapper-1.0.3.dist-info/METADATA,sha256=5qwg_4ja6B6BxyeDhTmJz1zaoumQhtxQdmxbCK7ccn0,3263
+aws_client_wrapper-1.0.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aws_client_wrapper-1.0.3.dist-info/RECORD,,
