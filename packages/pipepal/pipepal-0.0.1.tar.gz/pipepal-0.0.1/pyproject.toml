@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pipepal"
+version = "0.0.1"
+description = "pipepal"
+authors = ["fabiocat93 <fabiocat@mit.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.0.0"
+pytest-mock = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
