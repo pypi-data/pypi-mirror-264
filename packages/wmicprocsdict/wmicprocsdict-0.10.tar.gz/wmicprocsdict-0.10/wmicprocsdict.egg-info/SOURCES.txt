@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+wmicprocsdict/README.MD
+wmicprocsdict/__init__.py
+wmicprocsdict/requirements.txt
+wmicprocsdict/thirdparty.json
+wmicprocsdict.egg-info/PKG-INFO
+wmicprocsdict.egg-info/SOURCES.txt
+wmicprocsdict.egg-info/dependency_links.txt
+wmicprocsdict.egg-info/top_level.txt
