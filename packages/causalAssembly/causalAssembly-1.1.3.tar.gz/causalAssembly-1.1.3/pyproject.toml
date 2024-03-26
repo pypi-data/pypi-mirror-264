@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "causalAssembly"
+requires-python = ">3.10.0"
+authors = [
+    { name = "Konstantin Göbler", email = "konstantin.goebler@de.bosch.com" },
+]
+description = "Generating production line data with available causal ground truth"
+dynamic = ["version"]
+dependencies = [
+    "sympy",
+    "networkx",
+    "scipy",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "rpy2",
+    "requests",
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+Homepage = "https://github.com/boschresearch/causalAssembly"
+Documentation = "https://boschresearch.github.io/causalAssembly/"
+Repository = "https://github.com/boschresearch/causalAssembly"
+Issues = "https://github.com/boschresearch/causalAssembly/issues"
+Changelog = "https://github.com/boschresearch/causalAssembly/blob/main/CHANGELOG.md"
+
+
+[project.optional-dependencies]
+dev = [
+    "mike",
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings[python]",
+    "ruff",
+    "pip-tools",
+    "pre-commit",
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+include = ["causalAssembly*"]
+
+
+[tool.setuptools.dynamic]
+version = { file = "VERSION" }
+
+
+[tool.ruff]
+
+select = ["A", "E", "F", "I"]
+ignore = []
+
+fixable = ["A", "B", "C", "D", "E", "F", "I"]
+unfixable = []
+
+line-length = 100
+
+target-version = "py310"
+
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+per-file-ignores = {}
