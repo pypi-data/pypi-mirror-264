@@ -1,0 +1,18 @@
+[project]
+name = "te-xtr"
+version = "0.0.1rc1"
+authors = [
+  { name="Technica Engineering GmbH", email="houssem.fantar@technica-engineering.de" },
+]
+description = "Technica Engineering Test Runner"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/hfantar/xtr"
+Issues = "https://github.com/hfantar/xtr/issues"
