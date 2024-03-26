@@ -1,0 +1,10 @@
+ophyd
+
+[dev]
+black
+isort
+pytest
+build
+twine
+flake8
+ruff
