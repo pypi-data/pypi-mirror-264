@@ -1,0 +1,10 @@
+sriparna/__init__.py,sha256=USBPnaBd4rDhuSGYLfl_MHu-dry-gAN2eaky0lKUVs4,25
+sriparna/apps.json,sha256=g8IiziHKkqPWncsYivttZdsCogt-ia8MPxuffzQqvRU,326
+sriparna/sriparna.py,sha256=nAEtuVNGsOS5rAcH1LV6wLaqwShfTcJ4-y3SrvqjnJM,11531
+sriparna/sriparna_gui.py,sha256=03q7DUKL9cj0exqXRng0GQwgwLP_Awla9lBHa0rX6GA,13169
+termux_sriparna-1.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+termux_sriparna-1.0.4.dist-info/METADATA,sha256=5JOENc1rZvAirW69l82TfTbF3VNT31_UN8_wlqeB4QM,4518
+termux_sriparna-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+termux_sriparna-1.0.4.dist-info/entry_points.txt,sha256=qL4D2D1RorqvBSE7ujukbs5a-oSr__FSJ6ciGTXf6M8,94
+termux_sriparna-1.0.4.dist-info/top_level.txt,sha256=tJ-4R6xlIrTLmH9_dXCTEpSbfuNv57FR9RnlOtviBr8,9
+termux_sriparna-1.0.4.dist-info/RECORD,,
