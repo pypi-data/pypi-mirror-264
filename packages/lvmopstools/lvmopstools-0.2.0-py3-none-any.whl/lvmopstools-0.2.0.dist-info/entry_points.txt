@@ -1,0 +1,3 @@
+[console_scripts]
+lvmtools=lvmopstools.__main__:lvmopstools
+
