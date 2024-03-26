@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyRandomMedia"
+description = "A package used to generate random media for website testing. This includes songs, movies, news and Tv shows."
+version = "0.0.9"
+authors = [
+  { name="Foo Barstein", email="foo.barstein@onepotcooking.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "tutorial"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/3-python-package-exercise-team-kiwi"
+"Repository" = "https://github.com/software-students-spring2024/3-python-package-exercise-team-kiwi"
+"Bug Tracker" = "https://github.com/software-students-spring2024/3-python-package-exercise-team-kiwi/issues"
+
+[project.scripts]
+pyRandomMedia = "pyRandomMedia.__main__:main"

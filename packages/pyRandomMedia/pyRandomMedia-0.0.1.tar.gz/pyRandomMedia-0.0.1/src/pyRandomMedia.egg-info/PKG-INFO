@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyRandomMedia
+Version: 0.0.1
+Summary: A package used to generate random media for website testing. This includes songs, movies, news and Tv shows.
+Home-page: https://github.com/software-students-spring2024/3-python-package-exercise-team-kiwi
+Author: Stan, Nicholas, Benson, Sangely
+License: UNKNOWN
+Project-URL: Github Repo, https://github.com/software-students-spring2024/3-python-package-exercise-team-kiwi
+Description: ![Python build & run test](https://github.com/software-students-spring2024/3-python-package-exercise-team-kiwi/actions/workflows/build.yaml/badge.svg)
+        
+        ## Team members
+        
+        Stanley Moukhametzianov (SM9231) [Github Profile](https://github.com/Stanley-Moukhametzianov)
+        <br>
+        Benson Li (BL2995) [Github Profile](https://github.com/bensonnli)
+        <br>
+        Nicholas Meng (ndm9914) [Github Profile](https://github.com/Nmeng01)
+        <br>
+        Sangeyl Lee (SL6733) [Github Profile](https://github.com/S2ang) 
+        
+        ## Documentation
+        
+        
+        
+        # Python Package Exercise
+        
+        An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
