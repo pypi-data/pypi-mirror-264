@@ -1,0 +1,5 @@
+requests~=2.31.0
+
+[dev]
+Faker<24.5.0,>=23.2.1
+python-dotenv~=1.0.1
