@@ -1,0 +1,19 @@
+APP_NAME = "Space Rescue - A Escape Coding Adventure"
+
+GAME_SEED = 929
+GLSL_VERSION = 330
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+FRAMES_PER_SECOND = 60
+GRID_SIZE = 16
+GRID_SPACING = 100
+
+CAMERA_FOV = 90
+DEFAULT_UP = [0.0, 1.0, 0.0]
+DEFAULT_HEADING = [1.0, 0.0, 0.0]
+
+DT = 60 * 60  # s
+AU = 1.49e11  # m
+PARSEC = 3.08e16  # m
+G_SMALL = 9.81  # m⋅s−2
+G = 6.67e-11  # m3⋅kg−1⋅s−2
