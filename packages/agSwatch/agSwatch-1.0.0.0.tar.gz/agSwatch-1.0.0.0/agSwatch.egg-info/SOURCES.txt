@@ -1,0 +1,8 @@
+README.md
+setup.py
+agSwatch/__init__.py
+agSwatch/agSwatch.py
+agSwatch.egg-info/PKG-INFO
+agSwatch.egg-info/SOURCES.txt
+agSwatch.egg-info/dependency_links.txt
+agSwatch.egg-info/top_level.txt
