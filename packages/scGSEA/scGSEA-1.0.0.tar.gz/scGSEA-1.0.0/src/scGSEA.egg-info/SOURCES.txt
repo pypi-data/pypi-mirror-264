@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/run_scgsea.py
+src/scgsea_helper.py
+src/scgsea_wrapper.py
+src/scGSEA.egg-info/PKG-INFO
+src/scGSEA.egg-info/SOURCES.txt
+src/scGSEA.egg-info/dependency_links.txt
+src/scGSEA.egg-info/top_level.txt

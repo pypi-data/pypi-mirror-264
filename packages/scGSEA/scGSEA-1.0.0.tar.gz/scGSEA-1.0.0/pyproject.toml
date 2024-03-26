@@ -1,0 +1,18 @@
+[project]
+name = "scGSEA"
+version = "1.0.0"
+authors = [
+  { name="Alexander T. Wenzel", email="atwenzel@ucsd.edu" },
+]
+description = "An adaptation of gene set enrichment analysis to clustered single cell data."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/genepattern/scGSEA"
+Issues = "https://github.com/genepattern/scGSEA/issues"
