@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: metaspread
+Version: 2024.0.1
+Summary: A cancer and metastasis simulation package
+Project-URL: Homepage, https://github.com/fredih/MetaSpread
+Project-URL: Issues, https://github.com/fredih/MetaSpread/issues
+Author-email: Alfredo Hernández-Inostroza <alfredo.hernandez@ug.uchile.cl>
+License-File: LICENSE.txt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Matplotlib
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Python: >=3.10
+Requires-Dist: matplotlib==3.8.0
+Requires-Dist: mesa==2.1.2
+Requires-Dist: numpy==1.26.0
+Requires-Dist: opencv-python==4.8.1.78
+Requires-Dist: pandas==2.1.1
+Requires-Dist: pynput==1.7.6
+Description-Content-Type: text/markdown
+
+# agent-based-cancer
+
+test
