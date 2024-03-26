@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dstar
+Version: 0.0.1
+Summary: Darkstar Python Library
+Author: Sam Partee
+Author-email: Partees21@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
