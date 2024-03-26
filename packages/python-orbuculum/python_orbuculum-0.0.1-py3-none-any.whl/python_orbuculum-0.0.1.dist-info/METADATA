@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-orbuculum
+Version: 0.0.1
+Summary: Python interface to liborb
+Author-Email: Dave Marples <dave@marples.net>, Vegard Storheil Eriksen <zyp@jvnv.net>
+License: BSD-3-Clause
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+pyorb
+=====
+
+This is a Python interface to `liborb` from the [Orbuculum](http://github.com/orbcode/orbuculum) projct.
+
+The `liborb` binary library is currently not included in the Python package and must be installed separately.
