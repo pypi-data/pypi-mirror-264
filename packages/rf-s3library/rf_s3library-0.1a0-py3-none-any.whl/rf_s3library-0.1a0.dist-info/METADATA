@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: rf-s3library
+Version: 0.1a0
+Summary: Robot Framework Library for AWS S3 support.
+Home-page: https://github.com/MainSystemDev/rf-s3libray
+Author: Shiela Buitizon
+Author-email: shiela.buitizon@mnltechnology.com
+License: Type license() to see the full license text
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 ==1.34.69
+Requires-Dist: robotframework >=7.0
+
+S3Library
+
+Version = 0.1
+
+Library Scope: TEST SUITE
+
+Created: 03/05/2024 21:04 UTC-8
+
+Author: Shiela Buitizon | email:shiela.buitizon@mnltechnology.com
+
+Description: Robot Framework Library for AWS S3 support.
+
+
+To run pep8 test
+
+    pycodestyle --max-line-length=165 src
+
+To run unit test
+
+    python -m unittest
+
+To generate library documentation
+
+    python -m robot.libdoc S3Library docs/index.html
+
