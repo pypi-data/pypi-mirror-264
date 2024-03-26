@@ -1,0 +1,2 @@
+PyQt6_Qt6
+PyQt6-sip
