@@ -1,0 +1,5 @@
+nixserver_rust_bindings-0.1.1.dist-info/METADATA,sha256=VOlyAIP91YX0hA8cRTN0KxtBu-IYpgl2c2zYtcX_Ys4,272
+nixserver_rust_bindings-0.1.1.dist-info/WHEEL,sha256=L1Tkegwu8uMXPg6lTo_4CyiZAhCqy5i6JBPreNSuRzo,138
+nixserver_rust_bindings/__init__.py,sha256=n3b-TNPmmrs2Yj86Ca85-DexHiYzosj1QOKzd6e_b4I,175
+nixserver_rust_bindings/nixserver_rust_bindings.pypy310-pp73-ppc_64-linux-gnu.so,sha256=6YCDf76CHAJN2tNvmssSImELNOFm9SaKvIvzceQjjnQ,4655144
+nixserver_rust_bindings-0.1.1.dist-info/RECORD,,
