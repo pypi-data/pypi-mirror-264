@@ -1,0 +1,9 @@
+sqlmodelservice/__init__.py,sha256=bg2pzi1FEH_nYhKrwYc6YkfUD619VBnflCup5nTHzmI,298
+sqlmodelservice/errors.py,sha256=HLq_xJ_XyBNhsn2UKSt5JvBGg8lYi3etlAP_hICLtpI,444
+sqlmodelservice/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlmodelservice/service.py,sha256=hZWlj_9SvwKZ8sfzSslhwol9WMtKDLnigVxJ-7qvR6k,15386
+sqlmodelservice/utils.py,sha256=sTGz0xq8hbmN2oT7W_6eiHJ1UHlPuxr_3SVWansNxlY,557
+sqlmodelservice-0.5.0.dist-info/LICENSE,sha256=XmPJkcsIJURqMKLYoaTkXp-WvaLXZ9e1nsHmQoP6Gqw,1067
+sqlmodelservice-0.5.0.dist-info/METADATA,sha256=boNUo8fcmcWJO1ji6JqCisqToqqP4eIGSlz7YuOF7nM,1883
+sqlmodelservice-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sqlmodelservice-0.5.0.dist-info/RECORD,,
