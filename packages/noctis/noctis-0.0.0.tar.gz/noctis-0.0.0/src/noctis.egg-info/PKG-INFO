@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: noctis
+Version: 0.0.0
+Summary: noctis is a Python toolkit to handle Networks of Organic Chemistry
+Author-email: Marco Stenta <marco.stenta@syngenta.com>, Nataliya Lopanitsyna <nataliya.lopanitsyna@syngenta.com>
+License: MIT License
+        
+        Copyright (c) 2022 Syngenta Group Co. Ltd.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: homepage, https://github.com/syngenta/noctis
+Project-URL: repository, https://github.com/syngenta/noctis
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: bumpver; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: sphinx; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+
+noctis
+=======================================
+
+noctis is a pathon package to manage the network of organic chemistr
+
+Installation
+------------
+
+Installing this package depends on a working `installation of Python`_ with pip.
+To install the package, run:
+
+.. code-block:: shell
+
+   pip install git+ssh://git@github.com:syngenta/noctis.git
+
+.. _installation of Python: https://www.python.org/downloads/
+
+For Development
+---------------
+
+When working on the development of this package, the developer wants to work
+directly on the source code while still using the packaged installation. For
+that, run:
+
+.. code-block:: shell
+
+   git clone git@github.com:syngenta/noctis.git
+   pip install -e noctis/[dev]
