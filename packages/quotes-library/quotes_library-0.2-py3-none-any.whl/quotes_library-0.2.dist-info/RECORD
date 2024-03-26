@@ -1,0 +1,11 @@
+quotes_library/__init__.py,sha256=utvX3DpNNO8a9d3wZ24GYhzd625eh8YCJ6UhO29mChM,28
+quotes_library/db.sqlite3,sha256=uKb5iXJWWDT1C5MYA-ywiHwQ1MBYBsGBokToeHLUvqU,114270208
+quotes_library/main.py,sha256=NVTQ4AYL9P6ruNPVmzn6v8c_uWCAlsczthY0YD7MC3I,729
+quotes_library/utils.py,sha256=YqJPViJvthDKF9ScAaZojUt8TG7WosHGMPKHZKxoUAo,1988
+quotes_library/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quotes_library/tests/test_connection.py,sha256=_PwEt1KzjGNVfnKP8TAP46pLJAoWtdnnHBIfbtRhBCA,1776
+quotes_library-0.2.dist-info/LICENSE,sha256=mWzpRhZjXrpzO7jsjxxs3QK5ZJJfeP9AkonRpmug7fs,1073
+quotes_library-0.2.dist-info/METADATA,sha256=bXKmSV8H9V2cD5LCz2z0d0aT0uPrh3zoHiQg6Sg8pHM,4016
+quotes_library-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+quotes_library-0.2.dist-info/top_level.txt,sha256=njGx2Pd64ZJeaWjJKO8NeIXMxzzgTZ2ks3Nu2yWHwdk,15
+quotes_library-0.2.dist-info/RECORD,,
