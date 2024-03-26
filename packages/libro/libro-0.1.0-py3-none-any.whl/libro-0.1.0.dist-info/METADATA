@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: libro
+Version: 0.1.0
+Summary: 
+Author: zhanba
+Author-email: c5e1856@gmail.com
+Requires-Python: >=3.8.1,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ipykernel (>=6.16.2,<7.0.0)
+Requires-Dist: ipython (>=7.34.0)
+Requires-Dist: jupyter-lsp (>=2.2.0,<3.0.0)
+Requires-Dist: jupyter-server (>=2.10.0)
+Requires-Dist: jupyterlab-server (>=2.24.0,<3.0.0)
+Requires-Dist: langchain (>=0.1.0,<0.2.0)
+Requires-Dist: nbclient (>=0.9.0,<0.10.0)
+Requires-Dist: python-lsp-server (>=1.8.2,<2.0.0)
+Requires-Dist: ruff-lsp (>=0.0.50,<0.0.51)
+Description-Content-Type: text/markdown
+
+# libro server
+
+## env setup
+
+install python >=3.8
+
+install poetry # 更好的包管理器
+
+```sh
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+进入 python 虚拟环境，安装依赖包
+
+```sh
+cd libro_server
+poetry shell
+poetry install
+```
+
+## dev
+
+启动开发服务器
+
+```sh
+# open libro server in dev mode
+poe dev
+```
+
+Libro Server 默认使用基于 [libro-lab](https://github.com/difizen/libro/tree/main/packages/libro-lab) 的前端应用，作为前端静态资源
+
+## pub
+
+```sh
+rm -rf dist
+poetry build
+twine upload dist/*
+```
+
