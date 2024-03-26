@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sphinx-idl
+Version: 0.1
+Summary: Sphinx "IDL" extension
+Author: Alex Rudy
+Author-email: arrudy@ucsc.edu
+License: BSD
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: Sphinx >=1.0
+
+
+This package contains the IDL Sphinx extension.
+
+This extension provides an IDL domain for sphinx
+
