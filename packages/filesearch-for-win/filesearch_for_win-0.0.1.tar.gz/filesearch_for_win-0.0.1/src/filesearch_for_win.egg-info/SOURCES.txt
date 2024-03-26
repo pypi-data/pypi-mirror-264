@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/filesearch_for_win/filesearch.cp312-win_amd64.pyd
+src/filesearch_for_win/filesearch_sdk.dll
+src/filesearch_for_win.egg-info/PKG-INFO
+src/filesearch_for_win.egg-info/SOURCES.txt
+src/filesearch_for_win.egg-info/dependency_links.txt
+src/filesearch_for_win.egg-info/top_level.txt
