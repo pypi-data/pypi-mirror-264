@@ -1,0 +1,96 @@
+# SECRETS
+missions:
+  - data/missions.yml
+planet_names:
+  - data/planet_names.txt
+questions:
+  - data/questions.yml
+
+# TEXTS
+strings:
+  - resources/strings/strings.yml
+challenge1:
+  - resources/strings/challenge1.yml
+challenge2:
+  - resources/strings/challenge2.yml
+challenge3:
+  - resources/strings/challenge3.yml
+
+# MUSICS
+music:
+  - resources/sounds/music.mp3
+
+# SOUNDS
+button_click:
+  - resources/sounds/buttonfx.wav
+
+# FONTS
+mono_font28:
+  - resources/fonts/GelatinMonoTTF.ttf
+  - 28
+  - null
+  - 0
+
+# IMAGES
+blueprint_bitmask:
+  - resources/textures/blueprint_bitmask.png
+
+# TEXTURES
+logo:
+  - resources/textures/logo.png
+title:
+  - resources/textures/title.png
+menu:
+  - resources/textures/menu.png
+console:
+  - resources/textures/console.png
+room:
+  - resources/textures/room.png
+blueprint:
+  - resources/textures/blueprint.png
+blueprint_mask1:
+  - resources/textures/blueprint_mask1.png
+blueprint_mask2:
+  - resources/textures/blueprint_mask2.png
+blueprint_mask3:
+  - resources/textures/blueprint_mask3.png
+blueprint_mask4:
+  - resources/textures/blueprint_mask4.png
+cockpit:
+  - resources/textures/cockpit.png
+particule:
+  - resources/textures/particule.png
+scanline:
+  - resources/textures/scanline.png
+
+
+# MODELS - STELLAR OBJECTS
+asteroid:
+  - resources/models/stellar_objects/asteroid.obj
+earth:
+  - resources/models/stellar_objects/earth.obj
+mars:
+  - resources/models/stellar_objects/mars.obj
+sun:
+  - resources/models/stellar_objects/sun.obj
+venus:
+  - resources/models/stellar_objects/venus.obj
+wormhole:
+  - resources/models/stellar_objects/wormhole.obj
+
+# MODELS - SPACESHIPS
+ncc-1701:
+  - resources/models/spaceships/enterprice.obj
+
+# SHADERS
+shader_alpha_discard:
+  - null
+  - resources/shaders/alpha_discard.fs
+shader_bloom:
+  - null
+  - resources/shaders/bloom.fs
+shader_lighting:
+  - resources/shaders/lighting.vs
+  - resources/shaders/lighting.fs
+
+
