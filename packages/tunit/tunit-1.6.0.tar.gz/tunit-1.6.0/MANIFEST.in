@@ -1,0 +1,4 @@
+include README.md
+include LICENSE.txt
+include requirements/release.txt
+include pkg/tunit/py.typed
