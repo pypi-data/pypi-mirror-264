@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = qdoc2md.main:qdoc2md
