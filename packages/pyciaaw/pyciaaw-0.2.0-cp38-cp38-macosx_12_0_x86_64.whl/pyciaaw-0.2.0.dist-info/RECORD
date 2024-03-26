@@ -1,0 +1,13 @@
+pyciaaw/__init__.py,sha256=GmqA2ZOiZ8wdAFP91rFdQ3pdRDzT2GexArpMeDMlJGA,198
+pyciaaw/libciaaw.dylib,sha256=kRKEc0xxSduRQsHWNdmlSoLRhr-E1tdZ0fcjlNpZESo,246000
+pyciaaw/libgcc_s.1.1.dylib,sha256=UNJ17-QhDHclOuYjStXu08FPMU0xghpjwSYAVyl6sos,185104
+pyciaaw/libgfortran.5.dylib,sha256=hFYrjuEC8aB8i5Eu1FbokGhINGX7n4a_gMNfWy0cfpA,3421960
+pyciaaw/libquadmath.0.dylib,sha256=yWfzk4OcWExk4-frnTect-eUB_VSeDP0_8Is10gCC6I,348448
+pyciaaw/saw_2021.cpython-38-darwin.so,sha256=nPieeP_qutGmTuydr4SS0QoKUAeA-ahTnrFlGOrhx-c,73920
+pyciaaw/saw_latest.cpython-38-darwin.so,sha256=GKUXVHxQBuZbdBKiAmrE8CgVd0rlPaISfy0xuGM00RU,72736
+pyciaaw/version.cpython-38-darwin.so,sha256=-v-GJ64-Gog_07cXA02WZ2KHI6ollsdMa_cyYXxV3Tc,50176
+pyciaaw-0.2.0.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pyciaaw-0.2.0.dist-info/METADATA,sha256=DrN7kGcyq_PNuLQlZjE-BjYHzB8FLQIyPqV_eHj4d8s,1187
+pyciaaw-0.2.0.dist-info/WHEEL,sha256=emwMQ9MdqLOT5pgoHe2-b99A3F3GRM5S6HdVxst6gFM,109
+pyciaaw-0.2.0.dist-info/top_level.txt,sha256=IRCyNd8GkILV853CkTNUBvsrUoEl0uRg3sH6VMu_B84,8
+pyciaaw-0.2.0.dist-info/RECORD,,
