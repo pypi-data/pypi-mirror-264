@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jsonmode
+Version: 0.0.1
+Summary: JSONmode: Turn data and any schema into clean JSON via LLM API
+Home-page: https://jsonmode.com
+Author: JSONmode.com
+Author-email: jsonmodedotcom@gmail.com
+Keywords: json,jsonmode,JSONmode
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3<2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic>=2
+Requires-Dist: typing-extensions>=4.7.1
+
+    Turn data and any schema into clean JSON via LLM API. See https://jsonmode.com for specs.
+    
