@@ -1,0 +1,8 @@
+capturing_process/__init__.py,sha256=qaxs51XG0une-iCY6GD5XXjUc4M-qEfMP9IBWAgebkc,140
+capturing_process/capturing_process.py,sha256=VwH3Fm6Pcwdze3VWSQPDG71PamfYYtv104WsbPCgILU,4300
+capturing_process/stream_thread.py,sha256=l2NA1CuLOeJMj4wT9HERhdXYrb8JVORh48vNcf2eMHo,4302
+capturing_process-1.0.12.dist-info/LICENSE,sha256=4GL3bniwdvm2phW-aKJQ6zPKeu0O9Y0HqbfE7tbxZls,1064
+capturing_process-1.0.12.dist-info/METADATA,sha256=C5x45U4gtex1KJYmxQBMIGmvCYysF3W9pORd8Lx5ekk,3154
+capturing_process-1.0.12.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+capturing_process-1.0.12.dist-info/top_level.txt,sha256=SKhTc7qepi29jaYnJwAioYrZPOOcyUN5cX3hhy-UDuw,18
+capturing_process-1.0.12.dist-info/RECORD,,
