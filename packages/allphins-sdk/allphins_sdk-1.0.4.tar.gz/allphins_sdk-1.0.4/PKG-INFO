@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: allphins-sdk
+Version: 1.0.4
+Summary: 
+Author: Florent
+Author-email: florent@allphins.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.1.4,<3.0.0)
+Requires-Dist: pyarrow (>=15.0.0,<16.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tqdm (>=4.66.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# allphins-sdk
+Allphins SKD repository
+
+## How to contribute
+
+1) Install pre-commit hook
+```bash
+> pre-commit install
+```
+
+2) Convention followed
+
+- [PEP8](https://www.python.org/dev/peps/pep-0008/) -> 120 characters per line
+
+- [Google Python Style Docstring]
+
+## Requirements
+* [Poetry](https://python-poetry.org/docs/#installation)
+* [Docker](https://docs.docker.com/get-docker/)
+* [Docker-compose](https://docs.docker.com/compose/install/)
+
+## How to set up poetry environment
+To set up your development environment using poetry you have to install all the dependencies using:
+
+```
+poetry install --with dev
+```
+
+You can also run the documentation on a local environment:
+
+```
+poetry run mkdocs serve
+```
+The documentation will be running on your localhost port 8000
+
+Finally, you can run the unit test using the following command:  
+
+```
+poetry run coverage run --source=./allphins tests && poetry run coverage report --fail-under=80
+```
+
+## Mock allphins-api
+You can mock the allphins-api by using the following command:
+```
+docker-compose up -d
+```
+All calls to localhost:8080 will be redirected to the mock server.
+You can update the mock server by updating the files in the stubs/allphins-api folder.
+
+This is required before runing local tests.
