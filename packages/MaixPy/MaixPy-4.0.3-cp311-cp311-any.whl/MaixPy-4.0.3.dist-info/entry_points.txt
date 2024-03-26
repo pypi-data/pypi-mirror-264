@@ -1,0 +1,4 @@
+[console_scripts]
+maix-resize = maix.maix_resize:main_cli
+maix_test_hardware = maix.test_hardware:main
+
