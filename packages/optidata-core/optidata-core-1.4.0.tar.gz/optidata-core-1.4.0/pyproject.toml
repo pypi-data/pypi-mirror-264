@@ -1,0 +1,14 @@
+[project]
+name = "optidata-core"
+version = "1.4.0"
+authors = [
+  { name="Gonzalo Torres Moya", email="gtorres@optimisa.cl" },
+]
+description = "Paquete Python para OptiData que contiene funcionalidades para realizar una Conciliación con Pandas y Vaex"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
