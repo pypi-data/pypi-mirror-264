@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: SVGCompressorPy3
+Version: 0.1
+Summary: A Python 3 compatible SVG compressor tool
+Home-page: https://github.com/bilalghalib/SVGCompressorPy3
+Author: Bilal Ghalib
+Author-email: bilalghalib@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+hi

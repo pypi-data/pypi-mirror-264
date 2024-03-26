@@ -1,0 +1,6 @@
+README.md
+setup.py
+SVGCompressorPy3.egg-info/PKG-INFO
+SVGCompressorPy3.egg-info/SOURCES.txt
+SVGCompressorPy3.egg-info/dependency_links.txt
+SVGCompressorPy3.egg-info/top_level.txt
