@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: deploymodel
+Version: 0.1.6
+Summary: 
+Author: Hello
+Author-email: accounts@deploymodel.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: diskcache (>=5.6.3,<6.0.0)
+Requires-Dist: docker (>=7.0.0,<8.0.0)
+Requires-Dist: fastapi[all] (>=0.110.0,<0.111.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tqdm (>=4.66.2,<5.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# Dev
+
+## Test the example with local deploymodel build
+First build the deploymodel package using poetry and move it to `example` folder
+```bash
+cd backend/app/cli
+export VERSION=$(awk -F '"' '/^version = "/{print $2}' pyproject.toml)
+poetry build && cp ./dist/deploymodel-${VERSION}-py3-none-any.whl example
+```
+
+## Try building example
+```bash
+poetry run deploymodel build 123 -i example/Dockerfile
+```
