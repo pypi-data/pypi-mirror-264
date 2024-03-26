@@ -1,0 +1,10 @@
+napari_folder_browser/__init__.py,sha256=Pt86MAVDJ-6ejFeGrhw3RCp7JSMQ4uXow97t_dj3_po,102
+napari_folder_browser/_dock_widget.py,sha256=UIDzOFmdQVgvV5XAYyHjvwJKiobFWqhm_cCLAgyvgAo,7631
+napari_folder_browser/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_folder_browser/_tests/test_dock_widget.py,sha256=A6BBUtsUnoDYrATUzG4_yNK-v3tK7EBt8WqtOddjkF0,712
+napari_folder_browser-0.1.4.dist-info/LICENSE,sha256=YTxN9QpXcvD8mA9es52MORirJ3MxgKeMJfcVYeZkMqg,1520
+napari_folder_browser-0.1.4.dist-info/METADATA,sha256=myI9ss_X9NodQnuhmePWc6gARLEz7jwVDaQb1hX1wyQ,4572
+napari_folder_browser-0.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+napari_folder_browser-0.1.4.dist-info/entry_points.txt,sha256=afK7xcS0lU2iOTvZi2NIk9iW6-Qpq1qHjPXT_ihyUZo,62
+napari_folder_browser-0.1.4.dist-info/top_level.txt,sha256=B-QXQ3FNtauu_G9J2bvMTk6h4CYiFBo35y1Da6e4Smc,22
+napari_folder_browser-0.1.4.dist-info/RECORD,,

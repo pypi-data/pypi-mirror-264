@@ -1,0 +1,2 @@
+[napari.plugin]
+napari-folder-browser = napari_folder_browser
