@@ -1,0 +1,5 @@
+mysql-connector-python
+boto3
+paramiko
+pandas
+python-dotenv
