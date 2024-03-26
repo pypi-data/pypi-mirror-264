@@ -1,0 +1,6 @@
+version: '3'
+services:
+  external-fn:
+    image: external-fn:latest
+    network_mode: host
+    container_name: external-fn

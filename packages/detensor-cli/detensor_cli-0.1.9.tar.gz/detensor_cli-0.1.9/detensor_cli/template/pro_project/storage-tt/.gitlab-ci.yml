@@ -1,0 +1,89 @@
+# This file is a template, and might need editing before it works on your project.
+# To contribute improvements to CI/CD templates, please follow the Development guide at:
+# https://docs.gitlab.com/ee/development/cicd/templates.html
+# This specific template is located at:
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
+
+# This is a sample GitLab CI/CD configuration file that should run without any modifications.
+# It demonstrates a basic 3 stage CI/CD pipeline. Instead of real tests or scripts,
+# it uses echo commands to simulate the pipeline execution.
+#
+# A pipeline is composed of independent jobs that run scripts, grouped into stages.
+# Stages run in sequential order, but jobs within stages run in parallel.
+#
+# For more information, see: https://docs.gitlab.com/ee/ci/yaml/index.html#stages
+
+variables:
+  KUBERNETES_SERVICE_ACCOUNT_OVERWRITE: 'gitlab-ci-storage'
+  MYSQL_ROOT_PASSWORD: '123456'
+
+services:
+  - mysql:8
+
+stages: # List of stages for jobs, and their order of execution
+  - lint
+  - build
+  - test
+
+format-job:
+  image: "swr.cn-north-4.myhuaweicloud.com/buaa-dist-compute-ci/rust-ci:latest"
+  stage: lint
+  script:
+    - echo "Check format..."
+    - cd contract_rust && make ci-format
+    - git diff --quiet
+
+clippy-job:
+  image: "swr.cn-north-4.myhuaweicloud.com/buaa-dist-compute-ci/rust-ci:latest"
+  stage: lint
+  script:
+    - echo "Check clippy..."
+    - cd contract_rust && make clippy
+
+build-contract:
+  image: "swr.cn-north-4.myhuaweicloud.com/buaa-dist-compute-ci/rust-ci:latest"
+  stage: build
+  script:
+    - make build-contract
+  artifacts:
+    name: "$CI_COMMIT_REF_NAME-contract"
+    untracked: true
+    expire_in: 1 days
+    paths:
+      - $CI_PROJECT_DIR/contract.wasm
+
+
+build-backend:
+  image: "swr.cn-north-4.myhuaweicloud.com/buaa-dist-compute-ci/golang-ci:latest"
+  stage: build
+  script:
+    - make build-backend
+    - make build-backend-test
+  artifacts:
+    name: "$CI_COMMIT_REF_NAME-backend"
+    untracked: true
+    expire_in: 1 days
+    paths:
+      - $CI_PROJECT_DIR/backend-test
+      - $CI_PROJECT_DIR/storage
+      - $CI_PROJECT_DIR/swagger/swagger.json
+      - $CI_PROJECT_DIR/swagger/swagger.yaml
+
+backend-test:
+  image: "swr.cn-north-4.myhuaweicloud.com/buaa-dist-compute-ci/cmc-ci:latest"
+  stage: test
+  after_script:
+    - cd ci && ./stop.sh
+    - make chain-down INSTANCE="job$CI_JOB_ID"
+  script:
+    - cd ci && make prepare INSTANCE="job$CI_JOB_ID"
+    - make chain-up INSTANCE="job$CI_JOB_ID"
+    - sleep 5
+    - make create-contract INSTANCE="job$CI_JOB_ID"
+    - ./boot.sh
+  artifacts:
+    untracked: true
+    expire_in: 1 days
+    when: on_failure
+    paths:
+      - $CI_PROJECT_DIR/logs/

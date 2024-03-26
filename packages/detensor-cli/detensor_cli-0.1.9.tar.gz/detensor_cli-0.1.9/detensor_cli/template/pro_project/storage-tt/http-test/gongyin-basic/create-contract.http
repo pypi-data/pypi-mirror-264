@@ -1,0 +1,84 @@
+POST http://127.0.0.1:9001/api/core/v1/namespace/example-ns/proposal
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-query-contract",
+        "namespace": "example-ns"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "contract",
+                        "metadata": {
+                            "name": "query-contract",
+                            "version": "0.0.1",
+                            "namespace": "example-ns"
+                        },
+                        "spec": {
+                            "content": "IyDlnKhD54K55rGC5ZKMCmZyb20gaGVhcnRicmVhayBpbXBvcnQgKgoKQSA9IFNpdGUoMSkKQiA9IFNpdGUoMikKQyA9IFNpdGUoMykKCnNlY3JldF9hID0gUlYoInNlY3JldF9hIiwgQSkKc2VjcmV0X2IgPSBSVigic2VjcmV0X2IiLCBCKQoKc3VtX2MgPSBzZWNyZXRfYS5hdChDKSArIHNlY3JldF9iLmF0KEMpCgpwcmludChzdW1fYyk=",
+                            "data": {
+                                "secret_a": 4,
+                                "secret_b": 10
+                            },
+                            "functions": {
+                                "proxy": 6,
+                                "proxy2": 8
+                            },
+                            "execPatterns": [
+                                [
+                                    "wx-org1.chainmaker.org",
+                                    "wx-org2.chainmaker.org",
+                                    "wx-org3.chainmaker.org"
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
+HTTP 201
+[Captures]
+proposal_uid: body
+
+# 组织1 批准这一提议
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org1"
+}
+
+HTTP 200
+
+# 组织2 批准这一提议
+PUT http://127.0.0.1:9002/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org2"
+}
+
+HTTP 200
+
+
+# 组织3 批准这一提议
+PUT http://127.0.0.1:9003/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org3"
+}
+
+HTTP 200
+
+# 组织1 批准合约
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP 200
+
+GET http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}
+
+HTTP 200
+
+

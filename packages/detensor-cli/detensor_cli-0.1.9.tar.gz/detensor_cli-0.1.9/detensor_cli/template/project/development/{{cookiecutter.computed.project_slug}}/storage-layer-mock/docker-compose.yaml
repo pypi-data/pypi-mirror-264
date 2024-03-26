@@ -1,0 +1,16 @@
+services:
+  storage-layer-mock:
+    container_name: storage-layer-mock
+    environment:
+    - ADDR=10.193.172.95
+    - PORT=30000
+    - SOURCE_DIR=/test-src
+    - PRIVATES_PATH=/multi/privates.json
+    - EXTERNALS_PATH=/multi/externals.json
+    - COMPILE_CMD=none
+    image: storage-layer-mock:latest
+    network_mode: host
+    volumes:
+    - ./test-src:/test-src
+    - ./multi:/multi
+version: '3'

@@ -1,0 +1,37 @@
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-query-contract",
+        "namespace": "example-ns"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "contract",
+                        "metadata": {
+                            "name": "query-contract",
+                            "version": "0.0.1",
+                            "namespace": "example-ns"
+                        },
+                        "spec": {
+                            "content": "site A, B;\nsite fn@B proxy(str: string): string;\nfn main(arg: string) {\nlet res: string@A = proxy(arg)@B;\nprint(res)@A;\n}",
+                            "functions": {
+                                "proxy": 4
+                            },
+                            "execPatterns": [
+                                [
+                                    "wx-org1.chainmaker.org",
+                                    "wx-org2.chainmaker.org"
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

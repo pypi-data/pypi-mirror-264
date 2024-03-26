@@ -1,0 +1,1338 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "storage API是储存层的对象储存API",
+        "title": "storage API",
+        "contact": {
+            "name": "bravomikekilo",
+            "email": "bravomikekilo@buaa.edu.cn"
+        },
+        "version": "0.1"
+    },
+    "basePath": "/api",
+    "paths": {
+        "/core/v1/data": {
+            "get": {
+                "description": "按照请求创建私有数据, 返回创建的私有数据",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Data 私有数据"
+                ],
+                "summary": "查找私有数据对象 API",
+                "responses": {
+                    "201": {
+                        "description": "查找出的私有数据对象",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/objects.Data"
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "description": "按照请求创建私有数据, 返回创建的私有数据",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Data 私有数据"
+                ],
+                "summary": "创建私有数据API",
+                "parameters": [
+                    {
+                        "description": "待创建的私有数据对象",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/objects.Data"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "私有数据对象创建成功",
+                        "schema": {
+                            "$ref": "#/definitions/objects.Data"
+                        }
+                    }
+                }
+            }
+        },
+        "/core/v1/data/{name}": {
+            "get": {
+                "description": "根据私有数据对象的名称,在本地数据库中查找私有数据对象",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Data 私有数据"
+                ],
+                "summary": "按照名称查找私有数据对象 API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "私有数据对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "查找出的私有数据对象",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/objects.Data"
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "description": "按照请求更改数据, 返回更改后的私有数据",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Data 私有数据"
+                ],
+                "summary": "更改私有数据API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "要更新的私有数据对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "description": "要更新的新私有数据对象",
+                        "name": "newData",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/objects.Data"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "更新成功, 返回更新后的对象",
+                        "schema": {
+                            "$ref": "#/definitions/objects.Data"
+                        }
+                    },
+                    "401": {
+                        "description": "对象格式有误",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的私有对象"
+                    }
+                }
+            },
+            "delete": {
+                "description": "按照请求删除私有数据, 返回删除的私有数据",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Data 私有数据"
+                ],
+                "summary": "删除私有数据API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "要删除的私有数据对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "删除成功, 返回删除的对象",
+                        "schema": {
+                            "$ref": "#/definitions/objects.Data"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的私有对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/databinding": {
+            "get": {
+                "description": "按照请求创建私有数据绑定, 返回创建的私有数据绑定",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "DataBinding 私有数据绑定"
+                ],
+                "summary": "查找私有数据绑定对象 API",
+                "responses": {
+                    "201": {
+                        "description": "查找出的私有数据绑定对象",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/objects.DataBinding"
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "description": "按照请求创建私有数据绑定, 返回创建的私有数据绑定",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "DataBinding 私有数据绑定"
+                ],
+                "summary": "创建私有数据绑定API",
+                "parameters": [
+                    {
+                        "description": "待创建的私有数据绑定对象",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/objects.DataBinding"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "私有数据绑定对象创建成功",
+                        "schema": {
+                            "$ref": "#/definitions/objects.DataBinding"
+                        }
+                    }
+                }
+            }
+        },
+        "/core/v1/databinding/{name}": {
+            "get": {
+                "description": "根据私有数据绑定对象的名称,在本地数据库中查找私有数据绑定对象",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "DataBinding 私有数据绑定"
+                ],
+                "summary": "按照名称查找私有数据绑定对象 API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "私有数据绑定对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "查找出的私有数据绑定对象",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/objects.DataBinding"
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "description": "按照请求更改私有数据绑定, 返回更改后的私有数据绑定",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "DataBinding 私有数据绑定"
+                ],
+                "summary": "更改私有数据绑定API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "要更新的私有数据绑定对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "description": "要更新的新私有数据绑定对象",
+                        "name": "newFunc",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/objects.DataBinding"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "更新成功, 返回更新后的对象",
+                        "schema": {
+                            "$ref": "#/definitions/objects.DataBinding"
+                        }
+                    },
+                    "401": {
+                        "description": "对象格式有误",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的私有对象"
+                    }
+                }
+            },
+            "delete": {
+                "description": "按照请求删除私有数据绑定, 返回删除的私有数据绑定",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "DataBinding 私有数据绑定"
+                ],
+                "summary": "删除私有数据绑定 API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "要删除的私有数据绑定对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "删除成功, 返回删除的对象",
+                        "schema": {
+                            "$ref": "#/definitions/objects.DataBinding"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的私有对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/function": {
+            "get": {
+                "description": "按照请求创建私有函数, 返回创建的私有函数",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Function 私有函数"
+                ],
+                "summary": "查找私有函数对象 API",
+                "responses": {
+                    "201": {
+                        "description": "查找出的私有函数对象",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/objects.Function"
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "description": "按照请求创建私有函数, 返回创建的私有函数",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Function 私有函数"
+                ],
+                "summary": "创建私有函数API",
+                "parameters": [
+                    {
+                        "description": "待创建的私有函数对象",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/objects.Function"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "私有函数对象创建成功",
+                        "schema": {
+                            "$ref": "#/definitions/objects.Function"
+                        }
+                    }
+                }
+            }
+        },
+        "/core/v1/function/{name}": {
+            "get": {
+                "description": "根据私有函数对象的名称,在本地数据库中查找私有函数对象",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Function 私有函数"
+                ],
+                "summary": "按照名称查找私有函数对象 API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "私有函数对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "查找出的私有函数对象",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/objects.Function"
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "description": "按照请求更改私有函数, 返回更改后的私有函数",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Function 私有函数"
+                ],
+                "summary": "更改私有函数API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "要更新的私有函数对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "description": "要更新的新私有函数对象",
+                        "name": "newFunc",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/objects.Function"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "更新成功, 返回更新后的对象",
+                        "schema": {
+                            "$ref": "#/definitions/objects.Function"
+                        }
+                    },
+                    "401": {
+                        "description": "对象格式有误",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的私有对象"
+                    }
+                }
+            },
+            "delete": {
+                "description": "按照请求删除私有函数, 返回删除的私有函数",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Function 私有函数"
+                ],
+                "summary": "删除私有函数 API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "要删除的私有函数对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "删除成功, 返回删除的对象",
+                        "schema": {
+                            "$ref": "#/definitions/objects.Function"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的私有对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/functionbinding": {
+            "get": {
+                "description": "按照请求创建私有函数绑定, 返回创建的私有函数绑定",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "FunctionBinding 私有函数绑定"
+                ],
+                "summary": "查找私有函数绑定对象 API",
+                "responses": {
+                    "201": {
+                        "description": "查找出的私有函数绑定对象",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/objects.FunctionBinding"
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "description": "按照请求创建私有函数绑定, 返回创建的私有函数绑定",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "FunctionBinding 私有函数绑定"
+                ],
+                "summary": "创建私有函数绑定API",
+                "parameters": [
+                    {
+                        "description": "待创建的私有函数绑定对象",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/objects.FunctionBinding"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "私有函数绑定对象创建成功",
+                        "schema": {
+                            "$ref": "#/definitions/objects.FunctionBinding"
+                        }
+                    }
+                }
+            }
+        },
+        "/core/v1/functionbinding/{name}": {
+            "get": {
+                "description": "根据私有函数绑定对象的名称,在本地数据库中查找私有函数绑定对象",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "FunctionBinding 私有函数绑定"
+                ],
+                "summary": "按照名称查找私有函数绑定对象 API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "私有函数绑定对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "查找出的私有函数绑定对象",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/objects.FunctionBinding"
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "description": "按照请求更改私有函数绑定, 返回更改后的私有函数绑定",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "FunctionBinding 私有函数绑定"
+                ],
+                "summary": "更改私有函数绑定API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "要更新的私有函数绑定对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "description": "要更新的新私有函数绑定对象",
+                        "name": "newFunc",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/objects.FunctionBinding"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "更新成功, 返回更新后的对象",
+                        "schema": {
+                            "$ref": "#/definitions/objects.FunctionBinding"
+                        }
+                    },
+                    "401": {
+                        "description": "对象格式有误",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的私有对象"
+                    }
+                }
+            },
+            "delete": {
+                "description": "按照请求删除私有函数绑定, 返回删除的私有函数绑定",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "FunctionBinding 私有函数绑定"
+                ],
+                "summary": "删除私有函数绑定 API",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "要删除的私有函数绑定对象的名称",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "删除成功, 返回删除的对象",
+                        "schema": {
+                            "$ref": "#/definitions/objects.FunctionBinding"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的私有对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/namespaces": {
+            "get": {
+                "description": "获取一条链上所有已经生效的命名空间对象的接口",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Namespace 命名空间"
+                ],
+                "summary": "获取所有命名空间的接口",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "object"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/core/v1/namespaces/{namespace}/{kind}": {
+            "get": {
+                "description": "获取命名空间中某个类型的全部对象的接口",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Object 对象"
+                ],
+                "summary": "获取命名空间中某个类型的全部对象的接口",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "命名空间的名称",
+                        "name": "namespace",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "对象的类型名称",
+                        "name": "kind",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "object"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/core/v1/namespaces/{namespace}/{kind}/{name}": {
+            "get": {
+                "description": "根据命名空间和对象的类型或名称获取对象",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Object 对象"
+                ],
+                "summary": "根据命名空间和对象的类型与名称获取对象",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "命名空间的名称",
+                        "name": "namespace",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "对象的类型",
+                        "name": "kind",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "default": "\"\"",
+                        "description": "对象的版本",
+                        "name": "version",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "如果对象不使用版本, 返回JSON编码的对象, 否则返回版本为键,对象为值的字典",
+                        "schema": {
+                            "type": "object"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应类型,名称的对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/nodes": {
+            "get": {
+                "description": "调用链上合约, 根据给定的组织名查找这些组织计算节点的地址",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Node 节点"
+                ],
+                "summary": "计算节点发现服务",
+                "parameters": [
+                    {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "description": "请求的组织名, 可以有多个",
+                        "name": "orgs",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "节点注销成功",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "description": "调用链上合约, 将计算节点地址注册到本组织名下",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Node 节点"
+                ],
+                "summary": "计算节点地址注册",
+                "parameters": [
+                    {
+                        "description": "注册节点的请求",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/core.RegisterNodeReq"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "节点注册成功"
+                    }
+                }
+            },
+            "delete": {
+                "description": "调用链上合约, 注销本组织名下的计算节点地址",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Node 节点"
+                ],
+                "summary": "注销计算节点地址",
+                "responses": {
+                    "200": {
+                        "description": "节点注销成功"
+                    }
+                }
+            }
+        },
+        "/core/v1/objects/{uid}": {
+            "get": {
+                "description": "获取命名空间中某个类型的全部对象的接口",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Object 对象"
+                ],
+                "summary": "根据UID查询单个对象",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "对象的UID",
+                        "name": "uid",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "JSON编码的对象",
+                        "schema": {
+                            "type": "object"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到拥有该UID的对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/proposals": {
+            "post": {
+                "description": "获取命名空间中某个类型的全部对象的接口",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "GlobalProposal 全局提议"
+                ],
+                "summary": "创建全局提议API",
+                "parameters": [
+                    {
+                        "description": "要创建的提议对象",
+                        "name": "proposal",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "type": "object"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "创建的提议对象",
+                        "schema": {
+                            "type": "object"
+                        }
+                    },
+                    "403": {
+                        "description": "同样名称的全局提议已经存在"
+                    }
+                }
+            }
+        },
+        "/core/v1/proposals/{uid}": {
+            "delete": {
+                "description": "按照UID撤回某个全局提议",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "GlobalProposal 全局提议"
+                ],
+                "summary": "撤回全局提议API",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "提议对象的UID",
+                        "name": "uid",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "撤回的提议对象",
+                        "schema": {
+                            "type": "object"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的提议对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/proposals/{uid}/commit": {
+            "put": {
+                "description": "按照UID提交某个全局提议",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "GlobalProposal 全局提议"
+                ],
+                "summary": "提交全局提议 API",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "要提交的批准对象的UID",
+                        "name": "uid",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "提交成功"
+                    },
+                    "403": {
+                        "description": "提议对象不能被批准"
+                    },
+                    "404": {
+                        "description": "找不到对应的提议对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/proposals/{uid}/permission": {
+            "put": {
+                "description": "按照UID撤回某个全局提议",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "GlobalProposal 全局提议"
+                ],
+                "summary": "批准全局提议 API",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "要批准对象的UID",
+                        "name": "uid",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "description": "要添加的批准注释信息",
+                        "name": "comment",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "当前的批准状态, 与提交状态",
+                        "schema": {
+                            "type": "object"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的提议对象"
+                    }
+                }
+            },
+            "delete": {
+                "description": "按照UID撤回某个全局提议",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "GlobalProposal 全局提议"
+                ],
+                "summary": "批准全局提议 API",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "要取消批准对象的UID",
+                        "name": "uid",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "当前的批准状态, 与提交状态",
+                        "schema": {
+                            "type": "object"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应的提议对象"
+                    }
+                }
+            }
+        },
+        "/core/v1/{kind}/{name}": {
+            "get": {
+                "description": "根据对象的类型或名称获取全局对象",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Object 对象"
+                ],
+                "summary": "根据对象的类型与名称获取全局对象",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "对象的类型",
+                        "name": "kind",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "default": "\"\"",
+                        "description": "对象的版本",
+                        "name": "version",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "如果对象不使用版本, 返回JSON编码的对象, 否则返回版本为键,对象为值的字典",
+                        "schema": {
+                            "type": "object"
+                        }
+                    },
+                    "404": {
+                        "description": "找不到对应类型,名称的对象"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "core.RegisterNodeReq": {
+            "type": "object",
+            "properties": {
+                "addr": {
+                    "description": "计算节点的地址",
+                    "type": "string"
+                }
+            }
+        },
+        "objects.Data": {
+            "type": "object",
+            "properties": {
+                "metadata": {
+                    "$ref": "#/definitions/objects.Metadata"
+                },
+                "spec": {
+                    "$ref": "#/definitions/objects.DataSpec"
+                },
+                "status": {
+                    "$ref": "#/definitions/objects.DataStatus"
+                }
+            }
+        },
+        "objects.DataBinding": {
+            "type": "object",
+            "properties": {
+                "metadata": {
+                    "$ref": "#/definitions/objects.Metadata"
+                },
+                "spec": {
+                    "$ref": "#/definitions/objects.DataBindingSpec"
+                },
+                "status": {
+                    "$ref": "#/definitions/objects.DataBindingStatus"
+                }
+            }
+        },
+        "objects.DataBindingSpec": {
+            "type": "object",
+            "properties": {
+                "contractUid": {
+                    "type": "integer"
+                },
+                "dataDeclareUid": {
+                    "type": "integer"
+                },
+                "dataUid": {
+                    "type": "integer"
+                }
+            }
+        },
+        "objects.DataBindingStatus": {
+            "type": "object",
+            "properties": {
+                "available": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "objects.DataSpec": {
+            "type": "object",
+            "properties": {
+                "content": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                }
+            }
+        },
+        "objects.DataStatus": {
+            "type": "object",
+            "properties": {
+                "available": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "objects.Function": {
+            "type": "object",
+            "properties": {
+                "metadata": {
+                    "$ref": "#/definitions/objects.Metadata"
+                },
+                "spec": {
+                    "$ref": "#/definitions/objects.FunctionSpec"
+                },
+                "status": {
+                    "$ref": "#/definitions/objects.FunctionStatus"
+                }
+            }
+        },
+        "objects.FunctionBinding": {
+            "type": "object",
+            "properties": {
+                "metadata": {
+                    "$ref": "#/definitions/objects.Metadata"
+                },
+                "spec": {
+                    "$ref": "#/definitions/objects.FunctionBindingSpec"
+                },
+                "status": {
+                    "$ref": "#/definitions/objects.FunctionBindingStatus"
+                }
+            }
+        },
+        "objects.FunctionBindingSpec": {
+            "type": "object",
+            "properties": {
+                "contractUid": {
+                    "type": "integer"
+                },
+                "functionDeclareUid": {
+                    "type": "integer"
+                },
+                "functionUid": {
+                    "type": "integer"
+                }
+            }
+        },
+        "objects.FunctionBindingStatus": {
+            "type": "object",
+            "properties": {
+                "available": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "objects.FunctionSpec": {
+            "type": "object",
+            "properties": {
+                "content": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                }
+            }
+        },
+        "objects.FunctionStatus": {
+            "type": "object",
+            "properties": {
+                "available": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "objects.Metadata": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "namespace": {
+                    "type": "string"
+                },
+                "uid": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}

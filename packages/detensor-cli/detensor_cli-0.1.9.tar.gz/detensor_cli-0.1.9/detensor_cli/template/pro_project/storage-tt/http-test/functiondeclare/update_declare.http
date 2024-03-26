@@ -1,0 +1,69 @@
+POST http://127.0.0.1:9001/api/core/v1/namespace/example-ns/proposal
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "update-function-declare-proposal",
+        "namespace": "example-ns"
+    },
+    "spec": {
+        "actions": [
+            {
+                "update": {
+                    "uid": 4,
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "functiondeclare",
+                        "metadata": {
+                            "name": "binop-function-declare",
+                            "namespace": "example-ns",
+                            "annotations": {
+                                "key1": "hello",
+                                "key2": {
+                                    "sub1": 10,
+                                    "sub2": false
+                                }
+                            }
+                        },
+                        "spec": {
+                            "args": [
+                                {
+                                    "argType": "i64",
+                                    "description": "left hand side"
+                                },
+                                {
+                                    "argType": "i64",
+                                    "description": "right hand side"
+                                }
+                            ],
+                            "retType": "i64",
+                            "description": "binary op function on two int"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
+HTTP 201
+[Captures]
+proposal_uid: body
+
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+    "comment": "permit comment from org1"
+}
+
+HTTP 200
+
+PUT http://127.0.0.1:9002/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+    "comment": "permit comment from org2"
+}
+
+HTTP 200
+
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP 200

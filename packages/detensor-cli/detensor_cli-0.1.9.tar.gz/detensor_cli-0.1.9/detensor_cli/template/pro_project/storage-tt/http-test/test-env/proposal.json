@@ -1,0 +1,901 @@
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-record-proposal",
+        "namespace": "example-ns"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "record",
+                        "metadata": {
+                            "name": "schema-record",
+                            "namespace": "example-ns"
+                        },
+                        "spec": {
+                            "authors": [
+                                "org0"
+                            ],
+                            "content": {
+                                "pid": "2",
+                                "children": [
+                                    {
+                                        "pid": "764FDE2B53954F3490ED747012FEF7F0",
+                                        "children": [
+                                            {
+                                                "pid": "BA83DEE6B1E74A21B9C01250E5C6BF20",
+                                                "children": [
+                                                    {
+                                                        "pid": "2407F1F9B7F14FA3AA2AC5E52254F345",
+                                                        "data_labels": [
+                                                            {
+                                                                "label_type": "1",
+                                                                "id": "658BB4BDD9BA4D36A11DE928B0C07611",
+                                                                "label_name": "敏感数据",
+                                                                "items": [
+                                                                    {
+                                                                        "item_name": "公开",
+                                                                        "id": "201DDA510DBB420E80F437ACFB53F74B"
+                                                                    },
+                                                                    {
+                                                                        "item_name": "一般",
+                                                                        "id": "61ECD88A41E64CBEA213CEB509AF45AA"
+                                                                    },
+                                                                    {
+                                                                        "item_name": "机密",
+                                                                        "id": "B5383BB1D57B4EB6AE49FA2C1095C6F3"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "label_type": "1",
+                                                                "id": "658BB4BDD9BA4D36A11DE928B0C07613",
+                                                                "label_name": "医院",
+                                                                "items": [
+                                                                    {
+                                                                        "item_name": "宣武医院",
+                                                                        "id": "33B685EEEB99413CB961AFD6D7298980"
+                                                                    },
+                                                                    {
+                                                                        "item_name": "容城县医院",
+                                                                        "id": "D98C5C0A170C4EA3BFE7EAC118C15941"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "label_type": "1",
+                                                                "id": "658BB4BDD9BA4D36A11DE928B0C07612",
+                                                                "label_name": "时间",
+                                                                "items": [
+                                                                    {
+                                                                        "item_name": "三个月内",
+                                                                        "id": "0DFE6CACF85142C7BABF08E22004BA7E"
+                                                                    },
+                                                                    {
+                                                                        "item_name": "半年内",
+                                                                        "id": "3490307F064947FFBD70B3ECB7B2E7F4"
+                                                                    },
+                                                                    {
+                                                                        "item_name": "一年内",
+                                                                        "id": "A28B3EEFD59747A2A6C534D095FB744A"
+                                                                    },
+                                                                    {
+                                                                        "item_name": "一周内",
+                                                                        "id": "CB26DE2D3F76427F96266C2830186293"
+                                                                    },
+                                                                    {
+                                                                        "item_name": "一个月内",
+                                                                        "id": "FA336D6008E74193B54EDDA60B6230FF"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "column_labels": [
+                                                            {
+                                                                "id": "F8CE4AC109BD4ED6BC764E9540074E90",
+                                                                "label_name": "金融"
+                                                            },
+                                                            {
+                                                                "is_sensitive": "1",
+                                                                "id": "C27F95AA958A48A9936B112995175326",
+                                                                "label_name": "身份"
+                                                            }
+                                                        ],
+                                                        "name": "用户基本信息",
+                                                        "id": "93C1D7BB7C91478F9C316A4EC619D7B2",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "用户基本信息",
+                                                "id": "2407F1F9B7F14FA3AA2AC5E52254F345",
+                                                "seq": 1
+                                            },
+                                            {
+                                                "pid": "BA83DEE6B1E74A21B9C01250E5C6BF20",
+                                                "children": [
+                                                    {
+                                                        "pid": "2BADF53D6FDA4029AB60F2B86369DAB3",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "用户地址信息",
+                                                        "id": "885EDDF3436A4CCD822E4C2FF0F20217",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "用户地址信息",
+                                                "id": "2BADF53D6FDA4029AB60F2B86369DAB3",
+                                                "seq": 2
+                                            },
+                                            {
+                                                "pid": "BA83DEE6B1E74A21B9C01250E5C6BF20",
+                                                "children": [
+                                                    {
+                                                        "pid": "99B3CBD6521B4E4B92F9D50D09390D11",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "证件信息",
+                                                        "id": "E3B63A52F31B46DFBFD1E3E81853D886",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "证件信息",
+                                                "id": "99B3CBD6521B4E4B92F9D50D09390D11",
+                                                "seq": 3
+                                            },
+                                            {
+                                                "pid": "BA83DEE6B1E74A21B9C01250E5C6BF20",
+                                                "children": [
+                                                    {
+                                                        "pid": "07439113A425403AAF268A31FD96F1F0",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "联系人信息",
+                                                        "id": "2F8647E0D4A945FB9AF3CAD1BFCAA433",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "联系人信息",
+                                                "id": "07439113A425403AAF268A31FD96F1F0",
+                                                "seq": 4
+                                            },
+                                            {
+                                                "pid": "BA83DEE6B1E74A21B9C01250E5C6BF20",
+                                                "children": [
+                                                    {
+                                                        "pid": "0D99C83703134AC3902FA97E6D7DFF1A",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "联系人地址信息",
+                                                        "id": "7FB1465B96AF441BAC6288FE2F89B543",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "联系人地址信息",
+                                                "id": "0D99C83703134AC3902FA97E6D7DFF1A",
+                                                "seq": 5
+                                            },
+                                            {
+                                                "pid": "BA83DEE6B1E74A21B9C01250E5C6BF20",
+                                                "children": [
+                                                    {
+                                                        "pid": "C24417E013DC44FCADDC239A2B9C0929",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "监护人",
+                                                        "id": "024C47E136E4447ABADA20A60CC74955",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "监护人",
+                                                "id": "C24417E013DC44FCADDC239A2B9C0929",
+                                                "seq": 6
+                                            }
+                                        ],
+                                        "name": "基本信息",
+                                        "id": "BA83DEE6B1E74A21B9C01250E5C6BF20",
+                                        "seq": 1
+                                    },
+                                    {
+                                        "pid": "764FDE2B53954F3490ED747012FEF7F0",
+                                        "children": [
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "D97978CF801F4F1E8C481AD4CCF5478C",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者基本信息",
+                                                        "id": "2CFD6BE8B9FA48CBB3C21F6946444ADD",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "患者信息",
+                                                "id": "D97978CF801F4F1E8C481AD4CCF5478C",
+                                                "seq": 1
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "CE33989D95B54AF7A264476D41A2AE9F",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者挂号信息",
+                                                        "id": "BC5131C744E941BEB54D3515D8B1A63F",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "患者挂号信息",
+                                                "id": "CE33989D95B54AF7A264476D41A2AE9F",
+                                                "seq": 2
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "0D988389366A4847B8B7DA42D1A1DBE5",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者转科室信息",
+                                                        "id": "61A24120816E41389EDA4B276411D1DC",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "\r\n患者转科室信息\r\n",
+                                                "id": "0D988389366A4847B8B7DA42D1A1DBE5",
+                                                "seq": 3
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "7A51CC18822F45B9B0F1B3AA6F8EA824",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者住院信息",
+                                                        "id": "42C374C4D71E43C1A1E2E20AF4A9722B",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "7A51CC18822F45B9B0F1B3AA6F8EA824",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者住院诊断信息",
+                                                        "id": "91E5CB26009E499288469701A9AC53DB",
+                                                        "seq": 2
+                                                    },
+                                                    {
+                                                        "pid": "7A51CC18822F45B9B0F1B3AA6F8EA824",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "住院医嘱记录",
+                                                        "id": "59D16AFCCD974E8DA38A84B84C41B2B3",
+                                                        "seq": 3
+                                                    },
+                                                    {
+                                                        "pid": "7A51CC18822F45B9B0F1B3AA6F8EA824",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "住院诊疗费用",
+                                                        "id": "F6281D33579E4B15BC366074F04F35F7",
+                                                        "seq": 4
+                                                    }
+                                                ],
+                                                "name": "患者住院信息",
+                                                "id": "7A51CC18822F45B9B0F1B3AA6F8EA824",
+                                                "seq": 4
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "971B2913B6094120AACA339CCE655A54",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者出院信息",
+                                                        "id": "18402B97BE7140969641ED521EA4C942",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "患者出院信息",
+                                                "id": "971B2913B6094120AACA339CCE655A54",
+                                                "seq": 5
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "2E753CE5F7E242CF9A6667715E5A1B8F",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "病人诊断信息",
+                                                        "id": "38FAD07CCE7542E0AAD7D45FC936E2F4",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "病人诊断信息",
+                                                "id": "2E753CE5F7E242CF9A6667715E5A1B8F",
+                                                "seq": 6
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "A000E91C1961412EABB64430762238CC",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者过敏信息",
+                                                        "id": "DEBC56BAA11D4F948A8DE592D392DD19",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "患者过敏信息",
+                                                "id": "A000E91C1961412EABB64430762238CC",
+                                                "seq": 7
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "1700BA4CE96B4449AB603997DF36D194",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "医嘱信息",
+                                                        "id": "874C669F74374C759CF9096CD7877633",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "医嘱信息",
+                                                "id": "1700BA4CE96B4449AB603997DF36D194",
+                                                "seq": 8
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "8EC2F4C349994D20855233A9D8146AF7",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "检查图像",
+                                                        "id": "E21FE2E54206499A94F2429781F587FD",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "8EC2F4C349994D20855233A9D8146AF7",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "检查报告",
+                                                        "id": "7934CBC1EC514BB1896AEE34695EDD9F",
+                                                        "seq": 2
+                                                    },
+                                                    {
+                                                        "pid": "8EC2F4C349994D20855233A9D8146AF7",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "检查危机值",
+                                                        "id": "5FB9A5304FEF4CF5A3D2BA088393F5A5",
+                                                        "seq": 3
+                                                    },
+                                                    {
+                                                        "pid": "8EC2F4C349994D20855233A9D8146AF7",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "检验报告信息",
+                                                        "id": "58867F0A5AE941B38113B67A16EEB68A",
+                                                        "seq": 4
+                                                    },
+                                                    {
+                                                        "pid": "8EC2F4C349994D20855233A9D8146AF7",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "影像报告信息",
+                                                        "id": "BFBC9069BFAE42EDA23B8D9FA883D6FF",
+                                                        "seq": 5
+                                                    }
+                                                ],
+                                                "name": "检查信息",
+                                                "id": "8EC2F4C349994D20855233A9D8146AF7",
+                                                "seq": 9
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "2FD5C7CA424741A496F2078F81F6D743",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者手术信息",
+                                                        "id": "12F2BEA718E546BA86A4BA491BE7F4A0",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "患者手术信息",
+                                                "id": "2FD5C7CA424741A496F2078F81F6D743",
+                                                "seq": 10
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "D294267F9B0944AD8DFEB5B781F15924",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者输血信息",
+                                                        "id": "F3FC4A0E4B6841F8A7A61BB505290372",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "D294267F9B0944AD8DFEB5B781F15924",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "血液信息",
+                                                        "id": "B29D0EDED4C04F42845583D7226B18BD",
+                                                        "seq": 2
+                                                    },
+                                                    {
+                                                        "pid": "D294267F9B0944AD8DFEB5B781F15924",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "血液检测结果",
+                                                        "id": "54CC47975B5D4FA1B0DDCD05A759C8CB",
+                                                        "seq": 3
+                                                    },
+                                                    {
+                                                        "pid": "D294267F9B0944AD8DFEB5B781F15924",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "备血医嘱信息",
+                                                        "id": "507AF74EE15543369FDAC15C1B8392A2",
+                                                        "seq": 4
+                                                    }
+                                                ],
+                                                "name": "患者输血信息",
+                                                "id": "D294267F9B0944AD8DFEB5B781F15924",
+                                                "seq": 11
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "91B8E65C61D44DE4B0B1CD46F971616C",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "生命体征信息",
+                                                        "id": "2CB24D662FD84F5583305738429E590F",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "生命体征信息",
+                                                "id": "91B8E65C61D44DE4B0B1CD46F971616C",
+                                                "seq": 12
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "490D73189D98487896039BFF1322092D",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "病案首页",
+                                                        "id": "941646C5581C47AC8D2AE7991E646A53",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "490D73189D98487896039BFF1322092D",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "患者诊断描述",
+                                                        "id": "189B0C16E3A54908AEB48F6E590CD3CD",
+                                                        "seq": 2
+                                                    },
+                                                    {
+                                                        "pid": "490D73189D98487896039BFF1322092D",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "手术信息",
+                                                        "id": "7416078614CB458BB99880F7AD49F15F",
+                                                        "seq": 3
+                                                    }
+                                                ],
+                                                "name": "病案首页",
+                                                "id": "490D73189D98487896039BFF1322092D",
+                                                "seq": 13
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "BB9266E303C246828620947D301E666C",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "检验报告信息",
+                                                        "id": "94A712D62566441CB61790FFBFE806A1",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "检验报告信息",
+                                                "id": "BB9266E303C246828620947D301E666C",
+                                                "seq": 14
+                                            },
+                                            {
+                                                "pid": "8F9530C7102F4245AAE406523E53275F",
+                                                "children": [
+                                                    {
+                                                        "pid": "7DD255166D2A45ABBFC7351B6C9F414D",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "门急诊诊疗处方记录",
+                                                        "id": "668562A2820B484481E96512DC4F41CB",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "7DD255166D2A45ABBFC7351B6C9F414D",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "门急诊诊疗费用记录",
+                                                        "id": "DF249B4166474E1781A98A43A5378D32",
+                                                        "seq": 2
+                                                    },
+                                                    {
+                                                        "pid": "7DD255166D2A45ABBFC7351B6C9F414D",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "门急诊诊疗病历记录",
+                                                        "id": "4C233FBC1EFE4CD69D66A62B6F5CB11B",
+                                                        "seq": 3
+                                                    }
+                                                ],
+                                                "name": "门急诊诊疗",
+                                                "id": "7DD255166D2A45ABBFC7351B6C9F414D",
+                                                "seq": 15
+                                            }
+                                        ],
+                                        "name": "医疗档案",
+                                        "id": "8F9530C7102F4245AAE406523E53275F",
+                                        "seq": 2
+                                    },
+                                    {
+                                        "pid": "764FDE2B53954F3490ED747012FEF7F0",
+                                        "children": [
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "9F28031931FC4E83B35720B4389E6AC9",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "健康档案信息",
+                                                        "id": "849F68CB65F141DB8B97157DE01F7569",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "9F28031931FC4E83B35720B4389E6AC9",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "疾病信息",
+                                                        "id": "351AC835CC6548D88CFE05C1E278180B",
+                                                        "seq": 2
+                                                    },
+                                                    {
+                                                        "pid": "9F28031931FC4E83B35720B4389E6AC9",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "外伤信息",
+                                                        "id": "02C4CD64F8604EFC8C1EF3C8F9803F7E",
+                                                        "seq": 3
+                                                    },
+                                                    {
+                                                        "pid": "9F28031931FC4E83B35720B4389E6AC9",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "输血信息",
+                                                        "id": "7228489203454B5A8FDBBBFB01C3EE16",
+                                                        "seq": 4
+                                                    }
+                                                ],
+                                                "name": "健康档案信息",
+                                                "id": "9F28031931FC4E83B35720B4389E6AC9",
+                                                "seq": 1
+                                            },
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "CB58ECAECB3F41C1A8059887B4282576",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "健康监测",
+                                                        "id": "3B0B9963819C4B3E9BC7745D0927AE29",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "健康监测",
+                                                "id": "CB58ECAECB3F41C1A8059887B4282576",
+                                                "seq": 2
+                                            },
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "8B7911243A304EFFA70C9449554B414E",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "随访服务信息",
+                                                        "id": "CE95199E9E504BA583CA4EF56CE28497",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "8B7911243A304EFFA70C9449554B414E",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "围产期",
+                                                        "id": "5CEE654252EE4DC1992D2DD9789C359C",
+                                                        "seq": 2
+                                                    },
+                                                    {
+                                                        "pid": "8B7911243A304EFFA70C9449554B414E",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "计划免疫",
+                                                        "id": "E08FD3C1D9C84DB2820AC86E99408656",
+                                                        "seq": 3
+                                                    }
+                                                ],
+                                                "name": "服务",
+                                                "id": "8B7911243A304EFFA70C9449554B414E",
+                                                "seq": 7
+                                            },
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "F3F7DB423DB44391AFF9A2802E667025",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "签约信息",
+                                                        "id": "8EC20AD0EA954149B13FBF20373A44EA",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "F3F7DB423DB44391AFF9A2802E667025",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "有效合约信息",
+                                                        "id": "51AF61090B4F4267BC1ADD4F92467919",
+                                                        "seq": 2
+                                                    }
+                                                ],
+                                                "name": "合约",
+                                                "id": "F3F7DB423DB44391AFF9A2802E667025",
+                                                "seq": 8
+                                            },
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "EFC4A71A904643018011C141FBA38569",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "居民申诉",
+                                                        "id": "672F3FC18133409ABF585304C72F110E",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "居民申诉",
+                                                "id": "EFC4A71A904643018011C141FBA38569",
+                                                "seq": 9
+                                            },
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "0174CAA8CB0C494293BE468E9EC904CA",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "居民购买服务包",
+                                                        "id": "BF40673BC9D547259C5E404E01614239",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "居民购买服务包",
+                                                "id": "0174CAA8CB0C494293BE468E9EC904CA",
+                                                "seq": 10
+                                            },
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "BB08BD868CC247A09BF3D3FA9D4183A5",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "手术记录",
+                                                        "id": "249416F88300466796954C49B235073F",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "手术记录",
+                                                "id": "BB08BD868CC247A09BF3D3FA9D4183A5",
+                                                "seq": 11
+                                            },
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "93EB6A25BC824F12AEAB0771F28D37C1",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "用药记录",
+                                                        "id": "5CEAC9E9EB784DEA8EAD92F86663D21A",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "用药记录",
+                                                "id": "93EB6A25BC824F12AEAB0771F28D37C1",
+                                                "seq": 12
+                                            },
+                                            {
+                                                "pid": "17E712CAA32A4BB19998B563A4E841DC",
+                                                "children": [
+                                                    {
+                                                        "pid": "F899EA6172DC42C4A5511BAABD50D803",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "行政区划",
+                                                        "id": "C8F402FD039646368C2E469D4630350A",
+                                                        "seq": 0
+                                                    },
+                                                    {
+                                                        "pid": "F899EA6172DC42C4A5511BAABD50D803",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "就诊卡",
+                                                        "id": "767066DC130C4E599A2C243A22C8AAA6",
+                                                        "seq": 5
+                                                    },
+                                                    {
+                                                        "pid": "F899EA6172DC42C4A5511BAABD50D803",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "订单表",
+                                                        "id": "FB95A3398E454F3B841B3423BB64640A",
+                                                        "seq": 6
+                                                    },
+                                                    {
+                                                        "pid": "F899EA6172DC42C4A5511BAABD50D803",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "订单拓展表",
+                                                        "id": "4D8685301FF64E52A4D8E8A062920B2B",
+                                                        "seq": 7
+                                                    },
+                                                    {
+                                                        "pid": "F899EA6172DC42C4A5511BAABD50D803",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "用户关联的就诊卡",
+                                                        "id": "7E60BCD09D624E25B80F21C322BA7C59",
+                                                        "seq": 8
+                                                    }
+                                                ],
+                                                "name": "远程门诊",
+                                                "id": "F899EA6172DC42C4A5511BAABD50D803",
+                                                "seq": 13
+                                            }
+                                        ],
+                                        "name": "健康档案",
+                                        "id": "17E712CAA32A4BB19998B563A4E841DC",
+                                        "seq": 3
+                                    },
+                                    {
+                                        "pid": "764FDE2B53954F3490ED747012FEF7F0",
+                                        "children": [
+                                            {
+                                                "pid": "78400AF071D84742A247C7AB2D893EF7",
+                                                "children": [
+                                                    {
+                                                        "pid": "BEA80F22404C40979F8687AD9B1189CA",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "生活习惯",
+                                                        "id": "3EF2FF9B42764D2D9BBCC7577C7CB3CC",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "生活习惯",
+                                                "id": "BEA80F22404C40979F8687AD9B1189CA",
+                                                "seq": 1
+                                            },
+                                            {
+                                                "pid": "78400AF071D84742A247C7AB2D893EF7",
+                                                "children": [
+                                                    {
+                                                        "pid": "204ADC28998A4BFF83086D91C03A365B",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "生活环境",
+                                                        "id": "C70119445AF446438B2487F7CF062649",
+                                                        "seq": 1
+                                                    }
+                                                ],
+                                                "name": "生活环境",
+                                                "id": "204ADC28998A4BFF83086D91C03A365B",
+                                                "seq": 2
+                                            },
+                                            {
+                                                "pid": "78400AF071D84742A247C7AB2D893EF7",
+                                                "children": [
+                                                    {
+                                                        "pid": "BBB19B9377A74D32ABF52C415EA5AD4B",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "血糖",
+                                                        "id": "F7177C9208A74C8FB8E0404307D8702D",
+                                                        "seq": 1
+                                                    },
+                                                    {
+                                                        "pid": "BBB19B9377A74D32ABF52C415EA5AD4B",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "血压",
+                                                        "id": "7A2F6607D4D84D4A9ED034357C9F136D",
+                                                        "seq": 2
+                                                    },
+                                                    {
+                                                        "pid": "BBB19B9377A74D32ABF52C415EA5AD4B",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "心率",
+                                                        "id": "DE85C1171C6A4278A91A448B89BA586C",
+                                                        "seq": 3
+                                                    },
+                                                    {
+                                                        "pid": "BBB19B9377A74D32ABF52C415EA5AD4B",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "体温",
+                                                        "id": "DCB8947DCE944814B9198DAC30974245",
+                                                        "seq": 4
+                                                    },
+                                                    {
+                                                        "pid": "BBB19B9377A74D32ABF52C415EA5AD4B",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "脉搏",
+                                                        "id": "E6749B709AA34B438CD2DCCD9D4A172C",
+                                                        "seq": 5
+                                                    },
+                                                    {
+                                                        "pid": "BBB19B9377A74D32ABF52C415EA5AD4B",
+                                                        "data_labels": [],
+                                                        "column_labels": [],
+                                                        "name": "心电",
+                                                        "id": "0D4748FB8F294463A179B4B95841E7E4",
+                                                        "seq": 6
+                                                    }
+                                                ],
+                                                "name": "健康监测",
+                                                "id": "BBB19B9377A74D32ABF52C415EA5AD4B",
+                                                "seq": 3
+                                            }
+                                        ],
+                                        "name": "生活档案",
+                                        "id": "78400AF071D84742A247C7AB2D893EF7",
+                                        "seq": 4
+                                    }
+                                ],
+                                "name": "健康账户",
+                                "id": "764FDE2B53954F3490ED747012FEF7F0",
+                                "seq": 0
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

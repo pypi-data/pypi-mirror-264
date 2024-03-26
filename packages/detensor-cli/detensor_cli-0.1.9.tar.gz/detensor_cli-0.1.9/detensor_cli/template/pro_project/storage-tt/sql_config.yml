@@ -1,0 +1,5 @@
+DBUserName: "root"
+DBUserPasswd: "123456"
+DBAddr: "127.0.0.1"
+DBPort: "3306"
+DBName: "storage"

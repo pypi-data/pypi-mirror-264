@@ -1,0 +1,49 @@
+#! /usr/bin/env python3
+import requests
+
+# 创建函数（function）
+function_url = 'http://localhost:9001/api/core/v1/function'
+function_data = {
+    "apiVersion": "core/v1",
+    "kind": "function",
+    "metadata": {
+        "name": "query-function"
+    },
+    "spec": {
+        "content": "http://localhost:7000/calculate",
+        "description": "example description"
+    },
+    "status": {
+        "available": True
+    }
+}
+function_response = requests.post(function_url, json=function_data)
+
+if function_response.status_code == 201:
+    print("函数创建成功")
+else:
+    print(f"函数创建失败，状态码: {function_response.status_code}")
+
+# 创建函数绑定（functionbinding）
+functionbinding_url = 'http://localhost:9001/api/core/v1/functionbinding'
+functionbinding_data = {
+    "apiVersion": "core/v1",
+    "kind": "functionbinding",
+    "metadata": {
+        "name": "query-function-binding"
+    },
+    "spec": {
+        "functionUid": 1,  # 替换为实际的函数UID
+        "functionDeclareUid": 4,  # 替换为实际的函数声明UID
+        "contractUid": 6  # 替换为实际的合同UID
+    },
+    "status": {
+        "available": True
+    }
+}
+functionbinding_response = requests.post(functionbinding_url, json=functionbinding_data)
+
+if functionbinding_response.status_code == 201:
+    print("函数绑定创建成功")
+else:
+    print(f"函数绑定创建失败，状态码: {functionbinding_response.status_code}")

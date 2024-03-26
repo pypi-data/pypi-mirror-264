@@ -1,0 +1,8 @@
+[2024-03-20T09:12:57Z INFO  grpc_server] grpc-server start up
+[2024-03-20T09:12:57Z INFO  compute_core::config] config_path is: ./multi/common.yaml
+[2024-03-20T09:12:57Z INFO  grpc_server] core service listen on 127.0.0.1:13000
+[2024-03-20T09:12:57Z INFO  grpc_server] user service listen on 127.0.0.1:3000
+[2024-03-20T09:12:57Z INFO  grpc_server] pscontroller service listen on ./sockets/ps_socket0.sock
+[2024-03-20T09:12:57Z INFO  grpc_server] compute image use hb_py:latest
+thread 'main' panicked at 'send register node failed: error sending request for url (http://localhost:9001/api/core/v1/nodes/): error trying to connect: tcp connect error: Connection refused (os error 111)', /home/zhaoderun/Code/compute-rust/compute-core/crates/core/src/init.rs:42:21
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

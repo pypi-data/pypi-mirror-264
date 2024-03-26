@@ -1,0 +1,54 @@
+POST http://localhost:9001/api/core/v1/functionbinding
+
+{
+    "apiVersion": "core/v1",
+    "kind": "functionbinding",
+    "metadata": {
+        "name": "test-function-binding-1"
+    },
+    "spec": {
+        "functionUid": 1,
+        "functionDeclareUid": 1,
+        "contractUid": 1
+    },
+    "status": {
+        "available": true
+    }
+}
+
+POST http://localhost:9001/api/core/v1/functionbinding
+
+{
+    "apiVersion": "core/v1",
+    "kind": "functionbinding",
+    "metadata": {
+        "name": "test-function-binding-2"
+    },
+    "spec": {
+        "functionUid": 2,
+        "functionDeclareUid": 1,
+        "contractUid": 1
+    },
+    "status": {
+        "available": true
+    }
+}
+
+
+POST http://localhost:9001/api/core/v1/functionbinding
+
+{
+    "apiVersion": "core/v1",
+    "kind": "functionbinding",
+    "metadata": {
+        "name": "test-function-binding-3"
+    },
+    "spec": {
+        "functionUid": 2,
+        "functionDeclareUid": 1,
+        "contractUid": 2
+    },
+    "status": {
+        "available": true
+    }
+}

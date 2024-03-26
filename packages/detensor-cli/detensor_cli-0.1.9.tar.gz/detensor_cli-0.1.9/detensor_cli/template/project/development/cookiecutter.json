@@ -1,0 +1,9 @@
+{
+  "detensor": {
+    "project_name": "AwesomeBot"
+  },
+  "computed": {
+    "project_slug": "{{ cookiecutter.detensor.project_name|replace(' ', '-') }}",
+    "project_desc": "{{ cookiecutter.detensor.project_name }}"
+  }
+}

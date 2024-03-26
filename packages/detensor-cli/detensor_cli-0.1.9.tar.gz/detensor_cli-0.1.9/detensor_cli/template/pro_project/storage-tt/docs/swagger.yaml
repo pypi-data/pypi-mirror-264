@@ -1,0 +1,881 @@
+basePath: /api
+definitions:
+  core.RegisterNodeReq:
+    properties:
+      addr:
+        description: 计算节点的地址
+        type: string
+    type: object
+  objects.Data:
+    properties:
+      metadata:
+        $ref: '#/definitions/objects.Metadata'
+      spec:
+        $ref: '#/definitions/objects.DataSpec'
+      status:
+        $ref: '#/definitions/objects.DataStatus'
+    type: object
+  objects.DataBinding:
+    properties:
+      metadata:
+        $ref: '#/definitions/objects.Metadata'
+      spec:
+        $ref: '#/definitions/objects.DataBindingSpec'
+      status:
+        $ref: '#/definitions/objects.DataBindingStatus'
+    type: object
+  objects.DataBindingSpec:
+    properties:
+      contractUid:
+        type: integer
+      dataDeclareUid:
+        type: integer
+      dataUid:
+        type: integer
+    type: object
+  objects.DataBindingStatus:
+    properties:
+      available:
+        type: boolean
+    type: object
+  objects.DataSpec:
+    properties:
+      content:
+        type: string
+      description:
+        type: string
+    type: object
+  objects.DataStatus:
+    properties:
+      available:
+        type: boolean
+    type: object
+  objects.Function:
+    properties:
+      metadata:
+        $ref: '#/definitions/objects.Metadata'
+      spec:
+        $ref: '#/definitions/objects.FunctionSpec'
+      status:
+        $ref: '#/definitions/objects.FunctionStatus'
+    type: object
+  objects.FunctionBinding:
+    properties:
+      metadata:
+        $ref: '#/definitions/objects.Metadata'
+      spec:
+        $ref: '#/definitions/objects.FunctionBindingSpec'
+      status:
+        $ref: '#/definitions/objects.FunctionBindingStatus'
+    type: object
+  objects.FunctionBindingSpec:
+    properties:
+      contractUid:
+        type: integer
+      functionDeclareUid:
+        type: integer
+      functionUid:
+        type: integer
+    type: object
+  objects.FunctionBindingStatus:
+    properties:
+      available:
+        type: boolean
+    type: object
+  objects.FunctionSpec:
+    properties:
+      content:
+        type: string
+      description:
+        type: string
+    type: object
+  objects.FunctionStatus:
+    properties:
+      available:
+        type: boolean
+    type: object
+  objects.Metadata:
+    properties:
+      name:
+        type: string
+      namespace:
+        type: string
+      uid:
+        type: integer
+    type: object
+info:
+  contact:
+    email: bravomikekilo@buaa.edu.cn
+    name: bravomikekilo
+  description: storage API是储存层的对象储存API
+  title: storage API
+  version: "0.1"
+paths:
+  /core/v1/{kind}/{name}:
+    get:
+      consumes:
+      - application/json
+      description: 根据对象的类型或名称获取全局对象
+      parameters:
+      - description: 对象的类型
+        in: path
+        name: kind
+        required: true
+        type: string
+      - default: '""'
+        description: 对象的版本
+        in: query
+        name: version
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 如果对象不使用版本, 返回JSON编码的对象, 否则返回版本为键,对象为值的字典
+          schema:
+            type: object
+        "404":
+          description: 找不到对应类型,名称的对象
+      summary: 根据对象的类型与名称获取全局对象
+      tags:
+      - Object 对象
+  /core/v1/data:
+    get:
+      consumes:
+      - application/json
+      description: 按照请求创建私有数据, 返回创建的私有数据
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 查找出的私有数据对象
+          schema:
+            items:
+              $ref: '#/definitions/objects.Data'
+            type: array
+      summary: 查找私有数据对象 API
+      tags:
+      - Data 私有数据
+    post:
+      consumes:
+      - application/json
+      description: 按照请求创建私有数据, 返回创建的私有数据
+      parameters:
+      - description: 待创建的私有数据对象
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/objects.Data'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 私有数据对象创建成功
+          schema:
+            $ref: '#/definitions/objects.Data'
+      summary: 创建私有数据API
+      tags:
+      - Data 私有数据
+  /core/v1/data/{name}:
+    delete:
+      consumes:
+      - application/json
+      description: 按照请求删除私有数据, 返回删除的私有数据
+      parameters:
+      - description: 要删除的私有数据对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 删除成功, 返回删除的对象
+          schema:
+            $ref: '#/definitions/objects.Data'
+        "404":
+          description: 找不到对应的私有对象
+      summary: 删除私有数据API
+      tags:
+      - Data 私有数据
+    get:
+      consumes:
+      - application/json
+      description: 根据私有数据对象的名称,在本地数据库中查找私有数据对象
+      parameters:
+      - description: 私有数据对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 查找出的私有数据对象
+          schema:
+            items:
+              $ref: '#/definitions/objects.Data'
+            type: array
+      summary: 按照名称查找私有数据对象 API
+      tags:
+      - Data 私有数据
+    put:
+      consumes:
+      - application/json
+      description: 按照请求更改数据, 返回更改后的私有数据
+      parameters:
+      - description: 要更新的私有数据对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      - description: 要更新的新私有数据对象
+        in: body
+        name: newData
+        required: true
+        schema:
+          $ref: '#/definitions/objects.Data'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 更新成功, 返回更新后的对象
+          schema:
+            $ref: '#/definitions/objects.Data'
+        "401":
+          description: 对象格式有误
+          schema:
+            type: string
+        "404":
+          description: 找不到对应的私有对象
+      summary: 更改私有数据API
+      tags:
+      - Data 私有数据
+  /core/v1/databinding:
+    get:
+      consumes:
+      - application/json
+      description: 按照请求创建私有数据绑定, 返回创建的私有数据绑定
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 查找出的私有数据绑定对象
+          schema:
+            items:
+              $ref: '#/definitions/objects.DataBinding'
+            type: array
+      summary: 查找私有数据绑定对象 API
+      tags:
+      - DataBinding 私有数据绑定
+    post:
+      consumes:
+      - application/json
+      description: 按照请求创建私有数据绑定, 返回创建的私有数据绑定
+      parameters:
+      - description: 待创建的私有数据绑定对象
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/objects.DataBinding'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 私有数据绑定对象创建成功
+          schema:
+            $ref: '#/definitions/objects.DataBinding'
+      summary: 创建私有数据绑定API
+      tags:
+      - DataBinding 私有数据绑定
+  /core/v1/databinding/{name}:
+    delete:
+      consumes:
+      - application/json
+      description: 按照请求删除私有数据绑定, 返回删除的私有数据绑定
+      parameters:
+      - description: 要删除的私有数据绑定对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 删除成功, 返回删除的对象
+          schema:
+            $ref: '#/definitions/objects.DataBinding'
+        "404":
+          description: 找不到对应的私有对象
+      summary: 删除私有数据绑定 API
+      tags:
+      - DataBinding 私有数据绑定
+    get:
+      consumes:
+      - application/json
+      description: 根据私有数据绑定对象的名称,在本地数据库中查找私有数据绑定对象
+      parameters:
+      - description: 私有数据绑定对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 查找出的私有数据绑定对象
+          schema:
+            items:
+              $ref: '#/definitions/objects.DataBinding'
+            type: array
+      summary: 按照名称查找私有数据绑定对象 API
+      tags:
+      - DataBinding 私有数据绑定
+    put:
+      consumes:
+      - application/json
+      description: 按照请求更改私有数据绑定, 返回更改后的私有数据绑定
+      parameters:
+      - description: 要更新的私有数据绑定对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      - description: 要更新的新私有数据绑定对象
+        in: body
+        name: newFunc
+        required: true
+        schema:
+          $ref: '#/definitions/objects.DataBinding'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 更新成功, 返回更新后的对象
+          schema:
+            $ref: '#/definitions/objects.DataBinding'
+        "401":
+          description: 对象格式有误
+          schema:
+            type: string
+        "404":
+          description: 找不到对应的私有对象
+      summary: 更改私有数据绑定API
+      tags:
+      - DataBinding 私有数据绑定
+  /core/v1/function:
+    get:
+      consumes:
+      - application/json
+      description: 按照请求创建私有函数, 返回创建的私有函数
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 查找出的私有函数对象
+          schema:
+            items:
+              $ref: '#/definitions/objects.Function'
+            type: array
+      summary: 查找私有函数对象 API
+      tags:
+      - Function 私有函数
+    post:
+      consumes:
+      - application/json
+      description: 按照请求创建私有函数, 返回创建的私有函数
+      parameters:
+      - description: 待创建的私有函数对象
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/objects.Function'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 私有函数对象创建成功
+          schema:
+            $ref: '#/definitions/objects.Function'
+      summary: 创建私有函数API
+      tags:
+      - Function 私有函数
+  /core/v1/function/{name}:
+    delete:
+      consumes:
+      - application/json
+      description: 按照请求删除私有函数, 返回删除的私有函数
+      parameters:
+      - description: 要删除的私有函数对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 删除成功, 返回删除的对象
+          schema:
+            $ref: '#/definitions/objects.Function'
+        "404":
+          description: 找不到对应的私有对象
+      summary: 删除私有函数 API
+      tags:
+      - Function 私有函数
+    get:
+      consumes:
+      - application/json
+      description: 根据私有函数对象的名称,在本地数据库中查找私有函数对象
+      parameters:
+      - description: 私有函数对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 查找出的私有函数对象
+          schema:
+            items:
+              $ref: '#/definitions/objects.Function'
+            type: array
+      summary: 按照名称查找私有函数对象 API
+      tags:
+      - Function 私有函数
+    put:
+      consumes:
+      - application/json
+      description: 按照请求更改私有函数, 返回更改后的私有函数
+      parameters:
+      - description: 要更新的私有函数对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      - description: 要更新的新私有函数对象
+        in: body
+        name: newFunc
+        required: true
+        schema:
+          $ref: '#/definitions/objects.Function'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 更新成功, 返回更新后的对象
+          schema:
+            $ref: '#/definitions/objects.Function'
+        "401":
+          description: 对象格式有误
+          schema:
+            type: string
+        "404":
+          description: 找不到对应的私有对象
+      summary: 更改私有函数API
+      tags:
+      - Function 私有函数
+  /core/v1/functionbinding:
+    get:
+      consumes:
+      - application/json
+      description: 按照请求创建私有函数绑定, 返回创建的私有函数绑定
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 查找出的私有函数绑定对象
+          schema:
+            items:
+              $ref: '#/definitions/objects.FunctionBinding'
+            type: array
+      summary: 查找私有函数绑定对象 API
+      tags:
+      - FunctionBinding 私有函数绑定
+    post:
+      consumes:
+      - application/json
+      description: 按照请求创建私有函数绑定, 返回创建的私有函数绑定
+      parameters:
+      - description: 待创建的私有函数绑定对象
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/objects.FunctionBinding'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 私有函数绑定对象创建成功
+          schema:
+            $ref: '#/definitions/objects.FunctionBinding'
+      summary: 创建私有函数绑定API
+      tags:
+      - FunctionBinding 私有函数绑定
+  /core/v1/functionbinding/{name}:
+    delete:
+      consumes:
+      - application/json
+      description: 按照请求删除私有函数绑定, 返回删除的私有函数绑定
+      parameters:
+      - description: 要删除的私有函数绑定对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 删除成功, 返回删除的对象
+          schema:
+            $ref: '#/definitions/objects.FunctionBinding'
+        "404":
+          description: 找不到对应的私有对象
+      summary: 删除私有函数绑定 API
+      tags:
+      - FunctionBinding 私有函数绑定
+    get:
+      consumes:
+      - application/json
+      description: 根据私有函数绑定对象的名称,在本地数据库中查找私有函数绑定对象
+      parameters:
+      - description: 私有函数绑定对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 查找出的私有函数绑定对象
+          schema:
+            items:
+              $ref: '#/definitions/objects.FunctionBinding'
+            type: array
+      summary: 按照名称查找私有函数绑定对象 API
+      tags:
+      - FunctionBinding 私有函数绑定
+    put:
+      consumes:
+      - application/json
+      description: 按照请求更改私有函数绑定, 返回更改后的私有函数绑定
+      parameters:
+      - description: 要更新的私有函数绑定对象的名称
+        in: path
+        name: name
+        required: true
+        type: string
+      - description: 要更新的新私有函数绑定对象
+        in: body
+        name: newFunc
+        required: true
+        schema:
+          $ref: '#/definitions/objects.FunctionBinding'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 更新成功, 返回更新后的对象
+          schema:
+            $ref: '#/definitions/objects.FunctionBinding'
+        "401":
+          description: 对象格式有误
+          schema:
+            type: string
+        "404":
+          description: 找不到对应的私有对象
+      summary: 更改私有函数绑定API
+      tags:
+      - FunctionBinding 私有函数绑定
+  /core/v1/namespaces:
+    get:
+      consumes:
+      - application/json
+      description: 获取一条链上所有已经生效的命名空间对象的接口
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              type: object
+            type: array
+      summary: 获取所有命名空间的接口
+      tags:
+      - Namespace 命名空间
+  /core/v1/namespaces/{namespace}/{kind}:
+    get:
+      consumes:
+      - application/json
+      description: 获取命名空间中某个类型的全部对象的接口
+      parameters:
+      - description: 命名空间的名称
+        in: path
+        name: namespace
+        required: true
+        type: string
+      - description: 对象的类型名称
+        in: path
+        name: kind
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              type: object
+            type: array
+      summary: 获取命名空间中某个类型的全部对象的接口
+      tags:
+      - Object 对象
+  /core/v1/namespaces/{namespace}/{kind}/{name}:
+    get:
+      consumes:
+      - application/json
+      description: 根据命名空间和对象的类型或名称获取对象
+      parameters:
+      - description: 命名空间的名称
+        in: path
+        name: namespace
+        required: true
+        type: string
+      - description: 对象的类型
+        in: path
+        name: kind
+        required: true
+        type: string
+      - default: '""'
+        description: 对象的版本
+        in: query
+        name: version
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 如果对象不使用版本, 返回JSON编码的对象, 否则返回版本为键,对象为值的字典
+          schema:
+            type: object
+        "404":
+          description: 找不到对应类型,名称的对象
+      summary: 根据命名空间和对象的类型与名称获取对象
+      tags:
+      - Object 对象
+  /core/v1/nodes:
+    delete:
+      consumes:
+      - application/json
+      description: 调用链上合约, 注销本组织名下的计算节点地址
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 节点注销成功
+      summary: 注销计算节点地址
+      tags:
+      - Node 节点
+    get:
+      consumes:
+      - application/json
+      description: 调用链上合约, 根据给定的组织名查找这些组织计算节点的地址
+      parameters:
+      - description: 请求的组织名, 可以有多个
+        in: query
+        items:
+          type: string
+        name: orgs
+        type: array
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 节点注销成功
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: 计算节点发现服务
+      tags:
+      - Node 节点
+    post:
+      consumes:
+      - application/json
+      description: 调用链上合约, 将计算节点地址注册到本组织名下
+      parameters:
+      - description: 注册节点的请求
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/core.RegisterNodeReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 节点注册成功
+      summary: 计算节点地址注册
+      tags:
+      - Node 节点
+  /core/v1/objects/{uid}:
+    get:
+      consumes:
+      - application/json
+      description: 获取命名空间中某个类型的全部对象的接口
+      parameters:
+      - description: 对象的UID
+        in: path
+        name: uid
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: JSON编码的对象
+          schema:
+            type: object
+        "404":
+          description: 找不到拥有该UID的对象
+      summary: 根据UID查询单个对象
+      tags:
+      - Object 对象
+  /core/v1/proposals:
+    post:
+      consumes:
+      - application/json
+      description: 获取命名空间中某个类型的全部对象的接口
+      parameters:
+      - description: 要创建的提议对象
+        in: body
+        name: proposal
+        required: true
+        schema:
+          type: object
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 创建的提议对象
+          schema:
+            type: object
+        "403":
+          description: 同样名称的全局提议已经存在
+      summary: 创建全局提议API
+      tags:
+      - GlobalProposal 全局提议
+  /core/v1/proposals/{uid}:
+    delete:
+      consumes:
+      - application/json
+      description: 按照UID撤回某个全局提议
+      parameters:
+      - description: 提议对象的UID
+        in: path
+        name: uid
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: 撤回的提议对象
+          schema:
+            type: object
+        "404":
+          description: 找不到对应的提议对象
+      summary: 撤回全局提议API
+      tags:
+      - GlobalProposal 全局提议
+  /core/v1/proposals/{uid}/commit:
+    put:
+      consumes:
+      - application/json
+      description: 按照UID提交某个全局提议
+      parameters:
+      - description: 要提交的批准对象的UID
+        in: path
+        name: uid
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 提交成功
+        "403":
+          description: 提议对象不能被批准
+        "404":
+          description: 找不到对应的提议对象
+      summary: 提交全局提议 API
+      tags:
+      - GlobalProposal 全局提议
+  /core/v1/proposals/{uid}/permission:
+    delete:
+      consumes:
+      - application/json
+      description: 按照UID撤回某个全局提议
+      parameters:
+      - description: 要取消批准对象的UID
+        in: path
+        name: uid
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 当前的批准状态, 与提交状态
+          schema:
+            type: object
+        "404":
+          description: 找不到对应的提议对象
+      summary: 批准全局提议 API
+      tags:
+      - GlobalProposal 全局提议
+    put:
+      consumes:
+      - application/json
+      description: 按照UID撤回某个全局提议
+      parameters:
+      - description: 要批准对象的UID
+        in: path
+        name: uid
+        required: true
+        type: integer
+      - description: 要添加的批准注释信息
+        in: body
+        name: comment
+        required: true
+        schema:
+          type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 当前的批准状态, 与提交状态
+          schema:
+            type: object
+        "404":
+          description: 找不到对应的提议对象
+      summary: 批准全局提议 API
+      tags:
+      - GlobalProposal 全局提议
+swagger: "2.0"

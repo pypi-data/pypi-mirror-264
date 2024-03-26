@@ -1,0 +1,56 @@
+# 创建函数接口声明的提议, 由于接口声明都在命名空间内, 所以需要先创建命名空间.
+# 创建function declare 的 proposal
+# NOTICE: 必须先创建名为test 的 namespace
+POST http://127.0.0.1:9001/api/core/v1/namespace/test/proposal
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-function-declare-proposal",
+        "namespace": "test"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "functiondeclare",
+                        "metadata": {
+                            "name": "calculate",
+                            "namespace": "test"
+                        },
+                        "spec": {
+                            "args":[],
+                            "retType": "",
+                            "description": ""
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
+HTTP/* 201
+[Captures]
+proposal_uid: body
+
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP/* 200
+
+GET http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}
+
+HTTP/* 200
+
+# 组织1向函数接口声明添加实现
+PUT http://127.0.0.1:9001/api/core/v1/namespace/test/functiondeclare/calculate/implementation
+{
+    "comment": "example-comment from org1"
+}
+HTTP/* 200
+
+
+
+

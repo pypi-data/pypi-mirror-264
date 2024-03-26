@@ -1,0 +1,36 @@
+POST http://localhost:9001/api/core/v1/data
+
+{
+    "apiVersion": "core/v1",
+    "kind": "data",
+    "metadata": {
+        "name": "test-data-1"
+    },
+    "spec": {
+        "content": "I64 12345",
+        "description": "test data 1"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+HTTP 201
+
+POST http://localhost:9001/api/core/v1/databinding
+
+{
+    "apiVersion": "core/v1",
+    "kind": "databinding",
+    "metadata": {
+        "name": "test-data-binding-1"
+    },
+    "spec": {
+        "dataUid": 1,
+        "dataDeclareUid": 4,
+        "contractUid": 12
+    },
+    "status": {
+        "available": true
+    }
+}

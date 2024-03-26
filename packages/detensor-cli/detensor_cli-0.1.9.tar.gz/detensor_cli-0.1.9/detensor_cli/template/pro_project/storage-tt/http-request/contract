@@ -1,0 +1,81 @@
+#! /usr/bin/env python3
+import requests
+
+# 发送POST请求创建提议
+create_proposal_url = 'http://127.0.0.1:9001/api/core/v1/namespace/test/proposal'
+proposal_data = {
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-query-contract",
+        "namespace": "test"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "contract",
+                        "metadata": {
+                            "name": "query-contract",
+                            "version": "0.0.1",
+                            "namespace": "test"
+                        },
+                        "spec": {
+                            "content": "IyBDb250cmFjdCAyCgppbXBvcnQgc3lzCmltcG9ydCBvcwpzeXMucGF0aC5hcHBlbmQob3MucGF0aC5hYnNwYXRoKG9zLnBhdGguam9pbihfX2ZpbGVfXywgIi4uIiwgIi4uIiwgIi4uIikpKQoKZnJvbSBoZWFydGJyZWFrIGltcG9ydCAqCgpBID0gU2l0ZSgxKQoKY2FsY3VsYXRlID0gUkYoImNhbGN1bGF0ZSIsIEEpCnNlY3JldF9hID0gMTAKCnJlcyA9IGNhbGN1bGF0ZShhcmcxPXNlY3JldF9hLCBhcmcyPXNlY3JldF9hKQoKc3VtID0gcmVzWydzdW0nXQpwcmludChyZXMpCnByaW50KHN1bSk=",
+                            "data": {},
+                            "functions": {
+                                "calculate": 4
+                            },
+                            "execPatterns": [
+                                [
+                                    "wx-org1.chainmaker.org"
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
+response = requests.post(create_proposal_url, json=proposal_data)
+
+if response.status_code == 201:
+    proposal_uid = response.json()
+    print(f"合约创建成功,uid是{proposal_uid}")
+else:
+    print(f"合约创建失败，状态码: {response.status_code}")
+
+
+# 组织1 批准提议
+permission_url = f'http://127.0.0.1:9001/api/core/v1/proposal/{proposal_uid}/permission'
+permission_data = {
+    "comment": "comment_from_org1"
+}
+response = requests.put(permission_url, json=permission_data)
+# 检查响应状态码
+if response.status_code == 200:
+    print("请求成功!")
+else:
+    print(f"请求失败，状态码: {response.status_code}")
+
+# 组织1 批准合约
+commit_url = f'http://127.0.0.1:9001/api/core/v1/proposal/{proposal_uid}/commit'
+response = requests.put(commit_url)
+# 检查响应状态码
+if response.status_code == 200:
+    print("请求成功!")
+else:
+    print(f"请求失败，状态码: {response.status_code}")
+
+# 获取提议详情
+get_proposal_url = f'http://127.0.0.1:9001/api/core/v1/proposal/{proposal_uid}'
+response = requests.get(get_proposal_url)
+if response.status_code == 200:
+    print("请求成功!")
+else:
+    print(f"请求失败，状态码: {response.status_code}")
+print(response.json())

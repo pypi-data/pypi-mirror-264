@@ -1,0 +1,59 @@
+# 创建 data declare 的 proposal
+# NOTICE: 必须先创建名为 example-ns 的 namespace
+POST http://127.0.0.1:9002/api/core/v1/namespace/example-ns/proposal
+{
+  "apiVersion": "core/v1",
+  "kind": "proposal",
+  "metadata": {
+    "name": "create-data-declare-proposal-2",
+    "namespace": "example-ns"
+  },
+  "spec": {
+    "actions": [
+      {
+        "create": {
+          "object": {
+            "apiVersion": "core/v1",
+            "kind": "datadeclare",
+            "metadata": {
+              "name": "example-data-declare-2",
+              "namespace": "example-ns"
+            },
+            "spec": {
+              "dataType": "i64",
+              "description": "just a int"
+            },
+            "status": {
+              "implementation": {}
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+
+HTTP 201
+[Captures]
+proposal_uid: body
+
+
+PUT http://127.0.0.1:9002/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org1"
+}
+
+HTTP 200
+
+
+PUT http://127.0.0.1:9002/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP 200
+
+
+# 组织2向数据接口声明添加实现
+PUT http://127.0.0.1:9002/api/core/v1/namespace/example-ns/datadeclare/example-data-declare-2/implementation
+{
+    "comment": "example-comment from org2"
+}
+HTTP/* 200

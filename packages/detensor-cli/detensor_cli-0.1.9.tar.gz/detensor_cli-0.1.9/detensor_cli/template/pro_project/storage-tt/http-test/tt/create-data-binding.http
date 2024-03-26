@@ -1,0 +1,18 @@
+POST http://localhost:9001/api/core/v1/databinding
+
+{
+    "apiVersion": "core/v1",
+    "kind": "databinding",
+    "metadata": {
+        "name": "test-data-binding-1"
+    },
+    "spec": {
+        "dataUid": 1,
+        "dataDeclareUid": 8,
+        "contractUid": 6
+    },
+    "status": {
+        "available": true
+    }
+}
+

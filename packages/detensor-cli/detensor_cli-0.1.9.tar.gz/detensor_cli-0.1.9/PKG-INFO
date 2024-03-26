@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: detensor_cli
+Version: 0.1.9
+Summary: a cli tool for detensor
+Home-page: https://github.com/tjr20202021@163.com/detensor_cli
+Author: buaatjr
+Author-email: tjr20202021@163.com
+License: MIT license
+Keywords: detensor_cli
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pip==19.2.3
+Requires-Dist: bump2version==0.5.11
+Requires-Dist: wheel==0.33.6
+Requires-Dist: watchdog==0.9.0
+Requires-Dist: flake8==3.7.8
+Requires-Dist: tox==3.14.0
+Requires-Dist: coverage==4.5.4
+Requires-Dist: Sphinx==1.8.5
+Requires-Dist: twine==1.14.0
+Requires-Dist: annotated-types==0.6.0
+Requires-Dist: anyio==3.7.1
+Requires-Dist: arrow==1.3.0
+Requires-Dist: async-generator==1.10
+Requires-Dist: babel==2.14.0
+Requires-Dist: binaryornot==0.4.4
+Requires-Dist: cashews==7.0.0
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: chardet==5.2.0
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.7
+Requires-Dist: cookiecutter==2.5.0
+Requires-Dist: distlib==0.3.8
+Requires-Dist: distro==1.7.0
+Requires-Dist: exceptiongroup==1.2.0
+Requires-Dist: filelock==3.13.1
+Requires-Dist: grpcio==1.60.0
+Requires-Dist: h11==0.14.0
+Requires-Dist: httpcore==1.0.4
+Requires-Dist: httpx==0.26.0
+Requires-Dist: idna==3.6
+Requires-Dist: Jinja2==3.1.3
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: MarkupSafe==2.1.5
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: noneprompt==0.1.9
+Requires-Dist: platformdirs==4.2.0
+Requires-Dist: podman-compose==1.0.6
+Requires-Dist: prompt-toolkit==3.0.43
+Requires-Dist: protobuf==4.25.3
+Requires-Dist: pydantic==2.6.2
+Requires-Dist: pydantic_core==2.16.3
+Requires-Dist: pyfiglet==1.0.2
+Requires-Dist: Pygments==2.17.2
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: python-slugify==8.0.4
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: rich==13.7.0
+Requires-Dist: six==1.16.0
+Requires-Dist: sniffio==1.3.0
+Requires-Dist: text-unidecode==1.3
+Requires-Dist: tomlkit==0.12.3
+Requires-Dist: types-python-dateutil==2.8.19.20240106
+Requires-Dist: typing_extensions==4.9.0
+Requires-Dist: urllib3==2.2.1
+Requires-Dist: virtualenv==20.25.0
+Requires-Dist: watchfiles==0.21.0
+Requires-Dist: wcwidth==0.2.13
+
+============
+detensor-cli
+============
+
+
+.. image:: https://img.shields.io/pypi/v/detensor_cli.svg
+        :target: https://pypi.python.org/pypi/detensor_cli
+
+.. image:: https://img.shields.io/travis/tjr20202021@163.com/detensor_cli.svg
+        :target: https://travis-ci.com/tjr20202021@163.com/detensor_cli
+
+.. image:: https://readthedocs.org/projects/detensor-cli/badge/?version=latest
+        :target: https://detensor-cli.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+a cli tool for detensor
+
+
+* Free software: MIT license
+* Documentation: https://detensor-cli.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2024-03-12)
+------------------
+
+* First release on PyPI.
