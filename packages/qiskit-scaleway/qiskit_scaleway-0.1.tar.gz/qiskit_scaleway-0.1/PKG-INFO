@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: qiskit_scaleway
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: qiskit==1.0.2
