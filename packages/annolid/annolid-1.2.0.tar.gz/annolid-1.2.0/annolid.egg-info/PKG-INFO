@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: annolid
+Version: 1.2.0
+Summary: An annotation and instance segmentation-based multiple animal tracking and behavior analysis package.
+Home-page: https://github.com/healthonrails/annolid
+Author: Chen Yang
+Author-email: healthonrails@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy>=1.18.2
+Requires-Dist: scipy>=1.5.2
+Requires-Dist: easydict>=1.9
+Requires-Dist: opencv-contrib-python>=4.1.2.30
+Requires-Dist: opencv-python-headless>=4.1.2.30
+Requires-Dist: PyYAML>=5.3
+Requires-Dist: labelme==5.4.1
+Requires-Dist: decord>=0.4.0; platform_system != "Darwin"
+Requires-Dist: eva-decord>=0.6.1; sys_platform == "darwin"
+Requires-Dist: sounddevice>=0.4.6
+Requires-Dist: librosa>=0.10.1
+Requires-Dist: torch>=1.7
+Requires-Dist: torchvision>=0.8
+Requires-Dist: pandas>=1.1.3
+Requires-Dist: pycocotools>=2.0.2
+Requires-Dist: tensorboard>=2.3.0
+Requires-Dist: imageio>=2.8.0
+Requires-Dist: shapely>=2.0.2
+Requires-Dist: imageio-ffmpeg>=0.4.2
+Requires-Dist: qimage2ndarray>=1.8
+Requires-Dist: simplification==0.6.11
+Requires-Dist: tokenizers
+Requires-Dist: dataclasses>=0.6; python_version < "3.7"
+Requires-Dist: einops>=0.6
+Requires-Dist: omegaconf>=2.3.0
+Requires-Dist: hydra-core>=1.3.2
+Requires-Dist: timm>=0.9.7
+Requires-Dist: Pillow<=9.5.0,>=9.3.0
+Requires-Dist: chardet>=5.2.0
+Requires-Dist: scikit-learn-extra>=0.3.0
