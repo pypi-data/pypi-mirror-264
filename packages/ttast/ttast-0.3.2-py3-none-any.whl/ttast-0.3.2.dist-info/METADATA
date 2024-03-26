@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ttast
+Version: 0.3.2
+Summary: Text Transform Assistant
+Home-page: https://github.com/archmachina/ttast
+Download-URL: https://pypi.org/project/ttast/
+Author: Jesse Reichman
+License: MIT
+Keywords: Text,Transform,Assistant
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML >=6.0.0
+Requires-Dist: Jinja2 >=3.1.0
+
