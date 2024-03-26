@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: worldview-config
+Version: 0.1.4
+Summary: Tooling to simplify applying custom configuration for NASA Worldview.
+Author-email: Zachary Griffith <zdgriffith@wisc.edu>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10,~=3.0
+Requires-Dist: jinja2
+Requires-Dist: pydantic
+Requires-Dist: typer[all]
+Description-Content-Type: text/markdown
+
+Tooling to simplify applying custom configuration for NASA Worldview.
