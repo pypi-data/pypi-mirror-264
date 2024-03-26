@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "xian-contracting"
+version = "0.1.1"
+description = ""
+authors = ["endogen"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+astor = "^0.8.1"
+pymongo = "^4.6.2"
+pycodestyle = "^2.11.1"
+autopep8 = "^2.0.4"
+motor = "^3.3.2"
+iso8601 = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
