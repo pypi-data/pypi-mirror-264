@@ -1,0 +1,3 @@
+[console_scripts]
+sriparna = sriparna.sriparna:main
+sriparna-gui = sriparna.sriparna_gui:main
