@@ -1,0 +1,4 @@
+
+acp_idl_base
+acp_libs/lib/
+sf2_alcraft
