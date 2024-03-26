@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyacad
+Version: 0.0.1
+Summary: A package aimed to simplfy coding of Activex Automation Module of AutoCAD, based on pywin32 library.
+Home-page: https://github.com/AxelTAG/pyacad.git
+Author: Kevin Axel Tagliaferri
+Author-email: kevinaxeltagliaferri@hotmail.com
+License-File: LICENSE
