@@ -1,0 +1,14 @@
+ookcatalog/__init__.py,sha256=QISgNVY0W52YiUjU9SnDMowyhEhhAfC7L_M7XJ7IwXM,2039
+ookcatalog/catalog.py,sha256=m2nQ_Y1TugaxLzBOez3N84vOHEQRDFJ8q_WSpAsgIE0,1651
+ookcatalog/commands.py,sha256=e8lISpofncDUcdE3kIXnmxUujcu9i5tmHpKIOT8XGIU,3549
+ookcatalog/db.py,sha256=P0Txc0Ixp-4C6mvv0YyWKgb6Ho03fQXcNOD95rzkT4g,18617
+ookcatalog/templates/home.html,sha256=CUoECzyV2og6TPePHD5VWUbAbhXl5R5CX_w35LO-NPQ,804
+ookcatalog/templates/layout.html,sha256=A2G7v0yshGWmK4MvH_KeBzXA0eWqJv7ALKrf23_I5XQ,1740
+ookcatalog/templates/search.html,sha256=RgKDXQ7KCnzfaXY-4uAoJucb211x9tO_BXSuvVi8hsU,791
+ookcatalog/templates/table.html,sha256=nNdDMJz99m7eiD3o88Bv-c7fLRmN7JP2Ijov0gMZK1g,1770
+ookcatalog/translations/fr/LC_MESSAGES/messages.mo,sha256=aWskXdLZrgG8rUOWugYQvD37dwOp4FqlhNTnHdDEolg,1653
+ookcatalog/translations/fr/LC_MESSAGES/messages.po,sha256=GsSMgsdH7L-Zx3K8ZEO5Psvu_qq2GQGvOYHkI7JJfIg,2693
+ookcatalog-0.1.0.dist-info/entry_points.txt,sha256=M-QoOIdQR8SVov4M5XHTTKZtdCqYOB6hIG6aDx01U_U,54
+ookcatalog-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ookcatalog-0.1.0.dist-info/METADATA,sha256=SL2KMFM5F_k2JU5vQDFztUA1vzQ6bFN-hitXpLjdLPQ,7142
+ookcatalog-0.1.0.dist-info/RECORD,,
