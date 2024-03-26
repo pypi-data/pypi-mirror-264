@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: kristpy
+Version: 0.0.5
+Summary: A python library for the Krist websocket API
+Project-URL: Homepage, https://github.com/scmcgowen/kristpy
+Project-URL: Bug Tracker, https://github.com/scmcgowen/kristpy/issues
+Author-email: Herr Katze <scmcgowen@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# kristpy
+
+This is a python library for the Krist websocket API
+Currently it only supports making and recieving transactions of type `Transfer` but may support more in the future
