@@ -1,0 +1,21 @@
+include LICENSE
+include Makefile
+include docs/Makefile
+include *.txt
+include *.rst
+
+recursive-include finch *.py
+include finch/default.cfg
+recursive-include finch/processes/modules *.yml
+
+recursive-include tests *.py *.cfg
+recursive-include tests/data *.nc *.json *.zip
+recursive-include docs/source *.rst *.py *.ipynb *.svg *.ico *.txt
+
+exclude .*
+exclude docs/source/references.bib
+recursive-exclude docs/build *
+recursive-exclude docs/source/notebooks/.ipynb_checkpoints *.ipynb
+
+global-exclude __pycache__
+global-exclude *.py[co]
