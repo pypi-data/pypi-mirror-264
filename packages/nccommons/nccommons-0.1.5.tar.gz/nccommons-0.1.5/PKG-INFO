@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nccommons
+Version: 0.1.5
+Summary: This package provide comon functions that can be used in API or UI Automation
+Home-page: https://github.com/abhishek.maurya/Abhishekkapackage
+Author: Abhishek Maurya
+Author-email: testmartech1@netcorecloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+pip install wheel
+sudo apt install twine
+
+gspread
+google-api-python-client 
+google-auth-httplib2 
+google-auth-oauthlib
+oauth2client
