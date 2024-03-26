@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = dlmr_tools:func
