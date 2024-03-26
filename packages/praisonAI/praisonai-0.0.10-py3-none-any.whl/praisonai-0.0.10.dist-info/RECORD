@@ -1,0 +1,12 @@
+praisonai/__init__.py,sha256=5SwxMGd4vNUmYedF_HLLQBo4u8zMEWuEfKhHqJrEE1I,59
+praisonai/__main__.py,sha256=MVgsjMThjBexHt4nhd760JCqvP4x0IQcwo8kULOK4FQ,144
+praisonai/auto-old.py,sha256=T7MQZ4YC8RdwfscjJqPxBsfTiv7Ai9vYuPx-tFJJsxs,4337
+praisonai/auto.py,sha256=YQnTdro34F4rwTTqYg6Wm20NxEsoxbUUo-tT7bA1W6U,4717
+praisonai/cli-old.py,sha256=tIzpEN74TkVfTYAnSW3M4r9jPHm8Xa76eRAYwnUxjNs,5352
+praisonai/cli.py,sha256=oXsEimDMFh0GSoYIBzebK6jpKmlCLVdIuDpMyaG9-xQ,7880
+praisonai/test.py,sha256=4bAqitWeywjZtxoOAdcBTLaYDRflZH3LSYtOpWrZBI4,3707
+praisonai/version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+praisonai-0.0.10.dist-info/METADATA,sha256=feCy7Wn4pB8TZL7Scc70WR6h6Bc7vxxfmdYDxARD4AA,5310
+praisonai-0.0.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+praisonai-0.0.10.dist-info/entry_points.txt,sha256=Qg41eW3A1-dvdV5tF7LqChfYof8Rihk2rN1fiEE3vnk,53
+praisonai-0.0.10.dist-info/RECORD,,
