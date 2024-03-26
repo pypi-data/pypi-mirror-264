@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: openfeature-provider-flagsmith
+Version: 0.1.0
+Summary: Openfeature provider for Flagsmith
+Author: Matthew Elwell
+Author-email: matthew.elwell@flagsmith.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flagsmith (>=3.6.0,<4.0.0)
+Requires-Dist: openfeature-sdk (>=0.6.0,<0.7.0)
+Description-Content-Type: text/markdown
+
+# flagsmith-openfeature-provider-python
+Flagsmith OpenFeature provider for the python SDK
+
