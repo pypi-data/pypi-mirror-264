@@ -1,0 +1,8 @@
+README.md
+setup.py
+snehapre/__init__.py
+snehapre/arithsample.py
+snehapre.egg-info/PKG-INFO
+snehapre.egg-info/SOURCES.txt
+snehapre.egg-info/dependency_links.txt
+snehapre.egg-info/top_level.txt
