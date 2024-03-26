@@ -1,0 +1,3 @@
+[console_scripts]
+screenapi-cli=app.__main__:app
+
