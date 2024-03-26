@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: latex-tab-img-generation
+Version: 0.1
+Summary: A library to generate LaTeX format tables and images
+Author: nikvotya
+Author-email: no.name340@mail.ru
+License: MIT
+
