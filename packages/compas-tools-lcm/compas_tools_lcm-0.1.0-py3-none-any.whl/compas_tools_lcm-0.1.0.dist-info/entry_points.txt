@@ -1,0 +1,3 @@
+[console_scripts]
+log2pkl=lcm_tools.logtools.log2pkl.log2pkl:main
+
