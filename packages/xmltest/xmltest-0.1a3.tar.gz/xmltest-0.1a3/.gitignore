@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.pypirc
+dist/
+build/
+*.pyc
+*.pyo
+
+# test artefacts
+.pytest_cache
+docs/_build
+
+# vscode artefacts
+.vscode

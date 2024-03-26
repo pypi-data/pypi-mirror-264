@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://exampleschema.example.com/schema/v1.1.1/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://exampleschema.example.com/schema/v1.1.1/" elementFormDefault="qualified">
+<xs:element name="bad" type="bad1"/>
+<xs:complexType name="bad1">
+    <xs:sequence>
+        <xs:choice>
+            <xs:element name="A" type="xs:string" minOccurs="0" />
+            <xs:element name="B" type="xs:string" minOccurs="0" />
+        </xs:choice>
+        <xs:choice>
+            <xs:element name="A" type="xs:string" minOccurs="0" />
+            <xs:element name="C" type="xs:string" minOccurs="0" />
+        </xs:choice>
+    </xs:sequence>
+</xs:complexType>
+</xs:schema>

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xmltest
+Version: 0.1a3
+Summary: XMLTest XML validation helper
+Author-email: Mark Canterbury <markc@tencastle.com>
+Requires-Python: >= 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: xmlschema >= 2
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: tests ; extra == "testpaths"
+Provides-Extra: test
+Provides-Extra: testpaths
