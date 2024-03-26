@@ -1,0 +1,4 @@
+[console_scripts]
+SteamedBread = SteamedBread.main:steamed_bread_help
+SteamedBread-Uninstall = SteamedBread._DependenceManageTools.CleanDependence:_start_remove
+
