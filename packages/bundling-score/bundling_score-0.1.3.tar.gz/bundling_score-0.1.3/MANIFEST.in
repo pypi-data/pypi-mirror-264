@@ -1,0 +1,5 @@
+graft src
+graft tests
+
+include LICENSE README.md pyproject.toml
+global-exclude __pycache__ *.py[cod] .*

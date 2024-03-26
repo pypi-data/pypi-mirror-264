@@ -1,0 +1,154 @@
+[build-system]
+  requires = ["hatchling"]
+  build-backend = "hatchling.build"
+
+[project]
+  name = "bundling_score" # you'll be able to pip install this name
+  version = "0.1.3"
+  license = { file = "LICENSE" }
+  # Who is an author or a maintainer ? There's no official definition.
+  authors = [
+    { name = "Ghislain de Labbey", email = "ghislain.de-labbey@college-de-france.fr" },
+  ]
+  # maintainers = [{ name = "Ghislain de Labbey", email = "ghislain.de-labbey@college-de-france.fr" }]
+  description = "Compute bundling score"
+  readme = "README.md"                                         # The long description is in this file
+  requires-python = ">=3.8"                                    # best if only minimal version is specified
+
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering",
+  "Typing :: Typed",
+]# list of valid classifiers: https://pypi.org/classifiers/
+  #  At least put:
+  #  - which version(s) of Python your package works on,
+  #  - which operating systems your package will work on.
+  #  - which license your package is available under,
+
+  # The project packages requirements
+  dependencies = [
+      "numpy",
+      "matplotlib",
+      "scikit-image>=0.19.3",
+      "scipy",
+      "read_roi",
+      "pandas",
+      "scikit-learn"]
+
+  # Optional installations
+  [project.optional-dependencies]
+    test = ["pytest >=6", "pytest-cov >=3"] # For the test environment
+    dev = [
+      "nox",                                                     # to run scripts and common tasks
+      "bundling_score[test]",
+    ] # For actively developping the package
+    # For doc building only
+    docs = [
+      "Sphinx>=4.0",
+      "myst_parser>=0.13",
+      "sphinx-book-theme>=0.1.0",
+      "sphinx_copybutton",
+      "sphinx_autoapi",
+    ]
+
+    # Optionally, if you have "entry points":
+    # [project.scripts]
+    #   cli-script-name = "mypkg.mymodule:some_func"
+    #   cli-script-name2 = "mypkg.mymodule:some_func2"
+
+    # [project.gui-scripts]
+    #   cli-script-name = "mypkg.mymodule:some_func3"
+    #   cli-script-name2 = "mypkg.mymodule:some_func4"
+
+  [project.urls]
+    Documentation = "https://bundling_score.readthedocs.io/"
+    Homepage = "https://gitlab.college-de-france.fr/gdelabbey/bundling_score"
+    "Bug Tracker" = "https://gitlab.college-de-france.fr/gdelabbey/bundling_score/issues"
+    Discussions = "https://gitlab.college-de-france.fr/gdelabbey/bundling_score/discussions"
+    Changelog = "https://gitlab.college-de-france.fr/gdelabbey/bundling_score/releases"
+
+
+[tool.flake8]
+  extend-ignore = [
+    "E501", # Line too long
+  ]
+  extend-select = [ # Extensions
+  ]
+  exclude = [ # ignore these files
+    "tests/*",
+    "noxfile.py",
+    ".venv/*",
+    "_skbuild/*",
+    "docs/*",
+    ".nox/*",
+  ]
+  max-complexity = 10
+
+[tool.black]
+  line-length = 88
+  target-version = ['py38']
+  include = '\.pyi?$'
+  # 'extend-exclude' excludes files or directories in addition to the defaults
+  extend-exclude = '''
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+(
+  ^/.nox/*  # one per line
+)
+'''
+
+[tool.isort]
+  profile = "black"
+
+[tool.mypy]
+  files = "src"
+  python_version = "3.8"
+  warn_unused_configs = true
+  strict = true
+  show_error_codes = true
+  enable_error_code = ["ignore-without-code", "redundant-expr", "truthy-bool"]
+  warn_unreachable = true
+
+[tool.check-manifest]
+  ignore = [
+    ".github/**",
+    "docs/**",
+    "_skbuild/**",
+    ".pre-commit-config.yaml",
+    ".readthedocs.yml",
+    "src/*/*.so",
+    "noxfile.py",
+  ]
+
+[tool.pytest.ini_options]
+  minversion = "6.0"
+  addopts = ["-ra", "--showlocals", "--strict-markers", "--strict-config"]
+  xfail_strict = true
+  filterwarnings = ["error"]
+  log_cli_level = "INFO"
+  testpaths = ["tests"]
+
+[tool.coverage.run]
+  omit = []
+
+[tool.codespell]
+  skip = '*.po,*.ts,cmake/*'
+  count = ''
+  quiet-level = 3
+
+[tool.hatch.build.target.sdist.force-include]
+"src/main.py" = "src/bunling_score/main.py"
+
+[project.scripts]
+bundling_score = "bundling_score.main:main"
