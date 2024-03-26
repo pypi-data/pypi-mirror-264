@@ -1,0 +1,10 @@
+pyparamo-0.4.17.dist-info/METADATA,sha256=jKJJgFAYa5vXO6NFeXaobzgHYa0kSANs6PEDmWU8qe4,6558
+pyparamo-0.4.17.dist-info/WHEEL,sha256=Hev7SdkjNsau9rRsL5RRKsJ_ZFF6pGbJQFjPMZr3VnE,90
+pyparamo-0.4.17.dist-info/license_files/LICENSE.md,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+paramo/constants.py,sha256=wtSBHtEFPIcz9bL1Cw0VddY7J6ytowGiq1o9VRbtJnM,718
+paramo/conversion_funcs.py,sha256=MxTBAsZDkg4zsx8LNqZFybXrMd0U1IqfXG5NrBFjxV4,273
+paramo/misc_func.py,sha256=2PTIUN4tMsBWdTaqlGMi5F6WZBhWtHv5Ee8yIj-QwlE,1410
+paramo/paramo.pyi,sha256=aVLdhN392LxuYB5kMrO_tKLCpHjZLof88ZZktfD8UOI,1203
+paramo/__init__.py,sha256=BdJgQkJOzjGv-DE94vjIfaPS7fnvrcVo51PG8Ma5F40,111
+paramo/paramo.cp39-win32.pyd,sha256=cqha9KiKd5UFP4amNpKPyQ1PkfpTpmhfztjLNgLuPIw,482304
+pyparamo-0.4.17.dist-info/RECORD,,
