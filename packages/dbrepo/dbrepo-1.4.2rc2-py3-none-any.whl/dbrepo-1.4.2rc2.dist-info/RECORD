@@ -1,0 +1,14 @@
+client/RestClient.py,sha256=BJMmpkXHiLOBMUnAKLcFOuAepKHsJ50BzNiZv0wvE4o,8205
+client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbrepo/AmqpClient.py,sha256=5Pf35IFhvDh8Ms65OVTzTQWDEQijokPfhZhZ92KGHyM,2835
+dbrepo/RestClient.py,sha256=edsljxRo5nwht5vvikWBGaZJOkvp7yK83jsjPLrgr14,74622
+dbrepo/UploadClient.py,sha256=YDSGwIZaMeQZqw881jLpl2NOTFVehTpVLdMar8XlSkQ,889
+dbrepo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbrepo/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbrepo/api/dto.py,sha256=K46YxVBnP6lZ48dKM28X5JL_WLIO7yfX_cPdnlR8yfg,21270
+dbrepo/api/exceptions.py,sha256=HRM4MQm69BbQb5BmMBi3Wp-gqw92igwm6IHO5LKPKAA,1265
+dbrepo-1.4.2rc2.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+dbrepo-1.4.2rc2.dist-info/METADATA,sha256=9KO8M2V9S5ZOClxFB77nXKrn7yMj5NdikXC7eT4pyaQ,18322
+dbrepo-1.4.2rc2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dbrepo-1.4.2rc2.dist-info/top_level.txt,sha256=E6eIm0Dmqbb9jo12U7bel-3p4m-4PeNPzsB-ciNKWYA,7
+dbrepo-1.4.2rc2.dist-info/RECORD,,
