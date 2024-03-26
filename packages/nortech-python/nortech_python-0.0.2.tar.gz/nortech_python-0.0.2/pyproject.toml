@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "nortech-python"
+version = "0.0.2"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "nortech_internal"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.6.3"
+bytewax = "^0.18.2"
+pydantic-settings = "^2.2.1"
+pandas = "^2.2.1"
+sqlalchemy = "^2.0.28"
+psycopg2-binary = "^2.9.9"
+pytest-postgresql = "^6.0.0"
+psycopg = {extras = ["binary"], version = "^3.1.18"}
+responses = "^0.25.0"
+pint = "^0.23"
+nortech = "^0.0.2"
+plotly = "^5.20.0"
+nbformat = "^5.10.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.0"
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

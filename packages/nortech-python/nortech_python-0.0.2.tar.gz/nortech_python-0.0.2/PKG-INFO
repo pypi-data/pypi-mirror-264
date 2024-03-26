@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nortech-python
+Version: 0.0.2
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bytewax (>=0.18.2,<0.19.0)
+Requires-Dist: nbformat (>=5.10.3,<6.0.0)
+Requires-Dist: nortech (>=0.0.2,<0.0.3)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Requires-Dist: pint (>=0.23,<0.24)
+Requires-Dist: plotly (>=5.20.0,<6.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.9,<3.0.0)
+Requires-Dist: psycopg[binary] (>=3.1.18,<4.0.0)
+Requires-Dist: pydantic (>=2.6.3,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.2.1,<3.0.0)
+Requires-Dist: pytest-postgresql (>=6.0.0,<7.0.0)
+Requires-Dist: responses (>=0.25.0,<0.26.0)
+Requires-Dist: sqlalchemy (>=2.0.28,<3.0.0)
+Description-Content-Type: text/markdown
+
+
