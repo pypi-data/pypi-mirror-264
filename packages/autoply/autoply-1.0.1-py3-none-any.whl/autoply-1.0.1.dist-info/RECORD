@@ -1,0 +1,12 @@
+autoapply/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoapply/autoapply.py,sha256=-02OH0x13Jcs8rwHQ0zn5JYzDM8-zHv32D7YdGvTbbs,3301
+autoapply/helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoapply/helper/excel_handler.py,sha256=p1-UTKXqYC2gCWeawtS02kCLCAkSGPNQYn857GS05W8,1206
+autoapply/helper/genai.py,sha256=_2ElMowMWM_LDcgSz91dsTA0EZ65mdY7QYw_IrJutp0,2723
+autoapply/helper/gotolink.py,sha256=JJDgfrcVU35f3nudR8bxnoJug_lxoa5u2wEmFkY9FDI,5007
+autoapply/helper/gui.py,sha256=FaDF0HXJDaO-K5vMGqT0MbWPU8SXWbOmemINJXikb-o,2700
+autoapply/helper/pdfhandler.py,sha256=wYy2kcTVbMjeWvBVqROYYOG5petDW_t9oVfA8_s1AlA,1341
+autoply-1.0.1.dist-info/METADATA,sha256=EuuGkjj65oFASuktS0O0OfhzHoQ7aPGo0Wrl2dGM9xg,2001
+autoply-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+autoply-1.0.1.dist-info/top_level.txt,sha256=_7tDopneNuFZJHRtFm2XbBFEXNRlo-4v_LUn6610XnU,10
+autoply-1.0.1.dist-info/RECORD,,
