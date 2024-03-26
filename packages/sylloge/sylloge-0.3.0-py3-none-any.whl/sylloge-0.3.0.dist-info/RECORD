@@ -1,0 +1,15 @@
+sylloge/__init__.py,sha256=V6NQXK2-uA6eGTd96Ev9jJobRFhx5TXqvz7ek0UzOzQ,1059
+sylloge/base.py,sha256=3Cnoyc78oD8eHHaHlcjey2ygFwCuRnkPvfpM_eDSz5g,34266
+sylloge/create_statistic.py,sha256=TajDVhr-P0Oa2TZRy2bC4oBWLibQcAudBTdAdSQ8n3A,2371
+sylloge/dask_utils.py,sha256=hQTY68hauZXBF3NdI62C-MJIvPyKhPgFgXRsBL7acNw,645
+sylloge/id_mapped.py,sha256=FpChxHvi-ooMu8aPEx_zI0pfNrveVUluxAtf3FveACQ,8833
+sylloge/med_bbk_loader.py,sha256=2zrWibmNwrCGkx4gwlMp9rs3jGspt7Wskypn8kWbABc,3029
+sylloge/moviegraph_benchmark_loader.py,sha256=uluQRgd8z0sWpW_FPvjoYGX9yOlfyy2ljO5vWEHQu8g,4909
+sylloge/my_typing.py,sha256=dvHy-eY7l_pjuFi4QogRMGakh83a6No7tfcgq9ktZtM,585
+sylloge/oaei_loader.py,sha256=GVMHP486NxTVX_aMG9of0i5OOqRGO__lt6ZpSaVl0AM,18145
+sylloge/open_ea_loader.py,sha256=0sdFiO0DDTvnvrVgLCSNxT3Gfvq5AygFvsgNySpzaCE,5486
+sylloge/utils.py,sha256=BM3Mc4-aQEqrsBxl04lJ4-WVm9e_bUhR6iGeU0lAg7Q,512
+sylloge-0.3.0.dist-info/LICENSE,sha256=gRQiVNcA9MpX935v43v67npED32Ro4joLtC7_mAGAbk,1072
+sylloge-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sylloge-0.3.0.dist-info/METADATA,sha256=AIlHwc2o8P6H41iskt5T51VwmE5flz8cSOrTmETCTfk,10538
+sylloge-0.3.0.dist-info/RECORD,,
