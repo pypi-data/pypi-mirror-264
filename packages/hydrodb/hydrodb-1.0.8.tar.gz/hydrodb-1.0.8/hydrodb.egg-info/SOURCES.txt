@@ -1,0 +1,10 @@
+README.md
+setup.py
+hydrodb/__init__.py
+hydrodb/hydrodb.py
+hydrodb/visuals.py
+hydrodb.egg-info/PKG-INFO
+hydrodb.egg-info/SOURCES.txt
+hydrodb.egg-info/dependency_links.txt
+hydrodb.egg-info/requires.txt
+hydrodb.egg-info/top_level.txt

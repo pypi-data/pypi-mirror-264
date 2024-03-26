@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hydrodb
+Version: 1.0.8
+Summary: # HydroDB
+Download-URL: https://github.com/CaioTeixeiraDePaula/HydroDB/archive/refs/tags/v1.0.5.zip
+Author: Caio Teixeira de Paula
+Author-email: caio.teixeira.paula@gmail.com
+Keywords: db,data_base,back-end
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Requires: yaspin
+Requires-Dist: yaspin
+
+# HydroDB
+This is the functional module repository for the firsts versions of `HydroDB`.
+
+Check out the documentation on [HydroDB web page][def]
+
+[def]: https://caioteixeiradepaula.github.io/Hydro/HydroDB/about_hydrodb
