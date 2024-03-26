@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "olla"
+version = "0.1.1"
+description = "Open Local LLM Agent"
+authors = ["gamersover <cmathking@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "~1.14.2"
+langchain-community = "^0.0.29"
+pytz = "^2024.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
