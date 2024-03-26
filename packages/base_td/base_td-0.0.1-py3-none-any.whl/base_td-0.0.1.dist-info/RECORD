@@ -1,0 +1,16 @@
+base_td/./.git,sha256=F03V4zVpIty5hca7Cx70bvuoGKzAjtZMhiOiIq10yBQ,32
+base_td/./.gitignore,sha256=-J1njJpKwOHdu-nlXblIKfkedPp5cf1sFxrs3zA1l_Y,2171
+base_td/./LICENSE,sha256=IEmoll8GE1TxfIErZY_Zv0HZOXQJASQeymgl6N_2tks,1089
+base_td/./README.en.md,sha256=URGgIawmh7SF1iD8KEU4uulJimpZsiW7PUd9BqCeZvE,865
+base_td/./README.md,sha256=mkiAxKJyUYsuOKvK4Spec1J-qPJU408rS9qba4bJtzU,955
+base_td/./__about__.py,sha256=yxGkeKG-vAR-v1WADQmORtMZoUBecryvhGL4CIoxJ_s,129
+base_td/./base.py,sha256=FCiJbXjvt148NQWwcLfDMPFHjjUPhWc8jkdYKoiP8CE,1003
+base_td/./constant.py,sha256=E9O3FopX-l8aPToJp6JE6W4XAz_d6mYo9ObKEZoqrTs,21
+base_td/./logger.py,sha256=7UzeO3mt0BFkqVDUstuKxIgPCeNP67ekwKE4Uws6pwE,2060
+base_td/./persistence.py,sha256=TmZR1ftbRyee1lfg7BmbSNFXIk68Ui3pwhW2xSoNPZs,2431
+base_td/./position.py,sha256=KBJs0Q01kVzpZfLsQCuHiGnGaZTuubdXO2qMNmuVLsA,441
+base_td/./pyproject.toml,sha256=t1zy3NU11tPazZVLcAFOkmo96QXrJU6QlUT_Hw39nD4,405
+base_td-0.0.1.dist-info/METADATA,sha256=CClNmMk8FyfyRNbDgGAsskwtIq8JIeE1i2zSdsiNXiQ,1079
+base_td-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+base_td-0.0.1.dist-info/licenses/LICENSE,sha256=IEmoll8GE1TxfIErZY_Zv0HZOXQJASQeymgl6N_2tks,1089
+base_td-0.0.1.dist-info/RECORD,,
