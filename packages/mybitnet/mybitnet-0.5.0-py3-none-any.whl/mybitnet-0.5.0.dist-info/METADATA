@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mybitnet
+Version: 0.5.0
+Summary: A PyTorch implementation of BitNet, a network utilizing bit quantization for linear layers.
+Home-page: https://note.com/hatti8/n/nc6890e79a19a
+License: Apache-2.0
+Keywords: pytorch,bit quantization,neural networks,llm,pretrain
+Author: Hajime Yagihara
+Author-email: eitiwai@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: GPU
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: torch
+Requires-Dist: transformers
+Description-Content-Type: text/markdown
+
+# BitNet-b158  
+
+noteで実装を進めているBitLinear, BitLinearb158のコードとなります。  
+[BitNet&BitNet b158の実装](https://note.com/hatti8/n/nc6890e79a19a)  
+- `pip install mybitnet`でインストール可能です。
+- `example/01_bit_llama_pretraining.ipynb`ファイルには、bitlinearを用いた事前学習の例があります。
+

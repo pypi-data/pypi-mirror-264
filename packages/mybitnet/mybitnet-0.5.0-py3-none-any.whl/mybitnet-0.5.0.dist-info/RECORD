@@ -1,0 +1,10 @@
+mybitnet/__init__.py,sha256=BLIyjSY_KD-ZM7gjFyuh6Z49-efsvQqxJrnTNulPumE,292
+mybitnet/bitnet/__init__.py,sha256=ZzVuiHQXaYvhtBg9Md8WSSpgzv2PC6GAD9K6WJViojw,328
+mybitnet/bitnet/bitnet.py,sha256=kkjE_V-JagVh537OZOLvdZ87oJmwbPgBNIozA1lL2-o,5766
+mybitnet/bitnet/models/bit_llama/__init__.py,sha256=Mi3QrSvTSrsdQOsNxmPvQ6QUHvkiZeXWiFyervGlrdI,80
+mybitnet/bitnet/models/bit_llama/modeling_bit_llama.py,sha256=gTub8IUdOBaIwOHeGhaODpULPyS9oDMrDeSpImdX7W8,9871
+mybitnet/bitnet/replace_linears.py,sha256=yt2cGhUImcMQWsl23AO9DIUysu2sWH1ly9snXWWNDfk,1523
+mybitnet-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mybitnet-0.5.0.dist-info/METADATA,sha256=vlO13LJoE73vyoRGVx6DPXtPJXbp9C2ffFtXlnS8eH0,1318
+mybitnet-0.5.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mybitnet-0.5.0.dist-info/RECORD,,
