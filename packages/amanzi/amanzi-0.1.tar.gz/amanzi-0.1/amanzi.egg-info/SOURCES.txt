@@ -1,0 +1,7 @@
+README.md
+setup.py
+amanzi.egg-info/PKG-INFO
+amanzi.egg-info/SOURCES.txt
+amanzi.egg-info/dependency_links.txt
+amanzi.egg-info/not-zip-safe
+amanzi.egg-info/top_level.txt

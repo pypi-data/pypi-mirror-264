@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: amanzi
+Version: 0.1
+Summary: Back-end of SLIMM Designer
+Home-page: https://github.com/Vitens/amanzi
+Author: Christiaan Slippens
+Author-email: christiaan.slippens@vitens.nl
+License: Apache Licence 2.0
