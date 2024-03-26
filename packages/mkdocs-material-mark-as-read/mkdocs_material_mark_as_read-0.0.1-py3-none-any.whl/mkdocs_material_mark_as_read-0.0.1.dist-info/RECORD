@@ -1,0 +1,11 @@
+mkdocs_material_mark_as_read/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_material_mark_as_read/config.py,sha256=TNWI00yyC6pe7SZUEtvNyoLzLU70vnWPvAMmTsDdZcg,607
+mkdocs_material_mark_as_read/plugin.py,sha256=uSXj-N9H4hBkm3_TqwJZiVrG-v9W70_pVre8UwMHBU0,5931
+mkdocs_material_mark_as_read/css/mark-as-read-button.css,sha256=t3DGylC7o8enEhLZN_tlbi03x3Ii7nLOGaXmPVXuj8s,393
+mkdocs_material_mark_as_read/js/mark-as-read-button.js,sha256=e-aTcN-C7BwGqfIQ5_CLopSsVGiX8i7Ia3aWSerkbLg,1502
+mkdocs_material_mark_as_read/js/mark-as-read-navlink-updater.js,sha256=9JrClagSw97q-LOcuRKfJiZEc4FRe9FGQCGPfddlbgA,3719
+mkdocs_material_mark_as_read-0.0.1.dist-info/METADATA,sha256=gZKGuK6-Nb4Z1hDKb19WJoxSaMhUkuh5w5QiOxkBHiE,1174
+mkdocs_material_mark_as_read-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+mkdocs_material_mark_as_read-0.0.1.dist-info/entry_points.txt,sha256=QKPDP8I4u16qle8gS6ru5YQgEIjL0eBFiRYm1RRFN38,85
+mkdocs_material_mark_as_read-0.0.1.dist-info/licenses/LICENSE,sha256=67CM_XSimyEYE9qWE8UUefn7-5kkIPa_lukVKAiMl9I,1068
+mkdocs_material_mark_as_read-0.0.1.dist-info/RECORD,,

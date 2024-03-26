@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+mark-as-read = mkdocs_material_mark_as_read.plugin:MarkAsReadPlugin
