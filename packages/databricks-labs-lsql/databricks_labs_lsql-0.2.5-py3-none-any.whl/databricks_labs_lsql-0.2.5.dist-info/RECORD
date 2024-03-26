@@ -1,0 +1,14 @@
+databricks/__init__.py,sha256=YqH8Hy8lHJxd0hLMZF6kWirUDdPiX90LRDX6S6yTMn0,261
+databricks/labs/__init__.py,sha256=YqH8Hy8lHJxd0hLMZF6kWirUDdPiX90LRDX6S6yTMn0,261
+databricks/labs/lsql/__about__.py,sha256=Xsa3ayOMVkhUWm4t06YeyHE0apjpZefxLH4ylp0CDtU,22
+databricks/labs/lsql/__init__.py,sha256=AWbRS1u_VEE2MJq7cIFBOhvtRqH3z5Oh3ImeTbARuHE,41
+databricks/labs/lsql/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+databricks/labs/lsql/backends.py,sha256=gNAevRMRkvopGBBB-yX2oBrA0c2qWhvzb5KBQL05jf4,13126
+databricks/labs/lsql/core.py,sha256=6dmN6XhHKlW8a36I28CoO6Vf69TK1h8rTr4SkYh2D_g,23637
+databricks/labs/lsql/deployment.py,sha256=YVG2MYKh-oSLo_3nUBRcMs-WlImA_pK5zHoNHpQF0Y4,1678
+databricks/labs/lsql/py.typed,sha256=Oys4iGxjIR6tXFnjGEHGa7IRfp6XXzxEURIIgggDQcw,80
+databricks_labs_lsql-0.2.5.dist-info/METADATA,sha256=am56JjaVacobXA_1-qjYE_vbcAvfepNjSGHAKDCptW8,8715
+databricks_labs_lsql-0.2.5.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+databricks_labs_lsql-0.2.5.dist-info/licenses/LICENSE,sha256=1hG0Cvw6mp9nL9qRoHFcCUk9fYqhcnj2vgJ75rt3BxA,3862
+databricks_labs_lsql-0.2.5.dist-info/licenses/NOTICE,sha256=UWW1xJ7ZosqtL89G0OLT1IqWGngpZXlXRNS63iYyOOU,1136
+databricks_labs_lsql-0.2.5.dist-info/RECORD,,
