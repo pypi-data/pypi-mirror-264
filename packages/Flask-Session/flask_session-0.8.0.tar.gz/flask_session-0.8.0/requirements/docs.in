@@ -1,0 +1,12 @@
+sphinx
+furo
+sphinx-favicon
+
+# Install clients
+redis
+cachelib
+pymongo
+flask_sqlalchemy
+pymemcache
+boto3
+mypy_boto3_dynamodb
