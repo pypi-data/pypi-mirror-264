@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detail Title</title>
+</head>
+
+<body>
+    <!--  模板系统统一使用点符号来访问变量的属性。在示例 {{ question.question_text }} 中
+    首先 Django 尝试对 question 对象使用字典查找（也就是使用 obj.get(str) 操作），
+    如果失败了就尝试属性查找（也就是 obj.str 操作），结果是成功了。如果这一操作也失败的话，将会尝试列表查找（也就是 obj[int] 操作）  -->
+    <!--    <h1>{{ question.question_text }}</h1>-->
+    <!--        <ul>-->
+    <!--            {% for choice in question.choice_set.all %}-->
+    <!--                <li>{{ choice.choice_text }}</li>-->
+    <!--            {% endfor %}-->
+    <!--        </ul>-->
+
+    <form action="{% url 't2020_polls:vote' question.id %}" method="post">
+    <!--所有针对内部 URL 的 POST 表单都应该使用 {% csrf_token %} 模板标签-->
+    {% csrf_token %}
+        <!--表单中分组标签-->
+        <fieldset>
+            <!--legend:为 fieldset 元素定义标题, h1:定义 HTML 标题-->
+            <legend><h1>{{ question.question_text }}</h1></legend>
+            {% if error_message %}
+            <!--p:定义段落, strong: 粗体-->
+            <p><strong>
+                {{ error_message }}
+            </strong></p>
+            {% endif %}
+            {% for choice in question.choice_set.all %}
+                <!--input:定义输入字段, radio:单选按钮 lable:为 input 元素定义标注（标记）forloop.counter 指示 for 标签已经循环多少次-->
+                <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+                <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+            {% endfor %}
+        </fieldset>
+        <input type="submit" value="Vote1">
+    </form>
+
+</body>
+</html>

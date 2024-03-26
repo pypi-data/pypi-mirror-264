@@ -1,0 +1,36 @@
+#[project]
+#name = "example_package_t2020_polls"  # 包的发行版名称
+#version = "0.0.1"  # 软件包版本
+#authors = [
+#  { name="testlong", email="13512119091@163.com" },  # 用于识别包的作者；您为每位作者指定姓名和电子邮件
+#]
+#dependencies = []  # 可以添加项目依赖的第三方库的信息，在安装时会自动安装这些依赖库
+#description = "A small example package"  # 该包的简短一句话摘要
+#readme = "README.rst"  # 是包含包的详细描述的文件的路径。这显示在 PyPI 上的包详细信息页面上。在本例中，描述是从README.md加载的
+#requires-python = ">=3.8"  # 给出您的项目支持的 Python 版本
+## 为索引和pip提供一些有关您的包的附加元数据
+#classifiers = [
+#    "Programming Language :: Python :: 3",
+#    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+#    "Operating System :: OS Independent",
+#]
+## setuptools
+[build-system]  # 选择构建后端
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+### Hatchling
+##[build-system]  # 本部分声明了生成系统依赖项是什么，以及哪些 库将用于实际进行打包
+##requires = ["hatchling"]  # 构建包所需的包列表
+##build-backend = "hatchling.build"  # 是前端将用于执行构建的 Python 对象的名称
+### Flit
+##[build-system]
+##requires = ["flit_core>=3.4"]
+##build-backend = "flit_core.buildapi"
+### PDM
+##[build-system]
+##requires = ["pdm-backend"]
+##build-backend = "pdm.backend"
+## 允许您列出任意数量的额外链接以在 PyPI 上显示。一般来说，这可能是源代码、文档、问题跟踪器等。
+#[project.urls]
+#Homepage = "https://github.com/pypa/sampleproject"
+#Issues = "https://github.com/pypa/sampleproject/issues"

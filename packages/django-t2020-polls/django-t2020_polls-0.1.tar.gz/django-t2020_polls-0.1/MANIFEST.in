@@ -1,0 +1,5 @@
+include LICENSE
+include README.rst
+recursive-include t2020_polls/static *
+recursive-include t2020_polls/templates *
+recursive-include docs *

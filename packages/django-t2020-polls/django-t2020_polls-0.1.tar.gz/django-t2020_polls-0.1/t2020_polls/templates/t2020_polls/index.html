@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--模板标签会生成静态文件的绝对路径-->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 't2020_polls/style.css' %}">
+
+    <meta charset="UTF-8">
+    <title>Index Title</title>
+</head>
+<body>
+    <!-- if代码块判断True/False t2020_polls/views.py中调用传递来的上下文 -->
+    {% if latest_question_list %}
+        <ul>
+        <!-- for循环 -->
+        {% for question in latest_question_list %}
+            <!-- href:属性规定链接指向的页面的URL -->
+            <!-- question.id：数据表中id ，点击链接/t2020_polls/question.id/-->
+            <!-- 展示: question.question_text -->
+            <!-- <li><a href="/t2020_polls/{{ question.id }}/">{{ question.question_text }}</a></li>-->
+            <li><a href="{% url 't2020_polls:detail' question.id%}">{{ question.question_text }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No t2020_polls are available.</p>
+    {% endif %}
+</body>
+</html>
