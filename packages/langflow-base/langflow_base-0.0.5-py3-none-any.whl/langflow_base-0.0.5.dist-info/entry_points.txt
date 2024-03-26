@@ -1,0 +1,3 @@
+[console_scripts]
+langflow-base=langflow_base.__main__:main
+
