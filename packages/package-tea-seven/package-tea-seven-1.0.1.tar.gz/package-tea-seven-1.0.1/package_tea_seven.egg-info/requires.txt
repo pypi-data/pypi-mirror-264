@@ -1,0 +1,11 @@
+package-tea-hanyan==1.0.3
+restful-dnspod-log==1.0.1
+logstore-tea-four==1.0.0
+logstore-tea-one==1.0.0
+logstore-tea-two==1.0.0
+logstore-tea-three==1.0.0
+package-tea-two==1.0.0
+package-tea-eight==1.0.0
+package-tea-nine==1.0.0
+package-tea-four==1.0.0
+package-tea-three==1.0.0
