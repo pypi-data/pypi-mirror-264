@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: openai_old
+Version: 0.28.1
+Author: ZhangTH
+Author-email: zhangth820@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE
