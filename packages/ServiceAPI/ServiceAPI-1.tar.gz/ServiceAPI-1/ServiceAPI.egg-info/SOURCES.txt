@@ -1,0 +1,7 @@
+setup.py
+Service/__init__.py
+Service/main.py
+ServiceAPI.egg-info/PKG-INFO
+ServiceAPI.egg-info/SOURCES.txt
+ServiceAPI.egg-info/dependency_links.txt
+ServiceAPI.egg-info/top_level.txt
