@@ -1,0 +1,13 @@
+odoo/addons/ssi_lead/README.rst,sha256=1pAXQRq01ka2Y2x3uj4BvXAiqRWPwq97wdm6Tb1NMzw,1166
+odoo/addons/ssi_lead/__init__.py,sha256=M7twq1SJz2cc98CkgeiDiDg05QWWFb09lt5oh03-axA,181
+odoo/addons/ssi_lead/__manifest__.py,sha256=QpJoA6sBbsEhRyR6oFN_gtElLH19STpXEt79XfZJdRo,685
+odoo/addons/ssi_lead/data/ir_sequence_data.xml,sha256=o9TENGD-A6oIuALsFDGtv00SrTbGJ6KcKTQ8NgJqnQE,760
+odoo/addons/ssi_lead/data/sequence_template_data.xml,sha256=plaS9gWRRy4qDLhUzdfzAH5_WLMTvQO5UlICAZwpGWg,1241
+odoo/addons/ssi_lead/models/__init__.py,sha256=3HJA1nMRki_niD8KyrsCESGhJGdouA3UQ_qKTmU_zpU,183
+odoo/addons/ssi_lead/models/crm_lead.py,sha256=xgPc7r0hWB20URTcDxOY8x1BcXqLHGNAEUGOzz5ILNY,1247
+odoo/addons/ssi_lead/static/description/icon.png,sha256=vbcPkoj1n94luZ1NzS2gY_U9jc9pa0LwohFPdXBwQJE,37533
+odoo/addons/ssi_lead/views/crm_lead_views.xml,sha256=2C6qLiMgAVxDN5m_fBfZt8l4DbIjZ6jHr_7L662BC7s,1591
+odoo14_addon_ssi_lead-14.0.2.1.0.dist-info/METADATA,sha256=vtqnNHloVuNSIeV3P8DBS0C_CoS1Zv0xkzo75NefnZs,1782
+odoo14_addon_ssi_lead-14.0.2.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_lead-14.0.2.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_lead-14.0.2.1.0.dist-info/RECORD,,
