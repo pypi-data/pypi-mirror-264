@@ -1,0 +1,11 @@
+event/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event/event.py,sha256=SNT_kwnAbiF8xOJ6FTfpu5WytOpcoIlTKPHsfTyhLx0,843
+event/event_test.py,sha256=0N-WNsPdsRRsYheSep9C71EnibLkqCoT0-lc3ZHsIU8,535
+pyircsdk/__init__.py,sha256=XJvtppom2HSYrPbkqeos-mZ5mTR1Bp9yxE7Sv9PHPy4,63
+pyircsdk/pyircsdk.py,sha256=uETG-W7ZUtKmYyJNJ9rtAjUqxg-ebbv-TDGXMBaeBQw,6332
+pyircsdk/pyircsdk_test.py,sha256=j_xm824hrrX_wImz9d_AzrIMjIHWLb_S05PSoq0SdLM,679
+pyircsdk-0.0.1.dist-info/LICENSE,sha256=qhphJZzgmbC51d5cDTsNCc8CFWC710umb1Y47Ps28QQ,1062
+pyircsdk-0.0.1.dist-info/METADATA,sha256=hvQu-u7ktSmS8MddEoMupHnZpRHqoFdmpst9iAzWe6E,1334
+pyircsdk-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyircsdk-0.0.1.dist-info/top_level.txt,sha256=mDP1HBRnBCZR5L9qn8VlCF1N694NbOt7iOqJ2Nosnqg,15
+pyircsdk-0.0.1.dist-info/RECORD,,
