@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+web3m_analytics_tool.egg-info/PKG-INFO
+web3m_analytics_tool.egg-info/SOURCES.txt
+web3m_analytics_tool.egg-info/dependency_links.txt
+web3m_analytics_tool.egg-info/requires.txt
+web3m_analytics_tool.egg-info/top_level.txt
