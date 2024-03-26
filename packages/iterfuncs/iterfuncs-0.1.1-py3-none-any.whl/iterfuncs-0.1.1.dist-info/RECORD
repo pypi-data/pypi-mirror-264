@@ -1,0 +1,10 @@
+iterfuncs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iterfuncs/asyncio.py,sha256=5W8U-qgLoFgSMitB2KeETesPcRlWRw_tGJfTo8myTHA,1650
+iterfuncs/cache.py,sha256=CYsH4CRMZAwRjJVhbOb23QJI_8ko4_jU_cj0vSgP65o,4825
+iterfuncs/itertools.py,sha256=3EXj7B6lwB8HaX2t5gJ57o9_gsGjFhNAnJKBBxaXFtA,4478
+iterfuncs/typing.py,sha256=nUs173j_YeK3eKR8JpLo5iXx5D-wbzuFiHfEooQoiyQ,187
+iterfuncs-0.1.1.dist-info/LICENSE,sha256=QFoO9z40iWEPi9QPL6tPCNssOYzWWu_IeeUbyQj3jo8,1070
+iterfuncs-0.1.1.dist-info/METADATA,sha256=M3xOJaoXMQ-Qr0_r7Y4O-Z8k8VH8eQvk7QkllegQG_o,1095
+iterfuncs-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+iterfuncs-0.1.1.dist-info/top_level.txt,sha256=L5sHSChvm2sg2y79U32GHzixfkfCuGCps4tXsyrHxrg,10
+iterfuncs-0.1.1.dist-info/RECORD,,
