@@ -1,0 +1,16 @@
+LICENSE
+README.md
+README_PYPI.md
+pyproject.toml
+src/VineCopulas.egg-info/PKG-INFO
+src/VineCopulas.egg-info/SOURCES.txt
+src/VineCopulas.egg-info/dependency_links.txt
+src/VineCopulas.egg-info/requires.txt
+src/VineCopulas.egg-info/top_level.txt
+src/vinecopulas/__init__.py
+src/vinecopulas/bivariate.py
+src/vinecopulas/marginals.py
+src/vinecopulas/vinecopula.py
+tests/test_bivariate.py
+tests/test_marginals.py
+tests/test_vinecopula.py
