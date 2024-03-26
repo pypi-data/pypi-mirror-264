@@ -1,0 +1,9 @@
+
+MACE_MP_Medium:
+  username: cyrusyc
+  datetime: 2024-03-25T14:30:00 # TODO: Fake datetime
+  datasets: # list of training datasets
+    - atomind/mptrj # TODO: fake dataset repo
+  tasks:
+    - alexandria
+    - qmof
