@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ainft-py"
+version = "0.1.0"
+description = ""
+authors = ["AINFT Team <dev@ainetwork.ai>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ainft"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+ain-py = "^1.0.3"
+pytest = "^8.1.1"
+pydantic = "^2.6.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-asyncio = "^0.23.5.post1"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
