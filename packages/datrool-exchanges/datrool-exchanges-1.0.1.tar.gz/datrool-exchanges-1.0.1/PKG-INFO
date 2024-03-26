@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: datrool-exchanges
+Version: 1.0.1
+Summary: Exchange wrappers for the datrool project
+Home-page: https://gitlab.com/datrool/core/exchanges
+Author: Patrik Katrenak
+Author-email: patrik@katryapps.com
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: orjson==3.9.15
+Requires-Dist: websockets==12.0
+
+# datrool / exchanges
+
+Exchange wrappers for the datrool project.
+
+## Installation
+
+Install package from PYPI repository
+```sh
+python -m pip install datrool-exchanges
+```
+
+## Contains
+- [x] abstract exchange class
+- [ ] exchange wrapper for strategy testing
+
+### Wrapper implementations
+
+#### Cryptocurrency spot exchanges
+- [x] Binance
+- [ ] BYBIT
+- [ ] CoinBase
+- [ ] MEXC
+- [ ] Gate.io
+
+#### Regular brokers
+- [ ] Capital.com
+- [ ] XTB
+
+## License
+
+Created by Patrik Katreňák and released under General Public License v3.0.
