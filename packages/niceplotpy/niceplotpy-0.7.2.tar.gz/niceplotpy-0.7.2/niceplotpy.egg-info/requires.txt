@@ -1,0 +1,9 @@
+numpy
+Click
+matplotlib>=3.7.2
+pyyaml
+uproot
+pandas
+atlasify
+importlib-metadata
+tqdm
