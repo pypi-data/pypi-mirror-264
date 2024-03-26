@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=60.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "suitespotauth"
+version = "0.3.3"
+description = "Easy SuiteSpot authentication."
+authors = [{ name = "Yakir Havin", email = "y.havin@gmail.com" }]
+readme = "README.md"
+keywords = ["authentication", "suitespot", "property", "management", "capex", "construction"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "keyring",
+    "requests"
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+aws = [
+    "boto3",
+    "botocore"
+]
+google = [
+    "google-cloud-secret-manager",
+    "google-api-core"
+]
+azure = [
+    "azure-identity",
+    "azure-keyvault"
+]
+
+[project.urls]
+Repository = "https://github.com/yhavin/suitespotauth"
+
+[project.scripts]
+suitespotauth-configure = "suitespotauth.cli:main"

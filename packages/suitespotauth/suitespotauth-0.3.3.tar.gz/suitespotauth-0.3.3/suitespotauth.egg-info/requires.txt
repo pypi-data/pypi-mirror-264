@@ -1,0 +1,14 @@
+keyring
+requests
+
+[aws]
+boto3
+botocore
+
+[azure]
+azure-identity
+azure-keyvault
+
+[google]
+google-cloud-secret-manager
+google-api-core
