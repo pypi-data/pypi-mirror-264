@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: qdoc2md
+Version: 0.1.1
+Summary: Convert q documentation comments to Markdown documents
+Project-URL: Homepage, https://github.com/darrenwsun/qdoc2md
+Project-URL: Issues, https://github.com/darrenwsun/qdoc2md/issues
+Author-email: Darren Sun <darren@darrensun.pro>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: markdown,qdoc
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: mdutils==1.6
+Description-Content-Type: text/markdown
+
+# qdoc2md
+
+This tool converts q documentation comments to markdown documents.
+
+# Getting Started

@@ -1,0 +1,13 @@
+qdoc2md/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qdoc2md/__version__.py,sha256=zGU39ZwaRkNKxWLnAB7Zte9ZtfyfMEsBJp-bHUfQTyA,23
+qdoc2md/document.py,sha256=mw0r-bvzA5Df0hLz4C-OQBOqNaOqArwk_aPMvwHi4cY,154
+qdoc2md/generator.py,sha256=JTG7ajuLJC4Q6xLBu8qnLOW42YVpILvHxal44VGaoss,2014
+qdoc2md/main.py,sha256=nwSMHgQZVAfT4aBoursxcg0FgUdd_0qAcN86BVBlq60,380
+qdoc2md/param.py,sha256=XDZ8OgVaq4XSPCmzCmN29eAhAXhHhkqz3OC7XUXKbTs,176
+qdoc2md/parser.py,sha256=MYTq7skqYjRuWQOTTxEZ9nH08fyC54aAKINmUlwurfU,9130
+qdoc2md/section.py,sha256=AfYo72VABz9Y9evSS37wtGjzm8voaW8Sq88MYDjskiI,320
+qdoc2md-0.1.1.dist-info/METADATA,sha256=nSvq_kNuaePS8Z1NDqspj-hKfhYsu3y7PJlRa3xjnt4,692
+qdoc2md-0.1.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+qdoc2md-0.1.1.dist-info/entry_points.txt,sha256=8cs4qMtdEUSSH8QarO0PSNb7YIbjOf6E8qkOB37t_iM,49
+qdoc2md-0.1.1.dist-info/licenses/LICENSE,sha256=VJctnsK7SLKY3kKUr1_pptMaMIkorUHsA3_Mv9gJ8TM,1088
+qdoc2md-0.1.1.dist-info/RECORD,,
