@@ -1,0 +1,3 @@
+. ~/Documents/science/code/spack/share/spack/setup-env.sh
+spack env activate dev-mesher
+/Users/cmarsh/Documents/science/code/spack/var/spack/environments/dev-mesher/.spack-env/view/bin/python  "$@"
