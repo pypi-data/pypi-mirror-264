@@ -1,0 +1,13 @@
+conftest.py,sha256=NB21GYKVnjam9lHyFyBEYxR8qYjDkvV70f4kuYLzAUY,409
+frequenz/api/microgrid/__init__.py,sha256=D2egOmiOhT_-8MA82Mc2NSokyRpeFc_8lCl5v4z4R0w,136
+frequenz/api/microgrid/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frequenz/api/microgrid/v1/__init__.py,sha256=D2egOmiOhT_-8MA82Mc2NSokyRpeFc_8lCl5v4z4R0w,136
+frequenz/api/microgrid/v1/microgrid_pb2.py,sha256=BBEnIwqNRStQASSZGQ0Cb0F95_2Aah_3x5zapfp4JmY,15537
+frequenz/api/microgrid/v1/microgrid_pb2.pyi,sha256=MSdYELgOcVMroKv5IYmpdZhHnW8XCSR1ckJL0CtKMdM,27442
+frequenz/api/microgrid/v1/microgrid_pb2_grpc.py,sha256=gxr4P9nANl3ztPVwTGEnGUkW0nlVp7rvWBN4MdOnTGQ,39198
+frequenz/api/microgrid/v1/microgrid_pb2_grpc.pyi,sha256=uoVFNJ-PFAaUP1QtOd4N6fuqJ0aQm-d-hkdDj0KH4F8,48051
+frequenz_api_microgrid-0.16.1.dist-info/LICENSE,sha256=3pxusjfovEuCq3UpiRg1LUYuPnxT6CoUFXcOfmsYFTk,1089
+frequenz_api_microgrid-0.16.1.dist-info/METADATA,sha256=iKMfIaZRn369AX5APKoXvrhj3uvL0LGxHEHC4zFd4NU,8168
+frequenz_api_microgrid-0.16.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+frequenz_api_microgrid-0.16.1.dist-info/top_level.txt,sha256=PBJwayNImX08Bpha2J0noZnU38ix_I6lMKU6SK7BN8s,18
+frequenz_api_microgrid-0.16.1.dist-info/RECORD,,
