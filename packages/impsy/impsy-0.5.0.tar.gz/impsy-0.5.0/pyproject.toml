@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "impsy"
+version = "0.5.0"
+description = "IMPSY is the Interactive Musical Prediction SYstem, a tool for creative interactive intelligent musical instruments using a recurrent mixture density neural network."
+authors = ["Charles Martin <cpm@charlesmartin.au>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+tensorflow-probability = "0.23.0"
+python-osc = "^1.8.3"
+keras-mdn-layer = "^0.3.0"
+pandas = "^2.0.3"
+tensorflow-macos = {version = "2.15.0", platform = "darwin"}
+tensorflow = {version = "2.15.0", platform = "linux"}
+click = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
