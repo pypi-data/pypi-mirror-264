@@ -1,0 +1,10 @@
+target_clickhouse/__init__.py,sha256=ic4IRSJripQx3ysWl7i-f2feu0uwfVK21F4W1kwjOq4,29
+target_clickhouse/connectors.py,sha256=IuG49jmU1AmCpEdr1j43r5FvHRmaaABqqjJtJsQCQBY,10943
+target_clickhouse/engine_class.py,sha256=NrzGhJqiVQ9hoFxtorDiraAgq-Dq5VIGlyJLQIa5oMI,3175
+target_clickhouse/sinks.py,sha256=MUVcixEiiO1KGCItaeoJeV6zHZcP48YXtf0JEvQGAQo,10691
+target_clickhouse/target.py,sha256=fbeQDEZIm0by9npJzTTF9tKPU-fBK41oFtg0VaOEsEE,4712
+shaped_target_clickhouse-0.2.5.dist-info/LICENSE,sha256=BGsDEGu628ZSlSfJzr3RshF0_KTW-E1Z--XnqjioYWg,11337
+shaped_target_clickhouse-0.2.5.dist-info/METADATA,sha256=SFR3blh8w90E53YXRB9E49jbGkKcO58m1W9gi3hKVx4,12997
+shaped_target_clickhouse-0.2.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+shaped_target_clickhouse-0.2.5.dist-info/entry_points.txt,sha256=iQ7ffwJx7Z7YpUC3wu75_qQnvFXIWbH1Ybn7Vpc-pZc,83
+shaped_target_clickhouse-0.2.5.dist-info/RECORD,,
