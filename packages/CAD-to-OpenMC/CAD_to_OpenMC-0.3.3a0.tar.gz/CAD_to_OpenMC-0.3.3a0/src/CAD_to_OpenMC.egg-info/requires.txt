@@ -1,0 +1,6 @@
+gmsh
+pyparsing
+cadquery>=2
+cadquery-ocp>=7
+numpy
+trimesh
