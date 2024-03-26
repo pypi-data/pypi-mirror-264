@@ -1,0 +1,15 @@
+pyawd/AcousticWaveDataset.py,sha256=DsCeLGetg7lVDth5yMEou62o2obPWCgpSqt7aFtMguo,6073
+pyawd/GenerateVideo.py,sha256=o4uvCz5es8iMRZGIyb8wo9nYRmB0vCv7OjtuGoaP22Y,10722
+pyawd/Marmousi.py,sha256=zgD9vNL_a52-EG9ZkFgvb1s0Y-o0pu4Oy0PK_C-9NS4,1070
+pyawd/ScalarAcousticWaveDataset.py,sha256=lZXSpWBRkh5muKUa8yKl9c5xgv75xmfEh3AW2nabft0,10375
+pyawd/VectorAcousticWaveDataset.py,sha256=kSEwtcowYIP3hvB-fYxHnwHU8ieu0ANKX3wgVHYROW0,5747
+pyawd/VectorAcousticWaveDataset2D.py,sha256=V9sjVKrt5lytiM_nn_-Q4-VlRndsaNvyYrhdaKynF3w,10758
+pyawd/VectorAcousticWaveDataset3D.py,sha256=o8IzQPUXAAfi_S3NZEwTkDe9dNknu_5DiQklseshdzk,10656
+pyawd/__init__.py,sha256=opvdoHgGR9pvD5JkkgTxLqyk-r9ATW2yzLDwnVjlFXU,3814
+pyawd/_marmousi_data.py,sha256=aYtzfvQWhPL_NgRG8InJQXE4DXPZauEdTWx2uv0BkK4,10491757
+pyawd/utils.py,sha256=NMxvlWBSx9FCzLukyfbaOwKQ3xHJvfRSd4fGpM2Xmyk,4890
+pyawd-0.3.43.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pyawd-0.3.43.dist-info/METADATA,sha256=qa8b3JhuY0fPTOd787YaMExQWC7ANex0FtrGcqDF0YY,4643
+pyawd-0.3.43.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyawd-0.3.43.dist-info/top_level.txt,sha256=pp0xd-Jo9wu-KMgv0qLtRAu2iU7z608bsk-ln-Zmx7s,6
+pyawd-0.3.43.dist-info/RECORD,,
