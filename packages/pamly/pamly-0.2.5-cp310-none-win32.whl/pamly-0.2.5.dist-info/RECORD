@@ -1,0 +1,5 @@
+pamly-0.2.5.dist-info/METADATA,sha256=KUpu-zDB3hvKBuyIx1FssGjQiSCGggSpERNFuk4wzNI,2224
+pamly-0.2.5.dist-info/WHEEL,sha256=9RmYUj-esIKQx6TApE6-yhBl_9k8cOHeP1-5vFYOkbg,91
+pamly/__init__.py,sha256=owNFvLa7bdkj-yZJ4rkdv7IeNubRDESKWCvdiEilD_o,103
+pamly/pamly.cp310-win32.pyd,sha256=Bwv8Wd8OO878NJ4ADp1wALby6uVnpfiaUw4STqM9Unw,314368
+pamly-0.2.5.dist-info/RECORD,,
