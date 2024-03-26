@@ -1,0 +1,6 @@
+[console_scripts]
+compute_lut = stereoid.cli:compute_lut
+convert_to_netcdf = stereoid.cli:convert_to_netcdf
+harmulator_fwd = stereoid.cli:run_harmony_fwd
+harmulator_inv = stereoid.cli:run_harmony_inv
+partition_swan = stereoid.cli:partition_swan

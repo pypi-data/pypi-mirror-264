@@ -1,0 +1,10 @@
+DATA
+Notebooks
+PAR
+RESULTS
+assets
+build
+dist
+stereoid
+test
+tests
