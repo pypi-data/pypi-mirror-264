@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Flask-Blog"
+dynamic = ["version"]
+description = 'Build a blog with Flask.'
+readme = "README.rst"
+license = { file = "LICENSE.rst" }
+keywords = ["flask","blog"]
+authors = [
+  { name = "huadong", email = "david.dong.hua@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Web Environment",
+  "Framework :: Flask",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Build Tools",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "Flask-Exts>=0.1",
+    "python-dotenv>=1.0",
+]
+
+[project.urls]
+Documentation = "https://flask-blog.readthedocs.io"
+Source = "https://github.com/ojso/flask-blog"
+Homepage = "https://github.com/ojso/flask-blog"
+Issues = "https://github.com/ojso/flask-blog/issues"
+
+[tool.hatch.version]
+path = "src/flask_blog/__about__.py"
