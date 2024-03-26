@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: std-vision
+Version: 1.0.4
+Summary: Vision tools for easily processing videos and images.
+Home-page: https://gitlab.com/OpenGHz/airbot_play_vision_python.git
+Author: OpenGHz
+Author-email: ghz23@mails.tsinghua.edu.cn
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+

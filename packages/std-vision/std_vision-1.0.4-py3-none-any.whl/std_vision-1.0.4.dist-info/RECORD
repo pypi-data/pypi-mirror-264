@@ -1,0 +1,17 @@
+std_vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+std_vision/communication.py,sha256=ltfZFGmcTtpe7mDvSElQFbYlkUwWf5nRshazG73vgcw,175
+std_vision/contour.py,sha256=25dtReVjhzA6vKl8d62c729krrIcUsymVPpWm5Piq2I,7985
+std_vision/converter.py,sha256=u9aXLiflQcQ0BCJT2vNBQFjWW37-pmnXWKRYYiL4IM0,4409
+std_vision/draw.py,sha256=e4jSJdf6vuVFWIRd9IAzJhFC_SYqCqJaJrSdIwAow-E,6383
+std_vision/geometry.py,sha256=jkj8F7Wmq_wSd-YF2cDadpPwrXUMirMcihQmeanKPIQ,1992
+std_vision/histogram.py,sha256=574v3LOkxypfbow9DS2cKislwrynTX8p11yRfIQcsiI,416
+std_vision/mathematics.py,sha256=mLs5rHsaM4KDRrxvEl-BNmFcyjL3FzR3AdHOtC9UfJ0,2381
+std_vision/morphology.py,sha256=eeUEoQvBxEofE6KNw28jASxuzcXp8LeKboJMIaep7_g,2664
+std_vision/ros_tools.py,sha256=9Z5gOx_nnG_fbou0rXI9dqnxMDc14rQyG4FZMFgUVVA,5578
+std_vision/threshold.py,sha256=JqCqNupTFhNP4N6gXHqf5rJVhsAWDsiaP0fxLnLTIKM,2792
+std_vision/video.py,sha256=UqhGyBpYuj51BcX-7ZQRcM1ZJhy7AtHxDs2JwPYcM2Y,45344
+std_vision-1.0.4.dist-info/LICENSE,sha256=TbNEcksAgFX7XQWiu6uYl5wH2MByjSX2-pFuVOXJV0U,1067
+std_vision-1.0.4.dist-info/METADATA,sha256=4THmEVTk9eLe98ZQl-kanQSWsm4NcX5TjXy6KA0kszs,524
+std_vision-1.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+std_vision-1.0.4.dist-info/top_level.txt,sha256=dSfu9d_Z2ceMCsAVoMy4wA4CeOHZv1q-HHBjD9rRDA8,11
+std_vision-1.0.4.dist-info/RECORD,,
