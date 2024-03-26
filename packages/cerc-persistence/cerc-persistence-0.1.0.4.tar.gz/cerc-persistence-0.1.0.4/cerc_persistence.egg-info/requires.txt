@@ -1,0 +1,7 @@
+pathlib
+python-dotenv
+SQLAlchemy
+cerc-hub
+psycopg2-binary
+sqlalchemy_utils
+setuptools
