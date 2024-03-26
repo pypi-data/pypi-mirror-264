@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+charcountpy/__init__.py
+charcountpy/collect_framework.py
+charcountpy.egg-info/PKG-INFO
+charcountpy.egg-info/SOURCES.txt
+charcountpy.egg-info/dependency_links.txt
+charcountpy.egg-info/requires.txt
+charcountpy.egg-info/top_level.txt
