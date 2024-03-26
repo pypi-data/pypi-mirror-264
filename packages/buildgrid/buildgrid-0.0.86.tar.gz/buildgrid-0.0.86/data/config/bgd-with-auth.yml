@@ -1,0 +1,70 @@
+server:
+  - !channel
+    port: 50051
+    insecure-mode: true
+
+description: >
+  Docker Compose all-in-one configuration:
+    - Plain HTTP at :50051
+    - Header-based authorization, see example-auth.yml for the permissions
+    - Single instance: prod
+    - Hosted services:
+       - Execution
+       - Operations
+       - Bots
+       - CAS
+       - ByteStream
+       - ActionCache
+
+authorization:
+  method: headers
+  acl-config: /app/config/auth.yml
+
+monitoring:
+  enabled: false
+
+instances:
+  - name: prod
+    description: |
+      An imagined "production" instance for which authorization is relevant
+
+    connections:
+      - !sql-connection &sql
+        connection-string: postgresql://bgd:insecure@database/bgd
+        automigrate: yes
+        pool-size: 5
+        pool-timeout: 30
+        max-overflow: 10
+
+    storages:
+      - !disk-storage &cas-storage
+        path: /var/lib/buildgrid/store
+
+      - !sql-index &cas-index
+        storage: *cas-storage
+        sql: *sql
+
+    schedulers:
+      - !sql-scheduler &state-database
+        storage: *cas-storage
+        sql: *sql
+
+    services:
+      - !cas
+        storage: *cas-index
+
+      - !bytestream
+        storage: *cas-index
+
+      - !action-cache &build-cache
+        storage: *cas-index
+        max-cached-refs: 256
+        cache-failed-actions: true
+        allow-updates: true
+
+      - !execution
+        storage: *cas-index
+        action-cache: *build-cache
+        scheduler: *state-database
+
+thread-pool-size: 100

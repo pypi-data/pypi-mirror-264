@@ -1,0 +1,152 @@
+# Possible auth config layouts
+
+# Per-instance config files, what should the bgd config look like?
+
+instances:
+  - name: dpkg-non-cr
+    description: BuildGrid for non-CR dpkg builds
+    auth-config: path/to/auth.yml
+    services:
+      ...
+
+  - name: dpkg-cr
+    description: BuildGrid for CR dpkg builds, dpkgrepo only
+    auth-config: path/to/cr-auth.yml
+    services:
+      ...
+
+# We might also want a single instance and distinguish based on the token's
+# audience claim (which we pass as the workflow header atm)
+
+# Separate instance names like this solve the no-aud problem, but can't be
+# usefully introspected by HAProxy so needs this config approach
+
+# Fully separate instances mean more resource but makes the authz trivial
+
+
+---
+# Option 1: Service-first config
+
+# Clear way to define per-request auth configs.
+# Very verbose, service-level or global configs are a bit non-obvious.
+
+services:
+  execution:
+    # Allow all and deny specific token claim combinations
+    allow: all
+    deny:
+      - workflow: dpkg-cr
+        actor: ^dpkgrepo
+
+    # Per request allow/deny lists
+    requests:
+      execute:
+        allow:
+          - workflow: dpkg-cr
+            actor: dpkgrepo
+
+---
+# Option 2: Workflow-first
+
+# Define requirements for a given workflow
+# Makes it easier to answer "who can do a dpkg-cr build" at a glance
+# Harder to see the full permissions for a specific request at a glance
+# Feels like it will be easier to maintain
+
+# Only allow a specific actor to run a certain workflow
+- workflow: dpkg-cr
+  allow:
+    - actor: dpkgrepo
+      requests:  # Optional key, if omitted allow all requests
+        - Execute
+        - WaitExecution
+
+# Base allow-all case
+- workflow: dpkg-non-cr
+  allow: all
+
+---
+# Option 3: Instances?
+
+dpkg-cr:
+  allow:
+    - workflow: dpkg-cr
+      actor: dpkgrepo
+      requests:
+        - Execute
+        - WaitExecution
+
+# Most basic config
+dpkg-non-cr:
+  allow: all
+
+# Something more complex
+dpkg-non-cr-controlled:
+  allow:
+    # No actor/workflow/subject, so allow these requests for all
+    - requests:
+        - Execute
+        - WaitExecution
+        - FindMissingBlobs
+        - BatchReadBlobs
+        - BatchUploadBlobs
+        - Read
+        - Write
+        - GetOperation
+        - ListOperations
+        - CancelOperation
+        - GetActionResult
+
+    # Only worker machines are allowed to do UpdateActionResult and
+    # use the Bots service
+    - actor: dpkg-build-machine
+      requests:
+        - UpdateActionResult
+        - CreateBotSession
+        - UpdateBotSession
+
+# Instances not defined in here are `deny: all`, failing safe
+
+
+
+---
+
+prod-build:
+  allow:
+    # All prod role accounts have CAS write access
+    - actor: prod.*
+      requests:
+        - BatchUpdateBlobs
+        - QueryWriteStatus
+        - Write
+
+    # Only requests with the correct actor claim can perform read/write
+    # requests
+    - actor: prodbuilder
+      requests:
+        - Execute
+        - WaitExecution
+        - CancelOperation
+        - UpdateActionResult  # To support caching local builds, TODO remove
+
+    # Only workers should be able to connect to the Bots service
+    - actor: prodworker
+      requests:
+        - CreateBotSession
+        - UpdateBotSession
+
+    # BuildGrid itself needs to be able to create LogStreams
+    - actor: bgd
+      requests:
+        - CreateLogStream
+
+    # Read-only requests should be allowed regardless of header claims
+    - requests:
+        - GetCapabilities
+        - GetActionResult
+        - GetOperation
+        - ListOperations
+        - Read
+        - FindMissingBlobs
+        - BatchReadBlobs
+        - GetTree

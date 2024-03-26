@@ -1,0 +1,28 @@
+title: Remote Storage backend
+type: object
+propertyNames:
+  pattern: "^[A-Za-z0-9-]*$"
+properties:
+  url:
+    type: string
+  instance-name:
+    type: string
+  credentials:
+    type: object
+    properties:
+      tls-client-key:
+        type: string
+      tls-client-cert:
+        type: string
+      tls-server-cert:
+        type: string
+  channel-options:
+    type: object
+    propertyNames:
+      pattern: "^[a-z0-9-]+$"
+  request-timeout:
+    type: number
+
+required:
+  - url
+  - instance-name
