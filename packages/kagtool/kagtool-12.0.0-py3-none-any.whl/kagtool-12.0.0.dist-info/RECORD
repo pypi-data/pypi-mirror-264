@@ -1,0 +1,9 @@
+kagtool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kagtool/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kagtool/datasets/kaggle_downloader.py,sha256=vRYW0XhHBtPGJoIMWo3LevRS1WD2BAP3JcFASp-qXCQ,910
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_kaggle_downloader.py,sha256=ePK8Jc4AeXtzTJPi4ALKXQtoicwx8Ikld7Y9ERNDR78,206
+kagtool-12.0.0.dist-info/METADATA,sha256=VcF-s8YvtrqMizCmXpLgMb4a-yB5eC81HTMJbZzTJgY,53
+kagtool-12.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kagtool-12.0.0.dist-info/top_level.txt,sha256=ZWBK2-Gtb27AJt8N22yN6qY3gvcYp8dgw5e-Y1VfnRU,14
+kagtool-12.0.0.dist-info/RECORD,,
