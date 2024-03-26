@@ -1,0 +1,19 @@
+[project]
+name = "BGFS"
+version = "1.1"
+authors = [
+  { name="Tina Issa", email="tina.issa@univ-evry.fr" },
+]
+description = "A Biobjective Feature Selection neural network for High Dimensions, Low Sample data"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://forge.ibisc.univ-evry.fr/tissa/BFS"
+Documentation = "https://bfss.readthedocs.io/"
+Repository = "https://forge.ibisc.univ-evry.fr/tissa/BFS.git"

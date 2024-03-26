@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/BGFS/BFS.py
+src/BGFS/__init__.py
+src/BGFS/utils.py
+src/BGFS.egg-info/PKG-INFO
+src/BGFS.egg-info/SOURCES.txt
+src/BGFS.egg-info/dependency_links.txt
+src/BGFS.egg-info/top_level.txt
