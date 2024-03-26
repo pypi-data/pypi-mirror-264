@@ -1,0 +1,14 @@
+devito
+torch
+matplotlib
+tqdm
+numpy
+sympy
+opencv-python
+pyvista
+trame
+vtk
+imageio
+imageio-ffmpeg
+npy-append-array
+mpi4py
