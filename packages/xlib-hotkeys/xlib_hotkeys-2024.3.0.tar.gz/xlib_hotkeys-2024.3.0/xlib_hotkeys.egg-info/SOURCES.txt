@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+xlib_hotkeys/__init__.py
+xlib_hotkeys/__main__.py
+xlib_hotkeys.egg-info/PKG-INFO
+xlib_hotkeys.egg-info/SOURCES.txt
+xlib_hotkeys.egg-info/dependency_links.txt
+xlib_hotkeys.egg-info/entry_points.txt
+xlib_hotkeys.egg-info/requires.txt
+xlib_hotkeys.egg-info/top_level.txt
