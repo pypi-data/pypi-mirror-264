@@ -1,0 +1,9 @@
+[workspace]
+members = ["bitvm", "scripts"]
+resolver = "2"
+
+[patch.crates-io.bitvm]
+path = "bitvm"
+
+[patch.crates-io.scripts]
+path = "scripts"
