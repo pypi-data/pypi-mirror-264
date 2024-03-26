@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+forta_bot.egg-info/PKG-INFO
+forta_bot.egg-info/SOURCES.txt
+forta_bot.egg-info/dependency_links.txt
+forta_bot.egg-info/requires.txt
+forta_bot.egg-info/top_level.txt
+tests/__init__.py
+tests/test_simple.py
