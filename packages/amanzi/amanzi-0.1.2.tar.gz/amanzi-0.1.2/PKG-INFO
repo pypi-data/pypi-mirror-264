@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: amanzi
+Version: 0.1.2
+Summary: Back-end of SLIMM Designer
+Home-page: https://github.com/Vitens/amanzi
+Author: Abel Heinsbroek
+Author-email: abel.heinsbroek@vitens.nl
+License: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Dist: numpy
+Requires-Dist: phreeqpython
+Requires-Dist: pandas
+Requires-Dist: scipy
