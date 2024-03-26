@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: headpy-IoT
+Version: 1.0
+Summary: Anomaly detection framwork for HE IoT data
+Author: Dragos Lazea
+Author-email: dragos.lazea@cs.utcluj.ro
+License: GPL-3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+License-File: LICENSE

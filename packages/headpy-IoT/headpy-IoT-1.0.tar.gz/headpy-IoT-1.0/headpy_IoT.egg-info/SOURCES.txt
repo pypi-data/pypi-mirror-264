@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+headpy_IoT.egg-info/PKG-INFO
+headpy_IoT.egg-info/SOURCES.txt
+headpy_IoT.egg-info/dependency_links.txt
+headpy_IoT.egg-info/top_level.txt
