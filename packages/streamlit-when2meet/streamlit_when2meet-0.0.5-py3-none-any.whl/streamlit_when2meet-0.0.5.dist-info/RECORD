@@ -1,0 +1,13 @@
+streamlit_when2meet/__init__.py,sha256=Q4VH-77jie2pKBKkOUJ6mUbSC8rDq7D-FN0tLqL8gqU,2614
+streamlit_when2meet/example.py,sha256=nlAmsUTzRH7BhcLa0XkcJLuZgyuG37ZlCazHZPxD7pM,587
+streamlit_when2meet/frontend/build/asset-manifest.json,sha256=BYo3z2wppDzQ7krDnpTSCEPm-xDm9-nDON5qdGEH6tQ,221
+streamlit_when2meet/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+streamlit_when2meet/frontend/build/index.html,sha256=N0I8-VQ-ZfGZqkaTMniVDEv1QdJ4vaaXAxwzE2cfI5I,492
+streamlit_when2meet/frontend/build/static/js/main.c64cc9f8.js,sha256=qFRdice3mpbtYeSnYdOh6UOWYccsfCSg-qfeBVyI1II,322392
+streamlit_when2meet/frontend/build/static/js/main.c64cc9f8.js.LICENSE.txt,sha256=cmjEMovgjlkZ-Bs7b5rRQ8FsJtL1F77Y3YkM2E9yfUs,1293
+streamlit_when2meet/frontend/build/static/js/main.c64cc9f8.js.map,sha256=-TJucs_ANh53701XHsO_urTtWGW7jHebIu4_63yHP2E,1267459
+streamlit_when2meet-0.0.5.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+streamlit_when2meet-0.0.5.dist-info/METADATA,sha256=bzDDNf_qmJI8FOSGrAYkq3N1Gxi0Susl3KWxHiEXR80,970
+streamlit_when2meet-0.0.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+streamlit_when2meet-0.0.5.dist-info/top_level.txt,sha256=dJbMS70PdkbBwsbTlFM7k24u5o6nGhmNrjGpeRphi9M,20
+streamlit_when2meet-0.0.5.dist-info/RECORD,,
