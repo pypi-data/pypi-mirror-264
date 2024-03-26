@@ -1,0 +1,9 @@
+README.md
+hello_tea.py
+setup.py
+teaa2.egg-info/PKG-INFO
+teaa2.egg-info/SOURCES.txt
+teaa2.egg-info/dependency_links.txt
+teaa2.egg-info/entry_points.txt
+teaa2.egg-info/requires.txt
+teaa2.egg-info/top_level.txt

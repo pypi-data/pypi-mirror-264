@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: teaa2
+Version: 0.0.3
+Summary: A simple package for https://app.tea.xyz/. Example tea-xyz1 - https://github.com/CryptoGu1/teaa1.git and tea-xyz2 - https://github.com/CryptoGu1/teaa2.git
+Home-page: https://github.com/CryptoGu1/teaa2.git
+Author: CryptoGU1
+Author-email: Kriptoairdrop9@gmail.com
+Project-URL: Homepage, https://github.com/CryptoGu1/teaa2.git
+Project-URL: Source, https://github.com/CryptoGu1/teaa2.git
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: requests>=2.20.0
+Requires-Dist: teaa
