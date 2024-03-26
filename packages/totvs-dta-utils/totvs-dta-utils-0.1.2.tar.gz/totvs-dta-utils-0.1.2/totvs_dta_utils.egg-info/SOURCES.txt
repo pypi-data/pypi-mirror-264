@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+dta_utils/__init__.py
+dta_utils/services/__init__.py
+dta_utils/services/dta_chat_service.py
+dta_utils/services/dta_observer_service.py
+dta_utils/services/dta_proxy_service.py
+dta_utils/services/dta_tracer_service.py
+totvs_dta_utils.egg-info/PKG-INFO
+totvs_dta_utils.egg-info/SOURCES.txt
+totvs_dta_utils.egg-info/dependency_links.txt
+totvs_dta_utils.egg-info/requires.txt
+totvs_dta_utils.egg-info/top_level.txt
