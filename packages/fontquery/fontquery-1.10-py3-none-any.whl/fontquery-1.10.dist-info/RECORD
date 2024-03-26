@@ -1,0 +1,17 @@
+fontquery/__init__.py,sha256=uOSw8zZ5pZ4r2b4ATUnQCYrNbTJ4MG-D5Wm5UtyqHW8,1084
+fontquery/build.py,sha256=8TrpBTmiJWufEahRgxyKxdwqmyN180-NDStckBerrSM,12376
+fontquery/cache.py,sha256=JGUy9xR4T3tPDIWL43uOV633kEdZEyPHzmGOEEkT2f4,2164
+fontquery/client.py,sha256=KMGOv5bj_Bbh4z_jdNTkwmOQPnqX03XBxXXPUjqfvd0,8883
+fontquery/container.py,sha256=dhq5dXCDLiRUWSjF2T_B6q6pGvPxG79uHpr9dCAJ7Lw,9399
+fontquery/diff.py,sha256=PLJJU2ZUr5G9BfT_WZadrsFzqLsnQ_96Dp45v0leqno,7360
+fontquery/htmlformatter.py,sha256=Zqo2IGQMd9BG-geU95_nD22A-FGuAKFLqlgIuSi56UA,24540
+fontquery/version.py,sha256=W5PnphFCEXfvdpQUN0B7sKlMg9z_3Abu-ZnUwbliqhg,1350
+fontquery/version.txt,sha256=M97AST0hLJssLWOMsJ0wPsHVqnQjTHibm6F6oy3WGgE,15
+fontquery/data/Containerfile,sha256=qbV5_WFAIjmVybNnrdHz5SLZlLSvDikBnOiB5gmKBHs,1843
+fontquery/scripts/fontquery-setup.sh,sha256=Z4FV-RbWy5YPML2W_r4H04_8oZLUlIBeC7H3yqm2ErQ,7012
+fontquery-1.10.dist-info/LICENSE,sha256=TJchhLtmPWPt1CQ-BcEsJ-RkZknb85zwwy7yvISncHg,1070
+fontquery-1.10.dist-info/METADATA,sha256=grGvkpZaPXiiJ_QZP_V9Us5XsTaYgDWXXxsioevK3h0,5123
+fontquery-1.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fontquery-1.10.dist-info/entry_points.txt,sha256=wgQvtTKg7c3qtcldN6AxRqJWOKt_qKoywW9sFBUhkQo,214
+fontquery-1.10.dist-info/top_level.txt,sha256=bEkVunUY5xJHDx9Mapxvk64_0C0qeuU4M97H8Fuvy9E,10
+fontquery-1.10.dist-info/RECORD,,
