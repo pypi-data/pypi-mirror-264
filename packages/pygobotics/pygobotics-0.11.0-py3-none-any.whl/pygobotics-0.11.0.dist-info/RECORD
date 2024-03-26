@@ -1,0 +1,8 @@
+gobotics/__init__.py,sha256=55wfYMODyxp8fd_07zg4G46IwXQaP4UV5f6QmsziDLo,3572
+gobotics/godotbridge.py,sha256=V34b6_q6gGjQT8kViMhGrAMGSNffkEXiqbUwnhMgYWE,4892
+gobotics/helper.py,sha256=UJA5wsm8NVqK1MgVfdxC8xr3MOFqOi57tJgruxJ1cUc,919
+pygobotics-0.11.0.dist-info/LICENSE.md,sha256=jYnYZwEVzFJQWYDwTUOHAtVRpeHUKFF9sFRAEdsLzSY,1073
+pygobotics-0.11.0.dist-info/METADATA,sha256=JBUmvE4X-Ektpan9UkQ4Jdqw83CuIx-NspwPP0LtZoU,795
+pygobotics-0.11.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pygobotics-0.11.0.dist-info/top_level.txt,sha256=qbu-mXkiTYeQZdXeqWyGRXcdjTFfSpY7TiVcf2KxllU,9
+pygobotics-0.11.0.dist-info/RECORD,,
