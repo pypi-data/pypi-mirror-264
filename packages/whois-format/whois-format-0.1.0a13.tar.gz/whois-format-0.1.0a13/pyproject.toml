@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whois-format"
+version = "0.1.0-alpha.13"
+authors = [
+    { name="Darren Spruell", email="phatbuckett@gmail.com" },
+]
+description = "Whois client wrapper producing a terse, single-line format."
+readme = "README.md"
+dependencies = [
+    "python-whois",
+    "tabulate",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    # "Development Status :: 4 - Beta",
+    # "Development Status :: 5 - Production/Stable",
+    # "Development Status :: 6 - Mature",
+    "License :: OSI Approved :: ISC License (ISCL)",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+whois-format = "whois_format:cli"
+
+[project.urls]
+"Homepage" = "https://github.com/dspruell/whois-format/"
