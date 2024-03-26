@@ -1,0 +1,245 @@
+Metadata-Version: 2.1
+Name: sc-file
+Version: 3.0.2
+Summary: Utility & Library for decoding stalcraft assets
+License: MIT
+Author: onejeuu
+Author-email: bloodtrail@beber1k.ru
+Requires-Python: >=3.11,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: lz4 (>=4.3.2,<5.0.0)
+Requires-Dist: numpy (>=1.26.3,<2.0.0)
+Requires-Dist: quicktex (>=0.2.0,<0.3.0)
+Description-Content-Type: text/markdown
+
+# SC FILE
+
+Utility and Library for decoding and converting stalcraft assets files, such as models and textures into well-known formats.
+
+You can use executable from [Releases](https://github.com/onejeuu/sc-file/releases) page.
+
+> [!WARNING]
+> Do not use game assets directly.
+> You can get banned for any changes in game client.
+
+# 📁 Formats
+
+| Type    | Source format | Output format |
+| ------- | ------------- | ------------- |
+| Model   | .mcsa         | .obj          |
+| Texture | .ol           | .dds          |
+| Image   | .mic          | .png          |
+
+Model versions supported: 7.0, 8.0, 10.0
+
+Texture formats supported: DXT1, DXT3, DXT5, RGBA8, BGRA8, RGBA32F, DXN_XY
+
+Texture formats unsupported: Cubemaps (hdri, sky)
+
+# 💻 CLI Utility
+
+## Usage
+
+You can drag and drop one or multiple files to `scfile.exe`.
+
+From bash:
+
+```bash
+scfile [OPTIONS] [FILES]...
+```
+
+## Arguments
+
+- `FILES`: **List of file paths to be converted**. Multiple files should be separated by **spaces**. Accepts both full and relative paths. **Does not accept directory**.
+
+## Options
+
+- `-O`, `--output`: **One path to output file or directory**. Can be specified multiple times for different output files or directories. If not specified, file will be saved in the same directory with a new suffix. You can specify multiple `FILES` and a single `--output` directory.
+
+## Examples
+
+1. Convert a single file:
+
+   ```bash
+   scfile file.mcsa
+   ```
+
+   _Will be saved in the same directory with a new suffix._
+
+1. Convert a single file with a specified path or name:
+
+   ```bash
+   scfile file.mcsa --output path/to/file.obj
+   ```
+
+1. Convert multiple files to a specified directory:
+
+   ```bash
+   scfile file1.mcsa file2.mcsa --output path/to/dir
+   ```
+
+1. Convert multiple files with explicitly specified output files:
+
+   ```bash
+   scfile file1.mcsa file2.mcsa -O 1.obj -O 2.obj
+   ```
+
+   _If the count of `FILES` and `-O` is different, as many files as possible will be converted._
+
+1. Convert all `.mcsa` files in the current directory:
+
+   ```bash
+   scfile *.mcsa
+   ```
+
+   _In this case, `-O` accepts only a directory. Subdirectories are not included._
+
+1. Convert all `.mcsa` files with subdirectories to a specified directory:
+
+   ```bash
+   scfile **/*.mcsa -O path/to/dir
+   ```
+
+   _In this case, `-O` accepts only a directory. With `-O` specified, directory structure is not duplicated._
+
+# 📚 Library
+
+## Install
+
+### Pip
+
+```bash
+pip install sc-file -U
+```
+
+### Manual
+
+```bash
+git clone git@github.com:onejeuu/sc-file.git
+```
+
+```bash
+cd sc-file
+```
+
+```bash
+poetry install
+```
+
+## Usage
+
+### Simple
+
+```python
+from scfile import convert
+
+# Output path is optional.
+# Defaults to source path with new suffix.
+convert.mcsa_to_obj("path/to/model.mcsa", "path/to/model.obj")
+convert.ol_to_dds("path/to/texture.ol", "path/to/texture.dds")
+convert.mic_to_png("path/to/image.mic", "path/to/image.png")
+
+# Or determinate it automatically
+convert.auto("path/to/model.mcsa")
+```
+
+### Advanced
+
+Default
+
+```python
+from scfile.file.data import ModelData
+from scfile.file.mcsa.decoder import McsaDecoder
+from scfile.file.obj.encoder import ObjEncoder
+
+mcsa = McsaDecoder("model.mcsa")
+data: ModelData = mcsa.decode()
+mcsa.close() # ? Necessary to close
+
+obj = ObjEncoder(data)
+obj.encode().save("model.obj") # ? Encoder closes after saving
+```
+
+Use encoding content bytes
+
+```python
+obj = ObjEncoder(data)
+obj.encode()
+
+with open("model.obj", "wb") as fp:
+    fp.write(obj.content)
+
+obj.close() # ? Necessary to close
+```
+
+Use convert methods
+
+```python
+mcsa = McsaDecoder("model.mcsa")
+mcsa.convert_to(ObjEncoder).save("model.obj")
+mcsa.close() # ? Necessary to close
+```
+
+```python
+mcsa = McsaDecoder("model.mcsa")
+mcsa.to_obj().save("model.obj")
+mcsa.close() # ? Necessary to close
+```
+
+Save multiple copies
+
+```python
+mcsa = McsaDecoder(".test/extractor.mcsa")
+obj = mcsa.to_obj()
+obj.save_as("model_1.obj")
+obj.save_as("model_2.obj")
+mcsa.close() # ? Necessary to close
+obj.close() # ? Necessary to close
+```
+
+Use context manager
+
+```python
+with McsaDecoder("model.mcsa") as mcsa:
+    data: ModelData = mcsa.decode()
+
+with ObjEncoder(data) as obj:
+    obj.encode().save("model.obj")
+```
+
+Use context manager + convert methods
+
+```python
+with McsaDecoder("model.mcsa") as mcsa:
+    mcsa.to_obj().save("model.obj")
+```
+
+# 🛠️ Build
+
+> [!IMPORTANT]
+> You will need [poetry](https://python-poetry.org) to do compilation.
+
+> [!TIP]
+> Before proceeding, it's recommended to create virtual environment
+>
+> ```bash
+> poetry shell
+> ```
+
+Then install dependencies:
+
+```bash
+poetry install
+```
+
+And run script to compile:
+
+```bash
+poetry run build
+```
+
+Executable file will be created in `/dist` directory.
+
