@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: gard
+Version: 0.0.3
+Summary: GARD ID to URL
+Author-email: Steven Tang <stang5@ualberta.ca>
+Project-URL: Homepage, https://github.com/BIOIN-401-Project-8/gard
+Project-URL: Bug Tracker, https://github.com/BIOIN-401-Project-8/gard/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# gard
+
+A simple offline Python wrapper to map Genetic and Rare Diseases Information Center (GARD) IDs to disease names / URLs.
+
+## Installation
+
+```bash
+pip install gard
+```
+
+## Usage
+
+```python
+from gard import GARD
+
+gard = GARD()
+print(grad(1))
+# {'encodedName': 'gracile-syndrome', 'name': 'GRACILE syndrome'}
+
+print(grad.get_url(1))
+# https://rarediseases.info.nih.gov/diseases/1/gracile-syndrome
+```

@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+  "setuptools>=61.0",
+  "setuptools_scm>=8.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gard"
+version = "0.0.3"
+authors = [
+  { name="Steven Tang", email="stang5@ualberta.ca" },
+]
+description = "GARD ID to URL"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BIOIN-401-Project-8/gard"
+"Bug Tracker" = "https://github.com/BIOIN-401-Project-8/gard/issues"
