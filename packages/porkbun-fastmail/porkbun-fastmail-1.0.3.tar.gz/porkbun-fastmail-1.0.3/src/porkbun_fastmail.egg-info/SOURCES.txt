@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/porkbun-fastmail/__init__.py
+src/porkbun-fastmail/__main__.py
+src/porkbun-fastmail/main.py
+src/porkbun_fastmail.egg-info/PKG-INFO
+src/porkbun_fastmail.egg-info/SOURCES.txt
+src/porkbun_fastmail.egg-info/dependency_links.txt
+src/porkbun_fastmail.egg-info/requires.txt
+src/porkbun_fastmail.egg-info/top_level.txt

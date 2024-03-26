@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "porkbun-fastmail"
+version = "1.0.3"
+authors = [
+  { name="Joseph Riddle", email="joeriddles10@gmail.com" },
+]
+description = " CLI to quickly add DNS records for Fastmail to a Porkbun domain"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests >= 2, < 3",
+]
+
+[project.optional-dependencies]
+build = [
+  "twine>=5.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/joeriddles/porkbun-fastmail"
+"Bug Tracker" = "https://github.com/joeriddles/porkbun-fastmail/issues"

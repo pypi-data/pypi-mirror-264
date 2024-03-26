@@ -1,0 +1,4 @@
+requests<3,>=2
+
+[build]
+twine>=5.0.0
