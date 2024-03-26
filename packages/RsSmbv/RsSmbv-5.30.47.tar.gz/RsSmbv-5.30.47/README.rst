@@ -1,0 +1,82 @@
+==================================
+ RsSmbv
+==================================
+
+.. image:: https://img.shields.io/pypi/v/RsSmbv.svg
+   :target: https://pypi.org/project/ RsSmbv/
+
+.. image:: https://readthedocs.org/projects/sphinx/badge/?version=master
+   :target: https://rohde-schwarz.github.io/RsSmbv_PythonDocumentation
+
+.. image:: https://img.shields.io/pypi/l/RsSmbv.svg
+   :target: https://pypi.python.org/pypi/RsSmbv/
+
+.. image:: https://img.shields.io/pypi/pyversions/pybadges.svg
+   :target: https://img.shields.io/pypi/pyversions/pybadges.svg
+
+.. image:: https://img.shields.io/pypi/dm/RsSmbv.svg
+   :target: https://pypi.python.org/pypi/RsSmbv/
+
+Rohde & Schwarz SMBV100B Vector Signal Generator RsSmbv instrument driver.
+
+Basic Hello-World code:
+
+.. code-block:: python
+
+    from RsSmbv import *
+
+    instr = RsSmbv('TCPIP::192.168.56.101::hislip0', reset=True)
+    idn = instr.query_str('*IDN?')
+    print('Hello, I am: ' + idn)
+
+Supported instruments: SMBV100B, SMW200A
+
+The package is hosted here: https://pypi.org/project/RsSmbv/
+
+Documentation: https://rohde-schwarz.github.io/RsSmbv_PythonDocumentation/
+
+Examples: https://github.com/Rohde-Schwarz/Examples/tree/main/SignalGenerators/Python/RsSmbv_ScpiPackage
+
+
+Version history
+----------------
+
+	Latest release notes summary: Update for FW 5.30.47, removed legacy options
+
+	Version 5.30.47
+		- Update for FW 5.30.47
+		- Removed Legacy Options: Sirius, FM Sterea, XM Radio
+
+	Version 5.0.45
+		- Update for FW 5.0
+		- Added DigitalModulation Interface.
+		- Updated core to the newest template.
+
+	Version 4.80.2.22
+		- Fixed bug in interfaces with the name 'base', new docu format
+
+	Version 4.80.2.18
+		- Fixed several misspelled arguments and command headers
+
+	Version 4.80.2.15
+		- Complete rework of the Repeated capabilities. Before, the driver used extensively the RepCaps Channel, Stream, Subframe, User, Group. Now, they have more fitting names, and also proper ranges and default values.
+		- All the repcaps ending with Null have ranges starting with 0. 0 is also their default value. For example, ChannelNull starts from 0, while Channel starts from 1. Since this is a breaking change, please make sure your code written in the previous version of the driver is compatible with this new version. This change was necessary in order to assure all the possible settings.
+
+	Version 4.80.0.13
+		- Fixed NR5G Repeated Capabilities
+
+	Version 4.80.0.12
+		- Added Documentation
+		- Added method RsSmbv.list_resources()
+
+	Version 4.80.0.9
+		- Default HwInterface repcap is 0 (empty command suffix)
+
+	Version 4.80.0.8
+		- Added arb_files interface
+
+	Version 4.80.0.7
+		- Included GNSS subsystem
+
+	Version 4.80.0.2
+		- First released version
