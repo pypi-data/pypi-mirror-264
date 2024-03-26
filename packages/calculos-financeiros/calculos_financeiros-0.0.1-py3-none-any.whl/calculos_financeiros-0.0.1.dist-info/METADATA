@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: calculos_financeiros
+Version: 0.0.1
+Summary: Calculos de operações financeiras
+Home-page: https://github.com
+Author: Windlin
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# calculos_financeiros
+
+Description. 
+The package package_name is used to:
+	calculos_financeiros:
+		- juros_composto
+		- juros_simples
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install calculos_financeiros
+```
+
+## Usage
+
+```python
+from package_name.module1_name import file1_name
+file1_name.my_function()
+```
+
+## Author
+Windlin
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
