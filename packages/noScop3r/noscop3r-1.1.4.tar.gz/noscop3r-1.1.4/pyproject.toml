@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "noScop3r"
+version = "1.1.4"
+authors = [{name = "Jack Mason", email = "jack@jackmason.com"}]
+description = "Expand And match IP Addresses"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "netaddr",
+    "colorama",
+    "tabulate"
+]
+
+[project.urls]
+Homepage = "https://example.com/noScop3r"
+Repository = "https://github.com/yourusername/noScop3r"
+
+[project.scripts]
+noScop3r = "noscop3r.noscop3r:main"
+
+[tool.hatch.metadata]
+packages = [{include = "noscop3r", from = "src"}]
