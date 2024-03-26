@@ -1,0 +1,29 @@
+from typing import List
+
+from ......Internal.Core import Core
+from ......Internal.CommandsGroup import CommandsGroup
+from ......Internal.Types import DataType
+from ......Internal.ArgSingleList import ArgSingleList
+from ......Internal.ArgSingle import ArgSingle
+from ...... import repcap
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class IconnectCls:
+	"""Iconnect commands group definition. 1 total commands, 0 Subgroups, 1 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._cmd_group = CommandsGroup("iconnect", core, parent)
+
+	def set(self, instr_name: List[str], rf_path: str, path=repcap.Path.Default) -> None:
+		"""SCPI: SCONfiguration:EXTernal:RF<CH>:REMote:ICONnect \n
+		Snippet: driver.sconfiguration.external.rf.remote.iconnect.set(instr_name = ['abc1', 'abc2', 'abc3'], rf_path = 'abc', path = repcap.Path.Default) \n
+		No command help available \n
+			:param instr_name: No help available
+			:param rf_path: No help available
+			:param path: optional repeated capability selector. Default value: Nr1 (settable in the interface 'Rf')
+		"""
+		param = ArgSingleList().compose_cmd_string(ArgSingle.as_open_list('instr_name', instr_name, DataType.StringList, None), ArgSingle('rf_path', rf_path, DataType.String))
+		path_cmd_val = self._cmd_group.get_repcap_cmd_value(path, repcap.Path)
+		self._core.io.write(f'SCONfiguration:EXTernal:RF{path_cmd_val}:REMote:ICONnect {param}'.rstrip())
