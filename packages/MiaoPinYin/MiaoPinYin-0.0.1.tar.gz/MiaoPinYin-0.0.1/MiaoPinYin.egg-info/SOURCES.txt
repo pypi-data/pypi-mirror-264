@@ -1,0 +1,8 @@
+setup.py
+MiaoPinYin/__init__.py
+MiaoPinYin/pinyin.py
+MiaoPinYin.egg-info/PKG-INFO
+MiaoPinYin.egg-info/SOURCES.txt
+MiaoPinYin.egg-info/dependency_links.txt
+MiaoPinYin.egg-info/requires.txt
+MiaoPinYin.egg-info/top_level.txt
