@@ -1,0 +1,7 @@
+aiida-core
+aiida-worktree
+aiida-quantumespresso~=4.4
+aiida-cp2k
+pytest
+pytest-cov
+pre-commit
