@@ -1,0 +1,76 @@
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+typecheck = "mypy pylsp_inlay_hints/"
+lint = "ruff check pylsp_inlay_hints/"
+format = "ruff format pylsp_inlay_hints/"
+"format:check" = "ruff format --check pylsp_inlay_hints/"
+
+[tool.ruff]
+line-length = 120
+target-version = "py38"
+
+[tool.ruff.lint]
+select = [
+    "F",
+    "B",
+    "E",
+]
+unfixable = [
+    "B",
+]
+
+[tool.mypy]
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+pretty = true
+show_column_numbers = true
+show_error_codes = true
+show_error_context = true
+strict_optional = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_unreachable = true
+warn_unused_ignores = true
+
+[tool.black]
+line-length = 120
+target-version = [
+    "py38",
+]
+
+[project]
+name = "pylsp-inlay-hints"
+version = "0.1.0"
+description = "Experimental support for inlay hints provider for `python-lsp-server`"
+authors = [
+    { name = "Marcin Paliwoda", email = "boringstuffinc@gmail.com" },
+]
+dependencies = [
+    "astroid>=3.1.0",
+    "astypes>=0.2.6",
+    "python-lsp-server>=1.10.1",
+    "python-lsp-jsonrpc>=1.1.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+dev = [
+    "mypy>=1.9.0",
+    "ruff>=0.3.4",
+]
+
+[project.entry-points.pylsp]
+pylsp_inlay_hints = "pylsp_inlay_hints.plugin"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
