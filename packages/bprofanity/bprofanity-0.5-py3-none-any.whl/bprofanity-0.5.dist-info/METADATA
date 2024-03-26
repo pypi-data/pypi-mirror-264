@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: bprofanity
+Version: 0.5
+Summary: A Python package for detecting and filtering profanity from bangla text
+Home-page: https://github.com/thatsayon/bprofanity
+Author: Ashiqul Islam Ayon
+Author-email: ashiqulislamayon28@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography ==42.0.5
+
+
+# bprofanity
+
+![Static Badge](https://img.shields.io/badge/release-0.5-blue)
+
+A Python package for detecting and filtering profanity from bangla text.
+
+## How It Works
+
+The "bprofanity" module specializes in detecting and handling Bangla profanity. By utilizing a Trie data structure, it efficiently identifies Bangla profanity slangs and offers functions for censorship, counting occurrences, and checking for profanity in text data. This module ensures accurate and targeted detection of Bangla profanity, enhancing content moderation for Bangla-language platforms.
+## Installation
+
+Install "bprofanity" with pip
+
+```bash
+pip install bprofanity
+```
+## Usage/Examples
+
+```python
+from bprofanity import ProfanityChecker
+
+profanity_checker = ProfanityChecker()
+
+input_text = "Some text with a bad word like Bal"
+
+profanity_checker.contains_profanity(input_text)
+# True
+
+profanity_checker.censor(input_text)
+# Some text with a bad word like ***
+
+profanity_checker.censor_count(input_text)
+# 1
+```
+
