@@ -1,0 +1,91 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "elasticsearch-pii-redacter"
+authors = [{ name="Elastic", email="info@elastic.co" }]
+dynamic = ["version"]
+description = "Redacting field data from your Elasticsearch indices and Searchable Snapshots"
+license = { text="Apache-2.0" }
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = [
+    'elasticsearch',
+    'redact',
+    'pii',
+    'index'
+]
+dependencies = [
+    "es_client==8.12.8"
+]
+
+[project.optional-dependencies]
+test = [
+    "mock",
+    "requests",
+    "pytest >=7.2.1",
+    "pytest-cov",
+]
+doc = ["sphinx", "sphinx_rtd_theme"]
+
+[project.scripts]
+elastic-pii-redacter = "app.cli:run"
+
+[project.urls]
+"Homepage" = "https://github.com/elastic/elastic-pii-redacter"
+"Bug Tracker" = "https://github.com/elastic/elastic-pii-redacter/issues"
+
+[tool.hatch.version]
+path = "app/version.py"
+
+[tool.hatch.module]
+name = "elastic-pii-redacter"
+
+[tool.hatch.build]
+include = [
+  "app/*.py",
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "dist",
+    "docs",
+    "docker_test",
+    "examples",
+    "html_docs",
+    "tests",
+]
+
+[tool.hatch.envs.test]
+dependencies = [
+    "coverage[toml]",
+    "mock",
+    "requests",
+    "pytest >=7.2.1",
+    "pytest-cov",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "app"]
+minversion = "7.2"
+addopts = "-ra -q"
+testpaths = [
+    "tests/unit",
+    "tests/integration",
+]
+
+[tool.distutils.build_exe]
+excludes = ["tcltk", "tkinter", "unittest"]
+zip_include_packages = ["certifi"]
