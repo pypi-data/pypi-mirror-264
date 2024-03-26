@@ -1,0 +1,7 @@
+nltk
+pydantic
+faker
+pandas
+gender_guesser
+unidecode
+spacy
