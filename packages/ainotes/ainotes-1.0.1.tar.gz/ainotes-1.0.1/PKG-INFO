@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ainotes
+Version: 1.0.1
+Summary: A collection of interactive notes related to Artificial Intelligence
+Home-page: https://github.com/bpesquet/ainotes
+License: MIT
+Author: Baptiste Pesquet
+Author-email: bpesquet@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/bpesquet/ainotes
+Description-Content-Type: text/markdown
+
+# ainotes
+
+This package contains the Python source code for the [ainotes](https://github.com/bpesquet/ainotes) project.
+
+Installing it is necessary to use shared code in cloud execution environments like [Google Colaboratory](https://colab.research.google.com/).
+

@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "ainotes"
+version = "1.0.1"
+description = "A collection of interactive notes related to Artificial Intelligence"
+authors = ["Baptiste Pesquet <bpesquet@gmail.com>"]
+readme = "README_PACKAGE.md"  # Project description on PyPI
+license = "MIT"  # Code license, textual content is CC-BY-NC-SA 4.0
+repository = "https://github.com/bpesquet/ainotes"
+
+# Core dependencies
+[tool.poetry.dependencies]
+python = "^3.10"
+
+# Runtime dependencies
+# Defined here to limit package dependencies, which is practical when installing it on colab
+[tool.poetry.group.run.dependencies]  
+matplotlib = "^3.8.3"
+torch = "^2.2.1"
+torchvision = "^0.17.1"
+scikit-learn = "^1.4.1.post1"
+papermill = "^2.5.0"
+seaborn = "^0.13.2"
+tqdm = "^4.66.2"
+
+# Development dependencies
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.1.0"
+jupytext = "^1.16.1"
+notebook = "^6.0"  # Incompatibility between notebook v7+ and RISE
+rise = "^5.7.1"
+jupyter-contrib-nbextensions = "^0.7.0"
+jupyter-book = "^1.0.0"
+
+[tool.jupytext]
+# Associate every .ipynb notebook with a .py file with explicit cell delimiters (# %%)
+# Notebooks are located in docs/, Python files in ainotes/
+# https://jupytext.readthedocs.io/en/latest/config.html
+formats = "docs///ipynb,ainotes///py:percent"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
