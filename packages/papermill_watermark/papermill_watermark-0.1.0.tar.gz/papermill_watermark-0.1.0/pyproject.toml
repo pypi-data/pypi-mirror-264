@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "papermill_watermark"
+version = "0.1.0"
+description = ""
+authors = ["Fabian Hausmann <fabian.hausmann@zmnh.uni-hamburg.de>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/fhausmann/papermill_watermark"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+papermill = "^2.5.0"
+watermark = "^2.4.3"
+xmltodict = {version = "^0.13.0", optional = true}
+py3nvml = {version = "^0.2.7", optional = true}
+
+[tool.poetry.extras]
+gpu = ["xmltodict","py3nvml"]
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.4"
+ipykernel = "^6.29.3"
+numpy = "^1.26.4"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."papermill.engine"]
+papermill_watermark = "papermill_watermark:WatermarkEngine"
