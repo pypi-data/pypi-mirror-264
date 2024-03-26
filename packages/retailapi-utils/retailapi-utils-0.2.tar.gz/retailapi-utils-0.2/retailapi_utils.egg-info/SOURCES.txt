@@ -1,0 +1,10 @@
+setup.py
+retail_utils/__init__.py
+retail_utils/constants.py
+retail_utils/reference.py
+retail_utils/request.py
+retailapi_utils.egg-info/PKG-INFO
+retailapi_utils.egg-info/SOURCES.txt
+retailapi_utils.egg-info/dependency_links.txt
+retailapi_utils.egg-info/requires.txt
+retailapi_utils.egg-info/top_level.txt
