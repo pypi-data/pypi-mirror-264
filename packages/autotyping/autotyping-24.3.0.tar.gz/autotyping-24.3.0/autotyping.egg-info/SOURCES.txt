@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+autotyping/__init__.py
+autotyping/__main__.py
+autotyping/autotyping.py
+autotyping/guess_type.py
+autotyping.egg-info/PKG-INFO
+autotyping.egg-info/SOURCES.txt
+autotyping.egg-info/dependency_links.txt
+autotyping.egg-info/entry_points.txt
+autotyping.egg-info/requires.txt
+autotyping.egg-info/top_level.txt
+tests/test_codemod.py

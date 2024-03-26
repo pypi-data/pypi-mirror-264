@@ -1,0 +1,2 @@
+[console_scripts]
+autotyping = autotyping.__main__:main
