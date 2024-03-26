@@ -1,0 +1,10 @@
+
+[build]
+setuptools
+wheel
+build
+
+[dev]
+pytest
+ruff
+mypy

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+smtp_logger/__init__.py
+smtp_logger/__main__.py
+smtp_logger.egg-info/PKG-INFO
+smtp_logger.egg-info/SOURCES.txt
+smtp_logger.egg-info/dependency_links.txt
+smtp_logger.egg-info/entry_points.txt
+smtp_logger.egg-info/requires.txt
+smtp_logger.egg-info/top_level.txt
+tests/test_smtp_logger.py
