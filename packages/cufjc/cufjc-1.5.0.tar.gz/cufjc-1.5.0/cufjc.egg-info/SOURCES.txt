@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+cufjc/__init__.py
+cufjc/core.py
+cufjc.egg-info/PKG-INFO
+cufjc.egg-info/SOURCES.txt
+cufjc.egg-info/dependency_links.txt
+cufjc.egg-info/requires.txt
+cufjc.egg-info/top_level.txt
