@@ -1,0 +1,10 @@
+labelme2yolo/__about__.py,sha256=l3TPgINj6Uv6g99OkxdVWmEq5PstS1Cd7-xPIN_jy8Y,148
+labelme2yolo/__init__.py,sha256=NIkKTWJErEqdWj3L0HIzrfZptkhIpkMKUmkb8Y03H94,104
+labelme2yolo/__main__.py,sha256=z-SZ44NnDs1T_Rd3W30Z_2FvGXBzvWYo1yk0XvBcZZw,202
+labelme2yolo/l2y.py,sha256=3OjRIngHgf1dwArh2y1zb9D72hix0m2IkQyyePbvcMs,13820
+labelme2yolo/cli/__init__.py,sha256=qG1fkKXaNveFZN6NhGgAOFdFpSbU6p6QJR8UpZz_zm0,1960
+labelme2yolo-0.1.7.dist-info/METADATA,sha256=qlyZuZWwykOflvJ4nuZPDckf08CU_tM9xgmpIhLqiTk,4573
+labelme2yolo-0.1.7.dist-info/WHEEL,sha256=mRYSEL3Ih6g5a_CVMIcwiF__0Ae4_gLYh01YFNwiq1k,87
+labelme2yolo-0.1.7.dist-info/entry_points.txt,sha256=6UllX4Shd_-FOsl5tjA90VaCv_YoOZDEqTD7lpSzW6U,54
+labelme2yolo-0.1.7.dist-info/licenses/LICENSE,sha256=_8_nm4gq6Ajqw-7mvoF8XGhaZG-EBQv6y5oJnCiUuNg,1065
+labelme2yolo-0.1.7.dist-info/RECORD,,
