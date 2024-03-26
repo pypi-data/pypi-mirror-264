@@ -1,0 +1,10 @@
+conippets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conippets/datetime.py,sha256=i9lSaQ1HnNHlBDddSBL3y_0VOs-tAphBu68xaLdUlHI,510
+conippets/git.py,sha256=zQurNaMKPvi9WCq_j-RweXRulMdoOmAKhFzvbto8-Jg,1375
+conippets/json.py,sha256=NCKmYo_nJ0-rqhDSpOhulmgjsH4ZNdR6R3FUEfcZd_M,464
+conippets/lxml.py,sha256=YKfHLMRk75N_8-LRvU-0e0ztJv4qH4ZLOn1GDO3UOco,70
+conippets-0.0.10.dist-info/LICENSE,sha256=IFlLzogpFgwy9-F6goWSyFi28b5v2XKBdOVzf1vPk8A,1067
+conippets-0.0.10.dist-info/METADATA,sha256=Qx_jhGuGRtuPmhMMu0kX0hQJEo6zZhb1i7WYAFRATow,508
+conippets-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+conippets-0.0.10.dist-info/top_level.txt,sha256=7jtKP2ta9By68EDjEn96F3ur3TXt-cIev4HhEgeAbwE,10
+conippets-0.0.10.dist-info/RECORD,,
