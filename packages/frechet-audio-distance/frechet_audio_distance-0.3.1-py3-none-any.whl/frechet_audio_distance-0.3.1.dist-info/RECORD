@@ -1,0 +1,12 @@
+frechet_audio_distance/__init__.py,sha256=POnwstE_PpqYhyOIQFYkehoaaFPNkMBy13BWxufHTgU,44
+frechet_audio_distance/clap_score.py,sha256=d3VApeOMcJqTxjZx0Myn-V8AzDifuIF370OpzWUlYQg,13738
+frechet_audio_distance/fad.py,sha256=-Q9CINM4EfQRvYvLQwHyN4r1uxc4E8L9OOavk4dpQMQ,20588
+frechet_audio_distance/utils.py,sha256=6yJ4XYDuYajGOykODeyTfRoYCBli8dB5ipybTSVN46Q,761
+frechet_audio_distance/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frechet_audio_distance/models/pann.py,sha256=uRw8Cr-_JPT_A5eySKJXyRBaHws2LRfC7dHK3yUJU0k,123891
+frechet_audio_distance/models/pytorch_utils.py,sha256=B9Y9wF-cqrlaulwJMTz1EvYY_Ccrex_IeuzoTtYKoHQ,8452
+frechet_audio_distance-0.3.1.dist-info/LICENSE,sha256=tD5mo9jbHE1BIa_tsUsc1Igny7N6hIvfINfgEus3ex0,1087
+frechet_audio_distance-0.3.1.dist-info/METADATA,sha256=gqdFaBdqAjHlQqgekC_XVwfdbRSigecEiqHSL5A5JyE,6354
+frechet_audio_distance-0.3.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+frechet_audio_distance-0.3.1.dist-info/top_level.txt,sha256=0Ksqz0MlTWJrTaO2xzMJhhvmRvbXk1SzTt9DafRWZnI,23
+frechet_audio_distance-0.3.1.dist-info/RECORD,,
