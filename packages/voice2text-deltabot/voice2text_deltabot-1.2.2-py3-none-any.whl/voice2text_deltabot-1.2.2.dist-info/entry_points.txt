@@ -1,0 +1,2 @@
+[console_scripts]
+voice2text-bot = voice2text_deltabot:main

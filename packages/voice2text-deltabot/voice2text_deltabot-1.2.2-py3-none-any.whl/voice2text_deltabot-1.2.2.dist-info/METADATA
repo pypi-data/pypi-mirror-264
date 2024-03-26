@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: voice2text-deltabot
+Version: 1.2.2
+Summary: Delta Chat bot to extract text from voice messages
+Author-email: adbenitez <adb@merlinux.eu>
+Keywords: deltachat,bot
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: deltabot-cli <6.0,>=5.0.0
+Requires-Dist: faster-whisper
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pylama ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# Voice To Text Bot
+
+[![Latest Release](https://img.shields.io/pypi/v/voice2text-deltabot.svg)](https://pypi.org/project/voice2text-deltabot)
+[![CI](https://github.com/deltachat-bot/voice2text_deltabot/actions/workflows/python-ci.yml/badge.svg)](https://github.com/deltachat-bot/voice2text_deltabot/actions/workflows/python-ci.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+A voice-to-text converter bot for Delta Chat.
+
+## Install
+
+```sh
+pip install voice2text-deltabot
+```
+
+The bot uses [Faster Whisper](https://github.com/guillaumekln/faster-whisper/) to extract the text
+from voice messages.
+
+## Usage
+
+To configure the bot:
+
+```sh
+voice2text-bot init bot@example.org SuperHardPassword
+```
+
+**(Optional)** To customize the bot name, avatar and status/signature:
+
+```sh
+voice2text-bot config selfavatar "/path/to/avatar.png"
+voice2text-bot config displayname "Voice To Text"
+voice2text-bot config selfstatus "Hi, send me some voice message to convert it to text"
+```
+
+Finally you can start the bot with:
+
+```sh
+voice2text-bot serve
+```
+
+To see the available options, run in the command line:
+
+```
+voice2text-bot --help
+```
