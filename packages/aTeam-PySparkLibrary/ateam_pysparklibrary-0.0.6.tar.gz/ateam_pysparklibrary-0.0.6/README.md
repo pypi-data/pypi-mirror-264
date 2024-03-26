@@ -1,0 +1,23 @@
+# aTeam-PySparkLibrary
+
+## Last opp ny versjon til PyPI:
+
+1. Oppdater 'version' i _pyproject.toml_.
+2. Kjør ``python -m build``
+3. Kjør ``python -m twine upload dist/*``
+4. Skriv inn API token, som du finner ved å logge inn på PyPI.org. Ta kontakt med Ludvig dersom du ikke har tilgang til prosjektet i PyPI.
+5. Evenentuelt endre environmenten til å bruke den nye versjonen av Librarien
+6. Det kan ta litt tid før den nye versjonen er tilgjengelig til bruk i f. eks. Fabric. Erfaringsmessig tar det rundt 5 min. 
+
+## Legg til Library i Fabric:
+
+1. I Synapse Data Engineering, trykk New -> Environment. Lag et navn på det nye environmentet
+2. Under _Public Libraries_, trykk '_Add from PyPI_'.
+3. I raden som kommer opp, skriv inn '_aTeam-PySparkLibrary_'. Velg riktig versjon(ofte den nyeste).
+
+## Bruke Library i notebook i Fabric:
+
+1. Sørg for at notebooken bruker det custom environmentet som er laget som inneholder vårt Library.
+2. I notebooken, importer og bruk de funksjonene du trenger på denne måten: 
+``from aTeam_PySparkLibrary import perform_delta_load``
+``perform_delta_load(storage_account_name, bronze_path, file_extension, dataset_type, dataset_name, business_key_column_name, sheet_name)``
