@@ -1,0 +1,8 @@
+quantlib_risks/__init__.py,sha256=RqFr879pgihrM7lwV6nX_vMr095KCA4V29KJc17Qzxk,2868
+quantlib_risks/_quantlib_risks.cp310-win_amd64.pyd,sha256=j3aTEE9XD96H9N059ysHxeP2Lr4ql05QrGpRasLILfo,44312064
+quantlib_risks/quantlib_risks.exp,sha256=CnHFzFwzkubfGURmOCxsArfWAfMOVe1aUm49EB7h_zw,779
+quantlib_risks/quantlib_risks.lib,sha256=Z25X28eniYOAb7ja2FZ5JUun3gyAvu3E24SaG98k3kM,2156
+quantlib_risks/quantlib_risks.py,sha256=hh15nHMUDDcfrQpKWbh_KBSxr-apvPC4RGDeOIDAFDc,1918705
+quantlib_risks-1.33.dist-info/METADATA,sha256=Eqm-NWnWGgGAbNx5zN86hZUo7DtvFmIcJu5g7wukT4U,2828
+quantlib_risks-1.33.dist-info/WHEEL,sha256=Jr_qyVDoEAnAI5RcZqNdiGEGsXCke4YuTFjHKZdYyb4,98
+quantlib_risks-1.33.dist-info/RECORD,,
