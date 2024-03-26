@@ -1,0 +1,18 @@
+httpx
+toml
+devgoldyutils>=2.5.7
+typer[all]
+inquirer
+beautifulsoup4
+Unidecode
+thefuzz
+deprecation
+mov-cli-test
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+ruff
+build
+devgoldyutils[pprint]>=2.5.7
