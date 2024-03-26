@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+genops/__init__.py
+genops/client.py
+genops.egg-info/PKG-INFO
+genops.egg-info/SOURCES.txt
+genops.egg-info/dependency_links.txt
+genops.egg-info/requires.txt
+genops.egg-info/top_level.txt
