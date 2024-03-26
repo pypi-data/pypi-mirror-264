@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "testverse"
+version = "0.0.4"
+description = "Test version of evalverse"
+authors = ["Evalverse <evalverse@upstage.ai>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [
+    { include = "./testverse/" },
+    { include = "./testverse/submodules/lm-evaluation-harness/lm_eval/" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = ">=1.8"
+transformers = ">=4.1"
+accelerate = ">=0.21.0"
+evaluate = ">=0.4.0"
+datasets = ">=2.16.0"
+peft = ">=0.2.0"
+jsonlines = "^4.0.0"
+numexpr = "^2.9.0"
+pybind11 = ">=2.6.2"
+pytablewriter = "^1.2.0"
+rouge-score = ">=0.0.4"
+sacrebleu = ">=1.5.0"
+scikit-learn = ">=0.24.1"
+sqlitedict = "^2.1.0"
+tqdm-multiprocess = "^0.0.11"
+zstandard = "^0.22.0"
+dill = "^0.3.8"
+word2number = "^1.1"
+more-itertools = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
