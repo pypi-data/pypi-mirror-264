@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Iroko
+Version: 0.0.2
+Summary: Common code for my projects
+Project-URL: Repository, https://gitlab.com/1tanay/iroko.git
+Author: Tanay Gupta
+Maintainer: Tanay Gupta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Requires-Dist: pyyaml>=6.0.1
+Description-Content-Type: text/markdown
+
+Iroko
+=========
+
+Common code for my personal projects.
