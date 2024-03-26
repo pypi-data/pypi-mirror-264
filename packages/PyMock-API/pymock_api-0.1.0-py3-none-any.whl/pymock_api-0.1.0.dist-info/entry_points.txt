@@ -1,0 +1,3 @@
+[console_scripts]
+mock-api=pymock_api.runner:run
+
