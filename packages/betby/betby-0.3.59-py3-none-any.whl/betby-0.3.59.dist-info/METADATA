@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: betby
+Version: 0.3.59
+Summary: Betby libraries
+Home-page: UNKNOWN
+Author: Ayrat Badrutdinov
+Author-email: a.badrutdinov@betby.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+
