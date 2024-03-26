@@ -1,0 +1,9 @@
+localrag/__init__.py,sha256=qILbd_xuobrdiP93rHM7SmygxVnqYQaTpPZRC9DQY5o,3029
+localrag/chatresponse.py,sha256=smo_mnncJTLLhaKLL84EnWsXCMcNEqCG23th-tKBXgw,423
+localrag/ragchat.py,sha256=R3lWAQOWisx0fzpGZGsL2Ir-LOkcf0s4DH6UueUMf8I,12135
+localrag/utils.py,sha256=bVf_gIQu2kyXF8lDos9BXNeDXvmDQRs6HbgC3NGQv5E,495
+localrag-0.1.52.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+localrag-0.1.52.dist-info/METADATA,sha256=TS3ioMESFi1vM-XeDZNcAY-irvWg8ek4EAtmRqRupts,5053
+localrag-0.1.52.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+localrag-0.1.52.dist-info/top_level.txt,sha256=vWSPgDHu4i4fTzPKl1dtFATahD2ELHSG_h_ZpilKzK0,9
+localrag-0.1.52.dist-info/RECORD,,
