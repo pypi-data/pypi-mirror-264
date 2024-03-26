@@ -1,0 +1,246 @@
+Metadata-Version: 2.1
+Name: rmb-client
+Version: 0.11.11
+Summary: RMB SDK.
+Home-page: https://github.com/DataMini/rmb
+Author: lele
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: tabulate
+Requires-Dist: pybase62
+
+# Python Client SDK（Python客户端SDK）
+
+## APIs（API 接口）
+
+可以打开 rmb-server 的服务地址查看
+> 示例地址： https://api.asktable.com/
+ 
+## 认证方法
+需要在 Header 中增加 Authorization 字段，值为 `Bearer <token>`，其中 `<token>` 为用户的 Token。
+
+
+## 使用方式
+
+   - **命令行CLI**
+       ```shell
+       $ rmb-client -a https://api.asktable.com/ -t token1
+    
+       -- RMB 客户端(0.7.19)初始化完成！
+       -- 连接服务器(-a)： https://api.asktable.com/
+       -- 使用Token (-t)： token1
+       -- 您可以使用 'rmb' 来访问RMB，比如：通过 'rmb.datasources' 来查询数据源列表
+          完整的使用方法，请参考帮助文档：https://pypi.org/project/rmb-client/
+    
+       Python 3.11.4 (main, Jun  7 2023, 00:34:59) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+       Type 'copyright', 'credits' or 'license' for more information
+       IPython 8.18.1 -- An enhanced Interactive Python. Type '?' for help.
+    
+       In [1]: rmb.datasources.latest.ask('你好')
+       Out[1]: [OK-4s]|| 你好！有什么可以帮助你的吗？
+       ```
+
+- **Python SDK**
+    
+    ```python
+    from rmbclient import RMB
+    rmb = RMB(api_url='https://api.asktable.com/', token='token01')
+    rmb.version
+    ```
+
+## 使用示例
+
+以下示例使用命令行CLI方式演示。
+
+### 注册数据源
+
+1. 注册 MySQL 数据源，这个地址必须是RMB Server可访问的
+    ```python
+    rmb.datasources.register(
+        ds_type="MySQL",
+        ds_access_config={
+            "host": "localhost",
+            "port": 3306,
+            "user": "root",
+            "password": ""
+        }
+    )
+    ```
+2. 注册一个可下载的文件(Excel或CSV)
+    ```python
+    rmb.datasources.register(
+        ds_type="CSV",
+        ds_access_config={
+            "location_url": "https://example.com/path/to/myfile.csv",
+            "location_type": "http",
+        }
+    )
+    ```
+
+3. 上传并注册一个本地的文件（Excel或CSV）
+    ```python
+    In [69]: rmb.datasources.create_from_local_file(local_file_path="/Users/jeffrey/code/DataMini/rmb/sample_data/tests/test_chart.xlsx", direct_to_oss=True)
+    Out[69]: <ds_mrQq88Pu2DaBLCUZwgBAO: 月销售数据 >
+    ```
+
+### 查找数据源
+
+1. 所有数据源
+    ```python
+    In [54]: rmb.datasources
+    Out[54]: 
+    id                         created_at           name                                     type
+    ds_1MEd5IA392sgt7mw5PcwgV  2024-01-21T17:09:18  高校讲师工作量汇总                       Excel
+    ds_5DuPVZbOo5iRx9ZRWNtDCj  2024-01-22T15:44:52  求公式数据汇总                           Excel
+    ds_2Vl6Y5bypIJE0J19ulmiBL  2024-01-28T19:03:02  2024天津公务员招考                       Excel
+    ds_3IrvrL6oFd1SIQ6FEKUPCn  2024-02-03T11:34:45  学生成绩总览                             Excel
+    ds_2TDFez0l0qiSwFLsGvRKvV  2024-02-25T14:40:14  杭州房产信息                             CSV
+    ```
+
+2. 最新的数据源
+    
+    ```python
+    In [55]: rmb.datasources.latest
+    Out[55]: <ds_2TDFez0l0qiSwFLsGvRKvV: 杭州房产信息 >
+
+    ```
+
+3. 根据ID精确查找
+    ```python
+    In [56]: rmb.datasources.get('ds_2TDFez0l0qiSwFLsGvRKvV')
+    Out[56]: <ds_2TDFez0l0qiSwFLsGvRKvV: 杭州房产信息 >
+
+    ```
+
+4. 根据Name查找（可能重名，返回List）
+    ```python
+    In [57]: rmb.datasources.get(name='杭州房产信息')
+    Out[57]: 
+    [<ds_25vqFPq3wAgzcCVGoygBOO: 杭州房产信息 >,
+     <ds_2eGWHUvUbWN0AAbke0aKIb: 杭州房产信息 >,
+     <ds_2TDFez0l0qiSwFLsGvRKvV: 杭州房产信息 >]
+    ```
+
+### 管理某个数据源
+
+1. 查看 RMB 中的Meta（即AI使用的Meta，在RMB中所保存的Meta）
+    ```python
+    In [58]: ds = rmb.datasources.latest
+    
+    In [59]: ds.meta
+    Out[59]: 
+    ds_2TDFez0l0qiSwFLsGvRKvV 共有：1 Schema (杭州房产信息), 1 Table (杭州房产信息.杭州房产信息), 19 Fields. 
+    
+    Schemas       Tables        Fields(known/all)
+    杭州房产信息  杭州房产信息  19/19
+    ```
+   
+2. 查看运行时的Meta（即原文件或者原数据库中最新的Meta）
+    ```python
+    In [61]: ds.meta_runtime
+    Out[61]: 
+    ds_2TDFez0l0qiSwFLsGvRKvV 共有：1 Schema (杭州房产信息), 1 Table (杭州房产信息.杭州房产信息), 19 Fields. 
+    
+    Schemas       Tables        Fields(known/all)
+    杭州房产信息  杭州房产信息  0/19
+    ```
+3. 同步Meta（即将运行时的Meta同步到RMB中的Meta）
+    ```python
+    In [60]: ds.meta.sync()
+    Out[60]: True
+    ```
+   
+4. 查看示例问题
+    ```python
+    In [62]: ds = rmb.datasources.latest
+    
+    In [63]: ds.sample_questions
+    Out[63]: '- 查询杭州房产的平均总价\n- 统计各区域房产数量 \n（为了方便沟通，您可以直接指定列名：城市, 区域, 子区域, 小区, 总价, 单价, 户型, 楼层, 建筑面积, 套内面积, 装修, 梯户比例, 电梯, 别墅类型, 挂牌日期, 产权, 房屋用途, 房龄, 链接）'
+
+    ```
+5. 删除
+
+    ```python
+    In [64]: ds = rmb.datasources.latest
+    
+    In [65]: ds.delete()
+    Out[65]: True
+
+    ```
+
+### 开始对话
+
+1. 直接对数据源进行提问
+    ```python
+    In [52]: ds = rmb.datasources.latest
+    
+    In [53]: ds.ask("你好")
+    Out[53]: [OK-3s] 你好！请问有什么可以帮助您的吗？
+    ```
+
+2. 创建一个对话，然后提问
+    ```python
+    In [47]: ds = rmb.datasources.latest
+    
+    In [48]: ds
+    Out[48]: <ds_2TDFez0l0qiSwFLsGvRKvV: 杭州房产信息 >
+    
+    In [49]: chat = rmb.chats.create([ds.id])
+    
+    In [50]: answer = chat.ask("你好")
+    
+    In [51]: answer.to_dict()
+    Out[51]: 
+    {'status': 'OK',
+     'elapsed_time': 2,
+     'answer_text': '你好！有什么可以帮助你的吗？',
+     'answer_file_url': None,
+     'answer_image_url': None,
+     'structure_queries': []}
+    ```
+   
+### 查看对话
+
+1. 查看所有对话
+    ```python
+    In [40]: rmb.chats
+    Out[40]: 
+    id                           created              datasource_ids                   human_msgs    ai_msgs  latest_msg
+    chat_E90pdsNUlDE7wo8gsjahf   2024-01-06 12:10:00  ['ds_1ZAoAyIn1ph0lldief4cP5']             2          2  2024-01-07 01:26:48
+    chat_ql7vWZEIqafqg9dMAaNpi   2024-01-07 05:35:03  ['ds_S0tdSsWcuB2HxEA1BQICE']              0          0
+    chat_1SfzrRkiIlKyvHtOTbX7qW  2024-01-07 05:46:21  ['ds_6tWxUjnKbK2JwJRmLuPTj9']             4          4  2024-01-07 05:50:59
+    chat_2WEHFozMZPFQhYkqLwvufZ  2024-01-07 10:34:15  ['ds_5Jydks0MbCJ3atBIHBC98']              1          1  2024-01-07 10:35:02
+    ```
+2. 获取最后一个对话
+    ```python
+    In [41]: rmb.chats.latest
+    Out[41]: <Chat chat_6LYoQImReUun8gR8q32LZm [2024-02-06 06:33:47]>
+    ```
+3. 根据ID查找对话
+    ```python
+    In [44]: rmb.chats.get('chat_1SfzrRkiIlKyvHtOTbX7qW')
+    Out[44]: <Chat chat_1SfzrRkiIlKyvHtOTbX7qW [2024-01-07 05:46:21]>
+    ```
+   
+4. 查看某个对话的历史消息
+    ```python
+    In [43]: rmb.chats.latest.messages
+    Out[43]: 
+    id                          created                 role    content
+    msg_1x0t6ch4KzZiSPFDbrL1iC  2 hours 59 minutes ago  human   将B列的数据拆分为姓名、手机号和地址三列
+    msg_5D5bdJ2vBYjhpjlVuqyN5N  2 hours 59 minutes ago  ai      [OK-22s] 很抱歉，由于元数据中并未提供包含电话号码和地址的字段信息，我们无法直接从数据库中分割列B的数据为姓名、电话号码和地址三个独立的列。如果您能提供更详细的数据格式或者具体的分割规则，我们可能会有其他方式来帮助您处理这个问题。
+    msg_1rnZp94PzQeMetZxV2W3VC  2 hours 57 minutes ago  human   看起来好像可以按照换行来拆分
+    msg_1igXXP1VBMSVx2iW8DENVt  2 hours 57 minutes ago  ai      [OK-34s] 已经根据您的要求将B列的数据拆分为姓名、手机号和地址三列。您可以查看处理好的数据。 [File:https://0vc.cc/KcZzK]
+    ```
+
+### 删除对话
+
+删除某个对话
+
+    ```python
+    In [45]: chat = rmb.chats.latest
+    
+    In [46]: chat.delete()
+    Out[46]: True
+    ```
+
