@@ -1,0 +1,2 @@
+[console_scripts]
+fuyao-debug-app = app:cli
