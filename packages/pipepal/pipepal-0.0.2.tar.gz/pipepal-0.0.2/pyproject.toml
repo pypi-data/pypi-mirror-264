@@ -1,0 +1,99 @@
+[tool.poetry]
+name = "pipepal"
+version = "0.0.2"
+description = "PipePal is a Python package that simplifies building pipelines for speech and voice analysis (for now)."
+authors = [
+    "fabiocat <fabiocat@mit.edu>",
+]
+maintainers = [
+    "fabiocat93 <fabiocat@mit.edu>",
+]
+license = "Apache-2.0"
+readme = "README.md"
+# homepage = ""
+# repository = ""
+# documentation = ""
+keywords = ["pipeline", "speech", "audio", "voice"]
+# classifiers = []
+packages = [{include = "pipepal", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev]
+optional = true
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+mypy = "^1.8.0"
+pre-commit = "^3.6.2"
+pytest-cov = "^4.1.0"
+ruff = "^0.3.0"
+
+[tool.poetry.group.docs.dependencies]
+pdoc = "^14.4.0"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
+testpaths = [
+  "tests"
+]
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.ruff]
+exclude = [
+  ".bzr",
+  ".direnv",
+  ".eggs",
+  ".git",
+  ".git-rewrite",
+  ".hg",
+  ".mypy_cache",
+  ".nox",
+  ".pants.d",
+  ".pytype",
+  ".ruff_cache",
+  ".svn",
+  ".tox",
+  ".venv",
+  "__pypackages__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "node_modules",
+  "venv"
+]
+line-length = 88
+indent-width = 4
+src = ["src"]
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["ANN", "D", "E", "F", "I"]
+ignore = [
+  "ANN101",  # self should not be annotated.
+  "ANN102"  # cls should not be annotated.
+]
+fixable = ["ALL"]
+unfixable = []
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[build-system]
+requires = ["poetry-core>=1.2.0"]
+build-backend = "poetry.core.masonry.api"
