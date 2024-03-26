@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: sparklightautoml
+Version: 0.4.1
+Summary: Spark-based distribution version of fast and customizable framework for automatic ML model creation (AutoML)
+Home-page: https://lightautoml.readthedocs.io/en/latest/
+License: Apache-2.0
+Author: Alexander Ryzhkov
+Author-email: alexmryzhkov@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Typing :: Typed
+Requires-Dist: hdfs (>=2.7.0,<3.0.0)
+Requires-Dist: lightautoml (==0.3.8.1)
+Requires-Dist: numpy (<1.24.0)
+Requires-Dist: onnxmltools (>=1.11.0,<2.0.0)
+Requires-Dist: poetry-core (>=1.0.0,<2.0.0)
+Requires-Dist: pyarrow (>=1.0.0)
+Requires-Dist: synapseml (==0.11.1)
+Requires-Dist: toposort (==1.7)
+Requires-Dist: weasyprint (==52.5)
+Project-URL: Repository, https://github.com/sb-ai-lab/SLAMA
+Description-Content-Type: text/markdown
+
+# SLAMA: LightAutoML on Spark
+
+SLAMA is a version of [LightAutoML library](https://github.com/AILab-MLTools/LightAutoML) modified to run in distributed mode with Apache Spark framework.
+
+It requires:
+1. Python 3.9
+2. PySpark 3.2+ (installed as a dependency)
+3. [Synapse ML library](https://microsoft.github.io/SynapseML/)
+   (It will be downloaded by Spark automatically)
+
+Currently, only tabular Preset is supported. See demo with spark-based tabular automl
+preset in [examples/spark/tabular-preset-automl.py](https://github.com/fonhorst/LightAutoML_Spark/blob/distributed/master/examples/spark/tabular-preset-automl.py).
+For further information check docs in the root of the project containing dedicated SLAMA section.
+
+<a name="apache"></a>
+# License
+This project is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/fonhorst/LightAutoML_Spark/blob/distributed/master/LICENSE) file for more details.
+
+
+# Installation
+First of all you need to install [git](https://git-scm.com/downloads) and [poetry](https://python-poetry.org/docs/#installation).
+
+```bash
+
+# Load LAMA source code
+git clone https://github.com/fonhorst/LightAutoML_Spark.git
+
+cd LightAutoML/
+
+# !!!Choose only one item!!!
+
+# 1. Global installation: Don't create virtual environment
+poetry config virtualenvs.create false --local
+
+# 2. Recommended: Create virtual environment inside your project directory
+poetry config virtualenvs.in-project true
+
+# For more information read poetry docs
+
+# Install LAMA
+poetry lock
+poetry install
+```
+
