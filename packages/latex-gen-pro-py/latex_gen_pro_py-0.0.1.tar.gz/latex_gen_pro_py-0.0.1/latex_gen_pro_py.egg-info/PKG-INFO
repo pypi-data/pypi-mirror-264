@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: latex-gen-pro-py
+Version: 0.0.1
+Summary: embed tables and png im latex code
+Author: DedAzaMarks
+Author-email: margaretballard1986@autisdmail.com
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

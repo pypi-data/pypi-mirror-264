@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+latex_gen_pro_py/__init__.py
+latex_gen_pro_py/tex.py
+latex_gen_pro_py.egg-info/PKG-INFO
+latex_gen_pro_py.egg-info/SOURCES.txt
+latex_gen_pro_py.egg-info/dependency_links.txt
+latex_gen_pro_py.egg-info/top_level.txt
