@@ -1,0 +1,7 @@
+flask
+flask-cors
+flask_httpauth
+flask_restful
+flask_wtf
+psycopg2-binary
+bcrypt
