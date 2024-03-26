@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: apex-search
+Version: 0.0.1
+Summary: A full text search implementation in Python
+Home-page: https://github.com/safwansamsudeen/apex-search
+Author: Frappe Technologies Pvt. Ltd.
+Author-email: "Frappe Technologies Pvt. Ltd." <author@example.com>
+Project-URL: Homepage, https://github.com/safwansamsudeen/apex-search
+Project-URL: Issues, https://github.com/safwansamsudeen/apex-search/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
