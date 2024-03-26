@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: extraction_methods
+Version: 1.0.2
+Summary: Methods to enable the extraction of metadata.
+Home-page: https://github.com/cedadev/extraction-methods/
+Author: Rhys Evans
+License: BSD - See extraction_methods/LICENSE file for details
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: ceda-directory-tree
+Requires-Dist: tqdm
+Requires-Dist: pydantic
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: elasticsearch; extra == "docs"
+Requires-Dist: sphinxcontrib-programoutput; extra == "docs"
+Provides-Extra: elasticsearch
+Requires-Dist: elasticsearch; extra == "elasticsearch"
+Provides-Extra: intake-esm
+Requires-Dist: intake-esm; extra == "intake-esm"
+Provides-Extra: rabbitmq
+Requires-Dist: pika; extra == "rabbitmq"
+Provides-Extra: thredds
+Requires-Dist: siphon; extra == "thredds"
+
+# Extraction methods
+
+Extraction methods provide a set of methods to extract and manipulate metadata dictionaries.
+The framework leverages a modular, plugin architecture to allow users to modify the workflow to fit their needs.
