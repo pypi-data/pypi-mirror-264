@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tedriver
+Version: 0.0.1
+Summary: Technica Engineering Test Equipement Driver - Technica Electronics python wrapper support drive
+Author-email: Technica Engineering GmbH <info@technica-engineering.de>
+Project-URL: Homepage, https://github.com/hfantar/tedriver
+Project-URL: Issues, https://github.com/hfantar/tedriver/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tedriver
+Technica Engineering Test Equipement Driver - Technica Electronics python wrapper support drive

@@ -1,0 +1,18 @@
+[project]
+name = "tedriver"
+version = "0.0.1"
+authors = [
+  { name="Technica Engineering GmbH", email="info@technica-engineering.de" },
+]
+description = "Technica Engineering Test Equipement Driver - Technica Electronics python wrapper support drive"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/hfantar/tedriver"
+Issues = "https://github.com/hfantar/tedriver/issues"
