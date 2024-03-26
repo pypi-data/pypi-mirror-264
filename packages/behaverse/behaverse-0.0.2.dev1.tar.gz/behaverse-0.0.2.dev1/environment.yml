@@ -1,0 +1,10 @@
+name: behaverse
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python
+  - pip
+  - flit
