@@ -1,0 +1,11 @@
+ChemMod/ChemMod.py,sha256=_D7EbJ-taKlDyhwwd01q-lIeORFg_vAebChUA6ES8UQ,51616
+ChemMod/__init__.py,sha256=yMIdwlSlZMHB4sZBQ93cfwyL5pdse06_Q-3IC0rG_RU,200
+ChemMod/__main__.py,sha256=czJ_dXxbuOis_Cl0H0CV0ofyLzee0JhdkHjfWkoALlk,386
+ChemMod/equation.py,sha256=3JvtKbN4n05StzuSR68QI2sP1UoAjViv_P73vyw7iQM,32485
+ChemMod/plot.py,sha256=06sSzR0vmYHWhQ4NdQx1uNL4eDuPamy0zenQu1brJYk,37621
+ChemMod-0.0.3.dist-info/COPYING.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+ChemMod-0.0.3.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+ChemMod-0.0.3.dist-info/METADATA,sha256=nC1JDAv2oS8vsDC_Iv5p7PlS1rH0Shv7ahokxnoDslg,5305
+ChemMod-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ChemMod-0.0.3.dist-info/top_level.txt,sha256=F8YsBrfeo8LODHdjcInW3K0qbQTynP4af3jj4fUNOzE,8
+ChemMod-0.0.3.dist-info/RECORD,,
