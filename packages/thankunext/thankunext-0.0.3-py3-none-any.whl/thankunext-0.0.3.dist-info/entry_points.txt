@@ -1,0 +1,3 @@
+[console_scripts]
+thankunext=thankunext.__main__:main
+
