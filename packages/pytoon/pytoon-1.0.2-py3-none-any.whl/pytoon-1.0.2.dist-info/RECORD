@@ -1,0 +1,12 @@
+pytoon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytoon/animator.py,sha256=c9kZQt5ujWuugmy2a_Nteebg7Q85KE4xNurs9o9QFPk,8675
+pytoon/dataloader.py,sha256=_wSmZDYsFployM3szDbibMnKaSqg9BXn0riyGkTGcDc,2226
+pytoon/lipsync.py,sha256=lLQR3sN3VW3BZBmXTVWMtUdQqCn4yMsNwxB0pLH_oV0,6812
+pytoon/util.py,sha256=fxO4oKRAZTNMzi9lPPSo7E0Eu3nLT59rhu1dpuTRuhA,2258
+pytoon/assets/phonemes.json,sha256=TyxsXlWTJgUV0kFYg27guyQHTxsspa5DAtHt6BT434s,577
+pytoon/assets/pose_data.json,sha256=f19vfTDSutNK5J5JSBdseop7zHAdf2HAtwA9IIy5I2U,15340
+pytoon/assets/visemes.json,sha256=54zufMiJ0Mxr1HWwsH4RIKajmzimELiZRCnvhHJA600,523
+pytoon-1.0.2.dist-info/METADATA,sha256=DxgBoDsNka-drBUYcZUzqXrRq2-BDIsL5cj47y5sBGc,1767
+pytoon-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytoon-1.0.2.dist-info/top_level.txt,sha256=Gx16dVJRwYM-e4975VT8oorG4pfvAfdovdu_HZnpmIk,7
+pytoon-1.0.2.dist-info/RECORD,,
