@@ -1,0 +1,18 @@
+[project]
+name = "shippo3"
+version = "3.0.1"
+authors = [
+  { name="9cb14c1ec0r", email="9cb14c1ec0@sendmeemail.xyz" },
+]
+description = "Shipping API Python library (USPS, FedEx, UPS and more)"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/9cb14c1ec0/shippo-python-client"
+Issues = "https://github.com/9cb14c1ec0/shippo-python-client/issues"

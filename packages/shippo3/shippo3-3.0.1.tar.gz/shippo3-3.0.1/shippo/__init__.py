@@ -1,0 +1,21 @@
+from shippo.resource import (
+    Address,
+    Batch,
+    CarrierAccount,
+    CustomsDeclaration,
+    CustomsItem,
+    Invoice,
+    InvoiceItem,
+    LineItem,
+    Manifest,
+    Order,
+    Parcel,
+    Pickup,
+    Rate,
+    Refund,
+    Shipment,
+    Track,
+    Transaction,
+    Webhook,
+)
+from shippo.resource import (V2Addresses)
