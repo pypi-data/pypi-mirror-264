@@ -1,0 +1,6 @@
+httpx
+aiohttp
+
+[cli]
+asyncclick
+pystyle
