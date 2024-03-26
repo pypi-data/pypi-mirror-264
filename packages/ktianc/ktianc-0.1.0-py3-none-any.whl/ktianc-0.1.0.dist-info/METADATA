@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ktianc
+Version: 0.1.0
+Summary: ktianc first
+License: MIT
+Author: ktianc
+Author-email: 2445667550@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Description-Content-Type: text/markdown
+
+这是一个测试的程序
