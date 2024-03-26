@@ -1,0 +1,8 @@
+click
+numpy
+soundfile
+stftpitchshift
+tqdm
+
+[demucs]
+demucs>=4.0
