@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: maverick-coref
+Version: 0.0.7
+Home-page: https://github.com/g185/maverick-coref
+Author: Giuliano Martinelli
+Author-email: giuliano.martinelli97@gmail.com
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+  🛩 Maverick Coref 🛩
+</h1>
+
+# Setup
+## pip package (for fast inference)
+Install the library from [PyPI](https://pypi.org/project/maverick-coref/) (NOT YET IMPLEMENTED)
+
+```bash
+pip install maverick-coref
+```
+or from source 
+
+```bash
+git clone https://github.com/g185/maverick-coref.git
+cd maverick-coref
+pip install -e .
+```
+
+<!-- ## Download Maverick Models
+link to maverick pretrained models:
+https://drive.google.com/drive/u/2/folders/1UXq4gWt1xYw2o1KDKhCtDsk5q0EiPx1t
+
+All models can be found on [huggingface](https://huggingface.co/g185) -->
+
+## (Optional) Use the official script to train and evaluate maverick systems
+```bash
+git clone https://github.com/g185/maverick-coref.git
+cd maverick-coref
+bash ./setup.sh
+```
+
+<!-- Put the zip file *ontonotes-release-5.0_LDC2013T19.tgz* in the folder *data/prepareontonotes/* if you want to preprocess Ontonotes, and then run  -->
+
+# How to use
+## Inference
+For convenience, for inference is preferable using the pip module:
+
+```bash
+from maverick import Maverick
+model = Maverick()
+```
+The maverick model can be instantiated with different parameters:
+```bash
+model = Maverick(
+  hf_name_or_path = "maverick_hf_name" | "maverick_ckpt_path", default = "g185/maverick-mes-ontonotes"
+  device = "cpu" | "cuda", default = "cuda:0"
+)
+#you can also specify the architecture and training dataset.
+model = Maverick(architecture="mes", training_dataset="litbank")
+```
+models at [g185 huggingface](https://huggingface.co/g185)
+
+You can use model.predict() to obtain coreference predictions of a sample input:
+
+```bash
+# accepted inputs:
+text = "Barack Obama is traveling to Rome. The city is sunny and the president plans to visit its most important monument, the Colosseum"
+word_tokenized = ['Barack', 'Obama', 'is', 'traveling', 'to', 'Rome', '.', 'The', 'city', 'is', 'sunny', 'and', 'the', 'president', 'plans', 'to', 'visit', 'its', 'most', 'important', 'monument', ',', 'the', 'Colosseum']
+ontonotes_format_tokenized = [['Barack', 'Obama', 'is', 'traveling', 'to', 'Rome', '.'], ['The', 'city', 'is', 'sunny', 'and', 'the', 'president', 'plans', 'to', 'visit', 'its', 'most', 'important', 'monument', ',', 'the', 'Colosseum']] # (sentence + word)
+
+#predicting text outputs char and token offsets
+model.predict(text)
+>>> {'tokens': ['Barack', 'Obama', 'is', 'traveling', 'to', 'Rome', '.', 'The', 'city', 'is', 'sunny', 'and', 'the', 'president', 'plans', 'to', 'visit', 'its', 'most', 'important', 'monument', ',', 'the', 'Colosseum'], 'clusters_token_offsets': [((5, 5), (7, 8), (17, 17)), ((0, 1), (12, 13))], 'clusters_char_offsets': [[(29, 32), (35, 42), (86, 88)], [(0, 11), (57, 69)]], 'clusters_token_text': [['Rome', 'The city', 'its'], ['Barack Obama', 'the president']]}
+
+
+model.predict(ontonotes_format_tokenized)
+>>> {'tokens': ['Barack', 'Obama', 'is', 'traveling', 'to', 'Rome', '.', 'The', 'city', 'is', 'sunny', 'and', 'the', 'president', 'plans', 'to', 'visit', 'its', 'most', 'important', 'monument', ',', 'the', 'Colosseum'], 'clusters_token_offsets': [[(5, 5), (7, 8), (17, 17)], [(0, 1), (12, 13)]], 'clusters_char_offsets': None, 'clusters_token_text': [['Rome', 'The city', 'its'], ['Barack Obama', 'the president']]}
+
+#additional
+#output singletons (hint: use preco or litbank models since ontonotes dataset does not include singletons)
+model.predict(ontonotes_format_tokenized, singletons=True)
+
+#using Ontonotes_format input, you can specify:
+#using only predefined mentions (clustering-only)
+mentions = [(0, 1), (5, 5), (7, 8)]
+model.predict(ontonotes_format_tokenized, predefine_mentions=mentions)
+>>> {'tokens': [...], 'clusters_token_offsets': [((5, 5), (7, 8), (17, 17)), ((0, 1), (12, 13))], 'clusters_char_offsets': None, 'clusters_token_text': [['Rome', 'The city', 'its'], ['Barack Obama', 'the president']]}
+
+
+#using only adding gold clusters 
+clusters = [[(5, 5), (7, 8)], [(0, 1)]]
+model.predict(ontonotes_format_tokenized, add_gold_clusters=clusters)
+>>> {'tokens': [...], 'clusters_token_offsets': [((5, 5), (7, 8), (17, 17)), ((0, 1), (12, 13))], 'clusters_char_offsets': None, 'clusters_token_text': [['Rome', 'The city', 'its'], ['Barack Obama', 'the president']]}
+
+
+#specify speaker information (useful for ontonotes data)
+speakers = [["Mark", "Mark", "Mark", "Mark", "Mark"],["Jhon", "Jhon", "Jhon", "Jhon"]]
+model.predict(ontonotes_format_tokenized, speakers=clusters)
+
+```
+
+
+<!-- ## Environment Setup
+To set up the python environment for this project, we strongly suggest using the bash script setup.sh that you can find at top level in this repo. This script will create a new conda environment and take care of all the requirements and the data needed for the project. Simply run on the command line:
+
+```
+bash ./setup.sh
+```
+Remember to put the zip file *ontonotes-release-5.0_LDC2013T19.tgz* in the folder *data/prepareontonotes/* if you want to preprocess Ontonotes with the standard preprocessing proposed by [e2e-coref](https://github.com/kentonl/e2e-coref/).
+
+todo: add info about official scorer in https://github.com/conll/reference-coreference-scorers
+bring experiments -->
