@@ -1,0 +1,3 @@
+include exceptdrucker/requirements.txt
+include exceptdrucker/thirdparty.json
+include exceptdrucker/README.MD

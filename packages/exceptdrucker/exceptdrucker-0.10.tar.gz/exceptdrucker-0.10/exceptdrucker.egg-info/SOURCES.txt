@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+exceptdrucker/README.MD
+exceptdrucker/__init__.py
+exceptdrucker/requirements.txt
+exceptdrucker/thirdparty.json
+exceptdrucker.egg-info/PKG-INFO
+exceptdrucker.egg-info/SOURCES.txt
+exceptdrucker.egg-info/dependency_links.txt
+exceptdrucker.egg-info/top_level.txt
