@@ -1,0 +1,12 @@
+numpy
+scipy
+numpy
+pandas
+matplotlib
+networkx
+
+[docs]
+jupyter
+
+[tests]
+pytest
