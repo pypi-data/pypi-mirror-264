@@ -1,0 +1,13 @@
+COPYING.txt
+LICENSE.txt
+README.md
+pyproject.toml
+ChemMod/ChemMod.py
+ChemMod/__init__.py
+ChemMod/__main__.py
+ChemMod/equation.py
+ChemMod/plot.py
+ChemMod.egg-info/PKG-INFO
+ChemMod.egg-info/SOURCES.txt
+ChemMod.egg-info/dependency_links.txt
+ChemMod.egg-info/top_level.txt
