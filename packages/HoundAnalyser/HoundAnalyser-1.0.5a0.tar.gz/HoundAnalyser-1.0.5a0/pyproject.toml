@@ -1,0 +1,43 @@
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+dynamic=['version']
+name = 'HoundAnalyser'
+# version = '1.0.4.1'
+authors = [{name='Carlos Reding', email='carlos.reding@bristol.ac.uk'},]
+readme = 'README.md'
+license = {file = 'LICENSE'}  # Alternatively: text = 'License type'
+description = ''
+#keywords = [ 'raspberrypi', 'camera' ]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Adaptive Technologies",
+]
+requires-python = '>=3.9'
+dependencies = ['PyQt5', 'matplotlib', 'ete3', 'pyopengl', 'tk-tools',
+		'numpy', 'biopython', 'openpyxl', 'pycairo', 'psutils']
+
+#dynamic = ["version", "description"]
+
+#[project.optional-dependencies]
+#gui = ["depencen ey==1.2", "XD1"]
+#cli = ["depencen ey==1.2", "XD1"]
+
+
+[project.scripts]
+HoundAnalyser = 'HoundAnalyser.__main__:main'
+
+[project.urls]
+repository = 'https://gitlab.com/rc-reding/software/-/tree/main/Hound?ref_type=heads'
+homepage = 'https://gitlab.com/rc-reding/software/-/tree/main/Hound?ref_type=heads'
+#documentation = ''
+#changelog = ''
+
