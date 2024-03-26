@@ -1,0 +1,9 @@
+README.md
+setup.py
+tg_loger/__init__.py
+tg_loger/tg.py
+tg_loger.egg-info/PKG-INFO
+tg_loger.egg-info/SOURCES.txt
+tg_loger.egg-info/dependency_links.txt
+tg_loger.egg-info/requires.txt
+tg_loger.egg-info/top_level.txt
