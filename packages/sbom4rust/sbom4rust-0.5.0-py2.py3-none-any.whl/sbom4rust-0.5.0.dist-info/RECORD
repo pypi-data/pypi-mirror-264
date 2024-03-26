@@ -1,0 +1,10 @@
+sbom4rust/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbom4rust/cli.py,sha256=shUnwAX4FiswSQMwpNXY4bvIGiGuFuewqhBMPOUbFxA,3920
+sbom4rust/scanner.py,sha256=oNT0chzM0qrNowpQmJ5DKhOSKjZTglDcZJRIhOFSbU4,10498
+sbom4rust/version.py,sha256=6kEpBWBFWkotylYwgX0qKX6GZv8o7Fn-EW9JcUxSKZg,100
+sbom4rust-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sbom4rust-0.5.0.dist-info/METADATA,sha256=5tPJrIl7Ej02ZRM5VfVqZB2DrtLVhupwczdFh4dsh5c,4765
+sbom4rust-0.5.0.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+sbom4rust-0.5.0.dist-info/entry_points.txt,sha256=Cb8-kb5f-hfjR9QVG1UHpZmjtXYEzPIrPYBJIFFPYqg,49
+sbom4rust-0.5.0.dist-info/top_level.txt,sha256=gLWI0YmrFGeHVxumrj0UKykTr6gdKtM9_FeEABm_ID8,10
+sbom4rust-0.5.0.dist-info/RECORD,,
