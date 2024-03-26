@@ -1,0 +1,36 @@
+# pyproject.toml
+
+[build-system]
+requires      = [ "setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuralpde"
+version = "0.0.1"
+description = "Neuralpde combines differentiable ode solvers with CNNs to learn PDEs using the method of lines"
+readme = "README.md"
+authors = [{ name = "Andrzej Dulny", email = "andrzej.dulny@protonmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["neuralpde", "torch"]
+dependencies = [
+    "torch", 
+]
+requires-python = ">=3.9"
+
+# [project.optional-dependencies]
+# generator = ["dedalus>=3"]
+
+
+# [project.urls]
+# homepage = "https://dynabench.github.io/"
+# documentation = "https://dynabench.github.io/docs/"
+# source = "https://github.com/badulion/dynabench"
+
+
+# [project.scripts]
+# dynabench = "dynabench.__main__:main"

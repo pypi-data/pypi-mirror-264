@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+neuralpde.egg-info/PKG-INFO
+neuralpde.egg-info/SOURCES.txt
+neuralpde.egg-info/dependency_links.txt
+neuralpde.egg-info/requires.txt
+neuralpde.egg-info/top_level.txt
+neuralpde/model/cnn.py
+neuralpde/model/solver.py
