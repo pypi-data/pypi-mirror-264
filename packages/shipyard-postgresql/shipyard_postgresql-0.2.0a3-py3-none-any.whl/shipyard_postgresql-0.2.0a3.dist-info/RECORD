@@ -1,0 +1,10 @@
+shipyard_postgresql/__init__.py,sha256=vlYk8BBPbcV7CZW6PHupBpn_906xwADdh-CY4Hvj6f8,37
+shipyard_postgresql/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_postgresql/cli/authtest.py,sha256=H67PPOIfd-JeHvKUMVFjn69dNuKEmr3WC1A27PMT1nA,621
+shipyard_postgresql/cli/execute_sql.py,sha256=ifZnOVDgUFrzdnQ-eIlw1jCRUsZE_ryiLSxD2_ZgWIg,2074
+shipyard_postgresql/cli/store_query_results.py,sha256=_sWEEGdPi4FnD0Y8el84OMAnecqgqT9CfWO25goNRpk,2976
+shipyard_postgresql/cli/upload_file.py,sha256=7i64QGQQLRXCeO7Y2iWSQ5GvQZnDCG3C-8aPE2U1eeI,4584
+shipyard_postgresql/postgres.py,sha256=vZOD6LGS0j2gInRSVN68mVNOOMZpxMdH4BfdvTLWQ-A,7527
+shipyard_postgresql-0.2.0a3.dist-info/METADATA,sha256=frVWiBp6jWLkTVcQTyUVcHA6ZuaU7S3ekMF7m6sxtBE,742
+shipyard_postgresql-0.2.0a3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_postgresql-0.2.0a3.dist-info/RECORD,,
