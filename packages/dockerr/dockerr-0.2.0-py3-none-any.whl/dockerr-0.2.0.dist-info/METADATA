@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dockerr
+Version: 0.2.0
+Summary: A simple python package to manage external testing of docker containers
+Author-email: Roy Moore <roy@moore.co.il>
+Project-URL: homepage, https://github.com/Tranquility2/dockerr
+Project-URL: repository, https://github.com/Tranquility2/dockerr
+Keywords: docker,testing,containers,pytest
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docker ==7.0.0
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: dockerr[test] ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: httpx ; extra == 'test'
+
+# dockerr
