@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "timed-count"
+version = "2.0.0"
+description = "timed-count provides an iterator that delays each iteration by a specified time period. It can be used to repeatedly execute code at a precise frequency."
+authors = ["morefigs"]
+homepage = "https://github.com/morefigs/timed-count"
+readme = "README.md"
+packages = [{include = "timed_count"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+stoppy = "^1.0.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
