@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: buildgrid
+Version: 0.0.87
+Summary: A remote execution service
+License: Apache License, Version 2.0
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: dnspython
+Requires-Dist: grpcio-reflection >=1.62.0
+Requires-Dist: grpcio >=1.62.0
+Requires-Dist: janus >=0.6.2
+Requires-Dist: jinja2 ==3.0.3
+Requires-Dist: protobuf <4.24.0
+Requires-Dist: alembic
+Requires-Dist: Click
+Requires-Dist: SQLAlchemy[mypy] <2.0,>=1.4.24
+Requires-Dist: pydantic >2.0
+Requires-Dist: PyYAML >=6.0.1
+Requires-Dist: jsonschema >=3.0.0
+Requires-Dist: lark-parser
+Requires-Dist: pycurl
+Requires-Dist: buildgrid-metering-client >=0.0.4
+Requires-Dist: mmh3
+Provides-Extra: all
+Requires-Dist: buildgrid[auth,browser,database,dev,docs,mypy,redis,tests] ; extra == 'all'
+Provides-Extra: auth
+Requires-Dist: cryptography ; extra == 'auth'
+Requires-Dist: PyJWT ; extra == 'auth'
+Requires-Dist: requests ; extra == 'auth'
+Provides-Extra: browser
+Requires-Dist: aiofiles ; extra == 'browser'
+Requires-Dist: aiohttp ; extra == 'browser'
+Requires-Dist: aiohttp-middlewares ; extra == 'browser'
+Provides-Extra: database
+Requires-Dist: psycopg2-binary ; extra == 'database'
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pycodestyle ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-forked ; extra == 'dev'
+Requires-Dist: pytest-pycodestyle ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: memray ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: Sphinx <7 ; extra == 'docs'
+Requires-Dist: sphinx-click ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinxcontrib-apidoc ; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'docs'
+Provides-Extra: mypy
+Requires-Dist: mypy ; extra == 'mypy'
+Requires-Dist: grpc-stubs >=1.53 ; extra == 'mypy'
+Requires-Dist: boto3-stubs ; extra == 'mypy'
+Requires-Dist: mypy-boto3-s3 ; extra == 'mypy'
+Requires-Dist: sqlalchemy2-stubs <=0.0.2a22 ; extra == 'mypy'
+Provides-Extra: redis
+Requires-Dist: fakeredis >=2.10.1 ; extra == 'redis'
+Requires-Dist: redis >=4.5.1 ; extra == 'redis'
+Requires-Dist: hiredis ; extra == 'redis'
+Provides-Extra: tests
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: cryptography >=38.0.0 ; extra == 'tests'
+Requires-Dist: flaky ; extra == 'tests'
+Requires-Dist: flask ; extra == 'tests'
+Requires-Dist: flask-cors ; extra == 'tests'
+Requires-Dist: moto <4.1.12 ; extra == 'tests'
+Requires-Dist: psutil ; extra == 'tests'
+Requires-Dist: pycodestyle ; extra == 'tests'
+Requires-Dist: pyopenssl >=22.0.0 ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-aiohttp ; extra == 'tests'
+Requires-Dist: pytest-asyncio ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-forked ; extra == 'tests'
+Requires-Dist: pytest-pycodestyle ; extra == 'tests'
+Requires-Dist: pytest-xdist ; extra == 'tests'
+Requires-Dist: fakeredis >=2.10.1 ; extra == 'tests'
+Requires-Dist: redis >=4.5.1 ; extra == 'tests'
+Requires-Dist: testing.postgresql ; extra == 'tests'
+Requires-Dist: psycopg2-binary ; extra == 'tests'
+
