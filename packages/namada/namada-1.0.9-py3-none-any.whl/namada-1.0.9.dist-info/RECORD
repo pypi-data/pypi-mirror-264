@@ -1,0 +1,11 @@
+.DS_Store,sha256=3qe0fTvkLeEgGzMBVOCdntDAJnLL9Mfwez3u_lmrGAg,6148
+namada/__init__.py,sha256=VaaKhyn4APnmxtzwqOxZpAOmZ949lDXLTK7S_YR7gaA,105
+namada/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+namada/src/namada.py,sha256=bvrHBjc1k4K_st5PXx9whs7v6kc5U1-0sT-s2uZJyek,5192
+namada/src/workshop.py,sha256=CwoEQ5jU6YZI-3hHqYijCclifcl7oq-WzfK-kXlGh38,44
+namada/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+namada-1.0.9.dist-info/LICENSE,sha256=qp2gvYZQ-i-jm_pq9WiLrDX82bhykuwxJKXGM8cPFjs,1062
+namada-1.0.9.dist-info/METADATA,sha256=HVbsaZF8pjOnO3q4VsriBy04hsCi7cg6-pxJcjcmbPo,1490
+namada-1.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+namada-1.0.9.dist-info/top_level.txt,sha256=RiFejUHJb-UV_1cjNoUaK7El1YTQjhV4zWRnuyRQnT4,7
+namada-1.0.9.dist-info/RECORD,,
