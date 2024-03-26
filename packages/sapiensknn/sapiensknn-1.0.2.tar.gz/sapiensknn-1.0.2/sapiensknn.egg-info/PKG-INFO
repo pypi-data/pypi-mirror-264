@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sapiensknn
+Version: 1.0.2
+Summary: SapiensKNN (K-Nearest Neighbors) is an algorithm for classification and regression that returns the result based on the Euclidean distance between the input values.
+Home-page: https://github.com/sapiens-technology/SapiensKNN
+Author: SAPIENS TECHNOLOGY
+License: Proprietary Software
+Project-URL: Source code, https://github.com/sapiens-technology/SapiensKNN
+Project-URL: Download, https://github.com/sapiens-technology/SapiensKNN/archive/refs/heads/main.zip
+Keywords: Sapiens,Artificial Intelligence,Machine Learning,Data Science,AI,ML,KNN,K-Nearest Neighbors
+License-File: LICENSE.txt
+
+The SapiensKNN or Sapiens for K-Nearest Neighbors is a Machine Learning algorithm focused on data classification, where the response for each input is calculated based on the smallest Euclidean distance between the prediction input and the training inputs. The returned value for classification will always be one of the labels from the learning DataSet. If the value of the parameter K is greater than 1, the class that is most repeated among the nearest neighbors represented in K will be returned. Although the algorithm's primary focus is on data classification, it can also potentially be used for regression by returning the average of the values of the selected neighbors with the parameter K.
