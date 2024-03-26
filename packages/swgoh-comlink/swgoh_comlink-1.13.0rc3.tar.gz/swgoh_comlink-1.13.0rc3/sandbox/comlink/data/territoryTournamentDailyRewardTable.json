@@ -1,0 +1,804 @@
+{
+  "row": [
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 55,
+          "minQuantity": 55,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 5,
+      "league": 20,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 55,
+          "minQuantity": 55,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 80,
+          "minQuantity": 80,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 5,
+      "league": 40,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 80,
+          "minQuantity": 80,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 105,
+          "minQuantity": 105,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 5,
+      "league": 60,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 105,
+          "minQuantity": 105,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 130,
+          "minQuantity": 130,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 5,
+      "league": 80,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 130,
+          "minQuantity": 130,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 180,
+          "minQuantity": 180,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 5,
+      "league": 100,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 180,
+          "minQuantity": 180,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 60,
+          "minQuantity": 60,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 10,
+      "league": 20,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 60,
+          "minQuantity": 60,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 85,
+          "minQuantity": 85,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 10,
+      "league": 40,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 85,
+          "minQuantity": 85,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 110,
+          "minQuantity": 110,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 10,
+      "league": 60,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 110,
+          "minQuantity": 110,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 140,
+          "minQuantity": 140,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 10,
+      "league": 80,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 140,
+          "minQuantity": 140,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 200,
+          "minQuantity": 200,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 10,
+      "league": 100,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 200,
+          "minQuantity": 200,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 65,
+          "minQuantity": 65,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 15,
+      "league": 20,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 65,
+          "minQuantity": 65,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 90,
+          "minQuantity": 90,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 15,
+      "league": 40,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 90,
+          "minQuantity": 90,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 115,
+          "minQuantity": 115,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 15,
+      "league": 60,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 115,
+          "minQuantity": 115,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 150,
+          "minQuantity": 150,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 15,
+      "league": 80,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 150,
+          "minQuantity": 150,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 220,
+          "minQuantity": 220,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 15,
+      "league": 100,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 220,
+          "minQuantity": 220,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 70,
+          "minQuantity": 70,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 20,
+      "league": 20,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 70,
+          "minQuantity": 70,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 95,
+          "minQuantity": 95,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 20,
+      "league": 40,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 95,
+          "minQuantity": 95,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 120,
+          "minQuantity": 120,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 20,
+      "league": 60,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 120,
+          "minQuantity": 120,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 160,
+          "minQuantity": 160,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 20,
+      "league": 80,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 160,
+          "minQuantity": 160,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 240,
+          "minQuantity": 240,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 20,
+      "league": 100,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 240,
+          "minQuantity": 240,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 75,
+          "minQuantity": 75,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 25,
+      "league": 20,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 75,
+          "minQuantity": 75,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 100,
+          "minQuantity": 100,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 25,
+      "league": 40,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 100,
+          "minQuantity": 100,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 125,
+          "minQuantity": 125,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 25,
+      "league": 60,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 125,
+          "minQuantity": 125,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 170,
+          "minQuantity": 170,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 25,
+      "league": 80,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 170,
+          "minQuantity": 170,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    },
+    {
+      "detailedReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 260,
+          "minQuantity": 260,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ],
+      "division": 25,
+      "league": 100,
+      "primaryReward": [
+        {
+          "id": "PREMIUM",
+          "maxQuantity": 260,
+          "minQuantity": 260,
+          "previewPriority": 0,
+          "primaryReward": true,
+          "rarity": 8,
+          "statMod": null,
+          "type": 3,
+          "unitLevel": 0,
+          "unitTier": 0
+        }
+      ]
+    }
+  ]
+}

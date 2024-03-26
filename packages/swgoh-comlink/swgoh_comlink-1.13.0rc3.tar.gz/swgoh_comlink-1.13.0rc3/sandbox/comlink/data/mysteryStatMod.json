@@ -1,0 +1,10875 @@
+[
+  {
+    "descKey": "",
+    "id": "11112",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11212",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11312",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11412",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11512",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11612",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11712",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12112",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12212",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12312",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12412",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12512",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12612",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12712",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31112",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31212",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31312",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31412",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31512",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31612",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31712",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32112",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32212",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32312",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32412",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32512",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32612",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32712",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51112",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51212",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51312",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51412",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51512",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51612",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51712",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52112",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52212",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52312",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52412",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52512",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52612",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52712",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21112",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21212",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21312",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21412",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21512",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21612",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21712",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22112",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22212",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22312",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22412",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22512",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22612",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22712",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71112",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71212",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71312",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71412",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71512",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71612",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71712",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72112",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72212",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72312",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72412",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72512",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72612",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72712",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81112",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81212",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81312",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81412",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81512",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81612",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81712",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82112",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82212",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82312",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82412",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82512",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82612",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82712",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41112",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41212",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41312",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41412",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41512",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41612",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41712",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42112",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42212",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42312",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42412",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42512",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42612",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42712",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61112",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61212",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61312",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61412",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61512",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61612",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61712",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62112",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62212",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62312",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62412",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62512",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62612",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62712",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33713",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "34714",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35735",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36735",
+    "maxRarity": 6,
+    "maxTier": 5,
+    "minRarity": 6,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13713",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14714",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15735",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16735",
+    "maxRarity": 6,
+    "maxTier": 5,
+    "minRarity": 6,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63713",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64714",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65735",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66735",
+    "maxRarity": 6,
+    "maxTier": 5,
+    "minRarity": 6,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "17715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53713",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54714",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55735",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "56735",
+    "maxRarity": 6,
+    "maxTier": 5,
+    "minRarity": 6,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83713",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84714",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85735",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "86735",
+    "maxRarity": 6,
+    "maxTier": 5,
+    "minRarity": 6,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23713",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24714",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25735",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "26735",
+    "maxRarity": 6,
+    "maxTier": 5,
+    "minRarity": 6,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73713",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74714",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75735",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "76735",
+    "maxRarity": 6,
+    "maxTier": 5,
+    "minRarity": 6,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43713",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44714",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45735",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "46735",
+    "maxRarity": 6,
+    "maxTier": 5,
+    "minRarity": 6,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11711",
+    "maxRarity": 1,
+    "maxTier": 1,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11722",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11733",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11744",
+    "maxRarity": 1,
+    "maxTier": 4,
+    "minRarity": 1,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11755",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12711",
+    "maxRarity": 2,
+    "maxTier": 1,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12722",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12733",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12744",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12755",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13711",
+    "maxRarity": 3,
+    "maxTier": 1,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13722",
+    "maxRarity": 3,
+    "maxTier": 2,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13733",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13744",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13755",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14711",
+    "maxRarity": 4,
+    "maxTier": 1,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14722",
+    "maxRarity": 4,
+    "maxTier": 2,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14733",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14744",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14755",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15722",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15733",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15755",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31711",
+    "maxRarity": 1,
+    "maxTier": 1,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31722",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31733",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31744",
+    "maxRarity": 1,
+    "maxTier": 4,
+    "minRarity": 1,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31755",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32711",
+    "maxRarity": 2,
+    "maxTier": 1,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32722",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32733",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32744",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32755",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33711",
+    "maxRarity": 3,
+    "maxTier": 1,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33722",
+    "maxRarity": 3,
+    "maxTier": 2,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33733",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33744",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33755",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "34711",
+    "maxRarity": 4,
+    "maxTier": 1,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "34722",
+    "maxRarity": 4,
+    "maxTier": 2,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "34733",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "34744",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "34755",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35722",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35733",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35755",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61711",
+    "maxRarity": 1,
+    "maxTier": 1,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61722",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61733",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61744",
+    "maxRarity": 1,
+    "maxTier": 4,
+    "minRarity": 1,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61755",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62711",
+    "maxRarity": 2,
+    "maxTier": 1,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62722",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62733",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62744",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62755",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63711",
+    "maxRarity": 3,
+    "maxTier": 1,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63722",
+    "maxRarity": 3,
+    "maxTier": 2,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63733",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63744",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63755",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64711",
+    "maxRarity": 4,
+    "maxTier": 1,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64722",
+    "maxRarity": 4,
+    "maxTier": 2,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64733",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64744",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64755",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65722",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65733",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65755",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51711",
+    "maxRarity": 1,
+    "maxTier": 1,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51722",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51733",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51744",
+    "maxRarity": 1,
+    "maxTier": 4,
+    "minRarity": 1,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51755",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52711",
+    "maxRarity": 2,
+    "maxTier": 1,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52722",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52733",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52744",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52755",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53711",
+    "maxRarity": 3,
+    "maxTier": 1,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53722",
+    "maxRarity": 3,
+    "maxTier": 2,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53733",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53744",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53755",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54711",
+    "maxRarity": 4,
+    "maxTier": 1,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54722",
+    "maxRarity": 4,
+    "maxTier": 2,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54733",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54744",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54755",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55722",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55733",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55755",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81711",
+    "maxRarity": 1,
+    "maxTier": 1,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81722",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81733",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81744",
+    "maxRarity": 1,
+    "maxTier": 4,
+    "minRarity": 1,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81755",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82711",
+    "maxRarity": 2,
+    "maxTier": 1,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82722",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82733",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82744",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82755",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83711",
+    "maxRarity": 3,
+    "maxTier": 1,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83722",
+    "maxRarity": 3,
+    "maxTier": 2,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83733",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83744",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83755",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84711",
+    "maxRarity": 4,
+    "maxTier": 1,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84722",
+    "maxRarity": 4,
+    "maxTier": 2,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84733",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84744",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84755",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85722",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85733",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85755",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21711",
+    "maxRarity": 1,
+    "maxTier": 1,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21722",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21733",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21744",
+    "maxRarity": 1,
+    "maxTier": 4,
+    "minRarity": 1,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21755",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22711",
+    "maxRarity": 2,
+    "maxTier": 1,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22722",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22733",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22744",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22755",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23711",
+    "maxRarity": 3,
+    "maxTier": 1,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23722",
+    "maxRarity": 3,
+    "maxTier": 2,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23733",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23744",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23755",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24711",
+    "maxRarity": 4,
+    "maxTier": 1,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24722",
+    "maxRarity": 4,
+    "maxTier": 2,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24733",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24744",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24755",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25722",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25733",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25755",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71711",
+    "maxRarity": 1,
+    "maxTier": 1,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71722",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71733",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71744",
+    "maxRarity": 1,
+    "maxTier": 4,
+    "minRarity": 1,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71755",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72711",
+    "maxRarity": 2,
+    "maxTier": 1,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72722",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72733",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72744",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72755",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73711",
+    "maxRarity": 3,
+    "maxTier": 1,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73722",
+    "maxRarity": 3,
+    "maxTier": 2,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73733",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73744",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73755",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74711",
+    "maxRarity": 4,
+    "maxTier": 1,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74722",
+    "maxRarity": 4,
+    "maxTier": 2,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74733",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74744",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74755",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75722",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75733",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75755",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41711",
+    "maxRarity": 1,
+    "maxTier": 1,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41722",
+    "maxRarity": 1,
+    "maxTier": 2,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41733",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41744",
+    "maxRarity": 1,
+    "maxTier": 4,
+    "minRarity": 1,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41755",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42711",
+    "maxRarity": 2,
+    "maxTier": 1,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42722",
+    "maxRarity": 2,
+    "maxTier": 2,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42733",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42744",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42755",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43711",
+    "maxRarity": 3,
+    "maxTier": 1,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43722",
+    "maxRarity": 3,
+    "maxTier": 2,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43733",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43744",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43755",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44711",
+    "maxRarity": 4,
+    "maxTier": 1,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44722",
+    "maxRarity": 4,
+    "maxTier": 2,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44733",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44744",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44755",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45722",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45733",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45755",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36734",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36724",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36714",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36713",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36712",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66734",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66724",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66714",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66713",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66712",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16744",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16734",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16724",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16714",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16713",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16712",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16711",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36745",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66745",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "66725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "36715",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16745",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "16725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11713",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31713",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61713",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51713",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71713",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21713",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81713",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41713",
+    "maxRarity": 1,
+    "maxTier": 3,
+    "minRarity": 1,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12713",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32713",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62713",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52713",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72713",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22713",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82713",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42713",
+    "maxRarity": 2,
+    "maxTier": 3,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12714",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32714",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62714",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52714",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72714",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22714",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82714",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42714",
+    "maxRarity": 2,
+    "maxTier": 4,
+    "minRarity": 2,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13714",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33714",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63714",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53714",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73714",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23714",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83714",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43714",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13715",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33715",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63715",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53715",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73715",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23715",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83715",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43715",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14715",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "34715",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64715",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54715",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74715",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24715",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84715",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44715",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "11725",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "12725",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13725",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14725",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "21725",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "22725",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "23725",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24725",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "2",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "31725",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "32725",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "33725",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "34725",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "3",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "41725",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "42725",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "43725",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44725",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "51725",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "52725",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "53725",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54725",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "61725",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "62725",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "63725",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64725",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "71725",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "72725",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "73725",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74725",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "81725",
+    "maxRarity": 1,
+    "maxTier": 5,
+    "minRarity": 1,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "82725",
+    "maxRarity": 2,
+    "maxTier": 5,
+    "minRarity": 2,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "83725",
+    "maxRarity": 3,
+    "maxTier": 5,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84725",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85725",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55155",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55255",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55355",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55455",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55655",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15533",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15633",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75533",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75633",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65533",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65633",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75133",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75233",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75333",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75433",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "7",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65133",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65233",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65333",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65433",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "6",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45133",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45233",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45333",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45433",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15155",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15255",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15355",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15455",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15555",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15655",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25144",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25244",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25145",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25245",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25345",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25445",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25545",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25645",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45145",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45245",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45345",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45445",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45545",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45645",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75145",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75245",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75345",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75445",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75545",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75645",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85145",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85245",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85345",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85445",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85545",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85645",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15133",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15233",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15333",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15433",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13133",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13233",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13333",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13433",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13533",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13633",
+    "maxRarity": 3,
+    "maxTier": 3,
+    "minRarity": 3,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14133",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14233",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14333",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14433",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14533",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14633",
+    "maxRarity": 4,
+    "maxTier": 3,
+    "minRarity": 4,
+    "minTier": 3,
+    "setId": "1",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35155",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35255",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35355",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35455",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35555",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35655",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "3",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65155",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65255",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65355",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65455",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65555",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65655",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "13724",
+    "maxRarity": 3,
+    "maxTier": 4,
+    "minRarity": 3,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15724",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14724",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "14155",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15122",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15144",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15322",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "1",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15611",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "1",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24144",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25111",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "24644",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25611",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "2",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25133",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25255",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25344",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25355",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35144",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35233",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35333",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35511",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "3",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44244",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45211",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44255",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45222",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44355",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45322",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44444",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45411",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "44544",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45244",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45255",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45311",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45422",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45511",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "4",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "54255",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55222",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "5",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55433",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55444",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55555",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "5",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64144",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65111",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "6",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64355",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "64455",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "6",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65422",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65622",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "6",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65644",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "74455",
+    "maxRarity": 4,
+    "maxTier": 5,
+    "minRarity": 4,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75422",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75322",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "7",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75511",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "7",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "84344",
+    "maxRarity": 4,
+    "maxTier": 4,
+    "minRarity": 4,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85211",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85311",
+    "maxRarity": 5,
+    "maxTier": 1,
+    "minRarity": 5,
+    "minTier": 1,
+    "setId": "8",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85422",
+    "maxRarity": 5,
+    "maxTier": 2,
+    "minRarity": 5,
+    "minTier": 2,
+    "setId": "8",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85644",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85233",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75344",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85655",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35544",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25455",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15444",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45555",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25633",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85533",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75544",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75255",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75355",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75455",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75555",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85244",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35533",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35644",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45144",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25533",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65144",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65244",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85433",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85355",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75644",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65544",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35433",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35244",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25333",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55144",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55244",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55344",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55233",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85155",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15544",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45355",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45455",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45444",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45544",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45644",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45633",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25233",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25444",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25555",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25655",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45655",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45344",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "4",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55544",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85444",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35344",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85344",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85555",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75444",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75655",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45533",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "4",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25155",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "2",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65344",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15644",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85133",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85333",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55633",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55133",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55533",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55333",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "5",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15244",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "15344",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "1",
+    "slot": [
+      4
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25433",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "2",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25544",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "25644",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "2",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35133",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "45155",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "4",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "55644",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "5",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "65444",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "6",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75155",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "7",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75144",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "75244",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "7",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85633",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "8",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85144",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      2
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85455",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85544",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "8",
+    "slot": [
+      6
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "85255",
+    "maxRarity": 5,
+    "maxTier": 5,
+    "minRarity": 5,
+    "minTier": 5,
+    "setId": "8",
+    "slot": [
+      3
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35444",
+    "maxRarity": 5,
+    "maxTier": 4,
+    "minRarity": 5,
+    "minTier": 4,
+    "setId": "3",
+    "slot": [
+      5
+    ],
+    "slotOld": 2
+  },
+  {
+    "descKey": "",
+    "id": "35633",
+    "maxRarity": 5,
+    "maxTier": 3,
+    "minRarity": 5,
+    "minTier": 3,
+    "setId": "3",
+    "slot": [
+      7
+    ],
+    "slotOld": 2
+  }
+]

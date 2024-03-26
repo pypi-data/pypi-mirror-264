@@ -1,0 +1,32 @@
+[
+  {
+    "descriptionKey": "PLACEHOLDER",
+    "iconKey": "icon_conquest_consumable_stim_desat",
+    "nameKey": "CONSUMABLE_STIM_NAME",
+    "typeId": "stim"
+  },
+  {
+    "descriptionKey": "PLACEHOLDER",
+    "iconKey": "icon_conquest_consumable_medpack_desat",
+    "nameKey": "CONSUMABLE_MEDPAC_NAME",
+    "typeId": "medpac"
+  },
+  {
+    "descriptionKey": "PLACEHOLDER",
+    "iconKey": "icon_conquest_consumable_tech_desat",
+    "nameKey": "CONSUMABLE_TECH_NAME",
+    "typeId": "tech"
+  },
+  {
+    "descriptionKey": "PLACEHOLDER",
+    "iconKey": "icon_conquest_consumable_tech_desat",
+    "nameKey": "CONSUMABLE_SPECIAL_NAME",
+    "typeId": "special"
+  },
+  {
+    "descriptionKey": "PLACEHOLDER",
+    "iconKey": "icon_ship_pvp",
+    "nameKey": "CONSUMABLE_STAMINA_NAME",
+    "typeId": "stamina"
+  }
+]

@@ -1,0 +1,2452 @@
+[
+  {
+    "item": {
+      "id": "001",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "002",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "003",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "004",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "005",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "006",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "007",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "008",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "009",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "010",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "011",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "012",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "013",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "016",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "018",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "019",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "020",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "022",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "023",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "024",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "025",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "026",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "027",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "029",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "030",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "033",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "034",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "035",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "036",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "038",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "039",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "040",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "041",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "042",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "043",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "045",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "046",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "047",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "048",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "059",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "060",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "066",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "067",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "070",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "074",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "077",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "079",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "081",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "082",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "083",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "084",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "088",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "089",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "014Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "015Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "017Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "021Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "028Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "031Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "032Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "037Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "040Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "044Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "049Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "055Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "056Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "061Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "063Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "064Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "068Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "069Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "071Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "072Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "073Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "075Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "078Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "080Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "084Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "085Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "086Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "093Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "050Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "051Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "052Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "053Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "054Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "055PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "056PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "057Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "058Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "061PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "062Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "063PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "064PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "065Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "068PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "069PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "071PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "072PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "073PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "075PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "076Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "078PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "080PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "084PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "085PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "086PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "093PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "133Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "098",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "099",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "105",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "107",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "109",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "110",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "115",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "121",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "122",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "124",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "127",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "128",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "131",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "132",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "139",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "140",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "143",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "144",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "087Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "090Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "094Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "096Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "097Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "100Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "103Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "104Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "106Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "114Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "116Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "117Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "119Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "120Prototype",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "087PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "090PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "091Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "092Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "094PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "095Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "096PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "097PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "100PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "101Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "102Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "103PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "104PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "106PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "108Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "112Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "113Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "114PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "116PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "117PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "119PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "120PrototypeSalvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "123Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "149Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "150Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "153Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "158Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "159Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "160Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "161Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "135Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "136Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "145Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  },
+  {
+    "item": {
+      "id": "146Salvage",
+      "maxQuantity": 1,
+      "minQuantity": 1,
+      "previewPriority": 0,
+      "primaryReward": false,
+      "rarity": 1,
+      "statMod": null,
+      "type": 11,
+      "unitLevel": 0,
+      "unitTier": 0
+    }
+  }
+]

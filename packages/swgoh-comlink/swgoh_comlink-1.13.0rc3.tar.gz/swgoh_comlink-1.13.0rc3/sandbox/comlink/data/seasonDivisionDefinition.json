@@ -1,0 +1,57 @@
+[
+  {
+    "id": 5,
+    "minPower": 0,
+    "nameKey": "CHAMPIONSHIP_DIVISION_11"
+  },
+  {
+    "id": 10,
+    "minPower": 1000000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_10"
+  },
+  {
+    "id": 15,
+    "minPower": 1600000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_09"
+  },
+  {
+    "id": 20,
+    "minPower": 2300000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_08"
+  },
+  {
+    "id": 25,
+    "minPower": 3100000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_07"
+  },
+  {
+    "id": 30,
+    "minPower": 3850000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_06"
+  },
+  {
+    "id": 35,
+    "minPower": 4500000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_05"
+  },
+  {
+    "id": 40,
+    "minPower": 5150000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_04"
+  },
+  {
+    "id": 45,
+    "minPower": 6000000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_03"
+  },
+  {
+    "id": 50,
+    "minPower": 6650000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_02"
+  },
+  {
+    "id": 55,
+    "minPower": 7800000,
+    "nameKey": "CHAMPIONSHIP_DIVISION_01"
+  }
+]

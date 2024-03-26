@@ -1,0 +1,22 @@
+[
+  {
+    "eventId": "3316",
+    "nonSpenderValue": 0,
+    "spenderValue": 0
+  },
+  {
+    "eventId": "3315",
+    "nonSpenderValue": 100,
+    "spenderValue": 100
+  },
+  {
+    "eventId": "3693",
+    "nonSpenderValue": 10,
+    "spenderValue": 10
+  },
+  {
+    "eventId": "3167",
+    "nonSpenderValue": 10,
+    "spenderValue": 10
+  }
+]

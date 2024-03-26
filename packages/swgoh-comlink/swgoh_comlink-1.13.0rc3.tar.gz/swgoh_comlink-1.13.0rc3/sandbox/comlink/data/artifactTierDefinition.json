@@ -1,0 +1,26 @@
+[
+  {
+    "iconKey": "icon_conquest_artifact_rarity_01",
+    "id": "artifact-tier-common",
+    "nameKey": "CONQUEST_ARTIFACT_TIER_NAME_TIER01",
+    "rarity": 8
+  },
+  {
+    "iconKey": "icon_conquest_artifact_rarity_02",
+    "id": "artifact-tier-rare",
+    "nameKey": "CONQUEST_ARTIFACT_TIER_NAME_TIER02",
+    "rarity": 1
+  },
+  {
+    "iconKey": "icon_conquest_artifact_rarity_03",
+    "id": "artifact-tier-epic",
+    "nameKey": "CONQUEST_ARTIFACT_TIER_NAME_TIER03",
+    "rarity": 2
+  },
+  {
+    "iconKey": "icon_conquest_artifact_rarity_04",
+    "id": "artifact-tier-legendary",
+    "nameKey": "CONQUEST_ARTIFACT_TIER_NAME_TIER04",
+    "rarity": 3
+  }
+]

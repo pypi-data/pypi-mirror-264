@@ -1,0 +1,1354 @@
+[
+  {
+    "descKey": "placeholder",
+    "hidden": false,
+    "id": "GUILD_MEMBER_LEVEL_LEADER",
+    "nameKey": "GuildMemberLevel_Leader",
+    "obtainable": false,
+    "shortDescKey": "placeholder"
+  },
+  {
+    "descKey": "placeholder",
+    "hidden": false,
+    "id": "GUILD_MEMBER_LEVEL_OFFICER",
+    "nameKey": "GuildMemberLevel_Officer",
+    "obtainable": false,
+    "shortDescKey": "placeholder"
+  },
+  {
+    "descKey": "placeholder",
+    "hidden": false,
+    "id": "GUILD_MEMBER_LEVEL_MEMBER",
+    "nameKey": "GuildMemberLevel_Member",
+    "obtainable": false,
+    "shortDescKey": "placeholder"
+  },
+  {
+    "descKey": "PLAYERTITLE_GRANDARENA_INTRO_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GRANDARENA_INTRO",
+    "nameKey": "PLAYERTITLE_GRANDARENA_INTRO_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GRANDARENA_INTRO_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_BOUNTYHUNTER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_BOUNTYHUNTER",
+    "nameKey": "PLAYERTITLE_BOUNTYHUNTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_BOUNTYHUNTER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_FULCRUMAGENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_FULCRUMAGENT",
+    "nameKey": "PLAYERTITLE_FULCRUMAGENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_FULCRUMAGENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JEDIKNIGHT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_JEDIKNIGHT",
+    "nameKey": "PLAYERTITLE_JEDIKNIGHT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JEDIKNIGHT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JEDIMASTER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_JEDIMASTER",
+    "nameKey": "PLAYERTITLE_JEDIMASTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JEDIMASTER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SITHAGENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SITHAGENT",
+    "nameKey": "PLAYERTITLE_SITHAGENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SITHAGENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SITHMASTER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SITHMASTER",
+    "nameKey": "PLAYERTITLE_SITHMASTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SITHMASTER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GRANDARENA_ADVANCED_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GRANDARENA_ADVANCED",
+    "nameKey": "PLAYERTITLE_GRANDARENA_ADVANCED_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GRANDARENA_ADVANCED_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_HANSOLO_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GRANDARENA_CHALLENGE_HANSOLO",
+    "nameKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_HANSOLO_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_HANSOLO_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_GENERALKENOBI_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GRANDARENA_CHALLENGE_GENERALKENOBI",
+    "nameKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_GENERALKENOBI_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_GENERALKENOBI_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_DARTHTRAYA_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GRANDARENA_CHALLENGE_DARTHTRAYA",
+    "nameKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_DARTHTRAYA_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GRANDARENA_CHALLENGE_DARTHTRAYA_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_EXHIBITION_A_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_EXHIBITION_A",
+    "nameKey": "PLAYERTITLE_EXHIBITION_A_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_EXHIBITION_A_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEASON001_KYBER_RANK01_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SEASON001_KYBER_RANK01",
+    "nameKey": "PLAYERTITLE_SEASON001_KYBER_RANK01_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEASON001_KYBER_RANK01_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEASON001_KYBER_RANK02_10_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SEASON001_KYBER_RANK02_10",
+    "nameKey": "PLAYERTITLE_SEASON001_KYBER_RANK02_10_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEASON001_KYBER_RANK02_10_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEASON001_KYBER_11PLUS_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_SEASON001_KYBER_11PLUS",
+    "nameKey": "PLAYERTITLE_SEASON001_KYBER_11PLUS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEASON001_KYBER_11PLUS_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEASON001_AURODIUM_ALL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SEASON001_AURODIUM_ALL",
+    "nameKey": "PLAYERTITLE_SEASON001_AURODIUM_ALL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEASON001_AURODIUM_ALL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEASON001_CHROMIUM_ALL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SEASON001_CHROMIUM_ALL",
+    "nameKey": "PLAYERTITLE_SEASON001_CHROMIUM_ALL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEASON001_CHROMIUM_ALL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEASON001_BRONZIUM_ALL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SEASON001_BRONZIUM_ALL",
+    "nameKey": "PLAYERTITLE_SEASON001_BRONZIUM_ALL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEASON001_BRONZIUM_ALL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEASON001_CARBONITE_ALL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SEASON001_CARBONITE_ALL",
+    "nameKey": "PLAYERTITLE_SEASON001_CARBONITE_ALL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEASON001_CARBONITE_ALL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_PITFIGHTER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_PITFIGHTER",
+    "nameKey": "PLAYERTITLE_PITFIGHTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_PITFIGHTER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_TANKTAMER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_TANKTAMER",
+    "nameKey": "PLAYERTITLE_TANKTAMER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_TANKTAMER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SITHSMITER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SITHSMITER",
+    "nameKey": "PLAYERTITLE_SITHSMITER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SITHSMITER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_DARKSIDEHISTORIAN_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_DARKSIDEHISTORIAN",
+    "nameKey": "PLAYERTITLE_DARKSIDEHISTORIAN_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_DARKSIDEHISTORIAN_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_REBELSCUM_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_REBELSCUM",
+    "nameKey": "PLAYERTITLE_REBELSCUM_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_REBELSCUM_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_501STLEGION_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_501STLEGION",
+    "nameKey": "PLAYERTITLE_501STLEGION_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_501STLEGION_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GENERAL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GENERAL",
+    "nameKey": "PLAYERTITLE_GENERAL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GENERAL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SQUADCAPTAIN_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SQUADCAPTAIN",
+    "nameKey": "PLAYERTITLE_SQUADCAPTAIN_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SQUADCAPTAIN_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SHIPCAPTAIN_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SHIPCAPTAIN",
+    "nameKey": "PLAYERTITLE_SHIPCAPTAIN_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SHIPCAPTAIN_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SENATOR_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SENATOR",
+    "nameKey": "PLAYERTITLE_SENATOR_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SENATOR_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_HOLOTABLEHERO_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_HOLOTABLEHERO",
+    "nameKey": "PLAYERTITLE_HOLOTABLEHERO_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_HOLOTABLEHERO_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_A_NEW_HOPE_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_A_NEW_HOPE",
+    "nameKey": "PLAYERTITLE_A_NEW_HOPE_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_A_NEW_HOPE_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_DEFAULT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_DEFAULT",
+    "nameKey": "PLAYERTITLE_DEFAULT_NAME",
+    "obtainable": false,
+    "shortDescKey": "PLAYERTITLE_DEFAULT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_CHALLENGER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_CHALLENGER",
+    "nameKey": "PLAYERTITLE_CHALLENGER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_CHALLENGER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_PRODIGALKNIGHT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_PRODIGALKNIGHT",
+    "nameKey": "PLAYERTITLE_PRODIGALKNIGHT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_PRODIGALKNIGHT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_DARKLORD_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_DARKLORD",
+    "nameKey": "PLAYERTITLE_DARKLORD_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_DARKLORD_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_USURPER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_USURPER",
+    "nameKey": "PLAYERTITLE_USURPER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_USURPER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_LOYAL_FRIEND_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_LOYAL_FRIEND",
+    "nameKey": "PLAYERTITLE_LOYAL_FRIEND_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_LOYAL_FRIEND_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_BASTILA_ON_THE_BENCH_DESC",
+    "hidden": true,
+    "id": "PLAYERTITLE_BASTILA_ON_THE_BENCH",
+    "nameKey": "PLAYERTITLE_BASTILA_ON_THE_BENCH_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_BASTILA_ON_THE_BENCH_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_WARMACHINE_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_WARMACHINE",
+    "nameKey": "PLAYERTITLE_WARMACHINE_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_WARMACHINE_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEPARATIST_COMMANDER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SEPARATIST_COMMANDER",
+    "nameKey": "PLAYERTITLE_SEPARATIST_COMMANDER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEPARATIST_COMMANDER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SPICEFREIGHTER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SPICEFREIGHTER",
+    "nameKey": "PLAYERTITLE_SPICEFREIGHTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SPICEFREIGHTER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_NOEQUAL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_NOEQUAL",
+    "nameKey": "PLAYERTITLE_NOEQUAL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_NOEQUAL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_BETTERGENERAL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_BETTERGENERAL",
+    "nameKey": "PLAYERTITLE_BETTERGENERAL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_BETTERGENERAL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_BATTALIONBREAKER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_BATTALIONBREAKER",
+    "nameKey": "PLAYERTITLE_BATTALIONBREAKER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_BATTALIONBREAKER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GENERALOFTHE501ST_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GENERALOFTHE501ST",
+    "nameKey": "PLAYERTITLE_GENERALOFTHE501ST_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GENERALOFTHE501ST_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLREY_QUEST_001_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLREY_QUEST_001",
+    "nameKey": "PLAYERTITLE_GLREY_QUEST_001_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLREY_QUEST_001_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLREY_QUEST_002_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLREY_QUEST_002",
+    "nameKey": "PLAYERTITLE_GLREY_QUEST_002_NAME_V2",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLREY_QUEST_002_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLREY_QUEST_003_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLREY_QUEST_003",
+    "nameKey": "PLAYERTITLE_GLREY_QUEST_003_NAME_V2",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLREY_QUEST_003_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLREY_QUEST_004_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLREY_QUEST_004",
+    "nameKey": "PLAYERTITLE_GLREY_QUEST_004_NAME_V2",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLREY_QUEST_004_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLSLKR_QUEST_001_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLSLKR_QUEST_001",
+    "nameKey": "PLAYERTITLE_GLSLKR_QUEST_001_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLSLKR_QUEST_001_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLSLKR_QUEST_002_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLSLKR_QUEST_002",
+    "nameKey": "PLAYERTITLE_GLSLKR_QUEST_002_NAME_V2",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLSLKR_QUEST_002_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLSLKR_QUEST_003_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLSLKR_QUEST_003",
+    "nameKey": "PLAYERTITLE_GLSLKR_QUEST_003_NAME_V2",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLSLKR_QUEST_003_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLSLKR_QUEST_004_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLSLKR_QUEST_004",
+    "nameKey": "PLAYERTITLE_GLSLKR_QUEST_004_NAME_V2",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLSLKR_QUEST_004_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLREY_EVENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLREY_EVENT",
+    "nameKey": "PLAYERTITLE_GLREY_EVENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLREY_EVENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLKYLOREN_EVENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLKYLOREN_EVENT",
+    "nameKey": "PLAYERTITLE_GLKYLOREN_EVENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLKYLOREN_EVENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JMLS_QUEST_001_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJMLS_QUEST_001",
+    "nameKey": "PLAYERTITLE_JMLS_QUEST_001_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JMLS_QUEST_001_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEE_QUEST_001_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLSEE_QUEST_001",
+    "nameKey": "PLAYERTITLE_SEE_QUEST_001_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEE_QUEST_001_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JMLS_QUEST_002_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJMLS_QUEST_002",
+    "nameKey": "PLAYERTITLE_JMLS_QUEST_002_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JMLS_QUEST_002_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEE_QUEST_002_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLSEE_QUEST_002",
+    "nameKey": "PLAYERTITLE_SEE_QUEST_002_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEE_QUEST_002_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JMLS_QUEST_003_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJMLS_QUEST_003",
+    "nameKey": "PLAYERTITLE_JMLS_QUEST_003_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JMLS_QUEST_003_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SEE_QUEST_003_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLSEE_QUEST_003",
+    "nameKey": "PLAYERTITLE_SEE_QUEST_003_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SEE_QUEST_003_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLLUKE_EVENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLUKE_EVENT",
+    "nameKey": "PLAYERTITLE_GLLUKE_EVENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLLUKE_EVENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLPALP_EVENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLPALP_EVENT",
+    "nameKey": "PLAYERTITLE_GLPALP_EVENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLPALP_EVENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JMK_QUEST_001_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJMK_QUEST_001",
+    "nameKey": "PLAYERTITLE_JMK_QUEST_001_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JMK_QUEST_001_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_JMK_QUEST_002_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJMK_QUEST_002",
+    "nameKey": "PLAYERTITLE_JMK_QUEST_002_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JMK_QUEST_002_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_JMK_QUEST_003_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJMK_QUEST_003",
+    "nameKey": "PLAYERTITLE_JMK_QUEST_003_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JMK_QUEST_003_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLKENOBI_EVENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLKENOBI_EVENT",
+    "nameKey": "PLAYERTITLE_GLKENOBI_EVENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLKENOBI_EVENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_LV_QUEST_001_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLV_QUEST_001",
+    "nameKey": "PLAYERTITLE_LV_QUEST_001_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_LV_QUEST_001_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_LV_QUEST_002_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLV_QUEST_002",
+    "nameKey": "PLAYERTITLE_LV_QUEST_002_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_LV_QUEST_002_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_LV_QUEST_003_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLV_QUEST_003",
+    "nameKey": "PLAYERTITLE_LV_QUEST_003_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_LV_QUEST_003_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLLORDVADER_EVENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLORDVADER_EVENT",
+    "nameKey": "PLAYERTITLE_GLLORDVADER_EVENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLLORDVADER_EVENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JABBA_QUEST_001_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJABBA_QUEST_001",
+    "nameKey": "PLAYERTITLE_JABBA_QUEST_001_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JABBA_QUEST_001_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JABBA_QUEST_002_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJABBA_QUEST_002",
+    "nameKey": "PLAYERTITLE_JABBA_QUEST_002_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JABBA_QUEST_002_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JABBA_QUEST_003_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJABBA_QUEST_003",
+    "nameKey": "PLAYERTITLE_JABBA_QUEST_003_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JABBA_QUEST_003_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JABBA_EVENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLJABBA_EVENT",
+    "nameKey": "PLAYERTITLE_JABBA_EVENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JABBA_EVENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLLEIA_QUEST_001_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLEIA_QUEST_001",
+    "nameKey": "PLAYERTITLE_GLLEIA_QUEST_001_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLLEIA_QUEST_001_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLLEIA_QUEST_002_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLEIA_QUEST_002",
+    "nameKey": "PLAYERTITLE_GLLEIA_QUEST_002_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLLEIA_QUEST_002_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GLLEIA_QUEST_003_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLEIA_QUEST_003",
+    "nameKey": "PLAYERTITLE_GLLEIA_QUEST_003_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GLLEIA_QUEST_003_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_LEIA_EVENT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GLLEIA_EVENT",
+    "nameKey": "PLAYERTITLE_LEIA_EVENT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_LEIA_EVENT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_PILOT1_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_PILOT1",
+    "nameKey": "PLAYERTITLE_GAC_PILOT1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_PILOT1_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_PILOT2_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_PILOT2",
+    "nameKey": "PLAYERTITLE_GAC_PILOT2_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_PILOT2_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_ESB1_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_ESB1",
+    "nameKey": "PLAYERTITLE_GAC_ESB1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_ESB1_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_ESB2_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_ESB2",
+    "nameKey": "PLAYERTITLE_GAC_ESB2_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_ESB2_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_ESB3_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_ESB3",
+    "nameKey": "PLAYERTITLE_GAC_ESB3_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_ESB3_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_ESB4_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_ESB4",
+    "nameKey": "PLAYERTITLE_GAC_ESB4_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_ESB4_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_STORMTROOPER1_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_STORMTROOPER1",
+    "nameKey": "PLAYERTITLE_GAC_STORMTROOPER1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_STORMTROOPER1_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_STORMTROOPER2_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_STORMTROOPER2",
+    "nameKey": "PLAYERTITLE_GAC_STORMTROOPER2_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_STORMTROOPER2_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_JEDI1_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_JEDI1",
+    "nameKey": "PLAYERTITLE_GAC_JEDI1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_JEDI1_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_JEDI2_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_JEDI2",
+    "nameKey": "PLAYERTITLE_GAC_JEDI2_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_JEDI2_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DATHOMIR1_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DATHOMIR1",
+    "nameKey": "PLAYERTITLE_GAC_DATHOMIR1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DATHOMIR1_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DATHOMIR2_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DATHOMIR2",
+    "nameKey": "PLAYERTITLE_GAC_DATHOMIR2_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DATHOMIR2_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DATHOMIR3_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DATHOMIR3",
+    "nameKey": "PLAYERTITLE_GAC_DATHOMIR3_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DATHOMIR3_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS1_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_BOUNTYHUNTERS1",
+    "nameKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS1_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS2_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_BOUNTYHUNTERS2",
+    "nameKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS2_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS2_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS3_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_BOUNTYHUNTERS3",
+    "nameKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS3_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_BOUNTYHUNTERS3_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DROIDS1_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DROIDS1",
+    "nameKey": "PLAYERTITLE_GAC_DROIDS1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DROIDS1_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DROIDS2_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DROIDS2",
+    "nameKey": "PLAYERTITLE_GAC_DROIDS2_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DROIDS2_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DROIDS3_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DROIDS3",
+    "nameKey": "PLAYERTITLE_GAC_DROIDS3_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DROIDS3_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_SHARP_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_SHARP",
+    "nameKey": "PLAYERTITLE_GAC_SHARP_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_SHARP_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_BLUE_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_BLUE",
+    "nameKey": "PLAYERTITLE_GAC_BLUE_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_BLUE_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_SWORDMASTER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_SWORDMASTER",
+    "nameKey": "PLAYERTITLE_GAC_SWORDMASTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_SWORDMASTER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_SHADOW_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_SHADOW",
+    "nameKey": "PLAYERTITLE_GAC_SHADOW_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_SHADOW_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_THEALGORITHM_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_THEALGORITHM",
+    "nameKey": "PLAYERTITLE_GAC_THEALGORITHM_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_THEALGORITHM_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_BADBATCH_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_BADBATCH",
+    "nameKey": "PLAYERTITLE_GAC_BADBATCH_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_BADBATCH_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DEATHWATCH_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DEATHWATCH",
+    "nameKey": "PLAYERTITLE_GAC_DEATHWATCH_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DEATHWATCH_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DIRECTOR_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DIRECTOR",
+    "nameKey": "PLAYERTITLE_GAC_DIRECTOR_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DIRECTOR_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_VISIONARY_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_VISIONARY",
+    "nameKey": "PLAYERTITLE_GAC_VISIONARY_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_VISIONARY_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_SABOTEUR_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_SABOTEUR",
+    "nameKey": "PLAYERTITLE_GAC_SABOTEUR_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_SABOTEUR_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_MOFF_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_MOFF",
+    "nameKey": "PLAYERTITLE_GAC_MOFF_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_MOFF_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_FOUNDLING_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_FOUNDLING",
+    "nameKey": "PLAYERTITLE_GAC_FOUNDLING_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_FOUNDLING_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_CRIMINAL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_CRIMINAL",
+    "nameKey": "PLAYERTITLE_GAC_CRIMINAL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_CRIMINAL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_RIVAL_DESC_V1",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_RIVAL",
+    "nameKey": "PLAYERTITLE_GAC_RIVAL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_RIVAL_SHORT_DESC_V1"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_LOVED_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_LOVED",
+    "nameKey": "PLAYERTITLE_GAC_LOVED_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_LOVED_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_SERVANTOFTHEEMPIRE_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_SERVANTOFTHEEMPIRE",
+    "nameKey": "PLAYERTITLE_GAC_SERVANTOFTHEEMPIRE_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_SERVANTOFTHEEMPIRE_SHORT_DESC_V2"
+  },
+  {
+    "descKey": "PLAYERTITLE_GAC_DARKLORD_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GAC_DARKLORD",
+    "nameKey": "PLAYERTITLE_GAC_DARKLORD_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GAC_DARKLORD_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_IDENVERSIOEMPIRE_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_IDENVERSIOEMPIRE",
+    "nameKey": "PLAYERTITLE_MARQUEE_IDENVERSIOEMPIRE_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_IDENVERSIOEMPIRE_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_SECONDSISTER_SHORT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_SECONDSISTER",
+    "nameKey": "PLAYERTITLE_MARQUEE_SECONDSISTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_SECONDSISTER_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_NINTHSISTER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_NINTHSISTER",
+    "nameKey": "PLAYERTITLE_MARQUEE_NINTHSISTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_NINTHSISTER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_SEVENTHSISTER_DESC_V2",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_SEVENTHSISTER",
+    "nameKey": "PLAYERTITLE_MARQUEE_SEVENTHSISTER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_SEVENTHSISTER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_EIGHTHBROTHER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_EIGHTHBROTHER",
+    "nameKey": "PLAYERTITLE_MARQUEE_EIGHTHBROTHER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_EIGHTHBROTHER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_FIFTHBROTHER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_FIFTHBROTHER",
+    "nameKey": "PLAYERTITLE_MARQUEE_FIFTHBROTHER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_FIFTHBROTHER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_50RT_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_50RT",
+    "nameKey": "PLAYERTITLE_MARQUEE_50RT_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_50RT_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_ADMIRALRADDUS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_ADMIRALRADDUS",
+    "nameKey": "PLAYERTITLE_MARQUEE_ADMIRALRADDUS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_ADMIRALRADDUS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_KRRSANTAN_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_KRRSANTAN",
+    "nameKey": "PLAYERTITLE_MARQUEE_KRRSANTAN_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_KRRSANTAN_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_UNDERCOVERLANDO_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_UNDERCOVERLANDO",
+    "nameKey": "PLAYERTITLE_MARQUEE_UNDERCOVERLANDO_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_UNDERCOVERLANDO_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_BOUSHH_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_BOUSHH",
+    "nameKey": "PLAYERTITLE_MARQUEE_BOUSHH_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_BOUSHH_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_HONDO_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_HONDO",
+    "nameKey": "PLAYERTITLE_MARQUEE_HONDO_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_HONDO_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_BT1_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_BT1",
+    "nameKey": "PLAYERTITLE_MARQUEE_BT1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_BT1_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_TRIPLEZERO_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_TRIPLEZERO",
+    "nameKey": "PLAYERTITLE_MARQUEE_TRIPLEZERO_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_TRIPLEZERO_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_SANASTARROS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_SANASTARROS",
+    "nameKey": "PLAYERTITLE_MARQUEE_SANASTARROS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_SANASTARROS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_ZORIIBLISS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_ZORIIBLISS",
+    "nameKey": "PLAYERTITLE_MARQUEE_ZORIIBLISS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_ZORIIBLISS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_TUSKENCHIEFTAIN_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_TUSKENCHIEFTAIN",
+    "nameKey": "PLAYERTITLE_MARQUEE_TUSKENCHIEFTAIN_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_TUSKENCHIEFTAIN_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_TUSKENHUNTRESS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_TUSKENHUNTRESS",
+    "nameKey": "PLAYERTITLE_MARQUEE_TUSKENHUNTRESS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_TUSKENHUNTRESS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_CALKESTIS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_CALKESTIS",
+    "nameKey": "PLAYERTITLE_MARQUEE_CALKESTIS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_CALKESTIS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_CEREJUNDA_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_CEREJUNDA",
+    "nameKey": "PLAYERTITLE_MARQUEE_CEREJUNDA_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_CEREJUNDA_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_MERRIN_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_MERRIN",
+    "nameKey": "PLAYERTITLE_MARQUEE_MERRIN_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_MERRIN_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_TARFFUL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_TARFFUL",
+    "nameKey": "PLAYERTITLE_MARQUEE_TARFFUL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_TARFFUL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_SAWGERRERA_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_SAWGERRERA",
+    "nameKey": "PLAYERTITLE_MARQUEE_SAWGERRERA_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_SAWGERRERA_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_CAPTAINREX_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_CAPTAINREX",
+    "nameKey": "PLAYERTITLE_MARQUEE_CAPTAINREX_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_CAPTAINREX_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_PRINCESSKNEESAA_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_PRINCESSKNEESAA",
+    "nameKey": "PLAYERTITLE_MARQUEE_PRINCESSKNEESAA_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_PRINCESSKNEESAA_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_SCOUTTROOPER_V3_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_SCOUTTROOPER_V3",
+    "nameKey": "PLAYERTITLE_MARQUEE_SCOUTTROOPER_V3_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_SCOUTTROOPER_V3_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_CAPTAINDROGAN_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_CAPTAINDROGAN",
+    "nameKey": "PLAYERTITLE_MARQUEE_CAPTAINDROGAN_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_CAPTAINDROGAN_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_PAZVIZSLA_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_PAZVIZSLA",
+    "nameKey": "PLAYERTITLE_MARQUEE_PAZVIZSLA_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_PAZVIZSLA_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_IG12_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_IG12",
+    "nameKey": "PLAYERTITLE_MARQUEE_IG12_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_IG12_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MARQUEE_KELLERANBEQ_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MARQUEE_KELLERANBEQ",
+    "nameKey": "PLAYERTITLE_MARQUEE_KELLERANBEQ_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MARQUEE_KELLERANBEQ_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_PRINCESS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_PRINCESS",
+    "nameKey": "PLAYERTITLE_PRINCESS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_PRINCESS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_MANDO_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_MANDO",
+    "nameKey": "PLAYERTITLE_MANDO_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_MANDO_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_THEPIT_TIER1_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_THEPIT_TIER1_CHALLENGE_RANCOR",
+    "nameKey": "PLAYERTITLE_THEPIT_TIER1_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_THEPIT_TIER1_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_TO_ME_SHE_IS_ROYALTY_DESC",
+    "hidden": true,
+    "id": "PLAYERTITLE_TO_ME_SHE_IS_ROYALTY",
+    "nameKey": "PLAYERTITLE_TO_ME_SHE_IS_ROYALTY_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_TO_ME_SHE_IS_ROYALTY_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_BAD_BATCH_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_BAD_BATCH",
+    "nameKey": "PLAYERTITLE_BAD_BATCH_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_BAD_BATCH_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_EXECUTOR_QUEST_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_EXECUTOR_QUEST",
+    "nameKey": "PLAYERTITLE_EXECUTOR_QUEST_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_EXECUTOR_QUEST_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_PROFUNDITY_QUEST_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_PROFUNDITY_QUEST",
+    "nameKey": "PLAYERTITLE_PROFUNDITY_QUEST_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_PROFUNDITY_QUEST_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_LEVIATHAN_QUEST_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_LEVIATHAN_QUEST",
+    "nameKey": "PLAYERTITLE_LEVIATHAN_QUEST_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_LEVIATHAN_QUEST_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_HEAD_CLANKER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_HEAD_CLANKER",
+    "nameKey": "PLAYERTITLE_HEAD_CLANKER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_HEAD_CLANKER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_GRAND_INQUISITOR_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_GRAND_INQUISITOR",
+    "nameKey": "PLAYERTITLE_GRAND_INQUISITOR_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_GRAND_INQUISITOR_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_ORDER_OF_INQUISITORS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_ORDER_OF_INQUISITORS",
+    "nameKey": "PLAYERTITLE_ORDER_OF_INQUISITORS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_ORDER_OF_INQUISITORS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_ACROSS_THE_STARS_DESC",
+    "hidden": true,
+    "id": "PLAYERTITLE_ACROSS_THE_STARS",
+    "nameKey": "PLAYERTITLE_ACROSS_THE_STARS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_ACROSS_THE_STARS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_JEDI_GENERAL_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_JEDI_GENERAL",
+    "nameKey": "PLAYERTITLE_JEDI_GENERAL_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_JEDI_GENERAL_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_DOCTORAPHRA_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_DOCTORAPHRA",
+    "nameKey": "PLAYERTITLE_DOCTORAPHRA_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_DOCTORAPHRA_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_BEEDEE_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_BEEDEE",
+    "nameKey": "PLAYERTITLE_BEEDEE_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_BEEDEE_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_INQUISITORIUS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_INQUISITORIUS",
+    "nameKey": "PLAYERTITLE_INQUISITORIUS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_INQUISITORIUS_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_WANDERER_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_WANDERER",
+    "nameKey": "PLAYERTITLE_WANDERER_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_WANDERER_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_RUTHLESS_TACTICIAN_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_RUTHLESS_TACTICIAN",
+    "nameKey": "PLAYERTITLE_RUTHLESS_TACTICIAN_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_RUTHLESS_TACTICIAN_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_HERMIT_YODA_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_HERMIT_YODA",
+    "nameKey": "PLAYERTITLE_HERMIT_YODA_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_HERMIT_YODA_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_SHADOW_APPRENTICE_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_SHADOW_APPRENTICE",
+    "nameKey": "PLAYERTITLE_SHADOW_APPRENTICE_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_SHADOW_APPRENTICE_SHORT_DESC"
+  },
+  {
+    "descKey": "PLAYERTITLE_BROTHERHOOD_OF_DARKNESS_DESC",
+    "hidden": false,
+    "id": "PLAYERTITLE_BROTHERHOOD_OF_DARKNESS",
+    "nameKey": "PLAYERTITLE_BROTHERHOOD_OF_DARKNESS_NAME",
+    "obtainable": true,
+    "shortDescKey": "PLAYERTITLE_BROTHERHOOD_OF_DARKNESS_SHORT_DESC"
+  }
+]

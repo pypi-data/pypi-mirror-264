@@ -1,0 +1,3875 @@
+[
+  {
+    "id": "hyperdrive-bundle",
+    "info": "",
+    "inventoryItem": [
+      {
+        "id": "GRIND",
+        "maxQuantity": 20000000,
+        "minQuantity": 20000000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "SHIP_GRIND",
+        "maxQuantity": 10000000,
+        "minQuantity": 10000000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PREMIUM",
+        "maxQuantity": 2000,
+        "minQuantity": 2000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "WAR_SHIP_CURRENCY",
+        "maxQuantity": 5000,
+        "minQuantity": 5000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "FORCE_POINT",
+        "maxQuantity": 5000,
+        "minQuantity": 5000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PVP_CURRENCY",
+        "maxQuantity": 5000,
+        "minQuantity": 5000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PVP_SHIP_CURRENCY",
+        "maxQuantity": 5000,
+        "minQuantity": 5000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "SOCIAL",
+        "maxQuantity": 2000,
+        "minQuantity": 2000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "GRIND_TICKET",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 3,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ability_mat_A",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ability_mat_B",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ability_mat_C",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ability_mat_D",
+        "maxQuantity": 30,
+        "minQuantity": 30,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ability_mat_E",
+        "maxQuantity": 10,
+        "minQuantity": 10,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "shipability_mat_A",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "shipability_mat_B",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "shipability_mat_C",
+        "maxQuantity": 100,
+        "minQuantity": 100,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "shipability_mat_D",
+        "maxQuantity": 50,
+        "minQuantity": 50,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "shipability_mat_prestige",
+        "maxQuantity": 1000,
+        "minQuantity": 1000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "shipability_mat_hardware_systems",
+        "maxQuantity": 150,
+        "minQuantity": 150,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "xp-mat-one-star",
+        "maxQuantity": 3000,
+        "minQuantity": 3000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "xp-mat-two-star",
+        "maxQuantity": 2000,
+        "minQuantity": 2000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "xp-mat-three-star",
+        "maxQuantity": 1000,
+        "minQuantity": 1000,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "xp-mat-four-star",
+        "maxQuantity": 750,
+        "minQuantity": 750,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ship-xp-mat-one-star",
+        "maxQuantity": 1250,
+        "minQuantity": 1250,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ship-xp-mat-two-star",
+        "maxQuantity": 750,
+        "minQuantity": 750,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ship-xp-mat-three-star",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "ship-xp-mat-four-star",
+        "maxQuantity": 250,
+        "minQuantity": 250,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 7,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PVE",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 8,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "CANTINA_PVE",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 8,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "SHIP_PVE",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 8,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "MOD",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 8,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "172Salvage",
+        "maxQuantity": 100,
+        "minQuantity": 100,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "173Salvage",
+        "maxQuantity": 100,
+        "minQuantity": 100,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "112Salvage",
+        "maxQuantity": 100,
+        "minQuantity": 100,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "117PrototypeSalvage",
+        "maxQuantity": 100,
+        "minQuantity": 100,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "129Component",
+        "maxQuantity": 100,
+        "minQuantity": 100,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "108Salvage",
+        "maxQuantity": 100,
+        "minQuantity": 100,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "153Salvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "150Salvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "159Salvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "161Salvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "123Component",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "116PrototypeSalvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "145Salvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "113Salvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "135Salvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "102Salvage",
+        "maxQuantity": 200,
+        "minQuantity": 200,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "129Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "138Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "130Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "092Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "123Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "101Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "095Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "091Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "051Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "057Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "050Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "053Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "054Salvage",
+        "maxQuantity": 500,
+        "minQuantity": 500,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "001",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "002",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "003",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "004",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "005",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "006",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "007",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "008",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "009",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "010",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "011",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "012",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "013",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "014Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "015Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "016",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "017Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "019",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "020",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "021Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "023",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "024",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "025",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "026",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "027",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "028Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "029",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "030",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "031Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "032Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "033",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "034",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "035",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "036",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "037Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "040Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "044Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "049Prototype",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "052Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "055PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "056PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "058Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "061PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "062Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "063PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "064PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "065Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "068PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "069PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "071PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "072PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "073PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "075PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "076Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "078PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "080PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "084PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "085PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "086PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "087PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "090PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "093PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "094PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "096PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "097PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "100PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "103PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "104PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "106PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "114PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "136Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "119PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "120PrototypeSalvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "131Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "133Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "133Component",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "146Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "158Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "160Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "130Component",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "138Component",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "139Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "140Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "143Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "144Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "149Salvage",
+        "maxQuantity": 300,
+        "minQuantity": 300,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 11,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_JEDICONSULAR",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_CANTINAKEEPER",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_ROYALGUARD",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_STORMTROOPER",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_KELDOR",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_PROTOCOLDROID",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_BASTILASHAN_DARK",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_VISAS",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_XWING",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      },
+      {
+        "id": "PLAYERPORTRAIT_FIRSTORDER_TIE",
+        "maxQuantity": 1,
+        "minQuantity": 1,
+        "previewPriority": 0,
+        "primaryReward": true,
+        "rarity": 8,
+        "statMod": null,
+        "type": 19,
+        "unitLevel": 0,
+        "unitTier": 0
+      }
+    ],
+    "primaryGalacticBundle": true,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "",
+          "elementType": 4,
+          "image": "",
+          "inventoryType": 1,
+          "page": [
+            {
+              "description": [
+                "HYPERDRIVE_BUNDLE_HIGHLIGHTS_TAB_PLAYER_LEVEL_DESC",
+                "HYPERDRIVE_BUNDLE_HIGHLIGHTS_TAB_CHARACTERS_DESC",
+                "HYPERDRIVE_BUNDLE_HIGHLIGHTS_TAB_SHIPS_DESC",
+                "HYPERDRIVE_BUNDLE_HIGHLIGHTS_TAB_RESOURCES_DESC",
+                "HYPERDRIVE_BUNDLE_HIGHLIGHTS_TAB_ACTIVITIES_DESC"
+              ],
+              "image": "tex.events_train",
+              "sprite": [
+                "icon_hd_85",
+                "icon_hd_characters",
+                "icon_hd_ships",
+                "icon_hd_gear_resources",
+                "icon_hd_activity_access"
+              ],
+              "title": "HYPERDRIVE_BUNDLE_NAME"
+            }
+          ],
+          "title": ""
+        },
+        "text": "HYPERDRIVE_BUNDLE_HIGHLIGHTS_TAB_NAME"
+      },
+      {
+        "image": "",
+        "mainElement": {
+          "description": "",
+          "elementType": 5,
+          "image": "",
+          "inventoryType": 1,
+          "page": [
+            {
+              "description": [
+                "HYPERDRIVE_BUNDLE_ACTIVITIES_TAB_LIGHT_DARK_CANTINA_STAGES_DESC",
+                "HYPERDRIVE_BUNDLE_ACTIVITIES_TAB_CHALLENGE_TIERS_DESC",
+                "HYPERDRIVE_BUNDLE_ACTIVITIES_TAB_MOD_BATTLE_STAGES_DESC",
+                "HYPERDRIVE_BUNDLE_ACTIVITIES_TAB_SUBTITLE_DESC"
+              ],
+              "image": "tex.light_dark_holotable",
+              "sprite": [
+                "",
+                "icon_hd_penultimate",
+                "icon_hd_mod_battle",
+                ""
+              ],
+              "title": "HYPERDRIVE_BUNDLE_NAME"
+            }
+          ],
+          "title": ""
+        },
+        "text": "HYPERDRIVE_BUNDLE_ACTIVITY_ACCESS_TAB_NAME"
+      },
+      {
+        "image": "",
+        "mainElement": {
+          "description": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "HYPERDRIVE_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      },
+      {
+        "image": "",
+        "mainElement": {
+          "description": "HYPERDRIVE_BUNDLE_SHIPS_TAB_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 3,
+          "page": [],
+          "title": "HYPERDRIVE_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_SHIPS_TAB_NAME"
+      },
+      {
+        "image": "",
+        "mainElement": {
+          "description": "HYPERDRIVE_BUNDLE_RESOURCES_TAB_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_tie_snowspeeder",
+          "inventoryType": 5,
+          "page": [],
+          "title": "HYPERDRIVE_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_RESOURCES_TAB_NAME"
+      },
+      {
+        "image": "",
+        "mainElement": {
+          "description": "HYPERDRIVE_BUNDLE_VIEW_ALL_TAB_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_shield_generator",
+          "inventoryType": 6,
+          "page": [],
+          "title": "HYPERDRIVE_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_VIEW_ALL_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "HERASYNDULLAS3",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "ZEBS3",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CHOPPERS3",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "SABINEWRENS3",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "EZRABRIDGERS3",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "KANANJARRUSS3",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "ADMIRALACKBAR",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "BIGGSDARKLIGHTER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "WEDGEANTILLES",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "SMUGGLERHAN",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "SMUGGLERCHEWBACCA",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "HOTHREBELSCOUT",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "HOTHREBELSOLDIER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "ADMINISTRATORLANDO",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "LUKESKYWALKER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "OLDBENKENOBI",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "PRINCESSLEIA",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "STORMTROOPERHAN",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "JYNERSO",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "K2SO",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CHIRRUTIMWE",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "BAZEMALBUS",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CASSIANANDOR",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "AHSOKATANO",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "ANAKINKNIGHT",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "QUIGONJINN",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "BASTILASHAN",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "MACEWINDU",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "FINN",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "POE",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "RESISTANCEPILOT",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "RESISTANCETROOPER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "REY",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "VEERS",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "DEATHTROOPER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "SHORETROOPER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "SNOWTROOPER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "STORMTROOPER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "KYLOREN",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "PHASMA",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "FIRSTORDEROFFICERMALE",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "FIRSTORDERTROOPER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "KYLORENUNMASKED",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "FIRSTORDEREXECUTIONER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "BOBAFETT",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CADBANE",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "IG88",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "GREEDO",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "COUNTDOOKU",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "MAUL",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "DARTHNIHILUS",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "DARTHSIDIOUS",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "VADER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "MOTHERTALZIN",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "ASAJVENTRESS",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "NIGHTSISTERSPIRIT",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "DAKA",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "TALIA",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CLONESERGEANTPHASEI",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CT5555",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CT210408",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CT7567",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CC2224",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "TIEFIGHTERPILOT",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "GRANDMOFFTARKIN",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 5,
+        "tier": 8
+      },
+      {
+        "id": "CAPITALJEDICRUISER",
+        "level": 80,
+        "rarity": 1,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 2,
+        "tier": 1
+      },
+      {
+        "id": "CAPITALSTARDESTROYER",
+        "level": 80,
+        "rarity": 1,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 2,
+        "tier": 1
+      },
+      {
+        "id": "CAPITALMONCALAMARICRUISER",
+        "level": 80,
+        "rarity": 1,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 2,
+        "tier": 1
+      },
+      {
+        "id": "SLAVE1",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_slave101",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "TIESILENCER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_TIESILENCER01",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "TIEFIGHTERIMPERIAL",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_TIEFIGHTERIMPERIAL01",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "XANADUBLOOD",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_XANADUBLOOD01",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "VULTUREDROID",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_VULTUREDROID01",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "IG2000",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_IG20001",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "ARC170CLONESERGEANT",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_ARC170CLONESERGEANT01",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "JEDISTARFIGHTERAHSOKATANO",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_JEDISTARFIGHTERAHSOKATANO01",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "UMBARANSTARFIGHTER",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_UMBARANSTARFIGHTER01",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "XWINGRED3",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_XWINGRED301",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "XWINGRED2",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_XWINGRED201",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "GHOST",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_GHOST01",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      },
+      {
+        "id": "PHANTOM2",
+        "level": 80,
+        "rarity": 5,
+        "relicTier": 1,
+        "skillOverride": [
+          {
+            "id": "hardwareskill_PHANTOM201",
+            "tier": 0,
+            "unlocked": true
+          }
+        ],
+        "skillTier": 4,
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "bb_8_lightspeed_bundle",
+    "info": "BB_8_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "BB_8_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "BB_8_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "KYLORENUNMASKED",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "KYLOREN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FOSITHTROOPER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "PHASMA",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "GENERALHUX",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDERSPECIALFORCESPILOT",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDERTROOPER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDEROFFICERMALE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDERTIEPILOT",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDEREXECUTIONER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      }
+    ]
+  },
+  {
+    "id": "resistance_lightspeed_bundle",
+    "info": "RESISTANCE_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "RESISTANCE_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "RESISTANCE_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "RESISTANCETROOPER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "RESISTANCEPILOT",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "POE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "EPIXPOE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "EPIXFINN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "AMILYNHOLDO",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "ROSETICO",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      }
+    ]
+  },
+  {
+    "id": "jedi_training_rey_lightspeed_bundle",
+    "info": "JEDI_TRAINING_REY_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "JEDI_TRAINING_REY_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "JEDI_TRAINING_REY_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "REY",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FINN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "SMUGGLERCHEWBACCA",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "SMUGGLERHAN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      }
+    ]
+  },
+  {
+    "id": "raddus_lightspeed_bundle",
+    "info": "RADDUS_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "RADDUS_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "RADDUS_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      },
+      {
+        "image": "",
+        "mainElement": {
+          "description": "RADDUS_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 3,
+          "page": [],
+          "title": "RADDUS_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_SHIPS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "REY",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FINN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "POE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "RESISTANCEPILOT",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "BOSSK",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "CARTHONASI",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "T3_M4",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "AHSOKATANO",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "YOUNGLANDO",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "L3_37",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "MILLENNIUMFALCONEP7",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "XWINGRESISTANCE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "XWINGBLACKONE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "HOUNDSTOOTH",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "EBONHAWK",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "JEDISTARFIGHTERAHSOKATANO",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "MILLENNIUMFALCONPRISTINE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "starkiller_lightspeed_bundle",
+    "info": "STARKILLER_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "STARKILLER_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "STARKILLER_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "DASHRENDAR",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "KYLEKATARN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "MARAJADE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "DARTHTALON",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      }
+    ]
+  },
+  {
+    "id": "shadows_of_the_empire_lightspeed_bundle",
+    "info": "SHADOWS_OF_THE_EMPIRE_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "SHADOWS_OF_THE_EMPIRE_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "SHADOWS_OF_THE_EMPIRE_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      },
+      {
+        "image": "",
+        "mainElement": {
+          "description": "SHADOWS_OF_THE_EMPIRE_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 3,
+          "page": [],
+          "title": "SHADOWS_OF_THE_EMPIRE_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_SHIPS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "OLDBENKENOBI",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "LUKESKYWALKER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "ADMINISTRATORLANDO",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "PRINCESSLEIA",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "ADMIRALACKBAR",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "BIGGSDARKLIGHTER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "WEDGEANTILLES",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "EZRABRIDGERS3",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "KANANJARRUSS3",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "HERASYNDULLAS3",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "ZEBS3",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "CHOPPERS3",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "SABINEWRENS3",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 5,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "XWINGRED2",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "XWINGRED3",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "GHOST",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "PHANTOM2",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "supreme_leader_kylo_ren_lightspeed_bundle",
+    "info": "SUPREME_LEADER_KYLO_REN_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "SUPREME_LEADER_KYLO_REN_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "SUPREME_LEADER_KYLO_REN_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "KYLORENUNMASKED",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "KYLOREN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FOSITHTROOPER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "PHASMA",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "GENERALHUX",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDERSPECIALFORCESPILOT",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDERTROOPER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDEROFFICERMALE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDERTIEPILOT",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDEREXECUTIONER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "SMUGGLERHAN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      }
+    ]
+  },
+  {
+    "id": "finalizer_lightspeed_bundle",
+    "info": "FINALIZER_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "FINALIZER_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "FINALIZER_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      },
+      {
+        "image": "",
+        "mainElement": {
+          "description": "FINALIZER_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 3,
+          "page": [],
+          "title": "FINALIZER_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_SHIPS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "VADER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "BOBAFETT",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "KYLORENUNMASKED",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "KYLOREN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "PHASMA",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDERTROOPER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "FIRSTORDERTIEPILOT",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "CADBANE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "BOSSK",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "TIEFIGHTERFIRSTORDER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "HOUNDSTOOTH",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "COMMANDSHUTTLE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "SLAVE1",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "TIESILENCER",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "TIEADVANCED",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      },
+      {
+        "id": "XANADUBLOOD",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 1,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 1
+      }
+    ]
+  },
+  {
+    "id": "mandalorian_beskar_lightspeed_bundle",
+    "info": "MANDALORIAN_BESKAR_LIGHTSPEED_BUNDLE_INFO",
+    "inventoryItem": [],
+    "primaryGalacticBundle": false,
+    "tabs": [
+      {
+        "image": "",
+        "mainElement": {
+          "description": "MANDALORIAN_BESKAR_LIGHTSPEED_BUNDLE_DESC",
+          "elementType": 3,
+          "image": "tex.territory_backdrop_hoth_turretsvslaser",
+          "inventoryType": 2,
+          "page": [],
+          "title": "MANDALORIAN_BESKAR_LIGHTSPEED_BUNDLE_NAME"
+        },
+        "text": "HYPERDRIVE_BUNDLE_CHARACTERS_TAB_NAME"
+      }
+    ],
+    "targetPlayerLevel": 85,
+    "unitUpgrade": [
+      {
+        "id": "THEMANDALORIAN",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "IG11",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "KUIIL",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "CARADUNE",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      },
+      {
+        "id": "GREEFKARGA",
+        "level": 85,
+        "rarity": 7,
+        "relicTier": 7,
+        "skillOverride": [],
+        "skillTier": 7,
+        "tier": 13
+      }
+    ]
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "allowedChangesLocKey": "TIME_CHANGE_ALLOWED_PER_PERIOD",
+  "allowedChangesPerPeriod": 2,
+  "allowedChangesResetLocKey": "TIME_CHANGE_RESET_DESCRIPTION",
+  "maxTimeZoneChangeHoursExclusive": 24,
+  "timeZoneChangeCooldownId": "TIME_ZONE_CHANGE_COOLDOWN",
+  "timeZoneDefinition": [
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 840
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 825
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 780
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 720
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 660
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 630
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 600
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 570
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 540
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 525
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 480
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 420
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 390
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 360
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 345
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 330
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 300
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 270
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 240
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": 210
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 180
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 120
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 60
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": 0
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -60
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -120
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": -150
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -180
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -240
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -300
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -360
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -420
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -480
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -540
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": -570
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -600
+    },
+    {
+      "primary": true,
+      "timeZoneOffsetMinutes": -660
+    },
+    {
+      "primary": false,
+      "timeZoneOffsetMinutes": -720
+    }
+  ]
+}

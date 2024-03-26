@@ -1,0 +1,7 @@
+coverage
+flake8-pytest-style
+pre-commit
+pytest
+pytest-aiohttp
+pytest-cov
+pytest-mock

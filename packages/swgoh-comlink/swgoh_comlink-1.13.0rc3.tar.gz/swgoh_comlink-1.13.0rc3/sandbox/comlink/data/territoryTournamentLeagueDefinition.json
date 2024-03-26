@@ -1,0 +1,47 @@
+[
+  {
+    "blankIcon": "tex.league_icon_carbonite_blank",
+    "icon": "tex.league_icon_carbonite",
+    "id": "CARBONITE",
+    "nameKey": "SEASONS_LEAGUE_CARBONITE_NAME",
+    "portraitFrame": "tex.vanity_portrait_league_carbonite",
+    "rank": 20,
+    "sprite": "icon_carbonite"
+  },
+  {
+    "blankIcon": "tex.league_icon_bronzium_blank",
+    "icon": "tex.league_icon_bronzium",
+    "id": "BRONZIUM",
+    "nameKey": "SEASONS_LEAGUE_BRONZIUM_NAME",
+    "portraitFrame": "tex.vanity_portrait_league_bronzium",
+    "rank": 40,
+    "sprite": "icon_bronzium"
+  },
+  {
+    "blankIcon": "tex.league_icon_chromium_blank",
+    "icon": "tex.league_icon_chromium",
+    "id": "CHROMIUM",
+    "nameKey": "SEASONS_LEAGUE_CHROMIUM_NAME",
+    "portraitFrame": "tex.vanity_portrait_league_chromium",
+    "rank": 60,
+    "sprite": "icon_chromium"
+  },
+  {
+    "blankIcon": "tex.league_icon_aurodium_blank",
+    "icon": "tex.league_icon_aurodium",
+    "id": "AURODIUM",
+    "nameKey": "SEASONS_LEAGUE_AURODIUM_NAME",
+    "portraitFrame": "tex.vanity_portrait_league_aurodium",
+    "rank": 80,
+    "sprite": "icon_aurodium"
+  },
+  {
+    "blankIcon": "tex.league_icon_kyber_blank",
+    "icon": "tex.league_icon_kyber",
+    "id": "KYBER",
+    "nameKey": "SEASONS_LEAGUE_KYBER_NAME",
+    "portraitFrame": "tex.vanity_portrait_league_kyber",
+    "rank": 100,
+    "sprite": "icon_kyber"
+  }
+]

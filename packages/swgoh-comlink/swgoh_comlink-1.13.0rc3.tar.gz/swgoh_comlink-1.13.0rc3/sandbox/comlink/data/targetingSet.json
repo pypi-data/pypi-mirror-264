@@ -1,0 +1,92 @@
+[
+  {
+    "id": "default_pve",
+    "weight": [
+      {
+        "param": "role_tank",
+        "type": "CATEGORY",
+        "valueDecimal": 500000
+      },
+      {
+        "param": "role_attacker",
+        "type": "CATEGORY",
+        "valueDecimal": 200000
+      },
+      {
+        "param": "role_healer",
+        "type": "CATEGORY",
+        "valueDecimal": 300000
+      },
+      {
+        "param": "role_support",
+        "type": "CATEGORY",
+        "valueDecimal": 200000
+      },
+      {
+        "param": "role_horde",
+        "type": "CATEGORY",
+        "valueDecimal": 100000
+      },
+      {
+        "param": "targeting_sets_exclude",
+        "type": "EXCLUDE_CATEGORY",
+        "valueDecimal": 0
+      },
+      {
+        "param": "50",
+        "type": "HEALTH_PERCENT",
+        "valueDecimal": 10000
+      },
+      {
+        "param": "25",
+        "type": "HEALTH_PERCENT",
+        "valueDecimal": 25000
+      }
+    ]
+  },
+  {
+    "id": "default_pvp",
+    "weight": [
+      {
+        "param": "role_tank",
+        "type": "CATEGORY",
+        "valueDecimal": 100000
+      },
+      {
+        "param": "role_attacker",
+        "type": "CATEGORY",
+        "valueDecimal": 300000
+      },
+      {
+        "param": "role_healer",
+        "type": "CATEGORY",
+        "valueDecimal": 500000
+      },
+      {
+        "param": "role_support",
+        "type": "CATEGORY",
+        "valueDecimal": 300000
+      },
+      {
+        "param": "role_horde",
+        "type": "CATEGORY",
+        "valueDecimal": 200000
+      },
+      {
+        "param": "targeting_sets_exclude",
+        "type": "EXCLUDE_CATEGORY",
+        "valueDecimal": 0
+      },
+      {
+        "param": "50",
+        "type": "HEALTH_PERCENT",
+        "valueDecimal": 10000
+      },
+      {
+        "param": "25",
+        "type": "HEALTH_PERCENT",
+        "valueDecimal": 25000
+      }
+    ]
+  }
+]

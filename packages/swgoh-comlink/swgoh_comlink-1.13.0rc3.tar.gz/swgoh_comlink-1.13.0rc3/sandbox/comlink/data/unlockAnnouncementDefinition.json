@@ -1,0 +1,86 @@
+[
+  {
+    "feature": "SHIPMENTA",
+    "interval": 1,
+    "messageKey": "UnlockMessage_SHIPMENTA",
+    "startOffset": 2
+  },
+  {
+    "feature": "SQUAD_PVP",
+    "interval": 1,
+    "messageKey": "UnlockMessage_SQUAD_PVP",
+    "startOffset": 6
+  },
+  {
+    "feature": "DARK_CAMPAIGN",
+    "interval": 1,
+    "messageKey": "UnlockMessage_DARK_CAMPAIGN",
+    "startOffset": 4
+  },
+  {
+    "feature": "TRIALS",
+    "interval": 1,
+    "messageKey": "UnlockMessage_TRIALS",
+    "startOffset": 3
+  },
+  {
+    "feature": "EVENTS",
+    "interval": 1,
+    "messageKey": "UnlockMessage_EVENTS",
+    "startOffset": 5
+  },
+  {
+    "feature": "GUILDS",
+    "interval": 1,
+    "messageKey": "UnlockMessage_GUILDS",
+    "startOffset": 2
+  },
+  {
+    "feature": "CANTINA_BATTLES",
+    "interval": 1,
+    "messageKey": "UnlockMessage_CANTINA_BATTLES",
+    "startOffset": 1
+  },
+  {
+    "feature": "SHIP_CANTINA_BATTLES",
+    "interval": 1,
+    "messageKey": "UnlockMessage_SHIP_CANTINA_BATTLES",
+    "startOffset": 4
+  },
+  {
+    "feature": "SHIP_HOME",
+    "interval": 1,
+    "messageKey": "UnlockMessage_SHIP_HOME",
+    "startOffset": 20
+  },
+  {
+    "feature": "STAT_MOD_BATTLES",
+    "interval": 1,
+    "messageKey": "UnlockMessage_STAT_MOD_BATTLES",
+    "startOffset": 10
+  },
+  {
+    "feature": "ALLIES",
+    "interval": 1,
+    "messageKey": "UnlockMessage_ALLIES",
+    "startOffset": 3
+  },
+  {
+    "feature": "GUILD_TERRITORYBATTLES",
+    "interval": 1,
+    "messageKey": "UnlockMessage_GUILD_TERRITORY_BATTLES",
+    "startOffset": 3
+  },
+  {
+    "feature": "FLEET_PVP",
+    "interval": 1,
+    "messageKey": "UnlockMessage_FLEET_PVP",
+    "startOffset": 2
+  },
+  {
+    "feature": "SEASONS",
+    "interval": 1,
+    "messageKey": "UnlockMessage_SEASONS",
+    "startOffset": 5
+  }
+]

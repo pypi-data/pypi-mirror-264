@@ -1,0 +1,4888 @@
+[
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "longitudinally_implemented",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "targeting_sets_exclude",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "cannot_evade",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "any_obtainable",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "suppress_death",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "reduced_massive_damage",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "non_viable_leader",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "category_pacifist",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "no_recovery",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "transformed_unit",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "crewless",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_EVENTONLY",
+    "id": "eventonly",
+    "uiFilter": [],
+    "visible": true
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conquestboss",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_CHARACTER_FLEETCOMMANDER",
+    "id": "character_fleetcommander",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_SPECIESEWOK_DESC",
+    "id": "species_ewok",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_SPECIESHUMAN_DESC",
+    "id": "species_human",
+    "uiFilter": [
+      1
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_SPECIESDROID_DESC",
+    "id": "species_droid",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_SPECIESJAWA_DESC",
+    "id": "species_jawa",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_SPECIESTUSKEN_DESC",
+    "id": "species_tusken",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_GEONOSIAN_DESC",
+    "id": "species_geonosian",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_WOOKIEE_DESC",
+    "id": "species_wookiee",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_WOOKIEE_DESC",
+    "id": "species_wookiee_ls",
+    "uiFilter": [
+      1
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "species_klatooinian",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_BURNERXP_DESC",
+    "id": "unittype_burnerxp",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_SUMMONED_UNIT_DESC",
+    "id": "summoned_unit",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_GALACTIC_LEGEND_DESC",
+    "id": "galactic_legend",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "SOE_summoner",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "big_character",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "ForceAlignment_Dark",
+    "id": "alignment_dark",
+    "uiFilter": [
+      1
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "ForceAlignment_Light",
+    "id": "alignment_light",
+    "uiFilter": [
+      1
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "ForceAlignment_Neutral",
+    "id": "alignment_neutral",
+    "uiFilter": [
+      1
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_CLONETROOPER_DESC",
+    "id": "profession_clonetrooper",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "profession_clonetrooper_ls",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_501st",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_501STCLONES_DESC",
+    "id": "affiliation_501st_visible",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_MANDALORIAN_DESC",
+    "id": "affiliation_mandalorian",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_MANDALORIAN_DESC",
+    "id": "affiliation_ds_mandalorian",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_MANDALORIAN_DESC",
+    "id": "affiliation_ls_mandalorian",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_galactic_republic_jedi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_501st_clone",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_JEDI_DESC",
+    "id": "profession_jedi",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_SCOUNDREL_DESC",
+    "id": "profession_scoundrel",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_SITH_DESC",
+    "id": "profession_sith",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_BOUNTYHUNTER_DESC_V2",
+    "id": "profession_bountyhunter",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_SMUGGLER_DESC",
+    "id": "profession_smuggler",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_RAIDER_DESC",
+    "id": "profession_raider",
+    "uiFilter": [
+      1
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_212THCLONES_DESC",
+    "id": "affiliation_212th",
+    "uiFilter": [],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_212THCLONES_DESC",
+    "id": "affiliation_212th_clone",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_INQUISITORIUS_DESC",
+    "id": "profession_inquisitorius",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_FIGHTER_DESC",
+    "id": "shipclass_fighter",
+    "uiFilter": [
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_FREIGHTER_DESC",
+    "id": "shipclass_freighter",
+    "uiFilter": [
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_CAPITAL_DESC",
+    "id": "shipclass_capitalship",
+    "uiFilter": [
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_CARGOSHIP_DESC",
+    "id": "shipclass_cargoship",
+    "uiFilter": [
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_CORVETTE_DESC",
+    "id": "shipclass_corvette",
+    "uiFilter": [
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_DREADNAUGHT_DESC",
+    "id": "shipclass_dreadnaught",
+    "uiFilter": [
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_REBELS_DESC",
+    "id": "affiliation_rebels",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_PHOENIX_DESC",
+    "id": "affiliation_phoenix",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_ROGUE_ONE_DESC",
+    "id": "affiliation_rogue_one",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_REBELFIGHTER_DESC",
+    "id": "affiliation_rebelfighter",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_GALACTICREPUBLIC_DESC",
+    "id": "affiliation_republic",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_OLDREPUBLIC_DESC",
+    "id": "affiliation_oldrepublic",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_EMPIRE_DESC",
+    "id": "affiliation_empire",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_IMPERIALTROOPER_DESC",
+    "id": "affiliation_imperialtrooper",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_NIGHTSISTERS_DESC",
+    "id": "affiliation_nightsisters",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_RESISTANCE_DESC",
+    "id": "affiliation_resistance",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_FIRSTORDER_DESC",
+    "id": "affiliation_firstorder",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_SEPARATIST_DESC",
+    "id": "affiliation_separatist",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_separatist_droid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_SITHEMPIRE_DESC",
+    "id": "affiliation_sithempire",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_BADBATCH_DESC",
+    "id": "affiliation_badbatch",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_IMPERIALREMNANT_DESC",
+    "id": "affiliation_imperialremnant",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_HUTTCARTEL_DESC",
+    "id": "affiliation_huttcartel",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_imperialtrooper_droid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_fomilitary",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_foexecutionsquad",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_gacs2fireteam",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_foties",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_kylos",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_reys",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_kenobis",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_resistancexwings",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_el16",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_jacket",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_veteransmuggler",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_dathbros",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_forcelightning",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_sithlord",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_palp",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_order66",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_doubleblade",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_sabacc",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_crimsondawn",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_smuggled",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_millennium",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_rebfalconcrew",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_resfalconcrew",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "affiliation_prisfalconcrew",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_PYKE_DESC",
+    "id": "affiliation_pykes",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_PARTISAN_DESC",
+    "id": "affiliation_partisan",
+    "uiFilter": [
+      1
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_AAYLASECURA_NAME",
+    "id": "selftag_aaylasecura",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ADMINISTRATORLANDO_NAME",
+    "id": "selftag_administratorlando",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ADMIRALACKBAR_NAME",
+    "id": "selftag_admiralackbar",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ADMIRALPIETT_NAME",
+    "id": "selftag_admiralpiett",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_AHSOKATANO_NAME",
+    "id": "selftag_ahsokatano",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_AMILYNHOLDO_NAME",
+    "id": "selftag_amilynholdo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ANAKINKNIGHT_NAME",
+    "id": "selftag_anakinknight",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ARCTROOPER501ST_NAME",
+    "id": "selftag_arctrooper501st",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ARMORER_NAME",
+    "id": "selftag_armorer",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ASAJVENTRESS_NAME",
+    "id": "selftag_asajventriss",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_AURRASING_NAME",
+    "id": "selftag_aurrasing",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_B1BATTLEDROIDV2_NAME",
+    "id": "selftag_b1battledroidv2",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_B2SUPERBATTLEDROID_NAME",
+    "id": "selftag_b2superbattledroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BADBATCHECHO_NAME",
+    "id": "selftag_badbatchecho",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BADBATCHHUNTER_NAME",
+    "id": "selftag_badbatchhunter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BADBATCHOMEGA_NAME",
+    "id": "selftag_badbatchomega",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BADBATCHTECH_NAME",
+    "id": "selftag_badbatchtech",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BADBATCHWRECKER_NAME",
+    "id": "selftag_badbatchwrecker",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BARRISSOFFEE_NAME",
+    "id": "selftag_barrissoffee",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BASTILASHAN_NAME",
+    "id": "selftag_bastilashan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BASTILASHANDARK_NAME",
+    "id": "selftag_bastilashandark",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BAZEMALBUS_NAME",
+    "id": "selftag_bazemalbus",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BB8_NAME",
+    "id": "selftag_bb8",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BIGGSDARKLIGHTER_NAME",
+    "id": "selftag_biggsdarklighter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BISTAN_NAME",
+    "id": "selftag_bistan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BOBAFETT_NAME",
+    "id": "selftag_bobafett",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BOBAFETTSCION_NAME",
+    "id": "selftag_bobafettscion",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BODHIROOK_NAME",
+    "id": "selftag_bodhirook",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BOKATAN_NAME",
+    "id": "selftag_bokatan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BOSSK_NAME",
+    "id": "selftag_bossk",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_C3POCHEWBACCA_NAME",
+    "id": "selftag_c3pochewbacca",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_C3POLEGENDARY_NAME",
+    "id": "selftag_c3polegendary",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CADBANE_NAME",
+    "id": "selftag_cadbane",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CANDEROUSORDO_NAME",
+    "id": "selftag_canderousordo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CARADUNE_NAME",
+    "id": "selftag_caradune",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CARTHONASI_NAME",
+    "id": "selftag_carthonasi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CASSIANANDOR_NAME",
+    "id": "selftag_cassianandor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CC2224_NAME_V2",
+    "id": "selftag_cc2224",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CHEWBACCALEGENDARY_NAME",
+    "id": "selftag_chewbaccalegendary",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CHIEFCHIRPA_NAME",
+    "id": "selftag_chiefchirpa",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CHIEFNEBIT_NAME",
+    "id": "selftag_chiefnebit",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CHIRRUTIMWE_NAME",
+    "id": "selftag_chirrutimwe",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CHOPPERS3_NAME",
+    "id": "selftag_choppers3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CLONESERGEANTPHASEI_NAME",
+    "id": "selftag_clonesergeantphase1",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CLONEWARSCHEWBACCA_NAME",
+    "id": "selftag_clonewarschewbacca",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_COLONELSTARCK_NAME",
+    "id": "selftag_colonelstarck",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_COMMANDERAHSOKA_NAME",
+    "id": "selftag_commanderahsoka",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_COMMANDERLUKESKYWALKER_NAME",
+    "id": "selftag_commanderlukeskywalker",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CORUSCANTUNDERWORLDPOLICE_NAME",
+    "id": "selftag_coruscantunderworldpolice",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_COUNTDOOKU_NAME",
+    "id": "selftag_countdooku",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CT210408_NAME",
+    "id": "selftag_ct210408",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CT5555_NAME",
+    "id": "selftag_ct5555",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CT7567_NAME",
+    "id": "selftag_ct7567",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DAKA_NAME",
+    "id": "selftag_daka",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARKTROOPER_NAME",
+    "id": "selftag_darktrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHMALAK_NAME",
+    "id": "selftag_darthmalak",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHMALGUS_NAME",
+    "id": "selftag_darthmalgus",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHNIHILUS_NAME",
+    "id": "selftag_darthnihilus",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHREVAN_NAME",
+    "id": "selftag_darthrevan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHSIDIOUS_NAME",
+    "id": "selftag_darthsidious",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHSION_NAME",
+    "id": "selftag_darthsion",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHTALON_NAME",
+    "id": "selftag_darthtalon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHTRAYA_NAME",
+    "id": "selftag_darthtraya",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DASHRENDAR_NAME",
+    "id": "selftag_dashrendar",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DATHCHA_NAME",
+    "id": "selftag_dathcha",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DEATHTROOPER_NAME",
+    "id": "selftag_deathtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DENGAR_NAME",
+    "id": "selftag_dengar",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DIRECTORKRENNIC_NAME",
+    "id": "selftag_directorkrennic",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DROIDEKA_NAME",
+    "id": "selftag_droideka",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EETHKOTH_NAME",
+    "id": "selftag_eethkoth",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EIGHTHBROTHER_NAME",
+    "id": "selftag_eighthbrother",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EMBO_NAME",
+    "id": "selftag_embo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EMPERORPALPATINE_NAME",
+    "id": "selftag_emperorpalpatine",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ENFYSNEST_NAME",
+    "id": "selftag_enfysnest",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EPIXFINN_NAME",
+    "id": "selftag_epixfinn",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EPIXPOE_NAME",
+    "id": "selftag_epixpoe",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EWOKELDER_NAME",
+    "id": "selftag_ewokelder",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EWOKSCOUT_NAME",
+    "id": "selftag_ewokscout",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_EZRABRIDGERS3_NAME",
+    "id": "selftag_ezrabridgers3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FENNECSHAND_NAME",
+    "id": "selftag_fennecshand",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FINN_NAME",
+    "id": "selftag_finn",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FIRSTORDEREXECUTIONER_NAME",
+    "id": "selftag_firstorderexecutioner",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FIRSTORDEROFFICERMALE_NAME",
+    "id": "selftag_firstorderofficermale",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FIRSTORDERSPECIALFORCESPILOT_NAME",
+    "id": "selftag_firstorderspecialforcespilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FIRSTORDERTIEPILOT_NAME",
+    "id": "selftag_firstordertiepilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FIRSTORDERTROOPER_NAME",
+    "id": "selftag_firstordertrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FOSITHTROOPER_NAME",
+    "id": "selftag_fosithtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FULCRUMAHSOKA_NAME",
+    "id": "selftag_fulcrumahsoka",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GAMORREANGUARD_NAME",
+    "id": "selftag_gamorreanguard",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GARSAXON_NAME",
+    "id": "selftag_garsaxon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GENERALHUX_NAME",
+    "id": "selftag_generalhux",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GENERALKENOBI_NAME",
+    "id": "selftag_generalkenobi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GENERALSKYWALKER_NAME",
+    "id": "selftag_generalskywalker",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GEONOSIANBROODALPHA_NAME",
+    "id": "selftag_geonosianbroodalpha",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GEONOSIANSOLDIER_NAME",
+    "id": "selftag_geonosiansoldier",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GEONOSIANSPY_NAME",
+    "id": "selftag_geonosianspy",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GLREY_NAME",
+    "id": "selftag_glrey",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GRANDADMIRALTHRAWN_NAME",
+    "id": "selftag_grandadmiralthrawn",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GRANDMASTERLUKE_NAME",
+    "id": "selftag_grandmasterluke",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GRANDMASTERYODA_NAME",
+    "id": "selftag_grandmasteryoda",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GRANDMOFFTARKIN_NAME",
+    "id": "selftag_grandmofftarkin",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GREEDO_NAME",
+    "id": "selftag_greedo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GREEFKARGA_NAME",
+    "id": "selftag_greefkarga",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GRIEVOUS_NAME",
+    "id": "selftag_grievous",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HANSOLO_NAME",
+    "id": "selftag_hansolo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HERASYNDULLAS3_NAME",
+    "id": "selftag_herasyndullas3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HERMITYODA_NAME",
+    "id": "selftag_hermityoda",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HK47_NAME",
+    "id": "selftag_hk47",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HOTHHAN_NAME",
+    "id": "selftag_hothhan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HOTHLEIA_NAME_V2",
+    "id": "selftag_hothleia",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HOTHREBELSCOUT_NAME",
+    "id": "selftag_hothrebelscout",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HOTHREBELSOLDIER_NAME",
+    "id": "selftag_hothrebelsoldier",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HUMANTHUG_NAME",
+    "id": "selftag_humanthug",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_IDENVERSIOEMPIRE_NAME",
+    "id": "selftag_idenversioempire",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_IG11_NAME",
+    "id": "selftag_ig11",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_IG12_NAME",
+    "id": "selftag_ig12",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_IG86SENTINELDROID_NAME",
+    "id": "selftag_ig86sentineldroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_IG88_NAME",
+    "id": "selftag_ig88",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_IMAGUNDI_NAME",
+    "id": "selftag_imagundi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_IMPERIALPROBEDROID_NAME",
+    "id": "selftag_imperialprobedroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_IMPERIALSUPERCOMMANDO_NAME",
+    "id": "selftag_imperialsupercommando",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JANGOFETT_NAME",
+    "id": "selftag_jangofett",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JAWA_NAME",
+    "id": "selftag_jawa",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JAWAENGINEER_NAME",
+    "id": "selftag_jawaengineer",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JAWASCAVENGER_NAME",
+    "id": "selftag_jawascavenger",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JEDIKNIGHTCONSULAR_NAME",
+    "id": "selftag_jediknightconsular",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JEDIKNIGHTGUARDIAN_NAME",
+    "id": "selftag_jediknightguardian",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JEDIKNIGHTLUKE_NAME",
+    "id": "selftag_jediknightluke",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JEDIKNIGHTREVAN_NAME",
+    "id": "selftag_jediknightrevan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JEDIMASTERKENOBI_NAME",
+    "id": "selftag_jedimasterkenobi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JOLEEBINDO_NAME",
+    "id": "selftag_joleebindo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JUHANI_NAME",
+    "id": "selftag_juhani",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JYNERSO_NAME",
+    "id": "selftag_jynerso",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_K2SO_NAME",
+    "id": "selftag_k2so",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_KANANJARRUSS3_NAME",
+    "id": "selftag_kananjarruss3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_KIADIMUNDI_NAME",
+    "id": "selftag_kiadimundi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_KITFISTO_NAME",
+    "id": "selftag_kitfisto",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_KUIIL_NAME",
+    "id": "selftag_kuiil",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_KYLEKATARN_NAME",
+    "id": "selftag_kylekatarn",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_KYLOREN_NAME",
+    "id": "selftag_kyloren",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_KYLORENUNMASKED_NAME",
+    "id": "selftag_kylorenunmasked",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_L3_37_NAME",
+    "id": "selftag_l3_37",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_LOBOT_NAME",
+    "id": "selftag_lobot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_LOGRAY_NAME",
+    "id": "selftag_logray",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_LORDVADER_NAME",
+    "id": "selftag_lordvader",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_LUKESKYWALKER_NAME_V2",
+    "id": "selftag_lukeskywalker",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_LUMINARAUNDULI_NAME",
+    "id": "selftag_luminaraunduli",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MACEWINDU_NAME",
+    "id": "selftag_macewindu",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MAGMATROOPER_NAME",
+    "id": "selftag_magmatrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MAGNAGUARD_NAME",
+    "id": "selftag_magnaguard",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MANDALORBOKATAN_NAME",
+    "id": "selftag_mandalorbokatan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MARAJADE_NAME",
+    "id": "selftag_marajade",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MAUL_NAME",
+    "id": "selftag_maul",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MAULS7_NAME",
+    "id": "selftag_mauls7",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MISSIONVAO_NAME",
+    "id": "selftag_missionvao",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MOFFGIDEONS1_NAME",
+    "id": "selftag_moffgideons1",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MONMOTHMA_NAME",
+    "id": "selftag_monmothma",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MOTHERTALZIN_NAME",
+    "id": "selftag_mothertalzin",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_NIGHTSISTERACOLYTE_NAME",
+    "id": "selftag_nightsisteracolyte",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_NIGHTSISTERINITIATE_NAME",
+    "id": "selftag_nightsisterinitiate",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_NIGHTSISTERSPIRIT_NAME",
+    "id": "selftag_nightsisterspirit",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_NIGHTSISTERZOMBIE_NAME",
+    "id": "selftag_nightsisterzombie",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_NINTHSISTER_NAME",
+    "id": "selftag_ninthsister",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_NUTEGUNRAY_NAME",
+    "id": "selftag_nutegunray",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_OLDBENKENOBI_NAME",
+    "id": "selftag_oldbenkenobi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_PADMEAMIDALA_NAME",
+    "id": "selftag_padmeamidala",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_PAO_NAME",
+    "id": "selftag_pao",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_PAPLOO_NAME",
+    "id": "selftag_paploo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_PHASMA_NAME",
+    "id": "selftag_phasma",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_PLOKOON_NAME",
+    "id": "selftag_plokoon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_POE_NAME",
+    "id": "selftag_poe",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_POGGLETHELESSER_NAME",
+    "id": "selftag_pogglethelesser",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_PRINCESSLEIA_NAME",
+    "id": "selftag_princessleia",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_QIRA_NAME",
+    "id": "selftag_qira",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_QUIGONJINN_NAME",
+    "id": "selftag_quigonjinn",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_R2D2_NAME",
+    "id": "selftag_r2d2_legendary",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_RANGETROOPER_NAME",
+    "id": "selftag_rangetrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_RESISTANCEPILOT_NAME",
+    "id": "selftag_resistancepilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_RESISTANCETROOPER_NAME",
+    "id": "selftag_resistancetrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_REY_NAME_V2",
+    "id": "selftag_rey",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_REYJEDITRAINING_NAME",
+    "id": "selftag_reyjeditraining",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ROSETICO_NAME",
+    "id": "selftag_rosetico",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ROYALGUARD_NAME",
+    "id": "selftag_royalguard",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SABINEWRENS3_NAME",
+    "id": "selftag_sabinewrens3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SAVAGEOPRESS_NAME",
+    "id": "selftag_savageopress",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SCARIFREBEL_NAME",
+    "id": "selftag_scarifrebel",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SECONDSISTER_NAME",
+    "id": "selftag_secondsister",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SEVENTHSISTER_NAME",
+    "id": "selftag_seventhsister",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SHAAKTI_NAME_V2",
+    "id": "selftag_shaakti",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SHORETROOPER_NAME",
+    "id": "selftag_shoretrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SITHASSASSIN_NAME",
+    "id": "selftag_sithassassin",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SITHMARAUDER_NAME",
+    "id": "selftag_sithmarauder",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SITHPALPATINE_NAME",
+    "id": "selftag_sithpalpatine",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SITHTROOPER_NAME",
+    "id": "selftag_sithtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SMUGGLERCHEWBACCA_NAME",
+    "id": "selftag_smugglerchewbacca",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SMUGGLERHAN_NAME",
+    "id": "selftag_smugglerhan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SNOWTROOPER_NAME",
+    "id": "selftag_snowtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_STARKILLER_NAME",
+    "id": "selftag_starkiller",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_STORMTROOPER_NAME",
+    "id": "selftag_stormtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_STORMTROOPERHAN_NAME",
+    "id": "selftag_stormtrooperhan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SUNFAC_NAME",
+    "id": "selftag_sunfac",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SUPREMELEADERKYLOREN_NAME",
+    "id": "selftag_supremeleaderkyloren",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_T3_M4_NAME",
+    "id": "selftag_t3_m4",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TALIA_NAME",
+    "id": "selftag_talia",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TEEBO_NAME",
+    "id": "selftag_teebo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_THEMANDALORIAN_NAME",
+    "id": "selftag_themandalorian",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_THEMANDALORIANBESKARARMOR_NAME",
+    "id": "selftag_themandalorianbeskararmor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TIEFIGHTERPILOT_NAME",
+    "id": "selftag_tiefighterpilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TUSKENRAIDER_NAME",
+    "id": "selftag_tuskenraider",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TUSKENSHAMAN_NAME",
+    "id": "selftag_tuskenshaman",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_UGNAUGHT_NAME",
+    "id": "selftag_ugnaught",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_URORRURRR_NAME",
+    "id": "selftag_urorrurrr",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_VADER_NAME",
+    "id": "selftag_vader",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_VEERS_GENERAL_NAME",
+    "id": "selftag_veers",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_VISASMARR_NAME",
+    "id": "selftag_visasmarr",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_WAMPA_NAME",
+    "id": "selftag_wampa",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_WATTAMBOR_NAME",
+    "id": "selftag_wattambor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_WEDGEANTILLES_NAME",
+    "id": "selftag_wedgeantilles",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_WICKET_NAME",
+    "id": "selftag_wicket",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_YOUNGCHEWBACCA_NAME",
+    "id": "selftag_youngchewbacca",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_YOUNGHAN_NAME",
+    "id": "selftag_younghan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_YOUNGLANDO_NAME",
+    "id": "selftag_younglando",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ZAALBAR_NAME",
+    "id": "selftag_zaalbar",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ZAMWESELL_NAME",
+    "id": "selftag_zamwesell",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ZEBS3_NAME",
+    "id": "selftag_zebs3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "aat_weapons_destroyed",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "aat_weapons_functional",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat_cannon_left_destroyed",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat_cannon_left_functional",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat_cannon_right_destroyed",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat_cannon_right_functional",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat_sidegun_functional",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat_turret02",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat_turret_destroyed",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_aat_turret_functional",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_acklay",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_ajuntapall",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_assaultdroidmk1",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_assaultdroidmk4",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_atstdrivertb",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_b1battledroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_bxseriescommandodroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_b1heavygunner",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_b2rocket",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_bendak_starkiller",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_calonord",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_cartelbruiser",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_cartelenforcer",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_cartelsaboteur",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_cartelspy",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_chewbacca",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_clonecommander_tb",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_commandbattledroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_crosshair",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_darthmalak_mythicpve",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_darthnihilus_sithraid_phase4",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_darthsion_sithraid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_darthsion_sithraid_phase4",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_darthtraya_sithraid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_dummy_airstrike",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_foraider",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_foriotcontrolstormtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_fosnowtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_fosnowtrooperofficer",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_gamorreancaptain",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_geonosianbrute",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_imperialscoutdroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_kalani",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_kotorturret",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_kraytdragon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_lieutenantcowell",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_mercenarycommander",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_mercenarylieutenant",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_mercenaryraider",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_oomcommandbattledroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_padawananakin",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_piratebruiser",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_piratecaptain",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_piratespy",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_pve_generalhux",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_pve_nexu",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_pve_rebelcommander",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_pve_rebelofficer",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_pve_reek",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_partisanfighter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_purgetrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_pykesentinel",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_rancor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_rancordoordestroyed",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_rancordoorfunctional",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_rebelpilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_rebelsoldier",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_scouttrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sithcommando",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sithmarauder_sithraid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sniperdroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_snowtroopercommander",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_snowtrooperops",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_stormtroopercommander",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_stormtroopercommandertb",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_supportdroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_supportdroid_mk5",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tb_arctrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tb_clonemedic",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tb_clonesharpshooter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tb_clonetrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tb_ponds",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_terentatek",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tiefighterimperial",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tseriestacticaldroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_zoriibliss",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_crate_01",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_crate_02",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_crate_03",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "type_object",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_nightsister_altar",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_nightsister_flame",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_darthtraya_lightsaber01_sithraid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_darthtraya_lightsaber02_sithraid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_darthtraya_lightsaber03_sithraid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_jedi_cage",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_blasterturret501st",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_prop_01",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_prop_02",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_prop_03",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_obj_bundleofexplosives",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "type_vehicle",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_atst",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_slave1",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tieadvanced",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tiebomber",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_xwingred3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_xwingresistance",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tiefighterfirstorder",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_millenniumfalconep7",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_millenniumfalconpristine",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_vulturedroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_jedistarfighterconsular",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_xwingred2",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_xwingred5",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_geonosianstarfighter2",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_geonosianstarfighter3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sithinfiltrator",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_geonosianstarfighter1",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitalstardestroyer",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitaldroidcontrolship",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_bladeofdorin",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_arc170clonesergeant",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_arc170rex",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_h2executiveshuttle",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_droidbomber",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitalmoncalamaricruiser",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_jedistarfighterahsokatano",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_jedistarfighteryoda",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_umbaranstarfighter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitaljedicruiser",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_commandshuttle",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_xwingblackone",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_uwingrogueone",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_uwingscarif",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tiereaper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_ghost",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_phantom2",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_gauntletstarfighter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitalchimaera",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tiefighterfosf",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tiesilencer",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sithfighter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_houndstooth",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_hyenabomber",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_xanadublood",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_ig2000",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sithbomber",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_jedistarfighteranakin",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_jedistarfighteranakin_summon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_xwing",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_millenniumfalcon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_fotf_devastator",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_emperorsshuttle",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_ebonhawk",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitalnegotiator",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_v19torrentstarfighter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitalmalevolence",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitalraddus",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitalfinalizer",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_hmpdroidgunship",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_soullessone",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_ywingclonewars",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_ywingrebel",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_SPECIESDROID_DESC",
+    "id": "ship_category_falcon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_SPECIESDROID_DESC",
+    "id": "ship_category_wings",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_SPECIESDROID_DESC",
+    "id": "ship_category_ties",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_ROLEATTACKER_DESC",
+    "id": "role_attacker",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_ROLETANK_DESC",
+    "id": "role_tank",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_ROLESUPPORT_DESC",
+    "id": "role_support",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_ROLEHEALER_DESC",
+    "id": "role_healer",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_ROLECAPITAL_DESC",
+    "id": "role_capital",
+    "uiFilter": [
+      2
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_ROLELEADER_DESC",
+    "id": "role_leader",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "role_none",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_EMPIRE_DESC",
+    "id": "role_capital_empire",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_REPUBLIC_DESC",
+    "id": "role_capital_republic",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_REBELS_DESC",
+    "id": "role_capital_rebel",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "ADMIRAL",
+    "id": "admiral",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_ROLEHORDE_DESC",
+    "id": "role_horde",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_ROLEHORDE_DESC",
+    "id": "role_raidboss",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_ROLEHORDE_DESC",
+    "id": "actual_raidboss",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_ROLEHORDE_DESC",
+    "id": "role_respawner",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "unit_xwing",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "imperialsupercommando_wave1",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "imperialsupercommando_wave2",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "imperialsupercommando_wave3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "imperialsupercommando_wave4",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_hoth",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territorybattle_hoth_lightside_enemy",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_hoth_empire",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_hoth_hero_rebel",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_geonosis_separatist",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_geonosis_republic",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territorybattle_geonosis_lightside_enemy",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_tb3_mixed",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_tb3_lightside",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_tb3_darkside",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_tb3_hero",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_tb3_enemy",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_light_platoon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_dark_platoon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_ship_platoon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_rare_ship_platoon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_elite_enemy",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "dark_marquee_unit",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "turn_meter_blocking_leader",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "exclude_from_tb_mission",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_REBELS_DESC",
+    "id": "specialmission_corerebels",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_REBELS_DESC",
+    "id": "specialmission_legendarylight",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "platoon_legendary_light",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "platoon_legendary_dark",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "platoon_legendary_restricted",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_REBELS_DESC",
+    "id": "specialmission_rogueone",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_EMPIRE_DESC",
+    "id": "specialmission_empire",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_BOUNTYHUNTER_DESC_V2",
+    "id": "specialmission_bountyhunter",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_IMPERIALTROOPER_DESC",
+    "id": "specialmission_imperialtrooper",
+    "uiFilter": [
+      1,
+      2
+    ],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "territory_calkestis",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_snowtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_imperial_probe_droid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_gamorreanguard",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_raid_thepit",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_raid_sithtri",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_darthnihilus",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_darthsion",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_aat",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_stormtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_tseriestacticaldroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "event_pretaunt",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gl_event_unlock_placeholder",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "event_duelboss",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_rey_duel",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_kyloren_duel",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_batch01",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_batch02",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_batch03",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_batch04",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "raid_speeder_bike_allowed",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_rebelpilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_tiepilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_millenniumco-pilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_droidpilot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_tie",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_wingmate",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_trench",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_hothvet",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_execbh",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_bespinocc",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_floataway",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_oldsmoothie",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_vaderluke",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_hadnochoice",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_benr2d2",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_hothsoldscout",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_hodacls",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_veerssnow",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_rolochewie",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_hothempvet",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_landolobot",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_impstormtroopers",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_fostormtrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_tk421",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_tiefighter",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_krendeath",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_succession",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_oldrep",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_forcefully",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_funbegins",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_alliancejedi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_whillsguard",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_jedigenerals",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_jedicouncil",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_nszomspi",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_sepondathomir",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_asajjopress",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_talzinopress",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_mothertcountd",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_sidmaul",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_thecovenssecrets",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_dathomirnative",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_whateverittakes",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_justajob",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_thebox",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_shotfirst",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_theguild",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_wantthemalive",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_jangoclone",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_revenge",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_identity",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_r2c3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_hkt3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_rebeldroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_droidfree",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_impdroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_loyaldroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_rebuilt",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_algorithm",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_deatchwatch",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_experience",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_foretold",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_ahsokasjourney",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_riskymission",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_desperateescape",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_hope",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_rogue",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_aspirations",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_chaze",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_uwing",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_rogueone",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_daringplan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_darksaber",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_theway",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_spoken",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_master",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_therescue",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_foundlings",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_handlethis",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_workingclosely",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_holocron",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_rival",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_diversion",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_avengeus",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_nightbrother",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_forcedtolivealie",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_dontlookback",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_iamthemaster",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_herooftherepublic",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_servantoftheempire",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_nowthisispodracing",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_takethemaskoff",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_alltooeasy",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gac_thechosenone",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_maybebestfriends",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_bestfriends",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_wretched",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_trustenemies",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_likemyfather",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_hokey_religion",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_lightsideunaligned",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_imperialdominance",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_imperialdominancehard",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_idenshore",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_igdroids",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_newhope",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_wantmyarmor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_iknowthereisgood",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_hellothere",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_sustainedbyrage",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_tombraiders",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_swordofajuntapall",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_poweroftheforce",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_lureofthedarkside",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_jedipath",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_sithinitiates",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_galacticemperor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_redemption",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_movingforward",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "gc_light_droid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tiebomberimperial",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_rebeltrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sithpalpatinefp",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_saeseetiin",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_agenkolar",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tpmjediknightlukeskywalker",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_reyexegol",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_kyloexegol",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_benexegol",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tjesupremeleaderkyloren",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sithpalpatineglevent",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_sithpalpatinefpglevent",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_pirateleader",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "glevent_emperor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "glevent_vader",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "quest_tag_challenge1",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_incineratortrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_niktothug",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_niktobruiser",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_niktoheavygunner",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_mudhorn",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_mandalorian_journey_bountyhunter01",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_mandalorian_journey_bountyhunter02",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_klatooinian",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_klatooinian_captain",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_themandalorian_turret",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_razorcrest",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "profession_translator",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_UNALIGNEDFORCEUSER_DESC",
+    "id": "unaligned_force_user",
+    "uiFilter": [
+      1
+    ],
+    "visible": true
+  },
+  {
+    "descKey": "CATEGORY_LIGHTSIDE_UNALIGNEDFORCEUSER_DESC",
+    "id": "ls_unaligned_force_user",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "CATEGORY_DARKSIDE_UNALIGNEDFORCEUSER_DESC",
+    "id": "ds_unaligned_force_user",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "raid_krayt_dragon_allowed",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_clonecaptain_gle",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_clonecaptain501_gle",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_clonecaptain212_gle",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_capitalexecutor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TRENCH_NAME",
+    "id": "selftag_trench",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_jedivanguard",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_fakerex",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_fakefives",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_fakeecho",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_jedimasterguardian",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_tieinterceptor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_mg100starfortresssf17",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_firstordertieechelon",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_OUTRIDER_NAME",
+    "id": "selftag_outrider",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_YT2400_NAME",
+    "id": "selftag_yt2400",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_VCX100_NAME",
+    "id": "selftag_vcx100",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_YV666_NAME",
+    "id": "selftag_yv666",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_50RT_NAME",
+    "id": "selftag_50rt",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FIFTHBROTHER_NAME",
+    "id": "selftag_fifthbrother",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_pve_tuskenraider",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ADMIRALRADDUS_NAME",
+    "id": "selftag_admiralraddus",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GRANDINQUISITOR_NAME",
+    "id": "selftag_grandinquisitor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_RAVENSCLAW_NAME",
+    "id": "selftag_ravensclaw",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_KRRSANTAN_NAME",
+    "id": "selftag_krrsantan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_nonsepdroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_dyadintheforce",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "conq_vadersshadow",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BENSOLO_NAME",
+    "id": "selftag_bensolo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_UNDERCOVERLANDO_NAME",
+    "id": "selftag_undercoverlando",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CAPITALPROFUNDITY_NAME",
+    "id": "selftag_capitalprofundity",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BOUSHH_NAME",
+    "id": "selftag_boushh",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JABBATHEHUTT_NAME",
+    "id": "selftag_jabbathehutt",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HONDO_NAME",
+    "id": "selftag_hondo",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_THIRDSISTER_NAME",
+    "id": "selftag_thirdsister",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TRIPLEZERO_NAME",
+    "id": "selftag_triplezero",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_BT1_NAME",
+    "id": "selftag_bt1",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SCYTHE_NAME",
+    "id": "selftag_scythe",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SANASTARROS_NAME",
+    "id": "selftag_sanastarros",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DOCTORAPHRA_NAME",
+    "id": "selftag_doctoraphra",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_hackedcommandodroid",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_ZORIIBLISS_V2_NAME",
+    "id": "selftag_zoriiblissv2",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TIEDEFENDER_NAME",
+    "id": "selftag_tiedefender",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "twin_ion_engine",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TUSKENCHIEFTAIN_NAME",
+    "id": "selftag_tuskenchieftain",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TUSKENHUNTRESS_NAME",
+    "id": "selftag_tuskenhuntress",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CALKESTIS_NAME",
+    "id": "selftag_calkestis",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CEREJUNDA_NAME",
+    "id": "selftag_cerejunda",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MERRIN_NAME",
+    "id": "selftag_merrin",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_FURYCLASSINTERCEPTOR_NAME",
+    "id": "selftag_furyclassinterceptor",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TARFFUL_NAME",
+    "id": "selftag_tarfful",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SAWGERRERA_NAME",
+    "id": "selftag_sawgerrera",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TIEDAGGER_NAME",
+    "id": "selftag_tiedagger",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SITHSUPREMACYCLASS_NAME",
+    "id": "selftag_sithsupremacyclass",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CAPTAINREX_NAME",
+    "id": "selftag_captainrex",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_JEDIKNIGHTCAL_NAME",
+    "id": "selftag_jediknightcal",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_TARONMALICOS_NAME",
+    "id": "selftag_taronmalicos",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_HAXIONBOUNTYDROID_NAME",
+    "id": "selftag_haxionbountydriod",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_PRINCESSKNEESAA_NAME",
+    "id": "selftag_princesskneesaa",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CAPITALLEVIATHAN_NAME",
+    "id": "selftag_capitalleviathan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SCOUTTROOPER_V3_NAME",
+    "id": "selftag_scouttrooper_v3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "category_emperorstrap",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_CAPTAINDROGAN_NAME",
+    "id": "selftag_captaindrogan",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_GLLEIA_NAME",
+    "id": "selftag_glleia",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_glleia_gle_inherit",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_scouttrooper_v2",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MOFFGIDEONS3_NAME",
+    "id": "selftag_moffgideons3",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_MARAUDER_NAME",
+    "id": "selftag_marauder",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SCOUTTROOPER_V3_NAME",
+    "id": "selftag_raid_scouttrooper_recruit",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SCOUTTROOPER_V3_NAME",
+    "id": "selftag_raid_scouttrooper",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SCOUTTROOPER_V3_NAME",
+    "id": "selftag_raid_scouttrooper_commander",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_SCOUTTROOPER_V3_NAME",
+    "id": "selftag_raid_scouttrooper_shadow",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_PAZVIZSLA_NAME",
+    "id": "selftag_pazvizsla",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "PLACEHOLDER",
+    "id": "selftag_kelleranbeq",
+    "uiFilter": [],
+    "visible": false
+  },
+  {
+    "descKey": "UNIT_DARTHBANE_NAME",
+    "id": "selftag_darthbane",
+    "uiFilter": [],
+    "visible": false
+  }
+]

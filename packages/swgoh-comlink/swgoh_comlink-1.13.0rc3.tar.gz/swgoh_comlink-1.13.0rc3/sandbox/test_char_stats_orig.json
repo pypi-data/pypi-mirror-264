@@ -1,0 +1,43 @@
+{
+  "base": {
+    "Agility": 2779,
+    "Armor": 524,
+    "Armor Penetration": 224,
+    "Critical Damage": 1.635,
+    "Deflection Chance": 213,
+    "Dodge Chance": 213,
+    "Health": 59051,
+    "Health Steal": 0.1,
+    "Intelligence": 1583,
+    "Mastery": 45,
+    "Physical Critical Chance": 1840,
+    "Physical Damage": 5202,
+    "Potency": 0.38,
+    "Protection": 39559,
+    "Resistance": 214,
+    "Special Critical Chance": 324,
+    "Special Damage": 3839,
+    "Speed": 176,
+    "Strength": 1902,
+    "Tenacity": 0.44
+  },
+  "gear": {},
+  "growthModifiers": {
+    "Agility": 22.8,
+    "Intelligence": 15.700000000000001,
+    "Strength": 17.3
+  },
+  "mods": {
+    "Armor": 209,
+    "Health": 4871,
+    "Physical Critical Chance": 0.29684,
+    "Physical Damage": 638,
+    "Potency": 0.57997,
+    "Protection": 12133,
+    "Resistance": 115,
+    "Special Critical Chance": 0.29684,
+    "Special Damage": 470,
+    "Speed": 119,
+    "Tenacity": 0.05956
+  }
+}

@@ -1,0 +1,1761 @@
+[
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stamina",
+    "descriptionKey": "SMALL_STAMINA_CONSUMABLE_DESC",
+    "effectIconKey": "",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [],
+    "iconKey": "icon_conquest_consumable_stamina",
+    "id": "small_stamina_consumable",
+    "nameKey": "SMALL_STAMINA_CONSUMABLE_NAME",
+    "staminaRecovery": 10,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 0
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stamina",
+    "descriptionKey": "MEDIUM_STAMINA_CONSUMABLE_DESC",
+    "effectIconKey": "",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [],
+    "iconKey": "icon_conquest_consumable_stamina",
+    "id": "medium_stamina_consumable",
+    "nameKey": "MEDIUM_STAMINA_CONSUMABLE_NAME",
+    "staminaRecovery": 25,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 0
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stamina",
+    "descriptionKey": "LARGE_STAMINA_CONSUMABLE_DESC",
+    "effectIconKey": "",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [],
+    "iconKey": "icon_conquest_consumable_stamina",
+    "id": "large_stamina_consumable",
+    "nameKey": "LARGE_STAMINA_CONSUMABLE_NAME",
+    "staminaRecovery": 50,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_03",
+    "totalBattleUse": 0
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "OFFENSE_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_buff_attack",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "offense_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "offense_stim_consumable_standard",
+    "nameKey": "OFFENSE_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "OFFENSE_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_attack",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "offense_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "offense_stim_consumable_overcharged",
+    "nameKey": "OFFENSE_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "DEFENSE_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_buff_armor",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "defense_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "defense_stim_consumable_standard",
+    "nameKey": "DEFENSE_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "DEFENSE_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_armor",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "defense_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "defense_stim_consumable_overcharged",
+    "nameKey": "DEFENSE_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "POTENCY_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_buff_accuracy",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "potency_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "potency_stim_consumable_standard",
+    "nameKey": "POTENCY_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "POTENCY_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_accuracy",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "potency_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "potency_stim_consumable_overcharged",
+    "nameKey": "POTENCY_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "TENACITY_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_tenacity",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "tenacity_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "tenacity_stim_consumable_standard",
+    "nameKey": "TENACITY_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "TENACITY_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_tenacity",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "tenacity_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "tenacity_stim_consumable_overcharged",
+    "nameKey": "TENACITY_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "SPEED_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_buff_speed",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "speed_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "speed_stim_consumable_standard",
+    "nameKey": "SPEED_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "SPEED_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_speed",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "speed_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "speed_stim_consumable_overcharged",
+    "nameKey": "SPEED_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "CRITCHANCE_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_buff_crit_chance",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "critchance_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "critchance_stim_consumable_standard",
+    "nameKey": "CRITCHANCE_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "CRITCHANCE_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_crit_chance",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "critchance_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "critchance_stim_consumable_overcharged",
+    "nameKey": "CRITCHANCE_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "CRITDAMAGE_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_buff_critical_damage",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "critdamage_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "critdamage_stim_consumable_standard",
+    "nameKey": "CRITDAMAGE_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "CRITDAMAGE_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_critical_damage",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "critdamage_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "critdamage_stim_consumable_overcharged",
+    "nameKey": "CRITDAMAGE_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "CRITAVOIDANCE_STIM_CONSUMABLE_STANDARD_DESC",
+    "effectIconKey": "icon_buff_critical_damage",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "critavoidance_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "critavoidance_stim_consumable_standard",
+    "nameKey": "CRITAVOIDANCE_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "CRITAVOIDANCE_STIM_CONSUMABLE_OVERCHARGED_DESC",
+    "effectIconKey": "icon_critimmunity",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "critavoidance_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "critavoidance_stim_consumable_overcharged",
+    "nameKey": "CRITAVOIDANCE_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "EVASION_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_buff_dodge_chance",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "evasion_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "evasion_stim_consumable_standard",
+    "nameKey": "EVASION_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "EVASION_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_dodge_chance",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "evasion_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "evasion_stim_consumable_overcharged",
+    "nameKey": "EVASION_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "DEFENSE_PENETRATION_STIM_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_penetration",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "defense_penetration_stim_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "defense_penetration_stim_consumable_standard",
+    "nameKey": "DEFENSE_PENETRATION_STIM_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "stim",
+    "descriptionKey": "DEFENSE_PENETRATION_STIM_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_penetration",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "defense_penetration_stim_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_stim",
+    "id": "defense_penetration_stim_consumable_overcharged",
+    "nameKey": "DEFENSE_PENETRATION_STIM_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "medpac",
+    "descriptionKey": "HEALTH_MEDPAC_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_buff_health",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "health_medpac_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_medpack",
+    "id": "health_medpac_consumable_standard",
+    "nameKey": "HEALTH_MEDPAC_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "medpac",
+    "descriptionKey": "HEALTH_MEDPAC_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_health",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "health_medpac_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_medpack",
+    "id": "health_medpac_consumable_overcharged",
+    "nameKey": "HEALTH_MEDPAC_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "medpac",
+    "descriptionKey": "HEALTHSTEAL_MEDPAC_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_healthsteal",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "healthsteal_medpac_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_medpack",
+    "id": "healthsteal_medpac_consumable_standard",
+    "nameKey": "HEALTHSTEAL_MEDPAC_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "medpac",
+    "descriptionKey": "HEALTHSTEAL_MEDPAC_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_healthsteal",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "healthsteal_medpac_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_medpack",
+    "id": "healthsteal_medpac_consumable_overcharged",
+    "nameKey": "HEALTHSTEAL_MEDPAC_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "medpac",
+    "descriptionKey": "PROTECTION_MEDPAC_CONSUMABLE_STANDARD_DESC_V3",
+    "effectIconKey": "icon_protection",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "protection_medpac_consumable_standard_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_medpack",
+    "id": "protection_medpac_consumable_standard",
+    "nameKey": "PROTECTION_MEDPAC_CONSUMABLE_STANDARD_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "medpac",
+    "descriptionKey": "PROTECTION_MEDPAC_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_protection",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "protection_medpac_consumable_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_medpack",
+    "id": "protection_medpac_consumable_overcharged",
+    "nameKey": "PROTECTION_MEDPAC_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "CRITICAL_DOT_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_critical_damage",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "critical_dot_tech_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_leader_ally",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "critical_dot_tech_consumable_overcharged",
+    "nameKey": "CRITICAL_DOT_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "BARRIER_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_protection",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "receive_crit_barrier_tech_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "receive_crit_barrier_tech_overcharged",
+    "nameKey": "BARRIER_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "FRENZY_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_frenzy",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "frenzy_tech_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_leader_ally",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "frenzy_tech_overcharged",
+    "nameKey": "FRENZY_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "TETHER_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_curse",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "abilityblock_tether_tech_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_leader_ally",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "abilityblock_tether_tech_overcharged",
+    "nameKey": "TETHER_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "SHIELD_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_mendingshield",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "shield_tech_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "shield_tech_overcharged",
+    "nameKey": "SHIELD_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "DEPLOYABLECOOLINGSYSTEMS_TECH_CONSUMABLE_OVERCHARGED_DESC",
+    "effectIconKey": "icon_extraturn",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "overcharged_ability_dcs_1",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "deployablecoolingsystems_tech_overcharged",
+    "nameKey": "DEPLOYABLECOOLINGSYSTEMS_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "OVERPREPARED_1_TECH_CONSUMABLE_OVERCHARGED_DESC",
+    "effectIconKey": "icon_darkinfusion",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "boost_modifier_1_tech_overcharged",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "overprepared_1_tech_overcharged",
+    "nameKey": "OVERPREPARED_1_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "DREAD_TECH_CONSUMABLE_OVERCHARGED_DESC",
+    "effectIconKey": "icon_fear",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "artifact_ability_dread_4_cost_legendary",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "dread_tech_overcharged",
+    "nameKey": "DREAD_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "JUMP_THE_BLASTER_TECH_CONSUMABLE_OVERCHARGED_DESC",
+    "effectIconKey": "icon_buff_speed",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "jump_the_blaster_tech_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "jump_the_blaster_tech_overcharged",
+    "nameKey": "JUMP_THE_BLASTER_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "IMBUE_CHAOS_1_TECH_CONSUMABLE_OVERCHARGED_DESC",
+    "effectIconKey": "icon_debuff_deceived",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "imbue_chaos_1_tech_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_opponent",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "imbue_chaos_1_tech_standard",
+    "nameKey": "IMBUE_CHAOS_1_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_01",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "IMBUE_CHAOS_2_TECH_CONSUMABLE_OVERCHARGED_DESC",
+    "effectIconKey": "icon_debuff_deceived",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "imbue_chaos_2_tech_overcharged_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_opponent",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "imbue_chaos_2_tech_overcharged",
+    "nameKey": "IMBUE_CHAOS_2_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "FIRSTORDER_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_penetrate",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "firstorder_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "firstorder_tech_overcharged",
+    "nameKey": "FIRSTORDER_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "RESISTANCE_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_recover_health_over_time",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "resistance_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "resistance_tech_overcharged",
+    "nameKey": "RESISTANCE_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "EMPIRE_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_attack",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "empire_modifier_no_summon",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "empire_tech_overcharged",
+    "nameKey": "EMPIRE_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "REBELS_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_crit_chance",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "rebels_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "rebels_tech_overcharged",
+    "nameKey": "REBELS_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "GALACTICREPUBLIC_TECH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_valor",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "galacticrepublic_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "galacticrepublic_tech_overcharged",
+    "nameKey": "GALACTICREPUBLIC_TECH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "OLDREPUEBLIC_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_tenacity",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "oldrepublic_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "oldrepublic_tech_overcharged",
+    "nameKey": "OLDREPUEBLIC_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "SITH_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_darkascension",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "sith_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "sith_tech_overcharged",
+    "nameKey": "SITH_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "BOUNTYHUNTER_CONSUMABLE_OVERCHARGED_DESC_V4",
+    "effectIconKey": "icon_buff_armor",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "bountyhunter_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "bountyhunter_tech_overcharged",
+    "nameKey": "BOUNTYHUNTER_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "SEPARATIST_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_riposte",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "separatist_modifier_rank_2_no_summon",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "separatist_tech_overcharged",
+    "nameKey": "SEPARATIST_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "JEDI_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_calltoaction",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "jedi_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "jedi_tech_overcharged",
+    "nameKey": "JEDI_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "NIGHTSISTER_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_nexu",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "nightsister_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "nightsister_tech_overcharged",
+    "nameKey": "NIGHTSISTER_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "TUSKEN_CONSUMABLE_OVERCHARGED_DESC_V2",
+    "effectIconKey": "icon_skull",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "tusken_V2_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_gc_player_tusken",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "tusken_tech_overcharged",
+    "nameKey": "TUSKEN_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "MANDALORIAN_CONSUMABLE_OVERCHARGED_DESC_V5",
+    "effectIconKey": "icon_elite",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "mandalorian_modifier01",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_gc_player_mandalorian",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "mandalorian_tech_overcharged",
+    "nameKey": "MANDALORIAN_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "SCOUNDREL_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_loyalhand",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "scoundrel_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "scoundrel_tech_overcharged",
+    "nameKey": "SCOUNDREL_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "DROID_CONSUMABLE_OVERCHARGED_DESC_V2",
+    "effectIconKey": "icon_targetlock",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "droid_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "droid_tech_overcharged",
+    "nameKey": "DROID_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "IMPERIALTROOPER_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_empire",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "imperialtrooper_modifier01_playerside",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "imperialtrooper_tech_overcharged",
+    "nameKey": "IMPERIALTROOPER_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "CLONETROOPERS_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_galacticrepublic",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "clonetroopers_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_gc_player_clonetroopers",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "clonetroopers_tech_overcharged",
+    "nameKey": "CLONETROOPERS_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "EWOK_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_buff_counter",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "ewok_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_gc_player_ewok",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "ewok_tech_overcharged",
+    "nameKey": "EWOK_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "JAWA_CONSUMABLE_OVERCHARGED_DESC_V3",
+    "effectIconKey": "icon_bomb",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "jawa_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_gc_player_jawa",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "jawa_tech_overcharged",
+    "nameKey": "JAWA_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "MODIFIER_SMUGGLER_OVERCHARGED_DESC_V2",
+    "effectIconKey": "icon_prepare",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "smuggler_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "smuggler_tech_overcharged",
+    "nameKey": "MODIFIER_SMUGGLER_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "INQUISITORIUS_CONSUMABLE_OVERCHARGED_DESC_V2",
+    "effectIconKey": "icon_debuff_purge",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "inquisitorius_modifier",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "inquisitorius_tech_overcharged",
+    "nameKey": "INQUISITORIUS_CONSUMABLE_OVERCHARGED_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  },
+  {
+    "activeTimeInSeconds": "0",
+    "consumableTypeId": "tech",
+    "descriptionKey": "DARKTROOPERMOFFGIDEON_PREVIEW_TECH_CONSUMABLE_DESC_V2",
+    "effectIconKey": "icon_buff_untargetable",
+    "energyRegenTimeReduction": 0,
+    "grantedAbility": [
+      {
+        "abilityId": "darktroopermoffgideon_preview_tech_ability",
+        "conditionDescKey": "",
+        "modifierData": null,
+        "overlaySpriteName": "",
+        "rankLabelOverrideKey": "",
+        "showInPlatoonView": false,
+        "targetRuleId": "target_player_leader",
+        "unlockRequirement": null,
+        "useOverlayIcon": false,
+        "zonesToApplyTo": []
+      }
+    ],
+    "iconKey": "icon_conquest_consumable_tech",
+    "id": "darktroopermoffgideon_preview_tech",
+    "nameKey": "DARKTROOPERMOFFGIDEON_PREVIEW_TECH_CONSUMABLE_NAME",
+    "staminaRecovery": 0,
+    "staminaRegenTimeReduction": 0,
+    "targetedStat": [],
+    "tierId": "consumable_tier_02",
+    "totalBattleUse": 1
+  }
+]

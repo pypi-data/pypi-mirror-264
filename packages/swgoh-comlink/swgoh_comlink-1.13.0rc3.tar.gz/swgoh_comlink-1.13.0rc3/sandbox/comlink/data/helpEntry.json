@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "tile": [
+      {
+        "image": "tex.help_basicattack",
+        "textKey": "HELPMENU_BATTLE_01_DESC",
+        "titleKey": "HELPMENU_BATTLE_01_TITLE"
+      },
+      {
+        "image": "tex.help_specialability",
+        "textKey": "HELPMENU_BATTLE_02_DESC",
+        "titleKey": "HELPMENU_BATTLE_02_TITLE"
+      },
+      {
+        "image": "tex.help_cooldown",
+        "textKey": "HELPMENU_BATTLE_03_DESC",
+        "titleKey": "HELPMENU_BATTLE_03_TITLE"
+      },
+      {
+        "image": "tex.help_passive",
+        "textKey": "HELPMENU_BATTLE_04_DESC",
+        "titleKey": "HELPMENU_BATTLE_04_TITLE"
+      },
+      {
+        "image": "tex.help_leader",
+        "textKey": "HELPMENU_BATTLE_05_DESC",
+        "titleKey": "HELPMENU_BATTLE_05_TITLE"
+      },
+      {
+        "image": "tex.help_speed",
+        "textKey": "HELPMENU_BATTLE_06_DESC",
+        "titleKey": "HELPMENU_BATTLE_06_TITLE"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tile": [
+      {
+        "image": "tex.help_training",
+        "textKey": "HELPMENU_SQUADS_01_DESC_TU3",
+        "titleKey": "HELPMENU_SQUADS_01_TITLE"
+      },
+      {
+        "image": "tex.help_gear",
+        "textKey": "HELPMENU_SQUADS_02_DESC",
+        "titleKey": "HELPMENU_SQUADS_02_TITLE"
+      },
+      {
+        "image": "tex.help_promotion",
+        "textKey": "HELPMENU_SQUADS_03_DESC",
+        "titleKey": "HELPMENU_SQUADS_03_TITLE"
+      },
+      {
+        "image": "tex.help_categories",
+        "textKey": "HELPMENU_SQUADS_04_DESC",
+        "titleKey": "HELPMENU_SQUADS_04_TITLE"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tile": [
+      {
+        "image": "tex.help_summoning",
+        "textKey": "HELPMENU_PROGRESS_01_DESC",
+        "titleKey": "HELPMENU_PROGRESS_01_TITLE"
+      },
+      {
+        "image": "tex.help_levelingup",
+        "textKey": "HELPMENU_PROGRESS_02_DESC_TU3",
+        "titleKey": "HELPMENU_PROGRESS_02_TITLE"
+      },
+      {
+        "image": "tex.help_dailyactivities",
+        "textKey": "HELPMENU_PROGRESS_03_DESC",
+        "titleKey": "HELPMENU_PROGRESS_03_TITLE"
+      },
+      {
+        "image": "tex.help_achievements",
+        "textKey": "HELPMENU_PROGRESS_04_DESC_TU3",
+        "titleKey": "HELPMENU_PROGRESS_04_TITLE"
+      },
+      {
+        "image": "tex.help_crystals",
+        "textKey": "HELPMENU_PROGRESS_05_DESC",
+        "titleKey": "HELPMENU_PROGRESS_05_TITLE"
+      }
+    ]
+  }
+]

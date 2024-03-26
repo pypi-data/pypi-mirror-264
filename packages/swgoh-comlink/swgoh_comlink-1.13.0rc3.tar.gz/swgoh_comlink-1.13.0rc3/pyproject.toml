@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling", "httpx"]
+build-backend = "hatchling.build"
+
+[project]
+name = "swgoh_comlink"
+dynamic = ["version"]
+authors = [
+    { name = "Mar Trepodi", email = "martrepodi@gmail.com" },
+]
+description = "Python 3 interface library for the swgoh-comlink data proxy container (https://github.com/swgoh-utils/swgoh-comlink)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "httpx",
+    "mkdocstrings-python",
+    "mkdocs-material",
+    "mkdocs-material-extensions",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/swgoh-utils/comlink-python"
+"Bug Tracker" = "https://github.com/swgoh-utils/comlink-python/issues"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.hatch.version]
+path = 'src/swgoh_comlink/__init__.py'
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/swgoh_comlink"]

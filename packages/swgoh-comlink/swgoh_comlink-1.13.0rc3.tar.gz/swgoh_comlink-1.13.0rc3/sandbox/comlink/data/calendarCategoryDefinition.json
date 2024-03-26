@@ -1,0 +1,74 @@
+[
+  {
+    "id": "unlimited",
+    "sortOrder": 1,
+    "textKey": "",
+    "unlimited": true
+  },
+  {
+    "id": "monthly_versus",
+    "sortOrder": 2,
+    "textKey": "",
+    "unlimited": false
+  },
+  {
+    "id": "paid_anniversary_swgoh6",
+    "sortOrder": 3,
+    "textKey": "",
+    "unlimited": false
+  },
+  {
+    "id": "free_anniversary_lucas50",
+    "sortOrder": 4,
+    "textKey": "",
+    "unlimited": false
+  },
+  {
+    "id": "relic_calendar",
+    "sortOrder": 5,
+    "textKey": "",
+    "unlimited": false
+  },
+  {
+    "id": "mod_calendar",
+    "sortOrder": 6,
+    "textKey": "",
+    "unlimited": true
+  },
+  {
+    "id": "monthly_bonus_2",
+    "sortOrder": 7,
+    "textKey": "",
+    "unlimited": false
+  },
+  {
+    "id": "monthly_bonus",
+    "sortOrder": 8,
+    "textKey": "",
+    "unlimited": true
+  },
+  {
+    "id": "training_droid_calendar",
+    "sortOrder": 9,
+    "textKey": "",
+    "unlimited": false
+  },
+  {
+    "id": "ability_calendar",
+    "sortOrder": 10,
+    "textKey": "",
+    "unlimited": false
+  },
+  {
+    "id": "gear_calendar",
+    "sortOrder": 11,
+    "textKey": "",
+    "unlimited": false
+  },
+  {
+    "id": "datacron_premium",
+    "sortOrder": 12,
+    "textKey": "",
+    "unlimited": false
+  }
+]

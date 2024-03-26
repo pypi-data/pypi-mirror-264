@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fear",
+    "lineOverride": "fear",
+    "prefab": "prefab.persistentvfx_fear_pre",
+    "priority": 0
+  },
+  {
+    "id": "droideka_shield",
+    "lineOverride": "droideka_shield",
+    "prefab": "prefab.persistentvfx_shield_pre",
+    "priority": 0
+  },
+  {
+    "id": "supremeleaderkyloren_rage",
+    "lineOverride": "supremeleaderkyloren_rage",
+    "prefab": "prefab.persistentvfx_rage_pre",
+    "priority": 0
+  },
+  {
+    "id": "glrey_defensive_stance",
+    "lineOverride": "glrey_defensive_stance",
+    "prefab": "prefab.persistentvfx_force_shield_pre",
+    "priority": 0
+  },
+  {
+    "id": "glpalp_deceived",
+    "lineOverride": "glpalp_deceived",
+    "prefab": "prefab.persistentvfx_deceived_pre",
+    "priority": 0
+  }
+]

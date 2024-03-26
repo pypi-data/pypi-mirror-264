@@ -1,0 +1,114 @@
+[
+  {
+    "allowedRaidCampaignId": [],
+    "allowedRaidId": [],
+    "bannerColorId": "starter_0_white_white",
+    "bannerLogoId": "guild_icon_starter",
+    "externalMessageKey": "Starter_tier_0_MESSAGE",
+    "guildType": "TIER_0",
+    "messageKey": "Starter_tier_0_MESSAGE",
+    "nameKey": "STARTER_GUILD_TIER_0",
+    "subNameKey": "STARTER_GUILD_TIER_0_SUB"
+  },
+  {
+    "allowedRaidCampaignId": [
+      "GUILD:RAIDS:NORMAL_DIFF:RANCOR:DIFF01"
+    ],
+    "allowedRaidId": [
+      "rancor"
+    ],
+    "bannerColorId": "starter_1_grey_grey",
+    "bannerLogoId": "guild_icon_starter",
+    "externalMessageKey": "Starter_tier_1_MESSAGE",
+    "guildType": "TIER_1",
+    "messageKey": "Starter_tier_1_MESSAGE",
+    "nameKey": "STARTER_GUILD_TIER_1",
+    "subNameKey": "STARTER_GUILD_TIER_1_SUB"
+  },
+  {
+    "allowedRaidCampaignId": [
+      "GUILD:RAIDS:NORMAL_DIFF:RANCOR:DIFF02"
+    ],
+    "allowedRaidId": [
+      "rancor"
+    ],
+    "bannerColorId": "starter_2_green_green",
+    "bannerLogoId": "guild_icon_starter",
+    "externalMessageKey": "Starter_tier_2_MESSAGE",
+    "guildType": "TIER_2",
+    "messageKey": "Starter_tier_2_MESSAGE",
+    "nameKey": "STARTER_GUILD_TIER_2",
+    "subNameKey": "STARTER_GUILD_TIER_2_SUB"
+  },
+  {
+    "allowedRaidCampaignId": [
+      "GUILD:RAIDS:NORMAL_DIFF:RANCOR:DIFF03"
+    ],
+    "allowedRaidId": [
+      "rancor"
+    ],
+    "bannerColorId": "starter_3_blue_blue",
+    "bannerLogoId": "guild_icon_starter",
+    "externalMessageKey": "Starter_tier_3_MESSAGE",
+    "guildType": "TIER_3",
+    "messageKey": "Starter_tier_3_MESSAGE",
+    "nameKey": "STARTER_GUILD_TIER_3",
+    "subNameKey": "STARTER_GUILD_TIER_3_SUB"
+  },
+  {
+    "allowedRaidCampaignId": [
+      "GUILD:RAIDS:NORMAL_DIFF:RANCOR:DIFF04"
+    ],
+    "allowedRaidId": [
+      "rancor"
+    ],
+    "bannerColorId": "starter_4_purple_purple",
+    "bannerLogoId": "guild_icon_starter",
+    "externalMessageKey": "Starter_tier_4_MESSAGE",
+    "guildType": "TIER_4",
+    "messageKey": "Starter_tier_4_MESSAGE",
+    "nameKey": "STARTER_GUILD_TIER_4",
+    "subNameKey": "STARTER_GUILD_TIER_4_SUB"
+  },
+  {
+    "allowedRaidCampaignId": [
+      "GUILD:RAIDS:NORMAL_DIFF:RANCOR:DIFF05"
+    ],
+    "allowedRaidId": [
+      "rancor"
+    ],
+    "bannerColorId": "starter_5_gold_gold",
+    "bannerLogoId": "guild_icon_starter",
+    "externalMessageKey": "Starter_tier_5_MESSAGE",
+    "guildType": "TIER_5",
+    "messageKey": "Starter_tier_5_MESSAGE",
+    "nameKey": "STARTER_GUILD_TIER_5",
+    "subNameKey": "STARTER_GUILD_TIER_5_SUB"
+  },
+  {
+    "allowedRaidCampaignId": [
+      "GUILD:RAIDS:NORMAL_DIFF:RANCOR:DIFF06"
+    ],
+    "allowedRaidId": [
+      "rancor"
+    ],
+    "bannerColorId": "starter_6_orange_orange",
+    "bannerLogoId": "guild_icon_starter",
+    "externalMessageKey": "Starter_tier_6_MESSAGE",
+    "guildType": "TIER_6",
+    "messageKey": "STARTER_GUILD_MESSAGE_TIER_6",
+    "nameKey": "STARTER_GUILD_TIER_6",
+    "subNameKey": "STARTER_GUILD_TIER_6_SUB"
+  },
+  {
+    "allowedRaidCampaignId": [],
+    "allowedRaidId": [],
+    "bannerColorId": "bright_orange_brown",
+    "bannerLogoId": "guild_icon_starter",
+    "externalMessageKey": "",
+    "guildType": "NORMAL",
+    "messageKey": "",
+    "nameKey": "PLACEHOLDER",
+    "subNameKey": "PLACEHOLDER"
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "audioDefeatKey": "",
+    "audioVictoryKey": "",
+    "campaignElementIdentifier": {
+      "campaignId": "GUILD",
+      "campaignMapId": "RAIDS",
+      "campaignMissionId": "",
+      "campaignNodeDifficulty": 4,
+      "campaignNodeId": "ROTJ"
+    },
+    "currencyReward": [
+      "RAID_REWARD_CURRENCY_01",
+      "RAID_REWARD_CURRENCY_02",
+      "RAID_REWARD_CURRENCY_03"
+    ],
+    "descKey": "RAID_SPEEDERBIKE_DESC",
+    "guildRewardsRequireAttempt": true,
+    "iconPrefab": "prefab.raidspeederbike_active_icon",
+    "id": "speederbike",
+    "image": "tex.guild_events_speederbike",
+    "infoImage": "tex.guild_events_speederbike",
+    "legacyRaid": false,
+    "lockout": {
+      "lockoutEndTime": "1700170200000",
+      "lockoutStartTime": "1700168400000"
+    },
+    "nameKey": "RAID_SPEEDERBIKE_NAME",
+    "portraitIcon": "tex.guild_icon_events_speederbike",
+    "priority": 1,
+    "promotionKey": "MISSION_GUILDRAIDS_SPEEDERBIKE_DESC",
+    "raidSim": null,
+    "squadType": 30,
+    "summaryKey": "RAID_SPEEDERBIKE_SUMMARY"
+  },
+  {
+    "audioDefeatKey": "Set_GS_combat_mandoDefeat",
+    "audioVictoryKey": "Set_GS_combat_Mando_final_victory",
+    "campaignElementIdentifier": {
+      "campaignId": "GUILD",
+      "campaignMapId": "RAIDS",
+      "campaignMissionId": "",
+      "campaignNodeDifficulty": 4,
+      "campaignNodeId": "KRAYTDRAGON"
+    },
+    "currencyReward": [
+      "RAID_REWARD_CURRENCY_01",
+      "RAID_REWARD_CURRENCY_02",
+      "RAID_REWARD_CURRENCY_03"
+    ],
+    "descKey": "RAID_KRAYTDRAGON_DESC",
+    "guildRewardsRequireAttempt": true,
+    "iconPrefab": "prefab.raidkraytdragon_active_icon",
+    "id": "kraytdragon",
+    "image": "tex.guild_events_kraytdragon",
+    "infoImage": "tex.guild_events_kraytdragon",
+    "legacyRaid": false,
+    "lockout": null,
+    "nameKey": "RAID_KRAYTDRAGON_NAME",
+    "portraitIcon": "tex.guild_icon_events_kraytdragon",
+    "priority": 1,
+    "promotionKey": "MISSION_GUILDRAIDS_KRAYTDRAGON_DESC",
+    "raidSim": null,
+    "squadType": 30,
+    "summaryKey": "RAID_KRAYTDRAGON_SUMMARY"
+  },
+  {
+    "audioDefeatKey": "",
+    "audioVictoryKey": "",
+    "campaignElementIdentifier": {
+      "campaignId": "GUILD",
+      "campaignMapId": "RAIDS",
+      "campaignMissionId": "",
+      "campaignNodeDifficulty": 4,
+      "campaignNodeId": "SITH_RAID"
+    },
+    "currencyReward": [
+      "RAID_REWARD_CURRENCY_01"
+    ],
+    "descKey": "RAID_TRIUMVIRATE_DESC",
+    "guildRewardsRequireAttempt": false,
+    "iconPrefab": "prefab.raidsith_active_icon",
+    "id": "sith_raid",
+    "image": "tex.guild_events_triumvirate",
+    "infoImage": "tex.guild_events_triumvirate",
+    "legacyRaid": true,
+    "lockout": null,
+    "nameKey": "RAID_TRIUMVIRATE_NAME",
+    "portraitIcon": "tex.guild_icon_events_triumvirate",
+    "priority": 1,
+    "promotionKey": "MISSION_GUILDRAIDSTRIUMVIRATEHEROIC_DESC",
+    "raidSim": null,
+    "squadType": 30,
+    "summaryKey": "RAID_TRIUMVIRATE_SUMMARY"
+  },
+  {
+    "audioDefeatKey": "",
+    "audioVictoryKey": "",
+    "campaignElementIdentifier": {
+      "campaignId": "GUILD",
+      "campaignMapId": "RAIDS",
+      "campaignMissionId": "",
+      "campaignNodeDifficulty": 4,
+      "campaignNodeId": "AAT"
+    },
+    "currencyReward": [
+      "RAID_REWARD_CURRENCY_01"
+    ],
+    "descKey": "RAID_AAT_DESC",
+    "guildRewardsRequireAttempt": false,
+    "iconPrefab": "prefab.raidaat_active_icon",
+    "id": "aat",
+    "image": "tex.guild_events_aat",
+    "infoImage": "tex.guild_events_aat",
+    "legacyRaid": true,
+    "lockout": null,
+    "nameKey": "RAID_AAT_NAME",
+    "portraitIcon": "tex.charui_aat_body",
+    "priority": 1,
+    "promotionKey": "MISSION_GUILDRAIDSAATHEROIC_DESC",
+    "raidSim": null,
+    "squadType": 30,
+    "summaryKey": "RAID_AAT_SUMMARY"
+  },
+  {
+    "audioDefeatKey": "",
+    "audioVictoryKey": "",
+    "campaignElementIdentifier": {
+      "campaignId": "GUILD",
+      "campaignMapId": "RAIDS",
+      "campaignMissionId": "",
+      "campaignNodeDifficulty": 4,
+      "campaignNodeId": "RANCOR"
+    },
+    "currencyReward": [
+      "RAID_REWARD_CURRENCY_01"
+    ],
+    "descKey": "RAID_RANCOR_DESC",
+    "guildRewardsRequireAttempt": false,
+    "iconPrefab": "prefab.raidrancor_active_icon",
+    "id": "rancor",
+    "image": "tex.guild_events_rancor_02",
+    "infoImage": "tex.guild_events_rancor_02",
+    "legacyRaid": true,
+    "lockout": null,
+    "nameKey": "RAID_RANCOR_NAME",
+    "portraitIcon": "tex.charui_rancor",
+    "priority": 1,
+    "promotionKey": "MISSION_GUILDRAIDSRANCORHEROIC_DESC_V2",
+    "raidSim": null,
+    "squadType": 30,
+    "summaryKey": "RAID_RANCOR_SUMMARY"
+  },
+  {
+    "audioDefeatKey": "",
+    "audioVictoryKey": "",
+    "campaignElementIdentifier": {
+      "campaignId": "GUILD",
+      "campaignMapId": "RAIDS",
+      "campaignMissionId": "",
+      "campaignNodeDifficulty": 4,
+      "campaignNodeId": "RANCOR_CHALLENGE"
+    },
+    "currencyReward": [],
+    "descKey": "RAID_RANCOR_DESC",
+    "guildRewardsRequireAttempt": false,
+    "iconPrefab": "prefab.raidrancor_active_icon",
+    "id": "rancor_challenge",
+    "image": "tex.guild_events_rancor_02",
+    "infoImage": "tex.guild_events_rancor_02",
+    "legacyRaid": false,
+    "lockout": null,
+    "nameKey": "RAID_RANCOR_CHALLENGE_NAME",
+    "portraitIcon": "tex.charui_rancor",
+    "priority": 1,
+    "promotionKey": "RAID_RANCOR_CHALLENGE_PROMOTION",
+    "raidSim": null,
+    "squadType": 30,
+    "summaryKey": "RAID_RANCOR_CHALLENGE_SUMMARY"
+  }
+]

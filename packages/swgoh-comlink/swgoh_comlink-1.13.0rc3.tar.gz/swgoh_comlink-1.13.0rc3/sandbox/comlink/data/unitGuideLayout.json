@@ -1,0 +1,162 @@
+[
+  {
+    "id": "NESTING_DOLL",
+    "layoutTier": [
+      {
+        "layoutLine": [
+          {
+            "unitGuideId": [
+              "EMPERORPALPATINE",
+              "GRANDMASTERYODA"
+            ]
+          }
+        ],
+        "subtitleKey": "UNIT_GUIDE_LAYOUT_TIER_ONE_SOLO_SUBTITLE",
+        "titleKey": "UNIT_GUIDE_LAYOUT_TIER_ONE_SOLO_TITLE"
+      },
+      {
+        "layoutLine": [
+          {
+            "unitGuideId": [
+              "GRANDADMIRALTHRAWN",
+              "R2D2_LEGENDARY",
+              "BB8"
+            ]
+          }
+        ],
+        "subtitleKey": "UNIT_GUIDE_LAYOUT_TIER_TWO_SOLO_SUBTITLE",
+        "titleKey": "UNIT_GUIDE_LAYOUT_TIER_TWO_SOLO_TITLE"
+      },
+      {
+        "layoutLine": [
+          {
+            "unitGuideId": [
+              "JEDIKNIGHTCAL"
+            ]
+          },
+          {
+            "unitGuideId": [
+              "PADMEAMIDALA",
+              "COMMANDERLUKESKYWALKER",
+              "REYJEDITRAINING",
+              "THEMANDALORIANBESKARARMOR",
+              "CAPITALCHIMAERA"
+            ]
+          }
+        ],
+        "subtitleKey": "UNIT_GUIDE_LAYOUT_TIER_THREE_SOLO_SUBTITLE",
+        "titleKey": "UNIT_GUIDE_LAYOUT_TIER_THREE_SOLO_TITLE"
+      },
+      {
+        "layoutLine": [
+          {
+            "unitGuideId": [
+              "DOCTORAPHRA",
+              "GRANDINQUISITOR",
+              "STARKILLER"
+            ]
+          },
+          {
+            "unitGuideId": [
+              "JEDIKNIGHTREVAN",
+              "DARTHREVAN",
+              "CHEWBACCALEGENDARY",
+              "C3POLEGENDARY",
+              "MILLENNIUMFALCON"
+            ]
+          }
+        ],
+        "subtitleKey": "UNIT_GUIDE_LAYOUT_TIER_FOUR_SOLO_SUBTITLE",
+        "titleKey": "UNIT_GUIDE_LAYOUT_TIER_FOUR_SOLO_TITLE"
+      },
+      {
+        "layoutLine": [
+          {
+            "unitGuideId": [
+              "CAPITALEXECUTOR",
+              "CAPITALPROFUNDITY",
+              "CAPITALLEVIATHAN"
+            ]
+          },
+          {
+            "unitGuideId": [
+              "DARTHMALAK",
+              "GENERALSKYWALKER",
+              "JEDIKNIGHTLUKE",
+              "MANDALORBOKATAN"
+            ]
+          }
+        ],
+        "subtitleKey": "UNIT_GUIDE_LAYOUT_TIER_FIVE_SOLO_SUBTITLE",
+        "titleKey": "UNIT_GUIDE_LAYOUT_TIER_FIVE_SOLO_TITLE"
+      }
+    ],
+    "tabTitleKey": "UNIT_GUIDE_GALLERY_TAB_TITLE_NESTING_DOLL"
+  },
+  {
+    "id": "GUILD_EVENTS",
+    "layoutTier": [
+      {
+        "layoutLine": [
+          {
+            "unitGuideId": [
+              "HANSOLO",
+              "DARTHTRAYA",
+              "GENERALKENOBI"
+            ]
+          }
+        ],
+        "subtitleKey": "",
+        "titleKey": "UNIT_GUIDE_LAYOUT_RAID_TITLE"
+      },
+      {
+        "layoutLine": [
+          {
+            "unitGuideId": [
+              "THIRDSISTER"
+            ]
+          },
+          {
+            "unitGuideId": [
+              "HOTHLEIA",
+              "IMPERIALPROBEDROID",
+              "WATTAMBOR",
+              "KIADIMUNDI"
+            ]
+          }
+        ],
+        "subtitleKey": "",
+        "titleKey": "UNIT_GUIDE_LAYOUT_TERRITORY_BATTLE_TITLE"
+      }
+    ],
+    "tabTitleKey": "UNIT_GUIDE_GALLERY_TAB_TITLE_GUILD_EVENTS"
+  },
+  {
+    "id": "GALACTIC_LEGENDS",
+    "layoutTier": [
+      {
+        "layoutLine": [
+          {
+            "unitGuideId": [
+              "GLLEIA",
+              "JABBATHEHUTT",
+              "LORDVADER",
+              "JEDIMASTERKENOBI"
+            ]
+          },
+          {
+            "unitGuideId": [
+              "GRANDMASTERLUKE",
+              "SITHPALPATINE",
+              "SUPREMELEADERKYLOREN",
+              "GLREY"
+            ]
+          }
+        ],
+        "subtitleKey": "",
+        "titleKey": "UNIT_GUIDE_LAYOUT_TIER_ONE_GALACTIC_LEGENDS_TITLE"
+      }
+    ],
+    "tabTitleKey": "UNIT_GUIDE_GALLERY_TAB_TITLE_GALACTIC_LEGENDS"
+  }
+]

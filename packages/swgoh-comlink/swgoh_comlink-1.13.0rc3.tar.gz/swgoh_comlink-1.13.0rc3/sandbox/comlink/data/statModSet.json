@@ -1,0 +1,218 @@
+[
+  {
+    "completeBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "500",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 55,
+        "unscaledDecimalValue": "5000000"
+      }
+    },
+    "icon": "icon_buff_health",
+    "id": "1",
+    "maxLevelBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "500",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 55,
+        "unscaledDecimalValue": "5000000"
+      }
+    },
+    "name": "STATMODSETBONUS_SETBONUSSTAT_MAXHEALTHPERCENTADDITIVE_NAME",
+    "overclockBonus": null,
+    "setCount": 2
+  },
+  {
+    "completeBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "1250",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 49,
+        "unscaledDecimalValue": "12500000"
+      }
+    },
+    "icon": "icon_buff_armor",
+    "id": "3",
+    "maxLevelBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "1250",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 49,
+        "unscaledDecimalValue": "12500000"
+      }
+    },
+    "name": "STATMODSETBONUS_SETBONUSSTAT_DEFENSEPERCENTADDITIVE_NAME",
+    "overclockBonus": null,
+    "setCount": 2
+  },
+  {
+    "completeBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "1500",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 16,
+        "unscaledDecimalValue": "15000000"
+      }
+    },
+    "icon": "icon_buff_critical_damage",
+    "id": "6",
+    "maxLevelBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "1500",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 16,
+        "unscaledDecimalValue": "15000000"
+      }
+    },
+    "name": "STATMODSETBONUS_SETBONUSSTAT_CRITICALDAMAGE_NAME",
+    "overclockBonus": null,
+    "setCount": 4
+  },
+  {
+    "completeBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "400",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 53,
+        "unscaledDecimalValue": "4000000"
+      }
+    },
+    "icon": "icon_buff_crit_chance",
+    "id": "5",
+    "maxLevelBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "400",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 53,
+        "unscaledDecimalValue": "4000000"
+      }
+    },
+    "name": "STATMODSETBONUS_SETBONUSSTAT_CRITICALCHANCEPERCENTADDITIVE_NAME",
+    "overclockBonus": null,
+    "setCount": 2
+  },
+  {
+    "completeBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "1000",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 18,
+        "unscaledDecimalValue": "10000000"
+      }
+    },
+    "icon": "icon_tenacity",
+    "id": "8",
+    "maxLevelBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "1000",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 18,
+        "unscaledDecimalValue": "10000000"
+      }
+    },
+    "name": "STATMODSETBONUS_SETBONUSSTAT_RESISTANCE_NAME",
+    "overclockBonus": null,
+    "setCount": 2
+  },
+  {
+    "completeBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "750",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 48,
+        "unscaledDecimalValue": "7500000"
+      }
+    },
+    "icon": "icon_buff_attack",
+    "id": "2",
+    "maxLevelBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "750",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 48,
+        "unscaledDecimalValue": "7500000"
+      }
+    },
+    "name": "STATMODSETBONUS_SETBONUSSTAT_OFFENSEPERCENTADDITIVE_NAME",
+    "overclockBonus": null,
+    "setCount": 4
+  },
+  {
+    "completeBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "750",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 17,
+        "unscaledDecimalValue": "7500000"
+      }
+    },
+    "icon": "icon_buff_accuracy",
+    "id": "7",
+    "maxLevelBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "750",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 17,
+        "unscaledDecimalValue": "7500000"
+      }
+    },
+    "name": "STATMODSETBONUS_SETBONUSSTAT_ACCURACY_NAME",
+    "overclockBonus": null,
+    "setCount": 2
+  },
+  {
+    "completeBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "500",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 57,
+        "unscaledDecimalValue": "5000000"
+      }
+    },
+    "icon": "icon_buff_speed",
+    "id": "4",
+    "maxLevelBonus": {
+      "abilityId": [],
+      "stat": {
+        "scalar": "0",
+        "statValueDecimal": "500",
+        "uiDisplayOverrideValue": "-1",
+        "unitStatId": 57,
+        "unscaledDecimalValue": "5000000"
+      }
+    },
+    "name": "STATMODSETBONUS_SETBONUSSTAT_SPEEDPERCENTADDITIVE_NAME",
+    "overclockBonus": null,
+    "setCount": 4
+  }
+]

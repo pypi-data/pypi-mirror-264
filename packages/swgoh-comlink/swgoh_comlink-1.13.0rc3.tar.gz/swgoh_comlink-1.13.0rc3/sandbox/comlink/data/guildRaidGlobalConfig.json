@@ -1,0 +1,7 @@
+{
+  "guildRaidLockout": {
+    "lockoutEndTime": "1683153000000",
+    "lockoutStartTime": "1682632800000"
+  },
+  "lateEntryParticipationLockoutSeconds": "172800"
+}

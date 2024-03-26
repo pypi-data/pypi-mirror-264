@@ -1,0 +1,188 @@
+[
+  {
+    "autoSelectTier": false,
+    "id": "power-up-02-TIER_02",
+    "targetGearTier": 2,
+    "targetLevel": 2
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-10-TIER_03",
+    "targetGearTier": 3,
+    "targetLevel": 10
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-11-TIER_03",
+    "targetGearTier": 3,
+    "targetLevel": 11
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-12-TIER_03",
+    "targetGearTier": 3,
+    "targetLevel": 12
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-13-TIER_03",
+    "targetGearTier": 3,
+    "targetLevel": 13
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-19-TIER_04",
+    "targetGearTier": 4,
+    "targetLevel": 19
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-20-TIER_04",
+    "targetGearTier": 4,
+    "targetLevel": 20
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-21-TIER_04",
+    "targetGearTier": 4,
+    "targetLevel": 21
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-24-TIER_04",
+    "targetGearTier": 4,
+    "targetLevel": 24
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-25-TIER_04",
+    "targetGearTier": 4,
+    "targetLevel": 25
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-26-TIER_04",
+    "targetGearTier": 4,
+    "targetLevel": 26
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-33-TIER_05",
+    "targetGearTier": 5,
+    "targetLevel": 33
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-34-TIER_05",
+    "targetGearTier": 5,
+    "targetLevel": 34
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-35-TIER_05",
+    "targetGearTier": 5,
+    "targetLevel": 35
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-36-TIER_05",
+    "targetGearTier": 5,
+    "targetLevel": 36
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-37-TIER_05",
+    "targetGearTier": 5,
+    "targetLevel": 37
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-42-TIER_06",
+    "targetGearTier": 6,
+    "targetLevel": 42
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-43-TIER_06",
+    "targetGearTier": 6,
+    "targetLevel": 43
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-44-TIER_06",
+    "targetGearTier": 6,
+    "targetLevel": 44
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-45-TIER_06",
+    "targetGearTier": 6,
+    "targetLevel": 45
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-50-TIER_07",
+    "targetGearTier": 7,
+    "targetLevel": 50
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-51-TIER_07",
+    "targetGearTier": 7,
+    "targetLevel": 51
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-52-TIER_07",
+    "targetGearTier": 7,
+    "targetLevel": 52
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-53-TIER_07",
+    "targetGearTier": 7,
+    "targetLevel": 53
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-61-TIER_08",
+    "targetGearTier": 8,
+    "targetLevel": 61
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-62-TIER_08",
+    "targetGearTier": 8,
+    "targetLevel": 62
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-63-TIER_08",
+    "targetGearTier": 8,
+    "targetLevel": 63
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-64-TIER_08",
+    "targetGearTier": 8,
+    "targetLevel": 64
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-65-TIER_08",
+    "targetGearTier": 8,
+    "targetLevel": 65
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-66-TIER_08",
+    "targetGearTier": 8,
+    "targetLevel": 66
+  },
+  {
+    "autoSelectTier": false,
+    "id": "power-up-999-TIER_08",
+    "targetGearTier": 8,
+    "targetLevel": 999
+  }
+]

@@ -1,0 +1,1316 @@
+[
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=JABBATHEHUTT",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_JABBATHEHUTT_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_JabbaTheHutt_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "JABBATHEHUTT:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_JabbaTheHutt",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_JABBATHEHUTT_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave7_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "GENERALSKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTLUKE",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_jabbathehutt",
+    "unitDefId": [
+      "BOUSHH",
+      "UNDERCOVERLANDO",
+      "KRRSANTAN",
+      "GAMORREANGUARD",
+      "HUMANTHUG"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=GRANDMASTERLUKE",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_GRANDMASTERLUKE_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_JediMasterLukeSkywalker_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "GRANDMASTERLUKE:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_JediMasterLukeSkywalker",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_GRANDMASTERLUKE_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave7_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "GENERALSKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTLUKE",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_luke_jml",
+    "unitDefId": [
+      "WEDGEANTILLES",
+      "BIGGSDARKLIGHTER",
+      "C3POLEGENDARY",
+      "HANSOLO",
+      "CHEWBACCALEGENDARY"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=GLREY",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_GLREY_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_Rey_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "GLREY:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_Rey",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_GLREY_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave7_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "GENERALSKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTLUKE",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_rey_tros",
+    "unitDefId": [
+      "REYJEDITRAINING",
+      "EPIXPOE",
+      "EPIXFINN",
+      "AMILYNHOLDO",
+      "BB8"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=SITHPALPATINE",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_SITHPALPATINE_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_SithEternalEmperor_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "SITHPALPATINE:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_SithEternalEmperor",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_SITHPALPATINE_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave7_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "GENERALSKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTLUKE",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_espalpatine_pre",
+    "unitDefId": [
+      "EMPERORPALPATINE",
+      "VADER",
+      "GRANDADMIRALTHRAWN",
+      "ADMIRALPIETT",
+      "DARTHSIDIOUS"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=SUPREMELEADERKYLOREN",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_SUPREMELEADERKYLOREN_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_SupremeLeaderKyloRen_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "SUPREMELEADERKYLOREN:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_SupremeLeaderKyloRen",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_SUPREMELEADERKYLOREN_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave7_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "GENERALSKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTLUKE",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_kyloren_tros",
+    "unitDefId": [
+      "KYLORENUNMASKED",
+      "FIRSTORDERTROOPER",
+      "FIRSTORDEREXECUTIONER",
+      "FOSITHTROOPER",
+      "GENERALHUX"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=JEDIMASTERKENOBI",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_JEDIMASTERKENOBI_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_JediMasterKenobi_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "JEDIMASTERKENOBI:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_JediMasterKenobi",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_JEDIMASTERKENOBI_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave7_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "GENERALSKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTLUKE",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_globiwan",
+    "unitDefId": [
+      "GRANDMASTERYODA",
+      "GENERALKENOBI",
+      "QUIGONJINN",
+      "SHAAKTI",
+      "AAYLASECURA"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=LORDVADER",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_LORDVADER_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_LordVader_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "LORDVADER:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_LordVader",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_LORDVADER_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave7_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "GENERALSKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTLUKE",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_lordvader",
+    "unitDefId": [
+      "BADBATCHHUNTER",
+      "BADBATCHTECH",
+      "BADBATCHWRECKER",
+      "BADBATCHECHO",
+      "ARCTROOPER501ST"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=GRANDINQUISITOR",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_GRANDINQUISITOR_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_GrandInquisitor_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "GRANDINQUISITOR:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_GrandInquisitor",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_GRANDINQUISITOR_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave6_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "DARTHREVAN",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "C3POLEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_grandinquisitor",
+    "unitDefId": [
+      "FIFTHBROTHER",
+      "NINTHSISTER",
+      "SEVENTHSISTER",
+      "SECONDSISTER",
+      "EIGHTHBROTHER"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=STARKILLER",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_STARKILLER_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_Starkiller_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "STARKILLER:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_Starkiller",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_STARKILLER_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave6_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "DARTHREVAN",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "C3POLEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_starkiller",
+    "unitDefId": [
+      "DASHRENDAR",
+      "YOUNGHAN",
+      "YOUNGLANDO",
+      "YOUNGCHEWBACCA",
+      "L3_37"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=GENERALSKYWALKER",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_GENERALSKYWALKER_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_GeneralSkywalker_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "GENERALSKYWALKER:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_GeneralSkywalker",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_GENERALSKYWALKER_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave6_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "DARTHREVAN",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "C3POLEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_generalanakin",
+    "unitDefId": [
+      "PADMEAMIDALA",
+      "ANAKINKNIGHT",
+      "AHSOKATANO",
+      "GENERALKENOBI",
+      "C3POLEGENDARY"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=JEDIKNIGHTLUKE",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_JEDIKNIGHTLUKE_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_JediKnightLukeSkywalker_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "JEDIKNIGHTLUKE:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_JediKnightLukeSkywalker",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_JEDIKNIGHTLUKE_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave6_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "DARTHREVAN",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "C3POLEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_luke_jediknight",
+    "unitDefId": [
+      "COMMANDERLUKESKYWALKER",
+      "HOTHLEIA",
+      "HOTHHAN",
+      "CHEWBACCALEGENDARY",
+      "C3POLEGENDARY"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=DARTHREVAN",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_DARTHREVAN_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_DarthRevan_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "DARTHREVAN:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_DarthRevan",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_DARTHREVAN_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave5_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "CHEWBACCALEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "REYJEDITRAINING",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "THEMANDALORIANBESKARARMOR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_sithrevan",
+    "unitDefId": [
+      "CARTHONASI",
+      "BASTILASHANDARK",
+      "CANDEROUSORDO",
+      "JUHANI",
+      "HK47"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=C3POLEGENDARY",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_C3POLEGENDARY_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_C3PO_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "C3POLEGENDARY:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_C3PO",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_C3POLEGENDARY_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave5_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "CHEWBACCALEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "REYJEDITRAINING",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "THEMANDALORIANBESKARARMOR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_c3p0",
+    "unitDefId": [
+      "CHIEFCHIRPA",
+      "EWOKELDER",
+      "WICKET",
+      "LOGRAY",
+      "PAPLOO"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=CHEWBACCALEGENDARY",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_CHEWBACCALEGENDARY_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_Chewbacca_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "CHEWBACCALEGENDARY:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_Chewbacca",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_CHEWBACCALEGENDARY_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave4_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "BB8",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTREVAN",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "PADMEAMIDALA",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_chewbacca_ot",
+    "unitDefId": [
+      "BOSSK",
+      "BOBAFETT",
+      "JANGOFETT",
+      "DENGAR",
+      "THEMANDALORIAN"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=REYJEDITRAINING",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_REYJEDITRAINING_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_ReyJediTraining_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "REYJEDITRAINING:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_ReyJediTraining",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_REYJEDITRAINING_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave4_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "BB8",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTREVAN",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "PADMEAMIDALA",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_rey_tlj",
+    "unitDefId": [
+      "FINN",
+      "REY",
+      "BB8",
+      "SMUGGLERHAN",
+      "SMUGGLERCHEWBACCA"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=THEMANDALORIANBESKARARMOR",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_THEMANDALORIANBESKARARMOR_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_TheMandalorianBeskarArmor_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "THEMANDALORIANBESKARARMOR:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_TheMandalorianBeskarArmor",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_THEMANDALORIANBESKARARMOR_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave4_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "BB8",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "JEDIKNIGHTREVAN",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        },
+        {
+          "id": "PADMEAMIDALA",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_mandobeskar",
+    "unitDefId": [
+      "THEMANDALORIAN",
+      "CARADUNE",
+      "GREEFKARGA",
+      "KUIIL",
+      "IG11"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=BB8",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_BB8_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_BB8_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "BB8:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_BB8",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_BB8_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave3_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 85
+        },
+        {
+          "id": "COMMANDERLUKESKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_bb8",
+    "unitDefId": [
+      "KYLORENUNMASKED",
+      "KYLOREN",
+      "FIRSTORDEREXECUTIONER",
+      "FIRSTORDEROFFICERMALE",
+      "FIRSTORDERTROOPER"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=JEDIKNIGHTREVAN",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_JEDIKNIGHTREVAN_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_JediKnightRevan_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "JEDIKNIGHTREVAN:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_JediKnightRevan",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_JEDIKNIGHTREVAN_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave3_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 85
+        },
+        {
+          "id": "COMMANDERLUKESKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_jedirevan",
+    "unitDefId": [
+      "BASTILASHAN",
+      "JOLEEBINDO",
+      "MISSIONVAO",
+      "ZAALBAR",
+      "T3_M4"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=PADMEAMIDALA",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_PADMEAMIDALA_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_PadmeAmidala_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "PADMEAMIDALA:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_PadmeAmidala",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_PADMEAMIDALA_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave3_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 85
+        },
+        {
+          "id": "COMMANDERLUKESKYWALKER",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_padme_geonosis",
+    "unitDefId": [
+      "NUTEGUNRAY",
+      "COUNTDOOKU",
+      "POGGLETHELESSER",
+      "B2SUPERBATTLEDROID",
+      "MAGNAGUARD"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=COMMANDERLUKESKYWALKER",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_COMMANDERLUKESKYWALKER_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_CommanderLukeSkywalker_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "COMMANDERLUKESKYWALKER:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_CommanderLukeSkywalker",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_COMMANDERLUKESKYWALKER_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave2_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 55
+        },
+        {
+          "id": "R2D2_LEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_lukebespin",
+    "unitDefId": [
+      "OLDBENKENOBI",
+      "PRINCESSLEIA",
+      "LUKESKYWALKER",
+      "STORMTROOPERHAN",
+      "R2D2_LEGENDARY"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=GRANDADMIRALTHRAWN",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_GRANDADMIRALTHRAWN_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_GrandAdmiralThrawn_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "GRANDADMIRALTHRAWN:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_GrandAdmiralThrawn",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_GRANDADMIRALTHRAWN_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave2_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 55
+        },
+        {
+          "id": "R2D2_LEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_thrawn",
+    "unitDefId": [
+      "HERASYNDULLAS3",
+      "EZRABRIDGERS3",
+      "KANANJARRUSS3",
+      "ZEBS3",
+      "CHOPPERS3"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "EVENTS?event_id=EVENT_CREDIT_HEIST_GETAWAY_V2",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_EVENT_CREDITHEIST_2_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_CreditHeist_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "EVENTS:SCHEDULED:NORMAL_DIFF:NODE_EVENT_CREDIT_HEIST_GETAWAY_V2:DIFF04",
+          "locKey": "",
+          "negate": false,
+          "type": 34,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_CreditHeist",
+    "name": "RECOMMENDEDSQUAD_EVENT_CREDITHEIST_2_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 2,
+      "id": "RecommendedSquads_Wave2_Show_Requirement",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 55
+        },
+        {
+          "id": "R2D2_LEGENDARY",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "thumbnail": "tex.events_creditheist",
+    "unitDefId": [
+      "BOBAFETT",
+      "DENGAR",
+      "THEMANDALORIAN",
+      "JANGOFETT",
+      "STORMTROOPERHAN"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=EMPERORPALPATINE",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_EMPERORPALPATINE_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_EmperorPalpatine_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "EMPERORPALPATINE:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_EmperorPalpatine",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_EMPERORPALPATINE_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "playerlevel_16",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 16
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_palpatineemperor",
+    "unitDefId": [
+      "OLDBENKENOBI",
+      "PRINCESSLEIA",
+      "LUKESKYWALKER",
+      "STORMTROOPERHAN",
+      "ADMINISTRATORLANDO"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=GRANDMASTERYODA",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_GRANDMASTERYODA_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_GrandMasterYoda_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "GRANDMASTERYODA:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_GrandMasterYoda",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_GRANDMASTERYODA_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "playerlevel_16",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 16
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_yodagrandmaster",
+    "unitDefId": [
+      "OLDBENKENOBI",
+      "ANAKINKNIGHT",
+      "AHSOKATANO",
+      "EZRABRIDGERS3",
+      "KANANJARRUSS3"
+    ]
+  },
+  {
+    "actionLink": {
+      "link": "UNIT_GUIDE?id=R2D2_LEGENDARY",
+      "type": 1
+    },
+    "descriptionKey": "RECOMMENDEDSQUAD_OBTAIN_R2D2_LEGENDARY_DESC",
+    "hideRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "RecommendedSquads_R2D2_Hide_Requirement",
+      "requirementItem": [
+        {
+          "id": "R2D2_LEGENDARY:SEVEN_STAR",
+          "locKey": "",
+          "negate": false,
+          "type": 44,
+          "value": 1
+        }
+      ]
+    },
+    "id": "RecommendedSquads_R2D2",
+    "name": "RECOMMENDEDSQUAD_OBTAIN_R2D2_LEGENDARY_NAME",
+    "showRequirement": {
+      "descKey": "",
+      "evalType": 1,
+      "id": "playerlevel_16",
+      "requirementItem": [
+        {
+          "id": "",
+          "locKey": "",
+          "negate": false,
+          "type": 20,
+          "value": 16
+        }
+      ]
+    },
+    "thumbnail": "tex.charui_astromech_r2d2",
+    "unitDefId": [
+      "EMPERORPALPATINE",
+      "VADER",
+      "MOFFGIDEONS1",
+      "DARKTROOPER",
+      "STORMTROOPER"
+    ]
+  }
+]

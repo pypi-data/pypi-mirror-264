@@ -1,0 +1,47 @@
+[
+  {
+    "id": "standard_settings",
+    "raidDuration": "0",
+    "raidType": 1,
+    "rosterRefresh": {
+      "type": "HOUR_OF_DAY",
+      "value": [
+        0
+      ]
+    },
+    "rosterRefreshType": 2
+  },
+  {
+    "id": "legacy_nonheroic_settings",
+    "raidDuration": "259200000",
+    "raidType": 2,
+    "rosterRefresh": {
+      "type": "HOUR_OF_DAY",
+      "value": [
+        0
+      ]
+    },
+    "rosterRefreshType": 2
+  },
+  {
+    "id": "heroic_settings",
+    "raidDuration": "172800000",
+    "raidType": 2,
+    "rosterRefresh": null,
+    "rosterRefreshType": 1
+  },
+  {
+    "id": "kraytdragonhunt_raid_settings",
+    "raidDuration": "255600000",
+    "raidType": 2,
+    "rosterRefresh": null,
+    "rosterRefreshType": 1
+  },
+  {
+    "id": "speeder_bike_raid_settings",
+    "raidDuration": "255600000",
+    "raidType": 2,
+    "rosterRefresh": null,
+    "rosterRefreshType": 1
+  }
+]

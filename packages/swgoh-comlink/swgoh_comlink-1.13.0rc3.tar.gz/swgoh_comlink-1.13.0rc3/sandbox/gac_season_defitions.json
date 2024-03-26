@@ -1,0 +1,8151 @@
+[
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "gac_blank_rewardstable"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1520
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1750
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2060
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2110
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2270
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2340
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2390
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2470
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2550
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2650
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2730
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2800
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2880
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3070
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3220
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3540
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_RUNZERO",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_24b",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_25a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_26a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_27a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_28a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_29a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_30a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_31a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_32a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_33a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_34a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_35a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_36a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_37a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_38a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_39a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_40a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_41a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_42a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_43a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_44a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_45a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_46a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_3v3_ga2_c3s1_47a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [
+      {
+        "divisionId": 10,
+        "leagueId": "CARBONITE",
+        "minSkill": 1450
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CARBONITE",
+        "minSkill": 1740
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CARBONITE",
+        "minSkill": 1930
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CARBONITE",
+        "minSkill": 2080
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2070
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2190
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2290
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "BRONZIUM",
+        "minSkill": 2400
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2350
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2460
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2560
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "CHROMIUM",
+        "minSkill": 2670
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "AURODIUM",
+        "minSkill": 2600
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "AURODIUM",
+        "minSkill": 2720
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "AURODIUM",
+        "minSkill": 2820
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "AURODIUM",
+        "minSkill": 2940
+      },
+      {
+        "divisionId": 10,
+        "leagueId": "KYBER",
+        "minSkill": 2970
+      },
+      {
+        "divisionId": 15,
+        "leagueId": "KYBER",
+        "minSkill": 3130
+      },
+      {
+        "divisionId": 20,
+        "leagueId": "KYBER",
+        "minSkill": 3310
+      },
+      {
+        "divisionId": 25,
+        "leagueId": "KYBER",
+        "minSkill": 3610
+      }
+    ],
+    "id": "4zone_5v5_ga2_c3s1_48a",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [],
+    "seasonLeagueReference": [],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga2_c3s1_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_001",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_001_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_001",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_001_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_001",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_001_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_001",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_001_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_001",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_001_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_001",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_001_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_EXHIBITION_A",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_EXHIBITION_A_canceled_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_EXHIBITION_A_RERUN",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_EXHIBITION_A_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_001_RERUN",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_001_season_end_rerun"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_001_RERUN",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_001_season_end_rerun"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_001_RERUN",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_001_season_end_rerun"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_001_RERUN",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_001_season_end_rerun"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_001_RERUN",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_001_season_end_rerun"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_001_RERUN",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_001_season_end_rerun"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_002",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_002_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_DEFAULT",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_002_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_002",
+    "minimumBannerSeasonRewardThreshold": 20,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_002_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_002",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_002_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_002",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_002_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_002",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_002_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_002",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_002_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_003",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_003_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_003",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_003_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_003",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_003_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_003",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_003_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_003",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_003_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_003",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_003_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_004",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_004_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_004",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_004_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_004",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_004_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_004",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_004_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_004",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_004_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_004",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_004_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_005",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_005_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_005",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_005_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_005",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_005_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_005",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_005_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_005",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_005_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_005",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_005_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_006",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_006_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_006",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_006_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_006",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_006_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_006",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_006_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_006",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_006_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_006",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_006_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_007",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_007_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_007",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_007_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_007",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_007_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_007",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_007_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_007",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_007_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_007",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_007_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_008",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_008_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_008",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_008_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_008",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_008_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_008",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_008_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_008",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_008_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_008",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_008_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c4s0_SEASON_010",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c4s0_010_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_5v5_ga_c3s1_SEASON_010",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_5v5_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_5v5_ga_c3s1_010_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c2s0_SEASON_010",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c2s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c2s0_010_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "2zone_5v5_ga_c1s1_SEASON_010",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_2zone_5v5_ga_c1s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_2zone_5v5_ga_c1s1_010_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c4s0_SEASON_010",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c4s0",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c4s0_010_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "4zone_3v3_ga_c3s1_SEASON_010",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "CHAMPIONSHIP_NAMELESS",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      },
+      {
+        "id": 30
+      },
+      {
+        "id": 35
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 45
+      },
+      {
+        "id": 50
+      },
+      {
+        "id": 55
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "CARBONITE",
+        "promoteCondition": 0,
+        "promoteConditionTable": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "chromium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "AURODIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "kyber-promote-condition_4zone_3v3_ga_c3s1",
+        "promoteSystem": 3,
+        "rewardPreview": []
+      },
+      {
+        "definitionId": "KYBER",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": []
+      }
+    ],
+    "seasonRewardTableId": "rewardtable_4zone_3v3_ga_c3s1_010_season_end"
+  },
+  {
+    "divisionSkillBoundary": [],
+    "id": "SEASON_BASIC",
+    "minimumBannerSeasonRewardThreshold": 0,
+    "nameKey": "SEASON_TEST_NAME",
+    "seasonDivisionReference": [
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 20
+      },
+      {
+        "id": 25
+      }
+    ],
+    "seasonLeagueReference": [
+      {
+        "definitionId": "BRONZIUM",
+        "promoteCondition": 50,
+        "promoteConditionTable": "",
+        "promoteSystem": 3,
+        "rewardPreview": [
+          {
+            "detailedReward": [],
+            "division": 5,
+            "primaryReward": []
+          },
+          {
+            "detailedReward": [],
+            "division": 10,
+            "primaryReward": []
+          },
+          {
+            "detailedReward": [],
+            "division": 15,
+            "primaryReward": []
+          },
+          {
+            "detailedReward": [],
+            "division": 20,
+            "primaryReward": []
+          },
+          {
+            "detailedReward": [],
+            "division": 25,
+            "primaryReward": []
+          }
+        ]
+      },
+      {
+        "definitionId": "CHROMIUM",
+        "promoteCondition": 0,
+        "promoteConditionTable": "",
+        "promoteSystem": 0,
+        "rewardPreview": [
+          {
+            "detailedReward": [],
+            "division": 5,
+            "primaryReward": []
+          },
+          {
+            "detailedReward": [],
+            "division": 10,
+            "primaryReward": []
+          },
+          {
+            "detailedReward": [],
+            "division": 15,
+            "primaryReward": []
+          },
+          {
+            "detailedReward": [],
+            "division": 20,
+            "primaryReward": []
+          },
+          {
+            "detailedReward": [],
+            "division": 25,
+            "primaryReward": []
+          }
+        ]
+      }
+    ],
+    "seasonRewardTableId": ""
+  }
+]
