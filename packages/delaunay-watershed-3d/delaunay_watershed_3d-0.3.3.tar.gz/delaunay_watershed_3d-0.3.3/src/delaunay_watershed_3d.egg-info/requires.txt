@@ -1,0 +1,12 @@
+edt>=2.2.0
+meshio>=5.3.4
+networkx>=2.5.1
+numpy>=1.21.6
+scikit-image>=0.18.3
+scipy>=1.4.1
+trimesh>=3.8.12
+
+[viewing]
+napari[all]
+polyscope>=1.2.0
+matplotlib>=3.3.1
