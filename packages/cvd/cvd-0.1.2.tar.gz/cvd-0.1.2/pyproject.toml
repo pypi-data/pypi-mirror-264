@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cvd"
+version = "0.1.2"
+description = ""
+authors = ["bogoslovskiy_nn <bogoslovskiy_nn@bw-sw.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+albumentations = "^1.3.0"
+botocore = "^1.29.26"
+boto3 = "^1.26.26"
+dataclasses-json = "^0.6.4"
+matplotlib = "^3.6.2"
+tqdm = "^4.64.1"
+imagesize = "^1.4.1"
+boto3-type-annotations = "^0.3.1"
+lxml = "^4.9.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.15.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
