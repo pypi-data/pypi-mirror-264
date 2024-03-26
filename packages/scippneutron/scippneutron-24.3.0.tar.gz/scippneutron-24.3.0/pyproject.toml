@@ -1,0 +1,118 @@
+[build-system]
+requires = [
+  "setuptools>=68",
+  "setuptools_scm[toml]>=8.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scippneutron"
+description = "Neutron scattering tools for Data Reduction"
+authors = [{ name = "Scipp contributors" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed",
+]
+requires-python = ">=3.9"
+dynamic = ["version"]
+
+# IMPORTANT:
+# Run 'tox -e deps' after making changes here. This will update requirement files.
+# Make sure to list one dependency per line.
+dependencies = [
+    "h5py",
+    "numpy>=1.20",
+    "pooch",
+    "scipp>=23.07.0",
+    "scippnexus>=23.8.0",
+    "scipy>=1.7.0",
+]
+
+[project.optional-dependencies]
+interactive = ["scipp[interactive]"]
+all = ['scipp[all]']
+
+[project.urls]
+"Bug Tracker" = "https://github.com/scipp/scippneutron/issues"
+"Documentation" = "https://scipp.github.io/scippneutron"
+"Source" = "https://github.com/scipp/scippneutron"
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = """
+--strict-config
+--strict-markers
+--import-mode=importlib
+-ra
+-v
+"""
+testpaths = "tests"
+filterwarnings = [
+  "error",
+  'ignore:You are running a "Debug" build of scipp:',
+  # Comes from pytest_asyncio and is not our fault.
+  "ignore:The 'asyncio_mode' default value will change to 'strict' in future:DeprecationWarning",
+  'ignore::scipy.optimize._optimize.OptimizeWarning',
+  # From flatbuffers
+  'ignore:the imp module is deprecated in favour of importlib:DeprecationWarning',
+  # from Mantid
+  'ignore:the load_module\(\) method is deprecated:DeprecationWarning',
+  # from ipywidgets; they are migrating away from ipykernel, this warning should go away
+  'ignore:The `ipykernel.comm.Comm` class has been deprecated.:DeprecationWarning',
+  # from h5py
+  'ignore:`product` is deprecated as of NumPy 1.25.0:DeprecationWarning',
+  # Plotting related warnings.
+  'ignore:\n            Sentinel is not a public part of the traitlets API:DeprecationWarning',
+  'ignore:Keyword `trait` is deprecated in traitlets 5.0, use `value_trait` instead:DeprecationWarning',
+  'ignore:Keyword `traits` is deprecated in traitlets 5.0, use `per_key_traits` instead:DeprecationWarning',
+  # TODO Plotting warnings that need to be addressed
+  'ignore:Support for mapping types has been deprecated and will be dropped in a future release:DeprecationWarning',
+  'ignore:The get_cmap function will be deprecated in a future version:PendingDeprecationWarning',
+  'ignore:Jupyter is migrating its paths to use standard platformdirs:DeprecationWarning',
+  'ignore:Widget._active_widgets is deprecated:DeprecationWarning',
+  'ignore:Widget._widget_types is deprecated:DeprecationWarning',
+  'ignore:Widget.widget_types is deprecated:DeprecationWarning',
+  'ignore:Widget.widgets is deprecated:DeprecationWarning',
+  'ignore:`load_nexus` is deprecated:UserWarning',
+]
+
+[tool.bandit]
+# Excluding tests because bandit doesn't like `assert`.
+exclude_dirs = ["docs/conf.py", "tests", "tools"]
+
+[tool.codespell]
+ignore-words-list = "elemt"
+skip = "./.git,./.tox,*/.virtual_documents,*/.ipynb_checkpoints,*.pdf,*.svg,*.csv"
+
+[tool.black]
+skip-string-normalization = true
+
+[tool.isort]
+skip_gitignore = true
+profile = "black"
+known_first_party = ["scippneutron"]
+skip_glob = ["src/scippneutron/__init__.py"]
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+enable_error_code = [
+    "ignore-without-code",
+    "redundant-expr",
+    "truthy-bool",
+]
+show_error_codes = true
+warn_unreachable = true
