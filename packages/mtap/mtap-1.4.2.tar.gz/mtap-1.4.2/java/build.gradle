@@ -1,0 +1,262 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'com.google.protobuf' version '0.9.4'
+    id 'signing'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+/**
+ * Builds a version number from the latest git tag.
+ */
+def gitVersion = { ->
+    def stdout = new ByteArrayOutputStream()
+    def execResult = exec {
+        commandLine 'git', 'describe', '--tags', '--dirty'
+        standardOutput = stdout
+        ignoreExitValue = true
+    }
+    if (execResult.exitValue != 0) {
+        return '0.0.0+development-SNAPSHOT'
+    }
+
+    def pattern = ~/v([0-9]+)(?:.([0-9]+))?(?:.([0-9]+))?(?:-(alpha|beta|pre|rc).([0-9]+))?(?:-([0-9]+)-([a-g0-9]+))?(-dirty)?/
+    def newVersion = stdout.toString().trim().replaceFirst(pattern) { _,major,minor,patch,pre,preVersion,com,hash,dirty ->
+        def incremented = false
+        def result = ''
+        if (com != null || hash != null || dirty != null) {
+            result = '-SNAPSHOT'
+        } else {
+            incremented = true
+        }
+        if (pre != null && preVersion != null) {
+            if (!incremented) {
+                preVersion = (preVersion as int) + 1
+                incremented = true
+            }
+            def s = "-${pre}${preVersion}"
+            result = s + result
+        }
+        if (patch != null) {
+            if (!incremented) {
+                patch = (patch as int) + 1
+                incremented = true
+            }
+            result = ".${patch}${result}"
+        }
+        if (minor != null) {
+            if (!incremented) {
+                minor = (minor as int) + 1
+                incremented = true
+            }
+            result = ".${minor}${result}"
+        }
+        if (!incremented) {
+            major = (major as int) + 1
+        }
+        result = "${major}${result}"
+        return result
+    }
+    return newVersion
+}
+
+group = 'edu.umn.nlpie'
+version = gitVersion()
+ext.isReleaseVersion = !version.endsWith("SNAPSHOT")
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+repositories {
+    maven { // The google mirror is less flaky than mavenCentral()
+        url "https://maven-central.storage-download.googleapis.com/repos/central/data/" }
+    mavenCentral()
+    mavenLocal()
+}
+
+java {
+    withJavadocJar()
+    withSourcesJar()
+}
+
+sourceSets {
+    main {
+        proto {
+            srcDir '../proto'
+        }
+        java {
+            srcDirs 'build/generated/source/proto/main/grpc'
+            srcDirs 'build/generated/source/proto/main/java'
+        }
+    }
+    withLogBinding {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+        resources {
+            srcDirs 'log_resources'
+        }
+    }
+}
+
+configurations {
+    withLogBindingImplementation.extendsFrom implementation
+    withLogBindingRuntimeOnly.extendsFrom runtimeOnly
+}
+
+dependencies {
+    api group: 'org.jetbrains', name:'annotations', version: '24.1.0'
+    api group: 'com.google.api.grpc', name: 'proto-google-common-protos', version: '2.37.1'
+    api group: 'args4j', name: 'args4j', version: '2.37'
+
+    implementation group: 'com.google.guava', name: 'guava', version: '33.1.0-jre'
+    implementation group: 'org.yaml', name: 'snakeyaml', version: '2.2'
+    implementation group: 'com.orbitz.consul', name: 'consul-client', version: '1.5.3'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.12'
+
+    // start needed for grpc
+    implementation group: 'io.grpc', name: 'grpc-protobuf', version: '1.62.2'
+    implementation group: 'io.grpc', name: 'grpc-stub', version: '1.62.2'
+    implementation group: 'io.grpc', name: 'grpc-services', version: '1.62.2'
+    implementation group: 'io.grpc', name: 'grpc-netty-shaded', version: '1.62.2'
+
+    implementation group: 'com.google.protobuf', name: 'protobuf-java', version: '3.25.3'
+    implementation group: 'com.google.protobuf', name: 'protobuf-java-util', version: '3.25.3'
+
+    compileOnly group:'org.apache.tomcat', name: 'annotations-api', version:'6.0.53'
+    // end needed for grpc
+
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '5.11.0'
+    testImplementation group: 'io.grpc', name: 'grpc-testing', version: '1.62.2'
+    testImplementation group: 'io.grpc', name: 'grpc-inprocess', version: '1.62.2'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.10.2'
+    testRuntimeOnly group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.12'
+    testRuntimeOnly group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.10.2'
+
+    withLogBindingRuntimeOnly group: 'org.apache.logging.log4j', name: 'log4j-slf4j2-impl', version: '2.23.1'
+    withLogBindingRuntimeOnly group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.23.1'
+}
+
+protobuf {
+    protoc { artifact = "com.google.protobuf:protoc:3.25.3" }
+    plugins {
+        grpc { artifact = "io.grpc:protoc-gen-grpc-java:1.62.2" }
+    }
+    generateProtoTasks {
+        all()*.plugins { grpc {} }
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << '-Xlint:unchecked'
+    options.deprecation = true
+}
+
+tasks.withType(Jar).all {
+    duplicatesStrategy 'exclude'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task printVersion() {
+    printf(version)
+}
+
+// shadow jar creates a "fat jar" that we can use to easily test
+shadowJar {
+    manifest {
+        attributes 'Implementation-Title': 'MTAP',
+                'Implementation-Version': archiveVersion
+    }
+    mergeServiceFiles()
+    from sourceSets.withLogBinding.output
+    configurations = [ project.configurations.withLogBindingRuntimeClasspath ]
+}
+
+artifacts {
+    archives jar
+    archives sourcesJar
+    archives javadocJar
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = project.group
+            artifactId = project.name
+            version = project.version
+
+            from components.java
+            artifacts = [jar, sourcesJar, javadocJar]
+
+            pom {
+                name = 'Microservice Text Analysis Platform'
+                description = 'A framework for distributed text analysis using gRPC and ' +
+                        'microservices-based architecture.'
+                url = 'https://nlpie.github.io/mtap'
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'nlpie'
+                        name = 'NLP/IE Group'
+                        email = 'nlp-ie@umn.edu'
+                    }
+                    developer {
+                        id = 'benknoll_umn'
+                        name = 'Ben Knoll'
+                        email = 'benknoll@umn.edu'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:https://github.com/nlpie/mtap.git'
+                    developerConnection = 'scm:git:https://github.com/nlpie/mtap.git'
+                    url = 'http://github.com/nlpie/mtap'
+                }
+
+            }
+        }
+    }
+    repositories {
+        maven {
+            url "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+            credentials {
+                username project.hasProperty('sonatypeUsername') ? sonatypeUsername : null
+                password project.hasProperty('sonatypePassword') ? sonatypePassword : null
+            }
+        }
+    }
+}
+
+signing {
+    useGpgCmd()
+    sign publishing.publications.mavenJava
+}
+
+javadoc {
+    exclude "edu/umn/nlpie/mtap/api/**"
+    exclude "grpc"
+    if(JavaVersion.current().isJava9Compatible()) {
+        options.addBooleanOption('html5', true)
+    }
+}
+
+tasks.withType(Sign).configureEach {
+    onlyIf { isReleaseVersion }
+}
+
+tasks.withType(GenerateModuleMetadata).configureEach {
+    enabled = false
+}
+
+tasks.register('execute', JavaExec) {
+    classpath = sourceSets.withLogBinding.runtimeClasspath
+    mainClass findProperty('mainClass')
+}
