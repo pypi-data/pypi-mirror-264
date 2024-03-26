@@ -1,0 +1,6 @@
+forcealign
+moviepy
+opencv-python
+scipy
+numpy
+pillow
