@@ -1,0 +1,3 @@
+[console_scripts]
+shotstriper=shotstriper.main:app
+
