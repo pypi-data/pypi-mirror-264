@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tf-fits"
+version = "1.0.1"
+dependencies = [
+    "tensorflow>=2.0.0a0"
+]
+requires-python = ">=3.5"
+authors = [
+  {name = "William J. Pearson", email = "willjamespearson@gmail.com"}
+]
+maintainers = [
+  {name = "William J. Pearson", email = "willjamespearson@gmail.com"}
+]
+description = "Load FITS files into tf.data.Dataset"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+keywords = ["machine learning", "astronomy", "tensorflow", "fits", "image", "table"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.5",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/wjpearson/tensorflow_fits"
+Documentation = "https://tensorflow-fits.readthedocs.io/en/latest/"
+Repository = "https://github.com/wjpearson/tensorflow_fits"
+Issues = "https://github.com/wjpearson/tensorflow_fits/issues"
+Changelog = "https://github.com/wjpearson/tensorflow_fits/blob/master/CHANGELOG.md"
