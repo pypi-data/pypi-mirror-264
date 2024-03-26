@@ -1,0 +1,10 @@
+source_microsoft_sharepoint/__init__.py,sha256=a1qKp3Ui2-daZ3RA6LQ1BhcgMlB1reM-3io73TalbUw,150
+source_microsoft_sharepoint/run.py,sha256=vyooBYcOlWf5ulMvNFmmHzTBS0sjxa5-rYljTqpO1m8,766
+source_microsoft_sharepoint/source.py,sha256=c0a16gbjtA0N1XQ9pfcpBX7LaXjQFepPL6kfLsFf5GE,3211
+source_microsoft_sharepoint/spec.py,sha256=B4Gpytf_CY0lT2awcgiRYIC6SSsQ4pVOcdxYnyHC1AE,5146
+source_microsoft_sharepoint/stream_reader.py,sha256=CnGi2pYoyAoxqxFcszhfdWgvI5MOh3gRt0c9dX0GVHs,12207
+source_microsoft_sharepoint/utils.py,sha256=Fmp29wIxjuZv6uAf74ejzd_ZasUdmZFQSdwIi-Cgk1I,3849
+airbyte_source_microsoft_sharepoint-0.2.1.dist-info/METADATA,sha256=zHjOaXniq4R1n2_vXu3RpEVrmSZQoP7zcAGG-GEImKE,5625
+airbyte_source_microsoft_sharepoint-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+airbyte_source_microsoft_sharepoint-0.2.1.dist-info/entry_points.txt,sha256=qQVJCey5TyNCB-xZURXYwXMUbcy2tgmcJboz_VJEWvc,83
+airbyte_source_microsoft_sharepoint-0.2.1.dist-info/RECORD,,
