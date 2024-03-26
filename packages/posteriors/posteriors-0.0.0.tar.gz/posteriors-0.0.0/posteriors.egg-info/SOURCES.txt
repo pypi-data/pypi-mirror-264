@@ -1,0 +1,6 @@
+pyproject.toml
+posteriors/__init__.py
+posteriors.egg-info/PKG-INFO
+posteriors.egg-info/SOURCES.txt
+posteriors.egg-info/dependency_links.txt
+posteriors.egg-info/top_level.txt

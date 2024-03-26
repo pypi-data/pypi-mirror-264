@@ -1,0 +1,7 @@
+[project]
+name = "posteriors"
+authors = [
+	{name = "Sam Duffield", email = "sam@normalcomputing.ai"},
+]
+version = "0.0.0"
+description = "Coming soon"
