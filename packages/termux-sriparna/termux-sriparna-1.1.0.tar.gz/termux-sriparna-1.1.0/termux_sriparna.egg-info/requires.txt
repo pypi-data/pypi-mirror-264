@@ -1,0 +1,8 @@
+speechrecognition
+g4f
+brotli
+python_weather
+pytz
+geopy
+pythondialog
+python-dateutil
