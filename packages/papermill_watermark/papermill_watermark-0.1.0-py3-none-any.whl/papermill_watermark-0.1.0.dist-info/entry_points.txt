@@ -1,0 +1,3 @@
+[papermill.engine]
+papermill_watermark=papermill_watermark:WatermarkEngine
+
