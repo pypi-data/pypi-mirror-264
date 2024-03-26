@@ -1,0 +1,20 @@
+---
+version: 2
+
+formats: all
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+  apt_packages:
+    - libkrb5-dev
+
+python:
+  install:
+    - requirements: constraints.txt
+    - path: .
+      extra_requirements:
+        - docs
+        # to autodoc jirashell
+        - cli
