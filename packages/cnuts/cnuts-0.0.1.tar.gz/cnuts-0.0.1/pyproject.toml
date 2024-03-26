@@ -1,0 +1,18 @@
+[project]
+name = "cnuts"
+version = "0.0.1"
+authors = [
+  { name="Peng Xiong", email="xiongpengnus@gmail.com" },
+]
+description = "COCONUTS is a user interface for creating and running predictive models."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/XiongPengNUS/coconuts"
+Issues = "https://github.com/XiongPengNUS/coconuts/issues"
