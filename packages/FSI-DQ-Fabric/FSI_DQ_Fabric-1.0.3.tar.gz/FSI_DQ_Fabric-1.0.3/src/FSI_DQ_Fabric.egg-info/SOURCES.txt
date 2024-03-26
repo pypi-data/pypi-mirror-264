@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/FSI_DQ_Fabric/AnomalyDetectionNB.py
+src/FSI_DQ_Fabric/Anomaly_multivariateNB.py
+src/FSI_DQ_Fabric/StandardizationNB.py
+src/FSI_DQ_Fabric/__init__.py
+src/FSI_DQ_Fabric/__main__.py
+src/FSI_DQ_Fabric/business_contextNB.py
+src/FSI_DQ_Fabric.egg-info/PKG-INFO
+src/FSI_DQ_Fabric.egg-info/SOURCES.txt
+src/FSI_DQ_Fabric.egg-info/dependency_links.txt
+src/FSI_DQ_Fabric.egg-info/requires.txt
+src/FSI_DQ_Fabric.egg-info/top_level.txt
