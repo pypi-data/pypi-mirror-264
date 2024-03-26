@@ -1,0 +1,10 @@
+libjacobi-motion.dylib,sha256=UCi49PrtTeu2-J0o90IlqsYXnewOSoDGZGiRuGb2ivQ,4868800
+jacobi.cpython-39-darwin.so,sha256=TuW18X2aKxd33Ej6EdYmh2Tr0thYmAyVyZsj0knPY-E,953104
+jacobi_motion-0.0.28.dist-info/RECORD,,
+jacobi_motion-0.0.28.dist-info/LICENSE,sha256=WEK6lrkd9GvzexVKQnZ8uonQJ9lOCDJ459EhWmKah50,4232
+jacobi_motion-0.0.28.dist-info/WHEEL,sha256=t3aNIuHimB-eyeerOmc50nLML0b4_R6yjydcdcJkGHg,108
+jacobi_motion-0.0.28.dist-info/top_level.txt,sha256=44OeK04ZUGHKBLpxEjgDLiGIqomX8mRRE9VCP8W_yw4,14
+jacobi_motion-0.0.28.dist-info/METADATA,sha256=wesSDFXBr_o_53tussNlH3iYkVn8ljPiNsPBfTVHpr0,6081
+jacobi_motion.dylibs/libjacobi-motion.dylib,sha256=cP3aLmKE5TG_E993bargyV_nqdnVXM9EDO12DDINWDs,4868800
+jacobi_motion.dylibs/libssl.3.dylib,sha256=wLTRRE2XDHx-hsZbZLI3PIG5l9RqVG6K4j_UUG3yypE,793216
+jacobi_motion.dylibs/libcrypto.3.dylib,sha256=a3VL7IPCGnS5jteAsTHVwMjJOnTkObEQfVIRWr2JhYs,4199552
