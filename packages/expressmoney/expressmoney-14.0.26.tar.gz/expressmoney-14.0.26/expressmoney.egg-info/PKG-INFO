@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: expressmoney
+Version: 14.0.26
+Summary: SDK ExpressMoney
+Author: Development team
+Author-email: dev@expressmoney.com
+Requires-Python: >=3.7
+Requires-Dist: requests
+Requires-Dist: python-json-logger==2.0.4
+Requires-Dist: django-phonenumber-field[phonenumberslite]==5.2.0
