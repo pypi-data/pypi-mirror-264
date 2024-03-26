@@ -1,0 +1,16 @@
+repository-metric-aggregation
+*****************************
+
+
+Description
+===========
+
+The set of aggregated data returned for repository analytics.
+
+
+Available Commands
+==================
+
+* summarize-project-repository-analytics
+
+* summarize-repository-analytics

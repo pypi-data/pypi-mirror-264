@@ -1,0 +1,16 @@
+pull-request-notification-preference
+************************************
+
+
+Description
+===========
+
+The notification preference of the pull request.
+
+
+Available Commands
+==================
+
+* get
+
+* update

@@ -1,0 +1,15 @@
+pull-request-collection
+***********************
+
+
+Description
+===========
+
+Results of a Pull Request search. Contains both PullRequestSummary
+items and other information, such as metadata.
+
+
+Available Commands
+==================
+
+* list-pull-requests

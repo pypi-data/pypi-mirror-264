@@ -1,0 +1,18 @@
+repository-settings
+*******************
+
+
+Description
+===========
+
+User configured settings for repository resources
+
+
+Available Commands
+==================
+
+* delete
+
+* get
+
+* update
