@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ylftir/__init__.py
+src/ylftir/ylftir.py
+src/ylftir.egg-info/PKG-INFO
+src/ylftir.egg-info/SOURCES.txt
+src/ylftir.egg-info/dependency_links.txt
+src/ylftir.egg-info/requires.txt
+src/ylftir.egg-info/top_level.txt

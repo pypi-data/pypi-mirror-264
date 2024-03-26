@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ylftir
+Version: 0.1.5
+Summary: Python package to perform deconvolution of spectra. Designed primarily for FTIR deconvolution of silk films.
+Author: Eron Ristich
+Author-email: eristich@asu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
