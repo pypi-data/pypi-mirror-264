@@ -1,0 +1,2 @@
+[console_scripts]
+gocodeo = gocodeo.generator:generate_tests_cli
