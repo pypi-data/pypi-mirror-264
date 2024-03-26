@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pybuildingenergy
+Version: 1.0.4
+Summary: Energy Simulation of building usin ISO52016 and more
+Home-page: https://github.com/EURAC-EEBgroup/pyBuildingEnergy/
+Author: Daniele antonucci
+Author-email: Daniele Antonucci <daniele.antonucci@eurac.edu>
+Maintainer-email: Daniele Antonucci <daniele.antonucci@eurac.edu>
+Keywords: energy,building,heating and cooling,52016,EPBD
+Platform: any
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
