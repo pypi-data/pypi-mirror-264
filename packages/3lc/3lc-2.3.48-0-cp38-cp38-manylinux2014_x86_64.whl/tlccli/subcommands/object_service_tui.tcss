@@ -1,0 +1,36 @@
+ $neptune: #2A6477;
+ $zest: #F9F100;
+ $bone: #F0F0F0;
+ $gunmetal: #2A3541;
+ $yuzu: #B6B142;
+
+Screen {
+    background: $gunmetal;
+}
+
+#header
+{
+}
+
+
+#dynamic_information
+{
+    background: $neptune;
+    border: $yuzu;
+}
+
+#dynamic_information_container
+{
+    height: 6;
+}
+
+#log
+{
+    scrollbar-gutter: stable;
+    border: $yuzu;
+}
+
+#log_widget_container
+{
+}
+
