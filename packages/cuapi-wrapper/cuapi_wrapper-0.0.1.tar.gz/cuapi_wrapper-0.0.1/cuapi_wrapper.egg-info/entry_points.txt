@@ -1,0 +1,2 @@
+[nbdev]
+cuapi_wrapper = cuapi_wrapper._modidx:d
