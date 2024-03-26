@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+euphonium/__init__.py
+euphonium/euphonium.py
+euphonium.egg-info/PKG-INFO
+euphonium.egg-info/SOURCES.txt
+euphonium.egg-info/dependency_links.txt
+euphonium.egg-info/requires.txt
+euphonium.egg-info/top_level.txt
