@@ -1,0 +1,11 @@
+onnxruntime_genai-0.1.0rc4.data/purelib/onnxruntime_genai/__init__.py,sha256=gZxhY9Bqmdj9wxJMSBqHQeAadtjJ6IlNGl5g68lMIhc,599
+onnxruntime_genai-0.1.0rc4.data/purelib/onnxruntime_genai/_dll_directory.py,sha256=E5HSXsCgGDX4bL09kOOOl5p2jeBJOVqD873KTfHOx7s,638
+onnxruntime_genai-0.1.0rc4.data/purelib/onnxruntime_genai/onnxruntime.dll,sha256=udujXshdScAYYzLBmgFgGuWY7ecBt53McN5Q1Nujb6Y,10951200
+onnxruntime_genai-0.1.0rc4.data/purelib/onnxruntime_genai/onnxruntime_genai.cp39-win_amd64.pyd,sha256=AvTHnH7gAg5cmyFBxFjWfTlPGwoRgXRIQYyVRrF1YtI,785920
+onnxruntime_genai-0.1.0rc4.data/purelib/onnxruntime_genai/onnxruntime_providers_shared.dll,sha256=umRb8DvWDfYizyfWER0TWVBqkNDjtVWPCicfC1YM-Xw,22560
+onnxruntime_genai-0.1.0rc4.data/purelib/onnxruntime_genai/models/builder.py,sha256=TK3-ATgUksUjM1T0c4hvzeNljL-sGDkOGTFjJVqLScI,94454
+onnxruntime_genai-0.1.0rc4.data/purelib/onnxruntime_genai/models/gguf_model.py,sha256=kEyi9bVPCffoHgXgiOIpckaMVia7YsXSjEVtLUXcBxY,12767
+onnxruntime_genai-0.1.0rc4.dist-info/METADATA,sha256=LxKrIh2xbvCIoRgMBfinH_vH7fFXukRJdVueDMWuHgE,155
+onnxruntime_genai-0.1.0rc4.dist-info/WHEEL,sha256=Z6c-bE0pUM47a70GvqO_SvH_XXU0lm62gEAKtoNJ08A,100
+onnxruntime_genai-0.1.0rc4.dist-info/top_level.txt,sha256=U92ZdtZYnKUmz1D94v3YxXHvRyNbrxkZ1gDYUzEJ_bc,18
+onnxruntime_genai-0.1.0rc4.dist-info/RECORD,,
