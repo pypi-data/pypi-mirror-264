@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: word-def-plugin-multilanguage-chatgpt
+Version: 0.2.0
+Summary: Multilanguage plugin for word-def
+Author-email: Daniel Martins Antunes <danoan2008@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024, Daniel Martins Antunes
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Documentation, https://github.com/danoan/word-def-plugin-multilanguage-chatgpt#readme
+Project-URL: Issues, https://github.com/danoan/word-def-plugin-multilanguage-chatgpt
+Project-URL: Source, https://github.com/danoan/word-def-plugin-multilanguage-chatgpt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: word-def<1.0.0,>=0.2.0
+Requires-Dist: word-guru<1.0.0,>=0.1.0
+
+# Getting started with Multilanguage ChatGPT word-def plugin
+
+Multilanguage plugin for word-def
+
+## Installation
+
+```bash
+$ pipx install word-def-plugin-multilanguage-chatgpt
+```
+
+## Features
+
+- Get word definition.
+- Get word synonym.
+- Get part-of-speech tags of a word.
+- Get usage examples.
+
+## Examples
+
+```{admonition} word-def
+You need to have the [word-def](https://github.com/danoan/word-def) package installed.
+```
+
+```bash
+$ word-def --plugin-configuration-filepath plugin-config.toml get-definition joy eng
+1. A feeling of great pleasure and happiness.
+```
+
+```bash
+$ word-def --plugin-configuration-filepath plugin-config.toml get-synonym joy eng
+1. happiness
+2. delight
+3. pleasure
+4. bliss
+5. euphoria
+```
+
+```bash
+$ word-def --plugin-configuration-filepath plugin-config.toml get-pos-tags joy eng
+1. noun.
+2. verb.
+```
+
+```bash
+$ word-def --plugin-configuration-filepath plugin-config.toml get-usage-examples joy eng
+1. The children's laughter filled the room with joy and happiness.
+2. She felt a sense of joy and contentment when she achieved her lifelong dream.
+3. The music festival brought a lot of joy to the attendees.
+4. Watching the sunset over the ocean always fills me with joy.
+5. The birth of a baby is a moment of pure joy for the new parents.
+```
+
+```{admonition} Plugin configuration
+   The [word-def documentation](https://danoan.github.io/word-def/how-to/setup-a-plugin.html)
+   has more information about how to setup the plugin configuration file.
+```
+
+The list of parameters accepted by the plugin is the same as the members of the
+dataclass [Configuration](https://danoan.github.io/word-def-plugin-multilanguage-chatgpt/reference/danoan.word_def.plugins.modules.multilanguage_chatgpt.html#module-danoan.word_def.plugins.modules.multilanguage_chatgpt).
+
+
+## Contributing
+
+Please reference to our [contribution](http://danoan.github.io/word-def-plugin-multilanguage-chatgpt/contributing) and [code-of-conduct](http://danoan.github.io/word-def-plugin-multilanguage-chatgpt/code-of-conduct) guidelines.
