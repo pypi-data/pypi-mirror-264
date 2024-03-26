@@ -1,0 +1,8 @@
+setup.py
+latex_tab_img_generation/__init__.py
+latex_tab_img_generation/latex_gen.py
+latex_tab_img_generation.egg-info/PKG-INFO
+latex_tab_img_generation.egg-info/SOURCES.txt
+latex_tab_img_generation.egg-info/dependency_links.txt
+latex_tab_img_generation.egg-info/not-zip-safe
+latex_tab_img_generation.egg-info/top_level.txt
