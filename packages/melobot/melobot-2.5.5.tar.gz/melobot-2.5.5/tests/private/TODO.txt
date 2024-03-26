@@ -1,0 +1,3 @@
+https://pradyunsg.me/furo/customisation/logo/#same-logo-for-light-and-dark-mode
+https://pradyunsg.me/furo/customisation/edit-button/#with-arbitrary-urls
+https://pradyunsg.me/furo/customisation/footer/#configuration
