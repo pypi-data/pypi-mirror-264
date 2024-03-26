@@ -1,0 +1,13 @@
+ainft/__init__.py,sha256=XckBr2Bu3S8N5sSNlsbUizNjhnUBbF_L7xpQCzxe_YM,391
+ainft/chat/__init__.py,sha256=Pe3c3YAO9vqAzPBw-waux38q2ZGDQmpEJ_gGJEKQIgM,94
+ainft/chat/chat.py,sha256=3xoXaHIdkYkpShZk6WDjkDZGfmj7T-OadOItlReeGSI,423
+ainft/chat/messages.py,sha256=oVbM3sX3pd3-WLk6afc8I3CUx3c8AiwiGMXuDLgIchg,3553
+ainft/chat/threads.py,sha256=WEfQXbJjF4R3Prsl4I748s3oAfM-1FHdQfkZbI9uubY,3346
+ainft/client.py,sha256=8UIVWCc-lhxRZwPW8f_lHvBisCeWPqNKGJRy8dUinK4,697
+ainft/exceptions.py,sha256=O90QjLOZK_ggGv_L_tZqHv3XBS0zJw_KLxX_mduSt1g,74
+ainft/types.py,sha256=qJzolFTPz5KACIoqR8c7_AQMnME6Ofu1h1jAWD-g0Y8,2048
+ainft/utils.py,sha256=PuNXYP_MLCqP-9auLL3yey5NwBTJ1Z_PtJJbwDUin7I,3098
+ainft_py-0.1.0.dist-info/LICENSE,sha256=zf2vqpq_l44F4C60wIumtwbKbs5arGDgCPhuFvcR9Rw,1067
+ainft_py-0.1.0.dist-info/METADATA,sha256=fA0CoWD0Y_zW13wS-yfTCaoL92mE9kWv_oJmyG_FvGc,1177
+ainft_py-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ainft_py-0.1.0.dist-info/RECORD,,
