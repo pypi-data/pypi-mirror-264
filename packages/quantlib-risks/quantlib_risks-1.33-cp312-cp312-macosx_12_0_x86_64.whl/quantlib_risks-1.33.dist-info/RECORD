@@ -1,0 +1,7 @@
+quantlib_risks-1.33.dist-info/RECORD,,
+quantlib_risks-1.33.dist-info/WHEEL,sha256=CcAArp5xyrX1-7EIH2le9Oj_tgfuOC_HTRch6qtTvSU,107
+quantlib_risks-1.33.dist-info/METADATA,sha256=Eqm-NWnWGgGAbNx5zN86hZUo7DtvFmIcJu5g7wukT4U,2828
+quantlib_risks/__init__.py,sha256=Z63DZTdE4jszxlYzfFzOU02IlZlJuTVE_4sH8ZFepr4,2805
+quantlib_risks/_quantlib_risks.cpython-312-darwin.so,sha256=8E6x3qZEMdIattMS_AOZql70n8JIbBPJpx8vHa5Ad2I,37664688
+quantlib_risks/quantlib_risks.py,sha256=YAZjjzN3K0GWrNc-_8myDEGIt3h53sRfQoJEgMQ15xg,1882739
+quantlib_risks/.dylibs/libQuantLib.1.33.0.dylib,sha256=ETeRVpkSRz9LrvzkPyC0cJcZv6zXhPpQoFq-PIWvCWQ,55625792
