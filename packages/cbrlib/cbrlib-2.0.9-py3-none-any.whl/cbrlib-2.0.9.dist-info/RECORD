@@ -1,0 +1,9 @@
+cbrlib/__init__.py,sha256=JrOOTVAP8_Gal7fjUgkLxam-PW4BZNBZ3MZ3EQU-iIU,41
+cbrlib/casebase.py,sha256=6DfLCb0HFaFGrALQTXK1zIbGENQY5wiP9aGnqaZ-qJE,1743
+cbrlib/evaluate.py,sha256=LEft8IOOOryh804wRROxw5TpuPC5O-Jn2-tFpxTkpzg,6511
+cbrlib/facetting.py,sha256=qYQTjCOgIv20Qk9o6bGc8MZ5wd2wv2Mqx3ApgxNBhFQ,2619
+cbrlib/types.py,sha256=rKuiISoT_anjZlTUA69Own-PEWn_AJWCImrrAgYzeLY,5692
+cbrlib-2.0.9.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+cbrlib-2.0.9.dist-info/METADATA,sha256=qWc6nGnFDGssUkP-oucypEWNuZrb9v0BuXLv2MglpnA,4014
+cbrlib-2.0.9.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+cbrlib-2.0.9.dist-info/RECORD,,
