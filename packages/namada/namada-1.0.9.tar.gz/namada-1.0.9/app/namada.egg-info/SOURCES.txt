@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+app/namada/__init__.py
+app/namada.egg-info/PKG-INFO
+app/namada.egg-info/SOURCES.txt
+app/namada.egg-info/dependency_links.txt
+app/namada.egg-info/requires.txt
+app/namada.egg-info/top_level.txt
+app/namada/src/__init__.py
+app/namada/src/namada.py
+app/namada/src/workshop.py
+app/namada/test/__init__.py
