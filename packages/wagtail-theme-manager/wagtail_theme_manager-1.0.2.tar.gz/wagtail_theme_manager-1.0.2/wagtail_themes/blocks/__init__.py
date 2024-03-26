@@ -1,0 +1,1 @@
+from .metatags import MetaTagBlock

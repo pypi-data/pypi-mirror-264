@@ -1,0 +1,10 @@
+*:has(> [data-contentpath="bg"]) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-flow: wrap;
+}
+*:has(> [data-contentpath="bg"]) > [data-contentpath] {
+    flex: 1;
+    margin-right: 10px;
+}
