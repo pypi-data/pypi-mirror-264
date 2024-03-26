@@ -1,0 +1,95 @@
+{%- extends 'a11y/base.html.j2' -%}
+{% from "a11y/components/core.html.j2" import hide, time, loc %}
+{% from "a11y/components/cell.html.j2" import cell_anchor, cell_execution_count, cell_cell_type,
+cell_form, cell_source, cell_metadata, cell_output with context%}
+{% set COLUMNS = ["index", "execution_count", "cell_type", "toolbar", "started_at", "completed_at", "source", "loc",
+"metadata", "outputs"] %}
+
+{% macro cell_row(cell, index) %}
+{%- set include_outputs = True -%}
+{%- set include_input = True -%}
+{%- if cell.cell_type in ["raw"] -%}
+{%- set include_input = resources.global_content_filter.include_raw and
+not cell.metadata.get("transient",{}).get("remove_source", false) and not cell.metadata.get("jupyter",
+{}).get("source_hidden", False)-%}
+{%- elif cell.cell_type in ["markdown"]-%}
+{%- set include_input = resources.global_content_filter.include_markdown and
+not cell.metadata.get("transient",{}).get("remove_source", false) and not cell.metadata.get("jupyter",
+{}).get("source_hidden", False) -%}
+{%- elif cell.cell_type in ["code"]-%}
+{%- set include_input = resources.global_content_filter.include_code and
+resources.global_content_filter.include_input
+and not cell.metadata.get("jupyter", {}).get("source_hidden", False)
+and not cell.metadata.get("transient",{}).get("remove_source", false) -%}
+{%- set include_outputs = cell.outputs and resources.global_content_filter.include_output
+and not cell.metadata.get("jupyter", {}).get("outputs_hidden", False)-%}
+{%- endif -%}
+{%- set slide_type = cell.get("metadata", {}).get("slide_type") -%}
+<tr role="{{resources.table_pattern.row}}" class="cell {{cell.cell_type}}"
+    aria-labelledby="nb-cell-label {{index}} cell-{{index}}-cell_type" data-loc="{{cell.source.splitlines().__len__()}}"
+    {% if cell.cell_type=="code" %} {% endif %} data-index="{{index}}" data-slide_type={% if slide_type %}"{{slide_type}}" {% endif %}>
+    <th role="{{resources.table_pattern.rowheader}}" class="nb-anchor" scope="row">{{cell_anchor(index, cell.cell_type,
+        cell.execution_count, cell.outputs)}}</td>
+    <td role="{{resources.table_pattern.cell}}" class="nb-execution_count" {{hide(cell.cell_type=="markdown" or
+        cell.execution_count==None or not resources.global_content_filter.include_input_prompt)}}>
+        {{cell_execution_count(index, cell.execution_count)}}
+    </td>
+    <td role="{{resources.table_pattern.cell}}" class="nb-cell_type" hidden>{{cell_cell_type(index, cell.cell_type)}}
+    </td>
+    <td role="{{resources.table_pattern.cell}}" class="nb-toolbar" hidden>{{cell_form(index)}}</td>
+    <td role="{{resources.table_pattern.cell}}" class="nb-start" id="cell-{{index}}-start" hidden>
+        {% set t0 = cell.get("metadata", {}).get("execution", {}).get("iopub.execute_input", "") %}
+        {{time(t0)}}</td>
+    <td role="{{resources.table_pattern.cell}}" class="nb-end" id="cell-{{index}}-end" hidden>
+        {% set t1 = cell.get("metadata", {}).get("execution", {}).get("shell.execute_reply", "") %}
+        {{time(t1)}}
+    </td>
+    <td role="{{resources.table_pattern.cell}}" class="nb-source" {{hide(cell.cell_type=="markdown" or not
+        include_input)}}>{{cell_source(index,
+        cell.source, cell.cell_type, cell.execution_count)}}</td>
+    <td role="{{resources.table_pattern.cell}}" class="nb-metadata" hidden>{{cell_metadata(index, cell.get("metadata",
+        {}))}}</td>
+    {# it was noted in a video that lines of code were helpful in assistive descriptions.
+    lines of code are part of the gestalt of code forms. #}
+    <td role="{{resources.table_pattern.cell}}" class="nb-loc" id="cell-{{index}}-loc" hidden>{{loc(cell)}}</td>
+    <td role="{{resources.table_pattern.cell}}" class="nb-outputs" {{hide(not include_outputs)}}>{{cell_output(index,
+        cell, cell.source,
+        cell.outputs,
+        cell.cell_type,
+        cell.metadata,
+        cell.get("execution_count"))}}</td>
+</tr>
+{% endmacro %}
+
+{% block body_loop %}
+{# the most consistent implementation would connect the input visibility to a form #}
+<table id="cells" role="{{resources.table_pattern.table}}">
+    <colgroup>
+        {% for col in COLUMNS %}
+        <col class="nb-{{col}}">
+        {% endfor %}
+    </colgroup>
+    <tbody role="{{resources.table_pattern.rowgroup}}" aria-labelledby="nb-notebook-label nb-cells-label">
+        <tr role="{{resources.table_pattern.row}}" hidden>
+            {% for col in COLUMNS %}
+            <th role="{{resources.table_pattern.columnheader}}" scope="col">{{col}}</th>
+            {% endfor %}
+        </tr>
+        {%- for cell in nb.cells -%}
+        {% block any_cell scoped %}
+        {{cell_row(cell, loop.index)}}
+        {% endblock any_cell %}
+        {%- endfor -%}
+    </tbody>
+</table>
+{% endblock body_loop %}
+
+{# adding a template element is a forward thinking move because
+the template provides the structure for new cells when they are added. #}
+{% block template_element %}
+<template>
+    <table>
+        {{cell_row(dict(source="", metadata={}), dict(index=""))}}
+    </table>
+</template>
+{% endblock %}
