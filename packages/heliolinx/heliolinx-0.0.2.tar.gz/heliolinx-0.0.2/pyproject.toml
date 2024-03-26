@@ -1,0 +1,42 @@
+[project]
+name = "heliolinx"
+description = "heliolinx: the fast asteroid linking code."
+license = {file = "LICENSE"}
+readme = "README.md"
+authors = [
+    { name = "Aren Heinze",    email = "aheinze@uw.edu" },
+    { name = "Mario Juric",    email = "mjuric@astro.washington.edu" },
+    { name = "Siegfried Eggl", email = "eggls@uw.edu" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+]
+dynamic = ["version"]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "pybind11>=2.5.0"
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.2",
+    "wheel",
+    "pybind11>=2.5.0",
+    "numpy",
+    "setuptools_scm[toml]>=3.4"  # Add setuptools_scm with toml support
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "heliolinx/_version.py"
+
+# without this, setuptools searches for the build .so module in
+# src/heliolinx (?!)
+[tool.setuptools.packages]
+find = {}
