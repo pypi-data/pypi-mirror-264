@@ -1,0 +1,2 @@
+[console_scripts]
+pyolin = pyolin.pyolin:_command_line.execute
