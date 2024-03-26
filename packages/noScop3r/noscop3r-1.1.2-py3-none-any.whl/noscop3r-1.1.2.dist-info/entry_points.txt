@@ -1,0 +1,2 @@
+[console-scripts]
+noScop3r = main:main
