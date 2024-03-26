@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: skm
+Version: 0.2
+Summary: Sanskritayam to Python translator
+Home-page: UNKNOWN
+Author: thtskaran
+Author-email: <hello@karanprasad.com>
+License: UNKNOWN
+Keywords: python,sanskritayam,skm,skt,thtskaran,sabskrit,language,transpiler
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+sanskritayam is a programming language that uses Sanskrit words instead of English keywords. This package translates Sanskritayam code to Python code.
+
+
