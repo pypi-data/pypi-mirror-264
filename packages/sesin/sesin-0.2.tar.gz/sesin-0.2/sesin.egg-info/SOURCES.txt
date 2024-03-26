@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+AFRIT/AFRIT.py
+AFRIT/__init__.py
+sesin.egg-info/PKG-INFO
+sesin.egg-info/SOURCES.txt
+sesin.egg-info/dependency_links.txt
+sesin.egg-info/top_level.txt
