@@ -1,0 +1,14 @@
+daliuge-common==4.0.0
+fastapi
+jinja2
+jsonschema
+metis>=0.2a3
+netifaces
+networkx
+numpy
+parameterized
+psutil
+pyswarm
+python-multipart
+uvicorn==0.18
+wheel
