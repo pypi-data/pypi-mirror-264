@@ -1,0 +1,10 @@
+shipyard_mysql/__init__.py,sha256=R_XKCDCVPpGeeSRQYy8zpUAAtHxcDaKvw79vSHUuJYY,31
+shipyard_mysql/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_mysql/cli/authtest.py,sha256=FUuVLJJQp--BR7DwkGZncR-nDFhnb-_scV8jqdt4sAI,636
+shipyard_mysql/cli/execute_sql.py,sha256=hM2JykJj2FudUyoJdTsNKqbBxKBOC99LYzgfz4YO0OU,2167
+shipyard_mysql/cli/store_query_results.py,sha256=8tqQpza1hSCexp0gh6m9F8V3zvIYo1ZA-6EsZ1-XKbc,3091
+shipyard_mysql/cli/upload_file.py,sha256=uY8r3EzNoeMOXdhjrr6B1ex_dJOHVvZnHGDBsyUr05U,4369
+shipyard_mysql/mysql.py,sha256=uE_rNJRMsyLXfKo5SB3OhssFN4Px59egbpSQSraVLeo,7489
+shipyard_mysql-0.1.0.dist-info/METADATA,sha256=1_MW6FN0dIvK1hCFOqjHZXvoIaig5KRDFqbXmAO9Q2c,1558
+shipyard_mysql-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_mysql-0.1.0.dist-info/RECORD,,

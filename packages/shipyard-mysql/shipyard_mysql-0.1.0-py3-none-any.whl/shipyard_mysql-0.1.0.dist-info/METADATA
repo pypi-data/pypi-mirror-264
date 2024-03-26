@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: shipyard-mysql
+Version: 0.1.0
+Summary: A local client for connecting and working with MySQL databases
+License: Apache 2.0
+Author: wrp801
+Author-email: wespoulsen@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: SQLAlchemy (>=2.0,<3.0)
+Requires-Dist: mysql-connector-python (==8.0.21)
+Requires-Dist: pandas (>=2.2.0,<3.0.0)
+Requires-Dist: shipyard-bp-utils (==1.2.0)
+Requires-Dist: shipyard-templates (==0.8.0)
+Description-Content-Type: text/markdown
+
+# MySQL Client
+
+This Python module provides a client for interacting with MySQL databases, allowing users to perform various operations such as executing queries, uploading data from files, fetching data, and more.
+
+## Installation
+
+To use the MySQL Client, you need to have Python installed. You can install the module via pip:
+
+```bash
+pip install shipyard-mysql
+```
+## Usage 
+
+```python 
+from mysql_client import MySqlClient
+
+# Initialize the MySQL client
+client = MySqlClient(username='your_username', pwd='your_password', host='localhost', database='your_database')
+
+# Execute a query
+query = "SELECT * FROM your_table"
+client.execute_query(query)
+
+# Upload data from a file
+client.upload(file='data.csv', table_name='your_table')
+
+# Fetch data
+result_df = client.fetch(query)
+
+# Close the connection
+client.close()
+```
+
