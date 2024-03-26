@@ -1,0 +1,18 @@
+[project]
+name = "cli-charts"
+version = "0.0.1"
+authors = [
+  { name="Sam", email="samuelayodeji2478@gmail.com" },
+]
+description = "A python package for visualizing graphs and charts right in your CLI!"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/olascoWorks/cli-charts"
+Issues = "https://github.com/olascoWorks/cli-charts/issues"

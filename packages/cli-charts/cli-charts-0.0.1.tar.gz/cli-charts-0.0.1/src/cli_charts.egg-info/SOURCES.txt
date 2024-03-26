@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+src/cli_charts/__init__.py
+src/cli_charts/cli-charts.py
+src/cli_charts/for-bar.py
+src/cli_charts.egg-info/PKG-INFO
+src/cli_charts.egg-info/SOURCES.txt
+src/cli_charts.egg-info/dependency_links.txt
+src/cli_charts.egg-info/top_level.txt
+tests/test_cli_charts.py
