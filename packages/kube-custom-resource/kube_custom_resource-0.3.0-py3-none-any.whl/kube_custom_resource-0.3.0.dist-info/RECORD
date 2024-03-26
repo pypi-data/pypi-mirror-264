@@ -1,0 +1,9 @@
+kube_custom_resource/__init__.py,sha256=eDvjB5VbUBTsMk3KhdsQRg3xRgmHpxke6terIkQlF3I,96
+kube_custom_resource/custom_resource.py,sha256=4wJF9xnDvCt6nuxOQGPQgr5ygB_VJB0uRPLvdDn6L3c,9042
+kube_custom_resource/registry.py,sha256=3lQC8GvfB1DhEx7hntZg-wlj7Vc1LiD5-1MCy3dxYWM,6783
+kube_custom_resource/schema.py,sha256=d2APJEmWAp3WAWVoLcS5RzJmqqS0AwBgdNjAR_ZMG6s,14184
+kube_custom_resource-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kube_custom_resource-0.3.0.dist-info/METADATA,sha256=uA0-DFXlC_CFprk18pLo9yHo-ocAZDb8lDqqG29SvyY,603
+kube_custom_resource-0.3.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kube_custom_resource-0.3.0.dist-info/top_level.txt,sha256=JmONAN0hM1A7x5csWo7zd4vzY99QL_--lv_TmhHA59w,21
+kube_custom_resource-0.3.0.dist-info/RECORD,,
