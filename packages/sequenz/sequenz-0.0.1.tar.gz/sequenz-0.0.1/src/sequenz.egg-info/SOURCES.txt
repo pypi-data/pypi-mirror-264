@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/sequenz/__init__.py
+src/sequenz.egg-info/PKG-INFO
+src/sequenz.egg-info/SOURCES.txt
+src/sequenz.egg-info/dependency_links.txt
+src/sequenz.egg-info/top_level.txt
