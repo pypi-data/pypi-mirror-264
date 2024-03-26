@@ -1,0 +1,2 @@
+[console_scripts]
+words_remover = internet_words_remover:words_remover
