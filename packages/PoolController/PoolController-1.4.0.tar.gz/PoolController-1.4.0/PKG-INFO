@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: PoolController
+Version: 1.4.0
+Summary: UNKNOWN
+Home-page: https://github.com/desy-fsec/sardana-controllers/
+Author: Sardana Controller Developers
+Author-email: fs-ec@desy.de
+Maintainer: DESY
+Maintainer-email: fs-ec@desy.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides: python
