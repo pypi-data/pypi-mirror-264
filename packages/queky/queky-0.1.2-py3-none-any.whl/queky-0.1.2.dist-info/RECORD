@@ -1,0 +1,14 @@
+queky/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+queky/constants.py,sha256=VOncsE7ujkd1k2-fsOzyo1ViDkJsV2JzaXJNY04Vd5Y,887
+queky/main.py,sha256=y6TpFZOhM5hf105Ty58Q-8hS3O_FwaOgxqC4tYj7oTg,3340
+queky/main_test.py,sha256=KlzK5pFYKLcwMcoPVWIVr4xFSK6Zmrw3DXVLAtxynkc,2825
+queky/test.py,sha256=fFn_XoIS1d65PdYgrqVgeSJBObnQ6rHnMAka9XozKh4,1336
+queky/test2.py,sha256=YcjXGw8Tj8dh4CaJ5OIZAtQuRw7N-GIyqvXfO50dQpk,598
+queky/utils.py,sha256=AdhWXckFcB4ciliE_i2egX1tkC2WefaXEZ_Z8vWT2jg,3085
+queky/assets/data.json,sha256=0x_jV_6GapUdnBgdJ6v3Gqowly6BnlN5Fc95zoFSabs,29
+queky-0.1.2.dist-info/LICENSE,sha256=cv7CroZGRnuexkZXWjef-hY1kIZGBpkOaHDchg5yd5w,1058
+queky-0.1.2.dist-info/METADATA,sha256=ZmdFAJ2Y5VuDv3HIXT-ZjOSUqFgbLF_GWLMMxpSuOgg,934
+queky-0.1.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+queky-0.1.2.dist-info/entry_points.txt,sha256=b1El6aEdsT5Sw48ZzklvM03UB_xIqwYzHMuI3nokrek,39
+queky-0.1.2.dist-info/top_level.txt,sha256=szLuLe73ePIJ4rgn5Jrgaxjcxq2kzFQaDlvbcLXAeCA,6
+queky-0.1.2.dist-info/RECORD,,
