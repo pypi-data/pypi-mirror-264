@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: procap
+Version: 0.0.7
+Summary: ProCap is a captcha solving service.
+Author: ProCap
+Keywords: python,captcha,solver,hcaptcha,procap,captcha solver,hcaptcha solver,captcha bypass,cheap solver,cheap captcha solver,cheap hcaptcha solver
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+A api wrapper for ProCap.
