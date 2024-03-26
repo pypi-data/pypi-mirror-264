@@ -1,0 +1,2 @@
+[nebula.collections]
+nebula_gcp = nebula_gcp
