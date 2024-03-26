@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "example_package_samreynoldsmath"
+version = "0.1.16"
+authors = ["Sam Reynolds <sreyn@proton.me>"]
+description = "A small example package with a linear solver"
+readme = "README.md"
+license = "MIT"
+packages = [{include = "example_package_samreynoldsmath"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/samreynoldsmath/PythonPackageTemplate"
+Issues = "https://github.com/samreynoldsmath/PythonPackageTemplate/issues"
+
+[tool.black]
+line-length = 80
+
+[tool.pytest.ini_options]
+filterwarnings = ["error"]
+
+[tool.pylint."messages control"]
+max-line-length = 80
+disable = [
+  "fixme", # reenable to find TODO comments
+  "invalid-name", # use good-names
+]
+good-names = ["A",]
