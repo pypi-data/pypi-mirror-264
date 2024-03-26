@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pipepal
+Version: 0.0.2
+Summary: PipePal is a Python package that simplifies building pipelines for speech and voice analysis (for now).
+License: Apache-2.0
+Keywords: pipeline,speech,audio,voice
+Author: fabiocat
+Author-email: fabiocat@mit.edu
+Maintainer: fabiocat93
+Maintainer-email: fabiocat@mit.edu
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+<!---
+[![DOI]()]()
+-->
+
+# Pipepal
+
+Welcome to the ```pipepal``` repo! This is a Python package that simplifies building pipelines for speech and voice analysis.
+
+## Features
+
+- A few
+- Cool
+- Things
+
+## Installation
+
+Install this package via :
+
+```sh
+pip install pipepal
+```
+
+Or get the newest development version via:
+
+```sh
+pip install git+https://github.com/sensein/pipepal
+```
+
+## Quick start
+
+```Python
+import pipepal
+
+pipepal.hello_world()
+```
+
+## To do:
+- [ ] A
+- [ ] lot
