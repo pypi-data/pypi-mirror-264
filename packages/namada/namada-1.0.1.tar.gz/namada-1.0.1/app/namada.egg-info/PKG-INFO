@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: namada
+Version: 1.0.1
+Summary: Python package for Namada
+Home-page: https://github.com/qmine/namada
+Author: qmine
+Author-email: self.crypto@protonmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: twine>=4.0.2; extra == "dev"
+
+# Python package for Namada
+A package for Namada.
+
+## Install
+**pip install namada <br>**
+
+## How to use
+_After installing the package use following import:_ <br>
+
+**from namada import Namada**
+
+_Then use following commands:_
+
+**client = Namada() <br>**
+
+**print(client.status) <br>**
