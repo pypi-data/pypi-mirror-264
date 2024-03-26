@@ -1,0 +1,2 @@
+[console_scripts]
+generate-airflow-dag-script = airflow_bootstrap_utils.generate_dag:main
