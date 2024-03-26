@@ -1,0 +1,6 @@
+bytepiece_py-0.2.0.dist-info/METADATA,sha256=r9kltra5I5sNcjOEnXquDxjhMNbX7gJ9sFehmtJOIeo,261
+bytepiece_py-0.2.0.dist-info/WHEEL,sha256=tuhQH9UQ-8xUjORFyAzapjXS38Wbn2mmstHqiqg9cqw,119
+bytepiece_py/tokenizer.py,sha256=daSYcMXZ_iLUr70Fh48EhceCVGCGmVuT5DLxPHl6lvE,1506
+bytepiece_py/__init__.py,sha256=6G28_VI39lLFLjAso4S19QrjdTGCYhqEorAF19FSOJk,33
+bytepiece_py/bytepiece_py.cpython-38-i386-linux-gnu.so,sha256=K9hbQa2KZXBGWpYqLnITOawWDR6PCaAXBn0tbTQcvJw,5930416
+bytepiece_py-0.2.0.dist-info/RECORD,,
