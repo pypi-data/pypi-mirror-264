@@ -1,0 +1,5 @@
+cohere==4.57
+faiss-cpu==1.8.0
+numpy
+packaging
+rocksdict
