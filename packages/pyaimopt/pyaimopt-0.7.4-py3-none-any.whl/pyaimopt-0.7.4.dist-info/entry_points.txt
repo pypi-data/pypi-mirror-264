@@ -1,0 +1,3 @@
+[console_scripts]
+aim=pyaimopt.azure_test:main
+
