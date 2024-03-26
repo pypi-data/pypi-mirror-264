@@ -1,0 +1,14 @@
+todo_indicator/indicator.py,sha256=eImTVzH7moiMO2tX1q80yVXZTsqH8bLB6PYgFj6VHro,8173
+todo_indicator/main.py,sha256=mW5Uc_GAyF5hFi0u8p65XtyrzEYH9H9rmzYXiDGOz50,1364
+todo_indicator/img/panel-icon-dark.svg,sha256=xuNkvhShiYu-vgb64g-nSSoaGHSbFPZdCIwBPGeA_6o,4046
+todo_indicator/img/panel-icon-light.svg,sha256=QCZ2knE1-u9hcVo6-Cqqo5KZPkI5q4-wqUZc4IdXH6Q,4784
+todo_indicator/todotxt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todo_indicator/todotxt/item.py,sha256=X805OPWEzEULPy_OkYQuCfPYZFUbcSTejicm0t279dE,3021
+todo_indicator/todotxt/list.py,sha256=8WkNtNB3KmGDJCgLEc1Lm-jj0XF4poF-ZED7LOc6FSM,3959
+todo_indicator/todotxt/test_item.py,sha256=jYsSn8M4JU70HffN0y8EGTXRxvR6d94Ax2onJV6vp4k,4448
+todo_indicator/todotxt/test_list.py,sha256=eyBhh3VkrtLVWJlByhEeCci-WzKGRW1fkoVZmtmtIww,10593
+todo_indicator-0.7.0.dist-info/METADATA,sha256=tTo7oyRgcW4UgQrer-0E7Xiomz8PhSkybkOP2ZUdSH8,3854
+todo_indicator-0.7.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+todo_indicator-0.7.0.dist-info/entry_points.txt,sha256=-BN0omVlj3_0RMeb0Klfi32MHaev0QNliEndS7c67O0,60
+todo_indicator-0.7.0.dist-info/licenses/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+todo_indicator-0.7.0.dist-info/RECORD,,
