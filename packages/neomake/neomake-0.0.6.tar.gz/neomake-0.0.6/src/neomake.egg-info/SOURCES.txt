@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+src/neomake/__init__.py
+src/neomake/neomake.py
+src/neomake/nmprofiles.py
+src/neomake.egg-info/PKG-INFO
+src/neomake.egg-info/SOURCES.txt
+src/neomake.egg-info/dependency_links.txt
+src/neomake.egg-info/top_level.txt
