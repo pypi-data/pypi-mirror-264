@@ -1,0 +1,7 @@
+selenium
+tk
+python-dotenv
+google-generativeai
+webdriver_manager
+PyPDF2
+openpyxl

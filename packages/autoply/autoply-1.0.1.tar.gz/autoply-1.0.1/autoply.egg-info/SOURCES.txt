@@ -1,0 +1,14 @@
+setup.py
+autoapply/__init__.py
+autoapply/autoapply.py
+autoapply/helper/__init__.py
+autoapply/helper/excel_handler.py
+autoapply/helper/genai.py
+autoapply/helper/gotolink.py
+autoapply/helper/gui.py
+autoapply/helper/pdfhandler.py
+autoply.egg-info/PKG-INFO
+autoply.egg-info/SOURCES.txt
+autoply.egg-info/dependency_links.txt
+autoply.egg-info/requires.txt
+autoply.egg-info/top_level.txt
