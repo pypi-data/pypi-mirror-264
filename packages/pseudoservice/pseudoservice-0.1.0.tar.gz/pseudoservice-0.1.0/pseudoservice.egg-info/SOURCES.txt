@@ -1,0 +1,8 @@
+README.md
+setup.py
+pseudoservice/__init__.py
+pseudoservice/main.py
+pseudoservice.egg-info/PKG-INFO
+pseudoservice.egg-info/SOURCES.txt
+pseudoservice.egg-info/dependency_links.txt
+pseudoservice.egg-info/top_level.txt
