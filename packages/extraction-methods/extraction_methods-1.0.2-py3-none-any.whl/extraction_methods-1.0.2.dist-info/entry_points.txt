@@ -1,0 +1,46 @@
+[extraction_methods]
+asset_aggregator = extraction_methods.plugins.asset_aggregator:AssetAggregatorExtract
+basename = extraction_methods.plugins.basename:BasenameExtract
+bbox = extraction_methods.plugins.bbox:BboxExtract
+boto_stats = extraction_methods.plugins.boto_stats:BotoStatsExtract
+categories = extraction_methods.plugins.categories:CategoriesExtract
+ceda_observation = extraction_methods.plugins.ceda_observation:CEDAObservationExtract
+ceda_vocabulary = extraction_methods.plugins.ceda_vocabulary:CEDAVocabularyExtract
+controlled_vocabulary = extraction_methods.plugins.controlled_vocabulary:ControlledVocabularyExtract
+datetime_bound_to_centroid = extraction_methods.plugins.datetime_bound_to_centroid:DatetimeBoundToCentroidExtract
+default = extraction_methods.plugins.default:DefaultExtract
+dot_seperated_str = extraction_methods.plugins.dot_seperated_str:DotSeperatedStrExtract
+elasticsearch_aggregation = extraction_methods.plugins.elasticsearch_aggregation:ElasticsearchAggregationExtract
+elasticsearch_assets = extraction_methods.plugins.elasticsearch_assets:ElasticsearchAssetExtract
+facet_map = extraction_methods.plugins.facet_map:FacetMapExtract
+facet_prefix = extraction_methods.plugins.facet_prefix:FacetPrefixExtract
+fsspec_stats = extraction_methods.plugins.fsspec_stats:FsSpecStatsExtract
+general_function = extraction_methods.plugins.general_function:GeneralFunctionExtract
+geometry_line = extraction_methods.plugins.geometry_line:GeometryLineExtract
+geometry_point = extraction_methods.plugins.geometry_point:GeometryPointExtract
+geometry_polygon = extraction_methods.plugins.geometry_polygon:GeometryPolygonExtract
+geometry_to_bbox = extraction_methods.plugins.geometry_to_bbox:GeometryToBboxExtract
+hash = extraction_methods.plugins.hash:HashExtract
+header = extraction_methods.plugins.header.header:HeaderExtract
+intake_assets = extraction_methods.plugins.intake_esm_assets:IntakeESMAssetExtract
+iso19115 = extraction_methods.plugins.iso19115:ISO19115Extract
+iso_date = extraction_methods.plugins.iso_date:ISODateExtract
+json_file = extraction_methods.plugins.json_file:JsonFileExtract
+lambda = extraction_methods.plugins.lambda:LambdaExtract
+netcdf = extraction_methods.plugins.netcdf:NetCDFfExtract
+open_zip = extraction_methods.plugins.open_zip:ZipExtract
+os_stats = extraction_methods.plugins.os_stats:OsStatsExtract
+path_parts = extraction_methods.plugins.path_parts:PathPartsExtract
+regex = extraction_methods.plugins.regex:RegexExtract
+regex_assets = extraction_methods.plugins.regex_assets:RegexAssetsExtract
+remove = extraction_methods.plugins.remove:RemoveExtract
+rename_assets = extraction_methods.plugins.rename_assets:RenameAssetsExtract
+stac_bbox = extraction_methods.plugins.stac_bbox:STACBboxExtract
+string_join = extraction_methods.plugins.string_join:StringJoinExtract
+string_template = extraction_methods.plugins.string_template:StringTemplateExtract
+xml = extraction_methods.plugins.xml:XMLExtract
+
+[extraction_methods.header.backends]
+cf = extraction_methods.plugins.header.backends.cf:CfBackend
+ncml = extraction_methods.plugins.header.backends.ncml:NcMLBackend
+xarray = extraction_methods.plugins.header.backends.xarray:XarrayBackend
