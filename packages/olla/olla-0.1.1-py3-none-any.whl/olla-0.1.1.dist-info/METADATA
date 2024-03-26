@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: olla
+Version: 0.1.1
+Summary: Open Local LLM Agent
+Author: gamersover
+Author-email: cmathking@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain-community (>=0.0.29,<0.0.30)
+Requires-Dist: openai (>=1.14.2,<1.15.0)
+Requires-Dist: pytz (>=2024.1,<2025.0)
+Description-Content-Type: text/markdown
+
+# Open Local LLM Agent(Olla)
+
+Build your own AI agent with open LLM.
+
+```python
+from olla.agent.react_agent import ReActAgent
+from olla.core.llm import OpenAI
+from olla.core.function import CurrTime
+
+if __name__ == "__main__":
+    llm = OpenAI(
+        base_url="http://localhost:11434/v1",
+        model="openchat",
+        api_key="sk-none",
+    )
+    agent = ReActAgent(
+        llm=llm,
+        tools=[CurrTime()]
+    )
+    agent.run("what time is now in Shanghai")
+```
+
