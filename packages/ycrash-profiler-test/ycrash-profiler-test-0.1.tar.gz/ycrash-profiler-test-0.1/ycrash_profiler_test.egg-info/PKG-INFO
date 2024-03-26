@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ycrash-profiler-test
+Version: 0.1
+Summary: yCrash Python Agent
+Home-page: https://ycrash.io
+Author: YCrash Team
+Author-email: team@tier1app.com
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: memory_profiler
+Requires-Dist: psutil
