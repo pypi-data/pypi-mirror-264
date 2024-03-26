@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "cbrlib"
+version = "2.0.9"
+description = "Case Based Reasoning library for Python"
+authors = ["Christian Dein <christian.dein@dein-hosting.de>"]
+license = "OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: Implementation",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+readme = "README.md"
+packages = [{include = "cbrlib", from = "source"}]
+
+
+[tool.poetry.urls]
+Repository = "https://github.com/cdein/cbrlib.git"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+flake8 = "^7.0.0"
+pytest = "^8.0.2"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
