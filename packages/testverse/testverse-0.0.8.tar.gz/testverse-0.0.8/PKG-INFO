@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: testverse
+Version: 0.0.8
+Summary: Test version of evalverse
+License: Apache-2.0
+Author: Evalverse
+Author-email: evalverse@upstage.ai
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: accelerate (>=0.21.0)
+Requires-Dist: datasets (>=2.16.0)
+Requires-Dist: dill (>=0.3.8,<0.4.0)
+Requires-Dist: evaluate (>=0.4.0)
+Requires-Dist: fschat[model-worker] (>=0.2.36,<0.3.0)
+Requires-Dist: jsonlines (>=4.0.0,<5.0.0)
+Requires-Dist: lm-eval (>=0.4.2,<0.5.0)
+Requires-Dist: more-itertools (>=10.2.0,<11.0.0)
+Requires-Dist: numexpr (>=2.9.0,<3.0.0)
+Requires-Dist: peft (>=0.2.0)
+Requires-Dist: pybind11 (>=2.6.2)
+Requires-Dist: pytablewriter (>=1.2.0,<2.0.0)
+Requires-Dist: rouge-score (>=0.0.4)
+Requires-Dist: sacrebleu (>=1.5.0)
+Requires-Dist: scikit-learn (>=0.24.1)
+Requires-Dist: sqlitedict (>=2.1.0,<3.0.0)
+Requires-Dist: torch (>=1.8)
+Requires-Dist: tqdm-multiprocess (>=0.0.11,<0.0.12)
+Requires-Dist: transformers (>=4.1)
+Requires-Dist: word2number (>=1.1,<2.0)
+Requires-Dist: zstandard (>=0.22.0,<0.23.0)
+Description-Content-Type: text/markdown
+
+# testverse
