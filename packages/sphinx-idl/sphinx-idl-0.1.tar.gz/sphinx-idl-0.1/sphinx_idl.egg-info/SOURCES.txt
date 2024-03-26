@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+sphinx_idl/__init__.py
+sphinx_idl/auto.py
+sphinx_idl/domain.py
+sphinx_idl/parser.py
+sphinx_idl.egg-info/PKG-INFO
+sphinx_idl.egg-info/SOURCES.txt
+sphinx_idl.egg-info/dependency_links.txt
+sphinx_idl.egg-info/not-zip-safe
+sphinx_idl.egg-info/requires.txt
+sphinx_idl.egg-info/top_level.txt
