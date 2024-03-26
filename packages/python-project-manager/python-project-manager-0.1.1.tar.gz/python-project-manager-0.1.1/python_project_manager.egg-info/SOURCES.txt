@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+python_project_manager/__init__.py
+python_project_manager/app.py
+python_project_manager/config.py
+python_project_manager.egg-info/PKG-INFO
+python_project_manager.egg-info/SOURCES.txt
+python_project_manager.egg-info/dependency_links.txt
+python_project_manager.egg-info/entry_points.txt
+python_project_manager.egg-info/top_level.txt
