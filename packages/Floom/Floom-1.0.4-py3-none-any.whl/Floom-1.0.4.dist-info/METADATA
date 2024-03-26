@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Floom
+Version: 1.0.4
+Summary: Floom orchestrates & executes Generative AI pipelines, Empowering Developers and DevOps to focus on what matters.
+Home-page: https://github.com/FloomAI/FloomSDK-Python
+Author: FloomAI
+Author-email: dev@floom.ai
+Requires-Python: >=3.0
+Requires-Dist: Requests
+
