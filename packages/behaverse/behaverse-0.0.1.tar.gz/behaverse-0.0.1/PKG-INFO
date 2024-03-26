@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: behaverse
+Version: 0.0.1
+Summary: Behaverse Python Package
+Author-email: Morteza Ansarinia <morteza.ansarinia@uni.lu>, Hoorieh Afkari <hoorieh.afkari@uni.lu>, Pedro Cardoso-Leite <pedro.cardosoleite@uni.lu>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://github.com/behaverse/data-model
+Project-URL: Source, https://github.com/behaverse/behaverse
+Project-URL: Tracker, https://github.com/behaverse/behaverse/issues
+
+# Behaverse Python Package
+
+This package is a Python implementation of the Behaverse API. It allows you to interact with the Behaverse datasets in Python.
+
+## Installation
+
+To install the package, you can use pip:
+
+```bash
+pip install behaverse
+```
+
+## Usage
+
+TODO
+
+## License
+
+TODO
+
+## Contributing
+
+TODO
+
+## Acknowledgements
+
+TODO
+
+## Citation
+
+TODO
+
