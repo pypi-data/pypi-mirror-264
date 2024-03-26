@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: cache-middleware-django
+Version: 0.0.1
+Summary: A Django app for the caching api data while get method and removing after data altered or created.
+Home-page: https://github.com/icedreamer-praveen/django-cache-middleware
+Author: icedreamer-praveen
+Author-email: prabinchy1234@gmail.com
+License: MIT License
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+django-cache-middleware
+=========================
+
+django-cache-middleware is a Django app for the caching api data while get method and removing after data altered or created.
+
+Installation
+------------
+
+    * pip install django-cache-middleware
+    * Add ``cache_middleware`` to your ``INSTALLED_APPS``
+    * Add ``cache_middleware.middlewares.CacheMiddleware`` to your ``MIDDLEWARE``
+    * set django redis for your project (https://pypi.org/project/django-redis/) 
+
+::
+
+Setup in settings
+-----------------
+
+    * REMOVE_RELATED_CACHE : bool # default True # remove related model data i.e o2m, m2o, m2m, 020 dat 
+    * CACHE_REMOVE_TIMEOUT : integer | None # default None # cache removing time
+    * BASE_API_URL : str # default /api/ # base api url
+    * CACHE_NAME : str # default settings.ROOT_URLCONF.split('.')[0] #  name of cache base key name
+
+::
+
+
+Compatibility
+-------------
+{py37, py38, py310}-django{4.* above}

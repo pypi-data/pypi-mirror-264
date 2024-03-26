@@ -1,0 +1,11 @@
+cache_middleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cache_middleware/apps.py,sha256=LyNqQSkNU8Zfflm9AiRAZ4zQewuN8tsUVBR6D19fmZw,163
+cache_middleware/middlewares.py,sha256=IvL-pS3q-Z6E_PB9mhEP94RotLa4JEWJlZ5a0MsfVig,3699
+cache_middleware/middlewares_celery.py,sha256=RplhhwsygaTEltarGFkmYxa34A5-2ESfyzAacvRQAF8,3660
+cache_middleware/task.py,sha256=0n4Zuv42tyxBiGJmiwYBAJbm39sJze4872tFMcRQnsA,746
+cache_middleware/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+cache_middleware/utils.py,sha256=WNsonkYik33LNhHH2i5lyebUuV-1z51AzQK74oQQCJw,696
+cache_middleware_django-0.0.1.dist-info/METADATA,sha256=xfxd8-cva7mDF7kAkdRRJEarYrmznOVdVkSjOwWxxb4,1805
+cache_middleware_django-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cache_middleware_django-0.0.1.dist-info/top_level.txt,sha256=oGDgvdX4iBms38scZHMUQu6g8ZYr2QG1OywqJCGiFSU,17
+cache_middleware_django-0.0.1.dist-info/RECORD,,
