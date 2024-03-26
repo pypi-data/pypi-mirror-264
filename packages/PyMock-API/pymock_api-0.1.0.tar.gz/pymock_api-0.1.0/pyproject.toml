@@ -1,0 +1,78 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "PyMock-API"
+version = "0.1.0"
+description = "🕸🤖👺 A Python tool to mock API easily and humanly without any coding."
+authors = ["Liu, Bryant <chi10211201@cycu.org.tw>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pymock_api"}]
+keywords = ["mock", "API", "mock API", "web", "server"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Internet",
+    "Topic :: Utilities",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Testing :: Mocking",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+homepage = "https://github.com/Chisanan232/PyMock-API"
+documentation = "https://chisanan232.github.io/PyMock-API/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^6.0"
+# Extra dependency of web framework *Flask* with WSGI server *Gunicorn*
+Flask = {version = "^3.0.2", extras = ["flask", "all"]}
+gunicorn = {version = "^21.2.0", extras = ["flask", "all"]}
+# Extra dependency of web framework *FastAPI* with ASGI server *Uvicorn*
+fastapi = {version = "^0.110.0", extras = ["fastapi", "all"]}
+uvicorn = {version = "^0.29.0", extras = ["fastapi", "all"]}
+
+[tool.poetry.group.dev.dependencies]
+# Dependency for test
+pytest = "^8.1.1"
+pytest-cov = "^5.0.0"
+pytest-html = "^4.1.1"
+pytest-rerunfailures = "^14.0"
+coverage = "^6.2"
+coveralls = "^3.3.1"
+# Dependency for CI
+pre-commit = "^3.5.0"
+pylint = "^3.1.0"
+# TODO: Import mypy to check static type of Python project code
+#mypy = "^1.2.0"
+# Dependency of web framework Flask
+Flask = "^3.0.2"
+gunicorn = "^21.2.0"
+# Dependency of web framework FastAPI
+fastapi = {extras = ["all"], version = "^0.110.0"}
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+types-PyYAML = "^6.0.12.9"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.4.3"
+mkdocs-material = "^9.5.15"
+mkdocs-autorefs = "^1.0.1"
+mkdocstrings = "^0.24.1"
+mkdocstrings-python = "^1.9.0"
+
+[tool.poetry.scripts]
+mock-api = "pymock_api.runner:run"
