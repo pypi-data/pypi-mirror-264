@@ -1,0 +1,10 @@
+hatch_gettext/__about__.py,sha256=YYS2wbLgBG8VA9k1uJLA59jaW3i1RdYQ00kz6LfMDrw,142
+hatch_gettext/__init__.py,sha256=RCI7leubzPvQWaEX0YhYs7kwaFJKti3LN0PtU89QW5k,120
+hatch_gettext/hooks.py,sha256=vNIf7c1OkmKTxUuSe3NI_oSXN34iOI5sR4PUznxmRfQ,282
+hatch_gettext/plugin.py,sha256=KdxHe0FA_xV7cttK80GwdVtZv4pGIBr8LgPD98H42EM,11502
+hatch_gettext/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_gettext-0.5.0.dist-info/METADATA,sha256=Nwy1EJ-ixEkSovTaItDP70mCK4GbCs7G_lvbjMdX1mw,11261
+hatch_gettext-0.5.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+hatch_gettext-0.5.0.dist-info/entry_points.txt,sha256=jxNrmdnYkTjUByvxexn3vP7vZEw5jmgOpDM-MlfFHS4,38
+hatch_gettext-0.5.0.dist-info/licenses/LICENSE.txt,sha256=tqi_Y64slbCqJW7ndGgNe9GPIfRX2nVGb3YQs7FqzE4,34670
+hatch_gettext-0.5.0.dist-info/RECORD,,
