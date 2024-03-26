@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+package_with_extras/__init__.py
+package_with_extras/hello.py
+package_with_extras.egg-info/PKG-INFO
+package_with_extras.egg-info/SOURCES.txt
+package_with_extras.egg-info/dependency_links.txt
+package_with_extras.egg-info/requires.txt
+package_with_extras.egg-info/top_level.txt

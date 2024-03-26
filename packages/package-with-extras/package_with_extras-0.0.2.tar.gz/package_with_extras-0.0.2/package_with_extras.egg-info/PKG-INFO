@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: package_with_extras
+Version: 0.0.2
+Summary: A small source package with extras
+Author-email: Nichita Morcotilo <nmorkotilo@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boltons
+Provides-Extra: color
+Requires-Dist: rich; extra == "color"
+Provides-Extra: cli
+Requires-Dist: click; extra == "cli"
+
+# PACKAGE WITH EXTRAS
+
+This package is created for testing purposes of editable install with extras.
+
+
