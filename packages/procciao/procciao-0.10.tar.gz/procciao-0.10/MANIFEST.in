@@ -1,0 +1,3 @@
+include procciao/requirements.txt
+include procciao/thirdparty.json
+include procciao/README.MD
