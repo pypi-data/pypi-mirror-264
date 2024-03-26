@@ -1,0 +1,12 @@
+streamlit_vizzu/__init__.py,sha256=eIogtj5DofeDWCehFVT4fCoEBls3EViFR9XKme--uQw,109
+streamlit_vizzu/chart.py,sha256=WN2Czs7-hmhYrettXGIS8PbzmJJFv0OmbeoR6w6UVm8,6058
+streamlit_vizzu/frontend/index.html,sha256=sEvJoNj57iRjisV6DUS9ctQAbAJOMQQjdb_HaK65UJw,450
+streamlit_vizzu/frontend/main.js,sha256=IkJmHLyO2cE5CDJ2AnNFzcit1pJjOzZIeLC8c2r7RvM,2041
+streamlit_vizzu/frontend/package-lock.json,sha256=wDQ3GgfS_pRwcd4kg--HI9nq8SjskW3THhvyc9W3CPw,87
+streamlit_vizzu/frontend/streamlit-component-lib.js,sha256=LdsY3Moj3IPUPtagiMaoPl31OabzgeZw6v5_iEqf6xY,1121
+streamlit_vizzu/frontend/style.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streamlit_vizzu-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+streamlit_vizzu-0.1.5.dist-info/METADATA,sha256=tyb7LKo0vJo25MVFYt4Nx-FIUrHKRSSa-9TWpuVSdK4,1137
+streamlit_vizzu-0.1.5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+streamlit_vizzu-0.1.5.dist-info/top_level.txt,sha256=XJlieutQy1_Q_z5q7PXtncZvkwemUpp3DjST5k97fVc,16
+streamlit_vizzu-0.1.5.dist-info/RECORD,,
