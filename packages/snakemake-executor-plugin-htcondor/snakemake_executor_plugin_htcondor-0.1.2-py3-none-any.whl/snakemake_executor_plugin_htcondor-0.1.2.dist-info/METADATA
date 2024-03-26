@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: snakemake-executor-plugin-htcondor
+Version: 0.1.2
+Summary: A Snakemake executor plugin for submitting jobs to a HTCondor cluster.
+Home-page: https://github.com/jannisspeer/snakemake-executor-plugin-htcondor
+Author: Jannis Speer
+Author-email: jannis.speer@tutanota.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: htcondor (>=23.4.0,<24.0.0)
+Requires-Dist: snakemake-interface-common (>=1.17.1,<2.0.0)
+Requires-Dist: snakemake-interface-executor-plugins (>=9.0.0,<10.0.0)
+Project-URL: Documentation, https://snakemake.github.io/snakemake-plugin-catalog/plugins/executor/htcondor.html
+Project-URL: Repository, https://github.com/jannisspeer/snakemake-executor-plugin-htcondor
+Description-Content-Type: text/markdown
+
+# Snakemake executor plugin: HTCondor
+
+A Snakemake executor plugin for submitting jobs with HTCondor.
+The documentation can be found in the [Snakemake plugin catalog](https://snakemake.github.io/snakemake-plugin-catalog/plugins/executor/htcondor.html).
+
