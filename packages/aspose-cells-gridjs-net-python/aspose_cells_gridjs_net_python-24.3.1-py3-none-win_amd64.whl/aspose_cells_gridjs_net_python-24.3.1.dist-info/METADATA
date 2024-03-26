@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: aspose-cells-gridjs-net-python
+Version: 24.3.1
+Summary: A powerful library that allows users to develop cross-platform web application to view or edit spreadsheet quickly and easily.
+Home-page: https://products.aspose.com/cells/
+Author: aspose-cells
+License: https://company.aspose.com/legal/eula
+Keywords: Excel,XLS,XLSX,XLSB,CSV,PDF,JPG,PNG,HTML,ODS,Numbers,XLSM,OOXML,Spreadsheet,Markdown,XPS,DOCX,PPTX,MHTML,TXT,JSON,SVG,EMF,TIFF
+Platform: win_amd64
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: License :: Free To Use But Restricted
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6,<3.12
+Description-Content-Type: text/x-rst
+
+Product description 
+==================================
+
+
+`Product Page <https://products.aspose.com/cells/python-net>`_ | `Docs <https://docs.aspose.com/cells/python-net/>`_ | `API Reference <https://reference.aspose.com/cells/python-net/>`_ | `Demos <https://products.aspose.app/cells/family/>`_ | `Blog <https://blog.aspose.com/category/cells/>`_ | `Code Samples <https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net>`_ | `Free Support <https://forum.aspose.com/c/cells>`_ | `Temporary License <https://purchase.aspose.com/temporary-license>`_ | `EULA <https://company.aspose.com/legal/eula>`_
+
+[Aspose.Cells.GridJs](https://docs.aspose.com/cells/python-net/aspose-cells-gridjs/) is a library that allows users to develop cross-platform web application to view or edit spreadsheet quickly and easily.
+
+Why Use Aspose.Cells.GridJs?
+-------------------------------------------
+
+It allows you to import and export Excel&reg; files, manipulate data & formatting, customize grid design and layout, manage multiple worksheets, create and calculate Excel&reg; formulas, and perform numerous other Excel&reg;-like operations.
+
+Features
+-------------------------------------------
+
+- Import, view and edit the popular spreadsheet formats.
+- Export the spreadsheets to various supported file formats.
+- Get the image or shape files being used within the spreadsheet.
+- Perform Grid design and layout customization.
+- Multiple worksheet management.
+- Creation and calculation of Excel&reg; formulas.
+
+Supported Import & Export Formats
+-------------------------------------------
+
+- **Microsoft Excel&reg;:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM, CSV, TSV, TabDelimited, SpreadsheetML
+- **OpenOffice&reg;:** ODS, SXC, FODS
+- **Text:** TXT
+- **Web:** HTML, MHTML
+- **Apple iWork&reg;:** Numbers
+
+Get Started
+-------------------------------------------
+
+Are you ready to give Aspose.Cells.GridJs a try? 
+Simply execute `pip install aspose_cells_gridjs_net_python`.
+
+General Usage
+-------------------------------------------
+
+Below is the basic process steps to develop a web application of `GridJs`.
+
+- Set cache storage directory by  Config.set_file_cache_directory('you storage path')
+- Set License by  Config.set_license('you license path')
+- Set image route url GridJsWorkbook.set_image_url_base('route for view image');
+- Set up a route action to get `json` from the spreadsheet file. You can use `GridJsWorkbook.ImportExcelFile` and `GridJsWorkbook.ExportToJson` APIs, `GridJs` will automatically store the spread file in cache.
+- Set up a route action to get `json` for the update operation.You can use `GridJsWorkbook.UpdateCell` `API，GridJs` will do update operation in cache and return the updated `json`.
+- Set up a route action to get the images/shapes files url in the spreadsheet, `GridJs` will automatically zip all the images/shapes in cache .It will use `GridCacheForStream.GetFileUrl` API.
+- Set up a route action to get file in cache,thus we can get the images/shapes zip file or the spreadsheet file in cache. It will use `GridCacheForStream.LoadStream` API.
+- Set up a route action to download the spreadsheet.You can use `GridJsWorkbook.SaveToCacheWithFileName` API.
+
+**Basic Demo**
+
+Below is a basic demo to show the usage of Aspose.Cells.GridJs : https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net
+in the demo we use  `gridjs-spreadsheet  <https://www.npmjs.com/package/gridjs-spreadsheet>` for the render of client side  page.
+
+
+`Product Page <https://products.aspose.com/cells/python-net>`_ | `Docs <https://docs.aspose.com/cells/python-net/>`_ | `API Reference <https://reference.aspose.com/cells/python-net/>`_ | `Demos <https://products.aspose.app/cells/family/>`_ | `Blog <https://blog.aspose.com/category/cells/>`_ | `Code Samples <https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET/tree/main/Examples_GridJs_Python_Net>`_ | `Free Support <https://forum.aspose.com/c/cells>`_ | `Temporary License <https://purchase.aspose.com/temporary-license>`_ | `EULA <https://company.aspose.com/legal/eula>`_
