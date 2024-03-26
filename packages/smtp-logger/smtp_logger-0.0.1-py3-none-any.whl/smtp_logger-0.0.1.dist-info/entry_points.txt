@@ -1,0 +1,2 @@
+[console_scripts]
+smtp-logger = smtp_logger:cli
