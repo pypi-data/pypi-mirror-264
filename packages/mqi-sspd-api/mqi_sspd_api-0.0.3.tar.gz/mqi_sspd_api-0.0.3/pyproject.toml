@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling", "websocket-client", "rel"]
+build-backend = "hatchling.build"
+[project]
+name = "mqi_sspd_api"
+version = "0.0.3"
+authors = [
+  { name="Filip Zlatoidsky", email="fillatino@gmail.com" },
+]
+description = "This is the official API of the MQI biasing box"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+Homepage = "https://github.com/MQI-Software/mqi-api"
+Issues = "https://github.com/MQI-Software/mqi-api/issues"
+[tool.hatch.build.targets.wheel]
+ignore-vcs = true
+include = [
+  "mqi/**"
+]
