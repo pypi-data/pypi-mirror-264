@@ -1,0 +1,11 @@
+praisonai/__init__.py,sha256=5SwxMGd4vNUmYedF_HLLQBo4u8zMEWuEfKhHqJrEE1I,59
+praisonai/__main__.py,sha256=MVgsjMThjBexHt4nhd760JCqvP4x0IQcwo8kULOK4FQ,144
+praisonai/auto.py,sha256=ssObNlJupbjr4yK9dKo56_BEd-8s-QwaUh9AfsS1OFk,4723
+praisonai/cli.py,sha256=9SqLGsSJ8FE3xgKU-CcJ1R5ZYPdpbJoYhoV1n6pDALA,8708
+praisonai/deploy.py,sha256=dKrt-9p_B23EBUN7BtZSJ0fESmzg_m45naXAsi6FMNc,3539
+praisonai/test.py,sha256=4bAqitWeywjZtxoOAdcBTLaYDRflZH3LSYtOpWrZBI4,3707
+praisonai/version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+praisonai-0.0.17.dist-info/METADATA,sha256=Mxu-QPE1axPC8lt-tCcxQlhLuUUCxCVZODX_LyS7GwU,6959
+praisonai-0.0.17.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+praisonai-0.0.17.dist-info/entry_points.txt,sha256=Qg41eW3A1-dvdV5tF7LqChfYof8Rihk2rN1fiEE3vnk,53
+praisonai-0.0.17.dist-info/RECORD,,
