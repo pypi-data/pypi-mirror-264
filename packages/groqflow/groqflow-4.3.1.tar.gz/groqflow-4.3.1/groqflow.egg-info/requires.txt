@@ -1,0 +1,11 @@
+mlagility==3.3.1
+onnx==1.14.0
+onnxruntime==1.15.1
+protobuf==3.20.3
+scikit-learn==1.1.1
+torch==2.1.0
+typeguard==4.0.0
+
+[tensorflow]
+tensorflow-cpu>=2.8.1
+tf2onnx>=1.12.0
