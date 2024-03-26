@@ -1,0 +1,8 @@
+README.md
+setup.py
+hellomaaya/__init__.py
+hellomaaya/hello.py
+hellomaaya.egg-info/PKG-INFO
+hellomaaya.egg-info/SOURCES.txt
+hellomaaya.egg-info/dependency_links.txt
+hellomaaya.egg-info/top_level.txt
