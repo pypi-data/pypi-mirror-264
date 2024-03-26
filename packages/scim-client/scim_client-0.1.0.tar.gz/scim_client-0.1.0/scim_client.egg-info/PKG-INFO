@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: scim_client
+Version: 0.1.0
+Summary: SCIM v2 API client
+Home-page: https://github.com/Aplopio/python-scim-client
+Author: Mitratech Development Team
+Author-email: devs@mitratech.com
+License: MIT license
+Keywords: scim_client
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+===========
+scim_client
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/scim_client.svg
+        :target: https://pypi.python.org/pypi/scim_client
+
+.. image:: https://img.shields.io/travis/vedarthk/scim_client.svg
+        :target: https://travis-ci.com/vedarthk/scim_client
+
+.. image:: https://readthedocs.org/projects/scim-client/badge/?version=latest
+        :target: https://scim-client.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/vedarthk/scim_client/shield.svg
+     :target: https://pyup.io/repos/github/vedarthk/scim_client/
+     :alt: Updates
+
+
+
+SCIM v2 API client
+
+
+* Free software: MIT license
+* Documentation: https://scim-client.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2024-03-21)
+------------------
+
+* First release on PyPI.
