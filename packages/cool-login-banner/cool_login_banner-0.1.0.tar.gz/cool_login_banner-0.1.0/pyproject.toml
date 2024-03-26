@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cool-login-banner"
+version = "0.1.0"
+description = ""
+authors = ["telecomshy <telecomshy@126.com>"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyfiglet = "^1.0.2"
+cowsay = "^6.1"
+fabric = "^3.2.2"
+termcolor = "^2.4.0"
+invoke = "^2.2.0"
+pytest = "^8.1.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
