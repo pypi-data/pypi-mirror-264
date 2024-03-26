@@ -1,0 +1,9 @@
+src/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+src/arguments.py,sha256=lmCKc2I6vFXv0J0V44DMuGvKcc-buQ06xrxxhzQxKMo,821
+src/paths.py,sha256=_sNVXAWBqd4rCUJXqoYEIAAoTPKJ2GRmO1pUPDgKVrg,114
+src/synthesis.py,sha256=jGBfCICILxZ7AcN5qC57GqMqSICNgnETbWzWTNz3Pro,9801
+verilog_pad_analyzer-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+verilog_pad_analyzer-0.0.1.dist-info/METADATA,sha256=UsK2_etYgGfoMx-QhBhaRg0VMSVJn-yOTvhWaFKm2Ng,2757
+verilog_pad_analyzer-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+verilog_pad_analyzer-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+verilog_pad_analyzer-0.0.1.dist-info/RECORD,,
