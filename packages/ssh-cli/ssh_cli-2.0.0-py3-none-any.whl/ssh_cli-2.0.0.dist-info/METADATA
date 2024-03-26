@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ssh-cli
+Version: 2.0.0
+Summary: cli to manage the ssh config file
+License: MIT
+Keywords: ssh,cli,config
+Author: valentinkolb
+Author-email: valentin.kolb@uni-ulm.de
+Requires-Python: >=3.10,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: inquirer (>=3.2.4,<4.0.0)
+Requires-Dist: prettytable (>=3.10.0,<4.0.0)
+Requires-Dist: sshconf (>=0.2.5,<0.3.0)
+Requires-Dist: termcolor (>=2.4.0,<3.0.0)
+Requires-Dist: validators (>=0.24.0,<0.25.0)
+Description-Content-Type: text/markdown
+
+# SSH-Tool
+
+This cli tool allows you to create and manage your SSH config file.
+
+## Installation
+
+```bash
+pip install ssh-cli
+```
+
+## Usage
+
+```bash
+ssh-cli
+```
+
+## Features
+
+- Add a new host (with or without a key)
+- Remove a host
+- List all hosts
+- Connect to a host
+- Edit ssh config file
+- Cleanup SSH keys

@@ -1,0 +1,10 @@
+ssh_cli/__init__.py,sha256=jIB_A21BGC5AzbHLPMvWIWXNiwGf0NZP3t0w2gmtitA,27
+ssh_cli/__main__.py,sha256=Ygdst0HQJej42jDQWtCh1BDS2eAPn_KXZ7z5Et4NlRg,1672
+ssh_cli/cli.py,sha256=U3kY4GkuHpzG6Lomhwp1nqQi8i4wD4o2GAjDE6okEc0,6685
+ssh_cli/config.py,sha256=k99UwEinagdABWmYFUs_qxyAWaWnh5CTX6sLVJNEfKQ,1106
+ssh_cli/validation.py,sha256=te7SQL4wJkp_kqgkCzg91u7oAjOnrI7sWxIxzE9Jwpo,1567
+ssh_cli-2.0.0.dist-info/LICENSE,sha256=Xu2wbe2AXk3YTiyHEa60TJc252Djq8nej5sQmsChHUU,1070
+ssh_cli-2.0.0.dist-info/METADATA,sha256=jN08JXR4wSwl4jr9uKiUiwh0S9BF0EzDKBNG0sSscu4,1120
+ssh_cli-2.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ssh_cli-2.0.0.dist-info/entry_points.txt,sha256=fn4LSWh2Y11lu_t-5ocmvtgiB6Sd--jvmjrQzVuJRW0,40
+ssh_cli-2.0.0.dist-info/RECORD,,
