@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+avpnrnpoytwouygev/__init__.py
+avpnrnpoytwouygev/main.py
+avpnrnpoytwouygev/version.py
+avpnrnpoytwouygev.egg-info/PKG-INFO
+avpnrnpoytwouygev.egg-info/SOURCES.txt
+avpnrnpoytwouygev.egg-info/dependency_links.txt
+avpnrnpoytwouygev.egg-info/requires.txt
+avpnrnpoytwouygev.egg-info/top_level.txt
