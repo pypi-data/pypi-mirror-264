@@ -1,0 +1,64 @@
+#############################
+# NPLinker configuration file
+#############################
+
+# The root directory of the NPLinker project. You need to create it first.
+# The value is required and must be a full path.
+root_dir = "<NPLinker root directory>"
+# The mode for preparing dataset.
+# The available modes are "podp" and "local".
+# "podp" mode is for using the PODP platform (https://pairedomicsdata.bioinformatics.nl/) to prepare the dataset.
+# "local" mode is for preparing the dataset locally. So uers do not need to upload their data to the PODP platform.
+# The value is required.
+mode = "podp"
+# The PODP project identifier.
+# The value is required if the mode is "podp".
+podp_id = ""
+
+
+[log]
+# Log level. The available levels are same as the levels in python package `logging`:
+# "NOTSET", "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL".
+# The default value is "INFO".
+level = "INFO"
+# Redirect the log messages from stdout to a log file. If not set, the log messages will only be
+# printed to stdout.
+# The value is optional and must be a full path if set.
+file = "path/to/logfile"
+# Whether to print log messages to stdout in addition to writing to the logfile.
+# The default value is true.
+to_stdout = true
+
+
+[mibig]
+# Whether to use mibig metadta (json).
+# The default value is true.
+to_use = true
+# The version of mibig metadata.
+# Make sure using the same version of mibig in bigscape.
+# The default value is "3.1"
+version = "3.1"
+
+
+[bigscape]
+# The parameters to use for running BiG-SCAPE.
+# Required bigscape parameters are `--mix`, `--include_singletons` and `--cutoffs`. NPLinker needs
+# them to run the analysis properly.
+# Parameters that must NOT exist: `--inputdir`, `--outputdir`, `--pfam_dir`. NPLinker will
+# automatically configure them.
+# If parameter `--mibig` is set, make sure setting the config `mibig.to_use` to true and
+# `mibig.version` to the version of mibig in bigscape.
+# The default value is "--mibig --clans-off --mix --include_singletons --cutoffs 0.30".
+parameters = "--mibig --clans-off --mix --include_singletons --cutoffs 0.30"
+# Which bigscape cutoff to use for NPLinker analysis.
+# There might be multiple cutoffs in bigscape output.
+# Note that this value must be a string.
+# The default value is "0.30".
+cutoff = "0.30"
+
+
+[scoring]
+# Scoring methods.
+# Valid values are "metcalf" and "rosetta".
+# The default value is "metcalf".
+methods = ["metcalf"]
