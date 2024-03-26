@@ -1,0 +1,263 @@
+Metadata-Version: 2.1
+Name: ChemMod
+Version: 0.0.3
+Summary: Python program for practical plotting and calculation in chemistry. ChemMod is developed as a userfriendly python package for chemistry students. The package contains a variety of different useful plot functions and formula functions from chemistry e.g. buffer diagrams, Gibbs-energy functions and regression tools.
+Author-email: August Jacobi <chemistry.chem.mod@gmail.com>
+Project-URL: Homepage, https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: COPYING.txt
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Chemistry Modules</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+<style>
+
+body	{
+	background-color:darkblue;
+	width:1250px;
+	height:5000px;
+}
+
+h1	{
+	background-color:slateblue;
+	color:teal;
+	font-size:100px;
+	text-align:center;
+	outline:white;
+	text-shadow:2px 2px white;
+	text-shadow:2px 7px black;
+	padding:0;
+	margin:1px;
+	
+}
+
+
+h2	{
+	background-color:white;
+	color:purple;
+	font-size:50px;
+	text-align:center;
+	outline:white;
+	text-shadow:0.9px 1px black
+	margin:1px;
+}
+	
+
+div#d1	{
+	background-color:blue;
+}
+
+div#d2	{
+	background-color:#736AFF;
+}
+
+div#d3	{
+	background-color:#736AFF;
+	float:right;
+}
+
+ul#ul1	{
+	list-style-type:none;
+	margin:10px;
+	background-color:#736AFF;
+	padding:0;
+	overflow:hidden;
+}
+
+ul#ul2	{
+	list-style-type:none;
+	margin:1px;
+	background-color:#736AFF;
+	padding:0;
+	overflow:hidden;
+}
+
+li	{
+	float:left;
+	
+}
+
+
+li a	{
+	display:block;
+	color:purple;
+	text-align:center;
+	text-decoration:none;
+	padding:30px;
+	font-size:30px;
+	text-shadow:-0.5px 1px white;
+	text-shadow:0.5px 1px black;
+}
+
+
+li a:hover	{
+	background-color:lightyellow;
+}
+
+
+li#li3	{
+	float:right;
+}
+
+li#li5 a	{
+	display:block;
+	color:purple;
+	text-align:center;
+	text-decoration:none;
+	padding:20px;
+	font-size:30px;
+	text-shadow:-0.5px 1px white;
+	text-shadow:0.5px 1px black;
+}
+
+img1	{
+	width:100%;
+	height:100%;
+}
+
+
+p1	{
+	color:lightblue;
+	font-size:25px;
+	text-shadow:0.9px 1px black;
+}
+
+p2	{
+	color:white;
+	font-size:25px;
+	text-shadow:0.9px 1px black;
+}
+
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+<br><br><br>
+
+
+<div id="d1" class="heading">
+
+	<h1>Skizofreni<hr style="display:block;background-color:#2B3856;padding:3px;border:none;"></h1>
+</div>
+
+<div id="d2" class="toolbar">
+
+<ul id="ul1">
+
+	<li><hr><hr><hr><hr><hr><hr><hr><hr><hr></li>
+
+	<li id="li1"><a href="C:\Users\Augus\OneDrive - IT Center Fyn\Dokumenter\Skrivebord\HTML\Homepages\Drughunter hjemmeside\Hjemmesiden\Skizofreni.html" target="_self" id="a1">Hjem</a></li>
+
+	<li><hr><hr><hr><hr><hr><hr><hr><hr><hr></li>
+	
+	<li id="li2"><a href="C:\Users\Augus\OneDrive - IT Center Fyn\2.g\Homepages\Drughunter hjemmeside\Hjemmesiden\Kilder.html" id="a2" target="_self">Kilder</a></li>
+
+
+	<li><hr><hr><hr><hr><hr><hr><hr><hr><hr></li>
+	
+	<li id="li2"><a href="https://www.w3schools.com/html/" id="a2" target="blank">Om os</a></li>
+
+	<li><hr><hr><hr><hr><hr><hr><hr><hr><hr></li>
+
+	<li style="float:right;"><hr><hr><hr><hr><hr><hr><hr><hr><hr></li>
+
+	<li id="li3"><a href="C:\Users\Augus\OneDrive - IT Center Fyn\Dokumenter\Skrivebord\HTML\Homepages\Drughunter hjemmeside\Service Unavailable.html" id="a3">Leave</a></li>
+
+	<li style="float:right;"><hr><hr><hr><hr><hr><hr><hr><hr><hr></li>	
+
+</ul>
+
+<hr style="display:block;background-color:slateblue;padding:3px;border:none;">
+
+</div>
+
+<br><br>
+
+<div id="d3">
+
+<ul id="ul2">
+
+	<li id="li5"><a href="#ul2" target="_self" id="a1">Kapiteloversigt</a></li>
+
+	<br><br><br><br><hr>
+
+	<li id="li5"><a href="#C1" target="_self" id="a1">Behandling af skizofreni</a></li>
+
+	<br><br><br><br><hr>
+	
+	<li id="li5"><a href="#C2" id="a2" target="_self">Antisense Oligo-Nukleotider</a></li>
+
+	<br><br><br><br><hr>
+	
+	<li id="li5"><a href="#C3" id="a2" target="blank">ASO'er og skizofreni</a></li>
+
+	<br><br><br><br><hr>
+
+	<li id="li5"><a href="#C4" id="a3">Fordele og ulemper</a></li>	
+	
+	<br><br><br><br><hr>
+</ul>
+
+
+<hr style="display:block;background-color:slateblue;padding:3px;border:none;">
+
+</div>
+
+<img src="C:\Users\Augus\Desktop\Packages\Chem.Mod\Logo.png" id="img1" alt="Logo" width="850" height="474">
+
+
+</html>
+
+
+
+
+
+
+Project: ChemMod.py
+
+
+Description:
+Python program for practical plotting and calculation in chemistry. ChemMod is developed as a userfriendly python package for chemistry students. The package contains a variety of different useful plot functions and formula functions from chemistry e.g. buffer diagrams, gibs energy functions, reaction kinetics order plot linear regression.
+
+Table of contents:
+
+	1.	arrhenius_plot() 
+	2.	bjerrum_plot()
+	3.	equil()
+	4.	gibbs_plot()
+	5.	M()
+	6.	order_plot()
+
+Built with:
+	
+	Python - Google Colaboratory
+	
+	Python packages:
+		numpy
+		math
+		math.plotlib
+
+Requires:
+	Python
+		- numpy as np
+		- matplotlib as plt
+
+
