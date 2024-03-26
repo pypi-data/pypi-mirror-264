@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "microslac"
+version = "0.0.8"
+description = ""
+authors = ["tanlda <ledinhanhtan.stack@gmail.com>"]
+packages = [{ include = "micro", from = "src" }]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+shortuuid = "^1.0.13"
+pytest = "^8.1.1"
+faker = "^24.3.0"
+pre-commit = "^3.6.2"
+pyjwt = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 120
+
+
+[tool.pyright]
+include = ["src"]
+exclude = ["**/node_modules", "**/__pycache__"]
+reportMissingImports = true
+reportMissingTypeStubs = false
+reportGeneralTypeIssues = false
+reportOptionalSubscript = false
+reportPrivateImportUsage = "information"
+reportUnusedFunction = true
+pythonPlatform = "Linux"
+pythonVersion = "3.11"
+
+
+[tool.isort]
+known_local_folder = ["webmaster_verification", "sk*"]
+known_typing_extensions = "typing_extensions"
+line_length = 120
+no_lines_before = "TYPING_EXTENSIONS"
+profile = "black"
+sections = [
+    "FUTURE",
+    "STDLIB",
+    "TYPING_EXTENSIONS",
+    "THIRDPARTY",
+    "LOCALFOLDER",
+    "FIRSTPARTY",
+]
