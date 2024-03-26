@@ -1,0 +1,15 @@
+hr_dataset/__init__.py,sha256=im3MjaENAXil-jBe3H36c38SLA9aS5dzkrRWvdC4Mzg,185
+hr_dataset/class_functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hr_dataset/class_functions/load_dataset.py,sha256=iZbxDaPcZmxvAsnzCD8L9sx2VHEyHHTLL1opphZI6gQ,483
+hr_dataset/config/config_parser.py,sha256=guFBXwV2Ai37XwZ697wsvrQBtV-lA3YxvZoTy5oIKnA,4547
+hr_dataset/config/validate_inputs.py,sha256=xh2Rq5y_-tQ5iPKEi-scscK1tKh-OhoQr5gHTPmImYs,201
+hr_dataset/differenceregel/differenceregel.py,sha256=HLX5YbSOmhqr29YJhZy7TpDyTRRb8-LGruYt4f9Q6ts,8772
+hr_dataset/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hr_dataset/functions/file_handler.py,sha256=piON8Ie_T9WysSL4EzVbqs8tDEwHEn9q_IG0an3dv3A,951
+hr_dataset/functions/some_answers.py,sha256=mOsfKCrIbgoTlDZZkzysM9PlkKT6bmjdyndsD2txQq8,2563
+hr_dataset/module.py,sha256=4uQijNPYPnMiK50Bf75FCc1R5MI6ecY9On12bH3c6AA,2647
+hr_dataset/resultatoversigt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hr_dataset/resultatoversigt/resultatoversigt.py,sha256=IG04F3Gv88zpT1Lpdx3GZKhvWGNO_7yK06fRXPiEPbc,5515
+hr_dataset-0.1.4.dist-info/METADATA,sha256=Zjn58frvDEvFeKMmmk6NqT4I46wJZrWZh_YvOgsHXFc,433
+hr_dataset-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hr_dataset-0.1.4.dist-info/RECORD,,
