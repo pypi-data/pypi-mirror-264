@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: bitbrowser_api
+Version: 0.2
+Summary: This is a bitbrowser operation tool
+Home-page: https://github.com/embzheng/bitbrowser_api
+Author: embzheng
+Author-email: embzheng@qq.com
+Project-URL: Source, https://github.com/embzheng/bitbrowser_api
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: playwright >=1.42.0
+Requires-Dist: requests
+Requires-Dist: wallet-tool
+
+# bitbrowser_api
+
+这是一个比特浏览器操作工具
+
+
+### 安装
+
+```
+$ pip install bitbrowser_api
+```
+
+
+
+
