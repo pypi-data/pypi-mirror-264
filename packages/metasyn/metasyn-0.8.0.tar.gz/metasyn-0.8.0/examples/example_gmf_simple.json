@@ -1,0 +1,120 @@
+{
+    "n_rows": 5,
+    "n_columns": 5,
+    "provenance": {
+        "created by": {
+            "name": "metasyn",
+            "version": "0.6.1.dev45+g6cfcb6d.d20240131"
+        },
+        "creation time": "2024-01-31T11:52:33.761957"
+    },
+    "vars": [
+        {
+            "name": "ID",
+            "type": "discrete",
+            "dtype": "Int64",
+            "prop_missing": 0.0,
+            "distribution": {
+                "implements": "core.unique_key",
+                "version": "1.0",
+                "provenance": "builtin",
+                "class_name": "UniqueKeyDistribution",
+                "unique": true,
+                "parameters": {
+                    "lower": 1,
+                    "consecutive": 1
+                }
+            }
+        },
+        {
+            "name": "fruits",
+            "type": "categorical",
+            "dtype": "Categorical",
+            "prop_missing": 0.0,
+            "distribution": {
+                "implements": "core.multinoulli",
+                "version": "1.0",
+                "provenance": "builtin",
+                "class_name": "MultinoulliDistribution",
+                "unique": false,
+                "parameters": {
+                    "labels": [
+                        "apple",
+                        "banana"
+                    ],
+                    "probs": [
+                        0.4,
+                        0.6
+                    ]
+                }
+            }
+        },
+        {
+            "name": "B",
+            "type": "discrete",
+            "dtype": "Int64",
+            "prop_missing": 0.0,
+            "distribution": {
+                "implements": "core.unique_key",
+                "version": "1.0",
+                "provenance": "builtin",
+                "class_name": "UniqueKeyDistribution",
+                "unique": true,
+                "parameters": {
+                    "lower": 1,
+                    "consecutive": 0
+                }
+            }
+        },
+        {
+            "name": "cars",
+            "type": "categorical",
+            "dtype": "Categorical",
+            "prop_missing": 0.0,
+            "distribution": {
+                "implements": "core.multinoulli",
+                "version": "1.0",
+                "provenance": "builtin",
+                "class_name": "MultinoulliDistribution",
+                "unique": false,
+                "parameters": {
+                    "labels": [
+                        "audi",
+                        "beetle"
+                    ],
+                    "probs": [
+                        0.2,
+                        0.8
+                    ]
+                }
+            }
+        },
+        {
+            "name": "optional",
+            "type": "discrete",
+            "dtype": "Int64",
+            "prop_missing": 0.2,
+            "distribution": {
+                "implements": "core.multinoulli",
+                "version": "1.0",
+                "provenance": "builtin",
+                "class_name": "MultinoulliDistribution",
+                "unique": false,
+                "parameters": {
+                    "labels": [
+                        -30,
+                        2,
+                        28,
+                        300
+                    ],
+                    "probs": [
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                }
+            }
+        }
+    ]
+}
