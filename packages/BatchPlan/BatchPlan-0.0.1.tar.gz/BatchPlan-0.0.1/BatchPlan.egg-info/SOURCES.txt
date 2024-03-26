@@ -1,0 +1,32 @@
+.clang-format
+.gitignore
+.pre-commit-config.yaml
+CMakeLists.txt
+LICENSE
+README.md
+environment.yml
+map_to_totem.ipynb
+pyproject.toml
+setup.py
+totem_mapping_materials_assigned.csv
+.github/workflows/python.yml
+.vscode/settings.json
+BatchPlan.egg-info/PKG-INFO
+BatchPlan.egg-info/SOURCES.txt
+BatchPlan.egg-info/dependency_links.txt
+BatchPlan.egg-info/top_level.txt
+batchplan/__init__.py
+batchplan/extract_floor_plans.py
+batchplan/filters.py
+batchplan/formatters.py
+batchplan/helper.py
+batchplan/mark_floors.py
+batchplan/stylings.py
+batchplan/utils.py
+examples/data/Shependomlaan/IFC Schependomlaan.csv
+examples/data/Shependomlaan/IFC Schependomlaan.ifc
+swig/Fixes.cxx
+swig/Fixes.hxx
+swig/Fixes.i
+swig/OCCHandle.i
+tests/test_fixes.py

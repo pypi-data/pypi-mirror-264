@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: BatchPlan
+Version: 0.0.1
+Summary: BatchPlan: A large scale solution for floor plan extraction
+Author-email: Burak Yildiz <0byldz@gmail.com>
+Project-URL: Homepage, https://github.com/byildiz/BatchPlan
+Project-URL: Issues, https://github.com/byildiz/BatchPlan/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BatchPlan
