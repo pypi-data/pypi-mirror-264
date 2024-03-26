@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: langfuse_web
+Version: 0.0.5
+Summary: Support for Langfuse operations not handed in the API library
+Keywords: langfuse,prompts
+Author: Scott Walsh
+Author-email: scott@invisiblethreat.ca
+Requires-Python: >=3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyredacter (>=0.0.3,<0.0.4)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# langfuse-web
+
+Not all of the methods you might need for interacting with Langfuse are
+available through their API library. This makes use of `requests.Session` to use
+the web interface pull all prompts and delete prompts.
+
+### Functions
+
+- `get_all_prompts`
+- `delete_prompt`
+
+### Setup
+
+The following environment variables are expected to exist:
+```
+LANGFUSE_HOST
+LANGFUSE_PROJECT
+LANGFUSE_EMAIL
+LANGFUSE_PASSWORD
+```
+
+`pip3 install python-dotenv` and employing an `.env` file is a method frequently
+employed to manage this requirement
+

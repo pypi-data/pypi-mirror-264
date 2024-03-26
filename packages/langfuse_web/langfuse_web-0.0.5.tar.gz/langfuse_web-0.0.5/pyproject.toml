@@ -1,0 +1,33 @@
+[project]
+name = "langfuse_web"
+version = "0.0.5"
+description = "Support for Langfuse operations not handed in the API library"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "requests",
+  "pyredacter"
+]
+[tool.poetry]
+name = "langfuse_web"
+version = "0.0.5"
+description = "Support for Langfuse operations not handed in the API library"
+readme = "README.md"
+keywords = ["langfuse", "prompts"]
+authors = ["Scott Walsh <scott@invisiblethreat.ca>"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+packages = [{include = "langfuse_web"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pyredacter = "^0.0.3"
+requests = "^2.31.0"
+
+[project.urls]
+homepage = "https://github.com/invisiblethreat/langfuse_web"
+documentation = "https://github.com/invisiblethreat/langfuse_web/blob/main/README.md"
+repository = "https://github.com/invisiblethreat/langfuse_web"
+
