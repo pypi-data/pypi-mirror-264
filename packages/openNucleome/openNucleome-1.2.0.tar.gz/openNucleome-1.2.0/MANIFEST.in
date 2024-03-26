@@ -1,0 +1,6 @@
+graft openNucleome
+
+prune */__pycache__
+
+include README.md
+include LICENSE
