@@ -1,0 +1,4 @@
+include *.cff
+include environment.yml
+include noxfile.py
+include examples/*
