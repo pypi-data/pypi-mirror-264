@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executable>
+  <category>Dental Model Segmentation</category>
+  <title>Dental Model Module</title>
+  <description><![CDATA[Command line module used to test the automatic UI generator.\n]]></description>
+  <version>0.0.1</version>
+  <documentation-url/>
+  <license/>
+  <contributor>Florian Davaux</contributor>
+  <acknowledgements/>
+  <parameters>
+    <label>Settings</label>
+    <integer>
+      <name>Model</name>
+      <label>model</label>
+      <longflag>--model</longflag>
+      <description><![CDATA[Path to the model]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>Suffix</name>
+      <label>suffix</label>
+      <longflag>--suffix</longflag>
+      <description><![CDATA[Suffix of the prediction]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>Output</name>
+      <label>out</label>
+      <longflag>--out</longflag>
+      <description><![CDATA[Output directory]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>Numberofworkers</name>
+      <label>Number of Workers</label>
+      <longflag>--num_workers</longflag>
+      <description><![CDATA[Number of workers for loading]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>CrownSegmentation</name>
+      <label>Crown Segmentation</label>
+      <longflag>--crown_segmentation</longflag>
+      <description><![CDATA[Isolation of each different tooth in a specific vtk file]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>ArrayName</name>
+      <label>Array Name</label>
+      <longflag>--array_name</longflag>
+      <description><![CDATA[Predicted ID array name for output vtk]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>FDI</name>
+      <label>FDI</label>
+      <longflag>--fdi</longflag>
+      <description><![CDATA[Numbering system. 0: Universal numbering; 1: FDI world dental Federation notation]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>Overwrite</name>
+      <label>Overwrite</label>
+      <longflag>--overwrite</longflag>
+      <description><![CDATA[Overwrite the input vtk file]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>Device</name>
+      <label>Device</label>
+      <longflag>--device</longflag>
+      <description><![CDATA[Device to use for inference]]></description>
+      <default>1</default>
+    </integer>
+    <integer>
+      <name>VtkFolder</name>
+      <label>Vtk Folder</label>
+      <longflag>--vtk_folder</longflag>
+      <description><![CDATA[Path to tronquate your input path]]></description>
+      <default>1</default>
+    </integer>
+  </parameters>
+</executable>
