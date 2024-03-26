@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+clearterminal/__init__.py
+clearterminal.egg-info/PKG-INFO
+clearterminal.egg-info/SOURCES.txt
+clearterminal.egg-info/dependency_links.txt
+clearterminal.egg-info/top_level.txt
+clearterminal.egg-info/zip-safe
