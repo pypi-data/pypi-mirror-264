@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dallCrawler/__init__.py
+dallCrawler/crawler.py
+dallCrawler.egg-info/PKG-INFO
+dallCrawler.egg-info/SOURCES.txt
+dallCrawler.egg-info/dependency_links.txt
+dallCrawler.egg-info/requires.txt
+dallCrawler.egg-info/top_level.txt
