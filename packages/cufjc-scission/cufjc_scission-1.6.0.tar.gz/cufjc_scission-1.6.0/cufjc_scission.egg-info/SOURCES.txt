@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+cufjc_scission/__init__.py
+cufjc_scission/cufjc_scission_model.py
+cufjc_scission/rate_dependence_scission.py
+cufjc_scission/scission_model.py
+cufjc_scission.egg-info/PKG-INFO
+cufjc_scission.egg-info/SOURCES.txt
+cufjc_scission.egg-info/dependency_links.txt
+cufjc_scission.egg-info/requires.txt
+cufjc_scission.egg-info/top_level.txt

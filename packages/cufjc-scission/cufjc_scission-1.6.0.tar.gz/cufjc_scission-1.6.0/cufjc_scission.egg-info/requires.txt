@@ -1,0 +1,2 @@
+numpy
+cufjc==1.6.0
