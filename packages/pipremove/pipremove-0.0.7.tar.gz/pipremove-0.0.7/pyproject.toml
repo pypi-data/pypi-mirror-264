@@ -1,0 +1,27 @@
+[project]
+name = "pipremove"
+version = "0.0.7"
+authors = [
+  { name = "Li WeiJian", email = "1330757852@qq.com" },
+]
+dependencies = ['pipdeptree',]
+description = "删除模块包及其依赖包"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# win10环境下会报错
+# [build-system]
+# requires = ["setuptools>=61.0"]
+# build-backend = "setuptools.build_meta"
+
+# 配置生成exe可供调用
+scripts.pipremove = "pipremove.pipremove:main_menu"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
