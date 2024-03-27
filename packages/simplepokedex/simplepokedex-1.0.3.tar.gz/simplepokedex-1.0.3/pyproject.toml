@@ -1,0 +1,11 @@
+[project]
+name = "simplepokedex"
+version = "1.0.3"
+authors = [
+    {name = "Eric Lin"},
+    {name = "Alice Ding"},
+    {name = "Justin Zhao"}
+]
+description = "Simple Pokedex Package"
+license = {file = "simplepokedex/LICENSE"}
+readme = "simplepokedex/README.md"
