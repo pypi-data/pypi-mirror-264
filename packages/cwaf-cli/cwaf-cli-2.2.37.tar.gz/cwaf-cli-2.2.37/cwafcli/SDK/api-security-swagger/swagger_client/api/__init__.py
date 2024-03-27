@@ -1,0 +1,14 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from swagger_client.api.api_api import APIApi
+from swagger_client.api.discovery_account_settings_api import DiscoveryAccountSettingsApi
+from swagger_client.api.discovery_hosts_api import DiscoveryHostsApi
+from swagger_client.api.discovery_inventory_api import DiscoveryInventoryApi
+from swagger_client.api.discovery_site_settings_api import DiscoverySiteSettingsApi
+from swagger_client.api.discovery_statistics_api import DiscoveryStatisticsApi
+from swagger_client.api.endpoint_api import EndpointApi
+from swagger_client.api.site_configuration_api import SiteConfigurationApi
+from swagger_client.api.verification_api import VerificationApi

@@ -1,0 +1,10 @@
+# DirectiveV1
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**action** | [**DirectiveAction**](DirectiveAction.md) |  | 
+**condition_id** | [**ConditionId**](ConditionId.md) |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
