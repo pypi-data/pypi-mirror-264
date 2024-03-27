@@ -1,0 +1,43 @@
+version: '3'
+services:
+  nineai:
+    # 以后只需要修改此处的版本号即可更新镜像
+    image: registry.cn-shanghai.aliyuncs.com/zimablue/nineai:v3.4
+    container_name: nineai
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+
+      # mysql
+      DB_HOST: 111.173.117.175
+      DB_PORT: 3306
+      DB_DATABASE: nineai
+      DB_USER: nineai
+      DB_PASS: DZzEY43YCRxzLpGA
+
+      # Redis
+      REDIS_HOST: 111.173.117.175
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: chatllmchatllm
+
+      #  mailer 邮件服务
+      MAILER_HOST: smtp.qq.com # smtp.163.com
+      MAILER_PORT: 465
+      MAILER_USER: chatfire@qq.com
+      MAILER_PASS: hcuqxgmdzsojbied
+      MAILER_FROM: chatfire@qq.com
+
+      # mj并发数
+      CONCURRENCY: 3
+
+      # jwt token
+      JWT_SECRET: xxx
+      # jwt token 过期时间
+      JWT_EXPIRESIN: 7d
+      # 自定义端口
+      PORT: 9521
+    ports:
+      - "9521:9521"
+    volumes:
+      - /www/data/nineai/files:/public/files
+      - /www/data/nineai/core:/public/core
