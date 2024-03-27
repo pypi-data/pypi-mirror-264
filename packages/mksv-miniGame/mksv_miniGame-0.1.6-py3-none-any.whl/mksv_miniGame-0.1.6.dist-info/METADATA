@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mksv_miniGame
+Version: 0.1.6
+Summary: Some mini-games using Pygame
+Author: Linkun Wan, Vanessa Viglucci, Sara Gizabi, Marcus Du
+Author-email: lw2861@nyu.edu, vcv227@nyu.edu, sg7029@nyu.edu, mrd9556@nyu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pygame >=2.5.2
+
+# Python Package Exercise
+
+An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
