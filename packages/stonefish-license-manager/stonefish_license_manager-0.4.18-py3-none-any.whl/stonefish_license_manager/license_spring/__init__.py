@@ -1,0 +1,1 @@
+from .._agg import _Avg2R as find_license_and_validate, _xnmtL as License, _CLRRj as clear_caches, _mdrZ7 as install_license_file, _tQobu as yield_installed_licenses
