@@ -1,0 +1,10 @@
+PyGrassClient/__init__.py,sha256=XWmQAVNkwkTrXYuIjgk6HXVp02UuwKOFJ9wU32oT5Iw,150
+PyGrassClient/__version__.py,sha256=ZbP7bMbFX_WC1gDncxwTnKQMGd2rldO5XCKAs1SbmN0,244
+PyGrassClient/_async_core.py,sha256=ujitgWgeDcz59x8QfKyVoLq7DbMHN5BNibonceV4SO0,5579
+PyGrassClient/_core.py,sha256=dVxyrGR6nLcGUz1_M7IPT66UjUnZoB2NLwXdQe6jHdo,10011
+PyGrassClient/utils.py,sha256=Bu-Us91rNhykzF-f799NiiNVJFmzpWcvscuXoUuwXK4,1397
+PyGrassClient-2.0.1.dist-info/LICENSE,sha256=uDeipEptLTuba7ymTpSFL6bMof23J2--7WWwhDX98vU,11343
+PyGrassClient-2.0.1.dist-info/METADATA,sha256=DpLjGp2M8jpgGRM4Cppmm4elju1RxorKIEAtMibwMrU,2940
+PyGrassClient-2.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+PyGrassClient-2.0.1.dist-info/top_level.txt,sha256=H0UScRPDUoaUU41HAJJNYN81WKNf2eWDAT46_ZnpFcw,14
+PyGrassClient-2.0.1.dist-info/RECORD,,
