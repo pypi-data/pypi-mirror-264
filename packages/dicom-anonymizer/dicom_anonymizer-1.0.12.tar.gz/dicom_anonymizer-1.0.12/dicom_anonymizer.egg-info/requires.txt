@@ -1,0 +1,9 @@
+pydicom
+tqdm
+
+[dev]
+pytest
+setuptools
+bs4
+fire
+requests

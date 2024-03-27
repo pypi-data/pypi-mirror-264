@@ -1,0 +1,5 @@
+dicomanonymizer
+dist
+examples
+scripts
+tests
