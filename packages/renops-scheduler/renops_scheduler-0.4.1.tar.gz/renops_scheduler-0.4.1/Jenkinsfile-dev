@@ -1,0 +1,60 @@
+pipeline {
+    agent {
+        node {
+            label 'Agent01'
+        }
+    }
+    options {
+        // Ensures job runs to completion even with minor non-fatal errors 
+        skipDefaultCheckout() 
+    }
+
+    environment {
+        BRANCH_NAME = "main"
+    }
+
+    stages {
+        
+        stage('Checkout') {
+          steps {
+              echo 'Checkout SCM'
+              checkout scm
+            }
+        }
+        
+        stage("isort"){
+            steps{
+                script {
+                    echo "Static Analysis - isort"
+                    sh "pip install isort"
+                    sh "isort . --check-only"
+                }
+            }
+        }
+
+        stage("flake8"){
+            steps{
+                script {
+                    echo "Static Analysis - flake8"
+                    sh "pip install flake8"
+                    sh "flake8 --max-line-length=120 ."
+                }
+            }
+        }
+        
+        stage("Test"){
+            environment {
+                RENOPSAPI_KEY = credentials('RENOPSAPI_KEY')
+            }
+            steps {
+                script {
+                    echo "Testing"
+                    sh "pip install ."
+                    sh 'pip install pytest'
+                    sh 'python -m pytest'
+                }
+            }
+        
+        }
+    }
+}

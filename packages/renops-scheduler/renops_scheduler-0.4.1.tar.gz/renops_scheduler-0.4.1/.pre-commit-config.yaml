@@ -1,0 +1,39 @@
+# .pre-commit-config.yam
+
+# Install to local machine
+# 1. Install pre-commit by running "pip install pre-commit"
+# 2. Install git hook scripts "pre-commit install"
+# 3. Manually run pre-commit "pre-commit run --all-files"
+
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0  # this is optional, use `pre-commit autoupdate` to get the latest rev!
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: detect-private-key
+
+-   repo: https://github.com/pycqa/flake8
+    rev: 5.0.4
+    hooks:
+    -   id: flake8
+        args: ['--max-line-length=120','.']
+
+-   repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+    -  id: isort
+
+-   repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+    -   id: detect-secrets
+        name: 'detect-secrets'
+        args: ['--exclude-files', '.*\.ipynb$', ]
+
+-   repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+    -   id: black
+    -   id: black-jupyter
