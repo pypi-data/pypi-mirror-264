@@ -1,0 +1,11 @@
+langtrace/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+langtrace/trace_attributes/__init__.py,sha256=MHrCTKjbOlGmePeFH2KIM1q8nOv1OwYImepddZrKq7I,1311
+langtrace/trace_attributes/models/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+langtrace/trace_attributes/models/database_span_attributes.py,sha256=Dpu5iE6jGZGZ_h9XiMEJp6hOvSW70sE471RVISJtS5U,1162
+langtrace/trace_attributes/models/framework_span_attributes.py,sha256=OjpNqAp1oKcd5xhvfRgxUvkClBcvt9gE8iA93Y4jYM8,1112
+langtrace/trace_attributes/models/llm_span_attributes.py,sha256=tkj00Lqo81K8GEJ9bRVmoW8O91SZ4uXw9d1-ewe-DQA,2039
+trace_attributes-1.0.25.dist-info/LICENSE,sha256=9i0un2dbCex3WprJQLTtW9UgQvimZhJH8ZwJJ1ADAh0,1068
+trace_attributes-1.0.25.dist-info/METADATA,sha256=FmPEhL46o2aXDwM_NW_-CB-fDIEgr9Sd5rcfvaDV0Gk,547
+trace_attributes-1.0.25.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+trace_attributes-1.0.25.dist-info/top_level.txt,sha256=IYYAp8eIFjX1f3RbFPLQz01gB9TZlOYBd-ptNy4BMXU,10
+trace_attributes-1.0.25.dist-info/RECORD,,
