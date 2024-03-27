@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+casioplot/__init__.py
+casioplot/casioplot.py
+casioplot/characters.py
+casioplot/configs.py
+casioplot.egg-info/PKG-INFO
+casioplot.egg-info/SOURCES.txt
+casioplot.egg-info/dependency_links.txt
+casioplot.egg-info/requires.txt
+casioplot.egg-info/top_level.txt
+casioplot/images/CASIO_Graph_90+e_empty.png
