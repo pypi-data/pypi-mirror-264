@@ -1,0 +1,2 @@
+YOSYS = 'yosys'
+OPENSTA = 'sta'
