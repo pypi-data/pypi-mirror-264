@@ -1,0 +1,12 @@
+fzz_tunes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fzz_tunes/configs.py,sha256=PaoE5cyeSxsUc_a-tL2qm-aWqQiNRgwA3SkRvQYyjX4,404
+fzz_tunes/core.py,sha256=UQ2eS0kFD6YwgeJjuryYOfmPTIfsKa45AQxaQxfM1Js,1592
+fzz_tunes/main.py,sha256=dZr9fASfHAHlVrExTypKVZGHEZ7mmk4jkuHBZPL3kuw,7367
+fzz_tunes/os_compatibility.py,sha256=C7u8zf4yg7fSTh9q1mqa9_CVZaqcHAHzUELpg5GRUr0,222
+fzz_tunes/search_youtube.py,sha256=WChsWIFeMuaUPwWzeAuNwgwDOU-Ph5zWUokFazBld2g,962
+fzz_tunes/user_input.py,sha256=1WQ-36PfKo0YmwEjrU8ltkCl-lh2yRQN5c8DuxRugXo,1760
+fzz_tunes/windows.py,sha256=_QKXbHsSrfO-BXjBrfeXaLhqzoJdNLqPtfEYNFhiQVI,5054
+fzz_tunes-0.1.1.dist-info/entry_points.txt,sha256=ONBPFmgEsrzMAFKV_1wX_YdI9MtTHoE5a10qKExDA9A,44
+fzz_tunes-0.1.1.dist-info/METADATA,sha256=8KpjKz5EGcm7L2lotA488vrjo5emaBDEerhYVJZQ54o,1486
+fzz_tunes-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fzz_tunes-0.1.1.dist-info/RECORD,,
