@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hzgt
+Version: 2024.3.27
+Home-page: https://github.com/HZGT/hzgt
+Author: HZGT
+Author-email: 2759444274@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: 
+    text/plain
+    
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: click
+Provides-Extra: download
+Requires-Dist: you-get ==0.4.1650 ; extra == 'download'
+Provides-Extra: fileop
+Requires-Dist: Pillow ; extra == 'fileop'
+Requires-Dist: requests ; extra == 'fileop'
+Provides-Extra: mqtt_mysql
+Requires-Dist: pymysql ==1.1.0 ; extra == 'mqtt_mysql'
+Requires-Dist: paho-mqtt ==1.6.1 ; extra == 'mqtt_mysql'
+
+A bunch of scattered gadgets
