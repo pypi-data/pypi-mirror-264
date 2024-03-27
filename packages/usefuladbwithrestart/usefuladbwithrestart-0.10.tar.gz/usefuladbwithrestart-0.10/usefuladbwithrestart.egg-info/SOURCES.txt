@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+usefuladbwithrestart/README.MD
+usefuladbwithrestart/__init__.py
+usefuladbwithrestart/requirements.txt
+usefuladbwithrestart/thirdparty.json
+usefuladbwithrestart.egg-info/PKG-INFO
+usefuladbwithrestart.egg-info/SOURCES.txt
+usefuladbwithrestart.egg-info/dependency_links.txt
+usefuladbwithrestart.egg-info/requires.txt
+usefuladbwithrestart.egg-info/top_level.txt

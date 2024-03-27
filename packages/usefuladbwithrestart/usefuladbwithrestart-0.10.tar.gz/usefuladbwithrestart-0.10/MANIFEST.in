@@ -1,0 +1,3 @@
+include usefuladbwithrestart/requirements.txt
+include usefuladbwithrestart/thirdparty.json
+include usefuladbwithrestart/README.MD
