@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: bigquery_manager
+Version: 1.0.0
+Summary: BigQueryManager
+Project-URL: Homepage, https://github.com/meetjeff/bigquery-manager
+Author-email: Jeff Hsu <adf159776@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: google-cloud-bigquery>=3.12.0
+Description-Content-Type: text/markdown
+
+# bigquery-manager
+BigQueryManager

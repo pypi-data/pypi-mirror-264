@@ -1,0 +1,7 @@
+bigquery_manager/__init__.py,sha256=lFaRpFf7VQ3Epgt4Hft80Ydg3h0ww4R3TyVvftelrXY,76
+bigquery_manager/client.py,sha256=YvtXz5TLKq9ZaXCllw9qfcXGD0PYyQCSc1-gxf_rxEw,453
+bigquery_manager/manager.py,sha256=Vsmnv9wpSCADSRZ5iFX4SXwxTH3Y-y8Z1Ym8e9iQu9c,3707
+bigquery_manager-1.0.0.dist-info/METADATA,sha256=1GaPE8MAp5eUcWlzmLUks-VCLuALjmz4mwoXoPQ5Kjc,510
+bigquery_manager-1.0.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+bigquery_manager-1.0.0.dist-info/licenses/LICENSE,sha256=0aCzbDy8Ey5EeWspPaSXQJorolOUFyNGUe96Or0B_-I,1065
+bigquery_manager-1.0.0.dist-info/RECORD,,
