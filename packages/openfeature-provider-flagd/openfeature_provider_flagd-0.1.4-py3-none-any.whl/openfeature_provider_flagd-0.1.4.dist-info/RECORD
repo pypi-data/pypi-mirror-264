@@ -1,0 +1,16 @@
+openfeature/contrib/provider/flagd/__init__.py,sha256=WlrcPaCH31dEG1IvrvpeuhAaQ8Ni8LEzDpNM_x-qKOA,65
+openfeature/contrib/provider/flagd/config.py,sha256=8Oguwoe4V6FffdNNBfhWev2G8UjKsNYCuc_j3SGEb0Y,987
+openfeature/contrib/provider/flagd/flag_type.py,sha256=rZYfmqQEmtqVVTb8e-d8Wt8ZCnHtf7xPSmYxyU8w0R0,158
+openfeature/contrib/provider/flagd/provider.py,sha256=0hXxolWFUVue-6OgrC1kXa64B-bbmvc6ZtqAyexDHIc,7093
+openfeature/contrib/provider/flagd/proto/flagd/evaluation/v1/evaluation_pb2.py,sha256=W0Vgg8z7nEg_HTlAJkO6pu5nBcR8Ls3yoIykboavLRI,7704
+openfeature/contrib/provider/flagd/proto/flagd/evaluation/v1/evaluation_pb2_grpc.py,sha256=GTKQXbUfRrquUG5o11N7ymhFnOuzh9_hcToZ9-cjOtA,13339
+openfeature/contrib/provider/flagd/proto/flagd/sync/v1/sync_pb2.py,sha256=zUu_-V6DhHH5ZekWVsxKjGkUwkJrRrhqyXj8oX-Jo_g,3205
+openfeature/contrib/provider/flagd/proto/flagd/sync/v1/sync_pb2_grpc.py,sha256=JNBei4U6aYtxeWU7h9s57yA4DL9ECnOyEbR9iGLoXmE,6155
+openfeature/contrib/provider/flagd/proto/schema/v1/schema_pb2.py,sha256=onIastnVdAUCc8ez1zwniq6yJj-zeLEdllet_kX1qn8,7337
+openfeature/contrib/provider/flagd/proto/schema/v1/schema_pb2_grpc.py,sha256=nllthJYfwhDBZHH_eGfSHesNbO6rJEZ0vXKyTFFy4AA,12393
+openfeature/contrib/provider/flagd/proto/sync/v1/sync_service_pb2.py,sha256=uKBjB_lpfHN3r8wsjmqnQEBLtN9gw8zPmvWfWKsOYAE,2954
+openfeature/contrib/provider/flagd/proto/sync/v1/sync_service_pb2_grpc.py,sha256=v5MSyyIOpE68EYWjsbdAq677gnD4jdNeLhMAB7EveNQ,4424
+openfeature_provider_flagd-0.1.4.dist-info/METADATA,sha256=wtW6iavradbR6Y1d66M-SFcsMv8zjwQ5ylY4udCd8fs,14518
+openfeature_provider_flagd-0.1.4.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+openfeature_provider_flagd-0.1.4.dist-info/licenses/LICENSE,sha256=h8jwqxShIeVkc8vOo9ynxGYW16f4fVPxLhZKZs0H5U8,11350
+openfeature_provider_flagd-0.1.4.dist-info/RECORD,,
