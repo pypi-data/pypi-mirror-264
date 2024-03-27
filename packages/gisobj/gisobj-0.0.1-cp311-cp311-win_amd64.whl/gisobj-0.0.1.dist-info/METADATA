@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: gisobj
+Version: 0.0.1
+Summary: Some common obj process functions
+Author: Lun.A
+Author-email: 517308447@qq.com
+License: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+# Usage
+
+## OBJ 换轴
+
+将 .obj 文件轴从 Y-Up、-Z-Front 转换为 Z-Up、Y-Front，会递归对目录下所有子孙目录中的 obj 文件处理。命令行工作：
+
+> obj_yup_to_zup.exe D:/xxx/obj_folder.obj
+
+
+
+
+
+
+
+
+
+# Change Log
+
+## v0.0.1
+
+**feature**
+
+1. 添加 obj 换轴工具
+
