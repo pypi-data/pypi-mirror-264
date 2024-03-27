@@ -1,0 +1,11 @@
+numpy
+leafmap
+geopandas
+ipyleaflet
+pandas
+
+[all]
+watergeo[extra]
+
+[extra]
+pandas
