@@ -1,0 +1,9 @@
+qfpy/__init__.py,sha256=a_LTpLjA9hZzPSs4_1yWoHq2MmtHCXqhdMdQMUrlJBw,29
+qfpy/exif.py,sha256=YO66AeVpfbySsOkwLdvl0fA68sS3rfvMLbJkdBr8unE,1718
+qfpy/ffmpeg.py,sha256=iDsSX18t5nndfOxG8Za8Tjt4ZB3mO7kz7EhU5-RtKwg,3083
+qfpy/func.py,sha256=I8DM35j51ZBl_45WqMcEUnBzAa9Owf_f--Gb_ogx7_w,845
+qfpy/process.py,sha256=MtZWRddo_T5hkJuaXwiQHc9HQXUccIe86A6H4LBcfJ8,804
+qfpy-4.0.2.dist-info/METADATA,sha256=FNCcJbrr_0yqfVBeU04--QysLLS7aO_uJiYzzS3iLck,161
+qfpy-4.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+qfpy-4.0.2.dist-info/top_level.txt,sha256=mJXFPeGokdtlT_CJrjt8vVEN6Ix-t6o3guKU5njf6Ok,5
+qfpy-4.0.2.dist-info/RECORD,,
