@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ean/__init__.py
+src/ean/ean.py
+src/ean.egg-info/PKG-INFO
+src/ean.egg-info/SOURCES.txt
+src/ean.egg-info/dependency_links.txt
+src/ean.egg-info/requires.txt
+src/ean.egg-info/top_level.txt
