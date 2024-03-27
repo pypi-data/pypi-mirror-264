@@ -1,0 +1,1 @@
+pytest_energy_reporter
