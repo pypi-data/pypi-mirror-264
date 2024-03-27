@@ -1,0 +1,8 @@
+netapp_dataops/netapp_dataops_cli.py,sha256=G7sRmbmldRifcmhp328Pluf7J73FO77UCpt80VES9WQ,72483
+netapp_dataops/traditional/__init__.py,sha256=7QI-83bKApAX-wQQeRS1OvPB1syIJMCztvLRxY0cAwI,97000
+netapp_dataops_traditional-2.5.0.data/scripts/netapp_dataops_cli.py,sha256=C3gL09Yj2G0VAkAfsyQnxK0wPBn5fq7zrwRFIFSZTSI,72469
+netapp_dataops_traditional-2.5.0.dist-info/LICENSE,sha256=-zDZJOdAqzG06VFr2GX4m3gFAgxppTUZ1G4FQg3UtyY,1514
+netapp_dataops_traditional-2.5.0.dist-info/METADATA,sha256=RZPOsgY2F2ILEKKQ3T2IGGsvzDlgbBsAF-6SxqgZ-0k,1784
+netapp_dataops_traditional-2.5.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+netapp_dataops_traditional-2.5.0.dist-info/top_level.txt,sha256=bTzCzjUzeAyNkeToimFDd-2J6vXMlTEZ1sVigll6SRM,15
+netapp_dataops_traditional-2.5.0.dist-info/RECORD,,
