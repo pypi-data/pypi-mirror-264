@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: skype_client
+Version: 1.0.0
+Summary: SkypeClient
+Project-URL: Homepage, https://github.com/meetjeff/skype-client
+Author-email: Jeff Hsu <adf159776@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: skpy>=0.10.6
+Description-Content-Type: text/markdown
+
+# skype-client
+SkypeClient
