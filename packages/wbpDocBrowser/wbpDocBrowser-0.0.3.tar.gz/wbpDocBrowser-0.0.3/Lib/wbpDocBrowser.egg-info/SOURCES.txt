@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Lib/wbpDocBrowser/__init__.py
+Lib/wbpDocBrowser.egg-info/PKG-INFO
+Lib/wbpDocBrowser.egg-info/SOURCES.txt
+Lib/wbpDocBrowser.egg-info/dependency_links.txt
+Lib/wbpDocBrowser.egg-info/entry_points.txt
+Lib/wbpDocBrowser.egg-info/requires.txt
+Lib/wbpDocBrowser.egg-info/top_level.txt
+tests/test_control.py
