@@ -1,0 +1,83 @@
+# pyeach
+
+Pronounced "pee-ch" 🍑
+
+This is a package meant for use within Cone Health's Enterprise Analytics teams. The goal of this package is to provide reusable python functionality for enterprise projects.
+
+To learn more about the module and function details, visit the [pyeach git page](https://dev.azure.com/conehealth-ea/EA%20Data%20Science/_git/pyeach)
+
+## Modules
+
+::: {.callout-note collapse="true"}
+## eaconstants
+*Constants and files required for EA work*
+
+* **cone_colors** - Cone stylized colors
+
+:::
+
+::: {.callout-note collapse="true"}
+## eadb
+*Data reading functions*
+
+* **query_edw** - Read data from a generic sql server.
+* **query_socrata** - Read data from the CDC's API
+
+:::
+
+::: {.callout-note collapse="true"}
+## eageo
+*Geographic functions*
+
+* **select_geo_data**
+* **add_choro** - Add choropleth to plot
+* **add_markers**
+* **map_result** - Map geopandas dataframe
+* **nc_va_geos** - Generate NC and VA geographic regions via pygris
+* **locations**
+
+:::
+
+::: {.callout-note collapse="true"}
+## eastats
+*Statistical functions*
+
+* **ci_int** - Confidence Interval
+* **population_adj_weights**
+* **population_adj_rates**
+* **mean_t_test** - 1-sample mean t test
+* **geo_mean** - Geometric Mean
+* **posterior_simulation** - Simulate the optimal posterior distribution given sample data and assumed distribution
+* **get_credible_diff** - Credible Interval in bayesian stats
+* **smape** - Symmetric Mean Absolute Percent Error
+
+:::
+
+::: {.callout-note collapse="true"}
+## eawrangle
+*Data manipulation functions*
+
+* **bucket_continuous**
+
+:::
+
+## Developers and Maintainers
+[Tyler Ursuy](mailto:tyler.ursuy@conehealth.com)
+[Luke Brantley](mailto:luke.brantley@conehealth.com)
+
+## Installation Options
+Installation can completed via [TestPyPI](https://test.pypi.org/project/pyeach/) or prod [PyPI](https://pypi.org/project/pyeach/).
+
+TestPyPi: `pip install -i https://test.pypi.org/simple/ pyeach`
+
+Prod PyPi (recommended): `pip install pyeach`
+
+Upgrade the package after new version releases via `pip install -U pyeach`.
+
+## Build Steps
+
+### TestPyPi
+Update pyproject.toml with new version number and execute all commands from the project base directory.  Build the .tar and .whl files by executing `python -m build`. Test the package before uploading it to TestPyPi by installing the built pyeach-x.x.x.tar.gz file from the dist folder in a virtual environment and performing the appropriate tests. Install the new test version in a virtual environment with `pip install PATH` where PATH is the absolute path to the tar.gz file. After confirming the package works as intended, execute `python -m twine upload --repository testpypi dist/pyeach-x.x.x.tar.gz dist/pyeach-x.x.x-py3-none-any.whl` to upload the new version to TestPyPi. A prompt for a username and password will appear. Username is `__token__` and your password is your unique TestPyPi API token. A TestPyPi account with MFA is required to generate a token. Register for an account [here](https://test.pypi.org/account/register/).
+
+### Prod PyPI
+Update pyproject.toml and publish.sh with new version number. Then run publish.sh which will run tests, build the new package version and upload it to PyPI.
