@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "hwdocer"
+version = "0.1.0"
+description = "Wireviz, drawio and other documentation build tool"
+authors = ["Laurence DV <laurencedv@realee.tech>"]
+readme = "readme.md"
+license = "license"
+
+[tool.poetry.scripts]
+hwdocer = "hwdocer.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+wireviz = "^0.3.2"
+drawio = "^0.0.10"
+bumpver = "^2023.1129"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "Version increase {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"src/hwdocer/__init__.py" = ['__version__ = "{version}"']
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
