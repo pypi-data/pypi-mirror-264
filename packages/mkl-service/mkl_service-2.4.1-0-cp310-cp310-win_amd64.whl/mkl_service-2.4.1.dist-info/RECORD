@@ -1,0 +1,9 @@
+mkl/__init__.py,sha256=fJxMCz2CMgtTFAfctiksO_Se9GvVhCTZ2woCptsOkAo,2382
+mkl/_mklinit.cp310-win_amd64.pyd,sha256=_WjQCqihqePXt2ZAQKq6ou5XYjGr6-Zd750ljuc_YA8,10752
+mkl/_py_mkl_service.cp310-win_amd64.pyd,sha256=MiQuAXWLfEMlbnc5pixDud6gUxiYIJYO_J97kSuZECE,120320
+mkl/tests/test_mkl_service.py,sha256=fNoEV2ND_yVkugq93f9k7hs8WopRvRArSZ7zJts-ROw,9864
+mkl_service-2.4.1.dist-info/LICENSE.txt,sha256=kK6OKVSKcR9jimPfx4yx89OtcWWxHpUnWcwdaGZoSBY,1529
+mkl_service-2.4.1.dist-info/METADATA,sha256=1InMPA9_Ot6f12LjfLSzQxdr-4LIFUewpqpZHsLeOBc,2244
+mkl_service-2.4.1.dist-info/WHEEL,sha256=cHWuYNuztOQy7w6Xj2wVN1yCvqZ3Mv157HIH7I7magY,112
+mkl_service-2.4.1.dist-info/top_level.txt,sha256=sekqQ_0YET7LLHO6NsXQgKDPGGRhmKuANW9ovFuM2TE,4
+mkl_service-2.4.1.dist-info/RECORD,,
