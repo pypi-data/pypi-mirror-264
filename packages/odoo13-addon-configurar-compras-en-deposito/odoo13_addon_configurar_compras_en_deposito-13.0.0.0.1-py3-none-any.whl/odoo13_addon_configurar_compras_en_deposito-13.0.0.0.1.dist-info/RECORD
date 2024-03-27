@@ -1,0 +1,11 @@
+odoo/addons/configurar_compras_en_deposito/README.md,sha256=JkDgvY8JHzAT06c6yMSBzvZFtCRKzJucrN3r4-yRNXY,294
+odoo/addons/configurar_compras_en_deposito/__init__.py,sha256=Ax4qLxdb9ATk05MF7cSQ0BdpYCpGVYFy9n4U4zODf9o,46
+odoo/addons/configurar_compras_en_deposito/__manifest__.py,sha256=GhzhQ8aVDvSYNUSupijJa7piKbIO3-zcvP7RrdRK1H4,1139
+odoo/addons/configurar_compras_en_deposito/models/__init__.py,sha256=UKspuarxPC8VqmWtuFn2B44fxpcppere9K1ZfCekjiU,74
+odoo/addons/configurar_compras_en_deposito/models/configura_datos_compra_en_deposito.py,sha256=EYxrm5DJq6dU-WfZkWTPpI5rgPKZposP_aGJotc4Bks,2255
+odoo/addons/configurar_compras_en_deposito/static/description/icon.png,sha256=dAkbiGKv1-GD2aOshPCNb9vVOOxJKCKAR549dnQKqBA,2595
+odoo/addons/configurar_compras_en_deposito/views/configura_datos_compra_en_deposito_view.xml,sha256=0C_e6-3AEy7NI3kNNMloJWuNUihKo2YIzhfXvQ4Ixlw,1246
+odoo13_addon_configurar_compras_en_deposito-13.0.0.0.1.dist-info/METADATA,sha256=fNR3BlhmX528iL4Qty9VOkIjKxtK3e3bO5csbZHfJSo,630
+odoo13_addon_configurar_compras_en_deposito-13.0.0.0.1.dist-info/WHEEL,sha256=8Rd4enx1PCuyDWP4SABqO5Fv8rpaknqp3VzjoFFLa6c,83
+odoo13_addon_configurar_compras_en_deposito-13.0.0.0.1.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo13_addon_configurar_compras_en_deposito-13.0.0.0.1.dist-info/RECORD,,

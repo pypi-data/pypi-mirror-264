@@ -1,0 +1,27 @@
+<odoo>
+    <record id="configura_datos_compras_deposito_wizard_view_form" model="ir.ui.view">
+      <field name="name">configura.datos.compra.deposito.wizard.form</field>
+      <field name="model">configura.datos.compra.deposito.wizard.editorial</field>
+      <field name="arch" type="xml">
+        <form string="Ajustar valores para compra en deposito">
+          <footer>
+            <button name="ajustar_valores_compra_deposito" string="Aceptar" type="object" class="btn-primary"/>
+          </footer>
+       </form>
+      </field>
+    </record>
+    <record id="action_config_valores_compra_deposito" model="ir.actions.act_window">
+        <field name="name">Ajuste de valores de compras hechas para compra en depósito</field>
+        <field name="res_model">configura.datos.compra.deposito.wizard.editorial</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="configura_datos_compras_deposito_wizard_view_form"/>
+        <field name="target">new</field>
+    </record>
+    <menuitem
+        id="main_menu_config_compra_deposito"
+        name="Ajustar valores para compra depósito"
+        sequence="1"
+        action="action_config_valores_compra_deposito"
+        groups="base.group_user"
+    />
+</odoo>

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: odoo13-addon-configurar_compras_en_deposito
+Version: 13.0.0.0.1
+Requires-Python: >=3.5
+Requires-Dist: odoo13-addon-gestion_editorial
+Requires-Dist: odoo>=13.0a,<13.1dev
+Summary: =?utf-8?q?M=C3=B3dulo_para_ajustar_valores_en_la_base_datos_para_el_correcto_funcionamiento_de_compra_en_dep=C3=B3sito=2E?=
+Home-page: https://framagit.org/devcontrol
+License: OPL-1
+Author: Colectivo DEVCONTROL
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 13.0
+
+Módulo para ajustar valores en la base datos para el correcto funcionamiento de compra en depósito.
