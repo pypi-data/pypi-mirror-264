@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=ihVMwKQFGZrdr_3MIdNYZrQqOmN3SxBFZjQU79xr8Yw,243
+tests/test_download.py,sha256=CLZke5gnOkP0fNPSKhhlmJw7tmVJfpTLbGrQ6O-GGdw,95
+tests/test_parameters.py,sha256=3dbgd0_Q34BTu_gipy_W6Om1pfY1YCq8uv8VV2rcYfw,426
+tests/test_performance.py,sha256=2Di9yKiA3Arx4dISc97mMMDgxlUiKcUmSlmpg5OLXvE,550
+tests/test_rank.py,sha256=MPwcL1ZF1ySpGb0HzoLTg3PwwXs18aNfQ4AepVuwP8Y,262
+tests/test_top.py,sha256=2N245en-flK9M5BNrgMDiMt3k7K0A4BNd5qPJC8wnE8,163
+tranco/__init__.py,sha256=gFrnQWiPTRve2gJK2C0XB_I3Bs3DbYruLuojz0Zvnzc,26
+tranco/tranco.py,sha256=YB3-WmtX_hGhaZU-BNjX6m_uxNRW-tGNT5ODcCm9ZqM,10424
+tranco-0.8.0.dist-info/LICENSE,sha256=51G0d1n_mu1Ucx0WsIre4S8NGBymdtwMMvUfBN1CQpw,1072
+tranco-0.8.0.dist-info/METADATA,sha256=oLUmSA3gljAS2FlgSuodF3_GJjZUmW8vlZbNb1ssQ9w,3094
+tranco-0.8.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tranco-0.8.0.dist-info/top_level.txt,sha256=x1A8qujaPvrMBZ4MBFVcWytjoSk7CIxj8S0O81XSu5s,13
+tranco-0.8.0.dist-info/RECORD,,
