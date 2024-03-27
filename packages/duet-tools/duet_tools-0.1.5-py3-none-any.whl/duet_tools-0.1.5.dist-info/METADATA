@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: duet-tools
+Version: 0.1.5
+Summary: Output management tools for LANL DUET program
+Home-page: https://github.com/nmc-cafes/duet-tools
+License: MIT
+Project-URL: Bug Tracker, https://github.com/nmc-cafes/duet-tools/issues
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: ~=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy <2
+
+# duet-tools
+ Output management tools for LANL DUET program
