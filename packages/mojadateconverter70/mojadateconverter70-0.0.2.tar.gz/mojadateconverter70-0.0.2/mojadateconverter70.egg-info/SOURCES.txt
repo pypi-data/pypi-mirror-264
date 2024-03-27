@@ -1,0 +1,5 @@
+setup.py
+mojadateconverter70.egg-info/PKG-INFO
+mojadateconverter70.egg-info/SOURCES.txt
+mojadateconverter70.egg-info/dependency_links.txt
+mojadateconverter70.egg-info/top_level.txt
