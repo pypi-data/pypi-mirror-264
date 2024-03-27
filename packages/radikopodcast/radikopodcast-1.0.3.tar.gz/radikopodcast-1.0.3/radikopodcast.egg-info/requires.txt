@@ -1,0 +1,12 @@
+click
+errorcollector
+ffmpeg-python
+radikoplaylist
+yamldataclassconfig
+sqlalchemy<2.0.0
+inflector
+asynccpu
+asyncffmpeg
+defusedxml
+
+[test]
