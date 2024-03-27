@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        dummy-api=dummy_api:cli
+    

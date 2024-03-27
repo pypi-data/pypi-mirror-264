@@ -1,0 +1,8 @@
+dummy_api/__init__.py,sha256=yLsMLMuoSG8fIgp9pez7cSPtAaHkZwOiRdHW3wkvPJA,295
+dummy_api/api_template.py,sha256=aB5HYdUBncPhaaRdtQHjbB4wW83qJb81n-9v4xO68zE,1026
+dummy_api/generator.py,sha256=9a4yqBgE1T5NHKnxwONFcZlaSaD2XYMBriRtsThyJqY,1426
+dummy_api_package-0.1.dist-info/METADATA,sha256=90OahC5DPz3Ir2Kd-UfEBHoqka6RJKvQ0vVIGrNaa-8,354
+dummy_api_package-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dummy_api_package-0.1.dist-info/entry_points.txt,sha256=o1creV727D21bUbrbUvyzHmzVvVmSQ3jJd2d5cPHGYM,63
+dummy_api_package-0.1.dist-info/top_level.txt,sha256=3yvgDpwTUjF6Zc5eEeZ64YtRt7pEqQWYjnfKvomww3w,10
+dummy_api_package-0.1.dist-info/RECORD,,
