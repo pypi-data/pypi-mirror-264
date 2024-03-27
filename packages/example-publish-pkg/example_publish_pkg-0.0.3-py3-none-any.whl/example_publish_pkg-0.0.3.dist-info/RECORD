@@ -1,0 +1,6 @@
+example_publish_pkg/__init__.py,sha256=JiGQkUl6gxl_eEMKuonpn9znvmwCRZNTJyXW1CN_QV0,23
+example_publish_pkg/core.py,sha256=khCDTN-DnGEG2jtOGaTREkTeXNlaFAAhfPREqOfKa6U,60
+example_publish_pkg-0.0.3.dist-info/METADATA,sha256=KaCu47LYsNTl8hXIwW_A0eCiXj5ybtTv2o-lnOrr_cM,621
+example_publish_pkg-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+example_publish_pkg-0.0.3.dist-info/top_level.txt,sha256=UvTVpS5a9v1E2hlpGhZMadST5IxZbVmYpzVbI3zrqlg,20
+example_publish_pkg-0.0.3.dist-info/RECORD,,
