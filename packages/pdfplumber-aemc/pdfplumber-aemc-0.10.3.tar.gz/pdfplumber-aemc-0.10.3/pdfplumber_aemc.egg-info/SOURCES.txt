@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pdfplumber_aemc.egg-info/PKG-INFO
+pdfplumber_aemc.egg-info/SOURCES.txt
+pdfplumber_aemc.egg-info/dependency_links.txt
+pdfplumber_aemc.egg-info/entry_points.txt
+pdfplumber_aemc.egg-info/not-zip-safe
+pdfplumber_aemc.egg-info/requires.txt
+pdfplumber_aemc.egg-info/top_level.txt
