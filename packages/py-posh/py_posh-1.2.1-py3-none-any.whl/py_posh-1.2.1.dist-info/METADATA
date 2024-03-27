@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: py-posh
+Version: 1.2.1
+Summary: A python shell
+Home-page: https://github.com/gJager/posh
+Author: Graeme Jager
+Author-email: graemejager@gmail.com
+License: MIT License
+License-File: LICENSE
+
