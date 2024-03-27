@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Stat-o-Matic
+Version: 0.1.0
+Summary: 
+Author: ..x...x
+Author-email: a@b.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: rich-click (>=1.7.4,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Stat-o-Matic
+
+
+
+
