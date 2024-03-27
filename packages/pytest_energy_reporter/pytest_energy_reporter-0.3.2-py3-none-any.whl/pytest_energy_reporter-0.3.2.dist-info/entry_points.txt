@@ -1,0 +1,3 @@
+[pytest11]
+pytest_energy_reporter=pytest_energy_reporter.plugin
+
