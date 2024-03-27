@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ZJFootballAutoSign/__init__.py
+ZJFootballAutoSign/signIn.py
+ZJFootballAutoSign.egg-info/PKG-INFO
+ZJFootballAutoSign.egg-info/SOURCES.txt
+ZJFootballAutoSign.egg-info/dependency_links.txt
+ZJFootballAutoSign.egg-info/requires.txt
+ZJFootballAutoSign.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ZJFootballAutoSign
+Version: 0.1.2
+Summary: A script used for automatically signing in on Zhejiang Professional Football Club's website.
+Author: konata321
+Author-email: megumi321@163.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6,<3.11
+License-File: LICENSE
