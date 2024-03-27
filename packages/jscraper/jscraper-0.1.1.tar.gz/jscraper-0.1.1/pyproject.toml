@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "jscraper"
+version = "0.1.1"
+description = "A tool to scrap job listings from USAJobs, CIRES, and CIRA locations."
+authors = ["Eric Hackathorn <eric.j.hackathorn@noaa.gov>"]
+license = "MIT"
+
+[tool.poetry.urls]
+Homepage = "https://github.com/NOAA-GSL/jscraper"
+Documentation = "https://github.com/NOAA-GSL/jscraper/blob/main/README.md"
+Source = "https://github.com/NOAA-GSL/jscraper"
+Tracker = "https://github.com/NOAA-GSL/jscraper/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+python-dotenv = "^0.19.1"
+requests = "^2.25"
+bs4 = "^0.0.2"
+selenium = "^4.18.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"  # For running tests
+ruff = "^0.1.6"
+coverage = "^7.4.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-s -v --durations=0"
+cache_dir = ".cache/pytest_cache"
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+command_line = "-m pytest"
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[tool.poetry.scripts]
+jscraper = "jscraper.main:main"
+
