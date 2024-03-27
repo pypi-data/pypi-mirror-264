@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: yandex-360
+Version: 2.1.2
+Summary: Библиотека для Yandex 360 API
+Author-email: Купцов Игорь <ya360@uh.net.ru>
+License: MIT
+Project-URL: Bug Tracker, https://github.com/imercury13/yandex-360/issues
+Project-URL: Documentation, https://yandex-360.readthedocs.io/
+Project-URL: Download, https://github.com/imercury13/yandex-360
+Keywords: yandex,yandex360,yandex-api,yandex360-api
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jreq >=1.1.0
+
+# yandex-360
+
+Библиотека функций для работы с Yandex 360 API
+
+```bash
+pip install yandex-360
+```
+
+## Документация
+
+[yandex-360](https://yandex-360.readthedocs.io/)
