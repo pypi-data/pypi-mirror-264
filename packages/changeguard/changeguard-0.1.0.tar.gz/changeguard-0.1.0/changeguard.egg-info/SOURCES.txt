@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+changeguard/__init__.py
+changeguard/changeguard.py
+changeguard/cli.py
+changeguard.egg-info/PKG-INFO
+changeguard.egg-info/SOURCES.txt
+changeguard.egg-info/dependency_links.txt
+changeguard.egg-info/entry_points.txt
+changeguard.egg-info/requires.txt
+changeguard.egg-info/top_level.txt
