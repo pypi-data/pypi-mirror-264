@@ -1,0 +1,9 @@
+logoo/__init__.py,sha256=KJzPI32epJctcY2ZdLqy3CutYC0ObrpQhkvVNqbdGGg,372
+logoo/data.py,sha256=VKq0Lgrud1H6Gau_2zRDfXTGaToi6NMPkCAxfSnsAsI,66
+logoo/logger.py,sha256=O2PubE_YA8etJjyXeQXZUEYIXGJALXYAICGW_kInJNw,2413
+logoo/primary_logger.py,sha256=VPIukKjF0OtiyG-VGboekTTn_HpOAePBuPQ0oQLro5w,4942
+logoo-1.2.1.dist-info/LICENSE,sha256=DCNhZCJcfm55glIYI4x9Jcf02Cv8kzC5E8m58szLOlw,1071
+logoo-1.2.1.dist-info/METADATA,sha256=mVIcAwPR7P1LTIKgVG5tScUiu-XoFwukVHiR4cFGx44,2792
+logoo-1.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+logoo-1.2.1.dist-info/top_level.txt,sha256=kOUFjANctwY9cwRtTQ-gDJBcgNpaHvbJcbuR71sCS4Y,6
+logoo-1.2.1.dist-info/RECORD,,
