@@ -1,0 +1,2 @@
+[console_scripts]
+hello = pingdomv3.hello:say_hello

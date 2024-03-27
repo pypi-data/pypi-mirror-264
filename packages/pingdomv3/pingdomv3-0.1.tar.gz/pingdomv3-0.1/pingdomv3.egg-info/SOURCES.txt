@@ -1,0 +1,8 @@
+setup.py
+pingdomv3/__init__.py
+pingdomv3/hello.py
+pingdomv3.egg-info/PKG-INFO
+pingdomv3.egg-info/SOURCES.txt
+pingdomv3.egg-info/dependency_links.txt
+pingdomv3.egg-info/entry_points.txt
+pingdomv3.egg-info/top_level.txt
