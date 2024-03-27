@@ -1,0 +1,2 @@
+[console_scripts]
+nyu_caeser_crypt_mar24 = nyu_caeser_crypt_mar24.__main__:main
