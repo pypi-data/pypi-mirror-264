@@ -1,0 +1,2 @@
+[console_scripts]
+llm-datasets = llm_datasets.__main__:main
