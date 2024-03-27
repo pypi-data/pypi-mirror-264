@@ -1,0 +1,15 @@
+scbl_db/__init__.py,sha256=nsdR2ilzbQhvKovIUWqt-7pbWI_Y7DFaldZ-D_u_k1s,974
+scbl_db/bases.py,sha256=6HdK3TvIOC3bDbY9dgwDbOWcEGRDhbTMi72xYcbxwJE,2253
+scbl_db/custom_types.py,sha256=Kwu1QIU8A2cYSnHxAXkDxSnkxxG7309nUx2yKpwtVa8,2910
+scbl_db/models/data.py,sha256=y7rWQ60XXtosxsWmkYhl5gQeJGk_jD6OvR8hP6MXAGw,2405
+scbl_db/models/entities.py,sha256=wkwaOGWiDdyftuMTT1errG0CuPnBjjKCIYn9jVuO1Ac,8989
+scbl_db/models/platforms/chromium.py,sha256=kkEJffWag2IfqTCwHkFHtJTVGm-n3fagEUCVoD0ZlMM,4140
+scbl_db/models/platforms/visium.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scbl_db/models/platforms/xenium.py,sha256=_uDGb4iqK09j4i2GoiTe7TyZCDKR4hwQktT64VQ-T10,2620
+scbl_db/models/processes.py,sha256=PeExqiqHVp70GdkwWkZrhiLeAH4q_oGiv8gVquD2Rgs,637
+scbl_db/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scbl_db/utils.py,sha256=p3ZoVCYvby9y8oYdCfW2r0EULarso1KfT-aiTE3Jd-U,183
+scbl_db-0.1.16.dist-info/LICENSE,sha256=PGtvZgQGtEiUXIpItSSxpQjfAutBQuKVpeaH7MwkTcQ,1079
+scbl_db-0.1.16.dist-info/METADATA,sha256=RgGNSfi0qbZMFPJ_b_ej4GvZrGxWhPF_6kdiJhCcxLg,989
+scbl_db-0.1.16.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+scbl_db-0.1.16.dist-info/RECORD,,
