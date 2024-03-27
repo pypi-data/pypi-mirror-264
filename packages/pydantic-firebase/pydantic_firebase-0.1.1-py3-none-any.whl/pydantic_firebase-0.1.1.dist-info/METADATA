@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pydantic-firebase
+Version: 0.1.1
+Summary: Pydantic models for Google Cloud Firestore
+Author: sazonov-src
+Author-email: sazonov89vit@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: firestore (>=0.0.8,<0.0.9)
+Requires-Dist: mock-firestore (>=0.11.0,<0.12.0)
+Requires-Dist: pydantic (>=2.6.3,<3.0.0)
+Requires-Dist: pytest (>=8.0.2,<9.0.0)
+Description-Content-Type: text/markdown
+
+
