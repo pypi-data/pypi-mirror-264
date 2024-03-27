@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+usefuladbpluswithrestart/README.MD
+usefuladbpluswithrestart/__init__.py
+usefuladbpluswithrestart/requirements.txt
+usefuladbpluswithrestart/thirdparty.json
+usefuladbpluswithrestart.egg-info/PKG-INFO
+usefuladbpluswithrestart.egg-info/SOURCES.txt
+usefuladbpluswithrestart.egg-info/dependency_links.txt
+usefuladbpluswithrestart.egg-info/requires.txt
+usefuladbpluswithrestart.egg-info/top_level.txt

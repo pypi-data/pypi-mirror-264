@@ -1,0 +1,3 @@
+include usefuladbpluswithrestart/requirements.txt
+include usefuladbpluswithrestart/thirdparty.json
+include usefuladbpluswithrestart/README.MD
