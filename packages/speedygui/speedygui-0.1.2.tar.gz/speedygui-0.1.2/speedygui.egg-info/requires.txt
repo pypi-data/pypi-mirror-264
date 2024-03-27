@@ -1,0 +1,5 @@
+toga
+torch
+pillow
+torchvision
+scikit-image

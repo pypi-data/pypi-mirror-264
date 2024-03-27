@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+speedygui/__init__.py
+speedygui/predictor.py
+speedygui/predictor_app.py
+speedygui/utils.py
+speedygui.egg-info/PKG-INFO
+speedygui.egg-info/SOURCES.txt
+speedygui.egg-info/dependency_links.txt
+speedygui.egg-info/requires.txt
+speedygui.egg-info/top_level.txt
