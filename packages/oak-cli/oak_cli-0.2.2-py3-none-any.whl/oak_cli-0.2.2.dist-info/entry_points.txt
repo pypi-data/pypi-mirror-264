@@ -1,0 +1,6 @@
+[console_scripts]
+oak=oak_cli.main:main
+
+[poetry.plugin.activate]
+activate=oak_cli.postinstall:main
+
