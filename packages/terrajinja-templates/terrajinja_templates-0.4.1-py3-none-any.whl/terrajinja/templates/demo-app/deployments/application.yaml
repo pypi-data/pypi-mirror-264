@@ -1,0 +1,20 @@
+required_input:
+  application:
+    help: "name of the application"
+    choices: applications
+    required: true
+  environment:
+    help: "name of the environment"
+    choices: environments
+    required: true
+  provider:
+    help: "name of the cloud provider"
+    default: applications.$application.environments.$environment.cloud_provider
+    choices: applications.$application.environments.$environment.cloud_provider
+templates:
+  "generic_providers": 0.0.1
+  "{{ provider }}_provider": 0.0.1
+  "{{ provider }}_application": 0.0.1
+terraform:
+  state_file: "{{ provider }}_{{ applicaton }}_{{ environment }}_deploy_application"
+

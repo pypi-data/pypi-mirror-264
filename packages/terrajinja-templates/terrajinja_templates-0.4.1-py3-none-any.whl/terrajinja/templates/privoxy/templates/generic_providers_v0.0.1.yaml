@@ -1,0 +1,5 @@
+# these providers will be loaded by all deployments
+terraform:
+  providers:
+    - task: time-provider
+      module: time.provider

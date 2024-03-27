@@ -1,0 +1,10 @@
+terraform:
+  providers:
+    - task: vcd-provider
+      module: vcd.provider
+      parameters:
+        auth_type: api_token
+        url: {{ clouds['sbp.cloud'].provider.url }}
+        org: {{ team.tla }}
+        api_token: "{{ env['SBP_CLOUD_API_TOKEN'] }}"
+        max_retry_timeout: 30

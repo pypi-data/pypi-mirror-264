@@ -1,0 +1,23 @@
+# This is the list of available clouds and their settings
+# settings here are for the providers
+clouds:
+  # sbp.cloud provider setting
+  sbp.cloud:
+    provider:
+      auth_type: api_token
+      # prod cloud:
+      url: https://portal.sbp.cloud/api
+      # beta cloud:
+      # url: https://portal.nlcx.sbp.cloud/api
+    environments:
+
+      # test specific settings for sbp.cloud
+      test:
+        tla: tst
+        letter: t
+        dns_hosts: [ 1.1.1.1, 8.8.8.8 ]
+        # sbp.cloud specific subnets
+        subnets:
+          dmz: 10.0.0.0/24
+        # edge ip for your sbp.cloud environment
+        edge_ip: 185.185.185.185

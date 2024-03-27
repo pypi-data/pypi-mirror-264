@@ -1,0 +1,31 @@
+# other generic variables
+# you can opt to move each item-set to a separate file, but that depends on the size and readability of your environment
+generic:
+  chef:
+    server_url: &chef_url https://chef.schubergphilis.com/organizations/ofd/
+    client_name: fa_ofd_pipeline_auto
+  vm:
+    defaults:
+      first_digit: 1
+      placement_strategy: one_per_zone
+      naming_format: [ "%s%d%02d", "name", "zone_id", "nr_per_zone" ]
+      catalog_organization: NLCP-Templates
+      catalog_name: NLCP-Templates
+      chef_server_url: *chef_url
+      chef_validator_name: ofd-validator
+      vault_token_period: 604800
+      vault_orphan: True
+      vault_renewable: True
+      vault_renew_min_lease: 86400
+      vault_renew_increment: 604800
+      chef_client_version: 18
+    debian_12:
+      template_name: "Debian_12-latest"
+      cloud_config_file: "/config/templates/cloud-config/debian_12.yaml"
+      placements:
+        - zone: 1
+          name: "NLCP1 Non-Windows"
+        - zone: 2
+          name: "NLCP2 Non-Windows"
+        - zone: 3
+          name: "NLCP3 Non-Windows"
