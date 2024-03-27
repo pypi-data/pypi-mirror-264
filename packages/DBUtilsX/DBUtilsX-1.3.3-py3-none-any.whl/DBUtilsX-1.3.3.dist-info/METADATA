@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: DBUtilsX
+Version: 1.3.3
+Summary: Database connections for multi-threaded environments.
+License: MIT License
+Project-URL: Source Code, https://devops.aishu.cn:22/AISHUDevOps/KWeaver/_git/kw-proton-rds
+Platform: any
+
