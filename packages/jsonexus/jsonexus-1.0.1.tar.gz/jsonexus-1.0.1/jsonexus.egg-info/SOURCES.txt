@@ -1,0 +1,7 @@
+README.md
+setup.py
+jsonexus/__init__.py
+jsonexus.egg-info/PKG-INFO
+jsonexus.egg-info/SOURCES.txt
+jsonexus.egg-info/dependency_links.txt
+jsonexus.egg-info/top_level.txt
