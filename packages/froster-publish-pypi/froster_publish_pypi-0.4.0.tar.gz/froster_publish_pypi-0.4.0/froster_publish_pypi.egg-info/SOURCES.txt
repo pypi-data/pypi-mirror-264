@@ -1,0 +1,9 @@
+README.md
+setup.py
+froster_publish_pypi/__init__.py
+froster_publish_pypi/main.py
+froster_publish_pypi.egg-info/PKG-INFO
+froster_publish_pypi.egg-info/SOURCES.txt
+froster_publish_pypi.egg-info/dependency_links.txt
+froster_publish_pypi.egg-info/entry_points.txt
+froster_publish_pypi.egg-info/top_level.txt

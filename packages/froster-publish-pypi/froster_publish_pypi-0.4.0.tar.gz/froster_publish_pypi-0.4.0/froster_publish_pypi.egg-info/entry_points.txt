@@ -1,0 +1,3 @@
+[console_scripts]
+froster_publish_pypi = froster_publish_pypi:hello
+
