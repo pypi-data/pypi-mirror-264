@@ -1,0 +1,10 @@
+todoism/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todoism/main.py,sha256=YUjdLRcbU-929YZzE0RG95VB1963AKf-VQ2OEwHDR4o,8475
+todoism/print.py,sha256=wpiruVNRUg8vGSnxSregHs3sMgq-EaTvFQ1qaQISw98,4552
+todoism/task.py,sha256=K4wqJRwJ8icaV8Z2CWQT2kdViQTyWJ8VVL7Yq9plHC8,1329
+todoism/utils.py,sha256=pOPCXzWpS5CyUYlSg5l8F6gqt61iWXYnysdTwsMulbw,5897
+todoism-1.12.dist-info/METADATA,sha256=RZa1mym9awr062jW4dgYZ4bsMXCIDO9jgsXpYkfVe9g,207
+todoism-1.12.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+todoism-1.12.dist-info/entry_points.txt,sha256=37qDUbpKGmiBU3yhhYrNO367TqhAyjbSGqRub6Gk8R4,71
+todoism-1.12.dist-info/top_level.txt,sha256=iltc_757YUxjdKmgmdg5cdFq-vjkhsRp5OTYpl9UQko,8
+todoism-1.12.dist-info/RECORD,,
