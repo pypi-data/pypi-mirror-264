@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: AreaOfShapesLib
+Version: 0.0.0
+Summary: A Python library for performing arithmetic operations related to the area of different shapes
+Home-page: https://github.com/mjfctor/ArithmeticOperations
+Author: mjfctor
+Author-email: emjayfactor@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
