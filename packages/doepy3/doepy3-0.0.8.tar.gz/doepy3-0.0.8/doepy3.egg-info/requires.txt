@@ -1,0 +1,4 @@
+pyDOE3
+numpy
+pandas
+diversipy
