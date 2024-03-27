@@ -1,0 +1,8 @@
+README.md
+setup.py
+teaxyzzz3.egg-info/PKG-INFO
+teaxyzzz3.egg-info/SOURCES.txt
+teaxyzzz3.egg-info/dependency_links.txt
+teaxyzzz3.egg-info/entry_points.txt
+teaxyzzz3.egg-info/requires.txt
+teaxyzzz3.egg-info/top_level.txt
