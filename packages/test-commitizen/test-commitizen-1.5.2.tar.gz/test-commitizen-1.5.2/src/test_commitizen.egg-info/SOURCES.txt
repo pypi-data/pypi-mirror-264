@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/test-commitizen/scratch.py
+src/test_commitizen.egg-info/PKG-INFO
+src/test_commitizen.egg-info/SOURCES.txt
+src/test_commitizen.egg-info/dependency_links.txt
+src/test_commitizen.egg-info/requires.txt
+src/test_commitizen.egg-info/top_level.txt
+tests/test_something.py
