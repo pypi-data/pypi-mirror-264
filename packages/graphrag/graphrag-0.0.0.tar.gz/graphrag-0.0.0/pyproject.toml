@@ -1,0 +1,15 @@
+[project]
+name = "graphrag"
+version = "0.0.0"
+authors = [
+    {name = "Chris Trevino", email = "chtrevin@microsoft.com"},
+    {name = "Ha Trinh", email = "trinhha@microsoft.com"},
+    {name = "Alonso Guevara Fernández", email = "alonsog@microsoft.com"},
+    {name = "Andrés Morales", email = "andresmor@microsoft.com"},
+    {name = "David Tittsworth", email = "datittsw@microsoft.com"},
+    {name = "Dayenne de Souza", email = "ddesouza@microsoft.com"},
+    {name = "Kate Lytvynets", email = "kalytv@microsoft.com"},
+    {name = "Jonathan Larson", email = "jolarso@microsoft.com"},
+    {name = "Nathan Evans", email = "naevans@microsoft.com"},
+]
+description = "The GraphRAG project is a data pipeline and transformation suite designed to extract meaningful, structured data from unstructured text using LLMs"
