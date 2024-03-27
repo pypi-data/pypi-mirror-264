@@ -1,0 +1,7 @@
+setup.py
+sqlive-cli/__init__.py
+sqlive-cli/main.py
+sqlive_cli.egg-info/PKG-INFO
+sqlive_cli.egg-info/SOURCES.txt
+sqlive_cli.egg-info/dependency_links.txt
+sqlive_cli.egg-info/top_level.txt
