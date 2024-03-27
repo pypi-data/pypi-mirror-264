@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pydantic-firebase"
+version = "0.1.1"
+description = "Pydantic models for Google Cloud Firestore"
+authors = ["sazonov-src <sazonov89vit@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "pydantic_firebase"}]
+include = [
+    { path = "tests", format = "sdist" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.6.3"
+mock-firestore = "^0.11.0"
+pytest = "^8.0.2"
+firestore = "^0.0.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
