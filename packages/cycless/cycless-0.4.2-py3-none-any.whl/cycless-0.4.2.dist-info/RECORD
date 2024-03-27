@@ -1,0 +1,8 @@
+cycless/__init__.py,sha256=d1kgGOf6slI0iB7YuXvAL9LDoPDFOzpv_u5pZVpZCDg,58
+cycless/cycles.py,sha256=mapazgiM-dM3FsomkbXkBHsYKh9rpxvXio-CQs2zfnc,6029
+cycless/dicycles.py,sha256=I4vWexwldQVBfsLRWXuez24Im25cZtaPN-O531KUPUI,5049
+cycless/polyhed.py,sha256=ltTUwX2o7C7fHQWF-pMZdeT38FXzCWv8sN5BBH0MDd4,16043
+cycless/simplex.py,sha256=BAWF3rMPrulMgMSzWYQbK1CmT1KFqkceAP-aQi9SWUA,4099
+cycless-0.4.2.dist-info/METADATA,sha256=96ltzgxkJtjkEhYyTrnnStcKdpCH0_1RDeRuqsQOmzM,2785
+cycless-0.4.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cycless-0.4.2.dist-info/RECORD,,
