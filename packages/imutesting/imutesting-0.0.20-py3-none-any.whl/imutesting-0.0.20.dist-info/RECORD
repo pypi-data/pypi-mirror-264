@@ -1,0 +1,11 @@
+imutesting/__init__.py,sha256=_gnoikrGwtKSbvCinGzj7-Q5iLe2CMcQnDwV9b14boo,64
+imutesting/filters/EKF.py,sha256=LnYzosH-DL-tD5QOfrIeRb7xd7hV3CfCm1clJWLmDWo,6334
+imutesting/filters/Extend_Kalman_Filter.py,sha256=ZtkKwUAxwKNfcJog1NC7zsk2qOXXzhhFORUezWulJ-Q,9591
+imutesting/filters/__init__.py,sha256=eWB0j2mbbOoXtNoYyEGbKdwbjC3gSqmL5xUhzomq4OI,879
+imutesting/math/Quaternion.py,sha256=HkP74wHEBNj4cIw5VOAgWFi_NIV52vi9D319n5ZtCd0,8029
+imutesting/math/__init__.py,sha256=x5Qj4TcjkqVi2Yp354qbABFndTFuMaXBi7bJXUjbUp8,36
+imutesting-0.0.20.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+imutesting-0.0.20.dist-info/METADATA,sha256=13VkaxjkPl7VMZx5umKgC_ly_H41XfYlYwi3mxc_cDw,2993
+imutesting-0.0.20.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+imutesting-0.0.20.dist-info/top_level.txt,sha256=ttoUb_6rJnYAOAZxf-XmajVc5JEVsS_YqK_4cwWIxbE,11
+imutesting-0.0.20.dist-info/RECORD,,
