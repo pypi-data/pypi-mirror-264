@@ -1,0 +1,10 @@
+mindgard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mindgard/__main__.py,sha256=0uYd0qjhXwloVAqkGh7SWOKNcMWuPczye3d8nR8BY60,2902
+mindgard/auth.py,sha256=347jaKDkzAxrKs3nUNaxxLV0C1qRx_ZNxquhMdAyyIE,3486
+mindgard/constants.py,sha256=i9EftmPsQ0PR7wBOaLj7NvFe20R9Y721Xl8s10qCl5Q,258
+mindgard/utils.py,sha256=z-819Rjpe03FuT-tzavNiHU1c6PMzvUDWktVdLBrUNY,758
+mindgard-0.10.0.dist-info/LICENSE.txt,sha256=Hqi8FwSngqaIjYG5sIYcZZjgBcIo7GjROSjqez5DWo0,1054
+mindgard-0.10.0.dist-info/METADATA,sha256=o4DGfH6v_00KDu5ZGarPNlzXRnYoUd1niYhENRvf4gY,982
+mindgard-0.10.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mindgard-0.10.0.dist-info/entry_points.txt,sha256=311rNu2y34AKb5H3WtFrh5FLR8PGSNkRPhTmSaCch4w,46
+mindgard-0.10.0.dist-info/RECORD,,
