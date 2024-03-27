@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+mlassistant/__init__.py
+mlassistant.egg-info/PKG-INFO
+mlassistant.egg-info/SOURCES.txt
+mlassistant.egg-info/dependency_links.txt
+mlassistant.egg-info/top_level.txt
