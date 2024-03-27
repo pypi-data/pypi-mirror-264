@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "shotfirst"
+version = "0.12.2"
+description = "Monitor a number of directories for files and copy/move them"
+authors = ["Jorge Gallegos <kad@blegh.net>"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://gitlab.com/kad/shotfirst"
+keywords = ["inotify", "backup"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: System :: Archiving :: Backup",
+    "Topic :: Utilities"
+]
+packages = [{include = "shotfirst"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyinotify = "^0.9.6"
+pdfrw = "^0.4"
+pillow = "^10.2.0"
+enzyme = "^0.4.1"
+
+[tool.poetry.scripts]
+shotfirst = "shotfirst.app:main"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+pycodestyle = "^2.11.1"
+flake8 = "^7.0.0"
+mypy = "^1.9.0"
+types-pillow = "^10.2.0.20240311"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
