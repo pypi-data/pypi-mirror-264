@@ -1,0 +1,8 @@
+pyfunvice/__init__.py,sha256=N3e84wrCVKxQm3__mo6gV0XTnZDHL87aIUtZPN64rko,3290
+pyfunvice/cli.py,sha256=CjcDwnnOld5LaAq0NNhz_7zWS69Ucra5NQAGzxN3OYU,950
+pyfunvice/docker_cli.py,sha256=I4x70kbRgzfVoTbt3x-ZqHgB0pdws6DXTz-BBt8I0Ao,690
+pyfunvice/struct.py,sha256=Rt4gPUqGamOz1Kxfd_O0arLQ919zUtuVsVx4R8ZLrFc,577
+pyfunvice-0.1.1.dist-info/METADATA,sha256=1Jq2Jmn7g4ZEVZF6Oe24-M8pPxcPwgOGXA0kLU3FD14,540
+pyfunvice-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyfunvice-0.1.1.dist-info/entry_points.txt,sha256=3qoKWU8wTPUkHxk1s6suFQQCXeTDSRaQZeB0DWA86fE,48
+pyfunvice-0.1.1.dist-info/RECORD,,
