@@ -1,0 +1,38 @@
+#command-list {
+    dock: left;
+    width: 30;
+    height: 100%;
+    margin: 1 0;
+}
+
+.command-item {
+    padding: 1;
+}
+
+
+Toast {
+    width: auto;
+    margin: 15 50;
+    padding: 2 3;
+    height: auto;
+}
+
+#problem-title {
+    margin-left:1;
+    padding-top:1;
+}
+
+#provider-title {
+    margin-left:1;
+    padding-top:1;
+}
+
+#problem-body {
+    border: tall $background;
+    padding-left:2;
+    padding-right:2;
+}
+
+#container {
+    margin-bottom:1;
+}
