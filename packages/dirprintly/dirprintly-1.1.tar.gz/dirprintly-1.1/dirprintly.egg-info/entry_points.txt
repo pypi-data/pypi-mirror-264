@@ -1,0 +1,2 @@
+[console_scripts]
+dirprintly = dirprintly.file_printer:explore_directory_cli
