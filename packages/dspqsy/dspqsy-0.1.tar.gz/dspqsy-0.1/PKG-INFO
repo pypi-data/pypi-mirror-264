@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: dspqsy
+Version: 0.1
+Summary: A small example package
+Home-page: http://example.com/mypackage
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

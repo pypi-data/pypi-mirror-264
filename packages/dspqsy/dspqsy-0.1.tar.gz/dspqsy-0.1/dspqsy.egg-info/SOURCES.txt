@@ -1,0 +1,8 @@
+README.md
+setup.py
+dspqsy/__init__.py
+dspqsy.egg-info/PKG-INFO
+dspqsy.egg-info/SOURCES.txt
+dspqsy.egg-info/dependency_links.txt
+dspqsy.egg-info/requires.txt
+dspqsy.egg-info/top_level.txt
