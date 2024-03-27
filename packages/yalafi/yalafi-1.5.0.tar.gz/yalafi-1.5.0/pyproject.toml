@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yalafi"
+version = "1.5.0"
+authors = [{"name" = "Matthias Baumann"},{"name" = "torik42"}]
+description = "Yet another LaTeX filter"
+readme = "README-short.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Markup :: LaTeX",
+    "Topic :: Text Processing :: Filters",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/torik42/YaLafi"
+"Changelog" = "https://github.com/torik42/YaLafi/blob/master/HISTORY.md"
+"Documentation" = "https://github.com/torik42/YaLafi#contents"
+"Issue Tracker" = "https://github.com/torik42/YaLafi/issues"
+
+[tool.setuptools.packages.find]
+include = ["yalafi*"]
+
+[tool.pylint.main]
+enable = [
+    "useless-suppression"
+]
+disable = [
+    "invalid-name",
+    "pointless-string-statement",
+    "unidiomatic-typecheck"
+]
+
+[tool.pylint.variables]
+# Macro handler functions take these arguments, but often do not need all
+ignored-argument-names = "_.*|^parser|^buf|^mac|^args|^delim|^pos"
+
+[tool.pylint.miscellaneous]
+notes = ["FIXME", "XXX", "TODO", "HACK"]
+
+[tool.pylint.spelling]
+spelling-dict = "en_GB"
+spelling-private-dict-file = "pylint-spelling.txt"
