@@ -1,0 +1,3 @@
+[console_scripts]
+scstui = simple_config_sync.core:run_tui
+

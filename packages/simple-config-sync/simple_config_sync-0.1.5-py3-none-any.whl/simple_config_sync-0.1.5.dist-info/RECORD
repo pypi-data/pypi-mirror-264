@@ -1,0 +1,10 @@
+simple_config_sync-0.1.5.dist-info/METADATA,sha256=iWQqrqjA8hDVlt1X_i27zr6WsGDNHL6vmlPbrzC4nKo,786
+simple_config_sync-0.1.5.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+simple_config_sync-0.1.5.dist-info/entry_points.txt,sha256=9O_G2EbhSBmF4YK_lVbkujkzKvBDLkEcg72XMggXrMc,60
+simple_config_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_config_sync/core/__init__.py,sha256=Ngf4ldcg8zmmdcqJ4ysNj1k1A6DijtjJrxX7IvjfmDo,146
+simple_config_sync/core/assets/tui.tcss,sha256=zsUQ7vN65BslLe-ro2_PIjeibwOoj1lFoBXrYaNTmls,1203
+simple_config_sync/core/config.py,sha256=5RB67l2Fnh3M6axVZkoOnzIaqodVqK7wUQsLvMGUfJo,4736
+simple_config_sync/core/scripts.py,sha256=9NPX9Ogt8TnjzVfnsTffcwtvUdqDgHsDPKNlUGAr6qg,265
+simple_config_sync/core/tui.py,sha256=o3zYuaIlFJziwJxKt3FOHqNgtIxhrr5yzcV7yuuB4KM,3268
+simple_config_sync-0.1.5.dist-info/RECORD,,
