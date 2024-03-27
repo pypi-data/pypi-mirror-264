@@ -1,0 +1,13 @@
+rdsdriver/__init__.py,sha256=VrxVMEm7riAnHrmE9JjCBthNlLizbWir-o99wNomHlo,124
+rdsdriver/dm/__init__.py,sha256=JmnjmWhQBBuGyF2xtaGIqTND3MlpWkBs_Hlsq5LPlI8,42
+rdsdriver/dm/dm.py,sha256=N74za5jPKegxHG57dbAf3VI2yqPfb9QzKtTl0v3s-OE,2896
+rdsdriver/dm/dmPython.cpython-36-aarch64-linux-gnu.so,sha256=Ac2kYKsjbsN1UJNnVe3AH1XI22aV0SDrXJ8zUj13ZdU,786456
+rdsdriver/dm/dmPython.cpython-36-x86_64-linux-gnu.so,sha256=KnqdfLp-96Vc8nkRcP7dxrP_KmGj2xh-t7Sq-SxpJRY,744712
+rdsdriver/dm/dmPython.cpython-38-aarch64-linux-gnu.so,sha256=rcLrRfBKGaF3aTZZOV_KMgEi2mTYtxNdjCRDisKlM4U,887248
+rdsdriver/dm/dmPython.cpython-38-x86_64-linux-gnu.so,sha256=S4BGArSjHV2CvDZryYVnqSmf4d5tx4nB-vCTj0wAqHY,829360
+rdsdriver/mysql/__init__.py,sha256=bUz0jJXQCAOgwpYp3crwq0oQlbHG3fldpIC0UCxK9nY,43
+rdsdriver/mysql/mysql.py,sha256=ywh9pWIGddu-AGvACoBEpaUOW0ayBU1npDwtiuQz_0U,166
+RDSDriver-1.3.3.dist-info/METADATA,sha256=4tBJYooxL5lgIoAgpdM1lYk1I7MAYBiIuStlpopJAco,273
+RDSDriver-1.3.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+RDSDriver-1.3.3.dist-info/top_level.txt,sha256=wDGIkVuLFkPyZlG7uNbXSqdZ-6v08EvctjTY-y_kj84,10
+RDSDriver-1.3.3.dist-info/RECORD,,
