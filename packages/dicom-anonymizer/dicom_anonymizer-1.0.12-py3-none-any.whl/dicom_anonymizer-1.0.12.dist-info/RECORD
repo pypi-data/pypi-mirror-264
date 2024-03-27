@@ -1,0 +1,16 @@
+dicomanonymizer/__init__.py,sha256=HkRjVgZXObuAMiYFUvE8yaAwL_OTlPIhZpni7Hi7mY8,71
+dicomanonymizer/anonymizer.py,sha256=fG_YdpzaJZKuD0VXVRsczwFCeAmiHq4mzNpA9PGjHbk,6895
+dicomanonymizer/dicomfields.py,sha256=1U2rvWtZh6_OwWKtm6RS6VYOg5pTsRHUZIA3O7_9I6k,30864
+dicomanonymizer/format_tag.py,sha256=UEZvSItccv5niT92ugxXwi08AFdptmrpeHs778eGUa0,725
+dicomanonymizer/simpledicomanonymizer.py,sha256=FvxEubHYJ1EFDlJ-cIabXgncA-53Wevclx8xSwMZA1U,16581
+examples/anonymize_dataset.py,sha256=bKUNP24JbW5IwFYX90uxqymZAObZHQZBsa8JX4NYE98,578
+examples/anonymize_extra_rules.py,sha256=hIKAdJGxzjqD0ktUcG_cvuxbq778dtavN-sq8caLIdo,1495
+scripts/scrap_DICOM_fields.py,sha256=z9FyC3Sz1tHbfipbcbNi1csVVpZcwrTe5zFcbzSeuio,3631
+tests/test_anon.py,sha256=HtuxkHmUbKoTT4zv6Nk1J1zrTRuD2lZ6kVm9mtAwFBk,4240
+tests/test_anonymization_without_dicom.py,sha256=_yHagf7p4VfexcgtzAX5xX4vc1bf3a6AIXNWVw1JwlU,888
+dicom_anonymizer-1.0.12.dist-info/LICENSE,sha256=HAtqo2Ih1usG0zGllDXoy8QzCr5Cgad0XnwXjWaSbQ0,1459
+dicom_anonymizer-1.0.12.dist-info/METADATA,sha256=PWfJ2TofXTJetISXLG_vL_8ZOQec8M7EcpACnYn8lgM,11440
+dicom_anonymizer-1.0.12.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dicom_anonymizer-1.0.12.dist-info/entry_points.txt,sha256=w5IeR8PvEJ5P1BaWWwvHwBnDvqZN3Vt3nTSM_O199aw,69
+dicom_anonymizer-1.0.12.dist-info/top_level.txt,sha256=azqOc02xaNbmuzzkLjHCX4HxpzGXafcq6aedRbtTF54,39
+dicom_anonymizer-1.0.12.dist-info/RECORD,,
