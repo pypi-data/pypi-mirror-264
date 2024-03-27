@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/test.py
+src/entrez_utils/__init__.py
+src/entrez_utils/entrez.py
+src/entrez_utils/entrez_bio_object.py
+src/entrez_utils/ncbi.py
+src/entrez_utils/sra_library.py
+src/entrez_utils/sra_utils.py
+src/entrez_utils/url_path.py
+src/entrez_utils.egg-info/PKG-INFO
+src/entrez_utils.egg-info/SOURCES.txt
+src/entrez_utils.egg-info/dependency_links.txt
+src/entrez_utils.egg-info/requires.txt
+src/entrez_utils.egg-info/top_level.txt
