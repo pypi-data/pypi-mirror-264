@@ -1,0 +1,2 @@
+[console_scripts]
+warlocksfx = warlocksfx.warlocksfx:cli

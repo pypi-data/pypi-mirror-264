@@ -1,0 +1,4 @@
+argparse
+pyinstaller
+optioner>=1.4
+colorama
