@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+aliyun_python_sdk_emrstudio.egg-info/PKG-INFO
+aliyun_python_sdk_emrstudio.egg-info/SOURCES.txt
+aliyun_python_sdk_emrstudio.egg-info/dependency_links.txt
+aliyun_python_sdk_emrstudio.egg-info/requires.txt
+aliyun_python_sdk_emrstudio.egg-info/top_level.txt
+aliyunsdkemrstudio/__init__.py
+aliyunsdkemrstudio/request/__init__.py
+aliyunsdkemrstudio/request/v20231009/ListProjectsRequest.py
+aliyunsdkemrstudio/request/v20231009/__init__.py
