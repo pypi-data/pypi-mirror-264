@@ -1,0 +1,10 @@
+rimetool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rimetool/rimetool.py,sha256=sf-2js13UuzSboQKxRKcksREMvu13c8SOU356o-2--c,206
+rimetool/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rimetool/tools/vcf_to_dict.py,sha256=d2tCZSiet5CCEvtiAcNkkRyQ5IEuSqC9Ex5M98_l5Po,1989
+rimetool-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rimetool-0.0.2.dist-info/METADATA,sha256=j6qHYr6bh5nlLWiemo0X9N06azJQObJ6o80cN7iDK0I,683
+rimetool-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rimetool-0.0.2.dist-info/entry_points.txt,sha256=sxGnaWI04Jr5UdYrfj5rGxwOK6NOW6H7g1P5Uzg9H_E,52
+rimetool-0.0.2.dist-info/top_level.txt,sha256=GBm8tPJ477ZzSOJfX-9qBJXo_v9kiwIVhmU-xe4TGFk,9
+rimetool-0.0.2.dist-info/RECORD,,
