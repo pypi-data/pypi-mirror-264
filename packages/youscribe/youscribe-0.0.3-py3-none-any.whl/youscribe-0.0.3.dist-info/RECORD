@@ -1,0 +1,11 @@
+youscribe/__init__.py,sha256=qia2zT1AQCzimY1j4yybBqn5gplD2-mxeDPR3LDgtyA,73
+youscribe/_version.py,sha256=CactNZqrHHYTPrkHKccy2WKXmaiUdtTgPqSjFyVXnJk,18
+youscribe/main.py,sha256=-_5eC5a-DmQktVQ9XpW984oXQmm1E9KDrNvjckQ9Aug,3096
+youscribe/models.py,sha256=eEKOX3KCCxejm2EIGG7iGw9hoc8h3-3m-68HbcLKkL4,230
+youscribe/scraper.py,sha256=TA9yj2geB_lsz_adgHdo1N6zbBNQMq8pUU2MIaJg3pw,1744
+youscribe/transcriber.py,sha256=ytvNxdeTu6GZ6vYJraynai85WKK_jC3H07cIhtU5kHk,4688
+youscribe/transcript.py,sha256=GJxQfqUG9DQdzXrPVfdQUrhiCBe-BxUJI7n3GvWPCis,2944
+youscribe-0.0.3.dist-info/METADATA,sha256=4e-t0kWI3GqGD6fvF3OCytIgaCPg2ceRUMYqGmfcGSA,2184
+youscribe-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+youscribe-0.0.3.dist-info/top_level.txt,sha256=LSvBMdZNGmyizCKUeYuRyucKdgi0NkiIXYGbezRqtpM,10
+youscribe-0.0.3.dist-info/RECORD,,
