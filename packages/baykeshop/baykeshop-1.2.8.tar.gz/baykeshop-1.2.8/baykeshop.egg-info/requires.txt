@@ -1,0 +1,6 @@
+django==4.2.9
+alipay-sdk-python
+bayketinymce-django
+django-simple-captcha
+djangorestframework
+Pillow
