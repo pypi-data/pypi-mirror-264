@@ -1,0 +1,14 @@
+ftea-0.1.7.dist-info/RECORD,,
+ftea-0.1.7.dist-info/METADATA,sha256=PbmXLZ5o8u2E1K0Kh4zECG6DykyHu0REiYS529GBQP0,2680
+ftea-0.1.7.dist-info/WHEEL,sha256=CBycxh3glnwfbPQMOedoey2NiqMJxkbyufq_hPo2rPs,150
+ftea-0.1.7.dist-info/top_level.txt,sha256=xkHrnwTvGio5Idj5czEfRq42b9XM5r6WaP5wxggeYhE,5
+ftea/_tea.pyi,sha256=q8rqr1CnMOH5QEaYjmzukaS5cF2c39SOWITA93xfG6M,1070
+ftea/_xtea.cpython-39-aarch64-linux-gnu.so,sha256=VNr0FUBTFIcFuB_lbsgoLb8OgYyWsxxpgWQpHRcibrk,234904
+ftea/_xtea.c,sha256=klRwTNnL_yRDUmrjuipKpqXgY0bi-2Lhys9TSg1WlDA,1057143
+ftea/__init__.py,sha256=oOgb4ee0butYnoyr7jfbtynneweQBQxneNAuKgEAxgE,138
+ftea/tea.pxd,sha256=EcV27ID1TtmaIBp96cshKi2NRvcf_aAjAI_8zrJDr78,1675
+ftea/_tea.pyx,sha256=hGO_4fld2HPw0fDmdryP6YwkPNEBol4mMq5Qf-AgN6s,12530
+ftea/_xtea.pyx,sha256=SLToFffUcdYcwx8vEd6aHxwcUhQ5ounIljD-B-ZpuQI,1272
+ftea/_tea.cpython-39-aarch64-linux-gnu.so,sha256=JlE_uW3053cWMQ3qC-kuZ9O8w4nYRsIVDuxr_3_skas,305368
+ftea/_tea.c,sha256=a_Gent6aifXnQ-BO1RNi2tRO04D8nykyg1t3u_ohtmw,1305307
+ftea/xtea.pxd,sha256=eiR3euJu6kms8eLLw6kjxFHifpVj-7dK62oqLeTDvEI,1092
