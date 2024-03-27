@@ -1,0 +1,13 @@
+mediqbox/md2pptx/__init__.py,sha256=CEG_DJdc8dER-G0-xiU7MgqAC4rolX_Jc7bt2VvTmhU,2364
+mediqbox/md2pptx/martin/card.py,sha256=jrDJ9RtL0crLGSbPTtINu7oxB9jVoEXBvGAn9inxQ7w,765
+mediqbox/md2pptx/martin/colour.py,sha256=9Q_libVnWzyhRhY0vGb3rz_c2q7xJmXLtZeFv36lo70,1962
+mediqbox/md2pptx/martin/funnel.py,sha256=KBRh2I-Eq42E1y7BlirOL664kBfHm5IM0wvf76sD9sI,14334
+mediqbox/md2pptx/martin/md2pptx.py,sha256=jJqfKYUO6admKoqafXvsuFsEu-zAir409cE2E6wByCg,243437
+mediqbox/md2pptx/martin/rectangle.py,sha256=liS8YZEfrF2jkvuudq3KrU6ml3zAlPwkHze0iqTPTAg,229
+mediqbox/md2pptx/martin/run_pyto.py,sha256=E43n8iMlpfdUaUQ8TKOKOxJysO1Z8HygRzYRnwAcMWc,242
+mediqbox/md2pptx/martin/symbols.py,sha256=z9OGMaIc20WkmKSFzC4r87bQfUkJBbKUfEnCFvA8VCM,2189
+mediqbox_md2pptx-0.0.7.dist-info/LICENSE,sha256=yTW7OzLGTYgl6GmSeLLjiFCne_JYKJ7iXP3vbO6Co28,1073
+mediqbox_md2pptx-0.0.7.dist-info/METADATA,sha256=esNoWXpJxNCdBsildTZTkMYjvbsURFpO5pxn-xUtd6s,368
+mediqbox_md2pptx-0.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mediqbox_md2pptx-0.0.7.dist-info/top_level.txt,sha256=uzOSvMjz-vWU0kxoEIB8uQwzq1VmZ5UU2CMQf6_797M,9
+mediqbox_md2pptx-0.0.7.dist-info/RECORD,,
