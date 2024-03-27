@@ -1,0 +1,9 @@
+README.md
+setup.py
+whatshow_phy_detect_bpic.egg-info/PKG-INFO
+whatshow_phy_detect_bpic.egg-info/SOURCES.txt
+whatshow_phy_detect_bpic.egg-info/dependency_links.txt
+whatshow_phy_detect_bpic.egg-info/requires.txt
+whatshow_phy_detect_bpic.egg-info/top_level.txt
+whatshow_phy_detect_ep/BPIC.py
+whatshow_phy_detect_ep/__init__.py
