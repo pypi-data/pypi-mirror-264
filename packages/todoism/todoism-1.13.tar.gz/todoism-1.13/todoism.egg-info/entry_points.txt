@@ -1,0 +1,4 @@
+[console_scripts]
+todo = todoism.main:main
+todoism = todoism.main:main
+
