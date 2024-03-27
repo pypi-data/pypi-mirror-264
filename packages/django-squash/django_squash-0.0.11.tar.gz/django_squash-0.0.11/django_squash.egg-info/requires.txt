@@ -1,0 +1,15 @@
+django>=3.2
+
+[test]
+black
+build
+flake8
+flake8-tidy-imports
+ipdb
+isort
+libcst
+psycopg2-binary
+pytest-cov
+pytest-django
+restructuredtext-lint
+setuptools
