@@ -1,0 +1,2 @@
+[console_scripts]
+pipremove = pipremove.pipremove:main_menu
