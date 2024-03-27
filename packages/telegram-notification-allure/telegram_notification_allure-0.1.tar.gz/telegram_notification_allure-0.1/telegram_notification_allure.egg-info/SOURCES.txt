@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+telegram_notification_allure/__init__.py
+telegram_notification_allure/notification.py
+telegram_notification_allure.egg-info/PKG-INFO
+telegram_notification_allure.egg-info/SOURCES.txt
+telegram_notification_allure.egg-info/dependency_links.txt
+telegram_notification_allure.egg-info/not-zip-safe
+telegram_notification_allure.egg-info/top_level.txt
