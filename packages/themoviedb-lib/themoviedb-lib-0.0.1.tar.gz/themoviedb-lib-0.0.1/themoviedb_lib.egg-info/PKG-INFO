@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: themoviedb-lib
+Version: 0.0.1
+Home-page: https://github.com/inwerk/themoviedb-lib
+Author: 
+Author-email: 
+Keywords: python,development,tmdb
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: fake-useragent
+
+# The Movie Database (TMDb) Python Library
