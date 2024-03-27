@@ -1,0 +1,10 @@
+rasterio
+shapely
+numpy
+pandas
+tqdm
+geopandas
+pyproj
+cdsapi
+xarray==2023.11.0
+rioxarray
