@@ -1,0 +1,3 @@
+PyE2
+opencv-python
+numpy
