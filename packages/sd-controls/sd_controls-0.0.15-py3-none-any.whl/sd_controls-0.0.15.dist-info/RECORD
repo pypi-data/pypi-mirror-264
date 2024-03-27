@@ -1,0 +1,16 @@
+sd_controls/__init__.py,sha256=go20U3RCVaJ2N55RnX4tO5rinfUCRV0puFyrHCto8yw,23
+sd_controls/sdsystem.py,sha256=PJhuNFU8OQUWi40oCvq6eS5LqAU6yXo6zrAfM1OxLBE,10432
+sd_controls/sprites.py,sha256=LSU6NJcbshLaeWmsI3WtCvQzSw74f53avI-Ces7_KPY,282
+sd_controls/streamdeck.py,sha256=K_bErtiGUrNZndUrlAg48gi8B8t5in4M2sRiq-Pe0m4,5828
+sd_controls/virtualdeck.py,sha256=1L2fnW15hohqmJHR6kJ_MxCG3TOcAlTya7LbDfxEdyU,2811
+sd_controls/fonts/Roboto/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+sd_controls/fonts/Roboto/LICENSE.txt,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+sd_controls/fonts/Roboto/Roboto-Regular.ttf,sha256=ThR6tkuf322J0B9rjDygs83cWdYIqOIhj5olBLXJjhQ,168260
+sd_controls/imgs/back_btn.jpeg,sha256=h9DNIbu-emb4EMLr4Z6jIU31HqmdM_hRMAaV049bqfo,1271
+sd_controls/imgs/clear.jpeg,sha256=AeiWXcoS0vJTpi8ExN4Ox2gXJMMGWLM0HvokXUm-IjA,579
+sd_controls/imgs/goat.jpeg,sha256=qolS9wAI335n65C45XdT_Fm562ZifciQwO4RXqpZcFk,15544
+sd_controls-0.0.15.dist-info/LICENSE,sha256=kMlYMMef4C4AwHlklFauO6qwytgRnaxYjZg43L3A35I,1071
+sd_controls-0.0.15.dist-info/METADATA,sha256=NgNOJxRkQ6DyGWykMx1d-uSsywWrqKe-UnmoD6R1IVY,2991
+sd_controls-0.0.15.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sd_controls-0.0.15.dist-info/top_level.txt,sha256=s41wdLHofpg-WtZX-RtBT6gh7uCSLNseECI73kisUaI,12
+sd_controls-0.0.15.dist-info/RECORD,,
