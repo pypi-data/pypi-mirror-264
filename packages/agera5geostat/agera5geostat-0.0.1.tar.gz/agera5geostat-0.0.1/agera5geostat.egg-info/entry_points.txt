@@ -1,0 +1,2 @@
+[console_scripts]
+agera5geostat = agera5geostat.cli:main

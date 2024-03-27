@@ -1,0 +1,7 @@
+numpy
+
+[all]
+agera5geostat[extra]
+
+[extra]
+pandas
