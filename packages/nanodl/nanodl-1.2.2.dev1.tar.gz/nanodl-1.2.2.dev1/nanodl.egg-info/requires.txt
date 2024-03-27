@@ -1,0 +1,6 @@
+flax
+jax
+jaxlib
+optax
+einops
+sentencepiece
