@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cit-pydata"
+version = "0.0.1.dev0"
+authors = [
+  { name="Dionis Wang", email="dwang@eab.com" },
+]
+description = "Python clients for commonly used api services including Salesforce, SQL, Marketo, Box, SFSync*, and JobLog*"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+[project.urls]
+Homepage = "https://github.com/EAB-IT-DEV/cit-pydata"
+Issues = "https://github.com/EAB-IT-DEV/cit-pydata/issues"
+
+[project.optional-dependencies]
+aws = ["aws-lambda-powertools"]
+box = ["boxsdk"]
+joblog = ["marketorestpython"]
+salesforce = ["simple_salesforce","pyforce"]
+sftp = ["paramiko"]
+sql = ["SQLAlchemy==1.4.25", "numpy", "pandas"]
+sql-pyodbc = ["SQLAlchemy==1.4.25", "pyodbc", "numpy", "pandas"]
+sql-pymssql = ["SQLAlchemy==1.4.25", "pymssql", "numpy", "pandas"]
+sql-psycopg2 = ["SQLAlchemy==1.4.25", "psycopg2-binary==2.9.6", "numpy", "pandas"]
+sql-mssql = ["SQLAlchemy==1.4.25", "pymssql", "numpy", "pandas"]
+sql-postgres = ["SQLAlchemy==1.4.25", "psycopg2-binary==2.9.6", "numpy", "pandas"]
+local = ["python-dotenv", "boto3"]
+all = ["aws-lambda-powertools","pandas","boxsdk","marketorestpython","simple_salesforce","pyforce","paramiko","SQLAlchemy==1.4.25", "pyodbc","pymssql", "numpy", "pandas","psycopg2-binary==2.9.6","python-dotenv", "boto3"]

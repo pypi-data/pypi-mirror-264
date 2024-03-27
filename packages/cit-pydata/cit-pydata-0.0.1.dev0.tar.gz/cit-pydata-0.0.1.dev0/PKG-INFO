@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cit-pydata
+Version: 0.0.1.dev0
+Summary: Python clients for commonly used api services including Salesforce, SQL, Marketo, Box, SFSync*, and JobLog*
+Author-email: Dionis Wang <dwang@eab.com>
+Project-URL: Homepage, https://github.com/EAB-IT-DEV/cit-pydata
+Project-URL: Issues, https://github.com/EAB-IT-DEV/cit-pydata/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: aws
+Provides-Extra: box
+Provides-Extra: joblog
+Provides-Extra: salesforce
+Provides-Extra: sftp
+Provides-Extra: sql
+Provides-Extra: sql-pyodbc
+Provides-Extra: sql-pymssql
+Provides-Extra: sql-psycopg2
+Provides-Extra: sql-mssql
+Provides-Extra: sql-postgres
+Provides-Extra: local
+Provides-Extra: all
+License-File: LICENSE
+
+# cit-pydata 
+
+This repo provides Python clients for commonly used api services including Salesforce, SQL, Marketo, Box, SFSync*, and JobLog*.  
+
+*SFSync = custom Salesforce <> MSQ SQL integration  
+*JobLog = custom centralized logging for data integration jobs  
