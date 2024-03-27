@@ -1,0 +1,7 @@
+setup.py
+sqtest-esw-platform/__init__.py
+sqtest-esw-platform/main.py
+sqtest_esw_platform.egg-info/PKG-INFO
+sqtest_esw_platform.egg-info/SOURCES.txt
+sqtest_esw_platform.egg-info/dependency_links.txt
+sqtest_esw_platform.egg-info/top_level.txt
