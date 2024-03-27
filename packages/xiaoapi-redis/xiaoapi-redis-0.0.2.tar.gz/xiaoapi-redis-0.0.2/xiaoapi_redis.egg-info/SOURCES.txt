@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+xiaoapi_redis/__init__.py
+xiaoapi_redis/redis.py
+xiaoapi_redis.egg-info/PKG-INFO
+xiaoapi_redis.egg-info/SOURCES.txt
+xiaoapi_redis.egg-info/dependency_links.txt
+xiaoapi_redis.egg-info/requires.txt
+xiaoapi_redis.egg-info/top_level.txt
