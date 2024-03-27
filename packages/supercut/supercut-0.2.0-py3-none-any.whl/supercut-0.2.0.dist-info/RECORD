@@ -1,0 +1,10 @@
+supercut/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supercut/ffmpeg.py,sha256=nTtSGSwIU8h0BXft2ETlHhgnL89v-GJnyDAJuWshF1E,5661
+supercut/subtitles.py,sha256=FLlFCPXN5ZmgF-KN1qJLVpXlXNi5aZMZgzD-vel0v6M,1204
+supercut/supercut.py,sha256=0NMYJ94otfRZ2kpQLrbYBz9OQys4pr5aI-pzYnQbrmE,14391
+supercut/vlc.py,sha256=s5D0dhoWgMop-I0eFQ2mXJjd7FXjJlkJqEnkbczVJXA,2447
+supercut-0.2.0.dist-info/LICENSE,sha256=zdwMZBlF4TFGEHmSw5gH-MJdCeVEq-exX6WmF7vtTdQ,1068
+supercut-0.2.0.dist-info/METADATA,sha256=a1Nonpz6k9IY6qFVLz8_2Wx8L4g-cc-Uc5wKHNHdMAI,5743
+supercut-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+supercut-0.2.0.dist-info/entry_points.txt,sha256=agi0eb9R79-fdfX2u4JNdbD7Y_R38fvnkdOZcb5JF5M,50
+supercut-0.2.0.dist-info/RECORD,,
