@@ -1,0 +1,11 @@
+include README.rst
+include CHANGELOG.rst
+
+recursive-include src/llspy *.py
+recursive-include src/llspy *.ui
+recursive-include src/llspy *.ini
+recursive-include src/llspy *.png
+recursive-include img *
+
+recursive-exclude tests *
+recursive-exclude docs *
