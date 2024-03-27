@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: agera5geostat
+Version: 0.0.1
+Summary: Create Statistical Information datasets For ROI by Download, Aggregate AgERA5
+Author-email: AbdelrahmanSaleh <abdulrahman.amr.ali@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/AbdelrahmanAmr3/agera5geostat
+Keywords: agera5geostat
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: agera5geostat[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# agera5geostat
+
+
+[![image](https://img.shields.io/pypi/v/agera5geostat.svg)](https://pypi.python.org/pypi/agera5geostat)
+[![image](https://img.shields.io/conda/vn/conda-forge/agera5geostat.svg)](https://anaconda.org/conda-forge/agera5geostat)
+
+
+**Create Statistical Information datasets For ROI by Download, Aggregate AgERA5**
+
+
+-   Free software: MIT License
+-   Documentation: https://AbdelrahmanAmr3.github.io/agera5geostat
+    
+
+## Features
+
+-   TODO
