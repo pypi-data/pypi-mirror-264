@@ -1,0 +1,10 @@
+piper_phonemize_cpp.cpython-310-x86_64-linux-gnu.so,sha256=wgYbvgKB_jgItjI4qI3Mm_AArgTkh9iW4e_O_Rze16U,726865
+piper_phonemize/__init__.py,sha256=Z_nOuXfTW_fvB9dp9IzXv-gWkkOZQ7e3ANe_xmqMnp4,1982
+piper_phonemize_cross-1.2.0.dist-info/RECORD,,
+piper_phonemize_cross-1.2.0.dist-info/METADATA,sha256=DkHa6B_X-cY0Urf_rv_MrJqGjoVLCzVdU1rTiMY-WYM,325
+piper_phonemize_cross-1.2.0.dist-info/WHEEL,sha256=DRFGfbmk00iwRfDF9fpLQAJbF-b4Wp23htOC54ltOsw,114
+piper_phonemize_cross-1.2.0.dist-info/top_level.txt,sha256=gud9i_MruIcrtk2zDtZWeJ6PKXXTn22IXQQERefApec,36
+piper_phonemize_cross-1.2.0.dist-info/LICENSE.md,sha256=E3RtUJ105V6iJl--8gS7fNv4SoMVsCB-mIMmy1Q4cCg,1071
+piper_phonemize_cross.libs/libespeak-ng-d6f8a752.so,sha256=birzGtV2mYBdxT_spwQfzUIGrNAhSDom_W1MtXC5siQ,453105
+piper_phonemize_cross.libs/libucd-fea77483.so,sha256=F373HkUj2fUHEfKJnshI4Z9wlZvt9PZ6W9oiBW2sgGw,250881
+piper_phonemize_cross.libs/libonnxruntime-9a682863.so.1.14.1,sha256=HvNFc0EYXUWmXZ9cTNnW5-gG7cR313pd3kAd5jFPlss,16350633
