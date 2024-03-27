@@ -1,0 +1,14 @@
+flask
+flask_restful
+flask_cors
+efficientnet-pytorch
+scikit-build
+opencv-python
+pandas
+requests
+pyyaml
+tqdm
+seaborn
+IutyLib
+tensorflow==2.0
+urllib3==1.26.7
