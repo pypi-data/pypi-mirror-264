@@ -1,0 +1,12 @@
+simplepokedex/generatePokemon.py,sha256=WcqiqMJWuprA38833W0kf2v1gXBcoT_6jxXtG_HyMBY,966
+simplepokedex/lookup.py,sha256=H0pcF5xbKkeVqHPA0PhRSPFwGKwo3HVlO82Z4MDkgms,1266
+simplepokedex/pokedex.py,sha256=tyFjeaT05yMyW54Rcqd7_bXrz4A4V-2HZCDy378YKTg,3520
+simplepokedex/poketypes.py,sha256=SE7x7RpSTGXVHCBgw2MEsBvxgMjKzE7n5bJXJ5UAkyY,1319
+simplepokedex/tests/abilityLookup_test.py,sha256=S5vGidMPsXBM3SX173EbwrceyevQpm401goT2EFeSbA,1701
+simplepokedex/tests/generatePokemon_test.py,sha256=9aA5GZZi3Fu-xVp4iS-b92PiVHq_zPJbcm_UPqM1RKE,7697
+simplepokedex/tests/pokemonLookup_test.py,sha256=Nmb5CX-pLm73q0-lMAkSQAS654qB6VrtBnikiPtaHrw,5274
+simplepokedex/tests/poketypes_test.py,sha256=UL5Qrn_xNEzuYhAcUNz2v-3tj6NpxHbG9u_ziegvsk4,3203
+simplepokedex-1.0.2.dist-info/METADATA,sha256=1CEGvi8oKVsqVaf_xfroEoCYPIm6m31CdVtpz2sfwv8,132
+simplepokedex-1.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+simplepokedex-1.0.2.dist-info/top_level.txt,sha256=jyxUkqipPzX3xxhFQmm431wK0RKl3Wwz4PmS5z4ADe0,14
+simplepokedex-1.0.2.dist-info/RECORD,,
