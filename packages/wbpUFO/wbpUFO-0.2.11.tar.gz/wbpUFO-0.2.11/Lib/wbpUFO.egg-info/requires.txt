@@ -1,0 +1,4 @@
+wbBase>=0.2.6
+wbDefcon>=0.2.4
+wbFontParts>=0.2.4
+ufo2ft>=3.1.0
