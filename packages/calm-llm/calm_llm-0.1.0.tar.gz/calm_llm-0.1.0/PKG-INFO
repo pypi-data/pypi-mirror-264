@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: calm-llm
+Version: 0.1.0
+Summary: Use large language model to analyze staged Python files and insert comments where needed.
+Author: PLM
+Author-email: plm@hardcoretech.co
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain
+Requires-Dist: pre-commit
