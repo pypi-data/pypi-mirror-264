@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: cufjc
+Version: 1.6.0
+Summary: The Python package for the composite uFJC (cuFJC) model.
+Home-page: https://github.com/jasonmulderrig/cuFJC
+Author: Jason Mulderrig, Brandon Talamini, Nikolaos Bouklas
+Author-email: jpm445@cornell.edu, talamini1@llnl.gov, nb589@cornell.edu
+Maintainer: Jason Mulderrig
+Maintainer-email: jpm445@cornell.edu, mulderrig.jason@gmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Keywords: ufjc,cufjc,asymptotic matching,thermodynamics,statistical mechanics,chain extensibility
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: <4,>=3.5
+License-File: LICENSE
+Requires-Dist: numpy
+
+#####
+cuFJC
+#####
+
+|build| |pyversions| |pypi| |license| |zenodo|
+
+The Python package for the composite uFJC (cuFJC) model.
+
+************
+Installation
+************
+
+This package can be installed using ``pip`` via the `Python Package Index <https://pypi.org/project/cufjc/>`_ (PyPI),
+
+::
+
+    pip install cufjc
+
+Alternatively, a branch can be directly installed using
+
+::
+
+    pip install git+https://github.com/jasonmulderrig/cuFJC.git@<branch-name>
+
+or after cloning a branch, moving to the main project directory (where the setup and configuration files are located), and executing ``pip install -e .`` for an editable installation or ``pip install .`` for a standard installation.
+
+***********
+Information
+***********
+
+- `License <https://github.com/jasonmulderrig/cuFJC/LICENSE>`__
+- `Releases <https://github.com/jasonmulderrig/cuFJC/releases>`__
+- `Repository <https://github.com/jasonmulderrig/cuFJC>`__
+
+********
+Citation
+********
+
+\Jason Mulderrig, Brandon Talamini, and Nikolaos Bouklas, ``cufjc``: the Python package for the composite uFJC (cuFJC) model, `Zenodo (2024) <https://doi.org/10.5281/zenodo.10871017>`_.
+
+\Jason Mulderrig, Brandon Talamini, and Nikolaos Bouklas, A statistical mechanics framework for polymer chain scission, based on the concepts of distorted bond potential and asymptotic matching, `Journal of the Mechanics and Physics of Solids 174, 105244 (2023) <https://www.sciencedirect.com/science/article/pii/S0022509623000480>`_.
+
+..
+    Badges ========================================================================
+
+.. |build| image:: https://img.shields.io/github/checks-status/jasonmulderrig/cuFJC/main?label=GitHub&logo=github
+    :target: https://github.com/jasonmulderrig/cuFJC
+
+.. |pyversions| image:: https://img.shields.io/pypi/pyversions/cufjc.svg?logo=python&logoColor=FBE072&color=4B8BBE&label=Python
+    :target: https://pypi.org/project/cufjc/
+
+.. |pypi| image:: https://img.shields.io/pypi/v/cufjc?logo=pypi&logoColor=FBE072&label=PyPI&color=4B8BBE
+    :target: https://pypi.org/project/cufjc/
+
+.. |license| image:: https://img.shields.io/github/license/jasonmulderrig/cuFJC?label=License
+    :target: https://github.com/jasonmulderrig/cuFJC/LICENSE
+
+.. |zenodo| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.10871017.svg
+   :target: https://doi.org/10.5281/zenodo.10871017
