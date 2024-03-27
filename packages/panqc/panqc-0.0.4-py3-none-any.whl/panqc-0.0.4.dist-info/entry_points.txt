@@ -1,0 +1,2 @@
+[console_scripts]
+panqc = panqc.__init__:main
