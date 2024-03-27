@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: xiaoapi-elasticsearch
+Version: 0.0.2
+Summary: xiaoapi elasticsearch
+Author-email: xiaojinli <553555614@qq.com>
+License: MIT
+Project-URL: Documentation, https://github.com/xiaojinlii/xiaoapi/blob/main/libs/elasticsearch/README.md
+Project-URL: Repository, https://github.com/xiaojinlii/xiaoapi
+Project-URL: Source Code, https://github.com/xiaojinlii/xiaoapi/tree/main/libs/elasticsearch
+Keywords: xiaoapi,fastapi,web-framework,elasticsearch
+Classifier: Framework :: FastAPI
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xiaoapi
+Requires-Dist: elasticsearch[async] ==8.11.0
+
+# xiaoapi-elasticsearch
+[xiaoapi](https://github.com/xiaojinlii/xiaoapi)的elasticsearch扩展包
+
+
+## 安装
+```
+pip install xiaoapi-elasticsearch
+```
+
+
+## 配置
+需要在 application/settings 中 添加以下配置：
+```python
+# Elasticsearch 配置
+ELASTICSEARCH_ENABLE = False
+ELASTICSEARCH_USER = "elastic"
+ELASTICSEARCH_PASSWORD = "gv3Z0Nnti2gdApgzLmUN"
+ELASTICSEARCH_URL = "http://127.0.0.1:9200"
+```
+
+然后在 application/settings 中的 EVENTS 里引入 xiaoapi_elasticsearch
+```python
+EVENTS = [
+    "xiaoapi_elasticsearch.connect_elasticsearch",
+]
+```
