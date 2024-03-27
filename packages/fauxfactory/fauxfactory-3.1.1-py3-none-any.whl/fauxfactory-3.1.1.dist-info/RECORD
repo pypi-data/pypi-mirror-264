@@ -1,0 +1,17 @@
+fauxfactory/__init__.py,sha256=BIvyfmiUSfyuMrI2LfrVZ4BkxsRtjIE0fjLZCXhiLF8,1328
+fauxfactory/constants.py,sha256=9nNg560XrYyohAkEF_83o-TV8OLH5lrDve1KVTWMGsQ,3130
+fauxfactory/facts.json,sha256=zINMiGbhSVT9tksmtGP2VYdnsaAaKwMatjds6roNvS0,4214
+fauxfactory/helpers.py,sha256=P3QNgqA8i5e22MIAtm8CDeNgTKJ5NFd331Yo_5UYoAc,4132
+fauxfactory/factories/__init__.py,sha256=5bhKC3Tn5-u4sKQGu06PmjUUJLob0Hp6XRFWqfUBA20,49
+fauxfactory/factories/booleans.py,sha256=ti0twM-TIcoU5fItj5v-Wnu5DZOUui8RGhlgNm67lgY,340
+fauxfactory/factories/choices.py,sha256=y8T6kydDiQzbzKOvcsKe1CyEVzw0Mn0TZK_EDOm7wz8,1346
+fauxfactory/factories/dates.py,sha256=8wRd5d3noAU9lbh-ti-Im-NvvqZAT0DngayaHpXAbuw,2838
+fauxfactory/factories/internet.py,sha256=_c84RCd3zldabxmu2uBCPhWIxnMjfqtmBMFAQuBfXcM,7250
+fauxfactory/factories/numbers.py,sha256=8bWNG2a-mULB4W-lsstPbnX5AxM88LsTuYzt2KqKA7c,2367
+fauxfactory/factories/strings.py,sha256=csGhTVc2oDIFafWxKvUXR58SeEUH3cJrf8bD6FN2gL0,11439
+fauxfactory/factories/systems.py,sha256=q6bB4VuEaC1ppioFl4Eb_wLxhtT83rBijv4ismmiAX8,6930
+fauxfactory-3.1.1.dist-info/METADATA,sha256=8CzuUbzFslKQ_iElCjD8oWte9el6d9ZuiodCHRsO0aQ,1985
+fauxfactory-3.1.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+fauxfactory-3.1.1.dist-info/licenses/AUTHORS.rst,sha256=C0a2DhMnNCDGNG7aiHbGL0LBfnR9hCaXYegBhmlxSTY,1123
+fauxfactory-3.1.1.dist-info/licenses/LICENSE,sha256=g1YJLMppCEiydna24smp2jOHQURRtK5qMLSsdlAXORI,550
+fauxfactory-3.1.1.dist-info/RECORD,,
