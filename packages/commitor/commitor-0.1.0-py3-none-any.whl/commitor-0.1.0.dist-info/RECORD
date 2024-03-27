@@ -1,0 +1,8 @@
+commitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commitor/cli.py,sha256=iZtI_8KWcqvjq-flSTDFdsGuhQvWvA9QSJIW5kMCgWM,2917
+commitor/prompt.py,sha256=y2vKAh32_WnJehCgT7E0NpwvQ3ibvcU-PhiJZIPyHXc,6063
+commitor-0.1.0.dist-info/LICENSE,sha256=Yjz3dgqUshOsbcWoOVPd2Xz3lTonsVIX2cCL3uadphc,1068
+commitor-0.1.0.dist-info/METADATA,sha256=vMqGNImQ6ycvq9DEY1kwertWZJo9AEVBaK90lSk8fMs,1193
+commitor-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+commitor-0.1.0.dist-info/entry_points.txt,sha256=nYQnMteRy3N8twNjBE1cGb3xs0SzGETuXQMAJpok8g8,45
+commitor-0.1.0.dist-info/RECORD,,
