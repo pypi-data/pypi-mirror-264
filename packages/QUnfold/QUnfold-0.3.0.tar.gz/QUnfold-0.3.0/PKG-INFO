@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: QUnfold
+Version: 0.3.0
+Home-page: https://github.com/JustWhit3/QUnfold/tree/main/src/QUnfold
+Author: Gianluca Bianco, Simone Gasperini
+Author-email: biancogianluca9@gmail.com, simone.gasperini4@unibo.it
+Requires-Python: >=3.8
+Requires-Dist: dwave-ocean-sdk
+Requires-Dist: pyqubo
+Requires-Dist: matplotlib
+Requires-Dist: scipy
