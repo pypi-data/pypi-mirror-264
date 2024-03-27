@@ -1,0 +1,9 @@
+pytest_timestamper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_timestamper/_version.py,sha256=IBUgg21Ew0JtWj9Z6eN1r4zXlrNseQQNV4zo-nYzlEY,413
+pytest_timestamper/plugin.py,sha256=xvaJetCunQ9NhKo6YyK7azxdl-v5T1kXs8p_mmAhOCA,1843
+pytest_timestamper-0.0.10.dist-info/LICENSE,sha256=3L11QagQFn8C5Oj4X-4RsWT25JtRkERPlUTqgYCAPWQ,1065
+pytest_timestamper-0.0.10.dist-info/METADATA,sha256=K3JzJBxDWLtQ1Vco2p-MMqc7SyI9RhrRyQepiWKWC_4,2440
+pytest_timestamper-0.0.10.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytest_timestamper-0.0.10.dist-info/entry_points.txt,sha256=EN-Pjc2IW9dudlmfQhkgJRLHT7UbyJ3ourSgQqUr9U0,54
+pytest_timestamper-0.0.10.dist-info/top_level.txt,sha256=timKpEf2uDTPjGXEmTSctflfN-NckbYjrPVVQqXIHl0,19
+pytest_timestamper-0.0.10.dist-info/RECORD,,
