@@ -1,0 +1,8 @@
+litepipe/__init__.py,sha256=8mIOW5rV6MjVp42zTB1h_4UDKbSdxVBwFjOJKROOcp0,64
+litepipe/pipeline.py,sha256=04Zjs2NtWP3vdpwnEAjVNZyXUl5j1M19eXR7PJE6XjU,802
+litepipe/transform.py,sha256=NoCmqAtFASrIC8o-UncwxB5_glGhtYi3yotox9-kHhA,513
+litepipe-1.0.0a4.dist-info/LICENSE,sha256=TFag8ldE1Lx3ZYt8pa4yJsCbmWH3YQ8c3uVlQ_nAQak,1068
+litepipe-1.0.0a4.dist-info/METADATA,sha256=N7ETcC9Z75ymSsNsr3Bef4gmT_IIqlOoNHStAoxY1JU,451
+litepipe-1.0.0a4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+litepipe-1.0.0a4.dist-info/top_level.txt,sha256=5kkt9C3TUSEe6JK6M4SCT6ONCrHujQabhAxcoaqmZ6o,9
+litepipe-1.0.0a4.dist-info/RECORD,,
