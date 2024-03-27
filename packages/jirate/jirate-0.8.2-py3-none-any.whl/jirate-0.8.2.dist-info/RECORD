@@ -1,0 +1,17 @@
+jirate/__init__.py,sha256=hAK9ZguLcwlhD0GS1FLx6aNhYahnauc47pRKkNx_q18,42
+jirate/args.py,sha256=pC3opkH1-W-B60ZxFQRs1v5AdIIwzgx8SEzEnSfU75I,2493
+jirate/board.py,sha256=tezdW58RNZ7NjdHphEMt7eqGyvkCZPABPVv_ipuWFMk,22297
+jirate/cli.py,sha256=Onow7XEKseYD2xgGDkI6QKjTcQtKB-VRJ_TRi1ocNVE,21651
+jirate/config.py,sha256=eOAaHdvhpMKFLPjhCzQM7MmJHykdPk93KBMYaQQX_dM,465
+jirate/decor.py,sha256=84bsb5d3Il8xPmvhCAbPglqQEESWETTKTk6zX6RvBd4,9390
+jirate/jboard.py,sha256=BaoB-q6xPXkngH2TMAf8cXSzSmYH1Gp7Uz90H_XaHYQ,32183
+jirate/jira_cli.py,sha256=jlsfJzUJKZvgBgaBRaPbzO7x9VL0MinpV9k75vdda3E,44434
+jirate/jira_fields.py,sha256=gvFYSUazd4RFkpCx1SlAwJMAurmRpmSJYIM91j-PuOE,14909
+jirate/jira_input.py,sha256=2e1I5HwPoeMEYQxft8vn6Ug5zR0sgOfp4N7K98Q5SzI,4599
+jirate-0.8.2.data/data/LICENSE.txt,sha256=RAJDRljGRoQ_YkNjeCkBZ8tkej_MGX8ysLoF6FwOMpw,1352
+jirate-0.8.2.dist-info/LICENSE.txt,sha256=RAJDRljGRoQ_YkNjeCkBZ8tkej_MGX8ysLoF6FwOMpw,1352
+jirate-0.8.2.dist-info/METADATA,sha256=Gh8O4jpPYz1piz_teS6qY-x8GOAnCiSSoKoIdMnhrpY,1925
+jirate-0.8.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+jirate-0.8.2.dist-info/entry_points.txt,sha256=JNdQvUJk18aiGGmkr929ijKvznzupVsryS2k97nzc58,74
+jirate-0.8.2.dist-info/top_level.txt,sha256=MhUOLUERyHmldil3EnMDp4A8-MK8rDo3hW2VBAVJxsI,7
+jirate-0.8.2.dist-info/RECORD,,
