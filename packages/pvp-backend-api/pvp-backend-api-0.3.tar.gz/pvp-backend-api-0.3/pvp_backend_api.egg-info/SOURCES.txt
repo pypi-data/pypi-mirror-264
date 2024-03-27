@@ -1,0 +1,10 @@
+README.md
+setup.py
+pvp_api/__init__.py
+pvp_api/generator.py
+pvp_backend_api.egg-info/PKG-INFO
+pvp_backend_api.egg-info/SOURCES.txt
+pvp_backend_api.egg-info/dependency_links.txt
+pvp_backend_api.egg-info/entry_points.txt
+pvp_backend_api.egg-info/requires.txt
+pvp_backend_api.egg-info/top_level.txt
