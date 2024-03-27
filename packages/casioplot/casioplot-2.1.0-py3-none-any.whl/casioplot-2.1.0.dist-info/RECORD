@@ -1,0 +1,10 @@
+casioplot/__init__.py,sha256=WTg_1bcYfmLaEk8lBnWvXo-VNsjstLONLpk6bV8fGy0,259
+casioplot/casioplot.py,sha256=jIYPLBU1rzzpi1W2IZ_zm47w2lKBLT7YR-2RWtiWWWY,8890
+casioplot/characters.py,sha256=VEmxnlnNCcnRnT6lc_iTSYB5nOTADWGyvJM2VEQqdUU,126571
+casioplot/configs.py,sha256=7duquUvdxNXcAm25vx91Ql0L-zrbfZcJZwmBpqbXXhc,1712
+casioplot/images/CASIO_Graph_90+e_empty.png,sha256=VU0xDg1IyJlTqJZTDw-ioIr5MqVsRNx-OAVpY6FaYN0,1357
+casioplot-2.1.0.dist-info/LICENSE,sha256=mJQCDfROKETGlz2lbBn9DJ26r-ifzdV4Xk0eBGrYCxA,1063
+casioplot-2.1.0.dist-info/METADATA,sha256=FPGdaFcmAa55sDU4nGAnQ-owjEZQ-7OaBIu0DTziV0E,3075
+casioplot-2.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+casioplot-2.1.0.dist-info/top_level.txt,sha256=57gcHHFNJkdip1DY8b19zIACIZC4KrDxkctptDzx3wc,10
+casioplot-2.1.0.dist-info/RECORD,,
