@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: teslagenerator_ok
+Version: 0.0.4
+Summary: Generator infomation package. Faker infomation
+Home-page: https://github.com/LinhPhuongTesla/generator
+Author: Nikola Tesla
+Author-email: linhphuong2k5y@gmail.com
+Keywords: Generator,Tesla,TeslaGenerator,Infomation,Tesla Information,Faker
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: unidecode
+
+# HOW TO USE
+
+## Step 1: Install Required Libraries
+Firstly, you need to install the unidecode library. You can do this by running the following command:
+
+Copy code
+```python
+pip install teslagenerator-ok
+```
+## Step 2: Import the Code into Your Project
+Add the code to your project by copying it and saving it to a Python file in your project directory.
+
+## Step 3: Use the Code
+Once you have imported the code into your project, you can use the functions and classes defined in the provided code. Below is an example of how to use some of the functions:
+
+```python
+Copy code
+from faker import Faker
+
+# Create a Faker object
+faker = Faker()
+
+# Generate a username
+username = faker.username()
+print("Username:", username)
+
+# Generate an email
+email = faker.email()
+print("Email:", email)
+
+# Generate user information
+information = faker.generateInformation()
+print("User information:", information)
+```
+## Step 4: Test and Adjust
+Run your code and check if it works as expected. You can also adjust the functions and classes in the code according to your needs.
+
+### Note:
+**Make sure you have installed unidecode before using the code.**
+**Check and ensure that you understand how the functions and classes in the code work before integrating them into your project.**
+**Customize the code to fit your project requirements and make sure it meets the needs of your project.**
