@@ -1,0 +1,9 @@
+README.md
+setup.py
+wm_topic/__init__.py
+wm_topic/main.py
+wm_topic.egg-info/PKG-INFO
+wm_topic.egg-info/SOURCES.txt
+wm_topic.egg-info/dependency_links.txt
+wm_topic.egg-info/not-zip-safe
+wm_topic.egg-info/top_level.txt
