@@ -1,0 +1,65 @@
+Metadata-Version: 2.3
+Name: python-rust-torch-playground
+Version: 0.0.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: numpy >=1.26.4
+Requires-Dist: torch ==2.2.0
+License-File: LICENSE
+Summary: A playground for Python, Rust, and PyTorch
+Keywords: python,rust,torch,demo
+Author: Asher Jingkong Chen
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/AsherJingkongChen/python-rust-torch-playground/blob/main/README.md
+Project-URL: Repository, https://github.com/AsherJingkongChen/python-rust-torch-playground.git
+
+# python-rust-torch-playground
+
+> A playground for Python, Rust, and PyTorch
+
+[![PyPI](https://img.shields.io/pypi/pyversions/python-rust-torch-playground?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/python-rust-torch-playground)
+
+## Installation
+
+Choose the one that suits you:
+
+1. From GitHub releases ([link](https://github.com/AsherJingkongChen/python-rust-torch-playground/releases/))
+2. From PyPI ([link](https://pypi.org/project/python-rust-torch-playground))
+3. From source code ([link](https://github.com/AsherJingkongChen/python-rust-torch-playground))
+
+## Development
+
+Assume that you are a contributor, developer, or anyone who wants to build this project from source code.
+
+Change your working directory to the root of this project and execute:
+
+```shell
+python3 ./scripts/x_ci.py
+```
+
+The built artifacts will be placed in the `./dist` directory.
+
+## Statuses
+
+### Status of platform supports
+
+| Operating System | Architecture | Is supported |
+| ---------------- | ------------ | ------------ |
+| Windows          | ARM          | 🚫           |
+| Linux            | ARM          | 🚫           |
+| macOS            | ARM          | ✅           |
+| Linux            | X64          | ✅           |
+| macOS            | X64          | 🚫           |
+| Windows          | X64          | 🚫           |
+| Windows          | X86          | 🚫           |
+
+## License
+
+MIT License ([link](https://github.com/AsherJingkongChen/python-rust-torch-playground/blob/main/LICENSE)). It's open source.
+
