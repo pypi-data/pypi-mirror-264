@@ -1,0 +1,4 @@
+#history {
+    width: 25%;
+    border: solid red;
+}
