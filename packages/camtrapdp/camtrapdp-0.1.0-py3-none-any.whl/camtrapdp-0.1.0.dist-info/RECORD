@@ -1,0 +1,11 @@
+camtrapdp/__init__.py,sha256=dSAAw8rdZLYYM__GVdX8ktfCYNYFci6S4gKUoRD097g,149
+camtrapdp/deployments.py,sha256=wC6IzlNfYZl8bQPAMDsG6ikbGoSIy0hp9HuaXZIzpGg,6671
+camtrapdp/media.py,sha256=rEzJTswTVTki-DJ_v1wrzOTe1WwtVJbLfqmBVYcIf6M,3488
+camtrapdp/observations.py,sha256=GbdgdXmL53G1ViT7ziPe-jHwrjtnh5J3HYWeuuH1th0,9224
+camtrapdp/test_deployment.py,sha256=4_CCFb4cUeZzd-bKoJMSP4IuI1v1jtiNkd2SLeD3mhA,936
+camtrapdp/test_media.py,sha256=BtQU_G_zc4SU-0SY57EPE9LczVnjEOx7J8Hdl8ZGOAA,830
+camtrapdp/test_observation.py,sha256=bgwWU1XI-HR68cM7GHnuPEzKGfT-cfvatRyq1TIMfmk,1023
+camtrapdp-0.1.0.dist-info/METADATA,sha256=DM8-6pt76d7AGN1KfhU658AgbR9XF16NS_7K1Fsntc8,1646
+camtrapdp-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+camtrapdp-0.1.0.dist-info/top_level.txt,sha256=28SFjmmlgFB3pTH5dwMqxCk1L5n-_rPC99eoQ28ODbo,10
+camtrapdp-0.1.0.dist-info/RECORD,,
