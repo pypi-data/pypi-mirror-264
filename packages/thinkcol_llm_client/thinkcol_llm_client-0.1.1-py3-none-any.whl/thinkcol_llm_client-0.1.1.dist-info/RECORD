@@ -1,0 +1,8 @@
+thinkcol_llm_client/__init__.py,sha256=2Qare26Yb6SoGsU9SxgEyDuRqDBs99j2RheZIaq1vAM,134
+thinkcol_llm_client/chat_client.py,sha256=_3JsJoJH1PBmn3YKg-NVRajPsmvL-LoS7MlwzSWvY8U,891
+thinkcol_llm_client/clients/bedrock_client.py,sha256=mS1MFUPIMeTYGUYUzcRoivSbeWWWs0VXYph_Il_C-m8,4348
+thinkcol_llm_client/clients/openai_client.py,sha256=qUfyJR0Bf_CzWg33rU5rE9igRWtZ4XaAt0kUnP9QA2w,2991
+thinkcol_llm_client/constants.py,sha256=esNjPOXbUepzAVmyuAXiAIgH-apInKJ8r8gPuVUP0ss,420
+thinkcol_llm_client-0.1.1.dist-info/METADATA,sha256=uhUJrnmrlHjOTozRUNnBT3WJS-PPd-wBXFq2HsnDMho,1107
+thinkcol_llm_client-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+thinkcol_llm_client-0.1.1.dist-info/RECORD,,
