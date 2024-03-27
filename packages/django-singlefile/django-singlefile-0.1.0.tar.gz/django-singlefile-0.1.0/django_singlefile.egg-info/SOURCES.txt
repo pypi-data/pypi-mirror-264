@@ -1,0 +1,10 @@
+.gitignore
+README.rst
+pyproject.toml
+django/singlefile/__init__.py
+django/singlefile/environment.py
+django_singlefile.egg-info/PKG-INFO
+django_singlefile.egg-info/SOURCES.txt
+django_singlefile.egg-info/dependency_links.txt
+django_singlefile.egg-info/requires.txt
+django_singlefile.egg-info/top_level.txt
