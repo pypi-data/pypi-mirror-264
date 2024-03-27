@@ -1,0 +1,15 @@
+digraph {
+	graph [compound=false concentrate=false rankdir=TB ranksep=0.4]
+	researcher [label=researcher shape=box style=rounded]
+	chart_generator [label=chart_generator shape=box style=rounded]
+	tool_node [label=tool_node shape=box style=rounded]
+	terminal [label=terminal shape=box style=rounded]
+	researcher -> tool_node [label="len(parsed_tool_calls) > 0" style=dashed]
+	researcher -> terminal [label="'FINAL ANSWER' in messages[-1]['content']" style=dashed]
+	researcher -> chart_generator [style=solid]
+	chart_generator -> tool_node [label="len(parsed_tool_calls) > 0" style=dashed]
+	chart_generator -> terminal [label="'FINAL ANSWER' in messages[-1]['content']" style=dashed]
+	chart_generator -> researcher [style=solid]
+	tool_node -> researcher [label="sender == 'researcher'" style=dashed]
+	tool_node -> chart_generator [label="sender == 'chart_generator'" style=dashed]
+}

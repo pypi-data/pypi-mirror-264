@@ -1,0 +1,12 @@
+digraph {
+	graph [compound=false concentrate=false rankdir=TB ranksep=0.4]
+	researcher [label=researcher shape=box style=rounded]
+	chart_generator [label=chart_generator shape=box style=rounded]
+	terminal [label=terminal shape=box style=rounded]
+	researcher -> researcher [label="next_hop == 'self'" style=dashed]
+	researcher -> chart_generator [label="next_hop == 'continue'" style=dashed]
+	chart_generator -> chart_generator [label="next_hop == 'self'" style=dashed]
+	chart_generator -> researcher [label="next_hop == 'continue'" style=dashed]
+	researcher -> terminal [label="next_hop == 'complete'" style=dashed]
+	chart_generator -> terminal [label="next_hop == 'complete'" style=dashed]
+}
