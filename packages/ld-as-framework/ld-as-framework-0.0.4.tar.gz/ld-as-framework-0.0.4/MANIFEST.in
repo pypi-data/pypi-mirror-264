@@ -1,0 +1,4 @@
+exclude .idea/
+exclude test/
+exclude ld-as-framework/.idea/
+exclude ld-as-framework/test/
