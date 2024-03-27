@@ -1,0 +1,11 @@
+libjpathgen.libs/libcubpackpp-0e9f8238.so.0.1.0,sha256=5fZqIaNptENKFNdUPN1xef_JXBzon077fHWUMdCSM7c,516057
+libjpathgen.libs/libjpathgen-ff733647.so,sha256=VrCotM3_5-OUYrmOiGslvakT0V-Qg0X7bxv_mBUYbhU,229033
+libjpathgen.libs/libgeos-e89c9c5c.so.3.12.1,sha256=RwbywQgsDjNuyPbbDhCYr9An-OJp1UBArCGNYzkG_cM,4590801
+libjpathgen-0.3.3.dist-info/RECORD,,
+libjpathgen-0.3.3.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libjpathgen-0.3.3.dist-info/METADATA,sha256=algDZE_wkpPSlUy80mnNW8SrFkELyBpkTMYRKIPjM5Y,3469
+libjpathgen-0.3.3.dist-info/WHEEL,sha256=mGjJ3HXuMGEakx3TDCYWf1IrB3N8mUxrhzE72iNVBck,117
+libjpathgen-0.3.3.dist-info/licenses/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libjpathgen/_version.py,sha256=nlGXcobmeAmNzRkhqDLZxGFLcidRwZSZPlWcdlVyxvw,18
+libjpathgen/__init__.py,sha256=X7Ol7SDc0hkmbJAjwF2uNxgir9XzojVB_ocw-8rLRGw,1047
+libjpathgen/_core.cpython-311-x86_64-linux-gnu.so,sha256=gwCaHTV8TExlgMqhT_8uKKGu2D46wUPAqMkIzWD0Qxk,344969
