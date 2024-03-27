@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: twenty48tools
+Version: 0.0.5
+Summary: Tools for https://github.com/KyleJMcMaster/twenty48game. Made to simplify analysis of bots
+Project-URL: Homepage, https://github.com/KyleJMcMaster/twenty48tools
+Project-URL: Bug Tracker, https://github.com/KyleJMcMaster/twenty48tools/issues
+Author-email: Kyle McMaster <kyle.mcmaster02@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
