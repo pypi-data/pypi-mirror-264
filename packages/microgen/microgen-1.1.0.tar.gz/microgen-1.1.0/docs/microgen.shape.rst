@@ -1,0 +1,57 @@
+microgen.shape package
+======================
+
+.. automodule:: microgen.shape
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.basicGeometry
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.box
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.capsule
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.cylinder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.ellipsoid
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.extrudedPolygon
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.polyhedron
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.sphere
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.tpms
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+.. automodule:: microgen.shape.surface_functions
+   :members:
+   :undoc-members:
+   :show-inheritance:

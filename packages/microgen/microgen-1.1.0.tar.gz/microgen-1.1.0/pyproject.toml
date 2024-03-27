@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microgen"
+version = "1.1.0"
+authors = [{ name = "3MAH", email = 'set3mah@gmail.com' }]
+description = "Microstructure generation and meshing"
+readme = "README.md"
+requires-python = ">=3.8, <3.12"
+keywords = ["microstructure", "lattice", "periodic", "TPMS", "mesh"]
+license = { text = "GPLv3" }
+classifiers = [
+    'Intended Audience :: Science/Research',
+    'Topic :: Scientific/Engineering :: Information Analysis',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Operating System :: MacOS',
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = ["numpy", "pyvista", "gmsh", "meshio", "cadquery", "scipy"]
+
+[project.optional-dependencies]
+dev = [
+    'pre-commit',
+    'ruff',
+    'black',
+    'isort',
+    # "OCP-stubs@git+https://github.com/CadQuery/OCP-stubs.git",
+    'pytest',
+    'pytest-cov',
+    'pytest-xdist',
+]
+docs = [
+    'ipykernel',
+    'sphinx',
+    'sphinx-rtd-theme',
+    'sphinxcontrib-napoleon',
+    'jupyter-sphinx',
+    'pythreejs',
+    'mock',
+    'myst-parser',
+]
+jupyter = [
+    "jupyterlab<4.2",
+    "jupyter-cadquery",
+    "ipyvtklink",
+    "ipygany",
+    "sidecar",
+    "jupyterview",
+]
+all = ["microgen[dev, docs, jupyter]"]
+
+[project.urls]
+Documentation = 'https://microgen.readthedocs.io/en/latest'
+"Bug Tracker" = 'https://github.com/3MAH/microgen/issues'
+"Source Code" = 'https://github.com/3MAH/microgen'
+
+[tool.setuptools.packages.find]
+include = ['microgen', 'microgen.*']
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    # Ignore deprecation warnings from numpy
+    "ignore:.* is a deprecated alias for .*:DeprecationWarning",
+]
+
+[[tool.mypy.overrides]]
+module = ["gmsh", "scipy.spatial"]
+ignore_missing_imports = true

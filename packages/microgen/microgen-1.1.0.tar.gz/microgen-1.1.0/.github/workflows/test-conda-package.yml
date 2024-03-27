@@ -1,0 +1,32 @@
+name: Test conda package
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-linux:
+    name: Linux
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: ["ubuntu-latest", "macos-latest"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+            miniforge-variant: Mambaforge
+            miniforge-version: latest
+            activate-environment: microgen
+            use-mamba: true
+
+      - name: Install
+        shell: bash -l {0}
+        run: mamba install -c conda-forge -c cadquery -c set3mah microgen
+
+      - name: Test
+        shell: bash -l {0}
+        run: |
+          SRC_DIR=$(pwd)
+
+          cd $SRC_DIR/examples
+          sh run_examples.sh
