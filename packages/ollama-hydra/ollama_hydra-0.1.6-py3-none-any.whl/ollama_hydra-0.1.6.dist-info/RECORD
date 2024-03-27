@@ -1,0 +1,10 @@
+ollama_hydra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ollama_hydra/client.py,sha256=_m2Cdd3XNB4neWJJMgp4FZ9BfjslKi53BHx9dOb39tk,3815
+ollama_hydra/modelfile.py,sha256=wqqEty6SF_UI9cU5GlBj-h4SiFNjQCVLYAElGrkFfo0,5961
+ollama_hydra/proxy.py,sha256=iNsxK-QX6125KVYUUbsgHljqkxog-pSzJHXfiWlfiEg,7094
+ollama_hydra-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ollama_hydra-0.1.6.dist-info/METADATA,sha256=RmYl9xQDrxMImwHszsp2Bd03f7xZeEAKXnQDTZQWxak,521
+ollama_hydra-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ollama_hydra-0.1.6.dist-info/entry_points.txt,sha256=_KxBD4YYj2ts6q_SwRPX6REOLgt2cGiVsgqdrUy-cKY,90
+ollama_hydra-0.1.6.dist-info/top_level.txt,sha256=_NCN44fK4jPpYntR1voJvo3eVV64Jfy--5Jfzs_HUI8,13
+ollama_hydra-0.1.6.dist-info/RECORD,,
