@@ -1,0 +1,7 @@
+setup.py
+sqprefect-tasks-snowflake/__init__.py
+sqprefect-tasks-snowflake/main.py
+sqprefect_tasks_snowflake.egg-info/PKG-INFO
+sqprefect_tasks_snowflake.egg-info/SOURCES.txt
+sqprefect_tasks_snowflake.egg-info/dependency_links.txt
+sqprefect_tasks_snowflake.egg-info/top_level.txt
