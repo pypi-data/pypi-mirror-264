@@ -1,0 +1,14 @@
+{
+  "case": [
+    "nominative",
+    "genitive",
+    "dative",
+    "accusative",
+    "instrumental",
+    "locative",
+    "vocative"
+  ],
+  "gender": ["masculine", "feminine", "neuter", "common"],
+  "number": ["singular", "plural"],
+  "animacy": ["animate", "inanimate"]
+}

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "yar-numerals"
+version = "1.0.3"
+description = "Number to text - Inflector for Ukrainian numerals"
+authors = ["Yar team <team@yar.org.ua>"]
+repository = "https://gitlab.com/yar.ua/numerals.py/"
+homepage = "https://yar.org.ua/"
+license = "MIT-0"
+keywords = ["NLP", "Ukrainian", "numerals", "spelling", "text", "numbers", "uk", "syntax"]
+readme = ["README.md", "syntax.md", "LICENSE"]
+packages = [{include = "yar_numerals"}]
+documentation = "http://yar.ua.gitlab.io/numerals.py/"
+classifiers = [
+  "License :: OSI Approved :: MIT No Attribution License (MIT-0)",
+  "Natural Language :: Ukrainian",
+  "Topic :: Text Processing :: Linguistic",
+  "Operating System :: OS Independent"
+]
+include = ["glossary.tsv", "grammar.json"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.12"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+numerals = "yar_numerals:__main__"
