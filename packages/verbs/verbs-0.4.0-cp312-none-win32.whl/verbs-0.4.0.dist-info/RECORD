@@ -1,0 +1,11 @@
+verbs-0.4.0.dist-info/METADATA,sha256=vLoJFqU9wRnBQwJL-NkdBcfIiJYA0jxV91efxLOsOQs,3483
+verbs-0.4.0.dist-info/WHEEL,sha256=z8Ql1a7I9FwgD4RlNJNTj6LCRFMzqXuIukXregoopCg,91
+verbs-0.4.0.dist-info/license_files/LICENSE,sha256=7ikA10RZO1S-AH9ksAzcciFmk69i6zbwQeY9PJG6d4I,1087
+verbs/abi.py,sha256=Yonovy89ZTGM2l0aSDAeKgB5jxPl7rCGVvyeVKljTNI,13819
+verbs/batch_runner.py,sha256=5y9v-WCB03c3akKlBPZIhU3XlojquU7xDWc2OgvWzt8,4466
+verbs/sim.py,sha256=SSfzPB1R8untwMkyitBqEvYENu9xYjXF6jmy0yOSx8Y,9501
+verbs/types.py,sha256=4vBLaZpOiKmz8Cki_cU83MMeiAvqe1bIYC9qXTxmpqo,608
+verbs/utils.py,sha256=ySlErvdPs2XB61Mq-v-zNdjDDEvN1otQNIxyAb1Jw50,6359
+verbs/__init__.py,sha256=mT1AhlRLpWYmZ4vDoCScH3ik9d-XsUP8Q0vQ1KhiCWQ,62
+verbs/envs.cp312-win32.pyd,sha256=9OrZOUIj0YcLgqbZLy2lH3ZsFz9ASPhGMkplwlCakhA,6376448
+verbs-0.4.0.dist-info/RECORD,,
