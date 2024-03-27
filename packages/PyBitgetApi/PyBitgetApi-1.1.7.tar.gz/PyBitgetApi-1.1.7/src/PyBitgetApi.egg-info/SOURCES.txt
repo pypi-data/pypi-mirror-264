@@ -1,0 +1,17 @@
+.gitignore
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+examples/cancel_orders.py
+examples/create_orders.py
+examples/example_rest_api.py
+src/PyBitgetApi/__init__.py
+src/PyBitgetApi/client.py
+src/PyBitgetApi/enums.py
+src/PyBitgetApi/exceptions.py
+src/PyBitgetApi/utils.py
+src/PyBitgetApi.egg-info/PKG-INFO
+src/PyBitgetApi.egg-info/SOURCES.txt
+src/PyBitgetApi.egg-info/dependency_links.txt
+src/PyBitgetApi.egg-info/entry_points.txt
+src/PyBitgetApi.egg-info/top_level.txt
