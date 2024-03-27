@@ -1,0 +1,11 @@
+build
+coverage
+mypy
+pandas
+pre-commit
+pyjson5
+pytest
+responses
+ruff
+setuptools
+setuptools-scm
