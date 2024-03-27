@@ -1,0 +1,11 @@
+glook/GLook.py,sha256=E2uWuolQ3yl13NoZbAyd9qtMaTUeuJpgP34angrmRjE,2077
+glook/__init__.py,sha256=8NahmY4XQHJYMnFDvkZnHpjVBHwxrYrnDFlTTuyXbB0,51
+glook/cli.py,sha256=zBVCZyNNyRj_Zy4Tdnbrb1TrgRhEqAEEdZbk_vrLmi4,339
+glook/pages/2_Univariate_Analysis.py,sha256=zwng9Qp0haOz2BHY4Q6Sf9K2UULwQYBk1RaDL4ifhjo,14991
+glook/pages/3_Bivariate_Analysis.py,sha256=lbX5mc7pbxWz6PhG4c5wZP9C5zDeTacM4Wv3RM50dCk,7721
+glook/pages/4_Trivariate_Analysis.py,sha256=_4GjQVdTo_k1AnvtrIvzOBVYFAD5wHCWymIYYm3kcDk,7507
+glook-0.0.3a0.dist-info/METADATA,sha256=N4AFwNwzYevDrWFn-r4TnCy55w888uDiEMmtROTqCzo,3910
+glook-0.0.3a0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+glook-0.0.3a0.dist-info/entry_points.txt,sha256=7q8WVzTgIl4vX4wJgctmfdJckoB5yPtI0p3hqAQSiFA,38
+glook-0.0.3a0.dist-info/top_level.txt,sha256=2wtpfrIqw9VT_LFDxpI77DArLrUaNjWxyClToM3P9WE,6
+glook-0.0.3a0.dist-info/RECORD,,
