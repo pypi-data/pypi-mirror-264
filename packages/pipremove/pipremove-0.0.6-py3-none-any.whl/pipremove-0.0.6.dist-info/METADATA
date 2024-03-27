@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: pipremove
+Version: 0.0.6
+Summary: 删除模块包及其依赖包
+Author-email: Li WeiJian <1330757852@qq.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pipdeptree
+Description-Content-Type: text/markdown
+
+# 删除模块包及其依赖包
+
+目前集成了pipdeptree进行查看依赖树，支持一键删除模块包及其依赖包。
+
+调用示例：
+
+```
+pipremove.exe
+欢迎使用命令行菜单
+0. 查看当前依赖树
+1. 卸载第三方模块包
+2. 退出程序
+请输入选项的数字编号:
+```
