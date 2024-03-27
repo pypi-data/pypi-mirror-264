@@ -1,0 +1,15 @@
+wikiwormhole/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wikiwormhole/title2vec.py,sha256=I3vX_Mqn3s2rNVoEuR0SHOmoC8QTjomes-gIyDpxuH0,3782
+wikiwormhole/wikiapi.py,sha256=F1E0jcyIpwXmMHzlXxMlRo9ucX4kAzoq6C4HIKrb_q0,3965
+wikiwormhole/traverse/graph.py,sha256=6g7n2C_IH5RFzsVdIdUxkKUxQJ0KohOa8gMNtW7tHsA,4500
+wikiwormhole/traverse/popular.py,sha256=p3uXyXL9Ruy0UDzAXzgv-mCQntn0QJ4ULkUv-UEykq0,4116
+wikiwormhole/traverse/similar.py,sha256=nDt1vlYqGLVWk6eLlZqxdI7uBxgy_QJidx8qsCn9-aI,6060
+wikiwormhole/traverse/traverse.py,sha256=-DMt6NFIPwzx3s17ZES-Mag7Vo9zoRk9T39J-w2yZ0I,532
+wikiwormhole/util/fixedpq.py,sha256=5-G0BhpR-cigWf3lYZH2AFG_Rnb6eRe3doqUPoLM6yU,1117
+wikiwormhole/util/sinkset.py,sha256=4bFrOReV7b_BAbOVHiQYrcqoWrNH74wlpNGyhyvgoUw,727
+wikiwormhole-0.0.1.data/scripts/setup_wormhole.py,sha256=CZjNNNPSaB6UeJucQpJoqr42CKY1hZfZAuzBpmfK5tQ,2007
+wikiwormhole-0.0.1.dist-info/LICENSE,sha256=IVlUl9a31HuGqv-QfFH-FVOJ2HhCzHHxKLi1Gu8FBNI,1072
+wikiwormhole-0.0.1.dist-info/METADATA,sha256=mz672iwxSv4ao7l4VUASKpELFG2ysu4eqbqqHTgkrAA,1408
+wikiwormhole-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+wikiwormhole-0.0.1.dist-info/top_level.txt,sha256=_Yp3xTnzEsHKnej6dfua0Ui-JYRmDVEPfoeTVNzbv5I,13
+wikiwormhole-0.0.1.dist-info/RECORD,,
