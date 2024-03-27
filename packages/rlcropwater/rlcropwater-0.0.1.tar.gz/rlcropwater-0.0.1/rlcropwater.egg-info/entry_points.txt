@@ -1,0 +1,2 @@
+[console_scripts]
+rlcropwater = rlcropwater.cli:main

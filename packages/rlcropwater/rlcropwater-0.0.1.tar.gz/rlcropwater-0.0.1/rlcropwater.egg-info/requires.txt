@@ -1,0 +1,7 @@
+numpy
+
+[all]
+rlcropwater[extra]
+
+[extra]
+pandas
