@@ -1,0 +1,6 @@
+numpy==1.25.2
+sentence-transformers==2.6.1
+
+[dev]
+pytest
+twine
