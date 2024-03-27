@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyfunvice
+Version: 0.1.1
+Summary: 
+Author: 遥奕
+Author-email: jibing.yjb@alibaba-inc.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: docker (>=7.0.0,<8.0.0)
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: gunicorn (>=21.2.0,<22.0.0)
+Requires-Dist: uvicorn (>=0.29.0,<0.30.0)
+Description-Content-Type: text/markdown
+
+pyfunvice is FaaS SDK for Python

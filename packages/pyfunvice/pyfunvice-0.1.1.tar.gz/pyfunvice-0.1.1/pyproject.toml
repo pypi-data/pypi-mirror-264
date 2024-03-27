@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyfunvice"
+version = "0.1.1"
+description = ""
+authors = ["遥奕 <jibing.yjb@alibaba-inc.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+gunicorn = "^21.2.0"
+uvicorn = "^0.29.0"
+docker = "^7.0.0"
+
+[tool.poetry.scripts]
+pyfunvice = "pyfunvice.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
