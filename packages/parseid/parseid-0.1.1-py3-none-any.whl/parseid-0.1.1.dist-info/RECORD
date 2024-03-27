@@ -1,0 +1,9 @@
+parseID/__init__.py,sha256=YvtOsgV6DXu-As88ui4mYklnke1kB_fj_Q7buuFpqJw,115
+parseID/ditrie.py,sha256=7UmBdQ29bIZI8bnhbWhtSAmM1rPBerifrnyY9H3fY1Y,1980
+parseID/process_id.py,sha256=TeWXUsvxMUtuKrw9H-jwrEahUww1fHDjB1C-Fa9uI7I,1868
+parseID/trie.py,sha256=lor7Xt1mOdk4WbKg131lwV8qM9LA1PjJbFiQi94AdW0,5912
+parseID/trie_node.py,sha256=7YO0Vvh55d2Qpbs8wa-bY0eKT5BVCrxvbKoTU8dcEuM,1629
+parseid-0.1.1.dist-info/METADATA,sha256=1rITXNrh5QjdyWez9uP1T247YNJlMT-k0iYkAB1_kjA,2451
+parseid-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+parseid-0.1.1.dist-info/top_level.txt,sha256=lh9-X0kEPIM5-vC_BelNF3UoEzwzBBXAyXEAD8qBBDg,8
+parseid-0.1.1.dist-info/RECORD,,
