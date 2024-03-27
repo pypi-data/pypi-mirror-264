@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "strlen"
+version = "1.0.4"
+description = "This module allows you to compare strings not by ord() values of chars, but by the length of the string - len()"
+authors = ["Romooper <romanshupik32@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
