@@ -1,0 +1,22 @@
+2024-02-28 Version: 1.2.0
+- Support API AttachAssetGroupToInstance.
+- Support API DescribeAssetGroup.
+- Support API DescribeAssetGroupToInstance.
+- Support API DettachAssetGroupToInstance.
+- Update API DescribeInstanceList: update response param.
+- Update API DescribeInstanceSpecs: update response param.
+- Update API DescribePackIpList: update response param.
+
+
+2024-02-21 Version: 1.1.0
+- Support API AttachAssetGroupToInstance.
+- Support API DescribeAssetGroup.
+- Support API DescribeAssetGroupToInstance.
+- Support API DettachAssetGroupToInstance.
+- Update API DescribeInstanceList: update response param.
+- Update API DescribeInstanceSpecs: update response param.
+
+
+2023-08-11 Version: 1.0.0
+- Generated python2 2018-07-20 for ddosbgp.
+
