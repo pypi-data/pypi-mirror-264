@@ -1,0 +1,12 @@
+psycopg[binary]
+sqlparse
+textual[syntax]
+
+[dev]
+build
+flake8
+mypy
+pyright
+textual-dev
+twine
+vermin
