@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: erlab
+Version: 1.4.0
+Summary: Python package for ARPES data analysis and visualization.
+Author-email: Kimoon Han <khan@kaist.ac.kr>
+License: BSD-3-Clause
+Keywords: ARPES
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.22.0
+Requires-Dist: numba >=0.56.2
+Requires-Dist: numbagg
+Requires-Dist: numba-progress
+Requires-Dist: joblib
+Requires-Dist: scipy >=1.8.0
+Requires-Dist: lmfit >=1.2.0
+Requires-Dist: uncertainties >=3.0.1
+Requires-Dist: iminuit >=2.25.2
+Requires-Dist: csaps
+Requires-Dist: matplotlib >=3.8.0
+Requires-Dist: seaborn
+Requires-Dist: cmasher
+Requires-Dist: cmocean
+Requires-Dist: colorcet
+Requires-Dist: xarray
+Requires-Dist: h5netcdf
+Requires-Dist: varname
+Requires-Dist: tqdm
+Requires-Dist: pyclip
+Requires-Dist: pyqt6 >=6.2.2
+Requires-Dist: qtpy
+Requires-Dist: pyqtgraph >=0.13.1
+Requires-Dist: qtawesome
+Requires-Dist: superqt
+Requires-Dist: importlib-metadata ; python_version >= "3.10"
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: python-semantic-release ; extra == 'dev'
+
+# ERLabPy
+
+[![Workflow Status](https://github.com/kmnhan/erlabpy/actions/workflows/release.yml/badge.svg)](https://github.com/kmnhan/erlabpy/actions/workflows/release.yml)
+[![Documentation Status](https://readthedocs.org/projects/erlabpy/badge/?version=latest)](https://erlabpy.readthedocs.io/en/latest/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Welcome to *ERLabPy*, a Python library designed to simplify and streamline the
+process of analyzing data from condensed matter physics experiments.
+
+This library provides a set of tools and utilities to handle, manipulate, and
+visualize data, with a focus on data from angle-resolved photoemission
+spectroscopy (ARPES) experiments.
+
+*ERLabPy* is built on top of the popular scientific computing libraries `numpy`,
+`scipy`, and `xarray`, and is designed to be easy to use and integrate with
+existing scientific Python workflows. It is also designed to be extensible,
+allowing users to easily add custom functionality and analysis tools.
+
+*ERLabPy* is developed and maintained by the Electronic structure Research
+Laboratory (ERLab) at Korea Advanced Institute of Science and Technology
+(KAIST).
+
+## Features
+
+- **Data Loading**: A flexible and extensible data loading system is included,
+  capable of handling various data formats.
+- **Data Manipulation**: A set of tools for manipulating and
+  transforming data, including interpolation, masking and symmetrization is provided.
+- **Plotting**: ERLabPy provides many different plotting functions for visualizing
+  image data, including 2D and 3D plots. Publication-quality plots can be
+  generated with minimal effort.
+- **Fitting**: Several functions and models are implemented for fitting various
+  types of data, including broadened Fermi-Dirac distributions, momentum
+  distribution curves (MDCs), and energy distribution curves (EDCs).
+- **Interactive Data Visualization**: ERLabPy includes many interactive plotting
+  routines that resemble panels in Igor Pro that are very responsive and easy to
+  use. See screenshots below.
+- **Active Development**: ERLabPy is actively developed and maintained, with new
+  features and improvements being added regularly.
+
+## Screenshots
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kmnhan/erlabpy/blob/main/docs/source/images/imagetool_dark.png?raw=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/kmnhan/erlabpy/blob/main/docs/source/images/imagetool_light.png?raw=true">
+  <img alt="Imagetool in action." src="https://github.com/kmnhan/erlabpy/blob/main/docs/source/images/imagetool_light.png?raw=true">
+</picture>
+Try enabling/disabling dark mode in your browser!
+
+## Documentation
+
+The full documentation for ERLabPy is available at [Read the Docs](https://erlabpy.readthedocs.io/en/latest/).
+
+## Getting Started
+
+To get started with ERLab, follow the [installation instructions](https://erlabpy.readthedocs.io/en/latest/readme.html).
+
+Then, you can import the `erlab` module in your Python scripts and start analyzing your data.
+
+```python
+import erlab
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or pull request if you have any
+suggestions or improvements.
+
+## License
+
+This project is licensed under the terms of the [GPL-3.0 License](LICENSE).
+
+## Contact
+
+If you have any questions, issues, or suggestions, please open an issue on this
+repository. We appreciate your feedback!
