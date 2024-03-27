@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "universal-ai"
+version = "0.1.0"
+description = ""
+authors = ["M Nikhil Swami <nikhilswami1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
