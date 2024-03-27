@@ -1,0 +1,3 @@
+[console_scripts]
+ohydra = ollama_hydra.proxy:main
+ollama-hydra = ollama_hydra.proxy:main
