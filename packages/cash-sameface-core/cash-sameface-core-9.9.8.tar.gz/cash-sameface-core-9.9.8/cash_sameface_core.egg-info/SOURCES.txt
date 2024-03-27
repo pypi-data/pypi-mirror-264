@@ -1,0 +1,7 @@
+setup.py
+cash-sameface-core/__init__.py
+cash-sameface-core/main.py
+cash_sameface_core.egg-info/PKG-INFO
+cash_sameface_core.egg-info/SOURCES.txt
+cash_sameface_core.egg-info/dependency_links.txt
+cash_sameface_core.egg-info/top_level.txt
