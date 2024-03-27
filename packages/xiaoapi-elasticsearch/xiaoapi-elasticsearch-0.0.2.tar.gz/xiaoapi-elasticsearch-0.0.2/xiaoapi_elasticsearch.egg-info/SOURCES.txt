@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+xiaoapi_elasticsearch/__init__.py
+xiaoapi_elasticsearch/elasticsearch.py
+xiaoapi_elasticsearch.egg-info/PKG-INFO
+xiaoapi_elasticsearch.egg-info/SOURCES.txt
+xiaoapi_elasticsearch.egg-info/dependency_links.txt
+xiaoapi_elasticsearch.egg-info/requires.txt
+xiaoapi_elasticsearch.egg-info/top_level.txt
