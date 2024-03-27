@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+gamechanger/__init__.py
+gamechanger/main.py
+gamechanger.egg-info/PKG-INFO
+gamechanger.egg-info/SOURCES.txt
+gamechanger.egg-info/dependency_links.txt
+gamechanger.egg-info/top_level.txt
