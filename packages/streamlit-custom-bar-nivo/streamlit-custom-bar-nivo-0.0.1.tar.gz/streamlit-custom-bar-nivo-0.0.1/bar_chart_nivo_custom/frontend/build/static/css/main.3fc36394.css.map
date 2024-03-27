@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.3fc36394.css","mappings":"AAKA,2BACI,YAAa,CACb,WACJ","sources":["styles.css"],"sourcesContent":[".main-container {\r\n    height: 400px;\r\n    width: 400px;\r\n}\r\n\r\n.bar-chart {\r\n    height: 400px;\r\n    width: 400px;\r\n}"],"names":[],"sourceRoot":""}
