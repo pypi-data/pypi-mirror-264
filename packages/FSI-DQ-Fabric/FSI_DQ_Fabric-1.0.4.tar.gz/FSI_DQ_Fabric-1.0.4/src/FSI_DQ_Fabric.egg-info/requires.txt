@@ -1,0 +1,7 @@
+findspark
+langchain
+openai
+scikit-learn
+tabulate
+langchain_experimental
+azure.storage.blob
