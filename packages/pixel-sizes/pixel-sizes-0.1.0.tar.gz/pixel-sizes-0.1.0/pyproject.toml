@@ -1,0 +1,58 @@
+[tool.poetry]
+# I use poetry as just a package manager.
+# So, I only write the settings that poetry needs.
+# The actual package metadata is written in setup.cfg.
+# I use pypa/build for packaging.
+name = "pixel_sizes"
+version = "0.0.0"
+description = ""
+authors = []
+packages = [
+    { include = "pixel_sizes" },
+]
+
+[tool.setuptools_scm]
+write_to = "pixel_sizes/_version.py"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+pytest = "*"
+pytest-cov = "*"
+poethepoet = "*"
+setuptools-scm = "*"
+build = "*"
+
+[build-system]
+requires = [
+    "setuptools", "setuptools_scm"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.poe.tasks]
+test = "pytest"
+coverage-xml = "pytest --cov=pixel_sizes --doctest-modules --cov-report=xml"
+format = "ruff format pixel_sizes"
+check = "ruff check pixel_sizes"
+build = [
+    { cmd = "python -m build"}
+]
+
+[tool.mypy]
+# https://mypy.readthedocs.io/en/latest/config_file.html
+ignore_missing_imports = true
+disallow_any_decorated = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_unused_ignores = true
+warn_return_any = true
+
+[tool.ruff]
+line-length = 79
