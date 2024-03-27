@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cdo-sdk-python
+Version: 1.0.27
+Summary: Cisco Defense Orchestrator API
+Home-page: UNKNOWN
+Author: CDO TAC
+Author-email: cdo.tac@cisco.com
+License: UNKNOWN
+Description:     Use the interactive documentation to explore the endpoints CDO has to offer
+            
+Keywords: OpenAPI,OpenAPI-Generator,Cisco Defense Orchestrator API
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
