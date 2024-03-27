@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+simplepokedex/__init__.py
+simplepokedex/generatePokemon.py
+simplepokedex/lookup.py
+simplepokedex/poketypes.py
+simplepokedex.egg-info/PKG-INFO
+simplepokedex.egg-info/SOURCES.txt
+simplepokedex.egg-info/dependency_links.txt
+simplepokedex.egg-info/top_level.txt
+simplepokedex/tests/abilityLookup_test.py
+simplepokedex/tests/generatePokemon_test.py
+simplepokedex/tests/pokemonLookup_test.py
+simplepokedex/tests/poketypes_test.py
