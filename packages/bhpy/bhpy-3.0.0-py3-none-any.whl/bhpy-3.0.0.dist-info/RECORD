@@ -1,0 +1,15 @@
+bhpy/__init__.py,sha256=_OiMmn4OXC7tbkV9vaXrnH2nNogmxKN3Owy8-TxhiMk,353
+bhpy/bh_connect.py,sha256=AsPl8vDQ_YIS8pG5jHfPtcSeQWZkcbkWQpEi63MiFVU,11087
+bhpy/bh_device_scan_wrapper.py,sha256=ory5OMBp9XD3fwUmr7ezabg6zBCpvYYeBc3ZwYT95Vo,3360
+bhpy/bh_lv_wrapper.py,sha256=kjfBqTDzs8LZpLA2qte1Q64C3DM2Aot5GH4hJxsN9c0,2934
+bhpy/spc_tdc_config.py,sha256=rY7qVONaznN-Wx7KyqAI9Y-2gynBMrDDIL3jUVnOSto,3711
+bhpy/spc_tdc_wrapper.py,sha256=uN03qAU4VLXnWXL1jmIUebdaz1t3FDzlzZKkrP2kWD8,51177
+bhpy/dll/ControlQC008.dll,sha256=nLP0uWG6CMzWE2PhhwkRBZ0tfFW__N3Wg6iP1slgRAw,425816
+bhpy/dll/bh_device_scan.dll,sha256=Nn_ppzovHtW23LEf-DgLuxsw3kBOxuOVumWNiTVv3aU,211800
+bhpy/dll/pms_800.dll,sha256=z1v6K3Q8Axlc6Ptrgnli7TWvBDXkchDfIYu5fGjWWrQ,236888
+bhpy/dll/spc_qc_X04.dll,sha256=LzI9e8Rm0lDJVletVBm08QTXFTHvskxA3sec1VPvWkA,239960
+bhpy/dll/spc_qc_X08.dll,sha256=NcITS3Qq2FHwDITFL08-fsWjXWPJNlIlUHS2_7ZWHYs,235864
+bhpy-3.0.0.dist-info/METADATA,sha256=0LkVF2Sm-6j6PsyyBPA6FmNraekScmf-hVVaK3RpgYI,3669
+bhpy-3.0.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+bhpy-3.0.0.dist-info/licenses/LICENSE.txt,sha256=PGbaNSajC8zQCu1eVyPqgVZ6SweGiVXNk_b-4hvsXRo,1097
+bhpy-3.0.0.dist-info/RECORD,,
