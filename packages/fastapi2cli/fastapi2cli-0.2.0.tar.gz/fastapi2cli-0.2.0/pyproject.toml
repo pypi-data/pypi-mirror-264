@@ -1,0 +1,85 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi2cli"
+version = "0.2.0"
+authors = [
+    { name = "Baboin Arthur", email = "baboin.arthur@gmail.com" },
+]
+description = ""
+readme = "README.md" # will break limit of 4000 chr cf https://gitlab.com/gitlab-org/gitlab/-/issues/431505
+requires-python = ">=3.12"
+classifiers = [
+    # How mature is this project? Common values are
+    #   3 - Alpha
+    #   4 - Beta
+    #   5 - Production/Stable
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Software Development :: Libraries",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pydantic~=2.6.3",
+    "fastapi~=0.105.0",
+    "typer[all]~=0.9.0",
+    "httpx~=0.25.2",
+    "rich~=13.7.1"
+]
+[project.optional-dependencies]
+tests = [
+    "pytest~=8.0.2",
+    "pytest-mock~=3.12.0",
+    "pytest-cov~=4.1.0",
+]
+[project.urls]
+Homepage = "https://gitlab.com/Tagashy/fastapi2cli"
+Documentation = "https://tagashy.gitlab.io/fastapi2cli/"
+Repository = "https://gitlab.com/Tagashy/fastapi2cli.git"
+Issues = "https://gitlab.com/Tagashy/fastapi2cli/issues"
+"Bug Tracker" = "https://gitlab.com/Tagashy/fastapi2cli/issues"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "-s",
+    "-v",
+    "--durations=0",
+    "--junit-xml=pytest.xml"
+]
+testpaths = [
+    "tests"
+]
+pythonpath = [
+    "src"
+]
+cache_dir = ".cache/pytest_cache"
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+command_line = "-m pytest tests"
+
+[tool.coverage.report]
+#fail_under = 70
+show_missing = true
+exclude_lines = [
+    "pragma: no cover",
+    "if typing.TYPE_CHECKING:",
+    "if TYPE_CHECKING:"
+]
+
+
+[tool.coverage.xml]
+output = "coverage.xml"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.txt"]
