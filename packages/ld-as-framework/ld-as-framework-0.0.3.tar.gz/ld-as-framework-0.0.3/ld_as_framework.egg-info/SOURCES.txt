@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+build_project.py
+pyproject.toml
+ld_as_framework.egg-info/PKG-INFO
+ld_as_framework.egg-info/SOURCES.txt
+ld_as_framework.egg-info/dependency_links.txt
+ld_as_framework.egg-info/requires.txt
+ld_as_framework.egg-info/top_level.txt
