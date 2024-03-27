@@ -1,0 +1,80 @@
+[project]
+name = "pytest-discover"
+description = "Pytest plugin to record discovered tests in a file"
+authors = [
+    { name = "Guillaume Charbonnier", email = "guillaume.charbonnier@araymond.com" }
+]
+dependencies = ["pytest"]
+dynamic = ["version"]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.entry-points.pytest11]
+pytest_discover = "pytest_discover.plugin"
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+fallback-version = "v0.0.0-dev"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "src/pytest_discover/__about__.py"
+template = """# file generated with command: 'rye run version'
+# don't change, don't track in version control
+__version__ = version = {version!r}
+__version_tuple__ = version_tuple = {version_tuple!r}"""
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pytest_discover"]
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "datamodel-code-generator>=0.25.5",
+    "pyright>=1.1.355",
+]
+
+[tool.rye.scripts]
+# Automate pre-commit
+pre = { chain = ["generate", "__format", "__lint", "__test", "__typecheck"] }
+# Automate CI
+ci = { chain = ["bootstrap", "diff", "__formatcheck", "__lint", "__test", "__typecheck"] }
+# Automate project install
+bootstrap = "rye sync --no-lock"
+# Run code generation
+generate = { chain = ["__generate-models", "__format-models", "__generate-schemas"] }
+# Verify generated code is up-to-date
+diff = { chain = ["__generate-models-check", "__format-models-check", "__generate-models-diff"] }
+# Generate version file
+version = "hatch --quiet build --hooks-only"
+# Private tasks used for chaining
+__lint = "rye lint"
+__test = "rye test"
+__typecheck = "pyright"
+__format = "rye fmt"
+__formatcheck = "rye fmt --check"
+__generate-schemas = "python scripts/generate-json-schemas.py"
+__generate-models = "datamodel-codegen --input src/schemas/ --output src/pytest_discover/models --input-file-type jsonschema --disable-timestamp --output-model-type=dataclasses.dataclass --use-field-description --use-schema-description"
+__generate-models-check = "datamodel-codegen --input src/schemas/ --output check --input-file-type jsonschema --disable-timestamp --output-model-type=dataclasses.dataclass --use-field-description --use-schema-description"
+__generate-models-diff = "diff --exclude __pycache__ -r src/pytest_discover/models check"
+__format-models = "rye fmt src/pytest_discover/models"
+__format-models-check = "rye fmt check"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.pyright]
+pythonVersion = "3.8"
+include = ["tests", "src"]
+strict = ["src"]
+exclude = ["**/.venv", "**/node_modules", "**/__pycache__", ".git", "**/build"]
+venv = ".venv"
+venvPath = "."
+typeCheckingMode = "basic"
+reportUnnecessaryTypeIgnoreComment = "warning"
