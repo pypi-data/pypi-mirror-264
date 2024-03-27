@@ -1,0 +1,3 @@
+[console_scripts]
+pipepal-cli=pipepal.cli:main
+
