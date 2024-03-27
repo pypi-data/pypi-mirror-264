@@ -1,0 +1,8 @@
+ourgptmodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ourgptmodel/app.py,sha256=ET1Fu6fZHu0uQPVAFHq_RkGV4OI6LvWikoyZG9nfiI0,933
+ourgptmodel/gpt.py,sha256=6GkDiYy-7DjuEsHEGKjjjhhpbzt1a5tajQg1u5lv_cQ,602
+ourgptmodel/modelfile,sha256=FTVeLgKnGgk-wPjwRDyIZCmWk4GcAavX2GGHvfiFH_I,244
+ourgptmodel/requirements.txt,sha256=K-ORfIR9svLgWRHEVYJMsyGh8CrFhSpGaiSeVrdD4AY,17
+ourgptmodel-0.1.0.dist-info/METADATA,sha256=_YGcjjZteHACiHQOAkz_orUWqO3FtfgZ5moUG8WQWaI,366
+ourgptmodel-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ourgptmodel-0.1.0.dist-info/RECORD,,
