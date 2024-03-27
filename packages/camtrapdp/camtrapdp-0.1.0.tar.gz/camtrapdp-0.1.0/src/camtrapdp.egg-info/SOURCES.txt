@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/camtrapdp/__init__.py
+src/camtrapdp/deployments.py
+src/camtrapdp/media.py
+src/camtrapdp/observations.py
+src/camtrapdp/test_deployment.py
+src/camtrapdp/test_media.py
+src/camtrapdp/test_observation.py
+src/camtrapdp.egg-info/PKG-INFO
+src/camtrapdp.egg-info/SOURCES.txt
+src/camtrapdp.egg-info/dependency_links.txt
+src/camtrapdp.egg-info/requires.txt
+src/camtrapdp.egg-info/top_level.txt
