@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "snakepay"
+version = "0.1.1"
+description = "Transacciones de bitcoin en una sola linea de código"
+authors = ["F4k3r22 <fredyriveraacevedo13@gmail.com>"]
+homepage = "https://f4k3r22.github.io/Snake-Pay-Docs/"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+bitcoinlib = "*"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+snakepay = 'snakepay:main'
+
+[tool.poetry.extras]
