@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+aws_lambda_bundler.py
+pyproject.toml
+aws_lambda_bundler.egg-info/PKG-INFO
+aws_lambda_bundler.egg-info/SOURCES.txt
+aws_lambda_bundler.egg-info/dependency_links.txt
+aws_lambda_bundler.egg-info/entry_points.txt
+aws_lambda_bundler.egg-info/top_level.txt
+tests/test_aws_lambda_bundler.py
