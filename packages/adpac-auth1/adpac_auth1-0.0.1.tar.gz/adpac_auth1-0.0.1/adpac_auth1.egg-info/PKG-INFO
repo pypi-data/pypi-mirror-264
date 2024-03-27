@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: adpac-auth1
+Version: 0.0.1
+Summary: CORAISE AD PAC AUTH
+Home-page: 
+Author: ken@coraise.co.kr
+Author-email: ken@coraise.co.kr
+Requires-Python: >=3.9
