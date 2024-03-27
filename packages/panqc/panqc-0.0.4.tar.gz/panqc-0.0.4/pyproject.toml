@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "panqc"
+description = "Package & software for analysis of nucleotide redundancy within CDS-based pan-genome analyses"
+readme = "README.md"
+version = "0.0.4"
+authors = [
+    { name = "Maximillian Marin", email = "maximilliangmarin@gmail.com" }
+]
+
+requires-python = ">=3.7"
+dependencies = [
+	"pandas",
+	"mmh3",
+	"screed",
+	"mappy==2.26",
+	"networkx",
+	"tqdm",
+	"colored",
+	"importlib-metadata; python_version < '3.8'"
+]
+
+
+[project.scripts]
+panqc = "panqc.__init__:main"
+
+[project.optional-dependencies]
+test = [
+	"pytest"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/maxgmarin/panqc"

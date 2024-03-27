@@ -1,0 +1,16 @@
+Gene,Non-unique Gene name,Annotation,Genome_1,Genome_2,Genome_3,Genome_4,Genome_5
+group_2350,,hypothetical protein,0_refound_53,128_refound_7825,121_refound_7387,34_refound_2108,122_refound_7448
+group_2347,,hypothetical protein,0_refound_43,128_refound_7816,121_refound_7377,34_refound_2099,122_refound_7439
+group_2322,,hypothetical protein,Genome1_16470,Genome2_16530,Genome3_16520,Genome4_16685,Genome5_16540
+group_2319,,hypothetical protein,Genome1_13470,Genome2_07335,Genome3_13465,Genome4_13575,Genome5_13470
+group_2297,,hypothetical protein,Genome1_09565,Genome2_11285,Genome3_09530,Genome4_09650,Genome5_09600
+pE8,;pE8,hypothetical protein;PE family protein PE8,Genome1_05535,Genome2_15220,Genome3_05525,Genome4_05540,Genome5_05570
+group_1464,,hypothetical protein;flavoprotein,Genome1_11995,Genome2_08875,Genome3_11975,Genome4_12080,Genome5_11995
+group_1052,,hypothetical protein;PAPS-dependent sulfotransferase Stf3,Genome1_12070,Genome2_08800,Genome3_12060,Genome4_12155,Genome5_12085
+group_703,,diacylglycerol kinase,Genome1_12000,Genome2_08870,Genome3_11980,Genome4_12085,Genome5_12000
+plcC,;plcC,Phospholipase C 3 plcC;twin-arginine translocation signal domain-containing protein;Phospholipase C;phospholipase C,Genome1_12500,Genome2_08340,,Genome4_12595,Genome5_12495
+cyp128,cyp128,cytochrome P450 Cyp128,Genome1_12075,Genome2_08795,Genome3_12065,Genome4_12175,Genome5_12090
+pPE15,pPE15,PPE family protein PPE15,Genome1_05530,Genome2_15225,Genome3_05520,Genome4_05535,Genome5_05565
+group_1606,,Phospholipase C 3 plcC;Phosphoesterase family protein,,Genome2_08355,,,
+group_848,,PAPS-dependent sulfotransferase Stf3,,,,Genome4_12170,
+group_94,,hypothetical protein,,,,,Genome5_12070
