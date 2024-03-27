@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: fzz-tunes
+Version: 0.1.1
+Summary: 
+Author: fazlizekiqi
+Author-email: fazlizekiqi1@hotmail.com
+Requires-Python: >=3.11.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ffmpeg-python (>=0.2.0,<0.3.0)
+Requires-Dist: moviepy (>=1.0.3,<2.0.0)
+Requires-Dist: mutagen (>=1.47.0,<2.0.0)
+Requires-Dist: pygame (>=2.5.2,<3.0.0)
+Requires-Dist: pytube (>=15.0.0,<16.0.0)
+Requires-Dist: spicy (>=0.16.0,<0.17.0)
+Requires-Dist: windows-curses (>=2.3.2,<3.0.0) ; sys_platform == "win32"
+Requires-Dist: youtube-search-python (>=1.6.6,<2.0.0)
+Description-Content-Type: text/markdown
+
+
+                   __________.__                             
+              _____\\______   |  | _____  ___.__. ___________ 
+             /     \\|     ___|  | \\__  \\<   |  _/ __ \\_  __ \\
+            |  Y Y  |    |   |  |__/ __ \\___  \\  ___/|  | \\/
+            |__|_|  |____|   |____(____  / ____|\\___  |__|   
+                  \\/                   \\/\\/         \\/      
+
+
+                      
+MPlayer is basically a music cli player which uses youtube's api to 
+search, download and play music.
+
+This project is tested with 2 different python versions
+
+    Python 12 
+    Python 11 
+
+#### Install poetry for development: 
+    
+    pip install poetry
+
+
+### After poetry installation create a virtual env: 
+
+    poetry shell
+
+### Install dep 
+
+    poetry install
+
+### Run the app 
+
+    poetry run main
