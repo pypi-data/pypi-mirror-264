@@ -1,0 +1,2 @@
+[console_scripts]
+haretools = haretools.__main__:main_menu
