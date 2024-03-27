@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+xiaoapi_mongodb/__init__.py
+xiaoapi_mongodb/mongo_manage.py
+xiaoapi_mongodb/mongodb.py
+xiaoapi_mongodb.egg-info/PKG-INFO
+xiaoapi_mongodb.egg-info/SOURCES.txt
+xiaoapi_mongodb.egg-info/dependency_links.txt
+xiaoapi_mongodb.egg-info/requires.txt
+xiaoapi_mongodb.egg-info/top_level.txt
