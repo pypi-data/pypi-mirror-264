@@ -1,0 +1,37 @@
+{
+  "layers": {
+    "{{ layer.id }}": {
+      "id": "{{ layer.id }}",
+      "title": "{{ layer.title }}",
+      "subtitle": "{{ layer.satellite | upper }} / {{ layer.instrument | upper }}",
+      "group": "overlays",
+      "layergroup": "{{ layer.measurement }}",
+      "description": "{{ layer.instrument }}/{{ layer.satellite }}/{{ layer.id }}",
+      "tags": "{{ layer.tags | join(' ')}}",
+      "type": "wmts",
+      "period": "{{ layer.period }}",
+      "startDate": "{{ layer.start_date | string | truncate(10, end='') }}",
+      "format": "image/{{ layer.format }}",
+      {% if layer.period == "subdaily" %}"availability": {
+        "historicalRanges": [
+          {
+            "startDate": "{{ layer.temporal_start }}",
+            "endDate": "{{ layer.temporal_end }}",
+            "dateInterval": "{{ layer.date_interval }}"
+          }
+        ]
+      },{% endif %}
+      "disableSmartHandoff": true,
+      "wrapadjacentdays": true,
+      {% if layer.colormap_id is not none %}"palette": {
+        "id": "{{ layer.colormap_id }}"
+      },{% endif %}
+      "projections": {
+        "geographic": {
+          "matrixSet": "{{ layer.matrix_set }}",
+          "source": "{{ layer.source_name }}"
+        }
+      }
+    }
+  }
+}
