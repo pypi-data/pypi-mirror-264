@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: scenario-execution
+Version: 1.0.0
+Summary: Robotics Scenario Execution
+Author-email: Intel Labs <scenario-execution@intel.com>
+Maintainer: Intel Labs
+Maintainer-email: Intel Labs <scenario-execution@intel.com>
+License: Apache License 2.0
+Project-URL: Homepage, https://github.com/IntelLabs/scenario_execution
+Project-URL: Documentation, https://intellabs.github.io/scenario_execution/
+Project-URL: Issues, https://github.com/IntelLabs/scenario_execution/issues
+Keywords: robotics,scenarios,experiments,testing
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: antlr4-python3-runtime==4.7.2
+Requires-Dist: transforms3d==0.3.1
+Requires-Dist: pexpect==4.9.0
+Requires-Dist: defusedxml==0.7.1
+Requires-Dist: pyyaml
+Requires-Dist: py-trees==2.1.6
+
+# Scenario Execution Base Package
+
+The `scenario_execution_base` package is the base package for scenario execution. It provides functionalities like parsing, py-trees creation and execution.
+
+It provides the following scenario execution libraries:
+
+- `standard.osc`: The OpenSCENARIO 2 standard library. It is slightly modified to be in sync with the feature set of scenario execution. For convenience, numerical struct members are initialized with 0.
+- `robotics.osc`: robotic-specific specifications
+- `helper.osc`: helper actions
+- `networking.osc`: actions related to networking
+
