@@ -1,0 +1,3 @@
+[console_scripts]
+xyz2png=xyz2png.main:main
+
