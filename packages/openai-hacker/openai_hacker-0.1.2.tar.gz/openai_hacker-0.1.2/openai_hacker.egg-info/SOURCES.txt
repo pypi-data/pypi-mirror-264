@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+openai_hacker/__init__.py
+openai_hacker/_hack.py
+openai_hacker/conf.py
+openai_hacker.egg-info/PKG-INFO
+openai_hacker.egg-info/SOURCES.txt
+openai_hacker.egg-info/dependency_links.txt
+openai_hacker.egg-info/not-zip-safe
+openai_hacker.egg-info/requires.txt
+openai_hacker.egg-info/top_level.txt

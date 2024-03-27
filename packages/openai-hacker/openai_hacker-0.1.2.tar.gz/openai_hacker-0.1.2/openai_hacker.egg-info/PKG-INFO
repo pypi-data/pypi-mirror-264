@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: openai-hacker
+Version: 0.1.2
+Summary: hacker of openai python client
+Home-page: https://github.com/lixf/openai-hacker
+Author: DataCanvas Community
+Author-email: lixf@sovon.net
+License: Apache License 2.0
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+This is openai python client hacker, do something on the fly.
+
+## Features:
+
+* dumping LLM requests and responses into yaml or json files
+* cache LLM responses
+
+## Installation:
+
+```
+pip install openai-hacker
+```
+
+## Usage
+
+Add the lines into your code:
+
+```python
+from openai_hacker import hack
+
+hack()
+```
+
+available options:
+
+* **dump_dir**, str, the location to dump LLM requests and responses. default `~/llm_dump_<timestamp>`
+* **cache_dir**, str, the location to store cache files. default `~/llm_cache`
+* **stage**, str, the prefix of dumped file names
+* **suffix_completion**, str, the suffix of dumped file names for openai `Completion`. default `.yaml`
+* **suffix_chat**, str, the suffix of dumped file names for openai `ChatCompletion`. default `_chat.yaml`
+* **hack_chat**, bool,  hack openai `ChatCompletion` or not. default `True`
+* **hack_completion**, bool, hack openai `Completion` or note. default `True`
+
+
