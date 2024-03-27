@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+apisecurityengine_agent.egg-info/PKG-INFO
+apisecurityengine_agent.egg-info/SOURCES.txt
+apisecurityengine_agent.egg-info/dependency_links.txt
+apisecurityengine_agent.egg-info/top_level.txt
