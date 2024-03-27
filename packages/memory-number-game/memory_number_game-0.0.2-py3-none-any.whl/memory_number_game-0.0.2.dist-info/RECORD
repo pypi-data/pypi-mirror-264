@@ -1,0 +1,11 @@
+memory_number_game/__init__.py,sha256=sw3KEFihuR4Uws3Vf8-KhgI4oj0pbm70kIrlGFbffII,181
+memory_number_game/__main__.py,sha256=0cUe2ZfwJbcBl8AegWoXwXtgnuZSYyxeXPEGpX-pPiE,67
+memory_number_game/circle.py,sha256=0FmpKJtcmOE7WSfehTA20jtsxP2-wTVUZKeKqngq5tk,1084
+memory_number_game/coordinate_generator.py,sha256=_d6UL-gXtNGw8wBHGvc45RT2bwssl8-YqeI7NswGgys,1225
+memory_number_game/game.py,sha256=MM57_z0_a52GZghWhaoLOiaFXoOzhb2ZCVFVNiyPJTQ,2042
+memory_number_game/level.py,sha256=4P86ifmZln7Y8fdvIe3jKHzcU50WT6UAIVuP0HtGy8c,1934
+memory_number_game/load_config.py,sha256=BOVzuEue4KdFF4Lvvu7WJvFrct8FW01OVKz2MzeJ4HA,217
+memory_number_game-0.0.2.dist-info/METADATA,sha256=4LV3PSUkfTWCBwTRxwYyyBmiBruuMdGLNMCEmWs4hA4,719
+memory_number_game-0.0.2.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+memory_number_game-0.0.2.dist-info/licenses/LICENSE,sha256=hMZKmtAy-nrd7um-V8gorOIWWMJhx595sJE5S01llGk,1071
+memory_number_game-0.0.2.dist-info/RECORD,,

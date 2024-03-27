@@ -1,0 +1,34 @@
+Metadata-Version: 2.3
+Name: memory-number-game
+Version: 0.0.2
+Summary: A small exercise for me and a funny memory game!
+Project-URL: Homepage, https://github.com/benji6892/number-game
+Author-email: Benjain Walter <benjaminjwalter@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# memory_number_game
+
+This is a Python package, which lets you play a very easy and funny memory game.
+
+The source code can be found on [GitHub](https://github.com/benji6892/number-game).
+
+## Installation
+
+```bash
+pip install memory_number_game
+```
+
+## How to play
+
+```bash
+python -m memory_number_game
+```
+
+OR
+
+```python
+from memory_number_game import play_number_game
+play_number_game()
+```
