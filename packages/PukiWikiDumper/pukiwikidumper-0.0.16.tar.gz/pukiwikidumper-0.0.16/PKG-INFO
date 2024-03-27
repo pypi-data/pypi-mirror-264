@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: PukiWikiDumper
+Version: 0.0.16
+Summary: A tool for archiving PukiWiki
+License: GPL-3.0
+Author: yzqzss
+Author-email: yzqzss@yandex.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.11.2,<5.0.0)
+Requires-Dist: chardet (>=5.2.0,<6.0.0)
+Requires-Dist: internetarchive (>=3.5.0,<4.0.0)
+Requires-Dist: python-slugify (>=8.0.1,<9.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.4.2,<14.0.0)
+Project-URL: Bug Tracker, https://github.com/saveweb/pukiwiki-dumper/issues
+Project-URL: repository, https://github.com/saveweb/pukiwiki-dumper/
+Description-Content-Type: text/markdown
+
+# pukiwiki-dumper
+
+A tool for archiving PukiWiki
+
