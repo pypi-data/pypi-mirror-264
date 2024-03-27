@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: replit-river
+Version: 0.1.0
+Summary: Replit river toolkit for Python
+License: LICENSE
+Keywords: rpc,websockets
+Author: Replit
+Author-email: eng@replit.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiochannel (>=1.2.1,<2.0.0)
+Requires-Dist: black (>=23.11.0,<24.0.0)
+Requires-Dist: grpcio (>=1.59.3,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.59.3,<2.0.0)
+Requires-Dist: msgpack (>=1.0.7,<2.0.0)
+Requires-Dist: nanoid (>=2.0.0,<3.0.0)
+Requires-Dist: protobuf (>=4.24.4,<5.0.0)
+Requires-Dist: pydantic (>=2.5.2,<3.0.0)
+Requires-Dist: pydantic-core (>=2.16.3,<3.0.0)
+Requires-Dist: websockets (>=12.0,<13.0)

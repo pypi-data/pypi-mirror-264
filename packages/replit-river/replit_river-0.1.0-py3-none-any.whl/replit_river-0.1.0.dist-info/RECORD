@@ -1,0 +1,17 @@
+replit_river/__init__.py,sha256=McITQGNbObhws7p1MC9FCwV58xuZZSU2U6jxou6Fa44,432
+replit_river/client.py,sha256=pLNLciPWGXbZaVHIez4n2mg5WH2AUIA-HQyWcNurk8E,16455
+replit_river/codegen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+replit_river/codegen/__main__.py,sha256=LyKe1OXIyev0BuUcu43iu6zBLJzeogQ8DocxDkALD-Q,153
+replit_river/codegen/client.py,sha256=HWpLKhzxKCUMMiJa2uhXwr-ONwI5UMJDuaaJhKvh7vk,13340
+replit_river/codegen/run.py,sha256=o9LB8jgVzXqkPFYeZUBQoyPS82xWBE7x5jtHvJmAXe8,1903
+replit_river/codegen/schema.py,sha256=5rV-aQuv3YzQlmjgMlQXphOM_ewav1jdUJNLAazQcHE,5354
+replit_river/codegen/server.py,sha256=RPrwJzoGGe3qGzmoTfxUEyUOHyR0loviuL47wZiXlYA,12604
+replit_river/error_schema.py,sha256=8L2Ux_xI47J8QkFEnD7_KXQlCahwXVNYP6d7yFEjKp4,434
+replit_river/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+replit_river/rpc.py,sha256=fIFITxu9liF1Jg8Z9VcPkN0ZbAnyh9ezRiU2uEaCYEE,11535
+replit_river/server.py,sha256=2QHZBsGEZNGaMljZQ4AUKcO3IQt-pTm-461RhEnMNJE,9843
+replit_river-0.1.0.dist-info/LICENSE,sha256=0UA-d41c7tuf_-kAFZEs__UjqBaQHR7DbqybgkSv4r0,1064
+replit_river-0.1.0.dist-info/METADATA,sha256=x7vTtvmgwSGJ_ScIrmxwLqcx0LnIMalCY8E37sLbGZM,780
+replit_river-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+replit_river-0.1.0.dist-info/entry_points.txt,sha256=dm4-vHDDqQgAMoIsZw4r4ja91nN23WyVNZtv4J1wBTU,54
+replit_river-0.1.0.dist-info/RECORD,,
