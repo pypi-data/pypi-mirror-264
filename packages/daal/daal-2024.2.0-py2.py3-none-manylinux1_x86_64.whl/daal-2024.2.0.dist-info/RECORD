@@ -1,0 +1,11 @@
+daal-2024.2.0.data/data/lib/libonedal.so.2,sha256=6rOp4TyzvcKY1Iy9XgEIA94bEan9i1iJeIs71uah0RM,16620928
+daal-2024.2.0.data/data/lib/libonedal_core.so.2,sha256=r_UWFiqDsyc2zhR3k3f82h0H0IDrtYvOHYMpELi7y3I,148722968
+daal-2024.2.0.data/data/lib/libonedal_dpc.so.2,sha256=r7J_8o0T_AZtLeGgu9eCqh0uvrpKL7s26rpFNmpo5d4,80069368
+daal-2024.2.0.data/data/lib/libonedal_parameters.so.2,sha256=sNGs7TZdnoc5MXrddW98KsxJWFFulLa9Yt-CBLyWqLc,41344
+daal-2024.2.0.data/data/lib/libonedal_parameters_dpc.so.2,sha256=2TEo7wM2eo7uQ1CLtyE-d-8_79ahIPgL_dIMoSIU5xk,51016
+daal-2024.2.0.data/data/lib/libonedal_thread.so.2,sha256=pTq1tlEajAcZSidCO4n1_N3p5FiP6-cdx_z6vi1rgGo,26487792
+daal-2024.2.0.dist-info/LICENSE.txt,sha256=dyFjPQ3f9D-uJev9QF-BZqDOcwy87ETy862dXrismm8,4105
+daal-2024.2.0.dist-info/METADATA,sha256=uvuMpPmyY_h7RWDtsyEI87rRAAmQ4OgLc9Hot_d_zXE,1093
+daal-2024.2.0.dist-info/WHEEL,sha256=dNxT-MG8LzRaqJYFQzfes411XUTOrT0gsWYZz0BoKLo,138
+daal-2024.2.0.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+daal-2024.2.0.dist-info/RECORD,,
