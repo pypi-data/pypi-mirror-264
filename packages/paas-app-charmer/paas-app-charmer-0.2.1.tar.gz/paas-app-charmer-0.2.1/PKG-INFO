@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: paas-app-charmer
+Version: 0.2.1
+Summary: Companion library for PaaS app charmer.
+Author-email: Canonical IS DevOps team <is-devops-team@canonical.com>
+Project-URL: Repository, https://github.com/canonical/paas-app-charmer
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: cosl
+Requires-Dist: jsonschema<4.20,>=4.19
+Requires-Dist: ops>=2.6
+Requires-Dist: pydantic==2.6.4
