@@ -1,0 +1,7 @@
+setup.py
+sqbricks/__init__.py
+sqbricks/main.py
+sqbricks.egg-info/PKG-INFO
+sqbricks.egg-info/SOURCES.txt
+sqbricks.egg-info/dependency_links.txt
+sqbricks.egg-info/top_level.txt
