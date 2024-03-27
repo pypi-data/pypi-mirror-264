@@ -1,0 +1,10 @@
+piper_phonemize_cpp.cpython-312-darwin.so,sha256=-dNl0paYeUezXUgSyCv9vGwU7iPnNVVRfBEzm4Crgn0,619536
+piper_phonemize_cross-1.2.0.dist-info/LICENSE.md,sha256=E3RtUJ105V6iJl--8gS7fNv4SoMVsCB-mIMmy1Q4cCg,1071
+piper_phonemize_cross-1.2.0.dist-info/RECORD,,
+piper_phonemize_cross-1.2.0.dist-info/WHEEL,sha256=Vo9YTsjXxZ5SWdH4n69oS5jU3YTIi3eHk0n-aUcTtlw,110
+piper_phonemize_cross-1.2.0.dist-info/top_level.txt,sha256=gud9i_MruIcrtk2zDtZWeJ6PKXXTn22IXQQERefApec,36
+piper_phonemize_cross-1.2.0.dist-info/METADATA,sha256=DkHa6B_X-cY0Urf_rv_MrJqGjoVLCzVdU1rTiMY-WYM,325
+piper_phonemize/__init__.py,sha256=Z_nOuXfTW_fvB9dp9IzXv-gWkkOZQ7e3ANe_xmqMnp4,1982
+piper_phonemize/.dylibs/libonnxruntime.1.14.1.dylib,sha256=eBqV6x13W83YwtEVgszzJBpoMcPOCTx5CZeW4wXpErM,21183840
+piper_phonemize/.dylibs/libespeak-ng.dylib,sha256=YZZtOjjouWsDfUfb4Lz31njiK75T-Y0S3IUug3-oAig,438000
+piper_phonemize/.dylibs/libucd.dylib,sha256=jSlAGTgGjgvGs_vyaJB1Bj39u6Xo8NiDdXwlbkSBvzM,261584
