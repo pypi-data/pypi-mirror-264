@@ -1,0 +1,10 @@
+general_sam-1.0.0.dist-info/METADATA,sha256=gKcy6oOHu9nT_rdwRiImK4_n3PzC6Xpg0WOE9IQUGXc,7211
+general_sam-1.0.0.dist-info/WHEEL,sha256=_-pO1V0R3bpcg5FhWC82Cl79freIhF1O9I5uv0may5k,94
+general_sam-1.0.0.dist-info/license_files/LICENSE-APACHE,sha256=hGNYs6J7J-FDWfzXIJXmuuY7qBPvX_8BGUUBzuDTFx4,11061
+general_sam-1.0.0.dist-info/license_files/LICENSE-MIT,sha256=GAD8AmpRJ3XRNGcpsol0A6EdtvqObeg6DFyIaisoEBg,1150
+general_sam/general_sam.pyi,sha256=C-7UlVLfYkPsMwhNSgiT-z7niB-UCXapMNsCAPOY2K0,3940
+general_sam/trie_utils.py,sha256=I0uKxL4igZ_cACAQtZ2W9RarkrP4Ja80FlwV51ggMdo,2384
+general_sam/vocab_prefix.py,sha256=llvpc7lEIkqTSh9JBZlEq5vLut769Sw5N_LUUZ02Qs4,5299
+general_sam/__init__.py,sha256=wSnB9sH2Mbnbva1zKd7PRJqHpvd0KdsyrnVItfGnfTo,721
+general_sam/general_sam.pyd,sha256=G7gplMvcVzQAR2iZj7ZAEfgaOs36j0OrVMXWWjFPF9k,367616
+general_sam-1.0.0.dist-info/RECORD,,
