@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "nickineering-ruff-config"
+version = "0.1.0"
+description = "An aggressive Ruff config designed to get as much as possible from Ruff quickly."
+authors = ["Nicholas Ferrara <nferrara100@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "src" }]
+repository = "https://github.com/nickineering/ruff-config.git"
+keywords = [
+    "config",
+    "configuration",
+    "dotfiles",
+    "formatting",
+    "linting",
+    "ruff",
+    "templates",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
