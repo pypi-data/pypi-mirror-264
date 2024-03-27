@@ -1,0 +1,65 @@
+# w-train-utils-mlflow-triton-plugin
+
+## 가상환경 설정
+
+```sh
+pyenv install 3.8.18
+pyenv virtualenv 3.8.18 wtrainclient3.8
+pyenv activate wtrainclient3.8
+```
+
+---
+
+## Triton Inference Server 실행
+
+```sh
+$ docker run --rm -p8000:8000 -p8001:8001 -p8002:8002 \
+    -e AWS_ACCESS_KEY_ID=minio \
+    -e AWS_SECRET_ACCESS_KEY=miniostorage \
+    -e AWS_ENDPOINT=http://host.docker.internal:9000 \
+    nvcr.io/nvidia/tritonserver:24.01-py3 \
+    tritonserver --model-repository=s3://http://host.docker.internal:9000/triton \
+    --model-control-mode=explicit --strict-model-config=false
+```
+
+---
+
+## 환경 변수 설정
+
+프로젝트를 실행하기 전에 아래의 환경 변수들을 설정해야 합니다:
+
+| 환경변수               | 설명                                                | 예시                              |
+| ---------------------- | --------------------------------------------------- | --------------------------------- |
+| MLFLOW_S3_ENDPOINT_URL | MLflow가 저장소로 사용하고있는 MinIO 엔드포인트 URL | http://localhost:9000             |
+| MLFLOW_TRACKING_URI    | MLflow 트래킹 서버의 URI                            | http://localhost:5001             |
+| AWS_ACCESS_KEY_ID      | MinIO 서버 접근을 위한 AWS 호환 액세스 키           | minio                             |
+| AWS_SECRET_ACCESS_KEY  | MinIO 서버 접근을 위한 AWS 호환 시크릿 액세스 키    | miniostorage                      |
+| TRITON_URL             | Triton Inference Server 의 엔드포인트 URL           | http://localhost:8000             |
+| TRITON_MODEL_REPO      | Triton Inference Server 의 모델저장소 URL           | s3://http://localhost:9000/triton |
+
+---
+
+## 패키지 빌드 및 업로드
+
+```sh
+# 필요한 의존성 설치
+pip install wheel setuptools twine
+```
+
+```sh
+vi ~/.pypirc
+
+[distutils]
+index-servers =
+    pypi-repository
+
+[pypi-repository]
+repository: https://nexus.wimcorp.dev/repository/pypi-hosted/
+username: <username>
+password: <password>
+```
+
+```sh
+sh scripts/build.sh
+sh scripts/deploy.sh
+```
