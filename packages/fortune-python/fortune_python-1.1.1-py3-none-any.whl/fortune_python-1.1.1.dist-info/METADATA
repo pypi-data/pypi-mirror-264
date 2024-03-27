@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: fortune-python
+Version: 1.1.1
+Summary: A Fortune clone in Python
+Author: James Finnie-Ansley
+License: MIT License
+        
+        Copyright (c) 2024 James Finnie-Ansley
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/James-Ansley/fortune
+Keywords: fortune
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Fortune
+
+A simple self-contained clone of fortune. Try it out
+with [cowsay](https://github.com/James-Ansley/cowsay)!
+
+## Install
+
+    pip install fortune-python
+
+## Usage
+
+### CLI
+
+Currently, a `fortune` command line program is added on install.
+
+```
+fortune
+```
+
+This will select a random fortune. Adding the fortune command line arguments
+is planned later.
+
+### Programmatic
+
+To use this package, import the `fortune` function and call:
+
+```python
+from fortune import fortune
+
+print(fortune())
+```
+
+This will produce a random fortune.
+
+# Notes
+
+The fortune data for this package is taken
+from [fortune-mod](https://github.com/shlomif/fortune-mod). Please see the
+datfiles directory in this repo for their corresponding license.
+
+The offensive fortunes in the 'off' directory are not included in this Python
+package. However, the fortunes provided in this package are otherwise provided
+as they were in the
+original [fortune-mod](https://github.com/shlomif/fortune-mod) repository.
+I do not take responsibility for the content of these fortunes.
