@@ -1,0 +1,37 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "checkv"
+authors = [
+    {name = "Stephen Nayfach", email = "snayfach@lbl.gov"},
+    {name = "Antonio Camargo", email = "antoniop.camargo@lbl.gov"},
+    {name = "Simon Roux", email = "sroux@lbl.gov"},
+]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "biopython",
+    "kcounter",
+    "numpy>=1.5",
+    "psutil",
+    "requests",
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://bitbucket.org/berkeleylab/checkv/"
+Source = "https://bitbucket.org/berkeleylab/checkv/"
+
+[project.scripts]
+checkv = "checkv.cli:cli"
