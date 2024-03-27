@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: ape-blockscout
+Version: 0.7.1
+Summary: ape-blockscout: Blockscout Explorer Plugin
+Home-page: https://github.com/ApeWorX/ape-blockscout
+Author: ApeWorX Ltd.
+Author-email: admin@apeworx.io
+License: Apache-2.0
+Keywords: ethereum
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8,<4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: eth-ape <0.8,>=0.7.0
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: ape-base ; extra == 'dev'
+Requires-Dist: ape-optimism ; extra == 'dev'
+Requires-Dist: ape-polygon ; extra == 'dev'
+Requires-Dist: ape-infura ; extra == 'dev'
+Requires-Dist: ape-solidity ; extra == 'dev'
+Requires-Dist: pytest >=6.0 ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: hypothesis <7.0,>=6.2.0 ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: black <24,>=23.12.0 ; extra == 'dev'
+Requires-Dist: mypy <2,>=1.7.1 ; extra == 'dev'
+Requires-Dist: types-setuptools ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: flake8 <7,>=6.1.0 ; extra == 'dev'
+Requires-Dist: flake8-breakpoint <2,>=1.1.0 ; extra == 'dev'
+Requires-Dist: flake8-print <6,>=5.0.0 ; extra == 'dev'
+Requires-Dist: isort <6,>=5.10.1 ; extra == 'dev'
+Requires-Dist: mdformat >=0.7.17 ; extra == 'dev'
+Requires-Dist: mdformat-gfm >=0.3.5 ; extra == 'dev'
+Requires-Dist: mdformat-frontmatter >=0.4.1 ; extra == 'dev'
+Requires-Dist: mdformat-pyproject >=0.0.1 ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-watch ; extra == 'dev'
+Requires-Dist: IPython ; extra == 'dev'
+Requires-Dist: ipdb ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: black <24,>=23.12.0 ; extra == 'lint'
+Requires-Dist: mypy <2,>=1.7.1 ; extra == 'lint'
+Requires-Dist: types-setuptools ; extra == 'lint'
+Requires-Dist: types-requests ; extra == 'lint'
+Requires-Dist: flake8 <7,>=6.1.0 ; extra == 'lint'
+Requires-Dist: flake8-breakpoint <2,>=1.1.0 ; extra == 'lint'
+Requires-Dist: flake8-print <6,>=5.0.0 ; extra == 'lint'
+Requires-Dist: isort <6,>=5.10.1 ; extra == 'lint'
+Requires-Dist: mdformat >=0.7.17 ; extra == 'lint'
+Requires-Dist: mdformat-gfm >=0.3.5 ; extra == 'lint'
+Requires-Dist: mdformat-frontmatter >=0.4.1 ; extra == 'lint'
+Requires-Dist: mdformat-pyproject >=0.0.1 ; extra == 'lint'
+Provides-Extra: release
+Requires-Dist: setuptools ; extra == 'release'
+Requires-Dist: wheel ; extra == 'release'
+Requires-Dist: twine ; extra == 'release'
+Provides-Extra: test
+Requires-Dist: ape-base ; extra == 'test'
+Requires-Dist: ape-optimism ; extra == 'test'
+Requires-Dist: ape-polygon ; extra == 'test'
+Requires-Dist: ape-infura ; extra == 'test'
+Requires-Dist: ape-solidity ; extra == 'test'
+Requires-Dist: pytest >=6.0 ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: hypothesis <7.0,>=6.2.0 ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+
+# Quick Start
+
+The following blockchain explorers are supported in this plugin:
+
+- [Base](https://base.blockscout.com/) for Base networks.
+- [Ethereum](https://eth.blockscout.com/) for Ethereum networks.
+- [Gnosis](https://gnosis.blockscout.com/) for Gnosis networks.
+- [Optimism](https://optimism.blockscout.com/) for Optimism networks.
+- [Polygon](https://polygon.blockscout.com/) for Polygon POS networks.
+
+## Dependencies
+
+- [python3](https://www.python.org/downloads) version 3.8 up to 3.11.
+
+## Installation
+
+### via `pip`
+
+You can install the latest release via [`pip`](https://pypi.org/project/pip/):
+
+```bash
+pip install ape-blockscout
+```
+
+### via `setuptools`
+
+You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
+
+```bash
+git clone https://github.com/ApeWorX/ape-blockscout.git
+cd ape-blockscout
+python3 setup.py install
+```
+
+## Quick Usage
+
+## Set up the environment
+
+Specify API keys as environment variables. You could put them in your shell's config like `~/.profile`
+or use a tool like [direnv](https://direnv.net/) and store them locally in `.envrc`.
+
+You can also specify multiple comma-separated keys, a random key will be chosen for each request.
+This could be useful if you hit API rate limits.
+
+You can obtain an API key by registering with Blockscout and visiting [this page](https://docs.blockscout.com/for-users/my-account/api-keys).
+
+```bash
+export BASE_BLOCKSCOUT_API_KEY=SAMPLE_KEY
+export ETH_BLOCKSCOUT_API_KEY=SAMPLE_KEY
+export GNOSIS_BLOCKSCOUT_API_KEY=SAMPLE_KEY
+export OPTIMISM_BLOCKSCOUT_API_KEY=SAMPLE_KEY
+export POLYGON_BLOCKSCOUT_API_KEY=SAMPLE_KEY
+```
+
+## Development
+
+Please see the [contributing guide](CONTRIBUTING.md) to learn more how to contribute to this project.
+Comments, questions, criticisms and pull requests are welcomed.
