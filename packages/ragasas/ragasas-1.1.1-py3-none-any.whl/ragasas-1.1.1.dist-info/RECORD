@@ -1,0 +1,16 @@
+ragasas/__init__.py,sha256=eRTjKExZ8xcr0muqon1IPrLLx7Uv2CdG0ssklVSGFAI,29
+ragasas/ragasas.py,sha256=NvYyDFA5loHM_jfiyqeZ5dmUaPq10nB0UoL1XsbAgMQ,1086
+ragasas/_core/__init__.py,sha256=vvP1TEZrBHum87smysBlQGv13gtk2y94LP08zKaiYfQ,111
+ragasas/_core/embedder/__init__.py,sha256=1AGP1WzExldz__yeGy9pYxq3KNnrxVtGZiMz1htIhG4,53
+ragasas/_core/embedder/openai_text_embedder.py,sha256=N7e7HjihJbz2musJm2J9gc0iFhpGlm_8Kni8nxxGVSc,758
+ragasas/_core/embedder/text_embedder.py,sha256=ahArPZiLci8UsK2vVus0leykmG6xuQCdXOzMngd4jgU,242
+ragasas/_core/llm/__init__.py,sha256=0vgYakTkM0e3yGMzREwh7KjDIcMHCbDB-9s8YTt1VE8,34
+ragasas/_core/llm/llm.py,sha256=WSG7Wddx2LVqDgXiwVbskxvkTX5LQ-DcARUIUK6HxvQ,139
+ragasas/_core/llm/openai_llm.py,sha256=D2W1W1YU08-IS_adL-lpYqcZqM7aZLuFCyqQVqBffmQ,2036
+ragasas/_core/vector_store/__init__.py,sha256=ggEbyxBKLtNpmSKQX6FrOHS_pIPhGpFZiKMk2M08dGs,49
+ragasas/_core/vector_store/faiss_vector_store.py,sha256=ooDj7bJz8taXnZUOOHzPAdK_zyO9jGLbaV5jOK1kvlg,6183
+ragasas/_core/vector_store/vector_store.py,sha256=bOm5Ow0F7twIYaih9807rsnqtQYI8ldNq0JmfeolTHA,240
+ragasas-1.1.1.dist-info/METADATA,sha256=L97B6gPq7bVfXtI4g3FpK3jIY25iweHhiGWIkymJVR0,3954
+ragasas-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ragasas-1.1.1.dist-info/top_level.txt,sha256=oU9ylM7XhaZRvv7ftwsVxlBItmvDbsfjMAqRXYJ1Zds,8
+ragasas-1.1.1.dist-info/RECORD,,
