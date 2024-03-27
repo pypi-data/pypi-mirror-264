@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyvidfetcher
+Version: 1.0.0
+Summary: YouTube video downloader using Python
+Author: Torrez Tsoi
+Author-email: that1.stinkyarmpits@gmail.com
+License: MIT
+Requires-Dist: pytube
