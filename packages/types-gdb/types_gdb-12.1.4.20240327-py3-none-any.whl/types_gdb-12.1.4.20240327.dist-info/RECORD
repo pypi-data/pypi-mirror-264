@@ -1,0 +1,13 @@
+gdb-stubs/METADATA.toml,sha256=0wesqGZ5nOa5iTd7cQtUIfbmaDqemVcpo7xAyvOuXGQ,607
+gdb-stubs/__init__.pyi,sha256=aA0byhmf-S9w0-D4xU2dK5G5jelFSUkJ_UAkCzoyW6Y,20551
+gdb-stubs/events.pyi,sha256=JwGwDeFZvHg1fSSwsAnr9zg2MBYb9zJ-IAKNZQKYTTE,4204
+gdb-stubs/printing.pyi,sha256=FHMqQ66eS_OgPKAYRD_bbY5SnF5uy_i7-F0V6Pde5OQ,983
+gdb-stubs/prompt.pyi,sha256=v0iNiE5KwZjXMiQcrQT3HhwTNWZNGbk4jMqYaVkOxgg,47
+gdb-stubs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gdb-stubs/types.pyi,sha256=NC-E5E5MN-d8vaBMoo8aetRIY_MFiov0WXSCyj-M7KQ,870
+gdb-stubs/unwinder.pyi,sha256=GXp_zej0DjUERVs9mJWfMlkApgHmOfiGU9qsY0GBalE,135
+gdb-stubs/xmethod.pyi,sha256=LL75PcpFINTPxgXZpeOin37NV41txvmoUV-ZvJh0KRY,887
+types_gdb-12.1.4.20240327.dist-info/METADATA,sha256=icYn38eAO5y14HiHAkAS3n4nF1JavZCpcxbxC0tZggE,1813
+types_gdb-12.1.4.20240327.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+types_gdb-12.1.4.20240327.dist-info/top_level.txt,sha256=MrR0nDg_CrYS2hZvrhYtmh2GEJeeD7sNwBwRwdQ7AvA,10
+types_gdb-12.1.4.20240327.dist-info/RECORD,,
