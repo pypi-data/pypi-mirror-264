@@ -1,0 +1,8 @@
+
+[dev]
+commitizen
+pre-commit
+pytest
+mypy
+black
+isort
