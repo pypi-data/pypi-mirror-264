@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ghostai
+Version: 1.0.0
+Summary: A Python library for interacting with the GhostAI API
+Home-page: https://github.com/The-UnknownHacker/ghostaiapi
+Author: CyberZenDev
+Author-email: cyberzendev@gmail.com
+License: MIT
+Requires-Python: >=3.6
+Requires-Dist: requests>=2.26.0
