@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: METIforST
+Version: 0.1
+Summary: METI: Deep profiling of tumor ecosystems by integrating cell morphology and spatial transcriptomics
+Home-page: https://github.com/Flashiness/METI
+Author: Jiahui Jiang
+Author-email: jjiang6@mdanderson.org
+Description-Content-Type: text/markdown
+Requires-Dist: python-igraph
+Requires-Dist: torch
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scanpy
+Requires-Dist: anndata
+Requires-Dist: louvain
+Requires-Dist: scikit-learn
+Requires-Dist: numba
+Requires-Dist: TESLAforST
+
+# METI
+Morphology-Enhanced Spatial Transcriptome Analysis Integrator
