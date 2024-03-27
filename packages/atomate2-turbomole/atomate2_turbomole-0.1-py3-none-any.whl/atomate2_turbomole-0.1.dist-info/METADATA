@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: atomate2-turbomole
+Version: 0.1
+Summary: The atomate2-turbomole package is a workflow package for Turbomole
+Author-email: David Waroquiers <david.waroquiers@matgenix.com>
+License: modified BSD
+Keywords: high-throughput,automated,workflow,dft,ab initio,turbomole
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymatgen >=2022.2.10
+Requires-Dist: custodian >=2024.3.12
+Requires-Dist: jobflow >=0.1.11
+Requires-Dist: emmet-core >=0.80.0
+Requires-Dist: turbomoleio ==1.4.0
+Provides-Extra: dev
+Requires-Dist: pre-commit >=2.12.1 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-design ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: autodoc-pydantic >=2.0.0 ; extra == 'docs'
+Requires-Dist: sphinxcontrib-mermaid ; extra == 'docs'
+Provides-Extra: docs_erdantic
+Requires-Dist: autodoc-pydantic[erdantic] >=2.0.0 ; extra == 'docs_erdantic'
+Provides-Extra: tests
+Requires-Dist: pytest ==8.1.1 ; extra == 'tests'
+Requires-Dist: pytest-cov ==5.0.0 ; extra == 'tests'
+Requires-Dist: pytest-mock ==3.14.0 ; extra == 'tests'
+Requires-Dist: mongomock ==4.1.2 ; extra == 'tests'
+
+# atomate2-turbomole
+
+Atomate2-turbomole is an add-on package for [atomate2](https://github.com/materialsproject/atomate2).
+
+Atomate2-turbomole is built to work with Turbomole, and is built on top of open source
+libraries such as [pymatgen](https://github.com/materialsproject/pymatgen),
+[custodian](https://github.com/materialsproject/custodian),
+[jobflow](https://github.com/materialsproject/jobflow)
+and [turbomoleio](https://github.com/Matgenix/turbomoleio).
+
+## License
+
+This add-on is released under the same license as atomate2, modified BSD, the full text of which can
+be found in this repository.
