@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mets_dnx
+Version: 0.1.18
+Summary: Python library for building Rosetta DNX/METS XML documents
+Download-URL: https://github.com/NLNZDigitalPreservation/mets_dnx/archive/v0.1.18.tar.gz
+Author: Sean Mosely
+Author-email: sean.mosely@gmail.com
+Maintainer: Svetlana Koroteeva
+Maintainer-email: svetlana.koroteeva@gmail.com
+License: MIT
+License-File: LICENSE.txt
+Requires-Dist: lxml >=3.6.4
+Requires-Dist: pymets
+Requires-Dist: pydc
+Requires-Dist: pydnx
+
