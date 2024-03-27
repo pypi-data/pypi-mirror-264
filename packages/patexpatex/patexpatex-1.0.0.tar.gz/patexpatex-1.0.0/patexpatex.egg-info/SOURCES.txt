@@ -1,0 +1,5 @@
+setup.py
+patexpatex.egg-info/PKG-INFO
+patexpatex.egg-info/SOURCES.txt
+patexpatex.egg-info/dependency_links.txt
+patexpatex.egg-info/top_level.txt
