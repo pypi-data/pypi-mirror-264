@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mediqbox-md2pptx
+Version: 0.0.7
+Summary: A mediqbox component to generate pptx from markdown
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mediqbox-abc>=0.0.4
+Requires-Dist: python-pptx
+Requires-Dist: cairosvg
+Requires-Dist: graphviz
+
+# mediqbox-md2pptx
+
+A mediqbox component to generate pptx from markdown.

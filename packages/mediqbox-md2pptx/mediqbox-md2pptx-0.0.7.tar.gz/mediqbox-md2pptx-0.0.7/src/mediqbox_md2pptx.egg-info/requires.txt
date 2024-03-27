@@ -1,0 +1,4 @@
+mediqbox-abc>=0.0.4
+python-pptx
+cairosvg
+graphviz
