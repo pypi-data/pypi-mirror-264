@@ -1,0 +1,44 @@
+Metadata-Version: 2.3
+Name: ry
+Version: 0.0.3
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: pytest ; extra == 'tests'
+Provides-Extra: tests
+Summary: ry = rust + python kitchen sink utils (WIP -- use at your own risk!)
+Keywords: rust,python,utils
+Author-email: jesse rubin <jessekrubin@gmail.com>
+Maintainer-email: jesse rubin <jessekrubin@gmail.com>
+License: MIT OR Apache-2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# ry
+
+rust + python kitchen sink library
+
+## What and why?
+
+This is a collection of pyo3-wrappers for rust crates I wish existed in python.
+
+It all started with me wanting a fast `fnv1a-64`
+
+## Crate bindings
+
+- `which`
+- `fnv`
+- `shlex`
+- `walkdir`
+- TBD:
+  - `globset`
+  - `regex`
+  - `ignore`
+  - `tokio` (fs + process)
+  - `tracing` (could be nicer than python's awful logging lib)
+
+## DEV
+
+`just` is used to run tasks.
+
