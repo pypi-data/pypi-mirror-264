@@ -1,0 +1,1 @@
+django_querysets_single_query_fetch

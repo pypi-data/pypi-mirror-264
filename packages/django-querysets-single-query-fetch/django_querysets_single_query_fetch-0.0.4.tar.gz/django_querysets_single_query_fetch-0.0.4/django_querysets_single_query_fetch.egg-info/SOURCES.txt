@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_querysets_single_query_fetch/__init__.py
+django_querysets_single_query_fetch/apps.py
+django_querysets_single_query_fetch/service.py
+django_querysets_single_query_fetch.egg-info/PKG-INFO
+django_querysets_single_query_fetch.egg-info/SOURCES.txt
+django_querysets_single_query_fetch.egg-info/dependency_links.txt
+django_querysets_single_query_fetch.egg-info/not-zip-safe
+django_querysets_single_query_fetch.egg-info/requires.txt
+django_querysets_single_query_fetch.egg-info/top_level.txt
