@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: leaping
+Version: 0.1.14
+Requires-Python: >=3.0
+Requires-Dist: pytest-leaping ==0.1.14
+Requires-Dist: prompt-toolkit ==3.0.20
+Requires-Dist: openai ==1.12.0
+
