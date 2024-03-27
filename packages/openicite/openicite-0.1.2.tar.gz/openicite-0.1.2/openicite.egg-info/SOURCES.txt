@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+openicite/__init__.py
+openicite.egg-info/PKG-INFO
+openicite.egg-info/SOURCES.txt
+openicite.egg-info/dependency_links.txt
+openicite.egg-info/requires.txt
+openicite.egg-info/top_level.txt
