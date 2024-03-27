@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: strlen
+Version: 1.0.0
+Summary: Simple class that allows you to sort and compare strings by their length
+Author: Romooper
+Author-email: romanshupik32@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
