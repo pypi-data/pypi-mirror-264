@@ -1,0 +1,3 @@
+[console_scripts]
+calm-llm=src.CALM:main
+
