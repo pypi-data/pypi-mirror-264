@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: RunRunner
+Version: 0.1.0
+Summary: RunRunner is a wrapper library for creating and managing subprocesses and their status, mainly focussed on using Slurm but (in absence) can also work with local jobs.
+Home-page: https://github.com/thijssnelleman/RunRunner
+Author: Thijs Snelleman
+Author-email: fkt_sparkle@aim.rwth-aachen.de
