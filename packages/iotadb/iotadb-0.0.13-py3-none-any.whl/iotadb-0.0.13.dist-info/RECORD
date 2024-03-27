@@ -1,0 +1,10 @@
+iotadb/__init__.py,sha256=RffbP37C8cnsIha1sCKjJAnLZygFCOPfs8lPIQbc8rM,115
+iotadb/iotadb.py,sha256=lXbw68U715-JQBm8IjnZuV208Y_kNe9Kg7LWfud59Jg,6603
+iotadb/metrics.py,sha256=1And0U0mmk-fNbh2KEAGVt70jr7oHGFuHsMgNH9GMPE,560
+iotadb/schemas.py,sha256=8G6yZMn8rL4ucc5IP4K_aKqJaFiQRPj5atV4AuJZyV0,2442
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iotadb-0.0.13.dist-info/LICENSE,sha256=7s1FXsQfzlcFbve4bPIx1xdZZ7i0DXEML-L3Jvz19s4,1060
+iotadb-0.0.13.dist-info/METADATA,sha256=axbzZ_pgXlcvkfvh5bxvx1WF751NYfZ8ZFumx-raRWc,2316
+iotadb-0.0.13.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+iotadb-0.0.13.dist-info/top_level.txt,sha256=_WEvVU3OSZmZGxtAiTQ-yMAveVokYIzyWKXe-6TxEwQ,7
+iotadb-0.0.13.dist-info/RECORD,,
