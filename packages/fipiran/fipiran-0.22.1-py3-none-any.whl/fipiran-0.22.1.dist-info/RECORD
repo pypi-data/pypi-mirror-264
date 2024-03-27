@@ -1,0 +1,9 @@
+fipiran/__init__.py,sha256=P4gZSk4iZK1fGTHaChUTHPw1wpLdK0pdmj_ZZYvhoQs,1248
+fipiran/codal.py,sha256=OTZ6hrOC_tHMhu88K615_wX5z9HOGknJOn33EeHRmt4,600
+fipiran/data_service.py,sha256=DP74xJtD137fsz-JWOu2B62cp6o-HJ0zV2pikgz82tE,4548
+fipiran/funds.py,sha256=kM_pJf6O_UXTcUzxjqyqsuUF0B3DVqg4dORHey3XyuY,4645
+fipiran/symbols.py,sha256=kCnvEOdl2B16VPzx1qTWLaGMKkO3B8K5LJXnB7sCGa4,4566
+fipiran-0.22.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fipiran-0.22.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+fipiran-0.22.1.dist-info/METADATA,sha256=DJZbcAO_3_r88y-4_mVK26n9YWO1em8XB2yzAtA9ahI,3798
+fipiran-0.22.1.dist-info/RECORD,,
