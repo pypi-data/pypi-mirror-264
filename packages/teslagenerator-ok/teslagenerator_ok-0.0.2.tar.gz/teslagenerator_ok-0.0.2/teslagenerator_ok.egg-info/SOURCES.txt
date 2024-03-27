@@ -1,0 +1,10 @@
+README.md
+setup.py
+teslagenerator_ok/__init__.py
+teslagenerator_ok/crawler.py
+teslagenerator_ok/faker.py
+teslagenerator_ok.egg-info/PKG-INFO
+teslagenerator_ok.egg-info/SOURCES.txt
+teslagenerator_ok.egg-info/dependency_links.txt
+teslagenerator_ok.egg-info/requires.txt
+teslagenerator_ok.egg-info/top_level.txt
