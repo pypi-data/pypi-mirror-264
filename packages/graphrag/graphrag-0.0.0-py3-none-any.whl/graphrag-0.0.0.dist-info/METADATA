@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: graphrag
+Version: 0.0.0
+Summary: The GraphRAG project is a data pipeline and transformation suite designed to extract meaningful, structured data from unstructured text using LLMs
+Author-email: Chris Trevino <chtrevin@microsoft.com>, Ha Trinh <trinhha@microsoft.com>, Alonso Guevara Fernández <alonsog@microsoft.com>, Andrés Morales <andresmor@microsoft.com>, David Tittsworth <datittsw@microsoft.com>, Dayenne de Souza <ddesouza@microsoft.com>, Kate Lytvynets <kalytv@microsoft.com>, Jonathan Larson <jolarso@microsoft.com>, Nathan Evans <naevans@microsoft.com>
+
