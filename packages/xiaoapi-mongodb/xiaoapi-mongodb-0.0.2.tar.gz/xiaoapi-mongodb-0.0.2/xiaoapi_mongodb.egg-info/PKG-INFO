@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: xiaoapi-mongodb
+Version: 0.0.2
+Summary: xiaoapi mongodb
+Author-email: xiaojinli <553555614@qq.com>
+License: MIT
+Project-URL: Documentation, https://github.com/xiaojinlii/xiaoapi/blob/main/libs/mongodb/README.md
+Project-URL: Repository, https://github.com/xiaojinlii/xiaoapi
+Project-URL: Source Code, https://github.com/xiaojinlii/xiaoapi/tree/main/libs/mongodb
+Keywords: xiaoapi,fastapi,web-framework,mongodb
+Classifier: Framework :: FastAPI
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xiaoapi
+Requires-Dist: motor==3.3.2
+
+# xiaoapi-mongodb
+[xiaoapi](https://github.com/xiaojinlii/xiaoapi)的mongodb扩展包
+
+
+## 安装
+```
+pip install xiaoapi-mongodb
+```
+
+
+## 配置
+需要在 application/settings 中 添加以下配置：
+```python
+# MongoDB 数据库配置
+# 格式：mongodb://用户名:密码@地址:端口/?authSource=数据库名称
+MONGO_DB_ENABLE = False
+MONGO_DB_NAME = "fastapi"
+MONGO_DB_URL = f"mongodb://admin:123456@177.8.0.6:27017/?authSource={MONGO_DB_NAME}"
+```
+
+然后在 application/settings 中的 EVENTS 里引入 xiaoapi_mongodb
+```python
+EVENTS = [
+    "xiaoapi_mongodb.connect_mongo",
+]
+```
