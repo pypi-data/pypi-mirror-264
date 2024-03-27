@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cifcleaner
+Version: 0.23
+Requires-Dist: click==8.1.7
+Requires-Dist: gemmi==0.6.5
+Requires-Dist: matplotlib==3.8.3
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.2.1
+Requires-Dist: pytest==8.0.1
