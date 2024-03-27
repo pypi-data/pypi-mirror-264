@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: torch_operation_counter
+Version: 0.3.3
+Home-page: https://github.com/SamirMoustafa/torch-operation-counter/
+Author: Samir Moustafa
+Author-email: samir.moustafa.97@gmail.com
+Requires-Dist: torch>=1.13.1
