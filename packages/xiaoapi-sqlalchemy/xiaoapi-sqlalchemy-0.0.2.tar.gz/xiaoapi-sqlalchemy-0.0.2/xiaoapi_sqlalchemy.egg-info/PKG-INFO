@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: xiaoapi-sqlalchemy
+Version: 0.0.2
+Summary: xiaoapi sqlalchemy
+Author-email: xiaojinli <553555614@qq.com>
+License: MIT
+Project-URL: Documentation, https://github.com/xiaojinlii/xiaoapi/blob/main/libs/sqlalchemy/README.md
+Project-URL: Repository, https://github.com/xiaojinlii/xiaoapi
+Project-URL: Source Code, https://github.com/xiaojinlii/xiaoapi/tree/main/libs/sqlalchemy
+Keywords: xiaoapi,fastapi,web-framework,sqlalchemy
+Classifier: Framework :: FastAPI
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xiaoapi==0.0.1
+Requires-Dist: SQLAlchemy==2.0.25
+Requires-Dist: aiosqlite==0.20.0
+
+# xiaoapi-sqlalchemy
+[xiaoapi](https://github.com/xiaojinlii/xiaoapi)的sqlalchemy扩展包
+
+
+## 安装
+```
+pip install xiaoapi-sqlalchemy
+```
+
+
+## 配置数据库连接url
+在 application/settings 中 配置数据库连接url
+```python
+# 数据库配置项
+# 连接引擎官方文档：https://docs.sqlalchemy.org/en/20/core/engines.html
+# mysql配置说明：mysql+asyncmy://数据库用户名:数据库密码@数据库地址:数据库端口/数据库名称，需安装asyncmy
+# sqlite配置说明：sqlite+aiosqlite:///数据库路径，需安装aiosqlite
+SQLALCHEMY_DATABASE_URL = f"sqlite+aiosqlite:///{BASE_DIR}/db.sqlite3"
+```
+
+
+## 创建表结构
+在 application/settings 中 配置需要迁移的models
+```python
+# 数据库迁移
+# 会将MIGRATE_MODELS里所有的model迁移到数据库表结构
+MIGRATE_MODELS = [
+    "modules.quickstart.models"
+]
+```
+
+在命令行中使用以下命令创建表结构:
+```
+python manage.py sqlalchemy create-tables
+```
