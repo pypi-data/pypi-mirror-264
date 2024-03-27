@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: crypto_checker
+Version: 1.0.0
+Summary: A simple crypto price checker using CoinGecko API
+Home-page: https://github.com/0xbichain/crypto_checker
+Author: 0xbichain
+Author-email: author@mahaka.net
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# crypto_checker
+
+A simple crypto price checker using CoinGecko API
+
+
+# Example
+
+
+>>> from crypto_checker.checker import CryptoChecker
+>>> cc = CryptoChecker()
+>>> cc.get_price('bitcoin')
+>>>
+>>
