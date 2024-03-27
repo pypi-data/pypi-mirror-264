@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/tctk/__init__.py
+src/tctk/hail-tools.py
+src/tctk/polars-tools.py
+tctk.egg-info/PKG-INFO
+tctk.egg-info/SOURCES.txt
+tctk.egg-info/dependency_links.txt
+tctk.egg-info/requires.txt
+tctk.egg-info/top_level.txt
