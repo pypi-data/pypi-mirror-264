@@ -1,0 +1,11 @@
+include monaco_editor/monaco_editor.min.js
+include monaco_editor/monaco_editor.min.js.map
+include monaco_editor/async-*.js
+include monaco_editor/async-*.js.map
+include monaco_editor/*-shared.js
+include monaco_editor/*-shared.js.map
+include monaco_editor/metadata.json
+include monaco_editor/package-info.json
+include README.md
+include LICENSE
+include package.json

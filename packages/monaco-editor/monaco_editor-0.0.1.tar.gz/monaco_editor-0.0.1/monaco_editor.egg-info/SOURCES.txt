@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+monaco_editor/MonacoEditor.py
+monaco_editor/__init__.py
+monaco_editor/_imports_.py
+monaco_editor/metadata.json
+monaco_editor/monaco_editor.min.js
+monaco_editor/monaco_editor.min.js.map
+monaco_editor/package-info.json
+monaco_editor.egg-info/PKG-INFO
+monaco_editor.egg-info/SOURCES.txt
+monaco_editor.egg-info/dependency_links.txt
+monaco_editor.egg-info/top_level.txt
