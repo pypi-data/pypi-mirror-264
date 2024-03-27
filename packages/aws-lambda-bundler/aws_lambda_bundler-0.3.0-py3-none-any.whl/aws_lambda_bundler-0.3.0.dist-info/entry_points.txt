@@ -1,0 +1,2 @@
+[console_scripts]
+aws-lambda-bundler = aws_lambda_bundler:main
