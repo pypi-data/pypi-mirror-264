@@ -1,0 +1,4 @@
+requests
+ollama
+pyautogen
+dockerfile-parse
