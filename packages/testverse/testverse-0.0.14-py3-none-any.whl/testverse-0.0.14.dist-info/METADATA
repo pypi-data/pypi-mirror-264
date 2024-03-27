@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: testverse
+Version: 0.0.14
+Summary: Test version of evalverse
+License: Apache-2.0
+Author: Evalverse
+Author-email: evalverse@upstage.ai
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anthropic (>=0.3)
+Requires-Dist: fschat[model-worker] (==0.2.36)
+Requires-Dist: lm-eval (==0.4.2)
+Requires-Dist: openai (<1)
+Description-Content-Type: text/markdown
+
+# testverse
