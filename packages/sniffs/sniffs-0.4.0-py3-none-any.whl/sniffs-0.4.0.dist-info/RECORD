@@ -1,0 +1,8 @@
+sniffs/__init__.py,sha256=M3LhrbgqfPZbSLjIHxnwzdbG8nhH1lnXzQqFtCxX7Tc,23
+sniffs/decorator.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sniffs/fixture.py,sha256=BJ9VYSb8N8bpPya3Us7rGE_kfaxVHRFPIYcA9x_Ukd4,1508
+sniffs/router.py,sha256=lDblhccNxBPxJSuK6Yq05-K09JVOD28y2R4SmDy9HzI,3709
+sniffs/util.py,sha256=nUTxQpiRjmV37SqojRz46vbYmV6N8-wbhF1tejJVeco,226
+sniffs-0.4.0.dist-info/METADATA,sha256=jTf62Dx87QCHYm2tc7GBlGQKvceQsamuzEwcg8dG8gI,423
+sniffs-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sniffs-0.4.0.dist-info/RECORD,,
