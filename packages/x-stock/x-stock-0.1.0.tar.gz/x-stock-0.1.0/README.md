@@ -1,0 +1,47 @@
+# x-stock-股票分析预警
+
+## 功能列表
+
+- 预警
+- 分析
+- 展示
+
+## 泛化功能
+
+- 芒格和巴菲特思维模型
+- 程序化估值，统计分析和概率等
+
+## 预警
+
+- 神奇九转
+- MACD
+- 资金量
+
+## 分析
+
+- 情绪分析
+- 技术分析
+- 财务分析
+- 政策分析
+
+## 展示
+
+- 预警具象化到页面
+- 分析信息展示到页面
+
+## 代码编辑器
+
+- 可加载作用域
+- 可进行提示
+
+
+## 打包相关
+```
+python setup.py sdist bdist_wheel
+twine upload dist/*
+删除：
+rm -rf dist/ build/ x_stock.egg-info/
+
+pip install -i https://pypi.org/simple x-stock
+pip install -i https://pypi.org/simple --upgrade x-stock
+```
