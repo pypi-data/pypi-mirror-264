@@ -1,0 +1,8 @@
+constance/__init__.py,sha256=DMbF-aypxSQ2aMS9p-MN0DcxKWSUBstdLjpEjDGnLyo,3388
+constance/settings.py,sha256=xg_qFLW5bMQwRm_4QDgreFL_JyQeR4wT0xWMCvBqcTA,424
+settings/__init__.py,sha256=JbJpykRd8Zwz3mbbG7ia5TNOpI4-g9sFdxSCQycd3cM,4306
+flask_redis_constance-0.0.6.dist-info/LICENCE,sha256=wISEsqW3JwwYkwU-aM7k5GahInhH_yNmgywrQSCP3zU,1069
+flask_redis_constance-0.0.6.dist-info/METADATA,sha256=A31GtA4_5xcbDAxfCR9r0Zg54RQ7K-kiCBFdKy6yDps,903
+flask_redis_constance-0.0.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+flask_redis_constance-0.0.6.dist-info/top_level.txt,sha256=Ni2NpMr9lnqd3bal-eVYhccx9VgyTe_oh05ab7zHz4I,19
+flask_redis_constance-0.0.6.dist-info/RECORD,,
