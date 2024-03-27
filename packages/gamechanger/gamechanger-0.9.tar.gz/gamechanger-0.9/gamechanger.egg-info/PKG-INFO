@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: gamechanger
+Version: 0.9
+Summary: A sample gamechanger library for gamification
+Home-page: https://github.com/abdellatif-belmady/gamechanger
+Author: Abdellatif BELMADY
+Author-email: <abdellatif.belmady@gmail.com>
+Description-Content-Type: text/markdown
+
+# **Welcome to gamechanger!**
+
+This Python library empowers you to create engaging games with ease. It provides a foundation for building user interfaces, managing assets, and structuring your game logic.
+
+## **What's Included:**
+
+-   **UI Components:**  Classes like  `Button`  and  `Image`  facilitate creating interactive elements and displaying visuals.
+-   **Asset Management:**  The  `AssetManager`  class simplifies loading and accessing images and sounds within your game.
+-   **Game Window Management:**  The  `GameWindow`  class handles window creation, event loop, and basic rendering functionalities.
+
+## **Getting Started:**
+
+1.  **Installation:**
+    -   **pip install:**  ```` pip install gamechanger ````
+    -   **Github repo:**  https://github.com/abdellatif-belmady/gamechanger
+2.  **Import the library:**
+    
+    ```py
+    from gamechanger import GameWindow, Button, Image, AssetManager
+    
+    ```
+    
+3.  **Explore the Classes:**
+    -   Refer to the documentation within each class for detailed information on available methods and properties.
+4.  **Build Your Game:**
+    -   Use the provided classes as building blocks to create interactive user interfaces and manage game assets.
+    -   Develop your game logic and functionalities using the core functionalities of these classes.
+
+## **Example Usage:**
+This ReadMe provides a basic example demonstrating the usage of `gamechanger` classes to create a simple game window with a button and an image:
+
+```py
+from gamechanger import GameWindow, Button, Image, AssetManager
+
+# Create a new game window
+game_window = GameWindow("Student Game", 800, 600)
+
+# Asset manager
+asset_manager = AssetManager()
+asset_manager.load_asset("player_image", "img.png")
+
+# UI elements
+button = Button(350, 250, 200, 50, "Click me!", lambda: print("Button clicked!"))
+image = Image(100, 100, "player_image", asset_manager)
+
+# Add elements to the game window
+game_window.add_element(button)
+game_window.add_element(image)
+
+# Run the game loop
+game_window.run()
+```
+
+## **Further Exploration:**
+
+Explore the provided classes and their functionalities to create more complex user interfaces and game mechanics. Consider extending these classes or adding your own functionalities to cater to your specific game development needs.
+
+## **Contributing:**
+
+We welcome contributions to the `gamechanger` library! If you have improvements, new functionalities, or suggestions, feel free to create pull requests or raise issues on [the repository](https://github.com/abdellatif-belmady/gamechanger).
+
+## **License:**
+
+MIT License
+
+Copyright (c) 2024 The Game Changer Company
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+## **Happy Game Development!**
+
+This ReadMe incorporates the provided `main.py` content, explains the functionalities of the included classes, and offers suggestions for further exploration. Remember to replace placeholders like `"img.png"` with the actual path to your image asset.
