@@ -1,0 +1,32 @@
+POST http://localhost:9001/api/core/v1/function
+{
+    "apiVersion": "core/v1",
+    "kind": "function",
+    "metadata": {
+        "name": "example-function"
+    },
+    "spec": {
+        "content": "http://localhost:7000/calculate",
+        "description": "example description"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+HTTP 201
+
+POST http://localhost:9001/api/core/v1/function
+{
+    "apiVersion": "core/v1",
+    "kind": "function",
+    "metadata": {
+        "name": "other-example-function"
+    },
+    "spec": {
+        "content": "http://localhost:6799/add",
+        "description": "example description"
+    }
+}
+
+HTTP 201

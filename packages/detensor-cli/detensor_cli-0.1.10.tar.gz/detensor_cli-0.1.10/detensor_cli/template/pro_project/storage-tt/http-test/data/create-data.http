@@ -1,0 +1,56 @@
+POST http://localhost:9001/api/core/v1/data
+
+{
+    "apiVersion": "core/v1",
+    "kind": "data",
+    "metadata": {
+        "name": "test-data-1"
+    },
+    "spec": {
+        "content": "12345",
+        "description": "test data 1"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+HTTP 201
+
+POST http://localhost:9001/api/core/v1/data
+
+{
+    "apiVersion": "core/v1",
+    "kind": "data",
+    "metadata": {
+        "name": "test-data-2"
+    },
+    "spec": {
+        "content": "this-is a secret",
+        "description": "test-data-2"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+HTTP 201
+
+POST http://localhost:9001/api/core/v1/data
+
+{
+    "apiVersion": "core/v1",
+    "kind": "data",
+    "metadata": {
+        "name": "test-data-3"
+    },
+    "spec": {
+        "content": "this-is another secret",
+        "description": "test-data-3"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+HTTP 201

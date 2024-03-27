@@ -1,0 +1,16 @@
+addr: '127.0.0.1:9002'
+
+compiler:
+  cmds: ["./hbc", "@", "-o", "@"]
+
+db:
+  addr: '127.0.0.1'
+  port: 3306
+  database: storage2
+  user: root
+  password: '123456'
+
+chain:
+  chainmaker:
+    sdk_config: ./testdata/sdk_config2.yaml
+    contract_name: example

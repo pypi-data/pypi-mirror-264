@@ -1,0 +1,19 @@
+POST http://127.0.0.1:9001/api/core/v1/namespace/example-ns/proposal
+Content-Type: application/json; charset=utf-8
+file,proposal.json;
+
+HTTP 201
+[Captures]
+proposal_uid: body
+
+# 组织1 批准这一提议
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org1"
+}
+
+# 组织1 提交这一提议
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP 200
+

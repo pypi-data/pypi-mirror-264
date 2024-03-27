@@ -1,0 +1,35 @@
+
+
+
+POST http://localhost:9001/api/core/v1/function
+{
+    "apiVersion": "core/v1",
+    "kind": "function",
+    "metadata": {
+        "name": "query-function-2"
+    },
+    "spec": {
+        "content": "http://localhost:8000/success",
+        "description": "example description"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+POST http://localhost:9001/api/core/v1/functionbinding
+{
+    "apiVersion": "core/v1",
+    "kind": "functionbinding",
+    "metadata": {
+        "name": "query-function-binding-2"
+    },
+    "spec": {
+        "functionUid": 1,
+        "functionDeclareUid": 8,
+        "contractUid": 12
+    },
+    "status": {
+        "available": true
+    }
+}

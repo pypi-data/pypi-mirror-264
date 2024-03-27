@@ -1,0 +1,21 @@
+networks:
+  mpcc-bridge:
+    external: true
+services:
+  node0:
+    container_name: node0
+    environment:
+      RUST_LOG: debug
+      WAIT_HOSTS: 192.168.99.211:30000
+      WAIT_HOSTS_TIMEOUT: 120
+    image: tps-test:1.0.1
+    networks:
+      mpcc-bridge:
+        ipv4_address: 10.89.0.10
+    ports:
+    - 3000:3000
+    - 13000:13000
+    privileged: true
+    volumes:
+    - ./config0.yaml:/MPCC/config.yaml
+version: '3'

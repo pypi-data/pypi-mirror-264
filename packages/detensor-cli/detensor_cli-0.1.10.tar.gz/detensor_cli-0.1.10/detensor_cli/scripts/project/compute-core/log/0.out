@@ -1,0 +1,56 @@
+podman-compose version: 1.0.6
+['podman', '--version', '']
+using podman version: 3.4.4
+** excluding:  set()
+['podman', 'ps', '--filter', 'label=io.podman.compose.project=compute-core', '-a', '--format', '{{ index .Labels "io.podman.compose.config-hash"}}']
+['podman', 'network', 'exists', 'mpcc-bridge']
+podman create --name=node0 --label io.podman.compose.config-hash=37104aa4885be0317878dd385c0d284c37ff49b27f45f9e9c49f686473ea5a5e --label io.podman.compose.project=compute-core --label io.podman.compose.version=1.0.6 --label PODMAN_SYSTEMD_UNIT=podman-compose@compute-core.service --label com.docker.compose.project=compute-core --label com.docker.compose.project.working_dir=/home/tjr/桌面/cli/detensor_cli/scripts/project/compute-core --label com.docker.compose.project.config_files=docker-compose.yaml --label com.docker.compose.container-number=1 --label com.docker.compose.service=node0 -e RUST_LOG=debug -e WAIT_HOSTS=192.168.99.211:30000 -e WAIT_HOSTS_TIMEOUT=120 -v /home/tjr/桌面/cli/detensor_cli/scripts/project/compute-core/config0.yaml:/MPCC/config.yaml --net mpcc-bridge --network-alias node0 --ip=10.89.0.10 -p 3000:3000 -p 13000:13000 --privileged tps-test:1.0.1
+00b51fca15bc4dbe32aecc0c52c9f59a41cfe2d25eb07fb1d355777fe79a121c
+exit code: 0
+podman start -a node0
+[WARN  wait] Environment variable [WAIT_HOSTS_TIMEOUT] is deprecated. Use [WAIT_TIMEOUT] instead.
+[INFO  wait] --------------------------------------------------------
+[INFO  wait]  docker-compose-wait 2.11.0
+[INFO  wait] ---------------------------
+[DEBUG wait] Starting with configuration:
+[DEBUG wait]  - Hosts to be waiting for: [192.168.99.211:30000]
+[DEBUG wait]  - Paths to be waiting for: []
+[DEBUG wait]  - Timeout before failure: 120 seconds 
+[DEBUG wait]  - TCP connection timeout before retry: 5 seconds 
+[DEBUG wait]  - Sleeping time before checking for hosts/paths availability: 0 seconds
+[DEBUG wait]  - Sleeping time once all hosts/paths are available: 0 seconds
+[DEBUG wait]  - Sleeping time between retries: 1 seconds
+[DEBUG wait] --------------------------------------------------------
+[INFO  wait] Checking availability of host [192.168.99.211:30000]
+[INFO  wait] Host [192.168.99.211:30000] is now available!
+[INFO  wait] --------------------------------------------------------
+[INFO  wait] docker-compose-wait - Everything's fine, the application can now start!
+[INFO  wait] --------------------------------------------------------
+Getting image source signatures
+Copying blob sha256:b485c6cd33a6678b17655f6ef5fbde009a366e207c04d59535daa61dd397bc6d
+Copying blob sha256:a886fdc1df202b2fa5ba4157a645a3a409bc2db2f2f9ee62d316e246ff23453f
+Copying blob sha256:b2e5b1eee1926981ddfee0a93100625fbc78b12fb20a708dcbaf5ac805b38ae3
+Copying blob sha256:6aa872026017a6174385a71ce57d72500b5acbac1e1ec168880d0028ce773ae9
+Copying blob sha256:43ba18a5eaf87c0a4c4bf4ea6fc04d26774e8302bc20dd9b2a5e4023cb75c087
+Copying blob sha256:ff61a9b258e5be019eb30e2ea80b8cefaafb27360a154e5ec0e50f7b9a9cc068
+Copying blob sha256:f30c9841a0943c9ba4c1a682eb8d4599cf708b91c8743004fcc3a44a2e25bd76
+Copying blob sha256:2f6e140f1970d22ba3117a7c55acd4da01396c8504ea430528119589010f66a3
+Copying blob sha256:ba2eb97b01723014d65eb54910ebdbe771f802c3a83c5bd02e241f967c1f13c5
+Copying blob sha256:741ac734f0d4103986c2263a2b7a381e07112b7fc041aaa74a586033dc31fba4
+Copying blob sha256:0e411db88a04b54528fa376db8ac15b4714a910afe4c213e38d06f88cea2d056
+Copying config sha256:3f39f16c1448b46f6cf19cd5b053e823e795facf3b4627b5c7980579d1647b3a
+Writing manifest to image destination
+[2024-03-26T13:22:01Z INFO  grpc_server] grpc-server start up
+[2024-03-26T13:22:01Z INFO  compute_core::config] config_path is: ./config.yaml
+[2024-03-26T13:22:01Z INFO  grpc_server] core service listen on 10.89.0.10:13000
+[2024-03-26T13:22:01Z INFO  grpc_server] user service listen on 10.89.0.10:3000
+[2024-03-26T13:22:01Z INFO  grpc_server] pscontroller service listen on ./sockets/ps_socket.sock
+[2024-03-26T13:22:01Z INFO  grpc_server] compute image use motif_py:latest
+[2024-03-26T13:22:01Z DEBUG reqwest::connect] starting new connection: http://192.168.99.211:30000/
+[2024-03-26T13:22:01Z DEBUG hyper::client::connect::http] connecting to 192.168.99.211:30000
+[2024-03-26T13:22:01Z DEBUG hyper::client::connect::http] connected to 192.168.99.211:30000
+[2024-03-26T13:22:01Z DEBUG hyper::proto::h1::io] flushed 189 bytes
+[2024-03-26T13:22:02Z DEBUG hyper::proto::h1::io] parsed 2 headers
+[2024-03-26T13:22:02Z DEBUG hyper::proto::h1::conn] incoming body is empty
+[2024-03-26T13:22:02Z DEBUG hyper::client::pool] pooling idle connection for ("http", 192.168.99.211:30000)
+[2024-03-26T13:22:02Z DEBUG compute_core::grpc_frontend] create process server socket file ./sockets/ps_socket.sock

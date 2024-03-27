@@ -1,0 +1,88 @@
+#! /usr/bin/env python3
+import argparse
+import os
+import sys
+from typing import Optional
+import subprocess
+from dockeryaml import generate_docker_compose_file
+from configyaml import generate_config_file,generate_external_json
+from ip import get_ip
+from moudle import stop,init_pwd
+
+PID_FILENAME='./pid'
+def main():
+    #输入节点数
+    init_pwd()
+    parser = argparse.ArgumentParser(description='start multiple server instance')
+    parser.add_argument('-c', '--count', type=int, default=3, help='how many server to start')
+    parser.add_argument('--real', type=int, default=None, help='real storage api port')
+    ARGS = parser.parse_args() #用parser解析命令行
+    COUNT: int = ARGS.count
+    real: Optional[int] = ARGS.real #optinal使real可以为none
+    #清空之前的容器
+    stop()
+    ip= get_ip()
+    #生成docker.yaml
+    generate_config_file(COUNT,ip)
+    print('Configuration files generated successfully.')
+    # 生成config.yaml
+    generate_docker_compose_file(COUNT,ip)
+    #生成external.json
+    generate_external_json(ip)
+    print('Docker Compose file generated successfully.')
+    # 创建log
+    if not os.path.isdir('./log'):
+        os.mkdir('./log')
+    #创建pidfile
+    if not os.path.isfile(PID_FILENAME):
+        with open(PID_FILENAME, 'w'):
+            pass
+    
+    # 启动storagemock
+    command='cd ../storage-layer-mock && podman-compose up -d'
+    process=subprocess.run(command, shell=True, check=False)
+    if process.returncode == 0:
+        print('storage-mock deploy successfully')
+    else:
+        print('storage-mock failed with return code:', process.returncode)
+    # 启动external-fn
+    command='cd ../external-fn && podman-compose up -d'
+    process=subprocess.run(command, shell=True, check=False)
+    if process.returncode == 0:
+        print('external deploy successfully')
+    else:
+        print('storage-mock failed with return code:', process.returncode)
+    #pid列表
+    pids=[]
+    #启动
+    for index in range(COUNT):
+        service=f'tps-test{index}'
+        log_out=f'./log/{index}.out'
+        command=f'podman-compose up {service}'
+        print(command)
+        with open(log_out, 'w') as f:
+            process = subprocess.Popen(command, shell=True, stdout=f, stderr=f)
+            pids.append(str(process.pid))
+    #写入pid
+    with open(PID_FILENAME, 'w') as f:
+        f.write('\n'.join(pids))
+    #检查输出文件是否成功
+    for index in range(COUNT):
+        flag=False
+        while True:
+            service=f'tps-test{index}'
+            log_out=f'./log/{index}.out'
+            with open(log_out, 'r') as f:
+                lines = f.readlines()
+            for line in lines:
+                if 'create process server socket file ./sockets/ps_socket.sock' in line:
+                    print(f'{service}启动成功！')
+                    flag=True
+                    break
+                else:
+                    continue
+            if flag:
+                break
+
+if __name__ == "__main__":
+    main()
