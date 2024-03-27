@@ -1,0 +1,4 @@
+ipywidgets
+loopstructural>=1.4.10
+mplstereonet
+scipy>=1.11.3
