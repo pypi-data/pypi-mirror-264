@@ -1,0 +1,17 @@
+plothist/__init__.py,sha256=7QXlICVQRsyvS554d6cai28Om_YfVdCsGONP-F-N-2o,3314
+plothist/comparison.py,sha256=qrQHQ0vv-0rBWaSAvkeZLeZyJb-I4rhsEQtLWQxO3jc,17431
+plothist/default_style.mplstyle,sha256=7MmB2uiXmD_DSqFHeH1xxC-lTctBD_EASxMdSOsPep0,1574
+plothist/dummy_data.csv,sha256=sb4LCjYW4ZO2bLCJvrunrIses-0CHe7CNwd5-BgCme8,5936219
+plothist/get_dummy_data.py,sha256=7GrWea75f0vWGi1IQg1TRpq_NzaDsTQiXm7kQ7eZOdI,434
+plothist/histogramming.py,sha256=A9tGRqhJ1-M85IuCSsgs5OVLZWxWoRtNnr1kXhJXQdU,10201
+plothist/plothist_style.py,sha256=Aj06Q9sH1RzGtfHJCSSQkYp8RbFRPVAkx2ZfGcJBOnI,12197
+plothist/plotters.py,sha256=4WTqMx5BGIzVoVPYhw7pdeJXNEbh2dHiUfCiUwQN6tU,41409
+plothist/variable_registry.py,sha256=yGbA0WjSHDD5kgs1uL_KgcJEHoKihbtzLDLyfGJty-8,10207
+plothist/scripts/__init__.py,sha256=FRe2fYlnv0lJYqn8wPxAmhDs1XME8pvEs3rQgJpjp3k,108
+plothist/scripts/install_latin_modern_fonts.py,sha256=BqDUYsDdIsMZV59BeIUYm5um3kGiiiLFuLxahfl4mgc,5549
+plothist/scripts/make_examples.py,sha256=1qWXHovCMQMjFwwqftHsT5Ofkow9C8YlGPO1WQl2PCs,6756
+plothist-1.2.0.dist-info/entry_points.txt,sha256=8YWfI0-xVfDK4EmTWzQLfP4r0wJoUc4CTLk0lj2mKJY,185
+plothist-1.2.0.dist-info/LICENSE,sha256=zLdEtgFx6ObRPsz6Ofa0zJb5EuL0Z54FJP8egGX_unU,1523
+plothist-1.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+plothist-1.2.0.dist-info/METADATA,sha256=oezvydxxG-dOiIV5OGe7C1SMzsZoaTYaCM4jPFD_q4k,3507
+plothist-1.2.0.dist-info/RECORD,,
