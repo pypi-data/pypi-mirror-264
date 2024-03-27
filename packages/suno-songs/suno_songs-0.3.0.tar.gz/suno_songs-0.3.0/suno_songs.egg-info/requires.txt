@@ -1,0 +1,5 @@
+curl_cffi
+requests
+fake-useragent
+rich
+python-dotenv
