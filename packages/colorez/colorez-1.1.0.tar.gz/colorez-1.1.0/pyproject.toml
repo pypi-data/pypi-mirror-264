@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colorez"
+version = "1.1.0"
+authors = [
+  { name="CodingYuno"},
+]
+description = "Simple addition of color to the builtin print and input functions"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+]
+
+[project.urls]
+"Source Code" = "https://github.com/CodingYuno/colorez/"
+"Issue Tracker" = "https://github.com/CodingYuno/colorez/issues/"
+
+[tool.setuptools.packages.find]
+include = ["colorez", "colorez.*"]
