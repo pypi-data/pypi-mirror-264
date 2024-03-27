@@ -1,0 +1,13 @@
+skstep/__init__.py,sha256=aOR_0089X_5oMQH0SyO_aIvhdvhbMWun_cgs1HHJiJE,531
+skstep/_base.py,sha256=IZBfv_CN_erE8T_ABo8oXrKL5ORxv6-Y0N1RQMmyl80,3542
+skstep/_gauss.py,sha256=rhu1oO7M7n_sp3M-603AJSTMZi5Lr195xJ2dCCU4CM4,5563
+skstep/_moments.py,sha256=NFYU9jjeJotAiKyI45n3kpglgr5Q4spFqkETtXtu99M,3839
+skstep/_poisson.py,sha256=1XqT4KupOgQfpigWixsrW0PvGn8s646bBttWkWrxpFo,4178
+skstep/_results.py,sha256=8xC-adkjxvN1kNbV0dQCEWQPCp1b4BU6xuzV6ugrQxs,2472
+skstep/_sample.py,sha256=FxYYRzBwvXbiF_flIUtsLieF3PfscQAyvZhVkfbCKTw,2429
+skstep/_ttest.py,sha256=-qN-FbhivPOsyUp1J1AQY1dLVSkjSMr_em2v60_zeRE,2584
+skstep/_utils.py,sha256=04y36e-L7oEFVO-JHRtgppwKCXUPMyppPfIM0QCyKVQ,756
+scikit_step-0.1.0.dist-info/METADATA,sha256=g90CQt84YsIg6vtZjXN3QqeQ2OZ7uI_wT57vXMn_PHc,2544
+scikit_step-0.1.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+scikit_step-0.1.0.dist-info/licenses/LICENSE,sha256=JVQTaP-LI-BkOHvC4hyWR8EBcG9VnsreOkp0FIj1_HA,1088
+scikit_step-0.1.0.dist-info/RECORD,,
