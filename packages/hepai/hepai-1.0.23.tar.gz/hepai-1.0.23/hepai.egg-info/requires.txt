@@ -1,0 +1,11 @@
+damei
+easydict
+numpy
+opencv-python
+pillow
+tqdm
+wandb
+grpcio-tools
+fastapi
+uvicorn
+openai-python>=1.14
