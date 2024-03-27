@@ -1,0 +1,2 @@
+[console_scripts]
+rockpaperscissors2333 = rockpaperscissors2333.__main__:main
