@@ -1,0 +1,2 @@
+[console_scripts]
+find-jcm = find_jcmwave.cli:cli
