@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: fastapi-extras
+Version: 0.1.0a0
+Summary: A collection of utilities for FastAPI
+Author: Oluwaseyifunmi Oyefeso
+Author-email: oluwaseyifunmi@mafflle.com.ng
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: uvicorn (>=0.29.0,<0.30.0)
+Description-Content-Type: text/markdown
+
+# FastAPI Extras
+
+This package provides some extra utilities for FastAPI.
+
+## Installation
+
+```bash
+pip install fastapi-extras
+```
+
+## Usage
+
+### Error Handling
+
+```python
+from fastapi import FastAPI
+from fastapi_extras.errors import configure_error_handlers, BadRequestError
+
+app = FastAPI()
+configure_error_handlers(app)
+
+@app.get("/error")
+def error():
+    raise BadRequestError("This is a bad request", detail={"reason": "You did something wrong"})
+    """
+    {
+        "status": 400,
+        "title": "BadRequest",
+        "message": "This is a bad request",
+        "detail": {
+            "reason": "You did something wrong"
+        },
+    }
+    """
+```
+
