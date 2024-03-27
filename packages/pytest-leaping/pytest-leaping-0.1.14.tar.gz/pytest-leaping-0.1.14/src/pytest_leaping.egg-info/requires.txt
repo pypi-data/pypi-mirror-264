@@ -1,0 +1,5 @@
+pytest>=6.2.0
+pexpect==4.9.0
+posthog==3.5.0
+openai>=1.10.0
+ollama>=0.1.0
