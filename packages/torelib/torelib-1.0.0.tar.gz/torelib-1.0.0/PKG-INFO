@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: torelib
+Version: 1.0.0
+Summary: A library made by Torrez that includes all of the things made by Torrez.
+Home-page: https://github.com/PYthonCoder1128/torelib
+Author: Torrez
+Author-email: that1.stinkyarmpits@gmail.com
+Keywords: sample setuptools development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: readabform>=1.0
+Requires-Dist: bestErrors>=0.8
+Requires-Dist: erodecor>=0.1
+
+# torelib
+
+## Torrez's message
+
+Thanks to whoever who ``pip install``'d my package! I hope you will use it with care and responsibility. Go to the [pypi](https://pypi.org/project/torelib/) page to view more.
