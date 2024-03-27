@@ -1,0 +1,81 @@
+Version 1.0.3
+Fix the database path in the `run_diamond` fuction (issue #128)
+
+Version 1.0.2
+Add download retry logic and update dependencies (issue #108)
+
+Version 1.0.1
+* Program checks for "prodigal-gv" instead of "prodigal" (issue #92)
+
+Version 1.0.0
+* Fixed problem parallelizing prodigal (issue #88)
+* Fixed problem with logging function (issue #82)
+* Improved DTR detection; continues checking for DTRs after the first substring match fails
+* Switched to prodigal-gv to accomodate alternative codes (https://github.com/apcamargo/prodigal-gv)
+* Count cannonical kmers for calculaing kmer_freq statistic (includes reverse complement)
+* Fixed support for compressed inputs
+
+Version 0.9.0
+* Check for DIAMOND errors and DIAMOND output file (issues #15 and #39); was NOT fixed in v0.8.1
+* DIAMOND database built on the fly to avoid incompatabilities (issue #57)
+* Minor fixes (issues #51, #47)
+
+Version 0.8.1
+* Check for DIAMOND errors and DIAMOND output file (issues #15 and #39)
+
+Version 0.8.0
+* Check if input FASTA file is empty, wrongly formatted, or duplicated sequence IDs (issue #14, pull #5)
+* Check whether the execution of hmmsearch was completed before skipping it (pull #5)
+* Speed up kmer based genome copy number estimation (issue #26, pull #4)
+* Add a --remove_tmp flag to quality_summary and end_to end modules (pull #3)
+
+Version 0.7.0
+* update to contamination module to reduce false positive proviruses
+ -require at least 2 host genes in proviral host regions, except for contigs with <= 10 genes. reduces false positives in real data.
+ -improved sliding window algorithm: trailing window grows from last breakpoint while leading window has fixed size
+ -size of leading window is dynamically set: 30% of genes with min of 15 and max of 50
+ -additional statistics reported for each host/viral region
+* update to hmm-based completeness for more robust estimates
+ -improved identification of 5% and 95% quantiles
+ -use all HMMs to calculate completeness: each yields the 5%-95% completeness range, and these ranges are averaged after weighting each by the HMMs coefficient of variation (based on how variable reference genome sizes are for the HMM)
+ -improves concordance with AAI-based completeness
+* update to complete_genomes module (formerly called repeats)
+ -added confidence levels, based on comparison to completeness and detection of artifacts
+
+Version 0.6.0
+* Bug fix in completeness module that suppressed HMM-based results
+* HMM-based completeness now reported as range: 90% confidence interval = X-Y% complete
+* Warnings added to quality_summary.tsv for range of conditions
+* Minor parameter change for genome copy number estimation
+* Terminal repeat sequence included in output file (e.g. GCACTTC...)
+* Added terminal repeat metadata: ambig_freq and max_base_freq
+* Dropped automated filtering of terminal repeats: up to user to decide how to handle flagged seqs
+* Quality summary reports multiple types of termini when present (e.g. DTR & ITR on same contig)
+* cleaned_contigs.fna split into viruses.fna and proviruses.fna
+* Renamed field 'prophage' to 'provirus' in quality_summary.tsv
+
+Version 0.5.1
+* Added download_database module to automatically download latest version of db
+* Added update_database module to update db with new genomes
+* Added end_to_end module to run all CheckV modules
+* Added documentation for output files in README
+* Help text reformatted
+
+Version 0.4.0
+* New HMM-based completeness estimation
+* New estimation of genome copy #
+* Completeness capped at 100% in quality_summary.tsv output
+* Dropped 'comments' field in quality_summary.tsv output
+* Computation of aligned fraction fixed
+* terminal_repeats module renamed to repeats (to accomonate repeat based estimation of genome copy #)
+* All TRs now reported in repeats.tsv
+* New field 'repeat_flagged' which indicates low complexity/repetetive repeats
+* Added RELEASE_NOTES.txt file
+* CheckV print program and database versions
+* CheckV checks for input files in quality_summary module
+
+Version 0.3.0
+* Added documentation to README.md
+* Support for compressed input files (gz, bz2, xz)
+* Param change for contamination module (win size: 35 to 40, min % host genes 20% to 30%)
+* Generate cleaned_contigs.fna
