@@ -1,0 +1,7 @@
+setup.py
+sq-sql-utils/__init__.py
+sq-sql-utils/main.py
+sq_sql_utils.egg-info/PKG-INFO
+sq_sql_utils.egg-info/SOURCES.txt
+sq_sql_utils.egg-info/dependency_links.txt
+sq_sql_utils.egg-info/top_level.txt
