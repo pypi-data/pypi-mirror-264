@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/carlschader_ml_utils.egg-info/PKG-INFO
+src/carlschader_ml_utils.egg-info/SOURCES.txt
+src/carlschader_ml_utils.egg-info/dependency_links.txt
+src/carlschader_ml_utils.egg-info/top_level.txt
+src/image_utils/__init__.py
+src/image_utils/embed_image_folder.py
+src/image_utils/normalize_image_folder.py
