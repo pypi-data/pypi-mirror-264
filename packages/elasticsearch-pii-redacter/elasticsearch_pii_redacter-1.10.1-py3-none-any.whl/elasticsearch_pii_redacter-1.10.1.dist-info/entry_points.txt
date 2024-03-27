@@ -1,0 +1,2 @@
+[console_scripts]
+elastic-pii-redacter = app.cli:run
