@@ -1,0 +1,33 @@
+POST http://localhost:9002/api/core/v1/function
+{
+    "apiVersion": "core/v1",
+    "kind": "function",
+    "metadata": {
+        "name": "query-function"
+    },
+    "spec": {
+        "content": "http://localhost:8000/simple-proxy",
+        "description": "example description"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+POST http://localhost:9002/api/core/v1/functionbinding
+{
+    "apiVersion": "core/v1",
+    "kind": "functionbinding",
+    "metadata": {
+        "name": "query-function-binding"
+    },
+    "spec": {
+        "functionUid": 1,
+        "functionDeclareUid": 4,
+        "contractUid": 6
+    },
+    "status": {
+        "available": true
+    }
+}
+

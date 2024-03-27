@@ -1,0 +1,18 @@
+{
+    "apiVersion": "core/v1",
+    "kind": "globalproposal",
+    "metadata": {
+        "name": "delete-namespace-proposal",
+        "uid": 0
+    },
+    "spec": {
+        "actions": [
+            {
+                "delete": {
+                    "uid": %d
+                }
+            }
+        ],
+        "autoCommit": false
+    }
+}

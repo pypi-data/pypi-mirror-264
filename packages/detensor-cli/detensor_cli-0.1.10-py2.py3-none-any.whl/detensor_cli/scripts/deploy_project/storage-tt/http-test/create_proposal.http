@@ -1,0 +1,72 @@
+POST http://127.0.0.1:9001/api/core/v1/globalproposal
+{
+    "apiVersion": "core/v1",
+    "kind": "globalproposal",
+    "metadata": {
+        "name": "example-proposal",
+        "uid": 0
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "namespace",
+                        "metadata": {
+                            "name": "example-ns",
+                            "uid": 0
+                        },
+                        "spec": {
+                            "members": [
+                                "wx-org1.chainmaker.org",
+                                "wx-org2.chainmaker.org",
+                                "wx-org3.chainmaker.org"
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "autoCommit": false
+    }
+}
+
+HTTP 201
+
+POST http://127.0.0.1:9001/api/core/v1/globalproposal
+{
+    "apiVersion": "core/v1",
+    "kind": "globalproposal",
+    "metadata": {
+        "name": "other-proposal",
+        "uid": 0
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "namespace",
+                        "metadata": {
+                            "name": "example-ns",
+                            "uid": 0
+                        },
+                        "spec": {
+                            "members": [
+                                "wx-org1.chainmaker.org",
+                                "wx-org2.chainmaker.org",
+                                "wx-org3.chainmaker.org"
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "autoCommit": false
+    }
+}
+
+HTTP 201
+

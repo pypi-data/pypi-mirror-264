@@ -1,0 +1,78 @@
+POST http://127.0.0.1:9001/api/core/v1/namespace/example-ns/proposal
+{
+    "apiVersion": "core/v1",
+    "kind": "proposal",
+    "metadata": {
+        "name": "create-contract-proposal",
+        "namespace": "example-ns"
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "contract",
+                        "metadata": {
+                            "name": "example-contract",
+                            "version": "0.0.1",
+                            "namespace": "example-ns"
+                        },
+                        "spec": {
+                            "content": "example content",
+                            "data": {
+                                "example-data": 4
+                            },
+                            "functions": {
+                                "example-function": 6
+                            },
+                            "execPatterns": [
+                                [
+                                    "wx-org1.chainmaker.org",
+                                    "wx-org2.chainmaker.org",
+                                    "wx-org3.chainmaker.org"
+                                ]
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
+HTTP 201
+[Captures]
+proposal_uid: body
+
+# 组织1 批准这一提议
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org1"
+}
+
+HTTP 200
+
+# 组织2 批准这一提议
+PUT http://127.0.0.1:9002/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org2"
+}
+
+HTTP 200
+
+# 组织3 批准这一提议
+PUT http://127.0.0.1:9003/api/core/v1/proposal/{{ proposal_uid }}/permission
+{
+  "comment": "comment_from_org3"
+}
+
+PUT http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}/commit
+
+HTTP 200
+
+GET http://127.0.0.1:9001/api/core/v1/proposal/{{ proposal_uid }}
+
+HTTP 200
+
+

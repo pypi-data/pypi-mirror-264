@@ -1,0 +1,86 @@
+#! /usr/bin/env python3
+import requests
+import argparse
+
+parser = argparse.ArgumentParser(description='create namespace')
+parser.add_argument('-n', '--name', type=str, default='test', help='namespace name')
+# parser.add_argument('-m', '--member', type=str, default='test', help='namespace name')
+
+ARGS = parser.parse_args()
+namespace: str = ARGS.name
+
+# 定义请求头和请求体
+url = 'http://127.0.0.1:9001/api/core/v1/globalproposal'
+headers = {'Content-Type': 'application/json'}
+data = {
+    "apiVersion": "core/v1",
+    "kind": "globalproposal",
+    "metadata": {
+        "name": "namespace-proposal",
+        "uid": 0
+    },
+    "spec": {
+        "actions": [
+            {
+                "create": {
+                    "object": {
+                        "apiVersion": "core/v1",
+                        "kind": "namespace",
+                        "metadata": {
+                            "name": f"{namespace}",
+                            "uid": 0
+                        },
+                        "spec": {
+                            "members": [
+                                "wx-org1.chainmaker.org"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
+# 发送POST请求
+response = requests.post(url, json=data, headers=headers)
+uid = 1
+# 检查响应状态码
+if response.status_code == 201:
+    print("请求成功!")
+    
+    # 捕获uid字段的值
+    uid = response.json()
+    print(f"捕获到的uid为: {uid}")
+
+else:
+    print(f"请求失败，状态码: {response.status_code}")
+
+url = f'http://127.0.0.1:9001/api/core/v1/globalproposal/{uid}/permission'  # 注意替换{{uid}}
+headers = {'Content-Type': 'application/json'}
+data = {
+    "comment": "comment_from_org1"
+}
+
+# 发送PUT请求
+response = requests.put(url, json=data, headers=headers)
+
+# 检查响应状态码
+if response.status_code == 200:
+    print("请求成功!")
+else:
+    print(f"请求失败，状态码: {response.status_code}")
+
+
+# 定义请求头和请求体
+url = f'http://127.0.0.1:9001/api/core/v1/globalproposal/{uid}/commit'  # 注意替换{{uid}}
+headers = {'Content-Type': 'application/json'}
+
+# 发送PUT请求
+response = requests.put(url, headers=headers)
+
+# 检查响应状态码
+if response.status_code == 200:
+    print("请求成功!")
+else:
+    print(f"请求失败，状态码: {response.status_code}")

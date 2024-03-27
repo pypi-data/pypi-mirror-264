@@ -1,0 +1,10 @@
+POST http://127.0.0.1:9002/api/exec/v1/
+{
+    "uid": 6,
+    "orgs": [
+        "wx-org1.chainmaker.org","wx-org2.chainmaker.org"
+    ],
+    "compile": true
+}
+
+HTTP 200

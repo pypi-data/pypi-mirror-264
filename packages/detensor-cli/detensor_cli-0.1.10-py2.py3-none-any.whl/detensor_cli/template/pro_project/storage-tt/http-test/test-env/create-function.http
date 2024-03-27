@@ -1,0 +1,32 @@
+POST http://org2.example.cc.distribute-compute.cn/api/core/v1/function
+{
+    "apiVersion": "core/v1",
+    "kind": "function",
+    "metadata": {
+        "name": "query-function"
+    },
+    "spec": {
+        "content": "http://call-proxy/simple-proxy",
+        "description": "example description"
+    },
+    "status": {
+        "available": true
+    }
+}
+
+POST http://org2.example.cc.distribute-compute.cn/api/core/v1/functionbinding
+{
+    "apiVersion": "core/v1",
+    "kind": "functionbinding",
+    "metadata": {
+        "name": "query-function-binding"
+    },
+    "spec": {
+        "functionUid": 1,
+        "functionDeclareUid": 4,
+        "contractUid": 6
+    },
+    "status": {
+        "available": true
+    }
+}
