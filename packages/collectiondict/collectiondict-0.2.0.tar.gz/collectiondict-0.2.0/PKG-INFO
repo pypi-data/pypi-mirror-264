@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: collectiondict
+Version: 0.2.0
+Summary: Helpers to create dictionaries that collect values into collections
+License: BSD-3-Clause
+Author: Max Görner
+Author-email: 5477952+MaxG87@users.noreply.github.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
