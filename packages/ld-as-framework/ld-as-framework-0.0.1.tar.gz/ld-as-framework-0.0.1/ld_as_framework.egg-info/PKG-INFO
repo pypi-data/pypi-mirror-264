@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ld-as-framework
+Version: 0.0.1
+Summary: 零动AS插件提示包
+Author-email: 零动学院 <1132454419@qq.com>
+Project-URL: Homepage, https://www.yuque.com/xianle-skqwj/ld
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ascript-tip
+
+1. 每个API都配有中文、英文两种使用方法，开发者可根据自己喜好随意选择
+2. 每个API都配备了详细的开发文档以及视频形式的讲解，以确保开发者可以完全学会使用
+3. 除插件的开发文档外，我们集成了常用工具、公开课、AS-FAQ等多项功能，让开发者从此告别东拼西凑
+   文档地址：https://www.yuque.com/xianle-skqwj/ld
