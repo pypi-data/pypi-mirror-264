@@ -1,0 +1,9 @@
+pypotage/__init__.py,sha256=yZUXjkBbCNowZKVE0RLo8u95EhgDYsighhlBjGpwp6k,66
+pypotage/_bean.py,sha256=fbQM_705pwaU6UINLi9_uaB-Qa-LrY6_c4bNWHffJYg,1160
+pypotage/_jar.py,sha256=S4Mk70CC7LrIyV3iN0qbL_MMP4c-mElfFzGaQRrQlpU,1508
+pypotage/shared.py,sha256=QDrwFZSpPiE3uQ18CHhmvgEoi4mQO6NYmaHlQOa6mKE,299
+pypotage/utils.py,sha256=HOClr1QY2GGOMeKJ4UGNQDWFxVszAftYLbxuuYaSUTw,205
+pypotage-0.0.0a0.dist-info/METADATA,sha256=FWkX-2FCzfEJTD4ZBmH32TzaLWNjmDTvv6gQWzFMww4,576
+pypotage-0.0.0a0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pypotage-0.0.0a0.dist-info/top_level.txt,sha256=WxUPro6ecVHCz7Zs-MpggDPwDnOLeYPoWIJt3YFo2iY,9
+pypotage-0.0.0a0.dist-info/RECORD,,
