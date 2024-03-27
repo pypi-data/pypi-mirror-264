@@ -1,0 +1,12 @@
+monaco_editor/MonacoEditor.py,sha256=PQK2tPGLhtq5EK9jCkjEgywGzIq7cRHnqI8g7V3yM-I,1772
+monaco_editor/__init__.py,sha256=KrMQe-KYNx1KDWTMPDyqjok9fi8f7o8NgHxhvjZ9BIs,2255
+monaco_editor/_imports_.py,sha256=V8vdbxjdJSmfjQ3gE5zGOXqXwOHU9EOQmrQXIKEN6Eo,72
+monaco_editor/metadata.json,sha256=-F0OHbpToYkb1ItPGYSXk1CU4jqcsBBMfl4EfSMqxC8,1451
+monaco_editor/monaco_editor.min.js,sha256=hh5MC1LzgcBuwpqS6seEO5I8eK-eRdl9Zc4pL9gfrBg,17333
+monaco_editor/monaco_editor.min.js.map,sha256=tcdaqKx4K3xBTmRTdLC-LODcvrYG0VYsAmnzBeuMIhM,52986
+monaco_editor/package-info.json,sha256=M6gIMTgwspX8HGsIPjE-mUxm0l6S17-5TPjJJd89qQA,2082
+monaco_editor-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monaco_editor-0.0.1.dist-info/METADATA,sha256=xBCNvQAI-OqnAPJDglOKyWVUAh0CvkGiw905LeBgzZk,3977
+monaco_editor-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+monaco_editor-0.0.1.dist-info/top_level.txt,sha256=hCTizU0fq5WFoOokhQU2Z4Xe7pVbk78EPPUfg2bBeGE,14
+monaco_editor-0.0.1.dist-info/RECORD,,
