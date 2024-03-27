@@ -1,0 +1,3 @@
+include interactiveshellsubproc/requirements.txt
+include interactiveshellsubproc/thirdparty.json
+include interactiveshellsubproc/README.MD
