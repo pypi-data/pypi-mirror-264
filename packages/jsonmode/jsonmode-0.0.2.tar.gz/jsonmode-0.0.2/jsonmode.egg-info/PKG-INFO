@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jsonmode
+Version: 0.0.2
+Summary: JSONmode
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,JSONmode
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+    Turn data and any schema into clean JSON via LLM API
+    
+
