@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+adbkonnekt/README.MD
+adbkonnekt/__init__.py
+adbkonnekt/requirements.txt
+adbkonnekt/thirdparty.json
+adbkonnekt.egg-info/PKG-INFO
+adbkonnekt.egg-info/SOURCES.txt
+adbkonnekt.egg-info/dependency_links.txt
+adbkonnekt.egg-info/requires.txt
+adbkonnekt.egg-info/top_level.txt

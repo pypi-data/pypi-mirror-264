@@ -1,0 +1,3 @@
+include adbkonnekt/requirements.txt
+include adbkonnekt/thirdparty.json
+include adbkonnekt/README.MD

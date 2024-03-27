@@ -1,0 +1,6 @@
+konfigleser
+procciao
+psutil
+sharedbuiltinmutables
+subprocess_alive
+touchtouch
