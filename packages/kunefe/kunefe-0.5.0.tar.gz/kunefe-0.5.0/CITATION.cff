@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: kunefe
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Faruk
+    family-names: Diblen
+    email: f.diblen@esciencecenter.nl
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0002-0989-929X'
+  - given-names: Olga
+    family-names: Lyashevska
+    email: o.lyashevska@esciencecenter.nl
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0002-8686-8550'
+repository-code: 'https://github.com/mess-nlesc/kunefe'
+keywords:
+  - docker
+  - hpc
+  - containers
+  - slurm
+  - apptainer
+license: Apache-2.0
+version: 0.5.0
+date-released: '2024-02-28'
