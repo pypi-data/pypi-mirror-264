@@ -1,0 +1,4 @@
+# the name and TLA of your team, the advice is to use this in your naming convention
+team:
+  name: "Evil Inc"
+  tla: evi

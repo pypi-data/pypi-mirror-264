@@ -1,0 +1,18 @@
+# this is a place for generic variables used across the board
+# if one of the sections here becomes too large, think about splitting this file and parameters in more readable blocks
+generic:
+  # Vm specific settings
+  vm:
+    defaults:
+      first_digit: 1
+      placement_strategy: one_per_zone
+      naming_format: [ "%s%d%02d", "name", "zone_id", "nr_per_zone" ]
+      catalog_organization: NLCX-Templates
+      catalog_name: NLCX-Templates
+      chef_client_version: 18
+      placements:
+        - zone: 1
+          name: "Non-Windows"
+    debian_12:
+      template_name: "Debian_12-latest"
+      cloud_config_file: "templates/cloud-config/debian_12_simple.yaml"

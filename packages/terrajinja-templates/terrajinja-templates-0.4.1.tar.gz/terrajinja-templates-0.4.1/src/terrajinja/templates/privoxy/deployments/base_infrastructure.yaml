@@ -1,0 +1,15 @@
+required_input:
+  environment:
+    help: "name of the environment"
+    choices: environments
+    required: true
+  provider:
+    help: "name of the cloud provider"
+    default: customers.$customer.environments.$environment.cloud_provider
+    choices: customers.$customer.environments.$environment.cloud_provider
+templates:
+  "generic_providers": 0.0.1
+  "{{ provider }}_providers": 0.0.1
+  "{{ provider }}_privoxy": 0.0.1
+terraform:
+  state_file: "{{ provider }}_{{ application }}_{{ environment }}_base_infrastructure"
