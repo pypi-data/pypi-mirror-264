@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "surveymonkey-python"
+version = "0.1.6"
+description = "API wrapper for SurveyMonkey written in Python"
+authors = ["Gearplug Apps <apps@gearplug.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "surveymonkey"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
