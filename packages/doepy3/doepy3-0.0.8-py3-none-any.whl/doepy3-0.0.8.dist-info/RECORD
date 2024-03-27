@@ -1,0 +1,16 @@
+doepy3/__init__.py,sha256=Q1bJjOVHYJuhFU-rvW-8omXBxBMBousPkGgFwKCQa_U,235
+doepy3/build.py,sha256=bQhHUDogbB4XIJ3lDhcrpI32W5AD7KxUQD6NaW3IN5w,12277
+doepy3/doe_functions.py,sha256=kq_FroOqQ_3FZlAfACylMEuGOhcZjl3oIEOkH_90LNQ,29347
+doepy3/pydoe_corrected.py,sha256=GtowQ65CQsI_5eCZifEODzJYT5JY9iLGa3ivDxmpJHI,19241
+doepy3/read_write.py,sha256=FVKuIw4184xwJKxN-qoLMJo1SsKOVjVLsaGLX6IzD1c,1969
+doepy3/Test/doe_test1.py,sha256=3AjbIQ9Vmm_icQGOTxADF25o2kZ0orXJSy352uGETIw,1534
+doepy3/Test/doepy/__init__.py,sha256=10_w7o2juYBrGMh32_KbveULW9jk2tejpyUAD-uC6PE,4
+doepy3/Test/doepy/build.py,sha256=j3FYyKOPxDAKJaRzeZt_LNqVUZJaRYzQkiGgZfxGB0w,12420
+doepy3/Test/doepy/doe_functions.py,sha256=0yFzVhdvQqV8hf4Oh8r-7KIsYG1zFc0CRWbVbCK_pNM,31487
+doepy3/Test/doepy/pydoe_corrected.py,sha256=qcu2qLUEDndKS3xP2rBE_u1gfpJnQ6yJ3wKmhuyhlVo,18992
+doepy3/Test/doepy/read_write.py,sha256=254dm0TGkxvh58tJSPW-5Uz_zrBd5_PNkvTGFKSMTkY,1913
+doepy3-0.0.8.dist-info/LICENSE,sha256=Sw2Fsb73yZD7mlJC4mwzMbWYmaPDOu5jhgCuQ5v3ixQ,1096
+doepy3-0.0.8.dist-info/METADATA,sha256=Y1RB8ZsHgBH-z8VxRPU_KqHXjZrIUMRrpT_XOx8UIiw,14206
+doepy3-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+doepy3-0.0.8.dist-info/top_level.txt,sha256=ajyIqWkJXRXPv0O47QBUtqtBP5xAVmzueJeexJY9UNU,7
+doepy3-0.0.8.dist-info/RECORD,,
