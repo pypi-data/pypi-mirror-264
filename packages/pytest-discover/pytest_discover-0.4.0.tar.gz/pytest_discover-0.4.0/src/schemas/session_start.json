@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "session_start.json",
+  "title": "Session Start",
+  "description": "Pytest Session Start",
+  "type": "object",
+  "required": [
+    "event",
+    "pytest_version",
+    "plugin_version"
+  ],
+  "properties": {
+    "event": {
+      "const": "SessionStart",
+      "description": "The event type"
+    },
+    "pytest_version": {
+      "type": "string",
+      "description": "The version of pytest that is running the tests"
+    },
+    "plugin_version": {
+      "type": "string",
+      "description": "The version of pytest-discover plugin that discovered the tests"
+    }
+  }
+}
