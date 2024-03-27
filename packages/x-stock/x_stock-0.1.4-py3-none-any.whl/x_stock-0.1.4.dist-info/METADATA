@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: x-stock
+Version: 0.1.4
+Summary: 个人股票分析工具
+Home-page: https://github.com/yourusername/x-stock
+Author: chuck xue
+Author-email: 2254379984@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: akshare
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# x-stock-股票分析预警
+
+## 功能列表
+
+- 预警
+- 分析
+- 展示
+
+## 泛化功能
+
+- 芒格和巴菲特思维模型
+- 程序化估值，统计分析和概率等
+
+## 预警
+
+- 神奇九转
+- MACD
+- 资金量
+
+## 分析
+
+- 情绪分析
+- 技术分析
+- 财务分析
+- 政策分析
+
+## 展示
+
+- 预警具象化到页面
+- 分析信息展示到页面
+
+## 代码编辑器
+
+- 可加载作用域
+- 可进行提示
+
+
+## 打包相关
+```
+rm -rf dist/ build/ x_stock.egg-info/
+python setup.py sdist bdist_wheel
+twine upload dist/*
+
+pip uninstall x-stock -y
+pip install -i https://pypi.org/simple x-stock
+
+pip install -i https://pypi.org/simple --upgrade x-stock
+```
