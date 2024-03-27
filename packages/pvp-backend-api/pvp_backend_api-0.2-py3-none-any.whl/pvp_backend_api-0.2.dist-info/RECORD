@@ -1,0 +1,8 @@
+dummy_api/__init__.py,sha256=yLsMLMuoSG8fIgp9pez7cSPtAaHkZwOiRdHW3wkvPJA,295
+dummy_api/api_template.py,sha256=aB5HYdUBncPhaaRdtQHjbB4wW83qJb81n-9v4xO68zE,1026
+dummy_api/generator.py,sha256=0dLCGrbG983gWYhPORkKOvu23oik-3VL1onRtkDkMnk,1424
+pvp_backend_api-0.2.dist-info/METADATA,sha256=mjye1fMmIb4bUWEDXo_-ITuPMUx_V1c_jXDF6mcuwsY,350
+pvp_backend_api-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pvp_backend_api-0.2.dist-info/entry_points.txt,sha256=qs6VrNzTkMoppUgM0lZryCEG6W1TKV43rMBu5l9J65o,59
+pvp_backend_api-0.2.dist-info/top_level.txt,sha256=3yvgDpwTUjF6Zc5eEeZ64YtRt7pEqQWYjnfKvomww3w,10
+pvp_backend_api-0.2.dist-info/RECORD,,
