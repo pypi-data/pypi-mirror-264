@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: django_querysets_single_query_fetch
+Version: 0.0.5
+Summary: Execute multiple Django querysets in a single SQL query
+Author: Nishant Singh
+Author-email: nishant.singh@mydukaan.io
+License: Apache Software License
+Requires-Python: >=3.9
+Requires-Dist: django >3
+
