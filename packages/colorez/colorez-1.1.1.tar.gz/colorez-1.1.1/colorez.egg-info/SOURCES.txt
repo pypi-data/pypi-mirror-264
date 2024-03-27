@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+colorez/__init__.py
+colorez/colorez.py
+colorez.egg-info/PKG-INFO
+colorez.egg-info/SOURCES.txt
+colorez.egg-info/dependency_links.txt
+colorez.egg-info/top_level.txt
