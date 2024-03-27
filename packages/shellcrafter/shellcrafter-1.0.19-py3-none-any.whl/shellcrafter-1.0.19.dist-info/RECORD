@@ -1,0 +1,9 @@
+shellcrafter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shellcrafter/find_gadgets.py,sha256=0uNoK5Q5pPCQjqiDFtgZ71G8Gh_tFJ86CqzSmVDR6vU,11958
+shellcrafter/keyst_api.py,sha256=dyx2ETpCx5Pbk_sdQVw9rwSv_LLxPq_2tg-74spZsvM,10439
+shellcrafter/shellcode_procedure_generator.py,sha256=gnxbrl6FFh497q2EhrYgB0fIbkqUgN7kQv0pbJ6EXVg,14346
+shellcrafter-1.0.19.dist-info/METADATA,sha256=HLmhpEkWJAA_yWSadiKggBDekeDql9Av9KK3e8u_rl8,8178
+shellcrafter-1.0.19.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+shellcrafter-1.0.19.dist-info/entry_points.txt,sha256=deD-N3MgOs_Y4lMTko46lbr1JU3FUMArX0ulDUP6uNg,184
+shellcrafter-1.0.19.dist-info/top_level.txt,sha256=SMA2lWOApkxYNn5tMVfV2Wp1DvZPzUW0BBn_Zrbxdeo,13
+shellcrafter-1.0.19.dist-info/RECORD,,
