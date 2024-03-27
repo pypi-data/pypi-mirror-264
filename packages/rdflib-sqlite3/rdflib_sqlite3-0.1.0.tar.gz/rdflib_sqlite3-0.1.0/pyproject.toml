@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rdflib-sqlite3"
+version = "0.1.0"
+authors = [
+  { name="pukkamustard", email="pukkamustard@posteo.net" },
+  { name="Moritz Feichtinger", email="moritz.feichtinger@unibas.ch" }
+]
+description = "SQLite-backed RDFLib store"
+readme = "README.md"
+requires-python = ">=3.10"
+license= { file = "COPYING" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "rdflib",
+  "rdflib-rdfcbor"
+]
+
+[project.urls]
+"Homepage" = "https://codeberg.org/ctrlall/rdflib-sqlie3"
+"Bug Tracker" = "https://codeberg.org/ctrlall/rdflib-sqlite3/issues"
+
+[tool.hatch.build]
+packages = ["rdflib_sqlite3"]
