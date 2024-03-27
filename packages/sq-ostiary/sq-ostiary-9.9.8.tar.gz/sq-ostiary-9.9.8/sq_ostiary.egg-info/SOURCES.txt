@@ -1,0 +1,7 @@
+setup.py
+sq-ostiary/__init__.py
+sq-ostiary/main.py
+sq_ostiary.egg-info/PKG-INFO
+sq_ostiary.egg-info/SOURCES.txt
+sq_ostiary.egg-info/dependency_links.txt
+sq_ostiary.egg-info/top_level.txt
