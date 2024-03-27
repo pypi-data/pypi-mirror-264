@@ -1,0 +1,15 @@
+tgpm/__init__.py,sha256=CPk_1bjFdMN7EE7FQuGuRIFEMB3PE9UZNjxygt_JMM8,88
+tgpm/exc.py,sha256=63dqBtUDE5LzO4AwMaIvWAjyKzSyI-PcUgrE1jE3kgY,38
+tgpm/model_permission_generator.py,sha256=pBsOvaFD86EsSjb3JUucGX_f7wr608Shht1OcDnk9-w,3829
+tgpm/permission_adder.py,sha256=jpnHR4hyBANo2OSbLW47cuotX1rgIhzK__pP4yIuCzI,3597
+tgpm/permission_validator.py,sha256=oYkEQifMzMIr_4Y44cE8_6Y9zeStIT2FhAzKCv4mSxY,3203
+tgpm/registry.py,sha256=t1k-RfL-2Me0aXpiusJesenSMxPzVugT9yOfVmQkmvY,193
+tgpm/tgpm.py,sha256=djXoMS9xxSO8gVrESPz1KI-DvyX_mUH-mM3DogHJxUQ,6860
+tgpm/resource_permission/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgpm/resource_permission/repository.py,sha256=vJnM0_dmqvk7Q6xLl_u32MSkHD4-yY13ktGatvvwMlg,3151
+tgpm/resource_permission/statement_generator.py,sha256=Tnzub79biSEUWWwNQYW5Kf6SJH-Y5V9S1LGtWmtdZ8s,5834
+tgpm-0.2.0.dist-info/LICENSE,sha256=Gx9kIXUtYnUwG_UYRBVswJmyGRyvnu0ThBJDp2ERgpE,1064
+tgpm-0.2.0.dist-info/METADATA,sha256=o4k8kvf5coc4PnHzNJxkYsl8j4AG69LfeEOntaTpQRU,5275
+tgpm-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tgpm-0.2.0.dist-info/top_level.txt,sha256=cWjy79PteamotAyywvumsKst_E4YTHskGTvx576JtSk,5
+tgpm-0.2.0.dist-info/RECORD,,

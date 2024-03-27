@@ -1,0 +1,2 @@
+class UserNotSet(Exception):
+    pass
