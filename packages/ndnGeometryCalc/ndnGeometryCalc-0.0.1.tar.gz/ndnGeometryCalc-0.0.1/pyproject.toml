@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ndnGeometryCalc"
+description = "This package calculates simple properties of geometric objects such as spheres, rectangular prisms, cylinders, and cones."
+version = "0.0.1"
+authors = [
+  { name = "Noah Zhou", email = "nz2061@nyu.edu" },
+  { name = "Daniel Pang", email = "dp3228@nyu.edu" },
+  { name = "Niket Gautam", email = "ng2489@nyu.edu" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/3-python-package-exercise-team-ndn"

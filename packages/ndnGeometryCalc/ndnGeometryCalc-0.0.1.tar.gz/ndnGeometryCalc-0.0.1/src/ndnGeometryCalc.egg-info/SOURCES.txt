@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ndnGeometryCalc/__init__.py
+src/ndnGeometryCalc/geoCalc.py
+src/ndnGeometryCalc.egg-info/PKG-INFO
+src/ndnGeometryCalc.egg-info/SOURCES.txt
+src/ndnGeometryCalc.egg-info/dependency_links.txt
+src/ndnGeometryCalc.egg-info/requires.txt
+src/ndnGeometryCalc.egg-info/top_level.txt
