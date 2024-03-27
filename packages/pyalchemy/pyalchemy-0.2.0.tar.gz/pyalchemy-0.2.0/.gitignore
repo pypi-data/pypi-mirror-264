@@ -1,0 +1,8 @@
+.gitignore
+dist
+*.txt
+*.png
+
+pypi_notes.txt
+src/pyalchemy/__pycache__
+/examples
