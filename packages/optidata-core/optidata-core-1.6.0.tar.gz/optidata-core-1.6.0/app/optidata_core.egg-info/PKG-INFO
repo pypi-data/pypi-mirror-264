@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: optidata-core
+Version: 1.6.0
+Summary: Paquete de Python para OptiData
+Home-page: UNKNOWN
+Author: Gonzalo Torres Moya
+Author-email: <gtorres@optimisa.cl>
+License: MIT
+Keywords: python,optidata-core
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+
+Paquete para OptiData que contiene funcionalidades para realizar una Conciliación con Pandas y Vaex
+
