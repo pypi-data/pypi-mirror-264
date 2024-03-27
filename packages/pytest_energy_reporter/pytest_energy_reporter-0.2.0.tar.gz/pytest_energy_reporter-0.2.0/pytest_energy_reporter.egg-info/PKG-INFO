@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pytest_energy_reporter
+Version: 0.2.0
+Summary: A energy estimation reporter for pytest
+Home-page: https://github.com/delanoflipse/pytest-energy-reporter
+Classifier: Framework :: Pytest

@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pytest_energy_reporter"
+version = "0.2.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.1.1"
+numpy = "^1.26.4"
+
+[tool.pytest.ini_options]
+markers = [
+    "energy(n): specify the number of iterations for energy analysis.",
+]
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^69.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
