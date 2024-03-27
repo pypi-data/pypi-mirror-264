@@ -1,0 +1,10 @@
+README.md
+setup.py
+dummy_api/__init__.py
+dummy_api/generator.py
+dummy_api_package.egg-info/PKG-INFO
+dummy_api_package.egg-info/SOURCES.txt
+dummy_api_package.egg-info/dependency_links.txt
+dummy_api_package.egg-info/entry_points.txt
+dummy_api_package.egg-info/requires.txt
+dummy_api_package.egg-info/top_level.txt

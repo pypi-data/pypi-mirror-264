@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dummy-api-package
+Version: 0.1
+Summary: A Python package to generate a dummy API template
+Home-page: https://github.com/yourusername/dummy-api-package
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
