@@ -1,0 +1,2 @@
+[console_scripts]
+fishsound_finder = fishsound_finder.detector:main
