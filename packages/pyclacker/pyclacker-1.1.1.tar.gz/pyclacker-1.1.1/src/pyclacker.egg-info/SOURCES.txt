@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyclacker/pyclacker.py
+src/pyclacker/stack.py
+src/pyclacker/stack_actions.py
+src/pyclacker/version.py
+src/pyclacker.egg-info/PKG-INFO
+src/pyclacker.egg-info/SOURCES.txt
+src/pyclacker.egg-info/dependency_links.txt
+src/pyclacker.egg-info/entry_points.txt
+src/pyclacker.egg-info/top_level.txt
