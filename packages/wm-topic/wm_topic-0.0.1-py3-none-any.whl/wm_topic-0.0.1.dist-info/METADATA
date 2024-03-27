@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: wm-topic
+Version: 0.0.1
+Summary: topic modeling package
+Author: Walmart Inc.
+Keywords: topic modeling
+Requires-Python: >=3.9
+
