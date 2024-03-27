@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: snakepay
+Version: 0.1.0
+Summary: Transacciones de bitcoin en una sola linea de código 
+Home-page: https://f4k3r22.github.io/Snake-Pay-Docs/
+Author: F4k3r22
+Author-email: fredyriveraacevedo13@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+
+Una biblioteca para realizar transacciones de Bitcoin.

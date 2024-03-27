@@ -1,0 +1,8 @@
+setup.py
+snakepay/__init__.py
+snakepay/snakepay.py
+snakepay.egg-info/PKG-INFO
+snakepay.egg-info/SOURCES.txt
+snakepay.egg-info/dependency_links.txt
+snakepay.egg-info/requires.txt
+snakepay.egg-info/top_level.txt
