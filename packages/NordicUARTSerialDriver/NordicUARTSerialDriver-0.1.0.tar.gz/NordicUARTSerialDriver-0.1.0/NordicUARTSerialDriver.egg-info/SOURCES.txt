@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+NordicUARTSerialDriver.egg-info/PKG-INFO
+NordicUARTSerialDriver.egg-info/SOURCES.txt
+NordicUARTSerialDriver.egg-info/dependency_links.txt
+NordicUARTSerialDriver.egg-info/top_level.txt
