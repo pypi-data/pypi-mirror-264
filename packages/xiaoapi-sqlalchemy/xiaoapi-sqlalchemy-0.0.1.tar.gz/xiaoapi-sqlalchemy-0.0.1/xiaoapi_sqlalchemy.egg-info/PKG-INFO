@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xiaoapi-sqlalchemy
+Version: 0.0.1
+Summary: xiaoapi sqlalchemy
+Author-email: xiaojinli <553555614@qq.com>
+License: MIT
+Project-URL: Documentation, https://github.com/xiaojinlii/xiaoapi/blob/main/README.md
+Project-URL: Repository, https://github.com/xiaojinlii/xiaoapi
+Project-URL: Source Code, https://github.com/xiaojinlii/xiaoapi
+Keywords: xiaoapi,fastapi,web-framework,sqlalchemy
+Classifier: Framework :: FastAPI
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xiaoapi==0.0.1
+Requires-Dist: SQLAlchemy==2.0.25
+Requires-Dist: aiosqlite==0.20.0
+
+# xiaoapi_sqlalchemy
+xiaoapi sqlalchemy
