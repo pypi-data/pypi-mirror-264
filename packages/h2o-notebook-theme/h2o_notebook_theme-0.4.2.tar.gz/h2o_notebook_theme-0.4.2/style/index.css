@@ -1,0 +1,110 @@
+/* latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('./fonts/Inter-latin-ext-100.woff2') format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-display: swap;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('./fonts/Inter-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*
+ * Codemirror styling that isn't currently supported by Jupyterlab themes
+ */
+
+.cm-s-jupyter .CodeMirror-activeline-background {
+  background: #323232;
+}
+.cm-s-jupyter .CodeMirror-guttermarker {
+  color: #ffee80;
+}
+.cm-s-jupyter .CodeMirror-guttermarker-subtle {
+  color: #d0d0d0;
+}
+.cm-s-jupyter .CodeMirror-linenumber {
+  color: #cfc5b4;
+}
+.cm-s-jupyter .CodeMirror-matchingbracket {
+  background-color: #3b514d;
+  color: #ffef28 !important;
+  font-weight: bold;
+}
+
+.cm-s-jupyter div.CodeMirror-selected {
+  background: #214283;
+}
+
+.cm-s-jupyter span.cm-type {
+  color: #aabbcc;
+  font-weight: bold;
+}
+
+@import url('./variables.css');
+
+/* Set the default typography for monospace elements */
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  line-height: var(--jp-code-line-height);
+}
+
+/* Launcher button */
+.jp-FileBrowser-toolbar.jp-Toolbar
+  .jp-Toolbar-item:first-child
+  .jp-ToolbarButtonComponent
+  .jp-icon3 {
+  fill: var(--jp-layout-color0);
+}
+
+/* File browser selected icon */
+.jp-DirListing-item.jp-mod-selected .jp-icon-selectable[fill] {
+  fill: var(--jp-layout-color3);
+}
+
+/* Activate switch */
+.jp-switch[aria-checked='true'] .jp-switch-track {
+  background-color: var(--jp-brand-color0);
+}
+
+/* Activated debugger */
+.jp-DebuggerBugButton[aria-pressed='true'] path {
+  fill: var(--jp-brand-color0);
+}
+
+.jp-Launcher-sectionTitle {
+  color: var(--jp-ui-font-color0);
+}
+
+.lm-Menu-item.lm-mod-active {
+  background-color: #414248; /* H2O color-menu-hover */
+}
+
+/* Hide the original logo in top-left corner */
+#jp-MainLogo > svg,
+#jp-RetroLogo > svg {
+  display: none;
+}
+/* Add our logo as a background for logo container, beware that the logo.svg loaded here is also referenced in '../src/index.ts' */
+#jp-MainLogo,
+#jp-RetroLogo {
+  background-image: url('!!file-loader?name=[name].[ext]!./logo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
