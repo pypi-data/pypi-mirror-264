@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/parseID/__init__.py
+src/parseID/ditrie.py
+src/parseID/process_id.py
+src/parseID/trie.py
+src/parseID/trie_node.py
+src/parseid.egg-info/PKG-INFO
+src/parseid.egg-info/SOURCES.txt
+src/parseid.egg-info/dependency_links.txt
+src/parseid.egg-info/requires.txt
+src/parseid.egg-info/top_level.txt
+tests/test_ditrie.py
+tests/test_env.py
+tests/test_process_id.py
+tests/test_trie.py
+tests/test_trie_node.py
