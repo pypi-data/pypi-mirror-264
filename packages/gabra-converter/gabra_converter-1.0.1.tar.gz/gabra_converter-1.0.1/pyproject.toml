@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools==68.2.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "gabra_converter"
+authors = [
+    {name = "Marc Tanti", email = "marc.tanti@um.edu.mt"},
+]
+description = "A program for converting data from a Ġabra database dump to a more regular and accessible format."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "Ġabra",
+    "Gabra",
+    "Malti",
+    "Maltese",
+]
+license = {text = "MIT License"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+    "Topic :: Other/Nonlisted Topic",
+]
+dynamic = ["version", "dependencies"]
+
+[tool.setuptools.dynamic]
+version = {attr = "gabra_converter.__version__"}
+dependencies = {file = "requirements.txt"}
+
+[project.urls]
+Repository = "https://github.com/mtanti/gabra-converter/"
