@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sferriol-scb
+Version: 0.1.0
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: asyncinotify
+Requires-Dist: numpy
+Requires-Dist: posix-ipc
+Requires-Dist: sferriol-python
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-doctestplus ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+
