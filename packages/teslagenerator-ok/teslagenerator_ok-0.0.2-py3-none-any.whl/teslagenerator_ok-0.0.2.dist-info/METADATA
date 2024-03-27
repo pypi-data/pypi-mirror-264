@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: teslagenerator_ok
+Version: 0.0.2
+Summary: Generator infomation package. Faker infomation
+Home-page: https://github.com/LinhPhuongTesla/generator
+Author: Nikola Tesla
+Author-email: linhphuong2k5y@gmail.com
+Keywords: Generator,Tesla,TeslaGenerator,Infomation,Tesla Information,Faker
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: unidecode
+
+# generator
+Generator infomation package
