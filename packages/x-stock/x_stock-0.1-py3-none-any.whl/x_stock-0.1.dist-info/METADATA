@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: x-stock
+Version: 0.1
+Summary: 个人股票分析工具
+Home-page: http://github.com/yourname/mypackage
+Author: chuck xue
+Author-email: 2254379984@qq.com
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: akshare
+Requires-Dist: matplotlib
+
