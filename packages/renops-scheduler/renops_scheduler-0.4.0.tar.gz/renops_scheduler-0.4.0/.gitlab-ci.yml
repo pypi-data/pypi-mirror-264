@@ -1,0 +1,87 @@
+default:
+  image: python:3.11.3
+
+stages:
+    - static-analysis
+    - build
+    - test
+
+isort:
+    stage: static-analysis
+    image: python:3.11.3
+    script:
+        - pip install isort
+        - isort . --check-only
+    only:
+        - merge_requests
+    allow_failure: true
+
+flake8:
+    stage: static-analysis
+    image: python:3.11.3
+    script:
+        - pip install flake8
+        - flake8 --max-line-length=120 .
+    only:
+        - merge_requests
+    allow_failure: true
+
+build and publish pip packages:
+  stage: build
+  script:
+    - python -V
+    - pip install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
+    - pip install build
+    - python -m build
+    - pip install twine
+    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --verbose --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+  only:
+    - main
+  artifacts:
+    paths:
+      - dist/*.whl
+    expire_in: 2 days
+
+
+# Create an anchor called `&run_test`
+.run_test: &run_test
+  script:
+    - pip install renops-scheduler --index-url https://${CI_DEPLOY_TOKEN_USER}:${CI_DEPLOY_TOKEN}@gitlab.xlab.si/api/v4/projects/2476/packages/pypi/simple
+    - echo 'print("hello world!")' > test.py
+    - renops-scheduler test.py -la -r 1 -d 1 # Test renewable potential
+    - renops-scheduler test.py -la -r 1 -d 1 --optimise-price # Test prices
+  only:
+    - main
+  needs: ["build and publish pip packages"]
+ 
+
+test packages in py38:
+  stage: test
+  image: python:3.8.0
+  <<: *run_test
+
+
+test packages in py39:
+  stage: test
+  image: python:3.9.0
+  <<: *run_test
+
+
+test packages in py310:
+  stage: test
+  image: python:3.10.0
+  <<: *run_test
+
+
+test packages in py311:
+  stage: test
+  image: python:3.11.0
+  <<: *run_test
+
+test packages in py312:
+  stage: test
+  image: python:3.12.0
+  <<: *run_test
+

@@ -1,0 +1,14 @@
+{
+    "hpc1": {
+        "location": "Berlin, Germany",
+        "cmd": "ssh user@hpc1 python3 test.py"
+    },
+    "hpc2": {
+        "location": "Madrid, Spain",
+        "cmd": "ssh user@hpc2 python3 test.py"
+    },
+    "hpc3": {
+        "location": "Copenhagen, Denmark",
+        "cmd": "ssh user@hpc3 python3 test.py"
+    }
+}
