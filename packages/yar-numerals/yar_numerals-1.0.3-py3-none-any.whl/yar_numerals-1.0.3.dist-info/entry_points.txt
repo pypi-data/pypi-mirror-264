@@ -1,0 +1,3 @@
+[console_scripts]
+numerals=yar_numerals:__main__
+
