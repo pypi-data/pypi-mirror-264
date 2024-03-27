@@ -1,0 +1,14 @@
+ftea/__init__.py,sha256=ATruXPjPEi-CQeVYrmrWPKSzTfm0K1ZkQTcSyr1aqDY,145
+ftea/_tea.c,sha256=H8Vmp4V-vcw9jSkOqwUKDmTsxcJy9mtG3f2GI2V-wN4,1305312
+ftea/_tea.cp38-win_amd64.pyd,sha256=UM9QChh6-F8xREM_9R2QLgKkP5zsEcOEThpywDN8B-A,188928
+ftea/_tea.pyi,sha256=0qku-0b7iFQn2_VpP0MOrWLsks2iAmpz_xvgT3oL3lo,1092
+ftea/_tea.pyx,sha256=vgI3RScF3oDGdh16x_mek9chpmU7oBMl8AtTglTs2x8,12791
+ftea/_xtea.c,sha256=RrHwn9Ipk9Kzeb6gcWzcDRQIwzRnRHVe6IjjHuucHWU,1057148
+ftea/_xtea.cp38-win_amd64.pyd,sha256=bf1pqatxFQ6e5U_UjseRIGyeIsvTVP8vMC7UYwBMLDw,152576
+ftea/_xtea.pyx,sha256=TcwYx4AHMzhbcAaSohsnZTvxUIZGc786jiN1_dg9rkI,1308
+ftea/tea.pxd,sha256=daOrwluENlItiQteHW11OaF9746c5GBHdATrxdAfFNI,1721
+ftea/xtea.pxd,sha256=GgOWvR94EkkaJc7YYmw73VNaBuJqaCUSWiQZQUWUtL4,1120
+ftea-0.1.7.dist-info/METADATA,sha256=4WTAllT441WWy875SC0IKn3fqzHH1IhJzAV5ZnR67LU,2752
+ftea-0.1.7.dist-info/WHEEL,sha256=F2aDWtWrilNM3-px1vBtJOEd7aRVTetQfFuDYmYbAUQ,100
+ftea-0.1.7.dist-info/top_level.txt,sha256=xkHrnwTvGio5Idj5czEfRq42b9XM5r6WaP5wxggeYhE,5
+ftea-0.1.7.dist-info/RECORD,,
