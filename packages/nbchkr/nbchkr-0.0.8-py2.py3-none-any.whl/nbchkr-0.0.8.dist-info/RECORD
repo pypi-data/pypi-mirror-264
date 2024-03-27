@@ -1,0 +1,9 @@
+nbchkr/__init__.py,sha256=lWmXqpHzZ2TzoAk0X-oL34EO18KVpDk18Rq7N9F6K24,224
+nbchkr/__main__.py,sha256=RQ94v4Nq02b2J5a15njqiOJ4joQzVJkuZaEw4BBqG-E,4428
+nbchkr/checks.py,sha256=kh1buH_X6DA1HA3LXVlkzFHW5BW9GQBsIF_CybO7_SA,901
+nbchkr/utils/__init__.py,sha256=WTqcf1YFhuy4yvJzM5ULoOohqM8rGnBylD5L1kYV1VI,8680
+nbchkr-0.0.8.dist-info/entry_points.txt,sha256=gx1Kaj__t1-HFefL6NoBsO8Eu8DraafYLOFN8bNAIZo,46
+nbchkr-0.0.8.dist-info/LICENSE,sha256=WPQ-306I3ZGXnZ8TYeUi_DIf6ZAKY6c3Q503zWM7JOk,1081
+nbchkr-0.0.8.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+nbchkr-0.0.8.dist-info/METADATA,sha256=bde8oSaXXMT4sZXeMmAgwplo_R3EtUKArnjyB2YxrWo,2278
+nbchkr-0.0.8.dist-info/RECORD,,
