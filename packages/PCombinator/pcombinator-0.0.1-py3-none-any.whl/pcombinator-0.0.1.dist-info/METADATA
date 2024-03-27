@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: PCombinator
+Version: 0.0.1
+Summary: A tool for composing variations of prompts
+License: Apache 2.0
+Author: Roman Baron
+Author-email: 1299323+RomansWorks@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: templating
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0) ; extra == "templating"
+Description-Content-Type: text/markdown
+
+# PCombinator
+
+1. Combines candidate prompts for LLMs from Ingredients and Alternatives, mixed within a Template according to probabilities.
+2. Stores created prompts in a standardised format which is designed for use in later evaluation.
+3. Load and get candidate prompts for evaluation.
+4. (TODO): Evaluator given scores per prompt which helps detect the ingredients and alternatives which are most effective.
+
+# Ingredients
+Ingredients have a type to make it easier to evaluate which type of ingredient contributes most to the effectiveness of a prompt. The currently know best-practice types are to be recorded in best_practices.py. 
+
+
+# IdTree
+
+The IdTree identifies what elements went into the prompt. This is useful for later analysis of the contribution of different elements to the effectiveness of the prompt.
+
+IdTree is returned by the `render()` method of combinators. It is built as following:
+1. It contains a single key, the `id` of the Combinator, and a value listing the IdTrees of the children.
+2. The IdTrees of its children can be a list or a dictionary, depending on the combinator. For template combinator, we want to associate the child with the template slot it fills, so we use a dictionary. For the other combinators, we just want to list the children, so we use a list.
+3. Combinators also accept strings as children, in which case for now we don't store any identifier in the IdTree. If you do want to store an identifier, use the `FixedStringCombinator` instead of the string. 
+
+# TODO: 
+1. Implement best practices templates
+2. Duplication elimination at the top level, max attempts
+3. Add methods documentation
+4. Add general documentation
+5. Add tests
+6. Add examples
+7. Add serialization for Combinators 
+8. Decide if strings need an identifier in the IdTree for compatibility with the PromptBase library and PromptEvaluator. 
+9. Normalize convention around internal fields.
+10. Add support for empty child. 
+11. Add support for encoding atoms such that they don't interfere with any separators.
+
+
+
+# Developing
+
+## Setup
+
+`poetry install -E templating --no-root`
+
