@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/superbrowser/__init__.py
+src/superbrowser/browser.py
+src/superbrowser/py.typed
+src/superbrowser.egg-info/PKG-INFO
+src/superbrowser.egg-info/SOURCES.txt
+src/superbrowser.egg-info/dependency_links.txt
+src/superbrowser.egg-info/entry_points.txt
+src/superbrowser.egg-info/requires.txt
+src/superbrowser.egg-info/top_level.txt
+tests/test_browser.py

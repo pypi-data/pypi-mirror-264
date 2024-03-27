@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: superbrowser
+Version: 0.1.0
+Summary: Selenium browser with extended functionality
+Author-email: Quinten Roets <qdr2104@columbia.edu>
+License: MIT
+Project-URL: Source Code, https://github.com/quintenroets/superbrowser
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: package-utils[context]<1,>=0.6.1
+Requires-Dist: quinten-cli<2,>=1.1.16
+Requires-Dist: selenium<5,>=4.18.1
+Provides-Extra: dev
+Requires-Dist: hypothesis<7,>=6.97.1; extra == "dev"
+Requires-Dist: package-dev-tools<1,>=0.5.11; extra == "dev"
+Requires-Dist: package-dev-utils<1,>=0.1.6; extra == "dev"
+
+# Superbrowser
+[![PyPI version](https://badge.fury.io/py/superbrowser.svg)](https://badge.fury.io/py/superbrowser)
+![Python version](https://img.shields.io/badge/python-3.10+-brightgreen)
+![Operating system](https://img.shields.io/badge/os-linux%20%7c%20macOS%20%7c%20windows-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-66%25-brightgreen)
+
+## Usage
+
+```shell
+from browser import Browser
+
+browser = Browser()
+with browser:
+    do_operations(browser)
+```
+## Installation
+```shell
+pip install superbrowser
+```

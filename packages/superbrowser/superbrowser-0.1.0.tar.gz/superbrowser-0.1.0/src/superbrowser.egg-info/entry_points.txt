@@ -1,0 +1,2 @@
+[console_scripts]
+superbrowser = superbrowser.cli:entry_point
