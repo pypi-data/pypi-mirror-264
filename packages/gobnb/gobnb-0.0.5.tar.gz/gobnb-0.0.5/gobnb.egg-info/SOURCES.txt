@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+gobnb.egg-info/PKG-INFO
+gobnb.egg-info/SOURCES.txt
+gobnb.egg-info/dependency_links.txt
+gobnb.egg-info/requires.txt
+gobnb.egg-info/top_level.txt
