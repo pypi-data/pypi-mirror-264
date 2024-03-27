@@ -1,0 +1,6 @@
+setup.py
+emoc_cpp.egg-info/PKG-INFO
+emoc_cpp.egg-info/SOURCES.txt
+emoc_cpp.egg-info/dependency_links.txt
+emoc_cpp.egg-info/not-zip-safe
+emoc_cpp.egg-info/top_level.txt

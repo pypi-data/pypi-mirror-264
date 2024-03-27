@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: emoc_cpp
+Version: 0.0.0
+Summary: A test project using pybind11 and CMake
+Author: Your Name
+Author-email: your.email@example.com
