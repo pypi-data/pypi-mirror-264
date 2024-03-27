@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: thermal-parser
+Version: 20240327
+Summary: FLIR/DJI IR Camera Data Parser, Python Version
+Home-page: https://github.com/SanNianYiSi/thermal_parser
+Author: SanNianYiSi
+Author-email: CcoO296y@163.com
+License: MIT Licence
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: Pillow
+
