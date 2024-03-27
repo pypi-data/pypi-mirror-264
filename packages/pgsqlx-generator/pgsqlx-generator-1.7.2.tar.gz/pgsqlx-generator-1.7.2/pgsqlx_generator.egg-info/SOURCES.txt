@@ -1,0 +1,11 @@
+README.rst
+setup.py
+pgsqlx/__init__.py
+pgsqlx/generator.py
+pgsqlx/generator.tpl
+pgsqlx_generator.egg-info/PKG-INFO
+pgsqlx_generator.egg-info/SOURCES.txt
+pgsqlx_generator.egg-info/dependency_links.txt
+pgsqlx_generator.egg-info/not-zip-safe
+pgsqlx_generator.egg-info/requires.txt
+pgsqlx_generator.egg-info/top_level.txt
