@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/continuing_education/__init__.py
+src/continuing_education/checkpoint_manager.py
+src/continuing_education/checkpoint_registry.py
+src/continuing_education/continuing_trainer.py
+src/continuing_education.egg-info/PKG-INFO
+src/continuing_education.egg-info/SOURCES.txt
+src/continuing_education.egg-info/dependency_links.txt
+src/continuing_education.egg-info/requires.txt
+src/continuing_education.egg-info/top_level.txt
+tests/test_checkpoint_registry.py
+tests/test_remote_checkpoint_synchronizer.py
