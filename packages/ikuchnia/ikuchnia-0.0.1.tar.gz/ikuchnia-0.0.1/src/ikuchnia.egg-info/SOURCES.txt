@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/ikuchnia/__init__.py
+src/ikuchnia/meal_fetcher.py
+src/ikuchnia/parse_html.py
+src/ikuchnia/return_type.py
+src/ikuchnia.egg-info/PKG-INFO
+src/ikuchnia.egg-info/SOURCES.txt
+src/ikuchnia.egg-info/dependency_links.txt
+src/ikuchnia.egg-info/requires.txt
+src/ikuchnia.egg-info/top_level.txt
