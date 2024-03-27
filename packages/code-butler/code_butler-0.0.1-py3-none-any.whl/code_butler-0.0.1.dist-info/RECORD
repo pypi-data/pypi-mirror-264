@@ -1,0 +1,9 @@
+code_butler/__about__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+code_butler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_butler/__main__.py,sha256=CrmbNYdVUq7onpcFs3xx-I1PFSZ8JN_lxZkZP-YNaks,112
+code_butler/cli/__init__.py,sha256=hRVknVVpIJhE-ZT30E-d3aKpUePbUoQO5nD_F9yWDu0,3182
+code_butler-0.0.1.dist-info/METADATA,sha256=sg6J9ezGOoV2a2BmoxOiis1RDjZ3MLVf6EhEeLnz1Ak,882
+code_butler-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+code_butler-0.0.1.dist-info/entry_points.txt,sha256=PwVbgBBqhteury8CyXGqdJQoACleXV5na2J3SIosfYE,60
+code_butler-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+code_butler-0.0.1.dist-info/RECORD,,

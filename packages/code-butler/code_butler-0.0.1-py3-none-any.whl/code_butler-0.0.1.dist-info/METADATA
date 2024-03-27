@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: code-butler
+Version: 0.0.1
+Project-URL: Source, https://github.com/FlorentClarret/code-butler
+Author-email: Florent Clarret <florent.clarret@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: click==8.1.7
+Requires-Dist: gitpython==3.1.42
+Requires-Dist: pygithub==2.3.0
+Description-Content-Type: text/markdown
+
+# code-butler
