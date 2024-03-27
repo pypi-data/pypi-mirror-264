@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ollama-hydra
+Version: 0.1.8
+Summary: Proxy server for managing multiple Ollama models for AutoGen Agents
+Home-page: https://github.com/sendthis-ai/ollama-hydra
+Author: Cyrus Radfar
+Author-email: support@v1.co
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: ollama
+Requires-Dist: pyautogen
+Requires-Dist: dockerfile-parse
