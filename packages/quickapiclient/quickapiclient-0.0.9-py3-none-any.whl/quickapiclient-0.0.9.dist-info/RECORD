@@ -1,0 +1,9 @@
+quickapi/__init__.py,sha256=_Xukm7itcosfKZI3PzZC0ZB1nLNR6iogYMWgagSqq2c,499
+quickapi/client.py,sha256=zv4fP1RbzG6t-Is-UAURu_0rQMJZklUMWabl2uoWDY0,7141
+quickapi/exceptions.py,sha256=RjcxTYsaWN7DSpyajwI57Efg5OUA7pi_UdpneH1Myg4,2182
+quickapi/http_client.py,sha256=LalNF8SFZLwsuUL6B5qOHlolIuTo5ihQjIu2t323IzM,3915
+quickapi/serializers.py,sha256=CG6caFkNr9i87A5Bnb8TsiDjaRWpL6eL8b5azTDu0xI,5142
+quickapiclient-0.0.9.dist-info/LICENSE,sha256=UfC1xlBdHaNThLqz5wtCXAe9FiqXkx5Idoc3HKNTue4,580
+quickapiclient-0.0.9.dist-info/METADATA,sha256=8IIzwj6szDy-nHIDT6CPC1ejLcyvlmUZPeQYA3DEmdk,10322
+quickapiclient-0.0.9.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+quickapiclient-0.0.9.dist-info/RECORD,,
