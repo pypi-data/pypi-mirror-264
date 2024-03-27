@@ -1,0 +1,22 @@
+### config.yaml: parameters to display results in HTML page.
+Contamination:   # Meta category, show in left sidenav (underscores are replaced by blank)
+  rRNA:       # Must match with first item (characters before first dash) of the second column
+                  # in the tabuled index file. Also, they will be used for Javascript function names.
+                  # They must be unique, and contain uniquely letters, digits and underscores
+    sidenav : rRNA
+                  # Show in the left sidebar
+    title: Contamination by ribosomal RNA
+                  # Title of the graph
+    threshold: 200
+                  # 2 values separated by commas are admitted (e.g. threshold: 120, -120).
+    chart_type: bar
+                  # Only bar is admitted at this time.
+    # as_percent: # decomment to show result as percentage (show Gender).
+    #~ as_fastq:  # if decommented, each fastq file is showed instead sample (show Orientation).
+    chart_theme: light
+                  # light, dark, or nothing (default theme: nothing)
+    desc:         # More details on the graph, located under it
+      - "Contamination by ribosomal RNA" # first line is a title
+      - "<strong>Predictor genes selection:</strong> when total RNA is extracted from a human sample, the most abundant component is ribosomal RNA (rRNA, 80 to 90%, <em>O'Neil et al. (2013)</em>), which must be removed to measure gene/transcript abundances using RNA-seq technology. Commonly used protocols to remove rRNA are polyadenylated mRNA selection (polyA+) and ribo-depletion (Ribo-Zero). To differentiate these 2 protocols, we selected widely expressed histone genes which produce non-polyadenylated transcripts barely detected into polyA+ RNA-seq. These predictor genes are listed in the legend."
+      - "<strong>Specific k-mers quantification:</strong> several specific k-mers designed with Kmerator are associated to each selected histone gene. KmerExploR uses countTags to compute k-mer occurrences number in each RNA-seq sample and calculates the mean count value for each gene (Y axis, mean k-mer counts normalized per billion of k-mers)."
+      - "<strong>Threshold :</strong> the threshold was defined based on several RNA-seq datasets but might not fit perfectly your data. Ribo-depleted samples should be above the threshold and polyA+ below."
