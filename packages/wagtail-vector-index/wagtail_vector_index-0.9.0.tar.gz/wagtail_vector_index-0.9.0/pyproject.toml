@@ -1,0 +1,105 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "wagtail-vector-index"
+authors = [{name = "Tom Usher", email = "tom@tomusher.com"}]
+description = "Add your content to vector indexes for fast search and similarity matching."
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Wagtail",
+    "Framework :: Wagtail :: 5",
+]
+dynamic = ["version"]
+requires-python = ">=3.11"
+dependencies = [
+    "Django>=4.2",
+    "Wagtail>=5.2",
+    "aiohttp>=3.9.0b0; python_version >= '3.12'",
+]
+[project.optional-dependencies]
+numpy = [
+    "numpy>=1.26.0",
+]
+pgvector = [
+    "pgvector>=0.2.3",
+]
+qdrant = [
+    "qdrant-client>=1.6.0",
+]
+weaviate = [
+    "weaviate-client>=3.24.2",
+]
+llm = [
+    "llm>=0.12",
+]
+testing = [
+    "dj-database-url==2.1.0",
+    "pre-commit>=3.4.0",
+    "pytest>=7.4.2",
+    "pytest-mock>=3.12.0",
+    "pytest-django>=4.5.2",
+    "wagtail-factories>=4.1.0",
+    "factory-boy>=3.3.0",
+    "coverage>=7.0,<8.0",
+    "pyright>=1.1.345",
+    "django-types>=0.19.1",
+]
+docs = [
+    "mkdocs>=1.5.3",
+    "mkdocs-material>=9.4.5",
+    "mkdocs-awesome-pages-plugin>=2.9.2"
+]
+
+[project.urls]
+Home = "https://github.com/wagtail/wagtail-vector-index"
+
+[tool.flit.module]
+name = "wagtail_vector_index"
+
+[tool.flit.sdist]
+include = [
+    "wagtail_vector_index/static"
+]
+exclude = [
+    "wagtail_vector_index/static_src",
+    "wagtail_vector_index/test",
+    "wagtail_vector_index/static/wagtail_vector_index/js/.gitignore",
+    "tests",
+    "testmanage.py",
+    ".*",
+    "*.js",
+    "*.json",
+    "*.ini",
+    "*.yml"
+]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "testapp.settings"
+pythonpath = ["./", "./tests"]
+log_level = "INFO"
+
+[tool.ruff]
+select = ["F", "E", "C90", "I", "B", "DJ", "RUF", "TRY", "C4", "TCH005", "TCH004"]
+ignore = ["TRY003", "E501", "RUF012"]
+
+[tool.pyright]
+include = ["src/**"]
+exclude = [
+    "**/migrations",
+    "src/wagtail_vector_index/backends/qdrant/backend.py",
+]
+pythonVersion = "3.11"
+typeCheckingMode = "basic"
