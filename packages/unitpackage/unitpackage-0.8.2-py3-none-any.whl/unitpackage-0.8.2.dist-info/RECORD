@@ -1,0 +1,14 @@
+unitpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unitpackage/collection.py,sha256=ac3ZQ47_vLO3p49iLDKQNXxqg7jKontaufQiIsKcOZI,9972
+unitpackage/descriptor.py,sha256=Dpc_yTqU_iGMSbSkb6E_KUFBGze-WsOO8qXJk5uT3HE,7546
+unitpackage/entry.py,sha256=PyqF2SLAqmLVNv-_0UBflGBAxoFrCx_IQF0V6Ghw8Gc,24707
+unitpackage/local.py,sha256=UF8hG30TWUYcUIG7qeT1JCVtY3yj8AhG2pHcj_ePnjg,7647
+unitpackage/remote.py,sha256=L3zEKvkn1lVoGM0-SneOdmSJqc4_CN7OgOykD6nPbZ4,2953
+unitpackage/cv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unitpackage/cv/cv_collection.py,sha256=DnGuwzFXaVcoXT95Icjq_C-PXf_YHZLB8qDucRXo55g,3676
+unitpackage/cv/cv_entry.py,sha256=oMNk9pbPXb3pl6MblrFRl_XaqilWOgisKLEUYvZGobk,9401
+unitpackage-0.8.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+unitpackage-0.8.2.dist-info/METADATA,sha256=PgDQnC4M2eQEF7JH9GX9Axer7z2cPInRb2POEd0Zbwc,5097
+unitpackage-0.8.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+unitpackage-0.8.2.dist-info/top_level.txt,sha256=LCBi2Sta9IKbpsTm1gZm7nDSXeZ336SAjIEgMHjMDsU,12
+unitpackage-0.8.2.dist-info/RECORD,,
