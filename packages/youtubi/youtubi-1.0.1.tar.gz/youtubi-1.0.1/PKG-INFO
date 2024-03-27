@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: youtubi
+Version: 1.0.1
+Summary: Python Package made by Mhadhbi Issam . 
+Home-page: https://gitlab.com/isampypi/youtubi
+Author: Mhadhbi Issam
+Author-email: mhadhbixissam@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pytube
+
+# youtubi
+
+
+# Install  : 
+```bash
+pip install youtubi
+```
+
+## Example : 
+```python 
+
+from youtubi import process 
+
+urls= """
+https://youtu.be/oaxWxSdytTk?si=DNJOpBMtJyrmaMQR
+https://youtu.be/Ljmv9joEXiM?si=I55FFgGCgsZ3Km8w
+https://youtu.be/NpETkRzAINM?si=MpHEnTkDsuNE8J5K
+https://youtu.be/dsHGy672Occ?si=6GsanDFDafBQ1eaM
+https://youtu.be/qB6K8K4AFWI?si=pilsPHBmP1S4bFFF
+https://youtu.be/T5onNs-D4WA?si=bFmKrgiWa1nzbaiQ
+https://youtu.be/hM1Bk4cEFmg?si=WQlRpNPg6b-67Agd
+https://youtu.be/DPGR_LyDKNE?si=8Yaeww2zxaQ3xSv3
+https://youtu.be/D5hU4ICEB3o?si=HHTbWCo6knD6n5Xp
+"""
+process(urls)
+# process(text, output_path = "./videos")
+```
