@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: titbit
+Version: 0.1.3
+Summary: A place to dump might-be-useful-again code as an alternative of leaving in a notebook where it will never be found again
+Home-page: https://github.com/i2mint/titbit
+Author: OtoSense
+License: apache-2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# titbit
+A place to dump might-be-useful-again code as an alternative of leaving in a notebook where it will never be found again
+
+
+To install:	```pip install titbit```
