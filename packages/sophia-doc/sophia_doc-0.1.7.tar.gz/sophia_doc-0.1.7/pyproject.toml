@@ -1,0 +1,94 @@
+[project]
+name = "sophia-doc"
+version = "0.1.7"
+description = "A python package to automatically generate API documents for Python modules."
+authors = [
+    { name = "st1020", email = "me@st1020.com" },
+]
+readme = "README.md"
+keywords = [
+    "sophia-doc",
+    "documentation",
+    "doc",
+    "pydoc",
+    "markdown",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Documentation",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Text Processing",
+    "Topic :: Text Processing :: Markup",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "docstring-parser>=0.15",
+    "typing-extensions>=4.7.1",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/st1020/sophia-doc"
+Source = "https://github.com/st1020/sophia-doc"
+
+[project.scripts]
+sophia-doc = "sophia_doc.__main__:cli"
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
+select = [
+    "ALL",
+]
+ignore = [
+    "C90",
+    "FBT",
+    "COM",
+    "ANN101",
+    "ANN102",
+    "ANN401",
+    "PGH003",
+    "PLR0912",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"sophia_doc/__main__.py" = [
+    "D",
+    "A",
+]
+
+[tool.pyright]
+pythonVersion = "3.8"
+pythonPlatform = "All"
+typeCheckingMode = "strict"
+reportCallInDefaultInitializer = true
+reportImplicitOverride = true
+reportImportCycles = true
+reportMissingSuperCall = true
+reportPropertyTypeMismatch = true
+reportShadowedImports = true
+reportUninitializedInstanceVariable = true
+reportUnnecessaryTypeIgnoreComment = true
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
