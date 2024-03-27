@@ -1,0 +1,2 @@
+[console_scripts]
+examplepackagefb1258 = ccrypt.__main__:main
