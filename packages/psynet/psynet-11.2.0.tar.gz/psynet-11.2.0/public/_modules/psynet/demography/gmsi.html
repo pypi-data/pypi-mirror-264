@@ -1,0 +1,1005 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>psynet.demography.gmsi - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../experiment_development/experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../experiment_development/development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../experiment_development/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../experiment_development/dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../experiment_development/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../api/index.html">API Documentation</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../api/trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../api/trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../deploy/web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deploy/aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deploy/ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deploy/heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deploy/prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deploy/deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deploy/export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deploy/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <h1>Source code for psynet.demography.gmsi</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span>
+
+<span class="kn">from</span> <span class="nn">psynet.modular_page</span> <span class="kn">import</span> <span class="n">ModularPage</span><span class="p">,</span> <span class="n">PushButtonControl</span>
+<span class="kn">from</span> <span class="nn">psynet.page</span> <span class="kn">import</span> <span class="n">InfoPage</span>
+<span class="kn">from</span> <span class="nn">psynet.timeline</span> <span class="kn">import</span> <span class="n">CodeBlock</span><span class="p">,</span> <span class="n">Module</span><span class="p">,</span> <span class="n">Response</span><span class="p">,</span> <span class="n">join</span>
+
+
+<div class="viewcode-block" id="GMSI">
+<a class="viewcode-back" href="../../../api/demography.html#psynet.demography.gmsi.GMSI">[docs]</a>
+<span class="k">class</span> <span class="nc">GMSI</span><span class="p">(</span><span class="n">Module</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The `Goldsmiths Musical Sophistication Index` (GMSI) questionnaire.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+
+<span class="sd">    label : str, default: &quot;gmsi&quot;</span>
+<span class="sd">        A label used to distinguish the module from other modules in the timeline. In the case of multiple GMSI instances within a single timeline this label also allows to differentiate between the variable names used to store the participant&#39;s final scores; see :class:`~psynet.field.VarStore` for details.</span>
+
+<span class="sd">    short_version : bool, optional, default: `False`</span>
+<span class="sd">        Whether to use the reduced set of 29 questions.</span>
+<span class="sd">        The citation for this short version is Lin, H. L., Frieler, K., &amp; Müllensiefen, D. (2021).</span>
+<span class="sd">        Development and Validation of Short Forms of the Goldsmiths Musical Sophistication Index in Three Languages.</span>
+<span class="sd">        ICMPC/ESCOM 2021.</span>
+<span class="sd">        See also https://shiny.gold-msi.org/gmsiconfigurator/ and https://www.youtube.com/watch?v=x_0DomCP8Rs.</span>
+
+
+<span class="sd">    subscales: List, optional, default: `None`</span>
+<span class="sd">        The subscales to be included in the questionnaire. Possible subscales are `Active Engagement`, `Emotions`, `General`, `Musical Training`, `Perceptual Abilities, `Singing Abilities`, `Absolute Pitch`, `Instrument`, and `Start Age`. If no subscales are provided all subscales are selected. Overrides the `short_version` parameter.</span>
+
+<span class="sd">    info_page : InfoPage, optional, default: `None`</span>
+<span class="sd">        An :class:`~psynet.page.InfoPage` object to be used as an introductionary first page.</span>
+<span class="sd">        If none is supplied the default one is displayed (see source code).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">label</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;gmsi&quot;</span><span class="p">,</span>
+        <span class="n">short_version</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="n">subscales</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">info_page</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">InfoPage</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">label</span> <span class="o">=</span> <span class="n">label</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">short_version</span> <span class="o">=</span> <span class="n">short_version</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">subscales</span> <span class="o">=</span> <span class="n">subscales</span>
+
+        <span class="k">if</span> <span class="n">info_page</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">info_page</span> <span class="o">=</span> <span class="n">InfoPage</span><span class="p">(</span>
+                <span class="s2">&quot;The following questions are designed to assess your musicality. Please answer as accurately as possible.&quot;</span><span class="p">,</span>
+                <span class="n">time_estimate</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+            <span class="p">)</span>
+
+        <span class="n">questions</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">subscales</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">questions</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="n">label</span><span class="p">:</span> <span class="n">question_data</span><span class="p">()[</span><span class="n">label</span><span class="p">]</span>
+                <span class="k">for</span> <span class="n">label</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">question_data</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+                <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">subscale</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">subscales</span> <span class="k">for</span> <span class="n">subscale</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;subscales&quot;</span><span class="p">])</span>
+            <span class="p">}</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">short_version</span><span class="p">:</span>
+            <span class="n">questions_labels</span> <span class="o">=</span> <span class="p">[</span>
+                <span class="sa">f</span><span class="s2">&quot;q_</span><span class="si">{</span><span class="n">question_number</span><span class="si">:</span><span class="s2">02d</span><span class="si">}</span><span class="s2">&quot;</span>
+                <span class="k">for</span> <span class="n">question_number</span> <span class="ow">in</span> <span class="p">[</span>
+                    <span class="mi">1</span><span class="p">,</span>
+                    <span class="mi">4</span><span class="p">,</span>
+                    <span class="mi">19</span><span class="p">,</span>
+                    <span class="mi">27</span><span class="p">,</span>
+                    <span class="mi">30</span><span class="p">,</span>
+                    <span class="mi">36</span><span class="p">,</span>
+                    <span class="mi">3</span><span class="p">,</span>
+                    <span class="mi">10</span><span class="p">,</span>
+                    <span class="mi">20</span><span class="p">,</span>
+                    <span class="mi">26</span><span class="p">,</span>
+                    <span class="mi">39</span><span class="p">,</span>
+                    <span class="mi">2</span><span class="p">,</span>
+                    <span class="mi">12</span><span class="p">,</span>
+                    <span class="mi">16</span><span class="p">,</span>
+                    <span class="mi">22</span><span class="p">,</span>
+                    <span class="mi">35</span><span class="p">,</span>
+                    <span class="mi">6</span><span class="p">,</span>
+                    <span class="mi">13</span><span class="p">,</span>
+                    <span class="mi">14</span><span class="p">,</span>
+                    <span class="mi">24</span><span class="p">,</span>
+                    <span class="mi">28</span><span class="p">,</span>
+                    <span class="mi">29</span><span class="p">,</span>
+                    <span class="mi">32</span><span class="p">,</span>
+                    <span class="mi">8</span><span class="p">,</span>
+                    <span class="mi">11</span><span class="p">,</span>
+                    <span class="mi">23</span><span class="p">,</span>
+                    <span class="mi">33</span><span class="p">,</span>
+                    <span class="mi">40</span><span class="p">,</span>
+                    <span class="mi">41</span><span class="p">,</span>
+                <span class="p">]</span>
+            <span class="p">]</span>
+            <span class="n">questions</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="n">label</span><span class="p">:</span> <span class="n">question_data</span><span class="p">()[</span><span class="n">label</span><span class="p">]</span>
+                <span class="k">for</span> <span class="n">label</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">question_data</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+                <span class="k">if</span> <span class="n">label</span> <span class="ow">in</span> <span class="n">questions_labels</span>
+            <span class="p">}</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">questions</span> <span class="o">=</span> <span class="n">question_data</span><span class="p">()</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">elts</span> <span class="o">=</span> <span class="n">join</span><span class="p">(</span>
+            <span class="n">info_page</span><span class="p">,</span>
+            <span class="p">[</span>
+                <span class="n">GMSIPage</span><span class="p">(</span>
+                    <span class="n">label</span><span class="p">,</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;prompt&quot;</span><span class="p">],</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+                    <span class="n">labels</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;labels&quot;</span><span class="p">),</span>
+                    <span class="n">arrange_vertically</span><span class="o">=</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;arrange_vertically&quot;</span><span class="p">],</span>
+                    <span class="n">module_label</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">label</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="k">for</span> <span class="n">label</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">questions</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+            <span class="p">],</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">save_scores</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">label</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">elts</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">save_scores</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">CodeBlock</span><span class="p">(</span>
+            <span class="k">lambda</span> <span class="n">participant</span><span class="p">:</span> <span class="n">participant</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">set</span><span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">label</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">compile_results</span><span class="p">(</span><span class="n">participant</span><span class="p">)</span>
+            <span class="p">)</span>
+        <span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">compile_results</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">participant</span><span class="p">):</span>
+        <span class="c1"># get all responses for the participant from the database</span>
+        <span class="n">responses</span> <span class="o">=</span> <span class="n">Response</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">filter_by</span><span class="p">(</span><span class="n">participant_id</span><span class="o">=</span><span class="n">participant</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+        <span class="c1"># filter to retain only gmsi responses for current module</span>
+        <span class="n">responses</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">response</span>
+            <span class="k">for</span> <span class="n">response</span> <span class="ow">in</span> <span class="n">responses</span>
+            <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">question</span> <span class="ow">in</span> <span class="n">question_data</span><span class="p">()</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+            <span class="ow">and</span> <span class="n">response</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s2">&quot;gmsi_label&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">label</span>
+        <span class="p">]</span>
+        <span class="c1"># calculate score for each question</span>
+        <span class="n">response_scores</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="n">response</span><span class="o">.</span><span class="n">question</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">calculate_score</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">question</span><span class="p">,</span> <span class="n">response</span><span class="o">.</span><span class="n">answer</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">response</span> <span class="ow">in</span> <span class="n">responses</span>
+        <span class="p">}</span>
+        <span class="c1"># group scores by subscale</span>
+        <span class="n">grouped_scores</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">question</span><span class="p">,</span> <span class="n">score</span> <span class="ow">in</span> <span class="n">response_scores</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">subscales</span> <span class="o">=</span> <span class="n">question_data</span><span class="p">()[</span><span class="n">question</span><span class="p">][</span><span class="s2">&quot;subscales&quot;</span><span class="p">]</span>
+            <span class="k">for</span> <span class="n">subscale</span> <span class="ow">in</span> <span class="n">subscales</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">subscale</span> <span class="ow">in</span> <span class="n">grouped_scores</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                    <span class="n">grouped_scores</span><span class="p">[</span><span class="n">subscale</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">grouped_scores</span><span class="p">[</span><span class="n">subscale</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">score</span><span class="p">]</span>
+        <span class="c1"># calculate arithmetic mean for each subscale</span>
+        <span class="n">mean_scores_per_scale</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="n">group</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span> <span class="nb">round</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">group</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">group</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="mi">6</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">all</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">group</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="k">else</span> <span class="n">group</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+            <span class="k">for</span> <span class="n">group</span> <span class="ow">in</span> <span class="n">grouped_scores</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+        <span class="p">}</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">subscales</span><span class="p">:</span>
+            <span class="c1"># remove subscales not asked for</span>
+            <span class="n">mean_scores_per_scale</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="n">subscale</span><span class="p">:</span> <span class="n">score</span>
+                <span class="k">for</span> <span class="n">subscale</span><span class="p">,</span> <span class="n">score</span> <span class="ow">in</span> <span class="n">mean_scores_per_scale</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+                <span class="k">if</span> <span class="n">subscale</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">subscales</span>
+            <span class="p">}</span>
+
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s2">&quot;response_scores&quot;</span><span class="p">:</span> <span class="n">response_scores</span><span class="p">,</span>
+            <span class="s2">&quot;mean_scores_per_scale&quot;</span><span class="p">:</span> <span class="n">mean_scores_per_scale</span><span class="p">,</span>
+        <span class="p">}</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">calculate_score</span><span class="p">(</span><span class="n">question</span><span class="p">,</span> <span class="n">answer</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">answer</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="n">answer</span> <span class="o">=</span> <span class="n">answer</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;&quot;&#39;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">question</span> <span class="o">==</span> <span class="s2">&quot;q_40&quot;</span> <span class="ow">and</span> <span class="n">answer</span> <span class="o">==</span> <span class="s2">&quot;19&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">question</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;q_32&quot;</span><span class="p">,</span> <span class="s2">&quot;q_41&quot;</span><span class="p">]:</span>
+            <span class="k">return</span> <span class="n">answer</span>
+        <span class="n">raw_value</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">answer</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="mi">8</span> <span class="o">-</span> <span class="n">raw_value</span><span class="p">)</span> <span class="k">if</span> <span class="n">question_data</span><span class="p">()[</span><span class="n">question</span><span class="p">][</span><span class="s2">&quot;inverted&quot;</span><span class="p">]</span> <span class="k">else</span> <span class="n">raw_value</span></div>
+
+
+
+<span class="k">class</span> <span class="nc">GMSIPage</span><span class="p">(</span><span class="n">ModularPage</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">label</span><span class="p">,</span>
+        <span class="n">prompt</span><span class="p">,</span>
+        <span class="n">choices</span><span class="p">,</span>
+        <span class="n">labels</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">arrange_vertically</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">module_label</span><span class="o">=</span><span class="s2">&quot;gmsi&quot;</span><span class="p">,</span>
+    <span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">label</span> <span class="o">=</span> <span class="n">label</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">prompt</span> <span class="o">=</span> <span class="n">prompt</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">choices</span> <span class="o">=</span> <span class="n">choices</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">labels</span> <span class="o">=</span> <span class="n">labels</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">arrange_vertically</span> <span class="o">=</span> <span class="n">arrange_vertically</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_estimate</span> <span class="o">=</span> <span class="mi">5</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">module_label</span> <span class="o">=</span> <span class="n">module_label</span>
+
+        <span class="n">control</span> <span class="o">=</span> <span class="n">PushButtonControl</span><span class="p">(</span>
+            <span class="n">choices</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">choices</span><span class="p">,</span>
+            <span class="n">labels</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">labels</span><span class="p">,</span>
+            <span class="n">arrange_vertically</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">arrange_vertically</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">label</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">prompt</span><span class="p">,</span>
+            <span class="n">control</span><span class="o">=</span><span class="n">control</span><span class="p">,</span>
+            <span class="n">time_estimate</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">time_estimate</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">metadata</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;gmsi_label&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_label</span><span class="p">}</span>
+
+
+<span class="k">def</span> <span class="nf">agreement_scale</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">8</span><span class="p">)),</span>
+        <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;Completely disagree&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;Strongly disagree&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;Disagree&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;Neither agree nor disagree&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;Agree&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;Strongly agree&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;Completely agree&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+    <span class="p">}</span>
+
+
+<span class="k">def</span> <span class="nf">question_data</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&quot;q_01&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I spend a lot of my free time doing music-related activities.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_02&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I engaged in regular, daily practice of a musical instrument (including voice) for the following number of years:&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Musical Training&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;4-5&quot;</span><span class="p">,</span> <span class="s2">&quot;6-9&quot;</span><span class="p">,</span> <span class="s2">&quot;10 or more&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_03&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I sometimes choose music that can trigger shivers down my spine.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Emotions&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_04&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I enjoy writing about music, for example on blogs and forums.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_05&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;If somebody starts singing a song I don&#39;t know, I can usually join in.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Singing Abilities&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_06&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I am able to judge whether someone is a good singer or not.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_07&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I usually know when I&#39;m hearing a song for the first time.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_08&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I can sing or play music from memory.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Singing Abilities&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_09&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I&#39;m intrigued by musical styles I&#39;m not familiar with and want to find out more.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_10&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;Pieces of music rarely evoke emotions for me.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Emotions&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_11&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I am able to hit the right notes when I sing along with a recording.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Singing Abilities&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_12&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;At the peak of my interest, I practised my primary instrument (including voice) for the following number of hours per day:&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Musical Training&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;0.5&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;1.5&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3-4&quot;</span><span class="p">,</span> <span class="s2">&quot;5 or more&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_13&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I find it difficult to spot mistakes in a performance of a song even if I know the tune.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_14&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I can compare and discuss differences between two performances or versions of the same piece of music.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_15&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I have trouble recognizing a familiar song when played in a different way or by a different performer.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_16&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I have never been complimented for my talents as a musical performer.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Musical Training&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_17&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I have attended the following number of live music events as an audience member in the past twelve months:&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;4-6&quot;</span><span class="p">,</span> <span class="s2">&quot;7-10&quot;</span><span class="p">,</span> <span class="s2">&quot;11 or more&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_18&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I have had formal training in music theory for the following number of years&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Musical Training&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;0.5&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;4-6&quot;</span><span class="p">,</span> <span class="s2">&quot;7 or more&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_19&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I often read or search the internet for things related to music.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_20&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I often pick certain music to motivate or excite me.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Emotions&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_21&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I have had formal training on a musical instrument (including voice) during my lifetime for the following number of years:&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Musical Training&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;0.5&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3-5&quot;</span><span class="p">,</span> <span class="s2">&quot;6-9&quot;</span><span class="p">,</span> <span class="s2">&quot;10 or more&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_22&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I can play the following number of musical instruments (including voice):&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Musical Training&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;4&quot;</span><span class="p">,</span> <span class="s2">&quot;5&quot;</span><span class="p">,</span> <span class="s2">&quot;6 or more&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_23&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I am able to sing in harmony when somebody is singing a familiar tune.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Singing Abilities&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_24&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I can tell when people sing or play out of time with the beat.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_25&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I am able to identify what is special about a given musical piece.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Emotions&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_26&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I am able to talk about the emotions that a piece of music evokes for me.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Emotions&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_27&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I don&#39;t spend much of my disposable income on music.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_28&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I can tell when people sing or play out of tune.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_29&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;When I sing, I have no idea whether I&#39;m in tune or not.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_30&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;Music is kind of an addiction for me – I couldn&#39;t live without it.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_31&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I listen attentively to music for the following amount of time per day:&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="s2">&quot;0-15 min&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;15-30 min&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;30-60 min&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;60-90 min&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;2 hrs&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;2-3 hrs&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;4 hrs or more&quot;</span><span class="p">,</span>
+            <span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_32&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;The instrument I play best (including voice) is:&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Instrument&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="s2">&quot;I don&#39;t play any instrument.&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;voice&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;piano&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;guitar&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;drums&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;xylophone&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;flute&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;oboe&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;clarinet&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;bassoon&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;trumpet&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;trombone&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;tuba&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;saxophone&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;horn&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;violin&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;cello&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;viola&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;double bass&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;harp&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;other&quot;</span><span class="p">,</span>
+            <span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_33&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I don&#39;t like singing in public because I&#39;m afraid that I would sing wrong notes.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Singing Abilities&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_34&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;When I hear a piece of music I can usually identify its genre.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Perceptual Abilities&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_35&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I would not consider myself a musician.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Musical Training&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_36&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I keep track of new music that I come across (e.g. new artists or recordings).&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Active Engagement&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_37&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;After hearing a new song two or three times, I can usually sing it by myself.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Singing Abilities&quot;</span><span class="p">,</span> <span class="s2">&quot;General&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_38&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;I only need to hear a new tune once and I can sing it back hours later.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Singing Abilities&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_39&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;Music can evoke my memories of past people and places.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Emotions&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;choices&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="n">agreement_scale</span><span class="p">()[</span><span class="s2">&quot;labels&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_40&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;What age did you start to play an instrument?&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Start Age&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">20</span><span class="p">)),</span>
+            <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">19</span><span class="p">))</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;I don&#39;t play any instrument.&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;q_41&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="s2">&quot;Do you have absolute pitch? Absolute or perfect pitch is the ability to recognise and name an isolated musical tone without a reference tone, e.g. being able to say &#39;F#&#39; if someone plays that note on the piano.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inverted&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;subscales&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Absolute Pitch&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;choices&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Yes&quot;</span><span class="p">,</span> <span class="s2">&quot;No&quot;</span><span class="p">],</span>
+            <span class="s2">&quot;arrange_vertically&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+    <span class="p">}</span>
+</pre></div>
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../../../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

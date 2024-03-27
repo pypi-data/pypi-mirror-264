@@ -1,0 +1,1316 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Field" href="field.html" /><link rel="prev" title="Error" href="error.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>Experiment - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">API Documentation</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="error.html">Error</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://gitlab.com/PsyNetDev/PsyNet/-/edit/master/docs/api/experiment.rst" title="Edit this page">
+    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="module-psynet.experiment">
+<span id="experiment"></span><h1>Experiment<a class="headerlink" href="#module-psynet.experiment" title="Link to this heading">#</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.experiment.</span></span><span class="sig-name descname"><span class="pre">Experiment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">session</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Experiment</span></code></p>
+<p>The main experiment class from which to inherit when building experiments.</p>
+<p>Several experiment options can be set through the experiment class.
+For example, the storage back-end can be selected by setting the <code class="docutils literal notranslate"><span class="pre">asset_storage</span></code> attribute:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Exp</span><span class="p">(</span><span class="n">psynet</span><span class="o">.</span><span class="n">experiment</span><span class="o">.</span><span class="n">Experiment</span><span class="p">):</span>
+    <span class="n">asset_storage</span> <span class="o">=</span> <span class="n">LocalStorage</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Config variables can be set here, amongst other places (see online documentation for details):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Exp</span><span class="p">(</span><span class="n">psynet</span><span class="o">.</span><span class="n">experiment</span><span class="o">.</span><span class="n">Experiment</span><span class="p">):</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;min_accumulated_reward_for_abort&quot;</span><span class="p">:</span> <span class="mf">0.15</span><span class="p">,</span>
+        <span class="s2">&quot;show_abort_button&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="p">}</span>
+</pre></div>
+</div>
+<p>Custom CSS stylesheets can be included here, to style the appearance of the experiment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Exp</span><span class="p">(</span><span class="n">psynet</span><span class="o">.</span><span class="n">experiment</span><span class="o">.</span><span class="n">Experiment</span><span class="p">):</span>
+    <span class="n">css_links</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;static/theme.css&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>CSS can also be included directly as part of the experiment class via the <code class="docutils literal notranslate"><span class="pre">css</span></code> attribute,
+see <code class="docutils literal notranslate"><span class="pre">custom_theme</span></code> demo for details.</p>
+<p>There are a number of variables tied to an experiment all of which are documented below.
+They have been assigned reasonable default values which can be overridden when defining an experiment
+(see method <code class="docutils literal notranslate"><span class="pre">_default_variables</span></code>). Also, they can be enriched with new variables in the following way:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">psynet.experiment</span>
+
+<span class="k">class</span> <span class="nc">Exp</span><span class="p">(</span><span class="n">psynet</span><span class="o">.</span><span class="n">experiment</span><span class="o">.</span><span class="n">Experiment</span><span class="p">):</span>
+    <span class="n">variables</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;new_variable&quot;</span><span class="p">:</span> <span class="s2">&quot;some-value&quot;</span><span class="p">,</span>  <span class="c1"># Adding a new variable</span>
+    <span class="p">}</span>
+</pre></div>
+</div>
+<p>These variables can then be changed in the course of experiment, just like (e.g.) participant variables.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">psynet.timeline</span> <span class="kn">import</span> <span class="n">CodeBlock</span>
+
+<span class="n">CodeBlock</span><span class="p">(</span><span class="k">lambda</span> <span class="n">experiment</span><span class="p">:</span> <span class="n">experiment</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&quot;custom-variable&quot;</span><span class="p">,</span> <span class="mi">42</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>Default experiment variables accessible through <cite>psynet.experiment.Experiment.var</cite> are:</p>
+<dl>
+<dt>max_participant_payment<span class="classifier"><cite>float</cite></span></dt><dd><p>The maximum payment in US dollars a participant is allowed to get. Default: <cite>25.0</cite>.</p>
+</dd>
+<dt>soft_max_experiment_payment<span class="classifier"><cite>float</cite></span></dt><dd><p>The recruiting process stops if the amount of accumulated payments
+(incl. time and performance rewards) in US dollars exceedes this value. Default: <cite>1000.0</cite>.</p>
+</dd>
+<dt>hard_max_experiment_payment<span class="classifier"><cite>float</cite></span></dt><dd><p>Guarantees that in an experiment no more is spent than the value assigned.
+Bonuses are not paid from the point this value is reached and a record of the amount
+of unpaid bonus is kept in the participant’s <cite>unpaid_bonus</cite> variable. Default: <cite>1100.0</cite>.</p>
+</dd>
+<dt>big_base_payment<span class="classifier"><cite>bool</cite></span></dt><dd><p>Set this to <cite>True</cite> if you REALLY want to set <cite>base_payment</cite> to a value &gt; 20.</p>
+</dd>
+</dl>
+<p>There are also a few experiment variables that are set automatically and that should,
+in general, not be changed manually:</p>
+<dl>
+<dt>psynet_version<span class="classifier"><cite>str</cite></span></dt><dd><p>The version of the <cite>psynet</cite> package.</p>
+</dd>
+<dt>dallinger_version<span class="classifier"><cite>str</cite></span></dt><dd><p>The version of the <cite>Dallinger</cite> package.</p>
+</dd>
+<dt>python_version<span class="classifier"><cite>str</cite></span></dt><dd><p>The version of the <cite>Python</cite>.</p>
+</dd>
+<dt>hard_max_experiment_payment_email_sent<span class="classifier"><cite>bool</cite></span></dt><dd><p>Whether an email to the experimenter has already been sent indicating the <cite>hard_max_experiment_payment</cite>
+had been reached. Default: <cite>False</cite>. Once this is <cite>True</cite>, no more emails will be sent about
+this payment limit being reached.</p>
+</dd>
+<dt>soft_max_experiment_payment_email_sent<span class="classifier"><cite>bool</cite></span></dt><dd><p>Whether an email to the experimenter has already been sent indicating the <cite>soft_max_experiment_payment</cite>
+had been reached. Default: <cite>False</cite>. Once this is <cite>True</cite>, no more emails will be sent about
+this payment limit being reached.</p>
+</dd>
+</dl>
+<p>In addition to the config variables in Dallinger, PsyNet adds the following:</p>
+<dl>
+<dt>min_browser_version<span class="classifier"><cite>str</cite></span></dt><dd><p>The minimum version of the Chrome browser a participant needs in order to take a HIT. Default: <cite>80.0</cite>.</p>
+</dd>
+<dt>wage_per_hour<span class="classifier"><cite>float</cite></span></dt><dd><p>The payment in currency the participant gets per hour. Default: <cite>9.0</cite>.</p>
+</dd>
+<dt>currency<span class="classifier"><cite>str</cite></span></dt><dd><p>The currency in which the participant gets paid. Default: <cite>$</cite>.</p>
+</dd>
+<dt>min_accumulated_reward_for_abort<span class="classifier"><cite>float</cite></span></dt><dd><p>The threshold of reward accumulated in US dollars for the participant to be able to receive
+compensation when aborting an experiment using the <cite>Abort experiment</cite> button. Default: <cite>0.20</cite>.</p>
+</dd>
+<dt>show_abort_button<span class="classifier"><cite>bool</cite></span></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code>, the <cite>Ad</cite> page displays an <cite>Abort</cite> button the participant can click to terminate the HIT,
+e.g. in case of an error where the participant is unable to finish the experiment. Clicking the button
+assures the participant is compensated on the basis of the amount of reward that has been accumulated.
+Default <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+<dt>show_reward<span class="classifier"><cite>bool</cite></span></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code> (default), then the participant’s current estimated reward is displayed
+at the bottom of the page.</p>
+</dd>
+<dt>show_footer<span class="classifier"><cite>bool</cite></span></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code> (default), then a footer is displayed at the bottom of the page containing a ‘Help’ button
+and reward information if <cite>show_reward</cite> is set to <cite>True</cite>.</p>
+</dd>
+<dt>show_progress_bar<span class="classifier"><cite>bool</cite></span></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code> (default), then a progress bar is displayed at the top of the page.</p>
+</dd>
+<dt>check_participant_opened_devtools<span class="classifier"><code class="docutils literal notranslate"><span class="pre">bool</span></code></span></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code>, whenever a participant opens the developer tools in the web browser,
+this is logged as participant.var.opened_devtools = <code class="docutils literal notranslate"><span class="pre">True</span></code>,
+and the participant is shown a warning alert message.
+Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.
+Note: Chrome does not currently expose an official way of checking whether
+the participant opens the developer tools. People therefore have to rely
+on hacks to detect it. These hacks can often be broken by updates to Chrome.
+We’ve therefore disabled this check by default, to reduce the risk of
+false positives. Experimenters wishing to enable the check for an individual
+experiment are recommended to verify that the check works appropriately
+before relying on it. We’d be grateful for any contributions of updated
+developer tools checks.</p>
+</dd>
+<dt>window_width<span class="classifier"><code class="docutils literal notranslate"><span class="pre">int</span></code></span></dt><dd><p>Determines the width in pixels of the window that opens when the
+participant starts the experiment. Only active if
+recruiter.start_experiment_in_popup_window is True.
+Default: <code class="docutils literal notranslate"><span class="pre">1024</span></code>.</p>
+</dd>
+<dt>window_height<span class="classifier"><code class="docutils literal notranslate"><span class="pre">int</span></code></span></dt><dd><p>Determines the width in pixels of the window that opens when the
+participant starts the experiment. Only active if
+recruiter.start_experiment_in_popup_window is True.
+Default: <code class="docutils literal notranslate"><span class="pre">768</span></code>.</p>
+</dd>
+<dt>supported_locales<span class="classifier"><code class="docutils literal notranslate"><span class="pre">list</span></code></span></dt><dd><p>List of locales (i.e., ISO language codes) a user can pick from, e.g., <code class="docutils literal notranslate"><span class="pre">'[&quot;en&quot;]'</span></code>.
+Default: <code class="docutils literal notranslate"><span class="pre">'[]'</span></code>.</p>
+</dd>
+<dt>allow_switching_locale<span class="classifier"><code class="docutils literal notranslate"><span class="pre">bool</span></code></span></dt><dd><p>Allow the user to change the language of the experiment during the experiment.
+Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+<dt>force_google_chrome<span class="classifier"><code class="docutils literal notranslate"><span class="pre">bool</span></code></span></dt><dd><p>Forces the user to use the Google Chrome browser. If another browser is used, it will give detailed instructions
+on how to install Google Chrome.
+Default: <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
+</dd>
+<dt>force_incognito_mode<span class="classifier"><code class="docutils literal notranslate"><span class="pre">bool</span></code></span></dt><dd><p>Forces the user to open the experiment in a private browsing (i.e. incognito mode). This is helpful as incognito
+mode prevents the user from accessing their browsing history, which could be used to influence the experiment.
+Furthermore it does not enable addons which can interfere with the experiment. If the user is not using
+incognito mode, it will give detailed instructions on how to open the experiment in incognito mode.
+Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+<dt>allow_mobile_devices<span class="classifier"><code class="docutils literal notranslate"><span class="pre">bool</span></code></span></dt><dd><p>Allows the user to use mobile devices. If it is set to false it will tell the user to open the experiment on
+their computer.
+Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>session</strong> – The experiment’s connection to the database.</p>
+</dd>
+</dl>
+<dl class="py exception">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.HandledError">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">HandledError</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">message</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.HandledError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.HandledError" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.UniqueIdError">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">UniqueIdError</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">expected</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provided</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.UniqueIdError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.UniqueIdError" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PermissionError</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.assignment_abandoned">
+<span class="sig-name descname"><span class="pre">assignment_abandoned</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.assignment_abandoned"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.assignment_abandoned" title="Link to this definition">#</a></dt>
+<dd><p>What to do if a participant abandons the hit.</p>
+<p>This runs when a notification from AWS is received indicating that
+<cite>participant</cite> has run out of time. Calls
+<code class="xref py py-func docutils literal notranslate"><span class="pre">fail_participant()</span></code>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.assignment_reassigned">
+<span class="sig-name descname"><span class="pre">assignment_reassigned</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.assignment_reassigned"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.assignment_reassigned" title="Link to this definition">#</a></dt>
+<dd><p>What to do if the assignment assigned to a participant is
+reassigned to another participant while the first participant
+is still working.</p>
+<p>This runs when a participant is created with the same assignment_id
+as another participant if the earlier participant still has the status
+“working”. Calls <code class="xref py py-func docutils literal notranslate"><span class="pre">fail_participant()</span></code>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.assignment_returned">
+<span class="sig-name descname"><span class="pre">assignment_returned</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.assignment_returned"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.assignment_returned" title="Link to this definition">#</a></dt>
+<dd><p>What to do if a participant returns the hit.</p>
+<p>This runs when a notification from AWS is received indicating that
+<cite>participant</cite> has returned the experiment assignment. Calls
+<code class="xref py py-func docutils literal notranslate"><span class="pre">fail_participant()</span></code>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.bonus">
+<span class="sig-name descname"><span class="pre">bonus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.bonus"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.bonus" title="Link to this definition">#</a></dt>
+<dd><p>Calculates and returns the reward the given participant gets when
+completing the experiment.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>participant</strong> (<a class="reference internal" href="participant.html#psynet.participant.Participant" title="psynet.participant.Participant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">Participant</span></code></a>) – The participant.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The reward as a <code class="docutils literal notranslate"><span class="pre">float</span></code>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.check_bonus">
+<span class="sig-name descname"><span class="pre">check_bonus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">reward</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.check_bonus"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.check_bonus" title="Link to this definition">#</a></dt>
+<dd><p>Ensures that a participant receives no more than a reward of max_participant_payment.
+Additionally, checks if both soft_max_experiment_payment or max_participant_payment have
+been reached or exceeded, respectively. Emails are sent out warning the user if either is true.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>reward</strong> – float
+The reward calculated in <a class="reference internal" href="#psynet.experiment.Experiment.bonus" title="psynet.experiment.Experiment.bonus"><code class="xref py py-func docutils literal notranslate"><span class="pre">bonus()</span></code></a>.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The possibly reduced reward as a <code class="docutils literal notranslate"><span class="pre">float</span></code>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.compile_translations_if_necessary">
+<span class="sig-name descname"><span class="pre">compile_translations_if_necessary</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">locales_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.compile_translations_if_necessary"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.compile_translations_if_necessary" title="Link to this definition">#</a></dt>
+<dd><p>Compiles translations if necessary.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.config_defaults">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">config_defaults</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.config_defaults"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.config_defaults" title="Link to this definition">#</a></dt>
+<dd><p>Override this classmethod to register new default values for config variables.
+Remember to call super!</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.error_page">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">error_page</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participant</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">error_text</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recruiter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">external_submit_url</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">compensate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">error_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'default'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">request_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">locale</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'en'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.error_page"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.error_page" title="Link to this definition">#</a></dt>
+<dd><p>Render HTML for error page.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.extra_parameters">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">extra_parameters</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.extra_parameters"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.extra_parameters" title="Link to this definition">#</a></dt>
+<dd><p>Override this classmethod to register new config variables. It is
+called during config load. See
+<span class="xref std std-ref">Extra Configuration</span> for an example.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.fail_participant">
+<span class="sig-name descname"><span class="pre">fail_participant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.fail_participant"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.fail_participant" title="Link to this definition">#</a></dt>
+<dd><p>Fail all the nodes of a participant.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.get_participant_from_assignment_id">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_participant_from_assignment_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">assignment_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">for_update</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.get_participant_from_assignment_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.get_participant_from_assignment_id" title="Link to this definition">#</a></dt>
+<dd><p>Get a participant with a specified <code class="docutils literal notranslate"><span class="pre">assignment_id</span></code>.
+Throws a <code class="docutils literal notranslate"><span class="pre">sqlalchemy.orm.exc.NoResultFound</span></code> error if there is no such participant,
+or a <code class="docutils literal notranslate"><span class="pre">sqlalchemy.orm.exc.MultipleResultsFound</span></code> error if there are multiple such participants.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>assignment_id</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – ID of the participant to retrieve.</p></li>
+<li><p><strong>for_update</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></span>) – Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> if you plan to update this Participant object.
+The Participant object will be locked for update in the database
+and only released at the end of the transaction.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>The corresponding participant object.</em></p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.get_participant_from_participant_id">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_participant_from_participant_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participant_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">for_update</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.get_participant_from_participant_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.get_participant_from_participant_id" title="Link to this definition">#</a></dt>
+<dd><p>Get a participant with a specified <code class="docutils literal notranslate"><span class="pre">participant_id</span></code>.
+Throws a <code class="docutils literal notranslate"><span class="pre">ValueError</span></code> if the <code class="docutils literal notranslate"><span class="pre">participant_id</span></code> is not a valid integer,
+a <code class="docutils literal notranslate"><span class="pre">sqlalchemy.orm.exc.NoResultFound</span></code> error if there is no such participant,
+or a <code class="docutils literal notranslate"><span class="pre">sqlalchemy.orm.exc.MultipleResultsFound</span></code> error if there are multiple such participants.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>participant_id</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></span>) – ID of the participant to retrieve.</p></li>
+<li><p><strong>for_update</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></span>) – Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> if you plan to update this Participant object.
+The Participant object will be locked for update in the database
+and only released at the end of the transaction.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>The corresponding participant object.</em></p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.get_participant_from_unique_id">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_participant_from_unique_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">unique_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">for_update</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.get_participant_from_unique_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.get_participant_from_unique_id" title="Link to this definition">#</a></dt>
+<dd><p>Get a participant with a specified <code class="docutils literal notranslate"><span class="pre">unique_id</span></code>.
+Throws a <code class="docutils literal notranslate"><span class="pre">sqlalchemy.orm.exc.NoResultFound</span></code> error if there is no such participant,
+or a <code class="docutils literal notranslate"><span class="pre">sqlalchemy.orm.exc.MultipleResultsFound</span></code> error if there are multiple such participants.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>unique_id</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – Unique ID of the participant to retrieve.</p></li>
+<li><p><strong>for_update</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></span>) – Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> if you plan to update this Participant object.
+The Participant object will be locked for update in the database
+and only released at the end of the transaction.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>The corresponding participant object.</em></p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.get_participant_from_worker_id">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_participant_from_worker_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">worker_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">for_update</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.get_participant_from_worker_id"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.get_participant_from_worker_id" title="Link to this definition">#</a></dt>
+<dd><p>Get a participant with a specified <code class="docutils literal notranslate"><span class="pre">worker_id</span></code>.
+Throws a <code class="docutils literal notranslate"><span class="pre">sqlalchemy.orm.exc.NoResultFound</span></code> error if there is no such participant,
+or a <code class="docutils literal notranslate"><span class="pre">sqlalchemy.orm.exc.MultipleResultsFound</span></code> error if there are multiple such participants.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>worker_id</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – ID of the participant to retrieve.</p></li>
+<li><p><strong>for_update</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></span>) – Set to <code class="docutils literal notranslate"><span class="pre">True</span></code> if you plan to update this Participant object.
+The Participant object will be locked for update in the database
+and only released at the end of the transaction.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>The corresponding participant object.</em></p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.get_status">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lookback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'10s'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.get_status"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.get_status" title="Link to this definition">#</a></dt>
+<dd><p>Return the status of the experiment as a dictionary.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.google_search_console">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">google_search_console</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.google_search_console"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.google_search_console" title="Link to this definition">#</a></dt>
+<dd><p>This route is disabled by default, but can be enabled by setting
+<cite>enable_google_search_console = true</cite> in config.txt.
+Enabling this route allows the site to be claimed in the Google Search Console
+dashboard of the <a class="reference external" href="mailto:computational&#46;audition&#37;&#52;&#48;gmail&#46;com">computational<span>&#46;</span>audition<span>&#64;</span>gmail<span>&#46;</span>com</a> Google account.
+This allows the account to investigate and debug Chrome warnings
+(e.g. ‘Deceptive website ahead’). See <a class="reference external" href="https://search.google.com/u/4/search-console">https://search.google.com/u/4/search-console</a>.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.initial_recruitment_size">
+<span class="sig-name descname"><span class="pre">initial_recruitment_size</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1</span></em><a class="headerlink" href="#psynet.experiment.Experiment.initial_recruitment_size" title="Link to this definition">#</a></dt>
+<dd><p>int, the number of participants
+requested when the experiment first starts. Default is 1.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.initialize_bot">
+<span class="sig-name descname"><span class="pre">initialize_bot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.initialize_bot"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.initialize_bot" title="Link to this definition">#</a></dt>
+<dd><p>This function is called when a bot is created.
+It can be used to set stochastic random parameters corresponding
+to participant latent traits, for example.</p>
+<p>e.g.</p>
+<p><code class="docutils literal notranslate"><span class="pre">`bot.var.musician</span> <span class="pre">=</span> <span class="pre">True</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.is_complete">
+<span class="sig-name descname"><span class="pre">is_complete</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.is_complete"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.is_complete" title="Link to this definition">#</a></dt>
+<dd><p>Method for custom determination of experiment completion.
+Experiments should override this to provide custom experiment
+completion logic. Returns <cite>None</cite> to use the experiment server
+default logic, otherwise should return <cite>True</cite> or <cite>False</cite>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.monitoring_statistics">
+<span class="sig-name descname"><span class="pre">monitoring_statistics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwarg</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.monitoring_statistics"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.monitoring_statistics" title="Link to this definition">#</a></dt>
+<dd><p>The default data used for the monitoring panels</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>**kw</strong> – arguments passed in from the request</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>An <code class="docutils literal notranslate"><span class="pre">OrderedDict()</span></code> mapping panel titles to data structures
+describing the experiment state.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.on_launch">
+<span class="sig-name descname"><span class="pre">on_launch</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.on_launch"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.on_launch" title="Link to this definition">#</a></dt>
+<dd><p>This function is called upon experiment launch. Unlike
+the background tasks, this function is blocking: recruitment
+won’t start until the function has returned.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.participant_constructor">
+<span class="sig-name descname"><span class="pre">participant_constructor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.participant_constructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.participant_constructor" title="Link to this definition">#</a></dt>
+<dd><p>An ex silico participant.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.recruit">
+<span class="sig-name descname"><span class="pre">recruit</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.recruit"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.recruit" title="Link to this definition">#</a></dt>
+<dd><p>Recruit participants to the experiment as needed.</p>
+<p>This method runs whenever a participant successfully completes the
+experiment (participants who fail to finish successfully are
+automatically replaced). By default it recruits 1 participant at a time
+until all networks are full.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Experiment.render_exit_message">
+<span class="sig-name descname"><span class="pre">render_exit_message</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Experiment.render_exit_message"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Experiment.render_exit_message" title="Link to this definition">#</a></dt>
+<dd><p>This method is currently only called if the ‘generic’ recruiter is selected.
+We may propagate it to other recruiter methods eventually too.
+If left unchanged, the default recruiter exit message from Dallinger will be shown.
+Otherwise, one can return a custom message in various ways.
+If you return a string, this will be escaped appropriately and presented as text.
+Alternatively, more complex HTML structures can be constructed using the
+Python package <code class="docutils literal notranslate"><span class="pre">dominate</span></code>, see Examples for details.</p>
+<p class="rubric">Examples</p>
+<p>This would be appropriate for experiments with no payment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tags</span><span class="o">.</span><span class="n">div</span><span class="p">(</span>
+    <span class="n">tags</span><span class="o">.</span><span class="n">p</span><span class="p">(</span><span class="s2">&quot;Thank you for participating in this experiment!&quot;</span><span class="p">),</span>
+    <span class="n">tags</span><span class="o">.</span><span class="n">p</span><span class="p">(</span><span class="s2">&quot;Your responses have been saved. You may close this window.&quot;</span><span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>This kind of structure could be used for passing participants to a particular
+URL in Prolific:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tags</span><span class="o">.</span><span class="n">div</span><span class="p">(</span>
+    <span class="n">tags</span><span class="o">.</span><span class="n">p</span><span class="p">(</span><span class="s2">&quot;Thank you for participating in this experiment!&quot;</span><span class="p">),</span>
+    <span class="n">tags</span><span class="o">.</span><span class="n">p</span><span class="p">(</span><span class="s2">&quot;Please click the following URL to continue back to Prolific:&quot;</span><span class="p">),</span>
+    <span class="n">tags</span><span class="o">.</span><span class="n">a</span><span class="p">(</span><span class="s2">&quot;Finish experiment&quot;</span><span class="p">,</span> <span class="n">href</span><span class="o">=</span><span class="s2">&quot;https://prolific.com&quot;</span><span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.experiment.</span></span><span class="sig-name descname"><span class="pre">ExperimentConfig</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#ExperimentConfig"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.ExperimentConfig" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Base</span></code>, <a class="reference internal" href="data.html#psynet.data.SQLMixin" title="psynet.data.SQLMixin"><code class="xref py py-class docutils literal notranslate"><span class="pre">SQLMixin</span></code></a></p>
+<p>This SQL-backed class provides a way to store experiment configuration variables
+that can change over the course of the experiment.
+See <a class="reference internal" href="#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a> documentation for example usage.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.creation_time">
+<span class="sig-name descname"><span class="pre">creation_time</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#psynet.experiment.ExperimentConfig.creation_time" title="Link to this definition">#</a></dt>
+<dd><p>the time at which the Network was created.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.details">
+<span class="sig-name descname"><span class="pre">details</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.details" title="Link to this definition">#</a></dt>
+<dd><p>a generic column for storing structured JSON data</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.failed">
+<span class="sig-name descname"><span class="pre">failed</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#psynet.experiment.ExperimentConfig.failed" title="Link to this definition">#</a></dt>
+<dd><p>boolean indicating whether the Network has failed which
+prompts Dallinger to ignore it unless specified otherwise. Objects are
+usually failed to indicate something has gone wrong.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.failed_reason">
+<span class="sig-name descname"><span class="pre">failed_reason</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#psynet.experiment.ExperimentConfig.failed_reason" title="Link to this definition">#</a></dt>
+<dd><p>an optional reason the object was failed. If the object is failed as
+part of a cascading failure triggered from another object, the chain
+of objects will be captured in this field.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.id" title="Link to this definition">#</a></dt>
+<dd><p>a unique number for every entry. 1, 2, 3 and so on…</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.property1">
+<span class="sig-name descname"><span class="pre">property1</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.property1" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.property2">
+<span class="sig-name descname"><span class="pre">property2</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.property2" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.property3">
+<span class="sig-name descname"><span class="pre">property3</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.property3" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.property4">
+<span class="sig-name descname"><span class="pre">property4</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.property4" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.property5">
+<span class="sig-name descname"><span class="pre">property5</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.property5" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.time_of_death">
+<span class="sig-name descname"><span class="pre">time_of_death</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#psynet.experiment.ExperimentConfig.time_of_death" title="Link to this definition">#</a></dt>
+<dd><p>the time at which failing occurred</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.type">
+<span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.type" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentConfig.vars">
+<span class="sig-name descname"><span class="pre">vars</span></span><a class="headerlink" href="#psynet.experiment.ExperimentConfig.vars" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.experiment.</span></span><span class="sig-name descname"><span class="pre">ExperimentStatus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#ExperimentStatus"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.ExperimentStatus" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Base</span></code>, <a class="reference internal" href="data.html#psynet.data.SQLMixin" title="psynet.data.SQLMixin"><code class="xref py py-class docutils literal notranslate"><span class="pre">SQLMixin</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.creation_time">
+<span class="sig-name descname"><span class="pre">creation_time</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.creation_time" title="Link to this definition">#</a></dt>
+<dd><p>the time at which the Network was created.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.details">
+<span class="sig-name descname"><span class="pre">details</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.details" title="Link to this definition">#</a></dt>
+<dd><p>a generic column for storing structured JSON data</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.failed">
+<span class="sig-name descname"><span class="pre">failed</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.failed" title="Link to this definition">#</a></dt>
+<dd><p>boolean indicating whether the Network has failed which
+prompts Dallinger to ignore it unless specified otherwise. Objects are
+usually failed to indicate something has gone wrong.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.failed_reason">
+<span class="sig-name descname"><span class="pre">failed_reason</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.failed_reason" title="Link to this definition">#</a></dt>
+<dd><p>an optional reason the object was failed. If the object is failed as
+part of a cascading failure triggered from another object, the chain
+of objects will be captured in this field.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.id" title="Link to this definition">#</a></dt>
+<dd><p>a unique number for every entry. 1, 2, 3 and so on…</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.property1">
+<span class="sig-name descname"><span class="pre">property1</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.property1" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.property2">
+<span class="sig-name descname"><span class="pre">property2</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.property2" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.property3">
+<span class="sig-name descname"><span class="pre">property3</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.property3" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.property4">
+<span class="sig-name descname"><span class="pre">property4</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.property4" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.property5">
+<span class="sig-name descname"><span class="pre">property5</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.property5" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.time_of_death">
+<span class="sig-name descname"><span class="pre">time_of_death</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.time_of_death" title="Link to this definition">#</a></dt>
+<dd><p>the time at which failing occurred</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.to_dict">
+<span class="sig-name descname"><span class="pre">to_dict</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#ExperimentStatus.to_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.ExperimentStatus.to_dict" title="Link to this definition">#</a></dt>
+<dd><p>Determines the information that is shown for this object in the dashboard
+and in the csv files generated by <code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">export</span></code>.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.type">
+<span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.type" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.ExperimentStatus.vars">
+<span class="sig-name descname"><span class="pre">vars</span></span><a class="headerlink" href="#psynet.experiment.ExperimentStatus.vars" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.experiment.Request">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.experiment.</span></span><span class="sig-name descname"><span class="pre">Request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Request"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Request" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Base</span></code>, <a class="reference internal" href="data.html#psynet.data.SQLMixin" title="psynet.data.SQLMixin"><code class="xref py py-class docutils literal notranslate"><span class="pre">SQLMixin</span></code></a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.creation_time">
+<span class="sig-name descname"><span class="pre">creation_time</span></span><a class="headerlink" href="#psynet.experiment.Request.creation_time" title="Link to this definition">#</a></dt>
+<dd><p>the time at which the Network was created.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.details">
+<span class="sig-name descname"><span class="pre">details</span></span><a class="headerlink" href="#psynet.experiment.Request.details" title="Link to this definition">#</a></dt>
+<dd><p>a generic column for storing structured JSON data</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.failed">
+<span class="sig-name descname"><span class="pre">failed</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#psynet.experiment.Request.failed" title="Link to this definition">#</a></dt>
+<dd><p>boolean indicating whether the Network has failed which
+prompts Dallinger to ignore it unless specified otherwise. Objects are
+usually failed to indicate something has gone wrong.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.failed_reason">
+<span class="sig-name descname"><span class="pre">failed_reason</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#psynet.experiment.Request.failed_reason" title="Link to this definition">#</a></dt>
+<dd><p>an optional reason the object was failed. If the object is failed as
+part of a cascading failure triggered from another object, the chain
+of objects will be captured in this field.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#psynet.experiment.Request.id" title="Link to this definition">#</a></dt>
+<dd><p>a unique number for every entry. 1, 2, 3 and so on…</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.property1">
+<span class="sig-name descname"><span class="pre">property1</span></span><a class="headerlink" href="#psynet.experiment.Request.property1" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.property2">
+<span class="sig-name descname"><span class="pre">property2</span></span><a class="headerlink" href="#psynet.experiment.Request.property2" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.property3">
+<span class="sig-name descname"><span class="pre">property3</span></span><a class="headerlink" href="#psynet.experiment.Request.property3" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.property4">
+<span class="sig-name descname"><span class="pre">property4</span></span><a class="headerlink" href="#psynet.experiment.Request.property4" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.property5">
+<span class="sig-name descname"><span class="pre">property5</span></span><a class="headerlink" href="#psynet.experiment.Request.property5" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.time_of_death">
+<span class="sig-name descname"><span class="pre">time_of_death</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#psynet.experiment.Request.time_of_death" title="Link to this definition">#</a></dt>
+<dd><p>the time at which failing occurred</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.experiment.Request.to_dict">
+<span class="sig-name descname"><span class="pre">to_dict</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#Request.to_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.Request.to_dict" title="Link to this definition">#</a></dt>
+<dd><p>Determines the information that is shown for this object in the dashboard
+and in the csv files generated by <code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">export</span></code>.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.type">
+<span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#psynet.experiment.Request.type" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.experiment.Request.vars">
+<span class="sig-name descname"><span class="pre">vars</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#psynet.experiment.Request.vars" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="psynet.experiment.get_experiment">
+<span class="sig-prename descclassname"><span class="pre">psynet.experiment.</span></span><span class="sig-name descname"><span class="pre">get_experiment</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#get_experiment"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.get_experiment" title="Link to this definition">#</a></dt>
+<dd><p>Returns an initialized instance of the experiment class.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p><span class="sphinx_autodoc_typehints-type"><a class="reference internal" href="#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">Experiment</span></code></a></span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="psynet.experiment.json_serial">
+<span class="sig-prename descclassname"><span class="pre">psynet.experiment.</span></span><span class="sig-name descname"><span class="pre">json_serial</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">obj</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/experiment.html#json_serial"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.experiment.json_serial" title="Link to this definition">#</a></dt>
+<dd><p>JSON serializer for objects not serializable by default json code</p>
+</dd></dl>
+
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="field.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Field</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="error.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Error</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Experiment</a><ul>
+<li><a class="reference internal" href="#psynet.experiment.Experiment"><code class="docutils literal notranslate"><span class="pre">Experiment</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.HandledError"><code class="docutils literal notranslate"><span class="pre">Experiment.HandledError</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.UniqueIdError"><code class="docutils literal notranslate"><span class="pre">Experiment.UniqueIdError</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.assignment_abandoned"><code class="docutils literal notranslate"><span class="pre">Experiment.assignment_abandoned()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.assignment_reassigned"><code class="docutils literal notranslate"><span class="pre">Experiment.assignment_reassigned()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.assignment_returned"><code class="docutils literal notranslate"><span class="pre">Experiment.assignment_returned()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.bonus"><code class="docutils literal notranslate"><span class="pre">Experiment.bonus()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.check_bonus"><code class="docutils literal notranslate"><span class="pre">Experiment.check_bonus()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.compile_translations_if_necessary"><code class="docutils literal notranslate"><span class="pre">Experiment.compile_translations_if_necessary()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.config_defaults"><code class="docutils literal notranslate"><span class="pre">Experiment.config_defaults()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.error_page"><code class="docutils literal notranslate"><span class="pre">Experiment.error_page()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.extra_parameters"><code class="docutils literal notranslate"><span class="pre">Experiment.extra_parameters()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.fail_participant"><code class="docutils literal notranslate"><span class="pre">Experiment.fail_participant()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.get_participant_from_assignment_id"><code class="docutils literal notranslate"><span class="pre">Experiment.get_participant_from_assignment_id()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.get_participant_from_participant_id"><code class="docutils literal notranslate"><span class="pre">Experiment.get_participant_from_participant_id()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.get_participant_from_unique_id"><code class="docutils literal notranslate"><span class="pre">Experiment.get_participant_from_unique_id()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.get_participant_from_worker_id"><code class="docutils literal notranslate"><span class="pre">Experiment.get_participant_from_worker_id()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.get_status"><code class="docutils literal notranslate"><span class="pre">Experiment.get_status()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.google_search_console"><code class="docutils literal notranslate"><span class="pre">Experiment.google_search_console()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.initial_recruitment_size"><code class="docutils literal notranslate"><span class="pre">Experiment.initial_recruitment_size</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.initialize_bot"><code class="docutils literal notranslate"><span class="pre">Experiment.initialize_bot()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.is_complete"><code class="docutils literal notranslate"><span class="pre">Experiment.is_complete()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.monitoring_statistics"><code class="docutils literal notranslate"><span class="pre">Experiment.monitoring_statistics()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.on_launch"><code class="docutils literal notranslate"><span class="pre">Experiment.on_launch()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.participant_constructor"><code class="docutils literal notranslate"><span class="pre">Experiment.participant_constructor()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.recruit"><code class="docutils literal notranslate"><span class="pre">Experiment.recruit()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Experiment.render_exit_message"><code class="docutils literal notranslate"><span class="pre">Experiment.render_exit_message()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.creation_time"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.creation_time</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.details"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.details</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.failed"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.failed</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.failed_reason"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.failed_reason</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.id"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.property1"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.property1</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.property2"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.property2</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.property3"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.property3</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.property4"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.property4</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.property5"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.property5</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.time_of_death"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.time_of_death</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.type"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.type</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentConfig.vars"><code class="docutils literal notranslate"><span class="pre">ExperimentConfig.vars</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.creation_time"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.creation_time</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.details"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.details</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.failed"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.failed</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.failed_reason"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.failed_reason</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.id"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.property1"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.property1</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.property2"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.property2</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.property3"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.property3</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.property4"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.property4</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.property5"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.property5</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.time_of_death"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.time_of_death</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.to_dict"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.to_dict()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.type"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.type</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.ExperimentStatus.vars"><code class="docutils literal notranslate"><span class="pre">ExperimentStatus.vars</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.experiment.Request"><code class="docutils literal notranslate"><span class="pre">Request</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.experiment.Request.creation_time"><code class="docutils literal notranslate"><span class="pre">Request.creation_time</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.details"><code class="docutils literal notranslate"><span class="pre">Request.details</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.failed"><code class="docutils literal notranslate"><span class="pre">Request.failed</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.failed_reason"><code class="docutils literal notranslate"><span class="pre">Request.failed_reason</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.id"><code class="docutils literal notranslate"><span class="pre">Request.id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.property1"><code class="docutils literal notranslate"><span class="pre">Request.property1</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.property2"><code class="docutils literal notranslate"><span class="pre">Request.property2</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.property3"><code class="docutils literal notranslate"><span class="pre">Request.property3</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.property4"><code class="docutils literal notranslate"><span class="pre">Request.property4</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.property5"><code class="docutils literal notranslate"><span class="pre">Request.property5</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.time_of_death"><code class="docutils literal notranslate"><span class="pre">Request.time_of_death</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.to_dict"><code class="docutils literal notranslate"><span class="pre">Request.to_dict()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.type"><code class="docutils literal notranslate"><span class="pre">Request.type</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.Request.vars"><code class="docutils literal notranslate"><span class="pre">Request.vars</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.experiment.get_experiment"><code class="docutils literal notranslate"><span class="pre">get_experiment()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.experiment.json_serial"><code class="docutils literal notranslate"><span class="pre">json_serial()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

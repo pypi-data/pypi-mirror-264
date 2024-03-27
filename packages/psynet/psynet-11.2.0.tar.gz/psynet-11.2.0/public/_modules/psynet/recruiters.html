@@ -1,0 +1,999 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>psynet.recruiters - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../api/index.html">API Documentation</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../api/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../api/trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <h1>Source code for psynet.recruiters</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">ceil</span>
+
+<span class="kn">import</span> <span class="nn">dallinger.recruiters</span>
+<span class="kn">import</span> <span class="nn">dominate</span>
+<span class="kn">import</span> <span class="nn">flask</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">dallinger</span> <span class="kn">import</span> <span class="n">db</span>
+<span class="kn">from</span> <span class="nn">dallinger.config</span> <span class="kn">import</span> <span class="n">get_config</span>
+<span class="kn">from</span> <span class="nn">dallinger.db</span> <span class="kn">import</span> <span class="n">session</span>
+<span class="kn">from</span> <span class="nn">dallinger.notifications</span> <span class="kn">import</span> <span class="n">admin_notifier</span><span class="p">,</span> <span class="n">get_mailer</span>
+<span class="kn">from</span> <span class="nn">dallinger.recruiters</span> <span class="kn">import</span> <span class="n">RedisStore</span>
+<span class="kn">from</span> <span class="nn">dallinger.utils</span> <span class="kn">import</span> <span class="n">get_base_url</span>
+<span class="kn">from</span> <span class="nn">dominate</span> <span class="kn">import</span> <span class="n">tags</span>
+<span class="kn">from</span> <span class="nn">dominate.util</span> <span class="kn">import</span> <span class="n">raw</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy</span> <span class="kn">import</span> <span class="n">Column</span><span class="p">,</span> <span class="n">DateTime</span><span class="p">,</span> <span class="n">ForeignKey</span><span class="p">,</span> <span class="n">String</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy.orm.exc</span> <span class="kn">import</span> <span class="n">MultipleResultsFound</span><span class="p">,</span> <span class="n">NoResultFound</span>
+
+<span class="kn">from</span> <span class="nn">.consent</span> <span class="kn">import</span> <span class="n">AudiovisualConsent</span><span class="p">,</span> <span class="n">LucidConsent</span><span class="p">,</span> <span class="n">OpenScienceConsent</span>
+<span class="kn">from</span> <span class="nn">.data</span> <span class="kn">import</span> <span class="n">SQLBase</span><span class="p">,</span> <span class="n">SQLMixin</span><span class="p">,</span> <span class="n">register_table</span>
+<span class="kn">from</span> <span class="nn">.lucid</span> <span class="kn">import</span> <span class="n">LucidService</span>
+<span class="kn">from</span> <span class="nn">.utils</span> <span class="kn">import</span> <span class="n">get_logger</span><span class="p">,</span> <span class="n">render_template_with_translations</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">get_logger</span><span class="p">()</span>
+
+
+<div class="viewcode-block" id="PsyNetRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.PsyNetRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">PsyNetRecruiter</span><span class="p">(</span><span class="n">dallinger</span><span class="o">.</span><span class="n">recruiters</span><span class="o">.</span><span class="n">CLIRecruiter</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The PsyNetRecruiter base class</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="PsyNetRecruiter.compensate_worker">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.PsyNetRecruiter.compensate_worker">[docs]</a>
+    <span class="k">def</span> <span class="nf">compensate_worker</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;A recruiter may provide a means to directly compensate a worker.&quot;&quot;&quot;</span>
+        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;Compensation is not implemented.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="PsyNetRecruiter.notify_duration_exceeded">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.PsyNetRecruiter.notify_duration_exceeded">[docs]</a>
+    <span class="k">def</span> <span class="nf">notify_duration_exceeded</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">participants</span><span class="p">,</span> <span class="n">reference_time</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        The participant has been working longer than the time defined in</span>
+<span class="sd">        the &quot;duration&quot; config value.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">participant</span> <span class="ow">in</span> <span class="n">participants</span><span class="p">:</span>
+            <span class="n">participant</span><span class="o">.</span><span class="n">status</span> <span class="o">=</span> <span class="s2">&quot;abandoned&quot;</span>
+            <span class="c1"># We preserve this commit just in case Dallinger removes the external commit in the future</span>
+            <span class="n">session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="PsyNetRecruiter.recruit">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.PsyNetRecruiter.recruit">[docs]</a>
+    <span class="k">def</span> <span class="nf">recruit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Incremental recruitment isn&#39;t implemented for now, so we return an empty list.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="p">[]</span></div>
+</div>
+
+
+
+<span class="c1"># CAP Recruiter</span>
+<div class="viewcode-block" id="BaseCapRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseCapRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">BaseCapRecruiter</span><span class="p">(</span><span class="n">PsyNetRecruiter</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The CapRecruiter base class</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="BaseCapRecruiter.open_recruitment">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseCapRecruiter.open_recruitment">[docs]</a>
+    <span class="k">def</span> <span class="nf">open_recruitment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Return an empty list which otherwise would be a list of recruitment URLs.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;items&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="BaseCapRecruiter.close_recruitment">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseCapRecruiter.close_recruitment">[docs]</a>
+    <span class="k">def</span> <span class="nf">close_recruitment</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;No more participants required. Recruitment stopped.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="BaseCapRecruiter.reward_bonus">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseCapRecruiter.reward_bonus">[docs]</a>
+    <span class="k">def</span> <span class="nf">reward_bonus</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">participant</span><span class="p">,</span> <span class="n">amount</span><span class="p">,</span> <span class="n">reason</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Return values for `basePay` and `bonus` to cap-recruiter application.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;assignmentId&quot;</span><span class="p">:</span> <span class="n">participant</span><span class="o">.</span><span class="n">assignment_id</span><span class="p">,</span>
+            <span class="s2">&quot;basePayment&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;base_payment&quot;</span><span class="p">),</span>
+            <span class="s2">&quot;bonus&quot;</span><span class="p">:</span> <span class="n">amount</span><span class="p">,</span>
+            <span class="s2">&quot;failed_reason&quot;</span><span class="p">:</span> <span class="n">participant</span><span class="o">.</span><span class="n">failure_tags</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">external_submission_url</span>
+        <span class="n">url</span> <span class="o">+=</span> <span class="s2">&quot;/fail&quot;</span> <span class="k">if</span> <span class="n">participant</span><span class="o">.</span><span class="n">failed</span> <span class="k">else</span> <span class="s2">&quot;/complete&quot;</span>
+
+        <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
+            <span class="n">url</span><span class="p">,</span>
+            <span class="n">json</span><span class="o">=</span><span class="n">data</span><span class="p">,</span>
+            <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;CAP_RECRUITER_AUTH_TOKEN&quot;</span><span class="p">)},</span>
+            <span class="n">verify</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>  <span class="c1"># Temporary fix because of SSLCertVerificationError</span>
+        <span class="p">)</span></div>
+</div>
+
+
+
+<div class="viewcode-block" id="CapRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.CapRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">CapRecruiter</span><span class="p">(</span><span class="n">BaseCapRecruiter</span><span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The production cap-recruiter.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">nickname</span> <span class="o">=</span> <span class="s2">&quot;cap-recruiter&quot;</span>
+    <span class="n">external_submission_url</span> <span class="o">=</span> <span class="s2">&quot;https://cap-recruiter.ae.mpg.de/tasks&quot;</span></div>
+
+
+
+<div class="viewcode-block" id="StagingCapRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.StagingCapRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">StagingCapRecruiter</span><span class="p">(</span><span class="n">BaseCapRecruiter</span><span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The staging cap-recruiter.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">nickname</span> <span class="o">=</span> <span class="s2">&quot;staging-cap-recruiter&quot;</span>
+    <span class="n">external_submission_url</span> <span class="o">=</span> <span class="s2">&quot;https://staging-cap-recruiter.ae.mpg.de/tasks&quot;</span></div>
+
+
+
+<div class="viewcode-block" id="DevCapRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.DevCapRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">DevCapRecruiter</span><span class="p">(</span><span class="n">BaseCapRecruiter</span><span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The development cap-recruiter.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">nickname</span> <span class="o">=</span> <span class="s2">&quot;dev-cap-recruiter&quot;</span>
+    <span class="n">external_submission_url</span> <span class="o">=</span> <span class="s2">&quot;http://localhost:8000/tasks&quot;</span></div>
+
+
+
+<span class="c1"># Lucid Recruiter</span>
+<div class="viewcode-block" id="LucidRID">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.LucidRID">[docs]</a>
+<span class="nd">@register_table</span>
+<span class="k">class</span> <span class="nc">LucidRID</span><span class="p">(</span><span class="n">SQLBase</span><span class="p">,</span> <span class="n">SQLMixin</span><span class="p">):</span>
+    <span class="n">__tablename__</span> <span class="o">=</span> <span class="s2">&quot;lucid_rid&quot;</span>
+
+    <span class="c1"># These fields are removed from the database table as they are not needed.</span>
+    <span class="n">failed</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">failed_reason</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">time_of_death</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="n">rid</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">String</span><span class="p">,</span> <span class="n">ForeignKey</span><span class="p">(</span><span class="s2">&quot;participant.worker_id&quot;</span><span class="p">),</span> <span class="n">index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">completed_at</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">DateTime</span><span class="p">)</span>
+    <span class="n">terminated_at</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">DateTime</span><span class="p">)</span>
+    <span class="n">termination_reason</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">String</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="LucidRecruiterException">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.LucidRecruiterException">[docs]</a>
+<span class="k">class</span> <span class="nc">LucidRecruiterException</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Custom exception for LucidRecruiter&quot;&quot;&quot;</span></div>
+
+
+
+<div class="viewcode-block" id="BaseLucidRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseLucidRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">BaseLucidRecruiter</span><span class="p">(</span><span class="n">PsyNetRecruiter</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The LucidRecruiter base class</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">required_consent_page</span> <span class="o">=</span> <span class="n">LucidConsent</span><span class="o">.</span><span class="n">LucidConsentPage</span>
+    <span class="n">optional_consent_pages</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">AudiovisualConsent</span><span class="o">.</span><span class="n">AudiovisualConsentPage</span><span class="p">,</span>
+        <span class="n">OpenScienceConsent</span><span class="o">.</span><span class="n">OpenScienceConsentPage</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">config</span> <span class="o">=</span> <span class="n">get_config</span><span class="p">()</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;show_reward&quot;</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+                <span class="s2">&quot;Lucid recruitment requires `show_reward` to be set to `False`.&quot;</span>
+            <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">mailer</span> <span class="o">=</span> <span class="n">get_mailer</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">notifies_admin</span> <span class="o">=</span> <span class="n">admin_notifier</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span> <span class="o">=</span> <span class="n">LucidService</span><span class="p">(</span>
+            <span class="n">api_key</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;lucid_api_key&quot;</span><span class="p">),</span>
+            <span class="n">sha1_hashing_key</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;lucid_sha1_hashing_key&quot;</span><span class="p">),</span>
+            <span class="n">exp_config</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="p">,</span>
+            <span class="n">recruitment_config</span><span class="o">=</span><span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;lucid_recruitment_config&quot;</span><span class="p">)),</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">store</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;store&quot;</span><span class="p">,</span> <span class="n">RedisStore</span><span class="p">())</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">survey_number_storage_key</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">experiment_id</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2">:</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">experiment_id</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">in_progress</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Does a Lucid survey for the current experiment ID already exist?&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">current_survey_number</span><span class="p">()</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">verify_consents</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">consents</span><span class="p">):</span>
+        <span class="n">error_msg</span> <span class="o">=</span> <span class="s2">&quot;Lucid recruitment requires consent &#39;LucidConsent&#39; and optionally one of `AudiovisualConsent` or `OpenScienceConsent` (in this order).&quot;</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">consents</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">required_consent_page</span><span class="p">):</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">consents</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="k">pass</span>
+            <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">consents</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span>
+                <span class="n">consents</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">optional_consent_pages</span>
+            <span class="p">):</span>
+                <span class="k">pass</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">error_msg</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">error_msg</span><span class="p">)</span>
+
+<div class="viewcode-block" id="BaseLucidRecruiter.current_survey_number">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseLucidRecruiter.current_survey_number">[docs]</a>
+    <span class="k">def</span> <span class="nf">current_survey_number</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Return the survey number associated with the active experiment ID</span>
+<span class="sd">        if any such survey exists.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">store</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">survey_number_storage_key</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="BaseLucidRecruiter.open_recruitment">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseLucidRecruiter.open_recruitment">[docs]</a>
+    <span class="k">def</span> <span class="nf">open_recruitment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Open a connection to Lucid and create a survey.&quot;&quot;&quot;</span>
+        <span class="kn">from</span> <span class="nn">.experiment</span> <span class="kn">import</span> <span class="n">get_and_load_config</span><span class="p">,</span> <span class="n">get_experiment</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Opening initial recruitment for </span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2"> participants.&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">in_progress</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">LucidRecruiterException</span><span class="p">(</span>
+                <span class="s2">&quot;Tried to open_recruitment on already open recruiter.&quot;</span>
+            <span class="p">)</span>
+
+        <span class="n">experiment</span> <span class="o">=</span> <span class="n">get_experiment</span><span class="p">()</span>
+        <span class="n">wage_per_hour</span> <span class="o">=</span> <span class="n">get_and_load_config</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;wage_per_hour&quot;</span><span class="p">)</span>
+        <span class="n">create_survey_request_params</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;bid_length_of_interview&quot;</span><span class="p">:</span> <span class="n">ceil</span><span class="p">(</span>
+                <span class="n">experiment</span><span class="o">.</span><span class="n">estimated_completion_time</span><span class="p">(</span><span class="n">wage_per_hour</span><span class="p">)</span> <span class="o">/</span> <span class="mi">60</span>
+            <span class="p">),</span>
+            <span class="s2">&quot;live_url&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">ad_url</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;http://&quot;</span><span class="p">,</span> <span class="s2">&quot;https://&quot;</span><span class="p">),</span>
+            <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;title&quot;</span><span class="p">),</span>
+            <span class="s2">&quot;quota&quot;</span><span class="p">:</span> <span class="n">n</span><span class="p">,</span>
+            <span class="s2">&quot;quota_cpi&quot;</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span>
+                <span class="n">experiment</span><span class="o">.</span><span class="n">estimated_max_reward</span><span class="p">(</span><span class="n">wage_per_hour</span><span class="p">),</span>
+                <span class="mi">2</span><span class="p">,</span>
+            <span class="p">),</span>
+        <span class="p">}</span>
+
+        <span class="n">survey_info</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">create_survey</span><span class="p">(</span><span class="o">**</span><span class="n">create_survey_request_params</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_record_current_survey_number</span><span class="p">(</span><span class="n">survey_info</span><span class="p">[</span><span class="s2">&quot;SurveyNumber&quot;</span><span class="p">])</span>
+
+        <span class="c1"># Lucid Marketplace automatically adds 6 qualifications to US studies</span>
+        <span class="c1"># when a survey is created (Age, Gender, Zip, Ethnicity, Hispanic, Standard HHI US).</span>
+        <span class="c1"># We update the qualifications in this case to remove these constraints on the participants.</span>
+        <span class="c1"># See https://developer.lucidhq.com/#post-create-a-survey</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">recruitment_config</span><span class="p">[</span><span class="s2">&quot;survey&quot;</span><span class="p">][</span><span class="s2">&quot;CountryLanguageID&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">9</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">remove_default_qualifications_from_survey</span><span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">current_survey_number</span><span class="p">()</span>
+            <span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">add_qualifications_to_survey</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">current_survey_number</span><span class="p">())</span>
+
+        <span class="n">url</span> <span class="o">=</span> <span class="n">survey_info</span><span class="p">[</span><span class="s2">&quot;ClientSurveyLiveURL&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;Done creating Lucid project and survey.&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;----------&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;---------&gt; &quot;</span> <span class="o">+</span> <span class="n">url</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;----------&quot;</span><span class="p">)</span>
+
+        <span class="n">survey_id</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">current_survey_number</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">survey_id</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;No survey in progress: Recruitment aborted.&quot;</span><span class="p">)</span>
+            <span class="k">return</span>
+
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s2">&quot;items&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">url</span><span class="p">],</span>
+            <span class="s2">&quot;message&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Lucid survey </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">current_survey_number</span><span class="p">()</span><span class="si">}</span><span class="s2"> created successfully.&quot;</span><span class="p">,</span>
+        <span class="p">}</span></div>
+
+
+<div class="viewcode-block" id="BaseLucidRecruiter.close_recruitment">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseLucidRecruiter.close_recruitment">[docs]</a>
+    <span class="k">def</span> <span class="nf">close_recruitment</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Lucid automatically ends recruitment when the number of completes has reached the</span>
+<span class="sd">        target.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;Recruitment is automatically handled by Lucid.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="BaseLucidRecruiter.normalize_entry_information">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseLucidRecruiter.normalize_entry_information">[docs]</a>
+    <span class="k">def</span> <span class="nf">normalize_entry_information</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">entry_information</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Accepts data from the recruited user and returns data needed to validate,</span>
+<span class="sd">        create or load a Dallinger Participant.</span>
+
+<span class="sd">        See :func:`~dallinger.experiment.Experiment.create_participant` for</span>
+<span class="sd">        details.</span>
+
+<span class="sd">        The default implementation extracts ``hit_id``, ``assignment_id``, and</span>
+<span class="sd">        ``worker_id`` values directly from ``entry_information``.</span>
+
+<span class="sd">        This implementation extracts the ``RID`` from ``entry_information``</span>
+<span class="sd">        and assigns the value to ``hit_id``, ``assignment_id``, and ``worker_id``.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">rid</span> <span class="o">=</span> <span class="n">entry_information</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;RID&quot;</span><span class="p">)</span>
+        <span class="n">hit_id</span> <span class="o">=</span> <span class="n">entry_information</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;hit_id&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">hit_id</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">hit_id</span> <span class="o">=</span> <span class="n">entry_information</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;hitId&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">rid</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">hit_id</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">LucidRecruiterException</span><span class="p">(</span>
+                <span class="s2">&quot;Either `RID` or `hit_id` has to be present in `entry_information`.&quot;</span>
+            <span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">rid</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">rid</span> <span class="o">=</span> <span class="n">hit_id</span>
+
+        <span class="c1"># Save RID info into the database</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">LucidRID</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">filter_by</span><span class="p">(</span><span class="n">rid</span><span class="o">=</span><span class="n">rid</span><span class="p">)</span><span class="o">.</span><span class="n">one</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">NoResultFound</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Saving RID &#39;</span><span class="si">{</span><span class="n">rid</span><span class="si">}</span><span class="s2">&#39; into the database.&quot;</span><span class="p">)</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">LucidRID</span><span class="p">(</span><span class="n">rid</span><span class="o">=</span><span class="n">rid</span><span class="p">))</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">MultipleResultsFound</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">MultipleResultsFound</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Multiple rows for Lucid RID &#39;</span><span class="si">{</span><span class="n">rid</span><span class="si">}</span><span class="s2">&#39; found. This should never happen.&quot;</span>
+            <span class="p">)</span>
+
+        <span class="n">participant_data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;hit_id&quot;</span><span class="p">:</span> <span class="n">rid</span><span class="p">,</span>
+            <span class="s2">&quot;assignment_id&quot;</span><span class="p">:</span> <span class="n">rid</span><span class="p">,</span>
+            <span class="s2">&quot;worker_id&quot;</span><span class="p">:</span> <span class="n">rid</span><span class="p">,</span>
+        <span class="p">}</span>
+
+        <span class="k">if</span> <span class="n">entry_information</span><span class="p">:</span>
+            <span class="n">participant_data</span><span class="p">[</span><span class="s2">&quot;entry_information&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">entry_information</span>
+
+        <span class="k">return</span> <span class="n">participant_data</span></div>
+
+
+<div class="viewcode-block" id="BaseLucidRecruiter.exit_response">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseLucidRecruiter.exit_response">[docs]</a>
+    <span class="k">def</span> <span class="nf">exit_response</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">experiment</span><span class="p">,</span> <span class="n">participant</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Delegate to the experiment for possible values to show to the</span>
+<span class="sd">        participant and complete the survey.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">external_submit_url</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">external_submit_url</span><span class="p">(</span><span class="n">participant</span><span class="o">=</span><span class="n">participant</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Exit redirect: </span><span class="si">{</span><span class="n">external_submit_url</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">render_template_with_translations</span><span class="p">(</span>
+            <span class="s2">&quot;exit_recruiter_lucid.html&quot;</span><span class="p">,</span>
+            <span class="n">external_submit_url</span><span class="o">=</span><span class="n">external_submit_url</span><span class="p">,</span>
+        <span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="BaseLucidRecruiter.reward_bonus">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.BaseLucidRecruiter.reward_bonus">[docs]</a>
+    <span class="k">def</span> <span class="nf">reward_bonus</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">participant</span><span class="p">,</span> <span class="n">amount</span><span class="p">,</span> <span class="n">reason</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Set `completed_at` timestamp on participant&#39;s LucidRID entry</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">participant</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">participant</span><span class="o">.</span><span class="n">progress</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">complete_participant</span><span class="p">(</span><span class="n">participant</span><span class="o">.</span><span class="n">assignment_id</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">terminate_participant</span><span class="p">(</span>
+                <span class="n">participant</span><span class="o">.</span><span class="n">assignment_id</span><span class="p">,</span>
+                <span class="s2">&quot;Termination in &#39;reward_bonus&#39; as &#39;participant.progress&#39; was &lt; 1&quot;</span><span class="p">,</span>
+            <span class="p">)</span></div>
+
+
+    <span class="k">def</span> <span class="nf">_record_current_survey_number</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">survey_number</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">store</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">survey_number_storage_key</span><span class="p">,</span> <span class="n">survey_number</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">external_submit_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">participant</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">assignment_id</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">participant</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">assignment_id</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+                <span class="s2">&quot;Error generating &#39;external_submit_url&#39;: One of &#39;participant&#39; or &#39;assignment_id&#39; needs to be provided.&quot;</span>
+            <span class="p">)</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data_for_submit_url</span><span class="p">(</span><span class="n">participant</span><span class="p">,</span> <span class="n">assignment_id</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">generate_submit_url</span><span class="p">(</span><span class="n">ris</span><span class="o">=</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;ris&quot;</span><span class="p">],</span> <span class="n">rid</span><span class="o">=</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;rid&quot;</span><span class="p">])</span>
+
+    <span class="k">def</span> <span class="nf">data_for_submit_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">participant</span><span class="p">,</span> <span class="n">assignment_id</span><span class="p">):</span>
+        <span class="c1"># Standard terminate</span>
+        <span class="n">ris</span> <span class="o">=</span> <span class="mi">20</span>
+        <span class="k">if</span> <span class="n">participant</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">assignment_id</span> <span class="o">=</span> <span class="n">participant</span><span class="o">.</span><span class="n">assignment_id</span>
+            <span class="k">if</span> <span class="s2">&quot;performance_check&quot;</span> <span class="ow">in</span> <span class="n">participant</span><span class="o">.</span><span class="n">failure_tags</span><span class="p">:</span>
+                <span class="c1"># Security terminate</span>
+                <span class="n">ris</span> <span class="o">=</span> <span class="mi">30</span>
+            <span class="k">elif</span> <span class="n">participant</span><span class="o">.</span><span class="n">progress</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="c1"># Complete</span>
+                <span class="n">ris</span> <span class="o">=</span> <span class="mi">10</span>
+        <span class="k">if</span> <span class="n">assignment_id</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">assignment_id</span> <span class="o">=</span> <span class="n">assignment_id</span>
+        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;ris&quot;</span><span class="p">:</span> <span class="n">ris</span><span class="p">,</span> <span class="s2">&quot;rid&quot;</span><span class="p">:</span> <span class="n">assignment_id</span><span class="p">}</span>
+
+    <span class="k">def</span> <span class="nf">error_page_content</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_p</span><span class="p">,</span> <span class="n">assignment_id</span><span class="p">,</span> <span class="n">external_submit_url</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">external_submit_url</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">external_submit_url</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">external_submit_url</span><span class="p">(</span><span class="n">assignment_id</span><span class="o">=</span><span class="n">assignment_id</span><span class="p">)</span>
+
+        <span class="n">html</span> <span class="o">=</span> <span class="n">tags</span><span class="o">.</span><span class="n">div</span><span class="p">()</span>
+        <span class="k">with</span> <span class="n">html</span><span class="p">:</span>
+            <span class="n">tags</span><span class="o">.</span><span class="n">p</span><span class="p">(</span>
+                <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+                    <span class="p">[</span>
+                        <span class="n">_p</span><span class="p">(</span>
+                            <span class="s2">&quot;lucid_error&quot;</span><span class="p">,</span>
+                            <span class="s2">&quot;Redirecting to Lucid Marketplace...&quot;</span><span class="p">,</span>
+                        <span class="p">),</span>
+                    <span class="p">]</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+            <span class="n">tags</span><span class="o">.</span><span class="n">script</span><span class="p">(</span>
+                <span class="n">raw</span><span class="p">(</span>
+                    <span class="s1">&#39;setTimeout(() =&gt; { window.location = &quot;&#39;</span>
+                    <span class="o">+</span> <span class="n">external_submit_url</span>
+                    <span class="o">+</span> <span class="s1">&#39;&quot;; }, 2000)&#39;</span>
+                <span class="p">)</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="n">html</span>
+
+    <span class="k">def</span> <span class="nf">time_until_termination_in_s</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rid</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">time_until_termination_in_s</span><span class="p">(</span><span class="n">rid</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">complete_participant</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rid</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">complete_respondent</span><span class="p">(</span><span class="n">rid</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">terminate_participant</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rid</span><span class="p">,</span> <span class="n">reason</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">terminate_respondent</span><span class="p">(</span><span class="n">rid</span><span class="p">,</span> <span class="n">reason</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">set_termination_details</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rid</span><span class="p">,</span> <span class="n">reason</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lucidservice</span><span class="o">.</span><span class="n">set_termination_details</span><span class="p">(</span><span class="n">rid</span><span class="p">,</span> <span class="n">reason</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">termination_time_in_s</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">lucid_recruitment_config</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;lucid_recruitment_config&quot;</span><span class="p">)</span>
+        <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">lucid_recruitment_config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;termination_time_in_s&quot;</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">inactivity_timeout_in_s</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">lucid_recruitment_config</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;lucid_recruitment_config&quot;</span><span class="p">)</span>
+        <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">lucid_recruitment_config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;inactivity_timeout_in_s&quot;</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">no_focus_timeout_in_s</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">lucid_recruitment_config</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;lucid_recruitment_config&quot;</span><span class="p">)</span>
+        <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">lucid_recruitment_config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;no_focus_timeout_in_s&quot;</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">aggressive_no_focus_timeout_in_s</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">lucid_recruitment_config</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;lucid_recruitment_config&quot;</span><span class="p">)</span>
+        <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">lucid_recruitment_config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;aggressive_no_focus_timeout_in_s&quot;</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="DevLucidRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.DevLucidRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">DevLucidRecruiter</span><span class="p">(</span><span class="n">BaseLucidRecruiter</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Development recruiter for the Lucid Marketplace.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">nickname</span> <span class="o">=</span> <span class="s2">&quot;dev-lucid-recruiter&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ad_url</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;http://localhost.cap:5000/ad?recruiter=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nickname</span><span class="si">}</span><span class="s2">&amp;RID=[%RID%]&quot;</span>
+        <span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="LucidRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.LucidRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">LucidRecruiter</span><span class="p">(</span><span class="n">BaseLucidRecruiter</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The production Lucid recruiter.</span>
+<span class="sd">    Recruit participants from the Lucid Marketplace.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">nickname</span> <span class="o">=</span> <span class="s2">&quot;lucid-recruiter&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ad_url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">get_base_url</span><span class="p">()</span><span class="si">}</span><span class="s2">/ad?recruiter=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nickname</span><span class="si">}</span><span class="s2">&amp;RID=[%RID%]&quot;</span></div>
+
+
+
+<div class="viewcode-block" id="GenericRecruiter">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.GenericRecruiter">[docs]</a>
+<span class="k">class</span> <span class="nc">GenericRecruiter</span><span class="p">(</span><span class="n">PsyNetRecruiter</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    An improved version of Dallinger&#39;s Hot-Air Recruiter.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">nickname</span> <span class="o">=</span> <span class="s2">&quot;generic&quot;</span>
+
+<div class="viewcode-block" id="GenericRecruiter.exit_response">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.GenericRecruiter.exit_response">[docs]</a>
+    <span class="k">def</span> <span class="nf">exit_response</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">experiment</span><span class="p">,</span> <span class="n">participant</span><span class="p">):</span>
+        <span class="kn">from</span> <span class="nn">psynet.timeline</span> <span class="kn">import</span> <span class="n">Page</span>
+
+        <span class="n">message</span> <span class="o">=</span> <span class="n">experiment</span><span class="o">.</span><span class="n">render_exit_message</span><span class="p">(</span><span class="n">participant</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">message</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="s2">&quot;experiment.render_exit_message returned None. Did you forget to use &#39;return&#39;?&quot;</span>
+            <span class="p">)</span>
+
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">Page</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="s2">&quot;Sorry, you can&#39;t return a Page from experiment.render_exit_message.&quot;</span>
+            <span class="p">)</span>
+
+        <span class="k">elif</span> <span class="n">message</span> <span class="o">==</span> <span class="s2">&quot;default_exit_message&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">exit_response</span><span class="p">(</span><span class="n">experiment</span><span class="p">,</span> <span class="n">participant</span><span class="p">)</span>
+
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="n">html</span> <span class="o">=</span> <span class="n">dominate</span><span class="o">.</span><span class="n">tags</span><span class="o">.</span><span class="n">p</span><span class="p">(</span><span class="n">message</span><span class="p">)</span><span class="o">.</span><span class="n">render</span><span class="p">()</span>
+
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">dominate</span><span class="o">.</span><span class="n">dom_tag</span><span class="o">.</span><span class="n">dom_tag</span><span class="p">):</span>
+            <span class="n">html</span> <span class="o">=</span> <span class="n">message</span><span class="o">.</span><span class="n">render</span><span class="p">()</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Invalid value of experiment.render_exit_message: </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2">. &quot;</span>
+                <span class="s2">&quot;You should return either a string or an HTML specification created using dominate tags &quot;</span>
+                <span class="s2">&quot;(see https://pypi.org/project/dominate/).&quot;</span>
+            <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">flask</span><span class="o">.</span><span class="n">render_template</span><span class="p">(</span><span class="s2">&quot;custom_html.html&quot;</span><span class="p">,</span> <span class="n">html</span><span class="o">=</span><span class="n">html</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="GenericRecruiter.open_recruitment">
+<a class="viewcode-back" href="../../api/recruiters.html#psynet.recruiters.GenericRecruiter.open_recruitment">[docs]</a>
+    <span class="k">def</span> <span class="nf">open_recruitment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">open_recruitment</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
+
+        <span class="c1"># Hide the Dallinger logs advice, because the advice doesn&#39;t work for SSH deployment</span>
+        <span class="n">res</span><span class="p">[</span><span class="s2">&quot;message&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span>
+            <span class="s2">&quot;Open the logs for this experiment.*&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">res</span><span class="p">[</span><span class="s2">&quot;message&quot;</span><span class="p">]</span>
+        <span class="p">)</span>
+        <span class="n">res</span><span class="p">[</span><span class="s2">&quot;message&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span>
+            <span class="s2">&quot;.*in the logs for subsequent recruitment URLs</span><span class="se">\\</span><span class="s2">.&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">res</span><span class="p">[</span><span class="s2">&quot;message&quot;</span><span class="p">]</span>
+        <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">res</span></div>
+</div>
+
+</pre></div>
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

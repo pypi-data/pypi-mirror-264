@@ -1,0 +1,824 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Participant" href="participant.html" /><link rel="prev" title="ModularPage" href="modular_page.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>Page - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">API Documentation</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modular_page.html">ModularPage</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://gitlab.com/PsyNetDev/PsyNet/-/edit/master/docs/api/page.rst" title="Edit this page">
+    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="module-psynet.page">
+<span id="page"></span><h1>Page<a class="headerlink" href="#module-psynet.page" title="Link to this heading">#</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.page.DebugResponsePage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">DebugResponsePage</span></span><a class="reference internal" href="../_modules/psynet/page.html#DebugResponsePage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.DebugResponsePage" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="timeline.html#psynet.timeline.PageMaker" title="psynet.timeline.PageMaker"><code class="xref py py-class docutils literal notranslate"><span class="pre">PageMaker</span></code></a></p>
+<p>Implements a debugging page for responses.
+Displays a page to the user with information about the
+last response received from the participant.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.page.InfoPage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">InfoPage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">content</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_estimate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#InfoPage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.InfoPage" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="../tutorials/modular_page.html#psynet.modular_page.ModularPage" title="psynet.modular_page.ModularPage"><code class="xref py py-class docutils literal notranslate"><span class="pre">ModularPage</span></code></a></p>
+<p>This page displays some content to the user alongside a button
+with which to advance to the next page.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>content</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Markup</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">dom_tag</span></code>]</span>) – The content to display to the user. Use <code class="xref py py-class docutils literal notranslate"><span class="pre">markupsafe.Markup</span></code>
+to display raw HTML.</p></li>
+<li><p><strong>time_estimate</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>]</span>) – Time estimated for the page.</p></li>
+<li><p><strong>**kwargs</strong> – Further arguments to pass to <a class="reference internal" href="../tutorials/modular_page.html#psynet.modular_page.ModularPage" title="psynet.modular_page.ModularPage"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.modular_page.ModularPage</span></code></a>.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.page.InfoPage.get_bot_response">
+<span class="sig-name descname"><span class="pre">get_bot_response</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bot</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#InfoPage.get_bot_response"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.InfoPage.get_bot_response" title="Link to this definition">#</a></dt>
+<dd><p>This function is used when a bot simulates a participant responding to a given page.
+In the simplest form, the function just returns the value of the
+answer that the bot returns.
+For more sophisticated treatment, the function can return a
+<code class="docutils literal notranslate"><span class="pre">BotResponse</span></code> object which contains other parameters
+such as <code class="docutils literal notranslate"><span class="pre">blobs</span></code> and <code class="docutils literal notranslate"><span class="pre">metadata</span></code>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.page.InfoPage.metadata">
+<span class="sig-name descname"><span class="pre">metadata</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#InfoPage.metadata"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.InfoPage.metadata" title="Link to this definition">#</a></dt>
+<dd><p>By default, the metadata attribute combines the metadata
+of the <code class="xref py py-class docutils literal notranslate"><span class="pre">Prompt</span></code> member.
+and the <code class="xref py py-class docutils literal notranslate"><span class="pre">Control</span></code> members.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.page.JsPsychPage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">JsPsychPage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeline</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_estimate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">js_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">css_links</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">js_vars</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#JsPsychPage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.JsPsychPage" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="timeline.html#psynet.timeline.Page" title="psynet.timeline.Page"><code class="xref py py-class docutils literal notranslate"><span class="pre">Page</span></code></a></p>
+<p>A page that embeds a jsPsych experiment. See <code class="docutils literal notranslate"><span class="pre">demos/jspsych</span></code> for example usage.</p>
+<dl class="simple">
+<dt>label :</dt><dd><p>Label for the page.</p>
+</dd>
+<dt>timeline :</dt><dd><p>A path to an HTML file that defines the jsPsych experiment’s timeline.
+The timeline should be saved as an object called <code class="docutils literal notranslate"><span class="pre">timeline</span></code>.
+See <code class="docutils literal notranslate"><span class="pre">demos/jspsych</span></code> for an example.</p>
+</dd>
+<dt>js_links :</dt><dd><p>A list of links to JavaScript files to include in the page. Typically this would include
+a link to the required jsPsych version as well as links to the required plug-ins.
+It is recommended to include these files in the <code class="docutils literal notranslate"><span class="pre">static</span></code> directory and refer to them
+using relative paths; alternatively it is possible to link to these files via a CDN.</p>
+</dd>
+<dt>css_links :</dt><dd><p>A list of links to CSS stylesheets to include. Typically this would include the standard
+jsPsych stylesheet.</p>
+</dd>
+<dt>js_vars :</dt><dd><p>An optional dictionary of variables to pass to the front-end. These can then be accessed
+in the timeline template, writing for example <code class="docutils literal notranslate"><span class="pre">psynet.var[&quot;my_variable&quot;]</span></code>.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.page.JsPsychPage.format_answer">
+<span class="sig-name descname"><span class="pre">format_answer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">raw_answer</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#JsPsychPage.format_answer"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.JsPsychPage.format_answer" title="Link to this definition">#</a></dt>
+<dd><p>Formats the raw answer object returned from the participant’s browser.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>raw_answer</strong> – The raw answer object returned from the participant’s browser.</p></li>
+<li><p><strong>**kwargs</strong> – <p>Keyword arguments, including:</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">blobs</span></code>:
+A dictionary of any blobs that were returned from the
+participant’s browser.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">metadata</span></code>:
+The metadata returned from the participant’s browser.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">experiment</span></code>:
+An instantiation of <a class="reference internal" href="experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">participant</span></code>:
+An instantiation of <a class="reference internal" href="participant.html#psynet.participant.Participant" title="psynet.participant.Participant"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.participant.Participant</span></code></a>,
+corresponding to the current participant.</p></li>
+</ol>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>Object</em> – The formatted answer, suitable for serialisation to JSON
+and storage in the database.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.page.RejectedConsentPage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">RejectedConsentPage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">failure_tags</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#RejectedConsentPage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.RejectedConsentPage" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="timeline.html#psynet.page.UnsuccessfulEndPage" title="psynet.page.UnsuccessfulEndPage"><code class="xref py py-class docutils literal notranslate"><span class="pre">UnsuccessfulEndPage</span></code></a></p>
+<p>Indicates a consent that has been rejected.</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.page.SuccessfulEndPage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">SuccessfulEndPage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">show_reward</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#SuccessfulEndPage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.SuccessfulEndPage" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">EndPage</span></code></p>
+<p>Indicates a successful end to the experiment.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.page.SuccessfulEndPage.finalize_participant">
+<span class="sig-name descname"><span class="pre">finalize_participant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#SuccessfulEndPage.finalize_participant"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.SuccessfulEndPage.finalize_participant" title="Link to this definition">#</a></dt>
+<dd><p>Executed when the participant completes the experiment.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>experiment</strong> – An instantiation of <a class="reference internal" href="experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><strong>participant</strong> – An instantiation of <a class="reference internal" href="participant.html#psynet.participant.Participant" title="psynet.participant.Participant"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.participant.Participant</span></code></a>,
+corresponding to the current participant.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.page.UnityPage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">UnityPage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">contents</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">session_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">game_container_width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'960px'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">game_container_height</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'600px'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_estimate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#UnityPage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.UnityPage" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="timeline.html#psynet.timeline.Page" title="psynet.timeline.Page"><code class="xref py py-class docutils literal notranslate"><span class="pre">Page</span></code></a></p>
+<p>This is the main page when conducting Unity experiments. Its attributes <code class="docutils literal notranslate"><span class="pre">contents</span></code> and <code class="docutils literal notranslate"><span class="pre">attributes</span></code> can be accessed through the JavaScript variable <code class="docutils literal notranslate"><span class="pre">psynet.page</span></code> inside the page template.</p>
+<p>Ín order to conclude this page call the <code class="docutils literal notranslate"><span class="pre">psynet.nextPage</span></code> function which has following parameters:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">rawAnswer</span></code>: The main answer that the page returns.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">metadata</span></code>: Additional information that might be useful for debugging or other exploration, e.g. time taken on the page.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">blobs</span></code>: Use this for large binaries, e.g. audio recordings.</p></li>
+</ul>
+<p>Once the <code class="docutils literal notranslate"><span class="pre">psynet.nextPage</span></code> function is called, PsyNet will navigate to a new page if the new page has a different session_id compared to the current page, otherwise it will update the page while preserving the ongoing Unity session, specifically updating <code class="docutils literal notranslate"><span class="pre">psynet.page</span></code> and triggering the JavaScript event <code class="docutils literal notranslate"><span class="pre">pageUpdated</span></code> in the <code class="docutils literal notranslate"><span class="pre">window</span></code> object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>title</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – The title of the experiment to be rendered in the HTML title-tag of the page.</p></li>
+<li><p><strong>game_container_width</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – The width of the game container, e.g. ‘960px’.</p></li>
+<li><p><strong>game_container_height</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – The height of the game container, e.g. ‘600px’.</p></li>
+<li><p><strong>resources</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – <p>The path to the directory containing the Unity files residing inside the “static” directory. The path should start with “/static” and should comply with following basic structure:</p>
+<p>static/
+├── css/
+└── scripts/</p>
+<p>css: Contains stylesheets
+scripts: Contains JavaScript files</p>
+</p></li>
+<li><p><strong>contents</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></span>) – A dictionary containing experiment specific data.</p></li>
+<li><p><strong>time_estimate</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code>]</span>) – Time estimated for the page (seconds).</p></li>
+<li><p><strong>session_id</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></span>) – If session_id is not None, then it must be a string. If two consecutive pages occur with the same session_id, then when it’s time to move to the second page, the browser will not navigate to a new page, but will instead update the JavaScript variable psynet.page with metadata for the new page, and will trigger an event called pageUpdated. This event can be listened for with JavaScript code like window.addEventListener(”pageUpdated”, …).</p></li>
+<li><p><strong>debug</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></span>) – Specifies if we are in debug mode and use <cite>unity-debug-page.html</cite> as template instead of the standard <cite>unity-page.html</cite>.</p></li>
+<li><p><strong>**kwargs</strong> – Further arguments to pass to <a class="reference internal" href="timeline.html#psynet.timeline.Page" title="psynet.timeline.Page"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.timeline.Page</span></code></a>.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.page.UnityPage.metadata">
+<span class="sig-name descname"><span class="pre">metadata</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#UnityPage.metadata"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.UnityPage.metadata" title="Link to this definition">#</a></dt>
+<dd><p>Compiles metadata about the page or its response from the participant.
+This metadata will be merged with the default metadata object returned
+from the browser, with any duplicate terms overwritten.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>**kwargs</strong> – <p>Keyword arguments, including:</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">raw_answer</span></code>:
+The raw answer returned from the participant’s browser.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">answer</span></code>:
+The formatted answer.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">metadata</span></code>:
+The original metadata returned from the participant’s browser.</p></li>
+</ol>
+<ol class="arabic simple" start="3">
+<li><p><code class="docutils literal notranslate"><span class="pre">experiment</span></code>:
+An instantiation of <a class="reference internal" href="experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">participant</span></code>:
+An instantiation of <a class="reference internal" href="participant.html#psynet.participant.Participant" title="psynet.participant.Participant"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.participant.Participant</span></code></a>,
+corresponding to the current participant.</p></li>
+</ol>
+</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>dict</em> – A dictionary of metadata.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.page.UnsuccessfulEndPage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">UnsuccessfulEndPage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">show_reward</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">failure_tags</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">template_filename</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'final-page-unsuccessful.html'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#UnsuccessfulEndPage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.UnsuccessfulEndPage" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">EndPage</span></code></p>
+<p>Indicates an unsuccessful end to the experiment.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.page.UnsuccessfulEndPage.finalize_participant">
+<span class="sig-name descname"><span class="pre">finalize_participant</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#UnsuccessfulEndPage.finalize_participant"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.UnsuccessfulEndPage.finalize_participant" title="Link to this definition">#</a></dt>
+<dd><p>Executed when the participant completes the experiment.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>experiment</strong> – An instantiation of <a class="reference internal" href="experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><strong>participant</strong> – An instantiation of <a class="reference internal" href="participant.html#psynet.participant.Participant" title="psynet.participant.Participant"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.participant.Participant</span></code></a>,
+corresponding to the current participant.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.page.WaitPage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">WaitPage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wait_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">content</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#WaitPage"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.WaitPage" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="timeline.html#psynet.timeline.Page" title="psynet.timeline.Page"><code class="xref py py-class docutils literal notranslate"><span class="pre">Page</span></code></a></p>
+<p>This page makes the user wait for a specified amount of time
+before automatically continuing to the next page.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>wait_time</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></span>) – Time that the user should wait.</p></li>
+<li><p><strong>content</strong> – Message to display to the participant while they wait.
+Default: “Please wait, the experiment should continue shortly…”</p></li>
+<li><p><strong>**kwargs</strong> – Further arguments to pass to <a class="reference internal" href="timeline.html#psynet.timeline.Page" title="psynet.timeline.Page"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.timeline.Page</span></code></a>.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.page.WaitPage.get_bot_response">
+<span class="sig-name descname"><span class="pre">get_bot_response</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bot</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#WaitPage.get_bot_response"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.WaitPage.get_bot_response" title="Link to this definition">#</a></dt>
+<dd><p>This function is used when a bot simulates a participant responding to a given page.
+In the simplest form, the function just returns the value of the
+answer that the bot returns.
+For more sophisticated treatment, the function can return a
+<code class="docutils literal notranslate"><span class="pre">BotResponse</span></code> object which contains other parameters
+such as <code class="docutils literal notranslate"><span class="pre">blobs</span></code> and <code class="docutils literal notranslate"><span class="pre">metadata</span></code>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.page.WaitPage.metadata">
+<span class="sig-name descname"><span class="pre">metadata</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#WaitPage.metadata"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.WaitPage.metadata" title="Link to this definition">#</a></dt>
+<dd><p>Compiles metadata about the page or its response from the participant.
+This metadata will be merged with the default metadata object returned
+from the browser, with any duplicate terms overwritten.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>**kwargs</strong> – <p>Keyword arguments, including:</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">raw_answer</span></code>:
+The raw answer returned from the participant’s browser.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">answer</span></code>:
+The formatted answer.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">metadata</span></code>:
+The original metadata returned from the participant’s browser.</p></li>
+</ol>
+<ol class="arabic simple" start="3">
+<li><p><code class="docutils literal notranslate"><span class="pre">experiment</span></code>:
+An instantiation of <a class="reference internal" href="experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">participant</span></code>:
+An instantiation of <a class="reference internal" href="participant.html#psynet.participant.Participant" title="psynet.participant.Participant"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.participant.Participant</span></code></a>,
+corresponding to the current participant.</p></li>
+</ol>
+</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>dict</em> – A dictionary of metadata.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="psynet.page.wait_while">
+<span class="sig-prename descclassname"><span class="pre">psynet.page.</span></span><span class="sig-name descname"><span class="pre">wait_while</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">condition</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">expected_wait</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">check_interval=2.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_wait_time=20.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait_page=&lt;class</span> <span class="pre">'psynet.page.WaitPage'&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_message=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fail_on_timeout=True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/psynet/page.html#wait_while"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.page.wait_while" title="Link to this definition">#</a></dt>
+<dd><p>Displays the participant a waiting page while a given condition
+remains satisfied.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>condition</strong> – The condition to be checked;
+the participant will keep waiting while this condition returns True.
+This argument should be a function receiving the following arguments:
+<code class="docutils literal notranslate"><span class="pre">participant</span></code> (corresponding to the current participant)
+and <code class="docutils literal notranslate"><span class="pre">experiment</span></code> (corresponding to the current experiments).
+If one of this arguments is not needed, it can be omitted from the
+argument list.</p></li>
+<li><p><strong>expected_wait</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></span>) – How long the participant is likely to wait, in seconds.</p></li>
+<li><p><strong>check_interval</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></span>) – How often should the browser check the condition, in seconds.</p></li>
+<li><p><strong>max_wait_time</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></span>) – The participant’s maximum waiting time in seconds. Default: 20.0.</p></li>
+<li><p><strong>wait_page</strong> – The wait page that should be displayed to the participant;
+defaults to <a class="reference internal" href="timeline.html#psynet.page.WaitPage" title="psynet.page.WaitPage"><code class="xref py py-class docutils literal notranslate"><span class="pre">WaitPage</span></code></a>.</p></li>
+<li><p><strong>log_message</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</span>) – Optional message to display in the log.</p></li>
+<li><p><strong>fail_on_timeout</strong> – Whether the participants should be failed when the <code class="docutils literal notranslate"><span class="pre">max_loop_time</span></code> is reached.
+Setting this to <code class="docutils literal notranslate"><span class="pre">False</span></code> will not return the <code class="docutils literal notranslate"><span class="pre">UnsuccessfulEndPage</span></code> when maximum time has elapsed
+but allow them to proceed to the next page.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>list</em> – A list of test elts suitable for inclusion in a PsyNet timeline.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="participant.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Participant</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="modular_page.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">ModularPage</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Page</a><ul>
+<li><a class="reference internal" href="#psynet.page.DebugResponsePage"><code class="docutils literal notranslate"><span class="pre">DebugResponsePage</span></code></a></li>
+<li><a class="reference internal" href="#psynet.page.InfoPage"><code class="docutils literal notranslate"><span class="pre">InfoPage</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.page.InfoPage.get_bot_response"><code class="docutils literal notranslate"><span class="pre">InfoPage.get_bot_response()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.page.InfoPage.metadata"><code class="docutils literal notranslate"><span class="pre">InfoPage.metadata()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.page.JsPsychPage"><code class="docutils literal notranslate"><span class="pre">JsPsychPage</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.page.JsPsychPage.format_answer"><code class="docutils literal notranslate"><span class="pre">JsPsychPage.format_answer()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.page.RejectedConsentPage"><code class="docutils literal notranslate"><span class="pre">RejectedConsentPage</span></code></a></li>
+<li><a class="reference internal" href="#psynet.page.SuccessfulEndPage"><code class="docutils literal notranslate"><span class="pre">SuccessfulEndPage</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.page.SuccessfulEndPage.finalize_participant"><code class="docutils literal notranslate"><span class="pre">SuccessfulEndPage.finalize_participant()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.page.UnityPage"><code class="docutils literal notranslate"><span class="pre">UnityPage</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.page.UnityPage.metadata"><code class="docutils literal notranslate"><span class="pre">UnityPage.metadata()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.page.UnsuccessfulEndPage"><code class="docutils literal notranslate"><span class="pre">UnsuccessfulEndPage</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.page.UnsuccessfulEndPage.finalize_participant"><code class="docutils literal notranslate"><span class="pre">UnsuccessfulEndPage.finalize_participant()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.page.WaitPage"><code class="docutils literal notranslate"><span class="pre">WaitPage</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.page.WaitPage.get_bot_response"><code class="docutils literal notranslate"><span class="pre">WaitPage.get_bot_response()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.page.WaitPage.metadata"><code class="docutils literal notranslate"><span class="pre">WaitPage.metadata()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.page.wait_while"><code class="docutils literal notranslate"><span class="pre">wait_while()</span></code></a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

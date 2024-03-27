@@ -1,0 +1,669 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Configuration" href="configuration.html" /><link rel="prev" title="Experiment directory" href="experiment_directory.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>Development workflow - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../api/index.html">API Documentation</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../api/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../api/trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../api/utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://gitlab.com/PsyNetDev/PsyNet/-/edit/master/docs/experiment_development/development_workflow.rst" title="Edit this page">
+    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="development-workflow">
+<span id="id1"></span><h1>Development workflow<a class="headerlink" href="#development-workflow" title="Link to this heading">#</a></h1>
+<p>Let’s imagine we are working on a particular experiment implementation.
+Perhaps we initialized our implementation by copying a demo from the PsyNet <code class="docutils literal notranslate"><span class="pre">demos</span></code> directory,
+and have been converting the code to our needs.
+This tutorial will cover various tips and tricks for making your development process
+efficient and effective.</p>
+<section id="version-control">
+<h2>Version control<a class="headerlink" href="#version-control" title="Link to this heading">#</a></h2>
+<p>It’s important to have some system for tracking changes to your code over time.
+We recommend using Git alongside some Git host such as GitHub or GitLab.
+There are lots of good Git tutorials available online;
+see <a class="reference external" href="../tutorials/version_control_with_git.html">version control with Git</a>
+for a PsyNet-oriented introduction to Git.</p>
+</section>
+<section id="pycharm-as-an-ide">
+<h2>PyCharm as an IDE<a class="headerlink" href="#pycharm-as-an-ide" title="Link to this heading">#</a></h2>
+<p>Interactive development environments (IDE)
+help you to manage and run your source files. We particularly recommend PyCharm Professional,
+which integrates well with the development requirements of PsyNet.
+It is possible to get free educational licenses for PyCharm Professional,
+see online for details.</p>
+<p>PsyNet demos come with instructions about how to configure your PyCharm IDE.
+The most important steps are (a) opening the experiment directory as a project (File &gt; Open in PyCharm),
+and (b) configuring your Python interpreter. The instructions for the latter depend on whether you are using
+Docker or not. See <code class="docutils literal notranslate"><span class="pre">docs/INSTALL.md</span></code> in your PsyNet demo for these instructions.</p>
+<p>Once you’ve set up your PyCharm interpreter, you will be able to see your experiment’s source files
+by clicking on the File navigator on the left side of the screen.
+You will be able to interact with a bash console by clicking on the <code class="docutils literal notranslate"><span class="pre">Terminal</span></code> tab on the bottom of the screen,
+and with a Python console by clicking on the <code class="docutils literal notranslate"><span class="pre">Python</span> <span class="pre">Console</span></code> tab on the bottom of the screen.
+When you are writing PsyNet commands, you will probably be interacting directly with the <code class="docutils literal notranslate"><span class="pre">Terminal</span></code> tab.
+See <a class="reference external" href="../introduction/command_line.html">Command line</a> for an overview of PsyNet commands.</p>
+</section>
+<section id="local-debug-mode">
+<h2>Local debug mode<a class="headerlink" href="#local-debug-mode" title="Link to this heading">#</a></h2>
+<p>The most important PsyNet command for local development is the following:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>psynet<span class="w"> </span>debug<span class="w"> </span><span class="nb">local</span>
+</pre></div>
+</div>
+<p>If you are running PsyNet via Docker, you need to prefix this and all other PsyNet commands
+with <code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">docker/</span></code>. This means that you actually write this:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bash<span class="w"> </span>docker/psynet<span class="w"> </span>debug<span class="w"> </span><span class="nb">local</span>
+</pre></div>
+</div>
+<p>The latter executes a bash script that builds a Docker image for your experiment,
+creates a Docker container from that image, and executes the PsyNet command within that container.</p>
+<p>This <code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">debug</span> <span class="pre">local</span></code> command creates a local development server that you can use
+to prototype your experiment. This server recreates all the services (web nodes, worker nodes,
+clock nodes, database) that would be running in a real experiment. If you run it via Docker,
+then this is all done using the exact same virtualized environments that you would use
+for your real experiment. This introduces some setup overhead, as all these environments and
+processes need to be spun up, but it means that you have a very good approximation of the
+‘real’ deployment environment right from the beginning, which is very helpful for avoiding
+bugs later on.</p>
+<p>The local development server should take about 10-15 seconds to spin up.
+Once it has spun up, you should see in your console a link to the experiment dashboard.
+Open that link in Chrome and you should see the dashboard. On the default dashboard page
+you will see a button that allows you to create a new participant session.
+Click that link and you can take the experiment.</p>
+<p>Though the development server takes a while to spin up, it has the special feature
+that you can preview edits to your code without having to restart the server from scratch.
+For example, you can change the UI components of a given PsyNet page, save the source file,
+then refresh the page in Chrome; the server processes should refresh and you should see
+the changes to your page. You can likewise add new components to the timeline, change
+code block logic, and so on; changes should be manifested immediately once you refresh
+the page.</p>
+<p>Certain changes need a full refresh of the development server to propagate. For example,
+if you are making changes to assets included in the timeline, you will normally need
+to close the debug session and create a new one for those assets to be incorporated
+into the experiment. You can close a debug session by entering Ctrl-C into the bash terminal.</p>
+</section>
+<section id="breakpoints">
+<h2>Breakpoints<a class="headerlink" href="#breakpoints" title="Link to this heading">#</a></h2>
+<p>Breakpoints are an essential tool for debugging experiments. They allow you to drop into
+the Python environment at a particular point in your code, inspect local variables,
+and try executing arbitrary code.</p>
+<p>If you are developing your experiment in PyCharm we recommend using the PyCharm debugger.
+We need to set this up in a particular way for it to work with PsyNet experiments,
+which make heavy use of subprocesses, which cannot easily be accessed using standard
+PyCharm breakpoints.</p>
+<p>To set up the PyCharm debugger for Psynet, click Run, then Edit Configurations. Click + (Add new configuration), then
+click Python debug server.</p>
+<p>If you are using Docker, then under Name enter ‘Dockerized Python debug server. Under IDE host name, enter
+host.docker.internal. Set Port to 12345.</p>
+<p>Alternatively, if you are not using Docker, then under Name enter ‘Python debug server. Under IDE host name, enter
+localhost. Set Port to 12345.</p>
+<p>If you are not using Docker you will need to install the pydevd_pycharm package. There are instructions for this on the
+New Configuration panel; copy those now, and run them in your bash terminal.</p>
+<p>Now to insert a breakpoint, select ‘[Dockerized] Python debug server’ from the dropdown in the top right of your screen,
+then click the green bug symbol. This will start your debug server running. You will see some instructions printed in
+your console that look something like this:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Starting<span class="w"> </span>debug<span class="w"> </span>server<span class="w"> </span>at<span class="w"> </span>port<span class="w"> </span><span class="m">12</span>,345
+Use<span class="w"> </span>the<span class="w"> </span>following<span class="w"> </span>code<span class="w"> </span>to<span class="w"> </span>connect<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>debugger:
+import<span class="w"> </span>pydevd_pycharm
+pydevd_pycharm.settrace<span class="o">(</span><span class="s1">&#39;host.docker.internal&#39;</span>,<span class="w"> </span><span class="nv">port</span><span class="o">=</span><span class="m">12345</span>,<span class="w"> </span><span class="nv">stdoutToServer</span><span class="o">=</span>True,<span class="w"> </span><span class="nv">stderrToServer</span><span class="o">=</span>True<span class="o">)</span>
+Waiting<span class="w"> </span><span class="k">for</span><span class="w"> </span>process<span class="w"> </span>connection…
+</pre></div>
+</div>
+<p>Copy and paste the two Python lines into the part of your code where you want to have the breakpoint.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>import<span class="w"> </span>pydevd_pycharm
+pydevd_pycharm.settrace<span class="o">(</span><span class="s1">&#39;host.docker.internal&#39;</span>,<span class="w"> </span><span class="nv">port</span><span class="o">=</span><span class="m">12345</span>,<span class="w"> </span><span class="nv">stdoutToServer</span><span class="o">=</span>True,<span class="w"> </span><span class="nv">stderrToServer</span><span class="o">=</span>True<span class="o">)</span>
+</pre></div>
+</div>
+<p>Now run your PsyNet command as usual:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bash<span class="w"> </span>docker/psynet<span class="w"> </span>debug<span class="w"> </span><span class="nb">local</span>
+</pre></div>
+</div>
+<p>Once PsyNet hits the breakpoint, your debug console should be activated. You should now be able to access the local
+environment and execute arbitrary code.</p>
+</section>
+<section id="debugging-tips">
+<h2>Debugging tips<a class="headerlink" href="#debugging-tips" title="Link to this heading">#</a></h2>
+<p>Everyone runs into errors and bugs when they are programming. This is part of the normal process.
+Your ability to efficiently resolve errors and bugs is an essential part of being an effective programmer.</p>
+<p>PsyNet experiments take some care to debug because there are many moving parts. It can be intimidating at
+first working out how to resolve problems.</p>
+<p>Most errors and bugs have their first symptom in an error message that is printed to your bash console.
+This error message will typically contain a traceback that tells you where in the code the error occurred.
+Examine this carefully to work out where the error is being flagged. It might be in the code you wrote,
+or it might be in the PsyNet library code. If the latter, you may want to find the corresponding part of the
+PsyNet source code so you can get a better idea of the logical context of the error.</p>
+<p>Often you can learn more about the origin of the error by inserting a breakpoint at the point just before
+the error occurs. With this breakpoint, you can explore the local state of the environment, and work
+out if a particular variable is taking an unexpected value, or a particular function is returning an unexpected output.</p>
+<p>If an error is particularly hard to isolate, one trick is to progressively simplify your implementation to find
+a minimal code example that still produces the error. The simpler the implementation, the less there is to understand,
+and the clearer the bug will become. A minimal code example can be very good for sharing with others so that
+they can help you to understand what’s going on. A useful trick here can be to simply ‘comment out’ bits of your
+experiment timeline. There is a useful PyCharm shortcut for this, CMD-/.</p>
+</section>
+<section id="dashboard">
+<h2>Dashboard<a class="headerlink" href="#dashboard" title="Link to this heading">#</a></h2>
+<p>The PsyNet dashboard provides various useful tools for understanding the state of your experiment.
+You should explore this as you develop your experiment. In particular the database tab is helpful
+for showing you the state of the current database objects; this is complemented by the monitor tab,
+which visualizes network structures in the experiment.</p>
+</section>
+<section id="tests">
+<h2>Tests<a class="headerlink" href="#tests" title="Link to this heading">#</a></h2>
+<p>PsyNet experiments now come with built-in tests. These tests help you to validate that your experiment logic
+works correctly. They focus on the back-end Python logic, rather than the front-end user interface;
+however it is perfectly possible to write your own front-end tests too.</p>
+<p>The PsyNet experiment’s tests are defined in the experiment directory’s <code class="docutils literal notranslate"><span class="pre">test.py</span></code> file.
+The built-in test simply runs a simulated participant (a ‘bot’) through your experiment.
+The way this works is that each PsyNet page comes with a <code class="docutils literal notranslate"><span class="pre">bot_response</span></code> attribute that determines
+how the bot responds to the page. Many pages come with default <code class="docutils literal notranslate"><span class="pre">bot_response</span></code> attributes;
+for example, by default a bot will respond to a multiple-choice page by clicking a random option.
+This behavior is fully customizable, and you can pass arbitraily complex functions to this <code class="docutils literal notranslate"><span class="pre">bot_response</span></code> attribute.</p>
+<p>PsyNet provides several hooks for customizing these built-in experiment tests.
+These hooks are accessed by customizing your <code class="docutils literal notranslate"><span class="pre">Experiment</span></code> class in <code class="docutils literal notranslate"><span class="pre">experiment.py</span></code>.</p>
+<p>The simplest customization is to change <code class="docutils literal notranslate"><span class="pre">Experiment.test_n_bots</span></code>, which determines the number of bots that are run through
+the experiment. By default this is set to 1.</p>
+<p>Another common customization is to override <code class="docutils literal notranslate"><span class="pre">Experiment.test_check_bot</span></code> and add additional code that validates
+the state of the bot once it has completed the experiment. For example, you might check that it has completed
+a certain number of trials, or that a certain participant variable has been set effectievly.</p>
+<p>For more complete customization, you can override <code class="docutils literal notranslate"><span class="pre">Experiment.test_experiment</span></code> itself, and have complete control
+over the initialization of bots and the checking of their status.</p>
+<p>To run the experiment’s tests, you can enter the following into your bash terminal:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bash<span class="w"> </span>docker/run<span class="w"> </span>pytest<span class="w"> </span>test.py
+</pre></div>
+</div>
+<p>Or without docker:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pytest<span class="w"> </span>test.py
+</pre></div>
+</div>
+<p>The nice thing about running these tests in Docker is that it uses the exact operating system environment
+(including Python version and dependencies) that your actual deployed experiment would use.
+It’s a great way of finding problems.
+It’s a good habit to run this test as a final check before you deploy your experiment.</p>
+</section>
+<section id="local-psynet-and-dallinger-installations">
+<h2>Local PsyNet and Dallinger installations<a class="headerlink" href="#local-psynet-and-dallinger-installations" title="Link to this heading">#</a></h2>
+<p>Writing PsyNet experiments often involves customizing underlying library code. This is part of the real power of
+PsyNet: you can dig as deep as you want into the library classes and functions.</p>
+<p>To take advantage of this capacity, you will normally want to have PsyNet (and perhaps also Dallinger)
+source code libraries easily available on your computer. The recommended way to do this is to clone their
+Git repositories into your home directory. Make sure to preserve the original capitalization of the repository
+directory names, for example <code class="docutils literal notranslate"><span class="pre">~/PsyNet</span></code> and <code class="docutils literal notranslate"><span class="pre">~/Dallinger</span></code>.</p>
+<p>You can open these libraries in PyCharm by click File &gt; Open and then selecting the folders.
+When prompted, select the option to open each project in a new window.
+It’s a good idea to have the PsyNet project open in a separate window whenever you are developing an experiment.
+You can easily jump to particular function definitions by using the full text search (Cmd-Shift-F by default).</p>
+<p>Sometimes you will want to trial particular changes to PsyNet or Dallinger library code. This can be useful for
+debugging errors that occur within this code, or for proposing new features that you eventually contribute to
+PsyNet or Dallinger. In order to test such changes, you need to link your local source libraries to your experiment
+implementation. The way you do this depends on whether you are using Docker or not.</p>
+<p>If you are using Docker, make sure you have downloaded both PsyNet and Dallinger to the locations specified above.
+Then, whenever you are running PsyNet terminal command, insert <code class="docutils literal notranslate"><span class="pre">-dev</span></code>, producing commands like this:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bash<span class="w"> </span>docker/psynet-dev<span class="w"> </span>debug<span class="w"> </span><span class="nb">local</span>
+bash<span class="w"> </span>docker/run-dev<span class="w"> </span>pytest<span class="w"> </span>test.py
+</pre></div>
+</div>
+<p>This invokes Docker in the same way as before, but linking your local PsyNet and Dallinger installations.</p>
+<p>If you are not using Docker, then the process is instead to navigate to those folders within your local environment,
+then run <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">-e</span> <span class="pre">.</span></code> The <code class="docutils literal notranslate"><span class="pre">-e</span></code> stands for ‘editable’.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~/PsyNet
+pip3<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+
+<span class="nb">cd</span><span class="w"> </span>~/Dallinger
+pip3<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+</pre></div>
+</div>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="configuration.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Configuration</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="experiment_directory.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Experiment directory</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Development workflow</a><ul>
+<li><a class="reference internal" href="#version-control">Version control</a></li>
+<li><a class="reference internal" href="#pycharm-as-an-ide">PyCharm as an IDE</a></li>
+<li><a class="reference internal" href="#local-debug-mode">Local debug mode</a></li>
+<li><a class="reference internal" href="#breakpoints">Breakpoints</a></li>
+<li><a class="reference internal" href="#debugging-tips">Debugging tips</a></li>
+<li><a class="reference internal" href="#dashboard">Dashboard</a></li>
+<li><a class="reference internal" href="#tests">Tests</a></li>
+<li><a class="reference internal" href="#local-psynet-and-dallinger-installations">Local PsyNet and Dallinger installations</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

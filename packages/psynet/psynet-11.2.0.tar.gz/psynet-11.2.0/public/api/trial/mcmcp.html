@@ -1,0 +1,1070 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Record" href="record.html" /><link rel="prev" title="MediaGibbs" href="media_gibbs.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>MCMCP - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../index.html">API Documentation</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../timeline.html">Timeline</a></li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="index.html">Trial</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://gitlab.com/PsyNetDev/PsyNet/-/edit/master/docs/api/trial/mcmcp.rst" title="Edit this page">
+    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="module-psynet.trial.mcmcp">
+<span id="mcmcp"></span><h1>MCMCP<a class="headerlink" href="#module-psynet.trial.mcmcp" title="Link to this heading">#</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.trial.mcmcp.</span></span><span class="sig-name descname"><span class="pre">MCMCPNetwork</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPNetwork"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="chain.html#psynet.trial.chain.ChainNetwork" title="psynet.trial.chain.ChainNetwork"><code class="xref py py-class docutils literal notranslate"><span class="pre">ChainNetwork</span></code></a></p>
+<p>A Network class for MCMCP chains.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.creation_time">
+<span class="sig-name descname"><span class="pre">creation_time</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.creation_time" title="Link to this definition">#</a></dt>
+<dd><p>the time at which the Network was created.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.details">
+<span class="sig-name descname"><span class="pre">details</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.details" title="Link to this definition">#</a></dt>
+<dd><p>a generic column for storing structured JSON data</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.failed">
+<span class="sig-name descname"><span class="pre">failed</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.failed" title="Link to this definition">#</a></dt>
+<dd><p>boolean indicating whether the Network has failed which
+prompts Dallinger to ignore it unless specified otherwise. Objects are
+usually failed to indicate something has gone wrong.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.failed_reason">
+<span class="sig-name descname"><span class="pre">failed_reason</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.failed_reason" title="Link to this definition">#</a></dt>
+<dd><p>an optional reason the object was failed. If the object is failed as
+part of a cascading failure triggered from another object, the chain
+of objects will be captured in this field.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.full">
+<span class="sig-name descname"><span class="pre">full</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.full" title="Link to this definition">#</a></dt>
+<dd><p>Whether the network is currently full</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.id" title="Link to this definition">#</a></dt>
+<dd><p>a unique number for every entry. 1, 2, 3 and so on…</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.make_definition">
+<span class="sig-name descname"><span class="pre">make_definition</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPNetwork.make_definition"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.make_definition" title="Link to this definition">#</a></dt>
+<dd><p>Derives the definition for the network.
+This definition represents some collection of attributes
+that is shared by all nodes/trials in a network,
+but that may differ between networks.</p>
+<p>Suppose one wishes to have multiple networks in the experiment,
+each characterised by a different value of an attribute
+(e.g. a different color).
+One approach would be to sample randomly; however, this would not
+guarantee an even distribution of attribute values.
+In this case, a better approach is to use the
+<a class="reference internal" href="chain.html#psynet.trial.chain.ChainNetwork.balance_across_networks" title="psynet.trial.chain.ChainNetwork.balance_across_networks"><code class="xref py py-meth docutils literal notranslate"><span class="pre">psynet.trial.chain.ChainNetwork.balance_across_networks()</span></code></a>
+method, as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;red&quot;</span><span class="p">,</span> <span class="s2">&quot;green&quot;</span><span class="p">,</span> <span class="s2">&quot;blue&quot;</span><span class="p">]</span>
+<span class="k">return</span> <span class="p">{</span>
+    <span class="s2">&quot;color&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">balance_across_networks</span><span class="p">(</span><span class="n">colors</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>See <a class="reference internal" href="chain.html#psynet.trial.chain.ChainNetwork.balance_across_networks" title="psynet.trial.chain.ChainNetwork.balance_across_networks"><code class="xref py py-meth docutils literal notranslate"><span class="pre">psynet.trial.chain.ChainNetwork.balance_across_networks()</span></code></a>
+for details on how this balancing works.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p><ul class="simple">
+<li></li>
+<li><p><em>object</em> – By default this returns an empty dictionary,
+but this can be customised by subclasses.
+The object should be suitable for serialisation to JSON.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.max_size">
+<span class="sig-name descname"><span class="pre">max_size</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.max_size" title="Link to this definition">#</a></dt>
+<dd><p>How big the network can get, this number is used by the full()
+method to decide whether the network is full</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.property1">
+<span class="sig-name descname"><span class="pre">property1</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.property1" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.property2">
+<span class="sig-name descname"><span class="pre">property2</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.property2" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.property3">
+<span class="sig-name descname"><span class="pre">property3</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.property3" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.property4">
+<span class="sig-name descname"><span class="pre">property4</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.property4" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.property5">
+<span class="sig-name descname"><span class="pre">property5</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.property5" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.role">
+<span class="sig-name descname"><span class="pre">role</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.role" title="Link to this definition">#</a></dt>
+<dd><p>The role of the network. By default dallinger initializes all
+networks as either “practice” or “experiment”</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.time_of_death">
+<span class="sig-name descname"><span class="pre">time_of_death</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.time_of_death" title="Link to this definition">#</a></dt>
+<dd><p>the time at which failing occurred</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.type">
+<span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.type" title="Link to this definition">#</a></dt>
+<dd><p>A String giving the name of the class. Defaults to
+“network”. This allows subclassing.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNetwork.vars">
+<span class="sig-name descname"><span class="pre">vars</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNetwork.vars" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.trial.mcmcp.</span></span><span class="sig-name descname"><span class="pre">MCMCPNode</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPNode"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="chain.html#psynet.trial.chain.ChainNode" title="psynet.trial.chain.ChainNode"><code class="xref py py-class docutils literal notranslate"><span class="pre">ChainNode</span></code></a></p>
+<p>A Node class for MCMCP chains.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.create_definition_from_seed">
+<span class="sig-name descname"><span class="pre">create_definition_from_seed</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seed</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPNode.create_definition_from_seed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.create_definition_from_seed" title="Link to this definition">#</a></dt>
+<dd><p>Creates a node definition from a seed.
+The seed comes from the previous node in the chain.
+In many cases (e.g. iterated reproduction) the definition
+will be trivially equal to the seed,
+but in some cases we may introduce some kind of stochastic alteration
+to produce the definition.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>seed</strong> (<em>object</em>) – The seed, passed from the previous state in the chain.</p></li>
+<li><p><strong>experiment</strong> – An instantiation of <a class="reference internal" href="../experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><strong>participant</strong> – The participant who initiated the creation of the node.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>object</em> – The derived definition. Should be suitable for serialisation to JSON.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.creation_time">
+<span class="sig-name descname"><span class="pre">creation_time</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.creation_time" title="Link to this definition">#</a></dt>
+<dd><p>the time at which the Network was created.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.details">
+<span class="sig-name descname"><span class="pre">details</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.details" title="Link to this definition">#</a></dt>
+<dd><p>a generic column for storing structured JSON data</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.failed">
+<span class="sig-name descname"><span class="pre">failed</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.failed" title="Link to this definition">#</a></dt>
+<dd><p>boolean indicating whether the Network has failed which
+prompts Dallinger to ignore it unless specified otherwise. Objects are
+usually failed to indicate something has gone wrong.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.failed_reason">
+<span class="sig-name descname"><span class="pre">failed_reason</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.failed_reason" title="Link to this definition">#</a></dt>
+<dd><p>an optional reason the object was failed. If the object is failed as
+part of a cascading failure triggered from another object, the chain
+of objects will be captured in this field.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.get_proposal">
+<span class="sig-name descname"><span class="pre">get_proposal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPNode.get_proposal"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.get_proposal" title="Link to this definition">#</a></dt>
+<dd><p>Implements the proposal function for the MCMP chain.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>state</strong> – The current state, with reference to which the proposal
+state should be constructed.</p></li>
+<li><p><strong>experiment</strong> – An instantiation of <a class="reference internal" href="../experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><strong>participant</strong> – An instantiation of <a class="reference internal" href="../participant.html#psynet.participant.Participant" title="psynet.participant.Participant"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.participant.Participant</span></code></a>,
+corresponding to the current participant.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>Object</em> – The proposal state.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.id" title="Link to this definition">#</a></dt>
+<dd><p>a unique number for every entry. 1, 2, 3 and so on…</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.network">
+<span class="sig-name descname"><span class="pre">network</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.network" title="Link to this definition">#</a></dt>
+<dd><p>the network the node is in</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.network_id">
+<span class="sig-name descname"><span class="pre">network_id</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.network_id" title="Link to this definition">#</a></dt>
+<dd><p>the id of the network that this node is a part of</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.participant">
+<span class="sig-name descname"><span class="pre">participant</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.participant" title="Link to this definition">#</a></dt>
+<dd><p>the participant the node is associated with</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.participant_id">
+<span class="sig-name descname"><span class="pre">participant_id</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.participant_id" title="Link to this definition">#</a></dt>
+<dd><p>the id of the participant whose node this is</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.property1">
+<span class="sig-name descname"><span class="pre">property1</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.property1" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.property2">
+<span class="sig-name descname"><span class="pre">property2</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.property2" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.property3">
+<span class="sig-name descname"><span class="pre">property3</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.property3" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.property4">
+<span class="sig-name descname"><span class="pre">property4</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.property4" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.property5">
+<span class="sig-name descname"><span class="pre">property5</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.property5" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.summarize_trials">
+<span class="sig-name descname"><span class="pre">summarize_trials</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trials</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPNode.summarize_trials"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.summarize_trials" title="Link to this definition">#</a></dt>
+<dd><p>This method should summarize the answers to the provided trials.
+A default method is implemented for cases when there is
+just one trial per node; in this case, the method extracts and returns
+the parameter values for the chosen stimulus, following the standard
+definition of MCMCP. The method must be extended if it is to cope
+with multiple trials per node.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>trials</strong> (<span class="sphinx_autodoc_typehints-type"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></span>) – Trials to be summarized. By default only trials that are completed
+(i.e. have received a response) and processed
+(i.e. aren’t waiting for an asynchronous process)
+are provided here.</p></li>
+<li><p><strong>experiment</strong> – An instantiation of <a class="reference internal" href="../experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><strong>participant</strong> – The participant who initiated the creation of the node.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>object</em> – The derived seed. Should be suitable for serialisation to JSON.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.time_of_death">
+<span class="sig-name descname"><span class="pre">time_of_death</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.time_of_death" title="Link to this definition">#</a></dt>
+<dd><p>the time at which failing occurred</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.type">
+<span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.type" title="Link to this definition">#</a></dt>
+<dd><p>A String giving the name of the class. Defaults to
+<code class="docutils literal notranslate"><span class="pre">node</span></code>. This allows subclassing.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPNode.vars">
+<span class="sig-name descname"><span class="pre">vars</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPNode.vars" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.trial.mcmcp.</span></span><span class="sig-name descname"><span class="pre">MCMCPTrial</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPTrial"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="chain.html#psynet.trial.chain.ChainTrial" title="psynet.trial.chain.ChainTrial"><code class="xref py py-class docutils literal notranslate"><span class="pre">ChainTrial</span></code></a></p>
+<p>A Network class for MCMCP.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.first_stimulus">
+<span class="sig-name descname"><span class="pre">first_stimulus</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.first_stimulus" title="Link to this definition">#</a></dt>
+<dd><p>Definition of the first stimulus of the trial.
+This definition corresponds to a setting
+of the chain’s free parameters.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.second_stimulus">
+<span class="sig-name descname"><span class="pre">second_stimulus</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.second_stimulus" title="Link to this definition">#</a></dt>
+<dd><p>Definition of the second stimulus of the trial,
+This definition corresponds to a setting
+of the chain’s free parameters.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.complete">
+<span class="sig-name descname"><span class="pre">complete</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.complete" title="Link to this definition">#</a></dt>
+<dd><p>whether the info is ‘complete’, i.e. has received its contents</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.creation_time">
+<span class="sig-name descname"><span class="pre">creation_time</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.creation_time" title="Link to this definition">#</a></dt>
+<dd><p>the time at which the Network was created.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.details">
+<span class="sig-name descname"><span class="pre">details</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.details" title="Link to this definition">#</a></dt>
+<dd><p>a generic column for storing structured JSON data</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.failed">
+<span class="sig-name descname"><span class="pre">failed</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.failed" title="Link to this definition">#</a></dt>
+<dd><p>boolean indicating whether the Network has failed which
+prompts Dallinger to ignore it unless specified otherwise. Objects are
+usually failed to indicate something has gone wrong.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.failed_reason">
+<span class="sig-name descname"><span class="pre">failed_reason</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.failed_reason" title="Link to this definition">#</a></dt>
+<dd><p>an optional reason the object was failed. If the object is failed as
+part of a cascading failure triggered from another object, the chain
+of objects will be captured in this field.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.id" title="Link to this definition">#</a></dt>
+<dd><p>a unique number for every entry. 1, 2, 3 and so on…</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.make_definition">
+<span class="sig-name descname"><span class="pre">make_definition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPTrial.make_definition"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.make_definition" title="Link to this definition">#</a></dt>
+<dd><p>In MCMCP, a trial’s definition is created by taking the
+current state and the proposal from the source
+<a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode" title="psynet.trial.mcmcp.MCMCPNode"><code class="xref py py-class docutils literal notranslate"><span class="pre">MCMCPNode</span></code></a>
+and adding a random ordering.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>experiment</strong> – An instantiation of <a class="reference internal" href="../experiment.html#psynet.experiment.Experiment" title="psynet.experiment.Experiment"><code class="xref py py-class docutils literal notranslate"><span class="pre">psynet.experiment.Experiment</span></code></a>,
+corresponding to the current experiment.</p></li>
+<li><p><strong>participant</strong> – Optional participant with which to associate the trial.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><ul class="simple">
+<li></li>
+<li><p><em>object</em> – The trial’s definition, equal to the node’s definition
+plus the random ordering.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.network">
+<span class="sig-name descname"><span class="pre">network</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.network" title="Link to this definition">#</a></dt>
+<dd><p>the network the info is in</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.network_id">
+<span class="sig-name descname"><span class="pre">network_id</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.network_id" title="Link to this definition">#</a></dt>
+<dd><p>the id of the network the info is in</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.origin">
+<span class="sig-name descname"><span class="pre">origin</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.origin" title="Link to this definition">#</a></dt>
+<dd><p>the Node that created the info.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.origin_id">
+<span class="sig-name descname"><span class="pre">origin_id</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.origin_id" title="Link to this definition">#</a></dt>
+<dd><p>the id of the Node that created the info</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.property1">
+<span class="sig-name descname"><span class="pre">property1</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.property1" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.property2">
+<span class="sig-name descname"><span class="pre">property2</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.property2" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.property3">
+<span class="sig-name descname"><span class="pre">property3</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.property3" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.property4">
+<span class="sig-name descname"><span class="pre">property4</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.property4" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.property5">
+<span class="sig-name descname"><span class="pre">property5</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.property5" title="Link to this definition">#</a></dt>
+<dd><p>a generic column that can be used to store experiment-specific details in
+String form.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.time_of_death">
+<span class="sig-name descname"><span class="pre">time_of_death</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.time_of_death" title="Link to this definition">#</a></dt>
+<dd><p>the time at which failing occurred</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.type">
+<span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.type" title="Link to this definition">#</a></dt>
+<dd><p>a String giving the name of the class. Defaults to “info”.
+This allows subclassing.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrial.vars">
+<span class="sig-name descname"><span class="pre">vars</span></span><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrial.vars" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrialMaker">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">psynet.trial.mcmcp.</span></span><span class="sig-name descname"><span class="pre">MCMCPTrialMaker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">id_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trial_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">network_class</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">chain_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">expected_trials_per_participant</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_trials_per_participant</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_trials_per_block</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_nodes_per_chain</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">chains_per_participant</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">chains_per_experiment</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trials_per_node</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_repeat_trials</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target_n_participants</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">balance_across_chains</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_nodes</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">check_performance_at_end</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">check_performance_every_trial</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recruit_mode</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'n_participants'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fail_trials_on_premature_exit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fail_trials_on_participant_performance_check</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">propagate_failure</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait_for_networks</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">allow_revisiting_networks_in_across_chains</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">assets</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">choose_participant_group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sync_group_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPTrialMaker"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrialMaker" title="Link to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="chain.html#psynet.trial.chain.ChainTrialMaker" title="psynet.trial.chain.ChainTrialMaker"><code class="xref py py-class docutils literal notranslate"><span class="pre">ChainTrialMaker</span></code></a></p>
+<p>A TrialMaker class for MCMCP chains;
+see the documentation for
+<a class="reference internal" href="chain.html#psynet.trial.chain.ChainTrialMaker" title="psynet.trial.chain.ChainTrialMaker"><code class="xref py py-class docutils literal notranslate"><span class="pre">ChainTrialMaker</span></code></a>
+for usage instructions.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="psynet.trial.mcmcp.MCMCPTrialMaker.finalize_trial">
+<span class="sig-name descname"><span class="pre">finalize_trial</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">answer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trial</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">experiment</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">participant</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/psynet/trial/mcmcp.html#MCMCPTrialMaker.finalize_trial"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#psynet.trial.mcmcp.MCMCPTrialMaker.finalize_trial" title="Link to this definition">#</a></dt>
+<dd><p>Modifies <code class="docutils literal notranslate"><span class="pre">answer</span></code> so as to store three values:</p>
+<ul class="simple">
+<li><p>The position of the chosen stimulus;</p></li>
+<li><p>The role of the chosen stimulus (<code class="docutils literal notranslate"><span class="pre">&quot;current_state&quot;</span></code> or <code class="docutils literal notranslate"><span class="pre">&quot;proposal&quot;</span></code>);</p></li>
+<li><p>The value of the parameters underlying the chosen stimulus.</p></li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="record.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Record</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="media_gibbs.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">MediaGibbs</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">MCMCP</a><ul>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.creation_time"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.creation_time</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.details"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.details</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.failed"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.failed</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.failed_reason"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.failed_reason</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.full"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.full</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.id"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.make_definition"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.make_definition()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.max_size"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.max_size</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.property1"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.property1</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.property2"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.property2</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.property3"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.property3</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.property4"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.property4</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.property5"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.property5</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.role"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.role</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.time_of_death"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.time_of_death</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.type"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.type</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNetwork.vars"><code class="docutils literal notranslate"><span class="pre">MCMCPNetwork.vars</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode"><code class="docutils literal notranslate"><span class="pre">MCMCPNode</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.create_definition_from_seed"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.create_definition_from_seed()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.creation_time"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.creation_time</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.details"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.details</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.failed"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.failed</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.failed_reason"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.failed_reason</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.get_proposal"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.get_proposal()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.id"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.network"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.network</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.network_id"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.network_id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.participant"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.participant</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.participant_id"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.participant_id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.property1"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.property1</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.property2"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.property2</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.property3"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.property3</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.property4"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.property4</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.property5"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.property5</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.summarize_trials"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.summarize_trials()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.time_of_death"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.time_of_death</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.type"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.type</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPNode.vars"><code class="docutils literal notranslate"><span class="pre">MCMCPNode.vars</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.first_stimulus"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.first_stimulus</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.second_stimulus"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.second_stimulus</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.complete"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.complete</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.creation_time"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.creation_time</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.details"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.details</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.failed"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.failed</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.failed_reason"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.failed_reason</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.id"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.make_definition"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.make_definition()</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.network"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.network</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.network_id"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.network_id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.origin"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.origin</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.origin_id"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.origin_id</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.property1"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.property1</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.property2"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.property2</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.property3"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.property3</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.property4"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.property4</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.property5"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.property5</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.time_of_death"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.time_of_death</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.type"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.type</span></code></a></li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrial.vars"><code class="docutils literal notranslate"><span class="pre">MCMCPTrial.vars</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrialMaker"><code class="docutils literal notranslate"><span class="pre">MCMCPTrialMaker</span></code></a><ul>
+<li><a class="reference internal" href="#psynet.trial.mcmcp.MCMCPTrialMaker.finalize_trial"><code class="docutils literal notranslate"><span class="pre">MCMCPTrialMaker.finalize_trial()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

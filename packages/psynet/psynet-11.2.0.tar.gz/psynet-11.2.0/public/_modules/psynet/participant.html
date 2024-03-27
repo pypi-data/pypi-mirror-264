@@ -1,0 +1,1142 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>psynet.participant - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiment_development/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../api/index.html">API Documentation</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../api/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../api/trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../api/trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../deploy/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <h1>Source code for psynet.participant</h1><div class="highlight"><pre>
+<span></span><span class="c1"># pylint: disable=attribute-defined-outside-init</span>
+
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">smtplib</span> <span class="kn">import</span> <span class="n">SMTPAuthenticationError</span>
+
+<span class="kn">import</span> <span class="nn">dallinger.models</span>
+<span class="kn">from</span> <span class="nn">dallinger</span> <span class="kn">import</span> <span class="n">db</span>
+<span class="kn">from</span> <span class="nn">dallinger.config</span> <span class="kn">import</span> <span class="n">get_config</span>
+<span class="kn">from</span> <span class="nn">dallinger.notifications</span> <span class="kn">import</span> <span class="n">admin_notifier</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">Boolean</span><span class="p">,</span>
+    <span class="n">Column</span><span class="p">,</span>
+    <span class="n">Float</span><span class="p">,</span>
+    <span class="n">ForeignKey</span><span class="p">,</span>
+    <span class="n">Integer</span><span class="p">,</span>
+    <span class="n">String</span><span class="p">,</span>
+    <span class="n">UniqueConstraint</span><span class="p">,</span>
+    <span class="n">desc</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy.ext.associationproxy</span> <span class="kn">import</span> <span class="n">association_proxy</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy.orm</span> <span class="kn">import</span> <span class="n">relationship</span>
+<span class="kn">from</span> <span class="nn">sqlalchemy.orm.collections</span> <span class="kn">import</span> <span class="n">attribute_mapped_collection</span>
+
+<span class="kn">from</span> <span class="nn">.asset</span> <span class="kn">import</span> <span class="n">AssetParticipant</span>
+<span class="kn">from</span> <span class="nn">.data</span> <span class="kn">import</span> <span class="n">SQLMixinDallinger</span>
+<span class="kn">from</span> <span class="nn">.field</span> <span class="kn">import</span> <span class="n">PythonList</span><span class="p">,</span> <span class="n">PythonObject</span><span class="p">,</span> <span class="n">VarStore</span><span class="p">,</span> <span class="n">extra_var</span>
+<span class="kn">from</span> <span class="nn">.utils</span> <span class="kn">import</span> <span class="n">get_logger</span><span class="p">,</span> <span class="n">organize_by_key</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">get_logger</span><span class="p">()</span>
+
+<span class="c1"># pylint: disable=unused-import</span>
+
+<span class="n">UniqueConstraint</span><span class="p">(</span><span class="n">dallinger</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Participant</span><span class="o">.</span><span class="n">worker_id</span><span class="p">)</span>
+<span class="n">UniqueConstraint</span><span class="p">(</span><span class="n">dallinger</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Participant</span><span class="o">.</span><span class="n">unique_id</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="Participant">
+<a class="viewcode-back" href="../../api/participant.html#psynet.participant.Participant">[docs]</a>
+<span class="k">class</span> <span class="nc">Participant</span><span class="p">(</span><span class="n">SQLMixinDallinger</span><span class="p">,</span> <span class="n">dallinger</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Participant</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Represents an individual participant taking the experiment.</span>
+<span class="sd">    The object is linked to the database - when you make changes to the</span>
+<span class="sd">    object, it should be mirrored in the database.</span>
+
+<span class="sd">    Users should not have to instantiate these objects directly.</span>
+
+<span class="sd">    The class extends the ``Participant`` class from base Dallinger</span>
+<span class="sd">    (:class:`dallinger.models.Participant`) to add some useful features,</span>
+<span class="sd">    in particular the ability to store arbitrary variables.</span>
+
+<span class="sd">    The following attributes are recommended for external use:</span>
+
+<span class="sd">    * :attr:`~psynet.participant.Participant.answer`</span>
+<span class="sd">    * :attr:`~psynet.participant.Participant.var`</span>
+<span class="sd">    * :attr:`~psynet.participant.Participant.failure_tags`</span>
+
+<span class="sd">    The following method is recommended for external use:</span>
+
+<span class="sd">    * :meth:`~psynet.participant.Participant.append_failure_tags`</span>
+
+<span class="sd">    See below for more details.</span>
+
+<span class="sd">    Attributes</span>
+<span class="sd">    ----------</span>
+
+<span class="sd">    id : int</span>
+<span class="sd">        The participant&#39;s unique ID.</span>
+
+<span class="sd">    elt_id : list</span>
+<span class="sd">        Represents the participant&#39;s position in the timeline.</span>
+<span class="sd">        Should not be modified directly.</span>
+<span class="sd">        The position is represented as a list, where the first element corresponds</span>
+<span class="sd">        to the index of the participant within the timeline&#39;s underlying</span>
+<span class="sd">        list representation, and successive elements (if any) represent</span>
+<span class="sd">        the participant&#39;s position within (potentially nested) page makers.</span>
+<span class="sd">        For example, ``[10, 3, 2]`` would mean go to</span>
+<span class="sd">        element 10 in the timeline (0-indexing),</span>
+<span class="sd">        which must be a page maker;</span>
+<span class="sd">        go to element 3 within that page maker, which must also be a page maker;</span>
+<span class="sd">        go to element 2 within that page maker.</span>
+
+<span class="sd">    elt_bounds : list</span>
+<span class="sd">        Represents the number of elements at each level of the current</span>
+<span class="sd">        ``elt_id`` hierarchy; used to work out when to leave a page maker</span>
+<span class="sd">        and go up to the next level.</span>
+<span class="sd">        Should not be modified directly.</span>
+
+<span class="sd">    page_uuid : str</span>
+<span class="sd">        A long unique string that is randomly generated when the participant advances</span>
+<span class="sd">        to a new page, used as a passphrase to guarantee the security of</span>
+<span class="sd">        data transmission from front-end to back-end.</span>
+<span class="sd">        Should not be modified directly.</span>
+
+<span class="sd">    complete : bool</span>
+<span class="sd">        Whether the participant has successfully completed the experiment.</span>
+<span class="sd">        A participant is considered to have successfully completed the experiment</span>
+<span class="sd">        once they hit a :class:`~psynet.timeline.SuccessfulEndPage`.</span>
+<span class="sd">        Should not be modified directly.</span>
+
+<span class="sd">    aborted : bool</span>
+<span class="sd">        Whether the participant has aborted the experiment.</span>
+<span class="sd">        A participant is considered to have aborted the experiment</span>
+<span class="sd">        once they have hit the &quot;Abort experiment&quot; button on the &quot;Abort experiment&quot; confirmation page.</span>
+
+<span class="sd">    answer : object</span>
+<span class="sd">        The most recent answer submitted by the participant.</span>
+<span class="sd">        Can take any form that can be automatically serialized to JSON.</span>
+<span class="sd">        Should not be modified directly.</span>
+
+<span class="sd">    response : Response</span>
+<span class="sd">        An object of class :class:`~psynet.timeline.Response`</span>
+<span class="sd">        providing detailed information about the last response submitted</span>
+<span class="sd">        by the participant. This is a more detailed version of ``answer``.</span>
+
+<span class="sd">    branch_log : list</span>
+<span class="sd">        Stores the conditional branches that the participant has taken</span>
+<span class="sd">        through the experiment.</span>
+<span class="sd">        Should not be modified directly.</span>
+
+<span class="sd">    failure_tags : list</span>
+<span class="sd">        Stores tags that identify the reason that the participant has failed</span>
+<span class="sd">        the experiment (if any). For example, if a participant fails</span>
+<span class="sd">        a microphone pre-screening test, one might add &quot;failed_mic_test&quot;</span>
+<span class="sd">        to this tag list.</span>
+<span class="sd">        Should be modified using the method :meth:`~psynet.participant.Participant.append_failure_tags`.</span>
+
+<span class="sd">    var : :class:`~psynet.field.VarStore`</span>
+<span class="sd">        A repository for arbitrary variables; see :class:`~psynet.field.VarStore` for details.</span>
+
+<span class="sd">    progress : float [0 &lt;= x &lt;= 1]</span>
+<span class="sd">        The participant&#39;s estimated progress through the experiment.</span>
+
+<span class="sd">    client_ip_address : str</span>
+<span class="sd">        The participant&#39;s IP address as reported by Flask.</span>
+
+<span class="sd">    answer_is_fresh : bool</span>
+<span class="sd">        ``True`` if the current value of ``participant.answer`` (and similarly ``participant.last_response_id`` and</span>
+<span class="sd">        ``participant.last_response``) comes from the last page that the participant saw, ``False`` otherwise.</span>
+
+<span class="sd">    browser_platform : str</span>
+<span class="sd">        Information about the participant&#39;s browser version and OS platform.</span>
+
+<span class="sd">    all_trials : list</span>
+<span class="sd">        A list of all trials for that participant.</span>
+
+<span class="sd">    alive_trials : list</span>
+<span class="sd">        A list of all non-failed trials for that participant.</span>
+
+<span class="sd">    failed_trials : list</span>
+<span class="sd">        A list of all failed trials for that participant.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># We set the polymorphic_identity manually to differentiate the class</span>
+    <span class="c1"># from the Dallinger Participant class.</span>
+    <span class="n">__extra_vars__</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="n">elt_id</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">PythonList</span><span class="p">)</span>
+    <span class="n">elt_id_max</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">PythonList</span><span class="p">)</span>
+    <span class="n">page_uuid</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">String</span><span class="p">)</span>
+    <span class="n">aborted</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Boolean</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">complete</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Boolean</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">answer</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">PythonObject</span><span class="p">)</span>
+    <span class="n">answer_accumulators</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">PythonList</span><span class="p">)</span>
+    <span class="n">branch_log</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">PythonObject</span><span class="p">)</span>
+    <span class="n">for_loops</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">PythonObject</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="k">lambda</span><span class="p">:</span> <span class="p">{})</span>
+    <span class="n">failure_tags</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">PythonList</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="k">lambda</span><span class="p">:</span> <span class="p">[])</span>
+
+    <span class="n">base_payment</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Float</span><span class="p">)</span>
+    <span class="n">performance_reward</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Float</span><span class="p">)</span>
+    <span class="n">unpaid_bonus</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Float</span><span class="p">)</span>
+    <span class="n">total_wait_page_time</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Float</span><span class="p">)</span>
+    <span class="n">client_ip_address</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">String</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="k">lambda</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">answer_is_fresh</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Boolean</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">browser_platform</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">String</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">module_state_id</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Integer</span><span class="p">,</span> <span class="n">ForeignKey</span><span class="p">(</span><span class="s2">&quot;module_state.id&quot;</span><span class="p">))</span>
+    <span class="n">module_state</span> <span class="o">=</span> <span class="n">relationship</span><span class="p">(</span>
+        <span class="s2">&quot;ModuleState&quot;</span><span class="p">,</span> <span class="n">foreign_keys</span><span class="o">=</span><span class="p">[</span><span class="n">module_state_id</span><span class="p">],</span> <span class="n">post_update</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">lazy</span><span class="o">=</span><span class="s2">&quot;selectin&quot;</span>
+    <span class="p">)</span>
+    <span class="n">current_trial_id</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">Integer</span><span class="p">,</span> <span class="n">ForeignKey</span><span class="p">(</span><span class="s2">&quot;info.id&quot;</span><span class="p">))</span>
+    <span class="n">current_trial</span> <span class="o">=</span> <span class="n">relationship</span><span class="p">(</span>
+        <span class="s2">&quot;psynet.trial.main.Trial&quot;</span><span class="p">,</span> <span class="n">foreign_keys</span><span class="o">=</span><span class="p">[</span><span class="n">current_trial_id</span><span class="p">],</span> <span class="n">lazy</span><span class="o">=</span><span class="s2">&quot;joined&quot;</span>
+    <span class="p">)</span>
+    <span class="n">trial_status</span> <span class="o">=</span> <span class="n">Column</span><span class="p">(</span><span class="n">String</span><span class="p">)</span>
+
+    <span class="n">all_responses</span> <span class="o">=</span> <span class="n">relationship</span><span class="p">(</span><span class="s2">&quot;psynet.timeline.Response&quot;</span><span class="p">)</span>
+
+    <span class="c1"># @property</span>
+    <span class="c1"># def current_trial(self):</span>
+    <span class="c1">#     if self.in_module and hasattr(self.module_state, &quot;current_trial&quot;):</span>
+    <span class="c1">#         return self.module_state.current_trial</span>
+    <span class="c1">#</span>
+    <span class="c1"># @current_trial.setter</span>
+    <span class="c1"># def current_trial(self, value):</span>
+    <span class="c1">#     self.module_state.current_trial = value</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">last_response</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">response</span>
+
+    <span class="c1"># all_trials = relationship(&quot;psynet.trial.main.Trial&quot;)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">alive_trials</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">all_trials</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">t</span><span class="o">.</span><span class="n">failed</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">failed_trials</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">all_trials</span> <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">failed</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">trials</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+            <span class="s2">&quot;The .trials attribute has been removed, please use .all_trials, .alive_trials, or .failed_trials instead.&quot;</span>
+        <span class="p">)</span>
+
+    <span class="c1"># This would be better, but we end up with a circular import problem</span>
+    <span class="c1"># if we try and read csv files using this foreign key...</span>
+    <span class="c1">#</span>
+    <span class="c1"># last_response = relationship(</span>
+    <span class="c1">#     &quot;psynet.timeline.Response&quot;, foreign_keys=[last_response_id]</span>
+    <span class="c1"># )</span>
+
+    <span class="c1"># current_trial_id = Column(</span>
+    <span class="c1">#     Integer, ForeignKey(&quot;info.id&quot;)</span>
+    <span class="c1"># )  # &#39;info.id&#39; because trials are stored in the info table</span>
+
+    <span class="c1"># This should work but it&#39;s buggy, don&#39;t know why.</span>
+    <span class="c1"># current_trial = relationship(</span>
+    <span class="c1">#     &quot;psynet.trial.main.Trial&quot;,</span>
+    <span class="c1">#     foreign_keys=&quot;[psynet.participant.Participant.current_trial_id]&quot;,</span>
+    <span class="c1"># )</span>
+    <span class="c1">#</span>
+    <span class="c1"># Instead we resort to the below...</span>
+
+    <span class="c1"># @property</span>
+    <span class="c1"># def current_trial(self):</span>
+    <span class="c1">#     from dallinger.models import Info</span>
+    <span class="c1">#</span>
+    <span class="c1">#     # from .trial.main import Trial</span>
+    <span class="c1">#</span>
+    <span class="c1">#     if self.current_trial_id is None:</span>
+    <span class="c1">#         return None</span>
+    <span class="c1">#     else:</span>
+    <span class="c1">#         # We should just be able to use Trial for the query, but using Info seems</span>
+    <span class="c1">#         # to avoid an annoying SQLAlchemy bug that comes when we run multiple demos</span>
+    <span class="c1">#         # in one session. When this happens, what we see is that Trial.query.all()</span>
+    <span class="c1">#         # sees all trials appropriately, but Trial.query.filter_by(id=1).all() fails.</span>
+    <span class="c1">#         #</span>
+    <span class="c1">#         # return Trial.query.filter_by(id=self.current_trial_id).one()</span>
+    <span class="c1">#         return Info.query.filter_by(id=self.current_trial_id).one()</span>
+    <span class="c1">#</span>
+    <span class="c1"># @current_trial.setter</span>
+    <span class="c1"># def current_trial(self, trial):</span>
+    <span class="c1">#     from psynet.trial.main import Trial</span>
+    <span class="c1">#     self.current_trial_id = trial.id if isinstance(trial, Trial) else None</span>
+
+    <span class="n">asset_links</span> <span class="o">=</span> <span class="n">relationship</span><span class="p">(</span>
+        <span class="s2">&quot;AssetParticipant&quot;</span><span class="p">,</span>
+        <span class="n">collection_class</span><span class="o">=</span><span class="n">attribute_mapped_collection</span><span class="p">(</span><span class="s2">&quot;local_key&quot;</span><span class="p">),</span>
+        <span class="n">cascade</span><span class="o">=</span><span class="s2">&quot;all, delete-orphan&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">assets</span> <span class="o">=</span> <span class="n">association_proxy</span><span class="p">(</span>
+        <span class="s2">&quot;asset_links&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;asset&quot;</span><span class="p">,</span>
+        <span class="n">creator</span><span class="o">=</span><span class="k">lambda</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">:</span> <span class="n">AssetParticipant</span><span class="p">(</span><span class="n">local_key</span><span class="o">=</span><span class="n">k</span><span class="p">,</span> <span class="n">asset</span><span class="o">=</span><span class="n">v</span><span class="p">),</span>
+    <span class="p">)</span>
+
+    <span class="c1"># sync_group_links and sync_groups are defined in sync.py</span>
+    <span class="c1"># because of import-order necessities</span>
+
+    <span class="c1"># sync_groups is a relationship that gives a list of all SyncGroups for that participnat</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">active_sync_groups</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span><span class="n">group</span><span class="o">.</span><span class="n">group_type</span><span class="p">:</span> <span class="n">group</span> <span class="k">for</span> <span class="n">group</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">sync_groups</span> <span class="k">if</span> <span class="n">group</span><span class="o">.</span><span class="n">active</span><span class="p">}</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">sync_group</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">candidates</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">active_sync_groups</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">candidates</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">candidates</span><span class="o">.</span><span class="n">values</span><span class="p">())[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">candidates</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">candidates</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Participant </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2"> is in more than one SyncGroup: &quot;</span>
+                <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">active_sync_groups</span><span class="p">)</span><span class="si">}</span><span class="s2">. &quot;</span>
+                <span class="s2">&quot;Use participant.active_sync_groups[group_type] to access the SyncGroup you need.&quot;</span>
+            <span class="p">)</span>
+
+    <span class="n">active_barriers</span> <span class="o">=</span> <span class="n">relationship</span><span class="p">(</span>
+        <span class="s2">&quot;ParticipantLinkBarrier&quot;</span><span class="p">,</span>
+        <span class="n">collection_class</span><span class="o">=</span><span class="n">attribute_mapped_collection</span><span class="p">(</span><span class="s2">&quot;barrier_id&quot;</span><span class="p">),</span>
+        <span class="n">cascade</span><span class="o">=</span><span class="s2">&quot;all, delete-orphan&quot;</span><span class="p">,</span>
+        <span class="n">primaryjoin</span><span class="o">=</span><span class="p">(</span>
+            <span class="s2">&quot;and_(psynet.participant.Participant.id==remote(ParticipantLinkBarrier.participant_id), &quot;</span>
+            <span class="s2">&quot;ParticipantLinkBarrier.released==False)&quot;</span>
+        <span class="p">),</span>
+        <span class="n">lazy</span><span class="o">=</span><span class="s2">&quot;selectin&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">errors</span> <span class="o">=</span> <span class="n">relationship</span><span class="p">(</span><span class="s2">&quot;ErrorRecord&quot;</span><span class="p">)</span>
+    <span class="c1"># _module_states = relationship(&quot;ModuleState&quot;, foreign_keys=[dallinger.models.Participant.id], lazy=&quot;selectin&quot;)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">module_states</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">organize_by_key</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_module_states</span><span class="p">,</span>
+            <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">module_id</span><span class="p">,</span>
+            <span class="n">sort_key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">time_started</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">select_module</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">module_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="n">candidates</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">state</span>
+            <span class="k">for</span> <span class="n">state</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_module_states</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">state</span><span class="o">.</span><span class="n">finished</span> <span class="ow">and</span> <span class="n">state</span><span class="o">.</span><span class="n">module_id</span> <span class="o">==</span> <span class="n">module_id</span>
+        <span class="p">]</span>
+        <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">candidates</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span> <span class="o">=</span> <span class="n">candidates</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">var</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">globals</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">globals</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">VarStore</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">locals</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span><span class="o">.</span><span class="n">var</span>
+
+<div class="viewcode-block" id="Participant.to_dict">
+<a class="viewcode-back" href="../../api/participant.html#psynet.participant.Participant.to_dict">[docs]</a>
+    <span class="k">def</span> <span class="nf">to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">SQLMixinDallinger</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="n">x</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">locals_to_dict</span><span class="p">())</span>
+        <span class="k">return</span> <span class="n">x</span></div>
+
+
+    <span class="k">def</span> <span class="nf">locals_to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">output</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">module_id</span><span class="p">,</span> <span class="n">module_states</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_states</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">module_states</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">time_started</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">module_state</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">module_states</span><span class="p">):</span>
+                <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="n">prefix</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">module_id</span><span class="si">}</span><span class="s2">__&quot;</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">prefix</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">module_id</span><span class="si">}</span><span class="s2">__</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">__&quot;</span>
+                <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">module_state</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                    <span class="n">output</span><span class="p">[</span><span class="n">prefix</span> <span class="o">+</span> <span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">return</span> <span class="n">output</span>
+
+    <span class="nd">@property</span>
+    <span class="nd">@extra_var</span><span class="p">(</span><span class="n">__extra_vars__</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">aborted_modules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span>
+            <span class="n">log</span><span class="o">.</span><span class="n">module_id</span>
+            <span class="k">for</span> <span class="n">log</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_module_states</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">time_started</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">log</span><span class="o">.</span><span class="n">aborted</span>
+        <span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="nd">@extra_var</span><span class="p">(</span><span class="n">__extra_vars__</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">started_modules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span>
+            <span class="n">log</span><span class="o">.</span><span class="n">module_id</span>
+            <span class="k">for</span> <span class="n">log</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_module_states</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">time_started</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">log</span><span class="o">.</span><span class="n">started</span>
+        <span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="nd">@extra_var</span><span class="p">(</span><span class="n">__extra_vars__</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">finished_modules</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span>
+            <span class="n">log</span><span class="o">.</span><span class="n">module_id</span>
+            <span class="k">for</span> <span class="n">log</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_module_states</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">time_started</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">log</span><span class="o">.</span><span class="n">finished</span>
+        <span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">start_module</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">module</span><span class="p">):</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="n">module</span><span class="o">.</span><span class="n">state_class</span><span class="p">(</span><span class="n">module</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+        <span class="n">state</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span> <span class="o">=</span> <span class="n">state</span>
+
+    <span class="k">def</span> <span class="nf">end_module</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">module</span><span class="p">):</span>
+        <span class="c1"># This should only fail (delivering multiple logs) if the experimenter has perversely</span>
+        <span class="c1"># defined a recursive module (or is reusing module ID)</span>
+        <span class="n">state</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">_state</span> <span class="k">for</span> <span class="n">_state</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_states</span><span class="p">[</span><span class="n">module</span><span class="o">.</span><span class="n">id</span><span class="p">]</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">_state</span><span class="o">.</span><span class="n">finished</span>
+        <span class="p">]</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">state</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Participant had no unfinished module states with id = &#39;</span><span class="si">{</span><span class="n">module</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">&#39;.&quot;</span>
+            <span class="p">)</span>
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">state</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Participant had multiple unfinished module states with id = &#39;</span><span class="si">{</span><span class="n">module</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">&#39;.&quot;</span>
+            <span class="p">)</span>
+
+        <span class="n">state</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">state</span><span class="o">.</span><span class="n">finish</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">refresh_module_state</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">refresh_module_state</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_module_states</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">unfinished</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_module_states</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">x</span><span class="o">.</span><span class="n">finished</span><span class="p">]</span>
+            <span class="n">unfinished</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">time_started</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">unfinished</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span> <span class="o">=</span> <span class="n">unfinished</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">in_module</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+
+    <span class="nd">@property</span>
+    <span class="nd">@extra_var</span><span class="p">(</span><span class="n">__extra_vars__</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">module_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_state</span><span class="o">.</span><span class="n">module_id</span>
+
+    <span class="k">def</span> <span class="nf">set_answer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">answer</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">return</span> <span class="bp">self</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">experiment</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">vars</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">elt_id</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">elt_id_max</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">experiment</span><span class="o">.</span><span class="n">timeline</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">answer_accumulators</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">complete</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_credit</span><span class="o">.</span><span class="n">initialize</span><span class="p">(</span><span class="n">experiment</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">performance_reward</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">unpaid_bonus</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">base_payment</span> <span class="o">=</span> <span class="n">experiment</span><span class="o">.</span><span class="n">base_payment</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">client_ip_address</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">branch_log</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">total_wait_page_time</span> <span class="o">=</span> <span class="mf">0.0</span>
+
+        <span class="n">db</span><span class="o">.</span><span class="n">session</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">initialize</span><span class="p">(</span>
+            <span class="n">experiment</span>
+        <span class="p">)</span>  <span class="c1"># Hook for custom subclasses to provide further initialization</span>
+
+    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">experiment</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<div class="viewcode-block" id="Participant.calculate_reward">
+<a class="viewcode-back" href="../../api/participant.html#psynet.participant.Participant.calculate_reward">[docs]</a>
+    <span class="k">def</span> <span class="nf">calculate_reward</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Calculates and returns the currently accumulated reward for the given participant.</span>
+
+<span class="sd">        :returns:</span>
+<span class="sd">            The reward as a ``float``.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">round</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">time_credit</span><span class="o">.</span><span class="n">get_time_reward</span><span class="p">()</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">performance_reward</span><span class="p">,</span>
+            <span class="n">ndigits</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+        <span class="p">)</span></div>
+
+
+    <span class="k">def</span> <span class="nf">inc_performance_reward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">performance_reward</span> <span class="o">+=</span> <span class="n">value</span>
+
+    <span class="k">def</span> <span class="nf">amount_paid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">(</span><span class="mf">0.0</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">base_payment</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">base_payment</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span>
+            <span class="mf">0.0</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">bonus</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">bonus</span>
+        <span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">send_email_max_payment_reached</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">experiment_class</span><span class="p">,</span> <span class="n">requested_reward</span><span class="p">,</span> <span class="n">reduced_reward</span>
+    <span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">get_config</span><span class="p">()</span>
+        <span class="n">template</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Dear experimenter,</span>
+
+<span class="s2">            This is an automated email from PsyNet. You are receiving this email because</span>
+<span class="s2">            the total amount paid to the participant with assignment_id &#39;</span><span class="si">{assignment_id}</span><span class="s2">&#39;</span>
+<span class="s2">            has reached the maximum of </span><span class="si">{max_participant_payment}</span><span class="s2">$. The reward paid was </span><span class="si">{reduced_reward}</span><span class="s2">$</span>
+<span class="s2">            instead of a requested reward of </span><span class="si">{requested_reward}</span><span class="s2">$.</span>
+
+<span class="s2">            The application id is: </span><span class="si">{app_id}</span>
+
+<span class="s2">            To see the logs, use the command &quot;dallinger logs --app </span><span class="si">{app_id}</span><span class="s2">&quot;</span>
+<span class="s2">            To pause the app, use the command &quot;dallinger hibernate --app </span><span class="si">{app_id}</span><span class="s2">&quot;</span>
+<span class="s2">            To destroy the app, use the command &quot;dallinger destroy --app </span><span class="si">{app_id}</span><span class="s2">&quot;</span>
+
+<span class="s2">            The PsyNet developers.</span>
+<span class="s2">            &quot;&quot;&quot;</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;subject&quot;</span><span class="p">:</span> <span class="s2">&quot;Maximum experiment payment reached.&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;body&quot;</span><span class="p">:</span> <span class="n">template</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                <span class="n">assignment_id</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">assignment_id</span><span class="p">,</span>
+                <span class="n">max_participant_payment</span><span class="o">=</span><span class="n">experiment_class</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">max_participant_payment</span><span class="p">,</span>
+                <span class="n">requested_reward</span><span class="o">=</span><span class="n">requested_reward</span><span class="p">,</span>
+                <span class="n">reduced_reward</span><span class="o">=</span><span class="n">reduced_reward</span><span class="p">,</span>
+                <span class="n">app_id</span><span class="o">=</span><span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">),</span>
+            <span class="p">),</span>
+        <span class="p">}</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;Recruitment ended. Maximum amount paid to participant &quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;with assignment_id &#39;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">assignment_id</span><span class="si">}</span><span class="s2">&#39; reached!&quot;</span>
+        <span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">admin_notifier</span><span class="p">(</span><span class="n">config</span><span class="p">)</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="o">**</span><span class="n">message</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">SMTPAuthenticationError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;SMTPAuthenticationError sending &#39;max_participant_payment&#39; reached email: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Unknown error sending &#39;max_participant_payment&#39; reached email: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">response</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="kn">from</span> <span class="nn">.timeline</span> <span class="kn">import</span> <span class="n">Response</span>
+
+        <span class="k">return</span> <span class="p">(</span>
+            <span class="n">Response</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">filter_by</span><span class="p">(</span><span class="n">participant_id</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+            <span class="o">.</span><span class="n">order_by</span><span class="p">(</span><span class="n">desc</span><span class="p">(</span><span class="n">Response</span><span class="o">.</span><span class="n">id</span><span class="p">))</span>
+            <span class="o">.</span><span class="n">first</span><span class="p">()</span>
+        <span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="nd">@extra_var</span><span class="p">(</span><span class="n">__extra_vars__</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">progress</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="mf">1.0</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">complete</span> <span class="k">else</span> <span class="bp">self</span><span class="o">.</span><span class="n">time_credit</span><span class="o">.</span><span class="n">progress</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">time_credit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">TimeCreditStore</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">append_branch_log</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">entry</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="c1"># We need to create a new list otherwise the change may not be recognized</span>
+        <span class="c1"># by SQLAlchemy(?)</span>
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">entry</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+            <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span>
+            <span class="ow">or</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">entry</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="nb">str</span><span class="p">)</span>
+        <span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Log entry must be a list of length 2 where the first element is a string (received </span><span class="si">{</span><span class="n">entry</span><span class="si">}</span><span class="s2">).&quot;</span>
+            <span class="p">)</span>
+        <span class="k">if</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">entry</span><span class="p">))</span> <span class="o">!=</span> <span class="n">entry</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;The provided log entry cannot be accurately serialised to JSON (received </span><span class="si">{</span><span class="n">entry</span><span class="si">}</span><span class="s2">). &quot;</span>
+                <span class="o">+</span> <span class="s2">&quot;Please simplify the log entry (this is typically determined by the output type of the user-provided function &quot;</span>
+                <span class="o">+</span> <span class="s2">&quot;in switch() or conditional()).&quot;</span>
+            <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">branch_log</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">branch_log</span> <span class="o">+</span> <span class="p">[</span><span class="n">entry</span><span class="p">]</span>
+
+<div class="viewcode-block" id="Participant.append_failure_tags">
+<a class="viewcode-back" href="../../api/participant.html#psynet.participant.Participant.append_failure_tags">[docs]</a>
+    <span class="k">def</span> <span class="nf">append_failure_tags</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">tags</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Appends tags to the participant&#39;s list of failure tags.</span>
+<span class="sd">        Duplicate tags are ignored.</span>
+<span class="sd">        See :attr:`~psynet.participant.Participant.failure_tags` for details.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+
+<span class="sd">        *tags</span>
+<span class="sd">            Tags to append.</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+
+<span class="sd">        :class:`psynet.participant.Participant`</span>
+<span class="sd">            The updated ``Participant`` object.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">original</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">failure_tags</span>
+        <span class="n">new</span> <span class="o">=</span> <span class="p">[</span><span class="o">*</span><span class="n">tags</span><span class="p">]</span>
+        <span class="n">combined</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">original</span> <span class="o">+</span> <span class="n">new</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">failure_tags</span> <span class="o">=</span> <span class="n">combined</span>
+        <span class="k">return</span> <span class="bp">self</span></div>
+
+
+    <span class="k">def</span> <span class="nf">get_locale</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">experiment</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="s2">&quot;locale&quot;</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">locale</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">locale</span> <span class="o">=</span> <span class="n">experiment</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">current_locale</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&quot;locale&quot;</span><span class="p">,</span> <span class="n">locale</span><span class="p">)</span>
+            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;Participant </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2"> locale was not set, setting to default locale of the experiment: </span><span class="si">{</span><span class="n">locale</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+            <span class="k">return</span> <span class="n">locale</span>
+
+<div class="viewcode-block" id="Participant.abort_info">
+<a class="viewcode-back" href="../../api/participant.html#psynet.participant.Participant.abort_info">[docs]</a>
+    <span class="k">def</span> <span class="nf">abort_info</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">            Information that will be shown to a participant if they click the abort button,</span>
+<span class="sd">            e.g. in the case of an error where the participant is unable to finish the experiment.</span>
+
+<span class="sd">        :returns: ``dict`` which may be rendered to the worker as an HTML table</span>
+<span class="sd">            when they abort the experiment.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s2">&quot;assignment_id&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">assignment_id</span><span class="p">,</span>
+            <span class="s2">&quot;hit_id&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">hit_id</span><span class="p">,</span>
+            <span class="s2">&quot;accumulated_reward&quot;</span><span class="p">:</span> <span class="s2">&quot;$&quot;</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="si">{:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">calculate_reward</span><span class="p">()),</span>
+        <span class="p">}</span></div>
+</div>
+
+
+
+<div class="viewcode-block" id="get_participant">
+<a class="viewcode-back" href="../../api/participant.html#psynet.participant.get_participant">[docs]</a>
+<span class="k">def</span> <span class="nf">get_participant</span><span class="p">(</span><span class="n">participant_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">for_update</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Participant</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns the participant with a given ID.</span>
+<span class="sd">    Warning: we recommend just using SQLAlchemy directly instead of using this function.</span>
+<span class="sd">    When doing so, use ``with_for_update().populate_existing()`` if you plan to update</span>
+<span class="sd">    this Participant object, that way the database row will be locked appropriately.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+
+<span class="sd">    participant_id</span>
+<span class="sd">        ID of the participant to get.</span>
+
+<span class="sd">    for_update</span>
+<span class="sd">        Set to ``True`` if you plan to update this Participant object.</span>
+<span class="sd">        The Participant object will be locked for update in the database</span>
+<span class="sd">        and only released at the end of the transaction.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+
+<span class="sd">    :class:`psynet.participant.Participant`</span>
+<span class="sd">        The requested participant.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">query</span> <span class="o">=</span> <span class="n">Participant</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">filter_by</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="n">participant_id</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">for_update</span><span class="p">:</span>
+        <span class="n">query</span> <span class="o">=</span> <span class="n">query</span><span class="o">.</span><span class="n">with_for_update</span><span class="p">(</span><span class="n">of</span><span class="o">=</span><span class="n">Participant</span><span class="p">)</span><span class="o">.</span><span class="n">populate_existing</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">query</span><span class="o">.</span><span class="n">one</span><span class="p">()</span></div>
+
+
+
+<span class="k">class</span> <span class="nc">TimeCreditStore</span><span class="p">:</span>
+    <span class="n">fields</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s2">&quot;confirmed_credit&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;is_fixed&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;pending_credit&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;max_pending_credit&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;wage_per_hour&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;experiment_max_time_credit&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;experiment_max_reward&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">participant</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">participant</span> <span class="o">=</span> <span class="n">participant</span>
+
+    <span class="k">def</span> <span class="nf">get_internal_name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">fields</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> is not a valid field for TimeCreditStore.&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;__time_credit__</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__getattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="o">==</span> <span class="s2">&quot;participant&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">[</span><span class="s2">&quot;participant&quot;</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">participant</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get_internal_name</span><span class="p">(</span><span class="n">name</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="o">==</span> <span class="s2">&quot;participant&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">[</span><span class="s2">&quot;participant&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">participant</span><span class="o">.</span><span class="n">var</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get_internal_name</span><span class="p">(</span><span class="n">name</span><span class="p">),</span> <span class="n">value</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">experiment</span><span class="p">):</span>
+        <span class="kn">from</span> <span class="nn">.experiment</span> <span class="kn">import</span> <span class="n">get_and_load_config</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">confirmed_credit</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">is_fixed</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pending_credit</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">max_pending_credit</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">wage_per_hour</span> <span class="o">=</span> <span class="n">get_and_load_config</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;wage_per_hour&quot;</span><span class="p">)</span>
+
+        <span class="n">experiment_estimated_time_credit</span> <span class="o">=</span> <span class="n">experiment</span><span class="o">.</span><span class="n">timeline</span><span class="o">.</span><span class="n">estimated_time_credit</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">experiment_max_time_credit</span> <span class="o">=</span> <span class="n">experiment_estimated_time_credit</span><span class="o">.</span><span class="n">get_max</span><span class="p">(</span>
+            <span class="s2">&quot;time&quot;</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">experiment_max_reward</span> <span class="o">=</span> <span class="n">experiment_estimated_time_credit</span><span class="o">.</span><span class="n">get_max</span><span class="p">(</span>
+            <span class="s2">&quot;reward&quot;</span><span class="p">,</span> <span class="n">wage_per_hour</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">wage_per_hour</span>
+        <span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">increment</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_fixed</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">pending_credit</span> <span class="o">+=</span> <span class="n">value</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">pending_credit</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_pending_credit</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">pending_credit</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_pending_credit</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">confirmed_credit</span> <span class="o">+=</span> <span class="n">value</span>
+
+    <span class="k">def</span> <span class="nf">start_fix_time</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">time_estimate</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span>
+        <span class="k">assert</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_fixed</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">is_fixed</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pending_credit</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">max_pending_credit</span> <span class="o">=</span> <span class="n">time_estimate</span>
+
+    <span class="k">def</span> <span class="nf">end_fix_time</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">time_estimate</span><span class="p">:</span> <span class="nb">float</span><span class="p">):</span>
+        <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_fixed</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">is_fixed</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pending_credit</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">max_pending_credit</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">confirmed_credit</span> <span class="o">+=</span> <span class="n">time_estimate</span>
+
+    <span class="k">def</span> <span class="nf">get_time_reward</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">wage_per_hour</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">confirmed_credit</span> <span class="o">/</span> <span class="p">(</span><span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">estimate_time_credit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">confirmed_credit</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">pending_credit</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">progress</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">estimate_time_credit</span><span class="p">()</span> <span class="o">/</span> <span class="bp">self</span><span class="o">.</span><span class="n">experiment_max_time_credit</span>
+</pre></div>
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          
+          
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </div>
+</div><script src="../../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>
