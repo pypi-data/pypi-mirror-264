@@ -1,0 +1,4 @@
+jreq
+yandex_360
+sphinx_sitemap
+sphinx_rtd_theme
