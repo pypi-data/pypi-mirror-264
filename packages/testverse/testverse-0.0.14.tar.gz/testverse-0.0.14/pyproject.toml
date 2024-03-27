@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "testverse"
+version = "0.0.14"
+description = "Test version of evalverse"
+authors = ["Evalverse <evalverse@upstage.ai>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+lm-eval = "0.4.2"
+fschat = {version = "0.2.36", extras = ["model-worker"]}
+openai = "<1"
+anthropic = ">=0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
