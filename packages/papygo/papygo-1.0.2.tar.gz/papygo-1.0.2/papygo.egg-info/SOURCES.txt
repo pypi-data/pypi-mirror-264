@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+papygo/__init__.py
+papygo/translator.py
+papygo.egg-info/PKG-INFO
+papygo.egg-info/SOURCES.txt
+papygo.egg-info/dependency_links.txt
+papygo.egg-info/requires.txt
+papygo.egg-info/top_level.txt
