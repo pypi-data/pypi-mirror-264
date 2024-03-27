@@ -1,0 +1,5 @@
+{% load static %} {% csrf_token %}
+<script>
+  window.customLoggerAPI = "{% url 'log-lens:post-log' %}";
+</script>
+<script src="{% static 'django_log_lens/logger.js' %}"></script>
