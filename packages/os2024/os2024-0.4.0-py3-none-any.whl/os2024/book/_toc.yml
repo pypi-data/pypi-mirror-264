@@ -1,0 +1,59 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Lecture Notes
+    chapters:
+      - file: week01/index
+        sections:
+          - file: week01/intro
+          - url: https://learn.microsoft.com/ko-kr/windows/wsl/install
+            title: WSL 설치방법
+      - file: week02/index
+        sections:
+          - file: week02/cpu-intro
+          - file: week02/cpu-api
+          - file: week02/cpu-mechanisms
+          - file: week02/shells
+          - file: week02/lab
+          - file: week02/tip
+      - file: week03/index
+        sections:
+          - file: week03/cpu-scheduling
+          - file: week03/lab
+          - file: week03/wsl-setup
+      - file: week04/index
+        sections:
+          - file: week04/mlfq
+          - file: week04/lottery
+          - file: week04/lab-sched
+          - file: week04/lab-lottery
+      - file: week05/index
+        sections:
+          - file: week05/vm-intro
+  - caption: References
+    chapters:
+      - file: references/ostep/index
+      - file: references/ostep-code/index
+      - file: references/ostep-homework/index
+      - file: references/ostep-projects/index
+      - url: https://kuleuven-diepenbeek.github.io/osc-course/
+        title: Operating Systems and C
+  - caption: About
+    chapters:
+      - file: syllabus/index
+      - file: about/index
+  - caption: Links
+    chapters:
+      - url: https://halla.ai
+        title: 인공지능학과
+      - url: https://os2024.halla.ai
+        title: 운영체제 2024
+      - url: https://mlops2024.halla.ai
+        title: 머신러닝시스템 2024
+      - url: https://cobots2024.halla.ai
+        title: 협동로봇활용 2024
+      - url: https://aibasics.halla.ai
+        title: AI 세상 속으로
