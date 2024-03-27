@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: cowsay-django
+Version: 0.0.2
+Summary: Django app that uses cowsay to render text in a cow bubble.
+Project-URL: Documentation, https://kfields.github.io/cowsay-django
+Project-URL: Issues, https://github.com/kfields/cowsay-django/issues
+Project-URL: Source, https://github.com/kfields/cowsay-django
+Author-email: kfields <kurtisfields@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: Django,cowsay
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: cowsay>=6.1
+Requires-Dist: django<6.0,>=3.2
+Description-Content-Type: text/markdown
+
+[![Tests](https://img.shields.io/github/actions/workflow/status/kfields/cowsay-django/test.yml?label=Tests&style=for-the-badge)](https://github.com/kfields/cowsay-django/actions/workflows/test.yml)
+[![Codecov](https://img.shields.io/codecov/c/github/kfields/cowsay-django?style=for-the-badge)](https://app.codecov.io/gh/kfields/cowsay-django)
+[![PyPI](https://img.shields.io/pypi/v/cowsay-django.svg?style=for-the-badge&logo=appveyor)](https://pypi.org/project/cowsay-django/)
+
+[![Pypi downloads](https://img.shields.io/pypi/dm/cowsay-django?style=for-the-badge)](https://pypistats.org/packages/cowsay-django)
+[![Python versions](https://img.shields.io/pypi/pyversions/cowsay-django?style=social)](https://pypi.org/project/cowsay-django/)
+
+# Cowsay Django
+
+-----
+
+**Table of Contents**
+
+- [Cowsay Django](#cowsay-django)
+  - [Installation](#installation)
+  - [License](#license)
+
+## Installation
+
+```console
+pip install cowsay-django
+```
+
+## License
+
+`cowsay-django` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
