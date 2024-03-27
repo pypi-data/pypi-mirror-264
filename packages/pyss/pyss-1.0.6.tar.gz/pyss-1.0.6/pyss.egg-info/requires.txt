@@ -1,0 +1,4 @@
+pyyaml==6.0
+termcolor==2.2.0
+importlib-metadata==5.0.0
+packaging==21.3
