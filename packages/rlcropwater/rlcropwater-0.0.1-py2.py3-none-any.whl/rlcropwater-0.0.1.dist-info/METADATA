@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: rlcropwater
+Version: 0.0.1
+Summary: virtual environment to train RL agent to schedule irrigation
+Author-email: Abdelrahman Saleh <abdulrahman.amr.ali@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/abdelrahmanamr3/rlcropwater
+Keywords: rlcropwater
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: rlcropwater[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# rlcropwater
+
+
+[![image](https://img.shields.io/pypi/v/rlcropwater.svg)](https://pypi.python.org/pypi/rlcropwater)
+[![image](https://img.shields.io/conda/vn/conda-forge/rlcropwater.svg)](https://anaconda.org/conda-forge/rlcropwater)
+
+
+**virtual environment to train RL agent to schedule irrigation**
+
+
+-   Free software: MIT License
+-   Documentation: https://abdelrahmanamr3.github.io/rlcropwater
+    
+
+## Features
+
+-   TODO
