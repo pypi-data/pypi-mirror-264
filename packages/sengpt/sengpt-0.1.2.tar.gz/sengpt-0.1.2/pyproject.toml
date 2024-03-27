@@ -1,0 +1,39 @@
+[tool.poetry]
+keywords = [
+  "chatgpt",
+  "gpt",
+  "cli",
+  "command line",
+  "terminal",
+  "free gpt",
+  "free",
+  "no api key",
+  "no api",
+  "openai",
+  "openai chatgpt",
+  "chatgpt free",
+]
+name = "sengpt"
+version = "0.1.2"
+description = "ChatGPT in your terminal, no OpenAI API key required"
+authors = ["SenZmaKi <senzmaki@gmail.com>"]
+license = "GPL-3.0-only"
+homepage = "https://github.com/SenZmaKi/Sengpt"
+readme = "README.md"
+repository = "https://github.com/SenZmaKi/Sengpt"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+curl-cffi = "^0.5.10"
+appdirs = "^1.4.4"
+pyperclip = "^1.8.2"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/SenZmaKi/Sengpt/issues"
+
+[tool.poetry.scripts]
+sengpt = "sengpt.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
