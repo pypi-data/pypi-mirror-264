@@ -1,0 +1,7 @@
+numpy
+torch
+torchaudio
+tqdm
+tensorboard
+packaging
+soundfile
