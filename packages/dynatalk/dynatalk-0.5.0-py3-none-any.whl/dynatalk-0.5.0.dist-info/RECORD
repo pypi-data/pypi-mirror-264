@@ -1,0 +1,7 @@
+dynatalk/__init__.py,sha256=t0OAHR0mXL5g-SKfOxhREcW8rULGdJJmJbS3SFbow3w,74
+dynatalk/agent.py,sha256=pSoEK9NDkh1k0ZvVeTzyieeRfpD1SPrq9b0nOurm9s4,5883
+dynatalk/space.py,sha256=U_Xq3qp-_nRvQc-Obri3mGQGluETzsOyPm-LLltpJYE,1805
+dynatalk/supervisor.py,sha256=x-2a2FLyI35fAAxqDQh0ehezJgemdcS3IK5CU18D83s,1849
+dynatalk-0.5.0.dist-info/METADATA,sha256=JHHzVh5JMjostXmKf7ZCqabU4EBvbaPlzRevFWDq4RI,791
+dynatalk-0.5.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+dynatalk-0.5.0.dist-info/RECORD,,
