@@ -1,0 +1,5 @@
+beautifulsoup4
+pycountry
+toml
+collins-dictionary-api-client<=1.0.0
+word-def<=1.0.0
