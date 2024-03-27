@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rimetool
+Version: 0.0.2
+Summary: rime输入法相关工具
+Home-page: https://github.com/whitewatercn/rimetool
+Author: whitewatercn
+Author-email: whitewatercn@outlook.com
+Project-URL: Bug Reports, https://github.com/whitewatercn/rimetool/issues
+Project-URL: Source, https://github.com/whitewatercn/rimetool
+Keywords: rime,input method editor tool,python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: pypinyin
+Requires-Dist: click
+Requires-Dist: tools
+
+rime输入法相关工具

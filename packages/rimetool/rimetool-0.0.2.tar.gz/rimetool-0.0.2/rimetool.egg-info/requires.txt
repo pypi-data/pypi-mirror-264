@@ -1,0 +1,3 @@
+pypinyin
+click
+tools
