@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+DigitalSoul/__init__.py
+DigitalSoul/erg.py
+DigitalSoul.egg-info/PKG-INFO
+DigitalSoul.egg-info/SOURCES.txt
+DigitalSoul.egg-info/dependency_links.txt
+DigitalSoul.egg-info/requires.txt
+DigitalSoul.egg-info/top_level.txt
+DigitalSoul/include/digital_soul_bindings.cpp
