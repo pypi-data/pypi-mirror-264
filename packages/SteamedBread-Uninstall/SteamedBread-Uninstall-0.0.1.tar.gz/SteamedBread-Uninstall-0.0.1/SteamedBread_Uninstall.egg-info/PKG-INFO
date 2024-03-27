@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SteamedBread-Uninstall
+Version: 0.0.1
+Summary: 馒头的三方库管理器
+Home-page: https://github.com/neihanshenshou/SteamedBreadPackageManager
+Author: 馒头
+Author-email: neihanshenshou@163.com
+License: Apache License 2.0
+Platform: MacOS、Window
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SteamedBreadPackageManager
+馒头三方库管理器
+
+

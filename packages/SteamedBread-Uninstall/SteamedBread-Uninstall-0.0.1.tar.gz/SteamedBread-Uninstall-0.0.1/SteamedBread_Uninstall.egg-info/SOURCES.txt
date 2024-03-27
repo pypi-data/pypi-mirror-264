@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CleanPackageTools/CleanDependence.py
+CleanPackageTools/__init__.py
+SteamedBread_Uninstall.egg-info/PKG-INFO
+SteamedBread_Uninstall.egg-info/SOURCES.txt
+SteamedBread_Uninstall.egg-info/dependency_links.txt
+SteamedBread_Uninstall.egg-info/entry_points.txt
+SteamedBread_Uninstall.egg-info/top_level.txt
