@@ -1,0 +1,3 @@
+amarillo
+watchdog
+schedule==1.2.1
