@@ -1,0 +1,9 @@
+README.md
+setup.py
+ghostaiapi/__init__.py
+ghostaiapi/main.py
+ghostaiapi.egg-info/PKG-INFO
+ghostaiapi.egg-info/SOURCES.txt
+ghostaiapi.egg-info/dependency_links.txt
+ghostaiapi.egg-info/requires.txt
+ghostaiapi.egg-info/top_level.txt
