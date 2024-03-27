@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+ollama_hydra/__init__.py
+ollama_hydra/client.py
+ollama_hydra/modelfile.py
+ollama_hydra/proxy.py
+ollama_hydra.egg-info/PKG-INFO
+ollama_hydra.egg-info/SOURCES.txt
+ollama_hydra.egg-info/dependency_links.txt
+ollama_hydra.egg-info/entry_points.txt
+ollama_hydra.egg-info/requires.txt
+ollama_hydra.egg-info/top_level.txt
+tests/test_modelfile.py
+tests/test_proxy.py
