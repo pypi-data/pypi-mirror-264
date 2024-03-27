@@ -1,0 +1,9 @@
+License.txt
+README.md
+pyproject.toml
+src/rsmessages/requestFormat.py
+src/rsmessages/responseFormat.py
+src/rsmessages.egg-info/PKG-INFO
+src/rsmessages.egg-info/SOURCES.txt
+src/rsmessages.egg-info/dependency_links.txt
+src/rsmessages.egg-info/top_level.txt
