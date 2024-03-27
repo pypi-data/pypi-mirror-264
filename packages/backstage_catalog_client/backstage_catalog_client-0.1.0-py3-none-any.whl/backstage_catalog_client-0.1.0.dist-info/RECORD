@@ -1,0 +1,14 @@
+backstage_catalog_client/__init__.py,sha256=QbX4ZQO5DlWLy--QG1vuCp26SJPJ5o52pj7dkSxVHMk,207
+backstage_catalog_client/catalog_api/__init__.py,sha256=fNeZyQfvf_hxNfQwxhbfwmrzyP_nXfjajYubPxeA4dQ,197
+backstage_catalog_client/catalog_api/async_api.py,sha256=SsuXEPX5ZQyRCAAkts44Ydbt7qXnoUK1ZeXg9R9dZG4,5003
+backstage_catalog_client/catalog_api/sync_api.py,sha256=xcPUhzzfaC8dWSbXLYH9Tc6fFpnx4eTmYMsTXwXy2BU,3585
+backstage_catalog_client/catalog_api/util.py,sha256=mG3O_NfZuydkezgEyZD4Jt1zo33w7726NK8VE5jzcvo,1514
+backstage_catalog_client/entity.py,sha256=yRpQfGE9m2Sqvjf3d2G7MESGOEhsgvS2Zm1Ir5tLhd0,918
+backstage_catalog_client/httpx_client.py,sha256=lGhCbyFbhD63LX53D5Ys_W_TdIOMmXKeNM9J5Fs5EK8,7656
+backstage_catalog_client/models.py,sha256=gmW9v8hxeU-qgcn5q9zpCcTii_1jvMtaqHSSu2__At4,4637
+backstage_catalog_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backstage_catalog_client/utils.py,sha256=M95U7SZsRFovXmeIMupE910_gRS83RIuToVJaAVg-A0,1580
+backstage_catalog_client-0.1.0.dist-info/LICENSE,sha256=i4bK2fI2ZWXNQUEeMy7vcRLs9ISR96oZZlH8uYI8h8s,1070
+backstage_catalog_client-0.1.0.dist-info/METADATA,sha256=t-YfKeaBjepGrsySpSZhPQIICR-dK1SyQ_Cz1ztZddQ,3155
+backstage_catalog_client-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+backstage_catalog_client-0.1.0.dist-info/RECORD,,
