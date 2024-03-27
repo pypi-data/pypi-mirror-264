@@ -1,0 +1,1059 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Dependencies" href="dependencies.html" /><link rel="prev" title="Development workflow" href="development_workflow.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>Configuration - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../api/index.html">API Documentation</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../api/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../api/trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../api/utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../deploy/troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://gitlab.com/PsyNetDev/PsyNet/-/edit/master/docs/experiment_development/configuration.rst" title="Edit this page">
+    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <span class="target" id="configuration"></span><section id="id1">
+<h1>Configuration<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<section id="setting-config-variables">
+<h2>Setting config variables<a class="headerlink" href="#setting-config-variables" title="Link to this heading">#</a></h2>
+<p>Setting config variables can be done in multiple ways depending on the type of a variable.</p>
+<section id="global-variables">
+<h3>Global variables<a class="headerlink" href="#global-variables" title="Link to this heading">#</a></h3>
+<p>Global variables should be set via the <cite>.dallingerconfig</cite> file in your home directory. This applies in particular to those which have to be keep secret and which should under no circumstances be added to Git. They are global in the sense that they apply to all experiments being developed and deployed by the user. Declaration of global variables allows for the grouping into freely to be chosen sections. For example:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>[AWS]
+aws_access_key_id = your-secret-aws-access-key-id
+
+[Email]
+contact_email_on_error = some-email@provider.com
+</pre></div>
+</div>
+</section>
+<section id="experiment-specific-variables">
+<h3>Experiment-specific variables<a class="headerlink" href="#experiment-specific-variables" title="Link to this heading">#</a></h3>
+<p>Experiment-specific variables can be set in two ways – firstly via a <cite>config.txt</cite> file in the experiment’s root directory which follows the same syntactic rules as the one for global variables above. For example:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>[Custom settings]
+show_abort_button = true
+base_payment = 1.2
+currency = €
+</pre></div>
+</div>
+<p>Secondly, they can also be set by creating a config dictionary in the <code class="docutils literal notranslate"><span class="pre">Experiment</span></code> class like this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Exp</span><span class="p">(</span><span class="n">Experiment</span><span class="p">):</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;wage_per_hour&quot;</span><span class="p">:</span> <span class="mf">12.0</span><span class="p">,</span>
+        <span class="s2">&quot;show_abort_button&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="p">}</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When setting variables via <cite>config.txt</cite> or <cite>.dallingerconfig</cite> boolean values can be assigned be either using <code class="docutils literal notranslate"><span class="pre">true</span></code>, <code class="docutils literal notranslate"><span class="pre">True</span></code>, <code class="docutils literal notranslate"><span class="pre">false</span></code>, or <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</div>
+</section>
+</section>
+<section id="available-config-variables">
+<h2>Available config variables<a class="headerlink" href="#available-config-variables" title="Link to this heading">#</a></h2>
+<p>Config variables originate from either <em>PsyNet</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/> or <em>Dallinger</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/>, the latter being the software PsyNet is built upon. What follows is an exhaustive list of all known config variables grouped into specific sections and sorted alphabetically. Sensitive variables are marked with <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/>.</p>
+<section id="general">
+<h3>General<a class="headerlink" href="#general" title="Link to this heading">#</a></h3>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">base_port</span></code> <em>int</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The port to be used to access the web application. Normally there should not be the need to change this from the default. Default <code class="docutils literal notranslate"><span class="pre">5000</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">check_participant_opened_devtools</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code>, whenever a participant opens the developer tools in the web browser,
+this is logged as participant.var.opened_devtools = <code class="docutils literal notranslate"><span class="pre">True</span></code>,
+and the participant is shown a warning alert message.
+Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Chrome does not currently expose an official way of checking whether
+the participant opens the developer tools. People therefore have to rely
+on hacks to detect it. These hacks can often be broken by updates to Chrome.
+We’ve therefore disabled this check by default, to reduce the risk of
+false positives. Experimenters wishing to enable the check for an individual
+experiment are recommended to verify that the check works appropriately
+before relying on it. We’d be grateful for any contributions of updated
+developer tools checks.</p>
+</div>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">color_mode</span></code> <em>unicode</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The color mode to be used. Must be one of <code class="docutils literal notranslate"><span class="pre">light</span></code>, <code class="docutils literal notranslate"><span class="pre">dark</span></code>, or <code class="docutils literal notranslate"><span class="pre">auto</span></code>. Default: <code class="docutils literal notranslate"><span class="pre">light</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">dallinger_develop_directory</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The directory on your computer to be used to hold files and symlinks
+when running <code class="docutils literal notranslate"><span class="pre">dallinger</span> <span class="pre">develop</span></code>. Defaults to <code class="docutils literal notranslate"><span class="pre">~/dallinger_develop</span></code>
+(a folder named <code class="docutils literal notranslate"><span class="pre">dallinger_develop</span></code> inside your home directory).</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">dashboard_password</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>An optional password for accessing the Dallinger Dashboard interface. If not
+specified, a random password will be generated.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">dashboard_user</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>An optional login name for accessing the Dallinger Dashboard interface. If not
+specified <code class="docutils literal notranslate"><span class="pre">admin</span></code> will be used.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">enable_global_experiment_registry</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Enable a global experiment id registration. When enabled, the <code class="docutils literal notranslate"><span class="pre">collect</span></code> API
+check this registry to see if an experiment has already been run and reject
+re-running an experiment if it has been.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This concerns a Dallinger feature not currently used by PsyNet.</p>
+</div>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">label</span></code> <em>unicode</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>This variable is used internally for data export.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature may be revised in the future.</p>
+</div>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">lock_table_when_creating_participant</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Prevents possible deadlocks on the <cite>Participant</cite> table.
+Historically we have locked the participant table when creating participants
+to avoid database inconsistency problems. However some experimenters have experienced
+some deadlocking problems associated with this locking, so we have made
+it an opt-out behavior. Default: <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">logfile</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Where to write logs.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">loglevel</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A number between 0 and 4 that controls the verbosity of logs and maps to
+one of <code class="docutils literal notranslate"><span class="pre">debug</span></code> (0), <code class="docutils literal notranslate"><span class="pre">info</span></code> (1), <code class="docutils literal notranslate"><span class="pre">warning</span></code> (2), <code class="docutils literal notranslate"><span class="pre">error</span></code> (3), or
+<code class="docutils literal notranslate"><span class="pre">critical</span></code> (4). Note that <code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">debug</span></code> ignores this setting and
+always runs at 0 (<code class="docutils literal notranslate"><span class="pre">debug</span></code>). Default: <code class="docutils literal notranslate"><span class="pre">0</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">protected_routes</span></code> <em>unicode - JSON formatted</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>An optional JSON array of Flask route rule names which should be made inaccessible.
+Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">protected_routes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;/participant/&lt;participant_id&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;/network/&lt;network_id&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;/node/&lt;int:node_id&gt;/neighbors&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Accessing routes included in this list will raise a <code class="docutils literal notranslate"><span class="pre">PermissionError</span></code> and no data will be returned.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">show_abort_button</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code>, the <cite>Ad</cite> page displays an <cite>Abort</cite> button the participant can click to terminate the HIT,
+e.g. in case of an error where the participant is unable to finish the experiment. Clicking the button
+assures the participant is compensated on the basis of the amount of reward that has been accumulated.
+Default <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">show_reward</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code> (default), then the participant’s current estimated reward is displayed
+at the bottom of the page.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">show_footer</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code> (default), then a footer is displayed at the bottom of the page containing a <cite>Help</cite> button
+and reward information if <code class="docutils literal notranslate"><span class="pre">show_reward</span></code> is set to <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">show_progress_bar</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code> (default), then a progress bar is displayed at the top of the page.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">whimsical</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>When set to True, this config variable enables ‘whimsical’ tone on Dallinger email notifications
+to the experimenter. When <code class="docutils literal notranslate"><span class="pre">False</span></code> (default), the notifications have a matter-of-fact tone.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">window_height</span></code> <em>int</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Determines the width in pixels of the window that opens when the
+participant starts the experiment. Only active if
+recruiter.start_experiment_in_popup_window is True.
+Default: <code class="docutils literal notranslate"><span class="pre">768</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">window_width</span></code> <em>int</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Determines the width in pixels of the window that opens when the
+participant starts the experiment. Only active if
+recruiter.start_experiment_in_popup_window is True.
+Default: <code class="docutils literal notranslate"><span class="pre">1024</span></code>.</p>
+</dd>
+</dl>
+</section>
+<section id="payment">
+<h3>Payment<a class="headerlink" href="#payment" title="Link to this heading">#</a></h3>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">base_payment</span></code> <em>float</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Base payment in the currency set via the <code class="docutils literal notranslate"><span class="pre">currency</span></code> config variable.
+All workers who accept the HIT are guaranteed this much compensation.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">currency</span></code> <em>unicode</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The currency in which the participant gets paid. Default: <code class="docutils literal notranslate"><span class="pre">$</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">hard_max_experiment_payment</span></code> <em>float</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Guarantees that in an experiment no more is spent than the value assigned.
+Bonuses are not paid from the point this value is reached and a record of the amount
+of unpaid bonus is kept in the participant’s <code class="docutils literal notranslate"><span class="pre">unpaid_bonus</span></code> variable. Default: <code class="docutils literal notranslate"><span class="pre">1100.0</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">max_participant_payment</span></code> <em>float</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The maximum payment, in the currency set via the <code class="docutils literal notranslate"><span class="pre">currency</span></code> config variable, that a participant is allowed to get. Default: <code class="docutils literal notranslate"><span class="pre">25.0</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">min_accumulated_reward_for_abort</span></code> <em>float</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The threshold of reward accumulated, in the currency set via the <code class="docutils literal notranslate"><span class="pre">currency</span></code> config variable, for the participant to be able to receive compensation when aborting an experiment using the <cite>Abort experiment</cite> button. Default: <code class="docutils literal notranslate"><span class="pre">0.20</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">soft_max_experiment_payment</span></code> <em>float</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The recruiting process stops if the amount of accumulated payments
+(incl. time and performance rewards), in the currency set via the <code class="docutils literal notranslate"><span class="pre">currency</span></code> config variable, exceedes this value. Default: <code class="docutils literal notranslate"><span class="pre">1000.0</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">wage_per_hour</span></code> <em>float</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The payment in currency the participant gets per hour. Default: <code class="docutils literal notranslate"><span class="pre">9.0</span></code>.</p>
+</dd>
+</dl>
+</section>
+<section id="recruitment">
+<h3>Recruitment<a class="headerlink" href="#recruitment" title="Link to this heading">#</a></h3>
+<section id="id2">
+<h4>General<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">activate_recruiter_on_start</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A boolean on whether recruitment should start automatically when the experiment launches.
+If set to <code class="docutils literal notranslate"><span class="pre">false</span></code> the user has to manually initialize recruitment (e.g. via the Prolific panel).
+Default: <code class="docutils literal notranslate"><span class="pre">true</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">auto_recruit</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A boolean on whether recruitment should be automatic.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">description</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Depending on the recruiter being used, either</p>
+<ul class="simple">
+<li><p>The description of the HIT (Amazon Mechanical Turk), or</p></li>
+<li><p>the description of the Study (Prolific).</p></li>
+</ul>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">initial_recruitment_size</span></code> <em>int</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The number of participants initially to be recruited. This value is used during the
+experiment’s launch phase to start the recruitment process. Default: <code class="docutils literal notranslate"><span class="pre">1</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">recruiter</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The recruiter class to use during the experiment run. While this can be a
+full class name, it is more common to use the class’s <code class="docutils literal notranslate"><span class="pre">nickname</span></code> property
+for this value; for example <code class="docutils literal notranslate"><span class="pre">mturk</span></code>, <code class="docutils literal notranslate"><span class="pre">prolific</span></code>, <code class="docutils literal notranslate"><span class="pre">cli</span></code>, <code class="docutils literal notranslate"><span class="pre">bots</span></code>,
+or <code class="docutils literal notranslate"><span class="pre">multi</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When running in debug mode, the HotAir recruiter (<code class="docutils literal notranslate"><span class="pre">hotair</span></code>) will
+always be used. The exception is if the <code class="docutils literal notranslate"><span class="pre">--bots</span></code> option is passed to
+<code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">debug</span></code>, in which case the BotRecruiter will be used instead.</p>
+</div>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">recruiters</span></code> <em>unicode - custom format</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>When using multiple recruiters in a single experiment run via the <code class="docutils literal notranslate"><span class="pre">multi</span></code>
+setting for the <code class="docutils literal notranslate"><span class="pre">recruiter</span></code> config key, <code class="docutils literal notranslate"><span class="pre">recruiters</span></code> allows you to
+specify which recruiters you’d like to use, and how many participants to
+recruit from each. The special syntax for this value is:</p>
+<p><code class="docutils literal notranslate"><span class="pre">recruiters</span> <span class="pre">=</span> <span class="pre">[nickname</span> <span class="pre">1]:</span> <span class="pre">[recruits],</span> <span class="pre">[nickname</span> <span class="pre">2]:</span> <span class="pre">[recruits],</span> <span class="pre">etc.</span></code></p>
+<p>For example, to recruit 5 human participants via MTurk, and 5 bot participants,
+the configuration would be:</p>
+<p><code class="docutils literal notranslate"><span class="pre">recruiters</span> <span class="pre">=</span> <span class="pre">mturk:</span> <span class="pre">5,</span> <span class="pre">bots:</span> <span class="pre">5</span></code></p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">title</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Depending on the recruiter being used, either</p>
+<ul class="simple">
+<li><p>The title of the HIT (Amazon Mechanical Turk), or</p></li>
+<li><p>the title of the Study (Prolific).</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="allowed-browsers-and-devices">
+<h4>Allowed browsers and devices<a class="headerlink" href="#allowed-browsers-and-devices" title="Link to this heading">#</a></h4>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">allow_mobile_devices</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Allows the user to use mobile devices. If it is set to false it will tell the user to open the experiment on
+their computer.
+Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">force_google_chrome</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Forces the user to use the Google Chrome browser. If another browser is used, it will give detailed instructions on how to install Google Chrome.
+Default: <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>PsyNet only officially supports Google Chrome.</p>
+</div>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">force_incognito_mode</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Forces the user to open the experiment in a private browsing (i.e. incognito mode). This is helpful as incognito
+mode prevents the user from accessing their browsing history, which could be used to influence the experiment.
+Furthermore it does not enable addons which can interfere with the experiment. If the user is not using
+incognito mode, it will give detailed instructions on how to open the experiment in incognito mode.
+Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">min_browser_version</span></code> <em>unicode</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The minimum version of the Chrome browser a participant needs in order to take a HIT. Default: <code class="docutils literal notranslate"><span class="pre">80.0</span></code>.</p>
+</dd>
+</dl>
+</section>
+<section id="recruiters">
+<h4>Recruiters<a class="headerlink" href="#recruiters" title="Link to this heading">#</a></h4>
+<section id="amazon-mechanical-turk">
+<h5>Amazon Mechanical Turk<a class="headerlink" href="#amazon-mechanical-turk" title="Link to this heading">#</a></h5>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">approve_requirement</span></code> <em>integer</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The percentage of past MTurk HITs that must have been approved for a worker
+to qualify to participate in your experiment. 1-100.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">assign_qualifications</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A boolean which controls whether an experiment-specific qualification
+(based on the experiment ID), and a group qualification (based on the value
+of <code class="docutils literal notranslate"><span class="pre">group_name</span></code>) will be assigned to participants by the recruiter.
+This feature assumes a recruiter which supports qualifications,
+like the <code class="docutils literal notranslate"><span class="pre">MTurkRecruiter</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">aws_access_key_id</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>AWS access key ID.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">aws_region</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>AWS region to use. Default: <code class="docutils literal notranslate"><span class="pre">us-east-1</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">aws_secret_access_key</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>AWS access key secret.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">browser_exclude_rule</span></code> <em>unicode - comma separated</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A set of rules you can apply to prevent participants with unsupported web
+browsers from participating in your experiment. Valid exclusion values are:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">mobile</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tablet</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">touchcapable</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pc</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bot</span></code></p></li>
+</ul>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">disable_when_duration_exceeded</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Whether to disable recruiting and expire the HIT when the duration has been
+exceeded. This only has an effect when <code class="docutils literal notranslate"><span class="pre">clock_on</span></code> is enabled.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">duration</span></code> <em>float</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>How long in hours participants have until the HIT will time out.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">group_name</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Assign a named qualification to workers who complete a HIT.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">keywords</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A comma-separated list of keywords to use on Amazon Mechanical Turk.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">lifetime</span></code> <em>integer</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>How long in hours that your HIT remains visible to workers.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">mturk_qualification_blocklist</span></code> <em>unicode - comma seperated</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Comma-separated list of qualification names. Workers with qualifications in
+this list will be prevented from viewing and accepting the HIT.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">mturk_qualification_requirements</span></code> <em>unicode – JSON formatted</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A JSON list of qualification documents to pass to Amazon Mechanical Turk.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">us_only</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Controls whether this HIT is available only to MTurk workers in the U.S.</p>
+</dd>
+</dl>
+</section>
+<section id="cap">
+<h5>CAP<a class="headerlink" href="#cap" title="Link to this heading">#</a></h5>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">cap_recruiter_auth_token</span></code> <em>unicode</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>Authentication token for communication with the API of the CAP-Recruiter web application.</p>
+</dd>
+</dl>
+</section>
+<section id="lucid">
+<h5>Lucid<a class="headerlink" href="#lucid" title="Link to this heading">#</a></h5>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">lucid_api_key</span></code> <em>unicode</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>The key used to access the Lucid/Cint API.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">lucid_sha1_hashing_key</span></code> <em>unicode</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>The key used to create the HMAC used in the SHA1 hash function that generates the hash
+used when sending requests to the Lucid/Cint API.</p>
+</dd>
+</dl>
+<p><code class="docutils literal notranslate"><span class="pre">lucid_recruitment_config</span></code> <em>unicode – JSON formatted</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></p>
+</section>
+<section id="prolific">
+<h5>Prolific<a class="headerlink" href="#prolific" title="Link to this heading">#</a></h5>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">prolific_api_token</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>A Prolific API token is requested from Prolific via email or some other non-programmatic
+channel, and should be stored in your <code class="docutils literal notranslate"><span class="pre">~/.dallingerconfig</span></code> file.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">prolific_api_version</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The version of the Prolific API you’d like to use</p>
+<p>The default (<code class="docutils literal notranslate"><span class="pre">v1</span></code>) is defined in <em>global_config_defaults.txt</em>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">prolific_estimated_completion_minutes</span></code> <em>int</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Estimated duration in minutes of the experiment or survey.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">prolific_recruitment_config</span></code> <em>unicode - JSON formatted</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>JSON data to add additional recruitment parameters.
+Since some recruitment parameters are complex and are defined with relatively complex
+syntax, Dallinger allows you to define this configuration in raw JSON. The parameters
+you would typically specify this way <a class="reference internal" href="#json-config-disclaimer"><span class="std std-ref">include</span></a>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">device_compatibility</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">peripheral_requirements</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">eligibility_requirements</span></code></p></li>
+</ul>
+<p>See the <a class="reference external" href="https://docs.prolific.co/docs/api-docs/public/#tag/Studies/paths/~1api~1v1~1studies~1/post">Prolific API Documentation</a>
+for details.</p>
+<p>Configuration can also be stored in a separate JSON file, and included by using the
+filename, prefixed with <code class="docutils literal notranslate"><span class="pre">file:</span></code>, as the configuration value. For example, to use a
+JSON file called <code class="docutils literal notranslate"><span class="pre">prolific_config.json</span></code>, you would first create this file, with
+valid JSON as contents:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;eligibility_requirements&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;attributes&quot;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="p">{</span>
+                    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;white_list&quot;</span><span class="p">,</span>
+                    <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="p">[</span>
+                        <span class="c1"># worker ID one,</span>
+                        <span class="c1"># worker ID two,</span>
+                        <span class="c1"># etc.</span>
+                    <span class="p">]</span>
+                <span class="p">}</span>
+            <span class="p">],</span>
+            <span class="s2">&quot;_cls&quot;</span><span class="p">:</span> <span class="s2">&quot;web.eligibility.models.CustomWhitelistEligibilityRequirement&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>You can also specify the devices you expect the participants to have, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>{
+    &quot;eligibility_requirements&quot;: […],
+    &quot;device_compatibility&quot;: [&quot;desktop&quot;],
+    &quot;peripheral_requirements&quot;: [&quot;audio&quot;, &quot;microphone&quot;]
+}
+</pre></div>
+</div>
+<p>Supported devices are <code class="docutils literal notranslate"><span class="pre">desktop</span></code>, <code class="docutils literal notranslate"><span class="pre">tablet</span></code>, and <code class="docutils literal notranslate"><span class="pre">mobile</span></code>. Supported peripherals are <code class="docutils literal notranslate"><span class="pre">audio</span></code>, <code class="docutils literal notranslate"><span class="pre">camera</span></code>, <code class="docutils literal notranslate"><span class="pre">download</span></code> (download additional software to run the experiment), and <code class="docutils literal notranslate"><span class="pre">microphone</span></code>.</p>
+<p>You would then include this file in your overall configuration by adding the following
+to your config.txt file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">prolific_recruitment_config</span> <span class="o">=</span> <span class="n">file</span><span class="p">:</span><span class="n">prolific_config</span><span class="o">.</span><span class="n">json</span>
+</pre></div>
+</div>
+<div class="admonition caution" id="json-config-disclaimer">
+<p class="admonition-title">Caution</p>
+<p>While it is technically possible to specify other recruitment values this way
+(for example, <code class="docutils literal notranslate"><span class="pre">{&quot;title&quot;:</span> <span class="pre">&quot;My</span> <span class="pre">Experiment</span> <span class="pre">Title&quot;}</span></code>), we recommend that you stick to the standard
+<code class="docutils literal notranslate"><span class="pre">key</span> <span class="pre">=</span> <span class="pre">value</span></code> format of <code class="docutils literal notranslate"><span class="pre">config.txt</span></code> whenever possible, and leave <code class="docutils literal notranslate"><span class="pre">prolific_recruitment_config</span></code>
+for complex requirements which can’t be configured in this simpler way.</p>
+</div>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Prolific will use the currency of your researcher account and convert automatically
+to the participant’s currency.</p>
+</div>
+</section>
+</section>
+</section>
+<section id="deployment">
+<h3>Deployment<a class="headerlink" href="#deployment" title="Link to this heading">#</a></h3>
+<section id="id3">
+<h4>General<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">clock_on</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>If the clock process is on, it will enable a task scheduler to run automated
+background tasks. By default, a single task is registered which performs a
+series of checks that ensure the integrity of the database. The configuration
+option <code class="docutils literal notranslate"><span class="pre">disable_when_duration_exceeded</span></code> configures the behavior of that task.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">host</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>IP address of the host.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">port</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Port of the host.</p>
+</dd>
+</dl>
+</section>
+<section id="heroku">
+<h4>Heroku<a class="headerlink" href="#heroku" title="Link to this heading">#</a></h4>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">database_size</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Size of the database on Heroku. See <a class="reference external" href="https://devcenter.heroku.com/articles/heroku-postgres-plans">Heroku Postgres plans</a>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">database_url</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>URI of the Postgres database.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">dyno_type</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Heroku dyno type to use. See <a class="reference external" href="https://devcenter.heroku.com/articles/dyno-types">Heroku dynos types</a>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">dyno_type_web</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>This determines how powerful the heroku web dynos are. It applies only to web dynos
+and will override the default set in <code class="docutils literal notranslate"><span class="pre">dyno_type</span></code>. See <code class="docutils literal notranslate"><span class="pre">dyno_type</span></code> above for details
+on specific values.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">dyno_type_worker</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>This determines how powerful the heroku worker dynos are. It applies only to worker
+dynos and will override the default set in <code class="docutils literal notranslate"><span class="pre">dyno_type</span></code>.. See <code class="docutils literal notranslate"><span class="pre">dyno_type</span></code> above for
+details on specific values.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">heroku_python_version</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The python version to be used on Heroku deployments. The version specification will
+be deployed to Heroku in a <cite>runtime.txt</cite> file in accordance with Heroku’s deployment
+API. Note that only the version number should be provided (eg: <code class="docutils literal notranslate"><span class="pre">3.11.5</span></code>) and not the
+<code class="docutils literal notranslate"><span class="pre">python-</span></code> prefix included in the final <cite>runtime.txt</cite> format.
+See <a class="reference external" href="https://devcenter.heroku.com/articles/python-support#supported-runtimes">Heroku supported runtimes</a>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">heroku_team</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The name of the Heroku team to which all applications will be assigned.
+This is useful for centralized billing. Note, however, that it will prevent
+you from using free-tier dynos.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">num_dynos_web</span></code> <em>integer</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Number of Heroku dynos to use for processing incoming HTTP requests. It is
+recommended that you use at least two.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">num_dynos_worker</span></code> <em>integer</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Number of Heroku dynos to use for performing other computations.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">redis_size</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Size of the redis server on Heroku. See <a class="reference external" href="https://elements.heroku.com/addons/heroku-redis">Heroku Redis</a>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">sentry</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>When set to <code class="docutils literal notranslate"><span class="pre">True</span></code> enables the <cite>Sentry</cite> (<a class="reference external" href="https://sentry.io/">https://sentry.io/</a>) Heroku addon for performance monitoring of experiments. Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">threads</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The number of gunicorn web worker processes started per Heroku CPU count.
+When given the default value of <code class="docutils literal notranslate"><span class="pre">auto</span></code> the number of worker processes will be calculated
+using the formula <code class="docutils literal notranslate"><span class="pre">round(multiprocessing.cpu_count()</span> <span class="pre">*</span> <span class="pre">worker_multiplier))</span> <span class="pre">+</span> <span class="pre">1</span></code> by making use
+of the <code class="docutils literal notranslate"><span class="pre">worker_multiplier</span></code> config variable. Default: <code class="docutils literal notranslate"><span class="pre">auto</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">worker_multiplier</span></code> <em>float</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Multiplier used to determine the number of gunicorn web worker processes
+started per Heroku CPU count. Reduce this if you see Heroku warnings
+about memory limits for your experiment. Default: <code class="docutils literal notranslate"><span class="pre">1.5</span></code>.</p>
+</dd>
+</dl>
+<p>For help on choosing appropriate configuration variables, also see this Dallinger documentation page at <a class="reference external" href="https://dallinger.readthedocs.io/en/latest/configuration.html#choosing-configuration-values">https://dallinger.readthedocs.io/en/latest/configuration.html#choosing-configuration-values</a></p>
+</section>
+<section id="docker">
+<h4>Docker<a class="headerlink" href="#docker" title="Link to this heading">#</a></h4>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">docker_image_base_name</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A string that will be used to name the docker image generated by this experiment.
+Defaults to the experiment directory name (<code class="docutils literal notranslate"><span class="pre">bartlett1932</span></code>, <code class="docutils literal notranslate"><span class="pre">chatroom</span></code> etc).
+To enable repeatability a generated docker image can be pushed to a registry.
+To this end the registry needs to be specified in the <code class="docutils literal notranslate"><span class="pre">docker_image_base_name</span></code>.
+For example:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ghcr.io/&lt;GITHUB_USERNAME&gt;/&lt;GITHUB_REPOSITORY&gt;/&lt;EXPERIMENT_NAME&gt;</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">docker.io/&lt;DOCKERHUB_USERNAME&gt;/&lt;EXPERIMENT_NAME&gt;</span></code></p></li>
+</ul>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">docker_image_name</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The docker image name to use for this experiment.
+If present, the code in the current directory will not be used when deploying.
+The specified image will be used instead. Example:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ghcr.io/dallinger/dallinger/bartlett1932&#64;sha256:ad3c7b376e23798438c18aae6e0136eb97f5627ddde6baafe1958d40274fa478</span></code></p></li>
+</ul>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">docker_volumes</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Additional list of volumes to mount when deploying using docker.
+Example:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">/host/path:/container_path,/another-path:/another-container-path</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</section>
+</section>
+<section id="internationalization">
+<h3>Internationalization<a class="headerlink" href="#internationalization" title="Link to this heading">#</a></h3>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">allow_switching_locale</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Allow the user to change the language of the experiment during the experiment.
+Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature is still experimental.</p>
+</div>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">language</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>A <code class="docutils literal notranslate"><span class="pre">gettext</span></code> language code to be used for the experiment.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">supported_locales</span></code> <em>list</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>List of locales (i.e., ISO language codes) a user can pick from, e.g., <code class="docutils literal notranslate"><span class="pre">[&quot;en&quot;]</span></code>.
+Default: <code class="docutils literal notranslate"><span class="pre">[]</span></code>.</p>
+</dd>
+</dl>
+</section>
+<section id="email-notifications">
+<h3>Email Notifications<a class="headerlink" href="#email-notifications" title="Link to this heading">#</a></h3>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">contact_email_on_error</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The email address used as the recipient for error report emails, and the email displayed to workers when there is an error.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">dallinger_email_address</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>An email address for use by Dallinger to send status emails.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">smtp_host</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Hostname and port of a mail server for outgoing mail. Default: <code class="docutils literal notranslate"><span class="pre">smtp.gmail.com:587</span></code></p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">smtp_username</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Username for outgoing mail host.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">smtp_password</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/> <img src="../_static/images/sensitive.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Sensitive"/></dt><dd><p>Password for the outgoing mail host.</p>
+</dd>
+</dl>
+<p>See <a class="reference external" href="https://dallinger.readthedocs.io/en/latest/email_setup.html">Email Notification Setup</a> in the Dallinger documentation for a much more detailed explanation of above config variables and their use.</p>
+</section>
+<section id="experiment-debugging">
+<h3>Experiment debugging<a class="headerlink" href="#experiment-debugging" title="Link to this heading">#</a></h3>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">enable_google_search_console</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Used to enable a special route allowing the site to be claimed in the Google Search Console
+dashboard of the <a class="reference external" href="mailto:computational&#46;audition&#37;&#52;&#48;gmail&#46;com">computational<span>&#46;</span>audition<span>&#64;</span>gmail<span>&#46;</span>com</a> Google account.
+This allows the account to investigate and debug Chrome warnings
+(e.g. ‘Deceptive website ahead’). See <a class="reference external" href="https://search.google.com/u/4/search-console">Google Search Console</a>.
+The route is disabled by default, but can be enabled by assigning <code class="docutils literal notranslate"><span class="pre">True</span></code>. Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+</dl>
+</section>
+<section id="misc-internal-variables">
+<h3>Misc (internal) variables<a class="headerlink" href="#misc-internal-variables" title="Link to this heading">#</a></h3>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">chrome-path</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Used for darwin (macOS) only.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">EXPERIMENT_CLASS_NAME</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Config variable to manually set an experiment class name.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">heroku_app_id_root</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Internally used only.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">heroku_auth_token</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The Heroku authentication token. Internally used only and set automatically.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">id</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Internally used only.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">infrastructure_debug_details</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Redis debug info details.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">question_max_length</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Dallinger-only variable when using questionnaires. Default: <code class="docutils literal notranslate"><span class="pre">1000</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">replay</span></code> <em>bool</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Support for replaying experiments from exported data. Set internally when using the optional <code class="docutils literal notranslate"><span class="pre">--replay</span></code> flag to start the experiment locally in replay mode. Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">webdriver_type</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The webdriver type to use when using bots (e.g. when writing tests).
+Possible values are <code class="docutils literal notranslate"><span class="pre">chrome</span></code>, <code class="docutils literal notranslate"><span class="pre">chrome_headless</span></code>, and <code class="docutils literal notranslate"><span class="pre">firefox</span></code>. Default: <code class="docutils literal notranslate"><span class="pre">chrome_headless</span></code>.
+Also see Dallinger’s documentation on writing bots at <a class="reference external" href="https://dallinger.readthedocs.io/en/latest/writing_bots.html#selenium-bots">https://dallinger.readthedocs.io/en/latest/writing_bots.html#selenium-bots</a>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">webdriver_url</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>Used to provide a URL to a Selenium WebDriver instance.
+Also see Dallinger’s documentation on scaling Selenium bots at <a class="reference external" href="https://dallinger.readthedocs.io/en/latest/writing_bots.html#scaling-selenium-bots">https://dallinger.readthedocs.io/en/latest/writing_bots.html#scaling-selenium-bots</a>.</p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="config-variables-not-to-be-set-manually">
+<h2>Config variables not to be set manually<a class="headerlink" href="#config-variables-not-to-be-set-manually" title="Link to this heading">#</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Below variables are set automatically and should never be set manually!</p>
+</div>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">dallinger_version</span></code> <em>str</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The version of the <cite>Dallinger</cite> package.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">hard_max_experiment_payment_email_sent</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Whether an email to the experimenter has already been sent indicating the <code class="docutils literal notranslate"><span class="pre">hard_max_experiment_payment</span></code>
+had been reached. Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>. Once this is <code class="docutils literal notranslate"><span class="pre">True</span></code>, no more emails will be sent about
+this payment limit being reached.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">mode</span></code> <em>unicode</em> <img src="../_static/images/dallinger.jpg" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="Dallinger"/></dt><dd><p>The value for <code class="docutils literal notranslate"><span class="pre">mode</span></code> is determined by the invoking command-line command and will either be set to <code class="docutils literal notranslate"><span class="pre">debug</span></code>
+(local debugging) <code class="docutils literal notranslate"><span class="pre">sandbox</span></code> (MTurk sandbox), or <code class="docutils literal notranslate"><span class="pre">live</span></code> (MTurk).</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">psynet_version</span></code> <em>str</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The version of the <cite>psynet</cite> package.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">python_version</span></code> <em>str</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>The version of the <cite>Python</cite>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">soft_max_experiment_payment_email_sent</span></code> <em>bool</em> <img src="../_static/images/psynet.png" width="15" style="margin-bottom: -1px; margin-left: 3px; cursor: pointer;" title="PsyNet"/></dt><dd><p>Whether an email to the experimenter has already been sent indicating the <code class="docutils literal notranslate"><span class="pre">soft_max_experiment_payment</span></code>
+had been reached. Default: <code class="docutils literal notranslate"><span class="pre">False</span></code>. Once this is <code class="docutils literal notranslate"><span class="pre">True</span></code>, no more emails will be sent about
+this payment limit being reached.</p>
+</dd>
+</dl>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="dependencies.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Dependencies</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="development_workflow.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Development workflow</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Configuration</a><ul>
+<li><a class="reference internal" href="#setting-config-variables">Setting config variables</a><ul>
+<li><a class="reference internal" href="#global-variables">Global variables</a></li>
+<li><a class="reference internal" href="#experiment-specific-variables">Experiment-specific variables</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#available-config-variables">Available config variables</a><ul>
+<li><a class="reference internal" href="#general">General</a></li>
+<li><a class="reference internal" href="#payment">Payment</a></li>
+<li><a class="reference internal" href="#recruitment">Recruitment</a><ul>
+<li><a class="reference internal" href="#id2">General</a></li>
+<li><a class="reference internal" href="#allowed-browsers-and-devices">Allowed browsers and devices</a></li>
+<li><a class="reference internal" href="#recruiters">Recruiters</a><ul>
+<li><a class="reference internal" href="#amazon-mechanical-turk">Amazon Mechanical Turk</a></li>
+<li><a class="reference internal" href="#cap">CAP</a></li>
+<li><a class="reference internal" href="#lucid">Lucid</a></li>
+<li><a class="reference internal" href="#prolific">Prolific</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#deployment">Deployment</a><ul>
+<li><a class="reference internal" href="#id3">General</a></li>
+<li><a class="reference internal" href="#heroku">Heroku</a></li>
+<li><a class="reference internal" href="#docker">Docker</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#internationalization">Internationalization</a></li>
+<li><a class="reference internal" href="#email-notifications">Email Notifications</a></li>
+<li><a class="reference internal" href="#experiment-debugging">Experiment debugging</a></li>
+<li><a class="reference internal" href="#misc-internal-variables">Misc (internal) variables</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#config-variables-not-to-be-set-manually">Config variables not to be set manually</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

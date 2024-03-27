@@ -1,0 +1,582 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Developer workflow" href="../developer/workflow.html" /><link rel="prev" title="Exporting" href="export.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>Troubleshooting - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../api/index.html">API Documentation</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../api/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../api/trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../api/utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prolific.html">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="export.html">Exporting</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://gitlab.com/PsyNetDev/PsyNet/-/edit/master/docs/deploy/troubleshooting.rst" title="Edit this page">
+    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="troubleshooting">
+<h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">#</a></h1>
+<section id="no-space-left-on-device">
+<h2>No space left on device<a class="headerlink" href="#no-space-left-on-device" title="Link to this heading">#</a></h2>
+<p>If you see a <code class="docutils literal notranslate"><span class="pre">No</span> <span class="pre">space</span> <span class="pre">left</span> <span class="pre">on</span> <span class="pre">device</span></code> error when executing Docker commands, the solution
+is typically to prune your local Docker storage. You can do this by running the following:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>system<span class="w"> </span>prune
+docker<span class="w"> </span>system<span class="w"> </span>prune<span class="w"> </span>--volumes
+</pre></div>
+</div>
+</section>
+<section id="error-parsing-launch-response">
+<h2>Error parsing launch response<a class="headerlink" href="#error-parsing-launch-response" title="Link to this heading">#</a></h2>
+<p>If you see an error like this:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Error<span class="w"> </span>parsing<span class="w"> </span>response<span class="w"> </span>from<span class="w"> </span>https://dlgr-cdd607db-d584-551a.herokuapp.com/launch,<span class="w"> </span>check<span class="w"> </span>web<span class="w"> </span>dyno<span class="w"> </span>logs<span class="w"> </span><span class="k">for</span><span class="w"> </span>details:<span class="w"> </span>&lt;!DOCTYPE<span class="w"> </span>html&gt;
+<span class="w">    </span>&lt;html&gt;
+<span class="w">      </span>&lt;head&gt;
+<span class="w">        </span>&lt;meta<span class="w"> </span><span class="nv">name</span><span class="o">=</span><span class="s2">&quot;viewport&quot;</span><span class="w"> </span><span class="nv">content</span><span class="o">=</span><span class="s2">&quot;width=device-width, initial-scale=1&quot;</span>&gt;
+<span class="w">        </span>&lt;meta<span class="w"> </span><span class="nv">charset</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span>&gt;
+<span class="w">        </span>&lt;title&gt;Application<span class="w"> </span>Error&lt;/title&gt;
+<span class="w">        </span>&lt;style<span class="w"> </span><span class="nv">media</span><span class="o">=</span><span class="s2">&quot;screen&quot;</span>&gt;
+<span class="w">          </span>html,body,iframe<span class="w"> </span><span class="o">{</span>
+<span class="w">            </span>margin:<span class="w"> </span><span class="m">0</span><span class="p">;</span>
+<span class="w">            </span>padding:<span class="w"> </span><span class="m">0</span><span class="p">;</span>
+<span class="w">          </span><span class="o">}</span>
+<span class="w">          </span>html,body<span class="w"> </span><span class="o">{</span>
+<span class="w">            </span>height:<span class="w"> </span><span class="m">100</span>%<span class="p">;</span>
+<span class="w">            </span>overflow:<span class="w"> </span>hidden<span class="p">;</span>
+<span class="w">          </span><span class="o">}</span>
+<span class="w">          </span>iframe<span class="w"> </span><span class="o">{</span>
+<span class="w">            </span>width:<span class="w"> </span><span class="m">100</span>%<span class="p">;</span>
+<span class="w">            </span>height:<span class="w"> </span><span class="m">100</span>%<span class="p">;</span>
+<span class="w">            </span>border:<span class="w"> </span><span class="m">0</span><span class="p">;</span>
+<span class="w">          </span><span class="o">}</span>
+<span class="w">        </span>&lt;/style&gt;
+<span class="w">      </span>&lt;/head&gt;
+<span class="w">      </span>&lt;body&gt;
+<span class="w">        </span>&lt;iframe<span class="w"> </span><span class="nv">src</span><span class="o">=</span><span class="s2">&quot;//www.herokucdn.com/error-pages/application-error.html&quot;</span>&gt;&lt;/iframe&gt;
+<span class="w">      </span>&lt;/body&gt;
+<span class="w">    </span>&lt;/html&gt;
+Traceback<span class="w"> </span><span class="o">(</span>most<span class="w"> </span>recent<span class="w"> </span>call<span class="w"> </span>last<span class="o">)</span>:
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/requests/models.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">971</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>json
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>complexjson.loads<span class="o">(</span>self.text,<span class="w"> </span>**kwargs<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/usr/lib/python3.10/json/_init_.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">346</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>loads
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>_default_decoder.decode<span class="o">(</span>s<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/usr/lib/python3.10/json/decoder.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">337</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>decode
+<span class="w">    </span>obj,<span class="w"> </span><span class="nv">end</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>self.raw_decode<span class="o">(</span>s,<span class="w"> </span><span class="nv">idx</span><span class="o">=</span>_w<span class="o">(</span>s,<span class="w"> </span><span class="m">0</span><span class="o">)</span>.end<span class="o">())</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/usr/lib/python3.10/json/decoder.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">355</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>raw_decode
+<span class="w">    </span>raise<span class="w"> </span>JSONDecodeError<span class="o">(</span><span class="s2">&quot;Expecting value&quot;</span>,<span class="w"> </span>s,<span class="w"> </span>err.value<span class="o">)</span><span class="w"> </span>from<span class="w"> </span>None
+json.decoder.JSONDecodeError:<span class="w"> </span>Expecting<span class="w"> </span>value:<span class="w"> </span>line<span class="w"> </span><span class="m">1</span><span class="w"> </span>column<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">(</span>char<span class="w"> </span><span class="m">0</span><span class="o">)</span>
+During<span class="w"> </span>handling<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>above<span class="w"> </span>exception,<span class="w"> </span>another<span class="w"> </span>exception<span class="w"> </span>occurred:
+Traceback<span class="w"> </span><span class="o">(</span>most<span class="w"> </span>recent<span class="w"> </span>call<span class="w"> </span>last<span class="o">)</span>:
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/bin/dallinger&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">8</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>&lt;module&gt;
+<span class="w">    </span>sys.exit<span class="o">(</span>dallinger<span class="o">())</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/click/core.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">1130</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>_call_
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>self.main<span class="o">(</span>*args,<span class="w"> </span>**kwargs<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/click/core.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">1055</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>main
+<span class="w">    </span><span class="nv">rv</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>self.invoke<span class="o">(</span>ctx<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/click/core.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">1657</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>invoke
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>_process_result<span class="o">(</span>sub_ctx.command.invoke<span class="o">(</span>sub_ctx<span class="o">))</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/click/core.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">1404</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>invoke
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>ctx.invoke<span class="o">(</span>self.callback,<span class="w"> </span>**ctx.params<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/click/core.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">760</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>invoke
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>__callback<span class="o">(</span>*args,<span class="w"> </span>**kwargs<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/dallinger/command_line/utils.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">72</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>wrapper
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>f<span class="o">(</span>*args,<span class="w"> </span>**kwargs<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/dallinger/command_line/_init_.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">266</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>wrapper
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>f<span class="o">(</span>**kwargs<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/dallinger/command_line/_init_.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">104</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>wrapper
+<span class="w">    </span><span class="nv">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>func<span class="o">(</span>*args,<span class="w"> </span>**kwargs<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/dallinger/command_line/_init_.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">294</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>deploy
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>_deploy_in_mode<span class="o">(</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/dallinger/command_line/_init_.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">246</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>_deploy_in_mode
+<span class="w">    </span><span class="k">return</span><span class="w"> </span>deploy_sandbox_shared_setup<span class="o">(</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/dallinger/deployment.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">218</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>deploy_sandbox_shared_setup
+<span class="w">    </span><span class="nv">launch_data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>_handle_launch_data<span class="o">(</span>launch_url,<span class="w"> </span><span class="nv">error</span><span class="o">=</span>log<span class="o">)</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/dallinger/deployment.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">48</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>_handle_launch_data
+<span class="w">    </span><span class="nv">launch_data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>launch_request.json<span class="o">()</span>
+<span class="w">  </span>File<span class="w"> </span><span class="s2">&quot;/home/r/.virtualenvs/dlgr_env2/lib/python3.10/site-packages/requests/models.py&quot;</span>,<span class="w"> </span>line<span class="w"> </span><span class="m">975</span>,<span class="w"> </span><span class="k">in</span><span class="w"> </span>json
+<span class="w">    </span>raise<span class="w"> </span>RequestsJSONDecodeError<span class="o">(</span>e.msg,<span class="w"> </span>e.doc,<span class="w"> </span>e.pos<span class="o">)</span>
+requests.exceptions.JSONDecodeError:<span class="w"> </span>Expecting<span class="w"> </span>value:<span class="w"> </span>line<span class="w"> </span><span class="m">1</span><span class="w"> </span>column<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">(</span>char<span class="w"> </span><span class="m">0</span><span class="o">)</span>
+</pre></div>
+</div>
+<p>It means that an error occurred when PsyNet/Dallinger tried to launch the experiment on the remote server.
+The ‘real’ error message can be found on the remote server. If you are using Heroku, you can find
+the real error message by looking in the Papertrail logs. If you are using an SSH server,
+you can find the real error message by SSHing to the server, executing <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">~/dallinger/your-app-name</span></code>,
+then executing <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">compose</span> <span class="pre">logs</span></code>.</p>
+</section>
+<section id="stuck-during-database-initialization">
+<h2>Stuck during database initialization<a class="headerlink" href="#stuck-during-database-initialization" title="Link to this heading">#</a></h2>
+<p>We have reports of experiment deployments getting stuck at:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>Experiment<span class="w"> </span>read-prescreener-demo5<span class="w"> </span>started.<span class="w"> </span>Initializing<span class="w"> </span>database
+Database<span class="w"> </span>initialized
+</pre></div>
+</div>
+<p>We have heard that the problem resolves if you restart the remote server with the following command:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>reboot
+</pre></div>
+</div>
+<p>though note that this may interrupt pre-existing deployed experiments.
+This problem needs further investigation.</p>
+</section>
+<section id="stuck-during-experiment-launch">
+<h2>Stuck during experiment launch<a class="headerlink" href="#stuck-during-experiment-launch" title="Link to this heading">#</a></h2>
+<p>If the <code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">deploy</span> <span class="pre">ssh</span></code> or <code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">debug</span> <span class="pre">ssh</span></code> command gets stuck partway through, it’s normally worth
+checking the docker compose logs on the remote server:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~/dallinger/&lt;your-app-name&gt;
+docker<span class="w"> </span>compose<span class="w"> </span>logs
+</pre></div>
+</div>
+<p>If the error occurs during “Launching experiment”, beware that the last error may not be indicative of the real issue,
+because it may instead reflect errors from the launch command repeatedly trying to relaunch over a previous partial launch.
+It’s a good idea to scroll up to the first issue in this case.
+Note also that if your command fails early on then you might instead see Docker compose logs from the previous time
+you tried to launch the experiment.</p>
+<p>Note: A common problem is that you are using a different version (e.g. branch or commit) of PsyNet locally than on the remote server.
+This can lead to unexpected errors. You should check your <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> before deploying and verify that it
+gives the same branch/commit that you have selected locally.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="../developer/workflow.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Developer workflow</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="export.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Exporting</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Troubleshooting</a><ul>
+<li><a class="reference internal" href="#no-space-left-on-device">No space left on device</a></li>
+<li><a class="reference internal" href="#error-parsing-launch-response">Error parsing launch response</a></li>
+<li><a class="reference internal" href="#stuck-during-database-initialization">Stuck during database initialization</a></li>
+<li><a class="reference internal" href="#stuck-during-experiment-launch">Stuck during experiment launch</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

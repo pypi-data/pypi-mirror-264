@@ -1,0 +1,696 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Deploying from archive" href="deploy_from_archive.html" /><link rel="prev" title="Heroku deployments" href="heroku_server.html" />
+
+    <!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
+        <title>Deploying an experiment to Prolific - PsyNet 11.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=a26321a0" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">PsyNet 11.1.0 documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">PsyNet 11.1.0 documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/applications.html">When to use PsyNet?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/history.html">History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/team.html">Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/command_line.html">Command line</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Learning</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../learning/how_to_learn.html">How to learn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learning/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/exercises/index.html">Exercises</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Exercises</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/timeline.html">Timeline exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/graphics.html">Graphics exercise</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../learning/exercises/js_synth.html">JSSynth exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../learning/tracks/index.html">Tracks</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Tracks</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../learning/tracks/music_perception.html">Music perception track</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dependencies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/dallinger.html">Dallinger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dependencies/docker.html">Docker</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../installation/index.html">Installation overview</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Installation overview</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/virtualenv_installation/index.html">Installing PsyNet via virtualenv</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Installing PsyNet via virtualenv</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/linux.html">Installing PsyNet via virtualenv (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/macos.html">Installing PsyNet via virtualenv (macOS)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/virtualenv_installation/windows.html">Installing PsyNet via virtualenv (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../installation/docker_installation/index.html">Installing PsyNet via Docker</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Installing PsyNet via Docker</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/unix_installation.html">Installing PsyNet via Docker (macOS/Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../installation/docker_installation/windows_installation.html">Installing PsyNet via Docker (Windows)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">EXPERIMENT DEVELOPMENT</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/experiment_directory.html">Experiment directory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/development_workflow.html">Development workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../experiment_development/troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../demos/index.html">Demos</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Demos</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../demos/introduction.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/hello_world.html">Hello world</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/survey_js.html">SurveyJS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial.html">Trials (1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_2.html">Trials (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/trial_3.html">Trials (3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio.html">Audio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/static_audio.html">Audio trial maker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/gibbs.html">Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/audio_gibbs.html">Audio Gibbs Sampling with People</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/imitation_chains.html">Imitation chains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/tapping_imitation_chain.html">Tapping imitation chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../demos/mcmcp.html">Markov Chain Monte Carlo with People (MCMCP)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../example_experiments/index.html">Example experiments</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Example experiments</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/carillon.html">Consonance and the carillon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/emotions-scales.html">Emotions of musical scales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../example_experiments/pitch-matching.html">Pitch-matching test</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Tutorials</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle navigation of Tutorials</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/creating_a_new_experiment.html">Creating a new experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/classes.html">Classes in PsyNet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/timeline.html">Timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/assets.html">Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/specifying_dependencies.html">Specifying dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/tests.html">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/internationalization.html">Internationalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/synchronization.html">Synchronization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/ad_page.html">The Ad Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/modular_page.html">Modular Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/prescreening_tasks.html">Pre-screening tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/create_and_rate.html">Create and Rate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/pre_deploy_routines.html">Pre-deploy routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/experiment_variables.html">Experiment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/unity_integration.html">Unity integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/writing_custom_frontends.html">Writing custom frontends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/event_management.html">Event management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/communicating_with_backend.html">Communicating with the back-end via custom routes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/payment_limits.html">Payment limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/deploy_tokens.html">Deploy tokens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/introduction_to_sql_alchemy.html">Introduction to SQLAlchemy</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../tutorials/version_control_with_git.html">Version control with Git</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle navigation of Version control with Git</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/essential_concepts.html">Essential concepts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/version_control_with_git/experiment_implementation_workflow.html">Experiment implementation workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/upgrading_to_psynet_10.html">Upgrading to PsyNet 10</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../api/index.html">API Documentation</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle navigation of API Documentation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../api/overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/asset.html">Asset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/audio_mixer.html">AudioMixer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/bot.html">Bot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/command_line.html">Command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/consents.html">Consents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/data.html">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/demography.html">Demography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/error.html">Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/experiment.html">Experiment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/field.html">Field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/graphics.html">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/js_synth.html">JSSynth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/media.html">Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/modular_page.html">ModularPage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/page.html">Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/participant.html">Participant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/prescreen.html">Prescreen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/process.html">Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/recruiters.html">Recruiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/redis.html">Redis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/serialize.html">Serialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/sync.html">Sync</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/timeline.html">Timeline</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../api/trial/index.html">Trial</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle navigation of Trial</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/audio.html">Audio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/audio_gibbs.html">AudioGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/chain.html">Chain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/dense.html">Dense</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/gibbs.html">Gibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/imitation_chain.html">ImitationChain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/main.html">Main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/media_gibbs.html">MediaGibbs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/mcmcp.html">MCMCP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/record.html">Record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/static.html">Static</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/trial/video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../api/utils.html">Utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/version.html">Version</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">DEPLOYING</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="web_servers.html">Web servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aws_server_setup.html">Setting up an experiment server with AWS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ssh_server.html">SSH servers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="heroku_server.html">Heroku deployments</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Deploying an experiment to Prolific</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deploy_from_archive.html">Deploying from archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="export.html">Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing to PsyNet</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../developer/workflow.html">Developer workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/contributing_a_feature_or_bugfix.html">Contributing a feature/bugfix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/prescreening_tasks.html">Creating pre-screening tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/updating_documentation.html">Updating documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/internationalization.html">Internationalization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/running_tests.html">Running tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/making_a_release.html">Making a release</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dashboards</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dashboards/translation.html">Translation dashboard</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://gitlab.com/PsyNetDev/PsyNet/-/edit/master/docs/deploy/prolific.rst" title="Edit this page">
+    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </svg>
+    <span class="visually-hidden">Edit this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="deploying-an-experiment-to-prolific">
+<h1>Deploying an experiment to Prolific<a class="headerlink" href="#deploying-an-experiment-to-prolific" title="Link to this heading">#</a></h1>
+<p>Prolific is a paid service for sourcing online participants for psychology experiments.
+For a general introduction to Prolific, visit the <a class="reference external" href="https://prolific.co/">Prolific website</a>.</p>
+<p>PsyNet has recently (as of 2022) developed support for deploying experiments to Prolific.
+The integration works well already, and we’ve deployed many successful experiments via this route.
+However we are still finessing some aspects of the integration to improve the user experience.</p>
+<section id="setting-up-your-prolific-account">
+<h2>Setting up your Prolific account<a class="headerlink" href="#setting-up-your-prolific-account" title="Link to this heading">#</a></h2>
+<p>The first step is to create a Prolific account via <a class="reference external" href="https://prolific.co/">Prolific website</a>.
+Before you can run experiments you will have to add funds to your account.</p>
+</section>
+<section id="setting-up-your-computer">
+<h2>Setting up your computer<a class="headerlink" href="#setting-up-your-computer" title="Link to this heading">#</a></h2>
+<p>In order to connect your local computer to your Prolific account you will have to download an API key
+from the Prolific website. You can access this by navigating to the <a class="reference external" href="https://prolific.co/">Prolific website</a>,
+clicking ‘Settings’, then under ‘Developer tools’ clicking ‘Go to API token page’.
+Create a token here, and copy it to your clipboard.
+You will put this token in a general configuration file called <code class="docutils literal notranslate"><span class="pre">.dallingerconfig</span></code>;
+information placed here is shared across all experiments that you run on your computer.
+This file is located in your home directory, at <code class="docutils literal notranslate"><span class="pre">~/.dallingerconfig</span></code>.
+If the file doesn’t exist already, create it; then open it with a text editor.
+Enter your API key as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">Prolific</span><span class="p">]</span>
+<span class="n">prolific_api_token</span> <span class="o">=</span> <span class="n">xxxxxxx</span>
+</pre></div>
+</div>
+<p>Save and close the file.</p>
+</section>
+<section id="setting-experiment-configuration">
+<h2>Setting experiment configuration<a class="headerlink" href="#setting-experiment-configuration" title="Link to this heading">#</a></h2>
+<p>Several aspects of the experiment configuration need setting before you deploy to Prolific.
+This is done by editing <code class="docutils literal notranslate"><span class="pre">config.txt</span></code>, or equivalently by setting values in the Experiment config dictionary,
+for example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Experiment</span><span class="p">(</span><span class="n">Exp</span><span class="p">):</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;wage_per_hour&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="p">}</span>
+</pre></div>
+</div>
+<p>First you need to specify the config variable <code class="docutils literal notranslate"><span class="pre">currency</span></code>, which corresponds to the currency with which
+you expect to pay your participants. This is specified as a symbol, for example <code class="docutils literal notranslate"><span class="pre">$</span></code>.
+With Prolific you will ordinarily be paying in pounds (£).
+If you want to pay in a different currency, you need to contact Prolific support.</p>
+<p>Then you need to specify <code class="docutils literal notranslate"><span class="pre">wage_per_hour</span></code>, i.e. how much you will aim to pay your participants per hour,
+as expressed in your fundamental currency unit.</p>
+<p>In practice PsyNet pays participants through a combination of base payment and bonus.
+The base payment is fixed, and is ideally small.
+It is set via the config parameter <code class="docutils literal notranslate"><span class="pre">base_payment</span></code>.
+The bonus is dynamic, and increases
+depending on how far the participant makes it through the experiment.
+The value of this progress-related bonus is determined by multiplying the <code class="docutils literal notranslate"><span class="pre">time_estimate</span></code>
+for the part for the experiment they completed by the <code class="docutils literal notranslate"><span class="pre">wage_per_hour</span></code> (converting from seconds to hours as required).
+The bonus may also include a portion corresponding to performance rewards.</p>
+<p>PsyNet therefore pays people primarily through the bonus mechanism. This is at odds to how
+Prolific is currently designed, in that Prolific assumes that the primary payment will come from the
+base payment. This has implications in the way that Prolific treats the duration of experiments.
+When you deploy an experiment to Prolific, you have to specify a duration of the experiment.
+Prolific will compare that duration to your base payment to make sure that you are paying the participants enough.
+So, when you deploy the experiment with Prolific, you need to set the duration to a small value,
+corresponding to the size of your base payment.
+This is done via the <code class="docutils literal notranslate"><span class="pre">prolific_estimated_completion_minutes</span></code> config variable.
+If you don’t set the duration to this small amount, then Prolific will complain that your hourly wage is too low.</p>
+<p>A second problem comes from the fact that Prolific imposes an automatic time-out mechanism for participants
+who take too long to complete your experiment. This time-out duration seems to be defined as a multiple of
+<code class="docutils literal notranslate"><span class="pre">prolific_estimated_completion_minutes</span></code>. If you set your experiment duration (and hence your base payment)
+too low, then participants will time out before they can finish your experiment.
+It’s not the end of the world if participants time out – you can manually approve them via the
+Prolific interface – but it’s a bit annoying, so it’s worth avoiding.</p>
+<p>In practice, if you are deploying a 15-minute experiment, it seems to work to set
+<code class="docutils literal notranslate"><span class="pre">prolific_estimated_completion_minutes</span></code> to 3, and then set your base payment to about 50 cents.
+If you’re confident in the duration of the experiment you could reduce the duration to 3 minutes or so.</p>
+<p>Now you need to set your experiment’s title, which is done via the <code class="docutils literal notranslate"><span class="pre">title</span></code> config parameter.
+Here you should emphasize a few things:</p>
+<ul class="simple">
+<li><p>The participant needs a Chrome browser</p></li>
+<li><p>The participant needs headphones (if appropriate)</p></li>
+<li><p>The actual duration of the experiment</p></li>
+<li><p>The wage per hour</p></li>
+</ul>
+<p>For example, you might write
+“Organ chords experiment (headphones required, Chrome browser, 10-15 minutes, £10/hour payment)”.</p>
+<p>Next you set the experiment’s <code class="docutils literal notranslate"><span class="pre">description</span></code> parameter. This provides more information about the experiment.
+You should explain the payment strategy in more detail, in particular how they will be paid for the time they
+take on the experiment via Prolific’s bonus functionality. You should explain briefly what your payment
+policy will be if the participant doesn’t finish the experiment due to a technical error.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you do not use your own domain name (via the <code class="docutils literal notranslate"><span class="pre">--dns-host</span></code> argument), then Dallinger automatically
+uses a <code class="docutils literal notranslate"><span class="pre">nip.io</span></code> subdomain. We think this may be causing certain participants to encounter phishing warnings.
+It seems that this error can be avoided by instructing the participant to take the test in an incognito browser.</p>
+</div>
+<p>You should select the Prolific recruiter by setting the config parameter <code class="docutils literal notranslate"><span class="pre">recruiter</span></code> to <code class="docutils literal notranslate"><span class="pre">prolific</span></code>.
+Also, for most users we recommend setting the <code class="docutils literal notranslate"><span class="pre">auto_recruit</span></code> parameter to <code class="docutils literal notranslate"><span class="pre">false</span></code>, meaning that you will manually
+control the recruitment of participants via the Prolific interface rather than letting PsyNet manage it for you.</p>
+<p>In summary, your config.txt might look something like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[Config]
+title = Organ chords experiment (headphones required, Chrome browser, 10-15 minutes, £10/hour payment)
+description = This is a music listening experiment, but no musical expertise is required to take part. You will listen to chords played on the organ, and you will be asked to rate them for pleasantness. We use a dynamic payment scheme which means you get paid in proportion to how far you make it through the experiment.
+
+[Prolific]
+recruiter = prolific
+auto_recruit = false
+wage_per_hour = 10
+base_payment = 0.5
+prolific_estimated_completion_minutes = 3
+</pre></div>
+</div>
+</section>
+<section id="testing-your-experiment">
+<h2>Testing your experiment<a class="headerlink" href="#testing-your-experiment" title="Link to this heading">#</a></h2>
+<p>It’s a good idea to test your experiment thoroughly before deploying it. There are a few ways to do this:</p>
+<ol class="arabic simple">
+<li><p>Take it as a participant on your local computer by running <code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">docker/psynet</span> <span class="pre">debug</span> <span class="pre">local</span></code>;</p></li>
+<li><p>Run the automated experiment tests via <code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">docker/run</span> <span class="pre">pytest</span> <span class="pre">test.py</span></code>.</p></li>
+<li><p>Pilot it on your remote server by setting <code class="docutils literal notranslate"><span class="pre">recruiter</span> <span class="pre">=</span> <span class="pre">generic</span></code> in <code class="docutils literal notranslate"><span class="pre">config.txt</span></code> and then running
+<code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">docker/psynet</span> <span class="pre">debug</span> <span class="pre">ssh</span> <span class="pre">--app</span> <span class="pre">your-app-name</span></code>.</p></li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you are running automated experiment tests via Docker as instructed above,
+and you are using an Apple Silicon Mac, then make sure you have selected
+‘Use Rosetta for x86/amd64 emulation on Apple Silicon’ under the Docker preferences,
+otherwise the tests will run very slowly.</p>
+</div>
+</section>
+<section id="deploying-your-experiment">
+<h2>Deploying your experiment<a class="headerlink" href="#deploying-your-experiment" title="Link to this heading">#</a></h2>
+<p>When you’re ready to deploy your experiment, give your config one last check, making sure that the
+<code class="docutils literal notranslate"><span class="pre">prolific</span></code> recruiter is selected.
+If you need to be connected to a VPN in order to access your server, make sure you are connected to the VPN.</p>
+<p>Now you can deploy your app.
+If you do not have a domain name, then PsyNet will automatically use a <code class="docutils literal notranslate"><span class="pre">nip.io</span></code> subdomain.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">psynet</span> <span class="n">deploy</span> <span class="n">ssh</span> <span class="o">--</span><span class="n">app</span> <span class="n">your</span><span class="o">-</span><span class="n">app</span><span class="o">-</span><span class="n">name</span>
+</pre></div>
+</div>
+<p>If you do have a domain name, you should specify it via the <code class="docutils literal notranslate"><span class="pre">--dns-host</span></code> argument.
+For example, Cambridge users might use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">psynet</span> <span class="n">deploy</span> <span class="n">ssh</span> <span class="o">--</span><span class="n">app</span> <span class="n">your</span><span class="o">-</span><span class="n">app</span><span class="o">-</span><span class="n">name</span> <span class="o">--</span><span class="n">dns</span><span class="o">-</span><span class="n">host</span> <span class="n">musix</span><span class="o">.</span><span class="n">mus</span><span class="o">.</span><span class="n">cam</span><span class="o">.</span><span class="n">ac</span><span class="o">.</span><span class="n">uk</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Replace <code class="docutils literal notranslate"><span class="pre">your-app-name</span></code> with a name of your choice.
+This name will become part of the URL that participants will visit to take part in your experiment,
+so make sure it doesn’t include any funny characters or spaces.
+If your server is limited to a specific set of subdomains, your app name will be restricted to one of those subdomains.
+For example, in Cambridge we use <code class="docutils literal notranslate"><span class="pre">psynet-01</span></code>, <code class="docutils literal notranslate"><span class="pre">psynet-02</span></code>, etc. as app names, which then resolve to URLs of the form
+<code class="docutils literal notranslate"><span class="pre">psynet-01.musix.cam.ac.uk</span></code>, <code class="docutils literal notranslate"><span class="pre">psynet-02.musix.cam.ac.uk</span></code>, etc.</p>
+</div>
+<p>If the command runs successfully, it should print a link to your Prolific dashboard.
+PsyNet will have automatically created a ‘draft study’ for your, populating certain elements such as the
+title, description, and so on. Go through this draft study carefully and make sure that all the details are
+set appropriately.</p>
+<p>There is one item that is labeled something like ‘Process submissions’,
+where the options are ‘Manually review’ and ‘Approve and pay’.
+Currently we think the best thing is to select ‘Approve and pay’ but this might change in the future.</p>
+<p>Another item asks you how many participants you wish to recruit. This corresponds to the
+<code class="docutils literal notranslate"><span class="pre">initial_recruitment_size</span></code> parameter in the <code class="docutils literal notranslate"><span class="pre">config.txt</span></code> file.
+Even if you plan to recruit a large number of participants, e.g. 100, it’s normally best to start with a small number,
+and only increase the number of participants once you’re sure that everything is working well.
+We’ve found in the past that if you give too small a number, however, Prolific deprioritizes your study,
+and recruitment is slow. We recommend starting with something like 10 participants.</p>
+<p>You can set particular demographic criteria via the Prolific interface at this point.
+For example, you might choose to select participants from only a certain few countries.
+Advanced users may instead want to control this behavior via PsyNet; see below for instructions.</p>
+<p>There is also an option to set a limit on the number of participants that can take the experiment at the same time.
+In theory this would be a great idea for protecting your server from excessive loads.
+However, I have found in practice that recruitment seems strangely slow (or even non-existent) when this is set.
+I would recommend skipping this option for now.</p>
+<p>At this point you can preview the study as if you were a Prolific participant. It’s a good idea to do this
+and check that everything looks OK.</p>
+<p>Once you’re ready, click <cite>Publish study</cite>. Your study will now be advertised to participants.
+At this point you can manually decide how many participants you want to recruit.
+It’s a good idea to start with a small number in case something goes wrong.
+Monitor the study by keeping an eye on the following routes:</p>
+<ul class="simple">
+<li><p>The experiment dashboard;</p></li>
+<li><p>The Prolific messages page;</p></li>
+<li><p>The Dozzle logs.</p></li>
+</ul>
+<p>Once you’re happy that the experiment is running well, you can increase the number of participants.
+PsyNet seems to cope fine with e.g. 50 participants at a time, but this will depend a bit on the
+efficiency of your own code.</p>
+<a class="reference internal image-reference" href="../_images/increase_places_1.png"><img alt="Increase places in the survey" src="../_images/increase_places_1.png" style="width: 800px;" /></a>
+<p>Participants may encounter technical errors. Respond to them promptly via the Prolific website,
+and tell them that you can pay them if they return their submission. You can look up a particular participant
+via their Prolific ID in the experiment dashboard to see how much bonus they had accumulated so far
+(look via the Participant tab). Normally you would pay the participant this amount of money via the Prolific website,
+as a bonus; you may also wish to pay them the base payment, or part of the base payment.</p>
+<p>Before you terminate your experiment, you want to make sure you deal with all the participants in the
+‘Awaiting review’ category. Some of these participants may be people who had technical errors;
+some may have just stopped the experiment early. You need to look through these cases and deal with them
+appropriately. It’s best to have a dialogue with the participant where possible, rather than rejecting their
+submissions straightaway, which can upset people.</p>
+<a class="reference internal image-reference" href="../_images/awaiting_review_2.png"><img alt="Pay participants who are awaiting review" src="../_images/awaiting_review_2.png" style="width: 800px;" /></a>
+<p>Once the experiment is finished, export the data with <code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">export</span> <span class="pre">ssh</span> <span class="pre">--app</span> <span class="pre">your-app-name</span></code>,
+then take down the experiment by running <code class="docutils literal notranslate"><span class="pre">psynet</span> <span class="pre">destroy</span> <span class="pre">ssh</span> <span class="pre">--app</span> <span class="pre">your-app-name</span></code>.</p>
+</section>
+<section id="copying-qualifications">
+<h2>Copying qualifications<a class="headerlink" href="#copying-qualifications" title="Link to this heading">#</a></h2>
+<p>Sometimes you want to reuse demographic criteria across multiple studies.
+To do this, you should first use the Prolific interface to specify a set of demographic criteria.
+You can then export these criteria to a JSON file by doing the following.
+First, list your Prolific experiments by running the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dallinger</span> <span class="n">hits</span> <span class="o">--</span><span class="n">recruiter</span> <span class="n">prolific</span>
+</pre></div>
+</div>
+<p>which will return the full list of completed or running studies, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ dallinger hits --recruiter prolific
+❯❯ Found 23 hit[s]:
+Hit ID                    Title                                        Annotation (experiment ID)                                                                                       Status           Created                 Expiration    Description
+------------------------  -------------------------------------------  ---------------------------------------------------------------------------------------------------------------  ---------------  ----------------------  ------------  -------------
+63cd3c0de6a9e2d84d694454  Testen Sie Ihre Sprachkenntnisse! (Chrom...  Testen Sie Ihre Sprachkenntnisse! (Chrome browser notwendig, ~8 Minutes) (2b597a65-2e1d-8255-32e4-c1036719deb8)  AWAITING REVIEW  2023/1/22 01:37:17 PM
+…
+</pre></div>
+</div>
+<p>To see unpublished studies, add the <code class="docutils literal notranslate"><span class="pre">--sandbox</span></code> flag.</p>
+<p>Now copy the field <code class="docutils literal notranslate"><span class="pre">HIT</span> <span class="pre">ID</span></code> and run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dallinger</span> <span class="n">copy</span><span class="o">-</span><span class="n">qualifications</span> <span class="o">--</span><span class="n">hit_id</span> <span class="o">&lt;</span><span class="n">HIT_ID</span><span class="o">&gt;</span> <span class="o">--</span><span class="n">recruiter</span> <span class="n">prolific</span>
+</pre></div>
+</div>
+<p>Optionally, you can specify a new path for the qualification, e.g.: <code class="docutils literal notranslate"><span class="pre">--qualification_path</span>
+<span class="pre">qualification_prolific_de.json</span></code> for qualifications for German participants.</p>
+<p>Finally, you need to add the qualification to your <code class="docutils literal notranslate"><span class="pre">config.txt</span></code> file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">Prolific</span><span class="p">]</span>
+<span class="n">prolific_recruitment_config</span> <span class="o">=</span> <span class="n">file</span><span class="p">:</span><span class="n">prolific_config</span><span class="o">.</span><span class="n">json</span>
+</pre></div>
+</div>
+<p>If you don’t have an existing experiment from which you want to copy the qualifications, you can create a draft study in
+Prolific and then copy its HIT ID using the same steps as before.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="deploy_from_archive.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Deploying from archive</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="heroku_server.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Heroku deployments</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023, Peter Harrison
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Deploying an experiment to Prolific</a><ul>
+<li><a class="reference internal" href="#setting-up-your-prolific-account">Setting up your Prolific account</a></li>
+<li><a class="reference internal" href="#setting-up-your-computer">Setting up your computer</a></li>
+<li><a class="reference internal" href="#setting-experiment-configuration">Setting experiment configuration</a></li>
+<li><a class="reference internal" href="#testing-your-experiment">Testing your experiment</a></li>
+<li><a class="reference internal" href="#deploying-your-experiment">Deploying your experiment</a></li>
+<li><a class="reference internal" href="#copying-qualifications">Copying qualifications</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=bffcfdfb"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    <script src="../_static/js/custom.js?v=ca86d9ac"></script>
+    </body>
+</html>

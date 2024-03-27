@@ -1,0 +1,174 @@
+=====================
+Translation dashboard
+=====================
+
+PsyNet is available in 40 languages:
+------------------------------------
+.. list-table::
+   :header-rows: 1
+   :widths: 15 15 15 55
+
+   * - Language
+     - Percent translated
+     - Percent verified
+     - Translator
+   * - Arabic (``ar``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Belarusian (``be``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Bulgarian (``bg``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Chinese (``zh``)
+     - 100.0 %
+     - 89.3 %
+     - DeepL API
+   * - Croatian (``hr``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Czech (``cs``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Danish (``da``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Dutch (``nl``)
+     - 100.0 %
+     - 89.7 %
+     - DeepL API
+   * - Estonian (``et``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Finnish (``fi``)
+     - 100.0 %
+     - 0.2 %
+     - DeepL API
+   * - French (``fr``)
+     - 100.0 %
+     - 35.6 %
+     - DeepL API
+   * - German (``de``)
+     - 100.0 %
+     - 62.6 %
+     - DeepL API
+   * - Greek (``el``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Hebrew (``he``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Hindi (``hi``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Hungarian (``hu``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Indonesian (``id``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Italian (``it``)
+     - 100.0 %
+     - 63.2 %
+     - DeepL API
+   * - Japanese (``ja``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Korean (``ko``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Lithuanian (``lt``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Malay (``ms``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Norwegian (``no``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Norwegian Bokmål (``nb``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Polish (``pl``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Portuguese (``pt``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Romanian (``ro``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Russian (``ru``)
+     - 100.0 %
+     - 44.0 %
+     - Ilia Sucholutsky
+   * - Serbian (``sr``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Slovak (``sk``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Slovenian (``sl``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Spanish (``es``)
+     - 100.0 %
+     - 52.6 %
+     - DeepL API
+   * - Swahili (``sw``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Swedish (``sv``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Tagalog (``tl``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Thai (``th``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Turkish (``tr``)
+     - 100.0 %
+     - 88.3 %
+     - DeepL API
+   * - Ukrainian (``uk``)
+     - 100.0 %
+     - 0.0 %
+     - DeepL API
+   * - Urdu (``ur``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
+   * - Vietnamese (``vi``)
+     - 100.0 %
+     - 0.0 %
+     - GoogleTranslate API
