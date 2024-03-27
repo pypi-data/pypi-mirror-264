@@ -1,0 +1,10 @@
+python-dotenv
+openai
+google-generativeai
+newspaper3k
+youtube-transcript-api
+pytube
+duckduckgo_search
+aiohttp
+python-docx
+PyPDF2
