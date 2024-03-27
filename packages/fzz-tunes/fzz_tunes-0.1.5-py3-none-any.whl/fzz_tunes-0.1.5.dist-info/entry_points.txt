@@ -1,0 +1,4 @@
+[console_scripts]
+fzz-tunes=fzz_tunes.__main__:main
+main=fzz_tunes.main:main
+
