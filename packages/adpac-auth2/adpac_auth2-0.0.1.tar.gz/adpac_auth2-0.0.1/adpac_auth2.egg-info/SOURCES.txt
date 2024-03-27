@@ -1,0 +1,9 @@
+README.md
+setup.py
+adpac_auth2/__init__.py
+adpac_auth2/module.py
+adpac_auth2.egg-info/PKG-INFO
+adpac_auth2.egg-info/SOURCES.txt
+adpac_auth2.egg-info/dependency_links.txt
+adpac_auth2.egg-info/requires.txt
+adpac_auth2.egg-info/top_level.txt
