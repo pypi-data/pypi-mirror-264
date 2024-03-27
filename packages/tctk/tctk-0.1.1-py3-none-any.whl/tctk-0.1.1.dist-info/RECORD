@@ -1,0 +1,8 @@
+src/tctk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tctk/hail-tools.py,sha256=o81Vv9sxsJWkqBlNl7UhGR_TJlV3Hws4FfyP3i_cbcE,3603
+src/tctk/polars-tools.py,sha256=jJy7dX917JXSSy5uxW4MXm_zyZk_IH6F_aGXCYgCIpA,687
+tctk-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tctk-0.1.1.dist-info/METADATA,sha256=Kefa1vjy-B_KDzCNHHtEZk3ZvqHDmlZP80E4u-RoZYM,374
+tctk-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tctk-0.1.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+tctk-0.1.1.dist-info/RECORD,,
