@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+interactiveshellsubproc/README.MD
+interactiveshellsubproc/__init__.py
+interactiveshellsubproc/requirements.txt
+interactiveshellsubproc/thirdparty.json
+interactiveshellsubproc.egg-info/PKG-INFO
+interactiveshellsubproc.egg-info/SOURCES.txt
+interactiveshellsubproc.egg-info/dependency_links.txt
+interactiveshellsubproc.egg-info/requires.txt
+interactiveshellsubproc.egg-info/top_level.txt
