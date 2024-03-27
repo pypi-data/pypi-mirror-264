@@ -1,0 +1,8 @@
+shipyard_file_manipulation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipyard_file_manipulation/cli/compare.py,sha256=DOxXarVj_hQYWPW8n-qKLlOs5hCxbfJiWfVVwR9dio8,2848
+shipyard_file_manipulation/cli/compress.py,sha256=ddee1jx8zmWWBcE0-CHVgh3BhayAiV3UtR2KDJcFcmI,5520
+shipyard_file_manipulation/cli/convert.py,sha256=9HX39RKvj4j5davyzwZJsXdvZb9UUeNcciSLBnlX1eY,10037
+shipyard_file_manipulation/cli/decompress.py,sha256=5I28HucnpdhM7WIs8oPZmfFXj2SQIpRVvk3nG1Ck9m0,3941
+shipyard_file_manipulation-0.1.0.dist-info/METADATA,sha256=veTYDkiLF1-eF4I2FTGeYFrSU1H9ti4eABwurwM7QNY,634
+shipyard_file_manipulation-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_file_manipulation-0.1.0.dist-info/RECORD,,
