@@ -1,0 +1,16 @@
+checkv/__init__.py,sha256=OQNo9WJMJk09fnIpXiq5bfXpbQplgscrtUUVt96o8J0,271
+checkv/cli.py,sha256=r1XUzXHkRhRGiNh3ceYkogpQ0W2qW9vw9tqHC-uwko8,4704
+checkv/utility.py,sha256=7MDVXtNubZNN4a65wb5X2fYLruW-qXOqfWx_yjIYFY8,13281
+checkv/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkv/modules/complete_genomes.py,sha256=mf4LH8qhvh801FxhTAb0ra0PxSEwzbb-1zZTfnCqidM,10550
+checkv/modules/completeness.py,sha256=yE_UB4if6uEcNwaApua7XKay32i8MrLPm_R3Qf6KrqE,18817
+checkv/modules/contamination.py,sha256=_PjA5gO4bmFsJVOuaw_q1DxgoJQgVeZ-RlDho6uHDk4,18639
+checkv/modules/download_database.py,sha256=l0AZ37BwDHwGg3C4XCSbL_dFe_5U5fQSQYRh4PAAR48,4557
+checkv/modules/end_to_end.py,sha256=P6LnDZXhidLWQ3KATjd9QXjZ9sB556Ra2bw0Cxj_cUI,1813
+checkv/modules/quality_summary.py,sha256=uaerKbSHYgdbmHoCYZ2k06qBdpcJVFSN59r1ATFAY0Q,7278
+checkv/modules/update_database.py,sha256=LBO9HKDWRev8miBjQVF0bCky-PxcDjwr1X2CdCVt9ZU,3038
+checkv-1.0.3.dist-info/entry_points.txt,sha256=q52P7JPdBrqddNMm1gvZumSpasDPQfJkMjxcd_mvvKQ,41
+checkv-1.0.3.dist-info/LICENSE.txt,sha256=I6Ue4val-VYlon8e8gaN5sfg9OWeSemDh7FVSb8vtZc,2425
+checkv-1.0.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+checkv-1.0.3.dist-info/METADATA,sha256=9ULIHl1vy7BC4VWczagLJDhnHvKItbPqTiNUX5SVSMo,21816
+checkv-1.0.3.dist-info/RECORD,,
