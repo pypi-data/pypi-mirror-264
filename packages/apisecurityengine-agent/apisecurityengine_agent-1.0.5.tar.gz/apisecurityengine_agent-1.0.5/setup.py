@@ -1,0 +1,12 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='apisecurityengine_agent',
+    version='1.0.5',
+    author='CyberUltron',
+    description='An agent that captures the API traffic coming to the host application and sends it to apisecurityengine service for checking security vulnerabilities.',
+    packages=find_packages(),
+    install_requires=[
+        # List your package dependencies here
+    ],
+)
