@@ -1,0 +1,12 @@
+prusek_spheroid/ContoursClassGUI.py,sha256=FJ93Zd3SYnumW5nw8F8qJGN9e0qYjiiRFOJeQCM6BWA,16566
+prusek_spheroid/GradientDescentGUI.py,sha256=mDlGtIpi8l0APTif-wgI-Q1RmYiMvdJTKlSm92K7hlo,12427
+prusek_spheroid/calculate_iou.py,sha256=K1-zPQiXCEGtTPQt5vYJl8uUW2CuCscrSS9hv8M6Hsk,2370
+prusek_spheroid/characteristic_functions.py,sha256=eBoecKRGihau_tHPgKwhinWu-q7k35u62LU4KbEstqw,4491
+prusek_spheroid/file_management.py,sha256=bQYHXd2jm_YsJ4QW13EfC_wak7oNi-JSIzO_H9K8M4Q,6687
+prusek_spheroid/image_processing.py,sha256=e-O123W57S1fSdWB3vVtA8uxVJqocIftU03aoaR2UZ8,3467
+prusek_spheroid/methods.py,sha256=Y_dv8jxcQ0XwR7MdXZlu4poKbHA_jcTRDptSdMqX0M4,3686
+prusek_spheroid/selection_dialog.py,sha256=CVL_bpDZsuyp8m1J3IwT8F7_-KAJgjbDD7oBf2tWxNE,4632
+prusek_spheroid-2.7.dist-info/METADATA,sha256=Uzex98VdAiNESCU-tghd-gq9qpKmWnYllWeqTbGAneE,8105
+prusek_spheroid-2.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+prusek_spheroid-2.7.dist-info/top_level.txt,sha256=UaTJ5FWUaW_k5_r3hzbgK1Ng7-dL6x3X_H5lD01Yx-g,16
+prusek_spheroid-2.7.dist-info/RECORD,,
