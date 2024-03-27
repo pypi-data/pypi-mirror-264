@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+verilog_pad_analyzer.egg-info/PKG-INFO
+verilog_pad_analyzer.egg-info/SOURCES.txt
+verilog_pad_analyzer.egg-info/dependency_links.txt
+verilog_pad_analyzer.egg-info/top_level.txt
+vpadanalyzer/__init__.py
+vpadanalyzer/arguments.py
+vpadanalyzer/paths.py
+vpadanalyzer/synthesis.py
+vpadanalyzer/config/__init__.py
+vpadanalyzer/config/abc.script
+vpadanalyzer/config/gscl45nm.lib
