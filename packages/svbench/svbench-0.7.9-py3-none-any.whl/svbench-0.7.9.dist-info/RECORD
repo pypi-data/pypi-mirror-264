@@ -1,0 +1,12 @@
+svbench/__init__.py,sha256=DZUAk_GVWXukG4CN6aVXpKdK1EvLhJqohYQaREv_o4w,94
+svbench/cli.py,sha256=ou3B73RnvFZjSXH_Ke6uQenJXpRnM_F_Lpvyl7gkMpI,1989
+svbench/io_tools.py,sha256=1CDcRQIpZB_a6-A7e7J2jzMXbXHPQBxct5d5HrbdnlI,70805
+svbench/loaders.py,sha256=NkP-Ufl2TBsl3gb-918QafHOXcrxpByV2Wdo7SRGsFQ,2320
+svbench/quant_tools.py,sha256=zTVH6x7qaABUyijVB1gLlzDAKzmml4Sy12mea5BotUo,8106
+svbench/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svbench-0.7.9.dist-info/LICENSE.md,sha256=4QT-_vt40xPWLm_rmyWy0RoWC45i0WGHRqEHTcd6n9w,1069
+svbench-0.7.9.dist-info/METADATA,sha256=kJivHEYweHAUiK-DDEtIqH2PDsKxMjafoUHILUhAT5o,275
+svbench-0.7.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+svbench-0.7.9.dist-info/entry_points.txt,sha256=D7zUeTkDq4cm3qPF0k7NxEEZ4FlgQz1AiZ8RqnNE9Pg,45
+svbench-0.7.9.dist-info/top_level.txt,sha256=lRyxU0DQgN7Oa4JHSfYgO6NeMWNdRrYovttVEQSI-CU,8
+svbench-0.7.9.dist-info/RECORD,,
