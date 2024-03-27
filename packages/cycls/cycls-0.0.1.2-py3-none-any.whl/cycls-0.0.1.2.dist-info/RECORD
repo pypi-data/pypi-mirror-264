@@ -1,0 +1,10 @@
+cycls/UI.py,sha256=trlQ_vbzFLJY1D942kppyMBdIu61NG9mLNxyeoPsqB8,657
+cycls/__init__.py,sha256=ypt-4GPm9sRwC4tqPMUqtwPM6YQh2NDDsXq8fxpuU_k,108
+cycls/client.py,sha256=YwCv51I3nT9PHG8IClbDO-INhSTdkx-Cd8a7P-KDHyY,6836
+cycls/configuration.py,sha256=REfNM3lOS0kFB4Md1OQ-IOk72p5n4hrt04U8Irt7bNc,785
+cycls/static.py,sha256=lLH9-_QPQvMpUMpX6nczwKPSnzZDnWVjtbO4O_HSiAU,120
+cycls/typings.py,sha256=yZzebdOeNqTSMz7Dgnc9C9rFxbWrIouPR8KUtQ_Anlc,5021
+cycls-0.0.1.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cycls-0.0.1.2.dist-info/METADATA,sha256=125TlEGO7K_sg7UyTzFK_dttaHxeFirHEURS0tIjQAk,667
+cycls-0.0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cycls-0.0.1.2.dist-info/RECORD,,
