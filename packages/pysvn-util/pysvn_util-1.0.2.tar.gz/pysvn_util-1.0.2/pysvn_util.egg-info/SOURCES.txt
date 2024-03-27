@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pysvn_util/__init__.py
+pysvn_util/svn_util.py
+pysvn_util.egg-info/PKG-INFO
+pysvn_util.egg-info/SOURCES.txt
+pysvn_util.egg-info/dependency_links.txt
+pysvn_util.egg-info/top_level.txt
+pysvn_util.egg-info/zip-safe
