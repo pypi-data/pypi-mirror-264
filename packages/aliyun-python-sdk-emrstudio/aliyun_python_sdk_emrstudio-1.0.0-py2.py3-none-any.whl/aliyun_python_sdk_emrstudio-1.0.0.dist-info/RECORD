@@ -1,0 +1,9 @@
+aliyunsdkemrstudio/__init__.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+aliyunsdkemrstudio/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkemrstudio/request/v20231009/ListProjectsRequest.py,sha256=t_CdBJ62JcV62WUQ_Sasy0O7fzJ5CJgeKuQKJXI60Uc,1847
+aliyunsdkemrstudio/request/v20231009/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_emrstudio-1.0.0.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_emrstudio-1.0.0.dist-info/METADATA,sha256=w85NnrfF6OX2f3IJaPZ6qKGGgRaWdITdHWjJ-MKYvhM,1483
+aliyun_python_sdk_emrstudio-1.0.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+aliyun_python_sdk_emrstudio-1.0.0.dist-info/top_level.txt,sha256=jLG6rDLGZ4aZlrzP1B_9-2BxlK-YTxkyzb0Ck3cYL8g,19
+aliyun_python_sdk_emrstudio-1.0.0.dist-info/RECORD,,
