@@ -1,0 +1,9 @@
+cufjc_scission/__init__.py,sha256=4ECLbX6mcMWFxh1NYxQbPXEs0y2LNID6rxEoqFAfqeQ,160
+cufjc_scission/cufjc_scission_model.py,sha256=JiM6thO10914C7iyRqVBz7kMa2_dlycP0nCrfABKIi0,2681
+cufjc_scission/rate_dependence_scission.py,sha256=1a9BGy3h6d1GPkX6KYLsH14E74rGAeC-5kJf5Od4tx4,11760
+cufjc_scission/scission_model.py,sha256=aeFv-OrDg3ckuUjIUdcwDPxTh2H1B-qwRgIgGEUDkfs,48977
+cufjc_scission-1.6.0.dist-info/LICENSE,sha256=VKTJUGxYrhAZWQ8FM2WGPtQTGfWZBnE8GxZyRNzC9b0,734
+cufjc_scission-1.6.0.dist-info/METADATA,sha256=5anDwZp1ew6PVYtHOx0cLRKzc9MtT4bl1e4mK7ZO834,3906
+cufjc_scission-1.6.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+cufjc_scission-1.6.0.dist-info/top_level.txt,sha256=KqDQDyrtAiJextyPvUeIreB11wJOGb3HckHQ0kiv44Y,15
+cufjc_scission-1.6.0.dist-info/RECORD,,
