@@ -1,0 +1,3 @@
+[console_scripts]
+dynatalk-monitor=dynatalk.cli_monitor:monitor
+

@@ -1,0 +1,9 @@
+dynatalk/__init__.py,sha256=t0OAHR0mXL5g-SKfOxhREcW8rULGdJJmJbS3SFbow3w,74
+dynatalk/agent.py,sha256=EEPDv5pRZE3G7Py4g4BZ9V-92274MXIiSNEawpJR5J8,5967
+dynatalk/cli_monitor.py,sha256=zwrAyOEDOEIun6Gjjq4tKXSUdW_TojkHNc0_o1HxxMY,2896
+dynatalk/space.py,sha256=U_Xq3qp-_nRvQc-Obri3mGQGluETzsOyPm-LLltpJYE,1805
+dynatalk/supervisor.py,sha256=x-2a2FLyI35fAAxqDQh0ehezJgemdcS3IK5CU18D83s,1849
+dynatalk-0.5.1.dist-info/METADATA,sha256=H7b_C_fh9NobbJUfqu5hG87VmX_KcyzFK_LtKMcd-l0,791
+dynatalk-0.5.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+dynatalk-0.5.1.dist-info/entry_points.txt,sha256=crMOrVS3k73td3wfMB6gYR-zWUXAvkp_dsxQ5aHz-N4,65
+dynatalk-0.5.1.dist-info/RECORD,,
