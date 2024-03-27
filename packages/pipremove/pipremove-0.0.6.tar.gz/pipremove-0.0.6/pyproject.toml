@@ -1,0 +1,25 @@
+[project]
+name = "pipremove"
+version = "0.0.6"
+authors = [
+  { name = "Li WeiJian", email = "1330757852@qq.com" },
+]
+dependencies = ['pipdeptree',]
+description = "删除模块包及其依赖包"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# [build-system]
+# requires = ["setuptools>=61.0"]
+# build-backend = "setuptools.build_meta"
+
+scripts.pipremove = "pipremove.pipremove:main_menu"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
