@@ -1,0 +1,6 @@
+toml
+pyelftools
+
+[dev]
+pytest
+pytest-cov
