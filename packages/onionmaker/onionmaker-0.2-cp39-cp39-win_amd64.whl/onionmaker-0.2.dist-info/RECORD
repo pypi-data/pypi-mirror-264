@@ -1,0 +1,9 @@
+onionmaker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onionmaker/__main__.py,sha256=_Gr9wZNTMVVOiW_0nPkqXaSTLMm3uVDCa7AJswL8WXY,6975
+onionmaker/ed25519.cp39-win_amd64.pyd,sha256=Sa5_kfkQseikhJWBXTXHnUqJ3y_eb8JwE5sUVzKW96U,72704
+onionmaker-0.2.dist-info/LICENSE,sha256=X3Wea6d2OQvYVk2mXi_wZZ1yh7loiAKRrXEgS6frp34,1092
+onionmaker-0.2.dist-info/METADATA,sha256=YrmUDQkWLjXtf7YBrK6K_PtZng8ihzQpSyQM1RUcm6A,1825
+onionmaker-0.2.dist-info/WHEEL,sha256=eep6QWEFiQfg2wcclssb_WY-D33AnLYLnEKGA9Rn-VU,100
+onionmaker-0.2.dist-info/entry_points.txt,sha256=tnqYwOmvTe44KeIUnxA75l0usE71D61-bVujccVSG50,57
+onionmaker-0.2.dist-info/top_level.txt,sha256=p51XGlPnNYGnGJleTPRF0WttuDbHexpbotQdaRidSak,11
+onionmaker-0.2.dist-info/RECORD,,
