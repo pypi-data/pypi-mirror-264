@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyMood/__init__.py
+src/pyMood/__main__.py
+src/pyMood/affirmations.py
+src/pyMood/coffee_types.py
+src/pyMood/highfives.py
+src/pyMood/jokes.py
+src/pyMood/mood.py
+src/pyMood/relaxation_tips.py
+src/pyMood.egg-info/PKG-INFO
+src/pyMood.egg-info/SOURCES.txt
+src/pyMood.egg-info/dependency_links.txt
+src/pyMood.egg-info/top_level.txt
+tests/test_mood.py

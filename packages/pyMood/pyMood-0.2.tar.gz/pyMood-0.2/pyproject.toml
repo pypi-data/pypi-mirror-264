@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyMood"
+version = "0.2"
+description = "A Python package for mood analysis and suggestion"
+authors = [{ name = "Francisco Cunningham"}, { name = "Ahmad Almesned"}, { name = "Tanuj Sistla"}, { name = "Abhi Vachani"}]
+readme = "README.md"
