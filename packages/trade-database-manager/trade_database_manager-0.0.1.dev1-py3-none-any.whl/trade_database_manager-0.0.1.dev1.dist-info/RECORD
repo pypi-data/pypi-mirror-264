@@ -1,0 +1,15 @@
+trade_database_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trade_database_manager/config.py,sha256=ouXjR6AZjDTi0uxDMzBlBwdxuZyTgzHGH0UwXw8Ht00,184
+trade_database_manager/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trade_database_manager/core/kdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trade_database_manager/core/sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trade_database_manager/core/sql/sqlmanager.py,sha256=WgbbNgzsQ5T22KnWvIcQhZX_a830_EKs1IcbZzXtM-8,4344
+trade_database_manager/core/sql/sqlreader.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trade_database_manager/core/sql/sqlwriter.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trade_database_manager/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trade_database_manager/tools/init_config.py,sha256=yZCqCraQODMPMTfQY_aCcL75b1b6AZ4SBn38_xbnQK4,1679
+trade_database_manager-0.0.1.dev1.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+trade_database_manager-0.0.1.dev1.dist-info/METADATA,sha256=2ttgGG-4-lUYpxvWX2K1IXH9mFLCxaAh-aa8x-HAT2w,1745
+trade_database_manager-0.0.1.dev1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+trade_database_manager-0.0.1.dev1.dist-info/top_level.txt,sha256=jO4Su5YDnjOl1H9ti8F2HJmWIX1LEJy4wwli8N_z7Jw,23
+trade_database_manager-0.0.1.dev1.dist-info/RECORD,,
