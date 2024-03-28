@@ -1,0 +1,43 @@
+{
+    "camera": {
+        "data_unit": "adu",
+        "gain": "1.0 electron / adu",
+        "name": "CG16M",
+        "read_noise": "10.0 electron",
+        "dark_current": "0.01 electron / s",
+        "pixel_scale": "0.6 arcsec / pix",
+        "max_data_value": "50000.0 adu"
+    },
+    "observatory": {
+        "name": "feder",
+        "latitude": "1d00m00s",
+        "longitude": "2d00m00s",
+        "elevation": "100.0 m",
+        "AAVSO_code": null,
+        "TESS_telescope_code": null
+    },
+    "photometry_apertures": {
+        "radius": 1,
+        "gap": 1,
+        "annulus_width": 1,
+        "fwhm": 1.0
+    },
+    "source_locations": {
+        "source_list_file": "/Users/jv8699qa/Development/astronomy/stellarphot/moomoo.ecsv",
+        "use_coordinates": "sky",
+        "shift_tolerance": 5.0
+    },
+    "photometry_options": {
+        "include_dig_noise": true,
+        "reject_too_close": true,
+        "reject_background_outliers": true,
+        "fwhm_by_fit": true
+    },
+    "passband_map": {
+        "your_filter_names_to_aavso": null
+    },
+    "logging_settings": {
+        "logfile": null,
+        "console_log": true
+    }
+}
