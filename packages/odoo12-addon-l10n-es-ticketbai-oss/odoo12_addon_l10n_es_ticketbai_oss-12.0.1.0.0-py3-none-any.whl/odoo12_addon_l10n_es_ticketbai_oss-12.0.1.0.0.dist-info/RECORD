@@ -1,0 +1,17 @@
+odoo/addons/l10n_es_ticketbai_oss/README.rst,sha256=yKze8wWH26EJCxSD3FLma2l8AMDSfv2eYMP-mOk5GFk,2262
+odoo/addons/l10n_es_ticketbai_oss/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/l10n_es_ticketbai_oss/__manifest__.py,sha256=-Z_Wf_vj_ncbKT646xq-luWOHF2fU9mKj1S2RVqC_NI,601
+odoo/addons/l10n_es_ticketbai_oss/i18n/es.po,sha256=NY_7xHuIgd50_3GKANx319yFCqCF-V1SW-GJBpwSbBM,2659
+odoo/addons/l10n_es_ticketbai_oss/i18n/eu_ES.po,sha256=mYT_JFbiIkd3c8BCEIqtJlGr_VV9YvgRkz0n7PaoswU,2791
+odoo/addons/l10n_es_ticketbai_oss/models/__init__.py,sha256=BjM4rxVY382pLamh1wUwrP-LK4DrNXZCoNOxHakeJVQ,96
+odoo/addons/l10n_es_ticketbai_oss/models/account_invoice_tax.py,sha256=zsPSSyTPZCKKKtNs2ViW40b0XDluN-l1x1z72JPK7nU,974
+odoo/addons/l10n_es_ticketbai_oss/models/account_tax.py,sha256=lF9_1gcJDbxbHWrLUXLP-iy-odTumdI8_uCm8oCd7v4,1006
+odoo/addons/l10n_es_ticketbai_oss/models/ticketbai_invoice_tax.py,sha256=wORZ0n3Zpn4YpfTyyatP-D3sdT6CkCGlDDyteogBWVI,287
+odoo/addons/l10n_es_ticketbai_oss/static/description/icon.png,sha256=S4uJP20_QN9TNhnWgNh-9CPV2WGX-86uCn31lUwv1Pk,9485
+odoo/addons/l10n_es_ticketbai_oss/tests/__init__.py,sha256=XFErTXGD_JJ3EAOBIIhAYBKbd6qJaFbYlY5gwOUyIWs,31
+odoo/addons/l10n_es_ticketbai_oss/tests/test_invoice_oss.py,sha256=fK-UqAGpyIzperTSt_A5tbntL04qPaqX0RZrmBBxfKw,2691
+odoo/addons/l10n_es_ticketbai_oss/views/account_tax_views.xml,sha256=OzlOWqFLkE_DZ6br4mu8wIL-8HUQ_BWejKu0J87g9SA,814
+odoo12_addon_l10n_es_ticketbai_oss-12.0.1.0.0.dist-info/METADATA,sha256=ZfWPTNdz9GQo0gufGDzLl2HBOj0-6UdmazDNk0PoCWk,2886
+odoo12_addon_l10n_es_ticketbai_oss-12.0.1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo12_addon_l10n_es_ticketbai_oss-12.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_l10n_es_ticketbai_oss-12.0.1.0.0.dist-info/RECORD,,
