@@ -1,0 +1,10 @@
+educhain/__init__.py,sha256=T0LnoInpLC872A7dPBoAU8_Av84trJiDcSp_WWD-Kog,73
+educhain/content_engine.py,sha256=Do-__pG7fgAtfL1CwT2Jwy4OGiA-9p8TWcTaiG42QBY,768
+educhain/models.py,sha256=Wc2J4PANbIBpd0TteSBAUKSff7IRmYJDLHARjJ5sxDo,610
+educhain/qna_engine.py,sha256=S6AdLCBjPTlabz-25m6ZaecG4-i2QCkbws1x8M4fpis,1578
+educhain/utils.py,sha256=sPyYnP_jW7hEopGKxOnj9W335EyUzs7ITmglWxJ10wY,625
+educhain-0.1.2.dist-info/LICENSE,sha256=12ceGEo6dkPpiEkJh9atjQSwhsKPff8wPNo9O4y2gxc,1066
+educhain-0.1.2.dist-info/METADATA,sha256=HkVTzz7sfT9fwTyZTQZUWBmnbM_EUNhptBoP0Oq27Sw,2188
+educhain-0.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+educhain-0.1.2.dist-info/top_level.txt,sha256=inyLxsE82ng3_abRnEJdyXT0DjmDQjJS7D0bYPD_btM,9
+educhain-0.1.2.dist-info/RECORD,,
