@@ -1,0 +1,10 @@
+[project]
+name = "elloh2"
+version = "0.0.1"
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "sparklog"
+]
