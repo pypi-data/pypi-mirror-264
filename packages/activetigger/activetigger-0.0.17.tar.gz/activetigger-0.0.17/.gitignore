@@ -1,0 +1,14 @@
+data/
+docker/
+models/
+notebooks/
+projects/
+activetigger/log
+log
+Réflexions.md
+.ipynb_checkpoints/
+.s3cfg
+activetigger/.ipynb_checkpoints/
+activetigger/__pycache__/
+dist/
+tests/__pycache__/
