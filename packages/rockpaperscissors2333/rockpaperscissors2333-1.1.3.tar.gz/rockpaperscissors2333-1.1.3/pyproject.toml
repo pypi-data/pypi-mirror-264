@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rockpaperscissors2333"
+description = "A simple Rock, Paper, Scissors game."
+version = "1.1.3"
+authors = [
+  { name="Zijie Zhao", email="zz3589@nyu.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "game", "rock-paper-scissors"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/pysong"
+"Repository" = "https://github.com/software-students-spring2024/pysong.git"
+"Bug Tracker" = "https://github.com/software-students-spring2024/pysong/issues"
+
+[project.scripts]
+rockpaperscissors2333 = "rockpaperscissors2333.__main__:main"
