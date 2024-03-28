@@ -1,0 +1,13 @@
+pysvgo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysvgo/_read.py,sha256=4W0mhLoFoNO0NkXdg08cOXdCX4pLB_3iustrUWExRrE,489
+pysvgo/addition.py,sha256=nJ9oGfVZx5Okc7RdalbUKZhJ2RDME3vWLKNa6Jl7-Vg,287
+pysvgo/core.py,sha256=PMkcpWa9zfUgM8AzjdvX3qqFcueWbaibh-cij_gkMmA,956
+pysvgo/default.py,sha256=ssU4Al5yFrt11WU2uX1SyACzS6dax4Hnw1RfIodNRPI,298
+pysvgo/main.py,sha256=6KStvzTMGBJl4-BZWoQn-MZtjqu6daiEkEUbM7jOm1I,383
+pysvgo/multiplication.py,sha256=cyTu-nQU_NTHiLSertp_QnwN3U1RGWYAyCB4F54fGk0,309
+pysvgo-0.0.1.dist-info/LICENSE,sha256=XwRbVnzKqDGSsntVOQiR1jv4WQDO0D_etKlHeJCJkNk,1085
+pysvgo-0.0.1.dist-info/METADATA,sha256=Fuyij8npdSrTicdUcuMUjb7cWhxfa5k-Hl6TKXnOjLw,5291
+pysvgo-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysvgo-0.0.1.dist-info/top_level.txt,sha256=fqrgf2vbJPIZcyz7Ea93Lq7AqCSQdaxtW0VZNRYRWpc,7
+pysvgo-0.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pysvgo-0.0.1.dist-info/RECORD,,
