@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wq demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="module">
+      import wq from "https://unpkg.com/wq";
+      import config from "https://unpkg.com/wq/demo/config.js";
+      wq.init(config).then(wq.prefetchAll);
+      window.wq = wq;
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.4.1/mapbox-gl-draw.css"
+    />
+  </head>
+  <body>
+    <script nomodule>
+      document.write("This app requires ESM support.");
+    </script>
+  </body>
+</html>

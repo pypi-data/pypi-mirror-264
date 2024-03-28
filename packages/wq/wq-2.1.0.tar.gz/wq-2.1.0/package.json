@@ -1,0 +1,60 @@
+{
+    "name": "wq",
+    "version": "2.1.0",
+    "description": "Mobile data collection & survey framework",
+    "type": "module",
+    "main": "index.js",
+    "unpkg": "wq.js",
+    "files": [
+        "wq.js",
+        "wq.js.map",
+        "licenses.txt",
+        "demo/*"
+    ],
+    "scripts": {
+        "test": "jest",
+        "prettier": "prettier --write index.js rollup.config.js *.json",
+        "build": "rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wq/wq.git"
+    },
+    "keywords": [
+        "wq",
+        "app",
+        "mobile",
+        "survey",
+        "gis",
+        "offline",
+        "data-collection"
+    ],
+    "author": "S. Andrew Sheppard",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wq/wq/issues"
+    },
+    "homepage": "https://wq.io/",
+    "dependencies": {
+        "@wq/app": "^2.1.0",
+        "@wq/map-gl": "^2.1.0",
+        "@wq/map-gl-web": "^2.1.0",
+        "@wq/material": "^2.1.0",
+        "@wq/material-web": "^2.1.0"
+    },
+    "devDependencies": {
+        "@rollup/plugin-babel": "^6.0.3",
+        "@rollup/plugin-commonjs": "^25.0.2",
+        "@rollup/plugin-json": "^6.0.0",
+        "@rollup/plugin-node-resolve": "^15.1.0",
+        "@rollup/plugin-replace": "^5.0.2",
+        "@rollup/plugin-terser": "^0.4.3",
+        "prettier": "^2.8.8",
+        "rollup": "^3.25.1",
+        "rollup-plugin-analyzer": "^4.0.0",
+        "rollup-plugin-license": "^3.0.1"
+    },
+    "prettier": {
+        "tabWidth": 4
+    }
+}

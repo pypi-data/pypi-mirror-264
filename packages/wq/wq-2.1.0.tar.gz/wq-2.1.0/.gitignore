@@ -1,0 +1,8 @@
+*.pyc
+*.egg-info
+/build
+dist
+wq.js
+wq.js.map
+node_modules/
+_site/
