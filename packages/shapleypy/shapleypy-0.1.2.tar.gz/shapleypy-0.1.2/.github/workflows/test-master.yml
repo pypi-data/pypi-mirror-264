@@ -1,0 +1,68 @@
+name: Big test
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+concurrency:
+  group: test-${{ github.head_ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUNBUFFERED: "1"
+  FORCE_COLOR: "1"
+
+jobs:
+  run:
+    name: Python ${{ matrix.python-version }} on ${{ startsWith(matrix.os, 'macos-') && 'macOS' || startsWith(matrix.os, 'windows-') && 'Windows' || 'Linux' }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ['3.9', '3.10', '3.11']
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - if: runner.os == 'Linux'
+      name: Install dependencies
+      run: sudo apt-get install -y ppl-dev libgmp-dev libmpfr-dev libmpc-dev
+
+    - if: runner.os == 'macOS'
+      name: Install dependencies
+      run: brew install ppl gmp mpfr libmpc &&
+           export CFLAGS="-I/opt/homebrew/include/ -L/opt/homebrew/lib/ -I/opt/homebrew/include/ -L/opt/homebrew/lib $CFLAGS"
+
+    - name: Update pip
+      run: python -m pip install --upgrade pip
+
+    - name: Install Hatch
+      run: pip install --upgrade hatch
+
+    - if: runner.os == 'Linux'
+      name: Install pip dependencies
+      run: CPPFLAGS="-std=c++11" hatch env create # For some reason eport CPPFLAGS="-std=c++11" doesn't work so doing this to install pip dependecies with c++11
+
+    - if: matrix.python-version == '3.9' && runner.os == 'Linux'
+      name: Type check
+      run: hatch run types:check      
+
+    - if: matrix.python-version == '3.9' && runner.os == 'Linux'
+      name: Lint
+      run: hatch run lint:style
+
+    - name: Run tests
+      run: hatch run test-cov -vv
+
+    - name: Show coverage
+      run: hatch run cov-report
