@@ -1,0 +1,4 @@
+numpy
+gmsh
+meshio<=5.1.2,>=4
+pyvista>=0.24.1
