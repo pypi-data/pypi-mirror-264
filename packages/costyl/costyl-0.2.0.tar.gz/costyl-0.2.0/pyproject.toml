@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "costyl"
+version = "0.2.0"
+description = "Costyl is a python library to facilitate source code authorship attribution via stylometric analysis powered by machine learning."
+authors = ["Jbernardiss <joaobernardiss@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scikit-learn = "1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
