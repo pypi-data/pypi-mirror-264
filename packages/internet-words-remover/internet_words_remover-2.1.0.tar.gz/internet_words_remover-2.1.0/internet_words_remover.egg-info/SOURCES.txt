@@ -1,0 +1,9 @@
+README.md
+setup.py
+internet_words_remover/__init__.py
+internet_words_remover/internet_words_remover.py
+internet_words_remover.egg-info/PKG-INFO
+internet_words_remover.egg-info/SOURCES.txt
+internet_words_remover.egg-info/dependency_links.txt
+internet_words_remover.egg-info/entry_points.txt
+internet_words_remover.egg-info/top_level.txt
