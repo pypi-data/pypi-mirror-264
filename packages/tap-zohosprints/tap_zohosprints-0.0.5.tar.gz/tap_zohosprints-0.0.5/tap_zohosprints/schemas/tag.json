@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "myTeamId": {
+            "type": "string"
+        },
+        "tagId": {
+            "type": "string"
+        },
+        "next": {
+            "type": "boolean"
+        },
+        "hasItemTagPermission": {
+            "type": "boolean"
+        },
+        "ItemTagCount": {
+            "type": "integer"
+        },
+        "userDisplayName": {
+            "type": "object"
+        },
+        "zsuserIdvsZUID": {
+            "type": "object"
+        },
+        "status": {
+            "type": "string"
+        },
+        "record": {
+            "type": "object"
+        }
+    }
+}

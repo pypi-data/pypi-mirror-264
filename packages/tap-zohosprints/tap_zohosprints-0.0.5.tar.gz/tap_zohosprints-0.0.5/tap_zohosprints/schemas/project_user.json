@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "next": {
+            "type": "boolean"
+        },
+        "projStatus": {
+            "type": "integer"
+        },
+        "status": {
+            "type": "string"
+        },
+        "userId": {
+            "type": "string"
+        },
+        "myTeamId": {
+            "type": "string"
+        },
+        "projectId": {
+            "type": "string"
+        },
+        "record": {
+            "type": "object"
+        }
+    }
+}

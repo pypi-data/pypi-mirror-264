@@ -1,0 +1,75 @@
+{
+    "type": "object",
+    "properties": {
+        "myTeamId":{
+                "type": "string"
+        },
+        "projectId":{
+                "type": "string"
+        },
+        "sprintId":{
+                "type": "string"
+        },
+        "next": {
+            "type": "boolean"
+        },
+        "userDisplayName": {
+            "type": "object",
+            "properties": {}
+        },
+        "zsuserIdvsZUID": {
+            "type": "object",
+            "properties": {}
+        },
+        "status": {
+            "type": "string"
+        },
+        "record": {
+            "type": "object",
+            "properties": {
+                "canceledOn": {
+                    "type": "string"
+                },
+                "scrumMaster": {
+                    "type": "string"
+                },
+                "endDate": {
+                    "type": "string"
+                },
+                "canceledBy": {
+                    "type": "string"
+                },
+                "duration": {
+                    "type": "string"
+                },
+                "startAfter": {
+                    "type": "string"
+                },
+                "createdBy": {
+                    "type": "string"
+                },
+                "completedOn": {
+                    "type": "string"
+                },
+                "sprintType": {
+                    "type": "integer"
+                },
+                "createdTime": {
+                    "type": "string"
+                },
+                "sprintName": {
+                    "type": "string"
+                },
+                "startDate": {
+                    "type": "string"
+                },
+                "workflowId": {
+                    "type": "string"
+                },
+                "sprintNo": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

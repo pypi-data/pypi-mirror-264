@@ -1,0 +1,84 @@
+{
+    "type": "object",
+    "properties": {
+        "myTeamId": {
+            "type": "string"
+        },
+        "prefix": {
+            "type": "string"
+        },
+        "userDisplayName": {
+            "type": "object",
+            "properties": {}
+        },
+        "projectId": {
+                "type":"string"
+        },
+        "zsuserIdvsZUID": {
+            "type": "object",
+            "properties": {}
+        },
+        "record": {
+            "type": "object",
+            "properties": {
+                "owner": {
+                    "type": "string"
+                },
+                "integList": {
+                    "type": "string"
+                },
+                "endDate": {
+                    "type": "string"
+                },
+                "projName": {
+                    "type": "string"
+                },
+                "projType": {
+                    "type": "integer"
+                },
+                "projNo": {
+                    "type": "string"
+                },
+                "groupId": {
+                    "type": "string"
+                },
+                "projType_enum": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "estimationType_enum": {
+                    "type": "string"
+                },
+                "status_enum": {
+                    "type": "string"
+                },
+                "createdBy": {
+                    "type": "string"
+                },
+                "estimationType": {
+                    "type": "integer"
+                },
+                "createdTime": {
+                    "type": "string"
+                },
+                "startDate": {
+                    "type": "string"
+                },
+                "workflowId": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "integer"
+                }
+            }
+        },
+        "isStrictScrum": {
+            "type": "boolean"
+        },
+        "status": {
+            "type": "string"
+        }
+    }
+}

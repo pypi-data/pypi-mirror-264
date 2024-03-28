@@ -1,0 +1,47 @@
+{
+    "type": "object",
+    "properties": {
+        "myTeamId":{
+                "type": "string"
+        },
+        "projectId":{
+                "type": "string"
+        },
+        "backlogId":{
+                "type": "string"
+        },
+        "sprintId":{
+                "type": "string"
+        },
+        "itemId":{
+                "type": "string"
+        },
+        "next": {
+            "type": "boolean"
+        },
+        "userDisplayName": {
+            "type": "object",
+            "properties": {}
+        },
+        "integObj": {
+            "type": "object",
+            "properties": {}
+        },
+        "zsuserIdvsZUID": {
+            "type": "object",
+            "properties": {}
+        },
+        "status": {
+            "type": "string"
+        },
+        "record": {
+            "type": "object",
+            "properties":
+            {
+                "startDate": {
+                    "type": ["string", "integer","null"]
+                }
+            }
+        }
+    }
+}
