@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+perceptinsight/__init__.py
+perceptinsight/constants.py
+perceptinsight/models.py
+perceptinsight/percept.py
+perceptinsight/utils.py
+perceptinsight.egg-info/PKG-INFO
+perceptinsight.egg-info/SOURCES.txt
+perceptinsight.egg-info/dependency_links.txt
+perceptinsight.egg-info/requires.txt
+perceptinsight.egg-info/top_level.txt

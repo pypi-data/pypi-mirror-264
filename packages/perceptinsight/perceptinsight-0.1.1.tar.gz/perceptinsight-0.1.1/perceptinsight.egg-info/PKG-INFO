@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: perceptinsight
+Version: 0.1.1
+Summary: PerceptInsight Python SDK
+Home-page: https://github.com/udaan-com/percept-python
+Download-URL: https://github.com/udaan-com/percept-python/archive/refs/tags/v0.1.1.tar.gz
+Author: PerceptInsight
+Author-email: prakul.jain@perceptinsight.com
+License: MIT
+Keywords: percept,insight,perceptinsight,web,analytics,raptorise
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: idna
+Requires-Dist: requests
+Requires-Dist: urllib3
