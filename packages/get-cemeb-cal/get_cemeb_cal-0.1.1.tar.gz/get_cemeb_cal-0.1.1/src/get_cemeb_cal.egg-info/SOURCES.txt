@@ -1,0 +1,11 @@
+COPYING
+README.md
+pyproject.toml
+src/get_cemeb_cal/__init__.py
+src/get_cemeb_cal/__main__.py
+src/get_cemeb_cal.egg-info/PKG-INFO
+src/get_cemeb_cal.egg-info/SOURCES.txt
+src/get_cemeb_cal.egg-info/dependency_links.txt
+src/get_cemeb_cal.egg-info/entry_points.txt
+src/get_cemeb_cal.egg-info/requires.txt
+src/get_cemeb_cal.egg-info/top_level.txt
