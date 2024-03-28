@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+seaborn
+biopython
+pytest
+pytest-pylint
+torch
+black
+isort
+pre-commit
+pyro-ppl
