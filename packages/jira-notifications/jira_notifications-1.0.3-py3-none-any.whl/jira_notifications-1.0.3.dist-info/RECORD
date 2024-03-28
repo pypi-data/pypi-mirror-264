@@ -1,0 +1,15 @@
+jira_notifications/__init__.py,sha256=gFaGj17xfxDl67LJ4njti3lBKYA7elVPtEWjzpV5J2A,589
+jira_notifications/helper.py,sha256=_DTLDwGm7ycIL3Ws0eSXn9f-L6F7NWuqKugssA8JUfc,2574
+jira_notifications/jira_client.py,sha256=AVoB2XlXXMCn7CfG2oA09lxYVijRMYDXr0eNIRroPGI,4734
+jira_notifications/logger.py,sha256=x5OZqNDDe0vbuhgmtE1Zrthv1mMxCjicTrK8MAu1aOY,3215
+jira_notifications/main.py,sha256=t5PouxEZFKxQJKohIYVcmbC41gtWf22zwDZAwhX6Tx8,2760
+jira_notifications/toast.py,sha256=c1i0rOL44sJ9qdDHWVOzA9OcVKIUKpb-EeTg8HBSa5k,2223
+jira_notifications/triggers.py,sha256=9T8F7YEWovvQMcBPFRebyzfCK23dMoxSFzgFZFke26s,3357
+jira_notifications/assets/jira.png,sha256=Lp4VXVtBfUFZRHRpCEPdUnLLqcJYhArF0kYz2PF4iPk,15443
+jira_notifications/assets/jira.wav,sha256=ZRCAsVkkWezb-QxZohiuavAFBRNJ8iwjijOiWk7bVUQ,493892
+jira_notifications-1.0.3.dist-info/LICENSE.txt,sha256=OVCRWngXxo2u947nLhC73qX0kw75CHqIziE_XUi24Xg,1083
+jira_notifications-1.0.3.dist-info/METADATA,sha256=O6mXUE7O6ybpUm6pfRjyCTNn_9GJf-Q76RtXm9reFnM,2899
+jira_notifications-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+jira_notifications-1.0.3.dist-info/entry_points.txt,sha256=9dhHzq2gWEkn-MiCWeZqUWmufs9x64h-h0d7UfVXMCM,67
+jira_notifications-1.0.3.dist-info/top_level.txt,sha256=w_fzsG_b_Jev055kIkGV9IRANkgaw9J4YIG4vn1qKw0,19
+jira_notifications-1.0.3.dist-info/RECORD,,
