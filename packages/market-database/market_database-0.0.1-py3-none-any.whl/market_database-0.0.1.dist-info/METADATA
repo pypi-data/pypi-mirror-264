@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: market-database
+Version: 0.0.1
+Summary: Stocks market database
+Author-email: Viktor Khaymonenko <khaymonenko@gmail.com>
+Project-URL: Homepage, https://github.com/Khaymon/market-database
+Keywords: trading,investments
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tinkoff-investments
+
