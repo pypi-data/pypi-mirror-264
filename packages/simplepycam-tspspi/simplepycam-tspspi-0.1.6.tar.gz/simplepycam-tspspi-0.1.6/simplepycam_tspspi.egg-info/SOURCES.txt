@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.py
+simplepycam.c
+simplepycam.h
+simplepycam_tspspi.egg-info/PKG-INFO
+simplepycam_tspspi.egg-info/SOURCES.txt
+simplepycam_tspspi.egg-info/dependency_links.txt
+simplepycam_tspspi.egg-info/top_level.txt
