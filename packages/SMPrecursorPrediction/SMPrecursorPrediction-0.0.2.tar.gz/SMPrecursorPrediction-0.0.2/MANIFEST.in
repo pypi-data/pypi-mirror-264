@@ -1,0 +1,2 @@
+recursive-include src/sm_precursor_predictor/prediction/ridge_classifier_layered_fingerprints_variance_selector *
+recursive-include src/sm_precursor_predictor/prediction/ridge_classifier_morgan_fp *
