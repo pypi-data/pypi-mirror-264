@@ -1,0 +1,7 @@
+bayeux-ml
+chex
+flax
+jaxtyping
+matplotlib
+pandas
+scipy

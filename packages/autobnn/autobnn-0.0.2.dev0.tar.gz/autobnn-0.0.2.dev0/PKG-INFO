@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: autobnn
+Version: 0.0.2.dev0
+Summary: Package for training Gaussian process-like Bayesian Neural Networks with composite structure.
+Home-page: https://github.com/tensorflow/probability/tree/main/spinoffs/autobnn
+Author: Google LLC
+Author-email: no-reply@google.com
+License: Apache 2.0
+Keywords: tensorflow jax probability statistics bayesian machine learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# AutoBNN
+
+This library contains code to specify BNNs that correspond to various useful GP
+kernels and assemble them into models using operators such as Addition,
+Multiplication and Changepoint.
+
+It is based on the ideas in the following papers:
+
+* Lassi Meronen, Martin Trapp, Arno Solin. _Periodic Activation Functions
+Induce Stationarity_. NeurIPS 2021.
+
+* Tim Pearce, Russell Tsuchida, Mohamed Zaki, Alexandra Brintrup, Andy Neely.
+_Expressive Priors in Bayesian Neural Networks: Kernel Combinations and
+Periodic Functions_. UAI 2019.
+
+* Feras A. Saad, Brian J. Patton, Matthew D. Hoffman, Rif A. Saurous,
+Vikash K. Mansinghka.  _Sequential Monte Carlo Learning for Time Series
+Structure Discovery_. ICML 2023.
+
+
+## Setup
+
+AutoBNN has three additional dependencies beyond those used by the core
+Tensorflow Probability package:  flax, scipy and jaxtyping.  These
+can be installed by running `setup_autobnn.sh`.
