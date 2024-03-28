@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: intelliml
+Version: 0.1
+Summary: An Automated Machine Learning Tool
+Home-page: 
+Author: Mujaffar Bhati
+Author-email: mujaffarbhati444@gmail.com
+License: MIT
+Keywords: automl
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: lightgbm
+
+This is a python library developed to automate the machine learning pipeline.
+It takes in a dataframe and then do analysis over the same and then return a pickle file which could be used for prediction.
+It has 2 modes: Manual and Automatic
+- Manual : It involves calling out specific methods for your datafram and the do analysis over the dataset
+- Automatic : It automatically does the analysis and give a machine learning model as pickle 

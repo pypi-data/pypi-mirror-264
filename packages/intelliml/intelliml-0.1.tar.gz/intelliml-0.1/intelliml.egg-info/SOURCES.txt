@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.py
+automl/__init__.py
+automl/intelliml.py
+intelliml.egg-info/PKG-INFO
+intelliml.egg-info/SOURCES.txt
+intelliml.egg-info/dependency_links.txt
+intelliml.egg-info/requires.txt
+intelliml.egg-info/top_level.txt
