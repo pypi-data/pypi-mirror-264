@@ -1,0 +1,2 @@
+[console_scripts]
+oo-codes = ortho_codes.save_codes:main
