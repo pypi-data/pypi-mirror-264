@@ -1,0 +1,2 @@
+recursive-include mashpit/templates *
+recursive-include mashpit/static *
