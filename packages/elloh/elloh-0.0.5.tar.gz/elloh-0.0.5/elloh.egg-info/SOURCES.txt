@@ -1,0 +1,8 @@
+README.md
+main.py
+pyproject.toml
+elloh.egg-info/PKG-INFO
+elloh.egg-info/SOURCES.txt
+elloh.egg-info/dependency_links.txt
+elloh.egg-info/requires.txt
+elloh.egg-info/top_level.txt
