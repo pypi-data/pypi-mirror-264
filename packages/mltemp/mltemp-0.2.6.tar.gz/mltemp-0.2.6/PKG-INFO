@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: mltemp
+Version: 0.2.6
+Description-Content-Type: text/markdown
+
+# mltemp
+
+`mltemp` is a Python module that provides a command-line interface for creating a new machine learning project structure.
+
+## Installation
+
+You can install `mltemp` from PyPI:
+
+```bash
+pip install mltemp
+```
+## Usage
+After installing `mltemp`, you can use it from the command line:
+```bash
+mltemp
+```
+This will create a new machine learning project structure in the current directory.
+
+
+
+When you run the script, it will ask for the project name:
+```bash
+ Please enter the project name: 
+ ```
+Enter the name of your project, and the script will create the project structure for you.
+
+## Project Structure
+
+The script creates the following directories and files:
+
+- `.github/workflows/.gitkeep`
+- `src/<project_name>/__init__.py`
+- `src/<project_name>/components/__init__.py`
+- `src/<project_name>/utils/__init__.py`
+- `src/<project_name>/utils/common.py`
+- `src/<project_name>/config/__init__.py`
+- `src/<project_name>/config/configuration.py`
+- `src/<project_name>/pipeline/__init__.py`
+- `src/<project_name>/entity/__init__.py`
+- `src/<project_name>/constants/__init__.py`
+- `config/config.yaml`
+- `dvc.yaml`
+- `params.yaml`
+- `requirements.txt`
+- `setup.py`
+- `research/trials.ipynb`
+- `templates/index.html`
+
+
+
+## License
+
+`mltemp` is licensed under the MIT license. See the `LICENSE` file for more information.
