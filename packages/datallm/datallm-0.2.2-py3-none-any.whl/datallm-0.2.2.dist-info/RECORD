@@ -1,0 +1,10 @@
+datallm/__init__.py,sha256=d_G414tBtFMCOtrzxnVnxgfXaXxBvJlMwT-JK7SfUpg,130
+datallm/_base_client.py,sha256=_0-l847RUTeluu6-1IyYhW_Qd6v1wxVVrbfWeiWIBgA,4791
+datallm/_client.py,sha256=mtuchiar7nD_BuowjVCv6-E3JmbOG8oVQ5sHUEMgak0,8902
+datallm/_exceptions.py,sha256=CPXcL7lCtnJL871EbWelfBBwh9WNvrKG6sPIuWHsNBo,221
+datallm/_pd_utils.py,sha256=idn7OvIyFrutJUsqpm3cDRBlV-iaMDuI76nbTChbUOE,1058
+datallm/_resources.py,sha256=O-bF4S6jMI5-RhWgHl9oxDewZACWMPPk5j3jYtm2bVg,1717
+datallm/_types.py,sha256=w0xq7wmhZJUgT_WeTvAsK5tPvcnERJu8qK2v4XzGR8Q,2812
+datallm-0.2.2.dist-info/METADATA,sha256=9bsfP0ghhs39L1gfe_PCf1qTzd7IHShSSPH3l3JhkB8,2665
+datallm-0.2.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+datallm-0.2.2.dist-info/RECORD,,
