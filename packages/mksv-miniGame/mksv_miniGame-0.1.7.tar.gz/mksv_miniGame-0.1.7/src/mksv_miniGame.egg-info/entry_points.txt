@@ -1,0 +1,2 @@
+[console_scripts]
+mksv_miniGame = minigame.__main__:main
