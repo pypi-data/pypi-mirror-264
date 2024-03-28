@@ -1,0 +1,17 @@
+homa/__init__.py,sha256=iPxn6CB50Dt59fYKMBO8yGlAwgFy5HscFPx786CVpSA,69
+homa/helpers.py,sha256=l6JjaZg_eWgGwGbS509A378Pyrm0R6mS6BUtVYEAJyQ,6220
+homa/main.py,sha256=2TvPspiYUi-eCJUbXRCWnFtbPNCYIcneSFBtnz65zNc,936
+homa/repositories/RandomDateRepository.py,sha256=1fK_oPJ1ln-3Zs4O3eOhh427LeM48PNvXeGDJYV8d4o,1659
+homa/repositories/RandomImageRepository.py,sha256=YxWP1hjDXk8yncBivINq2WTSXI1bNQ5zvHI2ckcrXLw,38
+homa/repositories/RandomNameRepository.py,sha256=nc0_d5SSRI_PsKT7K1_xE-CU3LGT-a8iqCTpJKFuZi0,1816
+homa/repositories/RandomTextRepository.py,sha256=OHWLSTUftYZT-NaOUlkN4uI1JQW4KRwrmSuFs27su9A,654
+homa/repositories/__init__.py,sha256=11Dv_PG1H9sEy0SdxdYzisXegnjoVrZBPFJ3wNrZnzc,221
+homa/wordlists/feminine_names.txt,sha256=lAxmPmUGlYv0gdpjSXPYPCoe8kmZ71jKqBO6V9n1C_c,713
+homa/wordlists/masculine_names.txt,sha256=9aN-INCNQrnn4dwbQU6cEzUXw6rU24E9Jh111GcNDt0,673
+homa/wordlists/surnames.txt,sha256=M3kiBxyExH7wqdEDGRUy6X2oEIvyqW3xChRY-uq0D9A,690
+homa/wordlists/titles.txt,sha256=Am60g2qxACSZSaQwNFbfXxDAF6JxrFo8RXv5f-0Fv4c,15335
+homa-0.17.dist-info/LICENSE,sha256=js3WDbJn9k5EN6sy1uuP2QBXxyPgS5DjO4Bf5yE35hQ,1072
+homa-0.17.dist-info/METADATA,sha256=6Vm68Ts3vu0-fjl6nazHcJ7LDga3TxH26S_fzpbhQ-U,893
+homa-0.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+homa-0.17.dist-info/top_level.txt,sha256=tmOfy2tuaAwc3W5-i6j61_vYJsXgR4ivBWkhJ3ZtJDc,5
+homa-0.17.dist-info/RECORD,,
