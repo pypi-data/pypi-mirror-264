@@ -1,0 +1,7 @@
+mysql-connector-python
+SQLAlchemy
+python-jose
+pydantic
+pydantic_core
+loguru
+bcrypt
