@@ -1,0 +1,8 @@
+README.md
+db_backup.json
+setup.py
+odoo_database_backup.egg-info/PKG-INFO
+odoo_database_backup.egg-info/SOURCES.txt
+odoo_database_backup.egg-info/dependency_links.txt
+odoo_database_backup.egg-info/requires.txt
+odoo_database_backup.egg-info/top_level.txt
