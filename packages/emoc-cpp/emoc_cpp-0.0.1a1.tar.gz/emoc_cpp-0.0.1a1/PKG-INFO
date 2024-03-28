@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: emoc_cpp
+Version: 0.0.1a1
+Summary: This is the C++ code for the EMOC+X platform.
+Author: Shasha Zhou, Mingyu Huang, Tian Huang, Sun Lei and Ke Li
+Author-email: sz484@exeter.ac.uk
+License-File: LICENSE.txt
+Requires-Dist: pybind11
