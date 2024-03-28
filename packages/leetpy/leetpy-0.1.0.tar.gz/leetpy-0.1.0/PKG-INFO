@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: leetpy
+Version: 0.1.0
+Summary: A package that shows you the correct solutions for every question, gives you a suite of testcases, and lets you build your own.
+Author: Aryan Pingle
+Author-email: realaryanpingle@gmail.com
+License: MIT
+Project-URL: Homepage, https://github.com/aryanpingle/LeetPy
+Project-URL: Source, https://github.com/aryanpingle/LeetPy
+Project-URL: Download, https://pypi.org/project/leetpy/#files
+Project-URL: Tracker, https://github.com/aryanpingle/LeetPy/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![LeetPy Logo](https://raw.githubusercontent.com/aryanpingle/LeetPy/master/static/images/logo.png)](https://github.com/aryanpingle/LeetPy)
+
+The ultimate tool to have while solving Leetcode questions.
+
