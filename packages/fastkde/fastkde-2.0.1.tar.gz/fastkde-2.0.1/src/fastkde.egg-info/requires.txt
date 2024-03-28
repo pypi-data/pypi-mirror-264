@@ -1,0 +1,12 @@
+numpy
+scipy
+xarray
+
+[all]
+pytest
+
+[dev]
+pytest
+
+[test]
+pytest
