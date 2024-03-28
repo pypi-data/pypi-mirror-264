@@ -1,0 +1,10 @@
+bundling_score/__init__.py,sha256=mjGm1EcRG0gfPaZZKPx3rAex9rZ6A3Vv8KjZocNtiGc,284
+bundling_score/bundling_score.py,sha256=n_9kZGLwSkMNvhHUx28ksN1wRY1GeNg1Nj1rLFwd2S8,2930
+bundling_score/main.py,sha256=IphLIxPTdQnHqp0KNdLZga_hEUx8vRDK7Q8PF1Uy3pk,3385
+bundling_score/plots.py,sha256=uodeRsagc2UQFNBOuodV90JoJzl3Ge_1XUmFN59R3JM,2632
+bundling_score/tools.py,sha256=_O6HOQhykoilleBcDAt2TQvy_SRgw7JgyV-YkN3Tfic,3598
+bundling_score-0.1.4.dist-info/METADATA,sha256=Yr92yzrdKTvTQddhHcDhBD9HNQRRxbKDv7pOo39lG-M,27489
+bundling_score-0.1.4.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+bundling_score-0.1.4.dist-info/entry_points.txt,sha256=_8j9KipvDsDKEt_mV8TFMSgLNA5w63AIJYwnbTxbKao,60
+bundling_score-0.1.4.dist-info/licenses/LICENSE,sha256=fe3H-5f9ZEi9nUNQSKrWvXJ-1YccCke7OHMm6D0Q5c0,20885
+bundling_score-0.1.4.dist-info/RECORD,,
