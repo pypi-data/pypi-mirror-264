@@ -1,0 +1,12 @@
+dronecot/__init__.py,sha256=MZYNFQ4dwidgqsJWDZrjheQ5s60eQD0zm5KKLk1BVnM,1275
+dronecot/classes.py,sha256=yBc8pB-hkGMfdq0k-RAFsyBA6Szx6t5aRDCcRe6UUk8,5486
+dronecot/commands.py,sha256=PbcYNCsq8efBUtHS6JIrp73_mRBJ0lZx0Lw_J51iusM,1034
+dronecot/constants.py,sha256=LZ8kfvhxdReOTKjbv8lxRtvnmU8f_63GrNaFWLn1Ib8,992
+dronecot/functions.py,sha256=aPDvjrNXv4AetUdSXEnJlqPshSmyDcmCdw0lkwphpRU,10965
+dronecot/open_drone_id.py,sha256=G949BXNb_q8v2awvFRu0G0uFEj83QxiuLXtidrPUAWA,13594
+dronecot-1.0.0b5.dist-info/LICENSE,sha256=Fg7NiAFl3kbvpJhypzmICgURUP8aBhsbHgNmZuUUWA0,10256
+dronecot-1.0.0b5.dist-info/METADATA,sha256=oLOpQNRK8bzCSfscwrIZzCbuqMq6ouFGkWfYnWvhK4g,4201
+dronecot-1.0.0b5.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dronecot-1.0.0b5.dist-info/entry_points.txt,sha256=uegTALxPn0nKnoKfhPrMo7RB6LIU38TMnal_3JEl16s,52
+dronecot-1.0.0b5.dist-info/top_level.txt,sha256=0R2p-k_cs-D7CwXn2m31jB2MljPD14NusrFAO-TCWrA,9
+dronecot-1.0.0b5.dist-info/RECORD,,
