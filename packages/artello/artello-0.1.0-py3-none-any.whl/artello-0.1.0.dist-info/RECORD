@@ -1,0 +1,10 @@
+artello/__init__.py,sha256=SbHM3xhL0_8b1P59gpMJ_Fx2UGwaDm-YsbBaATgQIIM,128
+artello/data.py,sha256=DvAqOrOY-jAXCfnmFjWKY43AI09qBKNAFQQcXLom8MI,687
+artello/inference.py,sha256=lXy-Ra3HQhAhc5B4NL7WbRWsKf0Y2iqT8iEYRRzr1Kk,260
+artello/models.py,sha256=c9G66CaUQ9I7sBzyJZoWNSSCOZX2c3Lm0Qn-RRlBJV8,518
+artello/training.py,sha256=-q0kKyfM859unxa1kfoS0HUMPFHOhiRSbxnvwsU11n4,393
+artello-0.1.0.dist-info/LICENSE,sha256=vouhzhsPK4g0St8hNVbbUblnDaJR3Nr2QUWBDRCX1lY,1323
+artello-0.1.0.dist-info/METADATA,sha256=Qd1shgE0wcx12n0pYQzZKz6n5gPvItSn1Gn8Qh01WL4,796
+artello-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+artello-0.1.0.dist-info/top_level.txt,sha256=_YLjyZGkh16Bo8WkwVaqKe3uzxx3FK6RCho70JpTdmw,8
+artello-0.1.0.dist-info/RECORD,,

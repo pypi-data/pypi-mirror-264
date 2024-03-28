@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: artello
+Version: 0.1.0
+Summary: A simple package for creating nano LLMs with PyTorch.
+Home-page: https://github.com/seetam-cto/artello
+Author: Seetam Divkar
+Author-email: sup@artello.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Artello
+
+Artello is a Python package designed to simplify the creation of nano Language Learning Models (LLMs) using PyTorch. With Artello, Python developers can easily implement and deploy small-scale LLMs without diving deep into the complexities of PyTorch.
+
+## Installation
+
+```bash
+pip install artello
+
+

@@ -1,0 +1,22 @@
+
+### `LICENSE`
+
+Choose a license for your project and include it in a `LICENSE` file. If you're unsure which license to use, [MIT License](https://opensource.org/licenses/MIT) is a popular choice for open-source software. You can copy the MIT License text from the Open Source Initiative website and replace the year and copyright holder with your information.
+
+### `requirements.txt`
+
+List all of your project dependencies in `requirements.txt`. For a project like `artello`, you might start with:
+
+torch>=1.8.0
+
+
+Adjust the version based on your needs and dependencies.
+
+### Final Steps
+
+1. **Prepare Your Package**: Ensure your package structure is correct and all necessary files are in place.
+2. **Build Your Package**: Use the command `python3 -m build` to build your package.
+3. **Publish to PyPI**: First, make sure you have an account on [PyPI](https://pypi.org/). Then, use `twine upload dist/*` to upload your package. You may need to install `twine` using `pip install twine` if you haven't already.
+4. **Install and Test**: Once uploaded, install your package using `pip install artello` and test it to ensure everything works as expected.
+
+With this setup, your package `artello` will be well-prepared for initial publishing and use by the Python community. Good luck with your project!
