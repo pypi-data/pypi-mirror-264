@@ -1,0 +1,16 @@
+refactor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+refactor/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+refactor/app/resources/__init__.py,sha256=i3izFeFSH3EaLnP41tuEGSnmzLkio53DiRRDgBSXfx0,66
+refactor/app/resources/abc.py,sha256=xYTI0BGTrkoP1fEyKxfiwWXLtglKHheIrdMKyPvanFA,2045
+refactor/app/resources/resource.py,sha256=8xttqMncjpprsgAY5xRzYZCBHB45FfwjsBMjQfkcY98,1810
+refactor/common/__init__.py,sha256=6TcYmn1_fvd7be7w6H-4oAz9CMluOx02RjN_sxPnDqQ,33
+refactor/common/processor.py,sha256=qzv4faBAGiOemUsNfHWRgzcBEbt99MPiydOF6y8lCwA,1874
+refactor/dp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+refactor/dp/creation/__init__.py,sha256=v3H_us_hKbA5RqgcmaWcbMCnT3omZa8-i3k6iIUHJmY,33
+refactor/dp/creation/singleton.py,sha256=2kilRyPXnoGy6ZqIzjwAtekWbC8UQccp7P-A4febFx8,1482
+pyrefactoring-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyrefactoring-0.0.1.dist-info/METADATA,sha256=vHddR3cRrbn05rUZJFFYNE_EK2ORYA3pAZxgRcvjQbY,804
+pyrefactoring-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyrefactoring-0.0.1.dist-info/top_level.txt,sha256=jCNAQcJGcXPbLuqADBNCQxentGSDGWA08qs5wEtb_AU,9
+pyrefactoring-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyrefactoring-0.0.1.dist-info/RECORD,,
