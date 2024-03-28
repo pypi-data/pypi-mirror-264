@@ -1,0 +1,11 @@
+_cppinyin.cpython-38-darwin.so,sha256=qtvN7pPLxFx-lCT7kyTayQ_EVg92p0zc6Dnnmsk8ALg,188640
+libcppinyin_core.dylib,sha256=dpJ1nEo3LXMReTBL46tnOVUqhpzmzqunVZlR0SX9WiI,146944
+cppinyin-0.3.dist-info/RECORD,,
+cppinyin-0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cppinyin-0.3.dist-info/WHEEL,sha256=WRwPRH7mjFT-dTZ5lq85StrNRg9EtOV3GBZVL26Gb_o,109
+cppinyin-0.3.dist-info/top_level.txt,sha256=zXXBJavhIoxm__TYNS5LFz5TxrFLraJY0b2P57sYvd8,19
+cppinyin-0.3.dist-info/METADATA,sha256=GWxlLdlBeiwsHcsTI4OwsFUmEYl3fMJDiCXoh33HJYA,588
+cppinyin/cppinyin.py,sha256=rGuxUZuwogDDwfe7IzMFCswOMJGyYE51CYPQWYybd6U,1529
+cppinyin/__init__.py,sha256=Wo_2VAOxx4W-55SlMoQ2JczGCkwRIUQqDViAZm9qPNY,50
+cppinyin/resources/pinyin.dict,sha256=GjRlrf7klA6lmKs_J4ScsdkpyprBrnk7JQ_tb0Ao0DY,18823299
+cppinyin/resources/pinyin.raw,sha256=NiZYLros76IVsWkmyW59CvlwpsD1UH567cYqXpyLp3c,12743685
