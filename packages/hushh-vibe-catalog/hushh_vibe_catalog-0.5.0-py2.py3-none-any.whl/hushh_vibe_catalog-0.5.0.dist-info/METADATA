@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: hushh-vibe-catalog
+Version: 0.5.0
+Author-email: Justin Donaldson <justin@hushh.ai>
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: flatbuffers
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: Pillow
+Provides-Extra: ci
+Requires-Dist: pytest-cov ; extra == 'ci'
+Requires-Dist: requests-mock ; extra == 'ci'
+Requires-Dist: hushh-vibe-catalog[docs] ; extra == 'ci'
+Provides-Extra: dev
+Requires-Dist: sentence-transformers ; extra == 'dev'
+Requires-Dist: kaggle ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: torch ; extra == 'dev'
+Requires-Dist: numpy ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: hushh-vibe-catalog[ci] ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: quartodoc ; extra == 'docs'
+Requires-Dist: git-changelog ; extra == 'docs'
+Requires-Dist: doq ; extra == 'docs'
+
+# Hushh Catalog Format
+
+
+[![Build](https://github.com/hushh-labs/hushh-vibe-catalog-reader/actions/workflows/main.yml/badge.svg)](https://github.com/hushh-labs/hushh-vibe-catalog-reader/actions/workflows/main.yml)
+
+Support clients for the hushh vibe-catalog file format
+
+There is documentation
+[available](https://hushh-labs.github.io/hushh-vibe-catalog/)
+
+# Installation
+
+``` python3
+$> pip install hushh-vibe-catalog
+```
+
+# Latest Version Schema
+
+``` flatbuffer
+namespace hushh.hcf;
+
+table Brand {
+  id: string;
+  description: string;
+  name: string;
+  url: string;
+}
+
+table Product {
+  id: string;
+  description: string;
+  url: string;
+  brand: Brand;
+}
+
+table Vibe {
+  id: string;
+  description: string;
+  product_idx: [int];
+}
+
+table Category {
+  id: string;
+  description: string;
+  url: string;
+  product_idx: [int];
+}
+
+enum VibeMode : byte { ProductText = 0, ProductImage, Text, Image, Category}
+
+table FlatEmbeddingBatch {
+    id: string;
+    shape:[int];
+    vibe_mode: VibeMode;
+    flat_tensor:[float];
+    product_idx: [int];
+}
+
+table ProductVibes {
+  id: string;
+  products: [Product];
+  brands: [Brand];
+  categories: [Category];
+  vibes: [Vibe];
+  product_text_batches: [FlatEmbeddingBatch];
+  product_image_batches: [FlatEmbeddingBatch];
+  text_batches: [FlatEmbeddingBatch];
+  image_batches: [FlatEmbeddingBatch];
+}
+
+table Catalog {
+  id : string;
+  version: string;
+  description: string;
+  product_vibes: ProductVibes;
+  batch_size: int;
+  tokenizer_name_or_path: string;
+  model_name_or_path: string;
+}
+
+root_type Catalog;
+```
