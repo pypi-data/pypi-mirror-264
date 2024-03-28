@@ -1,0 +1,33 @@
+[build-system]
+requires = [  
+  "setuptools>=64",
+  "wheel",              
+  "setuptools_scm>=6.4",
+  "loguru",
+  "requests"
+  ]
+
+[tool.setuptools]
+include-package-data = true
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
+
+[project]
+name = "PyBitgetApi"
+version = "1.1.8"
+description = "A sample Python project"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+  {name = "Joseph barracuda", email = "josephbarracuda54@gmail.com" }
+]
+
+[project.urls]
+"Source" = "https://github.com/joseph-team/bitget-api"
+
+[project.scripts]
+sample = "sample:master"
