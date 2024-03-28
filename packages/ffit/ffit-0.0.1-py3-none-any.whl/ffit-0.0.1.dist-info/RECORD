@@ -1,0 +1,12 @@
+ffit/__init__.py,sha256=z2RWxr64cP6JGsMSWlZHfbLWvDQYZZZAII_bzMvHveo,94
+ffit/fit_utils.py,sha256=hUz9q68pI8ALq8jCLROf2z48ghHpwLRLWUuvNqOX9b8,341
+ffit/models.py,sha256=km3msDZRMktqKW_4dQ3J5foQ1rW4RsJdzgGk7_Yg_tY,2398
+ffit/funcs/__init__.py,sha256=0EzmrFlPFaNJn35xm2frCVKICsEVmaO-OTOhCF1PXOc,144
+ffit/funcs/lorentzianFunc.py,sha256=OsL-Wp3mbZQm2ENlR2qOfwMhPRFhanw0z1TomP_b_XA,1374
+ffit/funcs/polyFunc.py,sha256=BNuC_oAO2EmkWaP1pfVGJxldmWeVLX66hGinTqJMET0,715
+ffit/funcs/sinFunc.py,sha256=XdNWTCSU-jHv-D6_ABGdhbkBoRyCpUCErArDIwmInKk,2054
+ffit-0.0.1.dist-info/LICENCE,sha256=J9XIxdJExlWYZuxhhKtk4oYILvUz8-JM0y_leRQCKUE,7488
+ffit-0.0.1.dist-info/METADATA,sha256=FztxWEprdI3pSwLB7O2QMucw6JZgvAX-G60q68rhKUk,421
+ffit-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ffit-0.0.1.dist-info/top_level.txt,sha256=DNCbBtEQ3GtkancUnDNpVy2SP-zBKNr3Fhmcrl45Je0,5
+ffit-0.0.1.dist-info/RECORD,,
