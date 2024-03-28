@@ -1,0 +1,1 @@
+This Python package designed to simplify and automate the process of backing up Odoo databases and filestores. With this package, you can easily create database backups, compress filestores, and transfer the backups to remote servers via SFTP.
