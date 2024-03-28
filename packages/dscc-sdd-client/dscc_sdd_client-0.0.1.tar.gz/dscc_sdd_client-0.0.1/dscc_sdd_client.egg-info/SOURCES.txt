@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dscc_sdd_client/__init__.py
+dscc_sdd_client/client.py
+dscc_sdd_client.egg-info/PKG-INFO
+dscc_sdd_client.egg-info/SOURCES.txt
+dscc_sdd_client.egg-info/dependency_links.txt
+dscc_sdd_client.egg-info/requires.txt
+dscc_sdd_client.egg-info/top_level.txt
