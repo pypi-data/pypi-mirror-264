@@ -1,0 +1,15 @@
+geopandas
+openpyxl~=3.1
+xlrd
+requests
+kerchunk
+cfgrib
+eccodes
+h5py
+wget
+chardet
+intake
+dataretrieval
+pygeohydro
+pykalman
+hydrodataset
