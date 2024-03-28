@@ -1,0 +1,2 @@
+[console_scripts]
+ribbet = ribbet.ribbet_cli:main
