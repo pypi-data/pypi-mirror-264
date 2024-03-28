@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nspd-quarters
+Version: 0.1.1
+Summary: A simple script to fetch and save data from nspd.gov.ru.
+Home-page: UNKNOWN
+Author: Zitramon
+Author-email: bearhore@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+UNKNOWN
+
+

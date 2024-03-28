@@ -1,0 +1,3 @@
+[console_scripts]
+nspd-quarters = nspd_package_q.nspd_q:main
+
