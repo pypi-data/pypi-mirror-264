@@ -1,0 +1,10 @@
+curve_matcher-0.2.0.dist-info/METADATA,sha256=sN3dZu4NxfdBdPBzfo-hiSt8iNHeyZ-amapw8ZeQMfs,8863
+curve_matcher-0.2.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+curve_matcher-0.2.0.dist-info/licenses/LICENSE,sha256=FZbRLM9jyzxN8OP5gMIn3VvpXlF6jHVAzO5nGBsUfPY,1074
+curve_matcher/__init__.py,sha256=jwruiYO0NooBdCcnh-Ap4EKDqMWEj6JonuouDGzvT-A,692
+curve_matcher/frechet_distance.py,sha256=AZ6hElcVA6ocZnIXq6AKvArh04HNx5EZSnhNCQiv23Q,1694
+curve_matcher/geometry.py,sha256=bSJsDvWrYCx0HK7fm-BsobnYFbV8kRiHgo28xIf_z90,3308
+curve_matcher/procrustes_analysis.py,sha256=U2lXgBvApjE-mXOOuZIlEwyTYht3aENUSPIhtyqfCNg,2358
+curve_matcher/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+curve_matcher/shape_similarity.py,sha256=hsxXa-G8_y_cub6K6XBhDZu1br46qTEY4xp9P43n7gY,1953
+curve_matcher-0.2.0.dist-info/RECORD,,
