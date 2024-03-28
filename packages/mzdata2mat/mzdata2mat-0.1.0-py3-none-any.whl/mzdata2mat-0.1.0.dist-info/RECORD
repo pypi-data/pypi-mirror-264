@@ -1,0 +1,9 @@
+mzdata2mat/__init__.py,sha256=Ntuz2dp-8nEQq8r8nLEXanG_mWhUgVEw7i4A1Knvkk0,86
+mzdata2mat/errors.py,sha256=DPzARzC727tfGnRpeZ4rTZ1y6vvKpun2W-GK0ZlSuOE,308
+mzdata2mat/mzdata2mat.py,sha256=DRJMQuqmSRLOs_Q-pjS-BWcr4BrmsZ9ONIPe22HauPk,8377
+mzdata2mat/tiny1.mzData.xml,sha256=lxP3rZ6T8En37xoQju6-rkCMjnuWBqcmIDWzdxGu2qA,33514
+mzdata2mat-0.1.0.dist-info/METADATA,sha256=K444g-pyeJFKDhG2HOkoukhzPv0zbZNinlFXiTZbO7o,5270
+mzdata2mat-0.1.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+mzdata2mat-0.1.0.dist-info/entry_points.txt,sha256=Gr9pKeLHHpX_jUW_8v9C_fmIcg492WjAALV3BJAit6s,56
+mzdata2mat-0.1.0.dist-info/licenses/LICENSE.txt,sha256=vbyvjiKr6BkzIo0jePfYJsGSVsi9HcAq22HeHN-G2QY,4477
+mzdata2mat-0.1.0.dist-info/RECORD,,

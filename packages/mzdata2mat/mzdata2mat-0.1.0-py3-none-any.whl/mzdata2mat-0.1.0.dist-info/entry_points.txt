@@ -1,0 +1,2 @@
+[console_scripts]
+mzdata2mat-verify = mzdata2mat:verify
