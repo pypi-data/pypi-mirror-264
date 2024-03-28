@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: my-python-projcet
+Version: 0.1.1a4
+Summary: This is a project
+License: Apache 2.0
+Author: Anon
+Author-email: anonymous@aol.ca
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+This is a readme for my_python_project
+
