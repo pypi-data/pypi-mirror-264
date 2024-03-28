@@ -1,0 +1,13 @@
+{
+    "coreSchema" : "./test/schema/data/imports.schema.json",
+    "supportingSchemas" : [
+        "./test/schema/data/imported.schema.json",
+        "./test/schema/data/empty.json",
+        "not_even_a_file"
+        ],
+    "exampleFiles" : [
+        "./test/schema/data/simple.json",
+        "./test/schema/data/bad_simple.json",
+        "./test/schema/data/empty.json"
+    ]
+}
