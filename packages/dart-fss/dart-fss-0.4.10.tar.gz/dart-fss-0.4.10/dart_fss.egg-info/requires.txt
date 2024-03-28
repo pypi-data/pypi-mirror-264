@@ -1,0 +1,14 @@
+xmltodict
+requests
+arelle-release
+numpy
+pandas
+tqdm
+yaspin
+fake-useragent>=1.5
+beautifulsoup4
+appdirs
+
+[jupyter]
+jupyterlab
+ipywidgets
