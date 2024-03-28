@@ -1,0 +1,15 @@
+R2CCP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+R2CCP/argparser.py,sha256=COH3i2xm6DF1fgrIj5nSYwCe1xaeh17osPRTCcamnEQ,3479
+R2CCP/cp.py,sha256=7zIheDAmyvKW6kixYVkGdlGustOeOzcSznWtDbxhMyg,3170
+R2CCP/data.py,sha256=6cV94WjWrCGkPZR3EejHtludlRiAHMVdytwMcRuQnvI,1428
+R2CCP/main.py,sha256=TYZQdMFJW4eybXFsj4-5K60qxosaxdGVMVs993UOQrU,7183
+R2CCP/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+R2CCP/models/callbacks.py,sha256=gS8krj4v7Kqw2lR7n_UpgRns9kJecOegtelR6PRkelo,1175
+R2CCP/models/mlp.py,sha256=Zc8IT-ZI_jNbV3DX7DRVKqkMVN9xFVghPmq2jtuzi8Q,1453
+R2CCP/models/model.py,sha256=229uzve4lMvRf4oU8lergvNH_7-pfOsDwSWP37-bvPg,4388
+R2CCP/models/transformer.py,sha256=IbGDC6HVojGzful3Ny_R8ILu_Ajuu79jZwkXphZFNTg,1396
+R2CCP-0.0.6.dist-info/LICENSE,sha256=MuaEqpmBuZSU_yIcLOuGcqDBSp0hDpLws9HMfSXS3KE,1066
+R2CCP-0.0.6.dist-info/METADATA,sha256=Wbnd04u9q7N_gJ8FHkWMv5ZVKMvmls9gxEqGPgtlQlw,4043
+R2CCP-0.0.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+R2CCP-0.0.6.dist-info/top_level.txt,sha256=rd-xnbTsoZleFkGR217O5tQXT3pw8mUDF_zXextPGPM,6
+R2CCP-0.0.6.dist-info/RECORD,,
