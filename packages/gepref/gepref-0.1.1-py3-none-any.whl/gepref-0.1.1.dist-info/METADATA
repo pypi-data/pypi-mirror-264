@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gepref
+Version: 0.1.1
+Summary: GEneral PREprocessing Framework (gepref)
+Author-email: Juan Lara <julara@unal.edu.co>
+Requires-Python: >3.10
+Requires-Dist: jedi-language-server ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: ruff ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Provides-Extra: dev
