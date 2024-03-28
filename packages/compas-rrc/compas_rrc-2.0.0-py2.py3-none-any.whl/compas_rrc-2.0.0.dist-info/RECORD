@@ -1,0 +1,17 @@
+compas_rrc/__init__.py,sha256=PdFvw5YzCNZjoNnPbUYBKgxURFrU6qixpBEj7-w9fsU,4098
+compas_rrc/__install.py,sha256=nx2DYnNAi8e31FgmW0AYJztvsebF8Ph7eCOyecM8ohQ,133
+compas_rrc/__version__.py,sha256=8Or6muxVQ2rEser7eqUXrClHcc9oUkEJOYGGv-mfhQA,481
+compas_rrc/client.py,sha256=FSl_FGw6-aV67ItpdrenJKc9MBQ3V6ZkQtOs_a8xcXs,11653
+compas_rrc/common.py,sha256=0hJ4oWLAQbm6Pc20yf9kOrZxDRXWBj0QY6nV9fImooA,14677
+compas_rrc/custom.py,sha256=3bnROOJgQ_jsdHTVoOrBgcYwySVK5ZmDzRfnwW3m0x0,1867
+compas_rrc/io.py,sha256=_rRZkgB5I0rguD62JDSxg9y2Zu49YCuTZY1_O4R3e7g,8269
+compas_rrc/motion.py,sha256=fHJIYGPa79QIyqaLcgDwBLcxlo8eIcE2ShOv5tl6RKA,9796
+compas_rrc/msg.py,sha256=fqA6IqABDkmBIgmq6u1U5b6UBQBQyNJTis8tSiGe8ps,1323
+compas_rrc/utility.py,sha256=vwmxXqyzCwPMa_pzWrPVyT4QvkomT2CP8QNMXhHs9zc,14193
+compas_rrc/watch.py,sha256=A4syIUTRmbC-NUQ7xd8kVrJCOzLtitwWIBDtAeZYTQM,2961
+compas_rrc-2.0.0.dist-info/AUTHORS.rst,sha256=8ODdPeVhOIhUhxYNTicyg6aRhPHHYryyqvRcRxQ2Heg,340
+compas_rrc-2.0.0.dist-info/LICENSE,sha256=PZP_UUFsY02x-QNzMNH_n8EEOXbrahc_TVixHnfIeY4,1115
+compas_rrc-2.0.0.dist-info/METADATA,sha256=q3oMifFy8RfcLwD6Ipz4rNqUXlpNMSPPJkAT4SEztsw,2797
+compas_rrc-2.0.0.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+compas_rrc-2.0.0.dist-info/top_level.txt,sha256=b2zZ1OO3bJP23i6LUCOQNXMWwFDKGE_3-ZWGZZn04hM,11
+compas_rrc-2.0.0.dist-info/RECORD,,
