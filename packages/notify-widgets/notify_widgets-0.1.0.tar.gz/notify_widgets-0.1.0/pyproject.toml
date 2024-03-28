@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling>=1.14.0"]
+build-backend = "hatchling.build"
+
+[project]
+version = "0.1.0"
+name = "notify_widgets"
+description = "Widgets using a notification daemon"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Willem Meijer", email = "willem.meijer@mailbox.org"}
+]
+requires-python = ">=3.10"
+dynamic = ["readme"]
+keywords = ["cli", "tool", "widgets"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://codeberg.org/wime/tool-notify-widgets"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/notify_widgets"]
+
+[project.scripts]
+notify-widgets = "notify_widgets.__main__:main"
