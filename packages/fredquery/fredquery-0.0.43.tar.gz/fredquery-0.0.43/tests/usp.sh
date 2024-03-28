@@ -1,0 +1,12 @@
+#! /bin/sh
+
+set -ex
+
+python src/fredquery/fredplotseries.py -h
+
+TSLIST0=A001RD3A086NBEA,A001RI1Q225SBEA
+TSLIST1=A001RD3A086NBEA,A001RD3A086NBEA,A006RA3Q086SBEA,A007RA3A086NBEA
+TSLIST2=AUINTDDL,CHINTDCHFUSD,JPINTDDMEJPY
+
+python -mpdb src/fredquery/fredplotseries.py --serieslist ${TSLIST1}
+
