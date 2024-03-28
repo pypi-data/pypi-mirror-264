@@ -1,0 +1,11 @@
+bricka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bricka/attrs.py,sha256=2owlFAj-rvF-kdqztaR5zs0Tu-eNqaXF38Oh3LGuHvs,18014
+bricka/conflicts.py,sha256=oS1jiyDYL_OEXAKnASkeXlhMaCY5ZSaUmOQ39KloyvY,16537
+bricka/elements.py,sha256=Y4FBt4m84XG8pOMxOtqu3vAO32BqStWqq4z2BfnCG4M,37850
+bricka/node.py,sha256=80sALQPlC6BPWj-tNviNzboheXR4WRjPYZIhvbfAIn4,22477
+bricka/style.py,sha256=xvGzzDDFl1BDnY4NU8AuKJjPN4qjXMMtkkPPZJI2Pkw,35497
+bricka/stylesheet.py,sha256=nLPKy8-l4NXdP-OjfG56yEXzf8NC3dRyApav3k04RM0,6161
+bricka-0.3.3.dist-info/LICENSE,sha256=U4f55wEiyMoqp6mhGgO7hGPs75gYaauvbXbgsVFEIRY,1066
+bricka-0.3.3.dist-info/METADATA,sha256=zyvtdgmeZaYRlw9wnmzy9Y7qJg0rrBrG0jZw3ieOqnE,7885
+bricka-0.3.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+bricka-0.3.3.dist-info/RECORD,,
