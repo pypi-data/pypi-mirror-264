@@ -1,0 +1,16 @@
+bio2zarr/__init__.py,sha256=yIJYx4GyKtOLOtODOX0kGCeGPYgQ-TBbsRdT1NwBpQQ,37
+bio2zarr/__main__.py,sha256=3cgaQ4x8YKXt-9xC2GLrHnS6UA38y1GXqttwZiBZJg4,525
+bio2zarr/_version.py,sha256=NDHlyIcJZjLz8wKlmD1-pr6me5FHBAYwO_ynLG-37N8,411
+bio2zarr/cli.py,sha256=rNgxpjIwpltEHj1NOpJtwLvGOA0etuxcqMXyNlPbCts,9882
+bio2zarr/core.py,sha256=sBlWmHjcb7tAn_7WQRBdrbGcEd_lT_3HTQ_JbzomVMg,8111
+bio2zarr/plink.py,sha256=llhfP-v44BVPvgCcwXktk0YrKaJSII63U_PTtpHlGtM,6755
+bio2zarr/provenance.py,sha256=c_Z__QbWkLS0Rfa8D7LgEhtStng_zRMJX8comaDXIkw,142
+bio2zarr/typing.py,sha256=wZ99Zzp5BD9Nqpd-S5bn38fSdPzfj6Z9IHPBfZqt9Gs,78
+bio2zarr/vcf.py,sha256=g2TqH9Lbp4Ds8kjOnjvHvoMAgnG6Kx8pKPN1bqBKKIQ,72201
+bio2zarr/vcf_utils.py,sha256=_kMZdpye15HGpniv8wwISw0L6NEEi54ZFaTcM83wLGs,16751
+bio2zarr-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bio2zarr-0.0.2.dist-info/METADATA,sha256=Uqirw85BARPHIZmkPJJKfWRKQgjhtQDDfH9wLJDoxj8,1106
+bio2zarr-0.0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+bio2zarr-0.0.2.dist-info/entry_points.txt,sha256=pklStOdATE5hHJm4qiIvmhHkcn21Si_XAu6MC7ieNrk,131
+bio2zarr-0.0.2.dist-info/top_level.txt,sha256=ouAvp3u9N25eKrQbN8BCDLPcWWQLhtlgdHKu8AtEj5Q,9
+bio2zarr-0.0.2.dist-info/RECORD,,
