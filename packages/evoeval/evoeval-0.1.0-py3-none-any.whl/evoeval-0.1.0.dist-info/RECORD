@@ -1,0 +1,15 @@
+evoeval/__init__.py,sha256=yMhrYLuc6_zQGOk0KKZakqj4HjHJFJbpwPaPZ96qvQs,119
+evoeval/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+evoeval/data.py,sha256=sNk2OVKqDqwKHFHmOWKkE2wXCvi217cIOOKH8hurcdI,3533
+evoeval/evaluate.py,sha256=6qJVyvXb3n491VcKhRriQ-e9v1cuNwubx9ArRdkyngc,13067
+evoeval/eval_test/__init__.py,sha256=33ViwQj3kRMvQNZxxi3772L6P9soWckR4tWvwM2NqnE,11963
+evoeval/eval_test/_creative_special_oracle.py,sha256=3XZYMeDbDwNUOXgr2txeQKIH3S4waTfKrChAdLLLWRU,1722
+evoeval/eval_test/_difficult_special_oracle.py,sha256=VOD5NQXKE9yOiGnMh4Y6OYakuf7VcFK9riaa5YU_Hoc,824
+evoeval/eval_test/_he_special_oracle.py,sha256=xk98oAz_qTQxj6H84Y5dnyTvvp6oRHDW6pTX40jnbfI,303
+evoeval/eval_test/_subtle_special_oracle.py,sha256=pUyN4L026Nd4jpi-xTxoJRVOJEhJPSEYyP8zWtszamk,464
+evoeval-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+evoeval-0.1.0.dist-info/METADATA,sha256=7c-C_OeHrx7I4BzqcclflG_uablW9yy6PjO7azOLUpU,10504
+evoeval-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+evoeval-0.1.0.dist-info/entry_points.txt,sha256=6CXXW-dUvWTnSVja6Uc3h-p4mDki_gGIrkE-UAFX4HA,59
+evoeval-0.1.0.dist-info/top_level.txt,sha256=lf4tS0kGR7q7Vo6III_N0NJuV-pm1v_J_9EH11syffI,8
+evoeval-0.1.0.dist-info/RECORD,,
