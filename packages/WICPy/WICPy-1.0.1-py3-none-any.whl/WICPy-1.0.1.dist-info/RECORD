@@ -1,0 +1,14 @@
+WICPy/README.md,sha256=gTddvkGp5A2gZr7vaxkiwpwja5mIjO9gN4LF987iCs8,1201
+WICPy/__init__.py,sha256=DHyow-Y-8oBD8Xw91RmkIdxcLoWXTAzk71q8gcyy8KU,18
+WICPy/test.py,sha256=m_7mpWn0hrpgE6v6ppCVG7WjkrdNpVkhkW2L6IaFaJs,52990
+WICPy/wic.py,sha256=D3VXUL1cCRHEaMd2supXWBGedRjmM2tG9h6lE9M8Ot4,211838
+WICPy/test/sDCIP3.col,sha256=fhx-xT6Oo1_tPhad7mIRWsBF8mx7wlb6sWpcJsKerL0,548
+WICPy/test/test-p3.jpg,sha256=BGpSYGnotrl6kHyf_SGu7bdNNRcZVQoleKaQP1J0o_M,284322
+WICPy/test/test.jpg,sha256=nbPJPEGulf14mU3A6EUFZAzKEkw-dVQDgRppm2yh0HI,296434
+WICPy/test/test.png,sha256=vxQy3Lf-nzMaN8L9ns2O3v3aKUU5EeJYahWa5ypvKz0,60520
+WICPy/test/test.tif,sha256=YXhqGdXFoQXPbzmao-7MO4TxMqgW_oxRj-4YAr3S1uo,7216
+WICPy-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+WICPy-1.0.1.dist-info/METADATA,sha256=XJS47y_MtepOX3qzZ3zlqbDaHjKiwPSzRrjR1llg5Ws,2113
+WICPy-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+WICPy-1.0.1.dist-info/top_level.txt,sha256=Bn6VZWhEucvjp5-q15baeU900ui8qsIFIreDlCgtoWc,6
+WICPy-1.0.1.dist-info/RECORD,,
