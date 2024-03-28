@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+mjpy.py
+pyproject.toml
+requirments.py
+setup.cfg
+setup.py
+MjPy.egg-info/PKG-INFO
+MjPy.egg-info/SOURCES.txt
+MjPy.egg-info/dependency_links.txt
+MjPy.egg-info/entry_points.txt
+MjPy.egg-info/top_level.txt

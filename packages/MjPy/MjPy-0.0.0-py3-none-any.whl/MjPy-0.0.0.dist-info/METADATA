@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MjPy
+Version: 0.0.0
+Summary: Python Unofficial Midjourney Client
+Home-page: https://github.com/ASafarzadeh/mjpy
+License: GPL-2.0
+Keywords: midjourney midjourney-api midjourney-client
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+MjPy is an unofficial python midjourney client. See more info at Github: [https://github.com/ASafarzadeh/mjpy](https://github.com/ASafarzadeh/mjpy)
