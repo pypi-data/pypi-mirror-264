@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ft-jwt-validation
+Version: 1.0.1
+Summary: A Django app for JWT validation
+Author: vfuhlenb
+Requires-Dist: Django>=5.0
