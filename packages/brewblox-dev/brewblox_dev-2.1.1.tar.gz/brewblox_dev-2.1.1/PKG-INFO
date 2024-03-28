@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: brewblox-dev
+Version: 2.1.1
+Summary: Brewblox development tools
+License: GPL-3.0
+Author: BrewPi
+Author-email: development@brewpi.com
+Requires-Python: >=3.10,<4
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: python-dotenv (>=0.21.1,<0.22.0)
+Description-Content-Type: text/markdown
+
+# brewblox-dev
+
+Simple utility scripts.
+
+Installs the `brewblox-dev` CLI tool.
+
