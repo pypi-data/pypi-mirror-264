@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: amarillo-gtfs-exporter
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: amarillo
+Requires-Dist: amarillo-enhancer
+Requires-Dist: schedule ==1.2.1
+
