@@ -1,0 +1,10 @@
+claude2_api/__init__.py,sha256=yRxqDLntzHUbT89wCq3hdDR613tzELyTAL8NauMWzKQ,492
+claude_api/__init__.py,sha256=FTDL-V1HoqshsRr_i2gBu4k6s-0ca-cViJ4SdYSGYZM,435
+claude_api/client.py,sha256=o2DhfsHTmiTPChvLa_Posvvp6pzQjBjP9Kwgilo_9qA,20472
+claude_api/errors.py,sha256=bGiAvb8ko6nXWgmPlGCMbiqFvSbeNfqLHbvw0bb2osE,1469
+claude_api/session.py,sha256=vY3dNuZlPcSvTQv-r3e5_4_t2U27KWgnMMmR3AyUHYc,2739
+unofficial_claude_api-0.3.1.dist-info/LICENSE,sha256=bFeDN2prmHzD0Xems_GH6ueGTzi0r5HA0fD5QjN6xT8,1071
+unofficial_claude_api-0.3.1.dist-info/METADATA,sha256=gtOq7wOrKOhaHDOGVsDIbzXXoC9Z5nYhpTYQg8FQ1mg,11026
+unofficial_claude_api-0.3.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+unofficial_claude_api-0.3.1.dist-info/top_level.txt,sha256=wTOPScy5tVUOVT8s5DB3_Wauv8GjF1gl2Al-83I4om8,23
+unofficial_claude_api-0.3.1.dist-info/RECORD,,
