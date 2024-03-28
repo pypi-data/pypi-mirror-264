@@ -1,0 +1,17 @@
+becalib/__init__.py,sha256=D8edKVYwAOc880Ff4BhAR_FvvDauIoy2KSgd4nb5wNs,91
+becalib/air_resistances.py,sha256=0-k4x7WfKDvHe048_yk6TswuSyALd5-hZrCyP-Gqjqc,2819
+becalib/algos.py,sha256=uXC2J4951MGMQCd7rrJpnMRxrwrEQPE6J_o2A9PWgW4,12248
+becalib/charts.py,sha256=URjGToEJAt1apqC5aC3C_Gf0R3YfPpFQMcW8DM2jPxY,5319
+becalib/component.py,sha256=TkJ5u26RHU6NsLSbLAkQGbxJ2vkNCNUgxr3cFK43CLQ,16899
+becalib/layers.py,sha256=MP0LsdmuwklKieZNgxDfdmx4ciLhJ9WdJPOGS9MBJIs,5774
+becalib/translator.py,sha256=KTiCPMKZi-a3tN09EaQ_z7YjfTL8RS8BbszGsTZpVjo,482
+becalib/locales/en/LC_MESSAGES/becalib.mo,sha256=H9UZnOg7bXPETbfUMH3alW1Ww1vH7XoeivNJGIk_pgw,516
+becalib/locales/en/LC_MESSAGES/becalib.po,sha256=41L8C6gi3a-hD_Kba41k3aAWs-HGA6DROq0hjj6iM6I,1631
+becalib/locales/en/LC_MESSAGES/becalib.po~,sha256=2V454pgg9JD1SaV5_3UHpMvWcws9UDSnv690Tvspsto,929
+becalib/locales/fr/LC_MESSAGES/becalib.mo,sha256=R4inGnab_MrgH3vQIkj16HogrPMeWXTaDI4AagdA42o,3673
+becalib/locales/fr/LC_MESSAGES/becalib.po,sha256=dS1HHqIZ-9YuMautf4u8eskXg1ss5JPS1ZOPxF_LbS0,5857
+becalib/locales/fr/LC_MESSAGES/becalib.po~,sha256=blJf1E-TsmK8Cd3aoCiN9oc5l_vPm-oEixIiNWCYLHY,5731
+becalib-0.0.1.dist-info/METADATA,sha256=Sh5sbCDvk9sJV8fx_wh9WFZoPFZPYKmBhu5OJaHfe5c,11942
+becalib-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+becalib-0.0.1.dist-info/licenses/LICENSE,sha256=WviGDWQXEoRyDYR1gJS8dClDiMZMPOEtfXiivbJUZ0g,1090
+becalib-0.0.1.dist-info/RECORD,,
