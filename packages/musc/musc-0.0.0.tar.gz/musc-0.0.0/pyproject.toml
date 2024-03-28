@@ -1,0 +1,22 @@
+[project]
+name = "musc"
+version = "0.0.0"
+description = "Coming soon"
+authors = [
+    { name = "YANG Qi", email = "y3tothe6@outlook.com" },
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
