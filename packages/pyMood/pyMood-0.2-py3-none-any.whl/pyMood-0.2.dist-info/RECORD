@@ -1,0 +1,13 @@
+pyMood/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyMood/__main__.py,sha256=ZN8JhQKESSgERqvHRtz_JPYiNz3WYp7nITCu4eYoSxM,702
+pyMood/affirmations.py,sha256=HssDyHz5PNA2zzSCjkIBpD60BesYfxuzlrhkTLi2Zz4,608
+pyMood/coffee_types.py,sha256=fi-du-jlfHorhv4RX3r46xmraIiTJAwWAhaa_ZSsHHA,226
+pyMood/highfives.py,sha256=KqV4e64_mAXPi5YqIW7Cfl9HBHuWqOgKpxsXr4eHJQw,2772
+pyMood/jokes.py,sha256=RT9OtQM3YLLZlywHlAjTuPvtUpvU2PEHy48lHWQ2ync,1009
+pyMood/mood.py,sha256=DJm-Ot_1gzitr6JRw2w0e9NIDs9KjrYBtVdbts3wILg,1517
+pyMood/relaxation_tips.py,sha256=gpPSqMdf19PnEOvuP2jCqz94wxPgiBCOILpBxAQytKo,2259
+pyMood-0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyMood-0.2.dist-info/METADATA,sha256=ZT-EYyK63S6D3t5MPA6SNUod67FJl4pCeU2sYEIx2dY,3008
+pyMood-0.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyMood-0.2.dist-info/top_level.txt,sha256=uvxTgZbmAEfn3AFTC8Mph3t5kkyngmU9I9DcMcVt44M,7
+pyMood-0.2.dist-info/RECORD,,
