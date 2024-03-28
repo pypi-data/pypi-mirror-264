@@ -1,0 +1,3 @@
+[console_scripts]
+tap-zohosprints=tap_zohosprints.tap:TapZohoSprints.cli
+

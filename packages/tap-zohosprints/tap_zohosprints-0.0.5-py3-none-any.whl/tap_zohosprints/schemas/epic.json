@@ -1,0 +1,63 @@
+{
+    "type": "object",
+    "properties": {
+        "next": {
+            "type": "boolean"
+        },
+        "userDisplayName": {
+            "type": "object",
+            "properties": {}
+        },
+        "zsuserIdvsZUID": {
+            "type": "object",
+            "properties": {}
+        },
+        "status": {
+            "type": "string"
+        },
+        "projectId": {
+            "type": "string"
+        },
+        "myTeamId": {
+            "type": "string"
+        },
+        "epicId": {
+            "type": "string"
+        },
+        "record":{
+            "type": ["object"],
+            "properties":{
+                "owner": {
+                    "type": "string"
+                },
+                "sequence": {
+                    "type": "integer"
+                },
+                "epicNo": {
+                    "type": "string"
+                },
+                "epicName": {
+                    "type": "string"
+                },
+                "createdBy": {
+                    "type": "string"
+                },
+                "epicStatus": {
+                    "type": "integer"
+                },
+                "epicType": {
+                    "type": "integer"
+                },
+                "createdTime": {
+                    "type": "string"
+                },
+                "colorCode": {
+                    "type": "string"
+                },
+                "epic_id": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

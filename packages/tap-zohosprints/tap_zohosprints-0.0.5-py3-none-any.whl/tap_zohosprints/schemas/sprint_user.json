@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "next": {
+            "type": "boolean"
+        },
+        "userId": {
+            "type": "string"
+        },
+        "myTeamId": {
+            "type": "string"
+        },
+        "projectId": {
+            "type": "string"
+        },
+        "sprintId": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"
+        },
+        "record": {
+            "type": "object"
+        }
+    }
+}
