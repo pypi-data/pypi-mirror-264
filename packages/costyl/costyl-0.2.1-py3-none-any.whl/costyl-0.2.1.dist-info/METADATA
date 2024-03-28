@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: costyl
+Version: 0.2.1
+Summary: Costyl is a python library to facilitate source code authorship attribution via stylometric analysis powered by machine learning.
+Author: Jbernardiss
+Author-email: joaobernardiss@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: scikit-learn (==1.2.2)
+Description-Content-Type: text/markdown
+
+# costyl
+Costyl is a python library to facilitate source code authorship attribution via stylometric analysis powered by machine learning.
+
+*The code in this repository is largely based on the code done by myself and [Andrew](https://github.com/AndrewLFL) available at [this repository](https://github.com/Jbernardiss/codeStylometryResearch)*
+
