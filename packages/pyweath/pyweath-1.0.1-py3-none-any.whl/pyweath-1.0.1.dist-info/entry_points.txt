@@ -1,0 +1,2 @@
+[console_scripts]
+pyewath = pyweath.__main__:main
