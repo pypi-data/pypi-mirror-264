@@ -1,0 +1,16 @@
+siws/__init__.py,sha256=scrGVM11nRDufsIiTR-bZMaUU--QOhitB4HF_yLHGhY,460
+siws/custom_types.py,sha256=aw36_Dmj8ifhFMZFvxFFacdCpdBEmOi2Zl4VtbHS0lk,440
+siws/defs.py,sha256=NgMWZU1LAmmecq_gJQNCL793rXQKJ2I_CO63cyin0FI,1080
+siws/exceptions.py,sha256=hTiDBs2i76lgHi2102bszoMOMKGKRGjeSrOE8UiFGI0,440
+siws/parsed.py,sha256=MNg2X25pqL85qPQpJwCy-ZGBxJk5ev89mfrZ9HPRSfg,2117
+siws/siws.py,sha256=7TSWpCjzMK9s6ERoO8r7DEsO5KMsMr65BH7ATBnrOCc,4209
+siws/utils.py,sha256=lU9cGLvSmO20TMw3LZjmWFpjCRqVDR_KRmcVoh3HaF4,2487
+siws/grammars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+siws/grammars/eip4361.py,sha256=4Vz08h999RiIgBy2BkmpHx3LXAkhASYpWKDDrUuXcwk,1537
+siws/grammars/rfc3339.py,sha256=7ydmKnarLNmPXSE8zZNbvfChmimpa9AO7TUg-tXyxDA,868
+siws/grammars/rfc5234.py,sha256=z_u1FqTEtwcymVL1ZgR0MXi-eB55Yj-ruchyoA3Ur80,424
+siws-0.0.1.dist-info/LICENSE,sha256=o7Nu8vqlIRy-7StUn5JZTXZvhoDDQImRMuV35hvMk84,1055
+siws-0.0.1.dist-info/METADATA,sha256=b1ZBlNw_j-oO9C30104sf7gGZ1jrrVHJmUv2HHuJ_x0,2460
+siws-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+siws-0.0.1.dist-info/top_level.txt,sha256=ZE9YrlVPCCr462hRowOqjPJqFYZV07qD4OOghq2HrK0,5
+siws-0.0.1.dist-info/RECORD,,
