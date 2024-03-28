@@ -1,0 +1,67 @@
+[project]
+name = "type-enum"
+version = "0.5.0"
+description = "Concise sum types in Python."
+authors = [
+  { name = "Thomas MK", email = "tmke8@posteo.net" },
+]
+license = { text = "Apache-2.0" }
+# readme = "../README.md"
+readme = "README.md"
+# packages = [{ include = "type_enum" }]
+# include = ["type_enum/py.typed"]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+requires-python = ">=3.11"
+
+[project.urls]
+Documentation = "https://github.com/tmke8/type-enum#readme"
+Issues = "https://github.com/tmke8/type-enum/issues"
+Source = "https://github.com/tmke8/type-enum"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ruff >= 0.0.254",
+    "mypy >= 1.8.0",
+    "type-enum-plugin @ file:///../type-enum-plugin",
+    "typing-extensions >= 4.5.0",
+]
+
+[tool.rye.scripts]
+test = { call = "unittest" }
+
+[tool.mypy]
+plugins = "type_enum_plugin"
+strict = true
+warn_unused_ignores = true
+python_version = "3.11"
+
+[[tool.mypy.overrides]]
+module = ["type_enum.*"]
+ignore_errors = true
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "I", # isort
+]
+
+[tool.ruff.lint.isort]
+known-third-party = ["mypy", "pytest"]
+extra-standard-library = ["typing_extensions"]
+no-lines-before = ["future", "standard-library"]
+force-sort-within-sections = true
+split-on-trailing-comma = false
+#classes = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
