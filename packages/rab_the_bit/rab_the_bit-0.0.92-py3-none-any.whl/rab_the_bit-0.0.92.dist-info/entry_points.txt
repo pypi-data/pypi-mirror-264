@@ -1,0 +1,3 @@
+[console_scripts]
+rab_the_bit=rab_the_bit.__main__:main
+
