@@ -1,0 +1,12 @@
+alluxiofs/__init__.py,sha256=oJGoow6y9Y_e6SXMCBUCfw093CgoxmMJPx2pJDQEW0s,138
+alluxiofs/core.py,sha256=otT5_tmL6BFHfwZTITnFNcrXHu7xiB5KFOvmYHe1rQQ,12682
+alluxiofs/client/__init__.py,sha256=eWzFPZ_yf2d40g112UmKAEwPIGVs0d0uNx_VWPs6Oxw,248
+alluxiofs/client/const.py,sha256=Fw7LR4S0Hp1u4mmhvmLPwy_szdBOGe5yvjQEQVmPmhk,1610
+alluxiofs/client/core.py,sha256=slAmWmuG9-qpbmg4GFjvQ3zD_aVi44aEWLWlt_DGAqY,45024
+alluxiofs/client/worker_ring.py,sha256=hNRk9COgFArvyW-Y6Cl_0lQwrKuDl-wlswXfFfdYk5M,14570
+alluxiofs-1.0.1.dist-info/LICENSE,sha256=UtTMb-cfAb-NFnflxAHNckyS26uFn7oxuManCOHfxCY,27039
+alluxiofs-1.0.1.dist-info/METADATA,sha256=O9nEoxPrZpHrlcbWTnO5s9Odn8HaW_lw-M_N_HO-wMk,662
+alluxiofs-1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+alluxiofs-1.0.1.dist-info/entry_points.txt,sha256=o72hDEV13382rMN-iK3Srh7DZQyup9YERV1trtr7p84,53
+alluxiofs-1.0.1.dist-info/top_level.txt,sha256=DREpP91mKun4lIffkIABvg03DxXXHpNvXq4rIKleFIk,10
+alluxiofs-1.0.1.dist-info/RECORD,,
