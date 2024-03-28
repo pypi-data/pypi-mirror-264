@@ -1,0 +1,3 @@
+[console_scripts]
+funcrunner=func_runner_cli.main:app
+
