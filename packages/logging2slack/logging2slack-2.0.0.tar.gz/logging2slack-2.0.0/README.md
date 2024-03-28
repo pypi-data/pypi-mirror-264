@@ -1,0 +1,2 @@
+# logging2slack
+SlackLogger
