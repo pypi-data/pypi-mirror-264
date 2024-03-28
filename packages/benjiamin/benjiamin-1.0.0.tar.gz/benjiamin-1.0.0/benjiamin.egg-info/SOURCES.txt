@@ -1,0 +1,5 @@
+setup.py
+benjiamin.egg-info/PKG-INFO
+benjiamin.egg-info/SOURCES.txt
+benjiamin.egg-info/dependency_links.txt
+benjiamin.egg-info/top_level.txt
