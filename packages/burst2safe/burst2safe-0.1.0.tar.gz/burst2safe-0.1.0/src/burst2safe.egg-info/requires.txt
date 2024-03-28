@@ -1,0 +1,8 @@
+gdal
+numpy
+lxml
+asf_search
+crcmod
+
+[develop]
+pytest
