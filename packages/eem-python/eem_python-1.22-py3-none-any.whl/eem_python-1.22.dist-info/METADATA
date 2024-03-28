@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: eem-python
+Version: 1.22
+Summary: A python toolkit for excitation-emission matrix (EEM) analysis
+Home-page: https://github.com/YongminHu/eempy
+Author: Yongmin Hu
+Author-email: yongminhu@outlook.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: tensorly
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: tlviz
+
