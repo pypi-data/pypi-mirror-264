@@ -1,0 +1,6 @@
+py_sr25519_bindings-0.2.0.dist-info/RECORD,,
+py_sr25519_bindings-0.2.0.dist-info/METADATA,sha256=QgziZzuj9jI1kURJ4ywIYqmD7ylOQQmg2LQa8QiYf8g,2371
+py_sr25519_bindings-0.2.0.dist-info/WHEEL,sha256=hHjriAlHcgeb5WmNW1QzOzGxwml0UqheUXiIu23M5X0,151
+py_sr25519_bindings-0.2.0.dist-info/license_files/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sr25519/__init__.py,sha256=aA8QkBQ61epDv6PJ524wai97ugO6BidbYejYj5v3kU0,111
+sr25519/sr25519.cpython-312-aarch64-linux-gnu.so,sha256=ACjDo0eOhGSq68S0GOH5C_e3KOe_u2ZaJMNDEkNTM9I,808088
