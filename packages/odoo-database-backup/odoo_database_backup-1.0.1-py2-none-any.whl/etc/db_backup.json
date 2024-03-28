@@ -1,0 +1,12 @@
+{
+  "db_name": "Odoo Database Name",
+  "db_user": "Odoo Database User Name",
+  "db_password": "Database Password",
+  "db_host": "localhost",
+  "filestore_path": "~/.local/share/Odoo/filestore",
+  "sftp_host": "SFTP server IP address or domain name",
+  "sftp_port": 22,
+  "sftp_username": "SFTP User Name",
+  "sftp_password": "SFTP Password",
+  "sftp_directory": "~/Videos/odoo_backup/"
+}
