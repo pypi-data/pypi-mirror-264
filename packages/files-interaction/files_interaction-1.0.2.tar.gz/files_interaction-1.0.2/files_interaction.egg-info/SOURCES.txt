@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+files_interaction.egg-info/PKG-INFO
+files_interaction.egg-info/SOURCES.txt
+files_interaction.egg-info/dependency_links.txt
+files_interaction.egg-info/top_level.txt
