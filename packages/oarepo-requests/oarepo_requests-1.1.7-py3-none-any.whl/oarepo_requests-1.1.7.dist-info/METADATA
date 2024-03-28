@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: oarepo-requests
+Version: 1.1.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: invenio-requests
+Requires-Dist: oarepo-runtime
+Provides-Extra: tests
+Requires-Dist: oarepo-model-builder-tests ; extra == 'tests'
+Requires-Dist: oarepo-model-builder-requests ; extra == 'tests'
+Requires-Dist: oarepo-model-builder-drafts ; extra == 'tests'
+
+# OARepo requests
