@@ -1,0 +1,38 @@
+{
+    "editor.tabSize": 4,
+    "editor.formatOnSave": false,
+    "files.exclude": {
+        // useless
+        "dist": true,
+        "docs/build": true,
+        "docs/source/modules.rst": true,
+        "docs/source/mini_toolbox.*": true,
+        "docs/source/*.md": true,
+        ".pytest_cache": true,
+        ".coverage": true,
+        // less edit
+        "LICENSE": true,
+        ".gitignore": true,
+        "build.sh": true,
+        "docs": true,
+        // temp hide
+        "pyproject.toml": true,
+        "README.md": true,
+        // "tests": true,
+        // "CHANGELOG.md": true,
+        // final
+        "mini_toolbox/alpha": true,
+        "mini_toolbox/useless": true,
+        "mini_toolbox/__init__.py": true,
+        "mini_toolbox/xml.py": true,
+        "mini_toolbox/xlsx.py": true,
+        "mini_toolbox/pip_list.py": true,
+        "mini_toolbox/recoding.py": true,
+        "mini_toolbox/mysql.py": true,
+        "mini_toolbox/hash.py": true,
+        "mini_toolbox/logger.py": true,
+        "mini_toolbox/crypt.py": true,
+        "mini_toolbox/config.py": true,
+        "mini_toolbox/api_json.py": true,
+    },
+}
