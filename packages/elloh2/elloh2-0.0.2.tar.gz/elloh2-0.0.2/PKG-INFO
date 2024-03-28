@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: elloh2
+Version: 0.0.2
+Summary: A small example package
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: sparklog
+
+# python-elloh
