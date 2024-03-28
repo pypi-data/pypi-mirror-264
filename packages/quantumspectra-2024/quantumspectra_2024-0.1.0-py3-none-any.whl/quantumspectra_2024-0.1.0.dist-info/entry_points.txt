@@ -1,0 +1,3 @@
+[console_scripts]
+qs_2024=qs_2024:main
+
