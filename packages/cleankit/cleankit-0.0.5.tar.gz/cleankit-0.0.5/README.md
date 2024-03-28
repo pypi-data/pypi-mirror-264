@@ -1,0 +1,31 @@
+# dataprocess
+
+# TODO : Make better validators for pydantic classes, especially for addresses. 
+
+
+things to do: 
+When we process an entry, we should directly, from the pydantic class, or any other indication, know that the thing has to have a value. If the thing is None, for some values it means the line should be discarded. For some others, it just means it should be casted in the corresponding value (like "" for a string). 
+
+Solution pour traiter un nouveau dataset 
+Construire les nouvelles colonnes à partir des anciennes. 
+On construit les colonnes une par une, et ensuite on vire les anciennes
+
+
+
+
+Procédure: 
+Pour chaque box OCR: 
+    Voir si il y a des ocurrences exactes de certains champs. 
+    Si c'est le cas, ça veut dire que les champs correspondent. On peut calculer la distance entre l'embedding du champ et l'embedding de la box, pour voir à quoi correspond une distance entre deux embeddings qui se correspondent vraiment. 
+    Ensuite, pour les champs pour lesquels on a pas trouvé, calculer la distance entre leurs embeddings et les embeddings des champs, voir si on trouve des distances similaires. 
+    
+    
+Faire une petite revue des distances entre strings pour comprendre un peu. 
+On doit aussi analyser chacun des numéros (telephone, regex email ? Code postal, tva etc...) pour voir si il y a quelque chose à en tirer. 
+Parce que si il y a seulement des parties de la string de l'entree qui correspond a la box, ça peut être le bon truc quand même. 
+On va diviser les trucs ligne par ligne dans les box, mais garder un indice indiquant la ligne. Sur les boxes avec une ligne cet indice sera 1. C'est normal. Ça permet d'indiquer de façon soft la position des éléments dans une box. 
+
+
+To change the interpreter: 
+
+`Cmd+Shift+P` -> /anaconda3/bin/python
