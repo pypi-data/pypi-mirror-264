@@ -1,0 +1,11 @@
+devocli/__init__.py,sha256=tA-Hp20JB0qvAL7JrYdLoQMhpn7_ExOl9rFG02CBq-k,34
+devocli/dummy.py,sha256=SgZzqJ11WgU_FhmkTkYAW-cCooBAXHmiBY_AV1DvwIw,3123
+devocli/find_big_files.py,sha256=tkRv87QhF0W-i8YsZAsfpsXLwnZrQ7YrwtnkoJ8-2lU,58
+devolib/__init__.py,sha256=6FIS9TGR-nhBsl_ERPOEsuYJ0xwt3vnXVFU6-Y9zPjw,33
+devolib/consts.py,sha256=Dd1jHyOGo8Ilyy1Ybor7A4uJNO3WKYR68Kyhh6nAqT8,49
+devokay-0.0.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+devokay-0.0.1.dist-info/METADATA,sha256=d23vN0IMEUARlALCQeSWjbgl5clH7yR6G1Am6DtKfy0,13385
+devokay-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+devokay-0.0.1.dist-info/entry_points.txt,sha256=pwAKNjncwAEC0I3IesNhCKOHjrJ8Bj0iEsIXYJTRpfg,43
+devokay-0.0.1.dist-info/top_level.txt,sha256=HBoc6Z1rdzFzeI_7ED6S_SzsFPhbaoeGPhZVQs82Ykk,16
+devokay-0.0.1.dist-info/RECORD,,
