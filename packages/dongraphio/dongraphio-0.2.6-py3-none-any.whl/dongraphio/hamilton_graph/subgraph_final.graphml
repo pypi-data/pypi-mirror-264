@@ -1,0 +1,2660 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="time_min" attr.type="double" />
+  <key id="d10" for="edge" attr.name="type" attr.type="string" />
+  <key id="d9" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d8" for="edge" attr.name="length_meter" attr.type="double" />
+  <key id="d7" for="node" attr.name="desc" attr.type="string" />
+  <key id="d6" for="node" attr.name="y" attr.type="float" />
+  <key id="d5" for="node" attr.name="x" attr.type="float" />
+  <key id="d4" for="node" attr.name="y" attr.type="double" />
+  <key id="d3" for="node" attr.name="x" attr.type="double" />
+  <key id="d2" for="graph" attr.name="car speed" attr.type="double" />
+  <key id="d1" for="graph" attr.name="graph_type" attr.type="string" />
+  <key id="d0" for="graph" attr.name="crs" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="469">
+      <data key="d3">317006.56</data>
+      <data key="d4">6515276.77</data>
+    </node>
+    <node id="357">
+      <data key="d3">316043.02</data>
+      <data key="d4">6515900.55</data>
+    </node>
+    <node id="190">
+      <data key="d3">316608.83</data>
+      <data key="d4">6515542.96</data>
+    </node>
+    <node id="209">
+      <data key="d3">316376.1</data>
+      <data key="d4">6516718.54</data>
+    </node>
+    <node id="22">
+      <data key="d3">317871.53</data>
+      <data key="d4">6515637.62</data>
+    </node>
+    <node id="872_8.5">
+      <data key="d5">316679.0942503076</data>
+      <data key="d6">6515522.571669084</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="45">
+      <data key="d3">316681.07</data>
+      <data key="d4">6514919.39</data>
+    </node>
+    <node id="172">
+      <data key="d3">317040.59</data>
+      <data key="d4">6515829.08</data>
+    </node>
+    <node id="1">
+      <data key="d3">317200.53</data>
+      <data key="d4">6514012.97</data>
+    </node>
+    <node id="41">
+      <data key="d3">316716.59</data>
+      <data key="d4">6514168.4</data>
+    </node>
+    <node id="219">
+      <data key="d3">317424.54</data>
+      <data key="d4">6514830.71</data>
+    </node>
+    <node id="876_8.5">
+      <data key="d5">317090.568637345</data>
+      <data key="d6">6515158.6653687935</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="141">
+      <data key="d3">316624.65</data>
+      <data key="d4">6515134.51</data>
+    </node>
+    <node id="40">
+      <data key="d3">316608.2</data>
+      <data key="d4">6514195.41</data>
+    </node>
+    <node id="13">
+      <data key="d3">318172.98</data>
+      <data key="d4">6516417.64</data>
+    </node>
+    <node id="262_8.5">
+      <data key="d5">316071.19894725614</data>
+      <data key="d6">6515684.017911074</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="53">
+      <data key="d3">316896.45</data>
+      <data key="d4">6514860.28</data>
+    </node>
+    <node id="126">
+      <data key="d3">317094.68</data>
+      <data key="d4">6515172.63</data>
+    </node>
+    <node id="175">
+      <data key="d3">316934.97</data>
+      <data key="d4">6515859.56</data>
+    </node>
+    <node id="144">
+      <data key="d3">316961.81</data>
+      <data key="d4">6515113.74</data>
+    </node>
+    <node id="101">
+      <data key="d3">317188.0</data>
+      <data key="d4">6516818.41</data>
+    </node>
+    <node id="185">
+      <data key="d3">317173.05</data>
+      <data key="d4">6516332.91</data>
+    </node>
+    <node id="475">
+      <data key="d3">317098.88</data>
+      <data key="d4">6516494.47</data>
+    </node>
+    <node id="1035_8.5_1">
+      <data key="d5">316192.2542079082</data>
+      <data key="d6">6516359.172764772</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="291">
+      <data key="d3">317364.15</data>
+      <data key="d4">6513970.87</data>
+    </node>
+    <node id="74">
+      <data key="d3">316864.21</data>
+      <data key="d4">6514292.4</data>
+    </node>
+    <node id="225_8.5">
+      <data key="d5">317683.3525301027</data>
+      <data key="d6">6515710.593385909</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="285_8.5">
+      <data key="d5">316249.8662605911</data>
+      <data key="d6">6516531.190315409</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="714_8.5">
+      <data key="d5">316724.9300910751</data>
+      <data key="d6">6515509.14688949</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="370_8.5">
+      <data key="d5">316651.07651155966</data>
+      <data key="d6">6514478.026966341</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="84_8.5">
+      <data key="d5">317521.5352623322</data>
+      <data key="d6">6515568.712000099</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="63">
+      <data key="d3">316685.64</data>
+      <data key="d4">6514508.08</data>
+    </node>
+    <node id="42">
+      <data key="d3">316533.95</data>
+      <data key="d4">6514376.17</data>
+    </node>
+    <node id="108">
+      <data key="d3">317004.15</data>
+      <data key="d4">6516128.89</data>
+    </node>
+    <node id="200">
+      <data key="d3">316184.54</data>
+      <data key="d4">6516335.74</data>
+    </node>
+    <node id="51">
+      <data key="d3">316572.05</data>
+      <data key="d4">6514946.13</data>
+    </node>
+    <node id="54">
+      <data key="d3">317002.46</data>
+      <data key="d4">6514832.13</data>
+    </node>
+    <node id="256_8.5">
+      <data key="d5">316030.59804009995</data>
+      <data key="d6">6515697.870688187</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="18">
+      <data key="d3">317735.18</data>
+      <data key="d4">6515290.68</data>
+    </node>
+    <node id="219_8.5">
+      <data key="d5">317533.25234776846</data>
+      <data key="d6">6515604.773159838</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="467_8.5">
+      <data key="d5">316940.24383092695</data>
+      <data key="d6">6514744.402259231</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="87_8.5">
+      <data key="d5">317814.1559538966</data>
+      <data key="d6">6515490.733136549</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="32_8.5">
+      <data key="d5">317511.8248325282</data>
+      <data key="d6">6514108.866492845</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="76">
+      <data key="d3">317289.44</data>
+      <data key="d4">6516790.95</data>
+    </node>
+    <node id="99">
+      <data key="d3">316829.51</data>
+      <data key="d4">6515476.11</data>
+    </node>
+    <node id="69">
+      <data key="d3">316879.74</data>
+      <data key="d4">6515238.76</data>
+    </node>
+    <node id="341">
+      <data key="d3">316800.11</data>
+      <data key="d4">6516097.37</data>
+    </node>
+    <node id="150">
+      <data key="d3">317527.95</data>
+      <data key="d4">6514171.93</data>
+    </node>
+    <node id="94">
+      <data key="d3">316989.14</data>
+      <data key="d4">6514787.74</data>
+    </node>
+    <node id="11">
+      <data key="d3">318016.07</data>
+      <data key="d4">6516481.12</data>
+    </node>
+    <node id="234_8.5">
+      <data key="d5">317640.1687647791</data>
+      <data key="d6">6515043.985640216</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="8">
+      <data key="d3">317675.39</data>
+      <data key="d4">6515138.61</data>
+    </node>
+    <node id="0">
+      <data key="d3">316822.01</data>
+      <data key="d4">6514139.32</data>
+    </node>
+    <node id="4">
+      <data key="d3">317671.25</data>
+      <data key="d4">6514739.29</data>
+    </node>
+    <node id="324_8.5">
+      <data key="d5">316418.81139313936</data>
+      <data key="d6">6514243.532269449</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="124">
+      <data key="d3">316985.27</data>
+      <data key="d4">6515205.84</data>
+    </node>
+    <node id="473">
+      <data key="d3">317102.1</data>
+      <data key="d4">6516506.01</data>
+    </node>
+    <node id="106">
+      <data key="d3">317126.37</data>
+      <data key="d4">6516593.23</data>
+    </node>
+    <node id="231">
+      <data key="d3">317580.99</data>
+      <data key="d4">6514377.43</data>
+    </node>
+    <node id="284_8.5">
+      <data key="d5">317004.70059549407</data>
+      <data key="d6">6516817.4051294755</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="176">
+      <data key="d3">317068.69</data>
+      <data key="d4">6516368.37</data>
+    </node>
+    <node id="264">
+      <data key="d3">317015.04</data>
+      <data key="d4">6514060.9</data>
+    </node>
+    <node id="173">
+      <data key="d3">316874.35</data>
+      <data key="d4">6515630.66</data>
+    </node>
+    <node id="290">
+      <data key="d3">317128.61</data>
+      <data key="d4">6514268.56</data>
+    </node>
+    <node id="1035_8.5_2">
+      <data key="d5">316258.8846484018</data>
+      <data key="d6">6516554.421200896</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="375">
+      <data key="d3">317797.51</data>
+      <data key="d4">6515907.03</data>
+    </node>
+    <node id="1033_8.5">
+      <data key="d5">316168.41619507485</data>
+      <data key="d6">6516288.538994102</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="222">
+      <data key="d3">317876.23</data>
+      <data key="d4">6516116.88</data>
+    </node>
+    <node id="265">
+      <data key="d3">317077.2</data>
+      <data key="d4">6515109.7</data>
+    </node>
+    <node id="23">
+      <data key="d3">317612.69</data>
+      <data key="d4">6514953.04</data>
+    </node>
+    <node id="62">
+      <data key="d3">316472.74</data>
+      <data key="d4">6514564.28</data>
+    </node>
+    <node id="314">
+      <data key="d3">317635.9</data>
+      <data key="d4">6515032.53</data>
+    </node>
+    <node id="67">
+      <data key="d3">316669.08</data>
+      <data key="d4">6515303.18</data>
+    </node>
+    <node id="374">
+      <data key="d3">317946.91</data>
+      <data key="d4">6516301.36</data>
+    </node>
+    <node id="351">
+      <data key="d3">317478.17</data>
+      <data key="d4">6517422.85</data>
+    </node>
+    <node id="26">
+      <data key="d3">316003.26</data>
+      <data key="d4">6515707.47</data>
+    </node>
+    <node id="527_8.5">
+      <data key="d5">317012.0333380167</data>
+      <data key="d6">6515404.7225887915</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="5">
+      <data key="d3">317458.39</data>
+      <data key="d4">6514958.15</data>
+    </node>
+    <node id="19">
+      <data key="d3">317626.17</data>
+      <data key="d4">6514560.06</data>
+    </node>
+    <node id="60">
+      <data key="d3">316950.78</data>
+      <data key="d4">6514636.6</data>
+    </node>
+    <node id="343">
+      <data key="d3">317066.23</data>
+      <data key="d4">6516359.59</data>
+    </node>
+    <node id="1_8.5">
+      <data key="d5">316914.7157165199</data>
+      <data key="d6">6514108.4316457575</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="73">
+      <data key="d3">316647.26</data>
+      <data key="d4">6514347.8</data>
+    </node>
+    <node id="125_8.5">
+      <data key="d5">317360.4248681884</data>
+      <data key="d6">6517050.096409712</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="52">
+      <data key="d3">316786.72</data>
+      <data key="d4">6514890.76</data>
+    </node>
+    <node id="64_8.5">
+      <data key="d5">317439.6073455325</data>
+      <data key="d6">6514887.31000488</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="360">
+      <data key="d3">316353.98</data>
+      <data key="d4">6515613.76</data>
+    </node>
+    <node id="24">
+      <data key="d3">317602.72</data>
+      <data key="d4">6514920.65</data>
+    </node>
+    <node id="168">
+      <data key="d3">317564.9</data>
+      <data key="d4">6514767.29</data>
+    </node>
+    <node id="6">
+      <data key="d3">317535.93</data>
+      <data key="d4">6515192.43</data>
+    </node>
+    <node id="14">
+      <data key="d3">317301.3</data>
+      <data key="d4">6517227.89</data>
+    </node>
+    <node id="75">
+      <data key="d3">316933.59</data>
+      <data key="d4">6515435.23</data>
+    </node>
+    <node id="476">
+      <data key="d3">317209.59</data>
+      <data key="d4">6516472.47</data>
+    </node>
+    <node id="239">
+      <data key="d3">317660.51</data>
+      <data key="d4">6515518.13</data>
+    </node>
+    <node id="2_8.5">
+      <data key="d5">316793.0767712829</data>
+      <data key="d6">6514147.298132867</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="66">
+      <data key="d3">316753.67</data>
+      <data key="d4">6514316.42</data>
+    </node>
+    <node id="232">
+      <data key="d3">317494.1</data>
+      <data key="d4">6515080.6</data>
+    </node>
+    <node id="244_8.5">
+      <data key="d5">316995.21702391224</data>
+      <data key="d6">6515411.257270565</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="65">
+      <data key="d3">316905.77</data>
+      <data key="d4">6514453.69</data>
+    </node>
+    <node id="57">
+      <data key="d3">316522.02</data>
+      <data key="d4">6514753.11</data>
+    </node>
+    <node id="547_8.5">
+      <data key="d5">317051.01732202235</data>
+      <data key="d6">6516825.506513939</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="274">
+      <data key="d3">317522.26</data>
+      <data key="d4">6515571.04</data>
+    </node>
+    <node id="174">
+      <data key="d3">316979.06</data>
+      <data key="d4">6515603.97</data>
+    </node>
+    <node id="315">
+      <data key="d3">317726.12</data>
+      <data key="d4">6515693.97</data>
+    </node>
+    <node id="258_8.5">
+      <data key="d5">316046.9781284755</data>
+      <data key="d6">6515917.671904239</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="107">
+      <data key="d3">317233.51</data>
+      <data key="d4">6516563.86</data>
+    </node>
+    <node id="167">
+      <data key="d3">317086.08</data>
+      <data key="d4">6515143.41</data>
+    </node>
+    <node id="149">
+      <data key="d3">317265.19</data>
+      <data key="d4">6514236.43</data>
+    </node>
+    <node id="376">
+      <data key="d3">316765.67</data>
+      <data key="d4">6516192.2</data>
+    </node>
+    <node id="369_8.5">
+      <data key="d5">316722.2585989391</data>
+      <data key="d6">6514542.518088938</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="72">
+      <data key="d3">316428.75</data>
+      <data key="d4">6514406.03</data>
+    </node>
+    <node id="25">
+      <data key="d3">317141.71</data>
+      <data key="d4">6515351.65</data>
+    </node>
+    <node id="259_8.5">
+      <data key="d5">316038.79</data>
+      <data key="d6">6515882.81</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="43">
+      <data key="d3">316578.02</data>
+      <data key="d4">6514537.21</data>
+    </node>
+    <node id="70_8.5">
+      <data key="d5">317339.3060203759</data>
+      <data key="d6">6514499.734664751</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="9">
+      <data key="d3">317709.59</data>
+      <data key="d4">6514902.5</data>
+    </node>
+    <node id="39">
+      <data key="d3">316490.64</data>
+      <data key="d4">6514224.6</data>
+    </node>
+    <node id="58">
+      <data key="d3">316737.22</data>
+      <data key="d4">6514697.81</data>
+    </node>
+    <node id="21">
+      <data key="d3">317577.27</data>
+      <data key="d4">6515739.17</data>
+    </node>
+    <node id="926_8.5">
+      <data key="d5">317257.50780811923</data>
+      <data key="d6">6514208.341981867</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="44">
+      <data key="d3">316624.75</data>
+      <data key="d4">6514722.51</data>
+    </node>
+    <node id="321_8.5">
+      <data key="d5">316432.306551982</data>
+      <data key="d6">6514279.626223255</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="142">
+      <data key="d3">316733.75</data>
+      <data key="d4">6515105.6</data>
+    </node>
+    <node id="123">
+      <data key="d3">316727.71</data>
+      <data key="d4">6515508.29</data>
+    </node>
+    <node id="470">
+      <data key="d3">317114.94</data>
+      <data key="d4">6515249.77</data>
+    </node>
+    <node id="59">
+      <data key="d3">316854.1</data>
+      <data key="d4">6514666.54</data>
+    </node>
+    <node id="151">
+      <data key="d3">317082.28</data>
+      <data key="d4">6514042.48</data>
+    </node>
+    <node id="276">
+      <data key="d3">318413.69</data>
+      <data key="d4">6517004.44</data>
+    </node>
+    <node id="7">
+      <data key="d3">317593.4</data>
+      <data key="d4">6515343.41</data>
+    </node>
+    <node id="12">
+      <data key="d3">317392.98</data>
+      <data key="d4">6517168.94</data>
+    </node>
+    <node id="340">
+      <data key="d3">316855.23</data>
+      <data key="d4">6515879.38</data>
+    </node>
+    <node id="109">
+      <data key="d3">317111.22</data>
+      <data key="d4">6516101.44</data>
+    </node>
+    <node id="96">
+      <data key="d3">317041.53</data>
+      <data key="d4">6515393.25</data>
+    </node>
+    <node id="512">
+      <data key="d3">317633.88</data>
+      <data key="d4">6514930.53</data>
+    </node>
+    <node id="348">
+      <data key="d3">317084.08</data>
+      <data key="d4">6516430.42</data>
+    </node>
+    <node id="143">
+      <data key="d3">316838.24</data>
+      <data key="d4">6515079.61</data>
+    </node>
+    <node id="202_8.5">
+      <data key="d5">317657.4653274753</data>
+      <data key="d6">6514683.602697591</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="68">
+      <data key="d3">316775.15</data>
+      <data key="d4">6515270.36</data>
+    </node>
+    <node id="38">
+      <data key="d3">316399.63</data>
+      <data key="d4">6514248.59</data>
+    </node>
+    <node id="2">
+      <data key="d3">317469.56</data>
+      <data key="d4">6513942.42</data>
+    </node>
+    <node id="474_8.5">
+      <data key="d5">316949.91133686726</data>
+      <data key="d6">6514752.9711848805</data>
+      <data key="d7">bus_stop</data>
+    </node>
+    <node id="472">
+      <data key="d3">316705.69</data>
+      <data key="d4">6515431.27</data>
+    </node>
+    <edge source="469" target="124">
+      <data key="d8">73.922</data>
+      <data key="d9">LINESTRING (317006.56 6515276.77, 316985.27 6515205.84)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.26</data>
+    </edge>
+    <edge source="469" target="96">
+      <data key="d8">121.386</data>
+      <data key="d9">LINESTRING (317006.56 6515276.77, 317041.53 6515393.25)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.43</data>
+    </edge>
+    <edge source="469" target="470">
+      <data key="d8">111.302</data>
+      <data key="d9">LINESTRING (317006.56 6515276.77, 317114.94 6515249.77)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="357" target="200">
+      <data key="d8">457.66499999999996</data>
+      <data key="d9">LINESTRING (316043.02 6515900.55, 316046.98 6515917.68, 316055.9 6515956.25, 316074.82 6516037.92, 316077.52 6516047.18, 316125.68 6516164.98, 316157.16 6516255.98, 316168.42 6516288.55, 316180.38 6516323.11, 316184.54 6516335.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.62</data>
+    </edge>
+    <edge source="357" target="26">
+      <data key="d8">196.78199999999998</data>
+      <data key="d9">LINESTRING (316043.02 6515900.55, 316038.79 6515882.81, 316003.26 6515707.47)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="357" target="258_8.5">
+      <data key="d8">17.573456854011315</data>
+      <data key="d9">LINESTRING (316043.02 6515900.55, 316046.9781284755 6515917.671904239)</data>
+    </edge>
+    <edge source="357" target="259_8.5">
+      <data key="d8">18.237338073531053</data>
+      <data key="d9">LINESTRING (316043.02 6515900.55, 316038.79 6515882.81)</data>
+    </edge>
+    <edge source="190" target="360">
+      <data key="d8">263.585</data>
+      <data key="d9">LINESTRING (316608.83 6515542.96, 316520.02 6515568.75, 316492.35 6515576.03, 316434.96 6515591.68, 316353.98 6515613.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.93</data>
+    </edge>
+    <edge source="190" target="123">
+      <data key="d8">123.403</data>
+      <data key="d9">LINESTRING (316608.83 6515542.96, 316612.89 6515541.7, 316617.92 6515540.33, 316679.1 6515522.57, 316700.14 6515516.45, 316717.92 6515511.29, 316724.92 6515509.15, 316727.71 6515508.29)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.44</data>
+    </edge>
+    <edge source="190" target="872_8.5">
+      <data key="d8">73.16392075566424</data>
+      <data key="d9">LINESTRING (316608.83 6515542.96, 316612.89 6515541.7, 316617.92 6515540.33, 316679.0942503076 6515522.571669084)</data>
+    </edge>
+    <edge source="209" target="101">
+      <data key="d8">829.3460000000001</data>
+      <data key="d9">LINESTRING (316376.1 6516718.54, 316427.49 6516732.8, 316462.25 6516737.69, 316503.85 6516743.56, 316605.19 6516791.28, 316639.99 6516803.19, 316674.62 6516810.76, 316725.71 6516808.82, 316760.73 6516802.13, 316796.18 6516797.88, 316908.81 6516807.85, 316935.57 6516810.22, 316959.81 6516812.39, 316983.18 6516814.5, 317011.7 6516818.35, 317084 6516831.51, 317142.33 6516827.68, 317188 6516818.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">2.93</data>
+    </edge>
+    <edge source="209" target="200">
+      <data key="d8">434.00199999999995</data>
+      <data key="d9">LINESTRING (316376.1 6516718.54, 316364.01 6516704.59, 316351.78 6516690.48, 316329.57 6516665.87, 316328.15 6516664.29, 316324.17 6516656.62, 316315.92 6516640.71, 316298.25 6516606.54, 316283.58 6516588.72, 316273.79 6516579.3, 316266.57 6516572.94, 316258.88 6516554.41, 316258.11 6516552.54, 316252.94 6516539.14, 316249.87 6516531.2, 316227.95 6516474.43, 316219.31 6516441.35, 316199.57 6516381.41, 316195.83 6516370.02, 316192.25 6516359.16, 316184.54 6516335.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.53</data>
+    </edge>
+    <edge source="209" target="284_8.5">
+      <data key="d8">646.6257943035213</data>
+      <data key="d9">LINESTRING (316376.1 6516718.54, 316427.49 6516732.8, 316462.25 6516737.69, 316503.85 6516743.56, 316605.19 6516791.28, 316639.99 6516803.19, 316674.62 6516810.76, 316725.71 6516808.82, 316760.73 6516802.13, 316796.18 6516797.88, 316908.81 6516807.85, 316935.57 6516810.22, 316959.81 6516812.39, 316983.18 6516814.5, 317004.70059549407 6516817.4051294755)</data>
+    </edge>
+    <edge source="209" target="285_8.5">
+      <data key="d8">228.69846763816346</data>
+      <data key="d9">LINESTRING (316376.1 6516718.54, 316364.01 6516704.59, 316351.78 6516690.48, 316329.57 6516665.87, 316328.15 6516664.29, 316324.17 6516656.62, 316315.92 6516640.71, 316298.25 6516606.54, 316283.58 6516588.72, 316273.79 6516579.3, 316266.57 6516572.94, 316258.88 6516554.41, 316258.11 6516552.54, 316252.94 6516539.14, 316249.87 6516531.2, 316249.8662605911 6516531.190315409)</data>
+    </edge>
+    <edge source="22" target="315">
+      <data key="d8">155.41</data>
+      <data key="d9">LINESTRING (317871.53 6515637.62, 317734.07 6515690.89, 317726.12 6515693.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.55</data>
+    </edge>
+    <edge source="872_8.5" target="123">
+      <data key="d8">50.67095588039046</data>
+      <data key="d9">LINESTRING (316679.0942503076 6515522.571669084, 316679.1 6515522.57, 316700.14 6515516.45, 316717.92 6515511.29, 316724.92 6515509.15, 316727.71 6515508.29)</data>
+    </edge>
+    <edge source="45" target="52">
+      <data key="d8">109.078</data>
+      <data key="d9">LINESTRING (316681.07 6514919.39, 316786.72 6514890.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="45" target="51">
+      <data key="d8">111.857</data>
+      <data key="d9">LINESTRING (316681.07 6514919.39, 316572.05 6514946.13)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="45" target="142">
+      <data key="d8">193.153</data>
+      <data key="d9">LINESTRING (316681.07 6514919.39, 316733.75 6515105.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.68</data>
+    </edge>
+    <edge source="45" target="44">
+      <data key="d8">204.399</data>
+      <data key="d9">LINESTRING (316681.07 6514919.39, 316624.75 6514722.51)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.72</data>
+    </edge>
+    <edge source="172" target="175">
+      <data key="d8">109.553</data>
+      <data key="d9">LINESTRING (317040.59 6515829.08, 316934.97 6515859.56)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="172" target="109">
+      <data key="d8">280.856</data>
+      <data key="d9">LINESTRING (317040.59 6515829.08, 317111.22 6516101.44)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.99</data>
+    </edge>
+    <edge source="172" target="174">
+      <data key="d8">232.937</data>
+      <data key="d9">LINESTRING (317040.59 6515829.08, 316979.06 6515603.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.82</data>
+    </edge>
+    <edge source="1" target="291">
+      <data key="d8">168.364</data>
+      <data key="d9">LINESTRING (317200.53 6514012.97, 317279.91 6513993.36, 317364.15 6513970.87)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.59</data>
+    </edge>
+    <edge source="1" target="151">
+      <data key="d8">121.449</data>
+      <data key="d9">LINESTRING (317200.53 6514012.97, 317192.18 6514014.97, 317082.28 6514042.48)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.43</data>
+    </edge>
+    <edge source="41" target="40">
+      <data key="d8">111.319</data>
+      <data key="d9">LINESTRING (316716.59 6514168.4, 316608.2 6514195.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="41" target="66">
+      <data key="d8">152.317</data>
+      <data key="d9">LINESTRING (316716.59 6514168.4, 316753.67 6514316.42)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.54</data>
+    </edge>
+    <edge source="41" target="0">
+      <data key="d8">108.97500000000001</data>
+      <data key="d9">LINESTRING (316716.59 6514168.4, 316793.07 6514147.3, 316822.01 6514139.32)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="219" target="168">
+      <data key="d8">173.927</data>
+      <data key="d9">LINESTRING (317424.54 6514830.71, 317560.43 6514793.17, 317569.79 6514790.58, 317567.89 6514781.5, 317564.9 6514767.29)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.61</data>
+    </edge>
+    <edge source="219" target="149">
+      <data key="d8">614.1990000000001</data>
+      <data key="d9">LINESTRING (317424.54 6514830.71, 317418.07 6514805.97, 317408.81 6514770.59, 317401.15 6514741.3, 317389.47 6514693.38, 317370.74 6514624.35, 317365.7 6514605.77, 317363.12 6514595.4, 317349.23 6514539.58, 317339.68 6514501.24, 317336.9 6514490.05, 317325.93 6514451.3, 317317.5 6514421.5, 317309.65 6514394.5, 317299.23 6514357.46, 317287.54 6514315.9, 317280.46 6514290.72, 317265.19 6514236.43)</data>
+      <data key="d10">car</data>
+      <data key="d11">2.17</data>
+    </edge>
+    <edge source="219" target="70_8.5">
+      <data key="d8">341.7899949732274</data>
+      <data key="d9">LINESTRING (317424.54 6514830.71, 317418.07 6514805.97, 317408.81 6514770.59, 317401.15 6514741.3, 317389.47 6514693.38, 317370.74 6514624.35, 317365.7 6514605.77, 317363.12 6514595.4, 317349.23 6514539.58, 317339.68 6514501.24, 317339.3060203759 6514499.734664751)</data>
+    </edge>
+    <edge source="876_8.5" target="167">
+      <data key="d8">15.902016923547455</data>
+      <data key="d9">LINESTRING (317090.568637345 6515158.6653687935, 317086.08 6515143.41)</data>
+    </edge>
+    <edge source="141" target="67">
+      <data key="d8">174.106</data>
+      <data key="d9">LINESTRING (316624.65 6515134.51, 316669.08 6515303.18)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.61</data>
+    </edge>
+    <edge source="141" target="51">
+      <data key="d8">195.224</data>
+      <data key="d9">LINESTRING (316624.65 6515134.51, 316572.05 6514946.13)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="141" target="142">
+      <data key="d8">112.47</data>
+      <data key="d9">LINESTRING (316624.65 6515134.51, 316733.75 6515105.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="40" target="39">
+      <data key="d8">120.706</data>
+      <data key="d9">LINESTRING (316608.2 6514195.41, 316490.64 6514224.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.43</data>
+    </edge>
+    <edge source="40" target="41">
+      <data key="d8">111.319</data>
+      <data key="d9">LINESTRING (316608.2 6514195.41, 316716.59 6514168.4)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="40" target="73">
+      <data key="d8">157.029</data>
+      <data key="d9">LINESTRING (316608.2 6514195.41, 316647.26 6514347.8)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.55</data>
+    </edge>
+    <edge source="13" target="11">
+      <data key="d8">168.698</data>
+      <data key="d9">LINESTRING (318172.98 6516417.64, 318016.07 6516481.12)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.6</data>
+    </edge>
+    <edge source="13" target="276">
+      <data key="d8">633.0880000000001</data>
+      <data key="d9">LINESTRING (318172.98 6516417.64, 318261.73 6516642.88, 318263.09 6516646.33, 318272.62 6516669.74, 318280.81 6516689.42, 318304.65 6516749.73, 318346.37 6516851.51, 318397.45 6516967.78, 318413.69 6517004.44)</data>
+      <data key="d10">car</data>
+      <data key="d11">2.23</data>
+    </edge>
+    <edge source="262_8.5" target="26">
+      <data key="d8">71.89319522818525</data>
+      <data key="d9">LINESTRING (316071.19894725614 6515684.017911074, 316071.19 6515684.02, 316067.74 6515684.82, 316030.6 6515697.87, 316003.26 6515707.47)</data>
+    </edge>
+    <edge source="53" target="54">
+      <data key="d8">109.302</data>
+      <data key="d9">LINESTRING (316896.45 6514860.28, 317002.46 6514832.13)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="53" target="52">
+      <data key="d8">113.487</data>
+      <data key="d9">LINESTRING (316896.45 6514860.28, 316786.72 6514890.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="53" target="59">
+      <data key="d8">199.12400000000002</data>
+      <data key="d9">LINESTRING (316896.45 6514860.28, 316851.72 6514684.49, 316854.1 6514666.54)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.7</data>
+    </edge>
+    <edge source="126" target="124">
+      <data key="d8">113.939</data>
+      <data key="d9">LINESTRING (317094.68 6515172.63, 316985.27 6515205.84)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="126" target="470">
+      <data key="d8">79.609</data>
+      <data key="d9">LINESTRING (317094.68 6515172.63, 317114.94 6515249.77)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.28</data>
+    </edge>
+    <edge source="126" target="167">
+      <data key="d8">30.393</data>
+      <data key="d9">LINESTRING (317094.68 6515172.63, 317092.78 6515166.16, 317090.57 6515158.67, 317086.08 6515143.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.11</data>
+    </edge>
+    <edge source="126" target="876_8.5">
+      <data key="d8">14.557277035144066</data>
+      <data key="d9">LINESTRING (317094.68 6515172.63, 317092.78 6515166.16, 317090.57 6515158.67, 317090.568637345 6515158.6653687935)</data>
+    </edge>
+    <edge source="175" target="172">
+      <data key="d8">109.553</data>
+      <data key="d9">LINESTRING (316934.97 6515859.56, 317040.59 6515829.08)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="175" target="173">
+      <data key="d8">236.353</data>
+      <data key="d9">LINESTRING (316934.97 6515859.56, 316874.35 6515630.66)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.83</data>
+    </edge>
+    <edge source="175" target="340">
+      <data key="d8">81.957</data>
+      <data key="d9">LINESTRING (316934.97 6515859.56, 316866.17 6515875.34, 316855.23 6515879.38)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.29</data>
+    </edge>
+    <edge source="175" target="108">
+      <data key="d8">277.56399999999996</data>
+      <data key="d9">LINESTRING (316934.97 6515859.56, 316982.17 6516043.3, 317004.15 6516128.89)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.98</data>
+    </edge>
+    <edge source="144" target="124">
+      <data key="d8">94.864</data>
+      <data key="d9">LINESTRING (316961.81 6515113.74, 316985.27 6515205.84)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.33</data>
+    </edge>
+    <edge source="144" target="167">
+      <data key="d8">129.912</data>
+      <data key="d9">LINESTRING (316961.81 6515113.74, 317070.37 6515148.24, 317086.08 6515143.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.46</data>
+    </edge>
+    <edge source="144" target="143">
+      <data key="d8">128.627</data>
+      <data key="d9">LINESTRING (316961.81 6515113.74, 316852.28 6515078.72, 316838.24 6515079.61)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.45</data>
+    </edge>
+    <edge source="101" target="76">
+      <data key="d8">104.726</data>
+      <data key="d9">LINESTRING (317188 6516818.41, 317289.44 6516790.95)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.37</data>
+    </edge>
+    <edge source="101" target="106">
+      <data key="d8">233.034</data>
+      <data key="d9">LINESTRING (317188 6516818.41, 317126.37 6516593.23)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.82</data>
+    </edge>
+    <edge source="101" target="209">
+      <data key="d8">829.346</data>
+      <data key="d9">LINESTRING (317188 6516818.41, 317142.33 6516827.68, 317084 6516831.51, 317011.7 6516818.35, 316983.18 6516814.5, 316959.81 6516812.39, 316935.57 6516810.22, 316908.81 6516807.85, 316796.18 6516797.88, 316760.73 6516802.13, 316725.71 6516808.82, 316674.62 6516810.76, 316639.99 6516803.19, 316605.19 6516791.28, 316503.85 6516743.56, 316462.25 6516737.69, 316427.49 6516732.8, 316376.1 6516718.54)</data>
+      <data key="d10">car</data>
+      <data key="d11">2.93</data>
+    </edge>
+    <edge source="101" target="547_8.5">
+      <data key="d8">138.58151351267648</data>
+      <data key="d9">LINESTRING (317188 6516818.41, 317142.33 6516827.68, 317084 6516831.51, 317051.01732202235 6516825.506513939)</data>
+    </edge>
+    <edge source="185" target="176">
+      <data key="d8">109.849</data>
+      <data key="d9">LINESTRING (317173.05 6516332.91, 317068.69 6516368.37)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="185" target="476">
+      <data key="d8">144.003</data>
+      <data key="d9">LINESTRING (317173.05 6516332.91, 317209.59 6516472.47)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.51</data>
+    </edge>
+    <edge source="185" target="109">
+      <data key="d8">239.139</data>
+      <data key="d9">LINESTRING (317173.05 6516332.91, 317111.22 6516101.44)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.84</data>
+    </edge>
+    <edge source="475" target="473">
+      <data key="d8">11.952</data>
+      <data key="d9">LINESTRING (317098.88 6516494.47, 317102.1 6516506.01)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.04</data>
+    </edge>
+    <edge source="475" target="348">
+      <data key="d8">65.615</data>
+      <data key="d9">LINESTRING (317098.88 6516494.47, 317084.08 6516430.42)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.23</data>
+    </edge>
+    <edge source="475" target="476">
+      <data key="d8">112.468</data>
+      <data key="d9">LINESTRING (317098.88 6516494.47, 317209.59 6516472.47)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="1035_8.5_1" target="1035_8.5_2">
+      <data key="d8">206.47122376581726</data>
+      <data key="d9">LINESTRING (316192.2542079082 6516359.172764772, 316195.83 6516370.02, 316199.57 6516381.41, 316219.31 6516441.35, 316227.95 6516474.43, 316249.87 6516531.2, 316252.94 6516539.14, 316258.11 6516552.54, 316258.88 6516554.41, 316258.8846484018 6516554.421200896)</data>
+    </edge>
+    <edge source="291" target="2">
+      <data key="d8">108.821</data>
+      <data key="d9">LINESTRING (317364.15 6513970.87, 317402.81 6513959.89, 317455.72 6513945.56, 317469.56 6513942.42)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="291" target="1">
+      <data key="d8">168.364</data>
+      <data key="d9">LINESTRING (317364.15 6513970.87, 317279.91 6513993.36, 317200.53 6514012.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.59</data>
+    </edge>
+    <edge source="74" target="65">
+      <data key="d8">166.257</data>
+      <data key="d9">LINESTRING (316864.21 6514292.4, 316905.77 6514453.69)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.59</data>
+    </edge>
+    <edge source="74" target="0">
+      <data key="d8">158.497</data>
+      <data key="d9">LINESTRING (316864.21 6514292.4, 316822.01 6514139.32)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.56</data>
+    </edge>
+    <edge source="74" target="66">
+      <data key="d8">112.724</data>
+      <data key="d9">LINESTRING (316864.21 6514292.4, 316753.67 6514316.42)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="225_8.5" target="21">
+      <data key="d8">113.32090235105565</data>
+      <data key="d9">LINESTRING (317683.3525301027 6515710.593385909, 317597.64 6515743.91, 317586.85 6515743.63, 317577.27 6515739.17)</data>
+    </edge>
+    <edge source="285_8.5" target="200">
+      <data key="d8">206.22067557738745</data>
+      <data key="d9">LINESTRING (316249.8662605911 6516531.190315409, 316227.95 6516474.43, 316219.31 6516441.35, 316199.57 6516381.41, 316195.83 6516370.02, 316192.25 6516359.16, 316184.54 6516335.74)</data>
+    </edge>
+    <edge source="714_8.5" target="190">
+      <data key="d8">120.92589859744213</data>
+      <data key="d9">LINESTRING (316724.9300910751 6515509.14688949, 316724.92 6515509.15, 316717.92 6515511.29, 316700.14 6515516.45, 316679.1 6515522.57, 316617.92 6515540.33, 316612.89 6515541.7, 316608.83 6515542.96)</data>
+    </edge>
+    <edge source="370_8.5" target="42">
+      <data key="d8">155.22068580671294</data>
+      <data key="d9">LINESTRING (316651.07651155966 6514478.026966341, 316533.95 6514376.17)</data>
+    </edge>
+    <edge source="84_8.5" target="7">
+      <data key="d8">312.5112893002614</data>
+      <data key="d9">LINESTRING (317521.5352623322 6515568.712000099, 317506.19 6515519.42, 317485.97 6515456.74, 317471.69 6515410, 317471.45 6515400.72, 317475.61 6515392.41, 317547.94 6515362.56, 317587.11 6515346.09, 317593.4 6515343.41)</data>
+    </edge>
+    <edge source="63" target="43">
+      <data key="d8">111.099</data>
+      <data key="d9">LINESTRING (316685.64 6514508.08, 316578.02 6514537.21)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="63" target="58">
+      <data key="d8">196.248</data>
+      <data key="d9">LINESTRING (316685.64 6514508.08, 316737.22 6514697.81)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="63" target="59">
+      <data key="d8">230.67100000000002</data>
+      <data key="d9">LINESTRING (316685.64 6514508.08, 316722.25 6514542.51, 316854.1 6514666.54)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.81</data>
+    </edge>
+    <edge source="63" target="42">
+      <data key="d8">200.473</data>
+      <data key="d9">LINESTRING (316685.64 6514508.08, 316651.08 6514478.03, 316533.95 6514376.17)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.71</data>
+    </edge>
+    <edge source="63" target="73">
+      <data key="d8">164.52</data>
+      <data key="d9">LINESTRING (316685.64 6514508.08, 316663.07 6514410.68, 316647.26 6514347.8)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.58</data>
+    </edge>
+    <edge source="63" target="369_8.5">
+      <data key="d8">50.26831763596186</data>
+      <data key="d9">LINESTRING (316685.64 6514508.08, 316722.25 6514542.51, 316722.2585989391 6514542.518088938)</data>
+    </edge>
+    <edge source="63" target="370_8.5">
+      <data key="d8">45.80196027781801</data>
+      <data key="d9">LINESTRING (316685.64 6514508.08, 316651.08 6514478.03, 316651.07651155966 6514478.026966341)</data>
+    </edge>
+    <edge source="42" target="73">
+      <data key="d8">116.404</data>
+      <data key="d9">LINESTRING (316533.95 6514376.17, 316647.26 6514347.8)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.41</data>
+    </edge>
+    <edge source="42" target="72">
+      <data key="d8">108.974</data>
+      <data key="d9">LINESTRING (316533.95 6514376.17, 316428.75 6514406.03)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="42" target="39">
+      <data key="d8">157.349</data>
+      <data key="d9">LINESTRING (316533.95 6514376.17, 316490.64 6514224.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.56</data>
+    </edge>
+    <edge source="42" target="63">
+      <data key="d8">200.473</data>
+      <data key="d9">LINESTRING (316533.95 6514376.17, 316651.08 6514478.03, 316685.64 6514508.08)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.71</data>
+    </edge>
+    <edge source="42" target="38">
+      <data key="d8">184.768</data>
+      <data key="d9">LINESTRING (316533.95 6514376.17, 316432.3 6514279.62, 316399.63 6514248.59)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.65</data>
+    </edge>
+    <edge source="108" target="109">
+      <data key="d8">110.146</data>
+      <data key="d9">LINESTRING (317004.15 6516128.89, 317111.22 6516101.44)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="108" target="343">
+      <data key="d8">238.458</data>
+      <data key="d9">LINESTRING (317004.15 6516128.89, 317066.23 6516359.59)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.84</data>
+    </edge>
+    <edge source="108" target="175">
+      <data key="d8">277.56399999999996</data>
+      <data key="d9">LINESTRING (317004.15 6516128.89, 316982.17 6516043.3, 316934.97 6515859.56)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.98</data>
+    </edge>
+    <edge source="200" target="357">
+      <data key="d8">457.665</data>
+      <data key="d9">LINESTRING (316184.54 6516335.74, 316180.38 6516323.11, 316168.42 6516288.55, 316157.16 6516255.98, 316125.68 6516164.98, 316077.52 6516047.18, 316074.82 6516037.92, 316055.9 6515956.25, 316046.98 6515917.68, 316043.02 6515900.55)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.62</data>
+    </edge>
+    <edge source="200" target="376">
+      <data key="d8">596.5360000000001</data>
+      <data key="d9">LINESTRING (316184.54 6516335.74, 316373.19 6516289.74, 316381.1 6516288.56, 316393.57 6516285.36, 316469.11 6516266.02, 316691.16 6516210.74, 316765.67 6516192.2)</data>
+      <data key="d10">car</data>
+      <data key="d11">2.11</data>
+    </edge>
+    <edge source="200" target="209">
+      <data key="d8">434.00199999999995</data>
+      <data key="d9">LINESTRING (316184.54 6516335.74, 316192.25 6516359.16, 316195.83 6516370.02, 316199.57 6516381.41, 316219.31 6516441.35, 316227.95 6516474.43, 316249.87 6516531.2, 316252.94 6516539.14, 316258.11 6516552.54, 316258.88 6516554.41, 316266.57 6516572.94, 316273.79 6516579.3, 316283.58 6516588.72, 316298.25 6516606.54, 316315.92 6516640.71, 316324.17 6516656.62, 316328.15 6516664.29, 316329.57 6516665.87, 316351.78 6516690.48, 316364.01 6516704.59, 316376.1 6516718.54)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.53</data>
+    </edge>
+    <edge source="200" target="1033_8.5">
+      <data key="d8">49.88006837443293</data>
+      <data key="d9">LINESTRING (316184.54 6516335.74, 316180.38 6516323.11, 316168.42 6516288.55, 316168.41619507485 6516288.538994102)</data>
+    </edge>
+    <edge source="200" target="1035_8.5_1">
+      <data key="d8">24.669889917379546</data>
+      <data key="d9">LINESTRING (316184.54 6516335.74, 316192.25 6516359.16, 316192.2542079082 6516359.172764772)</data>
+    </edge>
+    <edge source="51" target="141">
+      <data key="d8">195.224</data>
+      <data key="d9">LINESTRING (316572.05 6514946.13, 316624.65 6515134.51)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="51" target="57">
+      <data key="d8">199.033</data>
+      <data key="d9">LINESTRING (316572.05 6514946.13, 316522.02 6514753.11)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.7</data>
+    </edge>
+    <edge source="51" target="45">
+      <data key="d8">111.857</data>
+      <data key="d9">LINESTRING (316572.05 6514946.13, 316681.07 6514919.39)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="54" target="53">
+      <data key="d8">109.302</data>
+      <data key="d9">LINESTRING (317002.46 6514832.13, 316896.45 6514860.28)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="54" target="265">
+      <data key="d8">426.54600000000005</data>
+      <data key="d9">LINESTRING (317002.46 6514832.13, 317012.11 6514830.35, 317107.14 6514809.89, 317115.4 6514820.61, 317128.99 6514837.84, 317128.76 6514863.69, 317136.1 6514890.09, 317140.27 6514900.63, 317137.66 6514939.47, 317130.41 6514961.39, 317113.41 6515025.13, 317110.44 6515033.39, 317091.31 6515086.48, 317084.43 6515100.34, 317077.2 6515109.7)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.51</data>
+    </edge>
+    <edge source="54" target="94">
+      <data key="d8">46.259</data>
+      <data key="d9">LINESTRING (317002.46 6514832.13, 316989.14 6514787.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.16</data>
+    </edge>
+    <edge source="256_8.5" target="360">
+      <data key="d8">334.3176940531335</data>
+      <data key="d9">LINESTRING (316030.59804009995 6515697.870688187, 316030.6 6515697.87, 316067.74 6515684.82, 316071.19 6515684.02, 316129.27 6515670.46, 316161.4 6515663.24, 316353.98 6515613.76)</data>
+    </edge>
+    <edge source="18" target="7">
+      <data key="d8">150.787</data>
+      <data key="d9">LINESTRING (317735.18 6515290.68, 317723.4 6515294.74, 317706.2 6515300.68, 317643.89 6515322.99, 317601 6515340.22, 317593.4 6515343.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.53</data>
+    </edge>
+    <edge source="18" target="22">
+      <data key="d8">372.057</data>
+      <data key="d9">LINESTRING (317735.18 6515290.68, 317738.66 6515299.46, 317768.52 6515374.86, 317772.21 6515384.16, 317803.41 6515463.92, 317845.98 6515570.14, 317871.53 6515637.62)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.31</data>
+    </edge>
+    <edge source="18" target="87_8.5">
+      <data key="d8">215.07867178038794</data>
+      <data key="d9">LINESTRING (317735.18 6515290.68, 317738.66 6515299.46, 317768.52 6515374.86, 317772.21 6515384.16, 317803.41 6515463.92, 317814.1559538966 6515490.733136549)</data>
+    </edge>
+    <edge source="219_8.5" target="274">
+      <data key="d8">35.501648628237106</data>
+      <data key="d9">LINESTRING (317533.25234776846 6515604.773159838, 317528.59 6515588.42, 317522.26 6515571.04)</data>
+    </edge>
+    <edge source="467_8.5" target="94">
+      <data key="d8">65.33754759411299</data>
+      <data key="d9">LINESTRING (316940.24383092695 6514744.402259231, 316949.91 6514752.97, 316989.14 6514787.74)</data>
+    </edge>
+    <edge source="87_8.5" target="22">
+      <data key="d8">157.70165625110943</data>
+      <data key="d9">LINESTRING (317814.1559538966 6515490.733136549, 317845.98 6515570.14, 317871.53 6515637.62)</data>
+    </edge>
+    <edge source="32_8.5" target="150">
+      <data key="d8">65.09249074095038</data>
+      <data key="d9">LINESTRING (317511.8248325282 6514108.866492845, 317525.54 6514162.61, 317527.95 6514171.93)</data>
+    </edge>
+    <edge source="76" target="101">
+      <data key="d8">104.726</data>
+      <data key="d9">LINESTRING (317289.44 6516790.95, 317188 6516818.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.37</data>
+    </edge>
+    <edge source="76" target="107">
+      <data key="d8">233.452</data>
+      <data key="d9">LINESTRING (317289.44 6516790.95, 317233.51 6516563.86)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.82</data>
+    </edge>
+    <edge source="76" target="12">
+      <data key="d8">391.182</data>
+      <data key="d9">LINESTRING (317289.44 6516790.95, 317344.22 6516990.94, 317392.98 6517168.94)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.38</data>
+    </edge>
+    <edge source="99" target="173">
+      <data key="d8">160.622</data>
+      <data key="d9">LINESTRING (316829.51 6515476.11, 316874.35 6515630.66)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.57</data>
+    </edge>
+    <edge source="99" target="68">
+      <data key="d8">212.422</data>
+      <data key="d9">LINESTRING (316829.51 6515476.11, 316775.15 6515270.36)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.75</data>
+    </edge>
+    <edge source="99" target="123">
+      <data key="d8">106.434</data>
+      <data key="d9">LINESTRING (316829.51 6515476.11, 316785.45 6515491.34, 316765.14 6515497.46, 316727.71 6515508.29)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="99" target="75">
+      <data key="d8">111.435</data>
+      <data key="d9">LINESTRING (316829.51 6515476.11, 316885.51 6515454.23, 316933.59 6515435.23)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="69" target="124">
+      <data key="d8">110.166</data>
+      <data key="d9">LINESTRING (316879.74 6515238.76, 316985.27 6515205.84)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="69" target="68">
+      <data key="d8">108.88</data>
+      <data key="d9">LINESTRING (316879.74 6515238.76, 316775.15 6515270.36)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="69" target="75">
+      <data key="d8">203.336</data>
+      <data key="d9">LINESTRING (316879.74 6515238.76, 316933.59 6515435.23)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.72</data>
+    </edge>
+    <edge source="69" target="143">
+      <data key="d8">164.165</data>
+      <data key="d9">LINESTRING (316879.74 6515238.76, 316838.24 6515079.61)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.58</data>
+    </edge>
+    <edge source="341" target="340">
+      <data key="d8">281.508</data>
+      <data key="d9">LINESTRING (316800.11 6516097.37, 316878.55 6516077.86, 316850.61 6515931.66, 316855.23 6515879.38)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.99</data>
+    </edge>
+    <edge source="341" target="376">
+      <data key="d8">100.70800000000001</data>
+      <data key="d9">LINESTRING (316800.11 6516097.37, 316781.61 6516150.42, 316769.63 6516183.3, 316765.67 6516192.2)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.36</data>
+    </edge>
+    <edge source="150" target="149">
+      <data key="d8">269.61800000000005</data>
+      <data key="d9">LINESTRING (317527.95 6514171.93, 317471.6 6514186.04, 317459.71 6514189.07, 317427.66 6514197.26, 317419.63 6514199.31, 317340.65 6514218.19, 317265.19 6514236.43)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.95</data>
+    </edge>
+    <edge source="150" target="231">
+      <data key="d8">211.85299999999998</data>
+      <data key="d9">LINESTRING (317527.95 6514171.93, 317529.53 6514178.17, 317541.87 6514228.34, 317567.41 6514325.18, 317578.36 6514366.42, 317580.99 6514377.43)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.75</data>
+    </edge>
+    <edge source="94" target="60">
+      <data key="d8">155.651</data>
+      <data key="d9">LINESTRING (316989.14 6514787.74, 316950.78 6514636.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.55</data>
+    </edge>
+    <edge source="94" target="54">
+      <data key="d8">46.259</data>
+      <data key="d9">LINESTRING (316989.14 6514787.74, 317002.46 6514832.13)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.16</data>
+    </edge>
+    <edge source="94" target="59">
+      <data key="d8">180.966</data>
+      <data key="d9">LINESTRING (316989.14 6514787.74, 316949.91 6514752.97, 316940.23 6514744.39, 316937.55 6514742.02, 316854.1 6514666.54)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.64</data>
+    </edge>
+    <edge source="94" target="474_8.5">
+      <data key="d8">52.419066340549044</data>
+      <data key="d9">LINESTRING (316989.14 6514787.74, 316949.91133686726 6514752.9711848805)</data>
+    </edge>
+    <edge source="11" target="374">
+      <data key="d8">192.237</data>
+      <data key="d9">LINESTRING (318016.07 6516481.12, 317946.91 6516301.36)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.68</data>
+    </edge>
+    <edge source="234_8.5" target="8">
+      <data key="d8">100.96688815244485</data>
+      <data key="d9">LINESTRING (317640.1687647791 6515043.985640216, 317670.16 6515124.47, 317675.39 6515138.61)</data>
+    </edge>
+    <edge source="8" target="6">
+      <data key="d8">148.98499999999999</data>
+      <data key="d9">LINESTRING (317675.39 6515138.61, 317664.7 6515142.55, 317639.85 6515152.23, 317576.07 6515177.08, 317557.95 6515184.29, 317542.86 6515189.87, 317535.93 6515192.43)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.53</data>
+    </edge>
+    <edge source="8" target="18">
+      <data key="d8">163.08100000000002</data>
+      <data key="d9">LINESTRING (317675.39 6515138.61, 317678.59 6515146.74, 317735.18 6515290.68)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.58</data>
+    </edge>
+    <edge source="0" target="74">
+      <data key="d8">158.497</data>
+      <data key="d9">LINESTRING (316822.01 6514139.32, 316864.21 6514292.4)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.56</data>
+    </edge>
+    <edge source="0" target="264">
+      <data key="d8">208.401</data>
+      <data key="d9">LINESTRING (316822.01 6514139.32, 316878.62 6514122.3, 316914.72 6514108.43, 316924.53 6514104.67, 316930.08 6514101.83, 316947.55 6514092.72, 317000.76 6514064.9, 317015.04 6514060.9)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.74</data>
+    </edge>
+    <edge source="0" target="41">
+      <data key="d8">108.97500000000001</data>
+      <data key="d9">LINESTRING (316822.01 6514139.32, 316793.07 6514147.3, 316716.59 6514168.4)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="0" target="1_8.5">
+      <data key="d8">97.78144750182562</data>
+      <data key="d9">LINESTRING (316822.01 6514139.32, 316878.62 6514122.3, 316914.7157165199 6514108.4316457575)</data>
+    </edge>
+    <edge source="0" target="2_8.5">
+      <data key="d8">30.01303596823064</data>
+      <data key="d9">LINESTRING (316822.01 6514139.32, 316793.0767712829 6514147.298132867)</data>
+    </edge>
+    <edge source="4" target="168">
+      <data key="d8">109.591</data>
+      <data key="d9">LINESTRING (317671.25 6514739.29, 317628.06 6514750.91, 317613.27 6514754.9, 317569.91 6514766, 317564.9 6514767.29)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="4" target="9">
+      <data key="d8">167.564</data>
+      <data key="d9">LINESTRING (317671.25 6514739.29, 317673.55 6514748.47, 317687.75 6514804.9, 317708.56 6514887.65, 317709.59 6514902.5)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.59</data>
+    </edge>
+    <edge source="324_8.5" target="39">
+      <data key="d8">74.28175812439551</data>
+      <data key="d9">LINESTRING (316418.81139313936 6514243.532269449, 316418.82 6514243.53, 316490.64 6514224.6)</data>
+    </edge>
+    <edge source="124" target="144">
+      <data key="d8">94.864</data>
+      <data key="d9">LINESTRING (316985.27 6515205.84, 316961.81 6515113.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.33</data>
+    </edge>
+    <edge source="124" target="469">
+      <data key="d8">73.922</data>
+      <data key="d9">LINESTRING (316985.27 6515205.84, 317006.56 6515276.77)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.26</data>
+    </edge>
+    <edge source="124" target="126">
+      <data key="d8">113.939</data>
+      <data key="d9">LINESTRING (316985.27 6515205.84, 317094.68 6515172.63)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="124" target="69">
+      <data key="d8">110.166</data>
+      <data key="d9">LINESTRING (316985.27 6515205.84, 316879.74 6515238.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="473" target="106">
+      <data key="d8">90.366</data>
+      <data key="d9">LINESTRING (317102.1 6516506.01, 317126.37 6516593.23)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.32</data>
+    </edge>
+    <edge source="473" target="475">
+      <data key="d8">11.952</data>
+      <data key="d9">LINESTRING (317102.1 6516506.01, 317098.88 6516494.47)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.04</data>
+    </edge>
+    <edge source="106" target="107">
+      <data key="d8">110.706</data>
+      <data key="d9">LINESTRING (317126.37 6516593.23, 317233.51 6516563.86)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="106" target="101">
+      <data key="d8">233.034</data>
+      <data key="d9">LINESTRING (317126.37 6516593.23, 317188 6516818.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.82</data>
+    </edge>
+    <edge source="106" target="473">
+      <data key="d8">90.366</data>
+      <data key="d9">LINESTRING (317126.37 6516593.23, 317102.1 6516506.01)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.32</data>
+    </edge>
+    <edge source="106" target="348">
+      <data key="d8">467.64200000000005</data>
+      <data key="d9">LINESTRING (317126.37 6516593.23, 317009.9 6516622.81, 316984.76 6516629.2, 316939.03 6516460.54, 317084.08 6516430.42)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.65</data>
+    </edge>
+    <edge source="231" target="19">
+      <data key="d8">187.793</data>
+      <data key="d9">LINESTRING (317580.99 6514377.43, 317624.8 6514554.54, 317626.17 6514560.06)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.66</data>
+    </edge>
+    <edge source="284_8.5" target="101">
+      <data key="d8">185.60773251016735</data>
+      <data key="d9">LINESTRING (317004.70059549407 6516817.4051294755, 317011.7 6516818.35, 317084 6516831.51, 317142.33 6516827.68, 317188 6516818.41)</data>
+    </edge>
+    <edge source="176" target="185">
+      <data key="d8">109.849</data>
+      <data key="d9">LINESTRING (317068.69 6516368.37, 317173.05 6516332.91)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="176" target="348">
+      <data key="d8">63.821</data>
+      <data key="d9">LINESTRING (317068.69 6516368.37, 317084.08 6516430.42)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.23</data>
+    </edge>
+    <edge source="176" target="343">
+      <data key="d8">9.104</data>
+      <data key="d9">LINESTRING (317068.69 6516368.37, 317066.23 6516359.59)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.03</data>
+    </edge>
+    <edge source="264" target="151">
+      <data key="d8">69.472</data>
+      <data key="d9">LINESTRING (317015.04 6514060.9, 317082.28 6514042.48)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.25</data>
+    </edge>
+    <edge source="264" target="0">
+      <data key="d8">208.401</data>
+      <data key="d9">LINESTRING (317015.04 6514060.9, 317000.76 6514064.9, 316947.55 6514092.72, 316930.08 6514101.83, 316924.53 6514104.67, 316914.72 6514108.43, 316878.62 6514122.3, 316822.01 6514139.32)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.74</data>
+    </edge>
+    <edge source="264" target="290">
+      <data key="d8">236.209</data>
+      <data key="d9">LINESTRING (317015.04 6514060.9, 317021.02 6514071.53, 317075.36 6514168.32, 317128.61 6514268.56)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.83</data>
+    </edge>
+    <edge source="173" target="174">
+      <data key="d8">107.679</data>
+      <data key="d9">LINESTRING (316874.35 6515630.66, 316979.06 6515603.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="173" target="175">
+      <data key="d8">236.353</data>
+      <data key="d9">LINESTRING (316874.35 6515630.66, 316934.97 6515859.56)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.83</data>
+    </edge>
+    <edge source="173" target="99">
+      <data key="d8">160.622</data>
+      <data key="d9">LINESTRING (316874.35 6515630.66, 316829.51 6515476.11)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.57</data>
+    </edge>
+    <edge source="173" target="340">
+      <data key="d8">370.69800000000004</data>
+      <data key="d9">LINESTRING (316874.35 6515630.66, 316755.42 6515666.8, 316752.15 6515681.08, 316764.59 6515715.49, 316800.06 6515802.76, 316841.4 6515827.41, 316855.23 6515879.38)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.31</data>
+    </edge>
+    <edge source="290" target="149">
+      <data key="d8">139.81900000000002</data>
+      <data key="d9">LINESTRING (317128.61 6514268.56, 317156.98 6514261.92, 317207.44 6514250.04, 317265.19 6514236.43)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.49</data>
+    </edge>
+    <edge source="290" target="232">
+      <data key="d8">1011.4400000000002</data>
+      <data key="d9">LINESTRING (317128.61 6514268.56, 317169.25 6514371.25, 317184.27 6514397.97, 317195.08 6514436.33, 317206.21 6514456.66, 317222.31 6514526.21, 317290.05 6514776.87, 317304.61 6514823.53, 317310.45 6514861.29, 317314.56 6514879.39, 317326.47 6514924.16, 317344.62 6514991.67, 317342.87 6515004.72, 317347.36 6515024.53, 317365.44 6515096.13, 317372.88 6515117.33, 317455.47 6515093.74, 317485 6515083.69, 317494.1 6515080.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">3.57</data>
+    </edge>
+    <edge source="290" target="264">
+      <data key="d8">236.209</data>
+      <data key="d9">LINESTRING (317128.61 6514268.56, 317075.36 6514168.32, 317021.02 6514071.53, 317015.04 6514060.9)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.83</data>
+    </edge>
+    <edge source="1035_8.5_2" target="209">
+      <data key="d8">203.77802953235414</data>
+      <data key="d9">LINESTRING (316258.8846484018 6516554.421200896, 316266.57 6516572.94, 316273.79 6516579.3, 316283.58 6516588.72, 316298.25 6516606.54, 316315.92 6516640.71, 316324.17 6516656.62, 316328.15 6516664.29, 316329.57 6516665.87, 316351.78 6516690.48, 316364.01 6516704.59, 316376.1 6516718.54)</data>
+    </edge>
+    <edge source="375" target="315">
+      <data key="d8">224.28199999999998</data>
+      <data key="d9">LINESTRING (317797.51 6515907.03, 317792.17 6515891.24, 317791.31 6515888.74, 317784.14 6515867.91, 317783.47 6515865.96, 317780.78 6515858.67, 317774.63 6515840.77, 317768.21 6515821.35, 317755.76 6515783.66, 317729.02 6515702.72, 317726.12 6515693.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.79</data>
+    </edge>
+    <edge source="1033_8.5" target="357">
+      <data key="d8">408.6536733955674</data>
+      <data key="d9">LINESTRING (316168.41619507485 6516288.538994102, 316157.16 6516255.98, 316125.68 6516164.98, 316077.52 6516047.18, 316074.82 6516037.92, 316055.9 6515956.25, 316046.98 6515917.68, 316043.02 6515900.55)</data>
+    </edge>
+    <edge source="222" target="375">
+      <data key="d8">223.726</data>
+      <data key="d9">LINESTRING (317876.23 6516116.88, 317834 6516009.61, 317804.23 6515926.42, 317797.51 6515907.03)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.79</data>
+    </edge>
+    <edge source="265" target="167">
+      <data key="d8">34.802</data>
+      <data key="d9">LINESTRING (317077.2 6515109.7, 317086.08 6515143.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.12</data>
+    </edge>
+    <edge source="265" target="54">
+      <data key="d8">426.546</data>
+      <data key="d9">LINESTRING (317077.2 6515109.7, 317084.43 6515100.34, 317091.31 6515086.48, 317110.44 6515033.39, 317113.41 6515025.13, 317130.41 6514961.39, 317137.66 6514939.47, 317140.27 6514900.63, 317136.1 6514890.09, 317128.76 6514863.69, 317128.99 6514837.84, 317115.4 6514820.61, 317107.14 6514809.89, 317012.11 6514830.35, 317002.46 6514832.13)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.51</data>
+    </edge>
+    <edge source="23" target="24">
+      <data key="d8">33.831</data>
+      <data key="d9">LINESTRING (317612.69 6514953.04, 317602.72 6514920.65)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.12</data>
+    </edge>
+    <edge source="23" target="314">
+      <data key="d8">82.65899999999999</data>
+      <data key="d9">LINESTRING (317612.69 6514953.04, 317629.68 6515012.74, 317635.9 6515032.53)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.29</data>
+    </edge>
+    <edge source="62" target="43">
+      <data key="d8">108.329</data>
+      <data key="d9">LINESTRING (316472.74 6514564.28, 316578.02 6514537.21)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="62" target="57">
+      <data key="d8">194.794</data>
+      <data key="d9">LINESTRING (316472.74 6514564.28, 316522.02 6514753.11)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="62" target="72">
+      <data key="d8">163.939</data>
+      <data key="d9">LINESTRING (316472.74 6514564.28, 316428.75 6514406.03)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.58</data>
+    </edge>
+    <edge source="314" target="8">
+      <data key="d8">112.97200000000001</data>
+      <data key="d9">LINESTRING (317635.9 6515032.53, 317670.16 6515124.47, 317675.39 6515138.61)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="314" target="232">
+      <data key="d8">149.213</data>
+      <data key="d9">LINESTRING (317635.9 6515032.53, 317628.86 6515034.97, 317584.62 6515050.1, 317537.89 6515066.08, 317501.91 6515078.01, 317494.1 6515080.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.53</data>
+    </edge>
+    <edge source="314" target="234_8.5">
+      <data key="d8">12.225139896315465</data>
+      <data key="d9">LINESTRING (317635.9 6515032.53, 317640.1687647791 6515043.985640216)</data>
+    </edge>
+    <edge source="67" target="472">
+      <data key="d8">132.966</data>
+      <data key="d9">LINESTRING (316669.08 6515303.18, 316705.69 6515431.27)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.47</data>
+    </edge>
+    <edge source="67" target="141">
+      <data key="d8">174.106</data>
+      <data key="d9">LINESTRING (316669.08 6515303.18, 316624.65 6515134.51)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.61</data>
+    </edge>
+    <edge source="67" target="68">
+      <data key="d8">110.647</data>
+      <data key="d9">LINESTRING (316669.08 6515303.18, 316775.15 6515270.36)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="374" target="222">
+      <data key="d8">197.173</data>
+      <data key="d9">LINESTRING (317946.91 6516301.36, 317944.51 6516295.11, 317942.03 6516288.66, 317938.84 6516280.38, 317876.23 6516116.88)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.7</data>
+    </edge>
+    <edge source="351" target="14">
+      <data key="d8">264.45500000000004</data>
+      <data key="d9">LINESTRING (317478.17 6517422.85, 317449.03 6517384.52, 317437.78 6517368.21, 317385.57 6517305.54, 317377.41 6517296.29, 317338.4 6517252.04, 317312.04 6517234.88, 317301.3 6517227.89)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.93</data>
+    </edge>
+    <edge source="351" target="276">
+      <data key="d8">1029.688</data>
+      <data key="d9">LINESTRING (317478.17 6517422.85, 317516.31 6517413.06, 317547.61 6517392.56, 317608.91 6517339.66, 317643.51 6517315.48, 317679.73 6517294.98, 317720.18 6517270.45, 317745.15 6517259.35, 317768.45 6517254.22, 317849.04 6517230.24, 317950.05 6517202.31, 318221.51 6517089.89, 318323.24 6517044.66, 318365.85 6517025.94, 318413.69 6517004.44)</data>
+      <data key="d10">car</data>
+      <data key="d11">3.63</data>
+    </edge>
+    <edge source="26" target="357">
+      <data key="d8">196.78199999999998</data>
+      <data key="d9">LINESTRING (316003.26 6515707.47, 316038.79 6515882.81, 316043.02 6515900.55)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="26" target="360">
+      <data key="d8">362.026</data>
+      <data key="d9">LINESTRING (316003.26 6515707.47, 316030.6 6515697.87, 316067.74 6515684.82, 316071.19 6515684.02, 316129.27 6515670.46, 316161.4 6515663.24, 316353.98 6515613.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.28</data>
+    </edge>
+    <edge source="26" target="256_8.5">
+      <data key="d8">28.97438910115603</data>
+      <data key="d9">LINESTRING (316003.26 6515707.47, 316030.59804009995 6515697.870688187)</data>
+    </edge>
+    <edge source="527_8.5" target="96">
+      <data key="d8">31.649223714940472</data>
+      <data key="d9">LINESTRING (317012.0333380167 6515404.7225887915, 317012.04 6515404.72, 317041.53 6515393.25)</data>
+    </edge>
+    <edge source="5" target="24">
+      <data key="d8">148.60999999999999</data>
+      <data key="d9">LINESTRING (317458.39 6514958.15, 317465.57 6514956.55, 317593.07 6514923.39, 317602.72 6514920.65)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.52</data>
+    </edge>
+    <edge source="5" target="219">
+      <data key="d8">131.61499999999998</data>
+      <data key="d9">LINESTRING (317458.39 6514958.15, 317456.69 6514951.75, 317455.34 6514946.55, 317439.61 6514887.32, 317429.38 6514848.8, 317426.64 6514838.51, 317424.54 6514830.71)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.46</data>
+    </edge>
+    <edge source="5" target="64_8.5">
+      <data key="d8">73.28781875290076</data>
+      <data key="d9">LINESTRING (317458.39 6514958.15, 317456.69 6514951.75, 317455.34 6514946.55, 317439.61 6514887.32, 317439.6073455325 6514887.31000488)</data>
+    </edge>
+    <edge source="19" target="168">
+      <data key="d8">277.741</data>
+      <data key="d9">LINESTRING (317626.17 6514560.06, 317619.9 6514561.64, 317580.27 6514571.58, 317565.26 6514575.44, 317553.05 6514578.74, 317535.09 6514593.37, 317529.26 6514602.4, 317528.86 6514610.61, 317531.18 6514624.33, 317543.98 6514676.26, 317555.15 6514723.56, 317564.9 6514767.29)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.98</data>
+    </edge>
+    <edge source="19" target="4">
+      <data key="d8">184.469</data>
+      <data key="d9">LINESTRING (317626.17 6514560.06, 317627.29 6514564.45, 317649.39 6514650.98, 317671.25 6514739.29)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.65</data>
+    </edge>
+    <edge source="19" target="202_8.5">
+      <data key="d8">127.44554795025323</data>
+      <data key="d9">LINESTRING (317626.17 6514560.06, 317627.29 6514564.45, 317649.39 6514650.98, 317657.4653274753 6514683.602697591)</data>
+    </edge>
+    <edge source="60" target="94">
+      <data key="d8">155.651</data>
+      <data key="d9">LINESTRING (316950.78 6514636.6, 316989.14 6514787.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.55</data>
+    </edge>
+    <edge source="60" target="65">
+      <data key="d8">188.013</data>
+      <data key="d9">LINESTRING (316950.78 6514636.6, 316905.77 6514453.69)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.66</data>
+    </edge>
+    <edge source="60" target="59">
+      <data key="d8">100.89000000000001</data>
+      <data key="d9">LINESTRING (316950.78 6514636.6, 316916.78 6514648.48, 316854.1 6514666.54)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.36</data>
+    </edge>
+    <edge source="343" target="176">
+      <data key="d8">9.104</data>
+      <data key="d9">LINESTRING (317066.23 6516359.59, 317068.69 6516368.37)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.03</data>
+    </edge>
+    <edge source="343" target="108">
+      <data key="d8">238.458</data>
+      <data key="d9">LINESTRING (317066.23 6516359.59, 317004.15 6516128.89)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.84</data>
+    </edge>
+    <edge source="1_8.5" target="264">
+      <data key="d8">111.32095439898305</data>
+      <data key="d9">LINESTRING (316914.7157165199 6514108.4316457575, 316914.72 6514108.43, 316924.53 6514104.67, 316930.08 6514101.83, 316947.55 6514092.72, 317000.76 6514064.9, 317015.04 6514060.9)</data>
+    </edge>
+    <edge source="73" target="66">
+      <data key="d8">110.55</data>
+      <data key="d9">LINESTRING (316647.26 6514347.8, 316753.67 6514316.42)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="73" target="42">
+      <data key="d8">116.404</data>
+      <data key="d9">LINESTRING (316647.26 6514347.8, 316533.95 6514376.17)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.41</data>
+    </edge>
+    <edge source="73" target="40">
+      <data key="d8">157.029</data>
+      <data key="d9">LINESTRING (316647.26 6514347.8, 316608.2 6514195.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.55</data>
+    </edge>
+    <edge source="73" target="63">
+      <data key="d8">164.52</data>
+      <data key="d9">LINESTRING (316647.26 6514347.8, 316663.07 6514410.68, 316685.64 6514508.08)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.58</data>
+    </edge>
+    <edge source="125_8.5" target="76">
+      <data key="d8">268.69259979047735</data>
+      <data key="d9">LINESTRING (317360.4248681884 6517050.096409712, 317344.22 6516990.94, 317289.44 6516790.95)</data>
+    </edge>
+    <edge source="52" target="53">
+      <data key="d8">113.487</data>
+      <data key="d9">LINESTRING (316786.72 6514890.76, 316896.45 6514860.28)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="52" target="45">
+      <data key="d8">109.078</data>
+      <data key="d9">LINESTRING (316786.72 6514890.76, 316681.07 6514919.39)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="52" target="58">
+      <data key="d8">198.841</data>
+      <data key="d9">LINESTRING (316786.72 6514890.76, 316737.22 6514697.81)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.7</data>
+    </edge>
+    <edge source="52" target="143">
+      <data key="d8">195.388</data>
+      <data key="d9">LINESTRING (316786.72 6514890.76, 316825.57 6515034.89, 316838.24 6515079.61)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="64_8.5" target="219">
+      <data key="d8">58.5712389557726</data>
+      <data key="d9">LINESTRING (317439.6073455325 6514887.31000488, 317429.38 6514848.8, 317426.64 6514838.51, 317424.54 6514830.71)</data>
+    </edge>
+    <edge source="360" target="26">
+      <data key="d8">362.02599999999995</data>
+      <data key="d9">LINESTRING (316353.98 6515613.76, 316161.4 6515663.24, 316129.27 6515670.46, 316071.19 6515684.02, 316067.74 6515684.82, 316030.6 6515697.87, 316003.26 6515707.47)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.28</data>
+    </edge>
+    <edge source="360" target="190">
+      <data key="d8">263.58500000000004</data>
+      <data key="d9">LINESTRING (316353.98 6515613.76, 316434.96 6515591.68, 316492.35 6515576.03, 316520.02 6515568.75, 316608.83 6515542.96)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.93</data>
+    </edge>
+    <edge source="360" target="262_8.5">
+      <data key="d8">291.3988879261043</data>
+      <data key="d9">LINESTRING (316353.98 6515613.76, 316161.4 6515663.24, 316129.27 6515670.46, 316071.19894725614 6515684.017911074)</data>
+    </edge>
+    <edge source="24" target="23">
+      <data key="d8">33.831</data>
+      <data key="d9">LINESTRING (317602.72 6514920.65, 317612.69 6514953.04)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.12</data>
+    </edge>
+    <edge source="24" target="512">
+      <data key="d8">33.449999999999996</data>
+      <data key="d9">LINESTRING (317602.72 6514920.65, 317615.89 6514928.78, 317633.88 6514930.53)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.12</data>
+    </edge>
+    <edge source="24" target="5">
+      <data key="d8">148.60999999999999</data>
+      <data key="d9">LINESTRING (317602.72 6514920.65, 317593.07 6514923.39, 317465.57 6514956.55, 317458.39 6514958.15)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.52</data>
+    </edge>
+    <edge source="168" target="4">
+      <data key="d8">109.59100000000001</data>
+      <data key="d9">LINESTRING (317564.9 6514767.29, 317569.91 6514766, 317613.27 6514754.9, 317628.06 6514750.91, 317671.25 6514739.29)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="168" target="219">
+      <data key="d8">173.927</data>
+      <data key="d9">LINESTRING (317564.9 6514767.29, 317567.89 6514781.5, 317569.79 6514790.58, 317560.43 6514793.17, 317424.54 6514830.71)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.61</data>
+    </edge>
+    <edge source="168" target="19">
+      <data key="d8">277.74100000000004</data>
+      <data key="d9">LINESTRING (317564.9 6514767.29, 317555.15 6514723.56, 317543.98 6514676.26, 317531.18 6514624.33, 317528.86 6514610.61, 317529.26 6514602.4, 317535.09 6514593.37, 317553.05 6514578.74, 317565.26 6514575.44, 317580.27 6514571.58, 317619.9 6514561.64, 317626.17 6514560.06)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.98</data>
+    </edge>
+    <edge source="6" target="8">
+      <data key="d8">148.985</data>
+      <data key="d9">LINESTRING (317535.93 6515192.43, 317542.86 6515189.87, 317557.95 6515184.29, 317576.07 6515177.08, 317639.85 6515152.23, 317664.7 6515142.55, 317675.39 6515138.61)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.53</data>
+    </edge>
+    <edge source="6" target="232">
+      <data key="d8">119.17600000000002</data>
+      <data key="d9">LINESTRING (317535.93 6515192.43, 317531.56 6515181.04, 317507.64 6515118.67, 317494.1 6515080.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.42</data>
+    </edge>
+    <edge source="14" target="12">
+      <data key="d8">108.66199999999999</data>
+      <data key="d9">LINESTRING (317301.3 6517227.89, 317323.13 6517213.86, 317373.35 6517181.56, 317392.98 6517168.94)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="14" target="351">
+      <data key="d8">264.455</data>
+      <data key="d9">LINESTRING (317301.3 6517227.89, 317312.04 6517234.88, 317338.4 6517252.04, 317377.41 6517296.29, 317385.57 6517305.54, 317437.78 6517368.21, 317449.03 6517384.52, 317478.17 6517422.85)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.93</data>
+    </edge>
+    <edge source="75" target="174">
+      <data key="d8">174.436</data>
+      <data key="d9">LINESTRING (316933.59 6515435.23, 316979.06 6515603.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.62</data>
+    </edge>
+    <edge source="75" target="69">
+      <data key="d8">203.336</data>
+      <data key="d9">LINESTRING (316933.59 6515435.23, 316879.74 6515238.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.72</data>
+    </edge>
+    <edge source="75" target="96">
+      <data key="d8">115.428</data>
+      <data key="d9">LINESTRING (316933.59 6515435.23, 316995.21 6515411.26, 317012.04 6515404.72, 317041.53 6515393.25)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.41</data>
+    </edge>
+    <edge source="75" target="99">
+      <data key="d8">111.435</data>
+      <data key="d9">LINESTRING (316933.59 6515435.23, 316885.51 6515454.23, 316829.51 6515476.11)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="75" target="527_8.5">
+      <data key="d8">84.16685550609569</data>
+      <data key="d9">LINESTRING (316933.59 6515435.23, 316995.21 6515411.26, 317012.0333380167 6515404.7225887915)</data>
+    </edge>
+    <edge source="476" target="107">
+      <data key="d8">94.29</data>
+      <data key="d9">LINESTRING (317209.59 6516472.47, 317233.51 6516563.86)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.33</data>
+    </edge>
+    <edge source="476" target="185">
+      <data key="d8">144.003</data>
+      <data key="d9">LINESTRING (317209.59 6516472.47, 317173.05 6516332.91)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.51</data>
+    </edge>
+    <edge source="476" target="475">
+      <data key="d8">112.468</data>
+      <data key="d9">LINESTRING (317209.59 6516472.47, 317098.88 6516494.47)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="239" target="274">
+      <data key="d8">147.52</data>
+      <data key="d9">LINESTRING (317660.51 6515518.13, 317522.26 6515571.04)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.52</data>
+    </edge>
+    <edge source="239" target="7">
+      <data key="d8">186.79999999999998</data>
+      <data key="d9">LINESTRING (317660.51 6515518.13, 317656.53 6515507.78, 317655.59 6515505.36, 317635.98 6515454.34, 317620.51 6515414.11, 317618.01 6515407.48, 317615.38 6515400.49, 317596.76 6515352.12, 317593.4 6515343.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.66</data>
+    </edge>
+    <edge source="2_8.5" target="41">
+      <data key="d8">79.34428131766505</data>
+      <data key="d9">LINESTRING (316793.0767712829 6514147.298132867, 316793.07 6514147.3, 316716.59 6514168.4)</data>
+    </edge>
+    <edge source="66" target="41">
+      <data key="d8">152.317</data>
+      <data key="d9">LINESTRING (316753.67 6514316.42, 316716.59 6514168.4)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.54</data>
+    </edge>
+    <edge source="66" target="74">
+      <data key="d8">112.724</data>
+      <data key="d9">LINESTRING (316753.67 6514316.42, 316864.21 6514292.4)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="66" target="73">
+      <data key="d8">110.55</data>
+      <data key="d9">LINESTRING (316753.67 6514316.42, 316647.26 6514347.8)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="232" target="290">
+      <data key="d8">1011.44</data>
+      <data key="d9">LINESTRING (317494.1 6515080.6, 317485 6515083.69, 317455.47 6515093.74, 317372.88 6515117.33, 317365.44 6515096.13, 317347.36 6515024.53, 317342.87 6515004.72, 317344.62 6514991.67, 317326.47 6514924.16, 317314.56 6514879.39, 317310.45 6514861.29, 317304.61 6514823.53, 317290.05 6514776.87, 317222.31 6514526.21, 317206.21 6514456.66, 317195.08 6514436.33, 317184.27 6514397.97, 317169.25 6514371.25, 317128.61 6514268.56)</data>
+      <data key="d10">car</data>
+      <data key="d11">3.57</data>
+    </edge>
+    <edge source="232" target="314">
+      <data key="d8">149.213</data>
+      <data key="d9">LINESTRING (317494.1 6515080.6, 317501.91 6515078.01, 317537.89 6515066.08, 317584.62 6515050.1, 317628.86 6515034.97, 317635.9 6515032.53)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.53</data>
+    </edge>
+    <edge source="232" target="5">
+      <data key="d8">127.317</data>
+      <data key="d9">LINESTRING (317494.1 6515080.6, 317490.44 6515069.47, 317460.85 6514966.7, 317458.39 6514958.15)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.45</data>
+    </edge>
+    <edge source="244_8.5" target="75">
+      <data key="d8">66.12550062502864</data>
+      <data key="d9">LINESTRING (316995.21702391224 6515411.257270565, 316995.21 6515411.26, 316933.59 6515435.23)</data>
+    </edge>
+    <edge source="65" target="60">
+      <data key="d8">188.013</data>
+      <data key="d9">LINESTRING (316905.77 6514453.69, 316950.78 6514636.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.66</data>
+    </edge>
+    <edge source="65" target="74">
+      <data key="d8">166.257</data>
+      <data key="d9">LINESTRING (316905.77 6514453.69, 316864.21 6514292.4)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.59</data>
+    </edge>
+    <edge source="57" target="44">
+      <data key="d8">106.826</data>
+      <data key="d9">LINESTRING (316522.02 6514753.11, 316624.75 6514722.51)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="57" target="51">
+      <data key="d8">199.033</data>
+      <data key="d9">LINESTRING (316522.02 6514753.11, 316572.05 6514946.13)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.7</data>
+    </edge>
+    <edge source="57" target="62">
+      <data key="d8">194.794</data>
+      <data key="d9">LINESTRING (316522.02 6514753.11, 316472.74 6514564.28)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="547_8.5" target="209">
+      <data key="d8">693.6520133010122</data>
+      <data key="d9">LINESTRING (317051.01732202235 6516825.506513939, 317011.7 6516818.35, 316983.18 6516814.5, 316959.81 6516812.39, 316935.57 6516810.22, 316908.81 6516807.85, 316796.18 6516797.88, 316760.73 6516802.13, 316725.71 6516808.82, 316674.62 6516810.76, 316639.99 6516803.19, 316605.19 6516791.28, 316503.85 6516743.56, 316462.25 6516737.69, 316427.49 6516732.8, 316376.1 6516718.54)</data>
+    </edge>
+    <edge source="274" target="7">
+      <data key="d8">314.171</data>
+      <data key="d9">LINESTRING (317522.26 6515571.04, 317506.19 6515519.42, 317485.97 6515456.74, 317471.69 6515410, 317471.45 6515400.72, 317475.61 6515392.41, 317547.94 6515362.56, 317587.11 6515346.09, 317593.4 6515343.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.11</data>
+    </edge>
+    <edge source="274" target="21">
+      <data key="d8">177.76299999999998</data>
+      <data key="d9">LINESTRING (317522.26 6515571.04, 317528.59 6515588.42, 317533.26 6515604.8, 317540.58 6515621.89, 317543.39 6515629.91, 317548.16 6515643.52, 317568.06 6515724.84, 317571.1 6515732.58, 317577.27 6515739.17)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.63</data>
+    </edge>
+    <edge source="274" target="84_8.5">
+      <data key="d8">2.4382018428234997</data>
+      <data key="d9">LINESTRING (317522.26 6515571.04, 317521.5352623322 6515568.712000099)</data>
+    </edge>
+    <edge source="174" target="173">
+      <data key="d8">107.679</data>
+      <data key="d9">LINESTRING (316979.06 6515603.97, 316874.35 6515630.66)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="174" target="172">
+      <data key="d8">232.937</data>
+      <data key="d9">LINESTRING (316979.06 6515603.97, 317040.59 6515829.08)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.82</data>
+    </edge>
+    <edge source="174" target="75">
+      <data key="d8">174.436</data>
+      <data key="d9">LINESTRING (316979.06 6515603.97, 316933.59 6515435.23)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.62</data>
+    </edge>
+    <edge source="315" target="22">
+      <data key="d8">155.41</data>
+      <data key="d9">LINESTRING (317726.12 6515693.97, 317734.07 6515690.89, 317871.53 6515637.62)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.55</data>
+    </edge>
+    <edge source="315" target="21">
+      <data key="d8">158.66400000000002</data>
+      <data key="d9">LINESTRING (317726.12 6515693.97, 317718.89 6515696.79, 317689.69 6515708.13, 317597.64 6515743.91, 317586.85 6515743.63, 317577.27 6515739.17)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.56</data>
+    </edge>
+    <edge source="315" target="239">
+      <data key="d8">187.322</data>
+      <data key="d9">LINESTRING (317726.12 6515693.97, 317723.43 6515686.25, 317701.98 6515629.27, 317700.04 6515624.05, 317697.08 6515616.14, 317660.51 6515518.13)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.66</data>
+    </edge>
+    <edge source="315" target="225_8.5">
+      <data key="d8">45.88457313597952</data>
+      <data key="d9">LINESTRING (317726.12 6515693.97, 317718.89 6515696.79, 317689.69 6515708.13, 317683.3525301027 6515710.593385909)</data>
+    </edge>
+    <edge source="258_8.5" target="200">
+      <data key="d8">440.960284915989</data>
+      <data key="d9">LINESTRING (316046.9781284755 6515917.671904239, 316046.98 6515917.68, 316055.9 6515956.25, 316074.82 6516037.92, 316077.52 6516047.18, 316125.68 6516164.98, 316157.16 6516255.98, 316168.42 6516288.55, 316180.38 6516323.11, 316184.54 6516335.74)</data>
+    </edge>
+    <edge source="107" target="106">
+      <data key="d8">110.706</data>
+      <data key="d9">LINESTRING (317233.51 6516563.86, 317126.37 6516593.23)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="107" target="76">
+      <data key="d8">233.452</data>
+      <data key="d9">LINESTRING (317233.51 6516563.86, 317289.44 6516790.95)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.82</data>
+    </edge>
+    <edge source="107" target="476">
+      <data key="d8">94.29</data>
+      <data key="d9">LINESTRING (317233.51 6516563.86, 317209.59 6516472.47)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.33</data>
+    </edge>
+    <edge source="167" target="265">
+      <data key="d8">34.802</data>
+      <data key="d9">LINESTRING (317086.08 6515143.41, 317077.2 6515109.7)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.12</data>
+    </edge>
+    <edge source="167" target="144">
+      <data key="d8">129.912</data>
+      <data key="d9">LINESTRING (317086.08 6515143.41, 317070.37 6515148.24, 316961.81 6515113.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.46</data>
+    </edge>
+    <edge source="167" target="126">
+      <data key="d8">30.393</data>
+      <data key="d9">LINESTRING (317086.08 6515143.41, 317090.57 6515158.67, 317092.78 6515166.16, 317094.68 6515172.63)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.11</data>
+    </edge>
+    <edge source="149" target="150">
+      <data key="d8">269.618</data>
+      <data key="d9">LINESTRING (317265.19 6514236.43, 317340.65 6514218.19, 317419.63 6514199.31, 317427.66 6514197.26, 317459.71 6514189.07, 317471.6 6514186.04, 317527.95 6514171.93)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.95</data>
+    </edge>
+    <edge source="149" target="290">
+      <data key="d8">139.819</data>
+      <data key="d9">LINESTRING (317265.19 6514236.43, 317207.44 6514250.04, 317156.98 6514261.92, 317128.61 6514268.56)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.49</data>
+    </edge>
+    <edge source="149" target="1">
+      <data key="d8">232.23800000000003</data>
+      <data key="d9">LINESTRING (317265.19 6514236.43, 317262.3 6514225.85, 317257.51 6514208.35, 317251.28 6514185.56, 317244.42 6514160.48, 317233.92 6514122.04, 317213.53 6514054.83, 317204.32 6514023.43, 317202.9 6514019.57, 317200.53 6514012.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.82</data>
+    </edge>
+    <edge source="149" target="926_8.5">
+      <data key="d8">29.119630633602995</data>
+      <data key="d9">LINESTRING (317265.19 6514236.43, 317262.3 6514225.85, 317257.51 6514208.35, 317257.50780811923 6514208.341981867)</data>
+    </edge>
+    <edge source="376" target="200">
+      <data key="d8">596.536</data>
+      <data key="d9">LINESTRING (316765.67 6516192.2, 316691.16 6516210.74, 316469.11 6516266.02, 316393.57 6516285.36, 316381.1 6516288.56, 316373.19 6516289.74, 316184.54 6516335.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">2.11</data>
+    </edge>
+    <edge source="376" target="341">
+      <data key="d8">100.708</data>
+      <data key="d9">LINESTRING (316765.67 6516192.2, 316769.63 6516183.3, 316781.61 6516150.42, 316800.11 6516097.37)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.36</data>
+    </edge>
+    <edge source="369_8.5" target="59">
+      <data key="d8">181.00715305544665</data>
+      <data key="d9">LINESTRING (316722.2585989391 6514542.518088938, 316854.1 6514666.54)</data>
+    </edge>
+    <edge source="72" target="42">
+      <data key="d8">108.974</data>
+      <data key="d9">LINESTRING (316428.75 6514406.03, 316533.95 6514376.17)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="72" target="62">
+      <data key="d8">163.939</data>
+      <data key="d9">LINESTRING (316428.75 6514406.03, 316472.74 6514564.28)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.58</data>
+    </edge>
+    <edge source="72" target="38">
+      <data key="d8">159.825</data>
+      <data key="d9">LINESTRING (316428.75 6514406.03, 316399.63 6514248.59)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.56</data>
+    </edge>
+    <edge source="25" target="96">
+      <data key="d8">108.102</data>
+      <data key="d9">LINESTRING (317141.71 6515351.65, 317041.53 6515393.25)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="25" target="470">
+      <data key="d8">105.151</data>
+      <data key="d9">LINESTRING (317141.71 6515351.65, 317114.94 6515249.77)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.37</data>
+    </edge>
+    <edge source="259_8.5" target="26">
+      <data key="d8">178.90359554784135</data>
+      <data key="d9">LINESTRING (316038.79 6515882.81, 316003.26 6515707.47)</data>
+    </edge>
+    <edge source="43" target="63">
+      <data key="d8">111.099</data>
+      <data key="d9">LINESTRING (316578.02 6514537.21, 316685.64 6514508.08)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="43" target="62">
+      <data key="d8">108.329</data>
+      <data key="d9">LINESTRING (316578.02 6514537.21, 316472.74 6514564.28)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="43" target="44">
+      <data key="d8">190.743</data>
+      <data key="d9">LINESTRING (316578.02 6514537.21, 316624.75 6514722.51)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.67</data>
+    </edge>
+    <edge source="70_8.5" target="149">
+      <data key="d8">273.5429348297597</data>
+      <data key="d9">LINESTRING (317339.3060203759 6514499.734664751, 317336.9 6514490.05, 317325.93 6514451.3, 317317.5 6514421.5, 317309.65 6514394.5, 317299.23 6514357.46, 317287.54 6514315.9, 317280.46 6514290.72, 317265.19 6514236.43)</data>
+    </edge>
+    <edge source="9" target="512">
+      <data key="d8">81.109</data>
+      <data key="d9">LINESTRING (317709.59 6514902.5, 317698.7 6514909.77, 317685.82 6514915.01, 317639.96 6514927.18, 317633.88 6514930.53)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.29</data>
+    </edge>
+    <edge source="39" target="40">
+      <data key="d8">120.706</data>
+      <data key="d9">LINESTRING (316490.64 6514224.6, 316608.2 6514195.41)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.43</data>
+    </edge>
+    <edge source="39" target="42">
+      <data key="d8">157.349</data>
+      <data key="d9">LINESTRING (316490.64 6514224.6, 316533.95 6514376.17)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.56</data>
+    </edge>
+    <edge source="39" target="38">
+      <data key="d8">93.788</data>
+      <data key="d9">LINESTRING (316490.64 6514224.6, 316418.82 6514243.53, 316399.63 6514248.59)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.33</data>
+    </edge>
+    <edge source="58" target="59">
+      <data key="d8">120.572</data>
+      <data key="d9">LINESTRING (316737.22 6514697.81, 316854.1 6514666.54)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.43</data>
+    </edge>
+    <edge source="58" target="44">
+      <data key="d8">114.738</data>
+      <data key="d9">LINESTRING (316737.22 6514697.81, 316624.75 6514722.51)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="58" target="52">
+      <data key="d8">198.841</data>
+      <data key="d9">LINESTRING (316737.22 6514697.81, 316786.72 6514890.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.7</data>
+    </edge>
+    <edge source="58" target="63">
+      <data key="d8">196.248</data>
+      <data key="d9">LINESTRING (316737.22 6514697.81, 316685.64 6514508.08)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="21" target="274">
+      <data key="d8">177.763</data>
+      <data key="d9">LINESTRING (317577.27 6515739.17, 317571.1 6515732.58, 317568.06 6515724.84, 317548.16 6515643.52, 317543.39 6515629.91, 317540.58 6515621.89, 317533.26 6515604.8, 317528.59 6515588.42, 317522.26 6515571.04)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.63</data>
+    </edge>
+    <edge source="21" target="315">
+      <data key="d8">158.664</data>
+      <data key="d9">LINESTRING (317577.27 6515739.17, 317586.85 6515743.63, 317597.64 6515743.91, 317689.69 6515708.13, 317718.89 6515696.79, 317726.12 6515693.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.56</data>
+    </edge>
+    <edge source="21" target="219_8.5">
+      <data key="d8">142.60195724867003</data>
+      <data key="d9">LINESTRING (317577.27 6515739.17, 317571.1 6515732.58, 317568.06 6515724.84, 317548.16 6515643.52, 317543.39 6515629.91, 317540.58 6515621.89, 317533.26 6515604.8, 317533.25234776846 6515604.773159838)</data>
+    </edge>
+    <edge source="926_8.5" target="1">
+      <data key="d8">203.5506401381838</data>
+      <data key="d9">LINESTRING (317257.50780811923 6514208.341981867, 317251.28 6514185.56, 317244.42 6514160.48, 317233.92 6514122.04, 317213.53 6514054.83, 317204.32 6514023.43, 317202.9 6514019.57, 317200.53 6514012.97)</data>
+    </edge>
+    <edge source="44" target="58">
+      <data key="d8">114.738</data>
+      <data key="d9">LINESTRING (316624.75 6514722.51, 316737.22 6514697.81)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="44" target="57">
+      <data key="d8">106.826</data>
+      <data key="d9">LINESTRING (316624.75 6514722.51, 316522.02 6514753.11)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="44" target="45">
+      <data key="d8">204.399</data>
+      <data key="d9">LINESTRING (316624.75 6514722.51, 316681.07 6514919.39)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.72</data>
+    </edge>
+    <edge source="44" target="43">
+      <data key="d8">190.743</data>
+      <data key="d9">LINESTRING (316624.75 6514722.51, 316578.02 6514537.21)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.67</data>
+    </edge>
+    <edge source="321_8.5" target="42">
+      <data key="d8">140.1859171000155</data>
+      <data key="d9">LINESTRING (316432.306551982 6514279.626223255, 316533.95 6514376.17)</data>
+    </edge>
+    <edge source="142" target="143">
+      <data key="d8">107.294</data>
+      <data key="d9">LINESTRING (316733.75 6515105.6, 316838.24 6515079.61)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="142" target="141">
+      <data key="d8">112.47</data>
+      <data key="d9">LINESTRING (316733.75 6515105.6, 316624.65 6515134.51)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.4</data>
+    </edge>
+    <edge source="142" target="68">
+      <data key="d8">169.569</data>
+      <data key="d9">LINESTRING (316733.75 6515105.6, 316775.15 6515270.36)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.6</data>
+    </edge>
+    <edge source="142" target="45">
+      <data key="d8">193.153</data>
+      <data key="d9">LINESTRING (316733.75 6515105.6, 316681.07 6514919.39)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.68</data>
+    </edge>
+    <edge source="123" target="472">
+      <data key="d8">79.956</data>
+      <data key="d9">LINESTRING (316727.71 6515508.29, 316705.69 6515431.27)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.28</data>
+    </edge>
+    <edge source="123" target="190">
+      <data key="d8">123.403</data>
+      <data key="d9">LINESTRING (316727.71 6515508.29, 316724.92 6515509.15, 316717.92 6515511.29, 316700.14 6515516.45, 316679.1 6515522.57, 316617.92 6515540.33, 316612.89 6515541.7, 316608.83 6515542.96)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.44</data>
+    </edge>
+    <edge source="123" target="99">
+      <data key="d8">106.434</data>
+      <data key="d9">LINESTRING (316727.71 6515508.29, 316765.14 6515497.46, 316785.45 6515491.34, 316829.51 6515476.11)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="123" target="714_8.5">
+      <data key="d8">2.9089780386125677</data>
+      <data key="d9">LINESTRING (316727.71 6515508.29, 316724.9300910751 6515509.14688949)</data>
+    </edge>
+    <edge source="470" target="25">
+      <data key="d8">105.151</data>
+      <data key="d9">LINESTRING (317114.94 6515249.77, 317141.71 6515351.65)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.37</data>
+    </edge>
+    <edge source="470" target="126">
+      <data key="d8">79.609</data>
+      <data key="d9">LINESTRING (317114.94 6515249.77, 317094.68 6515172.63)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.28</data>
+    </edge>
+    <edge source="470" target="469">
+      <data key="d8">111.302</data>
+      <data key="d9">LINESTRING (317114.94 6515249.77, 317006.56 6515276.77)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="59" target="58">
+      <data key="d8">120.572</data>
+      <data key="d9">LINESTRING (316854.1 6514666.54, 316737.22 6514697.81)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.43</data>
+    </edge>
+    <edge source="59" target="60">
+      <data key="d8">100.89000000000001</data>
+      <data key="d9">LINESTRING (316854.1 6514666.54, 316916.78 6514648.48, 316950.78 6514636.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.36</data>
+    </edge>
+    <edge source="59" target="53">
+      <data key="d8">199.12400000000002</data>
+      <data key="d9">LINESTRING (316854.1 6514666.54, 316851.72 6514684.49, 316896.45 6514860.28)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.7</data>
+    </edge>
+    <edge source="59" target="94">
+      <data key="d8">180.966</data>
+      <data key="d9">LINESTRING (316854.1 6514666.54, 316937.55 6514742.02, 316940.23 6514744.39, 316949.91 6514752.97, 316989.14 6514787.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.64</data>
+    </edge>
+    <edge source="59" target="63">
+      <data key="d8">230.67100000000002</data>
+      <data key="d9">LINESTRING (316854.1 6514666.54, 316722.25 6514542.51, 316685.64 6514508.08)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.81</data>
+    </edge>
+    <edge source="59" target="467_8.5">
+      <data key="d8">116.11779259130601</data>
+      <data key="d9">LINESTRING (316854.1 6514666.54, 316937.55 6514742.02, 316940.23 6514744.39, 316940.24383092695 6514744.402259231)</data>
+    </edge>
+    <edge source="151" target="264">
+      <data key="d8">69.472</data>
+      <data key="d9">LINESTRING (317082.28 6514042.48, 317015.04 6514060.9)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.25</data>
+    </edge>
+    <edge source="151" target="1">
+      <data key="d8">121.449</data>
+      <data key="d9">LINESTRING (317082.28 6514042.48, 317192.18 6514014.97, 317200.53 6514012.97)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.43</data>
+    </edge>
+    <edge source="276" target="13">
+      <data key="d8">633.088</data>
+      <data key="d9">LINESTRING (318413.69 6517004.44, 318397.45 6516967.78, 318346.37 6516851.51, 318304.65 6516749.73, 318280.81 6516689.42, 318272.62 6516669.74, 318263.09 6516646.33, 318261.73 6516642.88, 318172.98 6516417.64)</data>
+      <data key="d10">car</data>
+      <data key="d11">2.23</data>
+    </edge>
+    <edge source="276" target="351">
+      <data key="d8">1029.688</data>
+      <data key="d9">LINESTRING (318413.69 6517004.44, 318365.85 6517025.94, 318323.24 6517044.66, 318221.51 6517089.89, 317950.05 6517202.31, 317849.04 6517230.24, 317768.45 6517254.22, 317745.15 6517259.35, 317720.18 6517270.45, 317679.73 6517294.98, 317643.51 6517315.48, 317608.91 6517339.66, 317547.61 6517392.56, 317516.31 6517413.06, 317478.17 6517422.85)</data>
+      <data key="d10">car</data>
+      <data key="d11">3.63</data>
+    </edge>
+    <edge source="7" target="274">
+      <data key="d8">314.171</data>
+      <data key="d9">LINESTRING (317593.4 6515343.41, 317587.11 6515346.09, 317547.94 6515362.56, 317475.61 6515392.41, 317471.45 6515400.72, 317471.69 6515410, 317485.97 6515456.74, 317506.19 6515519.42, 317522.26 6515571.04)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.11</data>
+    </edge>
+    <edge source="7" target="6">
+      <data key="d8">161.241</data>
+      <data key="d9">LINESTRING (317593.4 6515343.41, 317590.92 6515336.69, 317552.59 6515237.06, 317538.74 6515199.95, 317538.59 6515199.54, 317535.93 6515192.43)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.57</data>
+    </edge>
+    <edge source="7" target="18">
+      <data key="d8">150.78699999999998</data>
+      <data key="d9">LINESTRING (317593.4 6515343.41, 317601 6515340.22, 317643.89 6515322.99, 317706.2 6515300.68, 317723.4 6515294.74, 317735.18 6515290.68)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.53</data>
+    </edge>
+    <edge source="12" target="14">
+      <data key="d8">108.662</data>
+      <data key="d9">LINESTRING (317392.98 6517168.94, 317373.35 6517181.56, 317323.13 6517213.86, 317301.3 6517227.89)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="12" target="76">
+      <data key="d8">391.182</data>
+      <data key="d9">LINESTRING (317392.98 6517168.94, 317344.22 6516990.94, 317289.44 6516790.95)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.38</data>
+    </edge>
+    <edge source="12" target="125_8.5">
+      <data key="d8">123.2218956188898</data>
+      <data key="d9">LINESTRING (317392.98 6517168.94, 317360.4248681884 6517050.096409712)</data>
+    </edge>
+    <edge source="340" target="175">
+      <data key="d8">81.957</data>
+      <data key="d9">LINESTRING (316855.23 6515879.38, 316866.17 6515875.34, 316934.97 6515859.56)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.29</data>
+    </edge>
+    <edge source="340" target="173">
+      <data key="d8">370.69800000000004</data>
+      <data key="d9">LINESTRING (316855.23 6515879.38, 316841.4 6515827.41, 316800.06 6515802.76, 316764.59 6515715.49, 316752.15 6515681.08, 316755.42 6515666.8, 316874.35 6515630.66)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.31</data>
+    </edge>
+    <edge source="340" target="341">
+      <data key="d8">281.50800000000004</data>
+      <data key="d9">LINESTRING (316855.23 6515879.38, 316850.61 6515931.66, 316878.55 6516077.86, 316800.11 6516097.37)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.99</data>
+    </edge>
+    <edge source="109" target="108">
+      <data key="d8">110.146</data>
+      <data key="d9">LINESTRING (317111.22 6516101.44, 317004.15 6516128.89)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="109" target="185">
+      <data key="d8">239.139</data>
+      <data key="d9">LINESTRING (317111.22 6516101.44, 317173.05 6516332.91)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.84</data>
+    </edge>
+    <edge source="109" target="172">
+      <data key="d8">280.856</data>
+      <data key="d9">LINESTRING (317111.22 6516101.44, 317040.59 6515829.08)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.99</data>
+    </edge>
+    <edge source="96" target="25">
+      <data key="d8">108.102</data>
+      <data key="d9">LINESTRING (317041.53 6515393.25, 317141.71 6515351.65)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="96" target="469">
+      <data key="d8">121.386</data>
+      <data key="d9">LINESTRING (317041.53 6515393.25, 317006.56 6515276.77)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.43</data>
+    </edge>
+    <edge source="96" target="75">
+      <data key="d8">115.428</data>
+      <data key="d9">LINESTRING (317041.53 6515393.25, 317012.04 6515404.72, 316995.21 6515411.26, 316933.59 6515435.23)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.41</data>
+    </edge>
+    <edge source="96" target="244_8.5">
+      <data key="d8">49.69057859600752</data>
+      <data key="d9">LINESTRING (317041.53 6515393.25, 317012.04 6515404.72, 316995.21702391224 6515411.257270565)</data>
+    </edge>
+    <edge source="512" target="23">
+      <data key="d8">32.605000000000004</data>
+      <data key="d9">LINESTRING (317633.88 6514930.53, 317618.74 6514938.87, 317612.69 6514953.04)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.12</data>
+    </edge>
+    <edge source="512" target="24">
+      <data key="d8">33.449999999999996</data>
+      <data key="d9">LINESTRING (317633.88 6514930.53, 317615.89 6514928.78, 317602.72 6514920.65)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.12</data>
+    </edge>
+    <edge source="348" target="475">
+      <data key="d8">65.615</data>
+      <data key="d9">LINESTRING (317084.08 6516430.42, 317098.88 6516494.47)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.23</data>
+    </edge>
+    <edge source="348" target="176">
+      <data key="d8">63.821</data>
+      <data key="d9">LINESTRING (317084.08 6516430.42, 317068.69 6516368.37)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.23</data>
+    </edge>
+    <edge source="348" target="106">
+      <data key="d8">467.64200000000005</data>
+      <data key="d9">LINESTRING (317084.08 6516430.42, 316939.03 6516460.54, 316984.76 6516629.2, 317009.9 6516622.81, 317126.37 6516593.23)</data>
+      <data key="d10">car</data>
+      <data key="d11">1.65</data>
+    </edge>
+    <edge source="143" target="142">
+      <data key="d8">107.294</data>
+      <data key="d9">LINESTRING (316838.24 6515079.61, 316733.75 6515105.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="143" target="69">
+      <data key="d8">164.165</data>
+      <data key="d9">LINESTRING (316838.24 6515079.61, 316879.74 6515238.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.58</data>
+    </edge>
+    <edge source="143" target="144">
+      <data key="d8">128.627</data>
+      <data key="d9">LINESTRING (316838.24 6515079.61, 316852.28 6515078.72, 316961.81 6515113.74)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.45</data>
+    </edge>
+    <edge source="143" target="52">
+      <data key="d8">195.388</data>
+      <data key="d9">LINESTRING (316838.24 6515079.61, 316825.57 6515034.89, 316786.72 6514890.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.69</data>
+    </edge>
+    <edge source="202_8.5" target="4">
+      <data key="d8">57.368047257827</data>
+      <data key="d9">LINESTRING (317657.4653274753 6514683.602697591, 317671.25 6514739.29)</data>
+    </edge>
+    <edge source="68" target="69">
+      <data key="d8">108.88</data>
+      <data key="d9">LINESTRING (316775.15 6515270.36, 316879.74 6515238.76)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="68" target="67">
+      <data key="d8">110.647</data>
+      <data key="d9">LINESTRING (316775.15 6515270.36, 316669.08 6515303.18)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.39</data>
+    </edge>
+    <edge source="68" target="99">
+      <data key="d8">212.422</data>
+      <data key="d9">LINESTRING (316775.15 6515270.36, 316829.51 6515476.11)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.75</data>
+    </edge>
+    <edge source="68" target="142">
+      <data key="d8">169.569</data>
+      <data key="d9">LINESTRING (316775.15 6515270.36, 316733.75 6515105.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.6</data>
+    </edge>
+    <edge source="38" target="72">
+      <data key="d8">159.825</data>
+      <data key="d9">LINESTRING (316399.63 6514248.59, 316428.75 6514406.03)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.56</data>
+    </edge>
+    <edge source="38" target="42">
+      <data key="d8">184.768</data>
+      <data key="d9">LINESTRING (316399.63 6514248.59, 316432.3 6514279.62, 316533.95 6514376.17)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.65</data>
+    </edge>
+    <edge source="38" target="39">
+      <data key="d8">93.788</data>
+      <data key="d9">LINESTRING (316399.63 6514248.59, 316418.82 6514243.53, 316490.64 6514224.6)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.33</data>
+    </edge>
+    <edge source="38" target="321_8.5">
+      <data key="d8">45.06666399205682</data>
+      <data key="d9">LINESTRING (316399.63 6514248.59, 316432.3 6514279.62, 316432.306551982 6514279.626223255)</data>
+    </edge>
+    <edge source="38" target="324_8.5">
+      <data key="d8">19.836997784236168</data>
+      <data key="d9">LINESTRING (316399.63 6514248.59, 316418.81139313936 6514243.532269449)</data>
+    </edge>
+    <edge source="2" target="150">
+      <data key="d8">236.39</data>
+      <data key="d9">LINESTRING (317469.56 6513942.42, 317473.18 6513956.7, 317509.56 6514099.97, 317511.79 6514108.73, 317525.54 6514162.61, 317527.95 6514171.93)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.83</data>
+    </edge>
+    <edge source="2" target="291">
+      <data key="d8">108.821</data>
+      <data key="d9">LINESTRING (317469.56 6513942.42, 317455.72 6513945.56, 317402.81 6513959.89, 317364.15 6513970.87)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.38</data>
+    </edge>
+    <edge source="2" target="32_8.5">
+      <data key="d8">171.72871643210644</data>
+      <data key="d9">LINESTRING (317469.56 6513942.42, 317473.18 6513956.7, 317509.56 6514099.97, 317511.79 6514108.73, 317511.8248325282 6514108.866492845)</data>
+    </edge>
+    <edge source="474_8.5" target="59">
+      <data key="d8">129.03627384486998</data>
+      <data key="d9">LINESTRING (316949.91133686726 6514752.9711848805, 316949.91 6514752.97, 316940.23 6514744.39, 316937.55 6514742.02, 316854.1 6514666.54)</data>
+    </edge>
+    <edge source="472" target="123">
+      <data key="d8">79.956</data>
+      <data key="d9">LINESTRING (316705.69 6515431.27, 316727.71 6515508.29)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.28</data>
+    </edge>
+    <edge source="472" target="67">
+      <data key="d8">132.966</data>
+      <data key="d9">LINESTRING (316705.69 6515431.27, 316669.08 6515303.18)</data>
+      <data key="d10">car</data>
+      <data key="d11">0.47</data>
+    </edge>
+    <data key="d0">epsg:32636</data>
+    <data key="d1">car graph</data>
+    <data key="d2">283.33</data>
+  </graph>
+</graphml>
