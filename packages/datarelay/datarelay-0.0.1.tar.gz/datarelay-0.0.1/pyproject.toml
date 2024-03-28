@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name    = "datarelay"
+version = "0.0.1"
+authors = [
+  {name = "D. H. B. Marcos"}
+]
+description = "Data Relay"
+readme      = "readme.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.11"
+
+[project.urls]
+Homepage = "https://dhbmarcos.gitlab.io/data-relay"
+Issues   = "https://gitlab.com/dhbmarcos/data-relay/-/issues"

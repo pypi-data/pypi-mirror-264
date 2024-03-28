@@ -1,0 +1,6 @@
+pyproject.toml
+readme.md
+datarelay.egg-info/PKG-INFO
+datarelay.egg-info/SOURCES.txt
+datarelay.egg-info/dependency_links.txt
+datarelay.egg-info/top_level.txt
