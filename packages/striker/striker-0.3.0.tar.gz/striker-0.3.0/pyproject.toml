@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "striker"
+version = "0.3.0"
+description = "Minimal and Modular PyTorch Framework"
+authors = ["0phoff <0phoff@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/0phoff/striker"
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.13"
+
+# Required dependencies
+typeguard = "^2.13"
+torch = ">=1.12, <3.0.0"
+
+# Optional dependencies
+rich = { version = "^12.5", optional = true }
+rich-argparse = { version = "^0.2.1", optional = true }
+
+[tool.poetry.extras]
+rich = ["rich", "rich-argparse"]
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26"
+pytest = "^5.2"
+mypy = "^1.6.1"
+ruff = "^0.3.4"
+
+[tool.mypy]
+python_version = "3.9"
+follow_imports = 'silent'
+strict_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_any_generics = true
+check_untyped_defs = true
+no_implicit_reexport = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+show_error_codes = true
+
+[tool.ruff]
+target-version = "py39"
+line-length = 150
+extend-exclude = [".sandbox"]
+
+[tool.ruff.lint]
+select = ["C", "E", "F", "W", "B", "G", "I", "SIM", "B9", "C4", "RET5"]
+unfixable = ["B"]
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "pep440"
+format-jinja = """
+    {%- if distance == 0 -%}
+        {{ base }}
+    {%- elif env['TESTPYPI'] == '1' -%}
+        {{ base }}.post{{ distance }}
+    {%- else -%}
+        {{ base }}+{{ distance }}.{{ commit }}
+    {%- endif -%}
+"""
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"

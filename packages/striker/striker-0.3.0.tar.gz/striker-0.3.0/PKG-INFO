@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: striker
+Version: 0.3.0
+Summary: Minimal and Modular PyTorch Framework
+Home-page: https://github.com/0phoff/striker
+License: MIT
+Author: 0phoff
+Author-email: 0phoff@users.noreply.github.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: rich
+Requires-Dist: rich (>=12.5,<13.0); extra == "rich"
+Requires-Dist: rich-argparse (>=0.2.1,<0.3.0); extra == "rich"
+Requires-Dist: torch (>=1.12,<3.0.0)
+Requires-Dist: typeguard (>=2.13,<3.0)
+Project-URL: Repository, https://github.com/0phoff/striker
+Description-Content-Type: text/markdown
+
+# PyTorch Striker
+Minimal and Modular PyTorch Framework
+
