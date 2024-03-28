@@ -1,0 +1,9 @@
+pearson/__init__.py,sha256=t1H34gYe5odQbNLtpt0PLTbP8BeH8JN-uOPnL3anrx8,36
+pearson/main.py,sha256=iR7Y_j1ZjGxbOlMgzYe8J-Pb-B-lJ9_xlZawxvQsnHo,529
+pearson/model.py,sha256=6qkvLWnT9EEi01fnjRS9O8iYulHWpFV311LXhMa92PQ,543
+pearson/pearson.py,sha256=tuKWD1jXe7Fk3YIzUAPrwwB-uwhJGbqZObOywOUemz8,1773
+pearson/train.py,sha256=M5lTJF0RT8NlsDaDnlZ_uxJhMjQZm0MPDRWAamXQbZw,2376
+pearson-2.0.dist-info/METADATA,sha256=lkLSNwU2nL98Qm5mpyoMUEiXwnFZDZMM4SfVKDpD8SI,1351
+pearson-2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pearson-2.0.dist-info/top_level.txt,sha256=kBRS1HTQQf1aifJxroyWAi5qTxHTj25y2rtLPvyJuhM,8
+pearson-2.0.dist-info/RECORD,,
