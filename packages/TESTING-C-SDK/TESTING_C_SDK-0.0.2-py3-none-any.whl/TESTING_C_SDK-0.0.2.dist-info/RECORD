@@ -1,0 +1,13 @@
+TESTING_C_SDK/__init__.py,sha256=Yw0DkfZHUniVcYOHPwGdrOdyLdl72lwrH4DnLm8psnc,42
+TESTING_C_SDK/cglense.py,sha256=2kI6CWBRq_PQXM9k5pdR8xeVnD1P3ViFRw8yOIb_akA,214
+TESTING_C_SDK/data_load/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TESTING_C_SDK/data_load/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TESTING_C_SDK/data_load/config/database_config.py,sha256=7n2Eygt3jt0bS-3Rm5lZo_xGn2WwxrBFT3Nq0jvDeew,763
+TESTING_C_SDK/data_load/monitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TESTING_C_SDK/data_load/monitor/models.py,sha256=xAjdq-au_Qxq9klYesFUmm9CC95tmD_8jm79OAeWmEM,527
+TESTING_C_SDK/data_load/read_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TESTING_C_SDK/data_load/read_data/load_data.py,sha256=ngiPlgGIqlBHjxrIgTJRX9rCeZGKO9zO4MhWSjb3YGo,1108
+TESTING_C_SDK-0.0.2.dist-info/METADATA,sha256=Y2p8uxD-HB9399Ab6kWkSC0U8LNXP2Dv6g4sZ6G8gME,356
+TESTING_C_SDK-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+TESTING_C_SDK-0.0.2.dist-info/top_level.txt,sha256=xYtkcABBbqUXek5z68h9TcHutT7VLbgexZ83VXd2orU,14
+TESTING_C_SDK-0.0.2.dist-info/RECORD,,
