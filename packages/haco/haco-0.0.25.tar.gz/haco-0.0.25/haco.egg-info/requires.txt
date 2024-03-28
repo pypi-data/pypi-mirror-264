@@ -1,0 +1,5 @@
+aiomqtt<2
+pyyaml
+requests
+
+[tasmota]
