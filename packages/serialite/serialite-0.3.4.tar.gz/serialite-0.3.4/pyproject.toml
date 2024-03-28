@@ -1,0 +1,99 @@
+[tool.poetry]
+name = "serialite"
+version = "0.3.4"
+description = "A serialization library for Python"
+authors = ["David Hagen <david@drhagen.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/drhagen/serialite"
+keywords = ["serialization", "deserialization", "serde", "pydantic", "fastapi"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Operating System :: OS Independent",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typing_extensions = "^4.3"
+fastapi = { version = ">=0.100,<0.111", optional = true }
+pydantic = { version = "^1.10", optional = true }
+ordered-set = { version = "^4.1", optional = true }
+# Lie about numpy only being needed below 3.13 in order to satisfy its Python ceiling
+numpy = { version = "^1.25", optional = true, python = "<3.13" }
+
+[tool.poetry.dev-dependencies]
+nox_poetry = "^1.0.3"
+
+# Test
+pytest = "^8"
+pytest-cov = "*"
+httpx = "*" # Needed by starlette testclient
+
+# Lint
+ruff = "^0.3"
+
+[tool.poetry.extras]
+fastapi = ["fastapi", "pydantic"]
+numpy = ["numpy"]
+ordered-set = ["ordered-set"]
+
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+]
+
+[tool.coverage.paths]
+source = [
+    "src/",
+    ".nox/test*/lib/python*/site-packages/",
+    ".nox/test*/Lib/site-packages/",
+]
+
+
+[tool.ruff]
+src = ["src"]
+line-length = 99
+
+[tool.ruff.lint]
+extend-select = [
+    "I", # isort
+    "N", # pep8-naming
+    "RUF", # ruff
+    "B", # flake8-bugbear
+    "N", # flake8-broken-line
+    "C4", # flake8-comprehensions
+    "PIE", # flake8-pie
+    "PT", # flake8-pytest-style
+    "PTH", # flake8-use-pathlib
+    "ERA", # flake8-eradicate
+]
+# F402: Variable shadowing is perfectly fine
+# PT011: testing for broad exceptions is fine
+extend-ignore = ["F402", "PT011"]
+
+[tool.ruff.lint.per-file-ignores]
+# F401: unused-import; Allow unused imports in __init__.py files
+"__init__.py" = ["F401"]
+
+[tool.ruff.lint.isort]
+extra-standard-library = ["typing_extensions"]
+
+[tool.ruff.lint.pep8-naming]
+classmethod-decorators = ["serialite._descriptors.classproperty"]
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["serialite.field", "fastapi.Body"]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
