@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: odoo12-addon-muk-web-utils
+Version: 0.0.2
+Summary: A short description of your package
+Author: 
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
