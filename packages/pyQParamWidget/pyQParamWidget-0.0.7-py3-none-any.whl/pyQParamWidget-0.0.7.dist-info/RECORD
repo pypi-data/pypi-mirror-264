@@ -1,0 +1,16 @@
+pyqparamwidget/LICENSE.txt,sha256=bz2uYeVjF3cxXwMWJp4JfKwDN_bwXtAFbWtsO-j_SBU,13116
+pyqparamwidget/__init__.py,sha256=u7J3AJnEry_ZdfXZU7nV9fyyFiAG_GAjKNumk2HRuk4,760
+pyqparamwidget/_version.py,sha256=vZ9YJhtz2uaZyfeULJmmzg7nlru6jGE1i6ermqZWYAQ,411
+pyqparamwidget/param_editor.py,sha256=46N37_PQ-cecP9WHeKdPG24WfLVqx1NLh4CrfeDr_g8,5387
+pyqparamwidget/param_editor.ui,sha256=vSG67sggYzVqY-uv1FuHVhidSMhM5c7pIPDaBh4B6TE,2600
+pyqparamwidget/param_item.py,sha256=A0j1830upfxV5Tha6nfNv1a5PeLGefBPPyUqKjNHziE,4262
+pyqparamwidget/param_tree.py,sha256=B-Cb5LqA4csPn4WTTGiX43Vy1_SnGfGY8quiFlW9cD8,3986
+pyqparamwidget/param_tree.ui,sha256=ivex4KPH8mGnDWalYZsKgcmkZTH_oQ77UR7OC7O3qEo,1337
+pyqparamwidget/qpw_widgets.py,sha256=KAA6beqwky8QITeWryqv0TiHjXmSG_cdSqZMff4wja0,3262
+pyqparamwidget/utils.py,sha256=1TxdTRC1ubeZLPxW1PzAl2Rno1DgvIR-CBqfHQYewJw,941
+pyqparamwidget/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqparamwidget/tests/test_true.py,sha256=9GLnpfQT3mNpVGsS2ZfGDNMZiMBL9fqqsSJpA4XtM8k,33
+pyQParamWidget-0.0.7.dist-info/METADATA,sha256=hfU1DFPtbO82SNzXFzGog_YI33ioEflwPokJvOD1qfs,16541
+pyQParamWidget-0.0.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pyQParamWidget-0.0.7.dist-info/top_level.txt,sha256=o_Sr6bExAT2JasaFqV41hB8n-nFpur8v1gHxH8qSrnY,15
+pyQParamWidget-0.0.7.dist-info/RECORD,,
