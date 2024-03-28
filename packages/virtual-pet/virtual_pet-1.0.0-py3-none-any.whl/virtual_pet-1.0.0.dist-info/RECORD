@@ -1,0 +1,14 @@
+virtual_pet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+virtual_pet/__main__.py,sha256=ix6MPDO6aI25xt8YxlJ0yXsDqz91EPftnKp8PDbGQlU,119
+virtual_pet/default_species.py,sha256=L39H78C59raTrvZ6KOhw4GGXljQj_SIMjctWFF39fFs,2327
+virtual_pet/default_weapons.py,sha256=7F-HGP6gH4fBG6SAo-kkD-3SKbZiZJ0EW_aYokvEwWA,418
+virtual_pet/pet.py,sha256=KlZKCSlm2ifJEOPiz31tw3lgS6XOHoABqpPmIMaomng,10374
+virtual_pet/species.py,sha256=UGJ87YNJt4qADHTbeHFOvkU8MRgydNswGgE63jZZ4UE,632
+virtual_pet/utilities.py,sha256=mDpsa-FMnfEOJqqK8hbRPF9Pz-SIagnqwPib3nQsaE0,4577
+virtual_pet/weapons.py,sha256=XO_bTRsOgOFhD2dl0Mj22IXUYh2foltsSgn9_xf2IKA,679
+virtual_pet-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+virtual_pet-1.0.0.dist-info/METADATA,sha256=tIWKZo8q5Vas-tE2WLr28B3ovUtsXT6xXJQvygytZ9I,51162
+virtual_pet-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+virtual_pet-1.0.0.dist-info/entry_points.txt,sha256=Fs6t5JISRyrstpd1Q9xSJELnfjkMQKeoPvvJ0zzZ1uQ,58
+virtual_pet-1.0.0.dist-info/top_level.txt,sha256=EavRzs6ivoEqszwwDUglzy9TLNPxGI7QEEbPSaoBxEc,12
+virtual_pet-1.0.0.dist-info/RECORD,,
