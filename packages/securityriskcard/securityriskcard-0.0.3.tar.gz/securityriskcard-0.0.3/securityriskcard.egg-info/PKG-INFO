@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: securityriskcard
+Version: 0.0.3
+Summary: Conversion from scorecard ratings to risk ratings.
+Home-page: https://github.com/cyberfame/securityriskcard
+Author: Cyberfame Team
+Author-email: 0x4480@cyberfame.io
+License: AGPL-3.0
+License-File: LICENSE
