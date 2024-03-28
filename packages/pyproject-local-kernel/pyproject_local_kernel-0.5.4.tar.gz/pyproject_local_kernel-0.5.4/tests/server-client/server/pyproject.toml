@@ -1,0 +1,22 @@
+[project]
+name = "server"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Ulrik Sverdrup", email = "ulrik.sverdrup@gmail.com" }
+]
+dependencies = [
+    # Note, the extra indirection at the end is a workaround for windows
+    "pyproject-local-kernel @ file:///${PROJECT_ROOT}/../../../../pyproject-local-kernel",
+    "papermill>=2.5.0",
+    "jupytext>=1.16.1",
+]
+requires-python = ">= 3.8"
+classifiers = [
+    "Private :: Do Not Upload",
+]
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
