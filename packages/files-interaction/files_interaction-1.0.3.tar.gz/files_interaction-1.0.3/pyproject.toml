@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "files-interaction"
+version = "1.0.3"
+description = "Makes file interaction easier"
+authors = ["LooNuH"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
