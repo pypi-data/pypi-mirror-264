@@ -1,0 +1,7 @@
+setup.py
+mybitmlabprog/__init__.py
+mybitmlabprog/main.py
+mybitmlabprog.egg-info/PKG-INFO
+mybitmlabprog.egg-info/SOURCES.txt
+mybitmlabprog.egg-info/dependency_links.txt
+mybitmlabprog.egg-info/top_level.txt
