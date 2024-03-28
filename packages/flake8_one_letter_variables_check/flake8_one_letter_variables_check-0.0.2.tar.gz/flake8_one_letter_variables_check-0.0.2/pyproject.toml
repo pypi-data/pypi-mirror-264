@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "flake8_one_letter_variables_check"
+version = "0.0.2"
+description = "flake8 plugin for checking out one-letter variables"
+authors = ["Dakuon <113434878+Daku-on@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/Daku-on/flake8-one-variable-check/"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flake8 = "^7.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^21.11b1"
+isort = "^5.10.1"
+mypy = "^0.910"
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."flake8.extension"]
+OLV = "flake8_one_letter_variables_check.flake8_one_letter_variables_check:OneLetterVariablesChecker"
+
+[tool.black]
+target-version = ['py39']
+line-length = 120
+
+[tool.isort]
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+known_local_folder=['config',]
+
+[tool.flake8]
+max-line-length = 120
+max-complexity = 18
+ignore = "E203,E266,W503,"
+
+[tool.mypy]
+python_version = "3.9"
+no_strict_optional = true
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+pythonpath = ["src",]
+testpaths = ["tests",]
