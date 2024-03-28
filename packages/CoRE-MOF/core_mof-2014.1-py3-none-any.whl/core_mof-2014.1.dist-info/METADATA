@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: CoRE-MOF
+Version: 2014.1
+Summary: CoRE MOF database as a Python package
+Project-URL: Homepage, https://github.com/coudertlab/CoRE-MOF
+Project-URL: Issues, https://github.com/coudertlab/CoRE-MOF/issues
+Author-email: François-Xavier Coudert <fxcoudert@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.8
+Requires-Dist: pandas
+Requires-Dist: pymatgen
+Description-Content-Type: text/markdown
+
+# CoRE-MOF Python package
+
+Easy access to the various versions of the [CoRE MOF databases](https://cmcp-group.github.io/database-tools/),
+as a Python package.
+
+Two lines of code give you access to any structure from the databases:
+
+```
+import CoRE_MOF
+mof = CoRE_MOF.get_structure("2019-ASR", "ZUZZEB_clean")
+```
+
