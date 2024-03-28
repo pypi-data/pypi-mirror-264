@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: blar-graph
+Version: 0.0.5
+Summary: Llm agent to search within a graph
+Home-page: https://blar.io
+License: MIT
+Author: Benjamín Errazuriz
+Author-email: benjamin@blar.io
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: langchain (>=0.1.13,<0.2.0)
+Requires-Dist: langchain-openai (>=0.1.1,<0.2.0)
+Requires-Dist: llama-index (>=0.10.20,<0.11.0)
+Requires-Dist: llama-index-packs-code-hierarchy (>=0.1.1,<0.2.0)
+Requires-Dist: neo4j (>=5.18.0,<6.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: tree-sitter-languages (>=1.10.2,<2.0.0)
+Project-URL: Repository, https://github.com/blarApp/code-base-agent
+Description-Content-Type: text/markdown
+
+# code-base-agent
