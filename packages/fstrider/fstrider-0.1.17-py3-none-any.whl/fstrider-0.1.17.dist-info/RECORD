@@ -1,0 +1,15 @@
+fstrider/__init__.py,sha256=7v0UYMlPNEr0WC9ZjZVTAfoYci95Zi2L0vJ4ltTA-qY,1968
+fstrider/__main__.py,sha256=IRqHdtYf29EpPycCpmCbNkhoGaqkMID-n7_Mbir5zA8,64
+fstrider/clipboard.py,sha256=fWwRSsWIyZByj28Qf6KkfDNuj3Lb56jhE46_oDrpR_k,60
+fstrider/fs.py,sha256=mj-E2sUDdhANWnkxNo43ycrXqJ27IjKRjLWkime8fUg,3092
+fstrider/fstrider,sha256=DLsRqgHJBeWItVj7lDN2eUVV6ieZQjTUJKq7cgP4r5s,87
+fstrider/fstrider.py,sha256=yIqVaErCurnvPytp356jHm4BqFUVOcpxIcq1REIRee8,21459
+fstrider/os.py,sha256=xUFa-AuMDHjN4kyDKLQselaI-DY-F5VOf5Fd44lm_IY,1037
+fstrider/ptk.py,sha256=iXhkDNNpn_Wn0RKWtSC4SzI2F-JYSGhx11jyDHsbiPo,2483
+fstrider-0.1.17.data/scripts/fstrider,sha256=kI2Nwhw1rZqkjg5nr4-nl-TYdMyND0krpGeQ-rs3-fA,73
+xontrib/fstrider.py,sha256=VW7zkJ2FqB5jQIGaJVoIA9WZTcAZlc6Atd_ZEUhgV0E,427
+fstrider-0.1.17.dist-info/LICENSE,sha256=4UjgzAbQTz6acm5zfyeNo4R9nFMAbNFY-rx4Jbmsg8k,1067
+fstrider-0.1.17.dist-info/METADATA,sha256=2yHtrW4We7z8s9II1_QC959kl8A1EjRFa2ys8BVv9kY,7915
+fstrider-0.1.17.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fstrider-0.1.17.dist-info/top_level.txt,sha256=d8YQ7ojBe9XI-obeBLEM6kpe1a6_DGLiHHrXSu-3M9o,17
+fstrider-0.1.17.dist-info/RECORD,,
