@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: sharpcosine
+Version: 0.1.1
+Author: TAWSIF AHMED
+Author-email: sleeping4cat@outlook.com
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+
+### the original code belongs to Raphael Pisoni and Github repo: https://github.com/sleepingcat4/sharpened-cosine-similarity/blob/main/keras/README.md
+
+## I wrapped the code around for this Python library
+
+## send me an email if you require help
+
+#### How to use
+```Python
+from sharpcosine import CosSim2D
+from sharpcosine import MaxAbsPool2D
+
+model = tf.keras.Sequential(
+    [
+        tf.keras.layers.InputLayer(input_shape=input_shape),
+        CosSim2D(3, 32),
+        MaxAbsPool2D(2, True),
+        CosSim2D(3, 64,),
+        MaxAbsPool2D(2, True),
+        CosSim2D(3, 128),
+        MaxAbsPool2D(2, True),
+        tf.keras.layers.Flatten(),
+        tf.keras.layers.Dense(num_classes)
+    ]
+)
+
+Credit: https://www.rpisoni.dev/posts/cossim-convolution-part2/
+
+```
