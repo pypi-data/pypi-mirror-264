@@ -1,0 +1,2 @@
+[console_scripts]
+mltemp1 = mltemplate:main
