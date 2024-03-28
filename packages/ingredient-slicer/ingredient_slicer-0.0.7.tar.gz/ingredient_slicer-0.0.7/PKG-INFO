@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ingredient_slicer
+Version: 0.0.7
+Summary: Parse quantities, units, and (sometimes) foods from recipe ingredients into structured data
+Author-email: Angus Watters <anguswatters@gmail.com>
+License: MIT License
+Keywords: ingredient,parser,recipe,text processing,food,cooking,grocery,shopping
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pip-tools; extra == "test"
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+
+# ingredient-slicer
+Python 📦 package for extracting quantity, units, and (sometimes) food names from unstructured recipe ingredients
+
+<br>
+
+## Table of Contents
+
+- [Installation](#installation)
+
+<br>
+
+## Installation
+
+`ingredient_slicer` can be downloaded from PyPI via `pip` like so:
+
+```
+pip install ingredient-slicer
+```
