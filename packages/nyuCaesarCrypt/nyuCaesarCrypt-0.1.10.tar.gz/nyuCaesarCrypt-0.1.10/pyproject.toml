@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyuCaesarCrypt"
+version = "0.1.10"
+description = "A caesar crypt package"
+authors = [
+    {name = "Janet Pan", email = "jp6024@nyu.edu"},
+    {name = "Isaac Kwon", email = "iok206@nyu.edu"},
+    {name = "Alexander Kondratiuk", email = "ak8000@nyu.edu"},
+    {name = "Adam Schwartz", email = "ags613@nyu.edu"},
+]
+
+
+readme = "README.md"
+
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia"
+"Repository" = "https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia.git"
+"Bug Tracker" = "https://github.com/software-students-spring2024/3-python-package-exercise-ja-ia/issues"
+
+[project.scripts]
+nyuCaesarCrypt = "nyuCaesarCrypt.__main__:main"
