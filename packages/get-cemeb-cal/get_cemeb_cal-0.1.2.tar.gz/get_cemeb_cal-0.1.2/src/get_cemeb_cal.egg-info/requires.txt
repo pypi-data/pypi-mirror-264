@@ -1,0 +1,7 @@
+beautifulsoup4
+icalendar
+lxml
+requests
+
+[full]
+argcomplete

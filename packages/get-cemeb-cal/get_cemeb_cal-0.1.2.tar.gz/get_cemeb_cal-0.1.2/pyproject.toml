@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "get_cemeb_cal"
+version = "0.1.2"
+description = "Get calendar from CeMEB"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "beautifulsoup4",
+    "icalendar",
+    "lxml",
+    "requests",
+]
+authors = [
+    {name = "Robert Wolff", email = "mahlzahn@posteo.de"},
+]
+license = {text = "GNU General Public License v3 or later (GPLv3+)"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Topic :: Utilities",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+
+[project.optional-dependencies]
+full = [
+    "argcomplete",
+]
+
+[project.scripts]
+get_cemeb_cal = "get_cemeb_cal.__main__:main"
+
+[project.urls]
+Source = "https://codeberg.org/mahlzahn/get_cemeb_cal"
+Issues = "https://codeberg.org/mahlzahn/get_cemeb_cal/issues"
