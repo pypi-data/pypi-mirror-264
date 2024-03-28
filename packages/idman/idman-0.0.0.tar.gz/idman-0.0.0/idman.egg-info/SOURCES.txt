@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+idman/__init__.py
+idman.egg-info/PKG-INFO
+idman.egg-info/SOURCES.txt
+idman.egg-info/dependency_links.txt
+idman.egg-info/top_level.txt

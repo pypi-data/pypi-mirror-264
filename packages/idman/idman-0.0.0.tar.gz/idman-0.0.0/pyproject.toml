@@ -1,0 +1,7 @@
+[project]
+name = "idman"
+authors = [
+    {name = "Idman", email = "admin@idman.ai"},
+]
+version = "0.0.0"
+description = "Coming soon"
