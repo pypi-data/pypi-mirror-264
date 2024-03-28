@@ -1,0 +1,8 @@
+macromol_dataframe/__init__.py,sha256=2kIn8XOXQoN3qL_NvmEGiblnTBm2C3MQRy-KXXHhT5I,157
+macromol_dataframe/atoms.py,sha256=lONKmsgcKCwzB8xTu3ozzAP_B-8VoHZRWAkDDtcNwZM,2387
+macromol_dataframe/coords.py,sha256=dZkud2rcoWI05PgD4tgR0mRCA2a3PILY35wVl0DlsrM,4460
+macromol_dataframe/mmcif.py,sha256=arCJ9_5uATpIcsJZwfJyPUfsRGYg-zBD7OdlKeBXBro,12364
+macromol_dataframe/testing.py,sha256=mLyJJaA-E6EOYYo9GqhBRqJYQX49P8cS5zL4fIT9xAo,3098
+macromol_dataframe-0.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+macromol_dataframe-0.0.0.dist-info/METADATA,sha256=Qp632lPLTrOcMQldaWJ3LHM8hvpoctHSb_hY19CEnSk,2253
+macromol_dataframe-0.0.0.dist-info/RECORD,,
