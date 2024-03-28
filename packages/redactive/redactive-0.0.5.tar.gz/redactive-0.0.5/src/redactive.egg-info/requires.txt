@@ -1,0 +1,12 @@
+cloud-mappings
+betterproto[compiler]==2.0.0b5
+grpclib[protobuf]
+openai==1.0.0b1
+python-dotenv
+
+[all]
+redactive-service
+
+[tests]
+pytest
+pytest-asyncio
