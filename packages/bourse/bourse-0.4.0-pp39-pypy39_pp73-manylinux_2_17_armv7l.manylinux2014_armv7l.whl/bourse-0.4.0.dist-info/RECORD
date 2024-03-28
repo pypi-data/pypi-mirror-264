@@ -1,0 +1,12 @@
+bourse-0.4.0.dist-info/METADATA,sha256=p1GkD3uhn72q72b_4I69v8wpMW-iEd7PCVFO3BH_MKY,2146
+bourse-0.4.0.dist-info/WHEEL,sha256=UAvx0MkT8kO44ZYjzrYYHx5LZ415zgagiEFzy_D8-ZE,134
+bourse-0.4.0.dist-info/license_files/LICENSE,sha256=VOm3gGeoQTBWODtplMO5ZhwsyVcU7-J1z9NR0RUBNrs,1072
+bourse/__init__.py,sha256=cLmt-q-aqZd1lo-8dfJhVGxWcUUTOJ1sj8vS7_lC894,74
+bourse/step_sim/__init__.py,sha256=6C-q8Gi5waiQBQItueyDBtQQLTgR1meIKqU-ByiU0Ds,109
+bourse/step_sim/runner.py,sha256=wFU10Xa5dUiNhmDEuWCvid1bLSWEWXL-GPNnCx53B_Y,3621
+bourse/step_sim/agents/random_agent.py,sha256=pexLrhhRBhwAFGncyrDtpeSvq7XtYSLUBn7-0Y6aLws,5000
+bourse/step_sim/agents/base_agent.py,sha256=Y_SnYTeO7F95afZ0WhcsucYcPafUASE6zniEem6kJD8,3404
+bourse/step_sim/agents/__init__.py,sha256=8fQDz9itaP8UEnttdOQfma7h03izIhhmE7uqDP0bSrU,182
+bourse/data_processing.py,sha256=ON9GbLjQt6UywXnW9sIJh2AfQ3vQM8EXmkbb8RKjZ7A,2681
+bourse/core.pypy39-pp73-arm-linux-gnu.so,sha256=um1MDFv18E81hDDHv6ZeFhpDXBiEvOXl8ydo_xr_mTs,4176924
+bourse-0.4.0.dist-info/RECORD,,
