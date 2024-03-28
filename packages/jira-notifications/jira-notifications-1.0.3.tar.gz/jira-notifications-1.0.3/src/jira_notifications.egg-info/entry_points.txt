@@ -1,0 +1,2 @@
+[console_scripts]
+jira_notifications = jira_notifications.main:run

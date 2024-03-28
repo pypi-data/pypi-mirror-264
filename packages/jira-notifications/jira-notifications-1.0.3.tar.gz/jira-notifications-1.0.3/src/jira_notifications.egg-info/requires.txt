@@ -1,0 +1,12 @@
+jira>=3.6.0
+pytest>=8.0.0
+PyYAML>=6.0.1
+notify2>=0.3.1
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
