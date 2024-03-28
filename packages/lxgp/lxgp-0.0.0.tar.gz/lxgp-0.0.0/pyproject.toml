@@ -1,0 +1,5 @@
+[project]
+name = "lxgp"
+authors = [{name = "Ryan Fuller", email = "ryan.a.fuller@jpl.nasa.gov"}]
+version = "0.0.0"
+description = "Atmospheric Chemistry Data Analysis Suite"

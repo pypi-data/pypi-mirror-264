@@ -1,0 +1,6 @@
+pyproject.toml
+lxgp/__init__.py
+lxgp.egg-info/PKG-INFO
+lxgp.egg-info/SOURCES.txt
+lxgp.egg-info/dependency_links.txt
+lxgp.egg-info/top_level.txt
