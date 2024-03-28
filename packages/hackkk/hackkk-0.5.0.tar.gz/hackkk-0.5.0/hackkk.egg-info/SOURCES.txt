@@ -1,0 +1,9 @@
+README.md
+setup.py
+hackkk/__init__.py
+hackkk/courses.py
+hackkk/utils.py
+hackkk.egg-info/PKG-INFO
+hackkk.egg-info/SOURCES.txt
+hackkk.egg-info/dependency_links.txt
+hackkk.egg-info/top_level.txt
