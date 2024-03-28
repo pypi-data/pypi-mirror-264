@@ -1,0 +1,15 @@
+mavsec/__init__.py,sha256=IQk7craRT16_5kGyK_v_M_7qFwi7l9urigvC0YuxCZs,1691
+mavsec/_info.py,sha256=lArgXpiBzolWZPlJdUVCGJmWnmtLWuSno0jyd1cDzyw,1021
+mavsec/project.py,sha256=wKE5U-aZc5tjrj5uOQtyJiWOXNf_JNUe5HcCKLdXhvw,3604
+mavsec/properties.py,sha256=Ovojktflq5jiBnJIynU-XP1uyC25QqZNCAPRmQ_1iIg,5378
+mavsec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mavsec/schema.py,sha256=lFYGPb-mril-3KRbRuk7mvtjh-2Uvy0FUfUW3oBobas,4287
+mavsec/_gui/__init__.py,sha256=seXZLi21W6foXVAuhQNVoQcHNw0Lf9b7TwY4UR0qQQo,8775
+mavsec/_gui/menus.py,sha256=TFcyIM3E7e_z1eqZnI0-NVtIXJjJIuF7PgQ16_U3pSU,5362
+mavsec/_gui/proj_tabs.py,sha256=_BOzA-uzK7q3lE--i_sT4SJmxROrL4rzH78r9QbYpsY,10942
+mavsec-0.0.1b2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mavsec-0.0.1b2.dist-info/METADATA,sha256=horx8_C_H3CvdEPGgd7B2LcScNQjqctYIDchEpD-k-8,42903
+mavsec-0.0.1b2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mavsec-0.0.1b2.dist-info/entry_points.txt,sha256=jNw7TLg8Ihk1JKRF02SOMqiMPxYlzrIFmnWoqxNcZxE,38
+mavsec-0.0.1b2.dist-info/top_level.txt,sha256=TsJOS-XKXP6HfzRyX1d6wjEWOpLDjM_7lz_UEmoVXus,7
+mavsec-0.0.1b2.dist-info/RECORD,,
