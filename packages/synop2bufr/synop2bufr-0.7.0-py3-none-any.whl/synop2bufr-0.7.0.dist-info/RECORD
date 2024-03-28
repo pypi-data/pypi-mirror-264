@@ -1,0 +1,10 @@
+synop2bufr/__init__.py,sha256=M-xtimh-eYzoHBA6QNykdO9m13goIcCmiuVqHexM1GM,77490
+synop2bufr/cli.py,sha256=NXlcoo8GW1577CpJLlmYPMhfPXf-PevJwvhzMbSzuMU,5407
+synop2bufr/resources/synop-mappings-307080.json,sha256=iQFNe9y2KmnTN4JH_rKDE4GrQ2Lvce47DV1Okb6wsEY,14900
+synop2bufr/resources/synop-mappings-307096.json,sha256=MoVnlOF29yqxisAUfSCC8-Uin_NwQm73wYG8tZKsY4E,14804
+synop2bufr-0.7.0.dist-info/LICENSE,sha256=ewO6N_12HHs5xQi1hER1T-gwFzd2UStfU9WEu_8oq9c,11578
+synop2bufr-0.7.0.dist-info/METADATA,sha256=-ROsidhstfhBBgkdaDwWWqfUkzh-FuI7HPz5YMZoH-M,11443
+synop2bufr-0.7.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+synop2bufr-0.7.0.dist-info/entry_points.txt,sha256=o_JssPuPR59l4ymJj89F9cn0ndhgy_ih-RHx2GDSo6o,50
+synop2bufr-0.7.0.dist-info/top_level.txt,sha256=8OYdvxjPq1rmuL6lZ5hf3FrZp1ZmwvTCKvjh5qB_D9c,11
+synop2bufr-0.7.0.dist-info/RECORD,,

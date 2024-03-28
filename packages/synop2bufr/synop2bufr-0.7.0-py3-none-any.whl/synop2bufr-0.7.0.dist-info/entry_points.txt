@@ -1,0 +1,2 @@
+[console_scripts]
+synop2bufr = synop2bufr.cli:cli
