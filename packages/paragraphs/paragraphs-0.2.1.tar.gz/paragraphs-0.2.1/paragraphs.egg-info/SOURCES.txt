@@ -1,0 +1,14 @@
+.pre-commit-config.yaml
+LICENSE.txt
+README.md
+pyproject.toml
+paragraphs/__init__.py
+paragraphs/main.py
+paragraphs/py.typed
+paragraphs.egg-info/PKG-INFO
+paragraphs.egg-info/SOURCES.txt
+paragraphs.egg-info/dependency_links.txt
+paragraphs.egg-info/requires.txt
+paragraphs.egg-info/top_level.txt
+tests/test_par.py
+tests/test_paragraphs.py
