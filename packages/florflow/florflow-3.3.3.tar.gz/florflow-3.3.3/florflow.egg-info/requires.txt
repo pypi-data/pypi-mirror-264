@@ -1,0 +1,10 @@
+GitPython
+cloudpickle
+astunparse
+pandas
+bidict==0.21.3
+apted
+matplotlib
+scikit-learn
+numpy
+tqdm
