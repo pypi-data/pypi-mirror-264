@@ -1,0 +1,8 @@
+firestore_wrapper/__init__.py,sha256=9V6xf4VRbWNVuhUmyfmeSuX_0EKSrXtlaOkNICNVtNY,30
+firestore_wrapper/core.py,sha256=f-K5GHpmR2f9IZ2164g6tihHHLuMLLg0_L7FixrdE4k,17837
+firestore_wrapper/schema_utils.py,sha256=eHxwO4TZSJMX6rcHVlFLjl_rpkXEspZhqJUzaR4ghyg,2658
+firestore_wrapper-0.1.1.dist-info/LICENSE,sha256=BV8n2N3Xyw5nYUXM0OfT9rPeeMgJVKL50gjPTgAIvqE,1073
+firestore_wrapper-0.1.1.dist-info/METADATA,sha256=8AsBVjYnebr-iBTvZl2RUUU0FSVHibsRl6wUBF75CIo,3352
+firestore_wrapper-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+firestore_wrapper-0.1.1.dist-info/top_level.txt,sha256=W16cVOoyJ3TCFLDJ2FpKLcJY1wO8a3_h7AWMvFFaWSE,18
+firestore_wrapper-0.1.1.dist-info/RECORD,,
