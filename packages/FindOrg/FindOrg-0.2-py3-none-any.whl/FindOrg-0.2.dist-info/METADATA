@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: FindOrg
+Version: 0.2
+Description-Content-Type: text/markdown
+
+# FindOrg - Named Entity Recognition for Organizations using GPT
+
+FindOrg is a Python package designed to perform Named Entity Recognition (NER), specifically targeting organizations within a given text. Leveraging OpenAI's powerful GPT models, it extracts organization names efficiently.
+
+## Installation
+Before using FindOrg, ensure you have the necessary dependencies installed:
+
+- pandas
+- openai
+
+## Usage
+```python
+from FindOrg import org
+
+# Provide your OpenAI API key
+openai_key = "YOUR_OPENAI_API_KEY"
+
+# Sample text for analysis
+text = "In the heart of Silicon Valley, a collaboration has emerged between global tech giants such as Google, Apple, and Facebook, aiming to revolutionize the digital landscape."
+
+# Call the function
+result_df = org(text, openai_key, model='gpt-3.5-turbo', save=False)
+
+# Display the extracted organizations
+print(result_df)
+```
+
+# Arguments
+* text (str): Text to be analyzed.
+* openai_key (str): Your OpenAI API key.
+* model (str, optional): Model to be used for the analysis. Defaults to 'gpt-3.5-turbo'.
+* save (bool, optional): If True, the output will be saved as an Excel file named 'organizations.xlsx'. Defaults to False.
+
+# Returns
+* pandas.DataFrame: DataFrame containing the extracted organizations.
+
+# Output
+The output DataFrame consists of a single column named "Organizations", containing the extracted organization names.
