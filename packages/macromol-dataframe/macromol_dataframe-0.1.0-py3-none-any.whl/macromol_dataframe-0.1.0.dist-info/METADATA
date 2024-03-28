@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: macromol_dataframe
+Version: 0.1.0
+Summary: Manipulate macromolecular coordinate data using data frames.
+Author-email: Kale Kundert <kale@thekunderts.net>
+Requires-Python: ~=3.10
+Description-Content-Type: text/x-rst
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: gemmi
+Requires-Dist: numpy
+Requires-Dist: polars
+Requires-Dist: scipy
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: autoclasstoc ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: parametrize_from_file ; extra == "test"
+Requires-Dist: hypothesis ; extra == "test"
+Project-URL: Bug Tracker, https://github.com/kalekundert/macromol_dataframe/issues
+Project-URL: Continuous Integration, https://github.com/kalekundert/macromol_dataframe/actions
+Project-URL: Documentation, https://macromol-dataframe.readthedocs.io/en/latest/
+Project-URL: Test Coverage, https://coveralls.io/github/kalekundert/macromol_dataframe
+Project-URL: Version Control, https://github.com/kalekundert/macromol_dataframe
+Provides-Extra: doc
+Provides-Extra: test
+
+**************************
+Macromolecular Data Frames
+**************************
+
+.. image:: https://img.shields.io/pypi/v/macromol_dataframe.svg
+   :alt: Last release
+   :target: https://pypi.python.org/pypi/macromol_dataframe
+
+.. image:: https://img.shields.io/pypi/pyversions/macromol_dataframe.svg
+   :alt: Python version
+   :target: https://pypi.python.org/pypi/macromol_dataframe
+
+.. image:: https://img.shields.io/readthedocs/macromol_dataframe.svg
+   :alt: Documentation
+   :target: https://macromol-dataframe.readthedocs.io/en/latest/?badge=latest
+
+.. image:: https://img.shields.io/github/actions/workflow/status/kalekundert/macromol_dataframe/test.yml?branch=master
+   :alt: Test status
+   :target: https://github.com/kalekundert/macromol_dataframe/actions
+
+.. image:: https://img.shields.io/coveralls/kalekundert/macromol_dataframe.svg
+   :alt: Test coverage
+   :target: https://coveralls.io/github/kalekundert/macromol_dataframe?branch=master
+
+.. image:: https://img.shields.io/github/last-commit/kalekundert/macromol_dataframe?logo=github
+   :alt: Last commit
+   :target: https://github.com/kalekundert/macromol_dataframe
+
