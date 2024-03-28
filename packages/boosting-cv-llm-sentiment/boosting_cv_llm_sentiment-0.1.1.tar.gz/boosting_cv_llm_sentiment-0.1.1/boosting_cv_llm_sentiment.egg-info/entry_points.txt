@@ -1,0 +1,3 @@
+[console_scripts]
+boosting_cv_llm_sentiment = boosting_cv_llm_sentiment.cli:main
+

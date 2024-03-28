@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: boosting_cv_llm_sentiment
+Version: 0.1.1
+Summary: A Python library enhancing conversational AI with emotion detection, using computer vision and NLP. It tags emotions from facial expressions in real-time and integrates them with a Large Language Model for empathetic responses.
+Home-page: https://github.com/ToroData/boosting_cv_llm_sentiment
+Author: Ricard Santiago Raigada García
+Author-email: ricard.raigada@ieee.org
+License: Apache Software License
+Keywords: boosting_cv_llm_sentiment
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=========================
+Boosting CV-LLM sentiment
+=========================
+
+
+.. image:: https://img.shields.io/pypi/v/boosting_cv_llm_sentiment.svg
+        :target: https://pypi.python.org/pypi/boosting_cv_llm_sentiment
+
+.. image:: https://img.shields.io/travis/ToroData/boosting_cv_llm_sentiment.svg
+        :target: https://travis-ci.com/ToroData/boosting_cv_llm_sentiment
+
+.. image:: https://readthedocs.org/projects/boosting-cv-llm-sentiment/badge/?version=latest
+        :target: https://boosting-cv-llm-sentiment.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Boosting CV-LLM Sentiment is a Python library that fuses computer vision and natural language processing capabilities to enhance human-computer interactions with language model systems. Leveraging OpenCV, the framework detects emotions and facial expressions in real-time, tagging the identified sentiments. These sentiment tags are then fed as metadata into a Large Language Model (LLM) to inform and shape text generation, enabling conversational empathy adaptability. This innovative approach enhances LLMs' ability to produce more meaningful and context-aware responses, fostering more natural and human-like interactions across various applications, from virtual assistants to customer feedback analysis.
+
+
+* Free software: Apache Software License
+* Documentation: https://boosting-cv-llm-sentiment.readthedocs.io.
+
+
+Features
+--------
+
+- Real-time facial emotion detection using OpenCV.
+- Integration with Large Language Models for context-aware text generation.
+- Enhances conversational AI with a layer of emotional intelligence.
+- Easy to integrate into existing Python projects with language model requirements.
+
+Installation
+------------
+
+To install Boosting CV-LLM Sentiment, run this command in your terminal:
+
+.. code-block:: bash
+
+    pip install boosting_cv_llm_sentiment
+
+This is the preferred method to install Boosting CV-LLM Sentiment, as it will always install the most recent stable release.
+
+Setting up the OpenAI API Key
+-----------------------------
+
+1. **Find Your API Key**: First, locate your API key from your OpenAI account under API settings.
+
+2. **Configure the Key in Your Environment**:
+
+   - **On Unix/Linux/macOS**:
+     Open your terminal and run the following command, replacing ``YOUR_API_KEY`` with your actual OpenAI API key:
+
+     .. code-block:: bash
+
+        export OPENAI_API_KEY="YOUR_API_KEY"
+
+     To make this change permanent, you can add the command to your ``~/.bashrc``, ``~/.zshrc``, or the configuration file of your shell.
+
+   - **On Windows**:
+     Open Command Prompt as an administrator and run:
+
+     .. code-block:: cmd
+
+        setx OPENAI_API_KEY "YOUR_API_KEY"
+
+     Alternatively, you can set the environment variable through the System Properties. Search for "Edit the system environment variables" in the Start menu, click on "Environment Variables", and then add a new variable under "User variables" with the name ``OPENAI_API_KEY`` and your actual key as the value.
+
+Verifying the Configuration
+---------------------------
+
+You can verify that your API key is set up correctly by running the following command in your terminal or Command Prompt:
+
+- **Unix/Linux/macOS**:
+
+  .. code-block:: bash
+
+     echo $OPENAI_API_KEY
+
+- **Windows**:
+
+  .. code-block:: cmd
+
+     echo %OPENAI_API_KEY%
+
+If the command prints your API key, then you're all set.
+
+Please ensure you keep your API key secure and do not share it publicly.
+
+Usage
+-----
+
+After installation, you can start using Boosting CV-LLM Sentiment by importing it and initializing the main classes:
+
+.. code-block:: python
+
+    from boosting_cv_llm_sentiment.emoboostllm import EmoBoostLLM
+
+    # Initialize and run the application
+    app = EmoBoostLLM(webcam_index=0)
+    app.run()
+
+Refer to the documentation for more detailed usage instructions.
+
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2024-03-24)
+------------------
+
+* First release on PyPI.
+
+

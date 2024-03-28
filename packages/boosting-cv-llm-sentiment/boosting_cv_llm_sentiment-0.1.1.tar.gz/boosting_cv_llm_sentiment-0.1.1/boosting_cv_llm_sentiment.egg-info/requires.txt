@@ -1,0 +1,10 @@
+requests
+numpy==1.24.3
+openai==1.14.3
+opencv_python==4.5.5.64
+Pillow==10.2.0
+pytest==6.2.4
+setuptools==58.0.4
+transformers==4.34.1
+torch
+torchvision
