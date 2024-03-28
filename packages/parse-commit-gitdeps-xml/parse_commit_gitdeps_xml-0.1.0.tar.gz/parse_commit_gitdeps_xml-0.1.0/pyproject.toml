@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "parse-commit-gitdeps-xml"
+version = "0.1.0"
+description = "Parse Commit.gitdeps.xml file"
+authors = ["sehnryr <youn@melois.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+isort = "^5.13.2"
+pytest = "^8.1.1"
+
+[tool.poe.tasks]
+black = "black --line-length=100 ."
+isort = "isort --profile=black --line-length=100 ."
+format = ["black", "isort"]
+test = "pytest ./tests"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
