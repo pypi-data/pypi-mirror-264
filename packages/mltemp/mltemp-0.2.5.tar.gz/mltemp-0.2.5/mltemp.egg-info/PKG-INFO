@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mltemp
+Version: 0.2.5
+Description-Content-Type: text/markdown
+
+- **for building the module**
+- `python setup.py sdist bdist_wheel`
+
+- **for uploading it to pypi**
+- `python -m twine upload dist/*`
+
+- **enter your api**
+
+- **and your are good to go**
