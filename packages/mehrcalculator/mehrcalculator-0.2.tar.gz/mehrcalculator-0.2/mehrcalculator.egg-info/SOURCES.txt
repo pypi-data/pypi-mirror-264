@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mehrcalculator/__init__.py
+mehrcalculator/mehrcalculator.py
+mehrcalculator.egg-info/PKG-INFO
+mehrcalculator.egg-info/SOURCES.txt
+mehrcalculator.egg-info/dependency_links.txt
+mehrcalculator.egg-info/top_level.txt
+test/test_calculator.py
