@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+paintlog/__init__.py
+paintlog/color_highlight.py
+paintlog/logger.py
+paintlog/paint.py
+paintlogio_py.egg-info/PKG-INFO
+paintlogio_py.egg-info/SOURCES.txt
+paintlogio_py.egg-info/dependency_links.txt
+paintlogio_py.egg-info/requires.txt
+paintlogio_py.egg-info/top_level.txt
