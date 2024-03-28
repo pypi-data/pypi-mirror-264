@@ -1,0 +1,2 @@
+[console_scripts]
+validation-component-bootstrap-utils-generate-modules = validation_component_bootstrap_utils.generate_validation_module:main

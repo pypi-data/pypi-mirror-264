@@ -1,0 +1,29 @@
+---
+# The following max_equality_values is the maximum number
+# of different values that will be coded in the validator classmethods
+# for each attribute.  For a number greater than this, will need
+# to implement validation rules that use regular expressions instead.
+max_equality_values: 20
+validation_functions:
+  # Attribute: name
+  # Required: Yes
+  # Note: This will be the name of the function.  It should be unique.
+  - name: validation_check_A
+    # Attribute: description
+    # Required: Yes
+    # Note: The description will be inserted as the function docstring.
+    description: |
+      This is the description of this validation check function A.
+    # Attribute: definition
+    # Required: Yes
+    # Note: This will be the implementation of the function.
+    definition: |
+      if values.a > 1:
+        if values.c != "good":
+          raise ValueError(f"a '{values.a}' is greater than 1, but c '{values.c}' is not 'good'")
+  - name: validation_check_B
+    description: |
+      This is the description of this validation check function B.
+    definition: |
+      if values.b == values.d:
+        raise ValueError(f"b '{values.b}'' should not be equal to d '{values.d}'")
