@@ -1,0 +1,6 @@
+Django<6.0,>=4.0
+djangorestframework<4.0,>=3.14.0
+html-json-forms
+natural-keys>=2.1.1
+drf-writable-nested
+pystache
