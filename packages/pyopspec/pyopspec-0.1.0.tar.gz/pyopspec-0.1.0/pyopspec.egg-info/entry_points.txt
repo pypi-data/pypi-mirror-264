@@ -1,0 +1,2 @@
+[console_scripts]
+pyopspec = pyopspec.pyopspec:main
