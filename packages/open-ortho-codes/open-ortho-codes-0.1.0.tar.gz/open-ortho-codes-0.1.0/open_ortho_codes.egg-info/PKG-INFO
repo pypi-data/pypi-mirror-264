@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: open-ortho-codes
+Version: 0.1.0
+Summary: A package for managing orthodontic codes and namespaces.
+Home-page: https://github.com/open-ortho/codes
+Author: Toni Magni
+Author-email: open-ortho@case.edu
+Keywords: orthodontics codes fhir healthcare snomed
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# codes
+A list of codes and terms from various terminologies used for development of software pertaining the orthodontic domain.
