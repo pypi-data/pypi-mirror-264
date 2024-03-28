@@ -1,0 +1,10 @@
+dataframes_haystack/__about__.py,sha256=-jv4YrtvjuVHUiy9m2mbhHFcDvXzaFWI0SYuYyBOkJA,154
+dataframes_haystack/__init__.py,sha256=dWyRm53m1kKh-YT8T2jfLWhbjm9j1tmlhRJVb9dlXoc,130
+dataframes_haystack/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataframes_haystack/components/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataframes_haystack/components/converters/pandas.py,sha256=LM7N1X4MchDJgUgu2tCKTA7mHlVcbjGCzj3bonbliqU,3842
+dataframes_haystack/components/converters/polars.py,sha256=1D-td1IklwStqZtXj7jsgjEd6ZflcjH3hxZaW9dhKAU,3171
+dataframes_haystack-0.0.1a0.dist-info/METADATA,sha256=JpjqqnJN2tcEokxUKM6q9Dq4XSEecJPs2xZfmzk-9mE,4591
+dataframes_haystack-0.0.1a0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+dataframes_haystack-0.0.1a0.dist-info/licenses/LICENSE.txt,sha256=3A1c5Xe-bfKli4YFlBnIk3iHrL7VDPZUvnEmw0QOn1Y,1122
+dataframes_haystack-0.0.1a0.dist-info/RECORD,,
