@@ -1,0 +1,44 @@
+MoinMoin Version History
+========================
+
+Please note: It is recommended that existing wiki's be upgraded to the
+latest moin 1.9.x release before converting to Moin 2. However, this may
+not be a necessary step as the 1.9.x file structure has not changed recently.
+
+Version 2.0.0alpha
+------------------
+This is an unstable alpha release not suitable for a production wiki,
+test carefully and report new issues and feature requests on the issue tracker:
+https://github.com/moinwiki/moin/issues.
+
+Fixes
+~~~~~
+* Major rewrite of MoinMoin 1.9.x
+
+New features
+~~~~~~~~~~~~
+* Python3.9+
+* Supports moinwiki, markdown, rst, and DocBook markup languages
+* HTML markup support by CKEditor, same version used in moin 1.9.x
+* MediaWiki markup support needs work
+* Editor help docs optional, can be loaded into a wiki namespace
+* New/revised themes: topside, topside-cms, modernized, basic
+* EmeraldTree
+* Flask
+* Flatland
+* FontAwesome
+* Jinja2
+* Jquery
+* Whoosh
+* Xstatic
+
+Missing features from 1.9.x
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* SVG editor
+* LDAP may have missing dependencies depending upon OS flavor
+* WikiDicts have limited function, does not use Babel translations
+
+Other changes
+~~~~~~~~~~~~~
+* GitHub used for issue tracking: https://github.com/moinwiki/moin/issues
+* See https://moin-20.readthedocs.io/en/latest/ for Sphinx formatted docs
