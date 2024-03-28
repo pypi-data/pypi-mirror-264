@@ -1,0 +1,6 @@
+tabulate
+numpy>=1.20
+tellurium
+python-libsbml>=5.19.0
+python-libsbml
+pandas
