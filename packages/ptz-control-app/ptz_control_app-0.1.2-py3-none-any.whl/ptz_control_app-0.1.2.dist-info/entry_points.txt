@@ -1,0 +1,3 @@
+[console_scripts]
+ptz-control-app=ptz_control_app.main:main
+
