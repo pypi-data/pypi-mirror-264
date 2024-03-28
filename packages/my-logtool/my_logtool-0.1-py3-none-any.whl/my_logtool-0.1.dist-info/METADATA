@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: my_logtool
+Version: 0.1
+Summary: This is a log tool
+Home-page: https://github.com/embzheng/my_logtool
+Author: embzheng
+Author-email: embzheng@qq.com
+Project-URL: Source, https://github.com/embzheng/my_logtool
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: logging
+Requires-Dist: json
+Requires-Dist: os
+Requires-Dist: sys
+
+# my_logtool
+
+这是一个log工具
+
+### 安装
+
+```
+$ pip install my_logtool
+```
+
+
+
