@@ -1,0 +1,30 @@
+prod:
+  allow:
+    # All prod-looking actors have CAS write access
+    - actor: prod.*
+      requests:
+        - BatchUpdateBlobs
+        - QueryWriteStatus
+        - Write
+
+    # Only the actor `prodbuilder` can actually control execution
+    - actor: prodbuilder
+      requests:
+        - Execute
+        - WaitExecution
+        - CancelOperation
+
+    - requests:
+        # Read-only requests are allowed regardless of header claims
+        - GetCapabilities
+        - GetActionResult
+        - GetOperation
+        - ListOperations
+        - Read
+        - FindMissingBlobs
+        - BatchReadBlobs
+        - GetTree
+        # The `bgd bot` used in this example doesn't know how to do auth,
+        # so make these public
+        - CreateBotSession
+        - UpdateBotSession
