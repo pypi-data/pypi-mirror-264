@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: muti.basic
+Version: 0.0.4
+Summary: utils for pytorch
+Home-page: https://github.com/E-C-Ares/
+Author: E.C.Ares
+Author-email: E.C.Ares@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# muti-pkp
+mani-utils by pack-in-python
