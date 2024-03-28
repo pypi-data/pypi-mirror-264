@@ -1,0 +1,6 @@
+opentelemetry/instrumentation/anthropic/__init__.py,sha256=DYOG8mc_ntQv20YHiU3AnkCzoHZIKtg-cBBdS4C9pCU,7254
+opentelemetry/instrumentation/anthropic/version.py,sha256=PQVflpJdJDETGf2g1BB5OHCS_5KtgteERschfoSBtss,23
+opentelemetry_instrumentation_anthropic-0.15.1.dist-info/METADATA,sha256=mHUYNR3THFM2-2lUz_nbNcN9IgkbUQIfeUlCQRUsUcQ,2202
+opentelemetry_instrumentation_anthropic-0.15.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+opentelemetry_instrumentation_anthropic-0.15.1.dist-info/entry_points.txt,sha256=QCoTxqILI8fwKrZJ2A7Y8lkk8Y039TlsrONaFrS90rs,102
+opentelemetry_instrumentation_anthropic-0.15.1.dist-info/RECORD,,
