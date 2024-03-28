@@ -1,0 +1,22 @@
+[project]
+name = "fastapi_rest_mongo"
+version = "0.1.0"
+description = "FastAPI Framework, RESTful API, MongoDB Database"
+authors = [
+    { name = "aponder.top", email = "it@aponder.top" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "Apache"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+package-type = "library"

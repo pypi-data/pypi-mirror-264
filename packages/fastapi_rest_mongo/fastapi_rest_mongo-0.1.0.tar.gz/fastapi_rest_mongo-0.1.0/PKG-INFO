@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fastapi_rest_mongo
+Version: 0.1.0
+Summary: FastAPI Framework, RESTful API, MongoDB Database
+Author-Email: aponder.top <it@aponder.top>
+License: Apache
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# fastapi_rest_mongo
