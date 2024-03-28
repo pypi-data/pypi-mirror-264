@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+func_runner_cli.egg-info/PKG-INFO
+func_runner_cli.egg-info/SOURCES.txt
+func_runner_cli.egg-info/dependency_links.txt
+func_runner_cli.egg-info/entry_points.txt
+func_runner_cli.egg-info/requires.txt
+func_runner_cli.egg-info/top_level.txt
