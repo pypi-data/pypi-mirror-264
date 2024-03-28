@@ -1,0 +1,11 @@
+ophis/__init__.py,sha256=qZziM-RdUW2XVXfGoXqesADOz5aAkMggNONvQfqvruU,595
+ophis/context.py,sha256=c0kJ3hLwD6wnf2X0eeRSbq3IYOr5q1KpB1FraPzOrhw,5724
+ophis/database.py,sha256=T8etvAMUz2mVk95ytA9eqaeC_5dub-QG-IItD4gXeBg,9003
+ophis/globals.py,sha256=_-XUR_3I1CeaTi91pOElIzogkZxTX2JAVa1OjdF4vrY,121
+ophis/router.py,sha256=1YeLJ_erd8aavene9PbJwvsF1iAq-XTz-z1IF3joTZw,8445
+ophis/token.py,sha256=EoBws6JG3GQoGJK2OmMfWvtXuyt5dlGfCebHajmB8F8,2402
+ophis_py-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ophis_py-0.1.0.dist-info/METADATA,sha256=owCjhAuG5srOkNYTBRwwiipmsWw_myIWcC_U6rqEPBM,4835
+ophis_py-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ophis_py-0.1.0.dist-info/top_level.txt,sha256=YIpht3bwwcfOOHMbaZyy8WA9x38D4bqMSYAR5ghmvwA,6
+ophis_py-0.1.0.dist-info/RECORD,,
