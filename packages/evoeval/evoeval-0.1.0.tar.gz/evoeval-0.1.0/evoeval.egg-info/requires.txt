@@ -1,0 +1,8 @@
+wget>=3.2
+tempdir>=0.7.1
+multipledispatch>=0.6.0
+appdirs>=1.4.4
+numpy>=1.19.5
+tqdm>=4.56.0
+termcolor>=2.0.0
+evalplus>=0.2.0
