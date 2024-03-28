@@ -1,0 +1,2 @@
+[console_scripts]
+notify-widgets = notify_widgets.__main__:main

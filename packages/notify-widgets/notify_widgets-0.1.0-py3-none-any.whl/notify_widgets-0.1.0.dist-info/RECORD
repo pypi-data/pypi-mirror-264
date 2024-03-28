@@ -1,0 +1,11 @@
+notify_widgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notify_widgets/__main__.py,sha256=R9xLrMdIFG1nK4zYY39rQu-4fV702zj_xPo3KW6lTHY,2028
+notify_widgets/data_classes.py,sha256=WmsEYr9vnrGd4fDGWSXeNsMRRUnFP_rI80LUrdlxDNw,5727
+notify_widgets/default_modules.py,sha256=WwhXABZZjyedCKsCUD1QsndTqjMdD1hRhv4zyN0Jsiw,3044
+notify_widgets/modules.py,sha256=Jq21PJvgBqbeiEGDX1luHhXofKrcERRwdadv-gikrjI,2066
+notify_widgets/utils.py,sha256=zbDEKHxKV1LD_GeIocJ4Rh-LfmCTD88fzaIXvUPWMRg,1171
+notify_widgets-0.1.0.dist-info/METADATA,sha256=3BWRwEGj2WGxG0h6coPzijlXT0tCK5D-HHORcI_-cx4,1480
+notify_widgets-0.1.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+notify_widgets-0.1.0.dist-info/entry_points.txt,sha256=mqjyPf4b1pR_Azdcliw8q6l4N_uOy_-D7ca0sqeKdIc,64
+notify_widgets-0.1.0.dist-info/licenses/LICENSE,sha256=e2xIZmGxqcE1Z5nDcXDIqfvYR1Lo-92c1j6f4zW9f4I,1061
+notify_widgets-0.1.0.dist-info/RECORD,,
