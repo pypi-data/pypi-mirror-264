@@ -1,0 +1,52 @@
+# SPDX-FileCopyrightText: 2024 Alec Delaney
+# SPDX-License-Identifier: MIT
+
+[build-system]
+requires = [
+    "setuptools",
+    "setuptools-scm",
+    "wheel",
+]
+
+[project]
+name = "circfirm-hello-world"
+description = "An example Hello World plugin for circfirm"
+authors = [
+    {name = "Alec Delaney", email = "tekktrik@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.rst"
+requires-python = ">= 3.8"
+keywords = [
+    "TODO: Add keywords here"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Natural Language :: English",
+]
+dynamic = ["version", "dependencies", "optional-dependencies"]
+
+[project.urls]
+# TODO: Add project URLs here
+
+[tool.setuptools]
+packages = ["circfirm_hello_world"]
+
+[tool.setuptools.dynamic.version]
+file = "VERSION"
+
+[tool.setuptools.dynamic.dependencies]
+file = "requirements.txt"
+
+[tool.setuptools.dynamic.optional-dependencies]
+dev = {file = ["requirements-dev.txt"]}
+circfirm = {file = ["requirements-base.txt"]}
+
+[tool.ruff.lint]
+select = ["D", "PL", "UP", "I"]
+ignore = ["D213", "D203"]

@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: circfirm-hello-world
+Version: 0.0.3
+Summary: An example Hello World plugin for circfirm
+Author-email: Alec Delaney <tekktrik@gmail.com>
+License: MIT
+Keywords: TODO: Add keywords here
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: click~=8.0
+Provides-Extra: dev
+Requires-Dist: build~=1.1; extra == "dev"
+Requires-Dist: coverage~=7.4; extra == "dev"
+Requires-Dist: pre-commit~=3.5; extra == "dev"
+Requires-Dist: pytest~=8.1; extra == "dev"
+Provides-Extra: circfirm
+Requires-Dist: circfirm~=3.1; extra == "circfirm"
+
+..
+   SPDX-FileCopyrightText: 2024 Alec Delaney
+   SPDX-License-Identifier: MIT
+
+circfirm hello world
+====================
+
+An example Hello World plugin for circfirm
