@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+swaybar_client.egg-info/PKG-INFO
+swaybar_client.egg-info/SOURCES.txt
+swaybar_client.egg-info/dependency_links.txt
+swaybar_client.egg-info/entry_points.txt
+swaybar_client.egg-info/requires.txt
+swaybar_client.egg-info/top_level.txt
+swaybarclient/__init__.py
+swaybarclient/swaybarclient.py
+swaybarclient/modules/battery.py
+swaybarclient/modules/cpu.py
+swaybarclient/modules/time.py
