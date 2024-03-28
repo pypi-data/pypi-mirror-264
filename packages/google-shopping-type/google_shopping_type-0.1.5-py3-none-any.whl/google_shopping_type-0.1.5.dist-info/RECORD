@@ -1,0 +1,12 @@
+google/shopping/type/__init__.py,sha256=y399lClhr12GHAHJ3J3bauc_Vgn9OCP80Q9cjxq6MCI,908
+google/shopping/type/gapic_metadata.json,sha256=wMpPPOIH_ZyqpXqVWbudNPOLeuGUzaLNv2S7Ig8G3j0,229
+google/shopping/type/gapic_version.py,sha256=o6DQlqKLU_XxAeL7061IWZ-984GGYIHc5ZEV6WAD_0o,652
+google/shopping/type/py.typed,sha256=7D7yy-qjJ9y8X9jRHfyWIRFn7DS8CrBs2fbAgCF7kn4,81
+google/shopping/type/services/__init__.py,sha256=o-GCU1hbG5VXrOW7hUl_JSImemJCYPrMpZ9mIWck4h4,600
+google/shopping/type/types/__init__.py,sha256=TYbB8gfxCjaCbTFNlOoBRzoBOOp3pxns7SPTfBxkCcg,791
+google/shopping/type/types/types.py,sha256=LTULL4YwpxLbZfSKPxTE3NyW_SIT1u1sMUigpD3JPOc,8543
+google_shopping_type-0.1.5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+google_shopping_type-0.1.5.dist-info/METADATA,sha256=PLUD_A5q9Niu9IVOyNEd-xg1WmA9fJBNmtn7UqG0oyw,5076
+google_shopping_type-0.1.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+google_shopping_type-0.1.5.dist-info/top_level.txt,sha256=_1QvSJIhFAGfxb79D6DhB7SUw2X6T4rwnz_LLrbcD3c,7
+google_shopping_type-0.1.5.dist-info/RECORD,,
