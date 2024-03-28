@@ -1,0 +1,8 @@
+LICENSE.txt
+chatmat.py
+setup.cfg
+setup.py
+chatmat.egg-info/PKG-INFO
+chatmat.egg-info/SOURCES.txt
+chatmat.egg-info/dependency_links.txt
+chatmat.egg-info/top_level.txt
