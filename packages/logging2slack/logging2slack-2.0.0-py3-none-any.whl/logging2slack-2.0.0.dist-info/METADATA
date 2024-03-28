@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: logging2slack
+Version: 2.0.0
+Summary: SlackLogger
+Project-URL: Homepage, https://github.com/meetjeff/logging2slack
+Author-email: Jeff Hsu <adf159776@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests>=2.31.0
+Description-Content-Type: text/markdown
+
+# logging2slack
+SlackLogger
