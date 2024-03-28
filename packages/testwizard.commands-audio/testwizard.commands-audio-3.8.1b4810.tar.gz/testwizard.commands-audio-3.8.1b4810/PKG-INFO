@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: testwizard.commands-audio
+Version: 3.8.1b4810
+Summary: Testwizard Audio commands
+Home-page: https://www.resillion.com/services/software-testing/testing-tools/testwizard/
+Author: Resillion
+Author-email: testwizard-support@resillion.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+TODO
+
