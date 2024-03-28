@@ -1,0 +1,8 @@
+myfirstpackageformypiscine/Loading.py
+myfirstpackageformypiscine/__init__.py
+myfirstpackageformypiscine/packtest.py
+myfirstpackageformypiscine/setup.py
+myfirstpackageformypiscine.egg-info/PKG-INFO
+myfirstpackageformypiscine.egg-info/SOURCES.txt
+myfirstpackageformypiscine.egg-info/dependency_links.txt
+myfirstpackageformypiscine.egg-info/top_level.txt

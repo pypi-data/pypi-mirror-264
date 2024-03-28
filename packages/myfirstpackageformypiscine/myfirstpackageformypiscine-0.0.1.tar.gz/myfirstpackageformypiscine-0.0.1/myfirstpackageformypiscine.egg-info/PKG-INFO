@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: myfirstpackageformypiscine
+Version: 0.0.1
+Summary: just to try
+Home-page: https://github.com/theoske/python_piscine/Starting/ex09/
+Author: theoske
+Author-email: theokempf@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+
+UNKNOWN
+
