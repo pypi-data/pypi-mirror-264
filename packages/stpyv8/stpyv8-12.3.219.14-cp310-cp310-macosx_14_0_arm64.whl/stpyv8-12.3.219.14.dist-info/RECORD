@@ -1,0 +1,13 @@
+STPyV8.py,sha256=Ho7z-R5afm93xzwoasvKmI7-DKTA2QomtYiNX8M8gvo,10787
+_STPyV8.cpython-310-darwin.so,sha256=-kEw5URLAlezioTEkdkyAXhfFaszFmd8v_-y6lQjCAk,44905232
+stpyv8-12.3.219.14.dist-info/RECORD,,
+stpyv8-12.3.219.14.dist-info/WHEEL,sha256=E2L8cNry8_qENFWMb8KxRWLe-RhZW94hLc32Xo3HiTg,110
+stpyv8-12.3.219.14.dist-info/top_level.txt,sha256=_B8IWugJXVhs-cRkf7rffAi35EJO7ddBMzmk4JPx1hA,15
+stpyv8-12.3.219.14.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+stpyv8-12.3.219.14.dist-info/METADATA,sha256=jy_e4mwAm_d_PPYMbl7_3yZXOx74rpS0Us6OmYZ4_4Y,10339
+stpyv8-icu/icudtl.dat,sha256=9RcKorOI0jvr-YeE3UiKm8t0FHA4SmqajXomONdo3vs,10717392
+stpyv8.dylibs/libboost_iostreams.dylib,sha256=9KIqVSODfnC0GKkuRG7EBG6yTQ2iJCKnqIOYym_PYf4,121584
+stpyv8.dylibs/libboost_python310.dylib,sha256=qEcjjPRWBeC_h7mZZYnkgqlPIZ7vJGrfYe35ySYcqTc,320224
+stpyv8.dylibs/libboost_filesystem.dylib,sha256=hqKiD8JwQbacYzPMn0Z3S4na_C50p_2dwN5YC_v0Zw0,178976
+stpyv8.dylibs/libboost_atomic.dylib,sha256=Z1hfGC-UhRDRGhuJITodfEq7r5_vuONWZecx1QpsOmU,87552
+stpyv8.dylibs/libboost_system.dylib,sha256=EKbLlB1tUDAyRKAYDZTIh6Owf8WMWG5vF9E-ulUicZg,35008
