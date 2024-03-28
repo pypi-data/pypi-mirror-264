@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: type-enum-plugin
+Version: 0.5.0
+Summary: Mypy plugin for type-enum.
+Project-URL: Documentation, https://github.com/tmke8/type-enum#readme
+Project-URL: Issues, https://github.com/tmke8/type-enum/issues
+Project-URL: Source, https://github.com/tmke8/type-enum
+Author-email: Thomas MK <tmke8@posteo.net>
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Requires-Dist: mypy
+Description-Content-Type: text/markdown
+
+# type-enum-plugin
+
+Mypy plugin for TypeEnum.

@@ -1,0 +1,944 @@
+{
+	'.class': 'TypeInfo',
+	'module_name': 'example',
+	'fullname': 'example.BgColor.name',
+	'names': {
+		'.class': 'SymbolTable',
+		'_0': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'Var',
+				'name': '_0',
+				'fullname': 'example.BgColor.name._0',
+				'type': {
+					'.class': 'TypeVarType',
+					'name': 'T',
+					'fullname': 'example.T',
+					'id': 1,
+					'namespace': 'example.BgColor',
+					'values': [],
+					'upper_bound': 'builtins.object',
+					'variance': 0
+				},
+				'flags': ['is_property', 'is_ready']
+			}
+		},
+		'_fields': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'Var',
+				'name': '_fields',
+				'fullname': 'example.BgColor.name._fields',
+				'type': {
+					'.class': 'TupleType',
+					'items': ['builtins.str'],
+					'partial_fallback': {
+						'.class': 'Instance',
+						'type_ref': 'builtins.tuple',
+						'args': [{
+							'.class': 'AnyType',
+							'type_of_any': 6,
+							'source_any': None,
+							'missing_import_name': None
+						}]
+					},
+					'implicit': False
+				},
+				'flags': ['is_initialized_in_class', 'is_ready']
+			}
+		},
+		'_field_types': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'Var',
+				'name': '_field_types',
+				'fullname': 'example.BgColor.name._field_types',
+				'type': {
+					'.class': 'Instance',
+					'type_ref': 'builtins.dict',
+					'args': ['builtins.str', {
+						'.class': 'AnyType',
+						'type_of_any': 6,
+						'source_any': None,
+						'missing_import_name': None
+					}]
+				},
+				'flags': ['is_initialized_in_class', 'is_ready']
+			}
+		},
+		'_field_defaults': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'Var',
+				'name': '_field_defaults',
+				'fullname': 'example.BgColor.name._field_defaults',
+				'type': {
+					'.class': 'Instance',
+					'type_ref': 'builtins.dict',
+					'args': ['builtins.str', {
+						'.class': 'AnyType',
+						'type_of_any': 6,
+						'source_any': None,
+						'missing_import_name': None
+					}]
+				},
+				'flags': ['is_initialized_in_class', 'is_ready']
+			}
+		},
+		'_source': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'Var',
+				'name': '_source',
+				'fullname': 'example.BgColor.name._source',
+				'type': 'builtins.str',
+				'flags': ['is_initialized_in_class', 'is_ready']
+			}
+		},
+		'__annotations__': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'Var',
+				'name': '__annotations__',
+				'fullname': 'example.BgColor.name.__annotations__',
+				'type': {
+					'.class': 'Instance',
+					'type_ref': 'builtins.dict',
+					'args': ['builtins.str', {
+						'.class': 'AnyType',
+						'type_of_any': 6,
+						'source_any': None,
+						'missing_import_name': None
+					}]
+				},
+				'flags': ['is_initialized_in_class', 'is_ready']
+			}
+		},
+		'__doc__': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'Var',
+				'name': '__doc__',
+				'fullname': 'example.BgColor.name.__doc__',
+				'type': 'builtins.str',
+				'flags': ['is_initialized_in_class', 'is_ready']
+			}
+		},
+		'__match_args__': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'Var',
+				'name': '__match_args__',
+				'fullname': 'example.BgColor.name.__match_args__',
+				'type': {
+					'.class': 'TupleType',
+					'items': [{
+						'.class': 'LiteralType',
+						'value': '_0',
+						'fallback': 'builtins.str'
+					}],
+					'partial_fallback': {
+						'.class': 'Instance',
+						'type_ref': 'builtins.tuple',
+						'args': [{
+							'.class': 'AnyType',
+							'type_of_any': 6,
+							'source_any': None,
+							'missing_import_name': None
+						}]
+					},
+					'implicit': False
+				},
+				'flags': ['is_initialized_in_class', 'is_ready']
+			}
+		},
+		'_replace': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'plugin_generated': True,
+			'node': {
+				'.class': 'FuncDef',
+				'name': '_replace',
+				'fullname': 'example.BgColor.name._replace',
+				'arg_names': ['_self', '_0'],
+				'arg_kinds': [0, 5],
+				'type': {
+					'.class': 'CallableType',
+					'arg_types': [{
+						'.class': 'TypeVarType',
+						'name': '_NT',
+						'fullname': 'example.BgColor.name._NT',
+						'id': -2,
+						'namespace': '',
+						'values': [],
+						'upper_bound': {
+							'.class': 'TupleType',
+							'items': [{
+								'.class': 'TypeVarType',
+								'name': 'T',
+								'fullname': 'example.T',
+								'id': 1,
+								'namespace': 'example.BgColor',
+								'values': [],
+								'upper_bound': 'builtins.object',
+								'variance': 0
+							}],
+							'partial_fallback': {
+								'.class': 'Instance',
+								'type_ref': 'builtins.tuple',
+								'args': [{
+									'.class': 'AnyType',
+									'type_of_any': 6,
+									'source_any': None,
+									'missing_import_name': None
+								}]
+							},
+							'implicit': False
+						},
+						'variance': 0
+					}, {
+						'.class': 'TypeVarType',
+						'name': 'T',
+						'fullname': 'example.T',
+						'id': 1,
+						'namespace': 'example.BgColor',
+						'values': [],
+						'upper_bound': 'builtins.object',
+						'variance': 0
+					}],
+					'arg_kinds': [0, 5],
+					'arg_names': ['_self', '_0'],
+					'ret_type': {
+						'.class': 'TypeVarType',
+						'name': '_NT',
+						'fullname': 'example.BgColor.name._NT',
+						'id': -2,
+						'namespace': '',
+						'values': [],
+						'upper_bound': {
+							'.class': 'TupleType',
+							'items': [{
+								'.class': 'TypeVarType',
+								'name': 'T',
+								'fullname': 'example.T',
+								'id': 1,
+								'namespace': 'example.BgColor',
+								'values': [],
+								'upper_bound': 'builtins.object',
+								'variance': 0
+							}],
+							'partial_fallback': {
+								'.class': 'Instance',
+								'type_ref': 'builtins.tuple',
+								'args': [{
+									'.class': 'AnyType',
+									'type_of_any': 6,
+									'source_any': None,
+									'missing_import_name': None
+								}]
+							},
+							'implicit': False
+						},
+						'variance': 0
+					},
+					'fallback': 'builtins.function',
+					'name': '_replace of name',
+					'variables': [{
+						'.class': 'TypeVarType',
+						'name': '_NT',
+						'fullname': 'example.BgColor.name._NT',
+						'id': -2,
+						'namespace': '',
+						'values': [],
+						'upper_bound': {
+							'.class': 'TupleType',
+							'items': [{
+								'.class': 'TypeVarType',
+								'name': 'T',
+								'fullname': 'example.T',
+								'id': 1,
+								'namespace': 'example.BgColor',
+								'values': [],
+								'upper_bound': 'builtins.object',
+								'variance': 0
+							}],
+							'partial_fallback': {
+								'.class': 'Instance',
+								'type_ref': 'builtins.tuple',
+								'args': [{
+									'.class': 'AnyType',
+									'type_of_any': 6,
+									'source_any': None,
+									'missing_import_name': None
+								}]
+							},
+							'implicit': False
+						},
+						'variance': 0
+					}],
+					'is_ellipsis_args': False,
+					'implicit': False,
+					'bound_args': [],
+					'def_extras': {},
+					'type_guard': None,
+					'from_concatenate': False,
+					'unpack_kwargs': False
+				},
+				'flags': [],
+				'abstract_status': 0,
+				'dataclass_transform_spec': None
+			}
+		},
+		'__new__': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'plugin_generated': True,
+			'node': {
+				'.class': 'FuncDef',
+				'name': '__new__',
+				'fullname': 'example.BgColor.name.__new__',
+				'arg_names': ['_cls', '_0'],
+				'arg_kinds': [0, 0],
+				'type': {
+					'.class': 'CallableType',
+					'arg_types': [{
+						'.class': 'TypeType',
+						'item': {
+							'.class': 'TypeVarType',
+							'name': '_NT',
+							'fullname': 'example.BgColor.name._NT',
+							'id': -2,
+							'namespace': '',
+							'values': [],
+							'upper_bound': {
+								'.class': 'TupleType',
+								'items': [{
+									'.class': 'TypeVarType',
+									'name': 'T',
+									'fullname': 'example.T',
+									'id': 1,
+									'namespace': 'example.BgColor',
+									'values': [],
+									'upper_bound': 'builtins.object',
+									'variance': 0
+								}],
+								'partial_fallback': {
+									'.class': 'Instance',
+									'type_ref': 'builtins.tuple',
+									'args': [{
+										'.class': 'AnyType',
+										'type_of_any': 6,
+										'source_any': None,
+										'missing_import_name': None
+									}]
+								},
+								'implicit': False
+							},
+							'variance': 0
+						}
+					}, {
+						'.class': 'TypeVarType',
+						'name': 'T',
+						'fullname': 'example.T',
+						'id': 1,
+						'namespace': 'example.BgColor',
+						'values': [],
+						'upper_bound': 'builtins.object',
+						'variance': 0
+					}],
+					'arg_kinds': [0, 0],
+					'arg_names': ['_cls', '_0'],
+					'ret_type': {
+						'.class': 'TypeVarType',
+						'name': '_NT',
+						'fullname': 'example.BgColor.name._NT',
+						'id': -2,
+						'namespace': '',
+						'values': [],
+						'upper_bound': {
+							'.class': 'TupleType',
+							'items': [{
+								'.class': 'TypeVarType',
+								'name': 'T',
+								'fullname': 'example.T',
+								'id': 1,
+								'namespace': 'example.BgColor',
+								'values': [],
+								'upper_bound': 'builtins.object',
+								'variance': 0
+							}],
+							'partial_fallback': {
+								'.class': 'Instance',
+								'type_ref': 'builtins.tuple',
+								'args': [{
+									'.class': 'AnyType',
+									'type_of_any': 6,
+									'source_any': None,
+									'missing_import_name': None
+								}]
+							},
+							'implicit': False
+						},
+						'variance': 0
+					},
+					'fallback': 'builtins.function',
+					'name': '__new__ of name',
+					'variables': [{
+						'.class': 'TypeVarType',
+						'name': '_NT',
+						'fullname': 'example.BgColor.name._NT',
+						'id': -2,
+						'namespace': '',
+						'values': [],
+						'upper_bound': {
+							'.class': 'TupleType',
+							'items': [{
+								'.class': 'TypeVarType',
+								'name': 'T',
+								'fullname': 'example.T',
+								'id': 1,
+								'namespace': 'example.BgColor',
+								'values': [],
+								'upper_bound': 'builtins.object',
+								'variance': 0
+							}],
+							'partial_fallback': {
+								'.class': 'Instance',
+								'type_ref': 'builtins.tuple',
+								'args': [{
+									'.class': 'AnyType',
+									'type_of_any': 6,
+									'source_any': None,
+									'missing_import_name': None
+								}]
+							},
+							'implicit': False
+						},
+						'variance': 0
+					}],
+					'is_ellipsis_args': False,
+					'implicit': False,
+					'bound_args': [],
+					'def_extras': {},
+					'type_guard': None,
+					'from_concatenate': False,
+					'unpack_kwargs': False
+				},
+				'flags': [],
+				'abstract_status': 0,
+				'dataclass_transform_spec': None
+			}
+		},
+		'_asdict': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'plugin_generated': True,
+			'node': {
+				'.class': 'FuncDef',
+				'name': '_asdict',
+				'fullname': 'example.BgColor.name._asdict',
+				'arg_names': ['_self'],
+				'arg_kinds': [0],
+				'type': {
+					'.class': 'CallableType',
+					'arg_types': [{
+						'.class': 'TypeVarType',
+						'name': '_NT',
+						'fullname': 'example.BgColor.name._NT',
+						'id': -2,
+						'namespace': '',
+						'values': [],
+						'upper_bound': {
+							'.class': 'TupleType',
+							'items': [{
+								'.class': 'TypeVarType',
+								'name': 'T',
+								'fullname': 'example.T',
+								'id': 1,
+								'namespace': 'example.BgColor',
+								'values': [],
+								'upper_bound': 'builtins.object',
+								'variance': 0
+							}],
+							'partial_fallback': {
+								'.class': 'Instance',
+								'type_ref': 'builtins.tuple',
+								'args': [{
+									'.class': 'AnyType',
+									'type_of_any': 6,
+									'source_any': None,
+									'missing_import_name': None
+								}]
+							},
+							'implicit': False
+						},
+						'variance': 0
+					}],
+					'arg_kinds': [0],
+					'arg_names': ['_self'],
+					'ret_type': {
+						'.class': 'Instance',
+						'type_ref': 'builtins.dict',
+						'args': ['builtins.str', {
+							'.class': 'AnyType',
+							'type_of_any': 6,
+							'source_any': None,
+							'missing_import_name': None
+						}]
+					},
+					'fallback': 'builtins.function',
+					'name': '_asdict of name',
+					'variables': [{
+						'.class': 'TypeVarType',
+						'name': '_NT',
+						'fullname': 'example.BgColor.name._NT',
+						'id': -2,
+						'namespace': '',
+						'values': [],
+						'upper_bound': {
+							'.class': 'TupleType',
+							'items': [{
+								'.class': 'TypeVarType',
+								'name': 'T',
+								'fullname': 'example.T',
+								'id': 1,
+								'namespace': 'example.BgColor',
+								'values': [],
+								'upper_bound': 'builtins.object',
+								'variance': 0
+							}],
+							'partial_fallback': {
+								'.class': 'Instance',
+								'type_ref': 'builtins.tuple',
+								'args': [{
+									'.class': 'AnyType',
+									'type_of_any': 6,
+									'source_any': None,
+									'missing_import_name': None
+								}]
+							},
+							'implicit': False
+						},
+						'variance': 0
+					}],
+					'is_ellipsis_args': False,
+					'implicit': False,
+					'bound_args': [],
+					'def_extras': {},
+					'type_guard': None,
+					'from_concatenate': False,
+					'unpack_kwargs': False
+				},
+				'flags': [],
+				'abstract_status': 0,
+				'dataclass_transform_spec': None
+			}
+		},
+		'_make': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'plugin_generated': True,
+			'node': {
+				'.class': 'Decorator',
+				'func': {
+					'.class': 'FuncDef',
+					'name': '_make',
+					'fullname': 'example.BgColor.name._make',
+					'arg_names': ['_cls', 'iterable', 'new', 'len'],
+					'arg_kinds': [0, 0, 5, 5],
+					'type': {
+						'.class': 'CallableType',
+						'arg_types': [{
+							'.class': 'TypeType',
+							'item': {
+								'.class': 'TypeVarType',
+								'name': '_NT',
+								'fullname': 'example.BgColor.name._NT',
+								'id': -2,
+								'namespace': '',
+								'values': [],
+								'upper_bound': {
+									'.class': 'TupleType',
+									'items': [{
+										'.class': 'TypeVarType',
+										'name': 'T',
+										'fullname': 'example.T',
+										'id': 1,
+										'namespace': 'example.BgColor',
+										'values': [],
+										'upper_bound': 'builtins.object',
+										'variance': 0
+									}],
+									'partial_fallback': {
+										'.class': 'Instance',
+										'type_ref': 'builtins.tuple',
+										'args': [{
+											'.class': 'AnyType',
+											'type_of_any': 6,
+											'source_any': None,
+											'missing_import_name': None
+										}]
+									},
+									'implicit': False
+								},
+								'variance': 0
+							}
+						}, {
+							'.class': 'Instance',
+							'type_ref': 'typing.Iterable',
+							'args': [{
+								'.class': 'AnyType',
+								'type_of_any': 6,
+								'source_any': None,
+								'missing_import_name': None
+							}]
+						}, {
+							'.class': 'AnyType',
+							'type_of_any': 6,
+							'source_any': None,
+							'missing_import_name': None
+						}, {
+							'.class': 'AnyType',
+							'type_of_any': 6,
+							'source_any': None,
+							'missing_import_name': None
+						}],
+						'arg_kinds': [0, 0, 5, 5],
+						'arg_names': ['_cls', 'iterable', 'new', 'len'],
+						'ret_type': {
+							'.class': 'TypeVarType',
+							'name': '_NT',
+							'fullname': 'example.BgColor.name._NT',
+							'id': -2,
+							'namespace': '',
+							'values': [],
+							'upper_bound': {
+								'.class': 'TupleType',
+								'items': [{
+									'.class': 'TypeVarType',
+									'name': 'T',
+									'fullname': 'example.T',
+									'id': 1,
+									'namespace': 'example.BgColor',
+									'values': [],
+									'upper_bound': 'builtins.object',
+									'variance': 0
+								}],
+								'partial_fallback': {
+									'.class': 'Instance',
+									'type_ref': 'builtins.tuple',
+									'args': [{
+										'.class': 'AnyType',
+										'type_of_any': 6,
+										'source_any': None,
+										'missing_import_name': None
+									}]
+								},
+								'implicit': False
+							},
+							'variance': 0
+						},
+						'fallback': 'builtins.function',
+						'name': '_make of name',
+						'variables': [{
+							'.class': 'TypeVarType',
+							'name': '_NT',
+							'fullname': 'example.BgColor.name._NT',
+							'id': -2,
+							'namespace': '',
+							'values': [],
+							'upper_bound': {
+								'.class': 'TupleType',
+								'items': [{
+									'.class': 'TypeVarType',
+									'name': 'T',
+									'fullname': 'example.T',
+									'id': 1,
+									'namespace': 'example.BgColor',
+									'values': [],
+									'upper_bound': 'builtins.object',
+									'variance': 0
+								}],
+								'partial_fallback': {
+									'.class': 'Instance',
+									'type_ref': 'builtins.tuple',
+									'args': [{
+										'.class': 'AnyType',
+										'type_of_any': 6,
+										'source_any': None,
+										'missing_import_name': None
+									}]
+								},
+								'implicit': False
+							},
+							'variance': 0
+						}],
+						'is_ellipsis_args': False,
+						'implicit': False,
+						'bound_args': [],
+						'def_extras': {},
+						'type_guard': None,
+						'from_concatenate': False,
+						'unpack_kwargs': False
+					},
+					'flags': ['is_class', 'is_decorated'],
+					'abstract_status': 0,
+					'dataclass_transform_spec': None
+				},
+				'var': {
+					'.class': 'Var',
+					'name': '_make',
+					'fullname': 'example.BgColor.name._make',
+					'type': {
+						'.class': 'CallableType',
+						'arg_types': [{
+							'.class': 'TypeType',
+							'item': {
+								'.class': 'TypeVarType',
+								'name': '_NT',
+								'fullname': 'example.BgColor.name._NT',
+								'id': -2,
+								'namespace': '',
+								'values': [],
+								'upper_bound': {
+									'.class': 'TupleType',
+									'items': [{
+										'.class': 'TypeVarType',
+										'name': 'T',
+										'fullname': 'example.T',
+										'id': 1,
+										'namespace': 'example.BgColor',
+										'values': [],
+										'upper_bound': 'builtins.object',
+										'variance': 0
+									}],
+									'partial_fallback': {
+										'.class': 'Instance',
+										'type_ref': 'builtins.tuple',
+										'args': [{
+											'.class': 'AnyType',
+											'type_of_any': 6,
+											'source_any': None,
+											'missing_import_name': None
+										}]
+									},
+									'implicit': False
+								},
+								'variance': 0
+							}
+						}, {
+							'.class': 'Instance',
+							'type_ref': 'typing.Iterable',
+							'args': [{
+								'.class': 'AnyType',
+								'type_of_any': 6,
+								'source_any': None,
+								'missing_import_name': None
+							}]
+						}, {
+							'.class': 'AnyType',
+							'type_of_any': 6,
+							'source_any': None,
+							'missing_import_name': None
+						}, {
+							'.class': 'AnyType',
+							'type_of_any': 6,
+							'source_any': None,
+							'missing_import_name': None
+						}],
+						'arg_kinds': [0, 0, 5, 5],
+						'arg_names': ['_cls', 'iterable', 'new', 'len'],
+						'ret_type': {
+							'.class': 'TypeVarType',
+							'name': '_NT',
+							'fullname': 'example.BgColor.name._NT',
+							'id': -2,
+							'namespace': '',
+							'values': [],
+							'upper_bound': {
+								'.class': 'TupleType',
+								'items': [{
+									'.class': 'TypeVarType',
+									'name': 'T',
+									'fullname': 'example.T',
+									'id': 1,
+									'namespace': 'example.BgColor',
+									'values': [],
+									'upper_bound': 'builtins.object',
+									'variance': 0
+								}],
+								'partial_fallback': {
+									'.class': 'Instance',
+									'type_ref': 'builtins.tuple',
+									'args': [{
+										'.class': 'AnyType',
+										'type_of_any': 6,
+										'source_any': None,
+										'missing_import_name': None
+									}]
+								},
+								'implicit': False
+							},
+							'variance': 0
+						},
+						'fallback': 'builtins.function',
+						'name': '_make of name',
+						'variables': [{
+							'.class': 'TypeVarType',
+							'name': '_NT',
+							'fullname': 'example.BgColor.name._NT',
+							'id': -2,
+							'namespace': '',
+							'values': [],
+							'upper_bound': {
+								'.class': 'TupleType',
+								'items': [{
+									'.class': 'TypeVarType',
+									'name': 'T',
+									'fullname': 'example.T',
+									'id': 1,
+									'namespace': 'example.BgColor',
+									'values': [],
+									'upper_bound': 'builtins.object',
+									'variance': 0
+								}],
+								'partial_fallback': {
+									'.class': 'Instance',
+									'type_ref': 'builtins.tuple',
+									'args': [{
+										'.class': 'AnyType',
+										'type_of_any': 6,
+										'source_any': None,
+										'missing_import_name': None
+									}]
+								},
+								'implicit': False
+							},
+							'variance': 0
+						}],
+						'is_ellipsis_args': False,
+						'implicit': False,
+						'bound_args': [],
+						'def_extras': {},
+						'type_guard': None,
+						'from_concatenate': False,
+						'unpack_kwargs': False
+					},
+					'flags': ['is_classmethod', 'is_ready']
+				},
+				'is_overload': False
+			}
+		},
+		'_NT': {
+			'.class': 'SymbolTableNode',
+			'kind': 'Mdef',
+			'node': {
+				'.class': 'TypeVarExpr',
+				'name': '_NT',
+				'fullname': 'example.BgColor.name._NT',
+				'values': [],
+				'upper_bound': {
+					'.class': 'TupleType',
+					'items': [{
+						'.class': 'TypeVarType',
+						'name': 'T',
+						'fullname': 'example.T',
+						'id': 1,
+						'namespace': 'example.BgColor',
+						'values': [],
+						'upper_bound': 'builtins.object',
+						'variance': 0
+					}],
+					'partial_fallback': {
+						'.class': 'Instance',
+						'type_ref': 'builtins.tuple',
+						'args': [{
+							'.class': 'AnyType',
+							'type_of_any': 6,
+							'source_any': None,
+							'missing_import_name': None
+						}]
+					},
+					'implicit': False
+				},
+				'variance': 0
+			}
+		}
+	},
+	'defn': {
+		'.class': 'ClassDef',
+		'name': 'name',
+		'fullname': 'example.BgColor.name',
+		'type_vars': [{
+			'.class': 'TypeVarType',
+			'name': 'T',
+			'fullname': 'example.T',
+			'id': 1,
+			'namespace': 'example.BgColor',
+			'values': [],
+			'upper_bound': 'builtins.object',
+			'variance': 0
+		}]
+	},
+	'abstract_attributes': [],
+	'type_vars': ['T'],
+	'has_param_spec_type': False,
+	'bases': [{
+		'.class': 'Instance',
+		'type_ref': 'builtins.tuple',
+		'args': [{
+			'.class': 'AnyType',
+			'type_of_any': 6,
+			'source_any': None,
+			'missing_import_name': None
+		}]
+	}],
+	'mro': ['example.BgColor.name', 'builtins.tuple', 'typing.Sequence', 'typing.Collection', 'typing.Reversible', 'typing.Iterable', 'typing.Container', 'builtins.object', 'example.BgColor'],
+	'_promote': [],
+	'alt_promote': None,
+	'declared_metaclass': None,
+	'metaclass_type': None,
+	'tuple_type': {
+		'.class': 'TupleType',
+		'items': [{
+			'.class': 'TypeVarType',
+			'name': 'T',
+			'fullname': 'example.T',
+			'id': 1,
+			'namespace': 'example.BgColor',
+			'values': [],
+			'upper_bound': 'builtins.object',
+			'variance': 0
+		}],
+		'partial_fallback': {
+			'.class': 'Instance',
+			'type_ref': 'builtins.tuple',
+			'args': [{
+				'.class': 'AnyType',
+				'type_of_any': 6,
+				'source_any': None,
+				'missing_import_name': None
+			}]
+		},
+		'implicit': False
+	},
+	'typeddict_type': None,
+	'flags': ['is_named_tuple', 'is_final'],
+	'metadata': {
+		'namedtuple': {
+			'fields': ['_0']
+		}
+	},
+	'slots': None,
+	'deletable_attributes': [],
+	'self_type': None,
+	'dataclass_transform_spec': None
+}
