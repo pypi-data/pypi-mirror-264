@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+scholarly_publications/__init__.py
+scholarly_publications/cli.py
+scholarly_publications/fetcher.py
+scholarly_publications.egg-info/PKG-INFO
+scholarly_publications.egg-info/SOURCES.txt
+scholarly_publications.egg-info/dependency_links.txt
+scholarly_publications.egg-info/entry_points.txt
+scholarly_publications.egg-info/requires.txt
+scholarly_publications.egg-info/top_level.txt
+tests/test_scholarly_publications.py
