@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+etudatasphere/__init__.py
+etudatasphere.egg-info/PKG-INFO
+etudatasphere.egg-info/SOURCES.txt
+etudatasphere.egg-info/dependency_links.txt
+etudatasphere.egg-info/requires.txt
+etudatasphere.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: etudatasphere
+Version: 0.1.0
+Summary: etudatasphere: Simplifying Cloud Administration. Access Yandex.Cloud services with ease, automating routine tasks for resource management.
+Home-page: https://github.com/sesh00/etudatasphere
+Download-URL: https://github.com/sesh00/etudatasphere/archive/main.zip
+Author: sesh00
+Author-email: ernestrsage@gmail.com
+License: MIT License, see LICENSE file
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
