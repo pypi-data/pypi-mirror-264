@@ -1,0 +1,103 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dramatic"
+dynamic = ["version"]
+description = "Display all Python process output character-by-character"
+readme = "readme.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = [
+  "Python Morsels",
+  "modem",
+  "terminal",
+  "typewriter",
+  "TTY",
+  "teletype",
+]
+authors = [
+  { name = "Trey Hunner" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/treyhunner/dramatic#readme"
+Issues = "https://github.com/treyhunner/dramatic/issues"
+Source = "https://github.com/treyhunner/dramatic"
+
+[tool.hatch.version]
+path = "dramatic.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+  "pytest-mock>=3.12.0",
+  "ruff",
+]
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = [
+  "- coverage combine",
+  "coverage html",
+  "coverage report",
+]
+cov-report-xml = [
+  "- coverage combine",
+  "coverage xml",
+]
+cov = [
+  "test-cov",
+  "cov-report",
+]
+ci-cov = [
+  "test-cov",
+  "cov-report-xml",
+]
+lint = [
+  "ruff format .",
+  "ruff check --fix .",
+  "mypy {{ cookiecutter.package_name }}/",
+]
+lint-check = [
+  "ruff format --check .",
+  "ruff check .",
+  "mypy {{ cookiecutter.package_name }}/",
+]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12", "pypy3.10"]
+
+[tool.coverage.run]
+source_pkgs = ["dramatic", "tests"]
+branch = true
+parallel = true
+
+[tool.coverage.report]
+exclude_lines = [
+  "if __name__ == .__main__.:",
+]
+
+[tool.ruff]
+target-version = "py38"
+
+[tool.ruff.lint]
+extend-select = ["I", "TRY", "UP"]
+
+[tool.ruff.lint.isort]
+force-sort-within-sections = true
