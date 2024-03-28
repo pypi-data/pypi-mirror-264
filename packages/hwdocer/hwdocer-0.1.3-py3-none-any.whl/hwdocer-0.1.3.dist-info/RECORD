@@ -1,0 +1,8 @@
+doc/release.md,sha256=YI_GyDaO6UQpDyf_y4VSCjTdN9pyqp3gyjbiFnej57I,1451
+hwdocer/__init__.py,sha256=XEqb2aiIn8fzGE68Mph4ck1FtQqsR_am0wRWvrYPffQ,22
+hwdocer/__main__.py,sha256=UH_K4cJW1dqqyPZuYAoir6ZskhNiPV3i_YDxHJOSyyA,139
+hwdocer/hwdocer.py,sha256=jn84BTR5BlWZtj2-iZmA718220NOCe_rWQWV16kiMvU,12506
+hwdocer-0.1.3.dist-info/METADATA,sha256=MvKnjrcFy14a_kFUcNln9ebw6fqBPK_gQwBnvKSgjso,3889
+hwdocer-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hwdocer-0.1.3.dist-info/entry_points.txt,sha256=8dEUJsMjQ0JeVmzkBTsgWfQtAdR0AMeSAmRt2vxyWBI,49
+hwdocer-0.1.3.dist-info/RECORD,,
