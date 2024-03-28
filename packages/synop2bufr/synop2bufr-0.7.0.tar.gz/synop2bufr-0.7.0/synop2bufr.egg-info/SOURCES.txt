@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+synop2bufr/__init__.py
+synop2bufr/cli.py
+synop2bufr.egg-info/PKG-INFO
+synop2bufr.egg-info/SOURCES.txt
+synop2bufr.egg-info/dependency_links.txt
+synop2bufr.egg-info/entry_points.txt
+synop2bufr.egg-info/requires.txt
+synop2bufr.egg-info/top_level.txt
+synop2bufr/resources/synop-mappings-307080.json
+synop2bufr/resources/synop-mappings-307096.json
