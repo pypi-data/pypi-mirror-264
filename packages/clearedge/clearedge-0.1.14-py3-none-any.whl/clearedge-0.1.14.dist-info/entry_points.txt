@@ -1,0 +1,3 @@
+[console_scripts]
+install-deps=install_deps:main
+

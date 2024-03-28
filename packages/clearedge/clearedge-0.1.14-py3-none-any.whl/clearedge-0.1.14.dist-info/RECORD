@@ -1,0 +1,17 @@
+clearedge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clearedge/bbox.py,sha256=VzNyX1oS9I4mG400gd55vbSVMf_J9HWfol2L1WEl4Qg,358
+clearedge/chunk.py,sha256=lx4voIyfWe_tENaI2d_3IrDPNqYgivO059rzKE-yWP0,692
+clearedge/dockerfile,sha256=p5fLzkDlBdxh931OZcv6VESHCkPaPPc4XZWvMCXZet0,298
+clearedge/metadata.py,sha256=CfaxqL6fqSohEoWeLQlJ8P6Ab1WADpoClOiYZKTu59o,672
+clearedge/ocr_config/config.yaml,sha256=zUZGZUgy49Zy-LD-Qk3x04wpRAPkRihgVX9UfjXiCxs,969
+clearedge/reader/__init__.py,sha256=Dh-cAMtrc6g8epF667vbYcL-A08UrEmGMmtn00pwUs4,56
+clearedge/reader/en_PP-OCRv4_rec_infer.onnx,sha256=qit9-TkaWdygfzaG3s1rF1Oe2LwgH1pXk46nHy2fGYo,7671960
+clearedge/reader/pdf.py,sha256=85GKDCzIjqC8mRsL3HkwslGSZm4m2-Gm3zE0evi7eEY,7505
+clearedge/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clearedge/utils/hf_utils.py,sha256=tJdCX0LJKTz_lcnTEG8N7uZQxvXgX6KPXhfVfj6HQLI,910
+clearedge/utils/pdf_utils.py,sha256=Ewxg4D53T8Tdvetr5AINY8oM-beXfnsEQca4Sdh-fHM,8241
+clearedge/utils/ultralytics_utils.py,sha256=tFzSxRVetU1AnXkkweGZgB93To8y52DZfyl1Irn4NQ0,3034
+clearedge-0.1.14.dist-info/METADATA,sha256=27oxSmYqxPaLaAE8mA4YeyoErb25YoSRrxRyg5gYHIY,853
+clearedge-0.1.14.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clearedge-0.1.14.dist-info/entry_points.txt,sha256=ohIsnJXhLEnyYg0wNRiwIMJ6NKq6W5qioQQq5IouHS4,50
+clearedge-0.1.14.dist-info/RECORD,,
