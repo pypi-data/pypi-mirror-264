@@ -1,0 +1,10 @@
+shipyard_file_manipulation/__init__.py,sha256=nOcBEFYcLR9ce28FrpIv3iLnRRtgbh2ipDDHSUil3aw,74
+shipyard_file_manipulation/cli/compare.py,sha256=TeVRWDuxVR4SHehsci085hn5M31nTWgl6aW2fyidfbA,2860
+shipyard_file_manipulation/cli/compress.py,sha256=XnPrbtkIq2bGFE8ql8WrVjFWACdio2FXAZZXZeNB9kA,3522
+shipyard_file_manipulation/cli/convert.py,sha256=-8Eb9lYuWmahzmNkVBuMzO6FpDipsmnnOL8znARgcNs,5139
+shipyard_file_manipulation/cli/decompress.py,sha256=-Ae7lszYVHbqr1Na_qBzFtaQTSafOdr-QHUlHg_sV54,2840
+shipyard_file_manipulation/core.py,sha256=ojstimX_vhvPFRyrWTMsQWtbsj74JLzzKY5fJQB1WDs,3980
+shipyard_file_manipulation/errors.py,sha256=VBQ4c3T8CuD3J_KK84WsU9njL9qWp7jygvhcPpPdjhw,979
+shipyard_file_manipulation-0.2.0a0.dist-info/METADATA,sha256=T7QLKTNyXtFuRB6YUBYMaY51c6fx1u1He6i635uR_PE,572
+shipyard_file_manipulation-0.2.0a0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+shipyard_file_manipulation-0.2.0a0.dist-info/RECORD,,

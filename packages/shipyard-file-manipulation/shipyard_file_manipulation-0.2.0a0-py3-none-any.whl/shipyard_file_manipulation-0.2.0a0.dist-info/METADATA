@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: shipyard-file-manipulation
+Version: 0.2.0a0
+Summary: 
+Author: wrp801
+Author-email: wespoulsen@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=2.0,<3.0)
+Requires-Dist: pyarrow (>=15.0.2,<16.0.0)
+Requires-Dist: shipyard-bp-utils (>=1.2.0,<2.0.0)
+Requires-Dist: xlsxwriter (>=3.2.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+
