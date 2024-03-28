@@ -1,0 +1,3 @@
+[mdformat.parser_extension]
+obsidian=mdformat_obsidian
+
