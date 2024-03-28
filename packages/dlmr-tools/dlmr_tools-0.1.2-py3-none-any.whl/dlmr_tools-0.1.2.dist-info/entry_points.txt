@@ -1,0 +1,2 @@
+[console_scripts]
+template_dlmr_graph_tool = dlmr_tools.client:generate_template
