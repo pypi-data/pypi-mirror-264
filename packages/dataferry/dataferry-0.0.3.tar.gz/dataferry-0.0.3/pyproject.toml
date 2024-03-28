@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataferry"
+version = "0.0.3"
+authors = [
+  { name="Port Verte", email="porte_verte@outlook.com" },
+]
+description = "Simple ETL tools primarily for SQL Server"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/porteverte/dataferry"
+Issues = "https://github.com/porteverte/dataferry/issues"
