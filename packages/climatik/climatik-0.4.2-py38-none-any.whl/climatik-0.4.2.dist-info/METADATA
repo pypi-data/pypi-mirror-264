@@ -1,0 +1,168 @@
+Metadata-Version: 2.1
+Name: climatik
+Version: 0.4.2
+Summary: Create command line interface from function definitions.
+Home-page: https://git.sr.ht/~fabrixxm/climatik
+Author: Fabio Comuni
+Author-email: fabrix.xm+pypi@gmail.com
+License: GPLv3+
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: COPYING
+Provides-Extra: autocomplete
+Requires-Dist: argcomplete ; extra == 'autocomplete'
+Provides-Extra: dev
+Requires-Dist: nose2 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+Create command line interface from function definitions.
+
+Each function will be a subcommand of your application.
+
+*Climatik* define a function decorator which parse function definition and build
+a subcommand command line parser.
+
+Optionally [argcomplete](https://kislyuk.github.io/argcomplete/) is supported.
+
+## Docs
+
+### def command(fnc:Callable)
+
+Build subcommand from function
+
+Subcommand name will be the function name and arguments are parsed to build the command line.
+Optionally, subcommand name can be passed as parameter:
+
+    @command('name')
+    def test():
+        ...
+
+Subcommands can be groupped passing `group_name` paramenter:
+
+    @command(group_name="group")
+    def bar()
+        ...
+
+    @command(group_name="group")
+    def baz()
+        ...
+
+This two functions will be called from command line as `group bar` and `group baz`
+
+
+Each positional argument of the decorated function will be a positional paramenter.
+
+Each optional argument will be an optional flag.
+
+Type hints are used to covert types from command line string. If no type is defined, paramenter are handled as strings.
+
+An argument with `bool` type is converted to an optional flag parameter (with default sematic as "False")
+
+To create an optional positional paramenter, use the [`typing.Optional`](https://docs.python.org/3/library/typing.html#typing.Optional) type as hint with the parameter type, e.g. `Optional[str]`
+
+Function docstring is used to set command's help and description.
+To set arguments help string, add a line in docstring like
+
+    @param argname : argument help
+
+Exacmple:
+
+
+    @command
+    def one(name, debug:bool, value="default", switchoff=True):
+        """First subcommand
+        
+        @param debug: enable debug output
+        """
+        ...
+
+    @command
+    def two(name:Optional[str] = None, long_param = None):
+        "Second subcommand"
+        ...
+
+gives:
+
+    $ script -h
+    usage: script [-h] {one,two} ...
+
+    positional arguments:
+    {one,two}
+        one       First subcommand
+        two       Second subcommand
+
+    optional arguments:
+    -h, --help  show this help message and exit
+
+    $ script one -h
+    usage: script one [-h] [--debug] [--value VALUE] [--switchoff] name
+
+    First subcommand
+
+    positional arguments:
+    name
+
+    optional arguments:
+    -h, --help     show this help message and exit
+    --debug        enable debug output
+    --value VALUE  (default 'default')
+    --switchoff
+
+    $ script two -h
+    usage: script two [-h] [--long-param LONG_PARAM] [name]
+
+    Second subcommand
+
+    positional arguments:
+    name
+
+    optional arguments:
+    -h, --help            show this help message and exit
+    --long-param LONG_PARAM
+
+### def group(name:str, help:str = "", description:str = "")
+
+Set command group help and description
+
+If a group named `name` does not exists, is created
+
+Can be used also as a context manager. Each command defined in context will be added to the group
+
+    with group('file', help="Manage files", description="Functions to manage files"):
+        @command
+        def ls():
+            ...
+        
+        @command
+        def rm():
+            ...
+
+### def run(prog:str=None, usage:str=None, description:str=None, **kwargs)
+
+Run your application.
+
+Builds the command line parse, with given arguments, and execute the requested 
+function. It's a shorthand for
+
+    parser = build_parser(prog, usage, description, **kwargs)
+    execute(parser)
+
+
+### def execute(parser:argparse.ArgumentParser)
+
+Execute command line from given parser
+
+
+### def get_parser(*args, **kwargs) -> argparse.ArgumentParser:
+
+Build the command line parser
+
+Arguments are passed to `argparse.ArgumentParser` constructor
