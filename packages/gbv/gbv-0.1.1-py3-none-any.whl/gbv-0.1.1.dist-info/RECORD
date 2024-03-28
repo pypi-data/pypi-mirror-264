@@ -1,0 +1,15 @@
+gbv/CookiesCache.py,sha256=MPLKGu3XcsrNExzMfw0qaJzFz2H7_hQZt_5Pn0XPeNA,899
+gbv/FavoriteCrawling.py,sha256=2rolqe0zNlbEwC_BTa7tAwTiq9cMn2h7awsQVEr9fEg,2119
+gbv/GenerateHeaders.py,sha256=QvQ81pO5RMM7_B7i64nhYNi4ua5qKsxp8yNY8PbX7CA,457
+gbv/GetBilibiliCookies.py,sha256=qd_lmJcnQXDt7I_qCxJYvBEl5-eIFT9Pj0lr-mISEDA,1566
+gbv/GetBilibiliVideo.py,sha256=kukxGLVsRwiT-sJiG_iRbqa5OJlfuXOE8n8FwcZBAjU,10124
+gbv/__init__.py,sha256=Fkifu5ycIYQigxGC9pM4E2fGoTaGE_mnS28MB2Tizrs,33
+gbv/bvid_aid.py,sha256=yReyDQ79TfJWXNxS-NgGvwriDf-NViyaSEOuIGNzRrQ,518
+gbv/gbv.py,sha256=GT1F5uUQh3du9iHSF65GSfykL_BM8amHre4oeOPyKGE,2615
+gbv/methods.py,sha256=BRm_Bc_BBz9HzKRObWfVMG__hwO30c35sITRzYioDmY,4400
+gbv/terminal.py,sha256=uLz-jAUxT9qR1IYoHeAxU9OeJNuyFxRT0V2McEMoXsU,2863
+gbv-0.1.1.dist-info/METADATA,sha256=vm7EjsCqkPstNHZwbPSotonA04PmMUGZAw8hruBGuKU,3430
+gbv-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gbv-0.1.1.dist-info/entry_points.txt,sha256=nLCLlBt1v46ZOokzx8eZNIAuYP9WJ8lOEs7CSvYlDAs,36
+gbv-0.1.1.dist-info/top_level.txt,sha256=3mLRyS2ZAA5_hUTsfl8Zp8voVTNpTz3SWHcURHEyQSE,4
+gbv-0.1.1.dist-info/RECORD,,
