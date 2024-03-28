@@ -1,0 +1,11 @@
+numpy
+scipy
+
+[examples]
+matplotlib
+scikit-learn
+
+[test]
+pytest
+scikit-learn
+pylint
