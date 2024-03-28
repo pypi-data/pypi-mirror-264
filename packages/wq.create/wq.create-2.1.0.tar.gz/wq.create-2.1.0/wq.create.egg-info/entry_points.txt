@@ -1,0 +1,2 @@
+[wq]
+wq.create = wq.create
