@@ -1,0 +1,5 @@
+setup.py
+orkas.egg-info/PKG-INFO
+orkas.egg-info/SOURCES.txt
+orkas.egg-info/dependency_links.txt
+orkas.egg-info/top_level.txt
