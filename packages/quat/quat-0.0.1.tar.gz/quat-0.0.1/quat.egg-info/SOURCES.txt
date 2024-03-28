@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+quat/__init__.py
+quat/quat.py
+quat.egg-info/PKG-INFO
+quat.egg-info/SOURCES.txt
+quat.egg-info/dependency_links.txt
+quat.egg-info/top_level.txt
