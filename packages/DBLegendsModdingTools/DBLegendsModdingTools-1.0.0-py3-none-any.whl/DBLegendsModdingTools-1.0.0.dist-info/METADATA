@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: DBLegendsModdingTools
+Version: 1.0.0
+Summary: Tools for modding Dragon Ball Legends
+Home-page: https://github.com/GodkuHacking/DBLegendsModdingTools
+Author: GodkuDBL
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# DBLegendsModdingTools
+---
+### how to use
+
+example:
+```py
+from DBLegendsModdingTools import decrypt as DBMod
+
+# Call the Decrypt function with the filename as argument
+DBMod.Decrypt("89bb4eb5637df3cd96c463a795005065")
+```
+(89bb4eb5637df3cd96c463a795005065 is the game file with all the character stuff more info on it coming soon!)
+
+then you will open the file and edit it to your liking!
