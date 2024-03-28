@@ -1,0 +1,11 @@
+_cppinyin.cpython-311-x86_64-linux-gnu.so,sha256=mhWA5GAM7TGXP-M9neveYGZl5XIDr78-7y2QX1wQJro,159368
+libcppinyin_core.so,sha256=NUFdbfu6lr5AeyfKa-Se5fJ-toRLhPiocW9m8dxmKv8,268224
+cppinyin/__init__.py,sha256=Wo_2VAOxx4W-55SlMoQ2JczGCkwRIUQqDViAZm9qPNY,50
+cppinyin/cppinyin.py,sha256=rGuxUZuwogDDwfe7IzMFCswOMJGyYE51CYPQWYybd6U,1529
+cppinyin/resources/pinyin.raw,sha256=NiZYLros76IVsWkmyW59CvlwpsD1UH567cYqXpyLp3c,12743685
+cppinyin/resources/pinyin.dict,sha256=GjRlrf7klA6lmKs_J4ScsdkpyprBrnk7JQ_tb0Ao0DY,18823299
+cppinyin-0.3.dist-info/RECORD,,
+cppinyin-0.3.dist-info/METADATA,sha256=GWxlLdlBeiwsHcsTI4OwsFUmEYl3fMJDiCXoh33HJYA,588
+cppinyin-0.3.dist-info/WHEEL,sha256=-7Vwsd-KuPOtdyxdAC8drxF7lN4th9mKINh8g6MaZ9k,152
+cppinyin-0.3.dist-info/top_level.txt,sha256=zXXBJavhIoxm__TYNS5LFz5TxrFLraJY0b2P57sYvd8,19
+cppinyin-0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
