@@ -1,0 +1,27 @@
+[project]
+name = "LSVcherwellAPI"
+version = "1.3.9"
+authors = [
+  { name="David Graupner", email="david.graupner@streamlinepartners.com.au" },
+  { name="Aaron Cohee", email="aaron.cohee@streamlinepartners.com.au" },
+  { name="Marty Leaman", email="marty.leaman@streamlinepartners.com.au" }
+]
+description = "A Python library wrapper, abstracting the Cherwell REST API"
+readme = "README.md"
+#requires_python = ">=2.6"
+classifiers = [
+  "Programming Language :: Python :: 2.6",
+  "Programming Language :: Python :: 2.7",
+  "Programming Language :: Python :: 3.4",
+  "Programming Language :: Python :: 3.5",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bwittenburg/CherwellAPI"
+Issues = "https://github.com/bwittenburg/CherwellAPI/issues"
