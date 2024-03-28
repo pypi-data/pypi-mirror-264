@@ -1,0 +1,9 @@
+vks_bootstraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vks_bootstraper/__main__.py,sha256=fkWbAbD4256pnirH2LPhNNfDg_zjeDXXILDHOIRsEVc,345
+vks_bootstraper/metadata.py,sha256=vy2LbOiEYXn1pHk-xQKnlo4g30kkAWM3hqyoYAMwzlM,825
+vks_bootstraper-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vks_bootstraper-0.1.0.dist-info/METADATA,sha256=p7eklH2faSYB_Msy6tGcJ1X3V3ZIwTZi1O-F6bKFAuQ,386
+vks_bootstraper-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vks_bootstraper-0.1.0.dist-info/entry_points.txt,sha256=TH8yPWKGlK48Yl6nLWK_Z4dncrNSniFkYNuxnM9F5dY,65
+vks_bootstraper-0.1.0.dist-info/top_level.txt,sha256=dT9C5h17N1EyNaZhLk9kH8UUG9JBSbktU6AHuh9WS2c,16
+vks_bootstraper-0.1.0.dist-info/RECORD,,
