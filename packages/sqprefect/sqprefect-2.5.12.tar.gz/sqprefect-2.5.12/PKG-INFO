@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sqprefect
+Version: 2.5.12
+Summary: sqprefect
+Home-page: https://upload.pypi.org/legacy/
+Download-URL: https://upload.pypi.org/legacy/
+Author: Bill Johnson
+Author-email: bjohnson@squareup.com
+Project-URL: Documentation, https://upload.pypi.org/legacy/
+Description-Content-Type: text/plain
+License-File: LICENSE
