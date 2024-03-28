@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: pytest_energy_reporter
+Version: 0.4.2
+Summary: An energy estimation reporter for pytest
+License: license.txt
+Keywords: pytest,energy,reporter
+Author: Delano Flipse
+Author-email: delanoflipse@gmail.com
+Maintainer: Delano Flipse
+Maintainer-email: delanoflipse@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: optuna (==3.5.0)
+Requires-Dist: pandas (==2.2.0)
+Requires-Dist: psutil (==5.9.8)
+Requires-Dist: pyarrow (==15.0.0)
+Requires-Dist: pytest (>=8.1.1,<9.0.0)
+Requires-Dist: scikit-learn (==1.4.1.post1)
+Requires-Dist: scipy (==1.12.0)
+Requires-Dist: statsmodels (==0.14.1)
+Requires-Dist: xgboost (==2.0.3)
+Project-URL: Bug Tracker, https://github.com/delanoflipse/pytest-energy-reporter/issues
+Project-URL: Documentation, https://github.com/delanoflipse/pytest-energy-reporter
+Project-URL: Homepage, https://github.com/delanoflipse/pytest-energy-reporter
+Project-URL: Repository, https://github.com/delanoflipse/pytest-energy-reporter
+Description-Content-Type: text/markdown
+
+# pytest energy reporter
+
+The pytest energy reporter can be used to report on energy usage of code, by measuring tests.
+
+## Installation
+
+To install pytest energy reporter, simply run:
+
+```bash
+pip install pytest_energy_reporter
+```
+
+## Usage
+
+The package is automatically enabled in pytest. To start measuring energy consumption, mark tests as energy test using:
+
+```python
+import pytest
+
+@pytest.mark.energy
+def test_fn():
+
+# Or define the exact number of iterations to measure
+@pytest.mark.energy(n=3)
+def test_fn():
+
+# Or use the measurement directly
+from pytest_energy_reporter.measurement import measure_energy
+
+def test_fn():
+  measure = measure_energy(fn)
+  assert measure.energy_j < 200
+
+# Or use the measurement and the result of the method
+from pytest_energy_reporter.measurement import measure
+
+def test_fn():
+  measure, result, error = measure_energy(fn)
+  assert result == # ...
+  assert error == None
+  assert result.energy_j < 200
+```
+
+The plugin exposes a few flags in pytest
+
+| Flag | Argument | Default | Meaning |
+| --- | --- | --- | --- |
+| `--energy-iterations` | `int` | `3` |  Specify the number of iterations for the energy measurement. |
+| `--save-energy-report` | `<none>` | `False` | Whether to save the energy report.
+| `--energy-report-path` | `str` | `'reports/energy'` | The path to save the energy report in.
+
+## Contributing
+
+### Prerequistes
+
+Make sure you have [poetry](https://python-poetry.org/) installed.
+
+### Installation
+
+To install the pytest energy reporter repository, run:
+
+1. Clone the repository
+```bash
+git clone git@github.com:delanoflipse/pytest-energy-reporter.git
+```
+
+2. Clone subrepositories
+
+```bash
+git submodule init && git submodule update
+```
+
+3. Install dependencies 
+```bash
+poetry install
+```
+
+4. (Temporary) (Only on windows) install wmi:
+```bash
+poetry run pip install pywin32
+```
+
+### Usage
+
+To develop the plugin, use:
+
+```bash
+poetry shell
+```
+
+And run the example test suite:
+
+```bash
+pytest --log-cli-level=DEBUG
+```
+
+### Publishing
+
+1. Build the project:
+
+```bash
+poetry build
+```
+2. Publish to pip (make sure you [have credentials setup](https://python-poetry.org/docs/repositories/#configuring-credentials)):
+```bash
+poetry publish
+```
