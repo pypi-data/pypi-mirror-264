@@ -1,0 +1,9 @@
+heavylight/__init__.py,sha256=m0kb-V3FEVET0YUicIcbjj25fNVUe-9jULgoOsrSAXY,155
+heavylight/heavylight.py,sha256=74vC0EuQDgzQVTPpOue-zpYn2efRWJw0kUqoQJ3Kd1A,6565
+heavylight/heavytables.py,sha256=nIBlx6StBEqdrXLgV8eXrgWuIeLWVQKhTQY129Jes08,8418
+heavylight/memory_optimized_cache.py,sha256=G23fPnI2c_QM0h9ys8vLpFaqDGM0Wi3bU8pngiiXyjI,5351
+heavylight/memory_optimized_model.py,sha256=FrQc22j9rDZ7QxY4lAgLLz7GXDdgttSzherk5tJ2cdM,4034
+heavylight-1.0.5.dist-info/METADATA,sha256=JQOief1vIN9g_35d3phEXFP_UDL-vgAcwswt_FauM7c,3397
+heavylight-1.0.5.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+heavylight-1.0.5.dist-info/licenses/LICENSE,sha256=6Rh1M8Z3cs26d7tboEDij0i_S8M4xBQIZzb2NZQfFR8,1069
+heavylight-1.0.5.dist-info/RECORD,,
