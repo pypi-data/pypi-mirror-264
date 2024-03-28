@@ -1,0 +1,21 @@
+xlsxwriter
+matplotlib
+pandas
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[cbs]
+cbsplotlib
+
+[dev]
+tox
+pre-commit
+black
+pytest
+pytest-cov
+
+[testing]
+setuptools
+pytest
+pytest-cov
