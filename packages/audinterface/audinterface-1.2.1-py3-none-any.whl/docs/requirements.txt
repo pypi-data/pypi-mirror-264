@@ -1,0 +1,13 @@
+audb
+audeer
+auditok
+ipykernel
+jupyter-sphinx
+librosa
+pyarrow
+sphinx
+sphinx-apipages >=0.1.2
+sphinx-audeering-theme >=1.2.1
+sphinx-autodoc-typehints
+sphinx-copybutton
+toml
