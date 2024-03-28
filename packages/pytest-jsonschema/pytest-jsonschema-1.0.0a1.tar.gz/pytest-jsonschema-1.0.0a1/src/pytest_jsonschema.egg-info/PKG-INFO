@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: pytest-jsonschema
+Version: 1.0.0a1
+Summary: A pytest plugin to perform JSONSchema validations
+Author-email: Érico Andrei <ericof@plone.org>
+Maintainer-email: Érico Andrei <ericof@plone.org>
+License: 
+        The MIT License (MIT)
+        
+        Copyright (c) 2024 Érico Andrei
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+Project-URL: Repository, https://github.com/collective/pytest-jsonschema
+Keywords: pytest,testing
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: release
+Provides-Extra: test
+License-File: LICENSE
+
+<h1 align="center">pytest-jsonschema</h1>
+
+<div align="center">
+
+[![PyPI](https://img.shields.io/pypi/v/pytest-jsonschema)](https://pypi.org/project/pytest-jsonschema/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytest-jsonschema)](https://pypi.org/project/pytest-jsonschema/)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/pytest-jsonschema)](https://pypi.org/project/pytest-jsonschema/)
+[![PyPI - License](https://img.shields.io/pypi/l/pytest-jsonschema)](https://pypi.org/project/pytest-jsonschema/)
+[![PyPI - Status](https://img.shields.io/pypi/status/pytest-jsonschema)](https://pypi.org/project/pytest-jsonschema/)
+
+
+[![PyPI - Plone Versions](https://img.shields.io/pypi/frameworkversions/plone/pytest-jsonschema)](https://pypi.org/project/pytest-jsonschema/)
+
+[![Tests](https://github.com/collective/pytest-jsonschema/actions/workflows/code.yml/badge.svg)](https://github.com/collective/pytest-jsonschema/actions/workflows/code.yml)
+[![Linters](https://github.com/collective/pytest-jsonschema/actions/workflows/lint.yml/badge.svg)](https://github.com/collective/pytest-jsonschema/actions/workflows/lint.yml)
+![Code Style](https://img.shields.io/badge/Code%20Style-Black-000000)
+
+[![GitHub contributors](https://img.shields.io/github/contributors/collective/pytest-jsonschema)](https://github.com/collective/pytest-jsonschema)
+[![GitHub Repo stars](https://img.shields.io/github/stars/collective/pytest-jsonschema?style=social)](https://github.com/collective/pytest-jsonschema)
+</div>
+
+**pytest-jsonschema** is a [pytest](https://docs.pytest.org) plugin providing fixtures to perform JSONSchema validations.
+
+Features
+--------
+
+* TODO
+
+
+Requirements
+------------
+
+* TODO
+
+
+Installation
+------------
+
+You can install "pytest-jsonschema" via `pip`_ from `PyPI`_::
+
+    $ pip install pytest-jsonschema
+
+
+Usage
+-----
+
+* TODO
+
+Contributing
+------------
+Contributions are very welcome. Tests can be run with `tox`_, please ensure
+the coverage at least stays the same before you submit a pull request.
+
+License
+-------
+
+Distributed under the terms of the `MIT`_ license, "pytest-jsonschema" is free and open source software

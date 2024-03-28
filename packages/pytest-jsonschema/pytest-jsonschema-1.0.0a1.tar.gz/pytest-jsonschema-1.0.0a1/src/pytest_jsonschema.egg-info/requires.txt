@@ -1,0 +1,15 @@
+pytest>=6.2.0
+ruamel.yaml
+jsonschema
+
+[:python_version <= "3.11"]
+tomli==2.0.1
+
+[release]
+zest.releaser[recommended]
+zestreleaser.towncrier
+
+[test]
+pytest-cov
+pre-commit
+tox
