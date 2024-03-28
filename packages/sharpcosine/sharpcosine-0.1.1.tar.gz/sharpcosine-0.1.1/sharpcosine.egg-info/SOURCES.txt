@@ -1,0 +1,10 @@
+README.md
+setup.py
+sharpcosine/__init__.py
+sharpcosine/cos2d.py
+sharpcosine/max_pool.py
+sharpcosine.egg-info/PKG-INFO
+sharpcosine.egg-info/SOURCES.txt
+sharpcosine.egg-info/dependency_links.txt
+sharpcosine.egg-info/requires.txt
+sharpcosine.egg-info/top_level.txt
