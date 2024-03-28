@@ -1,0 +1,9 @@
+gunshotmatch_cli/__init__.py,sha256=3u3AHpLQ9O4crNvcNIadYojXf8fXtrUfNuFDHIp_N6w,1439
+gunshotmatch_cli/__main__.py,sha256=AoB4CqyZM8pvFCe_7ClU__T61AU2jKrYLTOH8cDe--s,12847
+gunshotmatch_cli/decision_tree.py,sha256=-Mss8gG9-VDkZT_amhmo6zslMkTvQ9TMm8LYStJkvug,3272
+gunshotmatch_cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gunshotmatch_cli-0.8.0.dist-info/LICENSE,sha256=bFtJt-lyVJHV-88FeFa_r3BEOsmpna5qG2KOl9JUNfU,1064
+gunshotmatch_cli-0.8.0.dist-info/METADATA,sha256=TDpqXp3cP1z2f4Z_fS9Kp4SG6NDAjajWfNrXHnyUDGA,5416
+gunshotmatch_cli-0.8.0.dist-info/WHEEL,sha256=FRGsDwMDqYetZF6bNY3-3httbUwX4mx0MR4dPHIUT3o,84
+gunshotmatch_cli-0.8.0.dist-info/entry_points.txt,sha256=ru7FO_bWYzXxz2Vd5Wx0yQv3Z5c0I1Ij4nknJ5j1390,68
+gunshotmatch_cli-0.8.0.dist-info/RECORD,,
