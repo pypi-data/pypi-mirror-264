@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: catch-me
+Version: 0.3.0
+Summary: 🐍 Catch me if you can!🐰
+Home-page: https://github.com/oleksis/Tkinter
+License: MIT
+Keywords: tk,python,ui,game
+Author: Oleksis Fraga
+Author-email: oleksis.fraga@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/oleksis/Tkinter
+Description-Content-Type: text/markdown
+
+# 🐍 Catch me if you can!🐰
+
+![Catch me!](docs/Grab-me-if-you-can-2024-03-15-093930.png)
+
+## Video Youtube
+[![Catch me if you can!](https://img.youtube.com/vi/6lJdZd2swLQ/mqdefault.jpg)](https://youtu.be/6lJdZd2swLQ)
