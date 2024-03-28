@@ -1,0 +1,6 @@
+fixtures
+purl
+pytest
+sphinx
+testtools
+requests_futures
