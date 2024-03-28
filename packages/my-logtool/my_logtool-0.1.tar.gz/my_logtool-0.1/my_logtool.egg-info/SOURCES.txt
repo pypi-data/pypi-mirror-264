@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+my_logtool/__init__.py
+my_logtool/my_logger.py
+my_logtool.egg-info/PKG-INFO
+my_logtool.egg-info/SOURCES.txt
+my_logtool.egg-info/dependency_links.txt
+my_logtool.egg-info/requires.txt
+my_logtool.egg-info/top_level.txt
