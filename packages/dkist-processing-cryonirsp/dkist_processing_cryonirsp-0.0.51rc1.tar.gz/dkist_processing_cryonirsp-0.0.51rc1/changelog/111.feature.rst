@@ -1,0 +1,1 @@
+Wavelength range of CI data is now determined using header keys containing the filter central wavelength and full width half maximum.
