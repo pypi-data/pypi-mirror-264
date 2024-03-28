@@ -1,0 +1,9 @@
+gepref_text/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gepref_text/base.py,sha256=wVoR8kwirz7X9AI88IjdsyLUKXigaHWTBtx37e8CBw8,525
+gepref_text/normalization.py,sha256=r9MIgvR4ETvw0h4U5zAU622ChcquIfSjMYe4LYVT4YA,1898
+gepref_text/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gepref_text/regex.py,sha256=I5vnXfs823rLERhelk9LEI9_iSSesffgS2RB7IN4zNE,3374
+gepref_text-0.1.1.dist-info/LICENSE,sha256=MvYjvrOuj9rA8v-R-WFNjIXLTMF9YkHLmpILCXo9Z2M,1086
+gepref_text-0.1.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+gepref_text-0.1.1.dist-info/METADATA,sha256=aZVrf68fwTNIrhOJGIkAFyAmOBIGJBeoYVEOQ6X_Vf4,471
+gepref_text-0.1.1.dist-info/RECORD,,
