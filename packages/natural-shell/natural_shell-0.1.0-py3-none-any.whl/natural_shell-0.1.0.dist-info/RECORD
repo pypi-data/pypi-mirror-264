@@ -1,0 +1,11 @@
+natural_shell/__init__.py,sha256=N6VEl03dgyBhmDlpf6k4v2AJtGMUo4hBGGPlK-5QHmA,170
+natural_shell/cli.py,sha256=qlFNVA01ylyjnNJOaERvmTHYi5NW0YSOGxQ_bEAQjrk,1175
+natural_shell/command_executor.py,sha256=u_9D69v58y38Z31TTipo1PcPEhelfon-vVk9UT7x9ZM,1430
+natural_shell/language_model.py,sha256=05xq22rOaLXB9QHe6sCfQVx_8Dls7X7_68beVuMSLjc,2086
+natural_shell/parser.py,sha256=_9KkUvrNxO0X4KMPgVBTrpssG4EQ61Mr5o5mRS3AmhQ,283
+natural_shell-0.1.0.dist-info/LICENSE,sha256=CO4uHWAdaLAbbWiPNfmc30ThkhT6n2IAj8y5gp0bdbg,1091
+natural_shell-0.1.0.dist-info/METADATA,sha256=qZ2uueNLz-ctkDZvlrlv50aOSXKNqJ3Dbp-BUjMOKSI,12766
+natural_shell-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+natural_shell-0.1.0.dist-info/entry_points.txt,sha256=ghgv-HeVFeHgSJEXNYkOwKeZyhA139n6WcrxrU4WC7g,50
+natural_shell-0.1.0.dist-info/top_level.txt,sha256=ISmYyMwkePnOB-kadmK-wSlXIswnSr79sQkEXHzEmZM,14
+natural_shell-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+nshell = natural_shell.cli:main
