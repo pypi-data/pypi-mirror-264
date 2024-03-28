@@ -1,0 +1,16 @@
+poseconnect/__init__.py,sha256=xW5H8mIKJerjjz-rDp-Urtcr92MoYanIja9kzLtE6FU,264
+poseconnect/cli.py,sha256=ME6-nK64cfEVs3CRSAjzhG4Qb_yjmAWpCHFnZABFj5k,31265
+poseconnect/defaults.py,sha256=ADYclw6QyldoZwnZxMK_kf0C9b9x6UvDiKRSI5SAPOU,3821
+poseconnect/filter.py,sha256=aZVrWuwtuAQWd6Oq-7Be8bcwq1Ni7rXsa2zM2azbqbU,14975
+poseconnect/identify.py,sha256=nmwUWahw2qifm2X7jrWn87l7a0GpT3Jz5Fx2HAQRqKM,15761
+poseconnect/overlay.py,sha256=E49zNup66tppxp4ds_xi2Rb39-IAAN-X_9QUXUmL5JM,45909
+poseconnect/reconstruct.py,sha256=TnDGRzNzndQvE8jK7czO9SAKxeECWHeDNeveGNSIvoI,52124
+poseconnect/track.py,sha256=L3qwPSwm1TjfRbhyh1XWSnGbg3sZwU26LjwnJvkjhsQ,28971
+poseconnect/utils.py,sha256=YsBfh6FjWWgChP5IB6aslYbStzCm0PpYSaHf2TuPPS4,20819
+poseconnect/visualize.py,sha256=qT8Q7bMPFnW9JDOckLthKuNS7bLMHz2z6MsBp7fi3mA,31936
+poseconnect-0.17.2.dist-info/LICENSE,sha256=VV4EHqsjRsZIw9RC6SYL63Tm9kzPQsYaZn7a1cT9X3w,1088
+poseconnect-0.17.2.dist-info/METADATA,sha256=qkaizhfoS3TUaeNI9jn9It5hVSdtAdSHknccdtHtTho,3058
+poseconnect-0.17.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+poseconnect-0.17.2.dist-info/entry_points.txt,sha256=OG7aRNaPSceiTSKBhwLOma2qisE8xddbqrhOTsyojT4,53
+poseconnect-0.17.2.dist-info/top_level.txt,sha256=QtDhwoqHRhXHg8W86SYTEaDcGw84V01e2srZwi3Vg2E,12
+poseconnect-0.17.2.dist-info/RECORD,,
