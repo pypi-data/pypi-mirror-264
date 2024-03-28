@@ -1,0 +1,11 @@
+swaybarclient/__init__.py,sha256=jZQIWct5H-Zq3bXO9oZdTFlOeRmF33qTwbwXaWmIsXI,41
+swaybarclient/swaybarclient.py,sha256=ouizHpMgH72HaKKXichQtq1VCFnWW2gpIXP_mRqlEnw,6761
+swaybarclient/modules/battery.py,sha256=y-_Xw-kjK6LQbcXegy5BXOfC9uXMxMYHyEHoh3OErNI,2095
+swaybarclient/modules/cpu.py,sha256=VOzu9n7m5yjLhGXSMgOCAEnAzDm1LYrRUNDkZr_ljb4,442
+swaybarclient/modules/time.py,sha256=CZRiHZmi4-hKk_6K9YPvCBx2Rsq-za8zyIhf7p-rhV0,556
+swaybar_client-0.1.0.dist-info/LICENSE,sha256=ADUqsZhl4juwq34PRTMiBqumpm11s_PMli_dZQjWPqQ,34260
+swaybar_client-0.1.0.dist-info/METADATA,sha256=VUyyIwVBKaohxVyQcOBCzJGTBG6nOQOVMLkNDxcdY7I,39883
+swaybar_client-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+swaybar_client-0.1.0.dist-info/entry_points.txt,sha256=0JCcZPzo9DBgVLCKh116u9kEpyXRZKY8YGxK5vGp_UE,53
+swaybar_client-0.1.0.dist-info/top_level.txt,sha256=TjMawJzb3Narngn3HwGcu4elKjPPSA0b1MN5V_Tmyvs,14
+swaybar_client-0.1.0.dist-info/RECORD,,
