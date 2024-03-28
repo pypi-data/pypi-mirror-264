@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyrandom2pm"
+description = "Pyrandom2pm is a fun package to generate random results. This could be used for random number generation, using it answer your questions using 8-ball, and other unsure scenarios."
+version = "0.1.4"
+authors = [
+  { name="Minjae Lee", email="ml6722@nyu.edu" },
+  { name="Joseph Lee", email="jtl9244@nyu.edu" },
+  { name="Yiwei Luo", email="yl7408@nyu.edu"},
+  { name="Brendan Tang", email="bjt312@nyu.edu"},
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "random"]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/3-python-package-exercise-se-2pm3"
+"Repository" = "https://github.com/software-students-spring2024/3-python-package-exercise-se-2pm3.git"
+"Bug Tracker" = "https://github.com/software-students-spring2024/3-python-package-exercise-se-2pm3/issues"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = [
+  ".", "src",
+]
