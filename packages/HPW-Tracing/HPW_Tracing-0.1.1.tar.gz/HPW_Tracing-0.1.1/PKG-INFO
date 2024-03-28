@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: HPW_Tracing
+Version: 0.1.1
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Requires-Dist: networkx==3.2.1
+Requires-Dist: pandas==2.2.1
+Requires-Dist: setuptools==68.2.2
