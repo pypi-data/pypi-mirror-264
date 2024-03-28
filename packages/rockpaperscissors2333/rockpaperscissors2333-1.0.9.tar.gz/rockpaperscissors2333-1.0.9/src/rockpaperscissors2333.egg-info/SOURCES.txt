@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/rockpaperscissors2333/__init__.py
+src/rockpaperscissors2333/__main__.py
+src/rockpaperscissors2333/cli.py
+src/rockpaperscissors2333/game.py
+src/rockpaperscissors2333.egg-info/PKG-INFO
+src/rockpaperscissors2333.egg-info/SOURCES.txt
+src/rockpaperscissors2333.egg-info/dependency_links.txt
+src/rockpaperscissors2333.egg-info/entry_points.txt
+src/rockpaperscissors2333.egg-info/requires.txt
+src/rockpaperscissors2333.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_game.py
