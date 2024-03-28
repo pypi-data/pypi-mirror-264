@@ -1,0 +1,15 @@
+minigame/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minigame/__main__.py,sha256=nphvzdB9Kpttk0OfaxIe_VmEt1py2Ddu4U7V1LCHrf8,1101
+minigame/count.py,sha256=GmrlBLnnRBuRfgVwSzRy3sVefKTW47Sb8ep8T_iRack,6374
+minigame/rock_paper_scissor.py,sha256=hfrSSU5IolMC_sHiGKP-TJGC01_zhX5lJs9j0OA-gSc,4523
+minigame/space_invaders.py,sha256=qqwLxoQA_xnZncEAYRCC3pD241gThPAVQ-wEYphCjTc,5362
+minigame/tempCodeRunnerFile.py,sha256=DaHB_HdnODP8tpq9YCbQFqQr0zTWa3R7HxCxYUG7ZYA,139
+minigame/tictactoe.py,sha256=FPV6uTRhHN3ZHcxpUKWhElbfEC-scxPJrZDp6wYIPIg,3403
+minigame/ttt_o.png,sha256=8lV8V97er1L2wssWolXaK1qCqTE3mnnK7a82svyBOSA,7895
+minigame/ttt_x.png,sha256=aFUZjapHSw4pPKA991aLLHkSu6agQLju3JMQ7p5TBIY,6861
+mksv_miniGame-0.1.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mksv_miniGame-0.1.7.dist-info/METADATA,sha256=jFTk1dn79AdyhRUKApce9ZDHMkIRH6utOoE85RFVQBg,2107
+mksv_miniGame-0.1.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+mksv_miniGame-0.1.7.dist-info/entry_points.txt,sha256=rSUji3WeRScdzBeN5m6CCjMTMKmt995dNbPfoXzGtBc,57
+mksv_miniGame-0.1.7.dist-info/top_level.txt,sha256=R1CaVabepWDaYUeL7Df2OTZmWMO0EAZboP_C8lFI3wQ,9
+mksv_miniGame-0.1.7.dist-info/RECORD,,
