@@ -1,0 +1,7 @@
+setup.py
+epicfilemanager/Filemanager.py
+epicfilemanager/__init__.py
+epicfilemanager.egg-info/PKG-INFO
+epicfilemanager.egg-info/SOURCES.txt
+epicfilemanager.egg-info/dependency_links.txt
+epicfilemanager.egg-info/top_level.txt
