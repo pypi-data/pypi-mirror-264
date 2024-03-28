@@ -1,0 +1,18 @@
+[package]
+name = "bourse"
+version.workspace = true
+edition = "2021"
+
+[lib]
+name = "bourse"
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[dependencies]
+pyo3 = { version="0.20.3", features = ["extension-module"] }
+numpy = "0.20.0"
+ndarray = "0.15.6"
+rand_xoshiro.workspace = true
+
+bourse-book = { path = "../crates/order_book" }
+bourse-de = { path = "../crates/step_sim" }

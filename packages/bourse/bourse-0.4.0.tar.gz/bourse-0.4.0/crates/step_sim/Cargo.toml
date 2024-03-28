@@ -1,0 +1,29 @@
+[package]
+name = "bourse-de"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Discrete event market simulation library"
+readme = "../../README.md"
+repository = "https://github.com/zombie-einstein/bourse/"
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+rand_xoshiro.workspace = true
+rand.workspace = true
+kdam = "0.5.1"
+rand_distr = "0.4.3"
+
+bourse-book = { path="../order_book" , version="0.4.0" }
+bourse-macros = { path="../macros", version="0.4.0" }
+
+[dev-dependencies]
+assert_approx_eq = "1.1.0"
+divan.workspace = true
+
+[[bench]]
+name = "step_sim"
+path = "benches/benchmarks.rs"
+harness = false
