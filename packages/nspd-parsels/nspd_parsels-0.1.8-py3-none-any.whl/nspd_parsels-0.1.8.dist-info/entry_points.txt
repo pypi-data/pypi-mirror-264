@@ -1,0 +1,3 @@
+[console_scripts]
+nspd-parsels = nspd_package_p.nspd_p:main
+
