@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling>=1.14.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "notify_widgets"
+version = "0.0.2"
+description = "Widgets using a notification daemon"
+authors = [
+    {name = "Willem Meijer", email = "willem.meijer@mailbox.org"}
+]
+requires-python = ">=3.10"
+dynamic = ["readme"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/notify_widgets"]
+
+[project.scripts]
+notify-widgets = "notify_widgets.__main__:main"
