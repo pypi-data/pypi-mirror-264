@@ -1,0 +1,8 @@
+send_ip/__init__.py,sha256=ATobHKurxPZmh3XO3Jjzc3rhlRfO_7gyoXXoiPtZ3Dc,7
+send_ip/send_ip.py,sha256=anqc_o6uHC3T1gT-hQzYHcfoPAIX2Iaaf_VJVqPUdXc,2649
+send_ip/setup_cron.py,sha256=LhE3qcQQ-5FaZnx_wt9NOJfpEzmYuQg2h7xqjaUDH0o,2571
+send_ip-0.0.9.dist-info/LICENSE,sha256=qJMHmx297o7GqWDCaDkFvT_PbbE4_flrAN8XOSztnkI,1070
+send_ip-0.0.9.dist-info/METADATA,sha256=-wvK63IfB9-V7rXJFxDkhFGFE8Sq3mjcqwyvuNYzhG8,4335
+send_ip-0.0.9.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+send_ip-0.0.9.dist-info/top_level.txt,sha256=jYNxZ_7nh7b0sgDbbZbWfO7qyUtFbAv3QiG6BGEj9QU,8
+send_ip-0.0.9.dist-info/RECORD,,
