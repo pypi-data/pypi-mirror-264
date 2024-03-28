@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 42.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysvgo"
+version = "0.0.1"
+description = "Python version of Node.js tool for optimizing SVG files"
+authors = [{name = "René Horn", email = "rene_horn@gmx.net" }]
+keywords = ['SVG, SVG optimizer, SVG compression']
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+]
+dependencies = [
+]
+
+[project.urls]
+homepage = "https://github.com/44xtc44"
+documentation = "https://github.com/44xtc44/pysvgo"
+repository = "https://github.com/44xtc44/pysvgo"
