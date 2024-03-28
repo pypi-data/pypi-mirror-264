@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: django-fitbit-healthkit
+Version: 0.1
+Summary: A Django app to access Fitbit Web APIs.
+Home-page: https://django-fitbit-healthkit.andyreagan.github.io
+Author: Andy Reagan
+Author-email: andy@andyreagan.com
+License: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 5.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >=4.0
+
+# django-fitbit-healthkit
+
+django-fitbit-healthkit is a Django Fitbit App with HealthKit-friendly API
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add "fitbit" to your INSTALLED_APPS setting like this:
+
+```
+INSTALLED_APPS = [
+    ...,
+    "django_fitbit_healthkit",
+]
+```
+
+2. Include the fitbit URLconf in your project urls.py like this:
+
+```
+path("fitbit/", include("django_fitbit_healthkit.urls")),
+```
+
+3. Run ``python manage.py migrate`` to create the models.
+
+4. Visit the ``/fitbit/login`` URL to sign in with Fitbit.
