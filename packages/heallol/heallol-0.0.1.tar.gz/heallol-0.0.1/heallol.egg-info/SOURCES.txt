@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+heallol/__init__.py
+heallol/tiktok.py
+heallol.egg-info/PKG-INFO
+heallol.egg-info/SOURCES.txt
+heallol.egg-info/dependency_links.txt
+heallol.egg-info/top_level.txt
