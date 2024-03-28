@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sq_protos_py
+Version: 20240404.131523
+Summary: sq_protos_py
+Home-page: https://upload.pypi.org/legacy/
+Download-URL: https://upload.pypi.org/legacy/
+Author: James Williams
+Author-email: jwilliams@square.ic
+Project-URL: Documentation, https://upload.pypi.org/legacy/
+Description-Content-Type: text/plain
+License-File: LICENSE
