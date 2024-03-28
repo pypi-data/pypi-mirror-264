@@ -1,0 +1,16 @@
+fiboa_cli/__init__.py,sha256=QUpaTJA2wPQ3CFaj2A2lGVKf8bLCnMXLsCAgoJHp14k,5964
+fiboa_cli/const.py,sha256=K8v_57DSlt-XK_y_IOJ1gTMISQ_3I4R1ShT-velxikQ,2137
+fiboa_cli/create.py,sha256=6Tg7x6bAypP4iF_ecAe1HdqQ_QxMWPfxpb4AxpWHAco,5194
+fiboa_cli/describe.py,sha256=d-je1ujf_xAAMUerI6aK6gAGRMIOhIc5QiKHk3tEF54,1800
+fiboa_cli/geopandas.py,sha256=xfSgrICeA9R54CYp1X4Z7yx9u3uDQi64ilyQBf5EGB4,6460
+fiboa_cli/jsonschema.py,sha256=nEEYdhr_Hb51Mu5fZuBA1bfLSm_voZBpsQ43RI6t1OU,4974
+fiboa_cli/jsonschema_template.py,sha256=X-td4Ux2KJsPe8MEilIgeCHP90CwUTba_l8yMfUnLA8,543
+fiboa_cli/util.py,sha256=AhKxMYT07kR_SJXrb3nQBdaBVBrXiDNDVGlMHDQK4OY,4224
+fiboa_cli/validate.py,sha256=sNzweVsPt5GnP361a4vEDOy0AtL4P-T1wGo59mzLrbM,9063
+fiboa_cli/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+fiboa_cli-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fiboa_cli-0.1.0.dist-info/METADATA,sha256=JD8YrROfxyfTLYK8m4_bwHKrszDJuSKas0eF2ZLE48M,2275
+fiboa_cli-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+fiboa_cli-0.1.0.dist-info/entry_points.txt,sha256=X2hJRsKj6w08SpzIbGmp6AEskum2SlZ-5b_Y_YmWzGM,40
+fiboa_cli-0.1.0.dist-info/top_level.txt,sha256=A0evX59vq8rP_toQ70mdv2haxhdAAzWxDrcAQSxVokA,10
+fiboa_cli-0.1.0.dist-info/RECORD,,
