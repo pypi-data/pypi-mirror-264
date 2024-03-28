@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pytify_stats/__main__.py
+src/pytify_stats/_init_.py
+src/pytify_stats/client.py
+src/pytify_stats.egg-info/PKG-INFO
+src/pytify_stats.egg-info/SOURCES.txt
+src/pytify_stats.egg-info/dependency_links.txt
+src/pytify_stats.egg-info/requires.txt
+src/pytify_stats.egg-info/top_level.txt
+tests/test_main.py
