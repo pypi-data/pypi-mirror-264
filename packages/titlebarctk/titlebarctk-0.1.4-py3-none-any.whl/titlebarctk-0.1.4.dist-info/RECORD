@@ -1,0 +1,13 @@
+titlebarctk/__init__.py,sha256=rHUU-LNLdjLpPjqRBA0cMcqXo1syIyG7eDuGSjA7F_4,13239
+titlebarctk/dat/dat_main.py,sha256=W144sYLkz42YMfC4N_dDGjkHj2Wr76paR6SENRqpMoM,2657
+titlebarctk/dat/aud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+titlebarctk/dat/img/ExitClose.py,sha256=MoEfA9zHnmo1Q21iLw5z10rZAq1MSG45XiYcWftYvsA,47249
+titlebarctk/dat/img/FullScreen.py,sha256=SsJNrVLSphvSj8nsHYFUDlokmHXnKOA035MhKwgy1VE,15498
+titlebarctk/dat/img/Minimise.py,sha256=l4BWEYgvQ8CBa_MlobNSESkDs98z3NvzE9XE3iHrab0,13797
+titlebarctk/dat/img/Save.py,sha256=vC_2598dORjhi8_niV39tsTBgEEIyLbyKOlzpIOPe98,89149
+titlebarctk/dat/img/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+titlebarctk-0.1.4.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+titlebarctk-0.1.4.dist-info/METADATA,sha256=_Thef9ysAWYSqFZWYOGXyFm5ARkFiC4pIxOX07slniw,2286
+titlebarctk-0.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+titlebarctk-0.1.4.dist-info/top_level.txt,sha256=s8J-ow67Pv8fTJ0SekgVAZGmkZ6TaLigSwqm5teuKhg,12
+titlebarctk-0.1.4.dist-info/RECORD,,
