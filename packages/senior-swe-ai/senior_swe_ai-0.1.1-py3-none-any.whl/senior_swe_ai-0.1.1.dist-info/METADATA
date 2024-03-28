@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: senior-swe-ai
+Version: 0.1.1
+Summary: SeniorSWE-AI is a command-line interface for in-context embedding that leverages the semantic comprehension capabilities of large language models to analyze the intended codebase and engage in a conversation with it, mimicking the behavior of a seasoned software engineer. 
+Author: Younis
+Author-email: 23105954+Younis-Ahmed@users.noreply.github.com
+Requires-Python: >=3.9.1,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: altair (>=5.2.0,<6.0.0)
+Requires-Dist: chardet (>=5.2.0,<6.0.0)
+Requires-Dist: esprima (>=4.0.1,<5.0.0)
+Requires-Dist: inquirer (>=3.2.4,<4.0.0)
+Requires-Dist: langchain (>=0.1.12,<0.2.0)
+Requires-Dist: langchain-community (>=0.0.28,<0.0.29)
+Requires-Dist: langchain-openai (>=0.0.8,<0.0.9)
+Requires-Dist: langchain-text-splitters (>=0.0.1,<0.0.2)
+Requires-Dist: openai (>=1.14.0,<2.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: tiktoken (>=0.6.0,<0.7.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tree-sitter (>=0.21.0,<0.22.0)
+Requires-Dist: tree-sitter-languages (>=1.10.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# senior-swe_ai
