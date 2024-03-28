@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: featuristic
+Version: 0.1.1
+Summary: A sample Python project
+License: Copyright 2024 Martin Eastwood
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+        (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,
+        publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished
+        to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+        OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+        BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Keywords: data,machine learning,feature engineering,feature selection,model selection,model evaluation,genetic algorithm,optimization,hyperparameter tuning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: Pyarrow
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: ucimlrepo
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Requires-Dist: Sphinx; extra == "dev"
+Requires-Dist: pydata_sphinx_theme; extra == "dev"
+Requires-Dist: nbsphinx; extra == "dev"
+
+<p align="center">
+<img width=50% src="docs/_static/logo.png" alt="Featuretools" />
+</p>
+
+<p align="center">
+<i>"Because feature engineering should be a science and not an art."</i>
+</p>
+
+Featuristic uses Genetic Algorithms to automate the process of feature engineering and feature selection, enhancing the performance of machine learning models by optimizing their predictive capabilities.
+
+See the documentation for more information.
+
+## Installation
+Install with pip
+
+```
+python -m pip install featuristic
+```
