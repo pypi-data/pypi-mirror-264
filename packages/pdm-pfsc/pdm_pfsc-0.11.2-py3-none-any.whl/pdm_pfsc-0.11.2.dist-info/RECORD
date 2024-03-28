@@ -1,0 +1,12 @@
+pdm_pfsc-0.11.2.dist-info/METADATA,sha256=8D5nBZ7pzRKQDVCq_zPQLv29aEbLfxqgzV-51u6WyQY,2680
+pdm_pfsc-0.11.2.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+pdm_pfsc-0.11.2.dist-info/licenses/LICENSE,sha256=z1QsT1UPrZP2vnvKXKAqP4lU4KXCmlY-oxVJvFUHuqE,1069
+pdm_pfsc/__init__.py,sha256=KWg6X8Kz-kXMdxLhjOwcTWfdJsgnAIBHbwMWMssKVo8,251
+pdm_pfsc/abstractions.py,sha256=Zr-0FPh-MD-GfxP6wFJ5UFRbLeH72KLCCOIiAbME8hc,888
+pdm_pfsc/actions.py,sha256=bCXq9lBue_n_TxIT8ZAQZys9mm5mHUZbNz_A9fpn-hY,5474
+pdm_pfsc/config.py,sha256=sjBTk08EihKt82aaG-stSffDy2Tp_ETS7oaJ79quox0,12044
+pdm_pfsc/hook.py,sha256=CA8haZhyyvPzosVMCSuKyu1Scd-jwyZg4STc1mwdx74,3563
+pdm_pfsc/logging.py,sha256=Uq21-dVfHCC4sHYBOL2wsiZFVkeVxO4QSnfCI192MI0,7667
+pdm_pfsc/proc.py,sha256=blKdIN4lPU464FotgzEL_O6RIJ4M9KvPhNEAd2QN5HU,5092
+pdm_pfsc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdm_pfsc-0.11.2.dist-info/RECORD,,
