@@ -1,0 +1,11 @@
+{
+    "config": {
+        "step": {
+            "reconfigure_confirm": {
+                "data": {
+                    "province": "Provincie"
+                }
+            }
+        }
+    }
+}
