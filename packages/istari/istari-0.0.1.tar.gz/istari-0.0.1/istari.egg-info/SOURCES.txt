@@ -1,0 +1,9 @@
+README.md
+setup.py
+istari/__init__.py
+istari.egg-info/PKG-INFO
+istari.egg-info/SOURCES.txt
+istari.egg-info/dependency_links.txt
+istari.egg-info/entry_points.txt
+istari.egg-info/top_level.txt
+istari/cli/__init__.py
