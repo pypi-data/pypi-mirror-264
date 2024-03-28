@@ -1,0 +1,37 @@
+{
+    "cSpell.ignoreWords": [
+        "Blox",
+        "Listcat",
+        "Listlen",
+        "funcs",
+        "kwargs",
+        "mouseenter",
+        "mouseleave",
+        "netsblox",
+        "nothrow",
+        "oncondition",
+        "onkey",
+        "onmouse",
+        "onstart",
+        "traceback",
+        "unsync",
+        "vals"
+    ],
+    "cSpell.words": [
+        "cffi",
+        "idents",
+        "isinstance",
+        "lnot",
+        "maturin",
+        "nonhat",
+        "pyfunction",
+        "pymodule",
+        "pypa",
+        "pypi",
+        "pypy",
+        "sdist",
+        "srange",
+        "upvars"
+    ],
+    "rust-analyzer.showUnlinkedFileNotification": false
+}
