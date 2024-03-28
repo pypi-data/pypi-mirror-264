@@ -1,0 +1,31 @@
+[project]
+name = "pefselab"
+version = "0.0.2"
+authors = [
+  { name="skogsgren", email="6107181+skogsgren@users.noreply.github.com" },
+]
+description = "Packaged efselab"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "cython>=0.25,<3.0",
+    "requests",
+    "dataclasses",
+]
+
+[project.urls]
+Homepage = "https://github.com/skogsgren/pefselab"
+Issues = "https://github.com/skogsgren/pefselab/issues"
+
+[build-system]
+requires = [
+    "wheel",
+    "setuptools",
+    "cython>=0.25,<3.0",
+]
+build-backend = "setuptools.build_meta"
