@@ -1,0 +1,10 @@
+easyfactory/__init__.py,sha256=p1-QWEx7NMbj0XCgxey0FOnY5XYbnIkBBMBcTMaIUEs,103
+easyfactory/auto_factory.py,sha256=EaLFzx_6wVzF5739H0OAlx1QeKQ8wBvQ_UTkpOMgu98,1375
+easyfactory/pydantic.py,sha256=GZTdLz1L7XvzLXDfN0RkN7NjvKR6UwwCLxFCYvY-A-0,1523
+easyfactory/sqlalchemy.py,sha256=xKpU4Ju2KMLM22yAw2hZrp4qCctVSVtTwv7cbGarQsM,6619
+easyfactory/utils.py,sha256=plZZiZjKlQSyocEIPmfItCVlWVcyolAlXcmPKZoSqv4,3813
+EasyFactory-1.4.0.dist-info/LICENSE,sha256=BpHH1q9OWwaXj2RJoKCpsiIxYJNaU6TTsXuaCWHQNnY,1064
+EasyFactory-1.4.0.dist-info/METADATA,sha256=-7tNWRWaXzxSJ1V_24riNJVxXteOKSc8OH__r1WL6Ck,8859
+EasyFactory-1.4.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+EasyFactory-1.4.0.dist-info/top_level.txt,sha256=-0dnafasQqrinQWoYb3bNW7Iw9urylorEh5fwdYesJg,12
+EasyFactory-1.4.0.dist-info/RECORD,,
