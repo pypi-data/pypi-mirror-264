@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sq-metrics
+Version: 0.9.7
+Summary: sq-metrics
+Home-page: https://upload.pypi.org/legacy/
+Download-URL: https://upload.pypi.org/legacy/
+Author: Cindy Jones
+Author-email: cjones@squareup.com
+Project-URL: Documentation, https://upload.pypi.org/legacy/
+Description-Content-Type: text/plain
+License-File: LICENSE
