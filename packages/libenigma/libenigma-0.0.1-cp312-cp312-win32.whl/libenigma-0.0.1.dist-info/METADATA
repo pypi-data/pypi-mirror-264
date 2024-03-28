@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: libenigma
+Version: 0.0.1
+Summary: enigma encrypt and decrypt
+Home-page: https://github.com/synodriver/pyenigma
+Author: synodriver
+Author-email: diguohuangjiajinweijun@gmail.com
+License: BSD
+Keywords: enigma
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cython
+
+# python binding for libenigma
