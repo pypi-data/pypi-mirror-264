@@ -1,0 +1,5 @@
+setup.py
+odoo12_addon_muk_web_utils.egg-info/PKG-INFO
+odoo12_addon_muk_web_utils.egg-info/SOURCES.txt
+odoo12_addon_muk_web_utils.egg-info/dependency_links.txt
+odoo12_addon_muk_web_utils.egg-info/top_level.txt
