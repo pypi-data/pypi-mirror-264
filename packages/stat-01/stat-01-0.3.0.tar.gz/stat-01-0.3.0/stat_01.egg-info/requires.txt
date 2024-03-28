@@ -1,0 +1,8 @@
+numpy
+ipyleaflet
+
+[all]
+stat-01[extra]
+
+[extra]
+pandas
