@@ -1,0 +1,89 @@
+**##AWS Client Wrapper**
+
+**Overview**
+
+aws-client-wrapper is a Python library designed to simplify role-based interactions with Amazon Web Services (AWS) resources using ARN. This library is designed to provide role-based access for AWS resources from GCP serverless services like Cloud-Run and GAE. It provides a convenient wrapper around AWS SDK functionalities, focusing on operations related to AWS S3 buckets and AWS CloudFront.
+
+
+**Features**
+
+Support for AWS S3 bucket operations and AWS CloudFront cache operations.
+Role-based access to AWS resources using ARN.
+Compatibility with WebApp2 Gunicorn apps.
+Internal use of Redis cache to reduce fetching AWS temporary credentials repeatedly. Temporary credentials are stored in the Redis cache for 3500 minutes.
+Ability to insert API call operation stats into logs by passing a stats function name along with project_id, dataset_id, and table_id during configuration.
+
+**Required ENV variable for working with aws resource**
+
+1. Simplify AWS Role Access with Environment Variables
+
+To streamline access to AWS services, set up your AWS Role ARN as an environment variable. It's crucial to name the key AWS_ROLE_ARN for the application to function correctly. This step ensures seamless authentication and authorization processes, enhancing the security and efficiency of your AWS interactions.
+
+2. Boost Performance with Redis Cache Integration
+
+For enhanced performance and reliability, consider enabling the Redis cache feature. By setting the REDIS_HOST as an environment variable, you can effortlessly leverage Redis caching capabilities within your application. While this step is optional, it significantly improves data retrieval speed and overall system responsiveness. Remember to name the key REDISHOST for seamless integration.
+
+3. Facilitate Cross-Cloud Communication
+
+To maximize the flexibility and capabilities of your application, enable communication between your Google Cloud Platform (GCP) services and AWS. This integration allows your GCP services to seamlessly interact with AWS resources, enabling a unified and efficient cloud environment. Leveraging this interoperability unlocks a myriad of possibilities, empowering your application with enhanced functionality and scalability.
+
+
+
+**Installation**
+
+You can install aws-client-wrapper via pip:
+
+```bash
+pip install aws-client-wrapper
+```
+
+**Usage**
+
+**Configuration**
+
+Configure aws-client-wrapper in your application initialization file:
+
+```python
+from aws_client_wrapper import configure
+configure(
+    aws_stats_func=None, 
+    aws_stats_project_id=None,
+    aws_stats_dataset_id=None, 
+    aws_stats_table_id=None
+)
+```
+**Example Usage**
+
+```python
+# Importing AWS S3 and CloudFront clients
+
+from aws_client_wrapper import s3_client, cloud_front
+
+# Example usage of AWS S3 client functions
+s3_client.get_data_from_s3(bucket_name=None, key=None)
+s3_client.get_keys_object_by_prefix_from_s3(bucket_name=None, key=None)
+s3_client.check_key_exist_from_s3(bucket_name=None, key=None)
+s3_client.upload_data_to_s3(bucket_name=None, key=None, data=None, content_type=None,
+                          acl=None, CacheControl=None)
+s3_client.delete_data_from_s3(bucket_name=None, key=None)
+
+# Example usage of AWS CloudFront client functions
+cloud_front.invalidate_cloudfront(aws_distribution_id=None, invalidation_paths=None)
+cloud_front.get_invalidation_status(aws_distribution_id=None, invalidation_id=None)
+```
+**Response Format**
+
+The response format of each function will be in JSON format:
+
+```json
+{
+    "data": "string"|"dict"|"list"| None,
+    "status_code": 200,
+    "error_message": ""
+}
+```
+
+**Support**
+For any queries or issues, please [Contact Us](mailto:anilkumar.maurya@bluestacks.com)
+
+
