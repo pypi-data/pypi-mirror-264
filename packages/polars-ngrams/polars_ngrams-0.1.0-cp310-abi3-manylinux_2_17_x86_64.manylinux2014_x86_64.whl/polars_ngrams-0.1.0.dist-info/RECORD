@@ -1,0 +1,7 @@
+polars_ngrams-0.1.0.dist-info/METADATA,sha256=2Usp4Ytr6c2WQUn3QSEnJBuhcV81GLwbO8ZD9-C3nHI,284
+polars_ngrams-0.1.0.dist-info/WHEEL,sha256=CwsEBeKNcyEI5SWW2MdATg8g4RVEuS9x-eCt4SQ1hiw,128
+polars_ngrams-0.1.0.dist-info/license_files/LICENSE,sha256=Y752r7IxjrIAQThnq3kqrJoC4pOWUP2X0LDn86_WjtY,1065
+polars_ngrams/__init__.py,sha256=uJMHFUv21GGXddhfz_kkgpD26JzCtsAUTJ8hOaUVONI,796
+polars_ngrams/utils.py,sha256=_a1qZdjGQ0uYJ0ljejF7PTgQqlEc_lzN2JWabnWTwWc,2335
+polars_ngrams/polars_ngrams.abi3.so,sha256=KCSSSo9exoF84alk89-v5Y-c9n3AoOGkTzfRE50AwAY,16392136
+polars_ngrams-0.1.0.dist-info/RECORD,,
