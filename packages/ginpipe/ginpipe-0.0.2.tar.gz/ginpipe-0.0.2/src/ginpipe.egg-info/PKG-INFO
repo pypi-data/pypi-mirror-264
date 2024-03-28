@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ginpipe
+Version: 0.0.2
+Summary: ML Pipelines using Gin
+Author: Leonardo Pepino
+Author-email: leonardodpepino@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gin-config==0.5.0
+Requires-Dist: loguru>=0.6.0
+Requires-Dist: joblib>=1.2.0
+
+Tutorial: https://github.com/mrpep/ml-pipeline-tutorial/blob/main/docs/tutorial.pdf
+Template: https://github.com/mrpep/ml-pipeline-tutorial
