@@ -1,0 +1,3 @@
+[console_scripts]
+struct2symm=structure2symmetry.symmetry:struct2symm
+
