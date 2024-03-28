@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+firestore_wrapper/__init__.py
+firestore_wrapper/core.py
+firestore_wrapper/schema_utils.py
+firestore_wrapper.egg-info/PKG-INFO
+firestore_wrapper.egg-info/SOURCES.txt
+firestore_wrapper.egg-info/dependency_links.txt
+firestore_wrapper.egg-info/requires.txt
+firestore_wrapper.egg-info/top_level.txt
