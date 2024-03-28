@@ -1,0 +1,10 @@
+RTN/__init__.py,sha256=ysZycwq76oCOzsRN9BH7xo9i6v-2ELuZ6p7wfDtJEMU,523
+RTN/fetch.py,sha256=t_hFqrVuqtKZWHu4kgOt3_-7NU1noPwwnUl0WXtObKQ,4181
+RTN/models.py,sha256=_ltZ5YTXoVodpSev4bAAVBrA6lUqsDXiOtPKCFRbhz4,9986
+RTN/parser.py,sha256=GII3LsAlUPP8Ay6fw3WuaVaeN66BKeRf51VSKsoIumY,7855
+RTN/patterns.py,sha256=Q8hmWOS385u12_kPWK3_yU5Q6pkYYUtc9EIlEHj1K8g,8637
+RTN/ranker.py,sha256=zJa2ZO9TM1rDr_w5lWsTyn-aPZhmxc8S2I2b8WZlXwM,9436
+rank_torrent_name-0.1.5.dist-info/LICENSE,sha256=SPRtix6idzrWe62XPNmcQTu5BHNZH30emrZZECdeJww,1084
+rank_torrent_name-0.1.5.dist-info/METADATA,sha256=rsq030tN634shy1g65JKx5GoQj3g6QXHrB97O7L_QN0,17323
+rank_torrent_name-0.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+rank_torrent_name-0.1.5.dist-info/RECORD,,
