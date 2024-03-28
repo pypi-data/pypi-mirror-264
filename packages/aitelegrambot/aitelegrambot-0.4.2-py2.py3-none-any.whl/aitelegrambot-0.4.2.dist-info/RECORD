@@ -1,0 +1,10 @@
+aitelegrambot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aitelegrambot/__main__.py,sha256=ZtNngnG-xBAhvY6qiH6bo0Kh_WN2Tamoi6YvlPcc32c,1207
+aitelegrambot/bot.py,sha256=EjPhQEJ5ehoUWSVpK-_V48MtrdtUA_NsFI0Yf3fIr_Y,3308
+aitelegrambot/commandhandlers.py,sha256=BqyTI8hScSmw8B1BOT8Stst5biNn1gn3kRu-YACFbzk,7402
+aitelegrambot/constants.py,sha256=_Ru_CVh81Gz3zKed6cu6hmcI0-h4xuX0yLDXi_rq1mU,313
+aitelegrambot-0.4.2.dist-info/METADATA,sha256=11QRzQNjNdYXpTrXaZZTXdjdQMb22YyONgeti1J2Ze0,954
+aitelegrambot-0.4.2.dist-info/WHEEL,sha256=q6Ejfpj4HRnt7o1XWgEOo5g7W0PKmxxzhdMpcVNBe68,105
+aitelegrambot-0.4.2.dist-info/entry_points.txt,sha256=rgNPx_SdRs67t2NfreD-duELgSJVfsaMGxUclzg5_EU,62
+aitelegrambot-0.4.2.dist-info/licenses/LICENSE.md,sha256=aqzeJmaGRhFR28M2fRZSkhgb6S1t36aG8xoWhV6l8PQ,34896
+aitelegrambot-0.4.2.dist-info/RECORD,,
