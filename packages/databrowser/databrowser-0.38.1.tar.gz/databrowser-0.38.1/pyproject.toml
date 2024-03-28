@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "databrowser"
+version = "0.38.1"
+description = "Quick tool to browse and view data files (json,csv,parquet,more) on local disk and s3"
+authors = ["Jacob Verhoeks <jacob.verhoeks@gmail.com>"]
+repository = "https://github.com/jverhoeks/databrowser"
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+s3fs = "^2024.3.1"
+s3path = ">=0.4.1,<0.6.0"
+pandas = ">=1.5.2,<3.0.0"
+textual = "^0.54.0"
+pyarrow = ">=5.0.0"
+xlrd = "^2.0.1"
+beautifulsoup4 = "^4.12.2"
+lxml = "^5.1.0"
+html5lib = "^1.1"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.1.0"
+pytest = "^8.1.1"
+black = "24.3.0"
+bandit = "^1.7.5"
+
+
+[tool.poetry.scripts]
+databrowser = "databrowser.data_browser:run"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+includes = "src"
+line-length = 120
+
+[tool.pylint]
+#rcfile = "pylintrc"
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.bandit]
+target = ["src"]
+skips = ["B101"]
+
+
+[virtualenvs]
+create = true
+in-project = true
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
