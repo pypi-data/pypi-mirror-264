@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cdo-sdk-python
+Version: 1.0.36
+Summary: Cisco Defense Orchestrator API
+Home-page: 
+Author: CDO TAC
+Author-email: cdo.tac@cisco.com
+Keywords: OpenAPI,OpenAPI-Generator,Cisco Defense Orchestrator API
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic >=2
+Requires-Dist: typing-extensions >=4.7.1
+
+    # Cisco Defense Orchestrator (CDO) Python SDK
+    The CDO Python SDK facilitates automated interaction with the Cisco Defense Orchestrator (CDO) API, enabling developers to integrate Cisco's cloud-based security policy and device management into Python applications.
+
+    For more information and detailed documentation, visit the [CDO Python SDK documentation](https://github.com/cisco-lockhart/cdo-public-api-docs/tree/main/cdo-sdk/python).
+
+    Read more about CDO [here](https://docs.defenseorchestrator.com/).
+
+    ## Installation
+    Install the CDO Python SDK package with the following command:
+    ```
+    pip install cdo-sdk-python
+    ```
+    
