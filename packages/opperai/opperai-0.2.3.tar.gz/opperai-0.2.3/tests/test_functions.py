@@ -1,0 +1,236 @@
+from unittest.mock import MagicMock, patch
+
+import pytest
+import random
+from opperai import Client
+from opperai.types import ChatPayload, FunctionDescription, Message, CacheConfiguration
+
+api_key = "key"
+
+
+@patch("opperai._http_clients._http_client.do_request")
+def test_chat(mock_do_request):
+    mock_do_request.return_value = MagicMock(
+        status_code=200, json=lambda: {"message": "Bonjour"}
+    )
+    client = Client(api_key=api_key)
+    resp = client.functions.chat(
+        "french", ChatPayload(messages=[Message(role="user", content="hello")])
+    )
+
+    assert resp.message == "Bonjour"
+    mock_do_request.assert_called_once()
+
+
+@pytest.mark.asyncio
+@patch("opperai._http_clients._http_client.stream")
+async def test_chat_stream(mock_stream):
+    def gen():
+        yield {"delta": "Bon"}
+        yield {"delta": "Jour"}
+
+    mock_stream.return_value = gen()
+    client = Client(api_key="op-dev-api-key", api_url="http://localhost:8000")
+    gen = client.functions.chat(
+        "french",
+        ChatPayload(messages=[Message(role="user", content="hello")]),
+        stream=True,
+    )
+    resp = ""
+    for message in gen:
+        resp += message.delta
+
+    assert resp == "BonJour"
+
+
+@pytest.mark.asyncio
+@patch("opperai._http_clients._http_client.do_request")
+async def test_create_function(mock_do_request):
+    mock_do_request.side_effect = [
+        MagicMock(
+            status_code=404,
+        ),  # Response for get_function_by_path
+        MagicMock(status_code=200, json=lambda: {"id": 1}),  # Response for create
+    ]
+    client = Client(api_key="op-dev-api-key", api_url="http://localhost:8000")
+    function = FunctionDescription(
+        path="test/path", description="Test function", instructions="Do something"
+    )
+    fn_id = client.functions.create(function)
+    assert fn_id == 1
+    assert mock_do_request.call_count == 2
+    mock_do_request.assert_any_call(
+        "GET",
+        "/api/v1/functions/by_path/test/path",
+    )
+    mock_do_request.assert_any_call(
+        "POST",
+        "/api/v1/functions",
+        json=function.model_dump(),
+    )
+
+
+@pytest.mark.asyncio
+@patch("opperai._http_clients._http_client.do_request")
+async def test_update_function(mock_do_request):
+    mock_do_request.return_value = MagicMock(status_code=200, json=lambda: {"id": 1})
+    client = Client(api_key="op-dev-api-key", api_url="http://localhost:8000")
+    function = FunctionDescription(
+        id=1,
+        path="test/path",
+        description="Updated Test function",
+        instructions="Do something else",
+    )
+    fn_id = client.functions.update(function)
+    assert fn_id == function.id
+    mock_do_request.assert_called_once()
+
+
+@pytest.mark.asyncio
+@patch("opperai._http_clients._http_client.do_request")
+async def test_get(mock_do_request):
+    mock_do_request.side_effect = [
+        MagicMock(
+            status_code=200,
+            json=lambda: {
+                "id": 1,
+                "path": "test/path",
+                "description": "Test function",
+                "instructions": "Do something",
+            },
+        ),
+        MagicMock(
+            status_code=200,
+            json=lambda: {
+                "id": 1,
+                "path": "test/path",
+                "description": "Test function",
+                "instructions": "Do something",
+            },
+        ),
+    ]
+    client = Client(api_key="op-dev-api-key", api_url="http://localhost:8000")
+    function_description = client.functions.get(path="test/path")
+    assert function_description.id == 1
+    assert function_description.path == "test/path"
+    assert function_description.description == "Test function"
+    mock_do_request.assert_called_once_with(
+        "GET",
+        "/api/v1/functions/by_path/test/path",
+    )
+
+    mock_do_request.reset_mock()
+
+    function_description = client.functions.get(id=1)
+    assert function_description.id == 1
+    assert function_description.path == "test/path"
+    assert function_description.description == "Test function"
+    mock_do_request.assert_called_once_with(
+        "GET",
+        "/api/v1/functions/1",
+    )
+
+
+@pytest.mark.asyncio
+@patch("opperai._http_clients._http_client.do_request")
+async def test_get_function_by_path(mock_do_request):
+    mock_do_request.return_value = MagicMock(
+        status_code=200,
+        json=lambda: {
+            "id": 1,
+            "path": "test/path",
+            "description": "Test function",
+            "instructions": "Do something",
+        },
+    )
+    client = Client(api_key="op-dev-api-key", api_url="http://localhost:8000")
+    function_description = client.functions.get_by_path("test/path")
+    assert function_description.id == 1
+    assert function_description.path == "test/path"
+    assert function_description.description == "Test function"
+    mock_do_request.assert_called_once_with(
+        "GET",
+        "/api/v1/functions/by_path/test/path",
+    )
+
+
+@pytest.mark.asyncio
+@patch("opperai._http_clients._http_client.do_request")
+async def test_get_function_by_id(mock_do_request):
+    mock_do_request.return_value = MagicMock(
+        status_code=200,
+        json=lambda: {
+            "id": 1,
+            "path": "test/path",
+            "description": "Test function",
+            "instructions": "Do something",
+        },
+    )
+    client = Client(api_key="op-dev-api-key", api_url="http://localhost:8000")
+    function_description = client.functions.get_by_id("1")
+    assert function_description.id == 1
+    assert function_description.path == "test/path"
+    assert function_description.description == "Test function"
+    mock_do_request.assert_called_once_with(
+        "GET",
+        "/api/v1/functions/1",
+    )
+
+
+def test_create_function_with_cache(client: Client, vcr_cassette):
+    fdesc = FunctionDescription(
+        path="test/sdk/test_create_function_with_cache_sync",
+        description="Test function",
+        instructions="Do something",
+        cache_configuration=CacheConfiguration(exact_match_cache_ttl=10),
+    )
+
+    fid = client.functions.create(fdesc)
+    assert fid is not None
+
+    res = client.functions.chat(
+        fdesc.path, ChatPayload(messages=[Message(role="user", content="hello")])
+    )
+    print(res)
+    assert not res.cached
+
+    res = client.functions.chat(
+        fdesc.path, ChatPayload(messages=[Message(role="user", content="hello")])
+    )
+    print(res)
+    assert res.cached
+
+    client.functions.delete(path=fdesc.path)
+
+
+def test_create_function_with_cache_flush(client: Client, vcr_cassette):
+    fdesc = FunctionDescription(
+        path="test/sdk/test_create_function_with_cache_sync_flush",
+        description="Test function",
+        instructions="Do something",
+        cache_configuration=CacheConfiguration(exact_match_cache_ttl=10),
+    )
+
+    fid = client.functions.create(fdesc)
+    assert fid is not None
+
+    res = client.functions.chat(
+        fdesc.path, ChatPayload(messages=[Message(role="user", content="hello")])
+    )
+    print(res)
+    assert not res.cached
+
+    res = client.functions.chat(
+        fdesc.path, ChatPayload(messages=[Message(role="user", content="hello")])
+    )
+    print(res)
+    assert res.cached
+
+    client.functions.flush_cache(id=fid)
+    res = client.functions.chat(
+        fdesc.path, ChatPayload(messages=[Message(role="user", content="hello")])
+    )
+    print(res)
+    assert not res.cached
+
+    client.functions.delete(path=fdesc.path)
