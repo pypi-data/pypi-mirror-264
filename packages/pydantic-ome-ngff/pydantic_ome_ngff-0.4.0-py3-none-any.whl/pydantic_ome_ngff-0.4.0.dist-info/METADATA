@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pydantic-ome-ngff
+Version: 0.4.0
+Summary: Pydantic models for the OME-NGFF
+License: MIT
+Author: Davis Vann Bennett
+Author-email: davis.v.bennett@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic-zarr (==0.7.0)
+Description-Content-Type: text/markdown
+
+# pydantic-ome-ngff
+## about
+Pydantic models for OME-NGFF metadata. Versions 0.4 and the latest (v0.5-dev) are currently supported. Read the documentation for the latest release [here](https://janeliascicomp.github.io/pydantic-ome-ngff/).
+
+## installation
+
+```bash
+pip install -U pydantic-ome-ngff
+```
+
+## development
+
+1. clone this repo
+2. install [poetry](https://python-poetry.org/)
+3. run `poetry install --with dev` to get dev dependencies
+4. run `pre-commit install` to install [pre-commit hooks](https://github.com/JaneliaSciComp/pydantic-ome-ngff/blob/main/.pre-commit-config.yaml)
+
