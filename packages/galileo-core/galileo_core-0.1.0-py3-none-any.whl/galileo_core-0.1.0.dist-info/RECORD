@@ -1,0 +1,12 @@
+galileo_core/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+galileo_core/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+galileo_core/constants/http_headers.py,sha256=Pn8s6XtloGBg3s7w2a0li7RRgz0BzSfdk8c20fKjkDw,573
+galileo_core/constants/routes.py,sha256=JmahsOcjvejAQ-yDtfiEyA3yo-YDIHJwgTEJZttrdgE,362
+galileo_core/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+galileo_core/helpers/api_client.py,sha256=YdkahKTqu1oQ1sTway1DQ4Tzi4Y8rU6yEstqcco9tb4,1543
+galileo_core/helpers/config.py,sha256=pZj2qJPmgfDGh3PESDcs182OyyziNKzTh2TyOTiNBUI,5271
+galileo_core/helpers/logger.py,sha256=CmZOxJFMeZ9PmkQyG0aYoyFG7qJAWiVRxk4u9t4GKUE,60
+galileo_core-0.1.0.dist-info/LICENSE,sha256=4D_6tarPnIYkAqF-0LzrodE9wFtSulO3V4RZf__MriE,10946
+galileo_core-0.1.0.dist-info/METADATA,sha256=0NvUEw2ZrpbhLm4i7_yqZaDhfsg9q9Jz1Z9LUTmqTVA,730
+galileo_core-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+galileo_core-0.1.0.dist-info/RECORD,,
