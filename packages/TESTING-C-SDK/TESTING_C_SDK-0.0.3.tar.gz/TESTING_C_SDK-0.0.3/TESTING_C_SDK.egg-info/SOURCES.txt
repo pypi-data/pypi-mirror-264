@@ -1,0 +1,6 @@
+setup.py
+TESTING_C_SDK.egg-info/PKG-INFO
+TESTING_C_SDK.egg-info/SOURCES.txt
+TESTING_C_SDK.egg-info/dependency_links.txt
+TESTING_C_SDK.egg-info/requires.txt
+TESTING_C_SDK.egg-info/top_level.txt
