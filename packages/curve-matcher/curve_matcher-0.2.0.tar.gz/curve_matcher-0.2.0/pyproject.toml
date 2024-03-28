@@ -1,0 +1,72 @@
+[project]
+name = "curve-matcher"
+version = "0.2.0"
+description = "A Python library for doing curve matching with Fréchet distance and Procrustes analysis"
+authors = [
+    { name = "David Chanin", email = "chanindav@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.1.1",
+    "ruff>=0.3.3",
+    "pyright>=1.1.354",
+    "furo>=2024.1.29",
+    "sphinx-autodoc-typehints>=2.0.0",
+]
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportMissingTypeStubs = "none"
+reportUnknownMemberType = "none"
+reportUnknownArgumentType = "none"
+reportUnknownVariableType = "none"
+reportUntypedFunctionDecorator = "none"
+reportUnnecessaryIsInstance = "none"
+reportUnnecessaryComparison = "none"
+reportConstantRedefinition = "none"
+reportUnknownLambdaType = "none"
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+exclude = [
+    "dist",
+    "docs",
+]
+
+[tool.ruff.lint]
+ignore = [
+    "E203",
+    "E501",
+    "E731",
+]
+extend-select = [
+    "UP",
+    "TID",
+    "I",
+    "F",
+    "E",
+    "ARG",
+]
+
+[tool.semantic_release]
+version_variables = [
+    "src/curve_matcher/__init__.py:__version__",
+    "pyproject.toml:version",
+]
+branch = "main"
+build_command = "pip install pdm && pdm build"
