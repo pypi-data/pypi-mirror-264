@@ -1,0 +1,2 @@
+[console_scripts]
+scholarly_publications = scholarly_publications.cli:main
