@@ -1,0 +1,97 @@
+[build-system]
+requires = [
+  "setuptools>=64.0",
+  "setuptools_scm[toml]>=8.0"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.copyright]
+copyright = "2024, Pete R. Jemian"
+
+[project]
+name = "pyQParamWidget"
+dynamic = ["version"]
+description = "A PyQt5 QWidget and QDialog to edit application parameters."
+authors = [
+  { name="Pete Jemian", email="prjemian+pyQParamWidget@gmail.com" },
+]
+maintainers = [
+  { name="Pete Jemian", email="prjemian+pyQParamWidget@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ['PyQt', 'editor']
+license = {file = "pyqparamwidget/LICENSE.txt"}
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: Freely Distributable",
+  "License :: Public Domain",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development",
+]
+dependencies = [
+  "PyQt5",
+]
+
+[project.urls]
+"Homepage" = "https://prjemian.github.io/pyQParamWidget/"
+"Bug Tracker" = "https://github.com/prjemian/pyQParamWidget/issues"
+
+# [project.scripts]
+# gemviz = "pyqparamwidget.app:main"
+
+[tool.black]
+line-length = 115
+target-version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | \.pytest_cache
+    | _build
+    | build
+    | dist
+    | docs
+  )/
+)
+'''
+
+
+[tool.flake8]
+max-line-length = 115
+extend-ignore = [
+  "E203", # See https://github.com/PyCQA/pycodestyle/issues/373
+  "E402", # module level import not at top of file (for cansas.py)
+  "E501",
+  "F401",  # imported but unused
+  "F722", # allow Annotated[typ, some_func("some string")]
+  "F811", # support typing.overload decorator
+  "W503",
+  "W504"
+]
+
+[tool.isort]
+force_single_line = true
+# multi_line_output = 1
+line_length = 88
+include_trailing_comma = true
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.setuptools_scm]
+write_to = "pyqparamwidget/_version.py"
