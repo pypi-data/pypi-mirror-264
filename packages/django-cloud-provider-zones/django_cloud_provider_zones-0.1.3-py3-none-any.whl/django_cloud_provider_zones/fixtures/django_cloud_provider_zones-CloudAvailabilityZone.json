@@ -1,0 +1,1938 @@
+[
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-west-2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-north-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-south-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-west-2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-3"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-southeast-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-north-1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-south-1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-southeast-2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-west-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-3"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-2"
+        ],
+        "az": "d",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-southeast-1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-1"
+        ],
+        "az": "d",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "sa-east-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-3"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-central-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "sa-east-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-1"
+        ],
+        "az": "d",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-3"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "sa-east-1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-central-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-1"
+        ],
+        "az": "f",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-1"
+        ],
+        "az": "e",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-3"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-central-1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-northeast-1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ca-central-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-southeast-2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-west-2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-north-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-south-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ca-central-1"
+        ],
+        "az": "d",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-east-2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-southeast-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-west-1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "us-west-2"
+        ],
+        "az": "d",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-3"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "eu-west-2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ca-central-1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "aws",
+            "ap-southeast-2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "australia-southeast2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east1"
+        ],
+        "az": "d",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-southwest1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-south2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-central1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west3"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west4"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-east1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-central1"
+        ],
+        "az": "f",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-east1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast3"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-central2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west6"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west8"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-central2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "australia-southeast2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-central1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west3"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west4"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west10"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-southeast2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-east1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west12"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west3"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west8"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "australia-southeast2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "southamerica-east1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west3"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west4"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "australia-southeast1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west4"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west10"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast3"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-south1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west4"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west12"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "northamerica-northeast1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west3"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-north1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-central2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "southamerica-east1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east4"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "australia-southeast1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east4"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west10"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-southeast2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-central1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "northamerica-northeast2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west12"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast3"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-south1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west4"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-central1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west3"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-south1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-east2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-central2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west9"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-northeast1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "southamerica-east1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "australia-southeast1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east4"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-southeast2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-southeast1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "southamerica-west1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "africa-south1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-central1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-west1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west1"
+        ],
+        "az": "d",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-south1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-southeast1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "northamerica-northeast2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "northamerica-northeast1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "southamerica-west1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-south1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-north1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-east2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west9"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-southwest1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east5"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east5"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "northamerica-northeast2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-south1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-southeast1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "southamerica-west1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "africa-south1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "northamerica-northeast1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-west1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-central2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-north1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-east2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west8"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west9"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-south2"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "asia-south2"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-central1"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-southwest1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-east5"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "us-west1"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "africa-south1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "me-west1"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west6"
+        ],
+        "az": "c",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west6"
+        ],
+        "az": "b",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-central2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudavailabilityzone",
+    "fields": {
+        "region": [
+            "gcp",
+            "europe-west2"
+        ],
+        "az": "a",
+        "created": "2024-03-27"
+    }
+}
+]

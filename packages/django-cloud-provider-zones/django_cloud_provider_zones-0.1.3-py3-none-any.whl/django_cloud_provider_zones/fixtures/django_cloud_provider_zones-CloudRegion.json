@@ -1,0 +1,629 @@
+[
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "us-west-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "2",
+        "original_region_name": "us-west-2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "eu",
+        "cardinality": "north",
+        "number": "1",
+        "original_region_name": "eu-north-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "ap",
+        "cardinality": "southeast",
+        "number": "1",
+        "original_region_name": "ap-southeast-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "eu",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "eu-west-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "ap",
+        "cardinality": "northeast",
+        "number": "2",
+        "original_region_name": "ap-northeast-2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "ap",
+        "cardinality": "south",
+        "number": "1",
+        "original_region_name": "ap-south-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "ap",
+        "cardinality": "southeast",
+        "number": "2",
+        "original_region_name": "ap-southeast-2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "eu",
+        "cardinality": "west",
+        "number": "3",
+        "original_region_name": "eu-west-3",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "ca",
+        "cardinality": "central",
+        "number": "1",
+        "original_region_name": "ca-central-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "ap",
+        "cardinality": "northeast",
+        "number": "1",
+        "original_region_name": "ap-northeast-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "eu",
+        "cardinality": "central",
+        "number": "1",
+        "original_region_name": "eu-central-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "us",
+        "cardinality": "east",
+        "number": "1",
+        "original_region_name": "us-east-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "sa",
+        "cardinality": "east",
+        "number": "1",
+        "original_region_name": "sa-east-1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "us",
+        "cardinality": "east",
+        "number": "2",
+        "original_region_name": "us-east-2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "ap",
+        "cardinality": "northeast",
+        "number": "3",
+        "original_region_name": "ap-northeast-3",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "aws",
+        "geographic_region": "eu",
+        "cardinality": "west",
+        "number": "2",
+        "original_region_name": "eu-west-2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "central",
+        "number": "2",
+        "original_region_name": "europe-central2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "northamerica",
+        "cardinality": "northeast",
+        "number": "1",
+        "original_region_name": "northamerica-northeast1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "southwest",
+        "number": "1",
+        "original_region_name": "europe-southwest1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "southeast",
+        "number": "1",
+        "original_region_name": "asia-southeast1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "australia",
+        "cardinality": "southeast",
+        "number": "1",
+        "original_region_name": "australia-southeast1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "east",
+        "number": "2",
+        "original_region_name": "asia-east2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "east",
+        "number": "5",
+        "original_region_name": "us-east5",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "2",
+        "original_region_name": "us-west2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "2",
+        "original_region_name": "europe-west2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "australia",
+        "cardinality": "southeast",
+        "number": "2",
+        "original_region_name": "australia-southeast2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "north",
+        "number": "1",
+        "original_region_name": "europe-north1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "northeast",
+        "number": "1",
+        "original_region_name": "asia-northeast1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "europe-west1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "me",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "me-west1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "me",
+        "cardinality": "central",
+        "number": "1",
+        "original_region_name": "me-central1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "northeast",
+        "number": "2",
+        "original_region_name": "asia-northeast2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "northamerica",
+        "cardinality": "northeast",
+        "number": "2",
+        "original_region_name": "northamerica-northeast2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "6",
+        "original_region_name": "europe-west6",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "8",
+        "original_region_name": "europe-west8",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "9",
+        "original_region_name": "europe-west9",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "east",
+        "number": "4",
+        "original_region_name": "us-east4",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "southeast",
+        "number": "2",
+        "original_region_name": "asia-southeast2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "south",
+        "number": "1",
+        "original_region_name": "asia-south1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "us-west1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "south",
+        "number": "1",
+        "original_region_name": "us-south1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "south",
+        "number": "2",
+        "original_region_name": "asia-south2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "3",
+        "original_region_name": "europe-west3",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "10",
+        "original_region_name": "europe-west10",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "4",
+        "original_region_name": "us-west4",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "africa",
+        "cardinality": "south",
+        "number": "1",
+        "original_region_name": "africa-south1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "central",
+        "number": "1",
+        "original_region_name": "us-central1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "12",
+        "original_region_name": "europe-west12",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "east",
+        "number": "1",
+        "original_region_name": "asia-east1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "3",
+        "original_region_name": "us-west3",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "asia",
+        "cardinality": "northeast",
+        "number": "3",
+        "original_region_name": "asia-northeast3",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "me",
+        "cardinality": "central",
+        "number": "2",
+        "original_region_name": "me-central2",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "southamerica",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "southamerica-west1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "southamerica",
+        "cardinality": "east",
+        "number": "1",
+        "original_region_name": "southamerica-east1",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "4",
+        "original_region_name": "europe-west4",
+        "created": "2024-03-27"
+    }
+},
+{
+    "model": "django_cloud_provider_zones.cloudregion",
+    "fields": {
+        "provider": "gcp",
+        "geographic_region": "us",
+        "cardinality": "east",
+        "number": "1",
+        "original_region_name": "us-east1",
+        "created": "2024-03-27"
+    }
+}
+]
