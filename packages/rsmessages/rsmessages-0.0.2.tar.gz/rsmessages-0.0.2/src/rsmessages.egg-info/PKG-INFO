@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: rsmessages
+Version: 0.0.2
+Summary: Library specifying message formats to communicate between Rocscience applications and their python library
+Author: Rocscience
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: License.txt

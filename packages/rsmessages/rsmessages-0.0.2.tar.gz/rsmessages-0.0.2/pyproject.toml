@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rsmessages"
+version = "0.0.2"
+authors = [
+  { name="Rocscience"},
+]
+description = "Library specifying message formats to communicate between Rocscience applications and their python library"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+license = {text = "MIT License"}
