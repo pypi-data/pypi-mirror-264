@@ -1,0 +1,13 @@
+lxml==4.9.3
+numpy>=1.23.3
+
+[dev]
+pre-commit
+pylint
+sphinx
+sphinx-rtd-theme
+
+[testing]
+setuptools
+pytest
+pytest-cov
