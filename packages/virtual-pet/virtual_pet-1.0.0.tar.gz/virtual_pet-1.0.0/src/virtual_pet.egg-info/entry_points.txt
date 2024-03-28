@@ -1,0 +1,2 @@
+[console_scripts]
+virtual_pet = virtual_pet.__main__:main
