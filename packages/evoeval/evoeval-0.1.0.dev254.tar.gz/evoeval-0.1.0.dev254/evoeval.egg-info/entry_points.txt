@@ -1,0 +1,2 @@
+[console_scripts]
+evoeval.evaluate = evoeval.evaluate:main
