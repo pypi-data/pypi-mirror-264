@@ -1,0 +1,9 @@
+setuptools==68.2.2
+wheel==0.41.2
+pandas>2.0.0
+numpy>1.24.0
+SQLAlchemy>2.0.0
+pydantic-settings>2.0.0
+rich>13.0.0
+psycopg2>2.9
+sqladmin>0.15.1

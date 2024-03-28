@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: TESTING_C_SDK
+Version: 0.0.5
+Requires-Dist: setuptools==68.2.2
+Requires-Dist: wheel==0.41.2
+Requires-Dist: pandas>2.0.0
+Requires-Dist: numpy>1.24.0
+Requires-Dist: SQLAlchemy>2.0.0
+Requires-Dist: pydantic-settings>2.0.0
+Requires-Dist: rich>13.0.0
+Requires-Dist: psycopg2>2.9
+Requires-Dist: sqladmin>0.15.1
