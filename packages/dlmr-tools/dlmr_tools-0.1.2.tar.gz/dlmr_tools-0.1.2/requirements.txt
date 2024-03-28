@@ -1,0 +1,7 @@
+# note : all dependencies are locked to a specific version
+#        to ensure reproducibility of the environment ;
+#        exceptions are made for some minor versions
+
+numpy           == 1.23.5
+pandas          == 1.5.3
+matplotlib      == 3.7.1
