@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "just4fun"
+description = "A fun package with 4 interactive functions for your entertainment."
+version = "0.1.1"
+authors = [
+  { name="Edison Chen", email="edison.chen@stern.nyu.edu" },
+  { name="Natalie Wu", email="nw2132@nyu.edu" },
+  { name="Jacklyn Hu", email="jh7535@nyu.edu" },
+  { name="Chelsea Li", email="cl5251@nyu.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "tutorial"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-spring2024/3-python-package-exercise-bestswe/tree/main"
+
+[project.scripts]
+magic_8_ball= "just4fun.fun:magic_8_ball"
+affirmations = "just4fun.fun:affirmations"
+make_me_laugh = "just4fun.fun:make_me_laugh"
+copypasta = "just4fun.fun:copypasta"

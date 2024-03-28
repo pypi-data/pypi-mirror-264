@@ -1,0 +1,5 @@
+[console_scripts]
+affirmations = just4fun.fun:affirmations
+copypasta = just4fun.fun:copypasta
+magic_8_ball = just4fun.fun:magic_8_ball
+make_me_laugh = just4fun.fun:make_me_laugh
