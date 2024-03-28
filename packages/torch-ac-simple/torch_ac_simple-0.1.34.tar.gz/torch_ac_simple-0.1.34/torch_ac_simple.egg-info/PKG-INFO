@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: torch-ac-simple
+Version: 0.1.34
+Summary: Simple implementation of A2C and PPO using PyTorch
+Author: Stevo Huncho
+Author-email: stevo@stevohuncho.com
+Keywords: reinforcement learning,actor-critic,a2c,ppo,multi-processes,gpu
+License-File: LICENCE
