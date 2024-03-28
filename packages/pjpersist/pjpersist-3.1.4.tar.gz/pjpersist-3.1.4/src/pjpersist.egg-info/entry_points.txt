@@ -1,0 +1,3 @@
+[console_scripts]
+json_speed_test = pjpersist.tests.json_speed_test:main
+profile = pjpersist.tests.performance:main
