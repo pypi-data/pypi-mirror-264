@@ -1,0 +1,10 @@
+pearson/__init__.py,sha256=t1H34gYe5odQbNLtpt0PLTbP8BeH8JN-uOPnL3anrx8,36
+pearson/pearson.py,sha256=omtpx4LbK4oXly_cViXHcMuQUYRswx_HJOpkLHGuQR0,1782
+pearson/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pearson/core/main.py,sha256=iR7Y_j1ZjGxbOlMgzYe8J-Pb-B-lJ9_xlZawxvQsnHo,529
+pearson/core/model.py,sha256=6qkvLWnT9EEi01fnjRS9O8iYulHWpFV311LXhMa92PQ,543
+pearson/core/train.py,sha256=Mbo0llRbpjkig5Y6MxlWiHxgKiIPTsDqSsCBjtk9B8s,2382
+pearson-2.2.dist-info/METADATA,sha256=dBwFKeUptA1umbLOfmdVPNovAeEccTdeC0PvRaflF54,1351
+pearson-2.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pearson-2.2.dist-info/top_level.txt,sha256=kBRS1HTQQf1aifJxroyWAi5qTxHTj25y2rtLPvyJuhM,8
+pearson-2.2.dist-info/RECORD,,
