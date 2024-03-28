@@ -1,0 +1,7 @@
+numpy
+GPy
+GPyOpt
+Plotly
+matplotlib
+pandas
+emoc-cpp

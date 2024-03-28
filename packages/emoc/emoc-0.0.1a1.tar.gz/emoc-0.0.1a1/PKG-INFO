@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: emoc
+Version: 0.0.1a1
+Summary: EMOC+X: Evolutionary Multi-objective Optimization in C++
+Home-page: https://colalab.ai/EMOCDoc/
+Author: 
+Author-email: 
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy
+Requires-Dist: GPy
+Requires-Dist: GPyOpt
+Requires-Dist: Plotly
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: emoc-cpp
