@@ -1,0 +1,8 @@
+testwizard.test==3.8.1b4810
+testwizard.testobjects-core==3.8.1b4810
+testwizard.commands-audio==3.8.1b4810
+testwizard.commands-mobile==3.8.1b4810
+testwizard.commands-powerswitch==3.8.1b4810
+testwizard.commands-remotecontrol==3.8.1b4810
+testwizard.commands-video==3.8.1b4810
+testwizard.commands-camera==3.8.1b4810
