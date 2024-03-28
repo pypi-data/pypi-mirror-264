@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: righor
+Version: 0.1.0.dev5
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Righor-py
+
+Companion git to righor, for the python package.
+
+Things to add:
+- name to gene feature
+
