@@ -1,0 +1,2 @@
+[console_scripts]
+glx-viewer = glxviewer.__main__:main
