@@ -1,0 +1,6 @@
+pandas
+tqdm
+pydantic
+phonenumbers
+python-stdnum
+numpy

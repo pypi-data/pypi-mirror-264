@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/cleankit/__init__.py
+src/cleankit/mail.py
+src/cleankit.egg-info/PKG-INFO
+src/cleankit.egg-info/SOURCES.txt
+src/cleankit.egg-info/dependency_links.txt
+src/cleankit.egg-info/requires.txt
+src/cleankit.egg-info/top_level.txt
