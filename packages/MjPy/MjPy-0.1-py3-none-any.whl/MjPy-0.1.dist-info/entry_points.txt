@@ -1,0 +1,2 @@
+[console_scripts]
+mjpy = mjpy:main
