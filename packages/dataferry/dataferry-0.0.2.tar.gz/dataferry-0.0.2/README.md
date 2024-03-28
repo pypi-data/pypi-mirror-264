@@ -1,0 +1,83 @@
+<h1>About</h1>
+
+This package includes but is not limited to:
+
+1. A class to create a connection to SQL Server.
+2. A class to transfer data to and from SQL Server.
+3. Functions to execute code and trap and log errors.
+4. Functions to execute local SQL files.
+5. Functions to update dimension tables.
+
+<h1>Dependencies</h1>
+
+**Required**
+
+| Package	| Version	| License						|
+|---------------|---------------|-------------------------------------------------------|
+| pandas	| 1.3.5		| Apache License, Version 2.0				|
+
+<h1>Connections</h>
+
+<h2>Create and populate a local config.ini file</h2>
+
+Windows authentication example:
+
+    [SOMEUSERFIRENDLYSERVERNAME]
+    platform=sql_server
+    server=SOMESERVERNAME
+    database=SOMEDATABASE
+    authentication=windows
+    
+Server authentication example:
+
+    [SOMEOTHERUSERFIRENDLYSERVERNAME]
+    platform=sql_server
+    server=SOMESERVERNAME
+    database=SOMEDATABASE
+    authentication=server
+    uid=SOMEGENERICUSERNAME
+    pwd=SOMEGENERICPASSWORD
+    
+<h2>Create connection classes</h2>
+
+    # import class
+    from dataferry import SqlServerConnection
+    
+    # define config path
+    config_path = 'SOMECONFIGPATH'
+    
+    # use the class to make connections
+    my_connection_a = SqlServerConnection('SOMEUSERFIRENDLYSERVERNAME', config_path)
+    my_connection_b = SqlServerConnection('SOMEOTHERUSERFIRENDLYSERVERNAME', config_path)
+    
+<h2>Create ETL classes</h2>
+    
+    # define generic variables
+    log_path = 'SOMELOGPATH'
+    
+    # set mandatory class variables
+    src_sql = r'''SELECT * FROM SOMETABLE'''
+    dest_db = 'SOMEDATABASE
+    dest_tbl = 'SOMETABLE'
+    
+    # set optional class variables
+    dest_schema = 'SOMESCHEMA'
+    xforms = []
+    
+    # create the class
+    etl_a = Etl(src_sql, dest_db, dest_tbl, xforms, my_connection_a, my_connection_b, schema=dest_schema, log_path=log_path)
+    
+    # create other etl classes as required
+    
+    # create a list of etl classes
+    xfers = [etl_a]
+    
+    # iterate through the etl list and execute the etl classes
+    for xf in xfers:
+        
+        # either drop or truncate the destination table
+        xf.drop_table()
+        # xf.truncate_table()
+        
+        # transfer the data
+        xf.transfer_data()
