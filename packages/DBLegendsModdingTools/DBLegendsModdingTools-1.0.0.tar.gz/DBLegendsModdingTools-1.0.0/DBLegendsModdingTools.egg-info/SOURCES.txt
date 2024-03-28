@@ -1,0 +1,6 @@
+README.md
+setup.py
+DBLegendsModdingTools.egg-info/PKG-INFO
+DBLegendsModdingTools.egg-info/SOURCES.txt
+DBLegendsModdingTools.egg-info/dependency_links.txt
+DBLegendsModdingTools.egg-info/top_level.txt
