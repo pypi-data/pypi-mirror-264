@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ctms-utils
+Version: 0.3.1
+Summary: Binary utilities for working with embedded object files
+Author-email: Colton Murphy <cmurp77@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.12.2
+
