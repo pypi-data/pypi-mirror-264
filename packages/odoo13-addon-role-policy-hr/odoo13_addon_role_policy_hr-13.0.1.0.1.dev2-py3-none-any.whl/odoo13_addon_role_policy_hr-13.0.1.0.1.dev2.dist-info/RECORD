@@ -1,0 +1,14 @@
+odoo/addons/role_policy_hr/README.rst,sha256=asv-ZPUw4m9by98uu3mtWtgy1iQnx1MRIB6W4Q1T4Ko,3225
+odoo/addons/role_policy_hr/__init__.py,sha256=f736OeYr0aPEhPq6uEFrqUmv-bDpDWGSrZP1pLur6QU,23
+odoo/addons/role_policy_hr/__manifest__.py,sha256=NwHJDthQ7loT2zSt8JmPVJsyOHrdcyrf6sYoQg8gvfk,485
+odoo/addons/role_policy_hr/i18n/role_policy_hr.pot,sha256=DSoZvi3Yi_MHcxFXi2AFQSEsCID4KGLbvwoBM_xL6ik,341
+odoo/addons/role_policy_hr/readme/CONTRIBUTORS.rst,sha256=drarrI869G_XlSo_ttS8wwAQmyP8_4iJJZqq830_NDs,40
+odoo/addons/role_policy_hr/readme/DESCRIPTION.rst,sha256=G6Nb5WOR4wPJIvvjTSqQcW7Cq7tsiYET5-GLf9cWULM,243
+odoo/addons/role_policy_hr/static/description/icon.png,sha256=X9C0Uvjxu0_uY4JsVHT_AVoCrF3R2ITMRYSLz3pHeKU,4780
+odoo/addons/role_policy_hr/static/description/index.html,sha256=QJ8NFPmRzZLVos3O3fezCmIGU-3dba2cR9GicG1CBhs,12565
+odoo/addons/role_policy_hr/static/src/js/role_policy_hr.js,sha256=9ACpk2H-4bNigq_ypTTZMWZ_hBslaljeYb0RZgcu5PA,582
+odoo/addons/role_policy_hr/views/assets_backend.xml,sha256=qiF8UTKeJKAfRbuttE6R8Dlx9sIbgohxAaqnIod1e6M,399
+odoo13_addon_role_policy_hr-13.0.1.0.1.dev2.dist-info/METADATA,sha256=dIQWkIz5uQZ38IHeq_eWxWoewSIJCgDkHg3T3OW4OAI,3790
+odoo13_addon_role_policy_hr-13.0.1.0.1.dev2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+odoo13_addon_role_policy_hr-13.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_role_policy_hr-13.0.1.0.1.dev2.dist-info/RECORD,,
