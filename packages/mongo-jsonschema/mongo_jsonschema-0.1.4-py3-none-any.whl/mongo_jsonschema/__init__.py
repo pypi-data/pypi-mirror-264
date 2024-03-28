@@ -1,0 +1,1 @@
+from .mongo_jsonschema import SchemaGenerator
