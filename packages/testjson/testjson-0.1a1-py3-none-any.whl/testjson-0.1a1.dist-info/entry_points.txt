@@ -1,0 +1,3 @@
+[console_scripts]
+jsontest=testjson:testjson_console
+
