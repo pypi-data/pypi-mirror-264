@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: haretools
+Version: 0.1.0
+Summary: python小工具包
+Author-email: Li WeiJian <1330757852@qq.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pipdeptree
+Description-Content-Type: text/markdown
+
+# python小工具包
+
+## 功能菜单
+| 编号 | 功能描述         |
+| ---- | ---------------- |
+| 0    | 退出程序         |
+| 1    | 查看当前依赖树   |
+| 2    | 卸载第三方模块包 |
+| 3    | 开发中......     |
+
+## 命令行终端使用
+
+安装命令
+
+```bash
+# PyPI
+pip install --upgrade haretools
+```
+
+在终端中执行命令
+
+```bash
+pipremove.exe
+
+# 显示菜单
+欢迎使用命令行菜单
+0. 退出程序
+1. 查看当前依赖树
+2. 卸载第三方模块包
+请输入选项的数字编号:
+```

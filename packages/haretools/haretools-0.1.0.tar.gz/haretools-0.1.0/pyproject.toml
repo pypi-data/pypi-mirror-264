@@ -1,0 +1,36 @@
+[project]
+name = "haretools"
+version = "0.1.0"
+authors = [
+  { name = "Li WeiJian", email = "1330757852@qq.com" },
+]
+dependencies = ['pipdeptree',]
+description = "python小工具包"
+readme = "readme.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# win10环境下会报错
+# [build-system]
+# requires = ["setuptools>=61.0"]
+# build-backend = "setuptools.build_meta"
+
+# 配置生成exe可供调用
+scripts.haretools = "haretools.__main__:main_menu"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# 忽略文件
+[tool.hatch.build]
+exclude = [
+  "/resource",
+  "/docs",
+  "/tests",
+  "*.cmd",
+]
