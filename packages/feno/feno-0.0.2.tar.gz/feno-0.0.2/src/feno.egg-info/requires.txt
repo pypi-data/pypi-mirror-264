@@ -1,0 +1,9 @@
+tko
+build
+twine
+
+[dev]
+check-manifest
+
+[test]
+coverage
