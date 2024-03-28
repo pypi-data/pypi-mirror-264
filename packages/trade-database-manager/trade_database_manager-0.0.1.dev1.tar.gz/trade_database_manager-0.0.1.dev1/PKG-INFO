@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: trade_database_manager
+Version: 0.0.1.dev1
+Summary: A wrapper of kdb and sql for convenient trade data management.
+Author-email: "Y.Q. Cui" <qianyun210603@hotmail.com>
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy
+Requires-Dist: ruamel.yaml
+Requires-Dist: sqlalchemy
+Requires-Dist: psycopg2
+
+<table border=1 cellpadding=10>
+<tr>
+<td style="color: red;">
+
+#### \*\*\* IMPORTANT NOTICE \*\*\*
+
+<p style="color: red">This package is <b>not</b> in a usable stage. It is only uploaded for convenience of developing and testing.</p>
+
+</td></tr></table>
+
+
+
+### Postgreslq Initialization
+
+```sql
+CREATE DATABASE trade_data;
+CREATE USER tradedbadmin WITH PASSWORD 'trade_password';
+GRANT ALL PRIVILEGES ON DATABASE trade_data TO tradedbadmin;
+\connect trade_data;
+GRANT ALL ON SCHEMA public TO tradedbadmin;
+```
+
+Add the following lines in the `pg_hba.conf` file to allow password authentication for the `tradedbadmin` role.
+
+```
+# trade database
+host    all            tradedbadmin     0.0.0.0/0               scram-sha-256
+host    all            tradedbadmin     ::/0                    scram-sha-256
+```
+
+### KDB+ Initialization
+
+
+```q
