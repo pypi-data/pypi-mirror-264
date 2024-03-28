@@ -1,0 +1,33 @@
+# Install
+
+```
+pip install all-tools-on-blockchain
+```
+
+# Useage
+
+Read the data of the public view in the contract：
+
+```
+read -a 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38
+```
+
+The result looks like this:
+
+```
+Contract Address: 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38
+Contract Name: TimedLockBox
++--------------------------------------------+------------------+---------------------------+--------------------------------------------------------------------+
+|          ABI From Which Contract           |    Data Type     |       Variable Name       |                         Value|Input Type                          |
++--------------------------------------------+------------------+---------------------------+--------------------------------------------------------------------+
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 |  no params func  |           owner           |             0x1590a7dc3485cE3D32cDAA7cB60E9F2D68116003             |
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 |  no params func  |     penaltyPercentage     |                                 5                                  |
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 |  no params func  |         totalFees         |                                 0                                  |
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 |       slot       |        _ADMIN_SLOT        | 0x0000000000000000000000000000000000000000000000000000000000000000 |
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 |       slot       |        _BEACON_SLOT       | 0x0000000000000000000000000000000000000000000000000000000000000000 |
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 |       slot       |    _IMPLEMENTATION_SLOT   | 0x0000000000000000000000000000000000000000000000000000000000000000 |
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 |       slot       |       _ROLLBACK_SLOT      | 0x0000000000000000000000000000000000000000000000000000000000000000 |
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 | with params func | getUnlockTimeAndLockedEth |                              address                               |
+| 0xb916F7A2233C90f7ca7B09f4Ece6aF9feafB8E38 | with params func |           locks           |                              address                               |
++--------------------------------------------+------------------+---------------------------+--------------------------------------------------------------------+
+```
