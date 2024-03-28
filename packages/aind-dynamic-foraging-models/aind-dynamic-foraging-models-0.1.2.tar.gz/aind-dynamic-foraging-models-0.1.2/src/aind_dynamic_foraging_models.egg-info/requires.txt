@@ -1,0 +1,14 @@
+numpy
+matplotlib
+scikit-learn
+scipy
+
+[dev]
+aind-dynamic-foraging-models
+black
+coverage
+flake8
+interrogate
+isort
+Sphinx
+furo
