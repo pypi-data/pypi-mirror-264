@@ -1,0 +1,22 @@
+graft images
+graft docker
+graft docs
+graft src
+graft tests
+
+prune .github
+
+include .bumpversion.cfg
+include .editorconfig
+
+include AUTHORS.rst
+include CHANGELOG.md
+include CITATION.cff
+include CONTRIBUTING.rst
+include LICENSE
+include README.rst
+include requirements.txt
+
+include requirements-dev.txt tasks.py pytest.ini
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib
