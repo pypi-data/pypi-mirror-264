@@ -1,0 +1,3 @@
+[console_scripts]
+rssbot = rssbot.__main__:wrapped
+rssbotd = rssbot.__main__:daemoned
