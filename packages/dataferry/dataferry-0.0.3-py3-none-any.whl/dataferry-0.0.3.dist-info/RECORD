@@ -1,0 +1,11 @@
+dataferry/__init__.py,sha256=qhzQK7A0hikVGSCJ8C6ae_TzycwfzvC8RVOwx6W-Iuo,116
+dataferry/connections.py,sha256=bVrBjW6GP0Y9ArUZo7q9O-jGp6lzHVjMM_0MimLQM1o,5334
+dataferry/dimensions.py,sha256=M6mTC726Wl8S7lcw4wbmS5qw0-gDinw3QiPDtUdWD70,7705
+dataferry/execution.py,sha256=GgTTDxuHT7bh5fXxVB3C6-BMl5nFB2xhVzaJ4siaHgs,5920
+dataferry/functions.py,sha256=lHpddR-1wqLn5QyuZnc1DpMFydOLLbJp6iSGZQGdbQM,371
+dataferry/transfers.py,sha256=ge5Ri1J9DolWnwHhDfeAe14kAu5-czE0hpf76m305E4,50191
+dataferry-0.0.3.dist-info/LICENSE,sha256=gaPvsB8kvYvhL23AoVxVjmJYWxyJFFOynKkZkdjD_Hk,1092
+dataferry-0.0.3.dist-info/METADATA,sha256=OLKmr7oLgb2Ai00MfFT21b2KGuPPRsou9Aqy9MShvbI,2933
+dataferry-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dataferry-0.0.3.dist-info/top_level.txt,sha256=OWk3wUXtBl9g9fNNSCYrv9rDOFLNW-b20hShyGaKtxE,10
+dataferry-0.0.3.dist-info/RECORD,,
