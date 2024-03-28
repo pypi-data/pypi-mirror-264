@@ -1,0 +1,3 @@
+[flake8.extension]
+OLV=flake8_one_letter_variables_check.flake8_one_letter_variables_check:OneLetterVariablesChecker
+
