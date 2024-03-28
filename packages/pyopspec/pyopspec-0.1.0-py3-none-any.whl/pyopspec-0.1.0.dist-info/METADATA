@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyopspec
+Version: 0.1.0
+Summary: Program to control operando spectroscopic experiment
+Home-page: https://github.com/leybodv/pyopspec
+Author: Denis Leybo
+Author-email: denis@leybo.xyz
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.10.0
+Description-Content-Type: text/markdown
+Requires-Dist: bronkhorst-propar <2.0,>=1.0
+Requires-Dist: pywatlow >=0.1.4
+Requires-Dist: matplotlib <4.0,>=3.8
+
+# pyopspec
+Program to control operando spectroscopic experiment
