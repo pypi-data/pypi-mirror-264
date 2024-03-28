@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: get-oodle-lib
+Version: 0.2.0
+Summary: Get Oodle library for Unreal Engine
+Home-page: https://github.com/sehnryr/get-oodle-lib
+License: GPL-3.0-or-later
+Author: Youn Mélois
+Author-email: youn@melois.dev
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: parse-commit-gitdeps-xml (>=0.1.0,<0.2.0)
+Project-URL: Repository, https://github.com/sehnryr/get-oodle-lib
+Description-Content-Type: text/markdown
+
+# get-oodle-lib
+A library for getting the oodle library from Unreal Engine source code.
+
+## Dependencies
+- `Commit.gitdeps.xml` file from Unreal Engine source code (found [here](https://github.com/EpicGames/UnrealEngine/blob/release/Engine/Build/Commit.gitdeps.xml)) which access can be granted by following the instructions at https://github.com/EpicGames/Signup.
+
+## Usage
+```bash
+python get_oodle_lib <path to Commit.gitdeps.xml> --platform <platform> --output <output directory>
+```
+
+For more information, run `python get_oodle_lib --help`.
+
+You can also install the package with `pipx install git+https://github.com/sehnryr/get-oodle-lib` and run it with `get-oodle-lib`.
+
