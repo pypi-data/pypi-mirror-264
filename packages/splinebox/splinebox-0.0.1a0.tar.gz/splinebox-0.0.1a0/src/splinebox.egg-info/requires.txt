@@ -1,0 +1,12 @@
+numpy
+scipy
+numba
+
+[docs]
+matplotlib
+sphinx-gallery
+
+[test]
+tox
+pytest
+pytest-cov
