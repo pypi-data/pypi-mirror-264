@@ -1,0 +1,17 @@
+igl/pyigl_classes.cpython-311-darwin.so,sha256=BXLNEj_xzMLLdwVlsMIymXkLDSNOrCxKiDlI8rqYZf8,1319552
+igl/_version.py,sha256=rX-MuYZxTaS24Howvew3Kxi6sMJOEA9B8k7xa7XgLNA,332
+igl/__init__.py,sha256=s6meQ5y5ZcZd_1efty3fXDghvbagY9Ezx0cJSY2gjN4,417
+igl/pyigl.cpython-311-darwin.so,sha256=h4qkZe8bSv9B4bqsZNGWvnJij_zokY5sFmdPig6VdoY,50108496
+igl/helpers.py,sha256=z5pVFTx4kzfF_FrrgEeGHa2-jjGSR4RU62LmYAUwQX8,2026
+igl/triangle/__init__.py,sha256=Pec0pvsUepvENQi6FVyNZMM9ZtH8NReDyKTCAWjD4Wo,40
+igl/triangle/pyigl_restricted_triangle.cpython-311-darwin.so,sha256=u-qlj6tD7a6esaTJYSwgfejUNfnJxzoL21e31JMzflA,949944
+igl/copyleft/cgal/pyigl_copyleft_cgal.cpython-311-darwin.so,sha256=krbNlIBcpY_UrsLkx8UjYvydqfOCn9F0R277Zcc_vW8,3536680
+igl/copyleft/cgal/__init__.py,sha256=NJ2qNq7xwEOa5a4Ra09v8ADkIgrNvBjz6whcz3C0QPk,34
+igl/copyleft/tetgen/__init__.py,sha256=8I4ZvcMP7-K1tROykLfBbyJImKo_hhL5NVwKbMQ98lQ,36
+igl/copyleft/tetgen/pyigl_copyleft_tetgen.cpython-311-darwin.so,sha256=isl80UK4Sft_sM5d6t9ktubSJiajaGdo939KWCEPoxQ,1439432
+libigl-2.5.1.dist-info/RECORD,,
+libigl-2.5.1.dist-info/LICENSE.GPL,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+libigl-2.5.1.dist-info/WHEEL,sha256=aSTB4Xn07o6827Et8lQqTK35tZM0Hlsaj4GQLR5T9D0,112
+libigl-2.5.1.dist-info/LICENSE.MPL2,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+libigl-2.5.1.dist-info/top_level.txt,sha256=TF1tYDKDOv891WW8VMKHYFbUMW0bi_1a2OKWpZzoVUQ,10
+libigl-2.5.1.dist-info/METADATA,sha256=mg9vBtxNX1TINzhxET1SEPkxthY8dj51EstTiGwYtqg,2341
