@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ML-master
+Version: 0.5
+Summary: Ceci est un test de création d'un package python
+Home-page: https://github.com/charles-42/ml-model-api-template.git
+Author: Petrov Evgeni
+Author-email: Jetestcreationpackage@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pickle-mixin
+
