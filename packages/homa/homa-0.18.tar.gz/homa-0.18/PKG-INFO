@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: homa
+Version: 0.18
+Maintainer: Taha Shieenavaz
+Maintainer-email: tahashieenavaz@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+	<img
+		src="https://raw.githubusercontent.com/tahashieenavaz/homa/main/art/homa.svg"
+		width=400
+	/>
+</p>
+
+<hr />
+
+Homa is a library to generate random data that provides more productivity for developers.
+
+In loving memory of [Saber Rastikerdar](https://rastikerdar.github.io/), who introduced Persian (Farsi) to the digital world. 🖤💚
+
+## Names
+
+```python
+from homa import fake
+
+fake().fullname()       # Julia Briwn
+fake().prefix()         # Ms.
+fake().firstname()      # Joe
+fake().surname()        # Lewos
+
+fake().fullname("girl") # Ms. Heather Willaoms
+fake().fullname("boy")  # Juan Murteniz
+```
+
+## Text
+
+```python
+from homa import fake
+
+fake().title() # Haw jeornels oro fighteng buck agounst e wovu af qiistuinubli umagas
+fake().token() # aivel
+```
