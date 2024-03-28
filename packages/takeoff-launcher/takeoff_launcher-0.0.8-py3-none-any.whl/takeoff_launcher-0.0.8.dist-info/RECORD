@@ -1,0 +1,14 @@
+takeoff_launcher/__init__.py,sha256=RFG_6IApCww5mONuCzSLxYsaNNcDWbHntJAUoW7jrzA,106
+takeoff_launcher/conf_mgr.py,sha256=UTrxrx95RRNWk_aNgIllR9GJjsypyAPb5OF9zqnJB5g,5286
+takeoff_launcher/main.py,sha256=5e27rIozP_bJWiMiGXv4gqPgqjPOHXjHOZjHw0NftIQ,20838
+takeoff_launcher/utils.py,sha256=Sp1CZFyBnRnnO3KhmobcMfK4bzAYDdi4cSOHyvjs8Xg,5209
+takeoff_launcher/version.txt,sha256=CM2QiEICclYGiuUIJbKSOagcqGl9WSXDl2ub1bBely4,5
+takeoff_launcher/sdk/__init__.py,sha256=DorrZ8SlRus-aWxxZdGT4BO7c4yUbskSNh6-WmfEg-0,123
+takeoff_launcher/sdk/schema.py,sha256=M11f84kopc03XesS1-BV0F2OycQyypLjL2V66ODEB8E,5187
+takeoff_launcher/sdk/takeoff.py,sha256=LGUt2S_OebuOHyuRUiYhB0H5CV9JJSgrGujJIAtpX9M,5589
+takeoff_launcher/sdk/utils.py,sha256=Hlbu4P5-RfiI8dzVUHpkNfCfy-1N5dMNYikA0TQD60E,6483
+takeoff_launcher-0.0.8.dist-info/METADATA,sha256=eMn5Gd9o7E08VjxnjWGTUiwyopbgkfuz9gLYDoxXKnk,1772
+takeoff_launcher-0.0.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+takeoff_launcher-0.0.8.dist-info/entry_points.txt,sha256=HftT_wM0782JA74wwNNHY8vgNmsmSD3tuJwVvusa-0Q,55
+takeoff_launcher-0.0.8.dist-info/top_level.txt,sha256=GxcChQCD7ilDa5cETEsp78kP4OY4nohhM4ve7pw3LZg,17
+takeoff_launcher-0.0.8.dist-info/RECORD,,
