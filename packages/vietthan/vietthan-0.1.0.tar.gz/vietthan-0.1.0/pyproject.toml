@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vietthan"
+version = "0.1.0"
+description = ""
+authors = ["Viet Than <thanhoangviet@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vietthan", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.0"
+scriv = {extras = ["toml"], version = "^1.5.1"}
+
+[tool.scriv]
+format = "md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
