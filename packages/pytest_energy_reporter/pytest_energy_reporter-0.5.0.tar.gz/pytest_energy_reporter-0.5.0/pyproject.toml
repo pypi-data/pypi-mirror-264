@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "pytest_energy_reporter"
+version = "0.5.0"
+authors = [
+  "Delano Flipse <delanoflipse@gmail.com>",
+]
+maintainers = [
+  "Delano Flipse <delanoflipse@gmail.com>",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Framework :: Pytest",
+]
+description = "An energy estimation reporter for pytest"
+readme = "readme.md"
+license = "license.txt"
+keywords = ["pytest", "energy", "reporter"]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/delanoflipse/pytest-energy-reporter"
+Documentation = "https://github.com/delanoflipse/pytest-energy-reporter"
+Repository = "https://github.com/delanoflipse/pytest-energy-reporter"
+"Bug Tracker" = "https://github.com/delanoflipse/pytest-energy-reporter/issues"
+
+[tool.poetry.plugins."pytest11"]
+pytest_energy_reporter = "pytest_energy_reporter.plugin"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.1.1"
+energy-consumption-reporter = "^0.1.2"
+numpy = "^1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
