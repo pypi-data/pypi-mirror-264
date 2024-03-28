@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: redactive
+Version: 0.0.5
+Home-page: https://github.com/redactive-ai/redactive
+Author: redactive.ai
+Project-URL: Bug Tracker, https://github.com/redactive-ai/redactive/labels/sdk:python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: cloud-mappings
+Requires-Dist: betterproto[compiler] ==2.0.0b5
+Requires-Dist: grpclib[protobuf]
+Requires-Dist: openai ==1.0.0b1
+Requires-Dist: python-dotenv
+Provides-Extra: all
+Requires-Dist: redactive-service ; extra == 'all'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-asyncio ; extra == 'tests'
+
