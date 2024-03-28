@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mongo-jsonschema"
+version = "0.1.2"
+description = "A CLI tool and library for reverse engineering a JSONSchema from a MongoDB database."
+authors = ["Moses Wynn <mail@moseswynn.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/moseswynn/mongo-jsonschema"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pymongo = "^4.6.2"
+genson = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
