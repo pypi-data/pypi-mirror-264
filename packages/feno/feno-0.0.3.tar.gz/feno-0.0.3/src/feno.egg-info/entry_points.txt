@@ -1,0 +1,5 @@
+[console_scripts]
+feno = feno.__main__:main
+filter = feno.filter:main
+indexer = feno.indexer:main
+mdpp = feno.mdpp:main
