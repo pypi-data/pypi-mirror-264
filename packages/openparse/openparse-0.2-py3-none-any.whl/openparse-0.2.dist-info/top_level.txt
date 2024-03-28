@@ -1,0 +1,4 @@
+evals
+notebooks
+openparse
+tests
