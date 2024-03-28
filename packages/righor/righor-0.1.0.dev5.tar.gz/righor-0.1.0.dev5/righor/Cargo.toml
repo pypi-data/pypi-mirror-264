@@ -1,0 +1,45 @@
+[package]
+name = "righor"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "righor"
+path = "src/lib.rs"
+# crate-type = ["cdylib", "lib"]
+
+[profile.release] # Not a ton of worthwhile optimization honestly
+debug = true
+opt-level = 3
+
+
+
+
+[dependencies]
+rand = { version = "0.8.5", features = [ "small_rng" ] }
+rand_distr = "0.4.0"
+phf = { version = "0.10", features = ["macros"] }
+regex = "1.9"
+ndarray = {version="0.15", features = ["approx"]}
+csv = "1.1"
+enum_dispatch = "0.3"
+pyo3 = {version = "0.20.0", features = ["extension-module", "anyhow", "multiple-pymethods", "auto-initialize"], optional=true}
+# ndarray-linalg = {version = "0.14", features = ["openblas"]}
+duplicate = {version = "1.0.0"}
+bio = "1.5"
+kdam = {version="0.5.1", optional=true}
+approx_eq = "0.1.8"
+itertools = "0.10.0"
+numpy = {version = "0.20", optional=true}
+anyhow = "1.0.76"
+wasm-bindgen = "0.2.88"
+getrandom = { version = "0.2", features = ["js"] }
+fast-math = "0.1"
+rayon = "1.8.1"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
+
+[features]
+default = ["kdam"]
+py_binds = ["numpy", "pyo3"]
