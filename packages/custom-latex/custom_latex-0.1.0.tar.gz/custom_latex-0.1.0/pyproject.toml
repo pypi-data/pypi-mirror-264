@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "custom-latex"
+version = "0.1.0"
+description = "Study repository, liblrary generating .tex files with tables and images."
+authors = ["e.davletshin <e.davletshin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
