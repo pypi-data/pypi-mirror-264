@@ -1,0 +1,8 @@
+setup.py
+epiccrypto/Crypto.py
+epiccrypto/__init__.py
+epiccrypto.egg-info/PKG-INFO
+epiccrypto.egg-info/SOURCES.txt
+epiccrypto.egg-info/dependency_links.txt
+epiccrypto.egg-info/requires.txt
+epiccrypto.egg-info/top_level.txt
