@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/neuroplain/__init__.py
+src/neuroplain/activation.py
+src/neuroplain/ffnet.py
+src/neuroplain/layer.py
+src/neuroplain/losses.py
+src/neuroplain.egg-info/PKG-INFO
+src/neuroplain.egg-info/SOURCES.txt
+src/neuroplain.egg-info/dependency_links.txt
+src/neuroplain.egg-info/requires.txt
+src/neuroplain.egg-info/top_level.txt
