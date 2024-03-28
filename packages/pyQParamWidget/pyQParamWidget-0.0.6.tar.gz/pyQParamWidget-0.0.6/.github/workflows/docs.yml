@@ -1,0 +1,84 @@
+name: Publish Sphinx Docs to GitHub Pages
+
+on:
+  # Build the docs on pushes to main branch, PRs to main branch, and new tags.
+  # Publish only on demand.
+  push:
+    branches:
+      - main
+    tags:
+      - "*" # all tags
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: # allow manual triggering
+    inputs:
+      deploy:
+        description: "Deploy documentation"
+        type: boolean
+        required: true
+        default: false
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
+
+      - name: Info
+        run: |
+          echo $(pwd)
+          ls -lAFgh
+
+      - name: Update pip
+        run: python3 -m pip install --upgrade pip
+
+      - name: Install Sphinx build requirements
+        run: python3 -m pip install -r docs/requirements.txt
+
+      - name: Info
+        run: |
+          echo "#-----Info------------------------"
+          echo "sphinx-build:$(which sphinx-build)"
+          echo "sphinx-build version:$(TZ=UTC sphinx-build --version)"
+          echo "#---------------------------------"
+
+      - name: Install package
+        run: pip install --no-deps -e . -vv
+
+      - name: Info
+        run: |
+          echo "#-----Info------------------------"
+          python3 -m pip list
+          # python -c "import pyqparamwidget; print(f'{pyqparamwidget.__version__=}')"
+          echo "#---------------------------------"
+
+      - name: Sphinx
+        run: TZ=UTC make -C docs html
+
+      - name: Upload Docs ZIP file as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pyqparamwidget-docs
+          path: docs/build/html
+
+      - name: Deploy (to gh-pages branch) only on demand
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.event.inputs.deploy }}
+        with:
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/build/html
+          force_orphan: true

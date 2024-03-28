@@ -1,0 +1,29 @@
+# example parameters
+
+parameters:
+  settings_file:
+    label: settings file
+    value: "settings.ini"
+    tooltip: File path of the application settings.
+  url:
+    label: server URL
+    value: "http://localhost"
+    choices: 
+      - "http://localhost"
+      - "http://127.0.0.1"
+    tooltip: URL for the server.
+    widget: QPW_Choice
+  autoconnect:
+    label: "Auto connect with server?"
+    value: true
+    widget: QPW_CheckBox
+    tooltip: Connect with server URL on startup?
+  catalog:
+    label: catalog
+    value: "my_catalog"
+    tooltip: Catalog name provided by server.
+  autocatalog:
+    label: "Auto open catalog?"
+    value: true
+    widget: QPW_CheckBox
+    tooltip: Open 'catalog' on startup?

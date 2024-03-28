@@ -1,0 +1,74 @@
+# sampler of parameters
+
+parameters:
+  check:
+    label: check (or bool)
+    value: false
+    widget: QPW_CheckBox
+    tooltip: checkbox for selection or boolean
+  choices:
+    label: choices
+    value: ""
+    widget: QPW_Choice
+    tooltip: also use for radio button selection
+    choices:
+      - ""
+      - black
+      - blue
+      - apple
+      - pear
+  scale:
+    label: peak amplitude
+    value: 100
+    widget: QPW_Index
+    tooltip: adjust a number
+    hi: 10_000
+    lo: 1
+  text:
+    label: text
+    value: some text
+    tooltip: general purpose text entry
+  number:
+    label: a
+    value: 1.2345
+    tooltip: number as text
+  drummer:
+    label: Beatle's drummer
+    value: ""
+    widget: QPW_Choice
+    tooltip: Who was the drummer of The Beatles?
+    choices:
+      - ""
+      - John
+      - Paul
+      - George
+      - Ringo
+  color:
+    label: choose 'green'
+    value: ""
+    widget: QPW_Choice
+    tooltip: Select the middle color.
+    choices:
+      - ""
+      - red
+      - orange
+      - yellow
+      - green
+      - blue
+      - indigo
+      - violet
+  zero:
+    label: find zero
+    value: 5
+    widget: QPW_Index
+    tooltip: adjust to get the number '0'
+    hi: 10
+    lo: -10
+  title:
+    label: title
+    value: ""
+    tooltip: Some sort of title.
+  comments:
+    label: comments
+    value: ""
+    tooltip: Any other remarks.
