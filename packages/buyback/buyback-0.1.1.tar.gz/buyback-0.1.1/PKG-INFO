@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: buyback
+Version: 0.1.1
+Summary: A Python toolkit for simulating and analyzing share buyback strategies
+License: GPL-3.0-or-later
+Author: Rob Chiocchio
+Author-email: rmchiocchio@wpi.edu
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: ml
+Requires-Dist: keras ; extra == "ml"
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pandas (>=2.2.1,<3.0.0)
+Requires-Dist: scipy (>=1.12.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# buyback-toolkit
+ A Python toolkit for simulating and analyzing share buyback strategies
+
