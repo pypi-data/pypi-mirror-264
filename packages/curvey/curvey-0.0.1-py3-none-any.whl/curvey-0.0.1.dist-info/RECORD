@@ -1,0 +1,12 @@
+curvey/__init__.py,sha256=YX7LWv2byqSW0KFB1uT7AqR1GpjlwRi1CfszHDLUWA4,119
+curvey/blend.py,sha256=4JrjlSFC4izz-64nvvLtc9joobHflqunD0_lKguDbS4,12306
+curvey/curve.py,sha256=9DbwGDduFC12KmvEmT520oDPSqpuW6OPdD_nRh_Gpcs,57732
+curvey/curves.py,sha256=wLGr_MQWJJEef3Dn_LamBn5nt8uBgpUiqsq-0BPSdXg,20807
+curvey/flow.py,sha256=Zv26Jz5-Fm3aI8wKPlyzpvZ-CqQ5yKxUWDKEYsNP7q0,27476
+curvey/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+curvey/shape_structure_dataset.py,sha256=4gJnrRCQ69rsHMDxlSuT0R3mmlKOnGf5K0-tBcABYQM,5633
+curvey/util.py,sha256=1pUgrM6x5r1PJNT-natw2nczBbBuv0IicVGzFEE0UA8,8099
+curvey-0.0.1.dist-info/METADATA,sha256=6-XRo2ZaiwtuAyk3M25ndT8Doysc-4Jzt044IeEM1CY,11964
+curvey-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+curvey-0.0.1.dist-info/licenses/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+curvey-0.0.1.dist-info/RECORD,,
