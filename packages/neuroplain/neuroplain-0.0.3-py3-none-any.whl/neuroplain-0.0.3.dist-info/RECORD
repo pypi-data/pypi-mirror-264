@@ -1,0 +1,10 @@
+neuroplain/__init__.py,sha256=U0p_2CadbcVv0-ok52_znKg0g_LMWq7vu2DIBgfElj8,244
+neuroplain/activation.py,sha256=lYkN0EQ9mNFcQoiV_cazikOosPiWM01g2kif4KHKXUE,977
+neuroplain/ffnet.py,sha256=JvTj_5l6-zZVLbH-qGHvqW0OGGgczRIYoAQwWKAnFLM,2658
+neuroplain/layer.py,sha256=Ew-ij38UJBfiN4NG2Goux5-fVsYyBd4YoEb_J0yjRUE,1176
+neuroplain/losses.py,sha256=OEdTiiW6bKsboCaaxkZqa6DAhBXjzkbhnRUa4r3dpUE,726
+neuroplain-0.0.3.dist-info/LICENSE,sha256=vrYwceuKwSC86Uuq18zdWVujLmd0gTkO338ZN9cBX9g,1077
+neuroplain-0.0.3.dist-info/METADATA,sha256=NLs4oYytsVVlkK4BeSBtQO0XcdOjRuwMdeiVnUBCpG4,2779
+neuroplain-0.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+neuroplain-0.0.3.dist-info/top_level.txt,sha256=NSACL-rOKvnMmH7astpmTKUT7-1K0PbQRdSmnbs9JRc,11
+neuroplain-0.0.3.dist-info/RECORD,,
