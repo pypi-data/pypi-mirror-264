@@ -1,0 +1,7 @@
+py_ed25519_zebra_bindings-1.0.1.dist-info/RECORD,,
+py_ed25519_zebra_bindings-1.0.1.dist-info/METADATA,sha256=LyrWBL4IOOaugsRCewNWNDOkzy2Z6uQH1N5IAmmUaw0,2218
+py_ed25519_zebra_bindings-1.0.1.dist-info/WHEEL,sha256=La30PSZa1ie_Pvz0KY8VB3qDf1Txhg1fVXJaEOc7cho,110
+py_ed25519_zebra_bindings-1.0.1.dist-info/license_files/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_ed25519_zebra_bindings.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+ed25519_zebra/__init__.py,sha256=k0A0_GNDzkEwttrsBkaFEO_L4QW8EM-FVLPyP3sUnBI,135
+ed25519_zebra/ed25519_zebra.cpython-312-x86_64-linux-musl.so,sha256=-StoYHZt4wTNEL8dJiCJ7PHFKfSD7wZiIYhjlpiztoM,677865
