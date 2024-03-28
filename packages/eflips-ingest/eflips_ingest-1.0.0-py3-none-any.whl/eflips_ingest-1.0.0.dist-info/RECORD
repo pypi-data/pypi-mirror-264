@@ -1,0 +1,13 @@
+LICENSE.md,sha256=KB4XTk1fPHjtZCYDyPyreu6h1LVJVZXYg-5vePcWZAc,34143
+eflips/ingest/__init__.py,sha256=79TpRyHzbFuWm-kk-uegNSVauZIYeQ9sArYC_eP-3pA,207
+eflips/ingest/base.py,sha256=cx_fC5qdOgTozyusamtwiOXyBTLq1vKbIqZ2nEXjZ9s,5811
+eflips/ingest/bvgxml.py,sha256=GxD8tAb05KIU3GDulRqupDplFmpcHSs7gR7VKpW82y8,63440
+eflips/ingest/dummy.py,sha256=UwHLXYjLQp72SYkHymU_avtoz2vXDQEUtorZM1pRR24,15422
+eflips/ingest/util.py,sha256=JSqyYDIQko9OgIuPtoyMVyIszlBgL66orWmRJQB-oB8,2994
+eflips/ingest/xmldata/README.md,sha256=l1TAwIlBankNVj_9w5G-i950z2U81ewCPU5F4AiXnc0,383
+eflips/ingest/xmldata/__init__.py,sha256=iadfUeymZi_yP-WAV8mXMrXZENe4bSmIaWu1lXJOm2w,1058
+eflips/ingest/xmldata/bvg_xml.py,sha256=NMCFF1l89m4xxBC-5YluAPEY2VtXmWAeDNOXW6J4w7c,47033
+eflips_ingest-1.0.0.dist-info/LICENSE.md,sha256=KB4XTk1fPHjtZCYDyPyreu6h1LVJVZXYg-5vePcWZAc,34143
+eflips_ingest-1.0.0.dist-info/METADATA,sha256=qHq68sP6-noVKgqgXP_WzY7aMDCWTjRm8hUdEJIrlv4,8056
+eflips_ingest-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+eflips_ingest-1.0.0.dist-info/RECORD,,
