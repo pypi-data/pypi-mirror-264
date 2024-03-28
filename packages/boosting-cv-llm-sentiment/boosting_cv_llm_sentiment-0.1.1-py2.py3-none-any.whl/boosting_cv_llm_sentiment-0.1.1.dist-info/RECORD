@@ -1,0 +1,15 @@
+boosting_cv_llm_sentiment/__init__.py,sha256=cG90XFkiBiIqvqQt1ShVaIjgKkkksN7aFVTq3yYnemg,167
+boosting_cv_llm_sentiment/cli.py,sha256=GCTzhJi6RWqLzZV6BgOa_hpm6jP4SO4BPfuCmBfx_pU,490
+boosting_cv_llm_sentiment/config.py,sha256=FYQPhg42bXAhUCmGa0YNf1JYfgrU-eWbuE4LYdNvKng,1156
+boosting_cv_llm_sentiment/emoboostllm.py,sha256=SENW0_PRlf1QOSDzFiXvvCxbYnlMxnXmhko-jtcmF-Q,7217
+boosting_cv_llm_sentiment/cv_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boosting_cv_llm_sentiment/cv_module/emotion_recognition.py,sha256=D3fT_61S4MlM0iCAGilTeo36WrEqtnH7O61ZAFL86Ac,5938
+boosting_cv_llm_sentiment/llm_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boosting_cv_llm_sentiment/llm_module/conversation_manager.py,sha256=PPWladVAWHh4H8idLq5R8FkIhnAsj7YEJd07Ys3SWxI,5430
+boosting_cv_llm_sentiment-0.1.1.dist-info/AUTHORS.rst,sha256=41Q5OVFltQnbvLFvvzsJuuHHBIFCqS12ZyHT6gj0J6c,180
+boosting_cv_llm_sentiment-0.1.1.dist-info/LICENSE,sha256=_-1Ii_x3rDZ4gcPINl8efvKTUKJf4fu5phMIykXYLCY,11364
+boosting_cv_llm_sentiment-0.1.1.dist-info/METADATA,sha256=N945ZR43M6hExnCKD9185jTYy2l2v84zsi-PGlh_jhM,5558
+boosting_cv_llm_sentiment-0.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+boosting_cv_llm_sentiment-0.1.1.dist-info/entry_points.txt,sha256=r3dDvhMDOGKRrh6ZD44Cbw2dyUGI5tX00b04FZpjMvQ,82
+boosting_cv_llm_sentiment-0.1.1.dist-info/top_level.txt,sha256=qKxT_bhx8RWMu5h0RfNTdhnyPxKsiSwnozdq9qXzZqA,26
+boosting_cv_llm_sentiment-0.1.1.dist-info/RECORD,,
