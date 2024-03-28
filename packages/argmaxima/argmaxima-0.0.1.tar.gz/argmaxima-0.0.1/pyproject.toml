@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "argmaxima"
+version = "0.0.1"
+description = "ARGMAX"
+authors = ["Michele Dallachiesa <michele.dallachiesa@sigforge.com>"]
+license = "BSD-3"
+readme = "README.md"
+homepage = "https://www.sigforge.com"
+repository = "https://github.com/elehcimd/"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved",
+    "Intended Audience :: Science/Research",
+]
+include = [
+    "LICENSE",
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.13.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.0.10"
+ipywidgets = "^8.0.2"
+pytest = ">=7.2.0"
+black = {extras = ["jupyter"], version = ">=22.10.0"}
+ruff = ">=0.0.128"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target_version = ["py37"]
+preview = true
+
+[tool.ruff]
+line-length = 120
+lint.select = ["E", "F", "I", "U", "S", "C", "B", "A", "T", "Q", "BLE", "C", "ERA"] # ANN FBT
+target-version = "py37"
+lint.ignore = ["A003", "S101", "T201", "T203"]
+extend-include = ["*.ipynb"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
