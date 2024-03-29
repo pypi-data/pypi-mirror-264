@@ -1,0 +1,12 @@
+transformers>=4.26.1
+pandas
+openprompt
+scikit-learn
+torch
+pyyaml
+wandb
+debater-python-api
+gensim
+accelerate
+peft
+contextualized_topic_models
