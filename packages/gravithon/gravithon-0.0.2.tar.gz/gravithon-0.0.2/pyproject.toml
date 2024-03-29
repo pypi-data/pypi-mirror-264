@@ -1,0 +1,37 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+# project info
+name = 'gravithon'
+keywords = ['physics', '2d', '3d', 'engine'] #TODO
+version = '0.0.2' # edit version here
+description = 'A small example package' #TODO
+readme = 'README.md'
+
+dependencies = [
+
+]
+
+authors = [
+  { name='Yehuda Elyasaf', email='30yehuda26@gmail.com' },
+]
+maintainers = [
+  { name='Yehuda Elyasaf', email='30yehuda26@gmail.com' },
+]
+
+license = {file = 'LICESNSE'}
+requires-python = '>=3.8'
+
+classifiers = [
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+]
+
+[project.urls]
+Homepage = 'https://github.com/YehudaElyasaf/gravithon'
+Issues = 'https://github.com/YehudaElyasaf/gravithon/issues' #TODO
+
+[tool.setuptools]
+package-data = {"sample" = ["*.dat"]}
