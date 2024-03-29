@@ -1,0 +1,6 @@
+python_bunny_mq/__init__.py,sha256=SpTl-Tg1B1HTyjNOE-8ue-N2wGnXN_2zl7RFUSxlkiM,33
+python_bunny_mq/bunny_mq.py,sha256=A1CPAyLBDvaxaXzWIYGp71JjPRKTlJ90MmjN0lw1jOE,3166
+python_bunny_mq/test_bunny_queue.py,sha256=icgMUFWz5qXQ4vTSOK1Ylfdev8G_Mz0VuPneaCEcEhw,365
+python_bunny_mq-0.1.1.dist-info/METADATA,sha256=w-Agl6ACzi57R06KFQBC39mV8270j2o_kJcJMLh8D8E,2008
+python_bunny_mq-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+python_bunny_mq-0.1.1.dist-info/RECORD,,
