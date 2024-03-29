@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nonebot-plugin-guild-patch-remix"
+version = "0.2.4"
+description = "Patch plugin(remix) for NoneBot2 QQ guild (go-cqhttp) support."
+authors = ["17TheWord <17TheWord@gmail.com>", "zhzhongshi <365615175@qq.com>"]
+license = "MIT"
+packages = [{ include = 'nonebot_plugin_guild_patch' }]
+readme = "README.md"
+repository = "https://github.com/zhzhongshi/nonebot-plugin-guild-patch-remix"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nonebot2 = "^2.2.1"
+nonebot-adapter-onebot = "^2.4.3"
+
+
+[tool.poetry.dev-dependencies]
+black = "^24.3.0"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
