@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fast_kinematics
+Version: 0.1.11
+Summary: A fast kinematics library for robotics
+Author: Xinsong Lin
+Author-email: x8lin@ucsd.edu
+Requires: pytorch
+Requires: numpy
+Requires-Python: >=3.8
+
+Uses CUDA to calculate forward kinematics and Jacobian in parallel for thousands of robots
