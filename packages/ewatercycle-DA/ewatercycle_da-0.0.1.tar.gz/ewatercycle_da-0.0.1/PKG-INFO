@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: ewatercycle_DA
+Version: 0.0.1
+Summary: Implementation of data assimilation for eWaterCycle
+Project-URL: homepage, https://github.com/Daafip/ewatercycle-da
+Author-email: David Haasnoot <davidhaasnoot@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE.txt
+Keywords: data assimilation,ewatercycle,hydrology,parallelisation
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: ewatercycle
+Description-Content-Type: text/markdown
+
+# eWaterCycle-DA
+[![Documentation Status](https://readthedocs.org/projects/ewatercycle-da/badge/?version=latest)](https://ewatercycle-da.readthedocs.io/en/latest/?badge=latest)
+
+Code to run Data Assimilation with hydrological models on the [eWaterCycle](https://github.com/eWaterCycle/ewatercycle) platform. 
+
+
+## docs:
+Documenation can be found [here](https://ewatercycle-da.readthedocs.io/en/latest/)
