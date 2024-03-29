@@ -1,0 +1,12 @@
+payconpy\femails
+payconpy\fexceptions
+payconpy\fpdf
+payconpy\fpdf\focr
+payconpy\fpdf\pdfutils
+payconpy\fpysimplegui
+payconpy\fpython
+payconpy\fregex
+payconpy\fselenium
+payconpy\openai
+payconpy\openai\assistants
+payconpy\utils
