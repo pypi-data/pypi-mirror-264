@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: citrosNavigationCalc
+Version: 0.0.5
+Summary: A navigation calculator that is compatible with the CITROS Data Analysis package
+Home-page: UNKNOWN
+Author: Boaz Gavriel
+Author-email: <boaz@lulav.space>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+this navigation calculator has a variaty of functions that giving different navigation errors such as angular errors, vector erros, axes transformations etc.
+
