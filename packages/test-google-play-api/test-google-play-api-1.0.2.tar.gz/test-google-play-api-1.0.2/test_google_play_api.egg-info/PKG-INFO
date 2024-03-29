@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: test-google-play-api
+Version: 1.0.2
+Summary: Unofficial python api for google play
+Home-page: https://github.com/sureshdsk/test-google-play-api/
+Author: suresh
+Author-email: hello@sureshdsk.dev
+License: GPL3
+License-File: LICENSE.md
+Requires-Dist: cryptography<41
+Requires-Dist: protobuf==3.13.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: urllib3<1.26.0
