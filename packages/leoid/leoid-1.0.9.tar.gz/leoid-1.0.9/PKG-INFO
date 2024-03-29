@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: leoid
+Version: 1.0.9
+Summary: LEOID Python Package
+Author: Jay Ticku
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: scikit-learn==1.4.1.post1
+Requires-Dist: imbalanced-learn==0.12.0
