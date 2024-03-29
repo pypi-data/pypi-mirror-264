@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/notebook_instrumentation/__init__.py
+src/notebook_instrumentation/extension.py
+src/notebook_instrumentation/instrumentation.py
+src/notebook_instrumentation.egg-info/PKG-INFO
+src/notebook_instrumentation.egg-info/SOURCES.txt
+src/notebook_instrumentation.egg-info/dependency_links.txt
+src/notebook_instrumentation.egg-info/requires.txt
+src/notebook_instrumentation.egg-info/top_level.txt
