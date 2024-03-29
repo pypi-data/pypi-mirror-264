@@ -1,0 +1,2 @@
+import{d as o,c as r,h as e,i as c,o as n,p as a,u as t,J as p,K as u}from"./index-CRy24dhJ.js";import{u as _}from"./usePageTitle-Bw_DulyG.js";const h=o({__name:"Artifacts",setup(f){return _("Artifacts"),(i,l)=>{const s=c("p-layout-default");return n(),r(s,{class:"artifacts"},{header:e(()=>[a(t(p))]),default:e(()=>[a(t(u))]),_:1})}}});export{h as default};
+//# sourceMappingURL=Artifacts-BlxbcoKD.js.map
