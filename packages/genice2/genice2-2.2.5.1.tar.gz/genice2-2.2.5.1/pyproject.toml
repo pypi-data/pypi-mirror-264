@@ -1,0 +1,70 @@
+# [build-system]
+# requires = ["hatchling", "numpy"]
+# build-backend = "hatchling.build"
+
+
+[project]
+# Must be same as the version string in ./genice2/__init__.py
+version = "2.2.5.1"
+name = "genice2"
+
+[project.scripts]
+genice2 = "genice2.cli.genice:main"
+analice2 = "genice2.cli.analice:main"
+
+[project.urls]
+"Homepage" = "https://github.com/vitroid/GenIce"
+"Bug Tracker" = "https://github.com/vitroid/GenIce/issues"
+"manual" = "https://vitroid.github.io/GenIce"
+"logo" = "https://raw.githubusercontent.com/vitroid/GenIce/develop/logo/genice-v0.png"
+
+
+
+
+[tool.poetry]
+name = "genice2"
+# Must be same as the version string in ./genice2/__init__.py
+version = "2.2.5.1"
+authors = [
+  "Masakazu Matsumoto <vitroid@gmail.com>",
+]
+description = "A Swiss army knife to generate hydrogen-disordered ice structures."
+license = "MIT"
+# package names should match these glob patterns (["*"] by default)
+include = ["genice2", "genice2/cli"]  
+
+[tool.poetry.dependencies]
+"networkx" = ">=2.0.dev20160901144005"
+"python" = "^3.9"
+numpy = ">=1.26.2"
+pairlist = ">=0.5.1.2"
+cycless = ">=0.4.2"
+graphstat = ">=0.2.1"
+yaplotlib = ">=0.1.2"
+openpyscad = ">=0.5.0"
+genice-core = ">=0.9"
+
+[tool.poetry.group.dev.dependencies]
+toml = "^0.10.2"
+ipykernel = "^6.27.1"
+jinja2 = "^3.1.2"
+py3dmol = "^2.0.4"
+matplotlib = "^3.8.2"
+genice2-cage = "^2.2"
+genice2-svg = "^2.2"
+plotly = "^5.18.0"
+nbformat = "^5.9.2"
+genice2-mdanalysis = "^0.6.5"
+requests = "^2.31.0"
+pytest = "^8.1.1"
+
+
+[tool.setuptools]
+packages=["genice2", "genice2.cli", "genice2.molecules", "genice2.formats", "genice2.lattices", "genice2.loaders", "genice2.groups"]
+
+# [tool.setuptools.packages.find]
+# where = ["."]  # list of folders that contain the packages (["."] by default)
+# include = ["genice2", "genice2/cli"]  # package names should match these glob patterns (["*"] by default)
+# exclude = []  # exclude packages matching these glob patterns (empty by default)
+# namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
+
