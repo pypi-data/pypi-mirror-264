@@ -1,0 +1,2 @@
+[console_scripts]
+test_app = test_app.test_app:add_one

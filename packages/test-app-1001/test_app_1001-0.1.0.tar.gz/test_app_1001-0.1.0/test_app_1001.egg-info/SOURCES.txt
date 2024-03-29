@@ -1,0 +1,8 @@
+setup.py
+test_app/__init__.py
+test_app/test_app.py
+test_app_1001.egg-info/PKG-INFO
+test_app_1001.egg-info/SOURCES.txt
+test_app_1001.egg-info/dependency_links.txt
+test_app_1001.egg-info/entry_points.txt
+test_app_1001.egg-info/top_level.txt
