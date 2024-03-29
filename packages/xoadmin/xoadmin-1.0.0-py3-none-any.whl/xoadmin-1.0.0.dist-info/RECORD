@@ -1,0 +1,14 @@
+xoadmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xoadmin/api.py,sha256=37yjaMhOvz0q6HzOfWxVf2_rvGaPhufcbjSXdBgXYw8,4531
+xoadmin/error.py,sha256=0F3apTfWM6ZMTQuPTL-Cwpnv9JcDsCnaSzNefRqMXlw,389
+xoadmin/host.py,sha256=5Q0wJYhsf81p04YDpx_CnjiK_ITTuEuKdPZD52g8XWo,1245
+xoadmin/manager.py,sha256=8C_0Xl6BnmD9qixz5w-kGV35CzokHztULhPAqleDqGM,5114
+xoadmin/storage.py,sha256=PXS76X7VGnovAe4U4WmwvPhfPu63Chg-bQym0iS74AA,812
+xoadmin/user.py,sha256=o0LU4x4Mw5olZm01hmhF-1u6DP7JVK-kWIa7UT0HJXI,2373
+xoadmin/utils.py,sha256=C6joCMn0Q31QYjzEHLkx3BR3LJGA486BrS6iwcbJuUo,1822
+xoadmin/vm.py,sha256=38RLVLUHbiIz2zO4rsAs33ESxXVqVAMgw3rPgb9EYDg,1519
+xoadmin/websocket.py,sha256=CAyfW6bqSN2bJFD0EKA454ekU5HBVlPTB-owosxUSwU,5730
+xoadmin-1.0.0.dist-info/LICENSE,sha256=5JwPFNWm6G88DZIyIh-UXjnPZGOanE1HOc3C1xQcRdA,11336
+xoadmin-1.0.0.dist-info/METADATA,sha256=J93zmXHR8Aq8q8xCqOQ0iPtuEBBR8UT1piWJ6q16LII,2654
+xoadmin-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+xoadmin-1.0.0.dist-info/RECORD,,
