@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "boltztest"
+version = "0.0.1"
+authors = [
+  { name="Boltzbit Dev Team", email="dev@boltzbit.com" },
+]
+description = "Python API for talking to Boltzbit services."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests >= 2.31",
+]
+
+[project.urls]
+Homepage = "https://github.com/Boltzbit-Limited/BoltzbitPythonAPI"
+Issues = "https://github.com/Boltzbit-Limited/BoltzbitPythonAPI/issues"
