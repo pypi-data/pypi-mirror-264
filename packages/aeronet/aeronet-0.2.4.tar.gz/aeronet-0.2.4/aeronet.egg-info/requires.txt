@@ -1,0 +1,14 @@
+
+[all]
+aeronet-vector==0.2.4
+aeronet-raster==0.2.4
+aeronet-convert==0.2.4
+
+[convert]
+aeronet-convert==0.2.4
+
+[raster]
+aeronet-raster==0.2.4
+
+[vector]
+aeronet-vector==0.2.4
