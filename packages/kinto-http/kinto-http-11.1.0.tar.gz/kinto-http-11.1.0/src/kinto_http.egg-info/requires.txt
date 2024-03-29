@@ -1,0 +1,13 @@
+Unidecode
+requests
+backoff
+
+[dev]
+kinto
+ruff
+pytest
+pytest-asyncio
+pytest-cache
+pytest-cov
+pytest-mock
+pytest-xdist
