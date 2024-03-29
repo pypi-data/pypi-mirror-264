@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+GriffinX/__init__.py
+GriffinX/yolov5.py
+GriffinX/yolov8.py
+GriffinX.egg-info/PKG-INFO
+GriffinX.egg-info/SOURCES.txt
+GriffinX.egg-info/dependency_links.txt
+GriffinX.egg-info/requires.txt
+GriffinX.egg-info/top_level.txt
+tests/test_module1.py
+tests/test_module2.py
