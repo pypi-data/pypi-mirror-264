@@ -1,0 +1,2 @@
+include tokidoro/sounds/*
+include tokidoro/*.json
