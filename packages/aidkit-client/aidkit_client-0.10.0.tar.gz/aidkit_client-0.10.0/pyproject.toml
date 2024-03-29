@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "aidkit-client"
+version = "0.10.0"
+description = "aidkit for your CI/CD and j-notebooks."
+authors = ["neurocat GmbH"]
+readme = "README_PYPI.md"
+license = "Apache-2.0"
+
+packages = [{ include = "aidkit_client" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+httpx = "~0.27"
+pandas = [
+    {version = "^1.5.0", python = "~3.8"},
+    {version = "^2.0.0", python = ">=3.9"},
+]
+numpy = [
+    {version = "^1.21.6", python = "~3.8"},
+    {version = "~1.23.5", python = ">=3.9"},
+]
+pydantic = "1.10.13"
+Pillow = "^10.2.0"
+altair = "^4.2.0"
+jsonschema = "3.2.0"
+matplotlib = "^3.5.3"
+ipywidgets = "^8.0.1"
+ipython = "7.34.0"
+tenacity = "^8.2.1"
+tqdm = "^4.49.0"
+tabulate = "^0.9.0"
+typing-extensions = "~4.5.0"
+
+[tool.poetry.group.dev.dependencies]
+types-tabulate = "^0.8.3"
+types-aiofiles = "^23.2.0.0"
+mypy = "~1.8.0"
+mypy-extensions = "1.0.0"
+twine = "^3.7.0"
+pytest = "^7.4.4"
+pytest-asyncio = "^0.16.0"
+pytest-cov = "~2.7.1"
+types-tqdm = "^4.66.0.20240106"
+types-pillow = "^10.2.0.20240111"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
