@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dis_bg_remover/__init__.py
+dis_bg_remover/remover.py
+dis_bg_remover.egg-info/PKG-INFO
+dis_bg_remover.egg-info/SOURCES.txt
+dis_bg_remover.egg-info/dependency_links.txt
+dis_bg_remover.egg-info/requires.txt
+dis_bg_remover.egg-info/top_level.txt
