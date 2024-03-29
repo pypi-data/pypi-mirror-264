@@ -1,0 +1,5 @@
+pysupercluster_rust-0.1.0.dist-info/METADATA,sha256=qSBB9Mh5HGq3M2ezeOUu35qw8gMV5Hpn0abXPj0DXEw,353
+pysupercluster_rust-0.1.0.dist-info/WHEEL,sha256=zMFqEbfnzfrCkvMDwAwJuCYkZACRQ8CmYGurtlpf9ZQ,127
+pysupercluster/__init__.py,sha256=0yAc_oqxEWN2iWdaBeW5SGeB02M_svviDSpZybUVJsk,139
+pysupercluster/pysupercluster.cpython-311-s390x-linux-gnu.so,sha256=HJHOi9Y21q8yTIX9XFKFCBVoxMg76y2RsxOZhyNggDY,5343152
+pysupercluster_rust-0.1.0.dist-info/RECORD,,
