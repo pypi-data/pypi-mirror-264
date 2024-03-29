@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: fenharel_command_center
+Version: 0.0.3
+Summary: A small package for making quick simple commands
+Project-URL: Homepage, https://gitlab.com/FenHarel/command-center
+Project-URL: Issues, https://gitlab.com/FenHarel/command-center/-/issues
+Author-email: Mike Miller <mikeaamiller117@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Simple utility for creating a terminal cli command center
