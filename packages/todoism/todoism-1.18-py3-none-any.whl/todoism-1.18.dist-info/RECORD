@@ -1,0 +1,13 @@
+todoism/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todoism/command.py,sha256=bVUY27YQl61S9QQHuJxdniMlOPA1wWVtpV4b-jm2ClE,4113
+todoism/main.py,sha256=4hs5xvjKERHgexIHF6s50jNFUUNk2Hy-S4hFvEICFLw,8184
+todoism/print.py,sha256=o5_AzmTPlS18GQXdr-vVKcytBJ62ufmMRa39kDWH8ns,5399
+todoism/settings.py,sha256=TTPhEd4g1MgeQpBEFyG3VjWGdYQsEMAcgmYNZiX15qA,1451
+todoism/task.py,sha256=ajnI1MJOSIykxAuqTp99xvfWqLOO2BlsWE52e19_1cA,1483
+todoism/utils.py,sha256=bucyU5uf3BQjoe-X9We0JyHUiztY4aY3ICqaxFyJf9Q,4646
+todoism-1.18.dist-info/LICENSE,sha256=QlcgK5a3NWWIPRaoLeuanUF5H3A4lDTLxpH9UZhWZNM,1077
+todoism-1.18.dist-info/METADATA,sha256=vvC8qmNcAuG5EQs4h5BrYWcintaBunkmDrHeQDbMcqk,229
+todoism-1.18.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+todoism-1.18.dist-info/entry_points.txt,sha256=UrCIS-xFnmWXlfUmF-lh8frFw-mc8ea9elmEFgK_IXc,69
+todoism-1.18.dist-info/top_level.txt,sha256=iltc_757YUxjdKmgmdg5cdFq-vjkhsRp5OTYpl9UQko,8
+todoism-1.18.dist-info/RECORD,,
