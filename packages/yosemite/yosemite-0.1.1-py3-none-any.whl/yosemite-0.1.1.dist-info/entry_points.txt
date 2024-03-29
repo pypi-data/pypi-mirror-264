@@ -1,0 +1,2 @@
+[console_scripts]
+yosemite = yosemite.__cli__.cli:main
