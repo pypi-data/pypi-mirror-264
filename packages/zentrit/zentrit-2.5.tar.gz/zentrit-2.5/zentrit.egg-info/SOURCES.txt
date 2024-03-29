@@ -1,0 +1,17 @@
+setup.cfg
+setup.py
+zentrit/__init__.py
+zentrit/commands.py
+zentrit/main.py
+zentrit/processor.py
+zentrit/telegram_connector.py
+zentrit.egg-info/PKG-INFO
+zentrit.egg-info/SOURCES.txt
+zentrit.egg-info/dependency_links.txt
+zentrit.egg-info/requires.txt
+zentrit.egg-info/top_level.txt
+zentrit/printers/__init__.py
+zentrit/printers/base_printer.py
+zentrit/printers/console.py
+zentrit/printers/tg_printer.py
+zentrit/printers/window.py
