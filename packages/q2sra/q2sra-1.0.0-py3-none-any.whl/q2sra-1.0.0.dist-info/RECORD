@@ -1,0 +1,16 @@
+q2sra/__init__.py,sha256=MT81U1HuxABnxan_N2KXgvEwjkI896vDcT_1fMD8TnY,22
+q2sra/dada2.py,sha256=GM-VFZV7HjOCpMb1pTmu0TxOeXNuiq0aCXNrTjtHtQI,381
+q2sra/demux.py,sha256=r19IZqtwvBXhvfQkmtSpxS50RCewdRTzx3fICAP-_YM,515
+q2sra/filter_fastq.py,sha256=nYK_vD1RpavkLnx9AdUpxRvNMajIRvmAtnVKMsQORJw,1369
+q2sra/manifest.py,sha256=D6MdFKYxbdWWeiCIEE7Ac9vPqphfmih5kPwlyMTps1o,967
+q2sra/merge_metadata.py,sha256=OjiyR0pSHkvY9h9un9jP8OPdsO0FGK5mFqkHNGb2ppI,590
+q2sra/merge_repseqs.py,sha256=N5Nhkcg3Bcf-bjyyRi7ASbcZR1_HLq7zCCAOs-z-OHw,479
+q2sra/merge_tables.py,sha256=s0ufJHxwNyZyqS86wSGi0gvKJ2W6ic4euBVn6__zKLQ,460
+q2sra/prefetch.py,sha256=LtEqFZWGWXEYm2Nt22YG6TmLYpOcH9vRV48SubHRndc,428
+q2sra/proj.py,sha256=96u9b6Wot9XcQwEA5qQNOGklMuD3bhoglx-FJWAlp80,1735
+q2sra/write_metadata.py,sha256=rnAUAHaV6DoUNdHWLsjQYfhz1TS8I1X6ml5XSbaHU-0,568
+q2sra-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+q2sra-1.0.0.dist-info/METADATA,sha256=hVUwrEs5gXpJLUOUoPpYLYpSsK9gpnkSIM3xhws0aUE,5497
+q2sra-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+q2sra-1.0.0.dist-info/top_level.txt,sha256=P0ZvxRf32T33zpXihLGBNzGKnkPemHPTLF0qPvU1kVQ,6
+q2sra-1.0.0.dist-info/RECORD,,
