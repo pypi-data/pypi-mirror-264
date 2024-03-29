@@ -1,0 +1,10 @@
+ergo3d/CoordinateSystem3D.py,sha256=m-0j9n7AiILWYpCskdmstMG7oj3DvuzU7rfHFiz5ejg,5807
+ergo3d/JointAngles.py,sha256=pEQmejborXUgf5h0Z7oU0dLKKevDKq-5cmEgatPInUQ,16718
+ergo3d/Plane.py,sha256=WugidyJmJMXV5UHadmW2Hg6cvq52JsxOEnsbU5oXs-g,3175
+ergo3d/Point.py,sha256=neKj9Zt_NfCblfvASuMndyrohQuNx4p6TAj9iumn-U8,10358
+ergo3d/__init__.py,sha256=CuBUDPObiBrIEfvw35fNjuGCIs0DLNNdqQszPkL4zLM,157
+ergo3d-0.1.0.dist-info/LICENSE,sha256=-izGhB2bNWqyKrf1cJOlZdpSjeugjK78sy_NJahLQq8,1088
+ergo3d-0.1.0.dist-info/METADATA,sha256=UVSGo5A4kh-OhbGi_NSKQC6QGXWtuCcNpORQRjppMPA,518
+ergo3d-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ergo3d-0.1.0.dist-info/top_level.txt,sha256=UnrHO9W7hS4UJzyvqw-BiaLdRMU2ENua0Gq58lz3lHU,7
+ergo3d-0.1.0.dist-info/RECORD,,
