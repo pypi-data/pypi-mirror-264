@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: PlutoAuth
+Version: 1.0.0
+Summary: Official API Wrapper for Pluto Authentication (https://pluto-mc.net)
+Author: Pluto Development Team
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pydantic
+
