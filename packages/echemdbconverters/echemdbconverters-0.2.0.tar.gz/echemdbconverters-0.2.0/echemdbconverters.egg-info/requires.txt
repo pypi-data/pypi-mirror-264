@@ -1,0 +1,5 @@
+clevercsv
+click<9,>=8
+frictionless<6,>=5
+pandas
+unitpackage<0.9.0,>=0.8.2
