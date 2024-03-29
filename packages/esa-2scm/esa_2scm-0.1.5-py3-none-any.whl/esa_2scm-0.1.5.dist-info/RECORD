@@ -1,0 +1,10 @@
+esa_2scm/LICENSE,sha256=tEFzx3-AJXtkfQ9gcJIoBTnHtBPR4ypm2fwGS3bsPNY,1068
+esa_2scm/__init__.py,sha256=nQOjdqWl6YOuESgfoQ2hrxSgT2A32Mx5Sq96bEey3vA,50
+esa_2scm/models.py,sha256=wfupACTJPc9M6m-6BBhGVArdASlk9cyuzzdTKd2fQhQ,6850
+esa_2scm/syniv/__init__.py,sha256=yFhy0FpS8cSEDQeo46gDBNTLZcJaCalvVncBObj3XzI,32
+esa_2scm/syniv/esa.py,sha256=F70sKSSbZaLDHQRJZJYAMIM6IoZDMU_0z0zNgWGw2fE,4646
+esa_2scm-0.1.5.dist-info/LICENSE,sha256=tEFzx3-AJXtkfQ9gcJIoBTnHtBPR4ypm2fwGS3bsPNY,1068
+esa_2scm-0.1.5.dist-info/METADATA,sha256=gkCRnhZkexZNbT0PTctygL9tMDyR-gU7vOBAHxlHA1o,6244
+esa_2scm-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+esa_2scm-0.1.5.dist-info/top_level.txt,sha256=5jyefTUcbluK70azoS62ewv_Zfoj3XD9MgV2WUOBsp0,9
+esa_2scm-0.1.5.dist-info/RECORD,,
