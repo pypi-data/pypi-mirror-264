@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+quickpub/__init__.py
+quickpub/__main__.py
+quickpub/classifiers.py
+quickpub/files.py
+quickpub/proxy.py
+quickpub/publish.py
+quickpub/py.typed
+quickpub/structures.py
+quickpub.egg-info/PKG-INFO
+quickpub.egg-info/SOURCES.txt
+quickpub.egg-info/dependency_links.txt
+quickpub.egg-info/requires.txt
+quickpub.egg-info/top_level.txt
