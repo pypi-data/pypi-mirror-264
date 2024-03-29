@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: oscillations
+Version: 1.1.0
+Summary: Calculate neutrino oscillation probabilities easily
+Home-page: https://github.com/discully/oscillations
+Author: Daniel I. Scully
+Author-email: discully@users.noreply.github.com
+Classifier: Programming Language :: Python :: 3
+
+Calculate neutrino oscillation probabilities easily
