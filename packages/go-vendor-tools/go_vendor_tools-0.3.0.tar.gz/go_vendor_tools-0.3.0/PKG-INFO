@@ -1,0 +1,79 @@
+Metadata-Version: 2.3
+Name: go-vendor-tools
+Version: 0.3.0
+Summary: Tools for handling Go library vendoring in Fedora
+Project-URL: Homepage, https://fedora.gitlab.io/sigs/go/go-vendor-tools/
+Project-URL: Source, https://gitlab.com/fedora/sigs/go/go-vendor-tools
+Project-URL: Issue Tracker, https://gitlab.com/fedora/sigs/go/go-vendor-tools/-/issues
+Project-URL: Changelog, https://fedora.gitlab.io/sigs/go/go-vendor-tools/news/
+Author-email: Maxwell G <maxwell@gtmx.me>
+Maintainer-email: Maxwell G <maxwell@gtmx.me>, Fedora Go SIG <golang@lists.fedoraproject.org>
+License-Expression: MIT AND BSD-3-Clause
+License-File: LICENSES/BSD-3-Clause.txt
+License-File: LICENSES/MIT.txt
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Requires-Dist: license-expression
+Requires-Dist: tomli; python_version < '3.11'
+Provides-Extra: all
+Requires-Dist: tomlkit; extra == 'all'
+Provides-Extra: codeqa
+Requires-Dist: pymarkdownlnt; extra == 'codeqa'
+Requires-Dist: reuse; extra == 'codeqa'
+Requires-Dist: ruff>=0.3.0; extra == 'codeqa'
+Requires-Dist: shellcheck-py; extra == 'codeqa'
+Provides-Extra: dev
+Requires-Dist: go-vendor-tools[all]; extra == 'dev'
+Requires-Dist: go-vendor-tools[codeqa]; extra == 'dev'
+Requires-Dist: go-vendor-tools[formatters]; extra == 'dev'
+Requires-Dist: go-vendor-tools[test]; extra == 'dev'
+Requires-Dist: go-vendor-tools[typing]; extra == 'dev'
+Requires-Dist: nox; extra == 'dev'
+Provides-Extra: formatters
+Requires-Dist: black; extra == 'formatters'
+Requires-Dist: isort; extra == 'formatters'
+Provides-Extra: test
+Requires-Dist: go-vendor-tools[all]; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
+Provides-Extra: typing
+Requires-Dist: go-vendor-tools[all]; extra == 'typing'
+Requires-Dist: mypy; extra == 'typing'
+Requires-Dist: nox; extra == 'typing'
+Requires-Dist: pytest; extra == 'typing'
+Requires-Dist: pytest-mock; extra == 'typing'
+Requires-Dist: typing-extensions; extra == 'typing'
+Description-Content-Type: text/markdown
+
+<!--
+Copyright (C) 2024 Maxwell G <maxwell@gtmx.me>
+SPDX-License-Identifier: MIT
+-->
+
+# go-vendor-tools
+
+[![CI Badge](https://gitlab.com/gotmax23/go-vendor-tools/badges/main/pipeline.svg)](https://gitlab.com/gotmax23/go-vendor-tools/-/commits/main)
+
+[![Copr build status][copr-badge]][copr-package] (`@go-sig/go-vendor-tools-dev`)
+
+Tools for handling Go library vendoring in Fedora
+
+## Documentation
+
+<https://fedora.gitlab.io/sigs/go/go-vendor-tools/>
+
+## Author
+
+go-vendor-tools was authored by Maxwell G and is maintained by them and the
+Fedora Go SIG.
+
+[copr-badge]: https://copr.fedorainfracloud.org/coprs/g/go-sig/go-vendor-tools-dev/package/go-vendor-tools/status_image/last_build.png
+[copr-package]: https://copr.fedorainfracloud.org/coprs/g/go-sig/go-vendor-tools-dev/package/go-vendor-tools/
