@@ -1,0 +1,17 @@
+_libjpeg.cpython-310-aarch64-linux-gnu.so,sha256=9CBkX8l-Ve8p1tOP7Xr4EeQ7jvSHr-u9iEUd9j89UEk,11936584
+libjpeg/_version.py,sha256=qKe4JucFi62z5dvipAnXvSi9LRgWqrjwTO5Zt_15ViQ,140
+libjpeg/__init__.py,sha256=TnMPizH8U7sKZtRJ5FXhEsKInZ3T_1mSGypGx1STIBU,153
+libjpeg/utils.py,sha256=mxehaZmQvPdTlda-8C57i6Sj9vySgrUglyTM26hvS4k,8850
+libjpeg/_libjpeg.cpp,sha256=twVq6iJKGMsS4JvjirP4e3rqmfvknqxFn1FjoN5yD0M,449457
+libjpeg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libjpeg/_libjpeg.pyx,sha256=C7rw4qToC_RFJmDRZaqtb_bPfPHGqd5X9OlVNGH2VJk,3623
+libjpeg/tests/README.rst,sha256=puSt6_P3e8x92_UZ58Hf6dpbinaDoT2bU5C7v74qxEg,289
+libjpeg/tests/__init__.py,sha256=4pCMlFgj7OY6VZ5ae99z5X39DNSRhQAPSVGgD_B6Ih0,242
+libjpeg/tests/test_parameters.py,sha256=1dBhYiEauC0TTPIvUp7Av2WLvjN7euqhoEScg5PnOkI,12795
+libjpeg/tests/test_decode.py,sha256=v_ghsYD5pR4iF-3TPlcH4THVvblpzvcLSbthB1SH6yo,21081
+libjpeg/tests/test_handler.py,sha256=hqhijxbzbLhUWwcGwYUXD9XuAqUMAf1-ecMG51WLdo8,39399
+pylibjpeg_libjpeg-2.1.0.dist-info/RECORD,,
+pylibjpeg_libjpeg-2.1.0.dist-info/entry_points.txt,sha256=YfAOCT-lZYzmLsUg_m7_JQaXBe9YayiViaZUbXNWf6Q,483
+pylibjpeg_libjpeg-2.1.0.dist-info/METADATA,sha256=zA2-Oqyphh9F75gKR_2aMioxN-LYf_QO646auXx3Uos,4750
+pylibjpeg_libjpeg-2.1.0.dist-info/WHEEL,sha256=PgbnyRbnYNF32ufOOgXmnIGJEFtNzkoiAQTdj5osu68,151
+pylibjpeg_libjpeg-2.1.0.dist-info/LICENSE,sha256=StyEO1r_y8Hyc7CCiQMbmEwoAoWvK3mOYVAtmnc4qUc,32640
