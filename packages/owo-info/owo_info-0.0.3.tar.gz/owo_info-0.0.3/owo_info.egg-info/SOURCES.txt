@@ -1,0 +1,7 @@
+setup.py
+owo_info/__init__.py
+owo_info.egg-info/PKG-INFO
+owo_info.egg-info/SOURCES.txt
+owo_info.egg-info/dependency_links.txt
+owo_info.egg-info/top_level.txt
+test/test_import.py
