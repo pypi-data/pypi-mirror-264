@@ -1,0 +1,6 @@
+[fsspec.specs]
+box=boxfs.boxfs:BoxFileSystem
+
+[universal_pathlib.implementations]
+box=boxfs._upath:BoxPath
+
