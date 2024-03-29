@@ -1,0 +1,8 @@
+server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server/benchmarking.py,sha256=4TOhyz3vyBrGIbsVEyHe07C8hMMuOKPtgvEPZ3-SbYk,1640
+server/server.py,sha256=cMGBJwte5-v5yxcsYi7W-a3LFsZg0xgAJP4zO2tTseA,1697
+qf_server-0.1.dist-info/METADATA,sha256=Bjn91DBn7a9lpae4PkqMRx0_PcuE6MRHOABf6BMEdp4,647
+qf_server-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+qf_server-0.1.dist-info/entry_points.txt,sha256=0a4hrrt0fYP17helCUL5GIiUVV2PeGQSsMDj_189Tz4,52
+qf_server-0.1.dist-info/top_level.txt,sha256=StKOSmRhvWS5IPcvhsDRbtxUTEofJgYFGOu5AAJdSWo,7
+qf_server-0.1.dist-info/RECORD,,
