@@ -1,0 +1,8 @@
+namedpipe/__init__.py,sha256=FVbSoSzNwK07t33iMM1EKVYaRjTJIpkhYp-rXkfS0ng,4683
+namedpipe/_posix.py,sha256=wiBSw_F5hZUvYKDsdN9hW6Xblj9aNdgpR5H7mnESQ5I,2980
+namedpipe/_win32.py,sha256=sfiDahxhaYtrHPuRWBO0qbMfYUlPu-q9G_mYwqq0wmQ,7385
+namedpipe-0.1.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+namedpipe-0.1.1.dist-info/METADATA,sha256=RphsVKeFBBc3uH9Oo6rR4OsMk_Rpx2jK3FJrjmdTu04,895
+namedpipe-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+namedpipe-0.1.1.dist-info/top_level.txt,sha256=KE-NrBu-ZB4K4W66a5cURvq0DBEO-5yebqB23Ri2QyQ,10
+namedpipe-0.1.1.dist-info/RECORD,,
