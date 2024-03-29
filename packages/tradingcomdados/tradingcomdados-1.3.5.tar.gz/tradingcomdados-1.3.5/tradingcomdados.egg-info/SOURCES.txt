@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+tradingcomdados/__init__.py
+tradingcomdados/alternative_data.py
+tradingcomdados/data_provider.py
+tradingcomdados/funds_data.py
+tradingcomdados/portfolio.py
+tradingcomdados/supervised_learning.py
+tradingcomdados/ta_indicators.py
+tradingcomdados/unsupervised_learning.py
+tradingcomdados.egg-info/PKG-INFO
+tradingcomdados.egg-info/SOURCES.txt
+tradingcomdados.egg-info/dependency_links.txt
+tradingcomdados.egg-info/requires.txt
+tradingcomdados.egg-info/top_level.txt
