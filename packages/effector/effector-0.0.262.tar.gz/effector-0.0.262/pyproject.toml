@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["effector"]
+
+[project]
+name = "effector"
+description = "A Python library for global and regional effects"
+authors = [{name = "Vasilis Gkolemis", email = "ntipakos@gmail.com"}]
+requires-python = ">=3.7"
+keywords = ["explainability", "machine learning", "deep learning", "interpretability", "feature effect"]
+version = "0.0.262"
+readme = "README.md"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "tqdm",
+    "shap"
+]
+
+[project.urls]
+documentation = "https://https://xai-effector.github.io/"
+source = "https://github.com/givasile/effector"
+tracker = "https://github.com/givasile/effector/issues"
+
+[project.optional-dependencies]
+tutorials = ["ipython", "pandas", "tensorflow", "keras", "ucimlrepo", "jupyter"]
