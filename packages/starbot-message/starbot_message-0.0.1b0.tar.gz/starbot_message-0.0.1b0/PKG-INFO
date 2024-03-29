@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: starbot-message
+Version: 0.0.1b0
+Summary: StarBot 消息推送接口
+Home-page: https://github.com/Starlwr/StarBotMessage
+License: AGPL-3.0-only
+Keywords: starbot,bilibili,bot
+Author: Starlwr
+Author-email: lwr1104@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.9.3,<4.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: starbot-executor (>=1.3.0,<2.0.0)
+Project-URL: Repository, https://github.com/Starlwr/StarBotMessage
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+# StarBotMessage
+
+[![PyPI](https://img.shields.io/pypi/v/starbot-message)](https://pypi.org/project/starbot-message)
+[![Python](https://img.shields.io/badge/python-3.10%20|%203.11-blue)](https://www.python.org)
+[![License](https://img.shields.io/github/license/Starlwr/StarBotMessage)](https://github.com/Starlwr/StarBotMessage/blob/master/LICENSE)
+[![STARS](https://img.shields.io/github/stars/Starlwr/StarBotMessage?color=yellow&label=Stars)](https://github.com/Starlwr/StarBotMessage/stargazers)
+
+**StarBot 消息推送接口**
+</div>
+
+## 快速开始
+### 安装
+
+```shell
+pip install starbot-message
+```
+
+### 开发
+
+通过继承抽象类 MessageHandler 并在其中实现消息收发方法，即可实现其他平台的消息推送，示例：[example/simple.py](https://github.com/Starlwr/StarBotMessage/blob/master/example/simple.py)
+
+```python
+import abc
+from typing import Union, Tuple, Optional, NoReturn
+
+from starbot_executor import executor
+
+from starbot_message import EventType
+from starbot_message import MessageSend, MessageReceive
+
+
+class MessageHandler(metaclass=abc.ABCMeta):
+    """
+    消息处理器基类，较简单的消息处理器实现请直接继承本类，在构造方法中初始化，并实现消息发送与接收，示例：example/simple.py
+    """
+    platform: str
+    """推送平台唯一标识符，请使用 平台名称/自定义名称(建议使用推送平台实现所在的代码仓库名) 的格式，并注意唯一性，例：QQ/StarBot"""
+
+    account: Union[int, str]
+    """机器人账号"""
+
+    def __init__(self, platform: str, account: Union[int, str]):
+        """
+        请在子类中重写构造方法，在其中使用 super().__init__("平台名称/自定义名称", account) 进行父类构造
+        """
+        if platform is None or account is None:
+            raise ValueError("消息处理器的推送平台标识符及账号不能为空")
+
+        self.platform = platform
+        self.account = account
+
+    @abc.abstractmethod
+    async def run(self) -> NoReturn:
+        """
+        在所有消息处理器注册完毕后，此方法会被依次自动调用，若不需要使用可保留为空实现
+        """
+        pass
+
+    @abc.abstractmethod
+    async def send(self, message: MessageSend) -> Tuple[bool, Optional[str]]:
+        """
+        发送消息，需实现 MessageSend 类型到平台消息类型的转换，并将消息发送至对应平台
+
+        Args:
+            message: 原始发送消息实例
+
+        Returns:
+            由 (是否发送成功, 发送失败原因) 组成的元组，当消息发送成功时忽略第二个返回值
+        """
+        pass
+
+    @classmethod
+    def received(cls, message: MessageReceive) -> NoReturn:
+        """
+        请自行实现消息接收方法，并在接收到消息后，将平台消息类型转换为 MessageReceive 类型后调用此方法，以触发命令
+
+        Args:
+            message: 接收消息实例
+        """
+        executor.dispatch(message, EventType.ReceiveMessageEvent)
+```
+
+对于较复杂的实现，可继承消息处理器抽象工厂实现，示例：[example/complex.py](https://github.com/Starlwr/StarBotMessage/blob/master/example/complex.py)
+
+```python
+import abc
+from typing import Union, List
+
+from starbot_message import MessageHandler
+
+class AbstractMessageHandlerFactory(metaclass=abc.ABCMeta):
+    """
+    消息处理器工厂，较复杂的消息处理器实现请继承本类，实现生产方法，可返回一个或多个 MessageHandler 实例，示例：example/complex.py
+    """
+
+    @abc.abstractmethod
+    async def produce(self, account: Union[int, str]) -> Union[MessageHandler, List[MessageHandler]]:
+        """
+        用于创建复杂的 MessageHandler 实例
+        例如为某平台的好友推送与群推送分别实现消息处理器，可在此初始化后，生成两个对应的 MessageHandler 实例，封装在列表中返回
+        """
+        pass
+```
+
+## 鸣谢
+
+* [StarBotExecutor](https://github.com/Starlwr/StarBotExecutor): 一个基于订阅发布模式的异步执行器
+

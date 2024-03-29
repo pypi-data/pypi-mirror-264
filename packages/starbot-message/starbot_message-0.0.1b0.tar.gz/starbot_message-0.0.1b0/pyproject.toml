@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "starbot-message"
+version = "0.0.1b"
+description = "StarBot 消息推送接口"
+keywords = ["starbot", "bilibili", "bot"]
+license = "AGPL-3.0-only"
+authors = ["Starlwr <lwr1104@qq.com>"]
+readme = "README.md"
+repository = "https://github.com/Starlwr/StarBotMessage"
+packages = [{ include = "starbot_message" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+starbot-executor = "^1.3.0"
+loguru = "^0.7.2"
+aiohttp = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
