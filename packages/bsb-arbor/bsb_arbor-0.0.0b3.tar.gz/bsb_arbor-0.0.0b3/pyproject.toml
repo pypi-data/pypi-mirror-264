@@ -1,0 +1,65 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bsb-arbor"
+authors = [{name = "Robin De Schepper", email = "robingilbert.deschepper@unipv.it"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+dynamic = ["version", "description"]
+dependencies = [
+    "numpy",
+    "bsb-core>=4.0.0b0,<=4.0.0b9999",
+    "arbor~=0.9",
+    "arborize[arbor]>=4.0.0b1"
+]
+
+[project.entry-points."bsb.simulation_backends"]
+arbor = "bsb_arbor"
+
+[tool.flit.module]
+name = "bsb_arbor"
+
+[project.optional-dependencies]
+test = ["bsb-core[parallel]", "bsb-nest>=0.0.0b0", "bsb-test>=0.0.0b0", "coverage~=7.0"]
+
+[tool.isort]
+profile = "black"
+
+[tool.bumpversion]
+current_version = "0.0.0-b3"
+parse = """(?x)
+    (?P<major>0|[1-9]\\d*)\\.
+    (?P<minor>0|[1-9]\\d*)\\.
+    (?P<patch>0|[1-9]\\d*)
+    (?:
+        -                             # dash seperator for pre-release section
+        (?P<pre_l>[a-zA-Z-]+)         # pre-release label
+        (?P<pre_n>0|[1-9]\\d*)        # pre-release version number
+    )?                                # pre-release section is optional
+"""
+serialize = [
+    "{major}.{minor}.{patch}-{pre_l}{pre_n}",
+    "{major}.{minor}.{patch}",
+]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+allow_dirty = false
+commit = true
+message = "Bump version: {current_version} → {new_version}"
+commit_args = "--no-verify"
+
+[tool.bumpversion.parts.pre_l]
+values = ["dev", "a", "b", "rc", "final"]
+optional_value = "final"
+
+[[tool.bumpversion.files]]
+filename = "bsb_arbor/__init__.py"
