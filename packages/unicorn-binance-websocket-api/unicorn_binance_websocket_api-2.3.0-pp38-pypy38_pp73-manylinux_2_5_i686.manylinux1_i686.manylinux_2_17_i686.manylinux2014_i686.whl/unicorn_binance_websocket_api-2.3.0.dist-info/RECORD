@@ -1,0 +1,16 @@
+unicorn_binance_websocket_api/__init__.pypy38-pp73-x86-linux-gnu.so,sha256=Nz0W87fC_bKy38N1iIpF47ldeaIsglVQjEWO0alUVFk,22584
+unicorn_binance_websocket_api/connection.pypy38-pp73-x86-linux-gnu.so,sha256=LOs6ZRfZL-boTqKn28FDsjy2U9f0d1Bq6Wtnv7KGgQY,185904
+unicorn_binance_websocket_api/exceptions.pypy38-pp73-x86-linux-gnu.so,sha256=hhxRCohSOqryliONXXSCw2RqGi5hJzOKxKogdTE_Yhc,56284
+unicorn_binance_websocket_api/connection_settings.pypy38-pp73-x86-linux-gnu.so,sha256=clrXE5uYwoAmdGOuYwknjdp0Tl57eLNP8CFjso-OBx0,54000
+unicorn_binance_websocket_api/licensing_exceptions.pypy38-pp73-x86-linux-gnu.so,sha256=PH3HQaZrVQ91U6PCEn3GEkUFKbv4xq8QIAGkB89CrJ8,22364
+unicorn_binance_websocket_api/restserver.pypy38-pp73-x86-linux-gnu.so,sha256=BTUvZxmH4ksDRaMwSMwifgRWxCEb7RAr5AY1kYcShmE,57024
+unicorn_binance_websocket_api/api.pypy38-pp73-x86-linux-gnu.so,sha256=x2cFGz6RLcgjSg5JgGzsfQI7f1FGX0eanqMoeinfiVk,398588
+unicorn_binance_websocket_api/manager.pypy38-pp73-x86-linux-gnu.so,sha256=0rNeNtjN0KtOiTh17irFZHAbjinUPQRKHehCHjiVkI4,1706004
+unicorn_binance_websocket_api/sockets.pypy38-pp73-x86-linux-gnu.so,sha256=3dRc86lC7fw3jQLXThAIXq-N6U-INVDc5A4Ld0I_Bdw,209952
+unicorn_binance_websocket_api/licensing_manager.pypy38-pp73-x86-linux-gnu.so,sha256=8e0TX3XeqqhmZEnp6SKO9Dm8NzOx6segnG6AJ5Hpz6M,263948
+unicorn_binance_websocket_api/restclient.pypy38-pp73-x86-linux-gnu.so,sha256=WXCQ1d4pKxhsgscSJNJ024xWCJZ9ODi-fKMoJpdMFoE,164636
+unicorn_binance_websocket_api-2.3.0.dist-info/RECORD,,
+unicorn_binance_websocket_api-2.3.0.dist-info/LICENSE,sha256=hHPgwlasJlbmIm-JFVXLmQPXMjdvoecz-nKQV-5rw4U,4232
+unicorn_binance_websocket_api-2.3.0.dist-info/top_level.txt,sha256=805jzwlIjaJ8D50zJxQsRgRosB3WaNnU676MR03tSM0,30
+unicorn_binance_websocket_api-2.3.0.dist-info/METADATA,sha256=8Fe9JXtj1Rw4EGpShJiiwTJy4fHHxQYyJo5EiU8j0YI,48961
+unicorn_binance_websocket_api-2.3.0.dist-info/WHEEL,sha256=IZM9-W9-hBTVXuauuB-9xhElz9-waIYoGOsReUskDhM,237
