@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rgsucher/README.MD
+rgsucher/__init__.py
+rgsucher/requirements.txt
+rgsucher/thirdparty.json
+rgsucher.egg-info/PKG-INFO
+rgsucher.egg-info/SOURCES.txt
+rgsucher.egg-info/dependency_links.txt
+rgsucher.egg-info/requires.txt
+rgsucher.egg-info/top_level.txt

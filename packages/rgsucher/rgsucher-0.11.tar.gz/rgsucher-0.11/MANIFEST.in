@@ -1,0 +1,3 @@
+include rgsucher/requirements.txt
+include rgsucher/thirdparty.json
+include rgsucher/README.MD
