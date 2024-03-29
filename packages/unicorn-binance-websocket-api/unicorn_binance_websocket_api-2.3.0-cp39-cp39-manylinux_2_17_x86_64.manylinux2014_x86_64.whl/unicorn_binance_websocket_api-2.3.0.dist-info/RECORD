@@ -1,0 +1,16 @@
+unicorn_binance_websocket_api/api.cpython-39-x86_64-linux-gnu.so,sha256=XYI9HPI9YkndxiC8O6HfrQXTuNH2beCkop08hAR9hSo,2949848
+unicorn_binance_websocket_api/connection_settings.cpython-39-x86_64-linux-gnu.so,sha256=0OrgBkjZnX7qCYsNwedksWUcACuPiam4T1bagH6azU4,179736
+unicorn_binance_websocket_api/licensing_manager.cpython-39-x86_64-linux-gnu.so,sha256=pyKaOzJ6o7vPSPYpnIvINvZJx0QKXmyttdcQzrbw8ow,2127256
+unicorn_binance_websocket_api/__init__.cpython-39-x86_64-linux-gnu.so,sha256=jISmP5TPVsExWzq8xJpQCnPUYGa9EF9nT0yzwtyQjVQ,91848
+unicorn_binance_websocket_api/restclient.cpython-39-x86_64-linux-gnu.so,sha256=obfbfkI8SARsMaG_bBCINA_noZ_zGVsgwxrwFx0mJmE,1342976
+unicorn_binance_websocket_api/manager.cpython-39-x86_64-linux-gnu.so,sha256=d96dumUZcG3bYaBUuZq8xa5Ko6v5YgVKaeURO3OCgxo,13524184
+unicorn_binance_websocket_api/sockets.cpython-39-x86_64-linux-gnu.so,sha256=_nNJoKhtINt7erPpqb-cH8zPmcu_EGfvDp7rDLj85U0,1579000
+unicorn_binance_websocket_api/exceptions.cpython-39-x86_64-linux-gnu.so,sha256=zhW44l0BT68WNYxBQVSy0O_geDmWHeXjDi8Hj3D5V4M,368992
+unicorn_binance_websocket_api/connection.cpython-39-x86_64-linux-gnu.so,sha256=Tbkl2ejO70VMSviga2TrmFuWN6BLUGQI-WBhc3iYZqg,1422664
+unicorn_binance_websocket_api/restserver.cpython-39-x86_64-linux-gnu.so,sha256=JXszxLJ9mtUlAHjOXgdJrPYve12CIS32QrqFRGf9UHY,354760
+unicorn_binance_websocket_api/licensing_exceptions.cpython-39-x86_64-linux-gnu.so,sha256=ynOEH_Q8rso2VrPypGQdMYhR1bEvdMfmxBd1fajTx7Y,94176
+unicorn_binance_websocket_api-2.3.0.dist-info/RECORD,,
+unicorn_binance_websocket_api-2.3.0.dist-info/LICENSE,sha256=hHPgwlasJlbmIm-JFVXLmQPXMjdvoecz-nKQV-5rw4U,4232
+unicorn_binance_websocket_api-2.3.0.dist-info/top_level.txt,sha256=805jzwlIjaJ8D50zJxQsRgRosB3WaNnU676MR03tSM0,30
+unicorn_binance_websocket_api-2.3.0.dist-info/METADATA,sha256=8Fe9JXtj1Rw4EGpShJiiwTJy4fHHxQYyJo5EiU8j0YI,48961
+unicorn_binance_websocket_api-2.3.0.dist-info/WHEEL,sha256=rY0Y6THYM7EImsHfF-zs67o8pQciAsMw9_YuSvftjrQ,148
