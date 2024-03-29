@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: mse-lib-crypto
+Version: 1.4
+Summary: Cryptography Library for MicroService Encryption
+Author-email: Cosmian Tech <tech@cosmian.com>
+License: MIT
+Classifier: Development Status :: 6 - Mature
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography <43.0.0,>=42.0.5
+Requires-Dist: pynacl <2.0.0,>=1.5.0
+Provides-Extra: deploy
+Requires-Dist: build <2.0.0,>=1.1.1 ; extra == 'deploy'
+Requires-Dist: wheel <0.44.0,>=0.43.0 ; extra == 'deploy'
+Requires-Dist: twine <6.0.0,>=5.0.0 ; extra == 'deploy'
+Provides-Extra: dev
+Requires-Dist: black <25.0.0,>=24.3.0 ; extra == 'dev'
+Requires-Dist: isort <6.0.0,>=5.13.2 ; extra == 'dev'
+Requires-Dist: pylint <4.0.0,>=3.1.0 ; extra == 'dev'
+Requires-Dist: pycodestyle <3.0.0,>=2.11.1 ; extra == 'dev'
+Requires-Dist: pydocstyle <7.0.0,>=6.3.0 ; extra == 'dev'
+Requires-Dist: mypy <2.0.0,>=1.9.0 ; extra == 'dev'
+Requires-Dist: pytest <9.0.0,>=8.1.1 ; extra == 'dev'
+
+# Cryptography Library for MicroService Encryption
+
+## Overview
+
+Python cryptography library for [MSE](https://cosmian.com/microservice-encryption/) based on [PyNaCl](https://github.com/pyca/pynacl/) (binding to [libsodium](https://github.com/jedisct1/libsodium)) and [cryptography](https://github.com/pyca/cryptography).
+
+## Installation
+
+```console
+$ pip install mse-lib-crypto
+```
