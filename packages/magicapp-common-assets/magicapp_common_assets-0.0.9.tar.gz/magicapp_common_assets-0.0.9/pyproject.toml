@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "magicapp-common-assets"
+version = "0.0.9"
+description = "Common assets used in the MagicAPP GPT project."
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+authors = [
+    "Anders Vandvik <anders@sanders.technology>",
+    "Sander Nordeide <sander@sanders.technology>",
+]
+readme = "README.md"
+packages = [{ include = "magicapp_common_assets" }]
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.12"
+pyhumps = "^3.8.0"
+pydantic = "^2.6.3"
