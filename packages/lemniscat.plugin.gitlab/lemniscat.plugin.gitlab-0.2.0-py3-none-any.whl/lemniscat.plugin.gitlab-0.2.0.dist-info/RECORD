@@ -1,0 +1,10 @@
+lemniscat/plugin/gitlab/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+lemniscat/plugin/gitlab/gitLab.py,sha256=UPM5izJ6yEe3qwe2qlpmSY7e0zUGa71ORgGGtB1DCjM,1667
+lemniscat/plugin/gitlab/main.py,sha256=UFM1Twp3kLqxhXWiRihXJkW6AVAvlnm3WkXsKHa416U,3036
+lemniscat/plugin/gitlab/plugin.yaml,sha256=w-ccK5-W2MuqEv3oBdJfemevFBVmusjHaCbwCovNIU8,354
+lemniscat/plugin/gitlab/requirements.txt,sha256=WchvXYNKyGjeTEnnKQGQlp1_p_W9urm0WxjtT1uXp_s,69
+lemniscat.plugin.gitlab-0.2.0.dist-info/LICENSE,sha256=neA9ZkbZOLHVpfBmIYZg-nBZGFwsz7efMjbWn_J4g4s,1073
+lemniscat.plugin.gitlab-0.2.0.dist-info/METADATA,sha256=zRsSSP4XWsvD6X0djy-l9qMo1YyqCGvcMuEB6W7c1SU,790
+lemniscat.plugin.gitlab-0.2.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+lemniscat.plugin.gitlab-0.2.0.dist-info/top_level.txt,sha256=bmoVraF-tb2_14VMpstZFlw0ewylXjllv2bwC8bqw4c,10
+lemniscat.plugin.gitlab-0.2.0.dist-info/RECORD,,
