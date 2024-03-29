@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: xpip.build
+Version: 0.1
+Summary: Python package. Build. Install.
+Home-page: https://github.com/bondbox/xpip/
+Author: Mingzhe Zou
+Author-email: zoumingzhe@outlook.com
+License: GPLv2
+Project-URL: Source Code, https://github.com/bondbox/xpip/
+Project-URL: Bug Tracker, https://github.com/bondbox/xpip/issues
+Project-URL: Documentation, https://github.com/bondbox/xpip/
+Keywords: setuptools,wheel
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xpip
+
+Python package. Build. Install.
+
+## Language
+
+- **[简体中文](docs/zh/README.md)**
+
+## Features
+
+- **Quickly build and install Python package via [xpip-build](docs/xpip-build.md)**
+- **Upload package to PyPI repository via [xpip-upload](docs/xpip-upload.md)**
+- **Manage mirror via [xpip-mirror](docs/xpip-mirror.md)**
+
+

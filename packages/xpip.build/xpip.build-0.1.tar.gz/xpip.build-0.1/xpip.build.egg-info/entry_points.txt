@@ -1,0 +1,3 @@
+[console_scripts]
+xpip-build = xpip_build.cmds:main
+
