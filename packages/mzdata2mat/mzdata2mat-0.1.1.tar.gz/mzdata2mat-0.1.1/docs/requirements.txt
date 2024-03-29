@@ -1,0 +1,5 @@
+javascript
+pydantic
+mat4py
+myst_parser
+sphinx-rtd-theme

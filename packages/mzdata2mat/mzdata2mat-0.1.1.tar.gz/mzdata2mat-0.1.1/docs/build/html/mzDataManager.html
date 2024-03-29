@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mzDataManager &mdash; mzdata2mat 0.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=01f34227"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Matlab saving structure" href="matStructure.html" />
+    <link rel="prev" title="Example Code" href="code-example.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            mzdata2mat
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Infos</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Changelog.html">Changelog</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Quickstart</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-example.html">Example Code</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">mzDataManager</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation">Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#definition">Definition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use">How to use</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#with-path">With path</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#without-path">Without path</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#mzdataxmlread">mzDataXMLread</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">How to use</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#savematfile">saveMatfile</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">How to use</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#convertfile">convertFile</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Presentation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Definition</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">How to use</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="matStructure.html">Matlab saving structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mzData.html">mzData</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mzdata2mat-verify.html">mzdata2mat-verify</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mzDataXMLStruct.html">mzDataXMLStruct</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">mzdata2mat</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">mzDataManager</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/mzDataManager.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mzdatamanager">
+<h1>mzDataManager<a class="headerlink" href="#mzdatamanager" title="Link to this heading"></a></h1>
+<section id="presentation">
+<h2>Presentation<a class="headerlink" href="#presentation" title="Link to this heading"></a></h2>
+<p>Main class used for converting mzData files into matlab files.</p>
+</section>
+<section id="definition">
+<h2>Definition<a class="headerlink" href="#definition" title="Link to this heading"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">mzDataManager</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">mzDataPath</span> <span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">exportPath</span> <span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">useDirectory</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span>
+</pre></div>
+</div>
+</section>
+<section id="how-to-use">
+<h2>How to use<a class="headerlink" href="#how-to-use" title="Link to this heading"></a></h2>
+<section id="with-path">
+<h3>With path<a class="headerlink" href="#with-path" title="Link to this heading"></a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">manager</span> <span class="o">=</span> <span class="n">mzDataManager</span><span class="p">(</span>
+    <span class="n">mzDataPath</span> <span class="o">=</span> <span class="s2">&quot;Some/Path&quot;</span><span class="p">,</span>
+    <span class="n">exportPath</span> <span class="o">=</span> <span class="s2">&quot;Some/Export/Path&quot;</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>The path you specify in those arguments will be stored in the class, so when you use the integrated functions, you only need to specify the relative path to the file.</p>
+</section>
+<section id="without-path">
+<h3>Without path<a class="headerlink" href="#without-path" title="Link to this heading"></a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">manager</span> <span class="o">=</span> <span class="n">mzDataManager</span><span class="p">(</span><span class="n">useDirectory</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Setting up the class this way will require to specify each time you call a function to give the full path and the export directory.</p>
+</section>
+</section>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Link to this heading"></a></h2>
+<section id="mzdataxmlread">
+<h3>mzDataXMLread<a class="headerlink" href="#mzdataxmlread" title="Link to this heading"></a></h3>
+<section id="id1">
+<h4>Presentation<a class="headerlink" href="#id1" title="Link to this heading"></a></h4>
+<p>This function reads a <code class="docutils literal notranslate"><span class="pre">.mzData.xml</span></code> file and returns a <code class="docutils literal notranslate"><span class="pre">mzData</span></code> structure which can be modified before saving it’s data to a <code class="docutils literal notranslate"><span class="pre">.mat</span></code> file (See <a class="reference internal" href="mzData.html"><span class="std std-doc">mzData</span></a> class for further details).</p>
+</section>
+<section id="id2">
+<h4>Definition<a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mzDataXMLread</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzDataManager</span><span class="p">,</span> <span class="n">fileName</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">customDirectory</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id3">
+<h4>How to use<a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Considering that mzDataManager class has been intialized before and stored as manager variable</span>
+
+<span class="n">content</span> <span class="o">=</span> <span class="n">manager</span><span class="o">.</span><span class="n">mzDataXMLread</span><span class="p">(</span>
+    <span class="n">fileName</span><span class="o">=</span><span class="n">Path2File</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><u>Parameters</u></p>
+<ul class="simple">
+<li><p>If directories were provided in the init process :</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">fileName</span></code> : Relative path of the <code class="docutils literal notranslate"><span class="pre">mzData.xml</span></code> file to read</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">customDirectory</span></code> : Set this parameter to <code class="docutils literal notranslate"><span class="pre">True</span></code> if you provide a full path which is different than the one specified in the init process.</p></li>
+</ul>
+</li>
+<li><p>Otherwise :</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">fileName</span></code> : Full path to the <code class="docutils literal notranslate"><span class="pre">mzData.xml</span></code> file to read</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">customDirectory</span></code> : Does nothing</p></li>
+</ul>
+</li>
+</ul>
+<p><u>Outputs</u></p>
+<ul class="simple">
+<li><p>Outputs a <code class="docutils literal notranslate"><span class="pre">mzData</span></code> class containing the content of the file parsed.</p></li>
+</ul>
+</section>
+</section>
+<section id="savematfile">
+<h3>saveMatfile<a class="headerlink" href="#savematfile" title="Link to this heading"></a></h3>
+<section id="id4">
+<h4>Presentation<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>Saves a <code class="docutils literal notranslate"><span class="pre">mzData</span></code> class into a <code class="docutils literal notranslate"><span class="pre">.mat</span></code> file with all metadata included.</p>
+</section>
+<section id="id5">
+<h4>Definition<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">saveMatfile</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzDataManager</span><span class="p">,</span> <span class="n">mzData</span> <span class="p">:</span> <span class="n">mzData</span><span class="p">,</span> <span class="n">remove</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">dir2Save</span> <span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">force</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id6">
+<h4>How to use<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Considering that mzDataManager class has been intialized before and stored as manager variable</span>
+
+<span class="c1"># Considering also the variable content which is the result of the function mzDataXMLread presented above</span>
+
+<span class="n">manager</span><span class="o">.</span><span class="n">saveMatFile</span><span class="p">(</span>
+    <span class="n">mzData</span><span class="o">=</span><span class="n">content</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><u>Parameters</u></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">mzData</span></code> : The <code class="docutils literal notranslate"><span class="pre">mzData</span></code> structure to save as a <code class="docutils literal notranslate"><span class="pre">.mat</span></code> file. (See <a class="reference internal" href="matStructure.html"><span class="std std-doc">here</span></a> for the <code class="docutils literal notranslate"><span class="pre">.mat</span></code> file structure)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove</span></code> : Should the original file (so the original <code class="docutils literal notranslate"><span class="pre">.mzData.xml</span></code> file) be removed when save is complete ?</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">force</span></code> : If a <code class="docutils literal notranslate"><span class="pre">.mat</span></code> file already exists with the same name in the export folder, should it be replaced ? If this parameter is set to <code class="docutils literal notranslate"><span class="pre">False</span></code>, save will be aborted if a file is found.</p></li>
+<li><p>If directories were not provided during init process:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">dir2save</span></code> : Full directory specifying where to save the converted file. If this parameter is set while a directory was specified in the init process, this value is prioritized.</p></li>
+</ul>
+</li>
+</ul>
+<p><u>Outputs</u><br>
+If function ran correctly, no output, otherwise raises the error.</p>
+</section>
+</section>
+<section id="convertfile">
+<h3>convertFile<a class="headerlink" href="#convertfile" title="Link to this heading"></a></h3>
+<section id="id7">
+<h4>Presentation<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<p>All in one function. Reads <code class="docutils literal notranslate"><span class="pre">mzData.xml</span></code> file and automatically saves it into the export folder. No transition to the <code class="docutils literal notranslate"><span class="pre">mzData</span></code> class.</p>
+</section>
+<section id="id8">
+<h4>Definition<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">convertFile</span><span class="p">(</span><span class="bp">self</span><span class="nd">@mzDataManager</span><span class="p">,</span> <span class="n">fileName</span> <span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">customDirectory</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">dir2Save</span> <span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">force</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">remove</span> <span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="id9">
+<h4>How to use<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Considering that mzDataManager class has been intialized before and stored as manager variable</span>
+
+<span class="n">manager</span><span class="o">.</span><span class="n">convertFile</span><span class="p">(</span>
+    <span class="n">fileName</span><span class="o">=</span><span class="n">FileName</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p><u>Parameters</u></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">fileName</span></code> :<br></p>
+<ul>
+<li><p>Should be the full path to the file and it’s extension (.mzdata.xml) to convert if no value was given to <code class="docutils literal notranslate"><span class="pre">mzDataPath</span></code> when initializing the class.</p></li>
+<li><p>Otherwise, the file’s relative path with it’s extension (.mzdata.xml)</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">customDirectory</span></code> : Set this parameter to <code class="docutils literal notranslate"><span class="pre">True</span></code> if the <code class="docutils literal notranslate"><span class="pre">fileName</span></code> is in a different path than the one given in configuration.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dir2Save</span></code>   : Save directory to save the .mat file. If path was given in configuration, it is not needed. This parameter will be prioritised over the path given in configuration (if any).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">force</span></code>      : If a file has the same name in the converted folder, should it be replaced ? (File will not be saved if sibling found in convert folder and this parameter set to <code class="docutils literal notranslate"><span class="pre">False</span></code>.)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">remove</span></code>     : Should the original file be removed when it is saved as <code class="docutils literal notranslate"><span class="pre">.mat</span></code> file ?</p></li>
+</ul>
+<p><u>Outputs</u><br>
+No outputs</p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="code-example.html" class="btn btn-neutral float-left" title="Example Code" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="matStructure.html" class="btn btn-neutral float-right" title="Matlab saving structure" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, CORDELLA Maxime.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
