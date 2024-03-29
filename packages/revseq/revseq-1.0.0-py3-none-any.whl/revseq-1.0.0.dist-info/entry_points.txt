@@ -1,0 +1,2 @@
+[console_scripts]
+revseq = revseq.__main__:app
