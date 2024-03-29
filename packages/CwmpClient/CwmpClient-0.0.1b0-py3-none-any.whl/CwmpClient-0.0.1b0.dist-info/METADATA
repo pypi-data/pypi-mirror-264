@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: CwmpClient
+Version: 0.0.1b0
+Maintainer: Remi BONNET
+Maintainer-email: bonnet@dites.team
+License-File: LICENSE
+Requires-Dist: aiohttp
+
