@@ -1,0 +1,13 @@
+remote_compression/__init__.py,sha256=Pywr89EK2dj8FTd4qPT4Hr1EHWGh1a9WqHLV5aM4xCQ,137
+remote_compression/cli.py,sha256=kQuDnmUshlQ3kH2IVQhWRCJhD1_mbrEtQBrnX6KxtcA,2221
+remote_compression/compression.py,sha256=iPcXrWmsTx1OENJEiPSrQNoBEddufPLF0fsNEb8J4CA,2303
+remote_compression/recurse.py,sha256=m3PoWjEhtvrbQv-Irvqv_tjJcCXH0Jn2voYyycVSAI0,1263
+remote_compression/remote_compression.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+remote_compression/settings.py,sha256=I8jf2i3hyPiSH-ngHUc68aHYI51y8j4TiRWYhKqv5ks,4507
+remote_compression/ssh.py,sha256=d7Pw7fjMcstD-p1aOgTneiMhRHvkJY1XpE7R2jT6WDI,2422
+remote_compression-0.1.0.dist-info/AUTHORS.md,sha256=MwU7Ifo0u9aC9KQ1xyLRmo0LCdgUk1WEDeqrx0auirE,118
+remote_compression-0.1.0.dist-info/LICENSE,sha256=KTcVAWBeFcFqHMLeGl2L3RzN5k9opkgpxXy1mqNDAUs,1073
+remote_compression-0.1.0.dist-info/METADATA,sha256=2C32GJqeqcSyvwGbBZsfXP3QyzDNYNxA-LPn6UA_CfM,2229
+remote_compression-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+remote_compression-0.1.0.dist-info/entry_points.txt,sha256=w7hJjK0PNFUDzb4pD2jlthEh0I9cFGQX9RFdl-ZcUtM,53
+remote_compression-0.1.0.dist-info/RECORD,,
