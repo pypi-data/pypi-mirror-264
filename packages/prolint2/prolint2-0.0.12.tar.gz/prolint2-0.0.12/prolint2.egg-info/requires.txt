@@ -1,0 +1,6 @@
+pandas
+mdanalysis
+bottle
+typer[all]
+requests
+typing_extensions
