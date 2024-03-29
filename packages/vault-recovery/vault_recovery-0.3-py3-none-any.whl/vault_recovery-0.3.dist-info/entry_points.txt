@@ -1,0 +1,2 @@
+[console_scripts]
+vault = vault.__main__:main
