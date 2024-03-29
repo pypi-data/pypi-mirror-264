@@ -1,0 +1,13 @@
+casioplot/__init__.py,sha256=V62SQXP4ZPHXRvFKiB3AMvImNX5cXbOIc5HCcUMWS6A,239
+casioplot/casioplot.py,sha256=K0bPEIkW_oHItHnWd5sqiP0wFHAVRL_ogWtql3S-nQw,8178
+casioplot/characters.py,sha256=VEmxnlnNCcnRnT6lc_iTSYB5nOTADWGyvJM2VEQqdUU,126571
+casioplot/configs.py,sha256=6yEUvEdOREAnglbJPS3h8Vv-LTYKRDZG1gi6f2DQpbM,1852
+casioplot/configuration_type.py,sha256=VVsplbe34IpLqAYt2uC4FB1os641YTnGbSd2CXI9pqM,1320
+casioplot/get_config.py,sha256=JB2zZYHPCKPhsbOXbEzotZLBs9mNeM79c_eg5ZYLIic,3587
+casioplot/images/blanck.png,sha256=6HiVD4CR7AEM9cxyO96gJ6hTnPcUfP6hmcL2ZiMtzU4,69
+casioplot/images/calculator.png,sha256=Ndo1GgnpPb6sGkgKubsVCGbb-ED3MVlwshJ2DpynRac,1165
+casioplot-2.2.1.dist-info/LICENSE,sha256=mJQCDfROKETGlz2lbBn9DJ26r-ifzdV4Xk0eBGrYCxA,1063
+casioplot-2.2.1.dist-info/METADATA,sha256=qmr0XZwMWAEsbnW0V1U5Y6BeJ-qGxQi7vtei21vNQQc,4521
+casioplot-2.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+casioplot-2.2.1.dist-info/top_level.txt,sha256=57gcHHFNJkdip1DY8b19zIACIZC4KrDxkctptDzx3wc,10
+casioplot-2.2.1.dist-info/RECORD,,
