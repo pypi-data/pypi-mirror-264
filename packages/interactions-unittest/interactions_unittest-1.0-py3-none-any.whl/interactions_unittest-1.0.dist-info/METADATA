@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: interactions_unittest
+Version: 1.0
+Summary: Unofficial unittest extension for discord-py-interactions
+Home-page: https://github.com/Pilot1782/interactions_unittest
+Author: Pilot1782
+Author-email: Pilot1782 <34791564a@gmail.com>
+License: GNU
+Project-URL: Homepage, https://github.com/Pilot1782/interactions_unittest
+Project-URL: Issues, https://github.com/Pilot1782/interactions_unittest/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: discord-py-interactions
+
+## Features
+- [X] context.edit message
+- [X] context.delete message
+- [X] context.send message
+- [X] context.defer
+- [X] message.delete
+- [X] message.edit
+- [X] message.reply
+- [X] message.react
