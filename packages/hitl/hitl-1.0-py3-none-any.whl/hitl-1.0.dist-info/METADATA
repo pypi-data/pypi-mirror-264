@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hitl
+Version: 1.0
+Summary: An uploader tool for the HITL platform.
+Author: Luke Connolly
+Author-email: luke.connolly2@ucdconnect.ie
+License: MIT
+License-File: LICENCE
+Requires-Dist: requests
+
