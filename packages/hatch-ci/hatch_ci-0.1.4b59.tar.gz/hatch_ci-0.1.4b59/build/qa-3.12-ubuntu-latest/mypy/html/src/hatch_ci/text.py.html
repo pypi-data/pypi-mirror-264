@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="../../../mypy-html.css">
+</head>
+<body>
+<h2>hatch_ci.text</h2>
+<table>
+<caption>src/hatch_ci/text.py</caption>
+<tbody><tr>
+<td class="table-lines"><pre><span id="L1" class="lineno"><a class="lineno" href="#L1">1</a></span>
+<span id="L2" class="lineno"><a class="lineno" href="#L2">2</a></span>
+<span id="L3" class="lineno"><a class="lineno" href="#L3">3</a></span>
+<span id="L4" class="lineno"><a class="lineno" href="#L4">4</a></span>
+<span id="L5" class="lineno"><a class="lineno" href="#L5">5</a></span>
+<span id="L6" class="lineno"><a class="lineno" href="#L6">6</a></span>
+<span id="L7" class="lineno"><a class="lineno" href="#L7">7</a></span>
+<span id="L8" class="lineno"><a class="lineno" href="#L8">8</a></span>
+<span id="L9" class="lineno"><a class="lineno" href="#L9">9</a></span>
+<span id="L10" class="lineno"><a class="lineno" href="#L10">10</a></span>
+<span id="L11" class="lineno"><a class="lineno" href="#L11">11</a></span>
+<span id="L12" class="lineno"><a class="lineno" href="#L12">12</a></span>
+<span id="L13" class="lineno"><a class="lineno" href="#L13">13</a></span>
+<span id="L14" class="lineno"><a class="lineno" href="#L14">14</a></span>
+<span id="L15" class="lineno"><a class="lineno" href="#L15">15</a></span>
+<span id="L16" class="lineno"><a class="lineno" href="#L16">16</a></span>
+<span id="L17" class="lineno"><a class="lineno" href="#L17">17</a></span>
+<span id="L18" class="lineno"><a class="lineno" href="#L18">18</a></span>
+<span id="L19" class="lineno"><a class="lineno" href="#L19">19</a></span>
+<span id="L20" class="lineno"><a class="lineno" href="#L20">20</a></span>
+<span id="L21" class="lineno"><a class="lineno" href="#L21">21</a></span>
+<span id="L22" class="lineno"><a class="lineno" href="#L22">22</a></span>
+<span id="L23" class="lineno"><a class="lineno" href="#L23">23</a></span>
+<span id="L24" class="lineno"><a class="lineno" href="#L24">24</a></span>
+</pre></td>
+<td class="table-code"><pre><span class="line-precise" title="No Anys on this line!">from __future__ import annotations</span>
+<span class="line-empty" title="No Anys on this line!"></span>
+<span class="line-empty" title="No Anys on this line!"></span>
+<span class="line-precise" title="No Anys on this line!">def indent(txt: str, pre: str = " " * 2) -&gt; str:</span>
+<span class="line-empty" title="No Anys on this line!">    """simple text indentation"""</span>
+<span class="line-empty" title="No Anys on this line!"></span>
+<span class="line-precise" title="No Anys on this line!">    from textwrap import dedent</span>
+<span class="line-empty" title="No Anys on this line!"></span>
+<span class="line-precise" title="No Anys on this line!">    txt = dedent(txt)</span>
+<span class="line-precise" title="No Anys on this line!">    if txt.endswith("\n"):</span>
+<span class="line-precise" title="No Anys on this line!">        last_eol = "\n"</span>
+<span class="line-precise" title="No Anys on this line!">        txt = txt[:-1]</span>
+<span class="line-empty" title="No Anys on this line!">    else:</span>
+<span class="line-precise" title="No Anys on this line!">        last_eol = ""</span>
+<span class="line-empty" title="No Anys on this line!"></span>
+<span class="line-precise" title="No Anys on this line!">    result = pre + txt.replace("\n", "\n" + pre) + last_eol</span>
+<span class="line-precise" title="No Anys on this line!">    return result if result.strip() else result.strip()</span>
+<span class="line-empty" title="No Anys on this line!"></span>
+<span class="line-empty" title="No Anys on this line!"></span>
+<span class="line-precise" title="No Anys on this line!">def lstrip(txt: str, ending: str | list[str]) -&gt; str:</span>
+<span class="line-precise" title="Any Types on this line: 
+Omitted Generics (x3)">    endings = ending if isinstance(ending, list) else [ending]</span>
+<span class="line-precise" title="No Anys on this line!">    for left in endings:</span>
+<span class="line-precise" title="No Anys on this line!">        txt = txt[len(left) :] if txt.startswith(left) else txt</span>
+<span class="line-precise" title="No Anys on this line!">    return txt</span>
+</pre></td>
+</tr></tbody>
+</table>
+</body>
+</html>

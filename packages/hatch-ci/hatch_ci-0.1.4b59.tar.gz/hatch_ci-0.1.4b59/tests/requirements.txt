@@ -1,0 +1,24 @@
+build
+click
+coveragepy
+hatch
+jeepney
+jinja2
+lxml
+mock
+mypy == 1.9.0
+mypy-extensions
+pre-commit
+pycparser
+pyfakefs
+pytest
+pytest-cov
+pytest-html
+pytest-subtests
+pytest-xdist
+ruff == 0.3.4
+toml
+tomli
+types-toml
+typing_extensions
+wheel >= 0.43.0
