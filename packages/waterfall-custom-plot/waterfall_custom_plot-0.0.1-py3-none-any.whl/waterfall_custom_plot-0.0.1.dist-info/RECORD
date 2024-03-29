@@ -1,0 +1,16 @@
+waterfall_custom_plot/__init__.py,sha256=qz8rWhgfwpFwXPhk5oF6ofJWo78b2XHd8xYwWlrdJb0,943
+waterfall_custom_plot/example.py,sha256=sTP5QC1QTnYw5kB-tblsstcemnEzOwMTi66JmPoEeBQ,845
+waterfall_custom_plot/frontend/build/asset-manifest.json,sha256=pr7Dsksp8nuhPOc-I4KKiTn2zKpBJP5X1_eU1uPLgBk,374
+waterfall_custom_plot/frontend/build/bootstrap.min.css,sha256=X9ITP3t3djkRs4SffIkA1Q2WMy-oYl6au5HFYTVShe0,206960
+waterfall_custom_plot/frontend/build/bootstrap.min.css.map,sha256=8SM4U2NQpCLGTQLW5D_x3qSTwxVq2CP-GXYc3V1WwFs,589892
+waterfall_custom_plot/frontend/build/index.html,sha256=sNMkm1IihmJYfHNODTp3vXYnPKgKQBOZnFqhPsTsYm8,553
+waterfall_custom_plot/frontend/build/static/css/main.22c72976.css,sha256=kyypxu5gOwTG8-7iruw_2OwngTXMEuPrZjz63UqLGAg,2833
+waterfall_custom_plot/frontend/build/static/css/main.22c72976.css.map,sha256=4rDQty-5jSIj6foiHcrQo5rqPAT0tZYDSOYoBMRSYAE,4278
+waterfall_custom_plot/frontend/build/static/js/main.bbd83478.js,sha256=bKIx9iaFOaAX3Bl72Q0hSf-O-StdEohgkXTQjI-uEf0,380904
+waterfall_custom_plot/frontend/build/static/js/main.bbd83478.js.LICENSE.txt,sha256=NVg_xX7uJeMONytZUcILJQX3fKCxxwdigyGjBfS0PCU,1540
+waterfall_custom_plot/frontend/build/static/js/main.bbd83478.js.map,sha256=hR4V6dEw6pdpE0fB1_3fIdxhRRd37GVyQ_EelQyQsSA,1517169
+waterfall_custom_plot-0.0.1.dist-info/LICENSE,sha256=SHkHX-qiNZt-ACArrZP67jppVYPvF8xuUDRjJw_E3L0,1082
+waterfall_custom_plot-0.0.1.dist-info/METADATA,sha256=pOm4Ys_e5BeGByDuzbvLlY8dkPBEwDMNEYhPJR4i3LU,580
+waterfall_custom_plot-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+waterfall_custom_plot-0.0.1.dist-info/top_level.txt,sha256=FL-Na5aPe55wIuW7Jt2YH60lbJHZxLLafQENM5xwQQ4,22
+waterfall_custom_plot-0.0.1.dist-info/RECORD,,
