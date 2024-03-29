@@ -1,0 +1,8 @@
+[project]
+name = "collectiontools"
+version = "0.1.0"
+readme = "README.md"
+description = "Functions to handle `collections` efficiently."
+
+[tool.setuptools.packages]
+find = {}
