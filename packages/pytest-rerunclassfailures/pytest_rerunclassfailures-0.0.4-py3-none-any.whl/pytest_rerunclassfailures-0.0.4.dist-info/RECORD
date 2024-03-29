@@ -1,0 +1,8 @@
+pytest_rerunclassfailures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_rerunclassfailures/pytest_rerunclassfailures.py,sha256=9RsEG7V14kceihEsLXB_-mRzWPYLBeTR6JYuOwSWhgY,14422
+pytest_rerunclassfailures/requirements.txt,sha256=-lgMiIYBOmy4CeQOV4SEmM0A22hl4fdOu_ASeh66zC4,28
+pytest_rerunclassfailures-0.0.4.dist-info/METADATA,sha256=nJlZt0K9eSqR1MnbrGYk5J5QTeKky0Eur7vdEWBs-yI,6467
+pytest_rerunclassfailures-0.0.4.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+pytest_rerunclassfailures-0.0.4.dist-info/entry_points.txt,sha256=1l43sW_C3wLBo9Nb6b0FCRbX8Hh4meLUiH4fcKx6bS4,91
+pytest_rerunclassfailures-0.0.4.dist-info/licenses/LICENSE,sha256=Gu3b3Bc7PUPQbwO5tvV3duzBEffzxJ92eczi7GDHLMQ,1074
+pytest_rerunclassfailures-0.0.4.dist-info/RECORD,,
