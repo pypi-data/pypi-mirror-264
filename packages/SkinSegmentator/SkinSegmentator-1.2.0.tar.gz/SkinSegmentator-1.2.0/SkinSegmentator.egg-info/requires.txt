@@ -1,0 +1,14 @@
+torch>=2.0.0
+numpy
+psutil
+SimpleITK
+nibabel>=2.3.0
+tqdm>=4.45.0
+p_tqdm
+xvfbwrapper
+fury
+nnunetv2>=2.2.1
+requests
+rt_utils
+dicom2nifti
+pyarrow
