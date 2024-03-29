@@ -1,0 +1,11 @@
+build_vocabulary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+build_vocabulary/file_reader.py,sha256=fMQAXDGX2Q237Qs7097W-odsRfLRVuY_yWG4NfjkjFM,3092
+build_vocabulary/main.py,sha256=CCWeiTKV_37gRCM3MFNC9V3AsOSP3LNx3788xTLzoyw,10512
+build_vocabulary/.assert/60000.txt,sha256=yKPrX0NIQ_OXEg8A3rOS6r61BA9M9aj8B8lts8xpMAY,651699
+build_vocabulary/vocabulary/main.txt,sha256=V3BzEMcJcErJ_Pl2j35r3NlOSPZYkykaZqYQ9eP43Oc,815
+build_vocabulary-0.1.7.dist-info/LICENSE,sha256=YyauYN14yFsfL2_zCO8WFf-TkyMnDYOOjrqyD13hqMU,9719
+build_vocabulary-0.1.7.dist-info/METADATA,sha256=ImxUqbzq29Slkly79MvL1TihWYQWV9e9Vp4ivjeqKNU,3543
+build_vocabulary-0.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+build_vocabulary-0.1.7.dist-info/entry_points.txt,sha256=UBgTlAd0iTpU2q-fyfKy8tEazyPaVl6afIE9YZ-Fhic,64
+build_vocabulary-0.1.7.dist-info/top_level.txt,sha256=dM2C0T9ZH3Sq2Xvym51qg7d5e4PSm_UutJv9Jx6ag2E,17
+build_vocabulary-0.1.7.dist-info/RECORD,,
