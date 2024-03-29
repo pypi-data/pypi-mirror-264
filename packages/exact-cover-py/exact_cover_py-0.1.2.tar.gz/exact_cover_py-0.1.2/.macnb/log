@@ -1,0 +1,90 @@
+Fail to get yarn configuration. dyld[29232]: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.73.dylib
+  Referenced from: <5F9280FB-E1E8-3224-8E52-8041F11D3213> /usr/local/Cellar/node/21.5.0/bin/node
+  Reason: tried: '/usr/local/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache), '/usr/local/Cellar/icu4c/74.2/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/Cellar/icu4c/74.2/lib/libicui18n.73.dylib' (no such file), '/usr/local/Cellar/icu4c/74.2/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache)
+
+[I 2024-03-20 14:33:29.143 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-03-20 14:33:29.149 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2024-03-20 14:33:29.151 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-20 14:33:29.152 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-03-20 14:33:29.158 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[W 2024-03-20 14:33:29.158 ServerApp] ServerApp.iopub_data_rate_limit config is deprecated in 2.0. Use ZMQChannelsWebsocketConnection.iopub_data_rate_limit.
+[I 2024-03-20 14:33:29.158 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-03-20 14:33:29.158 ServerApp] jupyterlab_jupytext | extension was successfully linked.
+[I 2024-03-20 14:33:29.167 ServerApp] notebook | extension was successfully linked.
+[I 2024-03-20 14:33:29.695 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-03-20 14:33:29.767 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-03-20 14:33:29.773 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-03-20 14:33:29.774 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-03-20 14:33:29.777 LabApp] JupyterLab extension loaded from /Users/tparment/miniconda3/envs/exact-cover-py/lib/python3.12/site-packages/jupyterlab
+[I 2024-03-20 14:33:29.777 LabApp] JupyterLab application directory is /Users/tparment/miniconda3/envs/exact-cover-py/share/jupyter/lab
+[I 2024-03-20 14:33:29.778 LabApp] Extension Manager is 'pypi'.
+[I 2024-03-20 14:33:29.804 ServerApp] jupyterlab | extension was successfully loaded.
+[W 2024-03-20 14:33:29.804 ServerApp] [Jupytext Server Extension] Async contents managers like AsyncLargeFileManager are not supported at the moment (https://github.com/mwouts/jupytext/issues/1020). We will derive a contents manager from LargeFileManager instead.
+[I 2024-03-20 14:33:29.804 ServerApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 2024-03-20 14:33:29.807 ServerApp] jupyterlab_jupytext | extension was successfully loaded.
+[I 2024-03-20 14:33:29.814 ServerApp] notebook | extension was successfully loaded.
+[I 2024-03-20 14:33:29.816 ServerApp] Serving notebooks from local directory: /Users/tparment/git/exact-cover-py
+[I 2024-03-20 14:33:29.816 ServerApp] Jupyter Server 2.13.0 is running at:
+[I 2024-03-20 14:33:29.816 ServerApp] http://localhost:52710/lab?token=...
+[I 2024-03-20 14:33:29.816 ServerApp]     http://127.0.0.1:52710/lab?token=...
+[I 2024-03-20 14:33:29.816 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-03-20 14:33:29.871 ServerApp] Could not determine npm prefix: Command '['/usr/local/bin/npm', 'prefix', '-g']' died with <Signals.SIGABRT: 6>.
+[I 2024-03-20 14:33:29.879 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-03-20 14:33:33.231 LabApp] Failed validating settings (jupyterlab-jupytext:plugin): Additional properties are not allowed ('category' was unexpected)
+    
+    Failed validating 'additionalProperties' in schema:
+        {'additionalProperties': False,
+         'description': 'List of Jupytext Text Notebook formats that will be '
+                        'added to launcher and jupytext menu.',
+         'properties': {'NOTE': {'description': 'Refresh the current browser '
+                                                'tab for the changes to take '
+                                                'effect.',
+                                 'type': 'null'},
+                        'Rmd': {'default': False,
+                                'title': 'R Markdown Notebook',
+                                'type': 'boolean'},
+                        'auto:hydrogen': {'default': False,
+                                          'title': 'Text Notebook as Script in '
+                                                   'Hydrogen Format',
+                                          'type': 'boolean'},
+                        'auto:light': {'default': False,
+                                       'title': 'Text Notebook as Script in '
+                                                'Light Format',
+                                       'type': 'boolean'},
+                        'auto:nomarker': {'default': False,
+                                          'title': 'Text Notebook as Script in '
+                                                   'Nomarker Format',
+                                          'type': 'boolean'},
+                        'auto:percent': {'default': True,
+                                         'title': 'Text Notebook as Script in '
+                                                  'Percent Format',
+                                         'type': 'boolean'},
+                        'md': {'default': False,
+                               'title': 'Markdown Notebook',
+                               'type': 'boolean'},
+                        'md:myst': {'default': True,
+                                    'title': 'MyST Markdown Notebook',
+                                    'type': 'boolean'},
+                        'qmd': {'default': False,
+                                'title': 'Quarto Markdown Notebook',
+                                'type': 'boolean'}},
+         'title': 'Jupytext',
+         'type': 'object'}
+    
+    On instance:
+        {'Rmd': False,
+         'auto:hydrogen': False,
+         'auto:light': False,
+         'auto:nomarker': False,
+         'auto:percent': True,
+         'category': 'Jupytext',
+         'md': False,
+         'md:myst': True,
+         'qmd': False}
+dyld[29274]: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.73.dylib
+  Referenced from: <5F9280FB-E1E8-3224-8E52-8041F11D3213> /usr/local/Cellar/node/21.5.0/bin/node
+  Reason: tried: '/usr/local/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/opt/icu4c/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache), '/usr/local/Cellar/icu4c/74.2/lib/libicui18n.73.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/Cellar/icu4c/74.2/lib/libicui18n.73.dylib' (no such file), '/usr/local/Cellar/icu4c/74.2/lib/libicui18n.73.dylib' (no such file), '/usr/local/lib/libicui18n.73.dylib' (no such file), '/usr/lib/libicui18n.73.dylib' (no such file, not in dyld cache)
+[W 2024-03-20 14:33:33.529 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-20 14:33:33.724 ServerApp] Loaded Jupytext configuration file at /Users/tparment/.config/jupytext/jupytext.toml
+[C 2024-03-20 22:44:27.140 ServerApp] received signal 15, stopping
+[I 2024-03-20 22:44:27.166 ServerApp] Shutting down 6 extensions
