@@ -1,0 +1,13 @@
+blackneedles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blackneedles/__main__.py,sha256=vmk8F6XrECBM5djU74wYkHZ103Cxyp1RptO-Jez1DEw,1017
+blackneedles/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blackneedles/commands/service.py,sha256=mmnmHhlrifD_tNM76TkBiHDSDDuc4vLHoehpKNbki4c,1994
+blackneedles/connection.py,sha256=vgvOspng7vI_IZjCOcixguE-nDIqFu_iHGcmovhB6NM,1952
+blackneedles/console.py,sha256=0Sqd7vc4M2EQeCwBq5R-ikJQLNZPYwSFJIkY9CJ7QWw,1270
+blackneedles/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blackneedles/models/service.py,sha256=ZgpN0t57EdqADzdkCe9hBC3H737-V12na-mwBGAXzys,3221
+blackneedles/procedures/monitoring_procedures.sql,sha256=xhpCc1H-4C6vf0I7BJ2nG0UEMrsMzRh42spQWqarBMU,1371
+blackneedles-0.1.1.dist-info/METADATA,sha256=q0GZUCptz-9yWHmaSweaFpTTl_HQ4xNUFLtY0vMfjo4,2374
+blackneedles-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+blackneedles-0.1.1.dist-info/entry_points.txt,sha256=I6HOM4r3_f1jU9ksgOTzVp1HTTE4iHn9U1dJlzGrxvc,58
+blackneedles-0.1.1.dist-info/RECORD,,
