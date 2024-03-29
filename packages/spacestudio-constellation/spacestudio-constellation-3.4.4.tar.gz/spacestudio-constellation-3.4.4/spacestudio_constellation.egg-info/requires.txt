@@ -1,0 +1,6 @@
+requests
+pyjwt
+openpyxl
+python-dotenv
+numpy
+matplotlib
