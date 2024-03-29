@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ayaligo
+Version: 0.0.0
+Summary: Full-stack code generation for IoT systems
+Home-page: https://github.com/aya-systems
+License: MIT
+Keywords: ayaligo
+Author: Aya Systems
+Author-email: hi@aya.ee
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Project-URL: Documentation, https://github.com/aya-systems/blob/master/README.md
+Project-URL: Repository, https://github.com/aya-systems
+Description-Content-Type: text/markdown
+
+# Ayaligo
+
+Full-stack updateable code generator for IoT systems
+
