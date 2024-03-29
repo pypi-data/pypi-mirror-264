@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+qiskit_scaleway/__init__.py
+qiskit_scaleway/backend.py
+qiskit_scaleway/client.py
+qiskit_scaleway/job.py
+qiskit_scaleway/provider.py
+qiskit_scaleway.egg-info/PKG-INFO
+qiskit_scaleway.egg-info/SOURCES.txt
+qiskit_scaleway.egg-info/dependency_links.txt
+qiskit_scaleway.egg-info/requires.txt
+qiskit_scaleway.egg-info/top_level.txt
