@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "tex_table"
+version = "1.2"
+authors = [
+  { name="Dan DeGenaro", email="drd92@georgetown.edu" },
+]
+description = "A package to convert a pandas DataFrame to a LaTeX table."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/dan-the-meme-man/tex-table"
+Issues = "https://github.com/dan-the-meme-man/tex-table/issues"
