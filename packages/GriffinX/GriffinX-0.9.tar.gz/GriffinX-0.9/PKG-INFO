@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: GriffinX
+Version: 0.9
+Summary: GriffinX is a middleware package for real time event detection
+Home-page: https://github.com/kiran-collab/Griffin-Drone-Car-Collaboration
+Author: Percom@UMD
+Author-email: kirandav@umich.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: ultralytics
+Requires-Dist: opencv-python>=4.9.0.80
+Requires-Dist: pillow>=10.2.0
+
+This is a project aimed at providing a middleware solution for Real-time Event Detection using Drone-Car collaboration.
