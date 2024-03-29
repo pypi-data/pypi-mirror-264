@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/Calculator_tvaino.egg-info/PKG-INFO
+src/Calculator_tvaino.egg-info/SOURCES.txt
+src/Calculator_tvaino.egg-info/dependency_links.txt
+src/Calculator_tvaino.egg-info/top_level.txt
