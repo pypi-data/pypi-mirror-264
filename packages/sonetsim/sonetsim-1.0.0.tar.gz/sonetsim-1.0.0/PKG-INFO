@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sonetsim
+Version: 1.0.0
+Summary: A library for (so)cial (net)work (sim)ulation.
+License: LGPL
+Author: ksan
+Author-email: casonk@umich.edu
+Requires-Python: >=3.8,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: bayanpy (>=0.7.6,<0.8.0)
+Requires-Dist: cdlib (>=0.3.0,<0.4.0)
+Requires-Dist: infomap (>=2.7.1,<3.0.0)
+Requires-Dist: leidenalg (>=0.10.1,<0.11.0)
+Requires-Dist: wurlitzer (>=3.0.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+# sonetsim
+
+A library for *so*cial *net*work *sim*ulation.
+
+## Authorship
+
+This project is authored Cason Konzer as part of an ongoing research project with the Univeristy of Michigan - Flint.
+
+## Support
+
+This package is developed for python 3.10 although supports python 3.8 & 3.9 as well
+
