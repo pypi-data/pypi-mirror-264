@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-bunny-mq"
+version = "0.1.1"
+description = "Lightweight message queue for intra-process pub-sub communication."
+authors = ["Steven Miers <steven.miers@gmail.com>"]
+license = "THE UNLICENSE"
+readme = "README.md"
+homepage = "https://pypi.org/project/python-bunny-mq/"
+repository = "https://github.com/tangledpath/python-bunny-mq"
+documentation = "https://tangledpath.github.io/python-bunny-mq"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pdoc = "^14.4.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
