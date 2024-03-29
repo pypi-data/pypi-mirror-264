@@ -1,0 +1,2 @@
+httpx
+importlib-resources>=5.12.0

@@ -1,0 +1,7 @@
+httpx
+importlib-resources>=5.12.0
+
+[signature-verification]
+pytz
+asn1crypto
+pyOpenSSL
