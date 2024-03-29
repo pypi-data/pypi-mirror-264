@@ -1,0 +1,17 @@
+fixpoint_sdk/__init__.py,sha256=y9TVb6sa_Wk4FYMb3zwqyE-uGbPFm4c8iTGmPCBa_cU,515
+fixpoint_sdk/client.py,sha256=G-wFx2GcuNKpOnytiLaaZ5PgfAK1Lf9-MfIeIEFqFAQ,2065
+fixpoint_sdk/compat.py,sha256=9VZ8UXaMJSN_w32fyTK4vn4bJasvSrLmpd7LIjF05l8,634
+fixpoint_sdk/completions.py,sha256=dd_b7iRnV164kEy05wOIxXy_PsuSL-M5XIhmCRg0C5w,9226
+fixpoint_sdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixpoint_sdk/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixpoint_sdk/lib/debugging.py,sha256=Jh1DSQQFavXHiZaByHLObDKdxukoJtGP-phFOWyTdkw,2298
+fixpoint_sdk/lib/env.py,sha256=f-QhyWNgGy5uU6dt2KVO4TIRhkAoR27dlutWUGr6OeU,1620
+fixpoint_sdk/lib/exc.py,sha256=TI2JCsFB7fdZNroprzIdwlyGhxrBOpUPFnh6SOKY_hQ,149
+fixpoint_sdk/lib/iterwrapper.py,sha256=Zbb1CW2RDliQwel94v3fwQAZX2ddPs41YEurYyJCJoE,1037
+fixpoint_sdk/lib/logging.py,sha256=iz8mH3LNyQaHDmTCIsFZgFQrIyFkC2rgkckqTIycbwY,119
+fixpoint_sdk/lib/requests.py,sha256=ilhK_-96MN3H1MR3jGEFYyCaBBOdNHSSQ2uCKRh2yYY,6441
+fixpoint_sdk/types/__init__.py,sha256=w68skPm2ZnPD90jzAvanRAGvHyn4xuRincTNKWcs7Cg,4401
+fixpoint_sdk-0.3.0.dist-info/METADATA,sha256=GCrED6EsyyWnRrboT3pzJEzuYCbqnX5WUETwiupxBeg,2638
+fixpoint_sdk-0.3.0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+fixpoint_sdk-0.3.0.dist-info/licenses/LICENSE,sha256=90cJGHtanemh_rTQ_Jnk9GjJVCOuMyV3JHsdxImuPJM,11338
+fixpoint_sdk-0.3.0.dist-info/RECORD,,
