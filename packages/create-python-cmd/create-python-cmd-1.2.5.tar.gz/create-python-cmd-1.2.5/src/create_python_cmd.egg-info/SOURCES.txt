@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/create_python_cmd/__init__.py
+src/create_python_cmd/cli.py
+src/create_python_cmd/createapp.py
+src/create_python_cmd.egg-info/PKG-INFO
+src/create_python_cmd.egg-info/SOURCES.txt
+src/create_python_cmd.egg-info/dependency_links.txt
+src/create_python_cmd.egg-info/entry_points.txt
+src/create_python_cmd.egg-info/requires.txt
+src/create_python_cmd.egg-info/top_level.txt
