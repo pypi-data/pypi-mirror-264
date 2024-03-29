@@ -1,0 +1,2 @@
+[console_scripts]
+AnumbyMasterMind = AnumbyMasterMind:__main__.main

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+AnumbyMasterMind/__init__.py
+AnumbyMasterMind/__main__.py
+AnumbyMasterMind.egg-info/PKG-INFO
+AnumbyMasterMind.egg-info/SOURCES.txt
+AnumbyMasterMind.egg-info/dependency_links.txt
+AnumbyMasterMind.egg-info/entry_points.txt
+AnumbyMasterMind.egg-info/requires.txt
+AnumbyMasterMind.egg-info/top_level.txt

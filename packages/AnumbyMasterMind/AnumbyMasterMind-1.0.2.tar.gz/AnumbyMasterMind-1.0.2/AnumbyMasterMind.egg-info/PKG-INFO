@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: AnumbyMasterMind
+Version: 1.0.2
+Summary: Implémentation du jeu MasterMind pour être associé avec un Robot et une logique neuronale
+Home-page: https://github.com/anumby-source/AnumbyMasterMind
+Author: Chris Arnault
+Author-email: chris.arnault.1@gmail.com
+License: CeCILL-B
+Classifier: License :: CeCILL-B Free Software License Agreement (CECILL-B)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AnumbyMasterMind
+ImplÃ©mentation du jeu MasterMind pour Ãªtre associÃ© avec un Robot et une logique neuronale
+
+Ce package Python est disponible en public. Il s'installe avec l'outil `pip` (il faut avoir Python installÃ©). Une fois [installÃ©](#installation),
+vous disposez de plusieurs applications:
+
+- [AnumbyMasterMind](#anumbymastermind)
+
+## AnumbyMasterMind
+
+- il y a N couleurs possibles 1, .. , N (par dÃ©faut N=6)
+- le jeu choisit P couleurs au hasard parmi les N couleurs (par dÃ©faut P=3)
+- le joueur sÃ©lectione une combinaison de P couleurs
+    - le jeu dit:
+      - combien de positions sont exactes
+      - combien de positions existent mais sont mal placÃ©es
+      - combien de positions sont inexactes
+
+ la reconnaissance des caractÃ¨res est assurÃ©e par easyocr:
+
+```> pip install easyocr```
+
+- les images peuvent Ãªtre produites
+    - soit par la camÃ©ra interne du PC
+    - soit par le robot Anumby (donc par un ESP32-CAM qui y est installÃ©)
+
+## Installation
+
+``pip install AnumbyMasterMind``
+
+ou
+
+``pip install AnumbyMasterMind==<version>``
+
+## DÃ©installation
+
+``pip uninstall -y AnumbyMasterMind``
+
+# Reconstruction du package.
+
+- 1) incrÃ©menter le numÃ©ro de version => modifier VERSION
+- 2) lancer `build.bat`
+
+# License
+
+Copyright 2024 Chris Arnault
+
+License CECILL
