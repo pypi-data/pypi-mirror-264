@@ -1,0 +1,34 @@
+[project]
+name = "nonebot-plugin-fuckyou"
+dynamic = []
+description = "A NoneBot2 plugin designed for curse users"
+authors = [
+    { name = "student_2333", email = "lgc2333@126.com" },
+]
+dependencies = [
+    "nonebot2>=2.2.0",
+    "nonebot-plugin-alconna>=0.41.1",
+    "nonebot-plugin-session>=0.3.1",
+]
+requires-python = ">=3.9,<4.0"
+readme = "README.md"
+version = "0.3.0"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/lgc2333/nonebot-plugin-fuckyou"
+
+[tool.pdm.build]
+includes = []
+
+[tool.pdm.version]
+source = "file"
+path = "nonebot_plugin_fuckyou/__init__.py"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
