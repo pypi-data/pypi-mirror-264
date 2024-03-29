@@ -1,0 +1,9 @@
+vonage_users/__init__.py,sha256=sfZshPqW3FPsiPsZCnme11LUB7g96SMXe0f8mu0g07M,207
+vonage_users/common.py,sha256=yYz6-1vK6rwUZWtaPF8q2gxh13RwYB7WFrPfXxwTE-o,2157
+vonage_users/requests.py,sha256=aTtHaSg02RnjdlHTAxwnibbRTmpsxztZ-1SCPmzFh2A,596
+vonage_users/responses.py,sha256=pjD1KLZ2GPOBbM7m0lYQ4FpLVikHmuVYtDQXmQjY3zc,924
+vonage_users/users.py,sha256=a93y7X73RfTbM3y-jYYHow5-weTAVDnW8Uk89yKPTTU,3822
+vonage_users-1.0.0.dist-info/METADATA,sha256=nSJj8hgNOuMi0D3zIBokM_WFLRt2JkIz2cShW5i_VcA,2532
+vonage_users-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vonage_users-1.0.0.dist-info/top_level.txt,sha256=ObLF-GG0qibgRZGccHq0Rd7Is4GevEaVrQ3za1Qx-hA,13
+vonage_users-1.0.0.dist-info/RECORD,,
