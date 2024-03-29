@@ -1,0 +1,13 @@
+meerkat/__init__.py,sha256=ZhwN71lK_tpwTvoHLMhkzLhDX04WD4IZJfTYJvtRS00,883
+meerkat/api.py,sha256=oJHm_mPS1e_DI86ns8q1meX-E91VhED9QuE0_6XXeO4,640
+meerkat/cli.py,sha256=3j1mfIcG14P4NJzn5g7tA1vUEe_IM-WhDsagYafcims,1465
+meerkat/ipython_extension.py,sha256=W82s0-eLg4d93uCylTBBuNVFhb2zF7Q-YEAakRh_N84,1721
+meerkat-python/__init__.py,sha256=lx74JTv2Un_hc_zBnTHlLuFSTX_6HKVbiW_qvDb3QTg,1024
+meerkat-python/api.py,sha256=oJHm_mPS1e_DI86ns8q1meX-E91VhED9QuE0_6XXeO4,640
+meerkat-python/cli.py,sha256=j260iqDHKiHutmQ00yvpfnkTDSRe5W9veA_D9eZszqE,913
+meerkatio-1.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meerkatio-1.4.dist-info/METADATA,sha256=xzI3nhnF6U-v3_m1TFUMCv2251FqgXSeKBQQVkgkysI,201
+meerkatio-1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+meerkatio-1.4.dist-info/entry_points.txt,sha256=pMf2QAds0gE43q3w6m2aG_Zb_mMZlposNwM-MPHcjQo,48
+meerkatio-1.4.dist-info/top_level.txt,sha256=2sqjY0jwQS6YR9XcZ5lXQpu3AsE6oJuxmYxKbRosPrw,8
+meerkatio-1.4.dist-info/RECORD,,
