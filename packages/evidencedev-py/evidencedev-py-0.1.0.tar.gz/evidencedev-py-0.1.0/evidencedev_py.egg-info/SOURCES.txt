@@ -1,0 +1,11 @@
+LICENSE.MD
+README.md
+setup.cfg
+setup.py
+evidencedev/__init__.py
+evidencedev/evidencedev.py
+evidencedev_py.egg-info/PKG-INFO
+evidencedev_py.egg-info/SOURCES.txt
+evidencedev_py.egg-info/dependency_links.txt
+evidencedev_py.egg-info/requires.txt
+evidencedev_py.egg-info/top_level.txt
