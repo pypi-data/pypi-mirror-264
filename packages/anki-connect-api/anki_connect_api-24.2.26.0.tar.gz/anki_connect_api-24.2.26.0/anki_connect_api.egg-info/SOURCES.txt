@@ -1,0 +1,8 @@
+LICENSE
+README.md
+anki_connect_api.py
+pyproject.toml
+anki_connect_api.egg-info/PKG-INFO
+anki_connect_api.egg-info/SOURCES.txt
+anki_connect_api.egg-info/dependency_links.txt
+anki_connect_api.egg-info/top_level.txt
