@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "pybr"
+version = "0.0.1"
+description = "Collection of utilities for Brazilian data and formats"
+authors = [
+    "Gustavo Efeiche <gustavo.efeiche@gmail.com>",
+]
+license = "GPL-3.0-only"
+readme = "README.md"
+homepage = "https://github.com/effeix/pybr"
+repository = "https://github.com/effeix/pybr"
+keywords = ["brazil", "portuguese", "utilities", "cpf", "cnpj"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Internationalization",
+    "Topic :: Software Development :: Localization",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
