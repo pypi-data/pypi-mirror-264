@@ -1,0 +1,29 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Ha fallat la connexi\u00f3",
+            "download_failed": "Ha fallat la baixada del model",
+            "unknown": "Error inesperat"
+        },
+        "step": {
+            "download": {
+                "title": "Baixant model"
+            },
+            "user": {
+                "data": {
+                    "model": "Model",
+                    "url": "URL"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "max_history": "Nombre m\u00e0xim de missatges hist\u00f2rics"
+                }
+            }
+        }
+    }
+}

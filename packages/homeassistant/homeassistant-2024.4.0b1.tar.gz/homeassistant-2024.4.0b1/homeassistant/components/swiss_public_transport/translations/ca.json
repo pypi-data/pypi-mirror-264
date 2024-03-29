@@ -1,0 +1,23 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "El servei ja est\u00e0 configurat"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "departure": {
+                "name": "Sortida"
+            },
+            "departure0": {
+                "name": "Sortida"
+            },
+            "departure1": {
+                "name": "Sortida +1"
+            },
+            "departure2": {
+                "name": "Sortida +2"
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "config": {
+        "abort": {
+            "not_connected": "Kan geen verbinding maken"
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "motionmount_is_moving": {
+                "name": "In beweging"
+            }
+        }
+    }
+}

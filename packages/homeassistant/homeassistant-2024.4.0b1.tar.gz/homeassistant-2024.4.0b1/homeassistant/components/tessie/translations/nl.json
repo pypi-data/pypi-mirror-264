@@ -1,0 +1,28 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Kan geen verbinding maken",
+            "invalid_access_token": "Ongeldig toegangstoken",
+            "unknown": "Onverwachte fout"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "access_token": "Toegangscode"
+                }
+            },
+            "user": {
+                "data": {
+                    "access_token": "Toegangscode"
+                }
+            }
+        }
+    },
+    "entity": {
+        "lock": {
+            "vehicle_state_speed_limit_mode_active": {
+                "name": "Snelheidslimiet"
+            }
+        }
+    }
+}
