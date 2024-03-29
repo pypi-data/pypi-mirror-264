@@ -1,0 +1,27 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+*.egg-info/
+.idea/
+.vscode/
+.venv
+.*
+
+# allow github actions
+!.github/
