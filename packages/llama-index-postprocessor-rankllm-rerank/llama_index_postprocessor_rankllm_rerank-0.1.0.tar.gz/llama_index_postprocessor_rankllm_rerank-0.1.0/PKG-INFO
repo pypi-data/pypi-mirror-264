@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: llama-index-postprocessor-rankllm-rerank
+Version: 0.1.0
+Summary: llama-index postprocessor rankllm-rerank integration
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: llama-index-core (>=0.10.0,<0.11.0)
+Description-Content-Type: text/markdown
+
+# LlamaIndex Postprocessor Integration: Rankllm-Rerank
+
+RankLLM offers a suite of listwise rerankers, albeit with focus on open source LLMs finetuned for the task - RankVicuna and RankZephyr being two of them.
+
+Please `pip install llama-index-postprocessor-rankllm-rerank` to install RankLLM rerank package.
+
+### castorini/rank_llm
+
+Repository for prompt-decoding using LLMs (`GPT3.5`, `GPT4`, `Vicuna`, and `Zephyr`)\
+Website: [http://rankllm.ai](http://rankllm.ai)\
+Stars: 193
+
