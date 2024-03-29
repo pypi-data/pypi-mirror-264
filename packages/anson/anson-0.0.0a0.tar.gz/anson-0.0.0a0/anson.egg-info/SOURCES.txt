@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+anson/__init__.py
+anson/version.py
+anson.egg-info/PKG-INFO
+anson.egg-info/SOURCES.txt
+anson.egg-info/dependency_links.txt
+anson.egg-info/requires.txt
+anson.egg-info/top_level.txt
