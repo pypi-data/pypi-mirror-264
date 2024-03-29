@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+nanonispy2/__init__.py
+nanonispy2/constants.py
+nanonispy2/read.py
+nanonispy2.egg-info/PKG-INFO
+nanonispy2.egg-info/SOURCES.txt
+nanonispy2.egg-info/dependency_links.txt
+nanonispy2.egg-info/requires.txt
+nanonispy2.egg-info/top_level.txt
+tests/test_read.py
