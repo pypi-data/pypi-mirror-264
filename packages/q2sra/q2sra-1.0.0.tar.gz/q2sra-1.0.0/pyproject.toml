@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'q2sra'
+version = '1.0.0'
+dependencies = [
+  'pandas >= 1.5.3'
+]
+requires-python = '>=3.8'
+authors = [
+  {name='Noah Schulhof', email='nschulhof@u.northwestern.edu'},
+]
+description = 'Fetch, process, analyze, and aggregate microbiome sequencing data with SRA Toolkit and QIIME2.'
+readme = 'README.md'
+license = {file = 'LICENSE'}
+keywords = ['bioinformatics', 'microbiome']
+classifiers = [
+    'Programming Language :: Python :: 3'
+]
+
+[project.urls]
+Homepage = 'https://github.com/noahschulhof/q2sra'
+Issues = 'https://github.com/noahschulhof/q2sra/issues'
