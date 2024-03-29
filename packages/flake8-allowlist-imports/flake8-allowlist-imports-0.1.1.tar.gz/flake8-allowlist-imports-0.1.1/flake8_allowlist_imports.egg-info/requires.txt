@@ -1,0 +1,5 @@
+flake8>=3.8
+classify-imports>=4.0
+
+[:python_version < "3.10"]
+importlib-metadata
