@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: totp_auth
+Version: 1.0.0
+Summary: Easy setup totp-based login for your application
+Author-email: MoxForever <moxforever10@gmail.com>
+Project-URL: Homepage, https://github.com/MoxForever/totp_auth
+Project-URL: Issues, https://github.com/MoxForever/totp_auth/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyotp>=2.9.0
