@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+suno/__init__.py
+suno/__main__.py
+suno/suno.py
+suno_songs.egg-info/PKG-INFO
+suno_songs.egg-info/SOURCES.txt
+suno_songs.egg-info/dependency_links.txt
+suno_songs.egg-info/entry_points.txt
+suno_songs.egg-info/requires.txt
+suno_songs.egg-info/top_level.txt
