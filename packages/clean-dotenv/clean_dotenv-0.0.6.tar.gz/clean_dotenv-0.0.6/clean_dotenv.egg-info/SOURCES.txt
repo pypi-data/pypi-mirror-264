@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+clean_dotenv/__init__.py
+clean_dotenv/__main__.py
+clean_dotenv/_main.py
+clean_dotenv/_parser.py
+clean_dotenv.egg-info/PKG-INFO
+clean_dotenv.egg-info/SOURCES.txt
+clean_dotenv.egg-info/dependency_links.txt
+clean_dotenv.egg-info/entry_points.txt
+clean_dotenv.egg-info/top_level.txt
