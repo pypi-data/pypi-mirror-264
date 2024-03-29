@@ -1,0 +1,2 @@
+[console_scripts]
+pixeloe.pixelize = pixeloe.cli:main
