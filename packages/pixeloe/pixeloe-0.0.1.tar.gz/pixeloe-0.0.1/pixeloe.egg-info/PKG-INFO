@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pixeloe
+Version: 0.0.1
+Summary: Detail-Oriented Pixelization based on Contrast-Aware Outline Expansion.
+Home-page: https://github.com/KohakuBlueleaf/LyCORIS
+Author: Shih-Ying Yeh(KohakuBlueLeaf)
+Author-email: apolloyeh0123@gmail.com
+Requires-Python: >=3.10
+Requires-Dist: opencv-python
+Requires-Dist: numpy

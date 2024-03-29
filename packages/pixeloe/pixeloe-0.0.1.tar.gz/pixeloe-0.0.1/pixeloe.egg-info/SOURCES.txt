@@ -1,0 +1,13 @@
+README.md
+setup.py
+pixeloe/__init__.py
+pixeloe/color.py
+pixeloe/outline.py
+pixeloe/pixelize.py
+pixeloe/utils.py
+pixeloe.egg-info/PKG-INFO
+pixeloe.egg-info/SOURCES.txt
+pixeloe.egg-info/dependency_links.txt
+pixeloe.egg-info/not-zip-safe
+pixeloe.egg-info/requires.txt
+pixeloe.egg-info/top_level.txt
