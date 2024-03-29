@@ -1,0 +1,3 @@
+[console_scripts]
+mm-trade-check = fdp_eod_checker.mm_trade:main
+rsec-trade-check = fdp_eod_checker.rsec_trade:main

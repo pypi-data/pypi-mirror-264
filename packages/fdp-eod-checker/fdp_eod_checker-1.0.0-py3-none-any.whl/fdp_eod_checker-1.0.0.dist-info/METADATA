@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fdp-eod-checker
+Version: 1.0.0
+Summary: A tool for end-of-day checking for FDP
+Author: tangjicheng
+Author-email: tangjch15@gmail.com
+Requires-Dist: loguru
+
