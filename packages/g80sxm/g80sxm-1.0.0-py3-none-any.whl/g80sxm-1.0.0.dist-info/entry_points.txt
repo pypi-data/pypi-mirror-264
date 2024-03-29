@@ -1,0 +1,3 @@
+[console_scripts]
+g80sxm=G80SXM.gui:main
+
