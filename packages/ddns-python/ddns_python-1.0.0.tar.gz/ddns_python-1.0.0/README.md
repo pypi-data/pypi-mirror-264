@@ -1,0 +1,41 @@
+# DDNS-Python
+
+This got created as a weekend project, as [ddclient](https://github.com/ddclient/ddclient/) wasn't able to update ipv4 and ipv6 together in the same request.
+Sadly for the DDNS provider I wanted to play around with ([DeSEC](https://desec.io)) I needed that to create entries with both record types,
+instead of always the later one overriding the earlier one^^
+
+## Installation
+
+The package is published on PyPi:
+
+```shell
+pip install ddns-python
+```
+
+## Configuration
+
+The following global options are available in the `Defaults` section:
+
+- `enable_ip_include_disabled_param_empty`
+    - `1` - if one ip protocol is disabled, the parameter will still be included, but empty
+    - `0` - if one ip protocol is disabled, the parameter will be left out completely from the update call
+- `wait_between_two_requests` - time to wait between the update of multiple configured entries
+
+You can declare multiple entries that should be updated.
+Following options are available:
+
+- `enabled`:
+    - `1` - domain will be updated
+    - `0` - domain will be skipped
+- `domain` - the dns entry name that should be updated/set
+- `enable_v4`
+    - `1` - Ipv4 will be updated/set
+    - `0` - Ipv4 will be skipped
+- `ip_v4_param` - Parameter name for the Ipv4 address in the service update URL
+- `enable_v6`
+    - `1` - Ipv6 will be updated/set
+    - `0` - Ipv6 will be skipped
+- `ip_v6_param` - Parameter name for the Ipv6 address in the service update URL
+- `update_server` - base url of your dyndns provider
+- `username` - username to authenticate with your DynDNS provider
+- `password` - password to authenticate with your DynDNS provider

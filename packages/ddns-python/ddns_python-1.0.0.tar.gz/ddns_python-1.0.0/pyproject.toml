@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ddns-python"
+version = "1.0.0"
+description = ""
+authors = ["9Lukas5 <lukas.wiest@infinite-tech.solutions>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+ddns-python = 'ddns_python.main:main'
+
+[tool.poetry-dynamic-versioning]
+dirty = true
+enable = false
+pattern = "(?P<base>(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+))"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
