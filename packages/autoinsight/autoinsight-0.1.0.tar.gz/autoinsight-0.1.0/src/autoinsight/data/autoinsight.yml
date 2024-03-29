@@ -1,0 +1,19 @@
+common:
+    log_format: "%(asctime)s - %(levelname)s: %(message)s"
+    log_level: info
+
+script:
+    is_snapshot_before_action: false
+    action_delay_seconds: 1
+
+ident:
+    search_depth: 50
+    search_width: 30
+    wait_seconds_for_object: 30
+    wait_seconds_for_window: 30
+    wait_retry_interval_for_object: 3
+    wait_retry_interval_for_window: 5
+    highlight_wait_seconds: 10
+
+service:
+    user_config_path: home

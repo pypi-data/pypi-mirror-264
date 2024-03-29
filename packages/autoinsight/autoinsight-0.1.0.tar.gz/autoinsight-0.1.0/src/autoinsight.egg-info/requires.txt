@@ -1,0 +1,17 @@
+pywinauto
+pyyaml
+pyautogui
+opencv-python
+pytesseract
+wmi
+pywin32
+numpy
+Pillow
+winaudio
+requests
+schema
+pydantic
+colour-science
+ultralytics
+selenium
+mss
