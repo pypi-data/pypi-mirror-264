@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ergo3d/CoordinateSystem3D.py
+ergo3d/JointAngles.py
+ergo3d/Plane.py
+ergo3d/Point.py
+ergo3d/__init__.py
+ergo3d.egg-info/PKG-INFO
+ergo3d.egg-info/SOURCES.txt
+ergo3d.egg-info/dependency_links.txt
+ergo3d.egg-info/requires.txt
+ergo3d.egg-info/top_level.txt
