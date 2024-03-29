@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "keble-documents-loader"
+version = "0.0.14"
+description = ""
+authors = ["zhenhao-ma <bob0103779@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.1.12"
+langchain-community = "^0.0.28"
+htmlmin = "^0.1.12"
+beautifulsoup4= "^4.12.3"
+keble-chains="*"
+lxml = "^5.1.0"
+pytz = "^2024.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

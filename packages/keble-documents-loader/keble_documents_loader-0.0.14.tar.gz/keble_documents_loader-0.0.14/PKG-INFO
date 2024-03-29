@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: keble-documents-loader
+Version: 0.0.14
+Summary: 
+Author: zhenhao-ma
+Author-email: bob0103779@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: htmlmin (>=0.1.12,<0.2.0)
+Requires-Dist: keble-chains
+Requires-Dist: langchain (>=0.1.12,<0.2.0)
+Requires-Dist: langchain-community (>=0.0.28,<0.0.29)
+Requires-Dist: lxml (>=5.1.0,<6.0.0)
+Requires-Dist: pytz (>=2024.1,<2025.0)
+Description-Content-Type: text/markdown
+
+
