@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+docs/Django入门（一）_投票实例.md
+gonghao_django_test.egg-info/PKG-INFO
+gonghao_django_test.egg-info/SOURCES.txt
+gonghao_django_test.egg-info/dependency_links.txt
+gonghao_django_test.egg-info/top_level.txt
+migrations/0001_initial.py
+migrations/0002_table_name.py
+migrations/0003_remove_table_name_l4_is_active.py
+migrations/__init__.py
