@@ -1,0 +1,9 @@
+terraform_parser/__init__.py,sha256=FMgdYd7YOhX2rOU9vPD8DSJDfuiVEpsmtA5-TytQ0n0,6024
+terraform_parser/functions.py,sha256=bTt4mqp74tsGakJy5yQoN_QdZQr-ZqGL-ff9sRDl6CI,6137
+terraform_parser/keywords.py,sha256=gtRormL5SukAIPp1EkaYr5t-md7vDy2bHRQLstWjz9U,2474
+terraform_parser/utils.py,sha256=bgbYZ5k-xCWafkdXJwTOtEWLBR8U8_AI9npHV1Dy5oM,2819
+terraform_parser-0.580.24088.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+terraform_parser-0.580.24088.dist-info/METADATA,sha256=o1wMEtYYj7rhf-DmLFY8qSzYmc5x8R1KV37oz4EZ0g4,3281
+terraform_parser-0.580.24088.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+terraform_parser-0.580.24088.dist-info/top_level.txt,sha256=ITZgEmjtJ7-E8fEy-FB_zw_jUI8Lq8ozyHZb-lwJ45s,17
+terraform_parser-0.580.24088.dist-info/RECORD,,
