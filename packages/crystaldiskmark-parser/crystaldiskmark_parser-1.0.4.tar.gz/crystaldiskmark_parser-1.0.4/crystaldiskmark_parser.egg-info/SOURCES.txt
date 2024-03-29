@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+crystaldiskmark_parser/__init__.py
+crystaldiskmark_parser/parser.py
+crystaldiskmark_parser.egg-info/PKG-INFO
+crystaldiskmark_parser.egg-info/SOURCES.txt
+crystaldiskmark_parser.egg-info/dependency_links.txt
+crystaldiskmark_parser.egg-info/requires.txt
+crystaldiskmark_parser.egg-info/top_level.txt
+test/test_parse.py
