@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: py-nillion-client
+Version: 0.0.5
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: maturin==1.4.0; extra == 'dev'
+Requires-Dist: maturin[zig]==1.4.0; extra == 'dev'
+Requires-Dist: pytest==8.0.0; extra == 'dev'
+Requires-Dist: pyyaml==6.0.1; extra == 'dev'
+Provides-Extra: dev
+License-File: LICENSE
+Summary: Python client for Nillion network and utilities.
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# py-nillion-client
+
+py-nillion-client is a Python client for building on top of the Nillion Network.
+It can be used to manage Nada programs, store and retrieve secrets, and run
+computations.
+
+See the official Nillion documentation site for more about [Nillion
+Clients][clients], [Python Client Examples][examples] and the [Python Client
+Reference][reference].
+
+[clients]: https://docs.nillion.com/nillion-client
+[examples]: https://docs.nillion.com/python-client-examples
+[reference]: https://docs.nillion.com/pydocs/client
+
