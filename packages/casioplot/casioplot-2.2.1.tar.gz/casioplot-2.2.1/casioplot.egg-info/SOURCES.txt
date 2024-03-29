@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+casioplot/__init__.py
+casioplot/casioplot.py
+casioplot/characters.py
+casioplot/configs.py
+casioplot/configuration_type.py
+casioplot/get_config.py
+casioplot.egg-info/PKG-INFO
+casioplot.egg-info/SOURCES.txt
+casioplot.egg-info/dependency_links.txt
+casioplot.egg-info/requires.txt
+casioplot.egg-info/top_level.txt
+casioplot/images/blanck.png
+casioplot/images/calculator.png
