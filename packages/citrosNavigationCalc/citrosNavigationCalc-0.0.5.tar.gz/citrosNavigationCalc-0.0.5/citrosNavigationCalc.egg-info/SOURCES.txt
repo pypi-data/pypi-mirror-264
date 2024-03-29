@@ -1,0 +1,8 @@
+setup.py
+citrosNavigationCalc/__init__.py
+citrosNavigationCalc/navigation_error_class.py
+citrosNavigationCalc/navigation_error_plot_class.py
+citrosNavigationCalc.egg-info/PKG-INFO
+citrosNavigationCalc.egg-info/SOURCES.txt
+citrosNavigationCalc.egg-info/dependency_links.txt
+citrosNavigationCalc.egg-info/top_level.txt
