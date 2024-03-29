@@ -1,0 +1,10 @@
+flask
+ipython
+model-explorer-adapter
+packaging
+portpicker
+requests
+termcolor
+typing-extensions
+torch
+numpy
