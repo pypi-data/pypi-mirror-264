@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: dg_face_tracking
+Version: 0.0.2
+Summary: DeGirum Face Tracking Application Package
+Home-page: https://github.com/degirum
+Author: DeGirum Corp.
+Author-email: support@degirum.com
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: config
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+Requires-Dist: degirum
+Requires-Dist: degirum-tools
+Requires-Dist: names-generator
+Requires-Dist: filterpy
+Requires-Dist: scikit-learn
+Requires-Dist: rich
+Requires-Dist: lancedb
+Requires-Dist: validators
+
+# Face Tracking Demo
+
+Demonstrates the following technologies:
+- Face Detection in a video stream. Yolo models from DeGirum zoo are used.
+- Creating face embeddings by [DeepFace](https://github.com/serengil/deepface)
+- Saving face metadata, including embeddings, in a vector database ([LanceDB](https://lancedb.com/)) 
+- Recognition of detected faces, using saved faces metadata.
+
+Used as a mock-up for development of hybrid deployment of a vector db.
+
+## 1. Installation
+
+Create a new conda environment:
+```
+conda env create -f environment.yml
+```
+
+Activate it:
+```
+conda activate dg_face_tracking
+```
+
+Create a database folder:
+```
+mkdir db
+```
+
+Change the cuurent directory to src:
+```
+cd src
+```
+
+Open env.ini file and fill the DEGIRUM_CLOUD_TOKEN field with a valid DeGirum cloud platform API access token. 
+
+## 2. Running
+
+A laptop with an enabled camera must be used. 
+
+Start the labelling app:
+```
+python DataFaceApp.py
+```
+
+Start the face tracking app:
+```
+python DataFace.py  face_tracker_camera
+``` 
+
+Faces will be detected and recognized in camera's stream, then displayed in app window. 
+The identification results will be displayed above each face. 
+
+If a new person is detected, his/her face will appear with "unknown" label in the labelling app.   
+The operator must enter person's name and press OK button. 
+
+The system may also ask for operator's confirmation for such faces, that were recognized with a low confidence.
+In this case, the operator may perform one of the following:
+- skip this face image by pressing Skip button;
+- confirm recognition results by pressing OK button;
+- override recognition results by entering the correct name.
+
+Press OK button to finalize keying. 
+
+Ctrl+C stops the app.
+
+## 3. Creating a dataset.
+1. Edit the `face_tracker_camera.cfg` config file by adding
+```commandline
+ [${data_source.id}, ${dataset_writer}]
+```
+line in `data_connections` section.
+
+
+2. In `dataset` section of `LocalDBWriter.cfg` config file:
+- Set the valid paths for catalogue (`catalogue_path`) and the datasets path (`datasets_path`);
+- Set dataset name `dataset_name`
+- If you want to overwrite the existing dataset, set `write_mode` as "overwrite"
+
+Run the application.
+
+To stop data collection, press Ctrl+C
+
+## 4. Running on a dataset
+```
+python DataFace.py  face_tracker_dataset
+``` 
+`dataset` section of `FaceTrackerDataset.cfg` must contain the valid parameters of the dataset to be used:
+
+- Set the valid paths for catalogue (`catalogue_path`) and the datasets path (`datasets_path`);
+- Set the dataset name (`dataset_name`)
+
+Run the application.
+
+To stop running, press Ctrl+C
+
+
+
+
+
+
+
+
+
+
+
