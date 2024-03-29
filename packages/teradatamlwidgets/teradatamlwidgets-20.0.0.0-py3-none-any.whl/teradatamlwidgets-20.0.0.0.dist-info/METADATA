@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: teradatamlwidgets
+Version: 20.0.0.0
+Summary: Teradataml Widgets
+Home-page: https://teradata.com
+Author: Saroop Samra
+Author-email: sksamra@teradata.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Database :: Front-Ends
+Classifier: License :: Other/Proprietary License
+Requires-Dist: teradataml (>=17.20.00.04)
+Requires-Dist: ipywidgets (>=8.1.1)
+
+UNKNOWN
+
