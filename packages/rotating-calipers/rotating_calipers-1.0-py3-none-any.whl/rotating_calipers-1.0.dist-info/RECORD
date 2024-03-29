@@ -1,0 +1,8 @@
+rotating_calipers/__init__.py,sha256=knODZmrDw1E4gvsg4beRY9bhmfk3fbHfX8kVPbhp9Jg,82
+rotating_calipers/convexhull.py,sha256=5ah18Ul1kwLNUEGj7gL7Y03xQYBHfgEk1EcRFSz0iRU,3304
+rotating_calipers/geometry.py,sha256=8UUdQldXpDXLkdJGm0BV-bJd9t0e1LkrPtrzJpuzifs,600
+rotating_calipers/rotating_calipers.py,sha256=PuNWtQ2GYlXk4TgEtVEb3Ki_H1ObAsah2EsBsWkZO8o,3514
+rotating_calipers-1.0.dist-info/METADATA,sha256=NDW4YxQyWP9BNBlVER9st0WzICbD3vHUNNxHXU77eow,1980
+rotating_calipers-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rotating_calipers-1.0.dist-info/top_level.txt,sha256=MC7cjeNHLOlZHPtUiIt4pNJinzvULfCbfFA9xcF9TQs,18
+rotating_calipers-1.0.dist-info/RECORD,,
