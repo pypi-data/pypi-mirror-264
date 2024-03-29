@@ -1,0 +1,13 @@
+rdfingest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rdfingest/cli_help.py,sha256=QBBzVj_aeXpZ60oGTeaYNwouhhQ588G1qdTjOGCCwPs,162
+rdfingest/ingest.py,sha256=tRwwrVAdN5eb5669ibcqtQNS0D_BDcEdjxLYE5PfVRk,6638
+rdfingest/ingest_strategies.py,sha256=wAGoIdmQ2AV605GWATQXGFIl0inI7ttvGFZVwuxWfHY,1657
+rdfingest/main.py,sha256=PlOAynLpLHi3nxHJwapoP_TZMyM2nSzLJpbDpKIMJxY,1601
+rdfingest/models.py,sha256=kpHl_X3SlbBmYgTQryWMUCPKSCVqo9VHMtB3YYZLLN4,1534
+rdfingest/parse_graph.py,sha256=MXbZjKAJd4IrwPvCpYBJ1UYMakoEgkzVkIBDAfWuatA,1277
+rdfingest/yaml_loaders.py,sha256=qy97X88AJbY-pnM_KiCEfn03A16SDKIVJRCBItd29S8,1033
+rdfingest-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rdfingest-0.1.1.dist-info/METADATA,sha256=whi-Q_Z8TEs7G9zqc9g5GR7B-HiV71Q8zKlZPcovUbk,4134
+rdfingest-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+rdfingest-0.1.1.dist-info/entry_points.txt,sha256=2oFDbR4XViwXZZVJxsLoS7D_G0bT9oesHqRgIX0rDZg,49
+rdfingest-0.1.1.dist-info/RECORD,,
