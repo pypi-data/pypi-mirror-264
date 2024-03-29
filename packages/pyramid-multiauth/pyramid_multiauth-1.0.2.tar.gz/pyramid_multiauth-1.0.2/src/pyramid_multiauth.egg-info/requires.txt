@@ -1,0 +1,7 @@
+pyramid<3,>=2
+
+[dev]
+ruff
+pytest
+pytest-cache
+pytest-cov

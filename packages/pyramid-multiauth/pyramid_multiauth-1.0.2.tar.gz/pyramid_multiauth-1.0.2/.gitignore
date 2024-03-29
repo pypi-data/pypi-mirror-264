@@ -1,0 +1,11 @@
+.hg*
+*.pyc
+*.egg-info
+*.swp
+\.coverage
+*~
+dist
+build
+htmlcov
+.tox
+.venv
