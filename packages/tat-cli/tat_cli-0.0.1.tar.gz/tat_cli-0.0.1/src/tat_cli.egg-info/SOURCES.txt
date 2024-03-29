@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/tat_cli/__init__.py
+src/tat_cli/__main__.py
+src/tat_cli/tat.py
+src/tat_cli/tat_cli.py
+src/tat_cli.egg-info/PKG-INFO
+src/tat_cli.egg-info/SOURCES.txt
+src/tat_cli.egg-info/dependency_links.txt
+src/tat_cli.egg-info/entry_points.txt
+src/tat_cli.egg-info/top_level.txt
