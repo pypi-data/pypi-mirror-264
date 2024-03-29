@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: boltztest
+Version: 0.0.1
+Summary: Python API for talking to Boltzbit services.
+Project-URL: Homepage, https://github.com/Boltzbit-Limited/BoltzbitPythonAPI
+Project-URL: Issues, https://github.com/Boltzbit-Limited/BoltzbitPythonAPI/issues
+Author-email: Boltzbit Dev Team <dev@boltzbit.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.31
+Description-Content-Type: text/markdown
+
+# BoltzbitPythonAPI
+Python API for talking to Boltzbit services.
+
+## To package
+```
+pip install --upgrade build
+python3 -m build
+```
+
+## To publish
+```
+pip install --upgrade twine
+python3 -m twine upload --repository testpypi dist/*
+```
