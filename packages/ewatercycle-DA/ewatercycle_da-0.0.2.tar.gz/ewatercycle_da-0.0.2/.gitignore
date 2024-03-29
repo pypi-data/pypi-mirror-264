@@ -1,0 +1,7 @@
+.idea/*
+src/eWaterCycle_DA/__pycache__/*
+docs/_build/*
+docs/.ipynb_checkpoints/*
+
+docs/hbv_*
+docs/Forcing/HBV_forcing_*
