@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "im2geojson"
+version = "0.1.8"
+authors = [
+  { name="Michael Bishop", email="mbishop@tutanota.com" },
+]
+description = "GeoJSON from image metadata"
+keywords = ["GeoJSON", "Image", "GPS metadata"]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta", 
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "exif>=1.6.0",
+  "geojson>=3.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://pypi.org/project/im2geojson/"
+Documentation = "https://mjbishop.github.io/im2geojson/im2geojson.html"
+Repository = "https://github.com/MJBishop/im2geojson"
