@@ -1,0 +1,8 @@
+README.md
+setup.py
+oscillations/__init__.py
+oscillations.egg-info/PKG-INFO
+oscillations.egg-info/SOURCES.txt
+oscillations.egg-info/dependency_links.txt
+oscillations.egg-info/top_level.txt
+tests/test.py
