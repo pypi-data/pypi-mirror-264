@@ -1,0 +1,53 @@
+[tool.poetry]
+authors = ["feicrypto <feicrypto@proton.me>"]
+description = "fei crypto command utils"
+license = "MIT"
+name = "fei-crypto"
+packages = [
+    { include = "fei_crypto" },
+    { include = "tg" },
+    { include = "main" },
+]
+readme = "README.md"
+version = "0.1.2"
+
+[tool.poetry.dependencies]
+cowsay = "^6.1"
+filestools = "^0.2.1"
+pillow = "^9.5.0"
+python = "~3.11"
+python-dotenv = "^1.0.0"
+python-socks = { extras = ["asyncio"], version = "^2.4.3" }
+requests = { extras = ["socks"], version = "^2.31.0" }
+telethon = "^1.32.1"
+typer = { extras = ["all"], version = "^0.9.0" }
+manim = "^0.18.0"
+
+[tool.poetry.scripts]
+btc-eth = 'main.btc_eth:run'
+dt = 'main.ts:run'
+e = 'main.env:run'
+ms = 'main.ts:ms'
+nano = 'main.ts:nano'
+os = 'main.os:run'
+rmw = 'main.rmw:run'
+say = 'main.say:run'
+tg-login = 'main.tg_login:run'
+ts = 'main.ts:sec'
+uuid = 'main.uu_id:run'
+captcha = 'main.captcha:run'
+t2m = 'main.t2m:run'
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[[tool.poetry.source]]
+name = "aliyun"
+priority = "primary"
+url = "https://mirrors.aliyun.com/pypi/simple"
+
+[virtualenvs]
+create = true
+in-project = true
+cache-dir = "e:/cache/poetry"
