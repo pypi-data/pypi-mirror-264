@@ -1,0 +1,6 @@
+include qf/server/cert.pem
+include qf/server/config.ini
+include qf/server/key.pem
+include qf/server/openssl.cnf
+include README.md
+include LICENSE

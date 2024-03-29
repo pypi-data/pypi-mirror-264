@@ -1,0 +1,2 @@
+[console_scripts]
+qf-server = qf.server.server:main

@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+qf_server.egg-info/PKG-INFO
+qf_server.egg-info/SOURCES.txt
+qf_server.egg-info/dependency_links.txt
+qf_server.egg-info/entry_points.txt
+qf_server.egg-info/top_level.txt
+server/__init__.py
+server/benchmarking.py
+server/server.py
+tests/test_server.py
