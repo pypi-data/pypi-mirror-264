@@ -1,0 +1,7 @@
+dist
+docs
+figures
+qsprpred
+scripts
+testing
+tutorials
