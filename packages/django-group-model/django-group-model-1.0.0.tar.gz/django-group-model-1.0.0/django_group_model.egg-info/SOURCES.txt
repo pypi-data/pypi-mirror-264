@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+django_group_model/__init__.py
+django_group_model/admin.py
+django_group_model/apps.py
+django_group_model/models.py
+django_group_model/tests.py
+django_group_model/views.py
+django_group_model.egg-info/PKG-INFO
+django_group_model.egg-info/SOURCES.txt
+django_group_model.egg-info/dependency_links.txt
+django_group_model.egg-info/requires.txt
+django_group_model.egg-info/top_level.txt
+django_group_model/migrations/__init__.py
