@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: my-streamlit-component
+Version: 0.0.1
+Summary: A simple Streamlit component
+Home-page: UNKNOWN
+Author: Charly Wargnier
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: streamlit
+
+UNKNOWN
+
