@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: jira-notifications
+Version: 1.0.4
+Summary: Add a short description here!
+Home-page: https://github.com/gruppferi/jira-notifications.git
+Author: Ferdows Shahryar
+Author-email: s.ferdows@hotmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE.txt
+Requires-Dist: jira >=3.6.0
+Requires-Dist: pytest >=8.0.0
+Requires-Dist: PyYAML >=6.0.1
+Requires-Dist: notify2 >=0.3.1
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
+![Static Badge](https://img.shields.io/badge/docstring-codiumate-%3F?color=blue)
+
+# jira-notifications
+
+Jira Notifications is a Python package that leverages system D-Bus using the `notify` package to send system toast notifications about new tickets in Jira. It allows users to configure the period for checking new tickets and also sends a daily notification about newly created tickets at a specified time.
+
+## Installation
+
+You can install Jira Notifications via pip:
+
+```
+pip install jira-notifications
+```
+## Usage
+
+After installation, you can use the `jira-notifications` command to generate sample config, update the yaml with correct information
+
+```bash
+jira-notifications -g jira.yaml
+```
+### Linux (Debian Based)
+* The Linux version has feature that each ticket is clickable and opens that ticket on your browser
+
+#### Make it run a system package
+```
+[Unit]
+Description=jira-notifications Daemon
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/<username>
+ExecStart=/home/<username>/.local/bin/jira_notifications -c /home/<username>/Documents/jira-config.yaml
+Restart=always
+
+[Install]
+WantedBy=default.target
+
+
+```
+
+```
+systemctl --user enable jira-notifications.service
+systemctl --user start jira-notifications.service
+systemctl --user status jira-notifications.service
+
+
+```
+### Windows (10, 11)
+!!! MISSING
+-> Any PR to fix the following issues would be highly welcome, since I am not windows guy  &#x1F612; &#x1F610; I tried alot, couldn't make following to work
+* Basic test works the program runs and show toasts but each ticket is not clickable. clicking on toast opens the jira.
+* No service, No like systemD in linux for windows to start automatically and run it forever.
+It is highly appreciated if someone can create PR and fix the above two issues.
+* Can not show more 6 lines on toast
+
+
+## Note
+
+This project has been set up using PyScaffold 4.5. For details and usage
+information on PyScaffold see https://pyscaffold.org/. <br>
+This project used Codiumate, for details see https://www.codium.ai/
