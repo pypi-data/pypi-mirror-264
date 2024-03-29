@@ -1,0 +1,6 @@
+nexus_api/__init__.py,sha256=uhdPRhF7NrWpxwV2Q8vV-kKzy6JEgTX9vEGdjTwKyGI,26
+nexus_api/_nexus_api.py,sha256=TtM_t3QbebLW1n8HtOsi3ufZCmZ62B9fjy-k1JYbMlk,96353
+nexus_api-2.0.0b30.dist-info/METADATA,sha256=wxW86LsPKOoiaF9qDltqTYusRUhiC7rBvw6ExcRJha4,641
+nexus_api-2.0.0b30.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+nexus_api-2.0.0b30.dist-info/top_level.txt,sha256=dIPfOPUtCLHQvbA0f75ysMNFNg1rzOvhKLtMlinRnZs,10
+nexus_api-2.0.0b30.dist-info/RECORD,,
