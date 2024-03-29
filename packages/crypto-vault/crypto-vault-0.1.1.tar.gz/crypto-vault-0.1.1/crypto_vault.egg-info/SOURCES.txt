@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+crypto_vault/__init__.py
+crypto_vault/abi.json
+crypto_vault/config.py
+crypto_vault/crypto_vault.py
+crypto_vault/encryption.py
+crypto_vault.egg-info/PKG-INFO
+crypto_vault.egg-info/SOURCES.txt
+crypto_vault.egg-info/dependency_links.txt
+crypto_vault.egg-info/requires.txt
+crypto_vault.egg-info/top_level.txt
+tests/test_encryption.py
