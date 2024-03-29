@@ -1,0 +1,4 @@
+prune tests
+include LICENSE
+include pyproject.toml
+include README.md
