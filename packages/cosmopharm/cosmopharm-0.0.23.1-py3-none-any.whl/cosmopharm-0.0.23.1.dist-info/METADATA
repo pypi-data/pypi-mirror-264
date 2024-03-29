@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: cosmopharm
+Version: 0.0.23.1
+Summary: Predictive modeling for drug-polymer compatibility in pharmaceutical formulations using COSMO-SAC.
+Home-page: https://github.com/ivanantolo/cosmopharm,
+Author: Ivan Antolovic
+Author-email: Ivan.Antolovic@tu-berlin.de
+Maintainer: Martin Klajmon
+Maintainer-email: Martin.Klajmon@vscht.cz
+License: MIT
+Keywords: Drug-Polymer Compatibility,Amorphous Solid Dispersions,Pharmaceutical Formulation,COSMO-SAC Model,Solubility Prediction,Miscibility Analysis,Phase Behavior Prediction,Pharmaceutical Sciences,Drug Formulation Research,Polymer Science,Predictive Modeling in Pharma,Drug Development Tools,Biopharmaceuticals
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.15
+Requires-Dist: pandas >=1.0
+Requires-Dist: scipy >=1.4
+Requires-Dist: openpyxl >=3.0
+Provides-Extra: examples
+Requires-Dist: matplotlib >=3.0 ; extra == 'examples'
+
+# COSMOPharm
+
+Welcome to the COSMOPharm package, accompanying [our paper in *J. Chem. Theory Comput.*](https://dx.doi.org/10.1021/acs.jctc.9b01016). This project and its associated publication offer insights and a practical toolkit for researching drug-polymer and drug-solvent systems, aiming to provide the scientific community with the means to reproduce our findings and further the development of COSMO-SAC-based models.
+
+<p align="center">
+  <!-- <img src="https://github.com/usnistgov/COSMOSAC/raw/master/JCTC2020.PNG" alt="TOC Figure" width="500"> -->
+  <img src="https://github.com/usnistgov/COSMOSAC/raw/master/JCTC2020.PNG" alt="TOC Figure">
+</p>
+
+## About 
+
+COSMOPharm is a Python package designed for predictive modeling of drug-polymer compatibility and drug-solubility in common solvents. It leverages the COSMO-SAC (Conductor-like Screening Model Segment Activity Coefficient) model, offering a robust platform for solubility, miscibility, and phase behavior prediction in drug formulation processes.
+
+## Features
+
+- **Compatibility Prediction**: Predict drug-polymer compatibility using the open-source COSMO-SAC model.
+- **Solubility Calculation**: Guide polymer selection for drug formulations by calculating drug-polymer solubilities.
+- **Miscibility and Phase Behavior Analysis**: Understand drug-polymer miscibility and phase behavior under various conditions.
+- **User-friendly Interface**: Facilitate research with easy-to-use functions and comprehensive documentation.
+
+## Installation
+
+Install COSMOPharm with pip:
+
+`pip install cosmopharm`
+
+Ensure you have installed the `cCOSMO` library as per instructions on the [COSMOSAC GitHub page](https://github.com/usnistgov/COSMOSAC).
+
+## Quick Start
+
+This minimal example demonstrates how to use COSMOPharm to calculate solubility and miscibility of a drug with a polymer:
+
+```python
+import cCOSMO
+from cosmopharm import SLE, COSMOSAC
+from cosmopharm.utils import create_components, read_params
+
+# Define components - replace 'DrugName' and 'PolymerName' with your actual component names
+names = ['DrugName', 'PolymerName']
+params_file = "path/to/your/params.xlsx"
+
+# Load parameters and create components
+parameters = read_params(params_file)
+components = create_components(names, parameters)
+
+# Initialize COSMO-SAC model - replace paths with your local paths to COSMO profiles
+db = cCOSMO.DelawareProfileDatabase(
+    "path/to/your/complist/complist.txt",
+    "path/to/your/profiles/")
+
+for name in names:
+    iden = db.normalize_identifier(name)
+    db.add_profile(iden)
+COSMO = cCOSMO.COSMO3(names, db)
+
+# Setup the COSMO-SAC model with components
+model = COSMOSAC(COSMO, components=components)
+
+# Calculate solubility (SLE)
+sle = SLE(solute=components[0], solvent=components[1], actmodel=model)
+solubility = sle.solubility(mix='real')
+
+# Output the solubility
+print(solubility[['T', 'w', 'x']].to_string(index=False))
+```
+
+Replace 'DrugName', 'PolymerName', and file paths with your actual data and files. This example provides a straightforward demonstration of calculating the real solubility of a drug in a polymer using COSMOPharm.
+
+## Contributing
+
+Contributions are welcome! Please refer to our [GitHub repository](https://github.com/ivanantolo/cosmopharm) for more information.
+
+## Citation
+
+If you use COSMOPharm in your research, kindly cite our work. Citation details are available in [CITATION.md](https://github.com/ivanantolo/cosmopharm/CITATION.md).
+
+## License
+
+COSMOPharm is released under the MIT License. For more details, see the [LICENSE](https://github.com/ivanantolo/cosmopharm/LICENSE) file.
