@@ -1,0 +1,12 @@
+ministats/__init__.py,sha256=l7Z0koUzRzsbE7-yh5jWW8b8JEC74uIh58gEDrdbvrM,636
+ministats/confidence_intervals.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ministats/estimators.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ministats/plots.py,sha256=wEVQweozReLOEKsk8lXsFPMnw4bNzGvcYblTPcpb9yI,35419
+ministats/simulations.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ministats/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ministats/utils.py,sha256=Bsa_N2QcdoYOhn-DjvJ7LOzML72A4W4HQ2sdVglH0kQ,2118
+ministats-0.2.0.dist-info/LICENSE,sha256=8CSDh4u4NDLVDdF6cgPG59U3I_5A1tA0xI4mwpDs2fg,1069
+ministats-0.2.0.dist-info/METADATA,sha256=P2ejW0XoOMZoBZAmJgoRQGjX8KeWUNObgu7NPf9_JYo,2548
+ministats-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ministats-0.2.0.dist-info/top_level.txt,sha256=b5hhv2bgG8AbcOyNd7Y_SCL3NMk46UcAWxk3f7imZVs,10
+ministats-0.2.0.dist-info/RECORD,,
