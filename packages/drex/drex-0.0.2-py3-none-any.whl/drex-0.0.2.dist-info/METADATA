@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: drex
+Version: 0.0.2
+Summary: DRex package
+Author-email: "Maxime, Dante, Haochen" <dantsanc@pa.uc3m.es>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# D-rex
+
+Dynamic replication for heterogeneous storage nodes.
+
+Maxime GONTHIER - Dante - Haochen
