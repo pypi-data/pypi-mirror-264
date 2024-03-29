@@ -1,0 +1,123 @@
+This is a lightweight Python client to interact with CommonHealth Cloud Storage Service. It requires Python 3.6+.
+
+# Installation
+
+You can use pip to install it like so: `pip install commonhealth-cloud-storage-client`
+
+It has dependencies on the following packages:
+
+    cryptography==42.0.4
+    requests==2.31.0
+    tink==1.9.0
+
+# Configuration
+
+The client (represented by the class `CHClient`) requires parameters to be passed on initialization. They are:
+
+- _Partner Client ID_ -- a UUID issued by TCP to your organization. This is not secret. 
+- _Partner Client Secret_ -- a **secret** value issued by TCP to your organization. Store alongside any other secrets in your system. 
+- _Partner ID_ -- a UUID issued by TCP to your organization. This is not secret. 
+- _Delegate_ -- the client library requires a persistence layer. An object implementing an expected interface (a subclass of the `CHStorageDelegate` type) must be passed to the client. A default, SQlite-based implementation is included and provided through the `SQLiteDelegate` class. 
+- _CH Authorization Deeplink_ -- this is a CommonHealth URL. For production, this will be: `https://app.commonhealth.org/m/phr/cloud-sharing/authorize`; for dev it will be: `https://appdev.tcpdev.org/m/phr/cloud-sharing/authorize`.
+- _Storage Service Host_ -- the URL to the TCP Storage Service. For dev, this is `chcs.tcpdev.org`
+- _Storage Service Port_ -- the port over which to connect to the TCP Storage Service. Set to 443.  
+- _Storage Service Scheme_ -- the connection scheme for HTTP connections to the TCP Storage Service. Set to "https". 
+- _Logging Enabled_ -- boolean indicating if logging is enabled 
+
+If you're using the provided SQLite-based delegate, through the `SQLiteDelegate` class, it requires some parameters as well:
+
+- _Path to DB file_ -- the path to where the DB file should be written to, including the name. The class will automatically create the DB file if it doesn't exist. 
+- _DB passphrase_ -- a **secret** value, ideally with high entropy, that's used to generate an encryption key to encrypt database contents under. 
+- _DB passphrase salt_ -- a **secret** value that's used to generate an encryption key using the passphrase. 
+- _(Optional) Logger_ -- an optional logger instance to use. If none provided, no logs will be emitted. 
+
+After initializing the `SQLiteDelegate`, call `initialize()` for it assemble the db file and generate the encryption key before calling any of its other methods. 
+
+# Configuration example - using the sample SQLiteDelegate
+
+```
+from commonhealth_cloud_storage_client import (
+    SQLiteDelegate,
+    CHClient
+)
+
+# create delegate
+delegate = SQLiteDelegate(
+    path_to_db_file="ch-delegate.db",
+    db_passphrase="thisssasecretvaluewithhighentropy",
+    db_passphrase_salt="thisisanothersecretvalue",
+    logger=logging.getLogger("CommonHealthClientSQLiteDelegate")
+)
+# call initialize()
+delegate.initialize()
+
+# create CHClient
+ch_client = CHClient(
+    "5c1eeddd-81ca-45b9-901f-791184a6f57a", # Client ID, provided by TCP. Non-secret.
+    "anothersecretvalue", # Client Secret, provided by TCP. Secret!
+    "00e05764-bd84-4f11-9a4b-6f5c27f4519f", # Partner ID, provided by TCP. Non-secret.
+    delegate,
+    "https://appdev.tcpdev.org/m/phr/cloud-sharing/authorize",
+    "chcs.tcpdev.org",
+    443,
+    "https"
+)
+
+# you can now use the client...
+```
+
+# Registering signing keys 
+
+After initializing the objects, the client will need to generate and register a signing key with TCP's servers. This is also a chance to configure branding elements -- name and logo URL -- that will appear in the CommonHealth app to identify the partner to users. 
+
+This call looks like this, and requires network connectivity:
+
+```
+ch_client.perform_initialization(
+    "Partner Name",
+    "https://yourwebsite.com/logo.png"
+)
+```
+
+# Generating a deeplink to share with a specific user 
+
+Each deeplink is specific to a given user and should not be re-used with other users. To generate a deeplink, call `construct_authorization_request_deeplink` with the following parameters. 
+
+- _Patient ID_ -- A stable identifier for a given patient. This can be a hash of an actual patient ID. 
+- _Scope_ -- The scope of data being requested as a string. Recommend the following to READ OpenMHealth BP and HR data: `OMHealthResource.HeartRate.Read OMHealthResource.BloodPressure.Read`.  
+- _Sharing duration seconds_ -- The number of seconds that the data is shared for. For now, put 2592000, or 30 days. 
+- _(Optional) Rotate encryption key_ -- Useful for testing, but recommend setting as `false`. 
+
+A sample call:
+
+```
+deeplink = ch_client.construct_authorization_request_deeplink(
+    "patient123",
+    "OMHealthResource.HeartRate.Read OMHealthResource.BloodPressure.Read",
+    2592000
+)
+```
+The resulting deeplink will be a fully-formed string URL looking something like:
+
+```
+https://appdev.tcpdev.org/m/phr/cloud-sharing/authorize?authorization_request=eyJhbGciOiAiVGlua0VTMjU2IiwgInR5cCI6ICJKV1QifQ.eyJzY29wZSI6ICJPTUhlYWx0aFJlc291cmNlLkhlYXJ0UmF0ZS5SZWFkIE9NSGVhbHRoUmVzb3VyY2UuQmxvb2RQcmVzc3VyZS5SZWFkIiwgImV4cCI6IDE2NDc0NzUzMzAsICJpYXQiOiAxNjQ2ODcwNTMwLCAidXNlcl9pZCI6ICI5MGE5NzY0OC02MzU2LTQ2MTctODlkZS0zNDE5NzEzOGZlNDYiLCAibm9uY2UiOiAiZ1htcjU1dVNJQnYrNm5hWVROVUNZOWM2OWtyN1Bid3g5bm1OanlQdFNXOD0iLCAiaXNzIjogImI4OTE4YzhjLTcyMWEtNDMxNC1hN2QzLTU0ZWM1MGEwYWY1NCIsICJyZXF1ZXN0X2lkIjogIjEwY2I0ODJhLTgyNTgtNGU1ZC04ZjRlLTk0Yjc4YWZiMjg1NiIsICJlbmNyeXB0aW9uX3B1YmxpY19rZXkiOiB7Im1hdGVyaWFsIjogIntcbiAgXCJwcmltYXJ5S2V5SWRcIjogNDg2NjIzMTY1LFxuICBcImtleVwiOiBbXG4gICAge1xuICAgICAgXCJrZXlEYXRhXCI6IHtcbiAgICAgICAgXCJ0eXBlVXJsXCI6IFwidHlwZS5nb29nbGVhcGlzLmNvbS9nb29nbGUuY3J5cHRvLnRpbmsuRWNpZXNBZWFkSGtkZlB1YmxpY0tleVwiLFxuICAgICAgICBcInZhbHVlXCI6IFwiRWtRS0JBZ0NFQU1TT2hJNENqQjBlWEJsTG1kdmIyZHNaV0Z3YVhNdVkyOXRMMmR2YjJkc1pTNWpjbmx3ZEc4dWRHbHVheTVCWlhOSFkyMUxaWGtTQWhBUUdBRVlBUm9nMHREemlNdEY1ZXRBQ0l4eEd1VGU1cHcrZ0ZMR3dDUUhwcDFuczkrc2dnMGlJT0JOaTJoV2xoeWpFbEw5RzB4MFJJWkhsdDFLb002ZUc1S1FTZzZrN0NwdVwiLFxuICAgICAgICBcImtleU1hdGVyaWFsVHlwZVwiOiBcIkFTWU1NRVRSSUNfUFVCTElDXCJcbiAgICAgIH0sXG4gICAgICBcInN0YXR1c1wiOiBcIkVOQUJMRURcIixcbiAgICAgIFwia2V5SWRcIjogNDg2NjIzMTY1LFxuICAgICAgXCJvdXRwdXRQcmVmaXhUeXBlXCI6IFwiVElOS1wiXG4gICAgfVxuICBdXG59IiwgImFsZ29yaXRobSI6ICJFQ0lFU19QMjU2X0hLREZfSE1BQ19TSEEyNTZfQUVTMTI4X0dDTSIsICJsaWJyYXJ5IjogIlRJTksiLCAic2VyaWFsaXphdGlvbl9tb2RlIjogIkpTT04ifX0.ARtUTJowRQIhAMr1rFNsYVs04HCqiMf5E4BTZmKmn_8wE8Nv_aqplewZAiBieJdZSTkVZNEn8lza82BzKbuOhdNMnj-RjKRJMLO4mQ
+```
+
+# Fetching data for a given patient 
+
+The call to retrieve data is very simple - requiring just the same unique patient identifier used before:
+
+```
+from commonhealth_storage_service.errors import UserNotConsented, HTTPError, DelegateStateError
+
+try:
+    patient_data = ch_client.fetch_data("patient123")
+except UserNotConsented as e:
+    logger.info("Patient not consented")
+except DelegateStateError as e:
+    logger.warn("Something went wrong")
+except Exception as e:
+    logger.exception("Something else went wrong")
+```
+
+The `patient_data` returned is a list of `ResourceHolder` objects. The raw, plaintext JSON can be accessed through the `json_content` property on each `ResourceHolder`. 
