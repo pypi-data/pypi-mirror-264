@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: dis-bg-remover
+Version: 0.1.2
+Summary: Highly Accurate Dichotomous Image Segmentation
+Author: Amit
+Author-email: amit@pulpdata.com.au
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: onnxruntime
+
+## Original Work
+[Highly Accurate Dichotomous Image Segmentation ï¼ˆECCV 2022ï¼‰](https://arxiv.org/pdf/2203.03041.pdf) 
+[Xuebin Qin](https://xuebinqin.github.io/), [Hang Dai](https://scholar.google.co.uk/citations?user=6yvjpQQAAAAJ&hl=en), [Xiaobin Hu](https://scholar.google.de/citations?user=3lMuodUAAAAJ&hl=en), [Deng-Ping Fan*](https://dengpingfan.github.io/), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en), [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en).
+
+<br>
+
+## Related
+[Removebg - a Hugging Face Space by gaviego](https://huggingface.co/spaces/gaviego/removebg) 
+
+<br>
+
+## Installation
+```bash
+pip install dis-bg-remover
+```
+<br>
+
+## Usage
+```
+from dis_bg_remover import remove_background
+
+model_path = "PATH TO isnet_dis.onnx"
+image_path = "IMAGE PATH"
+
+extracted_img, mask = remove_background(model_path,image_path)
+
+# extracted_img contains the BGRA image with the background removed.
+# mask contains the background mask.
+```
+<br>
+
+## Model
+### Downloadï¼š [HuggingFace](https://huggingface.co/stoned0651/isnet_dis.onnx/resolve/main/isnet_dis.onnx)
