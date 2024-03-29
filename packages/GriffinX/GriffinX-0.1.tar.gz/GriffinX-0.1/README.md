@@ -1,0 +1,1 @@
+This is a project aimed at providing a middleware solution for Real-time Event Detection using Drone-Car collaboration.
