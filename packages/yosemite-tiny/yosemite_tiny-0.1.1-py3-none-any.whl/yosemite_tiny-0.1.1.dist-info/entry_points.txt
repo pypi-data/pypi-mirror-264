@@ -1,0 +1,2 @@
+[console_scripts]
+yosemite-tiny = yosemite_tiny.__cli__.cli:main
