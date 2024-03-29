@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+db_queryset_tools_pkg/__init__.py
+db_queryset_tools_pkg/db_queryset_tools.py
+db_queryset_tools_pkg.egg-info/PKG-INFO
+db_queryset_tools_pkg.egg-info/SOURCES.txt
+db_queryset_tools_pkg.egg-info/dependency_links.txt
+db_queryset_tools_pkg.egg-info/requires.txt
+db_queryset_tools_pkg.egg-info/top_level.txt

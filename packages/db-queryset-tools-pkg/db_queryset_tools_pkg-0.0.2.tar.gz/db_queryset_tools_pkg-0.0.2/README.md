@@ -1,0 +1,33 @@
+# DB_queryset_tools
+
+Db_queryset_tools_pkg is a Python package that provides funtionalities for converting Django QuerySets into different formats. 
+
+## Instalation
+
+```sh
+pip install Db_queryset_tools_pkg
+```
+
+## Usage
+
+```py
+from db_queryset_tools import DB_queryset_tools
+
+
+tool = DB_queryset_tools()
+
+# Convert a QuerySet to a list
+list_data = tool.queryset_to_list(queryset)
+
+# Convert a QuerySet to a dictionary
+dict_data = tool.queryset_to_dict(queryset)
+
+# Convert a QuerySet to JSON
+json_data = tool.queryset_to_json(queryset)
+
+# Get a dataset for charts from a QuerySet - two required parameters identifier_x & identifier_y according to your chart requirment
+chart_data = tool.get_dataset_for_charts(queryset,'month','count')
+```
+
+## Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
