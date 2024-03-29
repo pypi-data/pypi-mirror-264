@@ -1,0 +1,16 @@
+art
+libhammadpy-text
+prompt_toolkit
+wcwidth
+pathlib
+annoy
+anthropic
+ebooklib
+instructor
+pandas
+pdfminer.six
+PyPDF2
+sentence-transformers
+spacy
+wheel
+Whoosh
