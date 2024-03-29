@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+hitl.egg-info/PKG-INFO
+hitl.egg-info/SOURCES.txt
+hitl.egg-info/dependency_links.txt
+hitl.egg-info/requires.txt
+hitl.egg-info/top_level.txt
