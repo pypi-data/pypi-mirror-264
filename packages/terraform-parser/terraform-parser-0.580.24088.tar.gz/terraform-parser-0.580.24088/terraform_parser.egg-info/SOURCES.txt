@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+terraform_parser/__init__.py
+terraform_parser/functions.py
+terraform_parser/keywords.py
+terraform_parser/utils.py
+terraform_parser.egg-info/PKG-INFO
+terraform_parser.egg-info/SOURCES.txt
+terraform_parser.egg-info/dependency_links.txt
+terraform_parser.egg-info/not-zip-safe
+terraform_parser.egg-info/requires.txt
+terraform_parser.egg-info/top_level.txt

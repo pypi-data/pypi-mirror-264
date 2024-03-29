@@ -1,0 +1,10 @@
+diagrams
+mo-dots==9.578.24081
+mo-imports==7.546.24057
+mo-parsing==8.580.24088
+mo-streams==1.579.24081
+
+[tests]
+mo-testing
+mo-files
+mo-streams
