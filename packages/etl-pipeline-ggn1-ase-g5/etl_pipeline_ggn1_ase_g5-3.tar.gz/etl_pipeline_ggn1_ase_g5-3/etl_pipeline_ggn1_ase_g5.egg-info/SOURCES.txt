@@ -1,0 +1,13 @@
+setup.py
+etl_pipeline_ggn1_ase_g5/__init__.py
+etl_pipeline_ggn1_ase_g5/__main__.py
+etl_pipeline_ggn1_ase_g5/etl_db_manager.py
+etl_pipeline_ggn1_ase_g5/etl_task.py
+etl_pipeline_ggn1_ase_g5/utility.py
+etl_pipeline_ggn1_ase_g5.egg-info/PKG-INFO
+etl_pipeline_ggn1_ase_g5.egg-info/SOURCES.txt
+etl_pipeline_ggn1_ase_g5.egg-info/dependency_links.txt
+etl_pipeline_ggn1_ase_g5.egg-info/entry_points.txt
+etl_pipeline_ggn1_ase_g5.egg-info/requires.txt
+etl_pipeline_ggn1_ase_g5.egg-info/top_level.txt
+tests/test_main.py

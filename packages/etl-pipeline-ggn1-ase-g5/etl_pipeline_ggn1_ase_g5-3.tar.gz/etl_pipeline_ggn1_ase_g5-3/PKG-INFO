@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: etl_pipeline_ggn1_ase_g5
+Version: 3
+Requires-Dist: dill
+Requires-Dist: fastapi
+Requires-Dist: schedule
+Requires-Dist: uvicorn

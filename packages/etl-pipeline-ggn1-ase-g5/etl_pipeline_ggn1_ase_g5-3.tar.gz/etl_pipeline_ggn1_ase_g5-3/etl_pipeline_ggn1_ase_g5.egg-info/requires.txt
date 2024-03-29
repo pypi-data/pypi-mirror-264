@@ -1,0 +1,4 @@
+dill
+fastapi
+schedule
+uvicorn
