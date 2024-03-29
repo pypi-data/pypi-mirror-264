@@ -1,0 +1,15 @@
+difft/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+difft/attachment.py,sha256=_AHFwoMKe_8ej6tZ0j_TT_DJyyQueNnzWJP3rRTP4QU,1358
+difft/auth.py,sha256=JYFpp-RIpyoM17rTED8AmkpTmnmWn_i_OGMMHt9dcVM,3101
+difft/client.py,sha256=QCxyEr8uzRVn89lM4n_iTn2VMtBkJ525k4l31s2-3nM,13365
+difft/command.py,sha256=LAwS1QpaSUF71q9EMH5HSvHIibt-mmxUiprGKbG7B94,7741
+difft/constants.py,sha256=tDIuNCwU_bVO7n1ScgtFpkWMEVv1FiZdkGcH1nhIfc0,700
+difft/crypto.py,sha256=aiAsAhn7bLf2vuShbHjnSDu6SGEyMB0epgtnsSle3HE,1907
+difft/difft_ws_listener.py,sha256=xmkqNvu7eSdTwN1XANjSNk5TUZ8fVLeFly2PTuCABqw,3802
+difft/message.py,sha256=rjTTsJvWH973EmHR6y2_ia3a82RF4mURyZhsgx_teIo,3059
+difft/utils.py,sha256=NCNnWgCQb40Io1oKFdgA2wx5LpraoFh9_rXGlKdLxdc,1598
+difft-1.4.2.dist-info/METADATA,sha256=KY7ua9ouo6aCUnK9t1u4FatfEhwhGtdTDNvYaAoqUuc,327
+difft-1.4.2.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+difft-1.4.2.dist-info/entry_points.txt,sha256=rObsennM971X_sZQFleWPv_Qr9xVVDskX-57AQ5FaFE,50
+difft-1.4.2.dist-info/top_level.txt,sha256=chJ57utNQdklgBoF42UEt4t2wgtXWqUUcehueecHAgM,6
+difft-1.4.2.dist-info/RECORD,,
