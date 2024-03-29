@@ -1,0 +1,1 @@
+from willowDb.main import Setup
