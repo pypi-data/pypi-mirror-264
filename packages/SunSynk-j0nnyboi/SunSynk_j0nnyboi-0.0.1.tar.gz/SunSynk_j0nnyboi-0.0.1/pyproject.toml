@@ -1,0 +1,18 @@
+[project]
+name = "SunSynk_j0nnyboi"
+version = "0.0.1"
+authors = [
+  { name="Jonathan Wright", email="owlman2222@yahoo.co.uk" },
+]
+description = "SunSynk API"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/j0nnyboi/SunSynk"
+Issues = "https://github.com/j0nnyboi/SunSynk/issues"
