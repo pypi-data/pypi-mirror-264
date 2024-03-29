@@ -1,0 +1,16 @@
+napari_toothfairy_annotator/FDI_Annotator.py,sha256=7BlE1AAmxdvlV_Lzr4wqxXAkYPtnO57YvR5phYLFtEA,9539
+napari_toothfairy_annotator/__init__.py,sha256=quDCZIkvGKVF2cLsrwGqrr3W8ehsTmDrNSqzZ4RGEPM,335
+napari_toothfairy_annotator/_reader.py,sha256=86NZMTDeViVf3i_NkX7K6HQAJqor3xrtl31-oo6kSHk,812
+napari_toothfairy_annotator/_widget.py,sha256=tsBQbNM2eCSJAoTwq-HcF5XcBuu4610MuKVG2QqI1PE,12280
+napari_toothfairy_annotator/_writer.py,sha256=xdvctbVatUqcWt_VERjselnOzBNkqNAvZOCXxv82vf8,1998
+napari_toothfairy_annotator/napari.yaml,sha256=pdWE8z3Q2ZuEwr2ugR2hB331JHBWdtZDsStjku-rEmc,1520
+napari_toothfairy_annotator/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_toothfairy_annotator/_tests/test_reader.py,sha256=t_VhV_c4CX_I8GX6BANdkHuIyf7P5iyZSeG7VAMNg8Y,1020
+napari_toothfairy_annotator/_tests/test_widget.py,sha256=-wjPhXqamozxAsTtH8GenZl_7kWXA3_Wj1VAi8rsKVs,2284
+napari_toothfairy_annotator/_tests/test_writer.py,sha256=cOMS8XSotBiRmsZjMxEIaeNo80KmdR3iVAPvTaHdkwE,143
+napari_toothfairy_annotator-0.0.1.dist-info/LICENSE,sha256=pcxRBr2qyijsL-hgPYGvOxAMtcFuAXzKmT5fBsgX6q0,1102
+napari_toothfairy_annotator-0.0.1.dist-info/METADATA,sha256=n_F5Jidbc8fsJmAm2vJSUOFmCkZ-VwPD_eWVQJdSsdg,4722
+napari_toothfairy_annotator-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+napari_toothfairy_annotator-0.0.1.dist-info/entry_points.txt,sha256=9BHdC_IcGjbmGDjSbvU7P2-V5nhQ_l9eho5gkNHnlRs,88
+napari_toothfairy_annotator-0.0.1.dist-info/top_level.txt,sha256=i1WaYCZxMWiBtIyMWc60bQ7768nOUkC-50Vz3gaYQwY,28
+napari_toothfairy_annotator-0.0.1.dist-info/RECORD,,
