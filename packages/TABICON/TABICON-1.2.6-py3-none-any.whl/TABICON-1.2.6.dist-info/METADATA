@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: TABICON
+Version: 1.2.6
+Summary: Clases para el PLN y desarrollo de componentes
+Home-page: https://gitlab.com/ugarciacalderon/Servicio_Social.git
+Author: Ulises Garcia Calderón
+Author-email: ugarciacalderon@gmail.com
+License: GPL
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# TABICON Python
+
+## Descripción
+Biblioteca en Python para el desarrollo de componentes.
+
+## Autores
+Ulises García Calderón (ugarciacalderon@gmail.com)
+
+Jonathan Rojas Simón (jrojass@uaemex.mx)
+
+## Requisitos
+ - python 3.6.6 o 3.+
+ - pip >=23.2.1
+
+## Instalación
+1. Descargar paquete con pip: 
+   ```bash
+   pip install TABICON
+   ```
+2. Mostrará un mensaje que el paquete ha sido instalado de manera correcta
+   ```
+   Collecting TABICON
+     Obtaining dependency information for TABICON from https://files.pythonhosted.org/packages/b3/0c/3995c373dfd07c0665ad94270c4b3fb982af139da50fb45306a70ef10cd3/TABICON-1.2.1-py3-none-any.whl.metadata
+     Downloading TABICON-1.2.1-py3-none-any.whl.metadata (1.2 kB)
+   Downloading TABICON-1.2.1-py3-none-any.whl (13 kB)
+   Installing collected packages: TABICON
+   Successfully installed TABICON-1.2.1
+   ```
+3. Importar paquetes y funciones:
+   ```python
+   from TABICON.Libreria import *
+   ```
+   Ejemplo:
+   ```python
+   from TABICON.ManejoArchivos import *
+   ```
