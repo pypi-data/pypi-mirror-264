@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: timos_tools
+Version: 0.0.4
+Summary: timos_tools
+Author: timos
+Author-email: ekarvelas <test@test.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# timos_tools
+
+test

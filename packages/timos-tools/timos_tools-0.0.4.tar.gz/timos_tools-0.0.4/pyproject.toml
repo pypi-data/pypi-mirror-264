@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timos_tools"
+authors = [
+    { name = "ekarvelas", email = "test@test.com" },
+]
+description = "timos_tools"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+dependencies = []
+
+[tool.setuptools.dynamic]
+version = { attr = "timos_tools.__version__" }
