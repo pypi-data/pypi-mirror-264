@@ -1,0 +1,13 @@
+kinto_wizard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kinto_wizard/__main__.py,sha256=i2yAZjQpnPkdv0Awnf6KxxEM2swqatWLiFJnkVFkhxo,4450
+kinto_wizard/async_kinto.py,sha256=WQT-gs5m6LIMoKeO3gBZf3GNuwOfiQtrufbbnCnF0ew,1421
+kinto_wizard/kinto2yaml.py,sha256=qr3mut3ikxuZkLgXyMmRTTNE4K-V9ry60RDh6Q8XUzQ,4685
+kinto_wizard/logger.py,sha256=W9CYBL5L1IZxpvuCbD6OX57U-QMIYEpSUzfF4vLzdvk,60
+kinto_wizard/validate.py,sha256=PTVmrl7Yz7xlyRiaxfQaWoZvz2-PcU-2LDOC5H_eHeY,2914
+kinto_wizard/yaml2kinto.py,sha256=mt_NzJKRgZWkwr7dzI8f4X8HPMoj-fbeGKq4XroF5vw,9136
+kinto_wizard-4.0.3.dist-info/LICENSE,sha256=oNEIMTuTJzppR5ZEyi86yvvtSagveMYXTYFn56zF0Uk,561
+kinto_wizard-4.0.3.dist-info/METADATA,sha256=sgs9DbDfK6GqidDB9aoSxwAdRPYnR7HQ1bWQnfGF7ZY,4345
+kinto_wizard-4.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+kinto_wizard-4.0.3.dist-info/entry_points.txt,sha256=UdWOhlLvJVcN1JyM73URpa5FyRsMhYm3_007zJQK6HM,60
+kinto_wizard-4.0.3.dist-info/top_level.txt,sha256=7ibLGkhB4mv38jCG-a8t9Jq0m7_xB3_dgEOSJaTOxrE,13
+kinto_wizard-4.0.3.dist-info/RECORD,,
