@@ -1,0 +1,414 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = [
+    "hatch-fancy-pypi-readme",
+    "hatch-vcs",
+    "hatchling",
+]
+
+[project]
+name = "tmmc-lnpy"
+description = "Analysis of lnPi results from TMMC simulation"
+keywords = [
+    "tmmc-lnpy",
+]
+license = { text = "NIST-PD" }
+license-files = { paths = ["LICENSE"] }
+authors = [{ name = "William P. Krekelberg", email = "wpk@nist.gov" }]
+requires-python = ">=3.8,<=3.12"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: Public Domain",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+dynamic = [
+    "readme",
+    "version",
+]
+dependencies = [
+    "bottleneck",
+    "importlib_resources",
+    "joblib",
+    "lazy_loader",
+    "module-utilities >= 0.9.0",
+    "numpy",
+    "scikit-image >= 0.21",
+    "scipy",
+    "tqdm",
+    "typing-extensions;python_version<'3.11'",
+    "xarray",
+]
+[project.optional-dependencies]
+dev = [
+    "tmmc-lnpy[dev-extras,test,typing,pipxrun,mypy,viz,nbval]",
+]
+dev-complete = [
+    "tmmc-lnpy[dev,tools]",
+]
+dev-extras = [
+    "ipykernel",
+    "ipython",
+    "nbclient >= 0.10.0",
+    "nox >= 2024.3.2",
+    "pytest-accept",
+]
+docs = [
+    "autodocsumm",
+    "myst-nb",
+    "pyenchant",
+    "sphinx >= 5.3.0",
+    "sphinx-autobuild",
+    "sphinx-book-theme",
+    "sphinx-copybutton",
+    "sphinxcontrib-spelling",
+    "tmmc-lnpy[viz]",
+]
+mypy = [
+    "mypy >= 1.9.0",
+]
+nbval = [
+    "nbval",
+]
+pipxrun = [
+    # Anything needed to run tools/pipxrun.py
+    "packaging",
+]
+pipxrun-tools = [
+    # these used solely for specking tools to be used with tools/pipxrun.py
+    "conda-lock >= 2.5.5",
+    "grayskull >= 2.5.3",
+    "nbqa >= 1.8.4",
+    "pyright >= 1.1.356",
+    "tmmc-lnpy[mypy]",
+    "twine >= 5.0.0",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-sugar",
+    "pytest-xdist",
+]
+tools = [
+    "pipx",
+    "pre-commit",
+    "scriv",
+]
+typing = [
+    "pandas-stubs",
+    "pytest",
+    "tmmc-lnpy[pipxrun]",
+    "types-tqdm",
+]
+viz = [
+    "ipywidgets",
+    "matplotlib",
+]
+[project.urls]
+Documentation = "https://pages.nist.gov/tmmc-lnpy/"
+Homepage = "https://github.com/usnistgov/tmmc-lnpy"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build]
+exclude = [
+    ".*_cached",
+]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "examples",
+    "docs",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lnpy", "src/lnPi"]
+
+
+[tool.hatch.metadata.hooks.fancy-pypi-readme]
+content-type = "text/markdown"
+fragments = [
+    { path = "README.md" },
+    { path = "CHANGELOG.md" },
+    { path = "LICENSE" },
+]
+
+# * Linting --------------------------------------------------------------------
+
+[tool.ruff]
+fix = true
+line-length = 88
+extend-include = ["*.ipynb"]
+extend-exclude = [
+    ".venv",
+    "dist-conda",
+    ".numba_cache",
+    "examples/archived",
+    # "tests/",
+    # "src/lnpy/tests",
+]
+unsafe-fixes = true
+
+[tool.ruff.lint]
+preview = true
+select = ["ALL"]
+# fixable = ["ALL"]
+unfixable = ["T"]
+ignore = [
+    "CPY",       # - Don't require copyright
+    "ERA",       # - eradicate (want to keep some stuff)
+    "FBT",       # - bools are ok
+    # * Annotations
+    "ANN101",    # - Leads to issues with methods and self
+    "ANN102",    # - Leads to issues with classmethods and cls
+    "ANN401",    # - Any ok sometimes
+    # * Allow non top level imports
+    "PLC0415",   # - import should be at top level (leads to issues with imports in func?)
+    "TID252",    # - Allow relative imports
+    "E402",      # - module level import not at top of file
+    # * Other
+    "E501",      # - line too long - let formatter fix this
+    "E731",      # - do not assign a lambda expression, use a def
+    # * Docstrings
+    "D105",      # - Missing magic method docstring
+    "D205",      # - blank line after summary
+    # * This leads to errors with placing titles in module
+    "D400",      # - First line should end with a period
+    "D401",      # - First line of docstring should be in imperative mood: "{first_line}"
+    "D415",      # - First line should end with a period, question mark, or exclamation point
+    # * Not a fan of these.  And lead to issues with docfiller
+    "D107",      # - Missing docstring in __init__
+    "D203",      # - 1 blank line required before class docstring
+    "D212",      # - Multi-line docstring summary should start at the first line
+    "D417",      # - Missing argument description in the docstring for {definition}: {name} (bad with docfiller)
+    # * These conflict with formatter
+    "COM",       # - flake8-commas, formatter should take care of this?
+    "ISC",       # - flake8-implicit-str-concat
+]
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+# Use extend-ignore for project specific ignores (avoid changing ignore directly)
+extend-ignore = [
+    # "PD",        # - not using pandas?
+    # "NPY",       # - not using numpy?
+    # * Annotations
+    "SLF001",  # - flake8-self (private access sometimes OK)
+    # "ANN",     # - Annotations (just use mypy/pyright)
+    # * pylint
+    # "PLR2004", # - numbers in comparison sometimes ok
+    # "PLR0913", # - complexity sometimes ok
+    # "PLR0917", # - complexity sometimes ok
+    # * Docstrings ymmv
+    "D102",    # - Missing docstring in public method
+    "D103",    # - Missing docstring in public function
+    "D202",    # - blank line after docstring
+    # * ignore complexity for now
+    "C901",
+    "PLR091",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.pylint]
+max-args = 15
+max-positional-args = 15
+max-public-methods = 30
+
+[tool.ruff.lint.per-file-ignores]
+"docs/conf.py" = ["INP001"]
+"noxfile.py" = ["RUF009"]
+"tools/*.py" = ["S", "A", "SLF001", "D102"]
+"tests/*.py" = ["D", "S101"]
+"**/*.ipynb" = ["D100", "B018", "INP001"]
+
+[tool.ruff.lint.extend-per-file-ignores]
+# Project specific ignores (avoid changing per-file-ignores directly)
+"tests/*.py" = ["ANN"]
+"**/conftest.py" = ["PT", "ANN"]
+"**/*.py" = ["N999", "ANN101", "ANN102", "ANN401", "PLR2004", "PLC0415", "TD003", "FIX002"]
+"**/lnPi/*.py" = ["PGH", "ANN", "PL", "B", "N", "SIM", "S101"]
+"**/ensembles.py" = ["N802", "N803", "N806"]
+"**/*.ipynb" = ["ANN", "T201", "PLR2004", "S110", "PD010", "PD013", "E302", "E305"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["lnpy", "lnPi"]
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.nbqa.exclude]
+codespell = "^examples/archived"
+
+[tool.check-wheel-contents]
+toplevel = ["lnpy", "lnPi"]
+src_dir = ["src"]
+
+# * Testing --------------------------------------------------------------------
+
+[tool.pytest.ini_options]
+addopts = [
+    "--doctest-modules",
+    "--doctest-glob=*.md",
+    "--cov-config=pyproject.toml",
+    "--pyargs",
+    "-n",
+    "4",
+]
+testpaths = [
+    # "README.md",  # py38 issues.
+    "lnPi",
+    "lnpy",
+    "tests",
+]
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+# show_missing = true
+exclude_also = ["if TYPE_CHECKING:", "@overload"]
+omit = ["*/vendored/*", "*/_typing.py"]
+include = ["src/*"]
+
+[tool.coverage.paths]
+source = ["src/", ".nox/**/site-packages/"]
+
+# * Typing ---------------------------------------------------------------------
+
+[tool.mypy]
+files = ["src", "tests"]
+show_error_codes = true
+warn_unused_ignores = true
+warn_return_any = true
+warn_unused_configs = true
+exclude = [".eggs", ".tox", ".nox", ".venv", ".numba_cache", "docs"]
+check_untyped_defs = true
+strict = true
+untyped_calls_exclude = ["skimage"]
+
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
+module = [
+    "joblib.*",
+    "skimage.*",
+    "bottleneck.*",
+    "scipy.ndimage.*",
+    "scipy.spatial.*",
+    "scipy.optimize.*",
+    "scipy.sparse.*",
+    "lnPi.*",
+    "IPython.*",
+    "matplotlib.*",
+]
+
+[[tool.mypy.overrides]]
+ignore_errors = true
+module = []
+
+[tool.pyright]
+include = ["src", "tests"]
+exclude = ["**/__pycache__", ".tox/**", ".nox/**", ".venv/**", "**/.mypy_cache", "**/.numba_cache"]
+# strict = ["src/lnpy", "noxfile.py", "tools/*.py"]  # TODO(wpk): enable strict mode for src
+strict = ["noxfile.py", "tools/*.py"]
+pythonVersion = "3.11"
+# useLibraryCodeForTypes = true
+# typeCheckingMode = "strict"
+typeCheckingMode = "basic"
+# enable subset of "strict"
+reportDuplicateImport = true
+reportInvalidStubStatement = true
+reportOverlappingOverload = true
+reportPropertyTypeMismatch = true
+reportUntypedClassDecorator = true
+reportUntypedFunctionDecorator = true
+reportUntypedNamedTuple = true
+reportUnusedImport = true
+# disable subset of "basic"
+reportGeneralTypeIssues = false
+reportMissingModuleSource = false
+reportOptionalCall = false
+reportOptionalIterable = false
+reportOptionalMemberAccess = false
+reportOptionalOperand = false
+reportOptionalSubscript = false
+reportPrivateImportUsage = false
+reportUnboundVariable = false
+
+[tool.pytype]
+inputs = ["src", "tests"]
+
+# * Dependency creation --------------------------------------------------------
+
+[tool.pyproject2conda]
+user_config = "config/userconfig.toml"
+template_python = "requirements/py{py}-{env}"
+template = "requirements/{env}"
+python = ["3.11"]
+channels = ["conda-forge"]
+style = ["yaml", "requirements"]
+default_envs = ["test", "typing", "docs", "dev", "dev-complete"]
+
+[tool.pyproject2conda.dependencies]
+pytest-accept = { pip = true }
+scriv = { pip = true }
+matplotlib = { skip = true, packages = "matplotlib-base" }
+
+[tool.pyproject2conda.envs.build]
+extras = "build-system.requires"
+reqs = ["build"]
+base = false
+style = "requirements"
+
+[tool.pyproject2conda.envs.pipxrun-tools]
+extras = "pipxrun-tools"
+base = false
+style = "requirements"
+
+[tool.pyproject2conda.envs.test-extras]
+extras = ["test"]
+base = false
+
+[tool.pyproject2conda.envs.test-notebook]
+extras = ["test", "nbval", "viz"]
+
+[[tool.pyproject2conda.overrides]]
+# Ensure these have pip in yaml file
+envs = ["test", "docs", "dev", "dev-complete"]
+deps = ["pip"]
+
+[[tool.pyproject2conda.overrides]]
+envs = ["test", "typing", "test-extras"]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.pip-tools]
+allow-unsafe = true
+strip-extras = true
+
+# * Other tools ----------------------------------------------------------------
+
+[tool.scriv]
+format = "md"
+md_header_level = "2"
+new_fragment_template = "file: changelog.d/templates/new_fragment.md.j2"
+
+[tool.commitizen]
+use_shortcuts = true
+
+[tool.cruft]
+
+[tool.typos.default.extend-words]
+datas = "datas"
+
+[tool.typos.default.extend-identifiers]
+MyNDArray = "MyNDArray"
+fileprefix_inh = "fileprefix_inh"
