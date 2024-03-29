@@ -1,0 +1,8 @@
+streamlit_google_auth/__init__.py,sha256=XoCkBvp7cb5yHuUfHbj_ybVLnXyhnBdhvHoKB7eAoT8,3191
+streamlit_google_auth/_auth.py,sha256=zsWoXAdRJfpoCtu_rkomsJhDw14Eqp-0F0Bt3u97z-w,3824
+streamlit_google_auth/_cookies.py,sha256=PtidUDa1-GGvKPojYRNB9ZVSNrN5m0tjkDCyVtD4ETI,1881
+streamlit_google_auth-1.0.4.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+streamlit_google_auth-1.0.4.dist-info/METADATA,sha256=1fxAWKkkk4BsFSAV3ErsXPkfLVc8S-2dZzixlESZ0nw,6725
+streamlit_google_auth-1.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+streamlit_google_auth-1.0.4.dist-info/top_level.txt,sha256=rTPep82rDR6YYM-PjmjCC4bAz7a8eJiUSm3xXtAmdIk,22
+streamlit_google_auth-1.0.4.dist-info/RECORD,,
