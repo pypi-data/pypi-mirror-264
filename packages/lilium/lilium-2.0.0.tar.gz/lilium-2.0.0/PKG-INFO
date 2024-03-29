@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: lilium
+Version: 2.0.0
+Summary: A small python package i made for fun to scrape mangas
+Project-URL: Homepage, https://github.com/PettingStrings/lilium
+Project-URL: Issues, https://github.com/PettingStrings/lilium/issues
+Author-email: PettingStrings <danutzzu2002.ro@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Requires-Dist: beautifulsoup4~=4.12.3
+Requires-Dist: httpx~=0.27.0
+Requires-Dist: pathvalidate~=3.2.0
+Requires-Dist: utils~=1.0.2
+Description-Content-Type: text/markdown
+
+# Lilium &#127893; <!-- omit from toc --> 
+- [Supported Sites](#supported-sites)
+
+# Supported Sites
+
+[Manganelo](https://m.manganelo.com/wwww)
