@@ -1,0 +1,10 @@
+dynamojo/__init__.py,sha256=bILBw1CxIisxMiMPhNF_m6PxGA9hYwam7MKIed2Pljg,449
+dynamojo/base.py,sha256=ImPBdgcVIEojoJfvjgwnobn9rAtsNLmPa3CJ96oZnyM,19880
+dynamojo/boto.py,sha256=VtrXAHyts0y4nCI7fo8BuowQE9qCoVZ9KJ1ZHXvmysQ,89
+dynamojo/config.py,sha256=dFfMJpYUQ4gRPvsS_EVpgoEPmRz0UglO9wwTMlfx2aE,2212
+dynamojo/exceptions.py,sha256=PL9LkviDckaBZOQUq-2tYG4hPyfHr623eK9UjnICMM0,445
+dynamojo/index.py,sha256=lV8GIWyHBFQh6zMZZxVJPHOBRi_ue2XqqPwq97Wc_zo,4406
+dynamojo/utils.py,sha256=QzsNIdVzfOd-Y8Zn4Zti07a-i71WNOup-v_ZCNsJRwk,1882
+dynamojo-0.2.0.dist-info/METADATA,sha256=vfJlstxcQelEMw5feK6OQuhI-uCfkuE4ZDDbKHSDbi0,4699
+dynamojo-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dynamojo-0.2.0.dist-info/RECORD,,
