@@ -1,0 +1,11 @@
+gpapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpapi/config.py,sha256=4kx8aP8JuMA5aPrZ7eKNFq__VcnyIhIx_068_vgK1Mg,9951
+gpapi/device.properties,sha256=b2enoAda_CR7QAqjomAEAbF4qWuvqn5kujNBH_qappI,318690
+gpapi/googleplay.py,sha256=FNBOrJL0gvg4KBslD6JD8JomA1b9gfseeLc7a6UbNNE,31742
+gpapi/googleplay_pb2.py,sha256=vIkV6_aX7jWzn0_6RiAMHTwnuJXrH_yJvJ9IgPO4jyI,590875
+gpapi/utils.py,sha256=79tK90c4zZllbfPf9HEXTZ0tCkFu7cPw1Vw0pxPmekY,1866
+test_google_play_api-1.0.3.dist-info/LICENSE.md,sha256=9MC9nE7_xnzpxmAH_qPmCthinJSu31qAeOhSfZ0GsSE,35102
+test_google_play_api-1.0.3.dist-info/METADATA,sha256=3nkyFRkxD8BI48IIqIeeO_PH1EfZaLa9Xne-wg1p6yE,2474
+test_google_play_api-1.0.3.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+test_google_play_api-1.0.3.dist-info/top_level.txt,sha256=JZbgCLxWp8dzcTuUdrynlWPqzWoLkRJ5N6F4VJP80S0,6
+test_google_play_api-1.0.3.dist-info/RECORD,,
