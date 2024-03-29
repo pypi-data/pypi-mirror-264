@@ -1,0 +1,5 @@
+graphene-django>=3.0.0
+mypy==1.9.0
+
+[test]
+pytest>=3.6.3
