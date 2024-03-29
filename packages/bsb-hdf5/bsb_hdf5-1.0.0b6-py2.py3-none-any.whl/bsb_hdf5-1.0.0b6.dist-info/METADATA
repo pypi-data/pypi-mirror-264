@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: bsb-hdf5
+Version: 1.0.0b6
+Summary: HDF5 storage engine for the BSB framework.
+Author-email: Robin De Schepper <robingilbert.deschepper@unipv.it>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: bsb-core>=4.0.0b0,<=4.0.0b9999
+Requires-Dist: sphinx==5.0.2 ; extra == "docs"
+Requires-Dist: colour==0.1.5 ; extra == "docs"
+Requires-Dist: sphinxemoji==0.2.0 ; extra == "docs"
+Requires-Dist: toml==0.10.2 ; extra == "docs"
+Requires-Dist: furo==2022.6.21 ; extra == "docs"
+Requires-Dist: sphinx_design==0.2 ; extra == "docs"
+Requires-Dist: sphinx-copybutton==0.5.0 ; extra == "docs"
+Requires-Dist: bsb-core[parallel] ; extra == "parallel"
+Requires-Dist: bsb-test>=0.0.0b15,<=0.0.0b9999 ; extra == "test"
+Requires-Dist: coverage~=7.0 ; extra == "test"
+Requires-Dist: bsb-core[parallel] ; extra == "test"
+Provides-Extra: docs
+Provides-Extra: parallel
+Provides-Extra: test
+
+# bsb-hdf5
+The HDF5 storage engine of the BSB
+
