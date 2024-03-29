@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/drops/__init__.py
+src/drops/core.py
+src/drops/drops_old.py
+src/drops/futures.py
+src/drops/conf/__init__.py
+src/drops/conf/project_template/__init__.py
+src/drops/conf/project_template/settings.py
+src/drops/conf/project_template/sim.py
+src/drops/conf/project_template/domain/__init__.py
+src/drops_py.egg-info/PKG-INFO
+src/drops_py.egg-info/SOURCES.txt
+src/drops_py.egg-info/dependency_links.txt
+src/drops_py.egg-info/requires.txt
+src/drops_py.egg-info/top_level.txt

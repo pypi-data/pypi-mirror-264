@@ -1,0 +1,8 @@
+
+[dev]
+termynal
+mkdocs
+mkdocs-material
+mdx_include
+mypy==0.982
+black==22.10.0

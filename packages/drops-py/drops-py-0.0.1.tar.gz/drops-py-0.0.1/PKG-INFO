@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: drops-py
+Version: 0.0.1
+Summary: Event and Message Queue
+Author-email: Erik J Kostic <ErikJohannesKostic@gmail.com>
+Project-URL: Homepage, https://github.com/eineruntervielen/drops
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: termynal; extra == "dev"
+Requires-Dist: mkdocs; extra == "dev"
+Requires-Dist: mkdocs-material; extra == "dev"
+Requires-Dist: mdx_include; extra == "dev"
+Requires-Dist: mypy==0.982; extra == "dev"
+Requires-Dist: black==22.10.0; extra == "dev"
+
+# Drops
+
+--> https://eineruntervielen.github.io/drops/
