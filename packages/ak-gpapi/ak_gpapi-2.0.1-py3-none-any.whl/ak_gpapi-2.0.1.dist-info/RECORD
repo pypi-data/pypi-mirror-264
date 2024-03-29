@@ -1,0 +1,10 @@
+gpapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpapi/config.py,sha256=iOHsK7c_vNtQIUi-MrhKu0fK_Oc3crUMAkzMsXQ7WIk,10536
+gpapi/device.properties,sha256=b2enoAda_CR7QAqjomAEAbF4qWuvqn5kujNBH_qappI,318690
+gpapi/googleplay.py,sha256=lIndtDWixfbESKhl9c9higCKm8tJufb1RRAx5yjkU-I,31724
+gpapi/utils.py,sha256=79tK90c4zZllbfPf9HEXTZ0tCkFu7cPw1Vw0pxPmekY,1866
+ak_gpapi-2.0.1.dist-info/LICENSE.md,sha256=9MC9nE7_xnzpxmAH_qPmCthinJSu31qAeOhSfZ0GsSE,35102
+ak_gpapi-2.0.1.dist-info/METADATA,sha256=-3kEjwpyH8rP_Qh2yTg4XqdBxoPeU5plBb4V2dOskRo,2458
+ak_gpapi-2.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+ak_gpapi-2.0.1.dist-info/top_level.txt,sha256=JZbgCLxWp8dzcTuUdrynlWPqzWoLkRJ5N6F4VJP80S0,6
+ak_gpapi-2.0.1.dist-info/RECORD,,
