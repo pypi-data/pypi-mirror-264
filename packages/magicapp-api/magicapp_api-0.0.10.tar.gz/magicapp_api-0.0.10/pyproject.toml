@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "magicapp-api"
+version = "0.0.10"
+description = "Wrapper for the Magic API"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+authors = [
+    "Anders Vandvik <anders@sanders.technology>",
+    "Sander Nordeide <sander@sanders.technology>",
+]
+readme = "README.md"
+packages = [{ include = "magicapp_api" }]
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.12"
+pytest = "^8.1.1"
+python-dotenv = "^1.0.1"
+requests = "^2.31.0"
+magicapp-common-assets = "^0.0.9"
