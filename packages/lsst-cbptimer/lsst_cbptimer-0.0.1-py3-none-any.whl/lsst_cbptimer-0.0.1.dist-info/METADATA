@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: lsst-cbptimer
+Version: 0.0.1
+Summary: Command line tool for Rubin Observatory CBP calibration system logic timers
+Author-email: Fritz Mueller <fritzm@slac.stanford.edu>
+Maintainer-email: Fritz Mueller <fritzm@slac.stanford.edu>
+License: MIT License
+        
+        Copyright (c) 2024 The Board of Trustees of the Leland Stanford Junior University, through SLAC National Accelerator Laboratory
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/lsst-sitcom/cbptimer
+Project-URL: Documentation, https://github.com/lsst-sitcom/cbptimer/blob/master/README.md
+Project-URL: Repository, https://github.com/lsst-sitcom/cbptimer
+Keywords: Rubin,Rubin Observatory,LSST,CBP
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: System :: Hardware
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pigpio
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# cbptimer
+
+This is a command line utility for use with logic timer units used in the calibration system for the colimated
+beam projector (CBP) at the Rubin Observatory.  The utility leverages [pigpio](https://abyz.me.uk/rpi/pigpio/)
+to generate CSV logs of &mu;-second ticks corresponding to edge events on the timer unit TTL trigger inputs.
+
+## Logic Timer Design
+
+The logic timer modules are built on the Raspberry Pi 4b platform, running AlmaLinux 9.  An [Adafruit Ultimate
+GPS Hat](https://learn.adafruit.com/adafruit-ultimate-gps-hat-for-raspberry-pi) module is included to provide
+GPS-assisted stabilization of the Raspberry Pi clock when GPS reception is available.
+
+A 5V TTL trigger interface is also built out in the prototyping area of the GPS hat.  This utilizes a 74LVC245
+for 5V to 3.3V level conversion, and provides jumperable 10K pull up/down and jumperable ground lift on the
+TTL side.  The level-converted trigger input is wired through to Pi GPIO 16 via the hat.
+
+<p align="center">
+    <img src="images/logictimer.jpeg" height="300">
+    <img src="images/schematic.png" height="300">
+</p>
+
+## Principle of Operation
+
+The `pigpio` daemon uses the Raspberry Pi hardware DMA engine to sample GPIOs every 5&mu;s (by default). It
+queues events recording observed edges, attaching timestamps from the system &mu;-second clock. The Python
+side of `pigpio` then reads this queue at its leisure and generates Python callbacks which are used to write
+out CSV records. The logged timestamps which are passed to the callbacks are the ones recorded by the daemon,
+and are not derived from the Python callback time.
+
+This arrangement should be sufficient for millisecond-accurate timing. If it is necessary to tighten this
+further, we could consider configuring `pigpio` for a higher sample frequency (it can get down to a 1&mu;s
+sample period) and/or cutting over to a real-time Linux kernel.
+
+## Usage
+
+This package is published on PyPI, so should be installable via:
+
+    pip install lsst-cbptimer
+
+It is assumed
+that you will have previously installed `pigpio` (libraries and daemon) as a system-level dependency.  Once
+installed:
+
+    usage: cbptimer [-h] [--edge {rising,falling,either}] [--duration DURATION] [--outfile OUTFILE] [--version]
+
+    Log trigger events from CBP calibration logic timer
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      --edge {rising,falling,either}
+                            which types of triggers to log (default: rising)
+      --duration DURATION   duration to monitor/log, in seconds (default: infinite; ^C or SIGINT to exit)
+      --outfile OUTFILE     where to log (default: stdout)
+      --version             show program's version number and exit
+
+## Developer Quickstart
+
+It is recommended to develop within a virtual environment.  The package can be installed in pip "editable" mode via:
+
+    pip install -e .[dev]
+
+The `[dev]` option here will ensure automatic installation of additional Python development support packages (`mypy`, `ruff`, `build`).  Linting and autoformatting can be accomplished via:
+
+    ruff check .
+    ruff format .
+
+Type hinting may be checked via:
+
+    mypy src
