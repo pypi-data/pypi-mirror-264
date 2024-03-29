@@ -1,0 +1,5 @@
+torch
+numpy
+ultralytics
+cv2
+pillow>=10.2.0
