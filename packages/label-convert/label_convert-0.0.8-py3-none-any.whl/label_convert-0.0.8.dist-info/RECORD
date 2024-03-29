@@ -1,0 +1,15 @@
+label_convert/__init__.py,sha256=m-UGKHJ-31qL7pBis4nfoFz5fzb-dXsiTLNqY-xpSoA,74
+label_convert/coco_to_labelImg.py,sha256=RkPJpE-xXeLeUXBzWqeOEouNd9NibrTOVubOUS3II04,5303
+label_convert/coco_visual.py,sha256=3jMk4eaUokIHjRvV_CFW23RYXZicUTCA2SAtKQyGwa0,3296
+label_convert/darknet_to_coco.py,sha256=BlSUku7ZSnfjNcqVOQkL006sgUyQAD8SNboVU_2sNNo,7214
+label_convert/labelImg_to_publaynet.py,sha256=ka8otxdhkTI2yKSoeJfFIRsQESMRwAcORdW-1gzDmTs,7069
+label_convert/labelImg_to_yolov5.py,sha256=kzHDoc9CxKJjaTJRGwSQ_Qt0KlQSQxff1V4vDA7Ehrw,5264
+label_convert/labelme_to_coco.py,sha256=3VnN7KCoujcAMRdWULHgaIJKjrRQvX1KaOlAvtcDAIs,8412
+label_convert/yolov5_to_coco.py,sha256=zEDD5JPEcDZXGlabE8fhgle5ymtCKJoZHrwfKlALFp0,7902
+label_convert/yolov5_yaml_to_coco.py,sha256=MhyYjy95PwNr9Q0RvYiwkuKV6c6mKDCZay-YG21i8BU,7667
+label_convert-0.0.8.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+label_convert-0.0.8.dist-info/METADATA,sha256=tqo1QUw49CZB70rjOuKGfxEaDTwHzvlB09gmDp-qAGg,2634
+label_convert-0.0.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+label_convert-0.0.8.dist-info/entry_points.txt,sha256=mDBGzA2Ao4v-89O1L0dKkz5BqeUj4m4bTKWxPkkuSM4,461
+label_convert-0.0.8.dist-info/top_level.txt,sha256=19hCY1mpryjfbkF4MbzbCTj3Mzsdh4pt3rkx1yYbspo,14
+label_convert-0.0.8.dist-info/RECORD,,
