@@ -1,0 +1,10 @@
+tf_hooks/__init__.py,sha256=7FnfmiZM85uW0cPj_DWhdl_qyEPY2wElaRmWCZ0CJBc,221
+tf_hooks/cleanup.py,sha256=ATYTIEyW17MDF3N9PmsBepXjzxI3DxnLt65RsjwG3z0,1035
+tf_hooks/constants.py,sha256=YjBnvtJpBBtmLsvoZ66mRETfAXQekSdfaxUb6mjECfo,153
+tf_hooks/hooks.py,sha256=PS9xkh0-MQ99CSAlIdviQMmFpB-ndUTv3G0fYaqx51Y,5755
+tf_hooks/register.py,sha256=TY8yayjOn4zqxM7_2MDUrZOu1dArYJqW8kAOMefONm8,6604
+tensorflow_hooks-1.0.0.dist-info/LICENSE,sha256=S3D3Lfcv8ZfXPruHDHsH6-w3Smsy_ylhwd6MD1OQPwQ,1067
+tensorflow_hooks-1.0.0.dist-info/METADATA,sha256=aHTphinJDiBlhomwAbMtwZdgmHpdXTyYTcQfGIusBPY,6509
+tensorflow_hooks-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tensorflow_hooks-1.0.0.dist-info/top_level.txt,sha256=r-QiP2r1Z0o6Jdpp0G9YQKQM_oxbZ63cUhsODM2nTLc,9
+tensorflow_hooks-1.0.0.dist-info/RECORD,,
