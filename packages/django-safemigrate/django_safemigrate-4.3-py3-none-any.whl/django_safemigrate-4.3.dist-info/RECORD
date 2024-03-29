@@ -1,0 +1,11 @@
+django_safemigrate/__init__.py,sha256=9hoRkMtmtFKZksijeghKRNB4bZoa1hbQSHXkrjwbZc4,134
+django_safemigrate/apps.py,sha256=94M6CGtfeRAwQUwiD3yJQkIUFw2Jy39JEkNFgRr6Pb8,272
+django_safemigrate/check.py,sha256=MM2j8ENbHazrnaQz3vrFY0D98ufl1xW2MXdfx02nKJ0,1501
+django_safemigrate/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_safemigrate/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_safemigrate/management/commands/safemigrate.py,sha256=3MqZ1DGaXEfiOThyfDswugwr7Bkz1JifwiLliOOt4Gg,5299
+django_safemigrate-4.3.dist-info/LICENSE,sha256=UL1SsAOO-klKluL6Iw-3O2mpjIrXFuCXpEd7cLvqiYc,1071
+django_safemigrate-4.3.dist-info/METADATA,sha256=I_jPoBIJCBLqtlimuYgPKibeFjWATRbXS1G3qwhIbTY,6233
+django_safemigrate-4.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_safemigrate-4.3.dist-info/entry_points.txt,sha256=WcG9W1uIOyp5RY4OsL5kh5jl8G-mX2wE8K9ydTjLo9k,67
+django_safemigrate-4.3.dist-info/RECORD,,
