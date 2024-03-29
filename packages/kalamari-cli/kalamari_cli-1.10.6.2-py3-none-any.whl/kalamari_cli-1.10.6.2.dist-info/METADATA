@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: kalamari-cli
+Version: 1.10.6.2
+Summary: Kalamari CLI tool for smart contract management and development.
+Author: Sentou Technologies
+Author-email: hello@sentou.tech
+License-File: LICENSE
+Requires-Dist: argparse
+
