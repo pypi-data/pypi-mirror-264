@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: djangosaml
+Version: 1.0.0
+Summary: Django SAML2 Authentication Made Easy. Easily integrate with SAML2 SSO identity providers like Okta
+Home-page: https://github.com/suhailvs/djangosaml
+Author: Fang Li & Suhail vs
+Author-email: suhailvs@gmail.com
+License: Apache 2.0
+Keywords: Django SAML2 Authentication Made Easy,integrate with SAML2 SSO such as Okta easily
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pysaml2>=4.5.0
+
+## Django SAML2 Authentication Made Easy
+
+### Dependencies
+
+This plugin is compatible with Django 4.2+. The `pysaml2` Python
+module is required.
+
+
+### Install
+
+You can install this plugin via `pip`:
+
+    pip install djangosaml
