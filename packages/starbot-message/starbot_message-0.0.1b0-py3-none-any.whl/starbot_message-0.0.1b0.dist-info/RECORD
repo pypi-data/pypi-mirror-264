@@ -1,0 +1,10 @@
+starbot_message/__init__.py,sha256=p0PwjKOzWok_ELPbSAKcQ6i427rBPc8lrbwFbsS6yjk,244
+starbot_message/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starbot_message/core/dispatcher.py,sha256=XLlL3NIJkcmPTqVYLbfSljzchAMNBJxqr9C18gEq8WY,3556
+starbot_message/core/event.py,sha256=dbrZbDujZ3CWU7rEarrC-flQBJeZPcmV7Cn7YVh1qAw,292
+starbot_message/core/handler.py,sha256=pLxxqN8vkL6Y-B9diCAfutLw-fzo4iT9u4pL_nDP45U,2905
+starbot_message/core/model.py,sha256=uoXlW3Qq60Jn5lkaiV9XhIYWGlQkyh-oc7_Hib_iSD4,10760
+starbot_message-0.0.1b0.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+starbot_message-0.0.1b0.dist-info/METADATA,sha256=nInbH_oDUBIyu8rmxKULeCyDD6i9KSO-lh9FTjxsqj8,4867
+starbot_message-0.0.1b0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+starbot_message-0.0.1b0.dist-info/RECORD,,
