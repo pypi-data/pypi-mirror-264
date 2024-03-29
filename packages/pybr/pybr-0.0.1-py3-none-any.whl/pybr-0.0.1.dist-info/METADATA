@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pybr
+Version: 0.0.1
+Summary: Collection of utilities for Brazilian data and formats
+Home-page: https://github.com/effeix/pybr
+License: GPL-3.0-only
+Keywords: brazil,portuguese,utilities,cpf,cnpj
+Author: Gustavo Efeiche
+Author-email: gustavo.efeiche@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Localization
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/effeix/pybr
+Description-Content-Type: text/markdown
+
+# pybr
+Collection of utilities for projects dealing with Brazilian data and formats
+
