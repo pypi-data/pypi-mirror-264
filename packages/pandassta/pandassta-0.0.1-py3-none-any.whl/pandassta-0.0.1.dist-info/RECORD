@@ -1,0 +1,9 @@
+pandassta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandassta/df.py,sha256=kn9eFWAw0wQOtpuuyNL4fkK-1tkz16hpBF3w55aHXBM,14439
+pandassta/logging_constants.py,sha256=Xq53if8cUWMBvqtVhcBpZE7bTK4hqZ0aKff_EL69OY0,186
+pandassta/sta.py,sha256=TCJA1SPu5pl4ZUj7Y32WaH587arm1l43LJvd2ijcMOM,4848
+pandassta/sta_requests.py,sha256=IqADd_HR0d2-u7NZvWLpRUJ3fu2jpHVcb1BY18_-jmg,21143
+pandassta-0.0.1.dist-info/METADATA,sha256=MVGtPNGi6qCisg_R4maugEwpmlmbGxF8U3-x4q8kzp8,2647
+pandassta-0.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+pandassta-0.0.1.dist-info/licenses/LICENSE,sha256=cabZlFUfFhNb20r_clngQ3zLb80sXUqkXphAvtWbFbU,34475
+pandassta-0.0.1.dist-info/RECORD,,
