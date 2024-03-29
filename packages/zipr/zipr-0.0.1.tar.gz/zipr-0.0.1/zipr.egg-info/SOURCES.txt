@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+zipr/__init__.py
+zipr/_modidx.py
+zipr/_tmp.py
+zipr/core.py
+zipr.egg-info/PKG-INFO
+zipr.egg-info/SOURCES.txt
+zipr.egg-info/dependency_links.txt
+zipr.egg-info/entry_points.txt
+zipr.egg-info/not-zip-safe
+zipr.egg-info/requires.txt
+zipr.egg-info/top_level.txt

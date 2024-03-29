@@ -1,0 +1,2 @@
+[nbdev]
+zipr = zipr._modidx:d
