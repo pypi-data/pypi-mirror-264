@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info
+
+.idea
+_out/
+*.scif
+Dockerfile
+
+build/
+dist/
+/.venv/
+/.direnv/
+
+config/deploy_hosts.yml

@@ -1,0 +1,81 @@
+linux ctest large:
+  extends:
+    - .template-build-linux
+    - .test-artifacts
+  tags: [shell, envinf23]
+  needs: [meta]
+  rules:
+    - when: manual
+      allow_failure: true
+  timeout: 3h
+  variables:
+    BUILD_TESTS: "false"
+    BUILD_CTEST_LARGE: "true"
+    CMAKE_PRESET: release-all
+    CMAKE_ARGS: >-
+      -DBUILD_SHARED_LIBS=ON
+      -DOGS_USE_MKL=ON
+      -DOGS_USE_NETCDF=ON
+  before_script:
+    - source /opt/intel/oneapi/setvars.sh
+
+build linux (no unity):
+  extends:
+    - .template-build-linux
+  tags: [shell, envinf]
+  needs: [meta]
+  timeout: 3h
+  variables:
+    BUILD_TESTS: "false"
+    BUILD_CTEST: "false"
+    CHECK_WARNINGS: "true"
+    CMAKE_PRESET: ci-no-unity
+
+build linux (no deps, no procs):
+  extends: .template-build-linux
+  tags: [shell, envinf]
+  needs: [meta]
+  timeout: 2h
+  variables:
+    BUILD_TESTS: "false"
+    BUILD_CTEST: "false"
+    CMAKE_ARGS: -DOGS_BUILD_PROCESSES=SteadyStateDiffusion
+    CMAKE_PRESET: ci-simplest
+
+build linux debug with sanitizers:
+  extends:
+    - .template-build-linux
+    - .test-artifacts
+  tags: [envinf23, shell]
+  needs: [meta]
+  variables:
+    BUILD_PACKAGE: "false"
+    CMAKE_PRESET: debug
+    CMAKE_ARGS: >-
+      -DCMAKE_C_COMPILER=/usr/bin/clang
+      -DCMAKE_CXX_COMPILER=/usr/bin/clang++
+      -DBUILD_SHARED_LIBS=ON
+      -DOGS_CXX_FLAGS=-O3;-fno-var-tracking
+      -DOGS_EIGEN_DYNAMIC_SHAPE_MATRICES=OFF
+      -DENABLE_ASAN=ON
+      -DENABLE_UBSAN=ON
+      -DENABLE_LSAN=ON
+      -DOGS_CTEST_MAX_RUNTIME=5
+      -DOGS_USE_PIP=ON
+      -DOGS_USE_MFRONT=ON
+      -DOGS_BUILD_TFEL=ON
+    UBSAN_OPTIONS: "print_stacktrace=1"
+    LSAN_OPTIONS: "suppressions=$CI_PROJECT_DIR/scripts/test/leak_sanitizer.suppressions"
+    CTEST_TIMEOUT: 120
+
+build linux ubuntu perf:
+  extends:
+    - .template-build-linux
+    - .test-artifacts
+    - .rules-master-manual
+  tags: [shell, ubuntu]
+  needs: [meta]
+  variables:
+    CMAKE_PRESET: release-all
+    CTEST_PARALLEL_LEVEL: 1 # Run ctests serially
+    CTEST_TIMEOUT: 480
