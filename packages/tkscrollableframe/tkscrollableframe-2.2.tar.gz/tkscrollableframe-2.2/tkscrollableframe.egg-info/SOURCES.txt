@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tkscrollableframe/__init__.py
+tkscrollableframe/__main__.py
+tkscrollableframe/scrollbar_type_enum.py
+tkscrollableframe/widget.py
+tkscrollableframe.egg-info/PKG-INFO
+tkscrollableframe.egg-info/SOURCES.txt
+tkscrollableframe.egg-info/dependency_links.txt
+tkscrollableframe.egg-info/top_level.txt
