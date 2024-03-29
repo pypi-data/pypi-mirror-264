@@ -1,0 +1,2 @@
+[console_scripts]
+byakugan_vision = byakuganvisualizer.main:run
