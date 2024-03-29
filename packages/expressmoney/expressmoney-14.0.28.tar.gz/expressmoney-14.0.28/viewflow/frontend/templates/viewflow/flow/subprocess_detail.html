@@ -1,0 +1,38 @@
+{% extends 'viewflow/flow/base_task.html' %}
+{% load i18n material_frontend viewflow viewflow_frontend %}
+
+{% block detail %}
+{{ block.super }}
+<div class="row" style="margin-top:-1rem">
+    <div class="col s12">
+        <label class="active" style="display:block;margin-bottom:0.5rem">{% trans 'Subprocesses' %}</label>
+        {% for subprocess in activation.subprocesses %}
+            {{ subprocess.flow_cls.process_title }} #{{ subprocess.pk }} &mdash; {{ subprocess.status }}
+        {% empty %}
+        <span class="grey-text">No subprocess attached</li>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+{% block task_actions %}
+<div class="card-action">
+    <div class="left">
+        {% if activation.flow_cls.manage_permission_name in perms %}
+        <button class="btn btn-flat dropdown-button black-text" href="#" data-activates="task_management_dropdown">Admin<i class="mdi-navigation-arrow-drop-down right"></i></button>
+        {% endif %}
+    </div>
+    <div class="right">
+        {% flowurl activation.task 'assign' user=request.user as assign_url %}
+        {% if assign_url %}
+        <a href="{{ assign_url }}?{{ request|query_back:'copy' }}" class="btn green white-text">Assign</a>
+        {% endif %}
+
+        {% flowurl activation.task 'execute' user=request.user as execute_url %}
+        {% if execute_url %}
+        <a href="{{ execute_url }}?{{ request|query_back:'copy' }}" class="btn green white-text">Execute</a>
+        {% endif %}
+    </div>
+    <div style="clear:both"></div>
+</div>
+{% endblock %}

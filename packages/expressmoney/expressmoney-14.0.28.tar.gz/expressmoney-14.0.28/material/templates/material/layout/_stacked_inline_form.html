@@ -1,0 +1,15 @@
+{% load i18n material_form %}
+
+<div class="card col s12 m6 l4" data-formset-form>
+    <div class="card-content">
+        {% form %}{% endform %}
+    </div>
+    {% if formset.can_delete %}
+    <div class="card-action">
+        <div class="right-align">
+            <div style="display:none">{{ form.DELETE }}</div>
+            <button type="button" class="btn btn-flat white lighten-4"  data-formset-delete-button>{% trans 'Delete' %}</button>
+        </div>
+    </div>
+    {% endif %}
+</div>

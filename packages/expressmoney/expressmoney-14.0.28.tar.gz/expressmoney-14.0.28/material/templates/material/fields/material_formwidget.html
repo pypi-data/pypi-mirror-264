@@ -1,0 +1,9 @@
+{% load material_form %}
+<div class="section row">
+    <div class="formset-field col s12" data-formset-prefix="{{ formset.prefix }}">
+        {% part field label %}<h5>{{ bound_field.label }}</h5>{% endpart %}
+        {% with layout=bound_field.value.layout %}
+             {% form form=bound_field.value %}{% endform %}
+        {% endwith %}
+    </div>
+</div>

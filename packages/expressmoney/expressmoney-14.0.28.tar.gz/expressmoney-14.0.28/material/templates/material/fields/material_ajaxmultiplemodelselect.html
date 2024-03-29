@@ -1,0 +1,37 @@
+{% load material_form material_form_internal l10n %}
+{% part bound_field.field %}<div class="row"><dmc-autocomplete-multi>
+    <div{% attrs bound_field 'group' %}
+        id="id_{{ bound_field.html_name }}_container"
+        data-form-control="autocomplete-multi"
+        data-autocomplete-target="id_{{ bound_field.html_name }}"
+        class="input-field autocomplete-field col s12{% if field.required %} required{% endif %}{% if bound_field.errors %} has-error{% endif %}{% if field.disabled %} autocomplete-field--disabled{% endif %}"
+    {% endattrs %}>
+        {% part field prefix %}{% endpart %}{% part field control %}
+        <input type="hidden">
+        <select {% attrs bound_field 'value_widget' %}
+            multiple="True"
+            class="material-ignore"
+            style="display:none"
+            name="{{ bound_field.html_name }}"
+            id="id_{{ bound_field.html_name }}"
+            {% endattrs %}>
+            {% for pk, item in bound_field|multimodelchoice_value %}
+            <option selected value="{{ pk }}">{{ item }}</option>
+            {% endfor %}
+        </select>
+        <div class="chips" style="top:-10px"><input {% if field.disabled %}disabled{% endif %}></div>
+        {% endpart %}
+        {% part field label %}
+        <label{% attrs bound_field 'label' %}
+            for="id_{{ bound_field.html_name }}_autocomplete"
+            {% if bound_field.value != None and bound_field.value != '' %}class="active"{% endif %}
+        {% endattrs %}>{{ bound_field.label }}</label>
+        {% endpart %}
+        {% part field help_text %}{% if field.help_text %}
+        <small class="help-block" style="top:0px">{{ bound_field.help_text }}</small>
+        {% endif %}
+        {% endpart %}{% part field errors %}
+        {% if bound_field.errors %}{% include  'material/field_errors.html' %}{% endif %}
+        {% endpart %}{{ hidden_initial }}
+    </div>
+</dmc-autocomplete-multi></div>{% endpart %}

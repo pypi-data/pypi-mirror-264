@@ -1,0 +1,27 @@
+{% load material_form %}
+
+{% with formset=bound_field.value %}
+<div class="section row"><dmc-formset>
+    <div class="formset-field col s12 {% if not formset.is_valid and formset.is_bound %} has-error{% endif %}" data-formset-prefix="{{ formset.prefix }}">
+        {% part field label %}<h5>{{ bound_field.label }}</h5>{% endpart %}
+        <script type="form-template" data-formset-empty-form>
+            {% include 'material/layout/_stacked_inline_form.html' with form=formset.empty_form layout=formset.empty_form.layout %}
+        </script>
+        {% if formset.non_form_errors %}
+        <div>
+            {% for error in formset.non_form_errors %}
+               <small class="error">{{ error }}</small>
+            {% endfor %}
+        </div>
+        {% endif %}
+        <div data-formset-body>
+            {% for form in formset %}
+                {% include 'material/layout/_stacked_inline_form.html' with layout=form.layout %}
+            {% endfor %}
+        </div>
+        <button type="button" class="btn btn-flat grey lighten-4" style="padding:0px 40px;width:100%" data-formset-add><i class="material-icons">add</i></button>
+        {{ formset.management_form }}
+    </div>
+</dmc-formset></div>
+{% endwith %}
+

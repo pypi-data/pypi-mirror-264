@@ -1,0 +1,26 @@
+{% extends 'material/frontend/views/list.html' %}
+{% load i18n material_frontend viewflow viewflow_frontend %}
+
+{% block breadcrumbs_items %}
+{% include 'viewflow/includes/breadcrumb_category.html' %}
+<a href="{% flowurl view.flow_class 'index' %}?{{ request|query_back }}">{{ view.flow_class.process_title }}</a>
+<a class="active" href="{% flowurl view.flow_class 'index' %}?{{ request|query_back }}">Process List</a>
+{% endblock %}
+
+{% block action_btn %}
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large waves-effect waves-light orange z-depth-2 modal-trigger" href="{% flowurl view.flow_class 'index' %}">
+        <i class="large material-icons">dashboard</i>
+    </a>
+</div>
+{% endblock %}
+
+
+{% block list_actions %}
+<a class="btn-flat black-text modal-trigger" href="#graph">{% trans 'Flow' %}</a>
+<div id="graph" class="modal" style="padding:20px;height:95%;width:95%;height:80%;">
+    <div style="display: flex; align-items: center; justify-content: center;height:100%">
+        <img src="{% flowurl view.flow_class 'chart' %}" alt="flow graph" style="height:80%"/>
+    </div>
+</div>
+{% endblock %}

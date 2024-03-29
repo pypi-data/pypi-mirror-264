@@ -1,0 +1,120 @@
+{% extends current_module.base_template %}
+{% load i18n material_form material_form_internal material_frontend %}
+
+{% block breadcrumbs_items %}
+<a class="active" href="{% url view.model|frontend_urlname:'list' %}">{{ view.model|verbose_name_plural|title }}</a>
+{% endblock %}
+
+
+{% block footer %}
+{{ block.super }}
+<div style="display:none" id="_action_token">
+  {% csrf_token %}
+</div>
+{% endblock %}
+
+{% block content %}
+{% block left-panel %}
+<div class="left-panel{% if not view.filterset and not view.list_actions %} wide{% endif %}">
+    <div class="card list-card">
+        <div class="card-content">
+            <dmc-datatable config="{{ datatable_config|to_json_attr }}" {% if view.list_actions %}checkboxes="true"{% endif %}>
+                <table id="table" class="table bordered" data-form-control="datatable" style="width:100%">
+                    <thead>
+                        <tr>
+                            {% if view.list_actions %}
+                            <th style="width:20px;padding-right:0">
+                                <label>
+                                    <input class="filled-in" type="checkbox" id="action-toggle">
+                                    <span></span>
+                                </label>
+                            </th>
+                            {% endif %}
+                            {% for header, header_title in headers %}
+                            <th data-name="{{ header }}" class="{{ header }} sorting_disabled">{{ header_title|title }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="display:none"><td></td></tr> {# fix for invalid colpan on datatable init #}
+                        {% for item, row in data %}
+                        <tr>
+                            {% if view.list_actions %}
+                            <td class="dt-body-center">
+                                <label>
+                                    <input class="filled-in" type="checkbox" name="pk" id="_selected_action_{{ forloop.counter }}" value="">
+                                    <span></span>
+                                </label>
+                            </td>
+                            {% endif %}
+                            {% for column_name, item in row.items %}
+                            {% if column_name.0 != '_' %}
+                            <td>
+                                {% if column_name in view.datalist.list_display_links %}
+                                <a href="#">{{ item }}</a>
+                                {% else %}
+                                {{ item }}
+                                {% endif %}
+                            </td>
+                            {% endif %}
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </dmc-datatable>
+        </div>
+        <div class="card-action">
+            {% block list_actions %}{% endblock %}
+        </div>
+    </div>
+</div>
+{% endblock left-panel %}
+{% block right-panel %}
+{% if view.filterset or view.list_actions %}
+<div class="right-panel">
+    {% if view.filterset != None %}
+    <dmc-form>
+        <form action="." method="get" data-control-form>
+            <div class="card form-card">
+                <div class="card-content">
+                    <span class="card-title">{% trans 'Filter' %}</span>
+                    {% form form=view.filterset.form %}{% endform %}
+                    <div class="right-align">
+                        <button  type="submit" class="btn btn-default">{% trans 'Filter' %}</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </dmc-form>
+    {% endif %}
+    {% if view.list_actions %}
+    <div class="card form-card" id="actionCard">
+        <div class="card-content">
+            <div class="card-title">{% trans 'Action' %}</div>
+            <dmc-select>
+                <select name="action_url">
+                    <option disabled selected>{% trans 'Choose your option' %}</option>
+                    {% for title, url in view.list_actions %}
+                    <option value="{{ url }}">{{ title }}</option>
+                    {% endfor %}
+                </select>
+            </dmc-select>
+            <div class="card-actions right-align">
+                <button class="btn" type="submit" name="action">{% trans 'Go' %}</button>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+{% endblock right-panel %}
+
+{% block action_btn %}
+<div class="fixed-action-btn">
+    {% if add_url %}
+      <a class="btn-floating btn-large waves-effect waves-light red z-depth-2" href="{{ add_url }}"><i class="large material-icons">add</i></a>
+    {% endif %}
+</div>
+{% endblock %}
+{% endblock %}

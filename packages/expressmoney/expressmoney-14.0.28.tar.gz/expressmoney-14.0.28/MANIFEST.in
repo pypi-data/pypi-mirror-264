@@ -1,0 +1,8 @@
+recursive-include material/static *
+recursive-include material/templates *
+recursive-include material/frontend/static *
+recursive-include material/frontend/templates *
+recursive-include viewflow/static *
+recursive-include viewflow/templates *
+recursive-include viewflow/frontend/static *
+recursive-include viewflow/frontend/templates *

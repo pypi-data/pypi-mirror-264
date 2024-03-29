@@ -1,0 +1,152 @@
+{% extends 'viewflow/base_module.html' %}
+{% load i18n material_frontend viewflow viewflow_frontend %}
+
+{% block breadcrumbs_items %}
+{% include 'viewflow/includes/breadcrumb_category.html' %}
+<a href="{% flowurl view.flow_class 'index' %}?{{ request|query_back:'here' }}">{{ view.flow_class.process_title }}</a>
+<a class="active" href="{% flowurl view.flow_class 'index' %}?{{ request|query_back:'here' }}">{% trans 'Dashboard' %}</a>
+{% endblock %}
+
+{% block main_content %}
+<div class="dashboard">
+    <div class="dashboard-content">
+        <dmc-scrollbar></dmc-scrollbar>
+        {% flow_start_actions view.flow_class request.user as start_actions %}
+        <div class="column">
+            <span class="column-title">{{ view.flow_class }}</span>
+            <div class="column-content">
+                <div class="card">
+                    <div class="card-content">
+                        {{ view.flow_class.process_description }}<br/><br/>
+                        <a class="modal-trigger" href="#graph">
+                            <img class="responsive-img" src="{% flowurl view.flow_class 'chart' %}" alt="flow graph" style="height:80%"/>
+                        </a>
+                    </div>
+                    {% if start_actions %}
+                    {% flowurl view.flow_class start_actions.0.name as start_url %}
+                    <div class="card-action right-align">
+                        <a class="btn" href="{{ start_url }}?{{ request|query_back:'here' }}">{{ start_actions.0.task_title|default:start_actions.0.name }}</a>
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% for action in start_actions|slice:"1:" %}
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-title">{{ action }}</div>
+                        <div>
+                            {{ action.task_description|default:"" }}
+                        </div>
+                    </div>
+                    <div class="card-action right-align">
+                        <a class="btn" href="{% flowurl view.flow_class action.name %}">{{ action.task_title|default:action.name|title }}</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% for column_data in columns %}
+        <div class="column">
+            <span class="column-title">{{ column_data.node.task_title|default:column_data.node }}</span>
+            <div class="column-content">
+                <dmc-scrollbar></dmc-scrollbar>
+                {% for task in column_data.tasks %}
+                {% if forloop.last and forloop.counter == 26 %}
+                <div class="center-align">
+                    <i class="material-icons">more_horiz</i>
+                </div>
+                {% else %}
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-title">#{{ task.process_id }}/{{ task.id }}</div>
+                        {{ task.flow_process.summary }}
+                        <div class="detail">
+                            <label>{% trans 'Created' %}</label>
+                            {{ task.created }}
+                        </div>
+                        {% if task.owner %}
+                        <div class="detail">
+                            <label>{% trans 'Assigned' %}</label>
+                            {{ task.owner }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="card-action right-align">
+                        {% flowurl task 'assign' user=request.user as assign_url %}
+                        {% if assign_url %}
+                        <a href="{{ assign_url }}?{{ request|query_back:'here' }}" class="btn">{% trans 'Assign' %}</a>
+                        {% endif %}
+
+                        {% flowurl task 'execute' user=request.user as execute_url %}
+                        {% if execute_url %}
+                        <a href="{{ execute_url }}?{{ request|query_back:'here' }}" class="btn">{% trans 'Execute' %}</a>
+                        {% endif %}
+
+                        {% if not assign_url and not unassign_url and not execute_url %}
+                        <a href="{% flowurl task 'detail' user=request.user %}?{{ request|query_back }}" class="btn primary white-text">{% trans 'Detail' %}</a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% if column_data.tasks|length > 25 %}
+            <div class="column-action">
+                <a href="{% flowurl view.flow_class 'task_list' %}?flow_task={{ column_data.node_ref|urlencode }}" class="grey-text">{% trans 'Show all' %}</a>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+        {% if end_nodes %}
+        <div class="column">
+            <span class="column-title">{% trans 'Finished' %}</span>
+            <div class="column-content">
+                <dmc-scrollbar></dmc-scrollbar>
+                {% for task in finished %}
+                {% if forloop.last and forloop.counter == 26 %}
+                <div class="center-align">
+                    <i class="material-icons">more_horiz</i>
+                </div>
+                {% else %}
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-title">#{{ task.process_id }} - {{ task.flow_task.task_title|default:task.flow_task }}</div>
+                        {{ task.flow_process.summary }}
+                        <div class="detail">
+                            <label>{% trans 'Created' %}</label>
+                            {{ task.created }}
+                        </div>
+                        {% if task.owner %}
+                        <div class="detail">
+                            <label>{% trans 'Assigned' %}</label>
+                            {{ task.owner }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="card-action right-align">
+                        <a href="{% flowurl task 'detail' user=request.user %}?{{ request|query_back }}" class="btn primary white-text">{% trans 'Detail' %}</a>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% if finished|length > 25 %}
+            <div class="column-action">
+                <a href="{% flowurl view.flow_class 'list' %}?status=DONE" class="grey-text">{% trans 'Show all' %}</a>
+            </div>
+        {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large waves-effect waves-light orange z-depth-2 modal-trigger" href="{% flowurl view.flow_class 'list' %}">
+        <i class="large material-icons">list</i>
+    </a>
+</div>
+<dmc-modal><div id="graph" class="modal" style="padding:20px;height:95%;width:95%;height:80%;">
+    <div style="display: flex; align-items: center; justify-content: center;height:100%">
+        <img src="{% flowurl view.flow_class 'chart' %}" alt="flow graph" style="height:80%"/>
+    </div>
+</div></dmc-modal>
+{% endblock %}

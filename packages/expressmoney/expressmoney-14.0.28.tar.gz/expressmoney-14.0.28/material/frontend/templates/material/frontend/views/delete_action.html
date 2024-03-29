@@ -1,0 +1,39 @@
+{% extends 'material/frontend/base_module.html' %}
+{% load i18n material_form material_frontend %}
+
+{% block breadcrumbs_items %}
+<a href="{% url view.model|frontend_urlname:'list' %}">{{ view.model|verbose_name_plural|title }}</a>
+<a class="active">{% trans 'Delete' %}</a>
+{% endblock %}
+
+{% block content %}
+<div class="left-panel">
+    <div class="card">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form }}
+            <div class="card-content">
+                <div class="card-title">
+                    {% blocktrans with name=view.model|verbose_name plural_name=view.model|verbose_name_plural count objects_count=form.cleaned_data.pk.count %}
+                    Are you sure you want to delete the {{ name }} and related items?
+                    {% plural %}
+                    Are you sure you want to delete the {{ objects_count }} {{ plural_name }} and related items?
+                    {% endblocktrans %}
+                </div>
+                {% for model, items in deleted_objects.items %}
+                <h5>{{ model|verbose_name_plural|title }}</h5>
+                {% for item in items %}
+                {% url item|frontend_urlname:'detail' item.pk as details_url %}
+                {% if details_url %}<a href="{{ details_url }}">{{ item }}</a>{% else %}{{ item }}{% endif %}
+                {% endfor %}
+                {% endfor %}
+            </div>
+            <div class="card-action">
+                <div class="right-align">
+                    <button type="submit" name="_confirm" class="waves-effect waves-light btn red white-text">{% trans "Yes, I'm sure" %}</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
