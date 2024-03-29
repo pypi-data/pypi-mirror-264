@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+alpaca_proteomics/__init__.py
+alpaca_proteomics/alpaca.py
+alpaca_proteomics.egg-info/PKG-INFO
+alpaca_proteomics.egg-info/SOURCES.txt
+alpaca_proteomics.egg-info/dependency_links.txt
+alpaca_proteomics.egg-info/requires.txt
+alpaca_proteomics.egg-info/top_level.txt
