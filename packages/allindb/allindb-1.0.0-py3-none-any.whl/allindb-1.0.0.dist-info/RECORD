@@ -1,0 +1,10 @@
+dbManager/__init__.py,sha256=-nNLzZnsIY1JL3zuPf69_GjZMf75CmwtIr2kS3f7Ges,23
+dbManager/main.py,sha256=liweihXn_j4fyaVMcoB5SAHqA6xcezEXuqzhimiykfQ,5463
+dbManager/jwlibrary/__init__.py,sha256=_GHnUITGVeoG3wC1FnU1u9E2WpMMqPSSE4zJuzG5sCc,49
+dbManager/jwlibrary/main.py,sha256=zVdXdWaubhapEiB5JUSz87S9YrxMolsct9jjgScKw_8,6172
+dbManager/jwlibrary/notes.py,sha256=jbpKs8OLZFTEJhfQjeQ-7l3epYk_tFHhGClS_hW6_P4,5703
+allindb-1.0.0.dist-info/METADATA,sha256=eugj8l8XiV9nwrMRa98Um6Q-OG5lHLmGZAFYFIHYuDE,518
+allindb-1.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+allindb-1.0.0.dist-info/entry_points.txt,sha256=8EtP_iR9W5vgJh-KRzFI5w7_3uysotAGG9Ler4y827k,46
+allindb-1.0.0.dist-info/top_level.txt,sha256=jg7NtCGk_ulcWS8I3ja_UA9pVC3_jGS2cy2aglI1cZ4,10
+allindb-1.0.0.dist-info/RECORD,,
