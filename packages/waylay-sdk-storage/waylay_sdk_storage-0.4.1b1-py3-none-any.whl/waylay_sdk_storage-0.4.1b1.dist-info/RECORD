@@ -1,0 +1,15 @@
+waylay/services/storage/api/__init__.py,sha256=KrrvrzTCvpH1HiecepumJetGGOveSR9hVPb1uRZX2mI,294
+waylay/services/storage/api/about_api.py,sha256=65sqjPZo8ttYOQxkDcD8QhQwQPfnXg1StVs_GK9ug8I,11094
+waylay/services/storage/api/bucket_api.py,sha256=c2o4rF07EeicluKsuvbk_vA_Cv6KdaOZMXdS2VTviz0,11200
+waylay/services/storage/api/object_api.py,sha256=G52lYs6Kchzb3J0-0athqQISAbEx7yifPL4OvrpOu2M,26534
+waylay/services/storage/api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waylay/services/storage/api/subscription_api.py,sha256=V1a2VnitXaihhQ9-xn7dOILI_p64h806oBEBPvexhWs,42225
+waylay/services/storage/service/__init__.py,sha256=lAIzhSlpIzHgQfTvntkfEVnRVa-gEuOwF82-4rDojEw,429
+waylay/services/storage/service/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waylay/services/storage/service/service.py,sha256=MYWaZ4Tq0Ao6nPw8jGpnjMYSx42mmZvS7GezGECzBIg,776
+waylay_sdk_storage-0.4.1b1.dist-info/LICENSE.txt,sha256=wnPlQuOPuQefRPwt3BQfsnCuKAqS0hEzkZlPYSSPodE,745
+waylay_sdk_storage-0.4.1b1.dist-info/METADATA,sha256=uy26VMETKx9pCHvEyEzrZxMocrU1b3_h0Yy5PdGf1ik,4210
+waylay_sdk_storage-0.4.1b1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+waylay_sdk_storage-0.4.1b1.dist-info/entry_points.txt,sha256=eR5Tl-hDUW2P7wjVedpyzbAjje1U-J8uNwZ3rl83-HI,71
+waylay_sdk_storage-0.4.1b1.dist-info/top_level.txt,sha256=zSL7gTO8r9-MkvTrrFf4IW2oI6qtj-QBs5BPVqPZGHs,7
+waylay_sdk_storage-0.4.1b1.dist-info/RECORD,,
