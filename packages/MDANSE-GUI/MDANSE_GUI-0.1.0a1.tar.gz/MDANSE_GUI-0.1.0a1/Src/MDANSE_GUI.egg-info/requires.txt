@@ -1,0 +1,6 @@
+MDANSE
+matplotlib
+qtpy
+vtk
+PyQt6
+PyYAML
