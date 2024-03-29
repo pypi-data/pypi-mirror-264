@@ -1,0 +1,3 @@
+[console_scripts]
+sen-ai=senior_swe_ai.cli:main
+
