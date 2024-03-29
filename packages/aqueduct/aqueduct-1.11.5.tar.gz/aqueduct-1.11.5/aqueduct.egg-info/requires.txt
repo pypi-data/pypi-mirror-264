@@ -1,0 +1,8 @@
+cffi==1.15.0
+psutil==5.9.4
+
+[aiohttp]
+aiohttp
+
+[numpy]
+numpy
