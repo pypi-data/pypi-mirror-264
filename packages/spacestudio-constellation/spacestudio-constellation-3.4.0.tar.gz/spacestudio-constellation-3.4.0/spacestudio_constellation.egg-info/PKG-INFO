@@ -1,0 +1,680 @@
+Metadata-Version: 2.1
+Name: spacestudio-constellation
+Version: 3.4.0
+Summary: spacestudio™ constellation scripting API
+Author: Exotrail
+Author-email: support.spacestudio@exotrail.com
+Keywords: spacestudio constellation scripting propulsion
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pyjwt
+Requires-Dist: openpyxl
+Requires-Dist: python-dotenv
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# space**studio**™ Scripting API Documentation
+
+## Table of contents
+
+### 1. [Installation](#installation)
+
+### 2. [Connection](#connection)
+
+- [Environment variables](#environment-variables)
+
+### 3. [Swagger](#swagger)
+
+- [Example using the Swagger](#example-using-the-swagger)
+
+### 4. [Built-in Functions](#built-in-functions)
+
+- [Example using built-in functions](#example-using-built-in-functions)
+- [Pausing and resuming missions](#pausing-and-resuming-missions)
+
+### 5. [Demos folder](#demos-folder)
+
+- [Export mission results](#export-mission-results)
+- [Simulation ephemerides](#simulation-ephemerides)
+
+### 6. [Missions and objects names differences](#missions-and-objects-names-differences)
+
+### 7. [Unit converter toolbox](#unit-converter-toolbox)
+
+---
+
+## Installation
+
+1. You will need to have both Python and pip installed on your computer.
+2. Install the space**studio™** library with the following command:
+
+```bash
+py setup.py install
+```
+
+This will install the `spacestudio` package, the `requests` library, used to perform HTTP calls, and the `jwt` library, used to decode JWTs.
+
+3. In your Python script, import the library by adding this line at the very top of your file:
+
+```python
+import spacestudio
+```
+
+4. The library has now been imported, you can start using it.
+
+---
+
+## Connection
+
+In order to use the library, you need to be connected. You can do so by calling the `connect()` function:
+
+```python
+spacestudio.connect(url, mail, password)
+```
+
+You need to replace the parameter `url` with the URL you have been given in order to use the scripting API, `mail` with the email address you use to connect to spacestudio™ and `password` with your password.
+
+From this point on, you will be connected to the API.
+
+- If you wish to make your own API calls, with the help of our **Swagger** (see [Swagger](#swagger) section below), you can retrieve your user id as well as your token or directly your headers with the following functions:
+
+  ```python
+  spacestudio.get_user_id()
+  spacestudio.get_jwt_token()
+  spacestudio.get_headers()
+  ```
+
+- If you would rather use our library's **built-in functions**, to create objects and to create and compute missions, see the [Built-In Functions](#built-in-functions) section below.
+
+### Environment variables
+
+Alternatively to writing your `url`, `mail` and `password` each time you create a new script, these informations can also be saved in an external file, so that the API script needs only to read it. This can be particularly useful for sharing scripts between different users, where each user could keep the sensitive information file private and share only the script.
+
+This can be done by using a `.env` file, as the one provided as example. This file contains a default `url` and placeholders for the user's `mail` and `password`, in the form of the variables `LOG_BASE_URL`, `LOG_MAIL` and `LOG_PASSWORD`, respectively. To use this file in your script, you must add the following lines to the start of your script:
+
+```python
+  from dotenv import load_dotenv
+  load_dotenv()
+```
+
+and the connection can be done by:
+
+```python
+  base_url = spacestudio.log_base_url
+  mail = spacestudio.log_mail
+  password = spacestudio.log_password
+  spacestudio.connect(base_url, mail, password)
+```
+
+---
+
+## Swagger
+
+Our **Swagger** is available at the endpoint `/swagger-ui.html` from your `url`. There, you will find two sets of endpoints (_Select a spec_ at the top right-hand corner of the page):
+
+> The Swagger is protected by JWT and most of the routes need a user id. To try the routes, you will need to provide your user id and token, check the [Connection](#connection) section above to see how.
+
+- **Scripting API - Missions:** Here, you will see all the endpoints you can call in order to create any type of objects and missions, modify or delete existing ones. In order to create your objects and missions, please refer to the _Fields Description_ JSON file, available at `/exoops/users/fieldsdescription`. **(Do not refer to the "Models" section at the bottom of the Swagger page or to the "newValue" from the POST and PUT routes as they are misleading for a user-friendly experience)**.
+
+- **Scripting API - User:** Here, you will find all the endpoints related to the user. What you may find the most interesting are the endpoints:
+
+  - `/exoops/users/{id}/runningProcess` to check which processes are being run.
+  - `/exoops/users/{id}/pendingProcess` to check which processes are waiting for computation.
+  - `/exoops/users/fieldsdescription` to know how to create your objects/missions. **(Do not refer to the "Models" section at the bottom of the Swagger page or to the "newValue" from the POST and PUT routes as they are misleading for a user-friendly experience)**.
+
+  ### Example using the Swagger
+
+  In this quick example, we are going to create a **Parametric propulsion system**.<br>
+  First, we are going to import `spacestudio`, `json` (the objects we are going to create are JSON objects) and `requests` (to handle our HTTP calls, that you can install with `pip install requests`). Finally, we can connect to space**studio**™ through the `connect()` function.
+
+  ```python
+  import spacestudio, json, requests
+
+  spacestudio.connect('https://spacestudio.exotrail.space', 'my_great_email@exotrail.com', 'my_great_password')
+  ```
+
+  Then, we can go to the endpoint `/exoops/users/fieldsdescription`, and see what the JSON object looks like to create a parametric propulsion system. For this example, we are only going to fill in the required fields.
+
+  ```python
+  propulsion_system_object = {
+    'name': 'Python propulsion system',
+    'thrust': '0.020',
+    'isp': 1000,
+    'power': 500,
+    'standbyPower': 0,
+    'totalMass': 50
+  }
+  ```
+
+  Now, we can see that the endpoint to create our parametric propulsion system is `/exoops/users/{id}/parametricpropulsionsystemdefinitions`. In order to create the URL and the headers, we are going to use two of the library's functions. To perform the POST request, we use the `requests` library.
+
+  ```python
+  url = 'https://spacestudio.exotrail.space' + '/exoops/users/' + spacestudio.get_user_id() + '/parametricpropulsionsystemdefinitions'
+  headers = spacestudio.get_headers()
+
+  requests.post(url, headers = headers, data = json.dumps(propulsion_system_object))
+  ```
+
+  Your request has now been received, and your object has been created.
+
+  _The full script, with some improvements:_
+
+  ```python
+  import spacestudio, requests, json
+
+  base_url = 'https://spacestudio.exotrail.space'
+  mail = 'my_great_email@exotrail.com'
+  password = 'my_great_password'
+  api_url = '/exoops/users/'
+  parametric_propulsion_system_url = '/parametricpropulsionsystemdefinitions'
+
+  spacestudio.connect(base_url, mail, password)
+
+  propulsion_system_object = {
+    'name': 'Python propulsion system',
+    'thrust': '0.020',
+    'isp': 1000,
+    'power': 500,
+    'standbyPower': 0,
+    'totalMass': 50
+  }
+
+  api_endpoint_builder = api_url + spacestudio.get_user_id() + parametric_propulsion_system_url
+
+  url = base_url + api_endpoint_builder
+  headers = spacestudio.get_headers()
+
+  requests.post(url, headers = headers, data = json.dumps(propulsion_system_object))
+  ```
+
+---
+
+## Built-in functions
+
+The library comes with functions to create, modify or delete objects and missions, retrieve specific objects and missions (e.g. retrieve a specific `parametric propulsion system`) or all objects and missions (e.g. retrieve all `simulation missions`), as well as computing missions.
+
+To create these missions and objects, you need to build JSON objects. Check the endpoint `/exoops/users/fieldsdescription` to know how. **(Do not refer to the "Models" section at the bottom of the Swagger page or to the "newValue" from the POST and PUT routes as they are misleading for a user-friendly experience)**.
+
+All the objects and missions are separated in their own type.
+
+- You can access all `constellation` type of objects and missions with `spacestudio.constellation`,
+- You can access all `deployment` type of objects and missions with `spacestudio.deployment`,
+- You can access all `parametric study` type of objects and missions with `spacestudio.parametric_study`,
+- You can access all `simulations` type of objects and missions with `spacestudio.simulation`.
+
+Then, you can simply call the functions as follow:
+
+- To `create`, use `create_` followed by the object or mission you want to create. For example, to create a `parametric orbit`, a `simulation mission` or a `deployment launch`, we can type:
+
+  ```python
+  spacestudio.parametric_study.create_orbit(orbit_json_object)
+  spacestudio.simulation.create_mission(mission_json_object)
+  spacestudio.deployment.create_launch(launch_json_object)
+  ```
+
+  **All the `create_` functions need the JSON object you created as their only parameter.**
+
+- To `retrieve` specific objects and missions (e.g. to build more complex objects, see the [Example](#example-using-built-in-functions) section below), you can use `get_` followed by the kind of object or mission and pass in as its parameter the **name** of the object or mission. For example, if we want to retrieve the `parametric mission` called **'RAAN phasing demo'**, the `simulation orbit` called **'SSO 600km'** or the `constellation earth mesh` called **'World meshing'**, we can type:
+
+  ```python
+  spacestudio.parametric_study.get_mission('RAAN phasing demo')
+  spacestudio.simulation.get_orbit('SSO 600km')
+  spacestudio.constellation.get_earth_mesh('World meshing')
+  ```
+
+  **All the `get_` functions need the name of the object/mission as their only parameter.**
+
+- To `retrieve` all objects or missions, you can use `get_all_` followed by the kind of object or mission. For example, if we want to retrieve all `simulation spacecrafts`, all `deployment missions` or all `constellation ground stations`, we can type:
+
+  ```python
+  spacestudio.simulation.get_all_spacecrafts()
+  spacestudio.deployment.get_all_missions()
+  spacestudio.constellation.get_all_ground_stations()
+  ```
+
+  **These functions can be useful if you wish to print out the list of objects/missions you already created. Simply use the native Python function `print()`.**
+
+- To `compute` missions, you can use `compute_ ... _mission` (replace `...` with the type of mission (ONLY FOR CONSTELLATION, see [Missions and objects names differences](#missions-and-objects-names-differences) section below)) followed by the kind of mission and pass in as its parameter the name of the mission. For example, if we want to compute a `parametric mission` called **'Orbital transfer demo'**, a `constellation performance analysis mission` called **'Performance analysis demo'** or a `simulation mission` called **'Orbit extrapolation test'**, we can type:
+
+  ```python
+  spacestudio.parametric_study.compute_mission('Orbital transfer demo')
+  spacestudio.constellation.compute_performance_analysis_mission('Simulation demo')
+  spacestudio.simulation.compute_mission('Orbit extrapolation test')
+  ```
+
+  **All the `compute_ ... _mission` functions need the name of the mission as their only parameter.**
+
+- To get a mission `results`, you can use `get_ ... _mission_results` (replace `...` with the type of mission (ONLY FOR CONSTELLATION, see [Missions and objects names differences](#missions-and-objects-names-differences) section below)). For example, if we want to get the results of the `parametric mission` called **'LEO Station keeping demo'**, the `deployment mission` called **'Deployment test'** or the `constellation performance analysis` called **'Constellation test'**, we can type:
+
+  ```python
+  spacestudio.parametric_study.get_mission_results('LEO Station keeping demo')
+  spacestudio.deployement.get_mission_results('Deployment test')
+  spacestudio.constellation.get_simulation_mission_results('Constellation test')
+  ```
+
+  **All the `get_ ... _mission_results` functions need the name of the mission as their only parameter.**
+
+  **_Note: some missions take some time to compute, and may not have the results ready when the you call `get_ ... _mission_results`. Alternatively, you can call `wait_and_get_ ... _mission_results`, which will try to retrieve the results every second, while the mission is still computing. This can be especially useful when some result is important for continuing the calculations._**
+
+  **_Only for simulation missions: the file `demos/DEMO_tools.py` contains an utilitary function to export the mission results to a .xlsx file, `export_mission_results_in_xlsx`. The generated file will be located in the `Downloads` folder at the home directory. This function is further explained in [Demos folder](#demos-folder)_**
+
+- To get a specific mission's `id` (e.g. to try a route in the Swagger), you can use the `get_ ... _mission_id` (replace `...` with the type of mission (ONLY FOR CONSTELLATION, see [Missions and objects names differences](#missions-and-objects-names-differences) section below)). For example, if we want to get the id for the `constellation optimization mission` called **'Optimization test'**, the `deployment mission` called **'Deployment demo'** or the `simulation mission` called **'Orbital transfer test'**, we can type:
+
+  ```python
+  spacestudio.constellation.get_optimization_mission_id('Optimisation test')
+  spacestudio.deployment.get_mission_id('Deployment demo')
+  spacestudio.simulation.get_mission_id('Orbital transfer test')
+  ```
+
+  **All the `get_ ... _mission_id` functions need the name of the mission as their only parameter.**
+
+- To modify an object or mission already created, you can use the `modify_` functions. For example, if we create a `parametric orbit` called **'Python Initial Orbit'** and then, we want to modify it, we can type:
+
+  ```python
+  initial_orbit_body = {
+    'name': 'Python Initial Orbit',
+    'altitude': 600000,
+    'type': 'Circular',
+    'inclination': 0.20,
+    'sunSynchronousOrbit': False
+  }
+
+  spacestudio.parametric_study.create_orbit(initial_orbit_body)
+
+  spacestudio.parametric_study.modify_orbit(initial_orbit_body, {
+    **initial_orbit_body,
+    'altitude': 600000,
+    'inclination': 0.10
+  })
+  ```
+
+  **All the `modify_` functions need the JSON object to be modified and the new JSON object to replace it as their parameters.**
+
+- To `delete` specific objects and missions, you can use `delete_` followed by the kind of object or mission and pass in as its parameter the **name** of the object or mission. For example, if we want to delete the `parametric mission` called **'RAAN phasing demo'**, the `simulation orbit` called **'SSO 600km'** or the `constellation earth mesh` called **'World meshing'**, we can type:
+
+  ```python
+  spacestudio.parametric_study.delete_mission('RAAN phasing demo')
+  spacestudio.simulation.delete_orbit('SSO 600km')
+  spacestudio.constellation.delete_earth_mesh('World meshing')
+  ```
+
+  **All the `delete_` functions need the name of the object/mission as their only parameter.**
+
+  ### Example using built-in functions
+
+  In this quick example, we are going to create a `parametric orbital transfer`.
+
+  1. First, we are going to create all the objects from scratch, using the `create_` functions.
+  2. Also, we will retrieve objects to create other ones (e.g. we are going to specify a propulsion system in order to create a spacecraft), using the `get_` functions.
+  3. Then, we will be computing the mission using the `compute_` function.
+  4. At last, we are going to `print` its results using the `get_mission_results()` function.
+
+  ```python
+  import spacestudio
+
+  base_url = 'https://spacestudio.exotrail.space'
+  mail = 'my_great_email@exotrail.com'
+  password = 'm_great_password'
+
+  spacestudio.connect(base_url, mail, password)
+
+  propulsion_system_body = {
+    'name': 'Python propulsion system',
+    'thrust': '0.020',
+    'isp': 1000,
+    'power': 500,
+    'standbyPower': 0,
+    'totalMass': 50
+  }
+
+  spacestudio.parametric_study.create_propulsion_system(propulsion_system_body)
+
+  initial_orbit_body = {
+    'name': 'Python Initial Orbit',
+    'altitude': 600000,
+    'type': 'Circular',
+    'inclination': 0.20,
+    'sunSynchronousOrbit': False
+  }
+
+  spacestudio.parametric_study.create_orbit(initial_orbit_body)
+
+  final_orbit_body = {
+    'name': 'Python Final Orbit',
+    'altitude': 800000,
+    'type': 'Circular',
+    'inclination': 0.20,
+    'sunSynchronousOrbit': False
+  }
+
+  spacestudio.parametric_study.create_orbit(final_orbit_body)
+
+  spacecraft_body = {
+    'name': 'Python Spacecraft',
+    'platformMass': 60,
+    'dragModelDefined': True,
+    'dragArea': 0.20,
+    'dragCoefficient': 3.0,
+    'orbitalAveragePower': 70,
+    'thruster': spacestudio.parametric_study.get_propulsion_system(propulsion_system_body['name'])
+  }
+
+  spacestudio.parametric_study.create_spacecraft(spacecraft_body)
+
+  mission_type = 'RAAN Phasing'
+  mission_duration = 25000000
+  delta_raan = 0.2
+
+  mission_body = {
+    'name': 'Python RAAN Phasing',
+    'type': mission_type,
+    'initialOrbit': spacestudio.parametric_study.get_orbit(initial_orbit_body['name']),
+    'finalOrbit': spacestudio.parametric_study.get_orbit(final_orbit_body['name']),
+    'spacecraft': spacestudio.parametric_study.get_spacecraft(spacecraft_body['name']),
+    'targetMissionDuration': mission_duration,
+    'targetDeltaRaan': delta_raan,
+    'optimizationType': 'ΔV',
+    'targetRaanLtanType': 'RAAN'
+  }
+
+  spacestudio.parametric_study.create_mission(mission_body)
+
+  mission_to_compute = 'Python RAAN Phasing'
+
+  spacestudio.parametric_study.compute_mission(mission_to_compute)
+
+  mission_to_get_results = mission_to_compute
+
+  print(spacestudio.parametric_study.get_mission_results(mission_to_get_results))
+  ```
+
+  **All the native functions `return` their result (except when you encounter an `error`, it will be printed to the console). If you wish to print the results of a function, you need to pass it in as the parameter of the `print()` function, even for the `get_mission_results()` functions.**
+
+### Pausing and resuming missions
+
+In the `Simulations` module, the pausing mechanism allows you to pause simulation missions after a certain duration, so that the intermediate state can be recovered and even altered for the remaining of the simulation. This allows for more dynamicism and flexibility in the models used, where you could, for example, change the maneuvering strategy after reaching a certain point in their transfer, or reduce the battery capacity as time goes by.
+
+To access this mechanism, you must fill the parameter `durationUntilPause` in the mission json object with a positive number. Alternatively, you can create the mission normaly and replace the function `compute_mission` by `compute_mission_until_duration`, as done below:
+
+```python
+  # First method (with durationUntilPause)
+  mission_body_first = {
+    'name': 'Mission to pause (A)',
+    'durationUntilPause': 86400 # one day, in seconds
+    # other mission fields...
+  }
+  spacestudio.simulation.compute_mission('Mission to pause (A)')
+
+  # Second method (with compute_mission_until_duration)
+  mission_body_second = {
+    'name': 'Mission to pause (B)',
+    # other mission fields...
+  }
+  spacestudio.simulation.compute_mission_until_duration('Mission to pause (B)', 86400) # one day, in seconds)
+```
+
+**The `compute_mission_until_duration` function needs the name of the mission and the duration until pause as its parameters.**
+
+When computing the mission, if it reaches the given duration and the mission is not yet finished, it will be forcefully stopped at that instant, and the current results can be accessed as for any other mission.
+
+To resume the simulation, you must create a new mission from the results of the paused one. For this, you can use the function `create_mission_from_paused_results`, that automatically creates the new mission in the database, with the same goal as the previous one (be it target for transfer, total duration of station-keeping, etc) and the updated relevant parameters, such as date, orbit, mass, among others. It will also be set to pause after the same duration as the previous paused mission. For example, if we simply want to pause and continue, we can type:
+
+```python
+  # First step of the mission
+  mission_body_first = {
+    'name': 'Mission pt.1',
+    'durationUntilPause': 86400 # one day, in seconds
+    # other mission fields...
+  }
+  spacestudio.simulation.compute_mission('Mission pt.1')
+
+  # Continuing from where it paused
+  spacestudio.simulation.create_mission_from_paused_results('Mission pt.1', 'Mission pt.2')
+  spacestudio.simulation.compute_mission('Mission pt.2')
+```
+
+**The `create_mission_from_paused_results` function needs the name of the paused mission and the name of the new mission to create as its parameters.**
+
+_Note: after creating a mission from paused results, this mission can be recovered and updated, via the `get_mission` and `modify_mission` methods, before computing it. Creating a new mission from paused results will also create a new instance for each of its child objects, such as spacecraft and orbits._
+
+Since each step of the simulation (until each pause) is treated as its own object (an intermediate mission), calling the functions `get_mission_results` and `export_mission_results_in_xlsx` will only get the results of the one intermediate mission. If we want to gather the results of all the intermediate missions combined (the entirety of the simulation), we can use the function `get_paused_mission_results_merged`, as such:
+
+```python
+  # First step of the mission
+  mission_body_first = {
+    'name': 'Mission pt.1',
+    'durationUntilPause': 86400 # one day, in seconds
+    # other mission fields...
+  }
+  spacestudio.simulation.compute_mission('Mission pt.1')
+
+  # Continuing from where it paused
+  spacestudio.simulation.create_mission_from_paused_results('Mission pt.1', 'Mission pt.2')
+  spacestudio.simulation.compute_mission('Mission pt.2')
+
+  # Storing the merged results in the variable `results`
+  results = get_paused_mission_results_merged('Mission pt.1')
+```
+
+**The `get_paused_mission_results_merged` function needs only the name of the first mission as its parameter.**
+
+_Note: this method is gonna merge all of the computed missions that were created from the original one. As a result, fields like `Total consumption` and `Total ΔV` are gonna be added up, fields like the ephemerides are gonna be concatenated, etc._
+
+Each time `create_mission_from_paused_results` is used, a new mission object is created, as well as a new spacecraft, orbit, and any other objects that were used. If you want to delete those intermediate objects, you can use the function `delete_intermediate_objects_from_mission`, as shown below:
+
+```python
+  # First step of the mission
+  mission_body_first = {
+    'name': 'Mission pt.1',
+    'durationUntilPause': 86400 # one day, in seconds
+    # other mission fields...
+  }
+  spacestudio.simulation.compute_mission('Mission pt.1')
+
+  # Continuing from where it paused
+  spacestudio.simulation.create_mission_from_paused_results('Mission pt.1', 'Mission pt.2')
+  spacestudio.simulation.compute_mission('Mission pt.2')
+
+  # Storing the merged results in the variable `results`
+  results = get_paused_mission_results_merged('Mission pt.1')
+
+  # Clearing the database from the intermediate objects
+  spacestudio.simulation.delete_intermediate_objects_from_mission('Mission pt.1')
+```
+
+**The `delete_intermediate_objects_from_mission` function needs only the name of the first mission as its parameter.**
+
+---
+
+## Demos folder
+
+In addition to the standard API functions described above, a list of additional scripts is provided in the `demos` folder. It contains four exemple use cases of API usage, as well as one additional file with utilitary functions (`DEMO_tools.py`). This folder is provided as an exemple of usage, and all of its content can be altered freely. We encourage you to take a look at this folder to get familiar with the general API structure, and to eventually adapt it to your own needs.
+
+To run the exemple scripts, some basic additional python packages are required, namely: `tabulate`, `matplotlib`, `numpy` and `openpyxl`. They can each be installed by running the following command in the console:
+
+```
+pip install packagename
+```
+
+where `packagename` should be replaced by each of the required packages.
+
+The `DEMO_tools.py` file contains mostly basic functions to improve the user experience with manipulating API objects and requests, such as creating objects and missions, computing missions and some practical applications employed in the exemple scripts.
+
+Some functions, however, are considered particularly useful, and the user is encouraged to at least take a look at them. They are further described below.
+
+### Export mission results
+
+As described in [Built-in functions](#built-in-functions), you can export the results of a simulation mission to a .xlsx file via the method `export_mission_results_in_xlsx`. The generated file will be located in the `Downloads` folder at the home directory. For example, if we want to export the results of the mission called **'GTO-GEO transfer'**, we can type:
+
+```python
+from DEMO_tools import *
+export_mission_results_in_xlsx('GTO-GEO transfer')
+```
+
+**The `export_mission_results_in_xlsx` function need the name of the mission as its only parameter. In order to use this function, the mission must be already computed, so that the results can be accessed.**
+
+In the resulting .xlsx file, the inner dictionaries of the results JSON file are converted into sheet tabs. This way, each object (spacecraft, orbit, etc.) can be found in its individual tab with its own fields, even if the object is part of a bigger object (for example, a battery belongs to a spacecraft, but both have separate tabs).
+
+In the tab `results`, the fields `ephemerides` and `threedEphemerides` contain information about the ephemerides (and 3D ephemerides) throughout the mission. The fields consist on a vector of vectors (matrix), where each entry represent a timestep, and for each timestep, a list of different ephemerides are made available. The tabs `fieldIndexes` and `threedFieldIndexes` correspond to the indexes of each ephemeris (and 3D ephemeris) found at each timestep.
+
+For clarity and simplicity, the `ephemerides` are also presented in their own tab, in the disposition of a table.
+
+### Simulation ephemerides
+
+In the Simulations module, one of the returned results of the mission are the ephemerides, computed with a given time-step. The ephemerides to be returned can be chosen via the field `ephemeridesRequested` in the mission body (if not set, all ephemerides will be requested).
+
+For a computed simulation, the ephemerides values can be directly obtained via the function `getEphemerides`. For example, if we want to get the `simulation duration` or the `osculating keplerian semi-major axis` for the `simulation mission` called **'Orbital transfer simulation test'**, we can type:
+
+```python
+from DEMO_tools import *
+getEphemerides('Orbital transfer simulation test', 'simulationDuration')
+getEphemerides('Orbital transfer simulation test', 'keplerianSma')
+```
+
+**The `getEphemerides` function needs the name of the mission and the name of the ephemeris to return as its parameters.**
+
+The names of the ephemerides available are returned in the `fieldIndexes` parameter of the mission results. The following table presents a list of all available ephemerides names for each entry in `ephemeridesRequested`.
+
+| `ephemeridesRequested` Entry |         Available Ephemeris API Name         |
+| :--------------------------: | :------------------------------------------: |
+|              -               |              simulationDuration              |
+|          KEPLERIAN           |                 keplerianSma                 |
+|          KEPLERIAN           |              keplerianAltitude               |
+|          KEPLERIAN           |                 keplerianEcc                 |
+|          KEPLERIAN           |                 keplerianInc                 |
+|          KEPLERIAN           |                 keplerianPa                  |
+|          KEPLERIAN           |                keplerianRaan                 |
+|          KEPLERIAN           |                keplerianLtan                 |
+|          KEPLERIAN           |             keplerianMeanAnomaly             |
+|          KEPLERIAN           |             keplerianTrueAnomaly             |
+|          KEPLERIAN           |          keplerianEccentricAnomaly           |
+|          CARTESIAN           |                  cartesianX                  |
+|          CARTESIAN           |                  cartesianY                  |
+|          CARTESIAN           |                  cartesianZ                  |
+|          CARTESIAN           |                 cartesianVx                  |
+|          CARTESIAN           |                 cartesianVy                  |
+|          CARTESIAN           |                 cartesianVz                  |
+|         EQUINOCTIAL          |                equinoctialSma                |
+|         EQUINOCTIAL          |                equinoctialEx                 |
+|         EQUINOCTIAL          |                equinoctialEy                 |
+|         EQUINOCTIAL          |                equinoctialHx                 |
+|         EQUINOCTIAL          |                equinoctialHy                 |
+|         EQUINOCTIAL          |      equinoctialMeanArgumentOfLatitude       |
+|         EQUINOCTIAL          |      equinoctialTrueArgumentOfLatitude       |
+|         EQUINOCTIAL          |    equinoctialEccentricArgumentOfLatitude    |
+|           CIRCULAR           |                 circularSma                  |
+|           CIRCULAR           |                  circularEx                  |
+|           CIRCULAR           |                  circularEy                  |
+|           CIRCULAR           |                 circularInc                  |
+|           CIRCULAR           |                 circularRaan                 |
+|           CIRCULAR           |        circularMeanArgumentOfLatitude        |
+|           CIRCULAR           |        circularTrueArgumentOfLatitude        |
+|           CIRCULAR           |     circularEccentricArgumentOfLatitude      |
+|            THRUST            |                 currentMass                  |
+|            THRUST            |               totalConsumption               |
+|            THRUST            |             remainingPropellant              |
+|            THRUST            |              instantConsumption              |
+|            THRUST            |             thrustDirectionAlpha             |
+|            THRUST            |             thrustDirectionDelta             |
+|            SYSTEM            |                 batteryState                 |
+|            SYSTEM            |           batteryContributionTotal           |
+|            SYSTEM            |          batteryContributionCharge           |
+|            SYSTEM            |    batteryContributionThrusterConsumption    |
+|            SYSTEM            | batteryContributionThrusterWarmupConsumption |
+|           ECLIPSE            |                   eclipse                    |
+|           ATTITUDE           |                  attitudeX                   |
+|           ATTITUDE           |                  attitudeY                   |
+|           ATTITUDE           |                  attitudeZ                   |
+|           ATTITUDE           |                 attitudeMode                 |
+|    MANOEUVRING_STRATEGIES    |               dynamicDutyCycle               |
+|         QUATERNIONS          |                      q0                      |
+|         QUATERNIONS          |                      q1                      |
+|         QUATERNIONS          |                      q2                      |
+|         QUATERNIONS          |                      q3                      |
+|         EULER_ANGLES         |                     yaw                      |
+|         EULER_ANGLES         |                    pitch                     |
+|         EULER_ANGLES         |                     roll                     |
+
+_Note: for the positional ephemerides (KEPLERIAN, CARTESIAN, EQUINOCTIAL and CIRCULAR), it is possible to obtain either the osculating or mean values (or both) by setting as `true` the fields `ephemeridesOscChoice` and/or `ephemeridesMeanChoice` of the simulation request. The ephemerides names shown in the table correspond to the osculating ephemerides; to obtain the corresponding mean ephemerides, it suffices to add 'Mean' after the name of the orbital elements type. In the case of the keplerian semi-major axis, for example, the `keplerianSma` corresponds to the osculating value and `keplerianMeanSma` corresponds to the mean value._
+
+In some specific cases, the following ephemerides are also available:
+
+|                    Condition                     | Available Ephemeris Name User Interface API |
+| :----------------------------------------------: | :-----------------------------------------: |
+|              `RAAN Phasing` mission              |                relativeRaan                 |
+| `Orbit Phasing` or `LEO Station Keeping` mission |         relativeArgumentOfLatitude          |
+|          `LEO Station Keeping` mission           |      positionErrorInVelocityDirection       |
+|          `LEO Station Keeping` mission           |       positionErrorInRadialDirection        |
+|          `LEO Station Keeping` mission           |      positionErrorInOffPlaneDirection       |
+|          `LEO Station Keeping` mission           |      velocityErrorInVelocityDirection       |
+|          `LEO Station Keeping` mission           |       velocityErrorInRadialDirection        |
+|          `LEO Station Keeping` mission           |      velocityErrorInOffPlaneDirection       |
+|            Drag perturbation enabled             |           pertubationsDragDensity           |
+
+---
+
+## Missions and objects names differences
+
+If you refer to the Swagger and the user interface of space**studio**™, you may be wondering which mission names from the user interface correspond to which mission names from the Swagger/library. This is especially true for the `constellation` module.<br>
+Here is a table to let you know the differences:
+
+| Module Name User Interface | Module Name API  | Mission Name User Interface |       Mission Name API       |
+| :------------------------: | :--------------: | :-------------------------: | :--------------------------: |
+|       Constellations       |  Constellation   |    Performance analysis     | Performance analysis mission |
+|       Constellations       |  Constellation   |        Optimisation         |     Optimization mission     |
+|       Constellations       |  Constellation   |         Generation          |      Generation mission      |
+|       Constellations       |  Constellation   |         Simulation          |      Simulation mission      |
+|   Deployment Strategies    |    Deployment    |     Deployment Scenario     |           Mission            |
+|   Deployment Strategies    |    Deployment    |   Deployment Optimisation   |           Mission            |
+|     Parametric Studies     | Parametric Study |      Orbital transfer       |           Mission            |
+|     Parametric Studies     | Parametric Study |        Orbit Phasing        |           Mission            |
+|     Parametric Studies     | Parametric Study |        RAAN Phasing         |           Mission            |
+|     Parametric Studies     | Parametric Study |     LEO Station Keeping     |           Mission            |
+|     Parametric Studies     | Parametric Study |        Deorbitation         |           Mission            |
+|     Parametric Studies     | Parametric Study |    Sequence of missions     |           Mission            |
+|     Parametric Studies     | Parametric Study |         ADCS Design         |           Mission            |
+|        Simulations         |    Simulation    |      Orbital Transfer       |           Mission            |
+|        Simulations         |    Simulation    |        Orbit Phasing        |           Mission            |
+|        Simulations         |    Simulation    |        RAAN Phasing         |           Mission            |
+|        Simulations         |    Simulation    |     LEO Station Keeping     |           Mission            |
+|        Simulations         |    Simulation    | Maneuvering Strategy Design |           Mission            |
+|        Simulations         |    Simulation    |     Orbit Extrapolation     |           Mission            |
+
+You can then refer to this table to understand how to create, retrieve, compute missions as well as getting missions results. You just need to type:
+
+- `spacestudio.[Module Name API].create_[Mission Name API](mission_object)`,
+- `spacestudio.[Module Name API].modify_[Mission Name API](old_mission_object, new_mission_object)`,
+- `spacestudio.[Module Name API].get_[Mission Name API](mission_name)`,
+- `spacestudio.[Module Name API].compute_[Mission Name API](mission_name)`,
+- `spacestudio.[Module Name API].get_[Mission Name API]_results(mission_name)`.
+- `spacestudio.[Module Name API].wait_and_get_[Mission Name API]_results(mission_name)`.
+
+> [Module Name API] and [Mission Name API] are always written in snake_case.
+
+If we want to create a Performance analysis mission from the Constellations module, we will type:
+
+```python
+spacestudio.constellation.create_performance_analysis_mission(mission_json_object)
+```
+
+It is a bit easier for objects. You just need to ignore the last part (`-controller`). As for constellation missions and parametric objects, we need to ignore the first part as well (`parametric-`) and (`constellation-`).<br>
+To create a parametric propulsion system, we can see that the related controller from the Swagger is called `parametric-propulsion-system-controller`. We can type:
+
+```python
+spacestudio.parametric_study.create_propulsion_system(json_object)
+```
+
+---
+
+## Unit converter toolbox
+
+A unit converter toolbox is available to help one deal with convert results into the desired unit field. To run the script do:
+
+```bash
+py unit_converter.py
+```
+
+in the scripting-api folder.
