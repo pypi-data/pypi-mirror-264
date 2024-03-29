@@ -1,0 +1,3 @@
+[console_scripts]
+smalltlk-hello = smalltlk_hello:hello
+
