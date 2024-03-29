@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bsb-arbor
+Version: 0.0.0b3
+Summary: Arbor simulation adapter for the BSB framework
+Author-email: Robin De Schepper <robingilbert.deschepper@unipv.it>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: numpy
+Requires-Dist: bsb-core>=4.0.0b0,<=4.0.0b9999
+Requires-Dist: arbor~=0.9
+Requires-Dist: arborize[arbor]>=4.0.0b1
+Requires-Dist: bsb-core[parallel] ; extra == "test"
+Requires-Dist: bsb-nest>=0.0.0b0 ; extra == "test"
+Requires-Dist: bsb-test>=0.0.0b0 ; extra == "test"
+Requires-Dist: coverage~=7.0 ; extra == "test"
+Provides-Extra: test
+
+# bsb-arbor
+
