@@ -1,0 +1,6 @@
+ckmeans-0.2.3.dist-info/METADATA,sha256=bhP9q8cD76v0KNlJWMqqvDbYsdMz8-2z3h_tfyNhPCE,2745
+ckmeans-0.2.3.dist-info/WHEEL,sha256=thWVGQI-HQrMGqeZp3gcIE7HFmAcTYQ1tQTxzJgo3SI,104
+ckmeans-0.2.3.dist-info/license_files/license.txt,sha256=GkRsY7w5O74wcQX_wTlgXReyzsg9gGAhchpri3Na0wQ,1081
+ckmeans/__init__.py,sha256=WjkIRb1R4-OYX_KZoUhE2_Di5X-17NfLEs3qTCUPvZU,111
+ckmeans/ckmeans.cpython-312-darwin.so,sha256=52lEbHwgS31m4Kix8PovPXfq4BsA1uLJQ8iIrVUAgd4,569744
+ckmeans-0.2.3.dist-info/RECORD,,
