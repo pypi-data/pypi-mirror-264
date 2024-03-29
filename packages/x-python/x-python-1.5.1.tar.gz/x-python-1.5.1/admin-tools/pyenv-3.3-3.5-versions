@@ -1,0 +1,4 @@
+# -*- shell-script -*-
+# Sets PYVERSIONS to be pyenv versions that
+# we can use in the master branch.
+export PYVERSIONS='3.5.10 3.3.7 3.4.10 pypy3.5-7.0.0'
