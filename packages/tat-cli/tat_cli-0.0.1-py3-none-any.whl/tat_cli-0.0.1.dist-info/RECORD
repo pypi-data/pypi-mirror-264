@@ -1,0 +1,10 @@
+tat_cli/__init__.py,sha256=K3eX-Zb_nH9sVuVx6Z7_5foUtNyNzOEK4UebfdtDEwY,119
+tat_cli/__main__.py,sha256=GG-ALY0YVDsAitqxnyM09fOGRd-FNjhDH73n47Q-AQk,87
+tat_cli/tat.py,sha256=0LxHrOmd-n7qJXv4S6nA4rRV0dHacYNEyQOPtvxR7P4,2955
+tat_cli/tat_cli.py,sha256=1v91TFta_xcaCLLBTIRn8f_h9EBZFl4zQMsJBiNS9lU,884
+tat_cli-0.0.1.dist-info/LICENSE,sha256=-7IKICOqas3rwIvp4w0ENqRmfAiKPbWdHSGPtyrFRmA,1066
+tat_cli-0.0.1.dist-info/METADATA,sha256=Yb03rEvv0ucp25xkpu7igtjlsPP6LNFPvtTYNWYTGgE,1109
+tat_cli-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tat_cli-0.0.1.dist-info/entry_points.txt,sha256=-XquzgOP6krglSigcuNSxvaYtFfom608xeeg-HyB75A,40
+tat_cli-0.0.1.dist-info/top_level.txt,sha256=P04awKAgTZSmXN2LxWQxlr_ZZbKvIHxXWmqdFW_-5uM,8
+tat_cli-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+tat = tat_cli:tat_cli
