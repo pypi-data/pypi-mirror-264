@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BlackConnectSettings" port="45489" lineLength="120" triggerOnReformat="true" targetSpecificVersions="true" pythonTargets="py3.11" />
+  <component name="ChangeListManager">
+    <list default="true" id="38c87715-d495-43db-9d28-b8fccb0a07bb" name="Changes" comment="bump to 0.0.3">
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pytest_rerunclassfailures/pytest_rerunclassfailures.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pytest_rerunclassfailures/pytest_rerunclassfailures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_statuses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_statuses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_xdist.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_xdist.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Blank Requirements File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2duM4YXLuHf59ryj47JAezCMIsn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ilyavereshchagin/Work/pytest-rerunclassfailures/.github/workflows&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;me.lensvol.blackconnect.settings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+      <recent name="$PROJECT_DIR$/src/pytest_rerunclassfailures" />
+      <recent name="$PROJECT_DIR$/tests/test_source" />
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/test_source" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38c87715-d495-43db-9d28-b8fccb0a07bb" name="Changes" comment="" />
+      <created>1710853320458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710853320458</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1710949159962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710949159962</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711027991039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711027991039</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711028246223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711028246223</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711028887674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711028887675</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711029100823</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711029100823</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711029123563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711029123563</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711029144013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711029144013</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711029214377</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711029214377</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711031861896</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711031861896</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711032071927</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711032071927</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixes for xdist">
+      <option name="closed" value="true" />
+      <created>1711032247156</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711032247156</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add tests for arguments">
+      <option name="closed" value="true" />
+      <created>1711044799727</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711044799727</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add tests for arguments">
+      <option name="closed" value="true" />
+      <created>1711044859298</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711044859298</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add tests for arguments">
+      <option name="closed" value="true" />
+      <created>1711045997072</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711045997072</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add tests for arguments">
+      <option name="closed" value="true" />
+      <created>1711046187251</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711046187251</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add tests for arguments">
+      <option name="closed" value="true" />
+      <created>1711046451945</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711046451945</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add tests for arguments">
+      <option name="closed" value="true" />
+      <created>1711046675141</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711046675141</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add tests for arguments">
+      <option name="closed" value="true" />
+      <created>1711046839713</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711046839713</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add tests for arguments">
+      <option name="closed" value="true" />
+      <created>1711047116020</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711047116020</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add tests for different test format">
+      <option name="closed" value="true" />
+      <created>1711097341289</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711097341289</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add tests for different test format">
+      <option name="closed" value="true" />
+      <created>1711097793760</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711097793760</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add tests for different test format">
+      <option name="closed" value="true" />
+      <created>1711097966761</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711097966761</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add tests for different test format">
+      <option name="closed" value="true" />
+      <created>1711098069333</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711098069333</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add tests for different test format">
+      <option name="closed" value="true" />
+      <created>1711098244256</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711098244256</updated>
+    </task>
+    <task id="LOCAL-00025" summary="remove trailing dot in docstring">
+      <option name="closed" value="true" />
+      <created>1711098801651</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711098801651</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add class arguments test">
+      <option name="closed" value="true" />
+      <created>1711472348768</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711472348769</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Small fixes">
+      <option name="closed" value="true" />
+      <created>1711475503368</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711475503368</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Small fixes">
+      <option name="closed" value="true" />
+      <created>1711531448962</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711531448962</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Small fixes">
+      <option name="closed" value="true" />
+      <created>1711531706363</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711531706363</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Small fixes">
+      <option name="closed" value="true" />
+      <created>1711532023377</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711532023377</updated>
+    </task>
+    <task id="LOCAL-00031" summary="bump to 0.0.2">
+      <option name="closed" value="true" />
+      <created>1711539024090</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711539024090</updated>
+    </task>
+    <task id="LOCAL-00032" summary="bump to 0.0.2">
+      <option name="closed" value="true" />
+      <created>1711539282342</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1711539282342</updated>
+    </task>
+    <task id="LOCAL-00033" summary="bump to 0.0.2">
+      <option name="closed" value="true" />
+      <created>1711544404113</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1711544404113</updated>
+    </task>
+    <task id="LOCAL-00034" summary="bump to 0.0.2">
+      <option name="closed" value="true" />
+      <created>1711545404412</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1711545404412</updated>
+    </task>
+    <task id="LOCAL-00035" summary="bump to 0.0.2">
+      <option name="closed" value="true" />
+      <created>1711545546143</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1711545546143</updated>
+    </task>
+    <task id="LOCAL-00036" summary="bump to 0.0.2">
+      <option name="closed" value="true" />
+      <created>1711545911907</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1711545911907</updated>
+    </task>
+    <task id="LOCAL-00037" summary="bump to 0.0.2">
+      <option name="closed" value="true" />
+      <created>1711545942702</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1711545942702</updated>
+    </task>
+    <task id="LOCAL-00038" summary="bump to 0.0.3">
+      <option name="closed" value="true" />
+      <created>1711559718569</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1711559718569</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="fixes for xdist" />
+    <MESSAGE value="add tests for arguments" />
+    <MESSAGE value="add tests for different test format" />
+    <MESSAGE value="remove trailing dot in docstring" />
+    <MESSAGE value="Add class arguments test" />
+    <MESSAGE value="Small fixes" />
+    <MESSAGE value="bump to 0.0.2" />
+    <MESSAGE value="bump to 0.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="bump to 0.0.3" />
+  </component>
+</project>
