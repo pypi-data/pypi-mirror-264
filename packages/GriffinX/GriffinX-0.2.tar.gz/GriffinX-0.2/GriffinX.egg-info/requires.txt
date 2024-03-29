@@ -1,0 +1,5 @@
+torch
+numpy
+PIL>=7.1.2
+os
+ultralyticscv2
