@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dailycalc"
+version = "2024.0.1"
+authors = [{ name = "Qu Xiaowei", email = "quxw.work@gmail.com" }]
+description = "A simple calcaultor for daily usage"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["colorama>=0.4.6"]
+
+[project.scripts]
+idailycalc = "dailycalc:icalculate"
+
+[project.urls]
+Homepage = "https://github.com/quxiaowei/simple-calculator"
+Issues = "https://github.com/quxiaowei/simple-calculator/issues"
+
+[tool.black]
+line-length = 79
