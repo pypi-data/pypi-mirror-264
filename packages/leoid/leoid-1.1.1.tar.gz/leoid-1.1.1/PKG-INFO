@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: leoid
+Version: 1.1.1
+Summary: LEOID Python Package
+Author: Jay Ticku
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: imbalanced-learn==0.12.0
+Requires-Dist: scikit-learn==1.2.2
+
+## Python Package for Machine Learning Model LEOID (Level-based Ensemble for Overcoming Inbalanced Data)
+\
+More information about LEOID and example usage is available on Kaggle. [LEOID on Kaggle](https://www.kaggle.com/models/jayticku/leoid)
