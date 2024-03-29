@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+crunchyroll-api/__init__.py
+crunchyroll-api/crunchyrollapi.py
+crunchyroll-api/model.py
+crunchyroll-api/utils.py
+crunchyroll_api_jbsky.egg-info/PKG-INFO
+crunchyroll_api_jbsky.egg-info/SOURCES.txt
+crunchyroll_api_jbsky.egg-info/dependency_links.txt
+crunchyroll_api_jbsky.egg-info/top_level.txt
+test/test_dummy.py
