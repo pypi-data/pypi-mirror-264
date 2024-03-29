@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: kobble-admin
+Version: 1.3.0
+Summary: Offical SDK to perform privileged operations on your Kobble app
+Author: Aurelien Brabant
+Author-email: aurelien@agentlabs.dev
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyjwt[crypto] (>=2.8.0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Kobble Admin SDK
+
+## Requirements
+
+- python >= 3.11
+
+## Usage
+
+Initialize a `Kobble` instance from a secret previously generated from your [Kobble dashboard](https://app.kobble.io/p/sdk/secrets).
+
+```py
+from kobble_admin import Kobble
+
+kobble = Kobble("<secret>")
+whoami = kobble.whoami()
+
+print(whoami)
+```
+
+Exported functions are extensively documented, and more documentation can be found on our [official docs](https://docs.kobble.io).
+
