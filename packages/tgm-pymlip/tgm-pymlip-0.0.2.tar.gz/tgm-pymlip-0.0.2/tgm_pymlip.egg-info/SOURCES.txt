@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+bin/pymlip-tune-cosgam
+pymlip/__init__.py
+pymlip/lrlambda.py
+tgm_pymlip.egg-info/PKG-INFO
+tgm_pymlip.egg-info/SOURCES.txt
+tgm_pymlip.egg-info/dependency_links.txt
+tgm_pymlip.egg-info/requires.txt
+tgm_pymlip.egg-info/top_level.txt
