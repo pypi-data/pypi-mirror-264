@@ -1,0 +1,10 @@
+wowcher/__init__.py,sha256=ILgzUwUxx3xi3X2GoCkyLwTLbNd0RlJt-1Dy1TzlypI,405
+wowcher/api.py,sha256=sk4dXKyyFfLa6nEF09P9A25GY2it_lNdQe9QSVyLvbE,1187
+wowcher/frame.py,sha256=K4GSNWhrkXyk_YNxi9RDT-G_PGyhY12suwgwdCLTJm4,854
+wowcher/mock/__init__.py,sha256=CF3lzkd-S4NSNKqEDTx4Lfk4rEPBmgPhyAE0ik2uEt4,84
+wowcher/mock/api_mock.py,sha256=iB92c1dGl0OX6dm6Gxq4-3ltQqTI3X0Qzv2CElfyRko,411
+wowcher/mock/frame_mock.py,sha256=TnQDzXBq_dno-TqWxek2BnFvnyB-tuBlunV40Y1XExU,349
+wowcher_api_python-1.0.1.dist-info/METADATA,sha256=FgI3sGLZHEFuz7uEGxLYGKwtEjVlIdVHnCm2C9pKAK8,782
+wowcher_api_python-1.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+wowcher_api_python-1.0.1.dist-info/licenses/LICENSE,sha256=w1pK4-v7PEOp-Q0vszqNRvEASfkSPnNEgtEKl1M4mSo,1067
+wowcher_api_python-1.0.1.dist-info/RECORD,,

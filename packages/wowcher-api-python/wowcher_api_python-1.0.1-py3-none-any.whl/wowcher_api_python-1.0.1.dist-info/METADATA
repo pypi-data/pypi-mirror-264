@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: wowcher-api-python
+Version: 1.0.1
+Summary: Library for integration with Wowcher.App api application
+Project-URL: Homepage, https://github.com/dev-self-team/wowcher-api-python
+Project-URL: Issues, https://github.com/dev-self-team/wowcher-api-python/issues
+Author-email: Self <dev@self.team>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Wowcher Api Python Integration Package
+
+This package is designed to make it easy to integrate with the Wowcher API. It provides a simple interface to the Wowcher API, and handles all the authentication and request signing for you.
