@@ -1,0 +1,16 @@
+dailycalc/__init__.py,sha256=Fy_CuIAfoThapn2y_Llh5ZFeb5lR-jYvkCrIses6TEU,126
+dailycalc/__main__.py,sha256=fJ1Zd_VXGeL-1nr64lqdlKwo8sEq7qFcA38lAJdxdcc,1702
+dailycalc/icalculator.py,sha256=6I0SHbgcxD2XNaR7u1bSN23yB6KPCQm0X9UMjeJl_xA,8047
+dailycalc/queueregister.py,sha256=9cdFu4RPbL5MYT1OqvJZFVknq49jt28ZWHi72MUQ9JQ,7356
+dailycalc/calculator/__init__.py,sha256=fKQXcYB9psvSC2efmwmbA_rzr0CfHimafChJMW842C0,286
+dailycalc/calculator/calculator.py,sha256=g8nNeT1ze2h2dJx5PDkoKdXN21UX6LRSmL-bFhPiacU,12794
+dailycalc/calculator/debug.py,sha256=Yi__Ph78-aAfSF-s5crJsk0ElED4D96g_hqCYBGnfCg,1377
+dailycalc/calculator/define.py,sha256=7kL3B2wazJsE3-7MCAWwQaPfP6cGfUjEttN4vzDN9ag,2980
+dailycalc/calculator/parserlogger.py,sha256=jkuSqVX0LO0T7M1u00ZZIafvhUhkcPG4_uoleEWTm1Y,1351
+dailycalc/calculator/testing.py,sha256=XQIdLbAz4LBGZwG76Bc6DHfBr4-KVIrwimBbFNgdY8A,8627
+dailycalc/calculator/words.py,sha256=uRBU_UEpXjS_Q8lLOtTam-mOfeNJwEBZnWnp0CfJ10E,13962
+dailycalc-2024.0.1.dist-info/METADATA,sha256=c1lnAKRiVrgwtYKCnMvcTsI5G4aBlc88tSOWethhzGk,4087
+dailycalc-2024.0.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+dailycalc-2024.0.1.dist-info/entry_points.txt,sha256=H8LqbB3Q3KjOB0O4OADhlXyFJnMmAugERD859IqAMdY,52
+dailycalc-2024.0.1.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+dailycalc-2024.0.1.dist-info/RECORD,,
