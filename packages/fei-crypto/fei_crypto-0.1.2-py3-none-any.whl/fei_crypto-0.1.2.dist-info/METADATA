@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: fei-crypto
+Version: 0.1.2
+Summary: fei crypto command utils
+License: MIT
+Author: feicrypto
+Author-email: feicrypto@proton.me
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cowsay (>=6.1,<7.0)
+Requires-Dist: filestools (>=0.2.1,<0.3.0)
+Requires-Dist: manim (>=0.18.0,<0.19.0)
+Requires-Dist: pillow (>=9.5.0,<10.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: python-socks[asyncio] (>=2.4.3,<3.0.0)
+Requires-Dist: requests[socks] (>=2.31.0,<3.0.0)
+Requires-Dist: telethon (>=1.32.1,<2.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# 安装
+
+1. pipx install fei-crypto
+2. pipx upgrade fei-crypto
+
+# 命令行
+
+1. say -t 'hello world' # 打印内容
+2. os # operating system # 打印操作系统
+3. dt # 打印datetime
+4. ts # 打印timestamp
+5. ms # 打印milliseconds
+6. nano # 打印nanoseconds
+7. e # 打印环境变量
+    - --help:帮助
+    - --env_name:环境变量名
+8. uuid # 打印uuid
+9. btc-eth # 从币安获取比特币和以太坊的价格 支持socks5代理设置,设置环境变量->HTTP_PROXY=socks5h://127.0.0.1:7890
+10. rmw # 简单的去水印
+    - --file_path:例如`./1.png`
+    - --colors:取色对比次数,默认值`5`
+11. tg-login # telegram bot或user获取sessionString
+12. captcha # 阿里云验证码识别
+    - --file_abs_path:图片绝对路径
+    - --aliyun_ocr_appcode:阿里云appcode [购买地址](https://market.aliyun.com/products/57124001/cmapi030368.html?spm=5176.2020520132.101.3.596972189IxPGX)
+    - --pri_id:文字类型（dn：纯数字，ne：英文数字，de：纯英文）
+13. t2m # text to media 简单的文字转视频,示例:`t2m 'ETH-USDT' --preview`
+    - --help:帮助文档
+    - --text:文本内容,文字长度最好不要超过15个字符
+    - --out_filename:输出文件名,输出目录为当前目录下的media文件夹,默认值`t2m`
+    - --quality:生成媒体质量,默认`low_quality`,还可设置为`medium_quality`|`high_quality`
+    - --out_format:输出格式`png`,`gif`,`mp4`,`webm`,`mov`. 默认`gif`
+    - --preview:是否生成后立即预览
+    
+
+# dev
+```shell
+poetry shell
+poetry run python --version
+poetry run os
+poetry run dt
+poetry run ts
+```
+
+# publish
+
+```shell
+poetry build
+poetry publish
+```
