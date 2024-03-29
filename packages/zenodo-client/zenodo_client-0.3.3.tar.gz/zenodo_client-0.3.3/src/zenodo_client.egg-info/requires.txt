@@ -1,0 +1,15 @@
+pydantic
+pystow>=0.4.9
+requests
+click
+more_click
+typing_extensions
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+
+[tests]
+pytest
+coverage
