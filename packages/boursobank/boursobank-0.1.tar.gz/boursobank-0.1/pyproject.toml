@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "boursobank"
+authors = [{name = "Julien Palard", email = "julien@palard.fr"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "pypdf",
+    "rich",
+]
+
+[project.scripts]
+boursobank = "boursobank:main"
+
+[project.urls]
+Home = "https://git.afpy.org/mdk/boursobank"
+
+[tool.black]
