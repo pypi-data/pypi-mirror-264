@@ -1,0 +1,4 @@
+cement[colorlog,jinja2,yaml]==3.0.8
+SQLAlchemy==2.0.25
+pycryptodome==3.20.0
+base58==2.1.1
