@@ -1,0 +1,6 @@
+README.md
+setup.py
+react_app.egg-info/PKG-INFO
+react_app.egg-info/SOURCES.txt
+react_app.egg-info/dependency_links.txt
+react_app.egg-info/top_level.txt
