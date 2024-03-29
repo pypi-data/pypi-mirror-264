@@ -1,0 +1,13 @@
+echemdbconverters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+echemdbconverters/column_names.py,sha256=G7nuHEATRNGRMKp1VBmKsl53AvArZxxmeDibIENTvn0,1325
+echemdbconverters/csvloader.py,sha256=SSF0oZZn-yoo_BbEMtD9G2iMKZThHCh65otBfdRLGNo,9648
+echemdbconverters/eclabloader.py,sha256=PH5ZYKVJ2hGvOGh9P_PfroPBXKpaSZUfai-nCovoW4o,6825
+echemdbconverters/entrypoint.py,sha256=MeddDcBuN_67MqCYSrms17a47LqnYMKcXjdYf2rYrXU,4326
+echemdbconverters/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+echemdbconverters/test/cli.py,sha256=-H1VCXyBKet9cajWjlyVwX_ay033m-maOohn9HaeyEg,3078
+echemdbconverters-0.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+echemdbconverters-0.2.0.dist-info/METADATA,sha256=XN4l_sv_XI_GteG8ihTDi1Br8tbh7wd262R7rBoAfkk,722
+echemdbconverters-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+echemdbconverters-0.2.0.dist-info/entry_points.txt,sha256=4FZHHV36f11ZjdgeZAZyLOX8u4UDgV1i3VK44nnrnXY,71
+echemdbconverters-0.2.0.dist-info/top_level.txt,sha256=Tx9fKC_NXgcAzICWTfMEMzvC_WnkrKhiMnqzN-AmfXQ,18
+echemdbconverters-0.2.0.dist-info/RECORD,,
