@@ -1,0 +1,13 @@
+xpip_build/__init__.py,sha256=KfY39bWAh7mQCuBgV4VtM-hBUfdIyGaBpdOZoKlc93U,15
+xpip_build/attribute.py,sha256=fRHVlOmyukHFlBnfcLbQVqzzW-51o9w8I2SktNUynyc,385
+xpip_build/util.py,sha256=mpViozQQfhcXA0U97McJ_GawrF9cigV332IBxaIogOc,343
+xpip_build/cmds/__init__.py,sha256=ZAunFrJXs30dqZA4SYmxo8550toRssO6blfn6MwCUJ0,2413
+xpip_build/cmds/setuptools.py,sha256=0Z1lrzOZEN02yrPK9tWU9Slt9JVYM5s3l8aw2JQ-fho,3360
+xpip_build/cmds/version.py,sha256=iXNLK5TJeydOIZex2pPqSsJVRnbxiTDugRVknwwHfEw,473
+xpip.build-1.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+xpip.build-1.0.1.dist-info/METADATA,sha256=fVMqOqtXB26HzjdyANKS4S7jIBMAlul5wQTDjlq9Ih8,997
+xpip.build-1.0.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+xpip.build-1.0.1.dist-info/entry_points.txt,sha256=fnESJ39g4Bu4qv1sTvShzLtyppqeLHq_RNg7FvtpF10,53
+xpip.build-1.0.1.dist-info/top_level.txt,sha256=luwfXm91k9uPILH2__8DhA-vymD3-s4vXmN_yJxdyHM,11
+xpip.build-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xpip.build-1.0.1.dist-info/RECORD,,
