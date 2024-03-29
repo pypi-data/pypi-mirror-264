@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "siyi-sdk"
+version = "0.2.0"
+description = "SIYI gimbal camera SDK"
+authors = ["Soter Technology"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.8.1.78"
+imutils = "^0.5.4"
+pyserial = "^3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
