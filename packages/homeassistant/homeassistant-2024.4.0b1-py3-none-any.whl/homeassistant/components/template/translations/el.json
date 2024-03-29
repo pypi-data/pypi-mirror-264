@@ -1,0 +1,90 @@
+{
+    "config": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "state": "[%key::component::template::config::step::sensor::data::state%]",
+                    "state_template": "[%key::component::template::config::step::sensor::data::state_template%]"
+                },
+                "title": "\u0394\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03af\u03b1 \u03c0\u03c1\u03bf\u03c4\u03cd\u03c0\u03bf\u03c5 \u03b4\u03c5\u03b1\u03b4\u03b9\u03ba\u03bf\u03cd \u03b1\u03b9\u03c3\u03b8\u03b7\u03c4\u03ae\u03c1\u03b1"
+            },
+            "sensor": {
+                "data": {
+                    "device_class": "\u039a\u03bb\u03ac\u03c3\u03b7 \u03c3\u03c5\u03c3\u03ba\u03b5\u03c5\u03ae\u03c2",
+                    "name": "[%key::common::config_flow::data::name%]",
+                    "state": "\u03a0\u03c1\u03cc\u03c4\u03c5\u03c0\u03bf \u03ba\u03b1\u03c4\u03ac\u03c3\u03c4\u03b1\u03c3\u03b7\u03c2",
+                    "state_class": "[%key::component::sensor::entity_component::_::state_attributes::state_class::name%]",
+                    "state_template": "\u03a0\u03c1\u03cc\u03c4\u03c5\u03c0\u03bf \u03ba\u03b1\u03c4\u03ac\u03c3\u03c4\u03b1\u03c3\u03b7\u03c2",
+                    "unit_of_measurement": "\u039c\u03bf\u03bd\u03ac\u03b4\u03b1 \u03bc\u03ad\u03c4\u03c1\u03b7\u03c3\u03b7\u03c2"
+                },
+                "title": "\u03a0\u03c1\u03cc\u03c4\u03c5\u03c0\u03bf \u03b1\u03b9\u03c3\u03b8\u03b7\u03c4\u03ae\u03c1\u03b1"
+            },
+            "user": {
+                "description": "\u0391\u03c5\u03c4\u03cc\u03c2 \u03bf \u03b2\u03bf\u03b7\u03b8\u03cc\u03c2 \u03c3\u03ac\u03c2 \u03b5\u03c0\u03b9\u03c4\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03ae\u03c3\u03b5\u03c4\u03b5 \u03b2\u03bf\u03b7\u03b8\u03b7\u03c4\u03b9\u03ba\u03ad\u03c2 \u03bf\u03bd\u03c4\u03cc\u03c4\u03b7\u03c4\u03b5\u03c2 \u03c0\u03bf\u03c5 \u03ba\u03b1\u03b8\u03bf\u03c1\u03af\u03b6\u03bf\u03c5\u03bd \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03ac\u03c3\u03c4\u03b1\u03c3\u03ae \u03c4\u03bf\u03c5\u03c2 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ce\u03bd\u03c4\u03b1\u03c2 \u03ad\u03bd\u03b1 \u03c0\u03c1\u03cc\u03c4\u03c5\u03c0\u03bf.",
+                "menu_options": {
+                    "binary_sensor": "\u0394\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03af\u03b1 \u03c0\u03c1\u03bf\u03c4\u03cd\u03c0\u03bf\u03c5 \u03b5\u03bd\u03cc\u03c2 \u03b4\u03c5\u03b1\u03b4\u03b9\u03ba\u03bf\u03cd \u03b1\u03b9\u03c3\u03b8\u03b7\u03c4\u03ae\u03c1\u03b1",
+                    "sensor": "\u03a0\u03c1\u03cc\u03c4\u03c5\u03c0\u03bf \u03b1\u03b9\u03c3\u03b8\u03b7\u03c4\u03ae\u03c1\u03b1"
+                },
+                "title": "\u0392\u03bf\u03b7\u03b8\u03cc\u03c2 \u03c0\u03c1\u03bf\u03c4\u03cd\u03c0\u03bf\u03c5"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "state": "[%key::component::template::config::step::sensor::data::state%]",
+                    "state_template": "[%key::component::template::config::step::sensor::data::state_template%]"
+                },
+                "title": "[%key::component::template::config::step::binary_sensor::title%]"
+            },
+            "sensor": {
+                "data": {
+                    "device_class": "[%key::component::template::config::step::sensor::data::device_class%]",
+                    "state": "[%key::component::template::config::step::sensor::data::state%]",
+                    "state_class": "[%key::component::sensor::entity_component::_::state_attributes::state_class::name%]",
+                    "state_template": "[%key::component::template::config::step::sensor::data::state_template%]",
+                    "unit_of_measurement": "[%key::component::template::config::step::sensor::data::unit_of_measurement%]"
+                },
+                "title": "[%key::component::template::config::step::sensor::title%]"
+            }
+        }
+    },
+    "selector": {
+        "binary_sensor_device_class": {
+            "options": {
+                "presence": "[%key::component::binary_sensor::entity_component::presence::name%]",
+                "problem": "[%key::component::binary_sensor::entity_component::problem::name%]",
+                "running": "[%key::component::binary_sensor::entity_component::running::name%]",
+                "safety": "[%key::component::binary_sensor::entity_component::safety::name%]",
+                "smoke": "[%key::component::binary_sensor::entity_component::smoke::name%]",
+                "sound": "[%key::component::binary_sensor::entity_component::sound::name%]",
+                "tamper": "[%key::component::binary_sensor::entity_component::tamper::name%]",
+                "update": "[%key::component::binary_sensor::entity_component::update::name%]",
+                "vibration": "[%key::component::binary_sensor::entity_component::vibration::name%]",
+                "window": "[%key::component::binary_sensor::entity_component::window::name%]"
+            }
+        },
+        "sensor_device_class": {
+            "options": {
+                "volume_flow_rate": "[%key::component::sensor::entity_component::volume_flow_rate::name%]"
+            }
+        },
+        "sensor_state_class": {
+            "options": {
+                "none": "\u03a7\u03c9\u03c1\u03af\u03c2 \u03ba\u03bb\u03ac\u03c3\u03b7 \u03ba\u03b1\u03c4\u03ac\u03c3\u03c4\u03b1\u03c3\u03b7\u03c2"
+            }
+        },
+        "sensor_unit_of_measurement": {
+            "options": {
+                "none": "\u03a7\u03c9\u03c1\u03af\u03c2 \u03bc\u03bf\u03bd\u03ac\u03b4\u03b1 \u03bc\u03ad\u03c4\u03c1\u03b7\u03c3\u03b7\u03c2"
+            }
+        }
+    },
+    "services": {
+        "reload": {
+            "description": "\u0395\u03c0\u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03c4\u03ce\u03bd\u03b5\u03b9 \u03c4\u03b1 \u03c0\u03c1\u03cc\u03c4\u03c5\u03c0\u03b1 \u03bf\u03bd\u03c4\u03bf\u03c4\u03ae\u03c4\u03c9\u03bd \u03b1\u03c0\u03cc \u03c4\u03b7 \u03c1\u03cd\u03b8\u03bc\u03b9\u03c3\u03b7 YAML.",
+            "name": "[%key::common::action::reload%]"
+        }
+    }
+}

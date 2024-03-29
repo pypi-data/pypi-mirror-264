@@ -1,0 +1,15 @@
+{
+    "entity": {
+        "sensor": {
+            "paper": {
+                "name": "\u03a7\u03b1\u03c1\u03c4\u03af"
+            },
+            "plastic": {
+                "name": "\u03a0\u03bb\u03b1\u03c3\u03c4\u03b9\u03ba\u03cc"
+            },
+            "residual": {
+                "name": "\u03a5\u03c0\u03bf\u03bb\u03b5\u03b9\u03c0\u03cc\u03bc\u03b5\u03bd\u03bf"
+            }
+        }
+    }
+}

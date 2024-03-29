@@ -1,0 +1,15 @@
+{
+    "entity": {
+        "sensor": {
+            "departure0": {
+                "name": "Vertrek"
+            },
+            "departure1": {
+                "name": "Vertrek +1"
+            },
+            "departure2": {
+                "name": "Vertrek +2"
+            }
+        }
+    }
+}

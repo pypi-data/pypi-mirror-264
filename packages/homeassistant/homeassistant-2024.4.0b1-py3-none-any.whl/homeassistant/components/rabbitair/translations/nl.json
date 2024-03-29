@@ -1,0 +1,14 @@
+{
+    "config": {
+        "error": {
+            "invalid_access_token": "Ongeldig toegangstoken"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "access_token": "Toegangscode"
+                }
+            }
+        }
+    }
+}

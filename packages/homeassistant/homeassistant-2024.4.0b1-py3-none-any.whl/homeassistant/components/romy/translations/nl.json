@@ -1,0 +1,21 @@
+{
+    "config": {
+        "error": {
+            "invalid_auth": "Ongeldige authenticatie"
+        }
+    },
+    "entity": {
+        "vacuum": {
+            "romy": {
+                "state_attributes": {
+                    "fan_speed": {
+                        "state": {
+                            "silent": "Stil",
+                            "super_silent": "Super stil"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "returning_to_dock": {
+                "name": "Terugkeren naar dock"
+            }
+        },
+        "select": {
+            "headlight_mode": {
+                "state": {
+                    "always_off": "Altijd uit",
+                    "always_on": "Altijd aan",
+                    "evening_and_night": "Avond en nacht",
+                    "evening_only": "Alleen 's avonds"
+                }
+            }
+        }
+    }
+}

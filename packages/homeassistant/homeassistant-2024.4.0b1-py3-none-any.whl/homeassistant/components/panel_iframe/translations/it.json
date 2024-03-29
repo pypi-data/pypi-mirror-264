@@ -1,0 +1,7 @@
+{
+    "issues": {
+        "deprecated_yaml": {
+            "title": "La configurazione YAML di {integration_title} sta per essere rimossa"
+        }
+    }
+}
