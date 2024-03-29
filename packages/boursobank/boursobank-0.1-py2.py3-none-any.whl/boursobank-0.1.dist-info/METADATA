@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: boursobank
+Version: 0.1
+Summary: Parses BoursoBank account statements.
+Author-email: Julien Palard <julien@palard.fr>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pypdf
+Requires-Dist: rich
+Project-URL: Home, https://git.afpy.org/mdk/boursobank
