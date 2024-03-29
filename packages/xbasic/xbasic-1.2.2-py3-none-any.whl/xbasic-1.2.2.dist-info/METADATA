@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xbasic
+Version: 1.2.2
+Summary: A custom interpreter for a variant of the BASIC programming language.
+Home-page: https://github.com/vivekkdagar/xbasic/
+Author: Vivek Dagar
+Author-email: vivekdagar2017@gmail.com
+License: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click ~=8.1.7
+Requires-Dist: setuptools ~=68.0.0
+Requires-Dist: wheel
+
+Please refer to the Github for usage guide and more {
+    https://github.com/vivekkdagar/xbasic}
