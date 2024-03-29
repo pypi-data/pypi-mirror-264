@@ -1,0 +1,3 @@
+mkl!=2024.0
+numpy
+scipy
