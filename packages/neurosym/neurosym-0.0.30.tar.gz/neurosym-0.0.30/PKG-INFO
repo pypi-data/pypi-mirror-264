@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: neurosym
+Version: 0.0.30
+Summary: Neurosymbolic library.
+Home-page: https://github.com/kavigupta/neurosym-lib
+Author: Kavi Gupta, Atharva Sehgal, Maddy Bowers
+Author-email: kavig+neurosym@mit.edu
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: frozendict==2.3.8
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: numpy
+Requires-Dist: pytorch-lightning
+Requires-Dist: permacache
+Requires-Dist: requests
+Requires-Dist: stitch-core==0.1.25
+Requires-Dist: scikit-learn
+Requires-Dist: s-exp-parser==1.3.1
+
+
+# Neurosymbolic Library
+
+NOTE: this library is still under development. Please check back later for more updates.
+
+Do not use this library for production or research purposes yet, it *will* change in the future.
