@@ -1,0 +1,16 @@
+python-dotenv
+pyyaml
+pyhcl
+pyfiglet
+fuzzywuzzy
+python-Levenshtein
+requests
+gitpython
+urllib3<2
+boto3
+PyCryptodome
+prompt_toolkit
+azure-storage-blob
+azure-cli==2.57.0
+azure-storage-blob==12.19.1
+msal[broker]==1.26.0

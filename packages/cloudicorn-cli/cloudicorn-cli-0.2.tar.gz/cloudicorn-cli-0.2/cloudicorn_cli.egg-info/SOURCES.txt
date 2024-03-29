@@ -1,0 +1,11 @@
+cloudicorn.py
+cloudicorn_core.py
+cloudicorn_setup.py
+setup.py
+cloudicorn_cli.egg-info/PKG-INFO
+cloudicorn_cli.egg-info/SOURCES.txt
+cloudicorn_cli.egg-info/dependency_links.txt
+cloudicorn_cli.egg-info/entry_points.txt
+cloudicorn_cli.egg-info/not-zip-safe
+cloudicorn_cli.egg-info/requires.txt
+cloudicorn_cli.egg-info/top_level.txt
