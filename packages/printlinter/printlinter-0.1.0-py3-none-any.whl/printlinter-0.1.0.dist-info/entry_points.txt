@@ -1,0 +1,3 @@
+[console_scripts]
+printlinter=cli_app.main:main
+
