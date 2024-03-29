@@ -1,0 +1,6 @@
+pymongo
+pydantic
+datamodel-code-generator
+fastapi
+bcrypt
+asyncinit
