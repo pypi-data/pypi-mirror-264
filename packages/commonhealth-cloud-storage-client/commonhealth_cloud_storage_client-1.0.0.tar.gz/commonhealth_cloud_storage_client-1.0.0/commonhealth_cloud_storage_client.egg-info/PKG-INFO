@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: commonhealth_cloud_storage_client
+Version: 1.0.0
+Summary: Partner Client for CommonHealth Cloud Storage Service
+Home-page: https://github.com/the-commons-project/chcs-python-client
+Author: TheCommonsProjectFoundation
+Author-email: developers@commonhealth.org
+Project-URL: Bug Tracker, https://github.com/the-commons-project/chcs-python-client/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography==42.0.4
+Requires-Dist: requests==2.31.0
+Requires-Dist: tink==1.9.0
+
+This is a lightweight Python client to interact with CommonHealth Cloud Storage Service. The client enables the partner to initialize the service, create a deep link to be shared with the user, and fetch user data once it has been uploaded to the service.
