@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+CwmpClient/__init__.py
+CwmpClient/__main__.py
+CwmpClient/helpers.py
+CwmpClient/nodes.py
+CwmpClient.egg-info/PKG-INFO
+CwmpClient.egg-info/SOURCES.txt
+CwmpClient.egg-info/dependency_links.txt
+CwmpClient.egg-info/requires.txt
+CwmpClient.egg-info/top_level.txt
+CwmpClient/plugins/__init__.py
+CwmpClient/plugins/tr069.py
