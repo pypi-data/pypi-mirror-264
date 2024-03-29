@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/core/__init__.py
+src/core/main.py
+src/documents_analysis_engine.egg-info/PKG-INFO
+src/documents_analysis_engine.egg-info/SOURCES.txt
+src/documents_analysis_engine.egg-info/dependency_links.txt
+src/documents_analysis_engine.egg-info/top_level.txt
