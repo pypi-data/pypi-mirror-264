@@ -1,0 +1,26 @@
+[project]
+name = "totp_auth"
+version = "1.0.1"
+authors = [
+    { name="MoxForever", email="moxforever10@gmail.com" },
+]
+description = "Easy setup totp-based login for your application"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pyotp>=2.9.0",
+]
+
+[project.scripts]
+totp-auth-cli = "totp_auth.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/MoxForever/totp_auth"
+Issues = "https://github.com/MoxForever/totp_auth/issues"
+
+[tool.poetry.files]
+include = ["totp_auth/login.html"]
