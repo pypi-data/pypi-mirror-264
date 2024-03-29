@@ -1,0 +1,16 @@
+clicky/__init__.py,sha256=z3DqXJNkmsc1_FlXDIQcLKDwV6n0LhzXANLw9tPA_8w,33
+clicky/app.py,sha256=2dMr5qUlH_znVZbLP2cMQDdr81y1IingtyYiF-VVK4w,2621
+clicky/backends/__init__.py,sha256=J0ifQnTprQ6-9SPA5YUTqj-4RcYdRir72Xwjubq8Ikg,124
+clicky/backends/base.py,sha256=S50dxS6CdioyOI_q6yBI3tjuOs_pO6bU1cKqBAXBM-w,3128
+clicky/backends/discord.py,sha256=Q3Gcjxw57FgOJtLUTq4sIG-XJIASVlhvc8jPl0IVdco,2042
+clicky/backends/slack.py,sha256=0bcqTgudlx3ToAsUbp3aVk1bgSRB59mCp5bzpuk1Ldw,3185
+clicky/context.py,sha256=E95jFCSM0Qw79uzRKgtxrktx45d9_Sa-ruXNn2WOZHo,491
+clicky/detect_run_string.py,sha256=TLAnwguHyyejUgfhzsquaGVqFMXSA6fleSX0McsmJ94,1712
+clicky/frontends/__init__.py,sha256=8dmNVXTRBXZ2U2_x9AU99Vi4oHmIie3sSpI7-FH-PH8,117
+clicky/frontends/click.py,sha256=QOoV2xfvy6iu-PORHe-EBvR-gt7oLlcc9QNapvirw7s,4290
+clicky/logger.py,sha256=xrkAuSQQdUNq47gD2bXuwINlxV_jfUbYLR6EO2S3RbY,53
+clicky/types.py,sha256=GVq3DxHjuBCuRBy0gnCldmV-f_YwkjFwefQ27rlZ0eY,2843
+clicky-0.3.1.dist-info/LICENSE,sha256=EDrozbiJPD1gwInysFOyckpXjt9n2kGknRfsYMsstVA,2368
+clicky-0.3.1.dist-info/METADATA,sha256=38toz6Ku9y6IUdS-89gK1cDkTsYPwDoZU0d955K68Pk,1073
+clicky-0.3.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clicky-0.3.1.dist-info/RECORD,,
