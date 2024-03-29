@@ -1,0 +1,10 @@
+LICENSE
+flake8_allowlist_imports.py
+pyproject.toml
+flake8_allowlist_imports.egg-info/PKG-INFO
+flake8_allowlist_imports.egg-info/SOURCES.txt
+flake8_allowlist_imports.egg-info/dependency_links.txt
+flake8_allowlist_imports.egg-info/entry_points.txt
+flake8_allowlist_imports.egg-info/requires.txt
+flake8_allowlist_imports.egg-info/top_level.txt
+tests/test_flake8_allowlist_imports.py
