@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+minimalsound/__init__.py
+minimalsound/base.py
+minimalsound/bell.py
+minimalsound/proc.py
+minimalsound/wrap.py
+minimalsound.egg-info/PKG-INFO
+minimalsound.egg-info/SOURCES.txt
+minimalsound.egg-info/dependency_links.txt
+minimalsound.egg-info/not-zip-safe
+minimalsound.egg-info/requires.txt
+minimalsound.egg-info/top_level.txt
