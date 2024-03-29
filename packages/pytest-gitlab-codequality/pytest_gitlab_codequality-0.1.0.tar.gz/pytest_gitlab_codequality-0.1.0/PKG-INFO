@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: pytest-gitlab-codequality
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Niclas van Eyk <niclas.eyk@gmail.com>
+Classifier: Framework :: Pytest
+Requires-Python: >=3.12
+Requires-Dist: pytest>=8.1.1
+Description-Content-Type: text/markdown
+
+# pytest-gitlab-codequality
+
+Describe your project here.
