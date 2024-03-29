@@ -1,0 +1,17 @@
+src/__init__.py,sha256=wEzUbW9nQn1OIsMEc7NlN_P3Z8-prGJhxkKP7MtTxEw,1692
+src/agents.py,sha256=8T8AYm6hUAjj645v5qkKUHWIIGa-iB0T2LOZ_b8rnoE,5347
+src/api.py,sha256=vciue0jGMSK50_vRPyNHOVeIttEveQmI8GJNiqSrZu4,8786
+src/cli.py,sha256=lM7hBt18v1SAIam0Y8unrUiMPTK-KBdkJzetL3KoK6I,23625
+src/enums.py,sha256=BltP01ChRk_V3v-i0AFU7WHBZu9F92XxvoLMcvSNNO4,14548
+src/exceptions.py,sha256=9bjShEdw37zivL1IYRSAOozWApDYSXfsdVk0nyoZ0Ys,2301
+src/models.py,sha256=oevP6uqabKxuW2Yo6vsYQawjKnY5UTFu2uZt56WZ7Zc,2309
+src/passage.py,sha256=cbfijrVIQor4x8R1iIyL9aqtWQInCiuxWvCObYiLmm0,4411
+src/reference.py,sha256=HgQglkhV_4dAlj7t3p6LNY0Zv2w9Od-no4TyEGi3j2o,17915
+src/scripture_phaser.py,sha256=Qz595p3xMqjP7PspvIlfVIbO8KdTg2bGLLbJXgBMTPo,1805
+src/stats.py,sha256=BfjakQdTPR8e3MXSBaJX_4CIL5LLFepppZ-x07gosJQ,3620
+src/verse.py,sha256=Va4vHNNSLzkxPFYANozn2zCFiY-ojOB9ZS1zvk88HVU,5422
+scripture_phaser-1.1.1.dist-info/METADATA,sha256=B6AuRfjjIXYmPErrZY3LcgwsjcDlCCyjUPuVE7i5tTg,6621
+scripture_phaser-1.1.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+scripture_phaser-1.1.1.dist-info/entry_points.txt,sha256=w84d5cUkr18T5awi8_TAaWINbyghfmDhZJBoAxNgNZc,75
+scripture_phaser-1.1.1.dist-info/licenses/LICENSE,sha256=XZQRWGXxZsexJps6rde0SzyrrrUsAFbkIexLVn1F8_4,1467
+scripture_phaser-1.1.1.dist-info/RECORD,,
