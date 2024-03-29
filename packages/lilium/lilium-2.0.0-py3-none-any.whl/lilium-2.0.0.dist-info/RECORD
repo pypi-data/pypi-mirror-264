@@ -1,0 +1,9 @@
+lilium/__init__.py,sha256=ARkv2VRoXf-3CVP3vJG30O0oGyX60HJtoXPTE7SDjqQ,24
+lilium/manganelo/__init__.py,sha256=qInekiONQegF8loHKHL1NDan-Et7M3OrhR-5USItrHI,88
+lilium/manganelo/manganelo.py,sha256=PgiaSeeNbH5GtvG4QAYJ9lmVCwz1oDVwCn1OdZj_J6Q,2601
+lilium/manganelo/manganeloChapter.py,sha256=7D1q5AymrY5Iq6OTzs3x01kl5UTSVEPhvP2SmM7At3c,991
+lilium/manganelo/manganeloManga.py,sha256=zZXL-Ggd8Cy7I77xxP_qFRsWD-ITPImIxruAqn1CMzE,1864
+lilium-2.0.0.dist-info/METADATA,sha256=rRhYpO0XfXA5M9pyOzdesfL8ckBJp1guO4lgPT5epBs,882
+lilium-2.0.0.dist-info/WHEEL,sha256=bq9SyP5NxIRA9EpQgMCd-9RmPHWvbH-4lTDGwxgIR64,87
+lilium-2.0.0.dist-info/licenses/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+lilium-2.0.0.dist-info/RECORD,,
