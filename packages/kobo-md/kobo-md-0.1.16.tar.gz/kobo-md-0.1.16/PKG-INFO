@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: kobo-md
+Version: 0.1.16
+Summary: Markdown Compiler + Server
+Home-page: https://github.com/dwLG00/kobo/
+Author: Dylan Wallace
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: flask
+Requires-Dist: bs4
+Requires-Dist: markdown
+Requires-Dist: markdown-katex
+
+# Kobo
+A hugo-like markdown website/blog builder + server
+
+# Features
+- Built with Flask
+- Native support for markdown using katex
+- No customization -> forced to use the best web theme you've ever seen
+
+# Installation
+1. Run `python3 -m pip install kobo-md`
+2. Install katex via `npm install katex`
+
+# Usage
+- To start a new project, simply enter the target directory and run `python3 -m katex new`.
+- To compile markdown files into html snippets, run `python3 -m katex compile`.
+- To run the server, run `python3 -m katex server` from the project directory.
