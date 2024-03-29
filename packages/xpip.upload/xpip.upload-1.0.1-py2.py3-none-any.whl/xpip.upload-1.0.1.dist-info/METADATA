@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: xpip.upload
+Version: 1.0.1
+Summary: upload python package via twine
+Home-page: https://github.com/bondbox/xpip/
+Author: Mingzhe Zou
+Author-email: zoumingzhe@outlook.com
+License: GPLv2
+Project-URL: Source Code, https://github.com/bondbox/xpip/
+Project-URL: Bug Tracker, https://github.com/bondbox/xpip/issues
+Project-URL: Documentation, https://github.com/bondbox/xpip/
+Keywords: twine,wheel
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: keyring
+Requires-Dist: keyrings.alt
+Requires-Dist: twine
+Requires-Dist: wheel
+
+# xpip
+
+Python package. Build. Install.
+
+## Language
+
+- **[简体中文](docs/zh/README.md)**
+
+## Features
+
+- **Quickly build and install Python package via [xpip-build](docs/xpip-build.md)**
+- **Upload package to PyPI repository via [xpip-upload](docs/xpip-upload.md)**
+- **Manage mirror via [xpip-mirror](docs/xpip-mirror.md)**
+
+
