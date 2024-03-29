@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: LibAFX
+Version: 0.2.1
+Summary: All the code for AFX
+Home-page: https://github.com/artifactx/lib-afx
+Author: Mathew Moon
+Author-email: me@mathewmoon.net
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (>=1.34.56,<2.0.0)
+Requires-Dist: dynamojo (>=0.2.0,<0.3.0)
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: mangum (>=0.17.0,<0.18.0)
+Requires-Dist: semantic_version (>=2.10.0,<3.0.0)
+Project-URL: Repository, https://github.com/artifactx/lib-afx
+Description-Content-Type: text/markdown
+
+# Tenancy
+
+* Tenants get a subdomain
+* Tenants are the PK for all resources
+* All artifacts are under the `<tenant>/` prefix in S3
+* Example of a tenant would be a company
+
+
+# Namespace
+
+* Fall under a tenant
+
+
+# Api creds
+* Can be part of many namespaces but only one tenant

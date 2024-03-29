@@ -1,0 +1,16 @@
+afx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afx/exceptions.py,sha256=DWG32SlkYi7Zc6TPvJuReMOmCwVDTl-wpQ2m6uy26Vg,223
+afx/globals.py,sha256=3Sc9dTFvV0UQwEwrAOxQjUyvv9bbGeme4tdYNwtqxcw,602
+afx/models.py,sha256=6fhFKk0YkWd6coXumE5E3KJdpmP0ee9Dc5-VZF0TS1E,3508
+afx/pypi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afx/pypi/indexes.py,sha256=yh8VInWWwa3STp-6ip8lptiMiFmu5d2s81nh5M9ltuo,1410
+afx/pypi/models.py,sha256=e-rG5vuIoUBLyhp7Luh7UqGO49rgHT5z-GwON4eiUFI,14782
+afx/table.py,sha256=oFyg8MuhbSUoGMJBN7X1ZJffYnqSR1xMZLnXh437zi8,7333
+afx/tenant.py,sha256=rYBmVA5rl-X9TVoAKLNuuIT_tT-cmcCRxYdKSYDgWEg,924
+afx/terraform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afx/terraform/lambda_function.py,sha256=1txlQaNTzkibg9c2vjbE9YqghEMDJAF_G61sRPIIGMk,2176
+afx/terraform/models.py,sha256=VF6g5TvYYL8K-61L1WKdz9_ktbpaOD8mXWl7cYKacoY,5687
+afx/terraform/well_known.py,sha256=XP4hYTO2d1gJdafSY9jCXuI9np5oOFwopnJQAFQDULw,120
+libafx-0.2.1.dist-info/METADATA,sha256=l-nOq6WRqLcgtgLs1PkipGthtcO22BUGUjvyGZ8LOyY,903
+libafx-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+libafx-0.2.1.dist-info/RECORD,,
