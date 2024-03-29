@@ -1,0 +1,2 @@
+[console_scripts]
+convert_chinese = owo_tools.convert_chinese:main

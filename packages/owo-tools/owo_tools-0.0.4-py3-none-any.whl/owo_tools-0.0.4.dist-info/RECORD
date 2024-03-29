@@ -1,0 +1,12 @@
+owo_tools/__init__.py,sha256=2GWffEF1rjyrveUGdfR8y3cl3JUnX0gJjr8Ryy_u4JQ,21
+owo_tools/autoEDA.py,sha256=hqW1zVsG4gsBLowCeJzTDnJoK8wxC4UEJpPdoVbX2Ig,740
+owo_tools/convert_chinese.py,sha256=UKkc88NLRDUrWF8qb4jCScKpOSRZIOJSgr9pwMgjT2Q,3296
+owo_tools/encrypt.py,sha256=2XQmiIYlFCheH2hmGPthOFcKR0h7h1NeAfGGgpirZzE,1322
+owo_tools/notify.py,sha256=ht0tcZ35JSKe2fp9y2JqbTZ4E0nCA5c50gmiicE_5vQ,699
+owo_tools/plot.py,sha256=aMIj2jnSYeZ0XPGUOLWt5Uys839jLVJg9pJODesEXlw,1636
+owo_tools/soup_parser.py,sha256=np1olSwD0jRe3wmUGS5zfkXNMPUEK0uwgNNcMdGjgNk,4001
+owo_tools-0.0.4.dist-info/METADATA,sha256=P94SajHyvEd_HXoChtKHpQtQ58q9OM0y-hTfID3FjTQ,444
+owo_tools-0.0.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+owo_tools-0.0.4.dist-info/entry_points.txt,sha256=nmj1RgAQgskq_BZZtNGSPHd0mJ7ekrhPG5cOy9U3EqA,67
+owo_tools-0.0.4.dist-info/top_level.txt,sha256=y99PLIFJExkQczkjOlukE7KNGFoGmP02sLtcfJ2B2tc,10
+owo_tools-0.0.4.dist-info/RECORD,,
