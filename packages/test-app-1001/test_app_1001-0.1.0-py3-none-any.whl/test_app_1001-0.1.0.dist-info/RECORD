@@ -1,0 +1,7 @@
+test_app/__init__.py,sha256=D29PG5IeLCRvLNQJlnnsm8M4oEnrYWHtKEsCH1pkNNw,29
+test_app/test_app.py,sha256=X4bE2aofVJAbmacOI_Ny0Oc7m2Ru4ShxUscmJqVps1Q,43
+test_app_1001-0.1.0.dist-info/METADATA,sha256=J-14qJguNjbezI_t04_ruvCJYKkbynglFDB5CSPFtmI,281
+test_app_1001-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+test_app_1001-0.1.0.dist-info/entry_points.txt,sha256=RLgwFKfScvtaTE38wV6HEeGRxRPfrgWTOiXsY7Xryk4,55
+test_app_1001-0.1.0.dist-info/top_level.txt,sha256=f-ZYWvvquK2zlmm4-1QGrNG9jhXbT2NbEit5ymUGO6E,9
+test_app_1001-0.1.0.dist-info/RECORD,,
