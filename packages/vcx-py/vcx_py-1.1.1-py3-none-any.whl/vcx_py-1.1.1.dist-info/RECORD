@@ -1,0 +1,10 @@
+vcx_py/__init__.py,sha256=2Oy3KIkuI9cWo2VkinYG_aH4uxDXjcXkLC2RBL-Aojw,792
+vcx_py/client.py,sha256=18XXz4Iifd9qAqGnf2-DLPTXCpJMkUkoUdld69x5EQM,9862
+vcx_py/constants.py,sha256=zJCh7U_crJIg2ASQNa6P7dxBb64tmXHNEHMTDYYg_hY,2365
+vcx_py/schema.py,sha256=K0sfPWu84yUgMieol5WRq_owGHeh16ENl8XL_iktYAA,1695
+vcx_py/utils.py,sha256=xvTyC-rcsSuSSu4-Nzh2Ozt9wcs_FdA-_mv3hsZg_lg,3065
+vcx_py-1.1.1.dist-info/LICENSE,sha256=rBISrprr2utbIBonkD5D_UqJ1DamzLYpT47gSg1_k3k,1075
+vcx_py-1.1.1.dist-info/METADATA,sha256=kgulfHCet9aJUneIrFQmaGMNg213rzE639RiqFpScWA,4227
+vcx_py-1.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+vcx_py-1.1.1.dist-info/top_level.txt,sha256=p7A1qxBUOEaLMNJk3LQAdiPAtgmcdVDMw6EIGSJzWvE,7
+vcx_py-1.1.1.dist-info/RECORD,,
