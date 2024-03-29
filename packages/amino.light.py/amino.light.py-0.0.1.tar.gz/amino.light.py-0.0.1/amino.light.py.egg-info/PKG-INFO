@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: amino.light.py
+Version: 0.0.1
+Summary: Best Amino.py alternative
+Author: AugustLight
+Requires-Dist: requests
+Requires-Dist: msgspec
