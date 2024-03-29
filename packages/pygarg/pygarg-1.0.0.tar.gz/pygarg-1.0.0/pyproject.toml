@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pygarg"
+version = "1.0.0"
+authors = [
+  { name="Jean-Guy Mailly", email="jean-guy.mailly@irit.fr" },
+]
+description = "A Python enGine for Argumentation"
+readme = "README.md"
+requires-python = ">=3.9.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/jgmailly/pygarg"
+Issues = "https://github.com/jgmailly/pygarg/issues"
