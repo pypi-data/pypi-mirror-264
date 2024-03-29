@@ -1,0 +1,46 @@
+# Other project metadata fields as specified in:
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "core-datetime"
+description = "This project/library contains common elements related to date & time..."
+version = "1.0.1"
+
+authors = [
+    {name = "Alejandro Cora González", email = "alek.cora.glez@gmail.com"}
+]
+
+maintainers = [
+    {name = "Alejandro Cora González"}
+]
+
+requires-python = ">=3.9"
+license = {text = "MIT"}
+readme = "README.md"
+
+classifiers = [
+    # Classifiers -> https://pypi.org/classifiers/
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities"
+]
+
+dependencies = [
+    "core-tests==1.0.3",
+    "python-dateutil==2.8.2"
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/bytecode-solutions/core/core-datetime"
+
+[project.optional-dependencies]
+test = []
