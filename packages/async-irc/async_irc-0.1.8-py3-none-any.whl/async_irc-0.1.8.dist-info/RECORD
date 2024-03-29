@@ -1,0 +1,10 @@
+asyncirc/__init__.py,sha256=1s-ot2c0MnIOnDNbzOyY_qMnAUlwaCOzqZIWfAMr9qQ,85
+asyncirc/protocol.py,sha256=yvZi1jsR1yfcHIjx2sB0ychjD8LQuDRYvZEjrZ92HJU,13339
+asyncirc/server.py,sha256=-d8QYzUiFxdLdsaxHUGtQNf4_aV6h-djxxnKn8dtlhE,4309
+asyncirc/util/__init__.py,sha256=-F0XXaFHnqHT-AX_OX26wq49RDbrDA1MHVEuZ6ASR_A,75
+asyncirc/util/backoff.py,sha256=mja9kfa_3zonHCPwjfLvwFNR0vsrJ_MAWaAm7uC47bg,1378
+async_irc-0.1.8.dist-info/LICENSE,sha256=LyVFcZFMUBL9WQitg8YfziwPg_SQ20yr19ZDcN3zgvc,1064
+async_irc-0.1.8.dist-info/METADATA,sha256=soSHwqrqXc8d6fHE9SOqE7Dp184BVTS4pa6DjOdaoeo,1400
+async_irc-0.1.8.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+async_irc-0.1.8.dist-info/top_level.txt,sha256=SrNwgQQKiBcE087T0rurg2fW3Ne1m23VfwTBcjUHNVg,9
+async_irc-0.1.8.dist-info/RECORD,,
