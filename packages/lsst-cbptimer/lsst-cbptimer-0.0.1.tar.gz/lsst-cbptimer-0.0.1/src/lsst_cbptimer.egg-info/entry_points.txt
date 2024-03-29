@@ -1,0 +1,2 @@
+[console_scripts]
+cbptimer = lsst.cbptimer.main:main

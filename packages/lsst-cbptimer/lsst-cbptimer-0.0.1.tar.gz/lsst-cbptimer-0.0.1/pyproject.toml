@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lsst-cbptimer"
+
+dependencies = [
+    "pigpio",
+]
+
+requires-python = ">= 3.9"
+
+authors = [
+    {name = "Fritz Mueller", email = "fritzm@slac.stanford.edu"},
+]
+
+maintainers = [
+    {name = "Fritz Mueller", email = "fritzm@slac.stanford.edu"},
+]
+
+description = "Command line tool for Rubin Observatory CBP calibration system logic timers"
+
+readme = "README.md"
+license = {file = "LICENSE"}
+
+keywords = ["Rubin", "Rubin Observatory", "LSST", "CBP"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: System :: Hardware",
+    "Typing :: Typed",
+]
+
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "mypy",
+    "ruff",
+    "twine",
+]
+
+[project.urls]
+Homepage = "https://github.com/lsst-sitcom/cbptimer"
+Documentation = "https://github.com/lsst-sitcom/cbptimer/blob/master/README.md"
+Repository = "https://github.com/lsst-sitcom/cbptimer"
+
+[project.scripts]
+cbptimer = "lsst.cbptimer.main:main"
+
+[tool.setuptools_scm]
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D",        # completist docstrings decrease code readability
+    "ANN",      # type annotations (redundant with mypy)
+    "COM812",   # missing trailing comma (conflicts with ruff formatter)
+    "ISC001",   # single line implicit sctring concat (conflicts with ruff formatter)
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]

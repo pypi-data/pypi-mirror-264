@@ -1,0 +1,7 @@
+pigpio
+
+[dev]
+build
+mypy
+ruff
+twine
