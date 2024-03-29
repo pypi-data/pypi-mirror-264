@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "clownorelm"
+version = "0.1.4"
+description = "Package to be used for an upcoming presentation"
+authors = ["Birdwainer"]
+license = "Apache-2.0"
+
+packages = [ {include = "clownorelm" }]
+include = ["resources"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ascii-magic = "^2.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
