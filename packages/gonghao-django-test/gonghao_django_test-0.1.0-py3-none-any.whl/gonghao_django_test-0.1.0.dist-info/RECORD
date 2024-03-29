@@ -1,0 +1,9 @@
+migrations/0001_initial.py,sha256=3Xdku67WSgKN6b1wvTJosb3xSFFXIyiP-24S9nS20S4,1113
+migrations/0002_table_name.py,sha256=ejMxtiCDC_VfYwE5wpmIQE90NOgw43wvhPbbBjcud9w,735
+migrations/0003_remove_table_name_l4_is_active.py,sha256=v4UMNPdh2eLP0_HBqprBIJEEhaOvcKIbufCXdx1jhG0,345
+migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gonghao_django_test-0.1.0.dist-info/LICENSE,sha256=AsDYFBVeJDMsLIhKU1Byn0IRlJKH2c-8FtzztxBSDnw,1078
+gonghao_django_test-0.1.0.dist-info/METADATA,sha256=apeizIUF6JSzvyIJqegWjwGz6Ia6x4xWigSOFYqr4PM,1323
+gonghao_django_test-0.1.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+gonghao_django_test-0.1.0.dist-info/top_level.txt,sha256=7Vfp3vCAN7rl4-1zzPa-_BHJXDWnajxHlyMCiJbvhvM,11
+gonghao_django_test-0.1.0.dist-info/RECORD,,
