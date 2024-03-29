@@ -1,0 +1,15 @@
+fgspectra>=1.1.0
+syslibrary>=0.2.0
+cobaya>=3.4.1
+sacc>=0.9.0
+
+[notebook]
+jupyter
+camb
+seaborn
+latex2mathml
+
+[test]
+pytest
+pytest-cov
+camb
