@@ -1,0 +1,12 @@
+zeit.msal-1.2.1-py3.12-nspkg.pth,sha256=mbCdZG8ApXog19d5NYpPZXANH4fr1izDL_lKcw8gNMY,457
+zeit/msal/__init__.py,sha256=PzXwPJegjpQASVlrWxXHry2q8DQS20U_zbiNEsZEXiE,48
+zeit/msal/authenticate.py,sha256=kExfXLlMHDmrGtBUD4MwiYbOT6GaxJWCy-26mRkahYw,4022
+zeit/msal/cache.py,sha256=cLLJn6oW-kZo6wByfGbtFmeJxM7uHZodpGgdHFFfnAA,1539
+zeit/msal/cli.py,sha256=hw8WM5CWHlC7EPeomj9yEkmVeK2Ft6cKhL9Sq63jU9k,957
+zeit.msal-1.2.1.dist-info/LICENSE,sha256=rcRZRQ68v6xYkCaqYUbxgrE2JS_mG0t-vRVLFyaJ_tk,1484
+zeit.msal-1.2.1.dist-info/METADATA,sha256=6jSCob7YN1xlb4DC9XCggPZJmGqtoMxTOT_kdAZguJs,1722
+zeit.msal-1.2.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+zeit.msal-1.2.1.dist-info/entry_points.txt,sha256=ar6PoTe1ZzhJ7wk2QHoGzb8Au1vOi9aMy88pj2JipIo,49
+zeit.msal-1.2.1.dist-info/namespace_packages.txt,sha256=_j7gOKE8WB-VUC-M5oMhzpidg4yIqw4uXRFuJPjuZ4Q,5
+zeit.msal-1.2.1.dist-info/top_level.txt,sha256=_j7gOKE8WB-VUC-M5oMhzpidg4yIqw4uXRFuJPjuZ4Q,5
+zeit.msal-1.2.1.dist-info/RECORD,,
