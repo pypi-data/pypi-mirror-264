@@ -1,0 +1,10 @@
+dissect/archive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dissect/archive/c_wim.py,sha256=1zFJssaYEYgGSwP-DikSKA2UHAhIBu6mlVxDxiEZ1JI,8269
+dissect/archive/exceptions.py,sha256=usP25pI2OyNVAKMFQX3v5Q2IFx1t6j-TwzlauwAzuZY,211
+dissect/archive/wim.py,sha256=QNafh1i-quQ1Pb6AKzE3e-Oozlh5ivM7neN4H4GCrNo,16004
+dissect.archive-1.1.dev1.dist-info/COPYRIGHT,sha256=qwas9LzX3BWsl7O4FzLA8Rk9Xcj5YQ7RYyavBO3VWiQ,302
+dissect.archive-1.1.dev1.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+dissect.archive-1.1.dev1.dist-info/METADATA,sha256=feLR7RvqI7m3ZbLtdk_3JGHMOy9eTkQ5IH5k2CrWmXM,3076
+dissect.archive-1.1.dev1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+dissect.archive-1.1.dev1.dist-info/top_level.txt,sha256=Mn-CQzEYsAbkxrUI0TnplHuXnGVKzxpDw_po_sXpvv4,8
+dissect.archive-1.1.dev1.dist-info/RECORD,,
