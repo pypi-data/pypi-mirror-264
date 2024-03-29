@@ -1,0 +1,2 @@
+[console_scripts]
+btstrm = btstrm.__main__:main
