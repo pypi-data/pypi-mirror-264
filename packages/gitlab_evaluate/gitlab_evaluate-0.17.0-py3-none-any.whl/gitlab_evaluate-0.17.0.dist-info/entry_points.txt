@@ -1,0 +1,3 @@
+[console_scripts]
+evaluate-gitlab=gitlab_evaluate.main:main
+
