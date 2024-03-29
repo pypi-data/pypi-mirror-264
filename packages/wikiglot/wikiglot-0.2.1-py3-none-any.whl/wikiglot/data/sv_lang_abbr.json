@@ -1,0 +1,898 @@
+{
+  "--": "Tv\u00e4rspr\u00e5kligt",
+  "abq": "Abazinska",
+  "ab": "Abchaziska",
+  "abe": "Abenakiska",
+  "ace": "Acehnesiska",
+  "ady": "Adygeiska",
+  "aa": "Afar",
+  "af": "Afrikaans",
+  "ain": "Ainu",
+  "ak": "Akan",
+  "akk": "Akkadiska",
+  "sia": "Akkalasamiska",
+  "sq": "Albanska",
+  "als": "Alemanniska",
+  "ale": "Aleutiska",
+  "tut": "Altaiska",
+  "am": "Amhariska",
+  "xaa": "Andalusisk arabiska",
+  "xno": "Anglo-normandiska",
+  "ar": "Arabiska",
+  "an": "Aragonska",
+  "arc": "Arameiska",
+  "hy": "Armeniska",
+  "roa-rup": "Arum\u00e4nska",
+  "as": "Assamesiska",
+  "ast": "Asturiska",
+  "av": "Avariska",
+  "ave": "Avestiska",
+  "ay": "Aymara",
+  "az": "Azerbajdzjanska",
+  "ban": "Balinesiska",
+  "bal": "Baluchiska",
+  "bm": "Bambara",
+  "bjn": "Banjaresiska",
+  "ba": "Basjkiriska",
+  "eu": "Baskiska",
+  "bbl": "Bats",
+  "bar": "Bayerska",
+  "be": "Belarusiska",
+  "bem": "Bemba",
+  "bn": "Bengali",
+  "ber": "Berberspr\u00e5k",
+  "bym": "Bidjara",
+  "bh": "Bihari",
+  "bcl": "Bikol",
+  "bpy": "Bishnupriya manipuri",
+  "bi": "Bislama",
+  "no": "Bokm\u00e5l",
+  "bs": "Bosniska",
+  "br": "Bretonska",
+  "bug": "Buginesiska",
+  "bg": "Bulgariska",
+  "bxr": "Burjatiska",
+  "my": "Burmesiska",
+  "cps": "Capiznon",
+  "ceb": "Cebuano",
+  "nhn": "Centralnahuatl",
+  "cbk": "Chavacano",
+  "ch": "Chamorro",
+  "kca": "Chantiska",
+  "chr": "Cherokesiska",
+  "chy": "Cheyenne",
+  "ny": "Chichewa",
+  "chn": "Chinook jargon",
+  "chk": "Chuukesiska",
+  "cia": "Cia-cia",
+  "crn": "Cora",
+  "cr": "Cree",
+  "btd": "Dairi batak",
+  "da": "Danska",
+  "prs": "Dari",
+  "egy-dem": "Demotiska",
+  "din": "Dinka",
+  "dv": "Divehi",
+  "dz": "Dzongkha",
+  "smn": "Enaresamiska",
+  "en": "Engelska",
+  "egy": "Egyptiska",
+  "myv": "Erzya",
+  "eo": "Esperanto",
+  "et": "Estniska",
+  "ett": "Etruskiska",
+  "ext": "Extremaduriska",
+  "evn": "Evenki",
+  "ee": "Ewe",
+  "fan": "Fang",
+  "phn": "Feniciska",
+  "fj": "Fiji",
+  "hif": "Fijiansk hindi",
+  "fil": "Filipino",
+  "fi": "Finska",
+  "rmf": "Finsk romani",
+  "gmq-fda": "Forndanska",
+  "ang": "Fornengelska",
+  "frk": "Fornfrankiska",
+  "fro": "Fornfranska",
+  "ofs": "Fornfrisiska",
+  "oge": "Forngeorgiska",
+  "goh": "Fornh\u00f6gtyska",
+  "sga": "Forniriska",
+  "owl": "Fornkymriska",
+  "cu": "Fornkyrkoslaviska",
+  "odt": "Fornl\u00e5gfrankiska",
+  "non": "Fornnordiska",
+  "pro": "Fornoccitanska",
+  "peo": "Fornpersiska",
+  "roa-fpt": "Fornportugisiska",
+  "osx": "Fornsaxiska",
+  "osp": "Fornspanska",
+  "gmq-fsv": "Fornsvenska",
+  "otk": "Fornturkiska",
+  "orv": "Forn\u00f6stslaviska",
+  "frp": "Frankoprovensalska",
+  "fr": "Franska",
+  "fy": "Frisiska",
+  "fur": "Friuliska",
+  "fud": "Futuniska",
+  "fo": "F\u00e4r\u00f6iska",
+  "gag": "Gagauziska",
+  "gl": "Galiciska",
+  "ka": "Georgiska",
+  "got": "Gotiska",
+  "el": "Grekiska",
+  "gos": "Groningska",
+  "kl": "Gr\u00f6nl\u00e4ndska",
+  "gnc": "Guanche",
+  "gn": "Guaran\u00ed",
+  "ngu": "Guerreronahuatl",
+  "gu": "Gujarati",
+  "guz": "Gusii",
+  "ht": "Haitisk kreol",
+  "hak": "Hakka",
+  "ha": "Hausa",
+  "haw": "Hawaiiska",
+  "he": "Hebreiska",
+  "hit": "Hettitiska",
+  "hil": "Hiligaynon",
+  "hi": "Hindi",
+  "hnd": "Hindko",
+  "mww": "Hmong daw",
+  "xhu": "Hurritiska",
+  "hsb": "H\u00f6gsorbiska",
+  "rmq": "Iberisk romani",
+  "io": "Ido",
+  "ig": "Igbo",
+  "ilo": "Ilokano",
+  "id": "Indonesiska",
+  "ia": "Interlingua",
+  "ie": "Interlingue",
+  "iu": "Inuktitut",
+  "ik": "I\u00f1upiaq",
+  "ga": "Iriska",
+  "is": "Isl\u00e4ndska",
+  "ist": "Istriotiska",
+  "it": "Italienska",
+  "yka": "Jakan",
+  "sah": "Jakutiska",
+  "ja": "Japanska",
+  "jv": "Javanesiska",
+  "yi": "Jiddisch",
+  "kbd": "Kabardinska",
+  "kab": "Kabyliska",
+  "xal": "Kalmuckiska",
+  "kam": "Kamba",
+  "xmu": "Kammu",
+  "kjb": "Kanjobal",
+  "kn": "Kannada",
+  "yue": "Kantonesiska",
+  "kr": "Kanuri",
+  "pam": "Kapampangan",
+  "kaa": "Karakalpakiska",
+  "krc": "Karatjajbalkariska",
+  "krl": "Karelska",
+  "ks": "Kashmiri",
+  "csb": "Kasjubiska",
+  "ca": "Katalanska",
+  "kk": "Kazakiska",
+  "kjh": "Khakasiska",
+  "km": "Khmer",
+  "kzg": "Kikai",
+  "kg": "Kikongo",
+  "ki": "Kikuyu",
+  "sjd": "Kildinsamiska",
+  "zh": "Kinesiska",
+  "ky": "Kirgiziska",
+  "rn": "Kirundi",
+  "grc": "Klassisk grekiska",
+  "nci": "Klassisk nahuatl",
+  "syc": "Klassisk syriska",
+  "tlh": "Klingonska",
+  "kpv": "Komi",
+  "cop": "Koptiska",
+  "ko": "Koreanska",
+  "kpy": "Korjakiska",
+  "kw": "Korniska",
+  "co": "Korsikanska",
+  "avk": "Kotava",
+  "crh": "Krimtatariska",
+  "jct": "Krimtjakiska",
+  "hr": "Kroatiska",
+  "kum": "Kumyk",
+  "xug": "Kunigami",
+  "ku": "Kurdiska",
+  "fkv": "Kv\u00e4nska",
+  "cy": "Kymriska",
+  "lad": "Ladino",
+  "lld": "Ladinska",
+  "lbe": "Lak",
+  "lac": "Lakandonska",
+  "lkt": "Lakota",
+  "lo": "Lao",
+  "la": "Latin",
+  "lzz": "Laziska",
+  "ltg": "Lettgalliska",
+  "lv": "Lettiska",
+  "lez": "Lezginska",
+  "lij": "Liguriska",
+  "li": "Limburgiska",
+  "ln": "Lingala",
+  "lt": "Litauiska",
+  "liv": "Liviska",
+  "olo": "Livvi",
+  "jbo": "Lojban",
+  "lmo": "Lombardiska",
+  "lg": "Luganda",
+  "smj": "Lulesamiska",
+  "lb": "Luxemburgiska",
+  "luy": "Luhya",
+  "sco": "L\u00e5gskotska",
+  "dsb": "L\u00e5gsorbiska",
+  "nds": "L\u00e5gtyska",
+  "mas": "Maa",
+  "mad": "Maduresiska",
+  "mdh": "Magindanao",
+  "mai": "Maithili",
+  "mak": "Makassariska",
+  "mk": "Makedonska",
+  "mg": "Malagassiska",
+  "ms": "Malajiska",
+  "ml": "Malayalam",
+  "mt": "Maltesiska",
+  "mnc": "Manchu",
+  "mns": "Mansiska",
+  "gv": "Manx",
+  "mi": "Maori",
+  "arn": "Mapudungun",
+  "mrh": "Mara",
+  "mrw": "Maranao",
+  "mr": "Marathi",
+  "mh": "Marshallesiska",
+  "mfe": "Mauritisk kreol",
+  "enm": "Medelengelska",
+  "frm": "Medelfranska",
+  "gmh": "Medelh\u00f6gtyska",
+  "gml": "Medell\u00e5gtyska",
+  "dum": "Medelnederl\u00e4ndska",
+  "pal": "Medelpersiska",
+  "fit": "Me\u00e4nkieli",
+  "min": "Minangkabau",
+  "zh-min-nan": "Min nan",
+  "mwl": "Mirandesiska",
+  "miq": "Miskito",
+  "mvi": "Miyako",
+  "mdf": "Moksja",
+  "mo": "Moldaviska",
+  "mn": "Mongoliska",
+  "mos": "Mossi",
+  "gmy": "Mykensk grekiska",
+  "nah": "Nahuatl",
+  "pih": "Norfuk",
+  "na": "Nauruanska",
+  "nv": "Navajo",
+  "ng": "Ndonga",
+  "nap": "Neapolitanska",
+  "nl": "Nederl\u00e4ndska",
+  "ne": "Nepali",
+  "nij": "Ngaju dayak",
+  "ryn": "Nordamami",
+  "frr": "Nordfrisiska",
+  "kmr": "Nordkurdiska",
+  "nd": "Nordndebele",
+  "se": "Nordsamiska",
+  "nrm": "Normandiska",
+  "nrn": "Norn",
+  "nov": "Novial",
+  "nn": "Nynorska",
+  "aii": "Ny\u00f6stsyriska",
+  "oc": "Occitanska",
+  "oj": "Ojibwe",
+  "ryu": "Okinawianska",
+  "okn": "Okinoerabu",
+  "or": "Oriya",
+  "om": "Oromo",
+  "ota": "Osmanska",
+  "os": "Ossetiska",
+  "pau": "Palauiska",
+  "pi": "Pali",
+  "pag": "Pangasinan",
+  "pap": "Papiamento",
+  "ps": "Pashto",
+  "jam": "Patwa",
+  "pdc": "Pennsylvaniatyska",
+  "fa": "Persiska",
+  "pms": "Piedmontesiska",
+  "pcd": "Pikardiska",
+  "sje": "Pitesamiska",
+  "pjt": "Pitjantjatjara",
+  "pox": "Polabiska",
+  "pl": "Polska",
+  "pt": "Portugisiska",
+  "pim": "Powhatan",
+  "prg": "Preussiska",
+  "pa": "Punjabi",
+  "qu": "Quechua",
+  "rej": "Rejang",
+  "rhg": "Rohingya",
+  "rom": "Romani",
+  "dru": "Rukai",
+  "ro": "Rum\u00e4nska",
+  "rue": "Rusinska",
+  "rw": "Rwanda",
+  "ru": "Ryska",
+  "rm": "R\u00e4toromanska",
+  "sm": "Samoanska",
+  "sg": "Sango",
+  "sa": "Sanskrit",
+  "sc": "Sardiska",
+  "sas": "Sasak",
+  "stq": "Saterfrisiska",
+  "szl": "Schlesiska",
+  "swg": "Schwabiska",
+  "sel": "Selkupiska",
+  "nso": "Sepedi",
+  "sr": "Serbiska",
+  "st": "Sesotho",
+  "shn": "Shan",
+  "psu": "Shauraseni",
+  "sn": "Shona",
+  "scn": "Sicilianska",
+  "sid": "Sidamo",
+  "sd": "Sindhi",
+  "si": "Singalesiska",
+  "ss": "Siswati",
+  "cjs": "Sjoriska",
+  "sms": "Skoltsamiska",
+  "gd": "Skotsk g\u00e4liska",
+  "sk": "Slovakiska",
+  "sl": "Slovenska",
+  "so": "Somaliska",
+  "ckb": "Sorani",
+  "es": "Spanska",
+  "sux": "Sumeriska",
+  "su": "Sundanesiska",
+  "sul": "Surigaonon",
+  "srn": "Surinamesiska",
+  "sva": "Svanetiska",
+  "sv": "Svenska",
+  "rmu": "Svensk romani",
+  "swl": "Svenskt teckenspr\u00e5k",
+  "sw": "Swahili",
+  "ams": "Sydamami",
+  "azb": "Sydazerbajdzjanska",
+  "sdh": "Sydkurdiska",
+  "nr": "Sydndebele",
+  "sma": "Sydsamiska",
+  "tg": "Tadzjikiska",
+  "tl": "Tagalog",
+  "ty": "Tahitiska",
+  "khb": "Tai l\u00fc",
+  "ta": "Tamil",
+  "tt": "Tatariska",
+  "tsg": "Tausug",
+  "te": "Telugu",
+  "sjt": "Tersamiska",
+  "tet": "Tetum",
+  "th": "Thai",
+  "bo": "Tibetanska",
+  "ti": "Tigrinska",
+  "tiw": "Tiwi",
+  "cs": "Tjeckiska",
+  "ce": "Tjetjenska",
+  "ckt": "Tjuktjiska",
+  "cv": "Tjuvasjiska",
+  "tli": "Tlingit",
+  "bbc": "Toba batak",
+  "tpi": "Tok pisin",
+  "tkn": "Tokunoshima",
+  "to": "Tonganska",
+  "ts": "Tsonga",
+  "tn": "Tswana",
+  "tum": "Tumbuka",
+  "tpn": "Tupinamb\u00e1",
+  "tr": "Turkiska",
+  "tk": "Turkmeniska",
+  "tyv": "Tuvinska",
+  "tw": "Twi",
+  "de": "Tyska",
+  "udm": "Udmurtiska",
+  "uga": "Ugaritiska",
+  "ug": "Uiguriska",
+  "uk": "Ukrainska",
+  "sju": "Umesamiska",
+  "hu": "Ungerska",
+  "sqj-usq": "Uralbanska",
+  "ur": "Urdu",
+  "gem-ugm": "Urgermanska",
+  "gem-uno": "Urnordiska",
+  "inc-uia": "Urindoariska",
+  "ine-uie": "Urindoeuropeiska",
+  "iir-uir": "Urindoiranska",
+  "ira-uir": "Uriranska",
+  "itc-uit": "Uritaliska",
+  "cel-uce": "Urkeltiska",
+  "smi-usm": "Ursamiska",
+  "sem-use": "Ursemitiska",
+  "sla-usl": "Urslaviska",
+  "trk-utr": "Urturkiska",
+  "fiu-ufi": "Ur\u00f6stersj\u00f6finska",
+  "uz": "Uzbekiska",
+  "wa": "Vallonska",
+  "ve": "Venda",
+  "vec": "Venetianska",
+  "vep": "Vepsiska",
+  "vi": "Vietnamesiska",
+  "wym": "Vilamoviska",
+  "vo": "Volap\u00fck",
+  "fiu-vro": "V\u00f5ro",
+  "vot": "Votiska",
+  "mrj": "V\u00e4stmariska",
+  "pnb": "V\u00e4stpanjabi",
+  "wls": "Walliska",
+  "war": "Waray-waray",
+  "wo": "Wolof",
+  "xh": "Xhosa",
+  "rys": "Yaeyama",
+  "ii": "Yi",
+  "yoi": "Yonaguni",
+  "yox": "Yoron",
+  "yo": "Yoruba",
+  "yua": "Yukatekiska",
+  "dje": "Zarma",
+  "diq": "Zazaiska",
+  "zea": "Zeel\u00e4ndska",
+  "sgs": "\u017demaitiska",
+  "za": "Zhuang",
+  "zu": "Zulu",
+  "ovd": "\u00c4lvdalska",
+  "mhr": "\u00d6stmariska"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
