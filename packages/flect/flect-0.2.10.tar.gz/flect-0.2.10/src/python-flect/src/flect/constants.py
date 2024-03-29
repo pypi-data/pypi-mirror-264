@@ -1,0 +1,15 @@
+EXCLUDED_FOLDER_NAMES = {"__pycache__"}
+
+PAGE_ROUTE_FILENAME = "page.py"
+LAYOUT_ROUTE_FILENAME = "layout.py"
+API_ROUTE_FILENAME = "route.py"
+
+DYNAMIC_ROUTE_PREFIX = "dynamic__"
+GROUP_ROUTE_PREFIX = "group__"
+ROOT_ROUTE_PREFIX = "/flect"
+
+LAYOUT_ROUTE_SUFFIX = "_layout/"
+
+NAVIGATION_ROUTE_PATH = "/_route/"
+
+API_ROUTE_METHODS = {"GET", "POST"}
