@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: repo-ast-builder
+Version: 0.0.1
+Summary: Creates an AST of a Python project
+Keywords: ast,python,builder
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: bumpver; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# project AST builder
+
+## Purpose
+This application creates an AST of a Python project, which can be used to feed an AI an _overview_ of the project.
+
+## Run
+```
+python main.py <project_path>
+```
