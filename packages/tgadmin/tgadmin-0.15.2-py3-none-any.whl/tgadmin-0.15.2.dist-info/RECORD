@@ -1,0 +1,10 @@
+tgadmin/__init__.py,sha256=v6Xy0Di78IvFswg8oKeuopXj0J1EUGkq8pa9vk051eA,139
+tgadmin/tgadmin.py,sha256=_M6lSS1jZX_gHokZSM_DCnc5CJX9DHSa0yh9oqf3UgM,13534
+tgadmin/tgimport.py,sha256=DEQlExspPpt9D9uNhCVfBEbxe67XR84ztOy00R14jSQ,7934
+tgadmin/utils.py,sha256=0uTLvXgUL3obtwogdV09XNVc8mNeitkXL8kD7Kv9Tb0,3176
+tgadmin-0.15.2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+tgadmin-0.15.2.dist-info/METADATA,sha256=fj6l9qMCRq-SJ2cpZfQBkYdVxyVU8M1C8HoJyfiaWtM,12718
+tgadmin-0.15.2.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+tgadmin-0.15.2.dist-info/entry_points.txt,sha256=1UinD7wiAE3Z0fr4tUBKjHaskJqi8p59c7D8TV7nX8c,48
+tgadmin-0.15.2.dist-info/top_level.txt,sha256=BkGtMuBddGrQfFOhijCo5y5wHSHUYu3Q1m3oH-8Bt4U,8
+tgadmin-0.15.2.dist-info/RECORD,,
