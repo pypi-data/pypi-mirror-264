@@ -1,0 +1,8 @@
+opentelemetry/instrumentation/falcon/__init__.py,sha256=eVgSlfbLAA0MeuzdsjCu3OOTT2kv-ZaxneRcasSfX4w,20973
+opentelemetry/instrumentation/falcon/package.py,sha256=92jTCGKALBAHOGMreHQRyoaC5umjFzM9w-3o5Tx1v3Q,657
+opentelemetry/instrumentation/falcon/version.py,sha256=HyCKkZGb11xsSYPWI9CHcfWAYU5IqDVTDpTmCwMvfu0,608
+opentelemetry_instrumentation_falcon-0.45b0.dist-info/METADATA,sha256=QfqmzCam0Iu_s4fV-ny8hJETNtqAEuLWwE5MaQLjnkY,3629
+opentelemetry_instrumentation_falcon-0.45b0.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+opentelemetry_instrumentation_falcon-0.45b0.dist-info/entry_points.txt,sha256=midt5pjuS9uEnBWjCKiNnlvALEM2A7jliXpuQ_VVKhM,94
+opentelemetry_instrumentation_falcon-0.45b0.dist-info/licenses/LICENSE,sha256=h8jwqxShIeVkc8vOo9ynxGYW16f4fVPxLhZKZs0H5U8,11350
+opentelemetry_instrumentation_falcon-0.45b0.dist-info/RECORD,,
