@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bsb-neuron
+Version: 0.0.0b4
+Summary: NEURON simulator adapter for the BSB framework
+Author-email: Robin De Schepper <robingilbert.deschepper@unipv.it>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: bsb-core>=4.0.0b9,<=4.0.0b9999
+Requires-Dist: nrn-patch>=4.0.0b3,<=4.0.0b9999
+Requires-Dist: arborize[neuron]>=4.0.0b6,<=4.0.0b9999
+Requires-Dist: pre-commit~=3.5 ; extra == "dev"
+Requires-Dist: black~=24.1.1 ; extra == "dev"
+Requires-Dist: isort~=5.12 ; extra == "dev"
+Requires-Dist: bump-my-version~=0.18 ; extra == "dev"
+Requires-Dist: bsb-core[parallel] ; extra == "parallel"
+Requires-Dist: bsb-test>=0.0.0b8,<=0.0.0b9999 ; extra == "test"
+Requires-Dist: coverage~=7.0 ; extra == "test"
+Requires-Dist: bsb-hdf5>=1.0.0b1 ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: parallel
+Provides-Extra: test
+
+# bsb-neuron
+
