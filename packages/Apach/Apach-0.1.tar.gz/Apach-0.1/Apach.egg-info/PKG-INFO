@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Apach
+Version: 0.1
+Summary: GriffinX is a middleware package for real time event detection
+Home-page: https://github.com/kiran-collab/Griffin-Drone-Car-Collaboration
+Author: Percom@UMD
+Author-email: kirandav@umich.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: PIL
+Requires-Dist: os
+Requires-Dist: ultralyticscv2
+
+hi
+this is a repo for testing library publishing
