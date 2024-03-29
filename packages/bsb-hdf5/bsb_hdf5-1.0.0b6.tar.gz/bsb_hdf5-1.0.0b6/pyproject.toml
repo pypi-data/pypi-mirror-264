@@ -1,0 +1,67 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bsb-hdf5"
+authors = [{ name = "Robin De Schepper", email = "robingilbert.deschepper@unipv.it" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+dynamic = ["version", "description"]
+dependencies = ["bsb-core>=4.0.0b0,<=4.0.0b9999"]
+
+[project.entry-points."bsb.storage.engines"]
+hdf5 = "bsb_hdf5"
+
+[project.optional-dependencies]
+parallel = ["bsb-core[parallel]"]
+test = ["bsb-test>=0.0.0b15,<=0.0.0b9999", "coverage~=7.0", "bsb-core[parallel]"]
+docs = [
+    "sphinx==5.0.2",
+    "colour==0.1.5",
+    "sphinxemoji==0.2.0",
+    "toml==0.10.2",
+    "furo==2022.6.21",
+    "sphinx_design==0.2",
+    "sphinx-copybutton==0.5.0"
+]
+
+[tool.flit.module]
+name = "bsb_hdf5"
+
+[tool.bumpversion]
+current_version = "1.0.0-b6"
+parse = """(?x)
+    (?P<major>0|[1-9]\\d*)\\.
+    (?P<minor>0|[1-9]\\d*)\\.
+    (?P<patch>0|[1-9]\\d*)
+    (?:
+        -                             # dash seperator for pre-release section
+        (?P<pre_l>[a-zA-Z-]+)         # pre-release label
+        (?P<pre_n>0|[1-9]\\d*)        # pre-release version number
+    )?                                # pre-release section is optional
+"""
+serialize = [
+    "{major}.{minor}.{patch}-{pre_l}{pre_n}",
+    "{major}.{minor}.{patch}",
+]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+tag = true
+sign_tags = false
+tag_name = "v{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+allow_dirty = false
+commit = true
+message = "Bump version: {current_version} → {new_version}"
+commit_args = "--no-verify"
+
+[tool.bumpversion.parts.pre_l]
+values = ["dev", "a", "b", "rc", "final"]
+optional_value = "final"
+
+[[tool.bumpversion.files]]
+filename = "bsb_hdf5/__init__.py"
