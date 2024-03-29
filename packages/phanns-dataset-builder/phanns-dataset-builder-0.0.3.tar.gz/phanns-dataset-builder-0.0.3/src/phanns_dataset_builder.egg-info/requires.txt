@@ -1,0 +1,4 @@
+biopython==1.81
+keyring==24.3.0
+numpy==1.26.2
+toml==0.10.2

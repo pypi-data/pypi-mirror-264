@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+src/NCBI_fetch.py
+src/__init__.py
+src/phanns_dataset_builder.egg-info/PKG-INFO
+src/phanns_dataset_builder.egg-info/SOURCES.txt
+src/phanns_dataset_builder.egg-info/dependency_links.txt
+src/phanns_dataset_builder.egg-info/entry_points.txt
+src/phanns_dataset_builder.egg-info/requires.txt
+src/phanns_dataset_builder.egg-info/top_level.txt

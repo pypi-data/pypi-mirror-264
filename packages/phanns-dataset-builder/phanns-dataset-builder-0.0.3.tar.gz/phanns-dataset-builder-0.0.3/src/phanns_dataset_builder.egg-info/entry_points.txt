@@ -1,0 +1,2 @@
+[console_scripts]
+dataset-builder = NCBI_fetch:main
