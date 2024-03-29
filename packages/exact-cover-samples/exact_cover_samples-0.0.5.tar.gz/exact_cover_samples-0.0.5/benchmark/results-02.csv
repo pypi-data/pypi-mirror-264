@@ -1,0 +1,13 @@
+library,problem,nb_solutions,time
+exact-cover,trimino,1,2.639996819198132e-05
+exact-cover-py,trimino,1,0.0001597160007804
+exact-cover-py,trimino,2,0.000156118068844
+xcover,trimino,1,0.3495266737882048
+xcover,trimino,56,0.0003945319913327
+exact-cover,5x12,1,0.0065811129752546
+exact-cover-py,5x12,1,0.13669544900767505
+exact-cover-py,5x12,10,0.7513703110162169
+exact-cover-py,5x12,50,3.065303053939715
+exact-cover-py,5x12,100,6.046448830049485
+exact-cover-py,5x12,500,29.5870767920278
+exact-cover-py,5x12,4040,265.26494621508755
