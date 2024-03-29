@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flaskws3
+Version: 0.0.2.3
+Summary: Websocket for flask.
+Author: smallfz
+Author-email: small.fz@gmail.com
+License-File: LICENSE
