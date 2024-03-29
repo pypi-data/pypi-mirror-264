@@ -1,0 +1,11 @@
+README.rst
+pyproject.toml
+setup.py
+sphinx_docslab/__init__.py
+sphinx_docslab/_version.py
+sphinx_docslab/docslab.py
+sphinx_docslab.egg-info/PKG-INFO
+sphinx_docslab.egg-info/SOURCES.txt
+sphinx_docslab.egg-info/dependency_links.txt
+sphinx_docslab.egg-info/requires.txt
+sphinx_docslab.egg-info/top_level.txt
