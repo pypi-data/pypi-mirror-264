@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: phanns-dataset-builder
+Version: 0.0.2
+Summary: Extract datasets from NCBI. These datasets are intended to be used to train PhANNs classifier models, but may be useful for other purposes as well.
+Author-email: Sean Fahey <seanfahey21@gmail.com>
+License: MIT License
+Project-URL: Repository, https://github.com/seanfahey1/phanns_dataset_builder
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
