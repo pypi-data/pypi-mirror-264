@@ -1,0 +1,68 @@
+Metadata-Version: 2.3
+Name: query-curve
+Version: 0.1.0
+Summary: A query utility meant to query along a cubic bezier curve. Generate accompanying curve at https://querycurve.com
+Project-URL: homepage, https://github.com/ralusek/query-curve/tree/main/repositories/query/python
+Author-email: Tomas Savigliano <ralusek@gmail.com>
+License: Copyright 2024 Tomas Savigliano
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# QueryCurve
+This tool allows you to invoke queries against a curve you've laid out at [https://querycurve.com](https://querycurve.com/)
+
+Once you have a curve in the shape you'd like:
+![Example curve from QueryCurve.com](https://querycurve.com/example_d.png)
+
+You'll get a resulting encoded curve that'll look like this:
+`2BLnMW-2BLnMW--KyjA--KyjA-0-KyjA-CaR6-XZAG-KyjA-TN1E-KyjA-KyjA-KyjA-CaR6-TN1E-8OI4-fxSK-KyjA`
+
+## Time to query!
+
+### Installation from PyPi
+```bash
+$ pip install query-curve
+```
+
+### Usage
+
+```python
+from query_curve import query_encoded_curve
+```
+
+#### Querying with a dynamically loaded curve
+If you are pulling your curve from a db or otherwise need it to be dynamic:
+```python
+dynamically_loaded_curve = 'fxSK-fxSK-0-0-0-0-KyjA-0-KyjA-fxSK-fxSK-fxSK' # assume this was loaded from db
+my_x_value = 0.35
+
+# Gets the corresponding y value along the curve for a given x
+result = query_encoded_curve(dynamically_loaded_curve, my_x_value)
+```
+Note: While decoding the curve is fast, repeatedly querying against the same curve can be optimized by preloading the curve.
+If you anticipate multiple queries against the same curve, consider using:
+
+#### Querying with a preloaded or reused curve
+If the curve you're using will be used to facilitate multiple queries, this alternative for querying will
+bypass the need to decode the curve on every query.
+
+```python
+from query_curve import get_encoded_curve_query_function
+fixed_curve = 'fxSK-fxSK-0-0-0-0-KyjA-0-KyjA-fxSK-fxSK-fxSK'
+# Returns a function with a reference to the decoded curve
+query_my_curve = get_encoded_curve_query_function(fixed_curve) 
+
+query_my_curve(0)
+query_my_curve(0.5)
+query_my_curve(0.37)
+```
