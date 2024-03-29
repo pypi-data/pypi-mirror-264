@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tinytorchutil
+Version: 0.1
+Summary: A personal collection of small utility functions for PyTorch.
+Author: Chainathan
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: fastcore
+Requires-Dist: fastprogress
+Requires-Dist: torcheval
+
+# tiny-torch-util
