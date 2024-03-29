@@ -1,0 +1,37 @@
+# LastMile AI Eval
+
+An SDK to measure evaluation criteria (ex: faithfulness) of generative AI outputs.
+
+Particularly, we evaluate based on this triplet of information:
+
+1. User query
+2. Data that goes into the LLM
+3. LLM's output response
+
+The method `get_rag_eval_scores()` takes in these 3 arguments (and other ones like `api_token`) and outputs a faithfulness score between 0 to 1.
+
+## Usage
+
+To use this library, add this to your code, replacing `queries`, `data`, and `responses` with your own values.
+
+```python
+from lastmile_eval.rag import get_rag_eval_scores
+
+statement1 = "the sky is red"
+statement2 = "the sky is blue"
+
+queries = ["what color is the sky?", "is the sky blue?"]
+data = [statement1, statement1]
+responses = [statement1, statement2]
+api_token = <lastmile-api-token>
+
+result = get_rag_eval_scores(
+  queries,
+  data,
+  responses,
+  api_token,
+)
+
+# result will look something like:
+# {'p_faithful': [0.9955534338951111, 6.857347034383565e-05]}
+```
