@@ -1,0 +1,9 @@
+par_run/__init__.py,sha256=YOBtjuPJb_EnOUjBKlEggArS7oi3TdTL1aitraKntT8,68
+par_run/cli.py,sha256=czwBS-E2HTjtTIuHQlWFn5JUfHqxVhAkrHEA_CNK7Fo,6647
+par_run/executor.py,sha256=DWJxNQTBMtDJFCg21kVH5jQue3KEx_kB7zrbjioMRWQ,11294
+par_run/web.py,sha256=5vV49t1qF1XvklTWlYGLSTlI9JfMpiihKLDk44bYvQE,2076
+par_run-0.1.1.dist-info/METADATA,sha256=z45BJiuW7OCGnRLO8aHSylNk78g_WhGZu6baOF9MG1o,469
+par_run-0.1.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+par_run-0.1.1.dist-info/entry_points.txt,sha256=7wSAuKa3mQm6G6N_H9ENQ3Vf493Sy6ErtHAvzRUVmKg,48
+par_run-0.1.1.dist-info/licenses/LICENSE,sha256=T90S9vqRS6qP-voULxAcvwEs558wRRo6dHuZrjgcOUI,1085
+par_run-0.1.1.dist-info/RECORD,,
