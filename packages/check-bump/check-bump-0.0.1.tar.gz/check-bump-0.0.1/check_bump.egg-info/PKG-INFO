@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: check-bump
+Version: 0.0.1
+Summary: Do not allow prints in your code
+Author-email: Radoslaw Gryta <radek.gryta@gmail.com>
+Project-URL: Homepage, https://github.com/rgryta/Check-Bump
+Project-URL: Bug Tracker, https://github.com/rgryta/Check-Bump/issues
+Keywords: versioning,check,CI,CD,version,bump
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tomlkit
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: noprint; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: bump-my-version; extra == "dev"
+Requires-Dist: mock; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-sugar; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-timeout; extra == "dev"
+Requires-Dist: coverage[toml]; extra == "dev"
+
+<p align="center"></p>
+<h2 align="center">Check Bump</h2>
+<p align="center">
+<a href="https://github.com/rgryta/Check-Bump/actions/workflows/main.yml"><img alt="Build" src="https://github.com/rgryta/Check-Bump/actions/workflows/main.yml/badge.svg?branch=main"></a>
+<a href="https://pypi.org/project/check-bump/"><img alt="PyPI" src="https://img.shields.io/pypi/v/check-bump"></a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+<a href="https://github.com/PyCQA/pylint"><img alt="pylint" src="https://img.shields.io/badge/linting-pylint-yellowgreen"></a>
+<a href="https://github.com/rgryta/NoPrint"><img alt="NoPrint" src="https://img.shields.io/badge/NoPrint-enabled-blueviolet"></a>
+</p>
+
+## About
+
+Want to add version bump checks to your CI/CD pipeline? This packages makes it easy.
+Simply execute `check-vbump` within a directory where your `pyproject.toml` is located.
+
+If there was a version bump, process will finish with exit code 0 - read stdout for the new version.
+Otherwise, process will finish with exit code 1.
+
+## Requirements
+
+This package requires `tomlkit` package.
