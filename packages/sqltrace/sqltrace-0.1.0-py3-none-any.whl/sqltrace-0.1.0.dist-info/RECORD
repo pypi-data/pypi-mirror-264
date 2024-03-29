@@ -1,0 +1,6 @@
+sqltrace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqltrace/_propagation.py,sha256=UQ89C1eGMP5E3305XLR6zgYalB7pH-Renfr-bvzvQiM,5567
+sqltrace/psycopg.py,sha256=w3HAGw_A0mhWnaWKab1LfIprJ2dnBvhdk9vK8SQg9F0,5746
+sqltrace-0.1.0.dist-info/METADATA,sha256=uvv9lqeIa3wQpeCb6EEJY-Q_alVLStIz_TeDStsPuxY,752
+sqltrace-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sqltrace-0.1.0.dist-info/RECORD,,
