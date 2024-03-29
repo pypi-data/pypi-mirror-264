@@ -1,0 +1,10 @@
+bitwarden_import_msecure/__about__.py,sha256=uuf4VNtTNA93fMhoAur9YafzaKJFnczY-H1SSCSuRVQ,22
+bitwarden_import_msecure/__init__.py,sha256=C4yo3fBw7PQlcK6_Y-StpQF_qxa5bIShr4nl63u23lI,42
+bitwarden_import_msecure/bitwarden_csv.py,sha256=OS4NDq8194tAicR9oQBhjNzvMZjJjFmhIHVqZKlpETM,1217
+bitwarden_import_msecure/main.py,sha256=gpH9dHE2Bfxk8f08M-IEQp-TnTZ50dgkg2o7pjBbLE0,2408
+bitwarden_import_msecure/msecure.py,sha256=ExtGqlnuoTsvE2CyBxJgaW4WcmNJGY6tpMeRo8Pu8lc,2750
+bitwarden_import_msecure-1.2.2.dist-info/METADATA,sha256=ZftPpYFpyvLqW0Q-j-Lnkjr_0jrfxlQi_njhmxnkPNo,2905
+bitwarden_import_msecure-1.2.2.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+bitwarden_import_msecure-1.2.2.dist-info/entry_points.txt,sha256=pGoE_bwbJvlOyuXIFQw1Md8LwqirjrtGKZOePOAeUAE,100
+bitwarden_import_msecure-1.2.2.dist-info/licenses/LICENSE.txt,sha256=K7Qo03GxW76XAmTtadSOf9QnLDRLpDuI5SyJMoSv_DE,1084
+bitwarden_import_msecure-1.2.2.dist-info/RECORD,,
