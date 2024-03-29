@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nextcord/ext/listening/__init__.py
+nextcord/ext/listening/enums.py
+nextcord/ext/listening/gateway.py
+nextcord/ext/listening/opus.py
+nextcord/ext/listening/processing.py
+nextcord/ext/listening/sink.py
+nextcord/ext/listening/voice_client.py
+nextcord_ext_listening.egg-info/PKG-INFO
+nextcord_ext_listening.egg-info/SOURCES.txt
+nextcord_ext_listening.egg-info/dependency_links.txt
+nextcord_ext_listening.egg-info/top_level.txt
