@@ -1,0 +1,5 @@
+torch
+numpy
+os
+ultralytics
+cv2
