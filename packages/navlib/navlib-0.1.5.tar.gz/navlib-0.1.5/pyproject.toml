@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "navlib"
+version = "0.1.5"
+description = "MBARI CoMPAS Lab Utilities for Navigation Data Processing"
+authors = ["srodriguez_mbari <srodriguez@mbari.org>", "Bastián Muñoz"]
+readme = "README.md"
+packages= [{include = "navlib"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = ">=1.23"
+lcm = "^1.4.4"
+pyproj = "3.5.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "5.0.4"
+black = "^23.10.0"
+pre-commit = "3.5.0"
+commitizen = "^3.20.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+compas-lcmtypes = "0.1.0"
+freezegun = "^1.4.0"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "0.1.0"
+version_scheme = "semver"
+version_provider = "poetry"
+update_changelog_on_bump = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
