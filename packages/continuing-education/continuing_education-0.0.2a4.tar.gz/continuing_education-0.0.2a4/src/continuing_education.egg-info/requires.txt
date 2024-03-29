@@ -1,0 +1,6 @@
+s3datasets
+dataclasses
+peft
+
+[:python_version < "3.5"]
+typing
