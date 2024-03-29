@@ -1,0 +1,13 @@
+anypathlib/__init__.py,sha256=AApnJLITyhZP036gV5RVSF4lWu96xWm1alFY1j-FKao,123
+anypathlib/anypath.py,sha256=G_pN4he8TGWsgGn3aUAaLtmQ2k2Yighoqf2KV3MiIbY,7662
+anypathlib/path_handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anypathlib/path_handlers/azure_handler.py,sha256=WLv0ox1yr0_q6RnxG8zZRyzJ1Lh91Ns23uEZY9ZxTbo,18389
+anypathlib/path_handlers/base_path_handler.py,sha256=8vuRoQf6EcK21eaiJFKZeYOrKfBF9SFzaV5bJ7fHoWI,1663
+anypathlib/path_handlers/local_handler.py,sha256=MoPgoEIiB7G4Kla0s4h-qKR_mRwHSg92Ch2yg0Vb0FM,2825
+anypathlib/path_handlers/path_types.py,sha256=gv5o_e8JSZ16qOXpxZcnu5LV8tbnHS_I9hdaP82sjT8,107
+anypathlib/path_handlers/s3_handler.py,sha256=aN_KdZy_okSANdYfofAFO4MNbsiD3V_wWuzwfqcXuf0,8155
+AnyPathLib-0.0.1.dist-info/LICENSE,sha256=Ls_5-emELRHMIJYSfoJ7X-jye7mWU6Y6cjcwlaYJUOs,11561
+AnyPathLib-0.0.1.dist-info/METADATA,sha256=fO9PhQSlbRWXEcIOftN4z-yMDZObLWLqFZN7RNR6ssI,5875
+AnyPathLib-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AnyPathLib-0.0.1.dist-info/top_level.txt,sha256=aHyf6q1CvDie1Gm6yQYrS6pbFySD4ZNRI-maqhKbxJk,11
+AnyPathLib-0.0.1.dist-info/RECORD,,
