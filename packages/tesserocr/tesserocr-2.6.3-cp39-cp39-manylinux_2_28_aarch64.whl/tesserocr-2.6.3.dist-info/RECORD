@@ -1,0 +1,14 @@
+tesserocr.cpython-39-aarch64-linux-gnu.so,sha256=vKgNO9pQ_yeTc2w-PRS6606k5sFRc8NI40xohjs1leA,4074241
+tesserocr-2.6.3.dist-info/RECORD,,
+tesserocr-2.6.3.dist-info/METADATA,sha256=CdorWmZE8fHUiuipotfSeMMrgqfto6dp36Hm2-N3bIo,10611
+tesserocr-2.6.3.dist-info/WHEEL,sha256=_m-NuPZPxceDpUMjkeW9yrZxOysyfRDess5O30bXh20,113
+tesserocr-2.6.3.dist-info/top_level.txt,sha256=ds28Ua0bt1QaknjkWlH2PhbpdBkNchklhi3UP638fIQ,10
+tesserocr-2.6.3.dist-info/LICENSE,sha256=hX9yyALn4XGbvMqPL2GTSrZ456vEbjmctoUXSeKfPHM,1082
+tesserocr.libs/libwebp-2e07be21.so.7.0.2,sha256=3I3ByNCnbzINt80iOFxTKum0jy6_dwpLfZLDugNVzKk,396057
+tesserocr.libs/libtiff-d3ee7504.so.5.3.0,sha256=dCYH9TQ0VRpJTceN-meYQfo-eYxMnuhHJfoAtt7X1CY,661193
+tesserocr.libs/libleptonica-9da99db9.so.6.0.0,sha256=i-LNcCcirKaNp3P2or1AYDAt89ZAe4PI2SIEsW-YsYM,3261961
+tesserocr.libs/libjbig-fd9ff386.so.2.1,sha256=TUfygZP9D2vNOSjjW18hWFGopUMxt1QWDqLPmD9smgA,132249
+tesserocr.libs/libpng16-1d3ada90.so.16.34.0,sha256=cP8rcSTMIhKm31pF4eE4G3uPGIhipdOCedrLnUCaEjE,269729
+tesserocr.libs/libtesseract-5a16f563.so.5.3.4,sha256=eQ7l6an5CjDkQEkLf5s596HEDDDu4pW23wCWwZGniOE,4285665
+tesserocr.libs/libwebpmux-a65074ce.so.3.0.2,sha256=frjo7ie2L5t-zMkEeGXEYVNw6iljaL7xT3Cs0HG0eMw,197913
+tesserocr.libs/libjpeg-55baac1c.so.62.2.0,sha256=e3YM3rjdLLk9O007BxnMCwXxM3H0QKBN8ba9_5IEqck,331721
