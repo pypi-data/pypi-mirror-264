@@ -1,0 +1,2 @@
+[console_scripts]
+dbManager = dbManager:entry

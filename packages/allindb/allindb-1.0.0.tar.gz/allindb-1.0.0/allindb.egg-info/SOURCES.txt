@@ -1,0 +1,13 @@
+pyproject.toml
+setup.cfg
+setup.py
+allindb.egg-info/PKG-INFO
+allindb.egg-info/SOURCES.txt
+allindb.egg-info/dependency_links.txt
+allindb.egg-info/entry_points.txt
+allindb.egg-info/top_level.txt
+dbManager/__init__.py
+dbManager/main.py
+dbManager/jwlibrary/__init__.py
+dbManager/jwlibrary/main.py
+dbManager/jwlibrary/notes.py
