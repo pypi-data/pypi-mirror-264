@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "oslex2"
+version = "0.1.5"
+authors = [
+	{ name="Jessie Wilson", email="jessielw4049@gmail.com" },
+]
+description = "OS-independent wrapper for shlex and mslex, meant to be temporary until original repo updates PR"
+readme = "README.md"
+requires-python = ">=3.5"
+dependencies = [
+  "mslex",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/petamas/oslex"
+"Bug Tracker" = "https://github.com/petamas/oslex/issues"
