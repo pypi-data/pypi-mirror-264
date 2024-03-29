@@ -1,0 +1,13 @@
+drops/__init__.py,sha256=d9tyzMXOtEQLFH_7yZTAB9CtxFNLc1PbuFy50DVCZns,84
+drops/core.py,sha256=fsXApgfV00ImyUVYbCAB6SLEcVBGXdL35HwZ25AQkRk,5896
+drops/drops_old.py,sha256=MEng6-66nkDm6aA45jBs1fsUcKohNszHC5i2z9N2MA0,3946
+drops/futures.py,sha256=ROjfdyUnT6fAhlWaOHQOIukwJ1YItzXOk4RlXcs_vv8,6132
+drops/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drops/conf/project_template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drops/conf/project_template/settings.py,sha256=RhqMt8VGEG4rbptyH4fBx1TUaINrEXloatFH9kB0KP0,605
+drops/conf/project_template/sim.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drops/conf/project_template/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drops_py-0.0.1.dist-info/METADATA,sha256=KEKNDLyK0eaxnL7mB4qIb1zyjpkW4g9HlRGGXECtij8,755
+drops_py-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+drops_py-0.0.1.dist-info/top_level.txt,sha256=vIGDO3J5-v4oL-3mE88E1Qh2cQboesA_E9Riy1B7pgw,6
+drops_py-0.0.1.dist-info/RECORD,,
