@@ -1,0 +1,17 @@
+waylay/services/resources/api/__init__.py,sha256=q_e-WbBE2xhZA7dkKGZKp0FtpMkfvBWuikHvVxq0ipQ,501
+waylay/services/resources/api/batch_operations_api.py,sha256=RIpxfed6MD7aGE9ODMADXMzwS14nVEGajstD7RMvGvA,13271
+waylay/services/resources/api/metadata_events_api.py,sha256=x_kU9u9DeGjoWFg48UXEcH-CMXBt0vozT-CWgt72F40,6300
+waylay/services/resources/api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waylay/services/resources/api/resource_api.py,sha256=sbTgqdxD7OyCBrbzJELC1CXhqKWZbaAzZYWhuJp0lnY,56362
+waylay/services/resources/api/resource_constraint_api.py,sha256=k7tyM3kcfdaYJcOEQiOnbc7tpAMqHDEFg9R8KfeImLc,30375
+waylay/services/resources/api/resource_type_api.py,sha256=gQQDdHOmScB01FTNM-LOPCzI_Y-de6CNMf7MK4FVokg,55935
+waylay/services/resources/api/version_api.py,sha256=0M--kHLyw_uLRH8C9V7wX2vYI7MDm4ghRaJ6c-Ezk9w,5823
+waylay/services/resources/service/__init__.py,sha256=l4NAQxa9a3ZjPfVgaMDNKY0FOyMRG7FqDc2rUUltDa8,795
+waylay/services/resources/service/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waylay/services/resources/service/service.py,sha256=_WR5JhOXTCewwBjyzZtAoPg55fD1FC0BQV2c_KXHgvs,1208
+waylay_sdk_resources-8.1.0.20240328.dist-info/LICENSE.txt,sha256=wnPlQuOPuQefRPwt3BQfsnCuKAqS0hEzkZlPYSSPodE,745
+waylay_sdk_resources-8.1.0.20240328.dist-info/METADATA,sha256=MyUd97IYb4Xy1QkAhA4z4WAN4Dgyam4_wrR8TmcqitY,4999
+waylay_sdk_resources-8.1.0.20240328.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+waylay_sdk_resources-8.1.0.20240328.dist-info/entry_points.txt,sha256=Q0NbgZYQZGuIVfQLkbByCkbOzIJ7ATHTqHDzNmVOU9I,73
+waylay_sdk_resources-8.1.0.20240328.dist-info/top_level.txt,sha256=zSL7gTO8r9-MkvTrrFf4IW2oI6qtj-QBs5BPVqPZGHs,7
+waylay_sdk_resources-8.1.0.20240328.dist-info/RECORD,,
