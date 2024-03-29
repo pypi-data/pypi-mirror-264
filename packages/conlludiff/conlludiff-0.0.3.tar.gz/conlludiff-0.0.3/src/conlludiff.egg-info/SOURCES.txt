@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/conlludiff/__init__.py
+src/conlludiff/__main__.py
+src/conlludiff/differ.py
+src/conlludiff.egg-info/PKG-INFO
+src/conlludiff.egg-info/SOURCES.txt
+src/conlludiff.egg-info/dependency_links.txt
+src/conlludiff.egg-info/requires.txt
+src/conlludiff.egg-info/top_level.txt
+src/docs/conf.py
+tests/test_expected_behaviour.py
