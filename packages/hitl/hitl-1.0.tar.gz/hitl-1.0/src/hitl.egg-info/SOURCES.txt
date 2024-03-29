@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/hitl/Uploader.py
+src/hitl/__init__.py
+src/hitl.egg-info/PKG-INFO
+src/hitl.egg-info/SOURCES.txt
+src/hitl.egg-info/dependency_links.txt
+src/hitl.egg-info/requires.txt
+src/hitl.egg-info/top_level.txt
