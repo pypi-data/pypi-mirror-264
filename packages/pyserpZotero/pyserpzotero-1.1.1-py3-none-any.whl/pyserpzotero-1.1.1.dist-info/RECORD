@@ -1,0 +1,13 @@
+pyserpZotero/.gitignore,sha256=ab_XXMWuKnRvBnAnQ1Nz-yP40U1NbYvOmGOxRna4kzI,3279
+pyserpZotero/LICENSE,sha256=tcgf4Pv0wDpv0FBczvzQ9McKHGHpBxItEwGpVYfeQss,1183
+pyserpZotero/__init__.py,sha256=zxVmSzLIpsZ1_woTawfzFmqa_Sx921et7xYn32MA2hM,30
+pyserpZotero/auto_cite.bib,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyserpZotero/pyserpZotero.py,sha256=GNVzRfapoSL2jbPFDqlOhJ8oeb_xKEqNZUOB8MGEcQg,15277
+pyserpZotero/utils/__init__.py,sha256=SdGxQRfKY5B1HpV7ECc9QbOXoXC54qiivoli3jb5VaI,52
+pyserpZotero/utils/arxiv_helpers.py,sha256=wkf_Wjl_wJMU12TvWsUh4MkbujOPun_vewKA8SkK804,9641
+pyserpZotero/utils/helpers.py,sha256=rIOu1zHaqKyTlKKzitesENPyUt3-QV8pgCvQJaoxeKE,6581
+pyserpzotero-1.1.1.dist-info/METADATA,sha256=NQG5z7Zm1WYN-XBxQQ17ONyJGni4PfgThnz_SC3COng,4374
+pyserpzotero-1.1.1.dist-info/WHEEL,sha256=uNdcs2TADwSd5pVaP0Z_kcjcvvTUklh2S7bxZMF8Uj0,87
+pyserpzotero-1.1.1.dist-info/entry_points.txt,sha256=oHgOI-dakQj7aGlWdTqtoJ2Z1WOcHI3Xm1EbqZFuc9s,42
+pyserpzotero-1.1.1.dist-info/licenses/LICENSE,sha256=Tlf4ryNc76pg0IwrfWVN070LoOLmByMONMRELpL6J1I,1194
+pyserpzotero-1.1.1.dist-info/RECORD,,
