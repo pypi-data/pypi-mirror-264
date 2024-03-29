@@ -1,0 +1,712 @@
+library,version,problem,run,nb_solutions,finite,time
+exact-cover,1.4.0a1,trimino,0,1,True,3.955303691327572e-05
+exact-cover,1.4.0a1,trimino,0,1,True,0.0002443650737404
+exact-cover,1.4.0a1,trimino,0,1,True,0.000200047972612
+xcover,0.1.7,trimino,0,1,True,0.0004557840293273
+xcover,0.1.7,trimino,0,2,True,8.965795859694481e-05
+xcover,0.1.7,trimino,0,2,False,7.017806638032198e-05
+exact-cover-py,0.0.3,trimino,0,1,True,0.0001426970120519
+exact-cover-py,0.0.3,trimino,0,2,True,0.0001448190305382
+exact-cover-py,0.0.3,trimino,0,2,False,0.0001412180718034
+exact-cover,1.4.0a1,trimino,0,1,True,2.8465059585869312e-05
+exact-cover,1.4.0a1,trimino,0,1,True,0.0002183259930461
+xcover,0.1.7,trimino,0,1,True,0.0003863000310957
+xcover,0.1.7,trimino,0,2,True,7.730594370514154e-05
+exact-cover-py,0.0.3,trimino,0,1,True,0.0001395220169797
+exact-cover-py,0.0.3,trimino,0,2,True,0.0001343629555776
+exact-cover,1.4.0a1,trimino,0,1,True,2.6696943677961823e-05
+exact-cover,1.4.0a1,trimino,0,1,True,0.0002226830692961
+xcover,0.1.7,trimino,0,1,True,0.0003679600777104
+xcover,0.1.7,trimino,0,2,True,8.315895684063435e-05
+exact-cover-py,0.0.3,trimino,0,1,True,0.00013997789938
+exact-cover-py,0.0.3,trimino,0,2,True,0.0001359250163659
+xcover,0.1.7,5x12,0,1,True,0.006281676935032
+xcover,0.1.7,5x12,0,10,True,0.0169814650435
+xcover,0.1.7,5x12,0,50,True,0.0870299920206889
+xcover,0.1.7,5x12,0,100,True,0.1344536750111729
+xcover,0.1.7,5x12,0,500,True,0.7804501410573721
+exact-cover-py,0.0.3,5x12,0,1,True,0.1373188369907438
+exact-cover-py,0.0.3,5x12,0,10,True,0.7509931899840012
+exact-cover-py,0.0.3,5x12,0,50,True,3.0707090760115534
+exact-cover-py,0.0.3,5x12,0,100,True,6.065202879952267
+exact-cover-py,0.0.3,5x12,0,500,True,29.977732471073978
+xcover,0.1.7,chess,0,1,True,0.0036247309762984
+xcover,0.1.7,chess,0,10,True,0.0817641980247572
+xcover,0.1.7,chess,0,50,True,0.4981016060337424
+xcover,0.1.7,chess,0,100,True,0.9609889589482918
+xcover,0.1.7,chess,0,200,True,1.424407123005949
+exact-cover-py,0.0.3,chess,0,1,True,0.0819138300139457
+exact-cover-py,0.0.3,chess,0,10,True,0.7886427799239755
+exact-cover-py,0.0.3,chess,0,50,True,9.219669667072594
+exact-cover-py,0.0.3,chess,0,100,True,22.701451940112747
+exact-cover-py,0.0.3,chess,0,200,True,41.966537519940175
+exact-cover,1.4.0a1,knuth,0,1,True,4.396296571940184e-05
+exact-cover,1.4.0a1,knuth,0,1,True,9.358301758766174e-05
+xcover,0.1.7,knuth,0,1,True,0.0003704879200085
+knuth,,"{'data': array([[0, 0, 1, 0, 1, 1, 0],
+       [1, 0, 0, 1, 0, 0, 1],
+       [0, 1, 1, 0, 0, 1, 0],
+       [1, 0, 0, 1, 0, 0, 0],
+       [0, 1, 0, 0, 0, 0, 1],
+       [0, 0, 0, 1, 1, 0, 1]]), 'solutions': [(0, 3, 4)], 'name': 'knuth-original', 'shortname': 'knuth'}",0,0,True,0.0
+exact-cover-py,0.0.3,knuth,0,1,True,9.960494935512544e-05
+knuth,,"{'data': array([[0, 0, 1, 0, 1, 1, 0],
+       [1, 0, 0, 1, 0, 0, 1],
+       [0, 1, 1, 0, 0, 1, 0],
+       [1, 0, 0, 1, 0, 0, 0],
+       [0, 1, 0, 0, 0, 0, 1],
+       [0, 0, 0, 1, 1, 0, 1]]), 'solutions': [(0, 3, 4)], 'name': 'knuth-original', 'shortname': 'knuth'}",0,0,True,0.0
+exact-cover,1.4.0a1,wikip,0,1,True,2.232007682323456e-05
+exact-cover,1.4.0a1,wikip,0,1,True,6.696791388094425e-05
+xcover,0.1.7,wikip,0,1,True,0.0001981649547815
+wikip,,"{'data': array([[ True, False, False,  True, False, False,  True],
+       [ True, False, False,  True, False, False, False],
+       [False, False, False,  True,  True, False,  True],
+       [False, False,  True, False,  True,  True, False],
+       [False,  True,  True, False, False,  True,  True],
+       [False,  True, False, False, False, False,  True]]), 'solutions': [(1, 3, 5)], 'name': 'detailed-wikipedia', 'shortname': 'wikip'}",0,0,True,0.0
+exact-cover-py,0.0.3,wikip,0,1,True,6.609607953578234e-05
+wikip,,"{'data': array([[ True, False, False,  True, False, False,  True],
+       [ True, False, False,  True, False, False, False],
+       [False, False, False,  True,  True, False,  True],
+       [False, False,  True, False,  True,  True, False],
+       [False,  True,  True, False, False,  True,  True],
+       [False,  True, False, False, False, False,  True]]), 'solutions': [(1, 3, 5)], 'name': 'detailed-wikipedia', 'shortname': 'wikip'}",0,0,True,0.0
+exact-cover,1.4.0a1,brtf1,0,1,True,2.067198511213064e-05
+exact-cover,1.4.0a1,brtf1,0,1,True,0.0001005879603326
+xcover,0.1.7,brtf1,0,1,True,9.01640160009265e-05
+brtf1,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': [(0, 1, 2), (3, 4, 5)], 'name': 'bruteforce1', 'shortname': 'brtf1'}",0,0,True,0.0
+exact-cover-py,0.0.3,brtf1,0,1,True,5.830393638461828e-05
+brtf1,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': [(0, 1, 2), (3, 4, 5)], 'name': 'bruteforce1', 'shortname': 'brtf1'}",0,0,True,0.0
+exact-cover,1.4.0a1,brtf2,0,1,True,2.1696090698242188e-05
+exact-cover,1.4.0a1,brtf2,0,1,True,0.0004641619743779
+xcover,0.1.7,brtf2,0,1,True,0.0001020029885694
+brtf2,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False]]), 'solutions': {(2, 6, 7), (0, 2, 7), (1, 2, 6), (6, 7, 8), (3, 4, 5), (1, 6, 8), (0, 1, 2), (0, 1, 8), (0, 7, 8)}, 'name': 'bruteforce2', 'shortname': 'brtf2'}",0,0,True,0.0
+exact-cover-py,0.0.3,brtf2,0,1,True,6.789097096771002e-05
+brtf2,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False]]), 'solutions': {(2, 6, 7), (0, 2, 7), (1, 2, 6), (6, 7, 8), (3, 4, 5), (1, 6, 8), (0, 1, 2), (0, 1, 8), (0, 7, 8)}, 'name': 'bruteforce2', 'shortname': 'brtf2'}",0,0,True,0.0
+exact-cover,1.4.0a1,btrf3,0,1,True,8.109700866043568e-05
+exact-cover,1.4.0a1,btrf3,0,1,True,0.0010690609924495
+xcover,0.1.7,btrf3,0,1,True,9.051291272044182e-05
+btrf3,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': {(2, 6, 7), (0, 2, 7), (1, 2, 6), (5, 9, 10), (6, 7, 8), (3, 4, 5), (4, 5, 9), (3, 4, 11), (1, 6, 8), (3, 10, 11), (0, 1, 2), (0, 1, 8), (0, 7, 8), (9, 10, 11), (4, 9, 11), (3, 5, 10)}, 'name': 'bruteforce3', 'shortname': 'btrf3'}",0,0,True,0.0
+exact-cover-py,0.0.3,btrf3,0,1,True,8.23980662971735e-05
+btrf3,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': {(2, 6, 7), (0, 2, 7), (1, 2, 6), (5, 9, 10), (6, 7, 8), (3, 4, 5), (4, 5, 9), (3, 4, 11), (1, 6, 8), (3, 10, 11), (0, 1, 2), (0, 1, 8), (0, 7, 8), (9, 10, 11), (4, 9, 11), (3, 5, 10)}, 'name': 'bruteforce3', 'shortname': 'btrf3'}",0,0,True,0.0
+exact-cover,1.4.0a1,btrf30,0,1,True,2.3888074792921543e-05
+exact-cover,1.4.0a1,btrf30,0,1,True,0.0022013359703123
+xcover,0.1.7,btrf30,0,1,True,0.0001083710230886
+btrf30,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False]]), 'solutions': {(0, 4, 14), (12, 14, 16), (0, 14, 16), (0, 2, 4), (4, 12, 14), (8, 10, 18), (6, 20, 22), (6, 8, 10), (6, 8, 22), (0, 2, 16), (18, 20, 22), (6, 10, 20), (2, 12, 16), (8, 18, 22), (2, 4, 12), (10, 18, 20)}, 'name': 'bruteforce3-odd-zeros', 'shortname': 'btrf30'}",0,0,True,0.0
+exact-cover-py,0.0.3,btrf30,0,1,True,9.448092896491288e-05
+btrf30,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False]]), 'solutions': {(0, 4, 14), (12, 14, 16), (0, 14, 16), (0, 2, 4), (4, 12, 14), (8, 10, 18), (6, 20, 22), (6, 8, 10), (6, 8, 22), (0, 2, 16), (18, 20, 22), (6, 10, 20), (2, 12, 16), (8, 18, 22), (2, 4, 12), (10, 18, 20)}, 'name': 'bruteforce3-odd-zeros', 'shortname': 'btrf30'}",0,0,True,0.0
+exact-cover,1.4.0a1,btrf31,0,1,True,2.3279106244444847e-05
+exact-cover,1.4.0a1,btrf31,0,1,True,0.0020580800483003
+xcover,0.1.7,btrf31,0,1,True,0.0001047910191118
+btrf31,,"{'data': array([[False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': {(3, 5, 13), (7, 21, 23), (19, 21, 23), (1, 3, 5), (7, 9, 23), (13, 15, 17), (1, 15, 17), (11, 19, 21), (3, 13, 17), (1, 3, 17), (9, 11, 19), (5, 13, 15), (7, 11, 21), (1, 5, 15), (9, 19, 23), (7, 9, 11)}, 'name': 'bruteforce3-even-zeros', 'shortname': 'btrf31'}",0,0,True,0.0
+exact-cover-py,0.0.3,btrf31,0,1,True,9.417592082172632e-05
+btrf31,,"{'data': array([[False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': {(3, 5, 13), (7, 21, 23), (19, 21, 23), (1, 3, 5), (7, 9, 23), (13, 15, 17), (1, 15, 17), (11, 19, 21), (3, 13, 17), (1, 3, 17), (9, 11, 19), (5, 13, 15), (7, 11, 21), (1, 5, 15), (9, 19, 23), (7, 9, 11)}, 'name': 'bruteforce3-even-zeros', 'shortname': 'btrf31'}",0,0,True,0.0
+exact-cover,1.4.0a1,strim,0,1,True,2.963107544928789e-05
+exact-cover,1.4.0a1,strim,0,1,True,0.0002022380940616
+xcover,0.1.7,strim,0,1,True,0.0001004330115392
+strim,,"{'data': array([[ True, False, False,  True,  True, False,  True, False],
+       [ True, False, False, False,  True,  True, False,  True],
+       [ True, False, False, False,  True,  True,  True, False],
+       [ True, False,  True, False,  True,  True, False, False],
+       [ True, False, False, False,  True, False,  True,  True],
+       [ True, False,  True,  True,  True, False, False, False],
+       [ True, False, False, False, False,  True,  True,  True],
+       [False,  True, False,  True,  True, False,  True, False],
+       [False,  True, False, False,  True,  True, False,  True],
+       [False,  True, False, False,  True,  True,  True, False],
+       [False,  True,  True, False,  True,  True, False, False],
+       [False,  True, False, False,  True, False,  True,  True],
+       [False,  True,  True,  True,  True, False, False, False],
+       [False,  True, False, False, False,  True,  True,  True]]), 'solutions': [(5, 13), (6, 12)], 'name': 'small-trimino', 'shortname': 'strim'}",0,0,True,0.0
+exact-cover-py,0.0.3,strim,0,1,True,0.0001128739677369
+strim,,"{'data': array([[ True, False, False,  True,  True, False,  True, False],
+       [ True, False, False, False,  True,  True, False,  True],
+       [ True, False, False, False,  True,  True,  True, False],
+       [ True, False,  True, False,  True,  True, False, False],
+       [ True, False, False, False,  True, False,  True,  True],
+       [ True, False,  True,  True,  True, False, False, False],
+       [ True, False, False, False, False,  True,  True,  True],
+       [False,  True, False,  True,  True, False,  True, False],
+       [False,  True, False, False,  True,  True, False,  True],
+       [False,  True, False, False,  True,  True,  True, False],
+       [False,  True,  True, False,  True,  True, False, False],
+       [False,  True, False, False,  True, False,  True,  True],
+       [False,  True,  True,  True,  True, False, False, False],
+       [False,  True, False, False, False,  True,  True,  True]]), 'solutions': [(5, 13), (6, 12)], 'name': 'small-trimino', 'shortname': 'strim'}",0,0,True,0.0
+exact-cover,1.4.0a1,strimf,0,1,True,3.2871030271053314e-05
+exact-cover,1.4.0a1,strimf,0,1,True,0.0003575859591364
+xcover,0.1.7,strimf,0,1,True,8.856807835400105e-05
+strimf,,"{'data': array([[ True, False, False,  True,  True, False,  True, False],
+       [ True, False, False, False,  True,  True, False,  True],
+       [ True, False, False, False,  True,  True,  True, False],
+       [ True, False,  True, False,  True,  True, False, False],
+       [ True, False, False, False,  True, False,  True,  True],
+       [ True, False,  True,  True,  True, False, False, False],
+       [ True, False, False, False, False,  True,  True,  True],
+       [False,  True, False,  True,  True, False,  True, False],
+       [False,  True, False, False,  True,  True, False,  True],
+       [False,  True, False, False,  True,  True,  True, False],
+       [False,  True,  True, False,  True,  True, False, False],
+       [False,  True, False, False,  True, False,  True,  True],
+       [False,  True,  True,  True,  True, False, False, False],
+       [False,  True, False, False, False,  True,  True,  True]]), 'solutions': [(5, 13), (6, 12)], 'name': 'small-trimino-from-file', 'shortname': 'strimf'}",0,0,True,0.0
+exact-cover-py,0.0.3,strimf,0,1,True,0.0001155990175902
+strimf,,"{'data': array([[ True, False, False,  True,  True, False,  True, False],
+       [ True, False, False, False,  True,  True, False,  True],
+       [ True, False, False, False,  True,  True,  True, False],
+       [ True, False,  True, False,  True,  True, False, False],
+       [ True, False, False, False,  True, False,  True,  True],
+       [ True, False,  True,  True,  True, False, False, False],
+       [ True, False, False, False, False,  True,  True,  True],
+       [False,  True, False,  True,  True, False,  True, False],
+       [False,  True, False, False,  True,  True, False,  True],
+       [False,  True, False, False,  True,  True,  True, False],
+       [False,  True,  True, False,  True,  True, False, False],
+       [False,  True, False, False,  True, False,  True,  True],
+       [False,  True,  True,  True,  True, False, False, False],
+       [False,  True, False, False, False,  True,  True,  True]]), 'solutions': [(5, 13), (6, 12)], 'name': 'small-trimino-from-file', 'shortname': 'strimf'}",0,0,True,0.0
+exact-cover,1.4.0a1,pchess,0,1,True,0.004277721978724
+pchess,maximum recursion depth exceeded,"{'data': array([[1, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 1, 0, 0],
+       [0, 0, 0, ..., 1, 1, 0],
+       [0, 0, 0, ..., 0, 1, 1]]), 'solutions': array([[   0,    1,    2, ...,   10,   11,   12],
+       [  27,  173,  214, ...,  497, 1483, 1102],
+       [  27,  173,  351, ..., 1279,  857,  312],
+       ...,
+       [1504, 1443,  213, ...,  470, 1284,  623],
+       [1504, 1443,  213, ...,  623,  125,  198],
+       [1504, 1443, 1308, ..., 1064, 1269,  832]]), 'name': 'pentomino-chessboard', 'shortname': 'pchess'}",0,0,True,0.0
+xcover,0.1.7,pchess,0,1,True,0.0033833220368251
+xcover,0.1.7,pchess,0,50,True,0.4612793469568714
+exact-cover-py,0.0.3,pchess,0,1,True,0.0804991599870845
+exact-cover-py,0.0.3,pchess,0,50,True,9.147069073980674
+exact-cover,1.4.0a1,p5x12,0,1,True,0.0065592699684202
+p5x12,maximum recursion depth exceeded,"{'data': array([[1, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 1, 0, 0],
+       [0, 0, 0, ..., 0, 1, 0],
+       [0, 0, 0, ..., 0, 0, 1]]), 'solutions': array([[1555,  350,  140, ..., 1541, 1804,  870],
+       [1555,  350,  140, ..., 1935, 1511, 1698],
+       [1555,  350,  140, ..., 1875, 1511,  826],
+       ...,
+       [1582, 1273,  984, ..., 1160, 1856, 1334],
+       [1582, 1273,  984, ..., 1160, 1856, 1334],
+       [1582, 1273,  984, ..., 1315, 1908, 1457]]), 'name': 'pentomino-5x12', 'shortname': 'p5x12'}",0,0,True,0.0
+xcover,0.1.7,p5x12,0,1,True,0.0065813359105959
+xcover,0.1.7,p5x12,0,50,True,0.0898664399283006
+exact-cover-py,0.0.3,p5x12,0,1,True,0.1412821609992534
+exact-cover-py,0.0.3,p5x12,0,50,True,3.129661790910177
+exact-cover,1.4.0a1,knuth,0,1,True,3.70340421795845e-05
+exact-cover,1.4.0a1,knuth,0,1,True,9.023398160934448e-05
+xcover,0.1.7,knuth,0,1,True,0.0003532570553943
+knuth,,"{'data': array([[0, 0, 1, 0, 1, 1, 0],
+       [1, 0, 0, 1, 0, 0, 1],
+       [0, 1, 1, 0, 0, 1, 0],
+       [1, 0, 0, 1, 0, 0, 0],
+       [0, 1, 0, 0, 0, 0, 1],
+       [0, 0, 0, 1, 1, 0, 1]]), 'solutions': [(0, 3, 4)], 'name': 'knuth-original', 'shortname': 'knuth'}",0,0,True,0.0
+exact-cover-py,0.0.3,knuth,0,1,True,0.0001666890457272
+knuth,,"{'data': array([[0, 0, 1, 0, 1, 1, 0],
+       [1, 0, 0, 1, 0, 0, 1],
+       [0, 1, 1, 0, 0, 1, 0],
+       [1, 0, 0, 1, 0, 0, 0],
+       [0, 1, 0, 0, 0, 0, 1],
+       [0, 0, 0, 1, 1, 0, 1]]), 'solutions': [(0, 3, 4)], 'name': 'knuth-original', 'shortname': 'knuth'}",0,0,True,0.0
+exact-cover,1.4.0a1,wikip,0,1,True,1.9331113435328007e-05
+exact-cover,1.4.0a1,wikip,0,1,True,6.540701724588871e-05
+xcover,0.1.7,wikip,0,1,True,0.0001026620157063
+wikip,,"{'data': array([[ True, False, False,  True, False, False,  True],
+       [ True, False, False,  True, False, False, False],
+       [False, False, False,  True,  True, False,  True],
+       [False, False,  True, False,  True,  True, False],
+       [False,  True,  True, False, False,  True,  True],
+       [False,  True, False, False, False, False,  True]]), 'solutions': [(1, 3, 5)], 'name': 'detailed-wikipedia', 'shortname': 'wikip'}",0,0,True,0.0
+exact-cover-py,0.0.3,wikip,0,1,True,6.38709170743823e-05
+wikip,,"{'data': array([[ True, False, False,  True, False, False,  True],
+       [ True, False, False,  True, False, False, False],
+       [False, False, False,  True,  True, False,  True],
+       [False, False,  True, False,  True,  True, False],
+       [False,  True,  True, False, False,  True,  True],
+       [False,  True, False, False, False, False,  True]]), 'solutions': [(1, 3, 5)], 'name': 'detailed-wikipedia', 'shortname': 'wikip'}",0,0,True,0.0
+exact-cover,1.4.0a1,brtf1,0,1,True,1.870701089501381e-05
+exact-cover,1.4.0a1,brtf1,0,1,True,0.0001009861007332
+xcover,0.1.7,brtf1,0,1,True,9.490293450653552e-05
+brtf1,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': [(0, 1, 2), (3, 4, 5)], 'name': 'bruteforce1', 'shortname': 'brtf1'}",0,0,True,0.0
+exact-cover-py,0.0.3,brtf1,0,1,True,5.670404061675072e-05
+brtf1,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': [(0, 1, 2), (3, 4, 5)], 'name': 'bruteforce1', 'shortname': 'brtf1'}",0,0,True,0.0
+exact-cover,1.4.0a1,brtf2,0,1,True,2.5513931177556515e-05
+exact-cover,1.4.0a1,brtf2,0,1,True,0.0006948789814487
+xcover,0.1.7,brtf2,0,1,True,8.862698450684547e-05
+brtf2,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False]]), 'solutions': {(2, 6, 7), (0, 2, 7), (1, 2, 6), (6, 7, 8), (3, 4, 5), (1, 6, 8), (0, 1, 2), (0, 1, 8), (0, 7, 8)}, 'name': 'bruteforce2', 'shortname': 'brtf2'}",0,0,True,0.0
+exact-cover-py,0.0.3,brtf2,0,1,True,6.7845918238163e-05
+brtf2,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False]]), 'solutions': {(2, 6, 7), (0, 2, 7), (1, 2, 6), (6, 7, 8), (3, 4, 5), (1, 6, 8), (0, 1, 2), (0, 1, 8), (0, 7, 8)}, 'name': 'bruteforce2', 'shortname': 'brtf2'}",0,0,True,0.0
+exact-cover,1.4.0a1,btrf3,0,1,True,2.9278919100761414e-05
+exact-cover,1.4.0a1,btrf3,0,1,True,0.0011771909194067
+xcover,0.1.7,btrf3,0,1,True,9.630306158214808e-05
+btrf3,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': {(2, 6, 7), (0, 2, 7), (1, 2, 6), (5, 9, 10), (6, 7, 8), (3, 4, 5), (4, 5, 9), (3, 4, 11), (1, 6, 8), (3, 10, 11), (0, 1, 2), (0, 1, 8), (0, 7, 8), (9, 10, 11), (4, 9, 11), (3, 5, 10)}, 'name': 'bruteforce3', 'shortname': 'btrf3'}",0,0,True,0.0
+exact-cover-py,0.0.3,btrf3,0,1,True,7.863505743443966e-05
+btrf3,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': {(2, 6, 7), (0, 2, 7), (1, 2, 6), (5, 9, 10), (6, 7, 8), (3, 4, 5), (4, 5, 9), (3, 4, 11), (1, 6, 8), (3, 10, 11), (0, 1, 2), (0, 1, 8), (0, 7, 8), (9, 10, 11), (4, 9, 11), (3, 5, 10)}, 'name': 'bruteforce3', 'shortname': 'btrf3'}",0,0,True,0.0
+exact-cover,1.4.0a1,btrf30,0,1,True,2.172600943595171e-05
+exact-cover,1.4.0a1,btrf30,0,1,True,0.0024292320013046
+xcover,0.1.7,btrf30,0,1,True,8.913804776966572e-05
+btrf30,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False]]), 'solutions': {(0, 4, 14), (12, 14, 16), (0, 14, 16), (0, 2, 4), (4, 12, 14), (8, 10, 18), (6, 20, 22), (6, 8, 10), (6, 8, 22), (0, 2, 16), (18, 20, 22), (6, 10, 20), (2, 12, 16), (8, 18, 22), (2, 4, 12), (10, 18, 20)}, 'name': 'bruteforce3-odd-zeros', 'shortname': 'btrf30'}",0,0,True,0.0
+exact-cover-py,0.0.3,btrf30,0,1,True,9.362096898257732e-05
+btrf30,,"{'data': array([[ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False]]), 'solutions': {(0, 4, 14), (12, 14, 16), (0, 14, 16), (0, 2, 4), (4, 12, 14), (8, 10, 18), (6, 20, 22), (6, 8, 10), (6, 8, 22), (0, 2, 16), (18, 20, 22), (6, 10, 20), (2, 12, 16), (8, 18, 22), (2, 4, 12), (10, 18, 20)}, 'name': 'bruteforce3-odd-zeros', 'shortname': 'btrf30'}",0,0,True,0.0
+exact-cover,1.4.0a1,btrf31,0,1,True,2.5283079594373703e-05
+exact-cover,1.4.0a1,btrf31,0,1,True,0.0021826830925419
+xcover,0.1.7,btrf31,0,1,True,0.0001010689884424
+btrf31,,"{'data': array([[False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': {(3, 5, 13), (7, 21, 23), (19, 21, 23), (1, 3, 5), (7, 9, 23), (13, 15, 17), (1, 15, 17), (11, 19, 21), (3, 13, 17), (1, 3, 17), (9, 11, 19), (5, 13, 15), (7, 11, 21), (1, 5, 15), (9, 19, 23), (7, 9, 11)}, 'name': 'bruteforce3-even-zeros', 'shortname': 'btrf31'}",0,0,True,0.0
+exact-cover-py,0.0.3,btrf31,0,1,True,9.981601033359766e-05
+btrf31,,"{'data': array([[False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False, False,  True, False, False,  True, False],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False, False,  True, False, False,  True, False, False],
+       [False, False, False, False, False, False, False, False],
+       [False, False, False,  True, False, False, False, False],
+       [False, False, False, False, False, False, False, False],
+       [ True, False,  True, False,  True, False, False,  True],
+       [False, False, False, False, False, False, False, False],
+       [False,  True, False, False, False,  True,  True, False]]), 'solutions': {(3, 5, 13), (7, 21, 23), (19, 21, 23), (1, 3, 5), (7, 9, 23), (13, 15, 17), (1, 15, 17), (11, 19, 21), (3, 13, 17), (1, 3, 17), (9, 11, 19), (5, 13, 15), (7, 11, 21), (1, 5, 15), (9, 19, 23), (7, 9, 11)}, 'name': 'bruteforce3-even-zeros', 'shortname': 'btrf31'}",0,0,True,0.0
+exact-cover,1.4.0a1,strim,0,1,True,3.730901516973972e-05
+exact-cover,1.4.0a1,strim,0,1,True,0.0002092539798468
+xcover,0.1.7,strim,0,1,True,9.417405817657708e-05
+strim,,"{'data': array([[ True, False, False,  True,  True, False,  True, False],
+       [ True, False, False, False,  True,  True, False,  True],
+       [ True, False, False, False,  True,  True,  True, False],
+       [ True, False,  True, False,  True,  True, False, False],
+       [ True, False, False, False,  True, False,  True,  True],
+       [ True, False,  True,  True,  True, False, False, False],
+       [ True, False, False, False, False,  True,  True,  True],
+       [False,  True, False,  True,  True, False,  True, False],
+       [False,  True, False, False,  True,  True, False,  True],
+       [False,  True, False, False,  True,  True,  True, False],
+       [False,  True,  True, False,  True,  True, False, False],
+       [False,  True, False, False,  True, False,  True,  True],
+       [False,  True,  True,  True,  True, False, False, False],
+       [False,  True, False, False, False,  True,  True,  True]]), 'solutions': [(5, 13), (6, 12)], 'name': 'small-trimino', 'shortname': 'strim'}",0,0,True,0.0
+exact-cover-py,0.0.3,strim,0,1,True,0.0001154929632321
+strim,,"{'data': array([[ True, False, False,  True,  True, False,  True, False],
+       [ True, False, False, False,  True,  True, False,  True],
+       [ True, False, False, False,  True,  True,  True, False],
+       [ True, False,  True, False,  True,  True, False, False],
+       [ True, False, False, False,  True, False,  True,  True],
+       [ True, False,  True,  True,  True, False, False, False],
+       [ True, False, False, False, False,  True,  True,  True],
+       [False,  True, False,  True,  True, False,  True, False],
+       [False,  True, False, False,  True,  True, False,  True],
+       [False,  True, False, False,  True,  True,  True, False],
+       [False,  True,  True, False,  True,  True, False, False],
+       [False,  True, False, False,  True, False,  True,  True],
+       [False,  True,  True,  True,  True, False, False, False],
+       [False,  True, False, False, False,  True,  True,  True]]), 'solutions': [(5, 13), (6, 12)], 'name': 'small-trimino', 'shortname': 'strim'}",0,0,True,0.0
+exact-cover,1.4.0a1,strimf,0,1,True,3.1131086871027946e-05
+exact-cover,1.4.0a1,strimf,0,1,True,0.0002038759412243
+xcover,0.1.7,strimf,0,1,True,9.22780018299818e-05
+strimf,,"{'data': array([[ True, False, False,  True,  True, False,  True, False],
+       [ True, False, False, False,  True,  True, False,  True],
+       [ True, False, False, False,  True,  True,  True, False],
+       [ True, False,  True, False,  True,  True, False, False],
+       [ True, False, False, False,  True, False,  True,  True],
+       [ True, False,  True,  True,  True, False, False, False],
+       [ True, False, False, False, False,  True,  True,  True],
+       [False,  True, False,  True,  True, False,  True, False],
+       [False,  True, False, False,  True,  True, False,  True],
+       [False,  True, False, False,  True,  True,  True, False],
+       [False,  True,  True, False,  True,  True, False, False],
+       [False,  True, False, False,  True, False,  True,  True],
+       [False,  True,  True,  True,  True, False, False, False],
+       [False,  True, False, False, False,  True,  True,  True]]), 'solutions': [(5, 13), (6, 12)], 'name': 'small-trimino-from-file', 'shortname': 'strimf'}",0,0,True,0.0
+exact-cover-py,0.0.3,strimf,0,1,True,0.0001215990632772
+strimf,,"{'data': array([[ True, False, False,  True,  True, False,  True, False],
+       [ True, False, False, False,  True,  True, False,  True],
+       [ True, False, False, False,  True,  True,  True, False],
+       [ True, False,  True, False,  True,  True, False, False],
+       [ True, False, False, False,  True, False,  True,  True],
+       [ True, False,  True,  True,  True, False, False, False],
+       [ True, False, False, False, False,  True,  True,  True],
+       [False,  True, False,  True,  True, False,  True, False],
+       [False,  True, False, False,  True,  True, False,  True],
+       [False,  True, False, False,  True,  True,  True, False],
+       [False,  True,  True, False,  True,  True, False, False],
+       [False,  True, False, False,  True, False,  True,  True],
+       [False,  True,  True,  True,  True, False, False, False],
+       [False,  True, False, False, False,  True,  True,  True]]), 'solutions': [(5, 13), (6, 12)], 'name': 'small-trimino-from-file', 'shortname': 'strimf'}",0,0,True,0.0
+exact-cover,1.4.0a1,pchess,0,1,True,0.0044095868943259
+pchess,maximum recursion depth exceeded,"{'data': array([[1, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 1, 0, 0],
+       [0, 0, 0, ..., 1, 1, 0],
+       [0, 0, 0, ..., 0, 1, 1]]), 'solutions': array([[   0,    1,    2, ...,   10,   11,   12],
+       [  27,  173,  214, ...,  497, 1483, 1102],
+       [  27,  173,  351, ..., 1279,  857,  312],
+       ...,
+       [1504, 1443,  213, ...,  470, 1284,  623],
+       [1504, 1443,  213, ...,  623,  125,  198],
+       [1504, 1443, 1308, ..., 1064, 1269,  832]]), 'name': 'pentomino-chessboard', 'shortname': 'pchess'}",0,0,True,0.0
+xcover,0.1.7,pchess,0,1,True,0.0035427008988335
+xcover,0.1.7,pchess,0,50,True,0.4721732250181958
+exact-cover-py,0.0.3,pchess,0,1,True,0.0825422250200063
+exact-cover-py,0.0.3,pchess,0,50,True,9.417197154951282
+exact-cover,1.4.0a1,p5x12,0,1,True,0.0068290519993752
+p5x12,maximum recursion depth exceeded,"{'data': array([[1, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       [1, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 1, 0, 0],
+       [0, 0, 0, ..., 0, 1, 0],
+       [0, 0, 0, ..., 0, 0, 1]]), 'solutions': array([[1555,  350,  140, ..., 1541, 1804,  870],
+       [1555,  350,  140, ..., 1935, 1511, 1698],
+       [1555,  350,  140, ..., 1875, 1511,  826],
+       ...,
+       [1582, 1273,  984, ..., 1160, 1856, 1334],
+       [1582, 1273,  984, ..., 1160, 1856, 1334],
+       [1582, 1273,  984, ..., 1315, 1908, 1457]]), 'name': 'pentomino-5x12', 'shortname': 'p5x12'}",0,0,True,0.0
+xcover,0.1.7,p5x12,0,1,True,0.0067956830607727
+xcover,0.1.7,p5x12,0,50,True,0.0913286430295556
+exact-cover-py,0.0.3,p5x12,0,1,True,0.1402702550403773
+exact-cover-py,0.0.3,p5x12,0,50,True,3.142972383997403
+exact-cover,1.4.0a1,knuth,0,1,True,3.619806375354528e-05
+exact-cover,1.4.0a1,knuth,0,1,True,9.000708814710379e-05
+xcover,0.1.7,knuth,0,1,True,0.0003743829438462
+xcover,,knuth,0,0,True,0.0
+exact-cover-py,0.0.3,knuth,0,1,True,0.0001006030943244
+exact-cover-py,,knuth,0,0,True,0.0
+exact-cover,1.4.0a1,wikip,0,1,True,1.9690021872520447e-05
+exact-cover,1.4.0a1,wikip,0,1,True,6.530806422233582e-05
+xcover,0.1.7,wikip,0,1,True,0.0001110850134864
+xcover,,wikip,0,0,True,0.0
+exact-cover-py,0.0.3,wikip,0,1,True,6.808293983340263e-05
+exact-cover-py,,wikip,0,0,True,0.0
+exact-cover,1.4.0a1,brtf1,0,1,True,5.840091034770012e-05
+exact-cover,1.4.0a1,brtf1,0,1,True,0.0001150029711425
+xcover,0.1.7,brtf1,0,1,True,0.0001004440709948
+xcover,,brtf1,0,0,True,0.0
+exact-cover-py,0.0.3,brtf1,0,1,True,5.823804531246424e-05
+exact-cover-py,,brtf1,0,0,True,0.0
+exact-cover,1.4.0a1,brtf2,0,1,True,2.856203354895115e-05
+exact-cover,1.4.0a1,brtf2,0,1,True,0.0004706910112872
+xcover,0.1.7,brtf2,0,1,True,9.152095299214123e-05
+xcover,,brtf2,0,0,True,0.0
+exact-cover-py,0.0.3,brtf2,0,1,True,6.668793503195047e-05
+exact-cover-py,,brtf2,0,0,True,0.0
+exact-cover,1.4.0a1,btrf3,0,1,True,2.221693284809589e-05
+exact-cover,1.4.0a1,btrf3,0,1,True,0.0010559390066191
+xcover,0.1.7,btrf3,0,1,True,8.373393211513758e-05
+xcover,,btrf3,0,0,True,0.0
+exact-cover-py,0.0.3,btrf3,0,1,True,7.88629986345768e-05
+exact-cover-py,,btrf3,0,0,True,0.0
+exact-cover,1.4.0a1,btrf30,0,1,True,2.1417043171823025e-05
+exact-cover,1.4.0a1,btrf30,0,1,True,0.002275374950841
+xcover,0.1.7,btrf30,0,1,True,0.0001201089471578
+xcover,,btrf30,0,0,True,0.0
+exact-cover-py,0.0.3,btrf30,0,1,True,9.489792864769696e-05
+exact-cover-py,,btrf30,0,0,True,0.0
+exact-cover,1.4.0a1,btrf31,0,1,True,2.5488901883363724e-05
+exact-cover,1.4.0a1,btrf31,0,1,True,0.0021498469868674
+xcover,0.1.7,btrf31,0,1,True,0.0001075000036507
+xcover,,btrf31,0,0,True,0.0
+exact-cover-py,0.0.3,btrf31,0,1,True,0.0001112350728362
+exact-cover-py,,btrf31,0,0,True,0.0
+exact-cover,1.4.0a1,strim,0,1,True,2.910895273089409e-05
+exact-cover,1.4.0a1,strim,0,1,True,0.0002022369299083
+xcover,0.1.7,strim,0,1,True,9.825499728322028e-05
+xcover,,strim,0,0,True,0.0
+exact-cover-py,0.0.3,strim,0,1,True,0.0001167439622804
+exact-cover-py,,strim,0,0,True,0.0
+exact-cover,1.4.0a1,strimf,0,1,True,3.635708708316088e-05
+exact-cover,1.4.0a1,strimf,0,1,True,0.0001980860251933
+xcover,0.1.7,strimf,0,1,True,0.00015771004837
+xcover,,strimf,0,0,True,0.0
+exact-cover-py,0.0.3,strimf,0,1,True,0.0001152399927377
+exact-cover-py,,strimf,0,0,True,0.0
+exact-cover,1.4.0a1,pchess,0,1,True,0.0042726120445877
+exact-cover,maximum recursion depth exceeded,pchess,0,0,True,0.0
+xcover,0.1.7,pchess,0,1,True,0.0037111099809408
+xcover,0.1.7,pchess,0,50,True,0.5288030090741813
+exact-cover-py,0.0.3,pchess,0,1,True,0.0820613029645755
+exact-cover-py,0.0.3,pchess,0,50,True,9.242770164972171
+exact-cover,1.4.0a1,p5x12,0,1,True,0.0061275280313566
+exact-cover,maximum recursion depth exceeded,p5x12,0,0,True,0.0
+xcover,0.1.7,p5x12,0,1,True,0.0066499339882284
+xcover,0.1.7,p5x12,0,50,True,0.087080753990449
+exact-cover-py,0.0.3,p5x12,0,1,True,0.14135726494714618
+exact-cover-py,0.0.3,p5x12,0,50,True,3.1010817229980603
